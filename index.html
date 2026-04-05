@@ -183,7 +183,7 @@
             <div id="simple-instruction" class="simple-instruction"></div>
 
             <div>
-                <button onclick="toggleDetails()">詳細を表示 / More Details</button>
+                <button onclick="toggleDetails()">詳細を表示</button>
             </div>
 
             <div id="details-section" class="details-section hidden">
@@ -5164,7 +5164,7 @@ const guideData = {
             const totalSteps = route.steps.length;
             const percent = Math.round(((stepIndex + 1) / totalSteps) * 100);
 
-            const progressTxt = hasStarted ? `<div style="color:var(--accent); font-size:14px; margin-top:5px; font-weight:normal;">Step ${stepIndex + 1} / ${totalSteps} (${percent}%)</div>` : '';
+            const progressTxt = hasStarted ? `<div style="color:var(--accent); font-size:14px; margin-top:5px; font-weight:normal;"> ${stepIndex + 1} / ${totalSteps} (${percent}%)</div>` : '';
 
             container.innerHTML += `
                 <div class="route-card">
@@ -5206,7 +5206,7 @@ const guideData = {
         const percent = Math.round(((stepIndex + 1) / totalSteps) * 100);
 
         document.getElementById('slide-route-title').innerText = route.title;
-        document.getElementById('step-counter').innerText = `Step ${stepIndex + 1} / ${totalSteps} (${percent}%)`;
+        document.getElementById('step-counter').innerText = ` ${stepIndex + 1} / ${totalSteps} (${percent}%)`;
         document.getElementById('simple-instruction').innerText = step.simpleJp;
 
         // Details

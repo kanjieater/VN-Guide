@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iOS support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Android / Chrome support -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#121212">
+
+    <!-- Embedded Manifest for Single File SPA -->
+    <link rel="manifest" href='data:application/manifest+json,{"name":"YU-NO Guide","short_name":"YU-NO Guide","display":"standalone","background_color":"#121212","theme_color":"#121212"}'>
     <title>YU-NO Guide</title>
 <style>:root {
             --bg: #121212;
@@ -5276,6 +5286,30 @@ const guideData = {
 
     // Bootstrap
     init();
+    // --- WAKE LOCK (Keep Screen Awake) ---
+    let wakeLock = null;
+
+    async function requestWakeLock() {
+        try {
+            wakeLock = await navigator.wakeLock.request('screen');
+        } catch (err) {
+            // Wake Lock failed (e.g., low battery)
+        }
+    }
+
+    // Request wake lock on the first user interaction
+    document.addEventListener('click', () => {
+        if (!wakeLock) {
+            requestWakeLock();
+        }
+    }, { once: true });
+
+    // Re-request wake lock if the app is minimized and restored
+    document.addEventListener('visibilitychange', async () => {
+        if (wakeLock !== null && document.visibilityState === 'visible') {
+            requestWakeLock();
+        }
+    });
 </script>
 </body>
 </html>

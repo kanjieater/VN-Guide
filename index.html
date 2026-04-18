@@ -4388,22 +4388,10 @@ const guideData = {
                 "enGuide": "--- 2nd floor corridor ---\nTalk to Yuuki"
             },
             {
-                "simpleJp": "【会社前】学校前・海岸を経て、会社前へ移動",
-                "jpGuide1": "〔会社前〕へ移動\n↓\n〔ジオ・テクニス社～三角山・社～海岸〕：",
-                "jpGuide2": "会社：",
-                "enGuide": "Move/Main hall ... Move/School gate ... Move/Coast ... Move/Company"
-            },
-            {
-                "simpleJp": "【会社前】守衛所を調べ、守衛と会話",
-                "jpGuide1": "【守衛所】を調べて守衛と会話後",
-                "jpGuide2": "守衛と話す",
-                "enGuide": "--- Company ---\nLook/Investigate (Security office)"
-            },
-            {
-                "simpleJp": "【社】海岸を経て、社へ移動",
+                "simpleJp": "【社】学校前・海岸を経て、社へ移動",
                 "jpGuide1": "〔社〕へ向かうと",
                 "jpGuide2": "社：",
-                "enGuide": "Move/Coast ... Move/Shrine"
+                "enGuide": "Move/Main hall ... Move/School gate ... Move/Coast ... Move/Shrine"
             },
             {
                 "simpleJp": "【社】澪・神奈のイベントを見る",
@@ -4634,10 +4622,10 @@ const guideData = {
                 "enGuide": "--- Sakaimachi Academy / School Gate ---"
             },
             {
-                "simpleJp": "【学校前】澪と遭遇し、会話（5回）",
+                "simpleJp": "【学校前】澪の自動イベントを見る（澪が怒って去る）",
                 "jpGuide1": "校門前で澪と遭遇、会話後",
                 "jpGuide2": "澪に約束を破られたと言われる",
-                "enGuide": "Talk (5x) (Mio)"
+                "enGuide": "(Automatic Event: Mio gets angry and leaves)"
             },
             {
                 "simpleJp": "【ホール】ホールへ移動",
@@ -4886,16 +4874,10 @@ const guideData = {
                 "enGuide": "*Leave [Jewel Save #Character]"
             },
             {
-                "simpleJp": "【土蔵前】土蔵前へ移動",
-                "jpGuide1": "〔土蔵前〕へ行き",
+                "simpleJp": "【土蔵前】土蔵前へ移動し、土蔵の扉（あたりの様子）を調べる",
+                "jpGuide1": "〔土蔵前〕へ行き【あたりの様子】を2回調べて",
                 "jpGuide2": "中庭：土蔵を見る",
-                "enGuide": "Move/Storehouse entrance"
-            },
-            {
-                "simpleJp": "【土蔵前】土蔵の扉（あたりの様子）を調べる",
-                "jpGuide1": "【あたりの様子】を2回調べて",
-                "jpGuide2": "",
-                "enGuide": "Look/Investigate (Storehouse door)"
+                "enGuide": "Move/Storehouse entrance ... Look/Investigate (Storehouse door)"
             },
             {
                 "simpleJp": "【土蔵前】林を調べ、井戸前へ移動",
@@ -4904,40 +4886,22 @@ const guideData = {
                 "enGuide": "Look/Investigate (Woods)\nMove/Well"
             },
             {
-                "simpleJp": "【井戸前】井戸の中を調べる（イベント許可が出るまで）",
-                "jpGuide1": "周辺を一通り調べてから【積石】を再度調べて井戸の前に来たら周辺を探索し、",
-                "jpGuide2": "井戸の上を見た後 井戸を見れば 井戸前まで進める\n井戸の中を見て",
-                "enGuide": "Look/Investigate (Until paper check allowed)"
+                "simpleJp": "【井戸前】※分岐：『銀のメダル』の所持状況で行動が変わる",
+                "jpGuide1": "メダルを既に持っている状態か否かで分岐",
+                "jpGuide2": "",
+                "enGuide": "*BRANCH: Action depends on if you already hold the Silver Medal."
             },
             {
-                "simpleJp": "【土蔵前】土蔵前へ戻る",
-                "jpGuide1": "ある程度調べると美月が捜しに来るので",
-                "jpGuide2": "その後ロープが必要と分かる 土蔵まで戻り",
-                "enGuide": "Move/Storehouse entrance"
+                "simpleJp": "【井戸前】持っている場合：足跡を調べて美月に見つかり、母屋へ移動",
+                "jpGuide1": "足跡を調べて美月に見つかる（自動的に母屋へ移動）",
+                "jpGuide2": "",
+                "enGuide": "IF YOU HAVE IT: Look/Investigate (Footprints). Mitsuki catches you. (Proceed to Inside the mansion)."
             },
             {
-                "simpleJp": "【土蔵前】金の鍵を使用し、土蔵の中へ入る",
-                "jpGuide1": "〔母屋〕へ向かう ※『銀のメダル』を持っていない場合はここで入手可能",
-                "jpGuide2": "金のカギを使い土蔵の中へ入り",
-                "enGuide": "Use/Golden key ... Move/Inside"
-            },
-            {
-                "simpleJp": "【土蔵内】左側の『ロープ』を入手",
-                "jpGuide1": "",
-                "jpGuide2": "左側にかかってる「ロープ」を取る",
-                "enGuide": "Take (Rope)"
-            },
-            {
-                "simpleJp": "【土蔵前】土蔵を出て、井戸前へ移動",
-                "jpGuide1": "",
-                "jpGuide2": "井戸まで戻り",
-                "enGuide": "Move/Well"
-            },
-            {
-                "simpleJp": "【井戸前】井戸の中心に『ロープ』を使い、『銀のメダル』を入手",
-                "jpGuide1": "本記事に沿って進めている場合はメダルを既に持っている状態なので何も起きません",
+                "simpleJp": "【井戸前】持っていない場合：井戸を調べる→土蔵へ戻りロープ入手→井戸で使う",
+                "jpGuide1": "美月が来る前に土蔵へ戻り、金の鍵で入りロープを入手。井戸で使う",
                 "jpGuide2": "井戸の穴にロープを使い「銀のメダル」を入手",
-                "enGuide": "Use/Rope (Well center) ---> [Silver Medal]"
+                "enGuide": "IF YOU DON'T: Look (Well) ... Move (Storehouse) ... Use (Golden key) ... Take (Rope) ... Move (Well) ... Use/Rope (Well center) ---> [Silver Medal]"
             },
             {
                 "simpleJp": "【母屋】母屋の中（居間）へ移動",
@@ -4952,28 +4916,22 @@ const guideData = {
                 "enGuide": "Look/Investigate (4x) (Tapestry)\nLook/Investigate (20+x)"
             },
             {
-                "simpleJp": "【学校前】学校前へ移動",
-                "jpGuide1": "〔学校前〕へ移動すると",
-                "jpGuide2": "→学校前",
-                "enGuide": "Move/School gate"
+                "simpleJp": "【学校前】学校前へ移動し、結城と遭遇し会話",
+                "jpGuide1": "〔学校前〕へ移動すると結城と遭遇、会話後に",
+                "jpGuide2": "→学校前 （学校前で結城に会う）",
+                "enGuide": "Move/School gate ... Talk (Yuuki)"
             },
             {
-                "simpleJp": "【学校前】結城と遭遇し、会話",
-                "jpGuide1": "結城と遭遇、会話後に",
-                "jpGuide2": "（学校前で結城に会う）",
-                "enGuide": "Talk (Yuuki)"
-            },
-            {
-                "simpleJp": "【学校内】学校内を移動し、美月に2回遭遇する",
+                "simpleJp": "【学校内】ホールと2階廊下を往復し、美月に2回遭遇する",
                 "jpGuide1": "学校内を捜索して美月に2回遭遇したら",
                 "jpGuide2": "学校内：美月と会うまで校内を移動 2回会う必要があるが 出現はランダム",
-                "enGuide": "(Walk inside until you meet Mitsuki twice)"
+                "enGuide": "(Move back and forth between Main Hall and 2nd Floor Corridor until you meet Mitsuki twice)"
             },
             {
-                "simpleJp": "【街周辺】自宅前・街を移動し、結城に2回遭遇する",
+                "simpleJp": "【街周辺】街と自宅前（または周辺）を往復し、結城に2回遭遇する",
                 "jpGuide1": "〔街〕へ移動\n↓\n〔セントラル街～高台周辺〕：澪の行きそうな場所 (喫茶店・高台・澪の屋敷前) を捜索、結城に2回遭遇したら",
                 "jpGuide2": "街：喫茶店 高台 澪の家の前 自宅前 どれかで結城に 2回会う ランダム",
-                "enGuide": "Move/Outside my house ... Move/City\n(Walk between City/Home until you meet Yuuki twice)"
+                "enGuide": "Move/Outside my house ... Move/City\n(Move back and forth between City and Home until you meet Yuuki twice)"
             },
             {
                 "simpleJp": "【社】海岸を経て、社へ移動",
@@ -4982,8 +4940,8 @@ const guideData = {
                 "enGuide": "Move/Coast ... Move/Shrine\n--- Triangle Mountain / Shrine ---"
             },
             {
-                "simpleJp": "【社】左側の双子岩を調べ、バッグを発見し開ける",
-                "jpGuide1": "【左側の双子岩】を調べると澪のバッグを発見。",
+                "simpleJp": "【社】右側の双子岩を調べ、バッグを発見し開ける",
+                "jpGuide1": "【右側の双子岩】を調べると澪のバッグを発見。",
                 "jpGuide2": "右岩の陰から澪のバッグを見つける",
                 "enGuide": "Look/Investigate (Right rock/find bag)\nOpen (Bag)"
             },
@@ -5066,9 +5024,9 @@ const guideData = {
                 "enGuide": "Look/Investigate (Shining ground)\nUse/White medal"
             },
             {
-                "simpleJp": "【扉の奥】奥へ進むと扉が閉まり、結城と別れる（小部屋へ）",
-                "jpGuide1": "扉が閉まり結城と別行動になる\n↓\n〔洞窟・小部屋〕：扉の奥へ進んで",
-                "jpGuide2": "扉の奥に進むと 扉が閉まり 結城と離ればなれになる",
+                "simpleJp": "【扉の奥】扉の奥（小部屋）へ進む",
+                "jpGuide1": "扉が閉まる\n↓\n〔洞窟・小部屋〕：扉の奥へ進んで",
+                "jpGuide2": "扉の奥に進むと 扉が閉まる",
                 "enGuide": "Move/Forward"
             },
             {
@@ -5084,9 +5042,9 @@ const guideData = {
                 "enGuide": "Move/Backward"
             },
             {
-                "simpleJp": "【扉前】扉に『鉄の剣』を使用し、結城を穴へ落とす",
-                "jpGuide1": "『鉄の剣』を使用すると結城が穴へ転落、",
-                "jpGuide2": "「鉄の剣」を使うと結城が穴に落っこちる",
+                "simpleJp": "【扉前】扉に『鉄の剣』を使用する（イベント進行）",
+                "jpGuide1": "『鉄の剣』を使用する",
+                "jpGuide2": "「鉄の剣」を使う",
                 "enGuide": "Use/ Iron sword (Gate)"
             },
             {
@@ -5126,10 +5084,10 @@ const guideData = {
                 "enGuide": "Move/Backward"
             },
             {
-                "simpleJp": "【石棺前】石棺の上蓋を調べ、パズル（ロジックパズル）を解いて階段を下りる",
-                "jpGuide1": "【石棺の上蓋】を調べてパズルを解くと棺の中から階段が現れるので下に降りる",
+                "simpleJp": "【石棺前】石棺の上蓋を調べ、パズルを解いて階段を下りる（※解答はルートディレクトリの left.gif / right.gif を参照）",
+                "jpGuide1": "【石棺の上蓋】を調べてパズルを解くと棺の中から階段が現れるので下に降りる（※記号はランダムですが完成図は固定です）",
                 "jpGuide2": "石棺を調べロジックパズルを解くと棺が開き中から階段が出現する",
-                "enGuide": "Look/Investigate [Lid of sarcophagus]\nPress it\nConfigure the left/right plate"
+                "enGuide": "Look/Investigate [Lid of sarcophagus]\nPress it\nConfigure the left/right plate (See left.gif and right.gif in repo root for solutions. Symbols are randomized, pattern is fixed)"
             },
             {
                 "simpleJp": "【地底湖】周辺を調べ（10回以上）、澪と会話（8回）し、イベント",
@@ -5216,9 +5174,9 @@ const guideData = {
                 "enGuide": "Use/White medal"
             },
             {
-                "simpleJp": "【扉の奥】奥へ進むと扉が閉まり、美月と別れる（小部屋へ）",
-                "jpGuide1": "扉が閉まり美月と別行動になる\n↓\n〔洞窟・小部屋〕：扉の奥へ進んだら",
-                "jpGuide2": "扉の奥 扉が閉まり 美月と離ればなれになる",
+                "simpleJp": "【扉の奥】扉の奥（小部屋）へ進む",
+                "jpGuide1": "扉が閉まる\n↓\n〔洞窟・小部屋〕：扉の奥へ進んだら",
+                "jpGuide2": "扉の奥 扉が閉まる",
                 "enGuide": "Move/Forward"
             },
             {
@@ -5228,9 +5186,9 @@ const guideData = {
                 "enGuide": "Move/Backward"
             },
             {
-                "simpleJp": "【扉前】『鉄の剣』を使用し、美月を穴へ落とす",
-                "jpGuide1": "『鉄の剣』を使用すると美月が穴へ転落、",
-                "jpGuide2": "「鉄の剣」を使い美月が穴に落ちる",
+                "simpleJp": "【扉前】扉に『鉄の剣』を使用する（イベント進行）",
+                "jpGuide1": "『鉄の剣』を使用する",
+                "jpGuide2": "「鉄の剣」を使う",
                 "enGuide": "Use/ Iron sword"
             },
             {
@@ -5240,10 +5198,22 @@ const guideData = {
                 "enGuide": "Load [Jewel Save #Extra Branch]"
             },
             {
-                "simpleJp": "【洞窟扉前】中央の穴に『円盤』をはめる",
-                "jpGuide1": "《宝玉ロード》：扉の右側にある【くぼみ】を調べて『白いメダル』、『黒いメダル』を入手後、最初の分かれ道に戻り【左側】へ進んで床の【プレート】に『黒いメダル』を嵌め込み\n〔扉前〕に戻ったら扉の【中央のくぼみ】に『円盤』を嵌め込んでから",
+                "simpleJp": "【洞窟扉前】右のくぼみを調べ、『白いメダル』『黒いメダル』を再入手する",
+                "jpGuide1": "扉の右側にある【くぼみ】を調べて『白いメダル』、『黒いメダル』を再度入手後",
+                "jpGuide2": "右横に穴があるのでそこから「白いメダル」「黒いメダル」を再入手する",
+                "enGuide": "Look/Investigate (Hole at right)\nTake white/black medals (Again)"
+            },
+            {
+                "simpleJp": "【洞窟】手前へ5回戻り、左へ進んで床に『黒いメダル』をはめる",
+                "jpGuide1": "最初の分かれ道に戻り【左側】へ進んで床の【プレート】に『黒いメダル』を嵌め込む",
+                "jpGuide2": "最初の分かれ道へ戻り左へ進み「黒いメダル」をはめ込む",
+                "enGuide": "Move/Backward (5x)\nMove/Left ... Move/Forward\nUse/Black medal"
+            },
+            {
+                "simpleJp": "【洞窟扉前】扉前まで戻り、中央の穴に『円盤』をはめる",
+                "jpGuide1": "〔扉前〕に戻ったら扉の【中央のくぼみ】に『円盤』を嵌め込んでから",
                 "jpGuide2": "扉前に入り最初に扉の中央に「円盤」をはめ込む",
-                "enGuide": "Use/Disk (Hole in center of gate)"
+                "enGuide": "Move/Backward (2x) ... Move/Right ... Move/Forward ... Move/Left ... Move/Forward\nUse/Disk (Hole in center of gate)"
             },
             {
                 "simpleJp": "【洞窟扉前】床に『白いメダル』をはめる",
@@ -5300,10 +5270,28 @@ const guideData = {
                 "enGuide": "- Mio End 3 -\nUse/Iron sword (Door at bottom-left)"
             },
             {
-                "simpleJp": "【社】宝玉ロードを使用し、扉前のセーブデータ（END分岐用）をロードする",
+                "simpleJp": "【中庭】宝玉ロード（A）を使用し、中庭へ戻る",
+                "jpGuide1": "《宝玉ロード (A) 》を使用する",
+                "jpGuide2": "宝玉セーブポイント②へ戻る",
+                "enGuide": "*Load [Jewel Save #Character] (Courtyard)."
+            },
+            {
+                "simpleJp": "【土蔵・井戸】土蔵で金の鍵を使い『ロープ』を入手。井戸でロープを使い『銀のメダル』を再入手する",
+                "jpGuide1": "土蔵で金の鍵を使用しロープを入手。井戸でロープを使用して銀のメダルを再入手する",
+                "jpGuide2": "土蔵からロープを入手し、井戸の穴にロープを使い「銀のメダル」を再入手",
+                "enGuide": "Move (Storehouse) ... Use (Golden key) ... Take (Rope) ... Move (Well) ... Use/Rope (Well center) ---> [Silver Medal]"
+            },
+            {
+                "simpleJp": "【社】宝玉ロード（C）を使用し、塔の扉前へ戻る",
                 "jpGuide1": "《宝玉ロード (C) 》を使用する",
                 "jpGuide2": "宝玉セーブポイント④へ戻る （再セーブは不要） 4E",
-                "enGuide": "Load [Jewel Save #End]."
+                "enGuide": "Load [Jewel Save #End] (Tower Door)."
+            },
+            {
+                "simpleJp": "【扉前】扉中央を調べ（2回）『円盤』を入手し、右の穴に『銀のメダル』を使用する",
+                "jpGuide1": "扉を調べて『円盤』を入手。右上の【くぼみ】に『銀のメダル』をはめ込む",
+                "jpGuide2": "扉から「円盤」を入手する 「銀のメダル」を使って扉を開ける",
+                "enGuide": "Look/Investigate (2x) (Disk)\nTake (Disk) ---> [Stone disk]\nLook/Investigate (Hole at right)\nUse/Silver medal (Hole at right)"
             },
             {
                 "simpleJp": "【扉前】「一緒に行く」を選択し、エンディング（END No.9 または No.1 派生）",
@@ -5371,7 +5359,7 @@ const guideData = {
                 "enGuide": "Move/Coast"
             },
             {
-                "simpleJp": "【海岸】会社の方（遠くの建物）を調べ、香織とのイベントを見る",
+                "simpleJp": "【海岸】会社の方（遠くの建物）を調べ、イベントを見る",
                 "jpGuide1": "〔会社前〕へ行こうとすると香織と遭遇、会話後",
                 "jpGuide2": "サイレンが鳴ってて会社の方を見ると香織が来る （自宅前に戻される）",
                 "enGuide": "? (Distant buildings)"
@@ -5407,7 +5395,7 @@ const guideData = {
                 "enGuide": "Look/Investigate (Click everything twice) ... Open (Cupboard) (Find passbook)"
             },
             {
-                "simpleJp": "【神奈の部屋】左側の壁（バスルーム）を調べる",
+                "simpleJp": "【神奈の部屋】左側の壁（バスルーム）を調べ、イベントを見る",
                 "jpGuide1": "物音がするので【バスルーム】を見ると神奈とのイベントが発生。",
                 "jpGuide2": "？マークで画面の左のほうを見ると神奈が入浴中",
                 "enGuide": "? (Entrance on left side)"
@@ -5431,7 +5419,7 @@ const guideData = {
                 "enGuide": "Move/Heights ... Move/City ... Move/Outside my house"
             },
             {
-                "simpleJp": "【自宅前】家の中（リビング）に入り、『親父の手紙』を入手",
+                "simpleJp": "【自宅前】家の中（リビング）に入り、『親父の手紙』のイベントを進行する（※ADMSで所持済でも必ずリビングへ入る）",
                 "jpGuide1": "〔自宅～三角山・社〕：一度家の中に入ってから ... 〔リビング〕で『親父の手紙』を入手（持っていても寄っておく）。",
                 "jpGuide2": "「親父の手紙」を入手（持っていても寄っておく）",
                 "enGuide": "--- Home / My House --- ... Move/Living room ---> [Father’s letter]"
@@ -5497,7 +5485,7 @@ const guideData = {
                 "enGuide": "Move/Coast ... Move/Outside my house"
             },
             {
-                "simpleJp": "【自宅前】家の中（リビング）に入り、カウンターの電話に出る（北条からの着信）",
+                "simpleJp": "【自宅前】家の中（リビング）に入り、カウンターの電話に出る",
                 "jpGuide1": "〔自宅～境町学園〕：自宅に戻ると北条から着信、通話後",
                 "jpGuide2": "北条から電話",
                 "enGuide": "--- Home / My House --- ... Move/Living room ... Take (Phone on counter)"
@@ -5539,10 +5527,10 @@ const guideData = {
                 "enGuide": "Move/Corridor ... Open (Doorknob) ... --- Kanna's room ---"
             },
             {
-                "simpleJp": "【神奈の部屋】吊戸棚を開け、写真の左の岩、右の岩、奥の岩を順に調べる",
+                "simpleJp": "【神奈の部屋】吊戸棚の写真を調べ、写真の中の「左の岩」「右の岩」「奥の岩」を順に調べる",
                 "jpGuide1": "〔神奈の部屋～公園～海岸〕：部屋の中に入ったら【吊戸棚】を開けて写真の両端の【双子岩】を見てから奥の【岩】を見るとイベント発生。イベント後",
                 "jpGuide2": "写真を見る（双子岩を見てから 神奈の後ろの岩に注目",
-                "enGuide": "Open (Cupboard) ... Look/Investigate (Left/Right/Behind rocks)"
+                "enGuide": "Open (Cupboard) ... Look/Investigate (Left/Right/Behind rocks IN PHOTO)"
             },
             {
                 "simpleJp": "【神奈の部屋】廊下・マンション前・高台を経て公園へ移動し、神奈と会話（6回）",
@@ -5557,7 +5545,7 @@ const guideData = {
                 "enGuide": "Move/Heights ... Move/City ... Move/Outside my house ... Move/Coast ... Move/Outside my house ... Move/City ... Move/Evening"
             },
             {
-                "simpleJp": "【イヴニング】右側の女性、次にタバコを調べ、正体を確認する",
+                "simpleJp": "【イヴニング】右側の女性を調べ、タバコを調べてイベントを見る",
                 "jpGuide1": "〔喫茶・EVENING～境町学園〕：【右側の女性】を見ると香織と龍蔵寺を発見、その後【タバコ】を見ると女性の正体が判明し",
                 "jpGuide2": "絵里子のタバコを見る 街：",
                 "enGuide": "Look/Investigate (Redhead) ... Look/Investigate (Cigar)"
@@ -5613,19 +5601,19 @@ const guideData = {
             {
                 "simpleJp": "【公園】周辺を調べ（50回以上）、悲鳴が聞こえたら奥の木立ちを調べる",
                 "jpGuide1": "〔明雲寺公園〕：周辺を一通り調べた後に悲鳴が聞こえたら【植え込み】を再度調べると神奈のイベントが発生。",
-                "jpGuide2": "神奈を助ける",
+                "jpGuide2": "神奈のイベント",
                 "enGuide": "Look/Investigate (50+x) ... Look/Investigate (Distant trees/after scream)"
             },
             {
-                "simpleJp": "【公園】神奈のイベントを進め（ナイフ等を調べる）、キス（2回）、会話（10回）",
+                "simpleJp": "【公園】イベントを進行させる（ナイフ等を調べ、キス・会話等のコマンドを実行）",
                 "jpGuide1": "神奈のイベントが発生。",
-                "jpGuide2": "神奈とH",
+                "jpGuide2": "神奈と会話等",
                 "enGuide": "Look/Investigate (Knife/etc.) ... Kiss (2x) (Kanna) ... Talk (10x) (Kanna)"
             },
             {
                 "simpleJp": "【公園】宝玉セーブを作成する（イベント停止時）",
                 "jpGuide1": "神奈が目を瞑ったら《宝玉セーブ》を行い、",
-                "jpGuide2": "宝玉セーブ① （神奈とH後 目を瞑り喋らなくなったら すぐ宝玉セーブ） 5C",
+                "jpGuide2": "宝玉セーブ① （神奈が目を瞑り喋らなくなったら すぐ宝玉セーブ） 5C",
                 "enGuide": "*Make [Jewel Save #Kanna End]."
             },
             {
@@ -5641,9 +5629,9 @@ const guideData = {
                 "enGuide": "Load [Jewel Save #Kanna End]."
             },
             {
-                "simpleJp": "【公園】神奈に『超念石』を使う（END No.12 派生）",
+                "simpleJp": "【公園】神奈に『超念石』を使う（END No.12 派生 ※超念石が必須）",
                 "jpGuide1": "ロード地点に戻り、目を覚まさない神奈に『超念石』を使うとイベントが発生。",
-                "jpGuide2": "「超念石」を使う 神奈が生き返る",
+                "jpGuide2": "「超念石」を使う",
                 "enGuide": "- Kanna End -\nUse/Hypersense Stone (Kanna)"
             },
             {

@@ -1,0 +1,58 @@
+{
+  "v1377": {
+    "slug": "yuno",
+    "has_guide": true,
+    "title": "Kono Yo no Hate de Koi o Utau Shoujo YU-NO",
+    "alttitle": "この世の果てで恋を唄う少女YU-NO",
+    "cover_url": null,
+    "added_at": "2026-07-07T00:00:00"
+  },
+  "v1629": {
+    "slug": "hiiro-no-kakera",
+    "has_guide": false,
+    "title": "Hiiro no Kakera",
+    "alttitle": "緋色の欠片",
+    "cover_url": "https://t.vndb.org/cv/43/85243.jpg",
+    "added_at": "2026-07-07T22:51:38.476364+00:00"
+  },
+  "v1715": {
+    "slug": "hakuouki-shinsengumi-kitan",
+    "has_guide": false,
+    "title": "Hakuouki ~Shinsengumi Kitan~",
+    "alttitle": "薄桜鬼 新選組奇譚",
+    "cover_url": "https://t.vndb.org/cv/60/76060.jpg",
+    "added_at": "2026-07-07T22:51:38.476454+00:00"
+  },
+  "v8203": {
+    "slug": "arcana-famiglia",
+    "has_guide": false,
+    "title": "Arcana Famiglia",
+    "alttitle": "アルカナ・ファミリア",
+    "cover_url": "https://t.vndb.org/cv/94/96894.jpg",
+    "added_at": "2026-07-07T22:51:38.476489+00:00"
+  },
+  "v9889": {
+    "slug": "gyakuten-saiban-5",
+    "has_guide": false,
+    "title": "Gyakuten Saiban 5",
+    "alttitle": "逆転裁判5",
+    "cover_url": "https://t.vndb.org/cv/83/85983.jpg",
+    "added_at": "2026-07-07T22:51:38.476513+00:00"
+  },
+  "v28576": {
+    "slug": "sekai-metsubou-kyouyuu-gensou-mamiya",
+    "has_guide": false,
+    "title": "Sekai Metsubou Kyouyuu Gensou Mamiya",
+    "alttitle": "世界滅亡共有幻想マミヤ",
+    "cover_url": "https://t.vndb.org/cv/56/79656.jpg",
+    "added_at": "2026-07-07T22:51:38.476539+00:00"
+  },
+  "v29081": {
+    "slug": "blood-the-last-vampire",
+    "has_guide": false,
+    "title": "Blood: The Last Vampire",
+    "alttitle": "",
+    "cover_url": "https://t.vndb.org/cv/31/119231.jpg",
+    "added_at": "2026-07-07T22:51:38.476564+00:00"
+  }
+}

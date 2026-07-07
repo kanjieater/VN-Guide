@@ -36,22 +36,41 @@
   header {
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 20px 16px 16px;
+    padding: 20px 16px 14px;
     text-align: center;
   }
 
   header h1 {
-    margin: 0;
+    margin: 0 0 12px;
     font-size: 22px;
     font-weight: 700;
     color: var(--accent);
     letter-spacing: 0.04em;
   }
 
-  header p {
-    margin: 6px 0 0;
-    font-size: 13px;
+  .sort-tabs {
+    display: inline-flex;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .sort-tabs button {
+    background: none;
+    border: none;
     color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 16px;
+    cursor: pointer;
+    touch-action: manipulation;
+    transition: color 0.15s, background 0.15s;
+  }
+
+  .sort-tabs button.active {
+    background: var(--accent);
+    color: #fff;
   }
 
   main {
@@ -119,14 +138,8 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 1.3;
-    margin: 0 0 4px;
-    word-break: break-word;
-  }
-
-  .game-alttitle {
-    font-size: 12px;
-    color: var(--text-muted);
     margin: 0 0 8px;
+    word-break: break-word;
   }
 
   .game-badge {
@@ -138,15 +151,8 @@
     letter-spacing: 0.02em;
   }
 
-  .badge-guide {
-    background: var(--badge-done);
-    color: var(--badge-done-text);
-  }
-
-  .badge-wip {
-    background: var(--badge-wip);
-    color: var(--badge-wip-text);
-  }
+  .badge-guide { background: var(--badge-done); color: var(--badge-done-text); }
+  .badge-wip   { background: var(--badge-wip);  color: var(--badge-wip-text);  }
 
   .game-arrow {
     font-size: 20px;
@@ -175,75 +181,87 @@
 <body>
 <header>
   <h1>VN Guide</h1>
-  <p>攻略ガイド一覧</p>
+  <div class="sort-tabs">
+    <button id="btn-recent" class="active" onclick="setSort('recent')">最近</button>
+    <button id="btn-alpha"  onclick="setSort('alpha')">あいうえお</button>
+  </div>
 </header>
 <main>
-  <div class="game-list">
-    <a class="game-card" href="./yuno/">
-      <img class="game-cover" src="https://t.vndb.org/cv/29/59029.jpg" alt="" loading="lazy">
-      <div class="game-info">
-        <p class="game-title">Kono Yo no Hate de Koi o Utau Shoujo YU-NO</p>
-        <p class="game-alttitle">この世の果てで恋を唄う少女YU-NO</p>
-        <span class="game-badge badge-guide">Guide Available</span>
-      </div>
-      <span class="game-arrow">›</span>
-    </a>
-    <a class="game-card" href="./hiiro-no-kakera/">
-      <img class="game-cover" src="https://t.vndb.org/cv/43/85243.jpg" alt="" loading="lazy">
-      <div class="game-info">
-        <p class="game-title">Hiiro no Kakera</p>
-        <p class="game-alttitle">緋色の欠片</p>
-        <span class="game-badge badge-wip">Coming Soon</span>
-      </div>
-      <span class="game-arrow">›</span>
-    </a>
-    <a class="game-card" href="./hakuouki-shinsengumi-kitan/">
-      <img class="game-cover" src="https://t.vndb.org/cv/60/76060.jpg" alt="" loading="lazy">
-      <div class="game-info">
-        <p class="game-title">Hakuouki ~Shinsengumi Kitan~</p>
-        <p class="game-alttitle">薄桜鬼 新選組奇譚</p>
-        <span class="game-badge badge-wip">Coming Soon</span>
-      </div>
-      <span class="game-arrow">›</span>
-    </a>
-    <a class="game-card" href="./arcana-famiglia/">
-      <img class="game-cover" src="https://t.vndb.org/cv/94/96894.jpg" alt="" loading="lazy">
-      <div class="game-info">
-        <p class="game-title">Arcana Famiglia</p>
-        <p class="game-alttitle">アルカナ・ファミリア</p>
-        <span class="game-badge badge-wip">Coming Soon</span>
-      </div>
-      <span class="game-arrow">›</span>
-    </a>
-    <a class="game-card" href="./gyakuten-saiban-5/">
-      <img class="game-cover" src="https://t.vndb.org/cv/83/85983.jpg" alt="" loading="lazy">
-      <div class="game-info">
-        <p class="game-title">Gyakuten Saiban 5</p>
-        <p class="game-alttitle">逆転裁判5</p>
-        <span class="game-badge badge-wip">Coming Soon</span>
-      </div>
-      <span class="game-arrow">›</span>
-    </a>
-    <a class="game-card" href="./sekai-metsubou-kyouyuu-gensou-mamiya/">
-      <img class="game-cover" src="https://t.vndb.org/cv/56/79656.jpg" alt="" loading="lazy">
-      <div class="game-info">
-        <p class="game-title">Sekai Metsubou Kyouyuu Gensou Mamiya</p>
-        <p class="game-alttitle">世界滅亡共有幻想マミヤ</p>
-        <span class="game-badge badge-wip">Coming Soon</span>
-      </div>
-      <span class="game-arrow">›</span>
-    </a>
-    <a class="game-card" href="./blood-the-last-vampire/">
-      <img class="game-cover" src="https://t.vndb.org/cv/31/119231.jpg" alt="" loading="lazy">
-      <div class="game-info">
-        <p class="game-title">Blood: The Last Vampire</p>
-        
-        <span class="game-badge badge-wip">Coming Soon</span>
-      </div>
-      <span class="game-arrow">›</span>
-    </a>
-  </div>
+  <div class="game-list" id="game-list"></div>
 </main>
 <footer>自動生成 · VNDB playing list より</footer>
+
+<script>
+const GAMES = [{"slug": "yuno", "title": "Kono Yo no Hate de Koi o Utau Shoujo YU-NO", "alttitle": "この世の果てで恋を唄う少女YU-NO", "has_guide": true, "cover_url": "https://t.vndb.org/cv/29/59029.jpg"}, {"slug": "hiiro-no-kakera", "title": "Hiiro no Kakera", "alttitle": "緋色の欠片", "has_guide": false, "cover_url": "https://t.vndb.org/cv/43/85243.jpg"}, {"slug": "hakuouki-shinsengumi-kitan", "title": "Hakuouki ~Shinsengumi Kitan~", "alttitle": "薄桜鬼 新選組奇譚", "has_guide": false, "cover_url": "https://t.vndb.org/cv/60/76060.jpg"}, {"slug": "arcana-famiglia", "title": "Arcana Famiglia", "alttitle": "アルカナ・ファミリア", "has_guide": false, "cover_url": "https://t.vndb.org/cv/94/96894.jpg"}, {"slug": "gyakuten-saiban-5", "title": "Gyakuten Saiban 5", "alttitle": "逆転裁判5", "has_guide": false, "cover_url": "https://t.vndb.org/cv/83/85983.jpg"}, {"slug": "sekai-metsubou-kyouyuu-gensou-mamiya", "title": "Sekai Metsubou Kyouyuu Gensou Mamiya", "alttitle": "世界滅亡共有幻想マミヤ", "has_guide": false, "cover_url": "https://t.vndb.org/cv/56/79656.jpg"}, {"slug": "blood-the-last-vampire", "title": "Blood: The Last Vampire", "alttitle": "", "has_guide": false, "cover_url": "https://t.vndb.org/cv/31/119231.jpg"}][];
+
+const VISITED_KEY = "vn-guide-visited";
+let sortMode = localStorage.getItem("vn-guide-sort") || "recent";
+
+function getVisited() {
+  try { return JSON.parse(localStorage.getItem(VISITED_KEY) || "{}"); } catch { return {}; }
+}
+
+function recordVisit(slug) {
+  const v = getVisited();
+  v[slug] = Date.now();
+  localStorage.setItem(VISITED_KEY, JSON.stringify(v));
+}
+
+function displayName(g) {
+  return g.alttitle || g.title;
+}
+
+function sortedGames() {
+  const visited = getVisited();
+  const games = [...GAMES];
+  if (sortMode === "recent") {
+    games.sort((a, b) => {
+      const va = visited[a.slug] || 0;
+      const vb = visited[b.slug] || 0;
+      if (vb !== va) return vb - va;
+      return displayName(a).localeCompare(displayName(b), "ja");
+    });
+  } else {
+    games.sort((a, b) => displayName(a).localeCompare(displayName(b), "ja"));
+  }
+  return games;
+}
+
+function renderCard(g) {
+  const name = displayName(g);
+  const img = g.cover_url
+    ? `<img class="game-cover" src="${g.cover_url}" alt="" loading="lazy">`
+    : `<div class="game-cover-placeholder">📖</div>`;
+  const badge = g.has_guide
+    ? `<span class="game-badge badge-guide">Guide Available</span>`
+    : `<span class="game-badge badge-wip">Coming Soon</span>`;
+  return `<a class="game-card" href="./${g.slug}/" onclick="recordVisit('${g.slug}')">
+  ${img}
+  <div class="game-info">
+    <p class="game-title">${name}</p>
+    ${badge}
+  </div>
+  <span class="game-arrow">›</span>
+</a>`;
+}
+
+function render() {
+  const list = document.getElementById("game-list");
+  const games = sortedGames();
+  list.innerHTML = games.length
+    ? games.map(renderCard).join("\n")
+    : `<div class="empty-state">プレイ中のゲームがありません</div>`;
+  document.getElementById("btn-recent").classList.toggle("active", sortMode === "recent");
+  document.getElementById("btn-alpha").classList.toggle("active", sortMode === "alpha");
+}
+
+function setSort(mode) {
+  sortMode = mode;
+  localStorage.setItem("vn-guide-sort", mode);
+  render();
+}
+
+render();
+</script>
 </body>
 </html>

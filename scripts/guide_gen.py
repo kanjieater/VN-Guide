@@ -2,11 +2,11 @@
 Automated VN guide generation using Claude CLI.
 Runs after generate.py. For each game with has_guide=false, runs Claude in phases:
   Phase 1 – Research (one call): finds Japanese guides, determines route order → research.json
-  Phase 2 – Per route (one call each): generates step JSON → route_{id}.json
-  Phase 3 – Assembly (Python): combines route files into index.html, updates has_guide
+  Phase 2 – Per route (one call each): generates steps → route_{id}.json
+             After each route: assemble guide.json and deploy so it's visible immediately
+  Phase 3 – Final cleanup: remove intermediate route_*.json files
 
-Intermediate files (research.json, route_*.json) survive container restarts so
-generation resumes where it left off if interrupted.
+Intermediate files survive container restarts so generation resumes where it left off.
 """
 import json
 import os
@@ -45,7 +45,7 @@ def run_claude(prompt: str, max_turns: int, cwd: Path) -> bool:
                 "--max-turns", str(max_turns),
             ],
             cwd=str(cwd),
-            timeout=900,  # 15 min ceiling per phase
+            timeout=900,
         )
         return result.returncode == 0
     except subprocess.TimeoutExpired:
@@ -56,8 +56,17 @@ def run_claude(prompt: str, max_turns: int, cwd: Path) -> bool:
         return False
 
 
+def run_deploy() -> None:
+    """Commit and push whatever changed. Push failure is non-fatal."""
+    result = subprocess.run(
+        ["python3", str(SCRIPTS_PATH / "deploy.py")],
+        cwd=str(REPO_PATH),
+    )
+    if result.returncode != 0:
+        err("Deploy failed — guide saved locally, will push on next cycle")
+
+
 def build_prompt(template_name: str, **kwargs) -> str:
-    """Load a prompt template and substitute variables."""
     tmpl = (PROMPTS_PATH / template_name).read_text()
     prompt_md = (REPO_PATH / "prompt.md").read_text()
     tmpl = tmpl.replace("$PROMPT_MD", prompt_md)
@@ -66,10 +75,48 @@ def build_prompt(template_name: str, **kwargs) -> str:
     return tmpl
 
 
+def load_completed_routes(routes: list[dict], guide_dir: Path) -> list[dict]:
+    """Return route dicts with steps for every route that has a completed JSON file."""
+    result = []
+    for route in routes:
+        route_id = route["id"]
+        route_file = guide_dir / f"route_{route_id}.json"
+        if not route_file.exists():
+            continue
+        try:
+            steps = json.loads(route_file.read_text())
+            if isinstance(steps, list):
+                result.append({
+                    "id": route_id,
+                    "title": route.get("title", route_id),
+                    "steps": steps,
+                })
+        except json.JSONDecodeError:
+            pass
+    return result
+
+
+def assemble(slug: str, title: str, vndb_id: str, guide_routes: list[dict],
+             guide_dir: Path, research: dict) -> None:
+    """Write guide.json with whatever routes are complete so far."""
+    guide_data = {
+        "title": title,
+        "vndb_id": vndb_id,
+        "routes": guide_routes,
+        "sources": research.get("sources", []),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    (guide_dir / "guide.json").write_text(
+        json.dumps(guide_data, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    log(f"Assembled guide.json ({len(guide_routes)}/{len(research.get('routes', []))} routes)")
+
+
 def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool:
     research_file = guide_dir / "research.json"
     if research_file.exists():
-        log(f"Research already done for {slug}, skipping phase 1")
+        log(f"Research already done for {slug}, skipping")
         return True
 
     log(f"Phase 1 – Research: {title}")
@@ -86,7 +133,6 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
         err(f"Research phase failed for {slug}")
         return False
 
-    # Validate JSON
     try:
         data = json.loads(research_file.read_text())
         if not data.get("routes"):
@@ -99,84 +145,6 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
         return False
 
 
-def phase_routes(slug: str, title: str, vndb_id: str, guide_dir: Path) -> list[dict] | None:
-    research_file = guide_dir / "research.json"
-    research = json.loads(research_file.read_text())
-    routes = research.get("routes", [])
-
-    for route in routes:
-        route_id = route["id"]
-        route_file = guide_dir / f"route_{route_id}.json"
-
-        if route_file.exists():
-            log(f"Route {route_id} already done, skipping")
-            continue
-
-        log(f"Phase 2 – Route: {route.get('title', route_id)}")
-        prompt = build_prompt(
-            "route.md",
-            TITLE=title,
-            VNDB_ID=vndb_id,
-            ROUTE_ID=route_id,
-            ROUTE_TITLE=route.get("title", route_id),
-            RESEARCH_FILE=str(research_file),
-            ROUTE_FILE=str(route_file),
-        )
-        ok = run_claude(prompt, MAX_TURNS_ROUTE, guide_dir)
-
-        if not ok or not route_file.exists():
-            err(f"Route {route_id} failed for {slug}")
-            return None
-
-        # Validate JSON
-        try:
-            steps = json.loads(route_file.read_text())
-            if not isinstance(steps, list):
-                err(f"route_{route_id}.json is not a JSON array")
-                return None
-            log(f"Route {route_id} done: {len(steps)} steps")
-        except json.JSONDecodeError as e:
-            err(f"route_{route_id}.json is invalid JSON: {e}")
-            return None
-
-    # Return all routes with their steps loaded
-    result = []
-    for route in routes:
-        route_id = route["id"]
-        route_file = guide_dir / f"route_{route_id}.json"
-        steps = json.loads(route_file.read_text())
-        result.append({
-            "id": route_id,
-            "title": route.get("title", route_id),
-            "steps": steps,
-        })
-    return result
-
-
-def phase_assemble(slug: str, title: str, vndb_id: str, guide_routes: list[dict], guide_dir: Path, research: dict) -> bool:
-    log(f"Phase 3 – Assembly: {slug} ({len(guide_routes)} routes)")
-
-    guide_data = {
-        "title": title,
-        "vndb_id": vndb_id,
-        "routes": guide_routes,
-        "sources": research.get("sources", []),
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-    }
-    (guide_dir / "guide.json").write_text(
-        json.dumps(guide_data, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    log(f"Wrote {slug}/guide.json")
-
-    # Clean up intermediate route files (research.json is kept as source record)
-    for route_file in guide_dir.glob("route_*.json"):
-        route_file.unlink()
-        log(f"Removed {route_file.name}")
-
-    return True
-
-
 def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
@@ -185,12 +153,52 @@ def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
         return False
 
     research = json.loads((guide_dir / "research.json").read_text())
+    routes = research.get("routes", [])
 
-    guide_routes = phase_routes(slug, title, vndb_id, guide_dir)
-    if guide_routes is None:
-        return False
+    for route in routes:
+        route_id = route["id"]
+        route_file = guide_dir / f"route_{route_id}.json"
 
-    return phase_assemble(slug, title, vndb_id, guide_routes, guide_dir, research)
+        if route_file.exists():
+            log(f"Route {route_id} already done, skipping")
+        else:
+            log(f"Phase 2 – Route: {route.get('title', route_id)}")
+            prompt = build_prompt(
+                "route.md",
+                TITLE=title,
+                VNDB_ID=vndb_id,
+                ROUTE_ID=route_id,
+                ROUTE_TITLE=route.get("title", route_id),
+                RESEARCH_FILE=str(guide_dir / "research.json"),
+                ROUTE_FILE=str(route_file),
+            )
+            ok = run_claude(prompt, MAX_TURNS_ROUTE, guide_dir)
+
+            if not ok or not route_file.exists():
+                err(f"Route {route_id} failed for {slug}")
+                return False
+
+            try:
+                steps = json.loads(route_file.read_text())
+                if not isinstance(steps, list):
+                    err(f"route_{route_id}.json is not a JSON array")
+                    return False
+                log(f"Route {route_id} done: {len(steps)} steps")
+            except json.JSONDecodeError as e:
+                err(f"route_{route_id}.json is invalid JSON: {e}")
+                return False
+
+        # Assemble and deploy after every completed route so it's visible immediately
+        completed = load_completed_routes(routes, guide_dir)
+        assemble(slug, title, vndb_id, completed, guide_dir, research)
+        run_deploy()
+
+    # All routes done — clean up intermediate files
+    for route_file in guide_dir.glob("route_*.json"):
+        route_file.unlink()
+        log(f"Removed {route_file.name}")
+
+    return True
 
 
 def run() -> None:
@@ -218,7 +226,6 @@ def run() -> None:
 
     log(f"{len(pending)} game(s) need guides")
 
-    # Process one game per pipeline run to keep each run bounded
     vid, entry = pending[0]
     slug = entry["slug"]
     title = entry.get("title", slug)

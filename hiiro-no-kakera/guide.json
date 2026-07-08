@@ -1,5 +1,225 @@
 {
   "title": "緋色の欠片",
   "vndb_id": "v1629",
-  "routes": []
+  "routes": [
+    {
+      "id": "takuma",
+      "title": "鬼崎拓磨ルート",
+      "steps": [
+        {
+          "simpleJp": "【学校内】校内を探す",
+          "jpGuide1": "第一章：学校内を探す",
+          "jpGuide2": "第一章 - Location 1: 学校内／Action: 「屋上」を選択",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【屋上】屋上を探す",
+          "jpGuide1": "第一章：屋上を探す",
+          "jpGuide2": "",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【いつもの道】いつもの道を選ぶ",
+          "jpGuide1": "第一章：いつもの道",
+          "jpGuide2": "第一章 - Location 2: いつもの道",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【いつもの道】このまま進む",
+          "jpGuide1": "第一章：このまま進む",
+          "jpGuide2": "Action: 「このまま進む」を選択",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【学校】誰かに相談する",
+          "jpGuide1": "第二章：誰かに相談する",
+          "jpGuide2": "第二章 - Location 1: 相談先選択",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【屋上】屋上へ行く",
+          "jpGuide1": "第二章：屋上",
+          "jpGuide2": "Action: 「屋上」を選択",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】美鶴に任せる",
+          "jpGuide1": "第三章：美鶴に任せる",
+          "jpGuide2": "第三章：「美鶴に任せる」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】神社に行く",
+          "jpGuide1": "第三章：神社に行く",
+          "jpGuide2": "",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】誰かに相談する",
+          "jpGuide1": "第三章：誰かに相談する",
+          "jpGuide2": "第三章：「誰かに相談する」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「戦う」を選ぶ",
+          "jpGuide1": "[SAVE1] 戦う（誤：みんなが助かるなら → バッドエンド1）",
+          "jpGuide2": "SAVE1：美鶴に任せる・神社に行く・誰かに相談する → 「戦う」→継続／「みんなが助かるなら」→バッドエンド【バッドエンド解説第一回】",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「留まる」を選ぶ",
+          "jpGuide1": "[SAVE2] 留まる（誤：逃げる → バッドエンド4）",
+          "jpGuide2": "SAVE2：「留まる」→継続／「逃げる」→バッドエンド【バッドエンド解説第四回】",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「受け入れない」を選ぶ",
+          "jpGuide1": "[SAVE3] 受け入れない（誤：受け入れる → バッドエンド5）",
+          "jpGuide2": "SAVE3：「受け入れない」→継続／「受け入れる」→バッドエンド【バッドエンド解説第五回】",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「私を守ってくれたじゃない」を選ぶ（拓磨ルート継続）",
+          "jpGuide1": "[SAVE4] 私を守ってくれたじゃない（他の選択肢「何か力になりたい」を選ぶと別ルートへ分岐する）",
+          "jpGuide2": "第四章：「私を守ってくれたじゃない」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】もう一度説得してみる",
+          "jpGuide1": "第四章：神社 → もう一度説得してみる",
+          "jpGuide2": "第四章：「もう一度説得してみる」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【拓磨の部屋】家の外へ出る",
+          "jpGuide1": "第五章：拓磨の部屋 → 家の外",
+          "jpGuide2": "第五章：拓磨の部屋経由で「家の外」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【家の外】返事をする",
+          "jpGuide1": "第五章：返事をする",
+          "jpGuide2": "第五章：「家の外」→「返事をする」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】拓磨と一緒にいる",
+          "jpGuide1": "第五章：神社 → 拓磨と",
+          "jpGuide2": "第五章：「拓馬と」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】拓磨に声をかける",
+          "jpGuide1": "第五章：拓磨 → 声をかける",
+          "jpGuide2": "第五章：拓馬選択後「声をかける」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「引き留める」を選ぶ",
+          "jpGuide1": "[SAVE5] 引き留める（誤：大声で呼びかける → バッドエンド8）",
+          "jpGuide2": "SAVE4（第五章）：「引き留める」→継続／「大声で呼びかける」→バッドエンド【バッドエンド解説第八回】",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】ごめんと謝る",
+          "jpGuide1": "第六章：ごめん",
+          "jpGuide2": "第六章：「ごめん」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「刀を調べに行く」を選ぶ",
+          "jpGuide1": "[SAVE6] 刀を調べに行く（誤：蔵を調べに行く → バッドエンド13）",
+          "jpGuide2": "SAVE5（第六章）：「刀を調べに行く」→継続／「蔵を調べに行く」→バッドエンド【バッドエンド解説第十三回】",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】和解を試みる",
+          "jpGuide1": "第七章：和解を試みる",
+          "jpGuide2": "第七章：「和解を試みる」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】二人の先輩を止める",
+          "jpGuide1": "第七章：二人の先輩を止める",
+          "jpGuide2": "第七章：「先輩を止める」",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「アリアを庇う」を選ぶ",
+          "jpGuide1": "[SAVE7] アリアを庇う（誤：拓磨を止める → バッドエンド14）",
+          "jpGuide2": "SAVE6（第七章）：「アリアを庇う」（注記：「拓磨を止める」を選ぶとスチルありバッドエンド【バッドエンド解説第十四回】）",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「身を任す」を選ぶ",
+          "jpGuide1": "[SAVE8] 身を任す（誤：最後まで足掻く → バッドエンド15）",
+          "jpGuide2": "SAVE7（第七章）：「身を任す」→継続／「最後まで足掻く」→バッドエンド【バッドエンド解説第十五回】",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【神社】「わかった」を選ぶ",
+          "jpGuide1": "[SAVE9] わかった（誤：他に方法が → バッドエンド16）",
+          "jpGuide2": "SAVE8（第八章）：「わかった」→継続／「他に方法が」→バッドエンド【バッドエンド解説第十六回】",
+          "enGuide": ""
+        },
+        {
+          "simpleJp": "【エンディング】拓磨グッドエンドへ到達",
+          "jpGuide1": "[GOOD END]",
+          "jpGuide2": "拓磨 グッドエンド",
+          "enGuide": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://choro-game.com/e/hiiro-guide",
+      "title": "緋色の欠片 ～おもいいろの記憶～ 攻略 (choro / 乙女ゲーム攻略ブログ)",
+      "language": "ja",
+      "notes": "Complete guide hub for the Switch/Vita 'おもいいろの記憶' rerelease, linking to individual character pages (hiiro-guide-mahiro, hiiro-guide-shinzi, hiiro-guide-yuichi, hiiro-guide-takuma, and a Suguru page at blog-entry-2187.html). Explicitly states the recommended order '鬼崎拓磨or鴉取真弘⇒狐邑祐一⇒犬戒慎司⇒大蛇卓ot狗谷遼' and 'attack restrictions: none' (攻略制限：ありません) for this rerelease. Primary source for route order and for the claim that the rerelease removes Ryou's lock."
+    },
+    {
+      "url": "https://ruri-ototgame.hatenablog.com/entry/2024/08/20/233034",
+      "title": "緋色の欠片 〜 おもいいろの記憶 〜 本編攻略 (ruRiの気ままにオタ活, Hatena Blog)",
+      "language": "ja",
+      "notes": "Complete single-page walkthrough covering the common route split and per-character SAVE-point choice trees for all 6 guardians, with a full bad-end catalog (35 documented across all routes). States that the recommended order shown is the author's personal preference to minimize spoilers, and notes a shared save file between Suguru and Ryou ('共通SAVE（卓・遼）のデータがある場合はそこから進めてもOK'), used to corroborate the Suguru/Ryou route relationship. Primary source for common-route and SAVE-point structure."
+    },
+    {
+      "url": "https://half-a.net/games1/hiiro.html",
+      "title": "緋色の欠片 攻略 (HalfAdder)",
+      "language": "ja",
+      "notes": "Appears to be a complete walkthrough covering chapters 1-8, final chapter, and subsequent seasonal-event chapters (秋祭り編/バレンタイン編/クリスマス編) for all characters, based on search-result snippets and site structure. Direct fetch failed repeatedly during this research session (connection refused to the host) — content was NOT directly verified and should be re-fetched and cross-checked before being used to write final guide steps."
+    },
+    {
+      "url": "https://otomegamelover.com/hiironokakerakouryaku/",
+      "title": "『緋色の欠片』攻略 (乙女ゲームラバー)",
+      "language": "ja",
+      "notes": "Complete single consolidated page containing all six character routes' choice trees in one document (rather than separate linked pages). Confirms Takuma is commonly recommended as the first route and that Ryou 'cannot be played on the 1st or 2nd playthrough; only accessible starting from the 3rd playthrough' with specific conditions — used as the primary source for the original-version Ryou lock description."
+    },
+    {
+      "url": "http://omikigura.hanamizake.com/hiiro/hiiro_kutani_00.htm",
+      "title": "緋色の欠片 攻略：狗谷遼",
+      "language": "ja",
+      "notes": "Partial guide, Ryou-route only. Used to corroborate the shared/locked nature of Ryou's route; contains the phrase '二ルート目以降出現！同時出現となります' (appears from the 2nd route onward, appearing simultaneously with other routes). Page had encoding issues when fetched, so exact unlock wording is lower-confidence than the other sources and is treated as supporting rather than authoritative for the exact playthrough-count threshold."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E7%B7%8B%E8%89%B2%E3%81%AE%E6%AC%A0%E7%89%87",
+      "title": "緋色の欠片 - Wikipedia",
+      "language": "ja",
+      "notes": "Reference only (not a walkthrough). Used to confirm the five/six guardian character names and readings, and the list of related series titles (Hiiro no Kakera 2/3/4, Switch remaster, fandisc)."
+    },
+    {
+      "url": "https://v-storage.jp/sp-site/hiiro-no-kakera/sp/chara/04.html",
+      "title": "大蛇 卓 [SUGURU OHMI] - TVアニメ『緋色の欠片』公式サイト",
+      "language": "ja",
+      "notes": "Reference only. Official anime site character page, used to resolve the correct reading/romanization of 大蛇卓 as 'Suguru Oomi/Ohmi' (surname Oomi, given name Suguru) after auto-generated summaries inconsistently rendered it as 'Orochi Taku' or 'Oomi Taku'."
+    },
+    {
+      "url": "https://vndb.org/v1629",
+      "title": "Hiiro no Kakera - VNDB entry v1629",
+      "language": "en",
+      "notes": "Reference only. Confirms VNDB id v1629 corresponds to the original July 6, 2006 PC release of 緋色の欠片, and that all later ports (PSP 2008, DS 2008, PS3 'Aizouban ~Akane Iro no Tsuioku~' 2011, Vita 'Omoi Iro no Kioku' 2017, Switch 'Tamayori Hime Kitan ~Omoi Iro no Kioku~' 2024) are releases under this same VNDB entry rather than separate titles. This is why Japanese guides referencing the 'おもいいろの記憶' subtitle are valid sources for v1629."
+    }
+  ],
+  "generated_at": "2026-07-08T19:07:51.194834+00:00"
 }

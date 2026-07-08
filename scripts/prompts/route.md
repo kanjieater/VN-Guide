@@ -36,7 +36,10 @@ Output file: `$ROUTE_FILE`
 - If the game transitions scenes automatically (most otome/ADV games), **omit the location tag**
 - Only use 【場所】 when the player is presented with a navigation menu or must choose where to go
 - For choices: `「選択肢のテキスト」を選ぶ`
-- For saves: `セーブする（ルート分岐前）` — add a save step **before** any choice that branches to a different route or ending
+- For saves: add a save step **before** any choice that branches to a different route or ending
+  - If the source guides use numbered slots, mirror those numbers: `セーブ1（ルート分岐前）`
+  - If a later step requires returning to this point, include a load step there: `セーブ1にロード（〇〇ルートへ）`
+  - If no numbered scheme exists in the sources, use: `セーブする（ルート分岐前）`
 - One action per step; do not combine multiple actions
 
 ### Other rules

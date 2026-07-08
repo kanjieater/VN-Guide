@@ -1,4 +1,4 @@
-"""Fetch the user's VNDB "Playing" list and return structured VN metadata."""
+"""Fetch a user's VNDB list by label and return structured VN metadata."""
 import json
 import os
 import re
@@ -49,12 +49,14 @@ def _parse_cover(vn: dict) -> str | None:
 
 
 def fetch_playing_list(user: str) -> list[dict]:
-    """Return list of VNs currently on the user's Playing list (label 1).
+    """Return list of VNs from the user's VNDB list for the configured label.
 
+    Label is read from VNDB_LABEL env var (default 31).
     Each entry: { vndb_id, title, alttitle, cover_url }
     cover_url is None if the cover is flagged sexual >= 2.
     """
     uid = resolve_user_id(user)
+    label = int(os.environ.get("VNDB_LABEL", "31"))
     results = []
     page = 1
     while True:
@@ -62,7 +64,7 @@ def fetch_playing_list(user: str) -> list[dict]:
             # ulist entry: { id: "v1234", vn: { title, alttitle, image{} } }
             body = _post("ulist", {
                 "user": uid,
-                "filters": ["label", "=", 1],
+                "filters": ["label", "=", label],
                 "fields": "vn{id,title,alttitle,image{url,sexual,violence}}",
                 "results": 100,
                 "page": page,

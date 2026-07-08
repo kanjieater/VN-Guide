@@ -22,7 +22,7 @@ Output file: `$ROUTE_FILE`
 ```json
 [
   {
-    "simpleJp": "【場所】アクション",
+    "simpleJp": "アクション",
     "jpGuide1": "verbatim text from primary JP source",
     "jpGuide2": "verbatim text from secondary JP source, or empty string",
     "enGuide": "English reference if available, or empty string"
@@ -30,9 +30,17 @@ Output file: `$ROUTE_FILE`
 ]
 ```
 
-### Rules
+### Rules for simpleJp
 
-- `simpleJp` format: `【location】action` — concise, one action per step
+- Keep it to the action only — no location prefix unless the player must explicitly navigate somewhere
+- If the game transitions scenes automatically (most otome/ADV games), **omit the location tag**
+- Only use 【場所】 when the player is presented with a navigation menu or must choose where to go
+- For choices: `「選択肢のテキスト」を選ぶ`
+- For saves: `セーブする（ルート分岐前）` — add a save step **before** any choice that branches to a different route or ending
+- One action per step; do not combine multiple actions
+
+### Other rules
+
 - `jpGuide1` / `jpGuide2`: preserve source wording exactly (this is the hidden reference section from the instructions above)
 - Cover the **complete** route from start to end — all required choices and transitions
 - Stop at this route's ending; do not continue into the next route

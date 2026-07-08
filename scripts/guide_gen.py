@@ -194,8 +194,10 @@ def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
 
 
 def run() -> None:
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        log("ANTHROPIC_API_KEY not set — skipping guide generation")
+    has_api_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    has_oauth = Path.home().joinpath(".claude", ".credentials.json").exists()
+    if not has_api_key and not has_oauth:
+        log("No Anthropic credentials found — skipping guide generation")
         return
 
     if not GAMES_JSON.exists():

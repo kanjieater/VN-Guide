@@ -9,8 +9,15 @@ GIT_NAME="${GIT_NAME:-VN Guide Bot}"
 # Trust the mounted repo (container runs as root, repo owned by host user)
 git config --global --add safe.directory "${REPO_PATH}"
 
-# Configure git credentials once via ~/.netrc (token never appears in remote URL or args)
+# Accept GitHub's SSH host key so git push works without interactive prompt
+mkdir -p ~/.ssh
+ssh-keyscan -H github.com >> ~/.ssh/known_hosts 2>/dev/null
+chmod 600 ~/.ssh/known_hosts
+
+# Switch remote to HTTPS and configure token auth so we don't need SSH keys
 if [ -n "${GITHUB_TOKEN:-}" ]; then
+    git -C "${REPO_PATH}" remote set-url origin \
+        "https://github.com/kanjieater/VN-Guide.git"
     printf 'machine github.com\nlogin %s\npassword %s\n' \
         "${VNDB_USER:-kanjieater}" "${GITHUB_TOKEN}" > ~/.netrc
     chmod 600 ~/.netrc

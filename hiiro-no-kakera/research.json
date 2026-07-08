@@ -1,0 +1,101 @@
+{
+  "title": "Hiiro no Kakera",
+  "vndb_id": "v1629",
+  "routes": [
+    {
+      "id": "takuma",
+      "title": "鬼崎拓磨ルート",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Onizaki Takuma. Classmate of the heroine, oni-blooded guardian. Available from the very first playthrough. Frequently recommended as the first or second route (interchangeable with Mahiro). Has a Good End, a shared 'Tragic End' (悲恋エンド, sometimes called あかねいろの追憶/'Akane-iro no Tsuioku', tied to the PS3 special edition subtitle) reachable from near-zero affection, and multiple bad ends."
+    },
+    {
+      "id": "mahiro",
+      "title": "鴉取真弘ルート",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Atori Mahiro. Senpai, tsundere, yatagarasu-blooded guardian. Available from the first playthrough. Interchangeable with Takuma as the recommended opening route. 1 Good End + 5 documented Bad Ends per choro-game/hatenablog sources; Takuma's Tragic End is also reachable/referenced from this route's data."
+    },
+    {
+      "id": "yuuichi",
+      "title": "狐邑祐一ルート",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Komura Yuuichi. Senpai, kuudere, kitsune-blooded guardian. All sources place this in the middle of the recommended order, after Takuma/Mahiro. No hard lock was documented (available at least by 2nd playthrough), but it is never recommended as an opening route."
+    },
+    {
+      "id": "shinji",
+      "title": "犬戒慎司ルート",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Inukai Shinji. Kouhai, kind/romantic type, dog-blooded guardian. Placed with Yuuichi in the middle tier of the recommended order, generally played right after Takuma/Mahiro and alongside/after Yuuichi."
+    },
+    {
+      "id": "suguru",
+      "title": "大蛇卓ルート",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Oomi Suguru (大蛇 卓, official romanization 'Suguru Ohmi/Oomi' per the anime's official character site; the surname 大蛇 reads Oomi, given name 卓 reads Suguru — NOT 'Taku', despite that misreading appearing in some auto-generated summaries). Older adult-type guardian, serpent-blooded. Recommended as one of the last two routes, alongside Ryou. The walkthrough sources note a shared save point with Ryou's route ('共通SAVE（卓・遼）') partway through, meaning a save made on this route can be reused to branch into Ryou's."
+    },
+    {
+      "id": "ryo",
+      "title": "狗谷遼ルート",
+      "prerequisites": ["takuma", "mahiro", "yuuichi", "shinji"],
+      "is_true_ending": false,
+      "notes": "Kutani Ryou. The hidden 6th guardian (dog-blooded). VERSION-DEPENDENT LOCK: in the original 2006 PC release (and the PSP/DS/PS3 ports that followed, all under VNDB v1629), this route is NOT selectable on the 1st or 2nd playthrough; multiple Japanese sources state it opens starting on the 3rd playthrough, after clearing at least one of Takuma/Mahiro AND at least one of Yuuichi/Shinji, and additionally requires triggering Ryou's appearance during Chapter 3 of that playthrough or the route will not continue. In the 2024 Nintendo Switch / Vita 'おもいいろの記憶' rerelease, the choro-game guide explicitly states there are no route restrictions ('攻略制限：ありません') — all 6 routes, including Ryou's, are selectable from the start. Treated by consensus as the route to play last regardless of platform, since it is written as capstone/bonus content even where not mechanically locked."
+    }
+  ],
+  "recommended_order": ["takuma", "mahiro", "yuuichi", "shinji", "suguru", "ryo"],
+  "sources": [
+    {
+      "url": "https://choro-game.com/e/hiiro-guide",
+      "title": "緋色の欠片 ～おもいいろの記憶～ 攻略 (choro / 乙女ゲーム攻略ブログ)",
+      "language": "ja",
+      "notes": "Complete guide hub for the Switch/Vita 'おもいいろの記憶' rerelease, linking to individual character pages (hiiro-guide-mahiro, hiiro-guide-shinzi, hiiro-guide-yuichi, hiiro-guide-takuma, and a Suguru page at blog-entry-2187.html). Explicitly states the recommended order '鬼崎拓磨or鴉取真弘⇒狐邑祐一⇒犬戒慎司⇒大蛇卓ot狗谷遼' and 'attack restrictions: none' (攻略制限：ありません) for this rerelease. Primary source for route order and for the claim that the rerelease removes Ryou's lock."
+    },
+    {
+      "url": "https://ruri-ototgame.hatenablog.com/entry/2024/08/20/233034",
+      "title": "緋色の欠片 〜 おもいいろの記憶 〜 本編攻略 (ruRiの気ままにオタ活, Hatena Blog)",
+      "language": "ja",
+      "notes": "Complete single-page walkthrough covering the common route split and per-character SAVE-point choice trees for all 6 guardians, with a full bad-end catalog (35 documented across all routes). States that the recommended order shown is the author's personal preference to minimize spoilers, and notes a shared save file between Suguru and Ryou ('共通SAVE（卓・遼）のデータがある場合はそこから進めてもOK'), used to corroborate the Suguru/Ryou route relationship. Primary source for common-route and SAVE-point structure."
+    },
+    {
+      "url": "https://half-a.net/games1/hiiro.html",
+      "title": "緋色の欠片 攻略 (HalfAdder)",
+      "language": "ja",
+      "notes": "Appears to be a complete walkthrough covering chapters 1-8, final chapter, and subsequent seasonal-event chapters (秋祭り編/バレンタイン編/クリスマス編) for all characters, based on search-result snippets and site structure. Direct fetch failed repeatedly during this research session (connection refused to the host) — content was NOT directly verified and should be re-fetched and cross-checked before being used to write final guide steps."
+    },
+    {
+      "url": "https://otomegamelover.com/hiironokakerakouryaku/",
+      "title": "『緋色の欠片』攻略 (乙女ゲームラバー)",
+      "language": "ja",
+      "notes": "Complete single consolidated page containing all six character routes' choice trees in one document (rather than separate linked pages). Confirms Takuma is commonly recommended as the first route and that Ryou 'cannot be played on the 1st or 2nd playthrough; only accessible starting from the 3rd playthrough' with specific conditions — used as the primary source for the original-version Ryou lock description."
+    },
+    {
+      "url": "http://omikigura.hanamizake.com/hiiro/hiiro_kutani_00.htm",
+      "title": "緋色の欠片 攻略：狗谷遼",
+      "language": "ja",
+      "notes": "Partial guide, Ryou-route only. Used to corroborate the shared/locked nature of Ryou's route; contains the phrase '二ルート目以降出現！同時出現となります' (appears from the 2nd route onward, appearing simultaneously with other routes). Page had encoding issues when fetched, so exact unlock wording is lower-confidence than the other sources and is treated as supporting rather than authoritative for the exact playthrough-count threshold."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E7%B7%8B%E8%89%B2%E3%81%AE%E6%AC%A0%E7%89%87",
+      "title": "緋色の欠片 - Wikipedia",
+      "language": "ja",
+      "notes": "Reference only (not a walkthrough). Used to confirm the five/six guardian character names and readings, and the list of related series titles (Hiiro no Kakera 2/3/4, Switch remaster, fandisc)."
+    },
+    {
+      "url": "https://v-storage.jp/sp-site/hiiro-no-kakera/sp/chara/04.html",
+      "title": "大蛇 卓 [SUGURU OHMI] - TVアニメ『緋色の欠片』公式サイト",
+      "language": "ja",
+      "notes": "Reference only. Official anime site character page, used to resolve the correct reading/romanization of 大蛇卓 as 'Suguru Oomi/Ohmi' (surname Oomi, given name Suguru) after auto-generated summaries inconsistently rendered it as 'Orochi Taku' or 'Oomi Taku'."
+    },
+    {
+      "url": "https://vndb.org/v1629",
+      "title": "Hiiro no Kakera - VNDB entry v1629",
+      "language": "en",
+      "notes": "Reference only. Confirms VNDB id v1629 corresponds to the original July 6, 2006 PC release of 緋色の欠片, and that all later ports (PSP 2008, DS 2008, PS3 'Aizouban ~Akane Iro no Tsuioku~' 2011, Vita 'Omoi Iro no Kioku' 2017, Switch 'Tamayori Hime Kitan ~Omoi Iro no Kioku~' 2024) are releases under this same VNDB entry rather than separate titles. This is why Japanese guides referencing the 'おもいいろの記憶' subtitle are valid sources for v1629."
+    }
+  ],
+  "disagreements": "1) Ryou (狗谷遼) route lock: sources disagree on the exact unlock threshold and mechanism. otomegamelover states he is unlocked starting the 3rd playthrough after clearing one of Takuma/Mahiro and one of Yuuichi/Shinji, plus triggering his appearance in Chapter 3 of that playthrough. omikigura's Ryou-specific page instead says he appears 'from the 2nd route onward' (二ルート目以降). This is very likely a version/edition difference rather than a true contradiction: the original PC (2006) and its PSP/DS/PS3 ports appear to lock Ryou behind prior clears, while the 2024 choro-game guide for the Switch/Vita 'おもいいろの記憶' rerelease explicitly states there are NO route restrictions at all ('攻略制限：ありません'), meaning every route including Ryou's is open from a fresh save. The guide should therefore present Ryou as playable-last by convention/recommendation, and separately flag (in a note, not a hard gate) that older versions require clearing at least one Takuma/Mahiro route and one Yuuichi/Shinji route first, with Chapter 3 appearance being necessary for the route to continue. 2) Naming: 大蛇卓 is rendered inconsistently across auto-summarized sources as 'Orochi Taku', 'Oomi Taku', or 'Suguru Ohmi'; the official anime character site confirms 'Suguru Ohmi/Oomi' is correct (surname Oomi, given name Suguru), so the guide should use Oomi Suguru / 'suguru' as the id. 3) No source describes an overarching 'true end' unlocked after clearing all six routes — each character route stands alone with its own Good End, a rarer Tragic End (悲恋エンド), and several Bad Ends, so none of the six routes is flagged is_true_ending; Ryou is best understood as a bonus/capstone route by convention rather than a narrative true route. 4) No complete, choice-level English walkthrough was found (only reviews on sites like Bread Master Lee and a fandom wiki page that returned an access error); per the brief's instructions, no English guide is used as a primary or even supplementary source for this game — Japanese sources take full precedence.",
+  "generated_at": "2026-07-08T12:30:00+00:00"
+}

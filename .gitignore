@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 image.png
 prompt.md
+
+# Intermediate guide generation files (kept on disk for resumability, not committed)
+**/route_*.json

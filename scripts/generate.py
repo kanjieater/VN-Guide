@@ -71,15 +71,14 @@ def make_slug(title: str, alttitle: str, vndb_id: str, used: set[str]) -> str:
 # ── Scaffold new guide dirs ───────────────────────────────────────────────────
 
 def scaffold_guide(slug: str, title: str, vndb_id: str) -> None:
-    stub = STUB_TMPL.read_text()
-    stub = stub.replace("{{TITLE}}", title)
-    stub = stub.replace("{{VNDB_ID}}", vndb_id)
-    stub = stub.replace("{{SLUG}}", slug)
-
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
-    (guide_dir / "index.html").write_text(stub)
-    print(f"[generate] Scaffolded guide: {slug}/index.html")
+    (guide_dir / "index.html").write_text(STUB_TMPL.read_text())
+    guide_json = {"title": title, "vndb_id": vndb_id, "routes": []}
+    (guide_dir / "guide.json").write_text(
+        json.dumps(guide_json, ensure_ascii=False, indent=2)
+    )
+    print(f"[generate] Scaffolded guide: {slug}/")
 
 
 # ── Landing page ──────────────────────────────────────────────────────────────

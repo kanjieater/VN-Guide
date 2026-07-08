@@ -6,6 +6,9 @@ RUN_INTERVAL_HOURS="${RUN_INTERVAL_HOURS:-6}"
 GIT_EMAIL="${GIT_EMAIL:-vn-guide-bot@shke.xyz}"
 GIT_NAME="${GIT_NAME:-VN Guide Bot}"
 
+# Trust the mounted repo (container runs as root, repo owned by host user)
+git config --global --add safe.directory "${REPO_PATH}"
+
 # Configure git credentials once via ~/.netrc (token never appears in remote URL or args)
 if [ -n "${GITHUB_TOKEN:-}" ]; then
     printf 'machine github.com\nlogin %s\npassword %s\n' \
@@ -19,6 +22,7 @@ git -C "${REPO_PATH}" config user.name "${GIT_NAME}"
 run_pipeline() {
     echo "[$(date -Iseconds)] Starting VN guide sync"
     python3 /app/scripts/generate.py
+    python3 /app/scripts/guide_gen.py
     python3 /app/scripts/deploy.py
     echo "[$(date -Iseconds)] Sync complete"
 }

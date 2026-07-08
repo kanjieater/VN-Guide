@@ -96,13 +96,25 @@ def load_completed_routes(routes: list[dict], guide_dir: Path) -> list[dict]:
     return result
 
 
-def assemble(slug: str, title: str, vndb_id: str, guide_routes: list[dict],
+def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
              guide_dir: Path, research: dict) -> None:
-    """Write guide.json with whatever routes are complete so far."""
+    """Write guide.json with metadata + route list (no steps — steps live in route_{id}.json).
+
+    The HTML fetches route_{id}.json lazily when a route is selected.
+    stepCount is included so the home screen can show progress % without loading steps.
+    """
+    route_list = [
+        {
+            "id": r["id"],
+            "title": r["title"],
+            "stepCount": len(r["steps"]),
+        }
+        for r in completed_routes
+    ]
     guide_data = {
         "title": title,
         "vndb_id": vndb_id,
-        "routes": guide_routes,
+        "routes": route_list,
         "sources": research.get("sources", []),
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
@@ -110,7 +122,8 @@ def assemble(slug: str, title: str, vndb_id: str, guide_routes: list[dict],
         json.dumps(guide_data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    log(f"Assembled guide.json ({len(guide_routes)}/{len(research.get('routes', []))} routes)")
+    total = len(research.get("routes", []))
+    log(f"Updated guide.json ({len(route_list)}/{total} routes)")
 
 
 def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool:
@@ -192,11 +205,6 @@ def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
         completed = load_completed_routes(routes, guide_dir)
         assemble(slug, title, vndb_id, completed, guide_dir, research)
         run_deploy()
-
-    # All routes done — clean up intermediate files
-    for route_file in guide_dir.glob("route_*.json"):
-        route_file.unlink()
-        log(f"Removed {route_file.name}")
 
     return True
 

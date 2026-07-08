@@ -351,7 +351,8 @@ function renderHome() {
   status.style.display = "none";
   list.innerHTML = guideData.routes.map(r => {
     const prog = state.progress[r.id] || 0;
-    const pct = r.steps.length ? Math.round(prog / r.steps.length * 100) : 0;
+    const total = r.steps ? r.steps.length : (r.stepCount || 0);
+    const pct = total ? Math.round(prog / total * 100) : 0;
     return `<li><button onclick="startRoute('${r.id}')">
       <span>${r.title}</span>
       <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
@@ -360,10 +361,18 @@ function renderHome() {
   showView("view-home");
 }
 
-function startRoute(id) {
+async function startRoute(id) {
   state.currentRoute = id;
   if (!(id in state.progress)) state.progress[id] = 0;
   saveState();
+  // Lazy-load steps from route_{id}.json if not already in memory
+  const route = guideData.routes.find(r => r.id === id);
+  if (route && !route.steps) {
+    try {
+      const res = await fetch(`./route_${id}.json`);
+      if (res.ok) route.steps = await res.json();
+    } catch {}
+  }
   renderSlide();
 }
 
@@ -374,7 +383,7 @@ function currentRoute() {
 
 function renderSlide() {
   const route = currentRoute();
-  if (!route) { renderHome(); return; }
+  if (!route || !route.steps || !route.steps.length) { renderHome(); return; }
   const idx = state.progress[route.id] || 0;
   const step = route.steps[idx];
   const total = route.steps.length;
@@ -442,7 +451,7 @@ function goHome() {
 // ── Jump list ─────────────────────────────────────────────────────────────────
 function showJump() {
   const route = currentRoute();
-  if (!route) return;
+  if (!route || !route.steps) return;
   document.getElementById("jump-route-title").textContent = route.title;
   const list = document.getElementById("jump-list");
   list.innerHTML = route.steps.map((s, i) =>

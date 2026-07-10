@@ -1,54 +1,54 @@
 [
   {
-    "simpleJp": "「校内を探す」",
+    "simpleJp": "校内を探す",
     "jpGuide1": "第一章：学校内を探す",
     "jpGuide2": "第一章 - Location 1: 学校内／Action: 「屋上」を選択",
     "enGuide": ""
   },
   {
-    "simpleJp": "「屋上を探す」",
+    "simpleJp": "屋上を探す",
     "jpGuide1": "第一章：屋上を探す",
     "jpGuide2": "",
     "enGuide": ""
   },
   {
-    "simpleJp": "「いつもの道」",
+    "simpleJp": "いつもの道",
     "jpGuide1": "第一章：いつもの道",
     "jpGuide2": "第一章 - Location 2: いつもの道",
     "enGuide": ""
   },
   {
-    "simpleJp": "「このまま進む」",
+    "simpleJp": "このまま進む",
     "jpGuide1": "第一章：このまま進む",
     "jpGuide2": "Action: 「このまま進む」を選択",
     "enGuide": ""
   },
   {
-    "simpleJp": "「誰かに相談する」",
+    "simpleJp": "誰かに相談する",
     "jpGuide1": "第二章：誰かに相談する",
     "jpGuide2": "第二章 - Location 1: 相談先選択",
     "enGuide": ""
   },
   {
-    "simpleJp": "「屋上へ行く」",
+    "simpleJp": "屋上へ行く",
     "jpGuide1": "第二章：屋上",
     "jpGuide2": "Action: 「屋上」を選択",
     "enGuide": ""
   },
   {
-    "simpleJp": "「美鶴に任せる」",
+    "simpleJp": "美鶴に任せる",
     "jpGuide1": "第三章：美鶴に任せる",
     "jpGuide2": "第三章：「美鶴に任せる」",
     "enGuide": ""
   },
   {
-    "simpleJp": "「神社に行く」",
+    "simpleJp": "神社に行く",
     "jpGuide1": "第三章：神社に行く",
     "jpGuide2": "",
     "enGuide": ""
   },
   {
-    "simpleJp": "「誰かに相談する」",
+    "simpleJp": "誰かに相談する",
     "jpGuide1": "第三章：誰かに相談する",
     "jpGuide2": "第三章：「誰かに相談する」",
     "enGuide": ""
@@ -60,7 +60,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「戦う」",
+    "simpleJp": "戦う",
     "jpGuide1": "[SAVE1] 戦う（誤：みんなが助かるなら → バッドエンド1）",
     "jpGuide2": "SAVE1：美鶴に任せる・神社に行く・誰かに相談する → 「戦う」→継続／「みんなが助かるなら」→バッドエンド【バッドエンド解説第一回】",
     "enGuide": ""
@@ -72,7 +72,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「留まる」",
+    "simpleJp": "留まる",
     "jpGuide1": "[SAVE2] 留まる（誤：逃げる → バッドエンド4）",
     "jpGuide2": "SAVE2：「留まる」→継続／「逃げる」→バッドエンド【バッドエンド解説第四回】",
     "enGuide": ""
@@ -84,7 +84,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「受け入れない」",
+    "simpleJp": "受け入れない",
     "jpGuide1": "[SAVE3] 受け入れない（誤：受け入れる → バッドエンド5）",
     "jpGuide2": "SAVE3：「受け入れない」→継続／「受け入れる」→バッドエンド【バッドエンド解説第五回】",
     "enGuide": ""
@@ -96,37 +96,37 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「私を守ってくれたじゃない」",
+    "simpleJp": "私を守ってくれたじゃない",
     "jpGuide1": "[SAVE4] 私を守ってくれたじゃない（他の選択肢「何か力になりたい」を選ぶと別ルートへ分岐する）",
     "jpGuide2": "第四章：「私を守ってくれたじゃない」",
     "enGuide": ""
   },
   {
-    "simpleJp": "「もう一度説得してみる」",
+    "simpleJp": "もう一度説得してみる",
     "jpGuide1": "第四章：神社 → もう一度説得してみる",
     "jpGuide2": "第四章：「もう一度説得してみる」",
     "enGuide": ""
   },
   {
-    "simpleJp": "「家の外へ出る」",
+    "simpleJp": "家の外へ出る",
     "jpGuide1": "第五章：拓磨の部屋 → 家の外",
     "jpGuide2": "第五章：拓磨の部屋経由で「家の外」",
     "enGuide": ""
   },
   {
-    "simpleJp": "「返事をする」",
+    "simpleJp": "返事をする",
     "jpGuide1": "第五章：返事をする",
     "jpGuide2": "第五章：「家の外」→「返事をする」",
     "enGuide": ""
   },
   {
-    "simpleJp": "「拓磨と一緒にいる」",
+    "simpleJp": "拓磨と一緒にいる",
     "jpGuide1": "第五章：神社 → 拓磨と",
     "jpGuide2": "第五章：「拓馬と」",
     "enGuide": ""
   },
   {
-    "simpleJp": "「拓磨に声をかける」",
+    "simpleJp": "拓磨に声をかける",
     "jpGuide1": "第五章：拓磨 → 声をかける",
     "jpGuide2": "第五章：拓馬選択後「声をかける」",
     "enGuide": ""
@@ -138,13 +138,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「引き留める」",
+    "simpleJp": "引き留める",
     "jpGuide1": "[SAVE5] 引き留める（誤：大声で呼びかける → バッドエンド8）",
     "jpGuide2": "SAVE4（第五章）：「引き留める」→継続／「大声で呼びかける」→バッドエンド【バッドエンド解説第八回】",
     "enGuide": ""
   },
   {
-    "simpleJp": "「ごめんと謝る」",
+    "simpleJp": "ごめんと謝る",
     "jpGuide1": "第六章：ごめん",
     "jpGuide2": "第六章：「ごめん」",
     "enGuide": ""
@@ -156,19 +156,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「刀を調べに行く」",
+    "simpleJp": "刀を調べに行く",
     "jpGuide1": "[SAVE6] 刀を調べに行く（誤：蔵を調べに行く → バッドエンド13）",
     "jpGuide2": "SAVE5（第六章）：「刀を調べに行く」→継続／「蔵を調べに行く」→バッドエンド【バッドエンド解説第十三回】",
     "enGuide": ""
   },
   {
-    "simpleJp": "「和解を試みる」",
+    "simpleJp": "和解を試みる",
     "jpGuide1": "第七章：和解を試みる",
     "jpGuide2": "第七章：「和解を試みる」",
     "enGuide": ""
   },
   {
-    "simpleJp": "「二人の先輩を止める」",
+    "simpleJp": "二人の先輩を止める",
     "jpGuide1": "第七章：二人の先輩を止める",
     "jpGuide2": "第七章：「先輩を止める」",
     "enGuide": ""
@@ -180,7 +180,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「アリアを庇う」",
+    "simpleJp": "アリアを庇う",
     "jpGuide1": "[SAVE7] アリアを庇う（誤：拓磨を止める → バッドエンド14）",
     "jpGuide2": "SAVE6（第七章）：「アリアを庇う」（注記：「拓磨を止める」を選ぶとスチルありバッドエンド【バッドエンド解説第十四回】）",
     "enGuide": ""
@@ -192,7 +192,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「身を任す」",
+    "simpleJp": "身を任す",
     "jpGuide1": "[SAVE8] 身を任す（誤：最後まで足掻く → バッドエンド15）",
     "jpGuide2": "SAVE7（第七章）：「身を任す」→継続／「最後まで足掻く」→バッドエンド【バッドエンド解説第十五回】",
     "enGuide": ""
@@ -204,7 +204,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "「わかった」",
+    "simpleJp": "わかった",
     "jpGuide1": "[SAVE9] わかった（誤：他に方法が → バッドエンド16）",
     "jpGuide2": "SAVE8（第八章）：「わかった」→継続／「他に方法が」→バッドエンド【バッドエンド解説第十六回】",
     "enGuide": ""

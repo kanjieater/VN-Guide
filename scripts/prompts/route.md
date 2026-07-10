@@ -22,7 +22,7 @@ Output file: `$ROUTE_FILE`
 ```json
 [
   {
-    "simpleJp": "アクション",
+    "simpleJp": "戦う",
     "jpGuide1": "verbatim text from primary JP source",
     "jpGuide2": "verbatim text from secondary JP source, or empty string",
     "enGuide": "English reference if available, or empty string"
@@ -32,12 +32,12 @@ Output file: `$ROUTE_FILE`
 
 ### Rules for simpleJp
 
-**Every player action is a choice. Every choice gets 「」 brackets. No exceptions.**
+**Every player action is a choice. Write the exact text from the choice box, nothing more.**
 
-In a choice-based VN, every step where the player selects something — whether it is a dialogue option, a route branch, or a location/exploration selection screen — is a choice. All of them get 「」.
+In a choice-based VN, every step where the player selects something — whether it is a dialogue option, a route branch, or a location/exploration selection screen — is a choice.
 
-- Write the exact text that appears in the game's choice box, wrapped in 「」
-- Examples: `「戦う」` `「神社へ行く」` `「学校の外を探す」` `「このまま進む」`
+- Write the exact text that appears in the game's choice box, as plain text — no brackets, no punctuation added
+- Examples: `戦う` `神社へ行く` `学校の外を探す` `このまま進む`
 - **Never add** `を選ぶ`、`を選択する`、`に進む`、or any other suffix. The choice text alone is the step.
 - **No location prefix** — omit 【場所】 entirely. Scenes transition automatically in this genre.
 - The only steps without 「」 are saves (`セーブ1`) and the final ending label

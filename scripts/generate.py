@@ -107,7 +107,8 @@ def generate_landing(games: dict) -> None:
 def run() -> None:
     user = os.environ.get("VNDB_USER", "kanjieater")
 
-    print(f"[generate] Fetching VNDB playing list for {user}")
+    label = os.environ.get("VNDB_LABEL", "31")
+    print(f"[generate] Fetching VNDB list (label {label}) for {user}")
     try:
         playing = pull_vndb.fetch_playing_list(user)
     except Exception as e:

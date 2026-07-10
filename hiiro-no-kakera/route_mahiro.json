@@ -1,86 +1,92 @@
 [
   {
-    "simpleJp": "学校の外を探す",
+    "simpleJp": "「学校の外を探す」",
     "jpGuide1": "第一章：学校の外を探す",
     "jpGuide2": "第一章：「学校の外を探す」",
     "enGuide": ""
   },
   {
-    "simpleJp": "校舎の外を探す",
+    "simpleJp": "「校舎の外を探す」",
     "jpGuide1": "第一章：校舎の外",
     "jpGuide2": "第一章：「校舎の外」",
     "enGuide": ""
   },
   {
-    "simpleJp": "近道らしい林の道を選ぶ",
+    "simpleJp": "「近道らしい林の道」",
     "jpGuide1": "第一章：近道らしい林の道",
     "jpGuide2": "第一章：「近道らしい林の道」",
     "enGuide": ""
   },
   {
-    "simpleJp": "このまま進む",
+    "simpleJp": "「このまま進む」",
     "jpGuide1": "第一章：このまま進む",
     "jpGuide2": "第一章：「このまま進む」",
     "enGuide": ""
   },
   {
-    "simpleJp": "神社へ行く",
+    "simpleJp": "「神社へ行く」",
     "jpGuide1": "第二章：神社",
     "jpGuide2": "第二章：「神社」",
     "enGuide": ""
   },
   {
-    "simpleJp": "相談しない",
+    "simpleJp": "「相談しない」",
     "jpGuide1": "第二章：相談しない",
     "jpGuide2": "第二章：「相談しない」",
     "enGuide": ""
   },
   {
-    "simpleJp": "そのまま向かう",
+    "simpleJp": "「そのまま向かう」",
     "jpGuide1": "第二章：そのまま向かう",
     "jpGuide2": "第二章：「そのまま向かう」",
     "enGuide": ""
   },
   {
-    "simpleJp": "身を隠す",
+    "simpleJp": "「身を隠す」",
     "jpGuide1": "第二章：身を隠す",
     "jpGuide2": "第二章：「身を隠す」",
     "enGuide": ""
   },
   {
-    "simpleJp": "美鶴に任せる",
+    "simpleJp": "「美鶴に任せる」",
     "jpGuide1": "第三章：美鶴に任せる",
     "jpGuide2": "第三章：「美鶴に任せる」",
     "enGuide": ""
   },
   {
-    "simpleJp": "神社に行く",
+    "simpleJp": "「神社に行く」",
     "jpGuide1": "第三章：神社に行く",
     "jpGuide2": "第三章：「神社に行く」",
     "enGuide": ""
   },
   {
-    "simpleJp": "誰かに相談する",
+    "simpleJp": "「誰かに相談する」",
     "jpGuide1": "第三章：誰かに相談する",
     "jpGuide2": "第三章：「誰かに相談する」",
     "enGuide": ""
   },
   {
-    "simpleJp": "戦う",
+    "simpleJp": "「戦う」",
     "jpGuide1": "第三章：戦う",
     "jpGuide2": "第三章：「戦う」",
     "enGuide": ""
   },
   {
-    "simpleJp": "留まる",
+    "simpleJp": "「留まる」",
     "jpGuide1": "第三章：留まる",
     "jpGuide2": "第三章：「留まる」",
     "enGuide": ""
   },
   {
-    "simpleJp": "受け入れない",
+    "simpleJp": "「受け入れない」",
     "jpGuide1": "第三章：受け入れない",
     "jpGuide2": "第三章：「受け入れない」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "",
+    "jpGuide2": "",
     "enGuide": ""
   },
   {
@@ -90,49 +96,49 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "神社へ行く",
+    "simpleJp": "「神社へ行く」",
     "jpGuide1": "第四章：神社",
     "jpGuide2": "第四章：「神社」",
     "enGuide": ""
   },
   {
-    "simpleJp": "大声で呼び止める",
+    "simpleJp": "「大声で呼び止める」",
     "jpGuide1": "第四章：大声で呼び止める",
     "jpGuide2": "第四章：「大声で呼び止める」",
     "enGuide": ""
   },
   {
-    "simpleJp": "真弘の部屋へ行く",
+    "simpleJp": "「真弘の部屋へ行く」",
     "jpGuide1": "第五章：真弘の部屋",
     "jpGuide2": "第五章：「真弘の部屋」",
     "enGuide": ""
   },
   {
-    "simpleJp": "聞き耳を立てる",
+    "simpleJp": "「聞き耳を立てる」",
     "jpGuide1": "第五章：聞き耳を立てる",
     "jpGuide2": "第五章：「聞き耳を立てる」",
     "enGuide": ""
   },
   {
-    "simpleJp": "謝る",
+    "simpleJp": "「謝る」",
     "jpGuide1": "第五章：謝る",
     "jpGuide2": "第五章：「謝る」",
     "enGuide": ""
   },
   {
-    "simpleJp": "神社へ行く",
+    "simpleJp": "「神社へ行く」",
     "jpGuide1": "第五章：神社",
     "jpGuide2": "第五章：「神社」",
     "enGuide": ""
   },
   {
-    "simpleJp": "真弘先輩と一緒にいる",
+    "simpleJp": "「真弘先輩と一緒にいる」",
     "jpGuide1": "第五章：真弘先輩と",
     "jpGuide2": "第五章：「真弘先輩と」",
     "enGuide": ""
   },
   {
-    "simpleJp": "真弘先輩に声をかける",
+    "simpleJp": "「真弘先輩に声をかける」",
     "jpGuide1": "第五章：真弘先輩",
     "jpGuide2": "第五章：「真弘先輩」",
     "enGuide": ""
@@ -141,6 +147,12 @@
     "simpleJp": "「もう少し一緒にいたいな」",
     "jpGuide1": "第五章：もう少し一緒にいたいな",
     "jpGuide2": "第五章：「もう少し一緒にいたいな」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "",
+    "jpGuide2": "",
     "enGuide": ""
   },
   {
@@ -156,9 +168,15 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "神社へ行く",
+    "simpleJp": "「神社へ行く」",
     "jpGuide1": "第六章：神社",
     "jpGuide2": "第六章：「神社」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "",
+    "jpGuide2": "",
     "enGuide": ""
   },
   {
@@ -174,9 +192,21 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "",
+    "jpGuide2": "",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "「玉依姫の名を使わない」",
     "jpGuide1": "[SAVE4] 玉依姫の名を使わない（誤：玉依姫の名を使う → バッドエンド19）",
     "jpGuide2": "SAVE3（第七章）：「玉依姫の名を使わない」→継続／「玉依姫の名を使う」→バッドエンド【バッドエンド解説第十九回】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "",
+    "jpGuide2": "",
     "enGuide": ""
   },
   {
@@ -189,6 +219,12 @@
     "simpleJp": "「助けたい」",
     "jpGuide1": "第七章：助けたい",
     "jpGuide2": "第七章：「助けたい」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "",
+    "jpGuide2": "",
     "enGuide": ""
   },
   {

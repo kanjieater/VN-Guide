@@ -8,6 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#121212">
 <link rel="manifest" href="data:application/json,{&quot;name&quot;:&quot;VN Guide&quot;,&quot;short_name&quot;:&quot;VN Guide&quot;,&quot;display&quot;:&quot;standalone&quot;,&quot;background_color&quot;:&quot;#121212&quot;,&quot;theme_color&quot;:&quot;#121212&quot;}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
 <title>VN Guide</title>
 <style>
   :root {
@@ -358,6 +359,20 @@ function renderHome() {
       <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
     </button></li>`;
   }).join("");
+  const totalSteps = guideData.routes.reduce((s, r) => s + (r.steps ? r.steps.length : (r.stepCount || 0)), 0);
+  const doneSteps = guideData.routes.reduce((s, r) => {
+    const p = state.progress[r.id];
+    return s + (p !== undefined ? p + 1 : 0);
+  }, 0);
+  const totalPct = totalSteps ? Math.round(doneSteps / totalSteps * 100) : 0;
+  let totalEl = document.getElementById("total-progress");
+  if (!totalEl) {
+    totalEl = document.createElement("p");
+    totalEl.id = "total-progress";
+    list.after(totalEl);
+  }
+  totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
+  totalEl.textContent = `全体進行度: ${totalPct}%`;
   showView("view-home");
 }
 

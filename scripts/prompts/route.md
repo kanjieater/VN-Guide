@@ -42,11 +42,13 @@ In a choice-based VN, every step where the player selects something — whether 
 - **No location prefix** — omit 【場所】 entirely. Scenes transition automatically in this genre.
 - The only steps without brackets are saves (`セーブ1`) and the final ending label
 
-**Saves — required, not optional:**
-- Insert a standalone save step **before** every branch point that leads to a bad end or different route
-- Mirror the numbered slots from the source guides exactly: `セーブ1`, `セーブ2`, etc.
-- Include a load step at the point the player must return: `セーブ1にロード`
+**Saves — only if sources give them:**
+- Cross-validate save placement against ALL sources in `$RESEARCH_FILE` before including any
+- Include a save step only if at least one source explicitly marks it (▼SAVE, セーブ, etc.)
+- Bias toward the **earlier** save position when sources disagree (earlier = more useful to the player)
+- Mirror numbered slots (セーブ1, セーブ2, …) using the sequence that reflects the optimal placement
 - One action per step; never combine a save with a choice
+- Never invent saves that don't appear in any source
 
 ### Rules for jpGuide1 / jpGuide2
 

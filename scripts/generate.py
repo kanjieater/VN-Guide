@@ -78,6 +78,22 @@ def scaffold_guide(slug: str, title: str, vndb_id: str) -> None:
     (guide_dir / "guide.json").write_text(
         json.dumps(guide_json, ensure_ascii=False, indent=2)
     )
+    manifest = {
+        "name": f"{title} ガイド",
+        "short_name": "VN Guide",
+        "start_url": "./",
+        "scope": "./",
+        "display": "standalone",
+        "background_color": "#121212",
+        "theme_color": "#121212",
+        "icons": [
+            {"src": "../icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+            {"src": "../icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+        ],
+    }
+    (guide_dir / "manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2)
+    )
     print(f"[generate] Scaffolded guide: {slug}/")
 
 

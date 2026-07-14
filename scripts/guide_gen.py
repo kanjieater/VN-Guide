@@ -103,14 +103,19 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
     The HTML fetches route_{id}.json lazily when a route is selected.
     stepCount is included so the home screen can show progress % without loading steps.
     """
-    route_list = [
-        {
+    research_routes = {r["id"]: r for r in research.get("routes", [])}
+    route_list = []
+    for r in completed_routes:
+        entry: dict = {
             "id": r["id"],
             "title": r["title"],
             "stepCount": len(r["steps"]),
         }
-        for r in completed_routes
-    ]
+        portrait = research_routes.get(r["id"], {}).get("portrait", "")
+        if portrait:
+            entry["portrait"] = portrait
+        route_list.append(entry)
+
     guide_data = {
         "title": title,
         "vndb_id": vndb_id,
@@ -158,6 +163,25 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
         return False
 
 
+def count_saves_in_route(route_file: Path) -> int:
+    """Count セーブN steps in a completed route file."""
+    try:
+        steps = json.loads(route_file.read_text())
+        return sum(1 for s in steps if isinstance(s.get("simpleJp", ""), str) and s["simpleJp"].startswith("セーブ"))
+    except Exception:
+        return 0
+
+
+def compute_save_offset(routes: list, route_idx: int, guide_dir: Path) -> int:
+    """Total saves in all routes before route_idx (for cross-route slot numbering)."""
+    total = 0
+    for i, r in enumerate(routes):
+        if i >= route_idx:
+            break
+        total += count_saves_in_route(guide_dir / f"route_{r['id']}.json")
+    return total
+
+
 def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
@@ -168,14 +192,15 @@ def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
     research = json.loads((guide_dir / "research.json").read_text())
     routes = research.get("routes", [])
 
-    for route in routes:
+    for i, route in enumerate(routes):
         route_id = route["id"]
         route_file = guide_dir / f"route_{route_id}.json"
 
         if route_file.exists():
             log(f"Route {route_id} already done, skipping")
         else:
-            log(f"Phase 2 – Route: {route.get('title', route_id)}")
+            save_offset = compute_save_offset(routes, i, guide_dir)
+            log(f"Phase 2 – Route: {route.get('title', route_id)} (save offset: {save_offset})")
             prompt = build_prompt(
                 "route.md",
                 TITLE=title,
@@ -184,6 +209,8 @@ def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
                 ROUTE_TITLE=route.get("title", route_id),
                 RESEARCH_FILE=str(guide_dir / "research.json"),
                 ROUTE_FILE=str(route_file),
+                SAVE_OFFSET=str(save_offset),
+                SAVE_OFFSET_PLUS1=str(save_offset + 1),
             )
             ok = run_claude(prompt, MAX_TURNS_ROUTE, guide_dir)
 

@@ -15,6 +15,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+import generate as _generate
+
 REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 PROMPTS_PATH = SCRIPTS_PATH / "prompts"
@@ -285,6 +288,9 @@ def run() -> None:
         games[vid]["has_guide"] = True
         GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
         log(f"Guide complete: {slug}")
+        _generate.generate_landing(games)
+        log("Regenerated landing page with updated has_guide status")
+        run_deploy()
     else:
         err(f"Guide generation failed for {slug} — will retry next cycle")
 

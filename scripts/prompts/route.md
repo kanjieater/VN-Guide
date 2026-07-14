@@ -58,18 +58,25 @@ For save points with a documented bad ending, use this four-step sequence:
 
 ### Rules for jpGuide1 / jpGuide2
 
-**Both must be populated for every step. Copy character-by-character from each source. Never paraphrase.**
+**BOTH fields must be non-empty for EVERY single step. No exceptions.**
 
-Open each source URL. Find the line or bullet that corresponds to this step. Copy that text exactly — punctuation, symbols, spacing and all.
+These fields are read-only references shown verbatim to the player in the details panel. They must contain the exact text as it appears on each source page — character by character, punctuation and all.
 
-- If source 1 says `・戦う`, write `・戦う`
-- If source 2 says `SAVE1` (bold), write `SAVE1`
-- Do not add chapter numbers or labels that are not in the source line itself
-- Do not write `第二章：屋上` when the source just says `屋上`
-- If a source genuinely has no entry for this step (e.g. a save point that only appears in one source), write the other source's text in both fields and note which source it comes from
-- Never write an empty string in both jpGuide1 and jpGuide2 — always populate at least one
+**Never:**
+- Paraphrase or summarize
+- Write an empty string for either field
+- Modify the text in any way — not even whitespace
+- Write your own words ("このページには記載なし" etc.)
 
-The test: paste your jpGuide text back into a search on the source page. It should find an exact match. If it does not, you summarized. Redo it.
+**If source 2 has the same text as source 1 for a step:** write source 1's text in jpGuide2 anyway. Both fields must be filled.
+**If source 2 genuinely has no entry for this step at all:** copy source 1's text into both jpGuide1 and jpGuide2.
+
+Examples of correct verbatim copying:
+- Source page says `・戦う` → write `・戦う` (not `戦う`, not `「戦う」を選ぶ`)
+- Source page says `▼SAVE1` → write `▼SAVE1`
+- Source page says `SAVE1` in bold → write `SAVE1`
+
+The test: select your jpGuide text, paste it into a browser search (Ctrl+F) on the source page. It must highlight an exact match. If it doesn't, you paraphrased — redo it.
 
 ### Rules for saves — required, validated, cross-route numbered
 

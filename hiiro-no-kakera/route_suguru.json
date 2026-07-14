@@ -1,0 +1,71 @@
+[
+  {"simpleJp":"学校の外を探す","jpGuide1":"学校の外を探す","jpGuide2":"・学校の外を探す","enGuide":""},
+  {"simpleJp":"校門","jpGuide1":"校門","jpGuide2":"・校門","enGuide":""},
+  {"simpleJp":"いつもの道","jpGuide1":"いつもの道","jpGuide2":"・いつもの道","enGuide":""},
+  {"simpleJp":"やっぱり違う道に","jpGuide1":"やっぱり違う道に","jpGuide2":"・やっぱり違う道に","enGuide":""},
+
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"相談しない","jpGuide1":"相談しない","jpGuide2":"・相談しない","enGuide":""},
+  {"simpleJp":"そのまま向かう","jpGuide1":"そのまま向かう","jpGuide2":"・そのまま向かう","enGuide":""},
+  {"simpleJp":"別の道を探す","jpGuide1":"別の道を探す","jpGuide2":"・別の道を探す","enGuide":""},
+
+  {"simpleJp":"自分が行く","jpGuide1":"自分が行く","jpGuide2":"・自分が行く","enGuide":""},
+  {"simpleJp":"神社に行く","jpGuide1":"神社に行く","jpGuide2":"・神社に行く","enGuide":""},
+  {"simpleJp":"探しに行ってみる","jpGuide1":"探しに行ってみる","jpGuide2":"・探しに行ってみる","enGuide":""},
+  {"simpleJp":"戻らない","jpGuide1":"戻らない","jpGuide2":"・戻らない","enGuide":""},
+  {"simpleJp":"相談しない","jpGuide1":"相談しない","jpGuide2":"・相談しない","enGuide":""},
+
+  {"simpleJp":"セーブ41_PLUS1","jpGuide1":"卓＆遼共通SAVE","jpGuide2":"▼共通SAVE（卓・遼）","enGuide":""},
+  {"simpleJp":"やっぱり誰かに","jpGuide1":"やっぱり誰かに","jpGuide2":"・やっぱり誰かに","enGuide":""},
+
+  {"simpleJp":"セーブ41_PLUS2","jpGuide1":"SAVE1","jpGuide2":"▼SAVE1","enGuide":""},
+  {"simpleJp":"卓さんを止める","jpGuide1":"卓さんを止める → 【BADEND3】","jpGuide2":"・卓さんを止める → バッドエンド【バッドエンド解説第三回】","enGuide":"","badEndPath":"【BADEND3】"},
+  {"simpleJp":"セーブ41_PLUS2にロード","jpGuide1":"SAVE1にロード","jpGuide2":"▼SAVE1にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"アリアを庇う","jpGuide1":"アリアを庇う","jpGuide2":"・アリアを庇う","enGuide":""},
+  {"simpleJp":"留まる","jpGuide1":"留まる","jpGuide2":"・留まる","enGuide":""},
+  {"simpleJp":"受け入れない","jpGuide1":"受け入れない","jpGuide2":"・受け入れない","enGuide":""},
+
+  {"simpleJp":"卓さんに相談","jpGuide1":"卓さんに相談","jpGuide2":"・卓さんに相談","enGuide":""},
+  {"simpleJp":"通さない","jpGuide1":"通さない","jpGuide2":"・通さない","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"やっぱり見る","jpGuide1":"やっぱり見る","jpGuide2":"・やっぱり見る","enGuide":""},
+  {"simpleJp":"警戒しながら紹介","jpGuide1":"警戒しながら紹介","jpGuide2":"・警戒しながら紹介","enGuide":""},
+  {"simpleJp":"残る","jpGuide1":"残る","jpGuide2":"・残る","enGuide":""},
+
+  {"simpleJp":"聞かない","jpGuide1":"聞かない","jpGuide2":"・聞かない","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"黙っている","jpGuide1":"黙っている","jpGuide2":"・黙っている","enGuide":""},
+
+  {"simpleJp":"セーブ41_PLUS3","jpGuide1":"SAVE2","jpGuide2":"▼SAVE2","enGuide":""},
+  {"simpleJp":"アリアを逃がす","jpGuide1":"アリアを逃がす → 【BADEND12】","jpGuide2":"・アリアを逃がす → バッドエンド【バッドエンド解説第十二回】","enGuide":"","badEndPath":"【BADEND12】"},
+  {"simpleJp":"セーブ41_PLUS3にロード","jpGuide1":"SAVE2にロード","jpGuide2":"▼SAVE2にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"卓を説得","jpGuide1":"卓を説得","jpGuide2":"・卓を説得","enGuide":""},
+
+  {"simpleJp":"間違ってます","jpGuide1":"間違ってます","jpGuide2":"・間違ってます","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+
+  {"simpleJp":"セーブ41_PLUS4","jpGuide1":"SAVE3","jpGuide2":"▼SAVE3","enGuide":""},
+  {"simpleJp":"ここにはない","jpGuide1":"ここにはない → 【BADEND28】","jpGuide2":"・ここにはない → バッドエンド【バッドエンド解説第二十八回】","enGuide":"","badEndPath":"【BADEND28】"},
+  {"simpleJp":"セーブ41_PLUS4にロード","jpGuide1":"SAVE3にロード","jpGuide2":"▼SAVE3にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"渡さない","jpGuide1":"渡さない","jpGuide2":"・渡さない","enGuide":""},
+
+  {"simpleJp":"卓を信じる","jpGuide1":"卓を信じる","jpGuide2":"・卓を信じる","enGuide":""},
+  {"simpleJp":"卓さんを止める","jpGuide1":"卓さんを止める","jpGuide2":"・卓さんを止める","enGuide":""},
+
+  {"simpleJp":"セーブ41_PLUS5","jpGuide1":"SAVE4","jpGuide2":"▼SAVE4","enGuide":""},
+  {"simpleJp":"信じてみる","jpGuide1":"信じてみる → 【BADEND29】","jpGuide2":"・信じてみる → バッドエンド【バッドエンド解説第二十九回】","enGuide":"","badEndPath":"【BADEND29】"},
+  {"simpleJp":"セーブ41_PLUS5にロード","jpGuide1":"SAVE4にロード","jpGuide2":"▼SAVE4にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"違う","jpGuide1":"違う","jpGuide2":"・違う","enGuide":""},
+
+  {"simpleJp":"セーブ41_PLUS6","jpGuide1":"SAVE5","jpGuide2":"▼SAVE5","enGuide":""},
+  {"simpleJp":"アインとツヴァイに","jpGuide1":"アインとツヴァイに → 【BADEND30】","jpGuide2":"・アインとツヴァイに → バッドエンド【バッドエンド解説第三十回】","enGuide":"","badEndPath":"【BADEND30】"},
+  {"simpleJp":"セーブ41_PLUS6にロード","jpGuide1":"SAVE5にロード","jpGuide2":"▼SAVE5にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"アリアに","jpGuide1":"アリアに","jpGuide2":"・アリアに","enGuide":""},
+
+  {"simpleJp":"セーブ41_PLUS7","jpGuide1":"SAVE6","jpGuide2":"▼SAVE6","enGuide":""},
+  {"simpleJp":"卓さんに任せる","jpGuide1":"卓さんに任せる → 【BADEND31】","jpGuide2":"・卓さんに任せる → バッドエンド【バッドエンド解説第三十一回】","enGuide":"","badEndPath":"【BADEND31】"},
+  {"simpleJp":"セーブ41_PLUS7にロード","jpGuide1":"SAVE6にロード","jpGuide2":"▼SAVE6にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"そんなことはさせない","jpGuide1":"そんなことはさせない","jpGuide2":"・そんなことはさせない","enGuide":""},
+
+  {"simpleJp":"卓 グッドエンド","jpGuide1":"【GOOD END】","jpGuide2":"卓 グッドエンド","enGuide":""}
+]

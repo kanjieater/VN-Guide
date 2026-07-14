@@ -199,7 +199,7 @@ def compute_save_offset(routes: list, route_idx: int, guide_dir: Path) -> int:
     return total
 
 
-def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
+def generate_guide(slug: str, title: str, vndb_id: str, max_routes: int | None = None) -> bool:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
 
@@ -210,6 +210,10 @@ def generate_guide(slug: str, title: str, vndb_id: str) -> bool:
     routes = research.get("routes", [])
 
     for i, route in enumerate(routes):
+        if max_routes is not None and i >= max_routes:
+            log(f"Reached max_routes={max_routes}, stopping")
+            break
+
         route_id = route["id"]
         route_file = guide_dir / f"route_{route_id}.json"
 
@@ -282,15 +286,23 @@ def run() -> None:
     slug = entry["slug"]
     title = entry.get("title", slug)
 
-    success = generate_guide(slug, title, vid)
+    max_routes_env = os.environ.get("GUIDE_MAX_ROUTES")
+    max_routes = int(max_routes_env) if max_routes_env else None
+    if max_routes is not None:
+        log(f"GUIDE_MAX_ROUTES={max_routes}: will stop after {max_routes} route(s)")
+
+    success = generate_guide(slug, title, vid, max_routes=max_routes)
 
     if success:
-        games[vid]["has_guide"] = True
-        GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
-        log(f"Guide complete: {slug}")
-        _generate.generate_landing(games)
-        log("Regenerated landing page with updated has_guide status")
-        run_deploy()
+        if max_routes is None:
+            games[vid]["has_guide"] = True
+            GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
+            log(f"Guide complete: {slug}")
+            _generate.generate_landing(games)
+            log("Regenerated landing page with updated has_guide status")
+            run_deploy()
+        else:
+            log(f"Partial run ({max_routes} route(s)) done for {slug} — has_guide not flipped")
     else:
         err(f"Guide generation failed for {slug} — will retry next cycle")
 

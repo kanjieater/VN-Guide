@@ -510,7 +510,7 @@ function renderHome() {
   if (!totalEl) {
     totalEl = document.createElement("p");
     totalEl.id = "total-progress";
-    list.after(totalEl);
+    list.before(totalEl);
   }
   totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
   totalEl.textContent = `全体進行度: ${totalPct}%`;

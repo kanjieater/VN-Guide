@@ -485,7 +485,7 @@ function renderHome() {
     const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
     const total = r.steps ? r.steps.length : (r.stepCount || 0);
-    const pct = (started && total) ? Math.min(100, Math.round((prog + 1) / total * 100)) : 0;
+    const pct = (started && total > 0) ? Math.round(prog / Math.max(total - 1, 1) * 100) : 0;
     const hasProgress = started && prog > 0;
     const shouldBlur = settings.blurPortraits && !hasProgress;
     const portrait = r.portrait
@@ -500,12 +500,15 @@ function renderHome() {
       </div>
     </button></li>`;
   }).join("");
-  const totalSteps = guideData.routes.reduce((s, r) => s + (r.steps ? r.steps.length : (r.stepCount || 0)), 0);
+  const maxProgress = guideData.routes.reduce((s, r) => {
+    const n = r.steps ? r.steps.length : (r.stepCount || 0);
+    return s + Math.max(n - 1, 1);
+  }, 0);
   const doneSteps = guideData.routes.reduce((s, r) => {
     const p = state.progress[r.id];
-    return s + (p !== undefined ? p + 1 : 0);
+    return s + (p !== undefined ? p : 0);
   }, 0);
-  const totalPct = totalSteps ? Math.round(doneSteps / totalSteps * 100) : 0;
+  const totalPct = maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
   let totalEl = document.getElementById("total-progress");
   if (!totalEl) {
     totalEl = document.createElement("p");

@@ -46,26 +46,38 @@
   .view.active { display: flex; }
 
   /* ── home view ──────────────────────────────────────── */
-  #view-home {
+  #view-home { flex-direction: column; }
+
+  .home-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 24px 16px;
     text-align: center;
     gap: 16px;
   }
 
-  #view-home h2 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--accent);
-  }
-
-  #view-home p {
+  .home-content p {
     margin: 0;
     color: #888;
     font-size: 15px;
     line-height: 1.6;
+  }
+
+  .view-header a {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    flex-shrink: 0;
+    text-decoration: none;
+    touch-action: manipulation;
+    white-space: nowrap;
   }
 
   #route-list {
@@ -166,12 +178,27 @@
     text-align: center;
   }
 
+  #step-type-badge {
+    display: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding: 4px 12px;
+    border-radius: 4px;
+    align-self: center;
+  }
+  #step-type-badge.bad-end { color: #ff8888; background: rgba(255,80,80,0.12); border: 1px solid rgba(255,80,80,0.3); }
+  #step-type-badge.is-load { color: #66aaff; background: rgba(74,144,226,0.12); border: 1px solid rgba(74,144,226,0.3); }
+
   #simple-instruction {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.4;
     text-align: center;
   }
+  #simple-instruction.bad-end { color: #ff8888; }
+  #simple-instruction.is-load { color: #66aaff; }
 
   #details-section {
     background: var(--surface);
@@ -285,21 +312,6 @@
   }
 
   /* ── settings ────────────────────────────────────────── */
-  .gear-btn {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: none;
-    border: 1px solid var(--border);
-    color: #888;
-    border-radius: 8px;
-    padding: 8px 10px;
-    font-size: 18px;
-    cursor: pointer;
-    touch-action: manipulation;
-    line-height: 1;
-    z-index: 1;
-  }
   #view-settings { overflow-y: auto; }
   .settings-body { padding: 0 16px; }
   .setting-row {
@@ -343,12 +355,16 @@
 <div id="app">
 
   <!-- Home: route selection -->
-  <div id="view-home" class="view active" style="position:relative">
-    <button class="gear-btn" onclick="showSettings()">⚙</button>
-    <h2 id="game-title"></h2>
-    <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
-    <ul id="route-list"></ul>
-    <a href="../" style="color:#888;font-size:13px;margin-top:8px;">← ホームへ戻る</a>
+  <div id="view-home" class="view active">
+    <div class="view-header">
+      <a href="../">← 戻る</a>
+      <h3 id="game-title"></h3>
+      <button onclick="showSettings()">⚙</button>
+    </div>
+    <div class="home-content">
+      <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
+      <ul id="route-list"></ul>
+    </div>
   </div>
 
   <!-- Slide: step-by-step reader -->
@@ -356,10 +372,12 @@
     <div class="view-header">
       <button onclick="goHome()">🏠</button>
       <h3 id="slide-route-title"></h3>
+      <button onclick="showSettings()">⚙</button>
       <button onclick="showJump()">一覧</button>
     </div>
     <div class="step-container">
       <div id="step-counter"></div>
+      <div id="step-type-badge"></div>
       <div id="simple-instruction"></div>
       <button id="toggle-details" onclick="toggleDetails()">詳細を表示</button>
       <div id="details-section">
@@ -463,7 +481,7 @@ function renderHome() {
     return;
   }
   status.style.display = "none";
-  list.innerHTML = guideData.routes.map(r => {
+  list.innerHTML = guideData.routes.map((r, routeIdx) => {
     const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
     const total = r.steps ? r.steps.length : (r.stepCount || 0);
@@ -473,10 +491,11 @@ function renderHome() {
     const portrait = r.portrait
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
+    const displayTitle = hasProgress ? r.title : `ルート ${routeIdx + 1}`;
     return `<li><button onclick="startRoute('${r.id}')">
       ${portrait}
       <div class="route-info">
-        <span>${r.title}</span>
+        <span>${displayTitle}</span>
         <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
       </div>
     </button></li>`;
@@ -535,9 +554,25 @@ function renderSlide() {
 
   document.getElementById("slide-route-title").textContent = route.title;
   document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
-  document.getElementById("simple-instruction").textContent = step.simpleJp || "";
+  const instrEl = document.getElementById("simple-instruction");
+  instrEl.textContent = step.simpleJp || "";
+  const badgeEl = document.getElementById("step-type-badge");
+  if (step.badEndPath) {
+    badgeEl.textContent = `⚠ ${step.badEndPath}`;
+    badgeEl.className = "bad-end";
+    badgeEl.style.display = "";
+    instrEl.className = "bad-end";
+  } else if (step.isLoad) {
+    badgeEl.textContent = "↩ ロード";
+    badgeEl.className = "is-load";
+    badgeEl.style.display = "";
+    instrEl.className = "is-load";
+  } else {
+    badgeEl.style.display = "none";
+    instrEl.className = "";
+  }
 
-  const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide || step.badEnd;
+  const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide || step.badEnd || step.badEndPath;
   document.getElementById("toggle-details").style.display = hasDetails ? "" : "none";
   document.getElementById("details-section").style.display = "none";
   document.getElementById("toggle-details").textContent = "詳細を表示";
@@ -607,12 +642,14 @@ function showJump() {
   if (!route || !route.steps) return;
   document.getElementById("jump-route-title").textContent = route.title;
   const list = document.getElementById("jump-list");
-  list.innerHTML = route.steps.map((s, i) =>
-    `<li><button onclick="jumpTo(${i})">
+  list.innerHTML = route.steps.map((s, i) => {
+    const prefix = s.badEndPath ? '⚠ ' : s.isLoad ? '↩ ' : '';
+    const color = s.badEndPath ? 'color:#ff8888' : s.isLoad ? 'color:#66aaff' : '';
+    return `<li><button onclick="jumpTo(${i})">
       <span class="jump-num">${i + 1}</span>
-      <span>${escHtml(s.simpleJp || "")}</span>
-    </button></li>`
-  ).join("");
+      <span style="${color}">${prefix}${escHtml(s.simpleJp || "")}</span>
+    </button></li>`;
+  }).join("");
   showView("view-jump");
 }
 

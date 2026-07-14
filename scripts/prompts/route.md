@@ -26,13 +26,25 @@ Output file: `$ROUTE_FILE`
     "simpleJp": "戦う",
     "jpGuide1": "verbatim text from primary JP source",
     "jpGuide2": "verbatim text from secondary JP source",
-    "enGuide": "English reference if available, or empty string",
-    "badEnd": {"choice": "wrong choice text", "end": "BAD END 1"}
+    "enGuide": "English reference if available, or empty string"
   }
 ]
 ```
 
-`badEnd` is optional — include it only on save steps where a source documents a bad ending. Omit the field entirely otherwise.
+For save points with a documented bad ending, use this four-step sequence:
+
+```json
+[
+  {"simpleJp": "セーブ9", "jpGuide1": "▼SAVE9", "jpGuide2": "SAVE9", "enGuide": ""},
+  {"simpleJp": "呼び止める", "jpGuide1": "呼び止める → バッドエンド9", "jpGuide2": "呼び止める → BAD END 9", "enGuide": "", "badEndPath": "バッドエンド9"},
+  {"simpleJp": "セーブ9にロード", "jpGuide1": "セーブ9にロード", "jpGuide2": "LOAD SAVE9", "enGuide": "", "isLoad": true},
+  {"simpleJp": "通り過ぎる", "jpGuide1": "・通り過ぎる", "jpGuide2": "通り過ぎる", "enGuide": ""}
+]
+```
+
+- `badEndPath`: string — the bad end label from source (e.g. `バッドエンド9`, `BAD END 9`)
+- `isLoad`: boolean `true` — marks the step as a load-back instruction
+- The SPA renders `badEndPath` steps in red with a ⚠ badge, and `isLoad` steps in blue with ↩
 
 ### Rules for simpleJp
 
@@ -69,18 +81,20 @@ The test: paste your jpGuide text back into a search on the source page. It shou
 - One action per step — never combine save with choice
 - Never invent saves that no source documents
 
-### Rules for badEnd
+### Rules for bad end steps
 
-At every save step, check whether any source documents a bad ending reachable by choosing wrong at that branch:
+The guide actively leads players through every bad end before continuing. Do not just annotate save steps — insert explicit steps.
 
-```json
-{"choice": "wrong choice text verbatim", "end": "BAD END 1"}
-```
+At every save point with a documented bad ending, insert this sequence (described above in Step format):
+1. Save step
+2. Bad-end choice step (`badEndPath` field = bad end label from source)
+3. Load step (`isLoad: true`, simpleJp = `セーブNにロード`)
+4. Good choice step
 
-- `choice`: exact wrong choice text from source (the one that leads to bad end)
-- `end`: the bad end label from source (e.g. `BAD END 1`, `バッドエンド1`, `【BADEND1】`)
-- Omit `badEnd` from the step object entirely if no source documents a bad end here
-- Never invent bad ends. Sources must name or number them.
+- `badEndPath`: exact bad end label from source — never invent
+- `isLoad`: always `true` on load steps; always `false` (omit) on all other steps
+- If a save point has multiple bad ends from different branches, insert each bad-end-choice + load pair before the good branch
+- If no source documents a bad end at this save point, just include the save step and good choice — no `badEndPath` or `isLoad` steps
 
 ### Summary
 

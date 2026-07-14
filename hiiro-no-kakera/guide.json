@@ -1,18 +1,16 @@
 {
-  "title": "緋色の欠片",
+  "title": "Hiiro no Kakera",
   "vndb_id": "v1629",
   "routes": [
     {
       "id": "takuma",
       "title": "鬼崎拓磨ルート",
-      "stepCount": 40,
-      "portrait": "https://t.vndb.org/ch/81/43681.jpg"
+      "stepCount": 40
     },
     {
       "id": "mahiro",
       "title": "鴉取真弘ルート",
-      "stepCount": 39,
-      "portrait": "https://t.vndb.org/ch/82/43682.jpg"
+      "stepCount": 39
     }
   ],
   "sources": [
@@ -65,5 +63,5 @@
       "notes": "Reference only. Confirms VNDB id v1629 corresponds to the original July 6, 2006 PC release of 緋色の欠片, and that all later ports (PSP 2008, DS 2008, PS3 'Aizouban ~Akane Iro no Tsuioku~' 2011, Vita 'Omoi Iro no Kioku' 2017, Switch 'Tamayori Hime Kitan ~Omoi Iro no Kioku~' 2024) are releases under this same VNDB entry rather than separate titles. This is why Japanese guides referencing the 'おもいいろの記憶' subtitle are valid sources for v1629."
     }
   ],
-  "generated_at": "2026-07-10T13:28:42.631832+00:00"
+  "generated_at": "2026-07-14T15:42:18.640699+00:00"
 }

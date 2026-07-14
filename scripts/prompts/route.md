@@ -68,8 +68,8 @@ These fields are read-only references shown verbatim to the player in the detail
 - Modify the text in any way — not even whitespace
 - Write your own words ("このページには記載なし" etc.)
 
-**If source 2 has the same text as source 1 for a step:** write source 1's text in jpGuide2 anyway. Both fields must be filled.
-**If source 2 genuinely has no entry for this step at all:** copy source 1's text into both jpGuide1 and jpGuide2.
+**If source 2 genuinely has no entry for this step at all:** write `（第二ガイドに記載なし）` in jpGuide2. Never leave it empty, but never fabricate content either — the note is honest attribution.
+**Never copy source 1 into jpGuide2** just to fill the field — that would misrepresent source 2's content.
 
 Examples of correct verbatim copying:
 - Source page says `・戦う` → write `・戦う` (not `戦う`, not `「戦う」を選ぶ`)

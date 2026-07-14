@@ -1,0 +1,66 @@
+[
+  {"simpleJp":"学校の外を探す","jpGuide1":"学校の外を探す","jpGuide2":"・学校の外を探す","enGuide":""},
+  {"simpleJp":"校門","jpGuide1":"校門","jpGuide2":"・校門","enGuide":""},
+  {"simpleJp":"いつもの道","jpGuide1":"いつもの道","jpGuide2":"・いつもの道","enGuide":""},
+  {"simpleJp":"やっぱり違う道に","jpGuide1":"やっぱり違う道に","jpGuide2":"・やっぱり違う道に","enGuide":""},
+
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"相談しない","jpGuide1":"相談しない","jpGuide2":"・相談しない","enGuide":""},
+  {"simpleJp":"そのまま向かう","jpGuide1":"そのまま向かう","jpGuide2":"・そのまま向かう","enGuide":""},
+  {"simpleJp":"別の道を探す","jpGuide1":"別の道を探す","jpGuide2":"・別の道を探す","enGuide":""},
+
+  {"simpleJp":"自分が行く","jpGuide1":"自分が行く","jpGuide2":"・自分が行く","enGuide":""},
+  {"simpleJp":"神社に行く","jpGuide1":"神社に行く","jpGuide2":"・神社に行く","enGuide":""},
+  {"simpleJp":"探しに行ってみる","jpGuide1":"探しに行ってみる","jpGuide2":"・探しに行ってみる","enGuide":""},
+  {"simpleJp":"戻らない","jpGuide1":"戻らない","jpGuide2":"・戻らない","enGuide":""},
+  {"simpleJp":"相談しない","jpGuide1":"相談しない","jpGuide2":"・相談しない","enGuide":""},
+
+  {"simpleJp":"セーブ54_PLUS1","jpGuide1":"卓＆遼共通SAVE","jpGuide2":"▼共通SAVE（卓・遼）","enGuide":""},
+  {"simpleJp":"ううん、一人で","jpGuide1":"ううん、一人で","jpGuide2":"・ううん、一人で","enGuide":""},
+  {"simpleJp":"アリアを庇う","jpGuide1":"アリアを庇う","jpGuide2":"・アリアを庇う","enGuide":""},
+  {"simpleJp":"留まる","jpGuide1":"留まる","jpGuide2":"・留まる","enGuide":""},
+  {"simpleJp":"受け入れない","jpGuide1":"受け入れない","jpGuide2":"・受け入れない","enGuide":""},
+
+  {"simpleJp":"ババ様に相談","jpGuide1":"ババ様に相談","jpGuide2":"・ババ様に相談","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"こっそり待つ","jpGuide1":"こっそり待つ","jpGuide2":"・こっそり待つ","enGuide":""},
+  {"simpleJp":"元の場所にしまう","jpGuide1":"元の場所にしまう","jpGuide2":"・元の場所にしまう","enGuide":""},
+  {"simpleJp":"芦屋さんと言えば……","jpGuide1":"芦屋さんと言えば……","jpGuide2":"・芦屋さんと言えば......","enGuide":""},
+  {"simpleJp":"助けを探す","jpGuide1":"助けを探す","jpGuide2":"・助けを探す","enGuide":""},
+
+  {"simpleJp":"私だって見回り","jpGuide1":"私だって見回り","jpGuide2":"・私だって見回り","enGuide":""},
+  {"simpleJp":"室外","jpGuide1":"室外","jpGuide2":"・室外","enGuide":""},
+  {"simpleJp":"捕まえる","jpGuide1":"捕まえる","jpGuide2":"・捕まえる","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"……気になる","jpGuide1":"……気になる","jpGuide2":"・......気になる","enGuide":""},
+
+  {"simpleJp":"いいとこあるの？","jpGuide1":"いいとこあるの？","jpGuide2":"・いいとこあるの？","enGuide":""},
+  {"simpleJp":"言い過ぎ","jpGuide1":"言い過ぎ","jpGuide2":"・言い過ぎ","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+
+  {"simpleJp":"セーブ54_PLUS2","jpGuide1":"SAVE1","jpGuide2":"▼SAVE1","enGuide":""},
+  {"simpleJp":"卓を止める","jpGuide1":"卓を止める → 【BADEND32】","jpGuide2":"・卓を止める → バッドエンド【バッドエンド解説第三十二回】","enGuide":"","badEndPath":"【BADEND32】"},
+  {"simpleJp":"セーブ54_PLUS2にロード","jpGuide1":"SAVE1にロード","jpGuide2":"▼SAVE1にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"遼を助ける","jpGuide1":"遼を助ける","jpGuide2":"・遼を助ける","enGuide":""},
+
+  {"simpleJp":"自分だけでも","jpGuide1":"自分だけでも","jpGuide2":"・自分だけでも","enGuide":""},
+  {"simpleJp":"ここに残る","jpGuide1":"ここに残る","jpGuide2":"・ここに残る","enGuide":""},
+  {"simpleJp":"遼のところへ","jpGuide1":"遼のところへ","jpGuide2":"・遼のところへ","enGuide":""},
+
+  {"simpleJp":"セーブ54_PLUS3","jpGuide1":"SAVE2","jpGuide2":"▼SAVE2","enGuide":""},
+  {"simpleJp":"先に進む","jpGuide1":"先に進む → 【BADEND33】","jpGuide2":"・先に進む → バッドエンド【バッドエンド解説第三十三回】","enGuide":"","badEndPath":"【BADEND33】"},
+  {"simpleJp":"セーブ54_PLUS3にロード","jpGuide1":"SAVE2にロード","jpGuide2":"▼SAVE2にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"広間に戻る","jpGuide1":"広間に戻る","jpGuide2":"・広間に戻る","enGuide":""},
+
+  {"simpleJp":"セーブ54_PLUS4","jpGuide1":"SAVE3","jpGuide2":"▼SAVE3","enGuide":""},
+  {"simpleJp":"みんなを追う","jpGuide1":"みんなを追う → 【BADEND34】","jpGuide2":"・みんなを追う → バッドエンド【バッドエンド解説第三十四回】","enGuide":"","badEndPath":"【BADEND34】"},
+  {"simpleJp":"セーブ54_PLUS4にロード","jpGuide1":"SAVE3にロード","jpGuide2":"▼SAVE3にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"踏みとどまる","jpGuide1":"踏みとどまる","jpGuide2":"・踏みとどまる","enGuide":""},
+
+  {"simpleJp":"セーブ54_PLUS5","jpGuide1":"SAVE4","jpGuide2":"▼SAVE4","enGuide":""},
+  {"simpleJp":"ありがとう","jpGuide1":"ありがとう → 【BADEND35】","jpGuide2":"・ありがとう → バッドエンド【バッドエンド解説第三十五回】","enGuide":"","badEndPath":"【BADEND35】"},
+  {"simpleJp":"セーブ54_PLUS5にロード","jpGuide1":"SAVE4にロード","jpGuide2":"▼SAVE4にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"私でいいの？","jpGuide1":"私でいいの？","jpGuide2":"・私でいいの？","enGuide":""},
+
+  {"simpleJp":"遼 グッドエンド","jpGuide1":"【GOOD END】","jpGuide2":"遼 グッドエンド","enGuide":""}
+]

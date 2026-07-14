@@ -7,45 +7,63 @@
       "title": "鬼崎拓磨ルート",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Onizaki Takuma. Classmate of the heroine, oni-blooded guardian. Available from the very first playthrough. Frequently recommended as the first or second route (interchangeable with Mahiro). Has a Good End, a shared 'Tragic End' (悲恋エンド, sometimes called あかねいろの追憶/'Akane-iro no Tsuioku', tied to the PS3 special edition subtitle) reachable from near-zero affection, and multiple bad ends."
+      "notes": "Onizaki Takuma. Classmate of the heroine, oni-blooded guardian. Available from the very first playthrough. Frequently recommended as the first or second route (interchangeable with Mahiro). Has a Good End, a shared 'Tragic End' (悲恋エンド, sometimes called あかねいろの追憶/'Akane-iro no Tsuioku', tied to the PS3 special edition subtitle) reachable from near-zero affection, and multiple bad ends.",
+      "portrait": "https://t.vndb.org/ch/81/43681.jpg"
     },
     {
       "id": "mahiro",
       "title": "鴉取真弘ルート",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Atori Mahiro. Senpai, tsundere, yatagarasu-blooded guardian. Available from the first playthrough. Interchangeable with Takuma as the recommended opening route. 1 Good End + 5 documented Bad Ends per choro-game/hatenablog sources; Takuma's Tragic End is also reachable/referenced from this route's data."
+      "notes": "Atori Mahiro. Senpai, tsundere, yatagarasu-blooded guardian. Available from the first playthrough. Interchangeable with Takuma as the recommended opening route. 1 Good End + 5 documented Bad Ends per choro-game/hatenablog sources; Takuma's Tragic End is also reachable/referenced from this route's data.",
+      "portrait": "https://t.vndb.org/ch/82/43682.jpg"
     },
     {
       "id": "yuuichi",
       "title": "狐邑祐一ルート",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Komura Yuuichi. Senpai, kuudere, kitsune-blooded guardian. All sources place this in the middle of the recommended order, after Takuma/Mahiro. No hard lock was documented (available at least by 2nd playthrough), but it is never recommended as an opening route."
+      "notes": "Komura Yuuichi. Senpai, kuudere, kitsune-blooded guardian. All sources place this in the middle of the recommended order, after Takuma/Mahiro. No hard lock was documented (available at least by 2nd playthrough), but it is never recommended as an opening route.",
+      "portrait": "https://t.vndb.org/ch/83/43683.jpg"
     },
     {
       "id": "shinji",
       "title": "犬戒慎司ルート",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Inukai Shinji. Kouhai, kind/romantic type, dog-blooded guardian. Placed with Yuuichi in the middle tier of the recommended order, generally played right after Takuma/Mahiro and alongside/after Yuuichi."
+      "notes": "Inukai Shinji. Kouhai, kind/romantic type, dog-blooded guardian. Placed with Yuuichi in the middle tier of the recommended order, generally played right after Takuma/Mahiro and alongside/after Yuuichi.",
+      "portrait": "https://t.vndb.org/ch/85/43685.jpg"
     },
     {
       "id": "suguru",
       "title": "大蛇卓ルート",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Oomi Suguru (大蛇 卓, official romanization 'Suguru Ohmi/Oomi' per the anime's official character site; the surname 大蛇 reads Oomi, given name 卓 reads Suguru — NOT 'Taku', despite that misreading appearing in some auto-generated summaries). Older adult-type guardian, serpent-blooded. Recommended as one of the last two routes, alongside Ryou. The walkthrough sources note a shared save point with Ryou's route ('共通SAVE（卓・遼）') partway through, meaning a save made on this route can be reused to branch into Ryou's."
+      "notes": "Oomi Suguru (大蛇 卓, official romanization 'Suguru Ohmi/Oomi' per the anime's official character site; the surname 大蛇 reads Oomi, given name 卓 reads Suguru — NOT 'Taku', despite that misreading appearing in some auto-generated summaries). Older adult-type guardian, serpent-blooded. Recommended as one of the last two routes, alongside Ryou. The walkthrough sources note a shared save point with Ryou's route ('共通SAVE（卓・遼）') partway through, meaning a save made on this route can be reused to branch into Ryou's.",
+      "portrait": "https://t.vndb.org/ch/84/43684.jpg"
     },
     {
       "id": "ryo",
       "title": "狗谷遼ルート",
-      "prerequisites": ["takuma", "mahiro", "yuuichi", "shinji"],
+      "prerequisites": [
+        "takuma",
+        "mahiro",
+        "yuuichi",
+        "shinji"
+      ],
       "is_true_ending": false,
-      "notes": "Kutani Ryou. The hidden 6th guardian (dog-blooded). VERSION-DEPENDENT LOCK: in the original 2006 PC release (and the PSP/DS/PS3 ports that followed, all under VNDB v1629), this route is NOT selectable on the 1st or 2nd playthrough; multiple Japanese sources state it opens starting on the 3rd playthrough, after clearing at least one of Takuma/Mahiro AND at least one of Yuuichi/Shinji, and additionally requires triggering Ryou's appearance during Chapter 3 of that playthrough or the route will not continue. In the 2024 Nintendo Switch / Vita 'おもいいろの記憶' rerelease, the choro-game guide explicitly states there are no route restrictions ('攻略制限：ありません') — all 6 routes, including Ryou's, are selectable from the start. Treated by consensus as the route to play last regardless of platform, since it is written as capstone/bonus content even where not mechanically locked."
+      "notes": "Kutani Ryou. The hidden 6th guardian (dog-blooded). VERSION-DEPENDENT LOCK: in the original 2006 PC release (and the PSP/DS/PS3 ports that followed, all under VNDB v1629), this route is NOT selectable on the 1st or 2nd playthrough; multiple Japanese sources state it opens starting on the 3rd playthrough, after clearing at least one of Takuma/Mahiro AND at least one of Yuuichi/Shinji, and additionally requires triggering Ryou's appearance during Chapter 3 of that playthrough or the route will not continue. In the 2024 Nintendo Switch / Vita 'おもいいろの記憶' rerelease, the choro-game guide explicitly states there are no route restrictions ('攻略制限：ありません') — all 6 routes, including Ryou's, are selectable from the start. Treated by consensus as the route to play last regardless of platform, since it is written as capstone/bonus content even where not mechanically locked.",
+      "portrait": "https://t.vndb.org/ch/86/43686.jpg"
     }
   ],
-  "recommended_order": ["takuma", "mahiro", "yuuichi", "shinji", "suguru", "ryo"],
+  "recommended_order": [
+    "takuma",
+    "mahiro",
+    "yuuichi",
+    "shinji",
+    "suguru",
+    "ryo"
+  ],
   "sources": [
     {
       "url": "https://choro-game.com/e/hiiro-guide",

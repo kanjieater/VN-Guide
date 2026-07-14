@@ -31,6 +31,12 @@
       "title": "大蛇卓ルート",
       "stepCount": 55,
       "portrait": "https://t.vndb.org/ch/84/43684.jpg"
+    },
+    {
+      "id": "ryo",
+      "title": "狗谷遼ルート",
+      "stepCount": 52,
+      "portrait": "https://t.vndb.org/ch/86/43686.jpg"
     }
   ],
   "sources": [
@@ -83,5 +89,5 @@
       "notes": "Reference only. Confirms VNDB id v1629 corresponds to the original July 6, 2006 PC release of 緋色の欠片, and that all later ports (PSP 2008, DS 2008, PS3 'Aizouban ~Akane Iro no Tsuioku~' 2011, Vita 'Omoi Iro no Kioku' 2017, Switch 'Tamayori Hime Kitan ~Omoi Iro no Kioku~' 2024) are releases under this same VNDB entry rather than separate titles. This is why Japanese guides referencing the 'おもいいろの記憶' subtitle are valid sources for v1629."
     }
   ],
-  "generated_at": "2026-07-14T16:22:36.417066+00:00"
+  "generated_at": "2026-07-14T16:26:40.385034+00:00"
 }

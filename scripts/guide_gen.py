@@ -104,6 +104,19 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
     stepCount is included so the home screen can show progress % without loading steps.
     """
     research_routes = {r["id"]: r for r in research.get("routes", [])}
+
+    # Preserve any portrait data already in guide.json (agent may have set it manually)
+    existing_portraits: dict[str, str] = {}
+    existing_guide = guide_dir / "guide.json"
+    if existing_guide.exists():
+        try:
+            existing = json.loads(existing_guide.read_text())
+            for r in existing.get("routes", []):
+                if r.get("portrait"):
+                    existing_portraits[r["id"]] = r["portrait"]
+        except (json.JSONDecodeError, KeyError):
+            pass
+
     route_list = []
     for r in completed_routes:
         entry: dict = {
@@ -111,7 +124,8 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
             "title": r["title"],
             "stepCount": len(r["steps"]),
         }
-        portrait = research_routes.get(r["id"], {}).get("portrait", "")
+        portrait = (research_routes.get(r["id"], {}).get("portrait", "")
+                    or existing_portraits.get(r["id"], ""))
         if portrait:
             entry["portrait"] = portrait
         route_list.append(entry)

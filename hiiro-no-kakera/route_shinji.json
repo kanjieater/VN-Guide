@@ -1,62 +1,310 @@
 [
-  {"simpleJp":"学校の外を探す","jpGuide1":"学校の外を探す","jpGuide2":"・学校の外を探す","enGuide":""},
-  {"simpleJp":"校門","jpGuide1":"校門","jpGuide2":"・校門","enGuide":""},
-  {"simpleJp":"近道らしい林の道","jpGuide1":"近道らしい林の道","jpGuide2":"・近道らしい林の道","enGuide":""},
-  {"simpleJp":"このまま進む","jpGuide1":"このまま進む","jpGuide2":"・このまま進む","enGuide":""},
-  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
-  {"simpleJp":"相談しない","jpGuide1":"相談しない","jpGuide2":"・相談しない","enGuide":""},
-  {"simpleJp":"もう一度確かめる","jpGuide1":"もう一度確かめる","jpGuide2":"・もう一度確かめる","enGuide":""},
-  {"simpleJp":"美鶴に任せる","jpGuide1":"美鶴に任せる","jpGuide2":"・美鶴に任せる","enGuide":""},
-  {"simpleJp":"神社に行く","jpGuide1":"神社に行く","jpGuide2":"・神社に行く","enGuide":""},
-  {"simpleJp":"探しに行ってみる","jpGuide1":"探しに行ってみる","jpGuide2":"・探しに行ってみる","enGuide":""},
-  {"simpleJp":"戻らない","jpGuide1":"戻らない","jpGuide2":"・戻らない","enGuide":""},
-  {"simpleJp":"やっぱり相談する","jpGuide1":"やっぱり相談する","jpGuide2":"・やっぱり相談する","enGuide":""},
-  {"simpleJp":"鬼切丸は渡さない","jpGuide1":"鬼斬丸は渡さない","jpGuide2":"・鬼切丸は渡さない","enGuide":""},
-  {"simpleJp":"前に出る","jpGuide1":"前に出る","jpGuide2":"・前に出る","enGuide":""},
-  {"simpleJp":"信じる","jpGuide1":"信じる","jpGuide2":"・信じる","enGuide":""},
-
-  {"simpleJp":"アジト探し","jpGuide1":"アジト探し","jpGuide2":"・アジト探し","enGuide":""},
-  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
-
-  {"simpleJp":"セーブ32_PLUS1","jpGuide1":"SAVE1","jpGuide2":"（第二ガイドに記載なし）","enGuide":""},
-  {"simpleJp":"そんなこと無いと思う","jpGuide1":"そんなこと無いと思う","jpGuide2":"・そんなこと無いと思う","enGuide":""},
-  {"simpleJp":"教室に逃げ込む","jpGuide1":"教室に逃げ込む","jpGuide2":"・教室に逃げ込む","enGuide":""},
-
-  {"simpleJp":"美鶴ちゃんを追う","jpGuide1":"美鶴ちゃんを追う","jpGuide2":"・美鶴ちゃんを追う","enGuide":""},
-  {"simpleJp":"美鶴の肩を持つ","jpGuide1":"美鶴の肩を持つ","jpGuide2":"・美鶴の肩を持つ","enGuide":""},
-  {"simpleJp":"がんばったね","jpGuide1":"がんばったね","jpGuide2":"・がんばったね","enGuide":""},
-  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
-  {"simpleJp":"慎司君と行く","jpGuide1":"慎司君と行く","jpGuide2":"・慎司君と行く","enGuide":""},
-  {"simpleJp":"慎司君？","jpGuide1":"慎司君？","jpGuide2":"・慎司君？","enGuide":""},
-  {"simpleJp":"慎司をしかる","jpGuide1":"慎司をしかる","jpGuide2":"・慎司をしかる","enGuide":""},
-  {"simpleJp":"戦えない","jpGuide1":"戦えない","jpGuide2":"・戦えない","enGuide":""},
-
-  {"simpleJp":"セーブ32_PLUS2","jpGuide1":"SAVE2","jpGuide2":"▼SAVE1","enGuide":""},
-  {"simpleJp":"美鶴を連れて逃げる","jpGuide1":"美鶴を連れて逃げる → 【BADEND11】","jpGuide2":"・美鶴を連れて逃げる → バッドエンド【バッドエンド解説第十一回】","enGuide":"","badEndPath":"【BADEND11】"},
-  {"simpleJp":"セーブ32_PLUS2にロード","jpGuide1":"SAVE2にロード","jpGuide2":"▼SAVE1にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"慎司君と逃げて","jpGuide1":"慎司くんと逃げて","jpGuide2":"・慎司君と逃げて","enGuide":""},
-
-  {"simpleJp":"自分でつくるもの","jpGuide1":"自分でつくるもの","jpGuide2":"・自分でつくるもの","enGuide":""},
-  {"simpleJp":"もう一度説得する","jpGuide1":"もう一度説得する","jpGuide2":"・もう一度説得する","enGuide":""},
-
-  {"simpleJp":"台所","jpGuide1":"台所","jpGuide2":"・台所","enGuide":""},
-  {"simpleJp":"そんなの関係ない","jpGuide1":"そんなの関係ない","jpGuide2":"・そんなの関係ない","enGuide":""},
-  {"simpleJp":"慎司に任せる","jpGuide1":"慎司に任せる","jpGuide2":"・慎司に任せる","enGuide":""},
-
-  {"simpleJp":"セーブ32_PLUS3","jpGuide1":"SAVE3","jpGuide2":"▼SAVE2","enGuide":""},
-  {"simpleJp":"慎司君を困らせないで","jpGuide1":"慎司君を困らせないで → 【BADEND25】","jpGuide2":"・慎司君を困らせないで → バッドエンド【バッドエンド解説第二十五回】","enGuide":"","badEndPath":"【BADEND25】"},
-  {"simpleJp":"セーブ32_PLUS3にロード","jpGuide1":"SAVE3にロード","jpGuide2":"▼SAVE2にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"妹みたいでうれしかった","jpGuide1":"妹みたいでうれしかった","jpGuide2":"・妹みたいでうれしかった","enGuide":""},
-
-  {"simpleJp":"セーブ32_PLUS4","jpGuide1":"SAVE4","jpGuide2":"▼SAVE3","enGuide":""},
-  {"simpleJp":"だめ、危なすぎる","jpGuide1":"だめ、危なすぎる → 【BADEND26】","jpGuide2":"・だめ、危なすぎる → バッドエンド【バッドエンド解説第二十六回】","enGuide":"","badEndPath":"【BADEND26】"},
-  {"simpleJp":"セーブ32_PLUS4にロード","jpGuide1":"SAVE4にロード","jpGuide2":"▼SAVE3にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"うん、任せる","jpGuide1":"うん、任せる","jpGuide2":"・うん、任せる","enGuide":""},
-
-  {"simpleJp":"セーブ32_PLUS5","jpGuide1":"SAVE5","jpGuide2":"▼SAVE4","enGuide":""},
-  {"simpleJp":"ありがとう","jpGuide1":"ありがとう → 【BADEND27】","jpGuide2":"・ありがとう → バッドエンド【バッドエンド解説第二十七回】","enGuide":"","badEndPath":"【BADEND27】"},
-  {"simpleJp":"セーブ32_PLUS5にロード","jpGuide1":"SAVE5にロード","jpGuide2":"▼SAVE4にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"玉依姫だから？","jpGuide1":"玉依姫だから？","jpGuide2":"・玉依姫だから？","enGuide":""},
-
-  {"simpleJp":"慎司 グッドエンド","jpGuide1":"【GOOD END】","jpGuide2":"慎司 グッドエンド","enGuide":""}
+  {
+    "simpleJp": "学校の外を探す",
+    "jpGuide1": "学校の外を探す",
+    "jpGuide2": "・学校の外を探す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "校門",
+    "jpGuide1": "校門",
+    "jpGuide2": "・校門",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "近道らしい林の道",
+    "jpGuide1": "近道らしい林の道",
+    "jpGuide2": "・近道らしい林の道",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "このまま進む",
+    "jpGuide1": "このまま進む",
+    "jpGuide2": "・このまま進む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社",
+    "jpGuide1": "神社",
+    "jpGuide2": "・神社",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "相談しない",
+    "jpGuide1": "相談しない",
+    "jpGuide2": "・相談しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう一度確かめる",
+    "jpGuide1": "もう一度確かめる",
+    "jpGuide2": "・もう一度確かめる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "美鶴に任せる",
+    "jpGuide1": "美鶴に任せる",
+    "jpGuide2": "・美鶴に任せる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社に行く",
+    "jpGuide1": "神社に行く",
+    "jpGuide2": "・神社に行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "探しに行ってみる",
+    "jpGuide1": "探しに行ってみる",
+    "jpGuide2": "・探しに行ってみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻らない",
+    "jpGuide1": "戻らない",
+    "jpGuide2": "・戻らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり相談する",
+    "jpGuide1": "やっぱり相談する",
+    "jpGuide2": "・やっぱり相談する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "鬼切丸は渡さない",
+    "jpGuide1": "鬼斬丸は渡さない",
+    "jpGuide2": "・鬼切丸は渡さない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "前に出る",
+    "jpGuide1": "前に出る",
+    "jpGuide2": "・前に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "信じる",
+    "jpGuide1": "信じる",
+    "jpGuide2": "・信じる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アジト探し",
+    "jpGuide1": "アジト探し",
+    "jpGuide2": "・アジト探し",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社",
+    "jpGuide1": "神社",
+    "jpGuide2": "・神社",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ33",
+    "jpGuide1": "SAVE1",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんなこと無いと思う",
+    "jpGuide1": "そんなこと無いと思う",
+    "jpGuide2": "・そんなこと無いと思う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "教室に逃げ込む",
+    "jpGuide1": "教室に逃げ込む",
+    "jpGuide2": "・教室に逃げ込む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "美鶴ちゃんを追う",
+    "jpGuide1": "美鶴ちゃんを追う",
+    "jpGuide2": "・美鶴ちゃんを追う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "美鶴の肩を持つ",
+    "jpGuide1": "美鶴の肩を持つ",
+    "jpGuide2": "・美鶴の肩を持つ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "がんばったね",
+    "jpGuide1": "がんばったね",
+    "jpGuide2": "・がんばったね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社",
+    "jpGuide1": "神社",
+    "jpGuide2": "・神社",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "慎司君と行く",
+    "jpGuide1": "慎司君と行く",
+    "jpGuide2": "・慎司君と行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "慎司君？",
+    "jpGuide1": "慎司君？",
+    "jpGuide2": "・慎司君？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "慎司をしかる",
+    "jpGuide1": "慎司をしかる",
+    "jpGuide2": "・慎司をしかる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戦えない",
+    "jpGuide1": "戦えない",
+    "jpGuide2": "・戦えない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ34",
+    "jpGuide1": "SAVE2",
+    "jpGuide2": "▼SAVE1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "美鶴を連れて逃げる",
+    "jpGuide1": "美鶴を連れて逃げる → 【BADEND11】",
+    "jpGuide2": "・美鶴を連れて逃げる → バッドエンド【バッドエンド解説第十一回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND11】"
+  },
+  {
+    "simpleJp": "セーブ34にロード",
+    "jpGuide1": "SAVE2にロード",
+    "jpGuide2": "▼SAVE1にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "慎司君と逃げて",
+    "jpGuide1": "慎司くんと逃げて",
+    "jpGuide2": "・慎司君と逃げて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分でつくるもの",
+    "jpGuide1": "自分でつくるもの",
+    "jpGuide2": "・自分でつくるもの",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう一度説得する",
+    "jpGuide1": "もう一度説得する",
+    "jpGuide2": "・もう一度説得する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "台所",
+    "jpGuide1": "台所",
+    "jpGuide2": "・台所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんなの関係ない",
+    "jpGuide1": "そんなの関係ない",
+    "jpGuide2": "・そんなの関係ない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "慎司に任せる",
+    "jpGuide1": "慎司に任せる",
+    "jpGuide2": "・慎司に任せる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ35",
+    "jpGuide1": "SAVE3",
+    "jpGuide2": "▼SAVE2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "慎司君を困らせないで",
+    "jpGuide1": "慎司君を困らせないで → 【BADEND25】",
+    "jpGuide2": "・慎司君を困らせないで → バッドエンド【バッドエンド解説第二十五回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND25】"
+  },
+  {
+    "simpleJp": "セーブ35にロード",
+    "jpGuide1": "SAVE3にロード",
+    "jpGuide2": "▼SAVE2にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "妹みたいでうれしかった",
+    "jpGuide1": "妹みたいでうれしかった",
+    "jpGuide2": "・妹みたいでうれしかった",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ36",
+    "jpGuide1": "SAVE4",
+    "jpGuide2": "▼SAVE3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "だめ、危なすぎる",
+    "jpGuide1": "だめ、危なすぎる → 【BADEND26】",
+    "jpGuide2": "・だめ、危なすぎる → バッドエンド【バッドエンド解説第二十六回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND26】"
+  },
+  {
+    "simpleJp": "セーブ36にロード",
+    "jpGuide1": "SAVE4にロード",
+    "jpGuide2": "▼SAVE3にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "うん、任せる",
+    "jpGuide1": "うん、任せる",
+    "jpGuide2": "・うん、任せる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ37",
+    "jpGuide1": "SAVE5",
+    "jpGuide2": "▼SAVE4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう → 【BADEND27】",
+    "jpGuide2": "・ありがとう → バッドエンド【バッドエンド解説第二十七回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND27】"
+  },
+  {
+    "simpleJp": "セーブ37にロード",
+    "jpGuide1": "SAVE5にロード",
+    "jpGuide2": "▼SAVE4にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "玉依姫だから？",
+    "jpGuide1": "玉依姫だから？",
+    "jpGuide2": "・玉依姫だから？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "慎司 グッドエンド",
+    "jpGuide1": "【GOOD END】",
+    "jpGuide2": "慎司 グッドエンド",
+    "enGuide": ""
+  }
 ]

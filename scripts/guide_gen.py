@@ -73,7 +73,8 @@ def build_prompt(template_name: str, **kwargs) -> str:
     tmpl = (PROMPTS_PATH / template_name).read_text()
     prompt_md = (REPO_PATH / "prompt.md").read_text()
     tmpl = tmpl.replace("$PROMPT_MD", prompt_md)
-    for key, val in kwargs.items():
+    # Longest keys first so $SAVE_OFFSET_PLUS1 is replaced before $SAVE_OFFSET
+    for key, val in sorted(kwargs.items(), key=lambda x: -len(x[0])):
         tmpl = tmpl.replace(f"${key}", str(val))
     return tmpl
 

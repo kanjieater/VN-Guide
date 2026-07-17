@@ -1,0 +1,65 @@
+[
+  {"simpleJp":"学校の外を探す","jpGuide1":"学校の外を探す","jpGuide2":"・学校の外を探す","enGuide":""},
+  {"simpleJp":"校舎の外","jpGuide1":"校舎の外","jpGuide2":"・校舎の外","enGuide":""},
+  {"simpleJp":"近道らしい林の道","jpGuide1":"近道らしい林の道","jpGuide2":"・近道らしい林の道","enGuide":""},
+  {"simpleJp":"このまま進む","jpGuide1":"このまま進む","jpGuide2":"・このまま進む","enGuide":""},
+
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"相談しない","jpGuide1":"相談しない","jpGuide2":"・相談しない","enGuide":""},
+  {"simpleJp":"そのまま向かう","jpGuide1":"そのまま向かう","jpGuide2":"・そのまま向かう","enGuide":""},
+  {"simpleJp":"身を隠す","jpGuide1":"身を隠す","jpGuide2":"・身を隠す","enGuide":""},
+
+  {"simpleJp":"美鶴に任せる","jpGuide1":"美鶴に任せる","jpGuide2":"・美鶴に任せる","enGuide":""},
+  {"simpleJp":"神社に行く","jpGuide1":"神社に行く","jpGuide2":"・神社に行く","enGuide":""},
+  {"simpleJp":"誰かに相談する","jpGuide1":"誰かに相談する","jpGuide2":"・誰かに相談する","enGuide":""},
+  {"simpleJp":"戦う","jpGuide1":"戦う","jpGuide2":"・戦う","enGuide":""},
+  {"simpleJp":"留まる","jpGuide1":"留まる","jpGuide2":"・留まる","enGuide":""},
+  {"simpleJp":"受け入れない","jpGuide1":"受け入れない","jpGuide2":"・受け入れない","enGuide":""},
+
+  {"simpleJp":"セーブ17_PLUS1","jpGuide1":"SAVE1","jpGuide2":"（第二ガイドに記載なし）","enGuide":""},
+  {"simpleJp":"何か力になりたい","jpGuide1":"何か力になりたい","jpGuide2":"・何か力になりたい","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"大声で呼び止める","jpGuide1":"大声で呼び止める","jpGuide2":"・大声で呼び止める","enGuide":""},
+
+  {"simpleJp":"真弘の部屋","jpGuide1":"真弘の部屋","jpGuide2":"・真弘の部屋","enGuide":""},
+  {"simpleJp":"聞き耳を立てる","jpGuide1":"聞き耳を立てる","jpGuide2":"・聞き耳を立てる","enGuide":""},
+  {"simpleJp":"謝る","jpGuide1":"謝る","jpGuide2":"・謝る","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+  {"simpleJp":"真弘先輩と","jpGuide1":"真弘先輩と","jpGuide2":"・真弘先輩と","enGuide":""},
+  {"simpleJp":"真弘先輩","jpGuide1":"真弘先輩","jpGuide2":"・真弘先輩","enGuide":""},
+  {"simpleJp":"もう少し一緒にいたいな","jpGuide1":"もう少し一緒にいたいな","jpGuide2":"・もう少し一緒にいたいな","enGuide":""},
+
+  {"simpleJp":"セーブ17_PLUS2","jpGuide1":"SAVE2","jpGuide2":"▼SAVE1","enGuide":""},
+  {"simpleJp":"呼び止める","jpGuide1":"呼び止める → 【BADEND9】","jpGuide2":"・呼び止める → バッドエンド【バッドエンド解説第九回】","enGuide":"","badEndPath":"【BADEND9】"},
+  {"simpleJp":"セーブ17_PLUS2にロード","jpGuide1":"SAVE2にロード","jpGuide2":"▼SAVE1にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"抱きとめる","jpGuide1":"抱きとめる","jpGuide2":"・抱きとめる","enGuide":""},
+
+  {"simpleJp":"嘘つき","jpGuide1":"嘘つき","jpGuide2":"・嘘つき","enGuide":""},
+  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
+
+  {"simpleJp":"セーブ17_PLUS3","jpGuide1":"SAVE3","jpGuide2":"▼SAVE2","enGuide":""},
+  {"simpleJp":"真弘先輩の様子をうかがう","jpGuide1":"真弘先輩の様子をうかがう → 【BADEND17】","jpGuide2":"・真弘先輩の様子をうかがう → バッドエンド【バッドエンド解説第十七回】","enGuide":"","badEndPath":"【BADEND17】"},
+  {"simpleJp":"セーブ17_PLUS3にロード","jpGuide1":"SAVE3にロード","jpGuide2":"▼SAVE2にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"行動あるのみ","jpGuide1":"行動あるのみ","jpGuide2":"・行動あるのみ","enGuide":""},
+
+  {"simpleJp":"他に方法がある","jpGuide1":"他に方法がある","jpGuide2":"・他に方法がある","enGuide":""},
+
+  {"simpleJp":"セーブ17_PLUS4","jpGuide1":"SAVE4","jpGuide2":"▼SAVE3","enGuide":""},
+  {"simpleJp":"玉依姫の名を使う","jpGuide1":"玉依姫の名を使う","jpGuide2":"・玉依姫の名を使う","enGuide":""},
+  {"simpleJp":"アリアを説得する","jpGuide1":"アリアを説得する → 【BADEND19】","jpGuide2":"・アリアを説得する → バッドエンド【バッドエンド解説第十九回】","enGuide":"","badEndPath":"【BADEND19】"},
+  {"simpleJp":"セーブ17_PLUS4にロード","jpGuide1":"SAVE4にロード","jpGuide2":"▼SAVE3にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"玉依姫の名を使わない","jpGuide1":"玉依姫の名を使わない","jpGuide2":"・玉依姫の名を使わない","enGuide":""},
+
+  {"simpleJp":"セーブ17_PLUS5","jpGuide1":"SAVE5","jpGuide2":"▼SAVE4","enGuide":""},
+  {"simpleJp":"真弘を説得する","jpGuide1":"真弘を説得する → 【BADEND18】","jpGuide2":"・真弘を説得する → バッドエンド【バッドエンド解説第十八回】","enGuide":"","badEndPath":"【BADEND18】"},
+  {"simpleJp":"セーブ17_PLUS5にロード","jpGuide1":"SAVE5にロード","jpGuide2":"▼SAVE4にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"アリアを説得する","jpGuide1":"アリアを説得する","jpGuide2":"・アリアを説得する","enGuide":""},
+  {"simpleJp":"助けたい","jpGuide1":"助けたい","jpGuide2":"・助けたい","enGuide":""},
+
+  {"simpleJp":"セーブ17_PLUS6","jpGuide1":"SAVE6","jpGuide2":"▼SAVE5","enGuide":""},
+  {"simpleJp":"封印してみせる","jpGuide1":"封印してみせる → 【BADEND20】","jpGuide2":"・封印してみせる → バッドエンド【バッドエンド解説第二十回】","enGuide":"","badEndPath":"【BADEND20】"},
+  {"simpleJp":"セーブ17_PLUS6にロード","jpGuide1":"SAVE6にロード","jpGuide2":"▼SAVE5にロード","enGuide":"","isLoad":true},
+  {"simpleJp":"二人で探そう","jpGuide1":"二人で探そう","jpGuide2":"・二人で探そう","enGuide":""},
+
+  {"simpleJp":"真弘 グッドエンド","jpGuide1":"【GOOD END】","jpGuide2":"真弘 グッドエンド","enGuide":""}
+]

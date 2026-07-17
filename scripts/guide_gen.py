@@ -24,8 +24,8 @@ PROMPTS_PATH = SCRIPTS_PATH / "prompts"
 GAMES_JSON = REPO_PATH / "games.json"
 
 MODEL = os.environ.get("GUIDE_GEN_MODEL", "claude-sonnet-5")
-MAX_TURNS_RESEARCH = 30
-MAX_TURNS_ROUTE = 35
+MAX_TURNS_RESEARCH = 60
+MAX_TURNS_ROUTE = 50
 TIMEOUT_RESEARCH = 3600  # research fetches multiple sites; give it an hour
 TIMEOUT_ROUTE = 1800
 

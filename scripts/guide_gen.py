@@ -36,27 +36,69 @@ def err(msg: str) -> None:
     print(f"[guide_gen] {msg}", file=sys.stderr, flush=True)
 
 
-def run_claude(prompt: str, max_turns: int, cwd: Path) -> bool:
-    """Invoke claude CLI in non-interactive mode. Output streams to Docker logs."""
+def find_latest_session(cwd: Path) -> str | None:
+    """Find the most recent Claude session ID for the given working directory.
+
+    Claude stores sessions at ~/.claude/projects/<encoded-cwd>/<session-id>.jsonl
+    where encoded-cwd is the absolute path with '/' replaced by '-'.
+    """
+    projects_dir = Path.home() / ".claude" / "projects"
+    encoded = str(cwd).replace("/", "-")
+    project_dir = projects_dir / encoded
+    if not project_dir.exists():
+        return None
+    sessions = sorted(project_dir.glob("*.jsonl"), key=lambda p: p.stat().st_mtime)
+    return sessions[-1].stem if sessions else None
+
+
+def run_claude(prompt: str, max_turns: int, cwd: Path,
+               session_file: Path | None = None) -> bool:
+    """Invoke claude CLI in non-interactive mode. Output streams to Docker logs.
+
+    If session_file exists and contains a session ID, resumes that session with
+    a short continuation prompt instead of the full prompt — avoids re-spending
+    tokens on work already done when a previous run hit a rate limit mid-task.
+    Saves the session ID to session_file after every run so the next attempt
+    can resume.
+    """
+    session_id = session_file.read_text().strip() if session_file and session_file.exists() else None
+
+    if session_id:
+        log(f"Resuming session {session_id}")
+        cmd = [
+            "claude",
+            "--resume", session_id,
+            "-p", "The previous session was interrupted. Continue where you left off "
+                  "and write the output file as soon as you have enough information.",
+            "--dangerously-skip-permissions",
+            "--model", MODEL,
+            "--max-turns", str(max_turns),
+        ]
+    else:
+        cmd = [
+            "claude",
+            "-p", prompt,
+            "--dangerously-skip-permissions",
+            "--model", MODEL,
+            "--max-turns", str(max_turns),
+        ]
+
     try:
-        result = subprocess.run(
-            [
-                "claude",
-                "-p", prompt,
-                "--dangerously-skip-permissions",
-                "--model", MODEL,
-                "--max-turns", str(max_turns),
-            ],
-            cwd=str(cwd),
-            timeout=900,
-        )
-        return result.returncode == 0
+        result = subprocess.run(cmd, cwd=str(cwd), timeout=900)
+        ok = result.returncode == 0
     except subprocess.TimeoutExpired:
         err("Claude timed out after 900s")
-        return False
+        ok = False
     except FileNotFoundError:
         err("claude CLI not found — is @anthropic-ai/claude-code installed?")
         return False
+
+    if session_file is not None:
+        sid = find_latest_session(cwd)
+        if sid:
+            session_file.write_text(sid)
+
+    return ok
 
 
 def run_deploy() -> None:
@@ -163,11 +205,14 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
         RESEARCH_FILE=str(research_file),
         DATE=datetime.now(timezone.utc).isoformat(),
     )
-    ok = run_claude(prompt, MAX_TURNS_RESEARCH, guide_dir)
+    session_file = guide_dir / "research_session.txt"
+    ok = run_claude(prompt, MAX_TURNS_RESEARCH, guide_dir, session_file=session_file)
 
     if not ok or not research_file.exists():
         err(f"Research phase failed for {slug}")
         return False
+
+    session_file.unlink(missing_ok=True)
 
     try:
         data = json.loads(research_file.read_text())
@@ -234,11 +279,14 @@ def generate_guide(slug: str, title: str, vndb_id: str, max_routes: int | None =
                 SAVE_OFFSET=str(save_offset),
                 SAVE_OFFSET_PLUS1=str(save_offset + 1),
             )
-            ok = run_claude(prompt, MAX_TURNS_ROUTE, guide_dir)
+            route_session_file = guide_dir / f"route_{route_id}_session.txt"
+            ok = run_claude(prompt, MAX_TURNS_ROUTE, guide_dir, session_file=route_session_file)
 
             if not ok or not route_file.exists():
                 err(f"Route {route_id} failed for {slug}")
                 return False
+
+            route_session_file.unlink(missing_ok=True)
 
             try:
                 steps = json.loads(route_file.read_text())

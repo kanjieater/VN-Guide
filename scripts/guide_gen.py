@@ -26,6 +26,8 @@ GAMES_JSON = REPO_PATH / "games.json"
 MODEL = os.environ.get("GUIDE_GEN_MODEL", "claude-sonnet-5")
 MAX_TURNS_RESEARCH = 30
 MAX_TURNS_ROUTE = 35
+TIMEOUT_RESEARCH = 3600  # research fetches multiple sites; give it an hour
+TIMEOUT_ROUTE = 1800
 
 
 def log(msg: str) -> None:
@@ -52,7 +54,8 @@ def find_latest_session(cwd: Path) -> str | None:
 
 
 def run_claude(prompt: str, max_turns: int, cwd: Path,
-               session_file: Path | None = None) -> bool:
+               session_file: Path | None = None,
+               timeout: int = TIMEOUT_ROUTE) -> bool:
     """Invoke claude CLI in non-interactive mode. Output streams to Docker logs.
 
     If session_file exists and contains a session ID, resumes that session with
@@ -84,10 +87,10 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
         ]
 
     try:
-        result = subprocess.run(cmd, cwd=str(cwd), timeout=900)
+        result = subprocess.run(cmd, cwd=str(cwd), timeout=timeout)
         ok = result.returncode == 0
     except subprocess.TimeoutExpired:
-        err("Claude timed out after 900s")
+        err(f"Claude timed out after {timeout}s")
         ok = False
     except FileNotFoundError:
         err("claude CLI not found — is @anthropic-ai/claude-code installed?")
@@ -206,7 +209,8 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
         DATE=datetime.now(timezone.utc).isoformat(),
     )
     session_file = guide_dir / "research_session.txt"
-    ok = run_claude(prompt, MAX_TURNS_RESEARCH, guide_dir, session_file=session_file)
+    ok = run_claude(prompt, MAX_TURNS_RESEARCH, guide_dir, session_file=session_file,
+                    timeout=TIMEOUT_RESEARCH)
 
     if not ok or not research_file.exists():
         err(f"Research phase failed for {slug}")

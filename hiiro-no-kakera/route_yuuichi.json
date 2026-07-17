@@ -1,79 +1,396 @@
 [
-  {"simpleJp":"学校内を探す","jpGuide1":"学校内を探す","jpGuide2":"・学校内を探す","enGuide":""},
-  {"simpleJp":"図書室を探す","jpGuide1":"図書室を探す","jpGuide2":"・図書室を探す","enGuide":""},
-  {"simpleJp":"近道らしい林の道","jpGuide1":"近道らしい林の道","jpGuide2":"・近道らしい林の道","enGuide":""},
-  {"simpleJp":"もと来た道を戻る","jpGuide1":"もと来た道を戻る","jpGuide2":"・もと来た道を戻る","enGuide":""},
-  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
-  {"simpleJp":"誰かに相談する","jpGuide1":"誰かに相談する","jpGuide2":"・誰かに相談する","enGuide":""},
-  {"simpleJp":"図書室","jpGuide1":"図書室","jpGuide2":"・図書室","enGuide":""},
-  {"simpleJp":"美鶴に任せる","jpGuide1":"美鶴に任せる","jpGuide2":"・美鶴に任せる","enGuide":""},
-  {"simpleJp":"神社に行く","jpGuide1":"神社に行く","jpGuide2":"・神社に行く","enGuide":""},
-  {"simpleJp":"探しに行ってみる","jpGuide1":"探しに行ってみる","jpGuide2":"・探しに行ってみる","enGuide":""},
-  {"simpleJp":"戻らない","jpGuide1":"戻らない","jpGuide2":"・戻らない","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS1","jpGuide1":"SAVE1","jpGuide2":"（第二ガイドに記載なし）","enGuide":""},
-  {"simpleJp":"やっぱり相談する","jpGuide1":"やっぱり相談する","jpGuide2":"・やっぱり相談する","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS2","jpGuide1":"SAVE2","jpGuide2":"▼SAVE1","enGuide":""},
-  {"simpleJp":"アリアを信じてみる","jpGuide1":"アリアを信じてみる → 【BADEND2】","jpGuide2":"・アリアを信じてみる → バッドエンド【バッドエンド解説第二回】","enGuide":"","badEndPath":"【BADEND2】"},
-  {"simpleJp":"セーブ14_PLUS2にロード","jpGuide1":"SAVE2にロード","jpGuide2":"▼SAVE1にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"鬼切丸は渡さない","jpGuide1":"鬼斬丸は渡さない","jpGuide2":"・鬼切丸は渡さない","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS3","jpGuide1":"SAVE3","jpGuide2":"▼SAVE2","enGuide":""},
-  {"simpleJp":"身を隠す","jpGuide1":"身を隠す → 【BADEND6】","jpGuide2":"・身を隠す → バッドエンド【バッドエンド解説第六回】","enGuide":"","badEndPath":"【BADEND6】"},
-  {"simpleJp":"セーブ14_PLUS3にロード","jpGuide1":"SAVE3にロード","jpGuide2":"▼SAVE2にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"前に出る","jpGuide1":"前に出る","jpGuide2":"・前に出る","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS4","jpGuide1":"SAVE4","jpGuide2":"▼SAVE3","enGuide":""},
-  {"simpleJp":"信じない","jpGuide1":"信じない → 【BADEND7】","jpGuide2":"・信じない → バッドエンド【バッドエンド解説第七回】","enGuide":"","badEndPath":"【BADEND7】"},
-  {"simpleJp":"セーブ14_PLUS4にロード","jpGuide1":"SAVE4にロード","jpGuide2":"▼SAVE3にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"信じる","jpGuide1":"信じる","jpGuide2":"・信じる","enGuide":""},
-
-  {"simpleJp":"ロゴスについて","jpGuide1":"ロゴスについて","jpGuide2":"・ロゴスについて","enGuide":""},
-  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS5","jpGuide1":"SAVE5","jpGuide2":"（第二ガイドに記載なし）","enGuide":""},
-  {"simpleJp":"やっぱり気のせいかも","jpGuide1":"やっぱり気のせいかも","jpGuide2":"・やっぱり気のせいかも","enGuide":""},
-  {"simpleJp":"廊下を走る","jpGuide1":"廊下を走る","jpGuide2":"・廊下を走る","enGuide":""},
-  {"simpleJp":"祐一先輩を追う","jpGuide1":"祐一先輩を追う","jpGuide2":"・祐一先輩を追う","enGuide":""},
-  {"simpleJp":"ずるいです","jpGuide1":"ずるいです","jpGuide2":"・ずるいです","enGuide":""},
-  {"simpleJp":"無理してませんか？","jpGuide1":"無理してませんか？","jpGuide2":"・無理してませんか？","enGuide":""},
-  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
-  {"simpleJp":"祐一先輩と行く","jpGuide1":"祐一先輩と行く","jpGuide2":"・祐一先輩と行く","enGuide":""},
-  {"simpleJp":"祐一先輩？","jpGuide1":"祐一先輩？","jpGuide2":"・祐一先輩？","enGuide":""},
-  {"simpleJp":"忘れてください","jpGuide1":"忘れてください","jpGuide2":"・忘れてください","enGuide":""},
-  {"simpleJp":"わからない","jpGuide1":"わからない","jpGuide2":"・わからない","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS6","jpGuide1":"SAVE6","jpGuide2":"▼SAVE4","enGuide":""},
-  {"simpleJp":"行く","jpGuide1":"行く → 【BADEND10】","jpGuide2":"・行く → バッドエンド【バッドエンド解説第十回】","enGuide":"","badEndPath":"【BADEND10】"},
-  {"simpleJp":"セーブ14_PLUS6にロード","jpGuide1":"SAVE6にロード","jpGuide2":"▼SAVE4にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"行けない","jpGuide1":"行けない","jpGuide2":"・行けない","enGuide":""},
-
-  {"simpleJp":"おとなしく待つ","jpGuide1":"おとなしく待つ","jpGuide2":"・おとなしく待つ","enGuide":""},
-  {"simpleJp":"神社","jpGuide1":"神社","jpGuide2":"・神社","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS7","jpGuide1":"SAVE7","jpGuide2":"▼SAVE5","enGuide":""},
-  {"simpleJp":"私がおとりに","jpGuide1":"私がおとりに → 【BADEND21】","jpGuide2":"・私がおとりに → バッドエンド【バッドエンド解説第二十一回】","enGuide":"","badEndPath":"【BADEND21】"},
-  {"simpleJp":"セーブ14_PLUS7にロード","jpGuide1":"SAVE7にロード","jpGuide2":"▼SAVE5にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"置いていけない","jpGuide1":"置いていけない","jpGuide2":"・置いていけない","enGuide":""},
-
-  {"simpleJp":"大切な人、なの","jpGuide1":"大切な人、なの","jpGuide2":"・大切な人、なの","enGuide":""},
-  {"simpleJp":"返事が聞きたい","jpGuide1":"返事が聞きたい","jpGuide2":"・返事が聞きたい","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS8","jpGuide1":"SAVE8","jpGuide2":"▼SAVE6","enGuide":""},
-  {"simpleJp":"戦う","jpGuide1":"戦う → 【BADEND22】","jpGuide2":"・戦う → バッドエンド【バッドエンド解説第二十二回】","enGuide":"","badEndPath":"【BADEND22】"},
-  {"simpleJp":"セーブ14_PLUS8にロード","jpGuide1":"SAVE8にロード","jpGuide2":"▼SAVE6にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"アリアを庇う","jpGuide1":"アリアを庇う","jpGuide2":"・アリアを庇う","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS9","jpGuide1":"SAVE9","jpGuide2":"▼SAVE7","enGuide":""},
-  {"simpleJp":"祐一を連れて逃げる","jpGuide1":"祐一を連れて逃げる → 【BADEND23】","jpGuide2":"・祐一を連れて逃げる → バッドエンド【バッドエンド解説第二十三回】","enGuide":"","badEndPath":"【BADEND23】"},
-  {"simpleJp":"セーブ14_PLUS9にロード","jpGuide1":"SAVE9にロード","jpGuide2":"▼SAVE7にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"アリアに加勢","jpGuide1":"アリアに加勢","jpGuide2":"・アリアに加勢","enGuide":""},
-
-  {"simpleJp":"セーブ14_PLUS10","jpGuide1":"SAVE10","jpGuide2":"▼SAVE8","enGuide":""},
-  {"simpleJp":"一人にして","jpGuide1":"一人にして → 【BADEND24】","jpGuide2":"・一人にして → バッドエンド【バッドエンド解説第二十四回】","enGuide":"","badEndPath":"【BADEND24】"},
-  {"simpleJp":"セーブ14_PLUS10にロード","jpGuide1":"SAVE10にロード","jpGuide2":"▼SAVE8にロード","enGuide":"","isLoad":true},
-  {"simpleJp":"そばにいて","jpGuide1":"そばにいて","jpGuide2":"・そばにいて","enGuide":""},
-
-  {"simpleJp":"祐一 グッドエンド","jpGuide1":"【GOOD END】","jpGuide2":"祐一 グッドエンド","enGuide":""}
+  {
+    "simpleJp": "学校内を探す",
+    "jpGuide1": "学校内を探す",
+    "jpGuide2": "・学校内を探す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "図書室を探す",
+    "jpGuide1": "図書室を探す",
+    "jpGuide2": "・図書室を探す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "近道らしい林の道",
+    "jpGuide1": "近道らしい林の道",
+    "jpGuide2": "・近道らしい林の道",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もと来た道を戻る",
+    "jpGuide1": "もと来た道を戻る",
+    "jpGuide2": "・もと来た道を戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社",
+    "jpGuide1": "神社",
+    "jpGuide2": "・神社",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "誰かに相談する",
+    "jpGuide1": "誰かに相談する",
+    "jpGuide2": "・誰かに相談する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "図書室",
+    "jpGuide1": "図書室",
+    "jpGuide2": "・図書室",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "美鶴に任せる",
+    "jpGuide1": "美鶴に任せる",
+    "jpGuide2": "・美鶴に任せる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社に行く",
+    "jpGuide1": "神社に行く",
+    "jpGuide2": "・神社に行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "探しに行ってみる",
+    "jpGuide1": "探しに行ってみる",
+    "jpGuide2": "・探しに行ってみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻らない",
+    "jpGuide1": "戻らない",
+    "jpGuide2": "・戻らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ15",
+    "jpGuide1": "SAVE1",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり相談する",
+    "jpGuide1": "やっぱり相談する",
+    "jpGuide2": "・やっぱり相談する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ16",
+    "jpGuide1": "SAVE2",
+    "jpGuide2": "▼SAVE1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリアを信じてみる",
+    "jpGuide1": "アリアを信じてみる → 【BADEND2】",
+    "jpGuide2": "・アリアを信じてみる → バッドエンド【バッドエンド解説第二回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND2】"
+  },
+  {
+    "simpleJp": "セーブ16にロード",
+    "jpGuide1": "SAVE2にロード",
+    "jpGuide2": "▼SAVE1にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "鬼切丸は渡さない",
+    "jpGuide1": "鬼斬丸は渡さない",
+    "jpGuide2": "・鬼切丸は渡さない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ17",
+    "jpGuide1": "SAVE3",
+    "jpGuide2": "▼SAVE2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "身を隠す",
+    "jpGuide1": "身を隠す → 【BADEND6】",
+    "jpGuide2": "・身を隠す → バッドエンド【バッドエンド解説第六回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND6】"
+  },
+  {
+    "simpleJp": "セーブ17にロード",
+    "jpGuide1": "SAVE3にロード",
+    "jpGuide2": "▼SAVE2にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "前に出る",
+    "jpGuide1": "前に出る",
+    "jpGuide2": "・前に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18",
+    "jpGuide1": "SAVE4",
+    "jpGuide2": "▼SAVE3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "信じない",
+    "jpGuide1": "信じない → 【BADEND7】",
+    "jpGuide2": "・信じない → バッドエンド【バッドエンド解説第七回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND7】"
+  },
+  {
+    "simpleJp": "セーブ18にロード",
+    "jpGuide1": "SAVE4にロード",
+    "jpGuide2": "▼SAVE3にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "信じる",
+    "jpGuide1": "信じる",
+    "jpGuide2": "・信じる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロゴスについて",
+    "jpGuide1": "ロゴスについて",
+    "jpGuide2": "・ロゴスについて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社",
+    "jpGuide1": "神社",
+    "jpGuide2": "・神社",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19",
+    "jpGuide1": "SAVE5",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり気のせいかも",
+    "jpGuide1": "やっぱり気のせいかも",
+    "jpGuide2": "・やっぱり気のせいかも",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "廊下を走る",
+    "jpGuide1": "廊下を走る",
+    "jpGuide2": "・廊下を走る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "祐一先輩を追う",
+    "jpGuide1": "祐一先輩を追う",
+    "jpGuide2": "・祐一先輩を追う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ずるいです",
+    "jpGuide1": "ずるいです",
+    "jpGuide2": "・ずるいです",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無理してませんか？",
+    "jpGuide1": "無理してませんか？",
+    "jpGuide2": "・無理してませんか？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社",
+    "jpGuide1": "神社",
+    "jpGuide2": "・神社",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "祐一先輩と行く",
+    "jpGuide1": "祐一先輩と行く",
+    "jpGuide2": "・祐一先輩と行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "祐一先輩？",
+    "jpGuide1": "祐一先輩？",
+    "jpGuide2": "・祐一先輩？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "忘れてください",
+    "jpGuide1": "忘れてください",
+    "jpGuide2": "・忘れてください",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わからない",
+    "jpGuide1": "わからない",
+    "jpGuide2": "・わからない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ20",
+    "jpGuide1": "SAVE6",
+    "jpGuide2": "▼SAVE4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行く",
+    "jpGuide1": "行く → 【BADEND10】",
+    "jpGuide2": "・行く → バッドエンド【バッドエンド解説第十回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND10】"
+  },
+  {
+    "simpleJp": "セーブ20にロード",
+    "jpGuide1": "SAVE6にロード",
+    "jpGuide2": "▼SAVE4にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "行けない",
+    "jpGuide1": "行けない",
+    "jpGuide2": "・行けない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おとなしく待つ",
+    "jpGuide1": "おとなしく待つ",
+    "jpGuide2": "・おとなしく待つ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神社",
+    "jpGuide1": "神社",
+    "jpGuide2": "・神社",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ21",
+    "jpGuide1": "SAVE7",
+    "jpGuide2": "▼SAVE5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私がおとりに",
+    "jpGuide1": "私がおとりに → 【BADEND21】",
+    "jpGuide2": "・私がおとりに → バッドエンド【バッドエンド解説第二十一回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND21】"
+  },
+  {
+    "simpleJp": "セーブ21にロード",
+    "jpGuide1": "SAVE7にロード",
+    "jpGuide2": "▼SAVE5にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "置いていけない",
+    "jpGuide1": "置いていけない",
+    "jpGuide2": "・置いていけない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大切な人、なの",
+    "jpGuide1": "大切な人、なの",
+    "jpGuide2": "・大切な人、なの",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "返事が聞きたい",
+    "jpGuide1": "返事が聞きたい",
+    "jpGuide2": "・返事が聞きたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ22",
+    "jpGuide1": "SAVE8",
+    "jpGuide2": "▼SAVE6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戦う",
+    "jpGuide1": "戦う → 【BADEND22】",
+    "jpGuide2": "・戦う → バッドエンド【バッドエンド解説第二十二回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND22】"
+  },
+  {
+    "simpleJp": "セーブ22にロード",
+    "jpGuide1": "SAVE8にロード",
+    "jpGuide2": "▼SAVE6にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "アリアを庇う",
+    "jpGuide1": "アリアを庇う",
+    "jpGuide2": "・アリアを庇う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ23",
+    "jpGuide1": "SAVE9",
+    "jpGuide2": "▼SAVE7",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "祐一を連れて逃げる",
+    "jpGuide1": "祐一を連れて逃げる → 【BADEND23】",
+    "jpGuide2": "・祐一を連れて逃げる → バッドエンド【バッドエンド解説第二十三回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND23】"
+  },
+  {
+    "simpleJp": "セーブ23にロード",
+    "jpGuide1": "SAVE9にロード",
+    "jpGuide2": "▼SAVE7にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "アリアに加勢",
+    "jpGuide1": "アリアに加勢",
+    "jpGuide2": "・アリアに加勢",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ24",
+    "jpGuide1": "SAVE10",
+    "jpGuide2": "▼SAVE8",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一人にして",
+    "jpGuide1": "一人にして → 【BADEND24】",
+    "jpGuide2": "・一人にして → バッドエンド【バッドエンド解説第二十四回】",
+    "enGuide": "",
+    "badEndPath": "【BADEND24】"
+  },
+  {
+    "simpleJp": "セーブ24にロード",
+    "jpGuide1": "SAVE10にロード",
+    "jpGuide2": "▼SAVE8にロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "そばにいて",
+    "jpGuide1": "そばにいて",
+    "jpGuide2": "・そばにいて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "祐一 グッドエンド",
+    "jpGuide1": "【GOOD END】",
+    "jpGuide2": "祐一 グッドエンド",
+    "enGuide": ""
+  }
 ]

@@ -178,27 +178,12 @@
     text-align: center;
   }
 
-  #step-type-badge {
-    display: none;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-align: center;
-    padding: 4px 12px;
-    border-radius: 4px;
-    align-self: center;
-  }
-  #step-type-badge.bad-end { color: #ff8888; background: rgba(255,80,80,0.12); border: 1px solid rgba(255,80,80,0.3); }
-  #step-type-badge.is-load { color: #66aaff; background: rgba(74,144,226,0.12); border: 1px solid rgba(74,144,226,0.3); }
-
   #simple-instruction {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.4;
     text-align: center;
   }
-  #simple-instruction.bad-end { color: #ff8888; }
-  #simple-instruction.is-load { color: #66aaff; }
 
   #details-section {
     background: var(--surface);
@@ -377,7 +362,6 @@
     </div>
     <div class="step-container">
       <div id="step-counter"></div>
-      <div id="step-type-badge"></div>
       <div id="simple-instruction"></div>
       <button id="toggle-details" onclick="toggleDetails()">詳細を表示</button>
       <div id="details-section">
@@ -556,24 +540,10 @@ function renderSlide() {
   const total = route.steps.length;
 
   document.getElementById("slide-route-title").textContent = route.title;
-  document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
+  const counterSuffix = step.badEndPath ? ` · ⚠ ${step.badEndPath}` : step.isLoad ? ' · ↩ ロード' : '';
+  document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)${counterSuffix}`;
   const instrEl = document.getElementById("simple-instruction");
   instrEl.textContent = step.simpleJp || "";
-  const badgeEl = document.getElementById("step-type-badge");
-  if (step.badEndPath) {
-    badgeEl.textContent = `⚠ ${step.badEndPath}`;
-    badgeEl.className = "bad-end";
-    badgeEl.style.display = "";
-    instrEl.className = "bad-end";
-  } else if (step.isLoad) {
-    badgeEl.textContent = "↩ ロード";
-    badgeEl.className = "is-load";
-    badgeEl.style.display = "";
-    instrEl.className = "is-load";
-  } else {
-    badgeEl.style.display = "none";
-    instrEl.className = "";
-  }
 
   const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide || step.badEnd || step.badEndPath;
   document.getElementById("toggle-details").style.display = hasDetails ? "" : "none";
@@ -647,10 +617,9 @@ function showJump() {
   const list = document.getElementById("jump-list");
   list.innerHTML = route.steps.map((s, i) => {
     const prefix = s.badEndPath ? '⚠ ' : s.isLoad ? '↩ ' : '';
-    const color = s.badEndPath ? 'color:#ff8888' : s.isLoad ? 'color:#66aaff' : '';
     return `<li><button onclick="jumpTo(${i})">
       <span class="jump-num">${i + 1}</span>
-      <span style="${color}">${prefix}${escHtml(s.simpleJp || "")}</span>
+      <span>${prefix}${escHtml(s.simpleJp || "")}</span>
     </button></li>`;
   }).join("");
   showView("view-jump");

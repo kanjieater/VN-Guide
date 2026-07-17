@@ -44,7 +44,6 @@ For save points with a documented bad ending, use this four-step sequence:
 
 - `badEndPath`: string — the bad end label from source (e.g. `バッドエンド9`, `BAD END 9`)
 - `isLoad`: boolean `true` — marks the step as a load-back instruction
-- The SPA renders `badEndPath` steps in red with a ⚠ badge, and `isLoad` steps in blue with ↩
 
 ### Rules for simpleJp
 
@@ -82,7 +81,7 @@ The test: select your jpGuide text, paste it into a browser search (Ctrl+F) on t
 
 **Cross-validate first:** Only include a save point if at least one source explicitly marks it (▼SAVE, セーブ, SAVE bold, etc.). When sources disagree on where a save goes, use the **earlier** position (earlier = more useful to the player). When sources disagree on whether a save exists at all, include it if any source has it.
 
-**Cross-route numbering:** Save slots span all routes in play order. This route's first save uses slot **$SAVE_OFFSET_PLUS1** (continuing from previous routes). Number sequentially: セーブ$SAVE_OFFSET_PLUS1, セーブ$SAVE_OFFSET_PLUS2, etc.
+**Cross-route numbering:** Save slots span all routes in play order. This route's first save uses slot **$SAVE_OFFSET_PLUS1** (continuing from previous routes). Number sequentially from there: セーブ$SAVE_OFFSET_PLUS1, then increment by 1 for each additional save in this route.
 
 - Insert a standalone save step immediately **before** every save-indicated choice
 - One action per step — never combine save with choice

@@ -185,6 +185,13 @@
     text-align: center;
   }
 
+  #step-context {
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+    min-height: 1em;
+  }
+
   #details-section {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -363,6 +370,7 @@
     <div class="step-container">
       <div id="step-counter"></div>
       <div id="simple-instruction"></div>
+      <div id="step-context"></div>
       <button id="toggle-details" onclick="toggleDetails()">詳細を表示</button>
       <div id="details-section">
         <div class="detail-block" id="detail-jp1"></div>
@@ -540,10 +548,11 @@ function renderSlide() {
   const total = route.steps.length;
 
   document.getElementById("slide-route-title").textContent = route.title;
-  const counterSuffix = step.badEndPath ? ` · ⚠ ${step.badEndPath}` : step.isLoad ? ' · ↩ ロード' : '';
-  document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)${counterSuffix}`;
+  document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
   const instrEl = document.getElementById("simple-instruction");
   instrEl.textContent = step.simpleJp || "";
+  const ctxEl = document.getElementById("step-context");
+  ctxEl.textContent = step.badEndPath ? `⚠ ${step.badEndPath}` : '';
 
   const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide || step.badEnd || step.badEndPath;
   document.getElementById("toggle-details").style.display = hasDetails ? "" : "none";

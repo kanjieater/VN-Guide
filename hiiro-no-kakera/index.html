@@ -491,7 +491,7 @@ function renderHome() {
     const portrait = r.portrait
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
-    const displayTitle = hasProgress ? r.title : `ルート ${routeIdx + 1}`;
+    const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
     return `<li><button onclick="startRoute('${r.id}')">
       ${portrait}
       <div class="route-info">

@@ -304,9 +304,16 @@ def generate_guide(slug: str, title: str, vndb_id: str, max_routes: int | None =
                 err(f"route_{route_id}.json is invalid JSON: {e}")
                 return False
 
-        # Assemble and deploy after every completed route so it's visible immediately
+        # Assemble and deploy after every completed route so it's visible immediately.
+        # Also flip has_guide on first route — show the game as soon as anything is ready.
         completed = load_completed_routes(routes, guide_dir)
         assemble(slug, title, vndb_id, completed, guide_dir, research)
+        games_data = json.loads(GAMES_JSON.read_text())
+        if not games_data.get(vndb_id, {}).get("has_guide"):
+            games_data[vndb_id]["has_guide"] = True
+            GAMES_JSON.write_text(json.dumps(games_data, ensure_ascii=False, indent=2) + "\n")
+            log(f"Flipped has_guide for {slug} — first route ready")
+            _generate.generate_landing(games_data)
         run_deploy()
 
     return True
@@ -349,15 +356,7 @@ def run() -> None:
     success = generate_guide(slug, title, vid, max_routes=max_routes)
 
     if success:
-        if max_routes is None:
-            games[vid]["has_guide"] = True
-            GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
-            log(f"Guide complete: {slug}")
-            _generate.generate_landing(games)
-            log("Regenerated landing page with updated has_guide status")
-            run_deploy()
-        else:
-            log(f"Partial run ({max_routes} route(s)) done for {slug} — has_guide not flipped")
+        log(f"Guide run complete for {slug}")
     else:
         err(f"Guide generation failed for {slug} — will retry next cycle")
 

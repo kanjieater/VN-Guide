@@ -3,10 +3,10 @@
   "vndb_id": "v8203",
   "routes": [
     {
-      "id": "parche",
-      "title": "パーチェルート",
-      "stepCount": 132,
-      "portrait": "https://t.vndb.org/ch/89/9089.jpg"
+      "id": "liberta",
+      "title": "リベルタルート",
+      "stepCount": 192,
+      "portrait": "https://t.vndb.org/ch/85/9085.jpg"
     }
   ],
   "sources": [
@@ -53,5 +53,5 @@
       "notes": "Reference only. Official site for the Switch/Steam Rinato release. Confirms the main story premise (Arcana Duello tournament, April 1 to June 1 timeframe) and character roles (Mondo as boss/father, Sumire as his wife, Nova/Parche/Debito/Dante as department executives). No route order or bad-end information; used only to confirm this is the same base story as the PSP/Vita versions with no restructured routes."
     }
   ],
-  "generated_at": "2026-07-18T13:48:12.795729+00:00"
+  "generated_at": "2026-07-18T14:34:09.139161+00:00"
 }

@@ -169,12 +169,11 @@ def run() -> None:
                 entry["cover_url"] = vn["cover_url"]
                 print(f"[generate] Filled cover for {entry['title']}")
 
-    # Scaffold directories for games that lack one
+    # Scaffold directories and always sync index.html from latest template
     for vid, entry in games.items():
         slug = entry["slug"]
         guide_dir = REPO_PATH / slug
-        if not (guide_dir / "index.html").exists():
-            scaffold_guide(slug, entry["title"], vid)
+        scaffold_guide(slug, entry["title"], vid)
 
     save_games(games)
     generate_landing(games)

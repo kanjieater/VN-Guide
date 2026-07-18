@@ -3,6 +3,14 @@
   "vndb_id": "v8203",
   "routes": [
     {
+      "id": "liberta",
+      "title": "リベルタルート",
+      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Libertà (リベルタ). Available from the very first playthrough, no unlock conditions. Recommended as the 5th route (last of the 5 always-open routes) by manga-daisuki.net's suggested order."
+    },
+    {
       "id": "parche",
       "title": "パーチェルート",
       "portrait": "https://t.vndb.org/ch/89/9089.jpg",
@@ -33,14 +41,6 @@
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Nova (ノヴァ), Holy Chalice department executive. Available from the very first playthrough, no unlock conditions. Recommended as the 4th route by manga-daisuki.net's suggested order."
-    },
-    {
-      "id": "liberta",
-      "title": "リベルタルート",
-      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
-      "prerequisites": [],
-      "is_true_ending": false,
-      "notes": "Libertà (リベルタ). Available from the very first playthrough, no unlock conditions. Recommended as the 5th route (last of the 5 always-open routes) by manga-daisuki.net's suggested order."
     },
     {
       "id": "jolly",

@@ -1,0 +1,81 @@
+{
+  "title": "Hakuouki ~Shinsengumi Kitan~",
+  "vndb_id": "v1715",
+  "routes": [
+    {
+      "id": "hijikata",
+      "title": "土方歳三ルート",
+      "stepCount": 60,
+      "portrait": "https://t.vndb.org/ch/61/198061.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://otomegame-capture.com/psp/hakuoki/chart1.html",
+      "title": "薄桜鬼 ポータブル 攻略 土方歳三 | 乙女ゲーム攻略.com",
+      "language": "ja",
+      "notes": "Part of a complete 6-chart walkthrough set (chart1.html through chart6.html, one per route) for the PSP port 'Hakuouki Portable', which shares VNDB entry v1715 with the original PC release. PRIMARY source. Extremely detailed: exact 【bracketed】 choice text per chapter, explicit ※SAVE1/SAVE2/SAVE3 style save markers, numbered GAME OVER 1/GAME OVER 2 bad-end charts with their own choice sequences and reload points, and 好感度 (affection)/羅刹度 (rasetsu meter) tracking notes. Verified via direct HTML fetch (not just search snippet)."
+    },
+    {
+      "url": "https://otomegame-capture.com/psp/hakuoki/chart2.html",
+      "title": "薄桜鬼 ポータブル 攻略 沖田総司 | 乙女ゲーム攻略.com",
+      "language": "ja",
+      "notes": "Okita Souji chart from the same primary source set as chart1."
+    },
+    {
+      "url": "https://otomegame-capture.com/psp/hakuoki/chart3.html",
+      "title": "薄桜鬼 ポータブル 攻略 斎藤一 | 乙女ゲーム攻略.com",
+      "language": "ja",
+      "notes": "Saitou Hajime chart from the same primary source set as chart1."
+    },
+    {
+      "url": "https://otomegame-capture.com/psp/hakuoki/chart4.html",
+      "title": "薄桜鬼 ポータブル 攻略 藤堂平助 | 乙女ゲーム攻略.com",
+      "language": "ja",
+      "notes": "Toudou Heisuke chart from the same primary source set as chart1."
+    },
+    {
+      "url": "https://otomegame-capture.com/psp/hakuoki/chart5.html",
+      "title": "薄桜鬼 ポータブル 攻略 原田左之助 | 乙女ゲーム攻略.com",
+      "language": "ja",
+      "notes": "Harada Sanosuke chart from the same primary source set as chart1."
+    },
+    {
+      "url": "https://otomegame-capture.com/psp/hakuoki/chart6.html",
+      "title": "薄桜鬼 ポータブル 攻略 風間千景 | 乙女ゲーム攻略.com",
+      "language": "ja",
+      "notes": "Kazama Chikage chart from the same primary source set. Explicitly documents the route lock condition ('誰か1人のエンディングクリア済') and the required Chapter 3 【いない】 choice, plus a single ※SAVE marker before the final Chapter 6 branch into NORMAL END / 風間END. Verified via direct HTML fetch."
+    },
+    {
+      "url": "https://otomenotomo.tyonmage.com/kouryaku/hakuouki_ps2_psp.html",
+      "title": "「薄桜鬼 PS2版」「薄桜鬼 ポータブル」「薄桜鬼 巡想録」攻略 (乙女の友)",
+      "language": "ja",
+      "notes": "SECONDARY complete source, verified via direct HTML fetch (Shift-JIS encoded). Single-page walkthrough covering all 6 base-game routes (土方歳三, 沖田総司, 斎藤一, 藤堂平助, 原田左之助, 風間千景) for the PS2, PSP Portable, and PS3 Zuisouroku releases combined, with unbracketed chapter-by-chapter choice lists and unnumbered GAME OVER markers at the same branch points as the primary source. Also includes a full PS3 trophy list confirming exactly 6 individual-route trophies ('土方ルートを攻略した' etc.) and no combined/true-route trophy, supporting the conclusion that no overarching true ending exists. Does not mark explicit SAVE points (used only to cross-validate choice text and bad-end placement, not save positions)."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E8%96%84%E6%A1%9C%E9%AC%BC_%E3%80%9C%E6%96%B0%E9%81%B8%E7%B5%84%E5%A5%87%E8%AD%9A%E3%80%9C",
+      "title": "薄桜鬼 〜新選組奇譚〜 - Wikipedia",
+      "language": "ja",
+      "notes": "Reference only. Confirms the six attackable characters for the original release (Hijikata, Okita, Saitou, Toudou, Harada, Kazama) and explicitly states Kazama is the only attackable character not in the Shinsengumi because he is a hidden character. Also confirms that Nagakura Shinpachi, Sannan Keisuke, and Yamazaki Susumu only become attackable route characters in the later 'Shinkai' (真改) remake (a separate VNDB entry), and that Iba Hachirou, Souma Kazue, and Sakamoto Ryouma were added as attackable characters in still-later Shinkai spin-off titles — none of these six characters have routes in v1715."
+    },
+    {
+      "url": "https://hakuoki.gorillawiki.jp/entry/28",
+      "title": "薄桜鬼攻略wiki - 攻略",
+      "language": "ja",
+      "notes": "Reference only. Japanese fan wiki confirming the same 6-route structure (土方/沖田/斎藤/藤堂/原田/風間) via its navigation hub. Individual character pages (e.g. entry/22 for Hijikata) were checked directly and found to lack explicit SAVE markers or numbered bad-end labels (only a single generic reminder to save because game overs can occur), so this wiki was not used as one of the two required complete sources — it corroborates the route list and choice structure but is less precise than the two primary/secondary sources above."
+    },
+    {
+      "url": "https://vndb.org/v1715",
+      "title": "Hakuouki ~Shinsengumi Kitan~ - VNDB entry v1715",
+      "language": "en",
+      "notes": "Reference only. Confirms v1715 is the original September 18, 2008 PC release of 薄桜鬼 新選組奇譚, aggregating its many later ports (PS2, PSP 'Hakuoki Portable', DS, 3DS, PS3, PS Vita, PS4, Switch, iOS/Android, Steam) under one entry — distinct from the 'Shinkai' (真改) remake titles, which are separate VNDB entries (v25916, v25917, v34043, v42435, etc.) with an expanded cast. Also used via /v1715/chars to confirm the full character roster: Yukimura Chizuru (protagonist) plus 12 'main characters', of which only 6 (Hijikata, Okita, Saitou, Toudou, Harada, Kazama) are romance routes — the other 6 (Iba Hachirou, Sannan Keisuke, Souma Kazue, Yamazaki Susumu, Sakamoto Ryouma, and Nagakura Shinpachi) are important story cast without dedicated routes in this entry."
+    },
+    {
+      "url": "https://vndb.org/c6947",
+      "title": "Hijikata Toshizou - VNDB character c6947",
+      "language": "en",
+      "notes": "Reference only, used to source the verified portrait URL (og:image) for Hijikata: https://t.vndb.org/ch/61/198061.jpg. The naive 'last 2 digits of character ID' pattern used for other games in this repo does NOT hold for this game's character IDs (e.g. c6947 does not map to ch/47/6947.jpg) — actual portrait URLs were instead confirmed per-character by fetching each VNDB character page's og:image meta tag directly."
+    }
+  ],
+  "generated_at": "2026-07-18T01:01:52.580554+00:00"
+}

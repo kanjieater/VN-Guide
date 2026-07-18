@@ -74,8 +74,6 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
             "-p", "The previous session was interrupted. Continue where you left off "
                   "and write the output file as soon as you have enough information.",
             "--dangerously-skip-permissions",
-            "--verbose",
-            "--output-format", "stream-json",
             "--model", MODEL,
             "--max-turns", str(max_turns),
         ]
@@ -84,26 +82,15 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
             "claude",
             "-p", prompt,
             "--dangerously-skip-permissions",
-            "--verbose",
-            "--output-format", "stream-json",
             "--model", MODEL,
             "--max-turns", str(max_turns),
         ]
 
-    filter_cmd = ["python3", str(SCRIPTS_PATH / "claude_log_filter.py")]
     try:
-        claude_proc = subprocess.Popen(
-            cmd, cwd=str(cwd), stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-        )
-        filter_proc = subprocess.Popen(filter_cmd, stdin=claude_proc.stdout)
-        claude_proc.stdout.close()
-        filter_proc.wait(timeout=timeout)
-        claude_proc.wait()
-        ok = claude_proc.returncode == 0
+        result = subprocess.run(cmd, cwd=str(cwd), timeout=timeout)
+        ok = result.returncode == 0
     except subprocess.TimeoutExpired:
         err(f"Claude timed out after {timeout}s")
-        claude_proc.kill()
-        filter_proc.kill()
         ok = False
     except FileNotFoundError:
         err("claude CLI not found — is @anthropic-ai/claude-code installed?")

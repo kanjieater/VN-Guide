@@ -350,6 +350,7 @@
     <div class="home-content">
       <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
       <ul id="route-list"></ul>
+      <p id="guide-updated"></p>
     </div>
   </div>
 
@@ -502,6 +503,14 @@ function renderHome() {
   }
   totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
   totalEl.textContent = `全体進行度: ${totalPct}%`;
+
+  const updatedEl = document.getElementById("guide-updated");
+  if (updatedEl && guideData.generated_at) {
+    const d = new Date(guideData.generated_at);
+    updatedEl.textContent = `最終更新: ${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
+    updatedEl.style.cssText = "margin:16px 0 0;font-size:12px;color:#666;text-align:center;";
+  }
+
   showView("view-home");
 }
 

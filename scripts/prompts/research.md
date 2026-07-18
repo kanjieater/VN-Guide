@@ -6,6 +6,7 @@ $PROMPT_MD
 
 Game: $TITLE
 VNDB ID: $VNDB_ID
+$PLATFORM_NOTE
 
 Complete **only the research phase** from the instructions above.
 

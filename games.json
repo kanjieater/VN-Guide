@@ -17,7 +17,7 @@
   },
   "v1715": {
     "slug": "hakuouki-shinsengumi-kitan",
-    "has_guide": false,
+    "has_guide": true,
     "title": "Hakuouki ~Shinsengumi Kitan~",
     "alttitle": "薄桜鬼 新選組奇譚",
     "cover_url": "https://t.vndb.org/cv/60/76060.jpg",
@@ -25,7 +25,7 @@
   },
   "v8203": {
     "slug": "arcana-famiglia",
-    "has_guide": false,
+    "has_guide": true,
     "title": "Arcana Famiglia",
     "alttitle": "アルカナ・ファミリア",
     "cover_url": "https://t.vndb.org/cv/94/96894.jpg",

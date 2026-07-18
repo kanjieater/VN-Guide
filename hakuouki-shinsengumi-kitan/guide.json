@@ -77,5 +77,5 @@
       "notes": "Reference only, used to source the verified portrait URL (og:image) for Hijikata: https://t.vndb.org/ch/61/198061.jpg. The naive 'last 2 digits of character ID' pattern used for other games in this repo does NOT hold for this game's character IDs (e.g. c6947 does not map to ch/47/6947.jpg) — actual portrait URLs were instead confirmed per-character by fetching each VNDB character page's og:image meta tag directly."
     }
   ],
-  "generated_at": "2026-07-18T01:26:20.474756+00:00"
+  "generated_at": "2026-07-18T01:29:09.855601+00:00"
 }

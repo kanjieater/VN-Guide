@@ -74,6 +74,7 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
             "-p", "The previous session was interrupted. Continue where you left off "
                   "and write the output file as soon as you have enough information.",
             "--dangerously-skip-permissions",
+            "--verbose",
             "--model", MODEL,
             "--max-turns", str(max_turns),
         ]
@@ -82,6 +83,7 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
             "claude",
             "-p", prompt,
             "--dangerously-skip-permissions",
+            "--verbose",
             "--model", MODEL,
             "--max-turns", str(max_turns),
         ]

@@ -73,6 +73,8 @@ def make_slug(title: str, alttitle: str, vndb_id: str, used: set[str]) -> str:
 def scaffold_guide(slug: str, title: str, vndb_id: str) -> None:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
+    # Always overwrite index.html with the latest template so guide pages
+    # stay in sync with guide_stub.html even for existing games
     (guide_dir / "index.html").write_text(STUB_TMPL.read_text())
     guide_json = {"title": title, "vndb_id": vndb_id, "routes": []}
     (guide_dir / "guide.json").write_text(

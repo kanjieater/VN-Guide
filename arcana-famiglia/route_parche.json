@@ -1,0 +1,796 @@
+[
+  {
+    "simpleJp": "私は……嫌！",
+    "jpGuide1": "私は……嫌！",
+    "jpGuide2": "私は......嫌！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の道は……私が決める",
+    "jpGuide1": "私の道は……私が決める",
+    "jpGuide2": "私の道は......私が決める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "△□△",
+    "jpGuide1": "[デュエロ]△□△(成功)",
+    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう少し話したい……",
+    "jpGuide1": "もう少し話したい……",
+    "jpGuide2": "もう少し話したい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェ",
+    "jpGuide1": "パーチェ",
+    "jpGuide2": "▶︎【Select】パーチェ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん……頑張ろう……",
+    "jpGuide1": "うん……頑張ろう……",
+    "jpGuide2": "うん......頑張ろう......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何かあるの？",
+    "jpGuide1": "何かあるの？",
+    "jpGuide2": "何かあるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お祝い？",
+    "jpGuide1": "お祝い？",
+    "jpGuide2": "......お祝い？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "△",
+    "jpGuide1": "[デュエロ]△(成功)",
+    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "頑張ってみる",
+    "jpGuide1": "頑張ってみる",
+    "jpGuide2": "頑張ってみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何かあるの？",
+    "jpGuide1": "何かあるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう……でも急にどうしたの？",
+    "jpGuide1": "ありがとう……でも急にどうしたの？",
+    "jpGuide2": "ありがとう......でも急にどうしたの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "きれい……",
+    "jpGuide1": "きれい……",
+    "jpGuide2": "きれい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "幹部としてクールに！",
+    "jpGuide1": "幹部としてクールに！",
+    "jpGuide2": "幹部としてクールに！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "香りも楽しみたい",
+    "jpGuide1": "香りも楽しみたい",
+    "jpGuide2": "香りも楽しみたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……先に話さなくてごめんなさい",
+    "jpGuide1": "……先に話さなくてごめんなさい",
+    "jpGuide2": "......先に話さなくてごめんなさい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あげそびれた",
+    "jpGuide1": "あげそびれた",
+    "jpGuide2": "あげそびれた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "様子を見に行ってみよう",
+    "jpGuide1": "様子を見に行ってみよう",
+    "jpGuide2": "様子を見に行ってみよう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァについて行く",
+    "jpGuide1": "ノヴァについて行く",
+    "jpGuide2": "ノヴァについて行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "びっくりしたね……？",
+    "jpGuide1": "びっくりしたね……？",
+    "jpGuide2": "びっくりしたね......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……いいにおい。花？",
+    "jpGuide1": "……いいにおい。花？",
+    "jpGuide2": "......いいにおい。花？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……ドレス……看板猫",
+    "jpGuide1": "……ドレス……看板猫",
+    "jpGuide2": "......ドレス......看板猫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うれしい……",
+    "jpGuide1": "うれしい……",
+    "jpGuide2": "うれしい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ちょっとおもしろそう",
+    "jpGuide1": "ちょっとおもしろそう",
+    "jpGuide2": "ちょっとおもしろそう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一体、ツケってどういうこと！？",
+    "jpGuide1": "一体、ツケってどういうこと！？",
+    "jpGuide2": "一体、ツケってどういうこと！？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……いつもなの？",
+    "jpGuide1": "……いつもなの？",
+    "jpGuide2": "......いつもなの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なくなる……かも",
+    "jpGuide1": "なくなる……かも",
+    "jpGuide2": "なくなる......かも",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "じゃあ少しだけ",
+    "jpGuide1": "じゃあ少しだけ",
+    "jpGuide2": "じゃあ少しだけ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "言ってもわからないなら……",
+    "jpGuide1": "言ってもわからないなら……",
+    "jpGuide2": "言ってもわからないなら......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………金額は？",
+    "jpGuide1": "…………金額は？",
+    "jpGuide2": "............金額は？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ちょっとおもしろそう",
+    "jpGuide1": "ちょっとおもしろそう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "音楽集会？",
+    "jpGuide1": "音楽集会？",
+    "jpGuide2": "音楽集会？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リストランテとか？",
+    "jpGuide1": "リストランテとか？",
+    "jpGuide2": "リストランテとか？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "さっきの話の続きだけど……",
+    "jpGuide1": "さっきの話の続きだけど……",
+    "jpGuide2": "さっきの話の続きだけど......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "特製のトルテ",
+    "jpGuide1": "特製のトルテ",
+    "jpGuide2": "特製のトルテ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ほとんど見えない",
+    "jpGuide1": "ほとんど見えない",
+    "jpGuide2": "ほとんど見えない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにかあったの？",
+    "jpGuide1": "なにかあったの？",
+    "jpGuide2": "なにかあったの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "結局、何するの？",
+    "jpGuide1": "結局、何するの？",
+    "jpGuide2": "結局、何するの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……何か出て来た……",
+    "jpGuide1": "……何か出て来た……",
+    "jpGuide2": "......何か出てきた......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェ、終わったらごはん！",
+    "jpGuide1": "パーチェ、終わったらごはん！",
+    "jpGuide2": "パーチェ、終わったらごはん！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの人……",
+    "jpGuide1": "あの人……",
+    "jpGuide2": "あの人......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん。行く",
+    "jpGuide1": "うん。行く",
+    "jpGuide2": "うん。行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "嬉しい……",
+    "jpGuide1": "嬉しい……",
+    "jpGuide2": "嬉しい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おいしい",
+    "jpGuide1": "おいしい",
+    "jpGuide2": "おいしい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "確かにいつも以上のはしゃぎ方",
+    "jpGuide1": "確かにいつも以上のはしゃぎ方",
+    "jpGuide2": "確かにいつも以上のはしゃぎ方......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカのバカ",
+    "jpGuide1": "ルカのバカ",
+    "jpGuide2": "ルカのバカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……やり直して",
+    "jpGuide1": "……やり直して",
+    "jpGuide2": "......やり直して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ねぇ、どうして館に作らないの？",
+    "jpGuide1": "ねぇ、どうして館に作らないの？",
+    "jpGuide2": "ねぇ、どうして館に作らないの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おやつが食べたい",
+    "jpGuide1": "おやつが食べたい",
+    "jpGuide2": "おやつが食べたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の事で何か悩んでる？",
+    "jpGuide1": "私の事で何か悩んでる？",
+    "jpGuide2": "私の事で何か悩んでる？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "寝顔、ちょっと可愛い",
+    "jpGuide1": "寝顔、ちょっと可愛い",
+    "jpGuide2": "寝顔、ちょっと可愛い",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私、踊れません",
+    "jpGuide1": "私、踊れません",
+    "jpGuide2": "私、踊れません",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "この声、もしかして……",
+    "jpGuide1": "この声、もしかして……",
+    "jpGuide2": "この声、もしかして......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェ、この人とはどういう関係……？",
+    "jpGuide1": "パーチェ、この人とはどういう関係……？",
+    "jpGuide2": "パーチェ、この人とはどういう関係......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……本当に？",
+    "jpGuide1": "……本当に？",
+    "jpGuide2": "......本当に？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "さっきはありがとう",
+    "jpGuide1": "さっきはありがとう",
+    "jpGuide2": "さっきはありがとう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも、パーチェも貴族じゃ……",
+    "jpGuide1": "でも、パーチェも貴族じゃ……",
+    "jpGuide2": "でも、パーチェも貴族じゃ......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……誰かいた？",
+    "jpGuide1": "……誰かいた？",
+    "jpGuide2": "......誰かいた？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……助けに行かない？",
+    "jpGuide1": "……助けに行かない？",
+    "jpGuide2": "......助けに、行かない？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "３人なら夜の内に行って帰って来れる",
+    "jpGuide1": "３人なら夜の内に行って帰って来れる",
+    "jpGuide2": "３人なら、夜のうちに行って帰ってこれる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん……すごい",
+    "jpGuide1": "うん……すごい",
+    "jpGuide2": "うん......すごい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァ、１人にしても大丈夫？",
+    "jpGuide1": "ノヴァ、１人にしても大丈夫？",
+    "jpGuide2": "ノヴァ、１人にしても大丈夫？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "□×□△",
+    "jpGuide1": "[デュエロ]□×□△(成功)",
+    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェ近いよ",
+    "jpGuide1": "パーチェ近いよ",
+    "jpGuide2": "パーチェ近いよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ファミリーには必要",
+    "jpGuide1": "ファミリーには必要",
+    "jpGuide2": "ファミリーには必要",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……いいの？",
+    "jpGuide1": "……いいの？",
+    "jpGuide2": "いいの......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大丈夫……真相は確かめる",
+    "jpGuide1": "大丈夫……真相は確かめる",
+    "jpGuide2": "大丈夫......真相は確かめる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェも一緒に巡回に行く？",
+    "jpGuide1": "パーチェも一緒に巡回に行く？",
+    "jpGuide2": "パーチェも一緒に巡回に行く？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私が知っている人？",
+    "jpGuide1": "私が知っている人？",
+    "jpGuide2": "私が知っている人？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェはもう私の家族",
+    "jpGuide1": "パーチェはもう私の家族",
+    "jpGuide2": "パーチェはもう私の家族",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気にしていない",
+    "jpGuide1": "気にしていない",
+    "jpGuide2": "気にしていない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "別にいいよ",
+    "jpGuide1": "別にいいよ",
+    "jpGuide2": "別にいいよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "食べながら、昔の話が聞きたい",
+    "jpGuide1": "食べながら、昔の話が聞きたい",
+    "jpGuide2": "食べながら、昔の話が聞きたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "訓練終わったらご飯にしよう？",
+    "jpGuide1": "訓練終わったらご飯にしよう？",
+    "jpGuide2": "訓練終わったらご飯にしよう？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカならここにいるよ",
+    "jpGuide1": "ルカならここにいるよ",
+    "jpGuide2": "ルカならここにいるよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "例の特製ラ・ザーニアって？",
+    "jpGuide1": "例の特製ラ・ザーニアって？",
+    "jpGuide2": "例の特製ラ・ザーニアって？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……私もラザニア食べる",
+    "jpGuide1": "……私もラザニア食べる",
+    "jpGuide2": "......私もラザニア食べる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェと一緒なら",
+    "jpGuide1": "パーチェと一緒なら",
+    "jpGuide2": "パーチェと一緒なら",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２人にとってもお兄ちゃん？",
+    "jpGuide1": "２人にとってもお兄ちゃん？",
+    "jpGuide2": "２人にとってもお兄ちゃん？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジョーリィの言葉は難しすぎる",
+    "jpGuide1": "ジョーリィの言葉は難しすぎる",
+    "jpGuide2": "ジョーリィの言葉は難しすぎる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェは昔からこんな感じ？",
+    "jpGuide1": "パーチェは昔からこんな感じ？",
+    "jpGuide2": "パーチェは昔からこんな感じ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仲が良くて羨ましい",
+    "jpGuide1": "仲が良くて羨ましい",
+    "jpGuide2": "仲が良くて羨ましい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もっと昔のことが聞きたい",
+    "jpGuide1": "もっと昔のことが聞きたい",
+    "jpGuide2": "もっと昔のことが聞きたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……なんとなくわかるよ",
+    "jpGuide1": "……なんとなくわかるよ",
+    "jpGuide2": "......なんとなくわかるよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私と……ダンテが戦うことを望んでいる",
+    "jpGuide1": "私と……ダンテが戦うことを望んでいる",
+    "jpGuide2": "私と......ダンテが戦う事を望んでいる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私が……みんなを守る",
+    "jpGuide1": "私が……みんなを守る",
+    "jpGuide2": "私が......みんなを守る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "□×××□",
+    "jpGuide1": "[デュエロ]□×××□(成功)",
+    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……私、頑張ろうと思う……",
+    "jpGuide1": "……私、頑張ろうと思う……",
+    "jpGuide2": "......私、頑張ろうと思う......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……私は心配",
+    "jpGuide1": "……私は心配",
+    "jpGuide2": "......私は心配",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もしかして、パーチェの身に何か起こってる？",
+    "jpGuide1": "もしかして、パーチェの身に何か起こってる？",
+    "jpGuide2": "もしかして、パーチェの身に何か起こってる？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうしたの？",
+    "jpGuide1": "どうしたの？",
+    "jpGuide2": "どうしたの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "力が出なくなってきたみたい……",
+    "jpGuide1": "力が出なくなってきたみたい……",
+    "jpGuide2": "力が出なくなってきたみたい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェの様子がおかしい",
+    "jpGuide1": "パーチェの様子がおかしい",
+    "jpGuide2": "パーチェの様子がおかしい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……心配だよ",
+    "jpGuide1": "……心配だよ",
+    "jpGuide2": "......心配だよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェのこと、もっと知りたい",
+    "jpGuide1": "パーチェのこと、もっと知りたい",
+    "jpGuide2": "パーチェのこと、もっと知りたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマの住んでた国……",
+    "jpGuide1": "マンマの住んでた国……",
+    "jpGuide2": "マンマの住んでた国......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマも凄いと思う",
+    "jpGuide1": "マンマも凄いと思う",
+    "jpGuide2": "マンマもすごいと思う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつ倒れたの！？",
+    "jpGuide1": "いつ倒れたの！？",
+    "jpGuide2": "いつ倒れたの！？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "運命の輪……",
+    "jpGuide1": "運命の輪……",
+    "jpGuide2": "運命の輪......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "笑えないよ！",
+    "jpGuide1": "笑えないよ！",
+    "jpGuide2": "笑えないよ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェから言わないとダメ",
+    "jpGuide1": "パーチェから言わないとダメ",
+    "jpGuide2": "パーチェから言わないとダメ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェは私たちを不幸にするの？",
+    "jpGuide1": "パーチェは私たちを不幸にするの？",
+    "jpGuide2": "パーチェは私たちを不幸にするの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーチェ",
+    "jpGuide1": "……パーチェ",
+    "jpGuide2": "......パーチェ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "許してくれたよ",
+    "jpGuide1": "許してくれたよ",
+    "jpGuide2": "許してくれたよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトがどうしたの？",
+    "jpGuide1": "デビトがどうしたの？",
+    "jpGuide2": "デビトがどうしたの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェのことはみんなが好き",
+    "jpGuide1": "パーチェのことはみんなが好き",
+    "jpGuide2": "パーチェのことはみんなが好き",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "助けてくれるって信じてた",
+    "jpGuide1": "助けてくれるって信じてた",
+    "jpGuide2": "助けてくれるって信じてた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェが気になったから",
+    "jpGuide1": "パーチェが気になったから",
+    "jpGuide2": "パーチェが気になったから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の分……",
+    "jpGuide1": "私の分……",
+    "jpGuide2": "私の分......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいよ",
+    "jpGuide1": "いいよ",
+    "jpGuide2": "いいよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も仲間に入りたいけどいい？？",
+    "jpGuide1": "私も仲間に入りたいけどいい？？",
+    "jpGuide2": "私も仲間に入りたいけど......いい？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "Save1",
+    "jpGuide2": "▼SAVE1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "イヤ……",
+    "jpGuide1": "イヤ……",
+    "jpGuide2": "・イヤ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私もなにか……",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェ",
+    "jpGuide1": "パーチェ",
+    "jpGuide2": "▶︎【Select】パーチェ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "Save2",
+    "jpGuide2": "▼SAVE2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "失敗",
+    "jpGuide1": "[デュエロ](失敗) → パーチェED3",
+    "jpGuide2": "▶︎【デュエロ】失敗 → パーチェED3",
+    "enGuide": "",
+    "badEndPath": "パーチェED3"
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "Save2より",
+    "jpGuide2": "▶️SAVE2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "×□×××△",
+    "jpGuide1": "[デュエロ]×□×××△(成功)",
+    "jpGuide2": "▶︎【デュエロ】×□×××△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "疑ってなんかない",
+    "jpGuide1": "疑ってなんかない",
+    "jpGuide2": "・疑ってなんかない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェED1",
+    "jpGuide1": "パーチェED1",
+    "jpGuide2": "パーチェED1",
+    "enGuide": ""
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "title": "Arcana Famiglia",
+  "vndb_id": "v8203",
+  "routes": [
+    {
+      "id": "parche",
+      "title": "パーチェルート",
+      "portrait": "https://t.vndb.org/ch/89/9089.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Parche (パーチェ), Clubs department executive. Available from the very first playthrough, no unlock conditions. Consistently recommended as the first or an early route by both a full walkthrough (choro-game.com) and a review/impressions blog (manga-daisuki.net). Has multiple endings (ED1/ED2/ED3 pattern per choro-game), including a defeat/bad ending tied to losing the final デュエロ (duel)."
+    },
+    {
+      "id": "debito",
+      "title": "デビトルート",
+      "portrait": "https://t.vndb.org/ch/88/9088.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Debito (デビト), Coins department executive. Available from the very first playthrough, no unlock conditions. Recommended as the 2nd route by manga-daisuki.net's suggested order."
+    },
+    {
+      "id": "luca",
+      "title": "ルカルート",
+      "portrait": "https://t.vndb.org/ch/91/9091.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Luca (ルカ). Available from the very first playthrough, no unlock conditions. Recommended as the 3rd route by manga-daisuki.net's suggested order."
+    },
+    {
+      "id": "nova",
+      "title": "ノヴァルート",
+      "portrait": "https://t.vndb.org/ch/90/9090.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Nova (ノヴァ), Holy Chalice department executive. Available from the very first playthrough, no unlock conditions. Recommended as the 4th route by manga-daisuki.net's suggested order."
+    },
+    {
+      "id": "liberta",
+      "title": "リベルタルート",
+      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Libertà (リベルタ). Available from the very first playthrough, no unlock conditions. Recommended as the 5th route (last of the 5 always-open routes) by manga-daisuki.net's suggested order."
+    },
+    {
+      "id": "jolly",
+      "title": "ジョーリィルート",
+      "portrait": "https://t.vndb.org/ch/93/9093.jpg",
+      "prerequisites": [
+        "parche",
+        "debito",
+        "luca",
+        "nova",
+        "liberta"
+      ],
+      "is_true_ending": false,
+      "notes": "Jolly / Jolie (ジョーリィ). LOCKED: the ruRi hatenablog full walkthrough explicitly states this route is 「２周目以降ルート解放」(unlocks from the 2nd playthrough onward), i.e. it cannot be selected on a fresh save and only appears as a selectable option after at least one full playthrough has been completed. A separate review blog (momokan.chu.jp, via search snippet) independently states 「ジョーリィは最後がオススメです」(Jolly is recommended last) and describes him as the 'final boss' (ラスボス) of the character select screen. Placed here as the 6th route, immediately before Dante, since Dante's special endings additionally require Jolly's route to already be cleared (see Dante notes)."
+    },
+    {
+      "id": "dante",
+      "title": "ダンテルート",
+      "portrait": "https://t.vndb.org/ch/92/9092.jpg",
+      "prerequisites": [
+        "parche",
+        "debito",
+        "luca",
+        "nova",
+        "liberta",
+        "jolly"
+      ],
+      "is_true_ending": true,
+      "notes": "Dante (ダンテ), chief of the Intelligence division. LOCKED: both full walkthroughs (choro-game.com and ruRi hatenablog) explicitly state 「２周目以降ルート解放」(unlocks from the 2nd playthrough onward). Additionally, both sources state that this route's three main endings — 【ファミリアED】(Famiglia End, also called 第１０のカード『ルオータ・デラ・フォルトゥナ』/ 'Wheel of Fortune' the 10th card), 【ノーマルED】(Normal End), and 【敗北ED】(Defeat End) — are gated: 「全員を攻略後ED回収が可能になります」(these can only be obtained after clearing everyone/all other characters). The Famiglia End is treated as the game's true/best ending and is only reachable once all 6 other character routes (Liberta, Nova, Debito, Parche, Luca, Jolly) have been cleared, making Dante the mandatory final route despite one lower-confidence review blog (manga-daisuki.net) suggesting Dante before Jolly. Marked is_true_ending because the Famiglia ED / Wheel of Fortune ending is gated behind clearing every other route, matching the 'true end' pattern (see disagreements)."
+    }
+  ],
+  "recommended_order": [
+    "parche",
+    "debito",
+    "luca",
+    "nova",
+    "liberta",
+    "jolly",
+    "dante"
+  ],
+  "sources": [
+    {
+      "url": "https://choro-game.com/e/arcana-guide",
+      "title": "アルカナ・ファミリア -La storia della Arcana Famiglia- Ancora 攻略 (choro / 乙女ゲーム攻略ブログ)",
+      "language": "ja",
+      "notes": "Complete guide hub for the PS Vita 'Ancora' port (same VNDB entry v8203 as Rinato), linking to full individual choice-by-choice walkthroughs for all 7 routes: Liberta (blog-entry-1309.html), Nova (blog-entry-1367.html), Debito (blog-entry-1311.html), Parche (blog-entry-1368.html), Luca (blog-entry-1284.html), Dante (blog-entry-1364.html), Jolly (blog-entry-1334.html). Each page contains dated (4/1–6/1) choice text, SAVE1/SAVE2/SAVE3 markers, デュエロ (duel) success/fail outcomes (△/□/×), and ED1/ED2/ED3 ending labels. Confirms Dante's route restriction ('２周目以降ルート解放') and that his 3 special endings (ファミリアED/ノーマルED/敗北ED) require all other 6 characters cleared first ('全員を攻略後ED回収が可能'). Primary source for full choice-tree content and Dante/Jolly lock confirmation."
+    },
+    {
+      "url": "https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223541",
+      "title": "アルカナ・ファミリア - La storia della Arcana Famiglia - 攻略 本編 (ruRiの気ままにオタ活, Hatena Blog)",
+      "language": "ja",
+      "notes": "Complete single-page walkthrough covering the shared common-route choices (through 4/5, before character select at 4/1 branch) and all 7 character routes in sectioned anchors (#1 Liberta through #7 Jolly) on one page. Contains verbatim choice text, SAVE1/SAVE2 markers, デュエロ success/fail notation, and 3-ending (ED1/ED2/ED3) structure per route. Independently corroborates Dante and Jolly both being locked to 2nd-playthrough-onward ('２周目以降ルート解放') and Dante's Famiglia/Normal/Defeat endings requiring all other characters cleared first ('全員を攻略後ED回収が可能'). Used as the second full walkthrough for cross-validation against choro-game.com. Landing/navigation page at https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223648 links here."
+    },
+    {
+      "url": "https://manga-daisuki.net/game/psvita-otome/arcana/",
+      "title": "[PSvita] アルカナ・ファミリア無印はキャラが魅力的すぎた！オススメの攻略順とキャラ別感想 (乙女ゲーム大好記)",
+      "language": "ja",
+      "notes": "Review/impressions blog (not a choice-by-choice walkthrough) but explicitly states a numbered recommended route order under the heading 'キャラクターのおすすめ攻略順': 1.パーチェ 2.デビト 3.ルカ 4.ノヴァ 5.リベルタ 6.ダンテ 7.ジョーリィ. Notes the author personally played in a different order and adds 'シナリオとしては壮大なネタバレなどもないので、好きな順番でプレイしたら良いと思う' (no major spoilers between routes, so preferred order is fine) for the 5 unlocked routes. Used as supplementary corroboration for the first 5 routes' order; its Dante-before-Jolly placement is treated as lower-confidence than the two full walkthroughs' explicit unlock-condition text (see disagreements)."
+    },
+    {
+      "url": "https://momokan.chu.jp/momokan/frame-arcana.html",
+      "title": "アルカナ・ファミリア 攻略PSP (momokan)",
+      "language": "ja",
+      "notes": "Referenced via search-result snippet only; direct fetch failed (DNS/connection error during this research session) and content was NOT directly verified. Snippet indicates the site states 'ジョーリィは最後がオススメです' (Jolly recommended last) and describes Jolly as positioned like a 'ラスボス' (final boss) on the character select screen, used only as weak corroboration that Jolly is not meant to be played early. Should be re-fetched before being used as a primary source for actual guide content."
+    },
+    {
+      "url": "https://vndb.org/v8203",
+      "title": "Arcana Famiglia - VNDB entry v8203",
+      "language": "en",
+      "notes": "Reference only. Confirms v8203 covers the original October 2011 PSP release (アルカナ・ファミリア -La storia della Arcana Famiglia-), the December 2015 PS Vita 'Ancora' port, and the July 2025 Nintendo Switch / 2026 Steam 'Rinato' re-release, all as the same title/entry — meaning Japanese guides for the PSP/Vita versions are valid sources for the Switch Rinato route structure and choice content."
+    },
+    {
+      "url": "https://vndb.org/v8203/chars",
+      "title": "Arcana Famiglia - Character list, VNDB",
+      "language": "en",
+      "notes": "Reference only. Used to enumerate the 7 main/route characters (Dante c8564, Debito c8561, Jolly c8565, Libertà c8559, Luca c8563, Nova c8560, Pace/Parche c8562) plus protagonist Felicità (c8558) and side characters Mondo, Sumire, Elmo. Individual character pages (e.g. vndb.org/c8559) were fetched to obtain and verify each portrait image URL, all confirmed to return HTTP 200."
+    },
+    {
+      "url": "https://dramaticcreate.com/af_rinato/story.html",
+      "title": "Nintendo Switch/Steam『アルカナ・ファミリア Rinato』公式サイト - STORY",
+      "language": "ja",
+      "notes": "Reference only. Official site for the Switch/Steam Rinato release. Confirms the main story premise (Arcana Duello tournament, April 1 to June 1 timeframe) and character roles (Mondo as boss/father, Sumire as his wife, Nova/Parche/Debito/Dante as department executives). No route order or bad-end information; used only to confirm this is the same base story as the PSP/Vita versions with no restructured routes."
+    }
+  ],
+  "disagreements": "1) Dante vs. Jolly final order: manga-daisuki.net (a review/impressions blog, not a full choice-tree walkthrough) lists its personal recommended order as ...リベルタ→ダンテ→ジョーリィ (Dante 6th, Jolly last/7th). However, both of the two full choice-by-choice walkthroughs used as primary sources (choro-game.com and ruRi hatenablog) independently state that Dante's three notable endings (ファミリアED / ノーマルED / 敗北ED, including the Famiglia End '第10のカード ルオータ・デラ・フォルトゥナ') can only be obtained '全員を攻略後' (after clearing everyone/all other characters) — which necessarily includes Jolly, since Jolly is one of the 7 routes. This guide follows the two full-walkthrough primary sources and places Jolly before Dante, with Dante last, since otherwise Dante's true/Famiglia ending would be unreachable at the point the guide reaches it. 2) Whether Dante's Famiglia ED constitutes a distinct 'true end' separate from a normal character route: no source uses the exact phrase 真エンド (true end), but the gating of the Famiglia ED behind clearing all other 6 routes, plus its explicit '第10のカード' (10th/final tarot card) framing distinguishing it from the other 6 characters' single-route endings, matches the standard 'true end' pattern used elsewhere in this repository's guides; it is flagged is_true_ending on the dante route on that basis. 3) The first 5 routes (Parche, Debito, Luca, Nova, Liberta) have no documented mechanical locks or prerequisites in either full walkthrough — the order used here follows manga-daisuki.net's suggested order for lack of any conflicting source, and could be freely reordered among themselves without affecting route access. 4) momokan.chu.jp and the PSP-era wiki at arcana.stgtk.com could not be directly fetched (DNS resolution failures for both domains during this session) despite appearing in search results; their content is treated as unverified/supplementary and was not used as a primary source. No English guide was located or used; per the brief, Japanese sources take full precedence and none was needed as even a supplementary reference given two solid full Japanese walkthroughs were found.",
+  "generated_at": "2026-07-18T13:33:19.071749+00:00"
+}

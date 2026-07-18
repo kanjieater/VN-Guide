@@ -1,0 +1,57 @@
+{
+  "title": "Arcana Famiglia",
+  "vndb_id": "v8203",
+  "routes": [
+    {
+      "id": "parche",
+      "title": "パーチェルート",
+      "stepCount": 132,
+      "portrait": "https://t.vndb.org/ch/89/9089.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://choro-game.com/e/arcana-guide",
+      "title": "アルカナ・ファミリア -La storia della Arcana Famiglia- Ancora 攻略 (choro / 乙女ゲーム攻略ブログ)",
+      "language": "ja",
+      "notes": "Complete guide hub for the PS Vita 'Ancora' port (same VNDB entry v8203 as Rinato), linking to full individual choice-by-choice walkthroughs for all 7 routes: Liberta (blog-entry-1309.html), Nova (blog-entry-1367.html), Debito (blog-entry-1311.html), Parche (blog-entry-1368.html), Luca (blog-entry-1284.html), Dante (blog-entry-1364.html), Jolly (blog-entry-1334.html). Each page contains dated (4/1–6/1) choice text, SAVE1/SAVE2/SAVE3 markers, デュエロ (duel) success/fail outcomes (△/□/×), and ED1/ED2/ED3 ending labels. Confirms Dante's route restriction ('２周目以降ルート解放') and that his 3 special endings (ファミリアED/ノーマルED/敗北ED) require all other 6 characters cleared first ('全員を攻略後ED回収が可能'). Primary source for full choice-tree content and Dante/Jolly lock confirmation."
+    },
+    {
+      "url": "https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223541",
+      "title": "アルカナ・ファミリア - La storia della Arcana Famiglia - 攻略 本編 (ruRiの気ままにオタ活, Hatena Blog)",
+      "language": "ja",
+      "notes": "Complete single-page walkthrough covering the shared common-route choices (through 4/5, before character select at 4/1 branch) and all 7 character routes in sectioned anchors (#1 Liberta through #7 Jolly) on one page. Contains verbatim choice text, SAVE1/SAVE2 markers, デュエロ success/fail notation, and 3-ending (ED1/ED2/ED3) structure per route. Independently corroborates Dante and Jolly both being locked to 2nd-playthrough-onward ('２周目以降ルート解放') and Dante's Famiglia/Normal/Defeat endings requiring all other characters cleared first ('全員を攻略後ED回収が可能'). Used as the second full walkthrough for cross-validation against choro-game.com. Landing/navigation page at https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223648 links here."
+    },
+    {
+      "url": "https://manga-daisuki.net/game/psvita-otome/arcana/",
+      "title": "[PSvita] アルカナ・ファミリア無印はキャラが魅力的すぎた！オススメの攻略順とキャラ別感想 (乙女ゲーム大好記)",
+      "language": "ja",
+      "notes": "Review/impressions blog (not a choice-by-choice walkthrough) but explicitly states a numbered recommended route order under the heading 'キャラクターのおすすめ攻略順': 1.パーチェ 2.デビト 3.ルカ 4.ノヴァ 5.リベルタ 6.ダンテ 7.ジョーリィ. Notes the author personally played in a different order and adds 'シナリオとしては壮大なネタバレなどもないので、好きな順番でプレイしたら良いと思う' (no major spoilers between routes, so preferred order is fine) for the 5 unlocked routes. Used as supplementary corroboration for the first 5 routes' order; its Dante-before-Jolly placement is treated as lower-confidence than the two full walkthroughs' explicit unlock-condition text (see disagreements)."
+    },
+    {
+      "url": "https://momokan.chu.jp/momokan/frame-arcana.html",
+      "title": "アルカナ・ファミリア 攻略PSP (momokan)",
+      "language": "ja",
+      "notes": "Referenced via search-result snippet only; direct fetch failed (DNS/connection error during this research session) and content was NOT directly verified. Snippet indicates the site states 'ジョーリィは最後がオススメです' (Jolly recommended last) and describes Jolly as positioned like a 'ラスボス' (final boss) on the character select screen, used only as weak corroboration that Jolly is not meant to be played early. Should be re-fetched before being used as a primary source for actual guide content."
+    },
+    {
+      "url": "https://vndb.org/v8203",
+      "title": "Arcana Famiglia - VNDB entry v8203",
+      "language": "en",
+      "notes": "Reference only. Confirms v8203 covers the original October 2011 PSP release (アルカナ・ファミリア -La storia della Arcana Famiglia-), the December 2015 PS Vita 'Ancora' port, and the July 2025 Nintendo Switch / 2026 Steam 'Rinato' re-release, all as the same title/entry — meaning Japanese guides for the PSP/Vita versions are valid sources for the Switch Rinato route structure and choice content."
+    },
+    {
+      "url": "https://vndb.org/v8203/chars",
+      "title": "Arcana Famiglia - Character list, VNDB",
+      "language": "en",
+      "notes": "Reference only. Used to enumerate the 7 main/route characters (Dante c8564, Debito c8561, Jolly c8565, Libertà c8559, Luca c8563, Nova c8560, Pace/Parche c8562) plus protagonist Felicità (c8558) and side characters Mondo, Sumire, Elmo. Individual character pages (e.g. vndb.org/c8559) were fetched to obtain and verify each portrait image URL, all confirmed to return HTTP 200."
+    },
+    {
+      "url": "https://dramaticcreate.com/af_rinato/story.html",
+      "title": "Nintendo Switch/Steam『アルカナ・ファミリア Rinato』公式サイト - STORY",
+      "language": "ja",
+      "notes": "Reference only. Official site for the Switch/Steam Rinato release. Confirms the main story premise (Arcana Duello tournament, April 1 to June 1 timeframe) and character roles (Mondo as boss/father, Sumire as his wife, Nova/Parche/Debito/Dante as department executives). No route order or bad-end information; used only to confirm this is the same base story as the PSP/Vita versions with no restructured routes."
+    }
+  ],
+  "generated_at": "2026-07-18T13:48:12.795729+00:00"
+}

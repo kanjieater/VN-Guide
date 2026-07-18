@@ -201,12 +201,15 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
         return True
 
     log(f"Phase 1 – Research: {title}")
+    platform = os.environ.get("GUIDE_PLATFORM", "")
+    platform_note = f"Target platform: {platform} — research sources and route list must reflect this specific version." if platform else ""
     prompt = build_prompt(
         "research.md",
         TITLE=title,
         VNDB_ID=vndb_id,
         RESEARCH_FILE=str(research_file),
         DATE=datetime.now(timezone.utc).isoformat(),
+        PLATFORM_NOTE=platform_note,
     )
     session_file = guide_dir / "research_session.txt"
     ok = run_claude(prompt, MAX_TURNS_RESEARCH, guide_dir, session_file=session_file,
@@ -334,6 +337,12 @@ def run() -> None:
         return
 
     log(f"{len(pending)} game(s) need guides")
+
+    priority_vid = os.environ.get("GUIDE_PRIORITY_VID")
+    if priority_vid:
+        priority = [(v, e) for v, e in pending if v == priority_vid]
+        rest = [(v, e) for v, e in pending if v != priority_vid]
+        pending = priority + rest
 
     vid, entry = pending[0]
     slug = entry["slug"]

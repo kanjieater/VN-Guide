@@ -356,11 +356,14 @@ def run() -> None:
     success = generate_guide(slug, title, vid, max_routes=max_routes)
 
     if success:
-        games[vid]["has_guide"] = True
-        GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
-        log(f"Guide complete: {slug}")
-        _generate.generate_landing(games)
-        run_deploy()
+        if max_routes is not None:
+            log(f"Partial guide done ({max_routes} route(s)) — has_guide stays false until all routes complete")
+        else:
+            games[vid]["has_guide"] = True
+            GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
+            log(f"Guide complete: {slug}")
+            _generate.generate_landing(games)
+            run_deploy()
     else:
         err(f"Guide generation failed for {slug} — will retry next cycle")
 

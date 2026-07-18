@@ -7,11 +7,10 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#121212">
-<link rel="manifest" href="data:application/json,{&quot;name&quot;:&quot;Arcana Famiglia Guide&quot;,&quot;short_name&quot;:&quot;Arcana Famiglia&quot;,&quot;display&quot;:&quot;standalone&quot;,&quot;background_color&quot;:&quot;#121212&quot;,&quot;theme_color&quot;:&quot;#121212&quot;}">
-<title>Arcana Famiglia Guide</title>
-    <link rel="icon" href="../favicon.ico" sizes="any">
-    <link rel="icon" href="../favicon.png" type="image/png">
-    <link rel="apple-touch-icon" href="../favicon-192.png">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+<link rel="apple-touch-icon" href="../icons/icon-180.png">
+<title>VN Guide</title>
 <style>
   :root {
     --bg: #121212;
@@ -47,26 +46,38 @@
   .view.active { display: flex; }
 
   /* ── home view ──────────────────────────────────────── */
-  #view-home {
+  #view-home { flex-direction: column; }
+
+  .home-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 24px 16px;
     text-align: center;
     gap: 16px;
   }
 
-  #view-home h2 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--accent);
-  }
-
-  #view-home p {
+  .home-content p {
     margin: 0;
     color: #888;
     font-size: 15px;
     line-height: 1.6;
+  }
+
+  .view-header a {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    flex-shrink: 0;
+    text-decoration: none;
+    touch-action: manipulation;
+    white-space: nowrap;
   }
 
   #route-list {
@@ -86,16 +97,35 @@
     color: var(--text);
     font-size: 18px;
     font-weight: 700;
-    padding: 20px;
+    padding: 14px 16px;
     cursor: pointer;
     touch-action: manipulation;
     text-align: left;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 14px;
   }
 
   #route-list li button:active { background: #2a2a3a; }
+
+  .route-portrait {
+    width: 44px;
+    height: 60px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 5px;
+    flex-shrink: 0;
+    transition: filter 0.4s;
+  }
+  .route-portrait.locked { filter: blur(6px) brightness(0.6); }
+
+  .route-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
 
   /* ── slide view ─────────────────────────────────────── */
   #view-slide { justify-content: space-between; }
@@ -155,6 +185,7 @@
     text-align: center;
   }
 
+
   #details-section {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -175,6 +206,14 @@
   }
 
   #details-section .detail-block + .detail-block { margin-top: 12px; }
+
+  .bad-end-block {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .bad-end-block h4 { color: #e05050; }
+  .bad-end-choice { color: #ff8888; font-weight: 600; }
 
   button#toggle-details {
     background: none;
@@ -257,6 +296,45 @@
     flex-shrink: 0;
     width: 28px;
   }
+
+  /* ── settings ────────────────────────────────────────── */
+  #view-settings { overflow-y: auto; }
+  .settings-body { padding: 0 16px; }
+  .setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    gap: 16px;
+    user-select: none;
+  }
+  .setting-label { font-size: 16px; font-weight: 600; }
+  .setting-desc { font-size: 13px; color: #888; margin-top: 3px; }
+  .toggle-pill {
+    width: 50px;
+    height: 28px;
+    border-radius: 14px;
+    background: #444;
+    position: relative;
+    flex-shrink: 0;
+    transition: background 0.2s;
+  }
+  .toggle-pill::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  }
+  .toggle-pill.on { background: var(--accent); }
+  .toggle-pill.on::after { transform: translateX(22px); }
 </style>
 </head>
 <body>
@@ -264,10 +342,16 @@
 
   <!-- Home: route selection -->
   <div id="view-home" class="view active">
-    <h2>Arcana Famiglia</h2>
-    <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
-    <ul id="route-list"></ul>
-    <a href="../" style="color:#888;font-size:13px;margin-top:8px;">← ホームへ戻る</a>
+    <div class="view-header">
+      <a href="../">← 戻る</a>
+      <h3 id="game-title"></h3>
+      <button onclick="showSettings()">⚙</button>
+    </div>
+    <div class="home-content">
+      <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
+      <ul id="route-list"></ul>
+      <p id="guide-updated"></p>
+    </div>
   </div>
 
   <!-- Slide: step-by-step reader -->
@@ -275,6 +359,7 @@
     <div class="view-header">
       <button onclick="goHome()">🏠</button>
       <h3 id="slide-route-title"></h3>
+      <button onclick="showSettings()">⚙</button>
       <button onclick="showJump()">一覧</button>
     </div>
     <div class="step-container">
@@ -285,6 +370,7 @@
         <div class="detail-block" id="detail-jp1"></div>
         <div class="detail-block" id="detail-jp2"></div>
         <div class="detail-block" id="detail-en"></div>
+        <div class="detail-block bad-end-block" id="detail-bad-end" style="display:none"></div>
       </div>
     </div>
     <div class="nav-buttons">
@@ -304,37 +390,33 @@
     </div>
   </div>
 
+  <!-- Settings -->
+  <div id="view-settings" class="view">
+    <div class="view-header">
+      <button onclick="goHome()">◀ 戻る</button>
+      <h3>設定</h3>
+      <div style="width:50px"></div>
+    </div>
+    <div class="settings-body">
+      <div class="setting-row" onclick="toggleSetting('blurPortraits')">
+        <div>
+          <div class="setting-label">キャラクター画像をぼかす</div>
+          <div class="setting-desc">未開始のルートの画像を隠す（ネタバレ防止）</div>
+        </div>
+        <div id="toggle-blurPortraits" class="toggle-pill"></div>
+      </div>
+    </div>
+  </div>
+
 </div>
 <script>
-// ── Guide data ────────────────────────────────────────────────────────────────
-// VNDB ID: v8203
-//
-// To author this guide, populate guideData below.
-// Each route has an id, title, and array of steps.
-// Each step has:
-//   simpleJp  – short instruction shown large (required)
-//   jpGuide1  – detail from JP source 1 (optional)
-//   jpGuide2  – detail from JP source 2 (optional)
-//   enGuide   – detail from EN source (optional)
-//
-// Example:
-// const guideData = {
-//   routes: [
-//     { id: "route1", title: "ルート１", steps: [
-//       { simpleJp: "最初の選択肢でAを選ぶ", jpGuide1: "...", enGuide: "Choose A" },
-//     ]}
-//   ]
-// };
-
-const guideData = {
-  routes: []
-};
-
 // ── App state ─────────────────────────────────────────────────────────────────
-const TITLE = "Arcana Famiglia";
-const STORAGE_KEY = "guideState_arcana-famiglia";
+const STORAGE_KEY = "guide_" + location.pathname.replace(/\//g, "_");
+const SETTINGS_KEY = "vng_settings";
 
+let guideData = { routes: [] };
 let state = { currentRoute: null, progress: {} };
+let settings = { blurPortraits: true };
 
 function loadState() {
   try { const s = localStorage.getItem(STORAGE_KEY); if (s) state = JSON.parse(s); } catch {}
@@ -344,6 +426,14 @@ function saveState() {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch {}
 }
 
+function loadSettings() {
+  try { const s = localStorage.getItem(SETTINGS_KEY); if (s) settings = { ...settings, ...JSON.parse(s) }; } catch {}
+}
+
+function saveSettings() {
+  try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)); } catch {}
+}
+
 // ── View management ───────────────────────────────────────────────────────────
 function showView(id) {
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
@@ -351,8 +441,16 @@ function showView(id) {
 }
 
 // ── Home ──────────────────────────────────────────────────────────────────────
-function init() {
+async function init() {
+  loadSettings();
   loadState();
+  try {
+    const res = await fetch("./guide.json");
+    if (res.ok) {
+      guideData = await res.json();
+      if (guideData.title) document.title = guideData.title + " ガイド";
+    }
+  } catch {}
   renderHome();
   requestWakeLock();
 }
@@ -360,6 +458,8 @@ function init() {
 function renderHome() {
   const list = document.getElementById("route-list");
   const status = document.getElementById("home-status");
+  const titleEl = document.getElementById("game-title");
+  if (titleEl && guideData.title) titleEl.textContent = guideData.title;
   if (!guideData.routes || guideData.routes.length === 0) {
     list.innerHTML = "";
     status.style.display = "";
@@ -367,18 +467,70 @@ function renderHome() {
     return;
   }
   status.style.display = "none";
-  list.innerHTML = guideData.routes.map(r => {
+  list.innerHTML = guideData.routes.map((r, routeIdx) => {
+    const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
-    const pct = r.steps.length ? Math.round(prog / r.steps.length * 100) : 0;
+    const total = r.steps ? r.steps.length : (r.stepCount || 0);
+    const pct = (started && total > 0) ? Math.round(prog / Math.max(total - 1, 1) * 100) : 0;
+    const hasProgress = started && prog > 0;
+    const shouldBlur = settings.blurPortraits && !hasProgress;
+    const portrait = r.portrait
+      ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
+      : '';
+    const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
     return `<li><button onclick="startRoute('${r.id}')">
-      <span>${r.title}</span>
-      <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
+      ${portrait}
+      <div class="route-info">
+        <span>${displayTitle}</span>
+        <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
+      </div>
     </button></li>`;
   }).join("");
+  const maxProgress = guideData.routes.reduce((s, r) => {
+    const n = r.steps ? r.steps.length : (r.stepCount || 0);
+    return s + Math.max(n - 1, 1);
+  }, 0);
+  const doneSteps = guideData.routes.reduce((s, r) => {
+    const p = state.progress[r.id];
+    return s + (p !== undefined ? p : 0);
+  }, 0);
+  const totalPct = maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
+  let totalEl = document.getElementById("total-progress");
+  if (!totalEl) {
+    totalEl = document.createElement("p");
+    totalEl.id = "total-progress";
+    list.before(totalEl);
+  }
+  totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
+  totalEl.textContent = `全体進行度: ${totalPct}%`;
+
+  const updatedEl = document.getElementById("guide-updated");
+  if (updatedEl && guideData.generated_at) {
+    const d = new Date(guideData.generated_at);
+    updatedEl.textContent = `最終更新: ${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
+    updatedEl.style.cssText = "margin:16px 0 0;font-size:12px;color:#666;text-align:center;";
+  }
+
   showView("view-home");
 }
 
-function startRoute(id) {
+async function startRoute(id) {
+  const route = guideData.routes.find(r => r.id === id);
+  if (route && !route.steps) {
+    try {
+      const res = await fetch(`./route_${id}.json`);
+      if (res.ok) {
+        route.steps = await res.json();
+      } else {
+        const statusEl = document.getElementById("home-status");
+        statusEl.textContent = `${route ? route.title : id} のガイドは生成中です…`;
+        statusEl.style.display = "";
+        showView("view-home");
+        return;
+      }
+    } catch { renderHome(); return; }
+  }
+  // Only update state after route loads successfully
   state.currentRoute = id;
   if (!(id in state.progress)) state.progress[id] = 0;
   saveState();
@@ -392,16 +544,17 @@ function currentRoute() {
 
 function renderSlide() {
   const route = currentRoute();
-  if (!route) { renderHome(); return; }
+  if (!route || !route.steps || !route.steps.length) { renderHome(); return; }
   const idx = state.progress[route.id] || 0;
   const step = route.steps[idx];
   const total = route.steps.length;
 
   document.getElementById("slide-route-title").textContent = route.title;
   document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
-  document.getElementById("simple-instruction").textContent = step.simpleJp || "";
+  const instrEl = document.getElementById("simple-instruction");
+  instrEl.textContent = (step.simpleJp || "") + (step.badEndPath ? ` ⚠ ${step.badEndPath}` : "");
 
-  const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide;
+  const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide || step.badEnd || step.badEndPath;
   document.getElementById("toggle-details").style.display = hasDetails ? "" : "none";
   document.getElementById("details-section").style.display = "none";
   document.getElementById("toggle-details").textContent = "詳細を表示";
@@ -414,6 +567,14 @@ function renderSlide() {
   setDetail("detail-jp1", "攻略サイト①", step.jpGuide1 || "");
   setDetail("detail-jp2", "攻略サイト②", step.jpGuide2 || "");
   setDetail("detail-en", "English", step.enGuide || "");
+
+  const badEndEl = document.getElementById("detail-bad-end");
+  if (step.badEnd) {
+    badEndEl.style.display = "";
+    badEndEl.innerHTML = `<h4 class="bad-end-block" style="margin:0 0 6px;font-size:12px;color:#e05050;text-transform:uppercase;letter-spacing:.06em;">バッドエンド</h4><span class="bad-end-choice">${escHtml(step.badEnd.choice)}</span> を選ぶ → ${escHtml(step.badEnd.end)}<br><small style="color:#888">ルート後にここにロードして次の選択肢へ</small>`;
+  } else {
+    badEndEl.style.display = "none";
+  }
 
   document.getElementById("btn-prev").disabled = idx === 0;
   document.getElementById("btn-next").disabled = idx === total - 1;
@@ -447,7 +608,7 @@ function toggleDetails() {
   const sec = document.getElementById("details-section");
   const btn = document.getElementById("toggle-details");
   const open = sec.style.display !== "none";
-  sec.style.display = open ? "none" : "";
+  sec.style.display = open ? "none" : "block";
   btn.textContent = open ? "詳細を表示" : "詳細を隠す";
 }
 
@@ -460,15 +621,16 @@ function goHome() {
 // ── Jump list ─────────────────────────────────────────────────────────────────
 function showJump() {
   const route = currentRoute();
-  if (!route) return;
+  if (!route || !route.steps) return;
   document.getElementById("jump-route-title").textContent = route.title;
   const list = document.getElementById("jump-list");
-  list.innerHTML = route.steps.map((s, i) =>
-    `<li><button onclick="jumpTo(${i})">
+  list.innerHTML = route.steps.map((s, i) => {
+    const prefix = s.badEndPath ? '⚠ ' : s.isLoad ? '↩ ' : '';
+    return `<li><button onclick="jumpTo(${i})">
       <span class="jump-num">${i + 1}</span>
-      <span>${escHtml(s.simpleJp || "")}</span>
-    </button></li>`
-  ).join("");
+      <span>${prefix}${escHtml(s.simpleJp || "")}</span>
+    </button></li>`;
+  }).join("");
   showView("view-jump");
 }
 
@@ -481,6 +643,22 @@ function jumpTo(idx) {
 }
 
 function resumeSlide() { renderSlide(); }
+
+// ── Settings ──────────────────────────────────────────────────────────────────
+function showSettings() {
+  for (const [k, v] of Object.entries(settings)) {
+    const el = document.getElementById(`toggle-${k}`);
+    if (el) el.classList.toggle("on", !!v);
+  }
+  showView("view-settings");
+}
+
+function toggleSetting(key) {
+  settings[key] = !settings[key];
+  const el = document.getElementById(`toggle-${key}`);
+  if (el) el.classList.toggle("on", settings[key]);
+  saveSettings();
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function escHtml(s) {

@@ -76,10 +76,11 @@ def scaffold_guide(slug: str, title: str, vndb_id: str) -> None:
     # Always overwrite index.html with the latest template so guide pages
     # stay in sync with guide_stub.html even for existing games
     (guide_dir / "index.html").write_text(STUB_TMPL.read_text())
-    guide_json = {"title": title, "vndb_id": vndb_id, "routes": []}
-    (guide_dir / "guide.json").write_text(
-        json.dumps(guide_json, ensure_ascii=False, indent=2)
-    )
+    if not (guide_dir / "guide.json").exists():
+        guide_json = {"title": title, "vndb_id": vndb_id, "routes": []}
+        (guide_dir / "guide.json").write_text(
+            json.dumps(guide_json, ensure_ascii=False, indent=2)
+        )
     manifest = {
         "name": f"{title} ガイド",
         "short_name": "VN Guide",

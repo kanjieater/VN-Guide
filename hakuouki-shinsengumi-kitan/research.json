@@ -1,0 +1,173 @@
+{
+  "title": "Hakuouki ~Shinsengumi Kitan~",
+  "vndb_id": "v1715",
+  "routes": [
+    {
+      "id": "hijikata",
+      "title": "土方歳三ルート",
+      "portrait": "https://t.vndb.org/ch/61/198061.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Hijikata Toshizou, acting commander of the Shinsengumi. Route spans both 風ノ章 (Kaze no Shou / 'Kyoto Winds') and 華ノ章 (Hana no Shou / 'Edo Blossoms'), each contributing 5 chapters to his single continuous route in the combined 真改風華伝 Switch release. No unlock restriction ('攻略制限はない'); both primary sources recommend him as the strongest first pick since his scenario most thoroughly introduces the Shinsengumi and post-Shinkai world, though both sources also note a minority preference for saving him for last for greater emotional impact. Has a GOOD END, multiple bad ends/game overs documented across both chapters (save-point-gated in both 風ノ章 and 華ノ章)."
+    },
+    {
+      "id": "okita",
+      "title": "沖田総司ルート",
+      "portrait": "https://t.vndb.org/ch/62/198062.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Okita Souji, 1st Division captain. No unlock restriction. Listed second in the 'Hijikata first' recommended order from both sources. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END (tragic/unrequited end), and bad ends/game overs."
+    },
+    {
+      "id": "saito",
+      "title": "斎藤一ルート",
+      "portrait": "https://t.vndb.org/ch/63/198063.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Saitou Hajime, 3rd Division captain. No unlock restriction. Listed third in the recommended order. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "toudou",
+      "title": "藤堂平助ルート",
+      "portrait": "https://t.vndb.org/ch/64/198064.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Toudou Heisuke (guide URL slug 'heisuke'), 8th Division captain, youngest and most cheerful captain. No unlock restriction. Listed fourth in the recommended order. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "harada",
+      "title": "原田左之助ルート",
+      "portrait": "https://t.vndb.org/ch/66/198066.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Harada Sanosuke, 10th Division captain, spear user. No unlock restriction. Listed fifth in the recommended order. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "nagakura",
+      "title": "永倉新八ルート",
+      "portrait": "https://t.vndb.org/ch/71/198071.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Nagakura Shinpachi, 2nd Division captain. One of three characters promoted from background cast to full romance route in the 'Shinkai' (真改) expansion (originally added in the 風ノ章/'Kyoto Winds' PS Vita release, carried into the combined Switch 風華伝 release). No unlock restriction. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "yamazaki",
+      "title": "山崎烝ルート",
+      "portrait": "https://t.vndb.org/ch/74/198074.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Yamazaki Susumu, Shinsengumi spy/watch member. One of three characters promoted from background cast to full romance route in the Shinkai expansion. No unlock restriction. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "sannan",
+      "title": "山南敬助ルート",
+      "portrait": "https://t.vndb.org/ch/72/198072.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Sannan Keisuke, Shinsengumi colonel. One of three characters promoted from background cast to full romance route in the Shinkai expansion. No unlock restriction. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "iba",
+      "title": "伊庭八郎ルート",
+      "portrait": "https://t.vndb.org/ch/76/198076.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Iba Hachirou, shogunate guard swordsman. Completely new character introduced in the Shinkai expansion (not present in the original 2008 release at all). No unlock restriction. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "sakamoto",
+      "title": "坂本龍馬ルート",
+      "portrait": "https://t.vndb.org/ch/80/198080.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Sakamoto Ryouma, former ronin who favors guns over swords. Completely new character introduced in the Shinkai expansion. Unique among the 12 romance routes in having 4 endings in 風ノ章 instead of 3 (one source states his 風ノ章 also 'contains the normal ending'). No unlock restriction. Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "souma",
+      "title": "相馬主計ルート",
+      "portrait": "https://t.vndb.org/ch/78/198078.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Souma Kazue, the protagonist's first student and the chief's page. Completely new character introduced in the Shinkai expansion. No mechanical unlock restriction, but both primary sources independently recommend playing him LAST: his route shares a similar narrative flow/tone with the Kazama and Yukimura branches (source explicitly warns against playing all three back-to-back to avoid fatigue), and it is also the documented gateway to the bonus Yukimura branch (see 'yukimura' route). Route spans 風ノ章 and 華ノ章 with documented GOOD END, 悲恋END, and bad ends/game overs."
+    },
+    {
+      "id": "kazama",
+      "title": "風間千景ルート",
+      "portrait": "https://t.vndb.org/ch/67/198067.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Kazama Chikage, a mysterious warrior not affiliated with the Shinsengumi. UNLIKE the original 2008 release (where Kazama required clearing at least one other route first), the Shinkai/風華伝 Switch version has NO route-lock restriction on Kazama — explicitly confirmed by the primary source's blanket statement '攻略制限はないので誰からプレイしても大丈夫です' (no play-order restrictions, anyone can be played first), which is stated before the recommended order and covers all 12 characters including Kazama. Recommended late in the play order (11th of 12) purely for narrative pacing, not a hard requirement. Route spans 風ノ章 and 華ノ章, each with a GOOD END, a bad end with staff roll, and a bad end without staff roll (per source 1's Kazama-specific page)."
+    },
+    {
+      "id": "yukimura",
+      "title": "雪村ルート",
+      "portrait": "https://t.vndb.org/ch/59/198059.jpg",
+      "prerequisites": [
+        "souma"
+      ],
+      "is_true_ending": false,
+      "notes": "A special 13th 'no romance' branch route for protagonist Yukimura Chizuru herself, not a conquerable love-interest route. Not selectable from a character-select screen; source 1 documents it is reachable when a targeted character's affection is insufficient during ANY route (a fallback branch), but gives one concrete, reproducible entry point: during the Souma Kazue route, choosing 留守番をする ('stay behind') then 大人しくする ('stay quiet/behave') branches into the Yukimura path partway through 風ノ章 (at a save point the source labels ★SAVE1, occurring after what would be Chapter 4 of Souma's route). 華ノ章 portion of this branch is described as 一本道 (fully linear, no choices) leading to a dedicated Yukimura ending. Treated here as unlocked via/after the Souma route since that is the only documented reliable path; source 2 (choro-game/xxchoroxx) does NOT have a dedicated Yukimura page at all, which is flagged in disagreements below."
+    }
+  ],
+  "recommended_order": [
+    "hijikata",
+    "okita",
+    "saito",
+    "toudou",
+    "harada",
+    "nagakura",
+    "yamazaki",
+    "iba",
+    "sakamoto",
+    "sannan",
+    "kazama",
+    "souma",
+    "yukimura"
+  ],
+  "sources": [
+    {
+      "url": "https://nekoneko-wakakun.com/entry/hakuoki/shinkai/switch/kouryaku/matome/",
+      "title": "【薄桜鬼 真改 風華伝 for Nintendo Switch】攻略方法まとめ - tamaの日記",
+      "language": "ja",
+      "notes": "PRIMARY source index page, verified via direct fetch, specifically for the Nintendo Switch 真改風華伝 release (matches the requested target platform exactly, released 2018-09-06). States explicitly there is no route-lock restriction ('攻略制限はないので誰からプレイしても大丈夫です'). Gives two alternative recommended orders (Hijikata-first vs Hijikata-last) and warns against playing Yukimura/Kazama/Souma back-to-back due to similar tone. Links out to 13 individual character walkthrough pages (12 romance routes + Yukimura), each fetched and cross-checked individually: https://nekoneko-wakakun.com/entry/hakuoki/shinkai/switch/{hijikata,okita,saito,heisuke,harada,nagakura,sannan,yamazaki,iba,souma,sakamoto,kazama,yukimura}/kouryaku . Each character page documents both 風ノ章 and 華ノ章 halves of the route with ◆SAVE/★SAVE markers, bracketed choice text, 好感度 (affection) and 羅刹度 (corruption/rasetsu) notes, and numbered GOOD END / 悲恋END / bad-end-with-and-without-staff-roll branches."
+    },
+    {
+      "url": "https://choro-game.com/e/hakuoki-fuka-guide",
+      "title": "薄桜鬼 真改 風華伝 for Nintendo Switch 攻略 | choro",
+      "language": "ja",
+      "notes": "SECONDARY source index page (same blog previously hosted at xxchoroxx.blog.fc2.com, now redirects to choro-game.com), verified via direct fetch, also specifically for the Nintendo Switch 真改風華伝 release. Covers the same 12 romance-route characters across both 風ノ章 (Main story Ch.1-5) and 華ノ章 (character route Ch.1-5) with SAVE1-SAVE6 style markers and 血を与える/我慢させる-style choice text. Individual character pages fetched and cross-checked: https://choro-game.com/blog-entry-2729.html (土方), -2731 (沖田), -2733 (斎藤), -2734 (藤堂), -2735 (原田), -2736 (永倉), -3126 (山南), -3128 (山崎), -3129 (伊庭), -3125 (相馬), -3124 (坂本), -3127 (風間). NOTE: unlike source 1, this blog has NO dedicated 雪村 (Yukimura) walkthrough page — confirmed absent from its character index — so Yukimura route steps will be marked '（第二ガイドに記載なし）' in jpGuide2 during guide writing."
+    },
+    {
+      "url": "https://otomelabyrinth.com/walkthroughs/hakuoki-kyoto-winds/",
+      "title": "Hakuoki: Kyoto Winds walkthroughs • Otome Labyrinth",
+      "language": "en",
+      "notes": "Supplementary English source, used only to cross-validate overall structure, not as a primary text source. Confirms 12 characters each have their own set of endings in 風ノ章 (3 endings each for 10 of them, 4 for Sakamoto which includes what one wiki calls a 'normal' ending), states 'none of the routes are locked at the start,' and that developers merely suggest an order (core Shinsengumi -> later additions -> newest routes -> Kazama) without enforcing it."
+    },
+    {
+      "url": "https://otomelabyrinth.com/walkthroughs/hakuoki-edo-blossoms/",
+      "title": "Hakuoki: Edo Blossoms walkthroughs • Otome Labyrinth",
+      "language": "en",
+      "notes": "Supplementary English source. Confirms Edo Blossoms (華ノ章) is a direct narrative continuation of Kyoto Winds (風ノ章) containing 'the bulk of the character-specific routes,' and that each character's ending is determined by Romance (好感度) vs Corruption (羅刹度) stat thresholds (Good End = high romance/low corruption, 悲恋/Unrequited End = low romance/low corruption, Bad End = high corruption), matching the save/branch structure documented in both Japanese primary sources."
+    },
+    {
+      "url": "https://vndb.org/v1715",
+      "title": "Hakuouki ~Shinsengumi Kitan~ - VNDB entry v1715",
+      "language": "en",
+      "notes": "Confirmed via direct VNDB API query (api.vndb.org/kana/release, filtered on vn=v1715) that this VNDB entry DOES aggregate the Shinkai/真改 expansion releases, including release r56825 '薄桜鬼 真改 風華伝' / 'Hakuouki Shinkai Fuukaden' on platform 'swi' (Switch), released 2018-09-06 — exactly the requested target platform/edition — plus its English localization r118198/9/200 'Hakuoki: Chronicles of Wind and Blossom' (Switch, 2024-08-01). This corrects an assumption in a prior research pass for this game, which incorrectly treated the Shinkai/真改 remake as a separate, un-targeted VNDB entry; v1715 is confirmed to be the correct and only entry needed, aggregating everything from the original 2008 PC/PS2 release through the 2024 Switch English release."
+    },
+    {
+      "url": "https://api.vndb.org/kana/character",
+      "title": "VNDB Kana API - character endpoint",
+      "language": "en",
+      "notes": "Used to fetch verified portrait image URLs directly and reliably for all 13 route characters (12 romance targets + Yukimura) by character ID: c6946 Yukimura, c6947 Hijikata, c6968 Okita, c6969 Saitou, c6970 Toudou, c6971 Harada, c6972 Kazama, c6991 Nagakura, c60137 Sannan, c51379 Yamazaki, c62704 Iba, c62702 Souma, c62703 Sakamoto. This avoids the unreliable 'last 2 digits of character ID' URL-guessing pattern noted as invalid for this game in a prior research pass."
+    },
+    {
+      "url": "https://vndb.org/v1715/chars",
+      "title": "Hakuouki ~Shinsengumi Kitan~ - Character list",
+      "language": "en",
+      "notes": "Reference only. Confirms the full 'main characters' roster of 13 (protagonist Yukimura Chizuru + 12 romanceable characters: Hijikata, Okita, Saitou, Toudou, Harada, Kazama, Nagakura, Sannan, Yamazaki, Iba, Souma, Sakamoto), matching exactly the 12 romance routes + Yukimura bonus branch documented by both primary Japanese walkthrough sources for the Switch 真改風華伝 release."
+    }
+  ],
+  "disagreements": "1) SCOPE CORRECTION FROM PRIOR RESEARCH: an earlier research pass for this game (see git history, 'research_v1715_original.json') incorrectly concluded the 'Shinkai' (真改) remake/expansion lived in separate, un-targeted VNDB entries and limited the route list to the original 6 (Hijikata, Okita, Saitou, Toudou, Harada, Kazama). Direct VNDB API verification in this pass confirms v1715 DOES include the Switch 真改風華伝 release (r56825, 2018-09-06) and its 2024 English Switch localization, which add 6 more romance routes (Nagakura, Sannan, Yamazaki, Iba, Souma, Sakamoto) plus the bonus Yukimura branch, for 13 total routes. This pass supersedes the prior one; the guide should be generated using this 13-route list, not the old 6-route list. 2) Kazama's unlock condition changed between game versions: the original 2008 release required clearing at least one other character's route before Kazama unlocked; the Shinkai/風華伝 Switch release removes this restriction entirely per source 1's explicit statement that no character has a play-order restriction. 3) Recommended order for Yukimura vs Souma: source 1's literal quoted recommended-order string places 雪村 (Yukimura) in the general 'play in any order' middle group and 相馬 (Souma) explicitly last ('ラスト：相馬'), which taken literally would put Yukimura before Souma. However, the same source's Yukimura-specific page states the only concretely documented, reproducible entry point into the Yukimura branch is a mid-route choice fork inside the Souma route itself (留守番をする→大人しくする). To keep the guide mechanically correct and reproducible, this research places 'yukimura' immediately after 'souma' in recommended_order with souma listed as its prerequisite, deviating slightly from the literal source ordering string for the practical reason that Yukimura cannot actually be reached before starting Souma's route via the documented method. 4) Source 2 (choro-game.com) has no dedicated Yukimura walkthrough page at all, while source 1 (nekoneko-wakakun.com) does — this gap must be reflected as '（第二ガイドに記載なし）' in jpGuide2 for all Yukimura-route steps when the guide is written, per the project's source-fidelity rules. 5) No overarching 'true end' unlocked after clearing all 13 routes is documented by any source (each route stands fully alone with its own Good End / 悲恋End / bad ends); the Yukimura branch, despite being a 'complete the set' style bonus/hidden branch, is a solo 'no romance' ending in tone, not a triumphant true/best ending, so it is NOT flagged is_true_ending.",
+  "generated_at": "2026-07-18T21:05:00+00:00"
+}

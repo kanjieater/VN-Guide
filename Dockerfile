@@ -13,7 +13,9 @@ ENV PYTHONUNBUFFERED=1
 ENV CLAUDE_CODE_DISABLE_TELEMETRY=1
 
 # Non-root user matching host ke (uid 1000) so Claude CLI and file writes work
-RUN useradd -m -u 1000 -s /bin/bash guide
+RUN useradd -m -u 1000 -s /bin/bash guide && \
+    mkdir -p /home/guide/.claude && \
+    chown guide:guide /home/guide/.claude
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh

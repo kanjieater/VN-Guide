@@ -47,6 +47,13 @@ sleep_until_window() {
     sleep $(( sleep_mins * 60 ))
 }
 
+# .claude.json lives in ~ which is ephemeral; restore from the persistent named volume on each start
+CLAUDE_BACKUP="/home/guide/.claude/backups/.claude.json.backup.1784335996891"
+if [ ! -f ~/.claude.json ] && [ -f "$CLAUDE_BACKUP" ]; then
+    cp "$CLAUDE_BACKUP" ~/.claude.json
+    echo "[startup] Restored .claude.json from volume backup"
+fi
+
 # Trust the mounted repo (runs as uid 1000 matching host user)
 git config --global --add safe.directory "${REPO_PATH}"
 

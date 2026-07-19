@@ -1,7 +1,14 @@
 {
   "title": "Hakuouki ~Shinsengumi Kitan~",
   "vndb_id": "v1715",
-  "routes": [],
+  "routes": [
+    {
+      "id": "hijikata",
+      "title": "土方歳三ルート",
+      "stepCount": 98,
+      "portrait": "https://t.vndb.org/ch/61/198061.jpg"
+    }
+  ],
   "sources": [
     {
       "url": "https://nekoneko-wakakun.com/entry/hakuoki/shinkai/switch/kouryaku/matome/",
@@ -46,5 +53,5 @@
       "notes": "Reference only. Confirms the full 'main characters' roster of 13 (protagonist Yukimura Chizuru + 12 romanceable characters: Hijikata, Okita, Saitou, Toudou, Harada, Kazama, Nagakura, Sannan, Yamazaki, Iba, Souma, Sakamoto), matching exactly the 12 romance routes + Yukimura bonus branch documented by both primary Japanese walkthrough sources for the Switch 真改風華伝 release."
     }
   ],
-  "generated_at": "2026-07-18T21:09:44.408536+00:00"
+  "generated_at": "2026-07-19T03:17:46.080935+00:00"
 }

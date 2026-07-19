@@ -1,50 +1,7 @@
 {
   "title": "Hakuouki ~Shinsengumi Kitan~",
   "vndb_id": "v1715",
-  "routes": [
-    {
-      "id": "hijikata",
-      "title": "土方歳三ルート",
-      "stepCount": 60,
-      "portrait": "https://t.vndb.org/ch/61/198061.jpg"
-    },
-    {
-      "id": "okita",
-      "title": "沖田総司ルート",
-      "stepCount": 41,
-      "portrait": "https://t.vndb.org/ch/62/198062.jpg"
-    },
-    {
-      "id": "saito",
-      "title": "斎藤一ルート",
-      "stepCount": 42,
-      "portrait": "https://t.vndb.org/ch/63/198063.jpg"
-    },
-    {
-      "id": "toudou",
-      "title": "藤堂平助ルート",
-      "stepCount": 44,
-      "portrait": "https://t.vndb.org/ch/64/198064.jpg"
-    },
-    {
-      "id": "harada",
-      "title": "原田左之助ルート",
-      "stepCount": 39,
-      "portrait": "https://t.vndb.org/ch/66/198066.jpg"
-    },
-    {
-      "id": "nagakura",
-      "title": "永倉新八ルート",
-      "stepCount": 108,
-      "portrait": "https://t.vndb.org/ch/71/198071.jpg"
-    },
-    {
-      "id": "kazama",
-      "title": "風間千景ルート",
-      "stepCount": 32,
-      "portrait": "https://t.vndb.org/ch/67/198067.jpg"
-    }
-  ],
+  "routes": [],
   "sources": [
     {
       "url": "https://nekoneko-wakakun.com/entry/hakuoki/shinkai/switch/kouryaku/matome/",

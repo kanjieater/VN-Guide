@@ -43,6 +43,12 @@
       "title": "山崎烝ルート",
       "stepCount": 78,
       "portrait": "https://t.vndb.org/ch/74/198074.jpg"
+    },
+    {
+      "id": "sannan",
+      "title": "山南敬助ルート",
+      "stepCount": 107,
+      "portrait": "https://t.vndb.org/ch/72/198072.jpg"
     }
   ],
   "sources": [
@@ -89,5 +95,5 @@
       "notes": "Reference only. Confirms the full 'main characters' roster of 13 (protagonist Yukimura Chizuru + 12 romanceable characters: Hijikata, Okita, Saitou, Toudou, Harada, Kazama, Nagakura, Sannan, Yamazaki, Iba, Souma, Sakamoto), matching exactly the 12 romance routes + Yukimura bonus branch documented by both primary Japanese walkthrough sources for the Switch 真改風華伝 release."
     }
   ],
-  "generated_at": "2026-07-20T09:11:27.231435+00:00"
+  "generated_at": "2026-07-20T09:28:48.215874+00:00"
 }

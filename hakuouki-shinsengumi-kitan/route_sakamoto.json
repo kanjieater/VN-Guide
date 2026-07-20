@@ -1,0 +1,724 @@
+[
+  {
+    "simpleJp": "事情を説明する",
+    "jpGuide1": "事情を説明する",
+    "jpGuide2": "何とかして逃げる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "京に来た理由を話す",
+    "jpGuide1": "京に来た理由を話す",
+    "jpGuide2": "その場に居直る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部屋で大人しくする",
+    "jpGuide1": "部屋で大人しくする",
+    "jpGuide2": "部屋で大人しくする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "意外です",
+    "jpGuide1": "意外です",
+    "jpGuide2": "意外です",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大人しく部屋に戻る",
+    "jpGuide1": "大人しく部屋に戻る",
+    "jpGuide2": "大人しく部屋に戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "伏見に行く",
+    "jpGuide1": "伏見に行く",
+    "jpGuide2": "伏見に行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いえ、大丈夫です",
+    "jpGuide1": "いえ、大丈夫です（好感度UP✨）",
+    "jpGuide2": "いえ、大丈夫です",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出て父を捜す",
+    "jpGuide1": "外に出て父を捜す",
+    "jpGuide2": "大人しくしている",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "様子を見る",
+    "jpGuide1": "様子を見る",
+    "jpGuide2": "なぜ、私なんですか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階に行く",
+    "jpGuide1": "二階に行く",
+    "jpGuide2": "山崎さんが行くべき",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "捕まえる",
+    "jpGuide1": "捕まえる",
+    "jpGuide2": "池田屋に向かう\n原田さんについていく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "留守番してます",
+    "jpGuide1": "留守番してます",
+    "jpGuide2": "留守番してます",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "中庭に行ってみる",
+    "jpGuide1": "中庭に行ってみる",
+    "jpGuide2": "大広間に行ってみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "聞くのをやめる",
+    "jpGuide1": "聞くのをやめる（好感度UP✨）",
+    "jpGuide2": "聞くのをやめる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "素直に部屋へ戻る",
+    "jpGuide1": "素直に部屋へ戻る",
+    "jpGuide2": "素直に部屋へ戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自室に戻る",
+    "jpGuide1": "自室に戻る",
+    "jpGuide2": "外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "永倉さんも辛いんですね",
+    "jpGuide1": "永倉さんも辛いんですね",
+    "jpGuide2": "今は過ぎた望み",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ108",
+    "jpGuide1": "★SAVE1",
+    "jpGuide2": "Save1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "坂本さんを放ってはおけない",
+    "jpGuide1": "坂本さんを放ってはおけない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ずるいです",
+    "jpGuide1": "ずるいです",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隊士のこと",
+    "jpGuide1": "隊士のこと",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "偉い人",
+    "jpGuide1": "偉い人",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……よくわかりません",
+    "jpGuide1": "……よくわかりません",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いる",
+    "jpGuide1": "いる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "屯所の外に行く",
+    "jpGuide1": "屯所の外に行く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大人しくする",
+    "jpGuide1": "大人しくする",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "みなさんに任せます",
+    "jpGuide1": "みなさんに任せます",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここで待つ",
+    "jpGuide1": "ここで待つ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大人しくする",
+    "jpGuide1": "大人しくする",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行かない",
+    "jpGuide1": "行かない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "留まって坂本さんに会う",
+    "jpGuide1": "留まって坂本さんに会う（好感度UP✨）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "坂本さんが信用するなら",
+    "jpGuide1": "坂本さんが信用するなら（好感度UP✨）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
+  },
+  {
+    "simpleJp": "セーブ108にロード",
+    "jpGuide1": "★SAVE1から始めるか、行軍録の「風ノ章 第五章・坂本龍馬篇」から始める",
+    "jpGuide2": "Save1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "同行する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "同行する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "屯所に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "屯所に戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも……",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "でも……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "平助君",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "平助君",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "……うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分でする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "自分でする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕事に専念する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "仕事に専念する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父の事",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "父の事",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "羅刹のこと",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "羅刹のこと",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隊士のこと",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "隊士のこと",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "分離派と親しかった人",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "分離派と親しかった人",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いない",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "いない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "屯所の外に行く",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "屯所の外に行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大声を上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "大声を上げる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "留守番をする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "留守番をする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何か手伝いたい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "何か手伝いたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "土方さんを信じる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "土方さんを信じる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すぐに戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "すぐに戻る",
+    "enGuide": "",
+    "badEndPath": "共通ノーマルエンド"
+  },
+  {
+    "simpleJp": "セーブ108にロード",
+    "jpGuide1": "★SAVE1",
+    "jpGuide2": "Save1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "留守番をする",
+    "jpGuide1": "留守番をする",
+    "jpGuide2": "留守番をする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すみません",
+    "jpGuide1": "すみません（好感度UP✨）",
+    "jpGuide2": "すみません",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お願いする",
+    "jpGuide1": "お願いする",
+    "jpGuide2": "自分でする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕事に専念する",
+    "jpGuide1": "仕事に専念する",
+    "jpGuide2": "仕事に専念する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父の事",
+    "jpGuide1": "父の事",
+    "jpGuide2": "父の事",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "助けてくれる人を呼びに行く",
+    "jpGuide1": "助けてくれる人を呼びに行く（好感度UP✨）",
+    "jpGuide2": "助けてくれる人を呼びに行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そうでしょうか",
+    "jpGuide1": "そうでしょうか（好感度UP✨）",
+    "jpGuide2": "そうでしょうか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隊士のこと",
+    "jpGuide1": "隊士のこと",
+    "jpGuide2": "隊士のこと",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "偉い人",
+    "jpGuide1": "偉い人",
+    "jpGuide2": "分離派と親しかった人",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本当はいい人です",
+    "jpGuide1": "本当はいい人です（好感度UP✨）",
+    "jpGuide2": "本当は良い人です",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いる",
+    "jpGuide1": "いる",
+    "jpGuide2": "いない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "屯所の外に行く",
+    "jpGuide1": "屯所の外に行く",
+    "jpGuide2": "屯所の外に行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大人しくする",
+    "jpGuide1": "大人しくする",
+    "jpGuide2": "大声を上げる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私、やります",
+    "jpGuide1": "私、やります（好感度UP✨）",
+    "jpGuide2": "私、やります",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一緒に行く",
+    "jpGuide1": "一緒に行く（好感度UP✨）",
+    "jpGuide2": "一緒に行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大人しくする",
+    "jpGuide1": "大人しくする",
+    "jpGuide2": "何か手伝いたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行かない",
+    "jpGuide1": "行かない",
+    "jpGuide2": "行かない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ109",
+    "jpGuide1": "★SAVE2",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんとかして逃げ出す",
+    "jpGuide1": "なんとかして逃げ出す",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "できません",
+    "jpGuide1": "できません",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールなし）"
+  },
+  {
+    "simpleJp": "セーブ109にロード",
+    "jpGuide1": "★SAVE2から始めるか、行軍録の「風ノ章 第五章・坂本龍馬篇」から始める",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "留まって坂本さんに会う",
+    "jpGuide1": "留まって坂本さんに会う（好感度UP✨）",
+    "jpGuide2": "留まって坂本さんに会う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "できません",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "できません",
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
+  },
+  {
+    "simpleJp": "セーブ109にロード",
+    "jpGuide1": "★SAVE2",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "留まって坂本さんに会う",
+    "jpGuide1": "留まって坂本さんに会う（好感度UP✨）",
+    "jpGuide2": "留まって坂本さんに会う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "坂本さんが信用するなら",
+    "jpGuide1": "坂本さんが信用するなら（好感度UP✨）",
+    "jpGuide2": "坂本さんが信用するなら",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "確かにそうですけど……",
+    "jpGuide1": "確かにそうですけど……（好感度UP✨）",
+    "jpGuide2": "確かにそうですけど……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ110",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どんなことをしても",
+    "jpGuide1": "どんなことをしても",
+    "jpGuide2": "どんなことをしても",
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールなし④）"
+  },
+  {
+    "simpleJp": "セーブ110にロード",
+    "jpGuide1": "行軍録の「華ノ章 第一章・坂本龍馬篇」から始める",
+    "jpGuide2": "Save2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それでも話してみる",
+    "jpGuide1": "それでも話してみる（好感度UP✨）",
+    "jpGuide2": "それでも話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……私の家に来ませんか？",
+    "jpGuide1": "……私の家に来ませんか？（好感度UP✨）",
+    "jpGuide2": "……私の家に来ませんか？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ111",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "行く当てはあるんですか？\n我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールなし③）"
+  },
+  {
+    "simpleJp": "セーブ111にロード",
+    "jpGuide1": "行軍録の「華ノ章 第二章・坂本龍馬篇」から始める",
+    "jpGuide2": "Save3より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "薬を与える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "薬を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "羅刹を増やしたくない",
+    "jpGuide1": "羅刹を増やしたくない",
+    "jpGuide2": "羅刹を増やしたくない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も同じです",
+    "jpGuide1": "私も同じです",
+    "jpGuide2": "私も同じです",
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールなし②）"
+  },
+  {
+    "simpleJp": "セーブ111にロード",
+    "jpGuide1": "Save3",
+    "jpGuide2": "Save3より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "中岡さんを助けたい",
+    "jpGuide1": "中岡さんを助けたい（好感度UP✨）",
+    "jpGuide2": "中岡さんを助けたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ112",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も同じです",
+    "jpGuide1": "私も同じです",
+    "jpGuide2": "私も同じです",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気持ちはわからなくもない",
+    "jpGuide1": "気持ちはわからなくもない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
+  },
+  {
+    "simpleJp": "セーブ112にロード",
+    "jpGuide1": "行軍録の「華ノ章 第三章・坂本龍馬篇」から始める",
+    "jpGuide2": "Save4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も同じです",
+    "jpGuide1": "私も同じです",
+    "jpGuide2": "私も同じです",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気持ちはわからなくもない",
+    "jpGuide1": "気持ちはわからなくもない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "薬を与える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
+  },
+  {
+    "simpleJp": "セーブ112にロード",
+    "jpGuide1": "Save4",
+    "jpGuide2": "Save4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も同じです",
+    "jpGuide1": "私も同じです",
+    "jpGuide2": "私も同じです",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気持ちはわからなくもない",
+    "jpGuide1": "気持ちはわからなくもない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールなし①）"
+  },
+  {
+    "simpleJp": "セーブ112にロード",
+    "jpGuide1": "Save4",
+    "jpGuide2": "Save4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "彼にも事情があった",
+    "jpGuide1": "彼にも事情があった（好感度UP✨）",
+    "jpGuide2": "彼にも事情があった",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大切な人が教えてくれた",
+    "jpGuide1": "大切な人が教えてくれた（好感度UP✨）",
+    "jpGuide2": "大切な人が教えてくれた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "GOODエンド",
+    "jpGuide1": "【華ノ章】GOODエンド",
+    "jpGuide2": "グッドエンド",
+    "enGuide": ""
+  }
+]

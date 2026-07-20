@@ -61,6 +61,12 @@
       "title": "坂本龍馬ルート",
       "stepCount": 117,
       "portrait": "https://t.vndb.org/ch/80/198080.jpg"
+    },
+    {
+      "id": "souma",
+      "title": "相馬主計ルート",
+      "stepCount": 92,
+      "portrait": "https://t.vndb.org/ch/78/198078.jpg"
     }
   ],
   "sources": [
@@ -107,5 +113,5 @@
       "notes": "Reference only. Confirms the full 'main characters' roster of 13 (protagonist Yukimura Chizuru + 12 romanceable characters: Hijikata, Okita, Saitou, Toudou, Harada, Kazama, Nagakura, Sannan, Yamazaki, Iba, Souma, Sakamoto), matching exactly the 12 romance routes + Yukimura bonus branch documented by both primary Japanese walkthrough sources for the Switch 真改風華伝 release."
     }
   ],
-  "generated_at": "2026-07-20T16:05:43.010833+00:00"
+  "generated_at": "2026-07-20T16:14:59.309702+00:00"
 }

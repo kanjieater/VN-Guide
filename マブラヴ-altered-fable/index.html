@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#121212">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+<link rel="apple-touch-icon" href="../icons/icon-180.png">
+<title>VN Guide</title>
+<style>
+  :root {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --accent: #4a90e2;
+    --surface: #1e1e1e;
+    --border: #333;
+    --nav-h: 20dvh;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow: hidden;
+    height: 100dvh;
+  }
+
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  /* ── views ──────────────────────────────────────────── */
+  .view { display: none; flex-direction: column; height: 100%; overflow: hidden; }
+  .view.active { display: flex; }
+
+  /* ── home view ──────────────────────────────────────── */
+  #view-home { flex-direction: column; }
+
+  .home-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .home-content p {
+    margin: 0;
+    color: #888;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .view-header a {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    flex-shrink: 0;
+    text-decoration: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+
+  #route-list {
+    width: 100%;
+    list-style: none;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #route-list li button {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 16px;
+    cursor: pointer;
+    touch-action: manipulation;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  #route-list li button:active { background: #2a2a3a; }
+
+  .route-portrait {
+    width: 44px;
+    height: 60px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 5px;
+    flex-shrink: 0;
+    transition: filter 0.4s;
+  }
+  .route-portrait.locked { filter: blur(6px) brightness(0.6); }
+
+  .route-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* ── slide view ─────────────────────────────────────── */
+  #view-slide { justify-content: space-between; }
+
+  .view-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .view-header h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .view-header button {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    flex-shrink: 0;
+    touch-action: manipulation;
+  }
+
+  .step-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #step-counter {
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+  }
+
+  #simple-instruction {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+
+  #details-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    display: none;
+  }
+
+  #details-section h4 {
+    margin: 0 0 6px;
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  #details-section .detail-block + .detail-block { margin-top: 12px; }
+
+  .bad-end-block {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .bad-end-block h4 { color: #e05050; }
+  .bad-end-choice { color: #ff8888; font-weight: 600; }
+
+  button#toggle-details {
+    background: none;
+    border: 1px solid var(--border);
+    color: #888;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    align-self: center;
+    touch-action: manipulation;
+  }
+
+  .nav-buttons {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    flex-shrink: 0;
+  }
+
+  .nav-buttons button {
+    flex: 1;
+    height: var(--nav-h);
+    min-height: 80px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    touch-action: manipulation;
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  .nav-buttons button.primary {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .nav-buttons button:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  /* ── jump view ──────────────────────────────────────── */
+  #view-jump { overflow: hidden; }
+
+  #jump-list-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px;
+  }
+
+  #jump-list {
+    list-style: none;
+    margin: 0; padding: 0;
+  }
+
+  #jump-list li button {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    text-align: left;
+    padding: 14px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    touch-action: manipulation;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+  }
+
+  #jump-list li button:active { background: var(--surface); }
+
+  .jump-num {
+    font-size: 12px;
+    color: #888;
+    flex-shrink: 0;
+    width: 28px;
+  }
+
+  /* ── settings ────────────────────────────────────────── */
+  #view-settings { overflow-y: auto; }
+  .settings-body { padding: 0 16px; }
+  .setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    gap: 16px;
+    user-select: none;
+  }
+  .setting-label { font-size: 16px; font-weight: 600; }
+  .setting-desc { font-size: 13px; color: #888; margin-top: 3px; }
+  .toggle-pill {
+    width: 50px;
+    height: 28px;
+    border-radius: 14px;
+    background: #444;
+    position: relative;
+    flex-shrink: 0;
+    transition: background 0.2s;
+  }
+  .toggle-pill::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  }
+  .toggle-pill.on { background: var(--accent); }
+  .toggle-pill.on::after { transform: translateX(22px); }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- Home: route selection -->
+  <div id="view-home" class="view active">
+    <div class="view-header">
+      <a href="../">← 戻る</a>
+      <h3 id="game-title"></h3>
+      <button onclick="showSettings()">⚙</button>
+    </div>
+    <div class="home-content">
+      <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
+      <ul id="route-list"></ul>
+      <p id="guide-updated"></p>
+    </div>
+  </div>
+
+  <!-- Slide: step-by-step reader -->
+  <div id="view-slide" class="view">
+    <div class="view-header">
+      <button onclick="goHome()">🏠</button>
+      <h3 id="slide-route-title"></h3>
+      <button onclick="showSettings()">⚙</button>
+      <button onclick="showJump()">一覧</button>
+    </div>
+    <div class="step-container">
+      <div id="step-counter"></div>
+      <div id="simple-instruction"></div>
+      <button id="toggle-details" onclick="toggleDetails()">詳細を表示</button>
+      <div id="details-section">
+        <div class="detail-block" id="detail-jp1"></div>
+        <div class="detail-block" id="detail-jp2"></div>
+        <div class="detail-block" id="detail-en"></div>
+        <div class="detail-block bad-end-block" id="detail-bad-end" style="display:none"></div>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button id="btn-prev" onclick="prevStep()">◀ 前へ</button>
+      <button id="btn-next" onclick="nextStep()" class="primary">次へ ▶</button>
+    </div>
+  </div>
+
+  <!-- Jump: full step list -->
+  <div id="view-jump" class="view">
+    <div class="view-header">
+      <button onclick="resumeSlide()">◀ 戻る</button>
+      <h3 id="jump-route-title"></h3>
+    </div>
+    <div id="jump-list-container">
+      <ul id="jump-list"></ul>
+    </div>
+  </div>
+
+  <!-- Settings -->
+  <div id="view-settings" class="view">
+    <div class="view-header">
+      <button onclick="goHome()">◀ 戻る</button>
+      <h3>設定</h3>
+      <div style="width:50px"></div>
+    </div>
+    <div class="settings-body">
+      <div class="setting-row" onclick="toggleSetting('blurPortraits')">
+        <div>
+          <div class="setting-label">キャラクター画像をぼかす</div>
+          <div class="setting-desc">未開始のルートの画像を隠す（ネタバレ防止）</div>
+        </div>
+        <div id="toggle-blurPortraits" class="toggle-pill"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+// ── App state ─────────────────────────────────────────────────────────────────
+const STORAGE_KEY = "guide_" + location.pathname.replace(/\//g, "_");
+const SETTINGS_KEY = "vng_settings";
+
+let guideData = { routes: [] };
+let state = { currentRoute: null, progress: {} };
+let settings = { blurPortraits: true };
+
+function loadState() {
+  try { const s = localStorage.getItem(STORAGE_KEY); if (s) state = JSON.parse(s); } catch {}
+}
+
+function saveState() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch {}
+}
+
+function loadSettings() {
+  try { const s = localStorage.getItem(SETTINGS_KEY); if (s) settings = { ...settings, ...JSON.parse(s) }; } catch {}
+}
+
+function saveSettings() {
+  try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)); } catch {}
+}
+
+// ── View management ───────────────────────────────────────────────────────────
+function showView(id) {
+  document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+}
+
+// ── Home ──────────────────────────────────────────────────────────────────────
+async function init() {
+  loadSettings();
+  loadState();
+  try {
+    const res = await fetch("./guide.json");
+    if (res.ok) {
+      guideData = await res.json();
+      if (guideData.title) document.title = guideData.title + " ガイド";
+    }
+  } catch {}
+  renderHome();
+  requestWakeLock();
+}
+
+function renderHome() {
+  const list = document.getElementById("route-list");
+  const status = document.getElementById("home-status");
+  const titleEl = document.getElementById("game-title");
+  if (titleEl && guideData.title) titleEl.textContent = guideData.title;
+  if (!guideData.routes || guideData.routes.length === 0) {
+    list.innerHTML = "";
+    status.style.display = "";
+    showView("view-home");
+    return;
+  }
+  status.style.display = "none";
+  list.innerHTML = guideData.routes.map((r, routeIdx) => {
+    const started = r.id in state.progress;
+    const prog = state.progress[r.id] || 0;
+    const total = r.steps ? r.steps.length : (r.stepCount || 0);
+    const pct = (started && total > 0) ? Math.round(prog / Math.max(total - 1, 1) * 100) : 0;
+    const hasProgress = started && prog > 0;
+    const shouldBlur = settings.blurPortraits && !hasProgress;
+    const portrait = r.portrait
+      ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
+      : '';
+    const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
+    return `<li><button onclick="startRoute('${r.id}')">
+      ${portrait}
+      <div class="route-info">
+        <span>${displayTitle}</span>
+        <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
+      </div>
+    </button></li>`;
+  }).join("");
+  const maxProgress = guideData.routes.reduce((s, r) => {
+    const n = r.steps ? r.steps.length : (r.stepCount || 0);
+    return s + Math.max(n - 1, 1);
+  }, 0);
+  const doneSteps = guideData.routes.reduce((s, r) => {
+    const p = state.progress[r.id];
+    return s + (p !== undefined ? p : 0);
+  }, 0);
+  const totalPct = maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
+  let totalEl = document.getElementById("total-progress");
+  if (!totalEl) {
+    totalEl = document.createElement("p");
+    totalEl.id = "total-progress";
+    list.before(totalEl);
+  }
+  totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
+  totalEl.textContent = `全体進行度: ${totalPct}%`;
+
+  const updatedEl = document.getElementById("guide-updated");
+  if (updatedEl && guideData.generated_at) {
+    const d = new Date(guideData.generated_at);
+    updatedEl.textContent = `最終更新: ${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
+    updatedEl.style.cssText = "margin:16px 0 0;font-size:12px;color:#666;text-align:center;";
+  }
+
+  showView("view-home");
+}
+
+async function startRoute(id) {
+  const route = guideData.routes.find(r => r.id === id);
+  if (route && !route.steps) {
+    try {
+      const res = await fetch(`./route_${id}.json`);
+      if (res.ok) {
+        route.steps = await res.json();
+      } else {
+        const statusEl = document.getElementById("home-status");
+        statusEl.textContent = `${route ? route.title : id} のガイドは生成中です…`;
+        statusEl.style.display = "";
+        showView("view-home");
+        return;
+      }
+    } catch { renderHome(); return; }
+  }
+  // Only update state after route loads successfully
+  state.currentRoute = id;
+  if (!(id in state.progress)) state.progress[id] = 0;
+  saveState();
+  renderSlide();
+}
+
+// ── Slide ─────────────────────────────────────────────────────────────────────
+function currentRoute() {
+  return guideData.routes.find(r => r.id === state.currentRoute);
+}
+
+function renderSlide() {
+  const route = currentRoute();
+  if (!route || !route.steps || !route.steps.length) { renderHome(); return; }
+  const idx = state.progress[route.id] || 0;
+  const step = route.steps[idx];
+  const total = route.steps.length;
+
+  document.getElementById("slide-route-title").textContent = route.title;
+  document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
+  const instrEl = document.getElementById("simple-instruction");
+  instrEl.textContent = (step.simpleJp || "") + (step.badEndPath ? ` ⚠ ${step.badEndPath}` : "");
+
+  const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide || step.badEnd || step.badEndPath;
+  document.getElementById("toggle-details").style.display = hasDetails ? "" : "none";
+  document.getElementById("details-section").style.display = "none";
+  document.getElementById("toggle-details").textContent = "詳細を表示";
+
+  const setDetail = (id, label, text) => {
+    const el = document.getElementById(id);
+    el.style.display = text ? "" : "none";
+    if (text) el.innerHTML = `<h4>${label}</h4>${escHtml(text)}`;
+  };
+  setDetail("detail-jp1", "攻略サイト①", step.jpGuide1 || "");
+  setDetail("detail-jp2", "攻略サイト②", step.jpGuide2 || "");
+  setDetail("detail-en", "English", step.enGuide || "");
+
+  const badEndEl = document.getElementById("detail-bad-end");
+  if (step.badEnd) {
+    badEndEl.style.display = "";
+    badEndEl.innerHTML = `<h4 class="bad-end-block" style="margin:0 0 6px;font-size:12px;color:#e05050;text-transform:uppercase;letter-spacing:.06em;">バッドエンド</h4><span class="bad-end-choice">${escHtml(step.badEnd.choice)}</span> を選ぶ → ${escHtml(step.badEnd.end)}<br><small style="color:#888">ルート後にここにロードして次の選択肢へ</small>`;
+  } else {
+    badEndEl.style.display = "none";
+  }
+
+  document.getElementById("btn-prev").disabled = idx === 0;
+  document.getElementById("btn-next").disabled = idx === total - 1;
+
+  showView("view-slide");
+}
+
+function nextStep() {
+  const route = currentRoute();
+  if (!route) return;
+  const idx = state.progress[route.id] || 0;
+  if (idx < route.steps.length - 1) {
+    state.progress[route.id] = idx + 1;
+    saveState();
+    renderSlide();
+  }
+}
+
+function prevStep() {
+  const route = currentRoute();
+  if (!route) return;
+  const idx = state.progress[route.id] || 0;
+  if (idx > 0) {
+    state.progress[route.id] = idx - 1;
+    saveState();
+    renderSlide();
+  }
+}
+
+function toggleDetails() {
+  const sec = document.getElementById("details-section");
+  const btn = document.getElementById("toggle-details");
+  const open = sec.style.display !== "none";
+  sec.style.display = open ? "none" : "block";
+  btn.textContent = open ? "詳細を表示" : "詳細を隠す";
+}
+
+function goHome() {
+  state.currentRoute = null;
+  saveState();
+  renderHome();
+}
+
+// ── Jump list ─────────────────────────────────────────────────────────────────
+function showJump() {
+  const route = currentRoute();
+  if (!route || !route.steps) return;
+  document.getElementById("jump-route-title").textContent = route.title;
+  const list = document.getElementById("jump-list");
+  list.innerHTML = route.steps.map((s, i) => {
+    const prefix = s.badEndPath ? '⚠ ' : s.isLoad ? '↩ ' : '';
+    return `<li><button onclick="jumpTo(${i})">
+      <span class="jump-num">${i + 1}</span>
+      <span>${prefix}${escHtml(s.simpleJp || "")}</span>
+    </button></li>`;
+  }).join("");
+  showView("view-jump");
+}
+
+function jumpTo(idx) {
+  const route = currentRoute();
+  if (!route) return;
+  state.progress[route.id] = idx;
+  saveState();
+  renderSlide();
+}
+
+function resumeSlide() { renderSlide(); }
+
+// ── Settings ──────────────────────────────────────────────────────────────────
+function showSettings() {
+  for (const [k, v] of Object.entries(settings)) {
+    const el = document.getElementById(`toggle-${k}`);
+    if (el) el.classList.toggle("on", !!v);
+  }
+  showView("view-settings");
+}
+
+function toggleSetting(key) {
+  settings[key] = !settings[key];
+  const el = document.getElementById(`toggle-${key}`);
+  if (el) el.classList.toggle("on", settings[key]);
+  saveSettings();
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function escHtml(s) {
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+
+let wakeLock = null;
+async function requestWakeLock() {
+  try { wakeLock = await navigator.wakeLock.request("screen"); } catch {}
+}
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") requestWakeLock();
+});
+
+init();
+</script>
+</body>
+</html>

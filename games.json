@@ -38,5 +38,21 @@
     "alttitle": "",
     "cover_url": "https://t.vndb.org/cv/31/119231.jpg",
     "added_at": "2026-07-07T22:51:38.476564+00:00"
+  },
+  "v405": {
+    "slug": "マブラヴ-altered-fable",
+    "has_guide": false,
+    "title": "Muv-Luv Altered Fable",
+    "alttitle": "マブラヴ ALTERED FABLE",
+    "cover_url": "https://t.vndb.org/cv/43/95643.jpg",
+    "added_at": "2026-07-20T22:31:13.744503+00:00"
+  },
+  "v6618": {
+    "slug": "steinsgate-比翼恋理のだーりん",
+    "has_guide": false,
+    "title": "STEINS;GATE: Hiyoku Renri no Darling",
+    "alttitle": "STEINS;GATE 比翼恋理のだーりん",
+    "cover_url": "https://t.vndb.org/cv/44/75844.jpg",
+    "added_at": "2026-07-20T22:31:13.744554+00:00"
   }
 }

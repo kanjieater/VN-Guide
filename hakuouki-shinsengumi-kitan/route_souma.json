@@ -1,0 +1,570 @@
+[
+  {
+    "simpleJp": "事情を説明する",
+    "jpGuide1": "事情を説明する",
+    "jpGuide2": "何とかして逃げる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "京に来た理由を話す",
+    "jpGuide1": "京に来た理由を話す",
+    "jpGuide2": "その場に居直る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部屋で大人しくする",
+    "jpGuide1": "部屋で大人しくする",
+    "jpGuide2": "部屋で大人しくする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "意外です",
+    "jpGuide1": "意外です",
+    "jpGuide2": "意外です",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大人しく部屋に戻る",
+    "jpGuide1": "大人しく部屋に戻る",
+    "jpGuide2": "大人しく部屋に戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "巡察に付き合う",
+    "jpGuide1": "巡察に付き合う",
+    "jpGuide2": "巡察に付き合う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "小姓です",
+    "jpGuide1": "小姓です（好感度UP✨）",
+    "jpGuide2": "小姓です",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出て父を捜す",
+    "jpGuide1": "外に出て父を捜す",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "様子を見る",
+    "jpGuide1": "様子を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階に行く",
+    "jpGuide1": "二階に行く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "捕まえる",
+    "jpGuide1": "捕まえる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "留守番してます",
+    "jpGuide1": "留守番してます",
+    "jpGuide2": "留守番してます",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "中庭に行ってみる",
+    "jpGuide1": "中庭に行ってみる",
+    "jpGuide2": "大広間に行ってみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "とりあえず返事をする",
+    "jpGuide1": "とりあえず返事をする（好感度UP✨）",
+    "jpGuide2": "とりあえず返事をする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "素直に部屋へ戻る",
+    "jpGuide1": "素直に部屋へ戻る",
+    "jpGuide2": "素直に部屋へ戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自室に戻る",
+    "jpGuide1": "自室に戻る",
+    "jpGuide2": "外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "永倉さんも辛いんですね",
+    "jpGuide1": "永倉さんも辛いんですね",
+    "jpGuide2": "今は過ぎた望み",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "屯所に戻る",
+    "jpGuide1": "屯所に戻る",
+    "jpGuide2": "屯所に戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも……",
+    "jpGuide1": "でも……",
+    "jpGuide2": "でも……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "沖田さん",
+    "jpGuide1": "沖田さん",
+    "jpGuide2": "沖田さん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも……",
+    "jpGuide1": "でも……",
+    "jpGuide2": "でも……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お願いする",
+    "jpGuide1": "お願いする",
+    "jpGuide2": "自分でする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕事に専念する",
+    "jpGuide1": "仕事に専念する",
+    "jpGuide2": "仕事に専念する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父のこと",
+    "jpGuide1": "父のこと",
+    "jpGuide2": "父のこと",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "少し、うらやましくて",
+    "jpGuide1": "少し、うらやましくて（好感度UP✨）",
+    "jpGuide2": "よかったな、と思って",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "近藤さん",
+    "jpGuide1": "近藤さん",
+    "jpGuide2": "沖田さん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "新選組の一員です",
+    "jpGuide1": "新選組の一員です",
+    "jpGuide2": "新選組の一員です",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "役に立っている",
+    "jpGuide1": "役に立っている（好感度UP✨）",
+    "jpGuide2": "役に立っている",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いる",
+    "jpGuide1": "いる",
+    "jpGuide2": "いる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事情を説明しない",
+    "jpGuide1": "事情を説明しない（好感度UP✨）",
+    "jpGuide2": "事情を説明しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父と話したい",
+    "jpGuide1": "父と話したい（好感度UP✨）",
+    "jpGuide2": "父と話したい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それでも手伝いたい",
+    "jpGuide1": "それでも手伝いたい",
+    "jpGuide2": "それでも手伝いたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ123",
+    "jpGuide1": "★SAVE1（「留守番をする」⇒「大人しくする」で雪村ルートへ）",
+    "jpGuide2": "Save1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "伊東さんの対応",
+    "jpGuide1": "伊東さんの対応",
+    "jpGuide2": "伊東さんの対応",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "聞きたくない",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "聞きたくない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "叶ったんですね",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "叶ったんですね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "…………",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "諦めない",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "諦めない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "相馬君を止めない",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "相馬君を止めない → 悲恋エンド",
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
+  },
+  {
+    "simpleJp": "セーブ123にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "伊東さんの対応",
+    "jpGuide1": "伊東さんの対応",
+    "jpGuide2": "伊東さんの対応",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "聞きたい",
+    "jpGuide1": "聞きたい（好感度UP✨）",
+    "jpGuide2": "聞きたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "叶ったんですか？",
+    "jpGuide1": "叶ったんですか？（好感度UP✨）",
+    "jpGuide2": "叶ったんですか？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここに残ります",
+    "jpGuide1": "ここに残ります（好感度UP✨）",
+    "jpGuide2": "ここに残ります",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ124",
+    "jpGuide1": "★SAVE2",
+    "jpGuide2": "Save2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "諦める",
+    "jpGuide1": "諦める",
+    "jpGuide2": "諦める",
+    "enGuide": "",
+    "badEndPath": "【風ノ章】BADエンド（スタッフロールなし）"
+  },
+  {
+    "simpleJp": "セーブ124にロード",
+    "jpGuide1": "★SAVE2から始めた場合",
+    "jpGuide2": "Save2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "諦めない",
+    "jpGuide1": "諦めない",
+    "jpGuide2": "諦めない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ125",
+    "jpGuide1": "★SAVE3",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "相馬君を止めない",
+    "jpGuide1": "相馬君を止めない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "【風ノ章】BADエンド（スタッフロールあり）"
+  },
+  {
+    "simpleJp": "セーブ125にロード",
+    "jpGuide1": "★SAVE3から始めた場合",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "相馬君を止める",
+    "jpGuide1": "相馬君を止める（好感度UP✨）",
+    "jpGuide2": "相馬君を止める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "信じても大丈夫？",
+    "jpGuide1": "信じても大丈夫？（好感度UP✨）",
+    "jpGuide2": "信じても大丈夫？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ126",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんなことできない",
+    "jpGuide1": "そんなことできない",
+    "jpGuide2": "そんなことできない",
+    "enGuide": "",
+    "badEndPath": "【華ノ章】BADエンド（スタッフロールなし④）"
+  },
+  {
+    "simpleJp": "セーブ126にロード",
+    "jpGuide1": "行軍録の「華ノ章 第一章・相馬主計篇」から始める",
+    "jpGuide2": "Save3より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "相馬君を信じる",
+    "jpGuide1": "相馬君を信じる（好感度UP✨）",
+    "jpGuide2": "相馬君を信じる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ127",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "みんなを追う",
+    "jpGuide1": "みんなを追う",
+    "jpGuide2": "みんなを追う",
+    "enGuide": "",
+    "badEndPath": "【華ノ章】BADエンド（スタッフロールなし③）"
+  },
+  {
+    "simpleJp": "セーブ127にロード",
+    "jpGuide1": "行軍録の「華ノ章 第二章・相馬主計篇」から始める",
+    "jpGuide2": "Save4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "薬を与える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "薬を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "みんなを追う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "みんなを追う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……そんなことないよ",
+    "jpGuide1": "……そんなことないよ",
+    "jpGuide2": "……そんなことないよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ128",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二人をよろしくお願いします",
+    "jpGuide1": "二人をよろしくお願いします",
+    "jpGuide2": "二人をよろしくお願いします",
+    "enGuide": "",
+    "badEndPath": "【華ノ章】BADエンド（スタッフロールなし②）"
+  },
+  {
+    "simpleJp": "セーブ128にロード",
+    "jpGuide1": "行軍録の「華ノ章 第三章・相馬主計篇」から始める",
+    "jpGuide2": "Save6より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "薬を与える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "薬を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二人をよろしくお願いします",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "二人をよろしくお願いします",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "その時が来たら……",
+    "jpGuide1": "その時が来たら……",
+    "jpGuide2": "その時が来たら……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "…………",
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
+  },
+  {
+    "simpleJp": "セーブ127にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここに留まる",
+    "jpGuide1": "ここに留まる（好感度UP✨）",
+    "jpGuide2": "ここに留まる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もっと聞かせて欲しい",
+    "jpGuide1": "もっと聞かせて欲しい（好感度UP✨）",
+    "jpGuide2": "もっと聞かせて欲しい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ129",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二人をよろしくお願いします",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "二人をよろしくお願いします",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "その時が来たら……",
+    "jpGuide1": "その時が来たら……",
+    "jpGuide2": "その時が来たら……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "…………",
+    "jpGuide2": "…………",
+    "enGuide": "",
+    "badEndPath": "【華ノ章】BADエンド（スタッフロールあり）"
+  },
+  {
+    "simpleJp": "セーブ129にロード",
+    "jpGuide1": "行軍録の「華ノ章 第四章・相馬主計篇」から始める",
+    "jpGuide2": "Save5より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一緒に行かせてください",
+    "jpGuide1": "一緒に行かせてください（好感度UP✨）",
+    "jpGuide2": "一緒に行かせてください",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも、相馬君が……",
+    "jpGuide1": "でも、相馬君が……（好感度UP✨）",
+    "jpGuide2": "でも、相馬君が……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "血を与える（我慢させるにもCGあり）",
+    "jpGuide2": "血を与える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行こう",
+    "jpGuide1": "行こう（好感度UP✨）",
+    "jpGuide2": "行こう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "グッドエンド",
+    "jpGuide1": "【華ノ章】GOODエンド",
+    "jpGuide2": "グッドエンド",
+    "enGuide": ""
+  }
+]

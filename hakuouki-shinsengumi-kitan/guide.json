@@ -1,7 +1,86 @@
 {
   "title": "Hakuouki ~Shinsengumi Kitan~",
   "vndb_id": "v1715",
-  "routes": [],
+  "routes": [
+    {
+      "id": "hijikata",
+      "title": "土方歳三ルート",
+      "stepCount": 98,
+      "portrait": "https://t.vndb.org/ch/61/198061.jpg"
+    },
+    {
+      "id": "okita",
+      "title": "沖田総司ルート",
+      "stepCount": 85,
+      "portrait": "https://t.vndb.org/ch/62/198062.jpg"
+    },
+    {
+      "id": "saito",
+      "title": "斎藤一ルート",
+      "stepCount": 93,
+      "portrait": "https://t.vndb.org/ch/63/198063.jpg"
+    },
+    {
+      "id": "toudou",
+      "title": "藤堂平助ルート",
+      "stepCount": 85,
+      "portrait": "https://t.vndb.org/ch/64/198064.jpg"
+    },
+    {
+      "id": "harada",
+      "title": "原田左之助ルート",
+      "stepCount": 114,
+      "portrait": "https://t.vndb.org/ch/66/198066.jpg"
+    },
+    {
+      "id": "nagakura",
+      "title": "永倉新八ルート",
+      "stepCount": 120,
+      "portrait": "https://t.vndb.org/ch/71/198071.jpg"
+    },
+    {
+      "id": "yamazaki",
+      "title": "山崎烝ルート",
+      "stepCount": 78,
+      "portrait": "https://t.vndb.org/ch/74/198074.jpg"
+    },
+    {
+      "id": "sannan",
+      "title": "山南敬助ルート",
+      "stepCount": 107,
+      "portrait": "https://t.vndb.org/ch/72/198072.jpg"
+    },
+    {
+      "id": "iba",
+      "title": "伊庭八郎ルート",
+      "stepCount": 99,
+      "portrait": "https://t.vndb.org/ch/76/198076.jpg"
+    },
+    {
+      "id": "sakamoto",
+      "title": "坂本龍馬ルート",
+      "stepCount": 117,
+      "portrait": "https://t.vndb.org/ch/80/198080.jpg"
+    },
+    {
+      "id": "souma",
+      "title": "相馬主計ルート",
+      "stepCount": 92,
+      "portrait": "https://t.vndb.org/ch/78/198078.jpg"
+    },
+    {
+      "id": "kazama",
+      "title": "風間千景ルート",
+      "stepCount": 89,
+      "portrait": "https://t.vndb.org/ch/67/198067.jpg"
+    },
+    {
+      "id": "yukimura",
+      "title": "雪村ルート",
+      "stepCount": 35,
+      "portrait": "https://t.vndb.org/ch/59/198059.jpg"
+    }
+  ],
   "sources": [
     {
       "url": "https://nekoneko-wakakun.com/entry/hakuoki/shinkai/switch/kouryaku/matome/",
@@ -46,5 +125,5 @@
       "notes": "Reference only. Confirms the full 'main characters' roster of 13 (protagonist Yukimura Chizuru + 12 romanceable characters: Hijikata, Okita, Saitou, Toudou, Harada, Kazama, Nagakura, Sannan, Yamazaki, Iba, Souma, Sakamoto), matching exactly the 12 romance routes + Yukimura bonus branch documented by both primary Japanese walkthrough sources for the Switch 真改風華伝 release."
     }
   ],
-  "generated_at": "2026-07-18T21:09:44.408536+00:00"
+  "generated_at": "2026-07-21T10:36:23.782170+00:00"
 }

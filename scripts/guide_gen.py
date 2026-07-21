@@ -252,7 +252,9 @@ def compute_save_offset(routes: list, route_idx: int, guide_dir: Path) -> int:
     return total
 
 
-def generate_guide(slug: str, title: str, vndb_id: str, max_routes: int | None = None) -> bool:
+def generate_guide(slug: str, title: str, vndb_id: str,
+                   max_routes: int | None = None,
+                   start_route: str | None = None) -> bool:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
 
@@ -262,11 +264,26 @@ def generate_guide(slug: str, title: str, vndb_id: str, max_routes: int | None =
     research = json.loads((guide_dir / "research.json").read_text())
     routes = research.get("routes", [])
 
+    # Resolve start index for GUIDE_PRIORITY_ROUTE
+    start_idx = 0
+    if start_route:
+        idx = next((i for i, r in enumerate(routes) if r["id"] == start_route), None)
+        if idx is None:
+            err(f"GUIDE_PRIORITY_ROUTE={start_route!r} not found in research.json for {slug}")
+        else:
+            log(f"Starting from route: {start_route} (index {idx})")
+            start_idx = idx
+
+    routes_counted = 0  # Counts routes processed from start_idx (for max_routes)
     for i, route in enumerate(routes):
-        if max_routes is not None and i >= max_routes:
+        if i < start_idx:
+            continue
+
+        if max_routes is not None and routes_counted >= max_routes:
             log(f"Reached max_routes={max_routes}, stopping")
             break
 
+        routes_counted += 1
         route_id = route["id"]
         route_file = guide_dir / f"route_{route_id}.json"
 
@@ -349,11 +366,19 @@ def run() -> None:
     if max_routes is not None:
         log(f"GUIDE_MAX_ROUTES={max_routes}: will stop after {max_routes} route(s)")
 
+    priority_route = os.environ.get("GUIDE_PRIORITY_ROUTE")
+    if priority_route:
+        log(f"GUIDE_PRIORITY_ROUTE={priority_route}: jumping to that route in priority game")
+
     for vid, entry in pending:
         slug = entry["slug"]
         title = entry.get("title", slug)
 
-        success = generate_guide(slug, title, vid, max_routes=max_routes)
+        # start_route only applies to the priority game; subsequent games start from the top
+        this_start_route = priority_route if (priority_vid and vid == priority_vid) else None
+
+        success = generate_guide(slug, title, vid, max_routes=max_routes,
+                                 start_route=this_start_route)
 
         if success:
             if max_routes is not None:

@@ -344,28 +344,29 @@ def run() -> None:
         rest = [(v, e) for v, e in pending if v != priority_vid]
         pending = priority + rest
 
-    vid, entry = pending[0]
-    slug = entry["slug"]
-    title = entry.get("title", slug)
-
     max_routes_env = os.environ.get("GUIDE_MAX_ROUTES")
     max_routes = int(max_routes_env) if max_routes_env else None
     if max_routes is not None:
         log(f"GUIDE_MAX_ROUTES={max_routes}: will stop after {max_routes} route(s)")
 
-    success = generate_guide(slug, title, vid, max_routes=max_routes)
+    for vid, entry in pending:
+        slug = entry["slug"]
+        title = entry.get("title", slug)
 
-    if success:
-        if max_routes is not None:
-            log(f"Partial guide done ({max_routes} route(s)) — has_guide stays false until all routes complete")
-        else:
+        success = generate_guide(slug, title, vid, max_routes=max_routes)
+
+        if success:
+            if max_routes is not None:
+                log(f"Partial guide done ({max_routes} route(s)) — has_guide stays false until all routes complete")
+                break  # Don't chain when capped — wait for next cycle
             games[vid]["has_guide"] = True
             GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
             log(f"Guide complete: {slug}")
             _generate.generate_landing(games)
             run_deploy()
-    else:
-        err(f"Guide generation failed for {slug} — will retry next cycle")
+        else:
+            err(f"Guide generation failed for {slug} — will retry next cycle")
+            break  # Stop on failure so the same game retries next cycle
 
 
 if __name__ == "__main__":

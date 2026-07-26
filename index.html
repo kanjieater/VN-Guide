@@ -170,6 +170,21 @@
     font-size: 15px;
   }
 
+  .search-input {
+    margin-top: 12px;
+    width: 100%;
+    max-width: 340px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 14px;
+    padding: 8px 12px;
+    outline: none;
+  }
+  .search-input:focus { border-color: var(--accent); }
+  .search-input::placeholder { color: var(--text-muted); }
+
   footer {
     text-align: center;
     padding: 24px 16px;
@@ -188,6 +203,8 @@
     <button id="btn-recent" class="active" onclick="setSort('recent')">最近</button>
     <button id="btn-alpha"  onclick="setSort('alpha')">あいうえお</button>
   </div>
+  <br>
+  <input id="search" class="search-input" type="search" placeholder="ゲームを検索…" oninput="render()" autocomplete="off">
 </header>
 <main>
   <div class="game-list" id="game-list"></div>
@@ -254,7 +271,12 @@ function renderCard(g) {
 
 function render() {
   const list = document.getElementById("game-list");
-  const games = sortedGames();
+  const q = (document.getElementById("search").value || "").trim().toLowerCase();
+  let games = sortedGames();
+  if (q) games = games.filter(g =>
+    (g.title || "").toLowerCase().includes(q) ||
+    (g.alttitle || "").toLowerCase().includes(q)
+  );
   list.innerHTML = games.length
     ? games.map(renderCard).join("\n")
     : `<div class="empty-state">プレイ中のゲームがありません</div>`;

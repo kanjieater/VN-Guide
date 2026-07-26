@@ -218,6 +218,16 @@ function currentRoute() {
   return guideData.routes.find(r => r.id === state.currentRoute);
 }
 
+// Scan backward from a load step to find the bad-end label that triggered it.
+// Stops at any preceding load step so nested chains don't bleed into each other.
+function findBadEndLabel(steps, loadIdx) {
+  for (let i = loadIdx - 1; i >= 0; i--) {
+    if (steps[i].isLoad) break;
+    if (steps[i].badEndPath) return steps[i].badEndPath;
+  }
+  return null;
+}
+
 function renderSlide() {
   const route = currentRoute();
   if (!route || !route.steps || !route.steps.length) { renderHome(); return; }
@@ -228,7 +238,12 @@ function renderSlide() {
   document.getElementById("slide-route-title").textContent = route.title;
   document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
   const instrEl = document.getElementById("simple-instruction");
-  instrEl.textContent = (step.simpleJp || "") + (step.badEndPath ? ` ⚠ ${step.badEndPath}` : "");
+  if (step.isLoad) {
+    const label = findBadEndLabel(route.steps, idx);
+    instrEl.textContent = label ? `${label} ⚠ ${step.simpleJp || ""}` : (step.simpleJp || "");
+  } else {
+    instrEl.textContent = step.simpleJp || "";
+  }
 
   const hasDetails = step.jpGuide1 || step.jpGuide2 || step.enGuide || step.badEnd || step.badEndPath;
   document.getElementById("toggle-details").style.display = hasDetails ? "" : "none";
@@ -301,10 +316,16 @@ function showJump() {
   document.getElementById("jump-route-title").textContent = route.title;
   const list = document.getElementById("jump-list");
   list.innerHTML = route.steps.map((s, i) => {
-    const prefix = s.badEndPath ? '⚠ ' : s.isLoad ? '↩ ' : '';
+    let display = escHtml(s.simpleJp || '');
+    let prefix = '';
+    if (s.isLoad) {
+      const label = findBadEndLabel(route.steps, i);
+      if (label) { display = `${escHtml(label)} ⚠ ${display}`; }
+      else { prefix = '↩ '; }
+    }
     return `<li><button onclick="jumpTo(${i})">
       <span class="jump-num">${i + 1}</span>
-      <span>${prefix}${escHtml(s.simpleJp || "")}</span>
+      <span>${prefix}${display}</span>
     </button></li>`;
   }).join("");
   showView("view-jump");

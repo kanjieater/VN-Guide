@@ -531,7 +531,8 @@
     "simpleJp": "血を与える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "血を与える",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "父の側についたんですか？",

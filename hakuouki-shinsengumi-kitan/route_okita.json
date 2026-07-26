@@ -157,7 +157,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "偉い人",
+    "simpleJp": "中立の人",
     "jpGuide1": "中立の人",
     "jpGuide2": "偉い人",
     "enGuide": ""
@@ -181,7 +181,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "皆を信じる",
+    "simpleJp": "攻撃に転じる",
     "jpGuide1": "攻撃に転じる",
     "jpGuide2": "皆を信じる",
     "enGuide": ""
@@ -402,7 +402,7 @@
   },
   {
     "simpleJp": "別人みたいですね",
-    "jpGuide1": "不思議な感じです（好感度UP✨）",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "別人みたいですね　→　ゲームオーバー",
     "enGuide": ""
   },
@@ -420,7 +420,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "山崎さんは厳しい",
+    "simpleJp": "沖田さんの気持ちもわかる",
     "jpGuide1": "沖田さんの気持ちもわかる（好感度UP✨）",
     "jpGuide2": "山崎さんは厳しい",
     "enGuide": ""
@@ -599,14 +599,14 @@
     "simpleJp": "血が欲しい",
     "jpGuide1": "血が欲しい",
     "jpGuide2": "血が欲しい",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールなし①）"
   },
   {
     "simpleJp": "時と場合によります",
     "jpGuide1": "時と場合によります（好感度UP✨）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ19にロード",

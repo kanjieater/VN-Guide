@@ -257,8 +257,8 @@ function renderCard(g) {
     ? `<img class="game-cover" src="${g.cover_url}" alt="" loading="lazy">`
     : `<div class="game-cover-placeholder">📖</div>`;
   const badge = g.has_guide
-    ? `<span class="game-badge badge-guide">Guide Available</span>`
-    : `<span class="game-badge badge-wip">Coming Soon</span>`;
+    ? `<span class="game-badge badge-guide">攻略あり</span>`
+    : `<span class="game-badge badge-wip">作成中</span>`;
   return `<a class="game-card" href="./${g.slug}/" onclick="recordVisit('${g.slug}')">
   ${img}
   <div class="game-info">

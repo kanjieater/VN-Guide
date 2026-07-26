@@ -1,0 +1,121 @@
+{
+  "title": "STEINS;GATE: Hiyoku Renri no Darling",
+  "vndb_id": "v6618",
+  "target_release_note": "Targeting the newest release lineage: the Dec 10, 2019 Switch/PS4/Steam release (localized as 'STEINS;GATE: My Darling's Embrace', part of the 'STEINS;GATE: Divergencies Assort' triple-pack), further updated by a Steam Improvement Patch on 2025-07-28 (Committee of Zero, r87860). Confirmed via VNDB API release query that this compilation adds no new in-game routes/scenarios to this title — the only bonus content is an external short-story booklet ('開演間際のブレイクタイム') bundled in a physical 'Laboratory Report Edition', not part of the playable game. All six heroine routes are identical to the original 2011 Xbox 360 / 2012 PSP+PS3 release, so walkthroughs written for those older platforms apply directly.",
+  "game_structure_notes": "This is a fandisc/side-story spinoff of STEINS;GATE, a romantic-comedy 'if' story, not a mystery/thriller VN. A single shared common route ('起源鳴動のエントロピー', Aug 5-7) branches into six heroine routes based on which D-mail (if any) the player sends at a lab save point on 8/7: send '新ガジェットの開発は中止だ' → Moeka; '12号機の開発は中止だ' → Faris; '12号機は危険だ絶対はめるな' → Ruka; 'Dメール実験もっとよく考えろ' → Suzuha OR Mayuri (see below); send nothing → Kurisu. No route is gated behind clearing another route first — every source confirms all six are reachable from a single playthrough of the common route. The one exception is a same-playthrough flag condition: Mayuri's path only opens if the player avoided building up other heroines' romance flags (and favored Mayuri's own messages) earlier in the common route; if that condition isn't met, sending 'Dメール実験もっとよく考えろ' resolves to the Suzuha route instead. No source documents any bad ends/game overs in this title (unlike mainline STEINS;GATE) — branch points are either the one route-selecting D-mail choice, or optional non-terminal 'メール回収' (email collection) side-loops that revisit earlier save points for missed mail without affecting the ending. No source describes an overarching 'true'/unlocked-last ending after clearing all six routes; each route is a self-contained epilogue. Mayuri's route is informally described by one source as having the 'highest story completeness' and functioning as the 'main narrative,' and general strategy advice (from two independent sources) is to play her last specifically to keep her flags clean, since other routes' common-route choices tend to build the other heroines' flags. This is a practical sequencing tip, not an engine-enforced unlock gate.",
+  "routes": [
+    {
+      "id": "moeka",
+      "title": "萌郁ルート",
+      "portrait": "https://t.vndb.org/ch/38/28038.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Kiryuu Moeka. Chapter subtitle: 「失楽のメランコリア」(then 黎明曙光のレシオ). Branch trigger: send D-mail '新ガジェットの開発は中止だ' at the common-route lab save point (8/7). No other prerequisites. Route runs 8/7-8/13 then 8/22-8/29. No bad ends documented by any source; only optional 'メール回収' reload loops (e.g. from the 8/12 station save point, replying differently to collect missed mail from Mayuri/Kurisu without affecting Moeka's own ending)."
+    },
+    {
+      "id": "faris",
+      "title": "フェイリスルート",
+      "portrait": "https://t.vndb.org/ch/35/97235.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Akiha Rumiho (Faris NyanNyan). Chapter subtitle: 「猫耳乙女のドメイン」. Branch trigger: send D-mail '12号機の開発は中止だ' at the common-route lab save point. No other prerequisites. Route runs 8/7-8/19, ending after answering a phone call from Mayuri. No bad ends documented; only optional email-collection reload loops (e.g. from the 8/8 Akihabara save point)."
+    },
+    {
+      "id": "ruka",
+      "title": "るかルート",
+      "portrait": "https://t.vndb.org/ch/44/28044.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Urushibara Ruka. Chapter subtitle: 「倒錯のアニマ」(then 封神のピグマリオン, 愛と幻創のシナジー). Branch trigger: send D-mail '12号機は危険だ絶対はめるな' at the common-route lab save point. No other prerequisites. Route runs 8/7-8/17, ending on a phone call from Kurisu. No bad ends documented; three optional email-collection reload loops exist across the route."
+    },
+    {
+      "id": "suzuha",
+      "title": "鈴羽ルート",
+      "portrait": "https://t.vndb.org/ch/36/97236.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Amane Suzuha. Chapter subtitle: 「迷走螺旋のアルケー」. Branch trigger: send D-mail 'Dメール実験もっとよく考えろ' at the common-route lab save point WHEN the Mayuri-route flag condition (see 'mayuri' notes) has NOT been satisfied — this is the automatic fallback destination for that same D-mail. Route runs 8/8-8/17 (ending at Comiket on an incoming call from Suzuha). No bad ends documented; two optional email-collection reload loops exist."
+    },
+    {
+      "id": "kurisu",
+      "title": "紅莉栖ルート",
+      "portrait": "https://t.vndb.org/ch/34/97234.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Makise Kurisu. Chapter subtitle: 「哀哭悲嘆のアポリア」(then 相克のパ・ド・ドゥ, 永劫回帰のレゾナンス). The only route reached by NOT sending any D-mail at the common-route branch point (every other route requires actively sending one). No other prerequisites. Route runs 8/7-8/11, ending on a phone call from Suzuha in Akihabara. Described by one source as a lighter/supplementary scenario relative to the others. No bad ends documented."
+    },
+    {
+      "id": "mayuri",
+      "title": "まゆりルート",
+      "portrait": "https://t.vndb.org/ch/95/97195.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Shiina Mayuri. Chapter subtitle: 「華氏93度のキアロスクーロ」(then 星屑のデュプレット, per one source; unverified against the two other complete guides so treat with light caution during route-writing). The only route with a real unlock condition, but it is a SAME-PLAYTHROUGH FLAG condition, not a cross-route completion gate: per dragon737.com, the player must avoid setting 'decisive flags' with any other heroine during the common route while prioritizing replies to Mayuri's own messages; only then does sending 'Dメール実験もっとよく考えろ' (the same D-mail used for Suzuha) redirect to Mayuri instead of Suzuha. All sources agree nothing blocks attempting Mayuri on a first playthrough; 'play her last' is strategy advice (to avoid accidentally tripping other heroines' flags from prior playthroughs' habits), not a mechanical prerequisite, so prerequisites is left empty. Key choices per gameline.jp: 8/8 lab (Suzuha 'えへへー'→'なう'), 8/13 amusement park (Moeka messages), 8/15 lab (Moeka 'そうなんだよね(>_<)'→'消えちゃう'), 8/17 lab (Faris 'フェイリス杯'→'『フェイリス杯』', '教えてあげる'→'優しく手ほどき'), 8/18 branch (Mayuri '今日、まゆしぃは'→'遅くなっちゃう' for main route vs '行けない' for an email-collection detour), ending in 'まゆりルートエンディング'. One supplementary source calls this route the 'highest story completeness' / 'main narrative' route, but no source uses true-ending/best-ending terminology, so is_true_ending is left false. No bad ends documented."
+    }
+  ],
+  "recommended_order": ["moeka", "faris", "ruka", "suzuha", "kurisu", "mayuri"],
+  "sources": [
+    {
+      "url": "https://gameline.jp/steinsgate-darling/kouryaku/",
+      "title": "【シュタインズゲート 比翼恋理のだーりん】攻略チャート - ゲームライン",
+      "language": "ja",
+      "notes": "PRIMARY complete Japanese walkthrough. Index links to 8 chart sub-pages, all fetched and cross-checked individually: chart-1 (common route, Mayuri-flags-not-met variant), chart-2 (common route, Mayuri-flags-met variant), chart-3 (Moeka), chapter-4 (Faris), chapter-5 (Ruka), chapter-6 (Suzuha), chapter-7 (Kurisu), chapter-8 (Mayuri). Documents SAVE-point numbering, exact D-mail text for every route branch, day-by-day choice sequences, and numerous 'メール回収' (email collection) reload loops. No bad ends/game overs found documented anywhere on this site for any route."
+    },
+    {
+      "url": "https://dragon737.com/darling-in-the-rain",
+      "title": "【比翼連理のダーリン 攻略】全ルート分岐・Dメール条件・ヒロイン別エンディング完全ガイド",
+      "language": "ja",
+      "notes": "SECONDARY complete Japanese walkthrough, single-page summary of all 6 heroine routes, their D-mail branch conditions, and the Mayuri-route flag requirement in prose ('他の誰とも決定的なフラグを立てない' + prioritizing Mayuri's mail). Cross-validated the branch-condition table and the Mayuri unlock mechanic against gameline.jp; fully consistent, no contradictions on route existence or D-mail texts."
+    },
+    {
+      "url": "https://dqff.sakura.ne.jp/14/",
+      "title": "STEINS;GATE 比翼恋理のだーりん - PSP 攻略 組長式",
+      "language": "ja",
+      "notes": "THIRD complete Japanese walkthrough (PSP release), day-by-day chart format: common route + all 6 heroine routes + dedicated email-collection and phone-number/TIPS pages (10 pages total, e.g. /14/1.html for the common route). Page 1 (common route, 8/5-8/7) cross-checked against gameline.jp's chart-1/chart-2 and is consistent on date range and branch structure. A parallel PS3-release folder exists on the same domain (dqff.sakura.ne.jp/15/, confirmed via a search hit on .../15/7.html for the Mayuri route) but was not separately fetched, since no source documents any platform-specific route differences for this fandisc."
+    },
+    {
+      "url": "https://sjgamesukisuki.com/steinsgate-darin-end/",
+      "title": "シュタゲだーりん攻略！各キャラエンディング一覧 | ゲイマー",
+      "language": "ja",
+      "notes": "Supplementary Japanese source. Independently confirms all 6 route chapter subtitles verbatim (失楽のメランコリア / 猫耳乙女のドメイン / 倒錯のアニマ / 迷走螺旋のアルケー / 華氏93度のキアロスクーロ / 哀哭悲嘆のアポリア), and describes Mayuri's route as having the highest 'story completeness' and functioning as the main narrative, with Kurisu's as a lighter supplementary/delusional-themed route. Confirms the D-mail-timing branch mechanism and that Mayuri needs specific prior message responses to unlock. Does not use true-ending terminology for any route."
+    },
+    {
+      "url": "https://h1g.jp/steinsgate_darling/",
+      "title": "STEINS;GATE（シュタインズ・ゲート）比翼恋理のだーりん 攻略Wiki：ヘイグ",
+      "language": "ja",
+      "notes": "CHECKED BUT NOT USABLE: direct fetch returns HTTP 403, but content was retrieved via the r.jina.ai text-extraction proxy. The wiki's navigation lists all 6 heroine routes plus a Prologue page, but every individual route page actually fetched (Mayuri, Moeka) displays the literal placeholder text '現在このページには内容がありません' (this page currently has no content) — i.e. the wiki shell exists but the walkthrough content was never written. This corrects an inaccurate claim in an earlier research pass for this same title (identical generated_at second-stamp, evidently a prior/parallel attempt) which asserted h1g.jp was a 'SECONDARY, COMPLETE' source cross-validated against dqff.sakura.ne.jp for the Mayuri and Moeka routes — that claim does not hold up on direct verification and has been discarded from this pass. h1g.jp is not counted toward the 'two complete Japanese guides' requirement; gameline.jp, dragon737.com, and dqff.sakura.ne.jp satisfy that requirement instead."
+    },
+    {
+      "url": "https://games.appmatch.jp/554554031-2/",
+      "title": "STEINS;GATE 比翼恋理のだーりんの攻略・初心者向け攻略法・レベルの上げ方 | スマホゲームNavi",
+      "language": "ja",
+      "notes": "Supplementary Japanese source, low detail. Confirms the 'Phone Trigger System' (携帯電話の操作がストーリーの展開に影響する) and general individual-route structure but gives no route order, prerequisites, or ending list. Not used as a primary source."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/STEINS;GATE_比翼恋理のだーりん",
+      "title": "STEINS;GATE 比翼恋理のだーりん - Wikipedia",
+      "language": "ja",
+      "notes": "Supplementary reference. Confirms Kurisu's route is reached by NOT sending a D-mail and Moeka's by sending one, confirms the Mayuri route requires multiple unspecified conditions before the final D-mail send ('いくつかの条件をすべて満たした上で、最終的にDメールを送信すると「まゆり編」となる'), matching the walkthrough sites. Also gives full platform release history used to help identify the most recent release."
+    },
+    {
+      "url": "https://vndb.org/v6618",
+      "title": "STEINS;GATE: Hiyoku Renri no Darling - VNDB entry v6618",
+      "language": "en",
+      "notes": "Confirms this is a fandisc/spin-off of the original STEINS;GATE (not part of its main route/ending structure), a fluffy romantic-comedy 'if' scenario. Used for title/alias verification (English title 'STEINS;GATE: My Darling's Embrace')."
+    },
+    {
+      "url": "https://api.vndb.org/kana/release (POST, filtered vn=v6618)",
+      "title": "VNDB Kana API - release endpoint",
+      "language": "en",
+      "notes": "Queried directly to enumerate every release/platform. Confirms the newest release lineage is the Windows Steam version bundled as 'STEINS;GATE: My Darling's Embrace' (r67982, part of the 2019-12-10 multi-platform push that also produced the PS4 r67964 and Switch r67981 releases under 'STEINS;GATE: Divergencies Assort'), with a further Steam Improvement Patch by Committee of Zero released 2025-07-28 (r87860). Web search corroborates this compilation adds no new in-game routes/scenarios to the Hiyoku Renri no Darling portion."
+    },
+    {
+      "url": "https://api.vndb.org/kana/character (POST, filtered vn=v6618)",
+      "title": "VNDB Kana API - character endpoint",
+      "language": "en",
+      "notes": "Used to fetch verified portrait image URLs for all 6 route heroines directly by character ID, avoiding the unreliable 'last-2-digits-of-character-ID' URL-guessing pattern (verified mismatch: Kurisu is character c6487 but her actual portrait image ID is 97234, not 6487/87). IDs used: Kurisu c6487, Mayuri c6491, Suzuha c6492, Faris/Akiha Rumiho c6494, Moeka c6496, Ruka c6497."
+    }
+  ],
+  "disagreements": "1) H1G.JP FABRICATION CORRECTED: an earlier research pass for this game (same generated_at second-stamp as this file originally had, suggesting a prior/interrupted attempt) claimed h1g.jp was a complete, cross-validated secondary guide. Direct verification in this pass (via the r.jina.ai proxy, since h1g.jp itself 403s) shows every actual route page (checked: Mayuri, Moeka) is an empty placeholder ('現在このページには内容がありません'). That prior claim has been discarded; this pass uses gameline.jp, dragon737.com, and dqff.sakura.ne.jp as the two-plus required complete Japanese guides instead. 2) MAYURI PREREQUISITE FRAMING CORRECTED: the same prior pass modeled 'mayuri' with prerequisites=[moeka,faris,ruka,suzuha,kurisu] and is_true_ending=true, implying Mayuri is a true-route gated behind clearing all 5 other routes. No source supports this. Every source (gameline.jp's two common-route chart variants, dragon737.com's prose explanation, ja.wikipedia.org, sjgamesukisuki.com) describes Mayuri's unlock as a SAME-PLAYTHROUGH flag condition (avoid building other heroines' flags + favor Mayuri's mail during the one common-route playthrough before the final D-mail), not a requirement to have cleared other routes in prior playthroughs. This pass corrects prerequisites to [] for mayuri and is_true_ending to false, while preserving 'play Mayuri last' as sequencing advice in recommended_order and route notes. 3) SHARED D-MAIL TEXT: gameline.jp's chart-1 (common route, Mayuri flags not met) and chart-2 (common route, Mayuri flags met) both list the identical D-mail text 'Dメール実験もっとよく考えろ' but route to Suzuha in one case and Mayuri in the other; resolved via dragon737.com's explanation that the destination depends on flag state accumulated earlier in the common route, not the D-mail text itself. 4) BAD ENDS: no bad ends/game-overs were found documented in any of the three complete Japanese sources for any of the 6 routes; every branch point is either the one route-selecting D-mail or a non-terminal 'メール回収' side-loop. Treated as 'this game has no bad ends' rather than 'not yet found,' consistent with it being a lighthearted fandisc rather than the mainline STEINS;GATE (which has many worldline/Reading-Steiner-linked bad ends). 5) TRUE ENDING: no source uses true-ending/best-ending terminology for any route; sjgamesukisuki.com's description of Mayuri as having the 'highest story completeness' and being the 'main narrative' is suggestive but not a formal true-end claim, so no route is flagged is_true_ending and recommended_order (5 free-order heroines, Mayuri last) is presented as a spoiler-minimizing practical suggestion, not a mechanical requirement. 6) MAYURI SECOND CHAPTER TITLE UNVERIFIED: the prior pass's claim of a second Mayuri chapter titled '星屑のデュプレット' could not be independently cross-checked against dqff.sakura.ne.jp or dragon737.com in this pass (gameline.jp's chapter-8 fetch only surfaced the route's choices, not its chapter titles) — retained in the mayuri route notes with an explicit caution flag for the route-writing phase to re-verify against at least one primary source before use.",
+  "generated_at": "2026-07-26T14:32:00+00:00"
+}

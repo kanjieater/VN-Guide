@@ -39,6 +39,12 @@ def deploy() -> None:
     date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     run_git("commit", "-m", f"sync: update playing list [{date}]")
 
+    # Pull with rebase so parallel containers don't block each other
+    pull = run_git("pull", "--rebase", check=False)
+    if pull.returncode != 0:
+        print(f"[deploy] Pull --rebase failed:\n{pull.stderr}", file=sys.stderr)
+        sys.exit(1)
+
     result = run_git("push", check=False)
     if result.returncode != 0:
         print(f"[deploy] Push failed:\n{result.stderr}", file=sys.stderr)

@@ -1,5 +1,87 @@
 {
   "title": "STEINS;GATE: Hiyoku Renri no Darling",
   "vndb_id": "v6618",
-  "routes": []
+  "routes": [
+    {
+      "id": "moeka",
+      "title": "萌郁ルート",
+      "stepCount": 5,
+      "portrait": "https://t.vndb.org/ch/38/28038.jpg"
+    },
+    {
+      "id": "faris",
+      "title": "フェイリスルート",
+      "stepCount": 6,
+      "portrait": "https://t.vndb.org/ch/35/97235.jpg"
+    },
+    {
+      "id": "ruka",
+      "title": "るかルート",
+      "stepCount": 14,
+      "portrait": "https://t.vndb.org/ch/44/28044.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://gameline.jp/steinsgate-darling/kouryaku/",
+      "title": "【シュタインズゲート 比翼恋理のだーりん】攻略チャート - ゲームライン",
+      "language": "ja",
+      "notes": "PRIMARY complete Japanese walkthrough. Index links to 8 chart sub-pages, all fetched and cross-checked individually: chart-1 (common route, Mayuri-flags-not-met variant), chart-2 (common route, Mayuri-flags-met variant), chart-3 (Moeka), chapter-4 (Faris), chapter-5 (Ruka), chapter-6 (Suzuha), chapter-7 (Kurisu), chapter-8 (Mayuri). Documents SAVE-point numbering, exact D-mail text for every route branch, day-by-day choice sequences, and numerous 'メール回収' (email collection) reload loops. No bad ends/game overs found documented anywhere on this site for any route."
+    },
+    {
+      "url": "https://dragon737.com/darling-in-the-rain",
+      "title": "【比翼連理のダーリン 攻略】全ルート分岐・Dメール条件・ヒロイン別エンディング完全ガイド",
+      "language": "ja",
+      "notes": "SECONDARY complete Japanese walkthrough, single-page summary of all 6 heroine routes, their D-mail branch conditions, and the Mayuri-route flag requirement in prose ('他の誰とも決定的なフラグを立てない' + prioritizing Mayuri's mail). Cross-validated the branch-condition table and the Mayuri unlock mechanic against gameline.jp; fully consistent, no contradictions on route existence or D-mail texts."
+    },
+    {
+      "url": "https://dqff.sakura.ne.jp/14/",
+      "title": "STEINS;GATE 比翼恋理のだーりん - PSP 攻略 組長式",
+      "language": "ja",
+      "notes": "THIRD complete Japanese walkthrough (PSP release), day-by-day chart format: common route + all 6 heroine routes + dedicated email-collection and phone-number/TIPS pages (10 pages total, e.g. /14/1.html for the common route). Page 1 (common route, 8/5-8/7) cross-checked against gameline.jp's chart-1/chart-2 and is consistent on date range and branch structure. A parallel PS3-release folder exists on the same domain (dqff.sakura.ne.jp/15/, confirmed via a search hit on .../15/7.html for the Mayuri route) but was not separately fetched, since no source documents any platform-specific route differences for this fandisc."
+    },
+    {
+      "url": "https://sjgamesukisuki.com/steinsgate-darin-end/",
+      "title": "シュタゲだーりん攻略！各キャラエンディング一覧 | ゲイマー",
+      "language": "ja",
+      "notes": "Supplementary Japanese source. Independently confirms all 6 route chapter subtitles verbatim (失楽のメランコリア / 猫耳乙女のドメイン / 倒錯のアニマ / 迷走螺旋のアルケー / 華氏93度のキアロスクーロ / 哀哭悲嘆のアポリア), and describes Mayuri's route as having the highest 'story completeness' and functioning as the main narrative, with Kurisu's as a lighter supplementary/delusional-themed route. Confirms the D-mail-timing branch mechanism and that Mayuri needs specific prior message responses to unlock. Does not use true-ending terminology for any route."
+    },
+    {
+      "url": "https://h1g.jp/steinsgate_darling/",
+      "title": "STEINS;GATE（シュタインズ・ゲート）比翼恋理のだーりん 攻略Wiki：ヘイグ",
+      "language": "ja",
+      "notes": "CHECKED BUT NOT USABLE: direct fetch returns HTTP 403, but content was retrieved via the r.jina.ai text-extraction proxy. The wiki's navigation lists all 6 heroine routes plus a Prologue page, but every individual route page actually fetched (Mayuri, Moeka) displays the literal placeholder text '現在このページには内容がありません' (this page currently has no content) — i.e. the wiki shell exists but the walkthrough content was never written. This corrects an inaccurate claim in an earlier research pass for this same title (identical generated_at second-stamp, evidently a prior/parallel attempt) which asserted h1g.jp was a 'SECONDARY, COMPLETE' source cross-validated against dqff.sakura.ne.jp for the Mayuri and Moeka routes — that claim does not hold up on direct verification and has been discarded from this pass. h1g.jp is not counted toward the 'two complete Japanese guides' requirement; gameline.jp, dragon737.com, and dqff.sakura.ne.jp satisfy that requirement instead."
+    },
+    {
+      "url": "https://games.appmatch.jp/554554031-2/",
+      "title": "STEINS;GATE 比翼恋理のだーりんの攻略・初心者向け攻略法・レベルの上げ方 | スマホゲームNavi",
+      "language": "ja",
+      "notes": "Supplementary Japanese source, low detail. Confirms the 'Phone Trigger System' (携帯電話の操作がストーリーの展開に影響する) and general individual-route structure but gives no route order, prerequisites, or ending list. Not used as a primary source."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/STEINS;GATE_比翼恋理のだーりん",
+      "title": "STEINS;GATE 比翼恋理のだーりん - Wikipedia",
+      "language": "ja",
+      "notes": "Supplementary reference. Confirms Kurisu's route is reached by NOT sending a D-mail and Moeka's by sending one, confirms the Mayuri route requires multiple unspecified conditions before the final D-mail send ('いくつかの条件をすべて満たした上で、最終的にDメールを送信すると「まゆり編」となる'), matching the walkthrough sites. Also gives full platform release history used to help identify the most recent release."
+    },
+    {
+      "url": "https://vndb.org/v6618",
+      "title": "STEINS;GATE: Hiyoku Renri no Darling - VNDB entry v6618",
+      "language": "en",
+      "notes": "Confirms this is a fandisc/spin-off of the original STEINS;GATE (not part of its main route/ending structure), a fluffy romantic-comedy 'if' scenario. Used for title/alias verification (English title 'STEINS;GATE: My Darling's Embrace')."
+    },
+    {
+      "url": "https://api.vndb.org/kana/release (POST, filtered vn=v6618)",
+      "title": "VNDB Kana API - release endpoint",
+      "language": "en",
+      "notes": "Queried directly to enumerate every release/platform. Confirms the newest release lineage is the Windows Steam version bundled as 'STEINS;GATE: My Darling's Embrace' (r67982, part of the 2019-12-10 multi-platform push that also produced the PS4 r67964 and Switch r67981 releases under 'STEINS;GATE: Divergencies Assort'), with a further Steam Improvement Patch by Committee of Zero released 2025-07-28 (r87860). Web search corroborates this compilation adds no new in-game routes/scenarios to the Hiyoku Renri no Darling portion."
+    },
+    {
+      "url": "https://api.vndb.org/kana/character (POST, filtered vn=v6618)",
+      "title": "VNDB Kana API - character endpoint",
+      "language": "en",
+      "notes": "Used to fetch verified portrait image URLs for all 6 route heroines directly by character ID, avoiding the unreliable 'last-2-digits-of-character-ID' URL-guessing pattern (verified mismatch: Kurisu is character c6487 but her actual portrait image ID is 97234, not 6487/87). IDs used: Kurisu c6487, Mayuri c6491, Suzuha c6492, Faris/Akiha Rumiho c6494, Moeka c6496, Ruka c6497."
+    }
+  ],
+  "generated_at": "2026-07-26T14:25:15.236365+00:00"
 }

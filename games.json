@@ -49,10 +49,18 @@
   },
   "v6618": {
     "slug": "steinsgate-比翼恋理のだーりん",
-    "has_guide": false,
+    "has_guide": true,
     "title": "STEINS;GATE: Hiyoku Renri no Darling",
     "alttitle": "STEINS;GATE 比翼恋理のだーりん",
     "cover_url": "https://t.vndb.org/cv/44/75844.jpg",
     "added_at": "2026-07-20T22:31:13.744554+00:00"
+  },
+  "v2002": {
+    "slug": "steinsgate",
+    "has_guide": false,
+    "title": "STEINS;GATE",
+    "alttitle": "",
+    "cover_url": "https://t.vndb.org/cv/19/77819.jpg",
+    "added_at": "2026-07-26T14:43:43.555767+00:00"
   }
 }

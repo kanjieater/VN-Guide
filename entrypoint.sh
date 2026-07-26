@@ -48,7 +48,7 @@ sleep_until_window() {
 }
 
 # .claude.json lives in ~ which is ephemeral; restore from the persistent named volume on each start
-CLAUDE_BACKUP=$(ls -t ~/.claude/backups/.claude.json.backup.* 2>/dev/null | head -1)
+CLAUDE_BACKUP=$(ls -t ~/.claude/backups/.claude.json.backup.* 2>/dev/null | head -1 || true)
 if [ ! -f ~/.claude.json ] && [ -n "$CLAUDE_BACKUP" ]; then
     cp "$CLAUDE_BACKUP" ~/.claude.json
     echo "[startup] Restored .claude.json from $CLAUDE_BACKUP"

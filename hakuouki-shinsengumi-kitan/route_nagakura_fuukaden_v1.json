@@ -156,7 +156,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ69",
+    "simpleJp": "セーブ57",
     "jpGuide1": "★SAVE1",
     "jpGuide2": "Save1",
     "enGuide": ""
@@ -166,125 +166,142 @@
     "jpGuide1": "付き合います",
     "jpGuide2": "付き合います",
     "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "お千ちゃんのこと",
     "jpGuide1": "制札のこと",
     "jpGuide2": "お千ちゃんのこと",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "大変なんですね",
     "jpGuide1": "不思議な気分",
     "jpGuide2": "大変なんですね",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "隊士のこと",
     "jpGuide1": "隊士のこと",
     "jpGuide2": "隊士のこと",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "分離派と親しかった人",
     "jpGuide1": "分離派と親しかった人",
     "jpGuide2": "分離派と親しかった人",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "私も同じ気持ちです",
     "jpGuide1": "私も同じ気持ちです",
     "jpGuide2": "私も同じ気持ちです",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "いる",
     "jpGuide1": "いる",
     "jpGuide2": "いる",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "じっとしている",
     "jpGuide1": "じっとしている",
     "jpGuide2": "じっとしている",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "部屋の外に逃げる",
     "jpGuide1": "部屋の外に逃げる",
     "jpGuide2": "部屋の外に逃げる",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "助けを求める",
     "jpGuide1": "助けを求める",
     "jpGuide2": "助けを求める",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "その時はお願いします",
     "jpGuide1": "その時はお願いします",
     "jpGuide2": "その時はお願いします",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "私もなれますか",
+    "simpleJp": "わかってくれます",
     "jpGuide1": "わかってくれます",
     "jpGuide2": "私もなれますか",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "それでも手伝いたい",
     "jpGuide1": "それでも手伝いたい",
     "jpGuide2": "それでも手伝いたい",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "平助君の説得",
     "jpGuide1": "平助君の説得",
     "jpGuide2": "平助君の説得",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "鬼たちと交渉する",
     "jpGuide1": "鬼たちと交渉する",
     "jpGuide2": "鬼たちと交渉する",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "大人しくする",
     "jpGuide1": "大人しくする",
     "jpGuide2": "大人しくする",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "負けてしまうからですか？",
     "jpGuide1": "負けてしまうからですか？",
     "jpGuide2": "負けてしまうからですか？",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "帰って来ますよね",
     "jpGuide1": "帰って来ますよね",
     "jpGuide2": "帰って来ますよね",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ70",
+    "simpleJp": "セーブ58",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save5",
     "enGuide": ""
   },
   {
     "simpleJp": "まだこれからです",
-    "jpGuide1": "まだこれからです　→　悲恋エンド",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "まだこれからです　→　悲恋エンド",
     "enGuide": "",
     "badEndPath": "悲恋エンド"
   },
   {
-    "simpleJp": "セーブ70にロード",
+    "simpleJp": "セーブ58にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save5より",
     "enGuide": "",
@@ -298,7 +315,7 @@
     "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ69にロード",
+    "simpleJp": "セーブ57にロード",
     "jpGuide1": "★SAVE1から始めた場合",
     "jpGuide2": "Save1より",
     "enGuide": "",
@@ -311,13 +328,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "制札のこと",
+    "simpleJp": "お千ちゃんのこと",
     "jpGuide1": "制札のこと",
     "jpGuide2": "お千ちゃんのこと",
     "enGuide": ""
   },
   {
-    "simpleJp": "不思議な気分",
+    "simpleJp": "なんとなくわかります",
     "jpGuide1": "不思議な気分",
     "jpGuide2": "なんとなくわかります",
     "enGuide": ""
@@ -365,7 +382,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ71",
+    "simpleJp": "セーブ59",
     "jpGuide1": "★SAVE2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -381,52 +398,60 @@
     "simpleJp": "わかってくれます",
     "jpGuide1": "わかってくれます",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "それでも手伝いたい",
     "jpGuide1": "それでも手伝いたい",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "平助君の説得",
     "jpGuide1": "平助君の説得",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "鬼たちと交渉する",
     "jpGuide1": "鬼たちと交渉する",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "大人しくする",
     "jpGuide1": "大人しくする",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "負けてしまうからですか？",
     "jpGuide1": "負けてしまうからですか？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "帰って来ますよね",
     "jpGuide1": "帰って来ますよね",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "残念ですね",
     "jpGuide1": "残念ですね　→　BADエンド（スタッフロールあり）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
-    "simpleJp": "セーブ71にロード",
+    "simpleJp": "セーブ59にロード",
     "jpGuide1": "★SAVE2から始めた場合",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -435,7 +460,7 @@
   {
     "simpleJp": "無茶はしないでください",
     "jpGuide1": "無茶はしないでください（好感度UP✨）",
-    "jpGuide2": "無茀はしないでください",
+    "jpGuide2": "無茶はしないでください",
     "enGuide": ""
   },
   {
@@ -493,7 +518,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ72",
+    "simpleJp": "セーブ60",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save2",
     "enGuide": ""
@@ -509,10 +534,11 @@
     "simpleJp": "きつくないんですか",
     "jpGuide1": "きつくないんですか　→　BADエンド（スタッフロールなし④）",
     "jpGuide2": "きつくないんですか　→　ゲームオーバー",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ72にロード",
+    "simpleJp": "セーブ60にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save2より",
     "enGuide": "",
@@ -537,7 +563,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ73",
+    "simpleJp": "セーブ61",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save3",
     "enGuide": ""
@@ -550,7 +576,7 @@
     "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ73にロード",
+    "simpleJp": "セーブ61にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save3より",
     "enGuide": "",
@@ -558,44 +584,47 @@
   },
   {
     "simpleJp": "薬を与える",
-    "jpGuide1": "近藤さんの話題",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "薬を与える",
     "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "近藤さんもわかっているはず",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "近藤さんもわかっているはず",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "羅刹に頼りすぎです",
     "jpGuide1": "羅刹に頼りすぎです",
     "jpGuide2": "羅刹に頼りすぎです",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ74",
+    "simpleJp": "セーブ62",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save6",
     "enGuide": ""
   },
   {
     "simpleJp": "我慢させる",
-    "jpGuide1": "我慢させる　→　BADエンド（スタッフロールなし②）",
+    "jpGuide1": "我慢させる",
     "jpGuide2": "我慢させる",
     "enGuide": "",
     "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "駄目です",
-    "jpGuide1": "駄目です",
+    "jpGuide1": "駄目です　→　BADエンド（スタッフロールなし②）",
     "jpGuide2": "駄目です　→　ゲームオーバー",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ74にロード",
+    "simpleJp": "セーブ62にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save6より",
     "enGuide": "",
@@ -603,7 +632,7 @@
   },
   {
     "simpleJp": "血を与える",
-    "jpGuide1": "血を与える　（我慢させるにもCGあり）",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "血を与える",
     "enGuide": "",
     "badEndPath": "悲恋エンド"
@@ -612,28 +641,32 @@
     "simpleJp": "駄目です",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "駄目です",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "私は信じていますから",
     "jpGuide1": "私は信じていますから",
     "jpGuide2": "私は信じていますから",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "薬を与える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "薬を与える",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "お任せします",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "お任せします　→　悲恋エンド",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
-    "simpleJp": "セーブ73にロード",
+    "simpleJp": "セーブ61にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save3より",
     "enGuide": "",
@@ -658,10 +691,31 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ75",
+    "simpleJp": "セーブ63",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save4",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "我慢させる",
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
+  },
+  {
+    "simpleJp": "駄目です",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "駄目です",
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
+  },
+  {
+    "simpleJp": "私は信じていますから",
+    "jpGuide1": "私は信じていますから",
+    "jpGuide2": "私は信じていますから",
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "我慢させる",
@@ -671,31 +725,14 @@
     "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "駄目です",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "駄目です",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "私は信じていますから",
-    "jpGuide1": "私は信じていますから",
-    "jpGuide2": "私は信じていますから",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "我慢させる",
-    "jpGuide1": "我慢させる",
-    "jpGuide2": "我慢させる",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "お任せします",
     "jpGuide1": "お任せします　→　BADエンド（スタッフロールなし①）",
     "jpGuide2": "お任せします　→　ゲームオーバー",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ75にロード",
+    "simpleJp": "セーブ63にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save4より",
     "enGuide": "",

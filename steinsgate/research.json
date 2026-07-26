@@ -5,9 +5,61 @@
     {
       "id": "suzuha",
       "title": "鈴羽END",
-      "stepCount": 50,
-      "portrait": "https://t.vndb.org/ch/36/97236.jpg"
+      "portrait": "https://t.vndb.org/ch/36/97236.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Amane Suzuha (阿万音鈴羽). First branch point of the 6, split off at Chapter 6 (形而上のネクローシス) by choosing NOT to send the D-mail at the chapter's final choice. Ending title: 不可逆のリブート (Irreversible Reboot). Reached directly from the common route (Chapters 1-5); no other route needs to be cleared first, but guides conventionally present it first since it is the earliest branch point encountered."
+    },
+    {
+      "id": "faris",
+      "title": "フェイリスEND",
+      "portrait": "https://t.vndb.org/ch/35/97235.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Akiha Rumiho (秋葉留未穂) / Faris NyanNyan. Branches off at Chapter 7 (虚像歪曲のコンプレックス) by choosing NOT to send the D-mail at Save 5's final choice (after the optional Save A confirmation-message detour). Ending title: 分離喪失のジャメヴュ (Deja Vu of Lost Separation). Reachable by continuing past the Suzuha branch (send the Ch6 D-mail) and then declining the Ch7 D-mail."
+    },
+    {
+      "id": "ruka",
+      "title": "るかEND",
+      "portrait": "https://t.vndb.org/ch/44/28044.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Urushibara Ruka (漆原るか). Branches off at Chapter 8 (自己相似のアンドロギュノス) by choosing NOT to call 電話レンジ(仮) (the phone microwave) after Save 6. Ending title: 背徳と再生のリンク (Link of Immorality and Rebirth). Reachable by continuing past the Suzuha and Faris branches (send both D-mails) and then declining the Ch8 phone call."
+    },
+    {
+      "id": "mayuri",
+      "title": "まゆりEND",
+      "portrait": "https://t.vndb.org/ch/95/97195.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Shiina Mayuri (椎名まゆり). Branches off at Chapter 9 (無限連鎖のアポトーシス) after Save 7; per h1g.jp's chart and a corroborating reader comment, this branch is reached regardless of whether the final FB-phone D-mail is sent or not on the 'normal' route track (both choices lead to Chapter 10 透明のスターダスト / Mayuri END on this track). Ending title: 透明のスターダスト (Transparent Stardust). This is the last of the 4 'normal route' endings before the special true-end track begins."
+    },
+    {
+      "id": "kurisu",
+      "title": "紅莉栖END",
+      "portrait": "https://t.vndb.org/ch/34/97234.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Makise Kurisu (牧瀬紅莉栖). NOT reached via the same Chapter 6-9 branch track as the other 4 endings. Instead, reload Save 1 (made early in Chapter 3, 蝶翼のダイバージェンス) and take the alternate 'true end route' (真エンド到達ルート) choice track through Chapters 3-7, which changes several phone-trigger replies (e.g. Faris's PHANTASM email reply becomes 主題歌 instead of PHANTASM) and raises Kurisu's affinity instead of branching to Suzuha/Faris/Ruka/Mayuri. This leads to Chapter 10 因果律のメルト (Causality Melt) and a final Save B choice: NOT replying to Kurisu's email 【今どこ？】(Where are you now?) gives 紅莉栖END. All 3 walkthrough-order sources agree Kurisu is conventionally shown after the first 4 endings, reusing the same Chapter-3 Save 1 restart."
+    },
+    {
+      "id": "true_end",
+      "title": "STEINS;GATE（真END）",
+      "portrait": "",
+      "prerequisites": [
+        "kurisu"
+      ],
+      "is_true_ending": true,
+      "notes": "Reached from the exact same Chapter 10 (因果律のメルト) Save B branch point as Kurisu END, on the true-end choice track (reload Save 1, see kurisu route notes). Replying to Kurisu's email 【今どこ？】 with 居場所 (location) instead of ignoring it leads to Chapter 11 境界面上のシュタインズゲート (Steins Gate on the Boundary Plane) and the true ending. No VNDB character corresponds 1:1 to this route, so no portrait is set. Guides conventionally place this last, immediately after Kurisu END, by reloading Save B rather than restarting from Save 1 again."
     }
+  ],
+  "recommended_order": [
+    "suzuha",
+    "faris",
+    "ruka",
+    "mayuri",
+    "kurisu",
+    "true_end"
   ],
   "sources": [
     {
@@ -53,5 +105,6 @@
       "notes": "Reference only. Confirms v2002 is the original STEINS;GATE (first released Xbox 360, 2009-10-15; PC 2010; later ported to PS3/Vita, Steam 2017-09-11, Switch 2019, iOS/Android 2022). All of these ports share the same story/route content (no routes added between ports) per the walkthrough sites, which reference the wiki content as still valid for the current Steam/Switch/mobile releases. A separate upcoming 'STEINS;GATE RE:BOOT' full remake is scheduled to launch 2026-08-19 through 2026-10-29 across Steam/PS5/Xbox Series/Switch — this is NOT yet released as of the research date (2026-07-26), so it was not targeted; STEINS;GATE ELITE (anime-cutscene version) and STEINS;GATE 0 (sequel) are separate VNDB entries and out of scope for v2002."
     }
   ],
-  "generated_at": "2026-07-26T15:20:01.645905+00:00"
+  "disagreements": "No substantive disagreements were found between sources on route order or branch structure — h1g.jp, gameline.jp, and my-game.jp all independently state the same recommended order (Suzuha → Faris → Ruka → Mayuri → Kurisu → True End) and the same overall two-track structure (a 'shared/normal route' Chapter 6-9 branch ladder for the first 4 endings, plus a separate 'true end route' Chapter 3 restart for Kurisu/True End). Two minor notes: (1) h1g.jp's own comment section flags that an older version of its chart showed the Chapter 9 D-mail choice as branching, but a 2019 reader correction confirms both choices lead to Mayuri END on that track — the current chart text (used here) already reflects the correction. (2) None of the 5 sub-endings (Suzuha/Faris/Ruka/Mayuri/Kurisu) are hard-locked behind clearing any other route first — all are reachable in a single playthrough by picking a different branch choice — so 'prerequisites' are left empty for them; the recommended_order and true_end's 'kurisu' prerequisite reflect walkthrough convention (reusing saves efficiently) rather than an in-game lock. Also confirmed via the h1g.jp achievement list that this title has no traditional bad-end/game-over screens separate from its 6 main endings, so the guide's bad-end-detour mechanics will not apply to this game unless further chapter-level research surfaces an undocumented one.",
+  "generated_at": "2026-07-26T15:20:00+00:00"
 }

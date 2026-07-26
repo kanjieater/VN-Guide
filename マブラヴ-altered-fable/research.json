@@ -1,0 +1,138 @@
+{
+  "title": "Muv-Luv Altered Fable",
+  "vndb_id": "v405",
+  "routes": [
+    {
+      "id": "sumika",
+      "title": "純夏ルート",
+      "portrait": "https://t.vndb.org/ch/09/109.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Kagami Sumika (鑑純夏). Reached from the shared common route by choosing 「いや、一度部屋に戻ってくる」 at the SAVE1 branch (sagaoz.net numbering) and later giving up (ギブアップ) the beach volleyball match. Both sagaoz.net and gamerssquare.kanpaku.jp place Sumika and Kasumi as the first pair of endings reachable from the same late save point (セーブ３／セーブ４ depending on source's numbering), with no prerequisite routes. This is a fandisc (かがやく時空が消えぬ間に) where each 'route' is a short branch-off arc during a beach/summer-island free-roam section, not a full separate scenario; there is no locked/true-route structure."
+    },
+    {
+      "id": "kasumi",
+      "title": "霞ルート",
+      "portrait": "https://t.vndb.org/ch/78/178.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Yashiro Kasumi (社霞), a transfer student from Russia — one of the 4 heroines added in Altered Fable (not from the original Muv-Luv Extra cast). Reached from the same branch point as Sumika by instead picking Kasumi in the early common-route choice, then WINNING the first volleyball match (unlike most other routes, which require losing/giving up) per gamerssquare.kanpaku.jp's explicit note: 「勝利を前提としてるところもありますので注意して下さい（霞のみ）」. No prerequisites."
+    },
+    {
+      "id": "meiya",
+      "title": "冥夜ルート",
+      "portrait": "https://t.vndb.org/ch/07/107.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Mitsurugi Meiya (御剣冥夜). Branches from SAVE1 (common route) by choosing 「いや、一度部屋に戻ってくる」-equivalent path toward Meiya instead of Yuuhi at the twins' room scene, includes a watermelon-splitting (スイカ割り) minigame that must be made to FAIL before the volleyball match per gamerssquare. No prerequisites; freely reachable alongside Yuuhi's route from the same save."
+    },
+    {
+      "id": "yuuhi",
+      "title": "悠陽ルート",
+      "portrait": "https://t.vndb.org/ch/76/176.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Mitsurugi Yuuhi (御剣悠陽), Meiya's twin sister. Branches from SAVE1 by choosing to comfort/side with Yuuhi. Has two variant scenes documented by both full guides (labelled 悠陽A/悠陽B or 悠陽エンド + 悠陽回収 'recollection'): the second is an additional H-scene reachable via a slightly different dialogue choice from the same branch (「一度チャラにしようぜ？」 vs 「わかった、お前に頼むよ」 per alteredfable.wikidb.info), not a separate ending. No prerequisites."
+    },
+    {
+      "id": "chizuru",
+      "title": "千鶴ルート",
+      "portrait": "https://t.vndb.org/ch/16/116.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Sakaki Chizuru (榊千鶴), the class president. Branches from the common island free-roam save (セーブ３ in sagaoz.net / セーブ５ in gamerssquare) by visiting the pool and choosing 「その勝負、受けよう！」 to accept her challenge, then losing the volleyball match. No prerequisites."
+    },
+    {
+      "id": "kei",
+      "title": "彩峰慧ルート",
+      "portrait": "https://t.vndb.org/ch/26/126.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Ayamine Kei (彩峰慧). Branches from SAVE2 (sagaoz.net numbering) by choosing the snowboarding minigame (スノボ、やってみようかな) then following her through the Altair Beach segment before losing the volleyball match. No prerequisites."
+    },
+    {
+      "id": "miki",
+      "title": "壬姫ルート",
+      "portrait": "https://t.vndb.org/ch/33/133.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Tamase Miki (珠瀬壬姫), the archery-club 'class mascot'. Branches from the same island save as Mikoto/Chizuru (セーブ３ sagaoz.net numbering) via the souvenir-shop (お土産屋) detour on the beach. No prerequisites."
+    },
+    {
+      "id": "mikoto",
+      "title": "美琴ルート",
+      "portrait": "https://t.vndb.org/ch/66/266.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Yoroi Mikoto (鎧衣美琴) — one of the 4 heroines added in Altered Fable. Branches from the same island save point as Miki/Chizuru via the sand-dune (砂浜) scenes. No prerequisites."
+    },
+    {
+      "id": "haruko",
+      "title": "柏木晴子ルート",
+      "portrait": "https://t.vndb.org/ch/72/172.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Kashiwagi Haruko (柏木晴子) — one of the 4 heroines added in Altered Fable. Both full guides note the volleyball match here requires deliberately NOT fielding Takeru on either team (武は試合に出さない方がいい) since he is not paired with Haruko as a teammate; branches from the snowboard/Altair Beach save shared with Kei's route. No prerequisites."
+    },
+    {
+      "id": "marimo",
+      "title": "まりもルート",
+      "portrait": "https://t.vndb.org/ch/11/111.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Jinguuji Marimo (神宮司まりも), the homeroom/English teacher — one of the 4 heroines added in Altered Fable. Branches from the island save via the 'hide and seek'-style bridge/road detour; both guides also treat this branch as the vehicle for recollection-only content involving side characters Isumi Michiru (水月) and Suzumiya Haruka (遙). No prerequisites."
+    }
+  ],
+  "recommended_order": [
+    "sumika",
+    "kasumi",
+    "meiya",
+    "yuuhi",
+    "chizuru",
+    "kei",
+    "miki",
+    "mikoto",
+    "haruko",
+    "marimo"
+  ],
+  "sources": [
+    {
+      "url": "http://sagaoz.net/foolmaker/game/m/muvluvalfe.html",
+      "title": "マブラヴ ALTERED FABLE 攻略 by 愚者の館（アーカイブ）",
+      "language": "ja",
+      "notes": "Complete choice-by-choice walkthrough for 100% CG/recollection completion, confirmed against game version 1.10 (2007/09/04). Contains explicit 【セーブ１】–【セーブ１２】 save markers, exact choice text, minigame/volleyball team-selection instructions (win/lose per match), and an editor's afterword explicitly stating the route order was designed 「同じイベントを極力２度以上見せないことを最優先目的として」(to avoid showing the same event twice) — i.e. the order is an efficiency recommendation, not a game-enforced unlock sequence. Covers all 10 character endings (純夏/霞/冥夜/悠陽/千鶴/慧/壬姫/美琴/晴子/まりも) plus incidental CG-recollection detours. Used as primary source #1 and as the basis for recommended_order."
+    },
+    {
+      "url": "http://gamerssquare.kanpaku.jp/muvluvalteredfable.htm",
+      "title": "ゲーム攻略・マブラヴ ALTERED FABLE オルタード・フェーブル（アージュ）- Gamer's Square",
+      "language": "ja",
+      "notes": "Second complete choice-by-choice walkthrough, also confirmed against patch version 1.10, independently covering the same 10 character endings plus recollection-only detours (築地／CG回収, 宗像・風間回収, 悠陽回収). Uses its own ＜セーブXX＞ / ＜セーブXXから＞ markers and documents an alternate but equally valid play order (純夏→霞→美琴→壬姫→千鶴→[recollection]→悠陽→冥夜→彩峰→柏木→[recollection]). Explicitly notes which volleyball matches must be won vs. thrown/given-up, and flags Kasumi as the sole route requiring a WIN in the first match. Used as primary source #2 for cross-validation of every branch point and choice text."
+    },
+    {
+      "url": "http://alteredfable.wikidb.info/%E6%94%BB%E7%95%A5%E3%83%AB%E3%83%BC%E3%83%88/",
+      "title": "攻略ルート - マブラヴ ALTERED FABLE（オルタード フェイブル） wikidb",
+      "language": "ja",
+      "notes": "Supplementary community wiki page listing, per character, the exact sequence of map locations and choices needed to branch into that character's route/volleyball pairing, plus a 'hard to collect CG' (回収しにくい？CG) section cross-referencing specific choices to specific CG numbers. Used to cross-check branch choice text (e.g. Yuuhi's A/B variant choice) against the two full walkthroughs above. Does not use SAVE-number markers itself so was not used as a primary numbering source."
+    },
+    {
+      "url": "https://steamcommunity.com/app/449830/discussions/0/352788917761282044/",
+      "title": "muv-luv alterd fable routes guide anywhere? - Steam Community discussion",
+      "language": "en",
+      "notes": "English supplementary reference only (per policy, used to corroborate structure, never as a primary source). A community answer summarized in search results states the game has 9-10 short 'mini-arcs' that branch off after the beach volleyball minigame and then merge back into a shared final arc, rather than fully separate exclusive routes with locks — corroborating both Japanese full guides' finding that there are no prerequisites/unlock conditions between the 10 character endings. Direct fetch of the linked Steam Community walkthrough guide (id=2930806711) was rate-limited (HTTP 429) during this research session and could not be directly verified; not relied upon for any specific choice text."
+    },
+    {
+      "url": "https://vndb.org/v405",
+      "title": "Muv-Luv Altered Fable: A Shimmering Shard of Spacetime - VNDB entry v405",
+      "language": "en",
+      "notes": "Reference only. Confirms this VNDB entry aggregates the original Aug/Sep 2007 PC release, 2014 Photonmelodies editions, the Mar 2020 age Archives box editions, and the Feb 2025 age Archives Download Edition/Memorial Bundle (the most recent official release), plus English fan-translation patches (2014, 2026) and a 2020 official Steam release (photonmelodies♮). Web search confirmed this title never received a console port (unlike the main Muv-Luv/Alternative titles, which reached Xbox 360/PS3/Vita/Switch) — it remains PC-only, so the 2007-era Japanese walkthroughs are fully valid for the current/latest (Steam/age Archives) release since no routes or content were added across re-releases."
+    },
+    {
+      "url": "https://vndb.org/v405/chars",
+      "title": "Muv-Luv Altered Fable - Character list, VNDB",
+      "language": "en",
+      "notes": "Reference only. Used to map each route character to their VNDB character ID for portrait URLs: Sumika c109, Meiya c107, Yuuhi c176, Chizuru c116, Miki c133, Kei (Ayamine) c126, Kasumi c178, Mikoto c266, Haruko (Kashiwagi) c172, Marimo (Jinguuji) c111. All ten portrait URLs (https://t.vndb.org/ch/{last2}/{id}.jpg) were verified to return HTTP 200 during this session."
+    }
+  ],
+  "disagreements": "1) Route order: the two full Japanese walkthroughs recommend different orderings of the 10 character endings (sagaoz.net: 純夏→霞→冥夜→悠陽→千鶴→慧→壬姫→美琴→晴子→まりも; gamerssquare: 純夏→霞→美琴→壬姫→千鶴→悠陽→冥夜→彩峰→柏木→まりも). Neither order is gated by any prerequisite or unlock condition — both sources confirm all 10 endings are freely reachable from common branch-point saves on a single playthrough, and sagaoz.net explicitly states its ordering exists purely to avoid re-showing duplicate common-route events during 100%-completion play, not because of any lock. This guide follows sagaoz.net's order since it is the one explicitly justified as the more efficient sequence; gamerssquare's order would also be fully valid. 2) Whether this game has a 'true end': unlike most VNs covered by this repository's philosophy, Altered Fable (the かがやく時空が消えぬ間に fandisc scenario) has no locked routes, no bad-ends, and no single gated true/best ending — it is structured as 10 independent short character arcs/epilogues branching off a shared common route and volleyball minigame, each with its own self-contained ending and H-scene, confirmed identically by both full JP walkthroughs and corroborated by an English Steam Community forum summary describing it as 'mini-arcs' that 'merge back into the main route.' No source of any language documents a distinct bad end or a gated final/true route for this scenario, so is_true_ending is false for every route and no badEndPath content should be fabricated when the full guide is written. 3) Two of the ten routes (Kasumi, Mikoto) and two more (Haruko, Marimo) are original to Altered Fable rather than reprised from Muv-Luv Extra's original six heroines (Sumika, Meiya, Yuuhi, Chizuru, Miki, Kei) — consistent with an English forum's description of '6 original routes from Extra plus 4 additional routes.' No source specifies any of the 4 additional heroines as being 'from the Alternative timeline' in a way that imposes narrative prerequisites; this is flagged only as unverified color from a low-confidence search-snippet summary, not used to alter route structure.",
+  "generated_at": "2026-07-26T15:14:14.781008+00:00"
+}

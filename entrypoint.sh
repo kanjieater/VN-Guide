@@ -90,8 +90,22 @@ run_pipeline() {
     echo "[$(date -Iseconds)] Sync complete"
 }
 
+priority_game_done() {
+    [ -z "${GUIDE_PRIORITY_VID:-}" ] && return 1
+    python3 - <<'EOF'
+import json, os, sys, pathlib
+games = json.loads(pathlib.Path(os.environ["REPO_PATH"], "games.json").read_text())
+sys.exit(0 if games.get(os.environ.get("GUIDE_PRIORITY_VID", ""), {}).get("has_guide") else 1)
+EOF
+}
+
 # Run immediately on startup
 run_pipeline || echo "[$(date -Iseconds)] Pipeline error (will retry next cycle)"
+
+if priority_game_done; then
+    echo "[$(date -Iseconds)] Priority game ${GUIDE_PRIORITY_VID} complete — shutting down"
+    exit 0
+fi
 
 # Then loop — sleep until next window if outside, otherwise use normal interval
 SLEEP_SECS=$(( RUN_INTERVAL_HOURS * 3600 ))
@@ -102,4 +116,8 @@ while true; do
         sleep_until_window
     fi
     run_pipeline || echo "[$(date -Iseconds)] Pipeline error (will retry next cycle)"
+    if priority_game_done; then
+        echo "[$(date -Iseconds)] Priority game ${GUIDE_PRIORITY_VID} complete — shutting down"
+        exit 0
+    fi
 done

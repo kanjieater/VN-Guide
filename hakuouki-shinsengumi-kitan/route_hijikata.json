@@ -31,19 +31,6 @@
   {"simpleJp": "制札のこと", "jpGuide1": "制札のこと", "jpGuide2": "制札のこと", "enGuide": ""},
 
   {"simpleJp": "セーブ1", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save1", "enGuide": ""},
-  {"simpleJp": "不思議な気分", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "不思議な気分", "enGuide": "", "badEndPath": "悲恋エンド"},
-  {"simpleJp": "隊士のこと", "jpGuide1": "隊士のこと", "jpGuide2": "隊士のこと", "enGuide": ""},
-  {"simpleJp": "偉い人", "jpGuide1": "偉い人", "jpGuide2": "偉い人", "enGuide": ""},
-  {"simpleJp": "いる", "jpGuide1": "いる", "jpGuide2": "いる", "enGuide": ""},
-  {"simpleJp": "皆の所に行く", "jpGuide1": "皆の所に行く", "jpGuide2": "皆の所に行く", "enGuide": ""},
-  {"simpleJp": "事情も知らないのに", "jpGuide1": "事情も知らないのに", "jpGuide2": "事情も知らないのに", "enGuide": ""},
-  {"simpleJp": "攻撃に転じる", "jpGuide1": "攻撃に転じる（好感度UP✨）", "jpGuide2": "攻撃に転じる", "enGuide": ""},
-  {"simpleJp": "何か手伝えませんか？", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "何か手伝えませんか？", "enGuide": ""},
-  {"simpleJp": "留守番をする", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "留守番をする", "enGuide": ""},
-  {"simpleJp": "大人しくする", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "大人しくする", "enGuide": ""},
-  {"simpleJp": "出て行くしかない", "jpGuide1": "出て行くしかない", "jpGuide2": "出て行くしかない", "enGuide": ""},
-  {"simpleJp": "仇を取る", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "仇を取る　→　悲恋エンド", "enGuide": ""},
-  {"simpleJp": "セーブ1にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save1より", "enGuide": "", "isLoad": true},
   {"simpleJp": "複雑な心地", "jpGuide1": "複雑な心地 （好感度UP✨）", "jpGuide2": "複雑な心地", "enGuide": ""},
 
   {"simpleJp": "隊士のこと", "jpGuide1": "隊士のこと", "jpGuide2": "隊士のこと", "enGuide": ""},
@@ -65,7 +52,8 @@
   {"simpleJp": "私にできることはありますか", "jpGuide1": "私にできることはありますか（好感度UP✨）", "jpGuide2": "私にできることはありますか", "enGuide": ""},
 
   {"simpleJp": "セーブ2", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save2", "enGuide": ""},
-  {"simpleJp": "我慢させる", "jpGuide1": "我慢させる", "jpGuide2": "我慢させる", "enGuide": "", "badEndPath": "ゲームオーバー"},
+  {"simpleJp": "土方さんこそ休んでください", "jpGuide1": "土方さんこそ休んでください", "jpGuide2": "土方さんこそ休んでください", "enGuide": "", "badEndPath": "ゲームオーバー"},
+  {"simpleJp": "我慢させる", "jpGuide1": "我慢させる", "jpGuide2": "我慢させる", "enGuide": ""},
   {"simpleJp": "一緒に行きます", "jpGuide1": "一緒に行きます", "jpGuide2": "一緒に行きます　→　ゲームオーバー", "enGuide": ""},
   {"simpleJp": "セーブ2にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save2より", "enGuide": "", "isLoad": true},
   {"simpleJp": "血を与える", "jpGuide1": "薬を与える", "jpGuide2": "血を与える", "enGuide": ""},
@@ -74,7 +62,8 @@
   {"simpleJp": "やめてください", "jpGuide1": "やめてください（好感度UP✨）", "jpGuide2": "やめてください", "enGuide": ""},
 
   {"simpleJp": "セーブ3", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save3", "enGuide": ""},
-  {"simpleJp": "我慢させる", "jpGuide1": "我慢させる", "jpGuide2": "我慢させる", "enGuide": "", "badEndPath": "ゲームオーバー"},
+  {"simpleJp": "休んでください", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "休んでください", "enGuide": "", "badEndPath": "ゲームオーバー"},
+  {"simpleJp": "我慢させる", "jpGuide1": "我慢させる", "jpGuide2": "我慢させる", "enGuide": ""},
   {"simpleJp": "近藤さんを説得する", "jpGuide1": "近藤さんを説得する", "jpGuide2": "近藤さんを説得する　→　ゲームオーバー", "enGuide": ""},
   {"simpleJp": "セーブ3にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save3より", "enGuide": "", "isLoad": true},
   {"simpleJp": "薬を与える", "jpGuide1": "薬を与える", "jpGuide2": "薬を与える", "enGuide": "", "badEndPath": "ゲームオーバー"},
@@ -91,8 +80,17 @@
   {"simpleJp": "信じているから", "jpGuide1": "信じているから（好感度UP✨）", "jpGuide2": "信じているから", "enGuide": ""},
 
   {"simpleJp": "セーブ4", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save4", "enGuide": ""},
-  {"simpleJp": "我慢させる", "jpGuide1": "我慢させる", "jpGuide2": "我慢させる", "enGuide": "", "badEndPath": "ゲームオーバー"},
-  {"simpleJp": "風間を止める", "jpGuide1": "風間を止める", "jpGuide2": "風間を止める", "enGuide": ""},
+  {"simpleJp": "責任があるから", "jpGuide1": "責任があるから", "jpGuide2": "責任があるから", "enGuide": "", "badEndPath": "ゲームオーバー"},
+  {"simpleJp": "我慢させる", "jpGuide1": "我慢させる", "jpGuide2": "我慢させる", "enGuide": ""},
+  {"simpleJp": "風間を止める", "jpGuide1": "風間を止める", "jpGuide2": "風間を止める　→　ゲームオーバー", "enGuide": ""},
+  {"simpleJp": "セーブ4にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save4より", "enGuide": "", "isLoad": true},
+  {"simpleJp": "血を与える", "jpGuide1": "血を与える（我慢させるにCG差分あり）", "jpGuide2": "血を与える", "enGuide": ""},
+  {"simpleJp": "土方を止める", "jpGuide1": "土方を止める（好感度UP✨）", "jpGuide2": "土方を止める", "enGuide": ""},
+
+  {"simpleJp": "血を与える", "jpGuide1": "血を与える（我慢させるにCG差分あり）", "jpGuide2": "血を与える", "enGuide": ""},
+  {"simpleJp": "殺しても死にません", "jpGuide1": "殺しても死にません（好感度UP✨）", "jpGuide2": "殺しても死にません", "enGuide": ""},
+  {"simpleJp": "お傍にいたいんです", "jpGuide1": "お傍にいたいんです（好感度UP✨）", "jpGuide2": "お傍にいたいんです", "enGuide": ""},
+  {"simpleJp": "無くても構わないもの", "jpGuide1": "無くても構わないもの（好感度UP✨）", "jpGuide2": "無くても構わないもの", "enGuide": ""},
 
   {"simpleJp": "セーブ5", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save5", "enGuide": ""},
   {"simpleJp": "我慢させる", "jpGuide1": "我慢させる", "jpGuide2": "我慢させる", "enGuide": "", "badEndPath": "ゲームオーバー"},
@@ -110,15 +108,7 @@
   {"simpleJp": "セーブ6にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save6より", "enGuide": "", "isLoad": true},
   {"simpleJp": "血を与える", "jpGuide1": "血を与える（我慢させるにCG差分あり）", "jpGuide2": "血を与える", "enGuide": "", "badEndPath": "悲恋エンド"},
   {"simpleJp": "任せられても困ります", "jpGuide1": "任せられても困ります", "jpGuide2": "任せられても困ります　→　悲恋エンド", "enGuide": ""},
-
-  {"simpleJp": "セーブ4にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save4より", "enGuide": "", "isLoad": true},
-  {"simpleJp": "血を与える", "jpGuide1": "血を与える（我慢させるにCG差分あり）", "jpGuide2": "血を与える", "enGuide": ""},
-  {"simpleJp": "土方を止める", "jpGuide1": "土方を止める（好感度UP✨）", "jpGuide2": "土方を止める", "enGuide": ""},
-
-  {"simpleJp": "血を与える", "jpGuide1": "血を与える（我慢させるにCG差分あり）", "jpGuide2": "血を与える", "enGuide": ""},
-  {"simpleJp": "殺しても死にません", "jpGuide1": "殺しても死にません（好感度UP✨）", "jpGuide2": "殺しても死にません", "enGuide": ""},
-  {"simpleJp": "お傍にいたいんです", "jpGuide1": "お傍にいたいんです（好感度UP✨）", "jpGuide2": "お傍にいたいんです", "enGuide": ""},
-  {"simpleJp": "無くても構わないもの", "jpGuide1": "無くても構わないもの（好感度UP✨）", "jpGuide2": "無くても構わないもの", "enGuide": ""},
+  {"simpleJp": "セーブ6にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save6より", "enGuide": "", "isLoad": true},
 
   {"simpleJp": "受けとる", "jpGuide1": "受け取る（好感度UP✨）", "jpGuide2": "受けとる", "enGuide": ""},
   {"simpleJp": "血を与える", "jpGuide1": "血を与える（我慢させるにCG差分あり）", "jpGuide2": "血を与える", "enGuide": ""},

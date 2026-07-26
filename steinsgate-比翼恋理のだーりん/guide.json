@@ -19,6 +19,18 @@
       "title": "るかルート",
       "stepCount": 14,
       "portrait": "https://t.vndb.org/ch/44/28044.jpg"
+    },
+    {
+      "id": "suzuha",
+      "title": "鈴羽ルート",
+      "stepCount": 10,
+      "portrait": "https://t.vndb.org/ch/36/97236.jpg"
+    },
+    {
+      "id": "kurisu",
+      "title": "紅莉栖ルート",
+      "stepCount": 3,
+      "portrait": "https://t.vndb.org/ch/34/97234.jpg"
     }
   ],
   "sources": [
@@ -83,5 +95,5 @@
       "notes": "Used to fetch verified portrait image URLs for all 6 route heroines directly by character ID, avoiding the unreliable 'last-2-digits-of-character-ID' URL-guessing pattern (verified mismatch: Kurisu is character c6487 but her actual portrait image ID is 97234, not 6487/87). IDs used: Kurisu c6487, Mayuri c6491, Suzuha c6492, Faris/Akiha Rumiho c6494, Moeka c6496, Ruka c6497."
     }
   ],
-  "generated_at": "2026-07-26T14:25:15.236365+00:00"
+  "generated_at": "2026-07-26T14:38:12.856263+00:00"
 }

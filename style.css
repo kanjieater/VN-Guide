@@ -221,10 +221,10 @@ button#toggle-details {
 
 .nav-buttons button {
   flex: 1;
-  padding: clamp(8px, 3.5dvh, 28px) 16px;
+  padding: clamp(12px, 7dvh, 48px) 16px;
   border: none;
   border-radius: 10px;
-  font-size: clamp(14px, 3.5dvh, 20px);
+  font-size: clamp(15px, 4dvh, 24px);
   font-weight: 700;
   cursor: pointer;
   touch-action: manipulation;

@@ -1,0 +1,608 @@
+[
+  {
+    "simpleJp": "セーブ19",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "B.S.S.を失敗する",
+    "jpGuide1": "B.S.S.を失敗する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "エンディング1"
+  },
+  {
+    "simpleJp": "セーブ19にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "小夜にしがみつく",
+    "jpGuide1": "小夜にしがみつく",
+    "jpGuide2": "小夜にしがみつく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "何がそんなに楽しいの……？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "僕は……戻りたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻れない……",
+    "jpGuide1": "戻れない……",
+    "jpGuide2": "戻れない……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "そうだね……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "そうかもしれない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "そうだ……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声だけが唯一の救いかもしれない",
+    "jpGuide1": "あの声だけが唯一の救いかもしれない",
+    "jpGuide2": "あの声を聞いちゃいけない",
+    "enGuide": "",
+    "badEndPath": "エンディング2"
+  },
+  {
+    "simpleJp": "手帳を取ってみる",
+    "jpGuide1": "手帳を取ってみる",
+    "jpGuide2": "手帳を取ってみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "青いテープだ",
+    "jpGuide1": "青いテープだ",
+    "jpGuide2": "青いテープだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "小夜にしがみつく",
+    "jpGuide1": "小夜にしがみつく",
+    "jpGuide2": "小夜にしがみつく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "何がそんなに楽しいの……？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "僕は……戻りたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻れない……",
+    "jpGuide1": "戻れない……",
+    "jpGuide2": "戻れない……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "そうだね……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "そうかもしれない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "そうだ……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声だけが唯一の救いかもしれない",
+    "jpGuide1": "あの声だけが唯一の救いかもしれない",
+    "jpGuide2": "あの声を聞いちゃいけない",
+    "enGuide": "",
+    "badEndPath": "エンディング3"
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "テープを聞いてみる",
+    "jpGuide1": "テープを聞いてみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "黒いテープだ",
+    "jpGuide1": "黒いテープだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "抵抗する",
+    "jpGuide1": "抵抗する",
+    "jpGuide2": "抵抗する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "小夜にしがみつく",
+    "jpGuide1": "小夜にしがみつく",
+    "jpGuide2": "小夜にしがみつく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "何がそんなに楽しいの……？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "僕は……戻りたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻れない……",
+    "jpGuide1": "戻れない……",
+    "jpGuide2": "戻れない……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "そうだね……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "そうかもしれない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "そうだ……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声だけが唯一の救いかもしれない",
+    "jpGuide1": "あの声だけが唯一の救いかもしれない",
+    "jpGuide2": "あの声を聞いちゃいけない",
+    "enGuide": "",
+    "badEndPath": "エンディング4"
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "写真を見てみる",
+    "jpGuide1": "写真を見てみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "赤いテープだ",
+    "jpGuide1": "赤いテープだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "飛び降りる",
+    "jpGuide1": "飛び降りる（BLOODレベルが70未満の場合）",
+    "jpGuide2": "飛び降りる （この選択肢後の時点で BLOODレベル70（オレンジ）以下）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "小夜にしがみつく",
+    "jpGuide1": "小夜にしがみつく",
+    "jpGuide2": "小夜にしがみつく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "う……うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "何がそんなに楽しいの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "僕は……戻りたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻れない……",
+    "jpGuide1": "戻れない……",
+    "jpGuide2": "戻れない……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "そうだね……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "そうかもしれない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "そうだ……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "あの声を聞いちゃいけない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "引き出しを開けてみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "写真を見てみる",
+    "jpGuide1": "写真を見てみる",
+    "jpGuide2": "写真を見てみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "赤いテープだ",
+    "jpGuide1": "赤いテープだ",
+    "jpGuide2": "青いテープだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "飛び降りる",
+    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
+    "jpGuide2": "飛び降りる （この選択肢後の時点で BLOODレベル70（オレンジ）以上）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ20",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父さん、何処へ行くの？",
+    "jpGuide1": "父さん、何処へ行くの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "エンディング11"
+  },
+  {
+    "simpleJp": "嫌だ",
+    "jpGuide1": "嫌だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕はなにを……",
+    "jpGuide1": "僕はなにを……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕は何をしようと……",
+    "jpGuide1": "僕は何をしようと……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ20にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "エンディング14"
+  },
+  {
+    "simpleJp": "正夫から離れる",
+    "jpGuide1": "正夫から離れる",
+    "jpGuide2": "正夫から離れる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まっすぐだ",
+    "jpGuide1": "まっすぐだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部屋を出る",
+    "jpGuide1": "部屋を出る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "右だ",
+    "jpGuide1": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ディスクを取る",
+    "jpGuide1": "ディスクを取る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まっすぐだ",
+    "jpGuide1": "まっすぐだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ぼくはなにを……",
+    "jpGuide1": "ぼくはなにを……",
+    "jpGuide2": "ぼくはなにを……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕は何をしようと……",
+    "jpGuide1": "僕は何をしようと……",
+    "jpGuide2": "僕は何をしようと……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "小夜に刀を投げる",
+    "jpGuide1": "小夜に刀を投げる",
+    "jpGuide2": "小夜に刀を投げる（BLOODレベルが80（赤）以上、「横に飛ぶ」後）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ20にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "この土地……？",
+    "jpGuide1": "この土地……？",
+    "jpGuide2": "この土地……？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父さん、ここは？",
+    "jpGuide1": "父さん、ここは？",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "正夫から離れる",
+    "jpGuide1": "正夫から離れる",
+    "jpGuide2": "正夫から離れる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左だ",
+    "jpGuide1": "左だ",
+    "jpGuide2": "まっすぐだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ディスクを取る",
+    "jpGuide1": "ディスクを取る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "右だ",
+    "jpGuide1": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左だ",
+    "jpGuide1": "左だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部屋を出る",
+    "jpGuide1": "部屋を出る",
+    "jpGuide2": "部屋を出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左だ",
+    "jpGuide1": "左だ",
+    "jpGuide2": "左だ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "僕の意思？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "小夜……！（このB.S.S.成功時点でBLOODレベル80（赤）以上）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "横に飛ぶ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "小夜に刀を投げる",
+    "jpGuide1": "小夜に刀を投げる",
+    "jpGuide2": "小夜に刀を投げる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "離れる！",
+    "jpGuide1": "離れる！",
+    "jpGuide2": "離れる！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "究明編",
+    "jpGuide1": "エンディング26～究明編～",
+    "jpGuide2": "End 26「究明編」",
+    "enGuide": ""
+  }
+]

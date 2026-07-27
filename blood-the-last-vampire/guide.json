@@ -11,6 +11,11 @@
       "id": "yami_no_ou",
       "title": "闇の王編",
       "stepCount": 146
+    },
+    {
+      "id": "kyuumei",
+      "title": "究明編",
+      "stepCount": 99
     }
   ],
   "sources": [
@@ -51,5 +56,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-07-27T12:53:32.534397+00:00"
+  "generated_at": "2026-07-27T13:15:30.895212+00:00"
 }

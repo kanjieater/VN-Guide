@@ -1,0 +1,1078 @@
+[
+  {
+    "simpleJp": "私は……嫌！",
+    "jpGuide1": "私は……嫌！",
+    "jpGuide2": "・私は......嫌！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の道は……私が決める",
+    "jpGuide1": "私の道は……私が決める",
+    "jpGuide2": "・私の道は......私が決める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "△□△",
+    "jpGuide1": "[デュエロ]△□△(成功)",
+    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう少し話したい……",
+    "jpGuide1": "もう少し話したい……",
+    "jpGuide2": "・もう少し話したい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "デビト",
+    "jpGuide2": "▶︎【Select】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん……頑張ろう……",
+    "jpGuide1": "うん……頑張ろう……",
+    "jpGuide2": "・うん......頑張ろう......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何かあるの？",
+    "jpGuide1": "何かあるの？",
+    "jpGuide2": "・何かあるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お祝い？",
+    "jpGuide1": "お祝い？",
+    "jpGuide2": "・......お祝い？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]港(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "△",
+    "jpGuide1": "[デュエロ]△(成功)",
+    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私は必ず勝つ",
+    "jpGuide1": "私は必ず勝つ",
+    "jpGuide2": "・私は必ず勝つ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何かあるの？",
+    "jpGuide1": "何かあるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ",
+    "jpGuide1": "[MAP]剣待機室(ルカ)",
+    "jpGuide2": "▶︎【MAP】ルカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう……でも急にどうしたの？",
+    "jpGuide1": "ありがとう……でも急にどうしたの？",
+    "jpGuide2": "・ありがとう......でも急にどうしたの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "きれい……",
+    "jpGuide1": "きれい……",
+    "jpGuide2": "・きれい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "幹部としてクールに！",
+    "jpGuide1": "幹部としてクールに！",
+    "jpGuide2": "・幹部としてクールに！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "香りも楽しみたい",
+    "jpGuide1": "香りも楽しみたい",
+    "jpGuide2": "・香りも楽しみたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジョーリィ",
+    "jpGuide1": "[MAP]相談役執務室(ジョーリィ)",
+    "jpGuide2": "▶︎【MAP】ジョーリィ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すみれの花の事？",
+    "jpGuide1": "すみれの花の事？",
+    "jpGuide2": "・すみれの花の事？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あげそびれた",
+    "jpGuide1": "あげそびれた",
+    "jpGuide2": "・あげそびれた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "様子を見に行ってみよう",
+    "jpGuide1": "様子を見に行ってみよう",
+    "jpGuide2": "・様子を見に行ってみよう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタについて行く",
+    "jpGuide1": "リベルタについて行く",
+    "jpGuide2": "・リベルタについて行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あったかい……",
+    "jpGuide1": "あったかい……",
+    "jpGuide2": "・あったかい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……かわいいリボン……",
+    "jpGuide1": "……かわいいリボン……",
+    "jpGuide2": "・......かわいいリボン......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……ドレス……看板猫",
+    "jpGuide1": "……ドレス……看板猫",
+    "jpGuide2": "・......ドレス......看板猫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "・ありがとう......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "磨かないと宝石にならないの？",
+    "jpGuide1": "磨かないと宝石にならないの？",
+    "jpGuide2": "・磨かないと宝石にならないの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "金貨の仕事が見たい",
+    "jpGuide1": "金貨の仕事が見たい",
+    "jpGuide2": "・金貨の仕事が見たい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……その話、何かおかしい",
+    "jpGuide1": "……その話、何かおかしい",
+    "jpGuide2": "・......その話、何かおかしい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "誰かのことを考えてる？",
+    "jpGuide1": "誰かのことを考えてる？",
+    "jpGuide2": "・誰かのことを考えてる？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "△",
+    "jpGuide1": "[デュエロ]△(成功)",
+    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "能力をうまく使いたい……デビトみたいに",
+    "jpGuide1": "能力をうまく使いたい……デビトみたいに",
+    "jpGuide2": "・能力をうまく使いたい......デビトみたいに",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気にしてないの？",
+    "jpGuide1": "気にしてないの？",
+    "jpGuide2": "・気にしてないの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]フィオーレ通り(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私が教わっても……",
+    "jpGuide1": "私が教わっても……",
+    "jpGuide2": "・私が教わっても......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ",
+    "jpGuide1": "[MAP]剣待機室(ルカ)",
+    "jpGuide2": "▶︎【MAP】ルカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……そうだね",
+    "jpGuide1": "……そうだね",
+    "jpGuide2": "・......そうだね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]フィオーレ通り(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それも仕事？",
+    "jpGuide1": "それも仕事？",
+    "jpGuide2": "・それも仕事？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]ピヴァーチェ広場(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も弾いてみたい",
+    "jpGuide1": "私も弾いてみたい",
+    "jpGuide2": "・私も弾いてみたい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]ピヴァーチェ広場(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトがいないけど……",
+    "jpGuide1": "デビトがいないけど……",
+    "jpGuide2": "・デビトがいないけど......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "こういう時は……",
+    "jpGuide1": "こういう時は……",
+    "jpGuide2": "・こういう時は......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "様子が気になったから",
+    "jpGuide1": "様子が気になったから",
+    "jpGuide2": "・様子が気になったから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……今日は楽しそう",
+    "jpGuide1": "……今日は楽しそう",
+    "jpGuide2": "・......今日は楽しそう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "諜報部……のこと",
+    "jpGuide1": "諜報部……のこと",
+    "jpGuide2": "・諜報部......のこと",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん。行く",
+    "jpGuide1": "うん。行く",
+    "jpGuide2": "・うん。行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]玄関ホール(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……私は？",
+    "jpGuide1": "……私は？",
+    "jpGuide2": "・......私は？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "確かにいつも以上のはしゃぎ方",
+    "jpGuide1": "確かにいつも以上のはしゃぎ方",
+    "jpGuide2": "・確かにいつも以上のはしゃぎ方......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカのバカ",
+    "jpGuide1": "ルカのバカ",
+    "jpGuide2": "・ルカのバカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……やり直して",
+    "jpGuide1": "……やり直して",
+    "jpGuide2": "・......やり直して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２人とも本当に慣れてるね",
+    "jpGuide1": "２人とも本当に慣れてるね",
+    "jpGuide2": "・２人とも本当に慣れてるね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "・うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "カルチョ、やってみたい",
+    "jpGuide1": "カルチョ、やってみたい",
+    "jpGuide2": "・カルチョ、やってみたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の事で何か悩んでる？",
+    "jpGuide1": "私の事で何か悩んでる？",
+    "jpGuide2": "・私の事で何か悩んでる？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]食堂(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうしたの、リベルタ？",
+    "jpGuide1": "どうしたの、リベルタ？",
+    "jpGuide2": "・どうしたの、リベルタ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトをデートに誘えばいいのかな？",
+    "jpGuide1": "デビトをデートに誘えばいいのかな？",
+    "jpGuide2": "・デビトをデートに誘えばいいのかな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……リベルタとノヴァをいじめてたの？",
+    "jpGuide1": "……リベルタとノヴァをいじめてたの？",
+    "jpGuide2": "・......リベルタとノヴァをいじめてたの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アルテ……？",
+    "jpGuide1": "アルテ……？",
+    "jpGuide2": "・アルテ......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "誰かって……好きな人？",
+    "jpGuide1": "誰かって……好きな人？",
+    "jpGuide2": "・誰かって......好きな人？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いろいろと考えているんだ……",
+    "jpGuide1": "いろいろと考えているんだ……",
+    "jpGuide2": "・いろいろ考えているんだ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]ポポラリタ通り(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "この賭けはどうなったの？",
+    "jpGuide1": "この賭けはどうなったの？",
+    "jpGuide2": "・この賭けはどうなったの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "心配だから……",
+    "jpGuide1": "心配だから……",
+    "jpGuide2": "・心配だから......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行こう……ノヴァ",
+    "jpGuide1": "行こう……ノヴァ",
+    "jpGuide2": "・行こう......ノヴァ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "初めて見た……？",
+    "jpGuide1": "初めて見た……？",
+    "jpGuide2": "・初めて見た......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も、行く",
+    "jpGuide1": "私も、行く",
+    "jpGuide2": "・私も、行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "□×□△",
+    "jpGuide1": "[デュエロ]□×□△(成功)",
+    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]玄関ホール(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の人ならマンマもいるけど……",
+    "jpGuide1": "女の人ならマンマもいるけど……",
+    "jpGuide2": "・女の人ならマンマもいるけど",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]ポポラリタ通り(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう食べないの？",
+    "jpGuide1": "もう食べないの？",
+    "jpGuide2": "・もう食べないの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ファミリーには必要",
+    "jpGuide1": "ファミリーには必要",
+    "jpGuide2": "・ファミリーには必要",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……いいの？",
+    "jpGuide1": "……いいの？",
+    "jpGuide2": "・いいの......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大丈夫……真相は確かめる",
+    "jpGuide1": "大丈夫……真相は確かめる",
+    "jpGuide2": "・大丈夫......真相は確かめる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]廊下(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……ミレーナ！？",
+    "jpGuide1": "……ミレーナ！？",
+    "jpGuide2": "・......ミレーナ！？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……働いてから寝て",
+    "jpGuide1": "……働いてから寝て",
+    "jpGuide2": "・......働いてから寝て",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]裏路地(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何をしようとしてるの？",
+    "jpGuide1": "何をしようとしてるの？",
+    "jpGuide2": "・何をしようとしているの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "嬉しそう",
+    "jpGuide1": "嬉しそう",
+    "jpGuide2": "・嬉しそう......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "忘れられるはずない",
+    "jpGuide1": "忘れられるはずない",
+    "jpGuide2": "・忘れられるはずがない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]廊下(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "巡航型",
+    "jpGuide1": "巡航型",
+    "jpGuide2": "・......巡航型",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]厨房(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "オムレツ好きなの？",
+    "jpGuide1": "オムレツ好きなの？",
+    "jpGuide2": "・オムレツ好きなの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]研究室(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "その薬草は何？",
+    "jpGuide1": "その薬草は何？",
+    "jpGuide2": "・その薬草は何？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトと一緒なら",
+    "jpGuide1": "デビトと一緒なら",
+    "jpGuide2": "・デビトと一緒なら",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どんなことして遊んだの？",
+    "jpGuide1": "どんなことして遊んだの？",
+    "jpGuide2": "・どんな事して遊んだの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんでデビトの事をジョーリィが決めるの？",
+    "jpGuide1": "なんでデビトの事をジョーリィが決めるの？",
+    "jpGuide2": "・なんでデビトの事をジョーリィが決めるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "疲れてるの？",
+    "jpGuide1": "疲れてるの？",
+    "jpGuide2": "・疲れてるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……ジョーリィのこと？",
+    "jpGuide1": "……ジョーリィのこと？",
+    "jpGuide2": "・......ジョーリィのこと？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうして最後だって思うの？",
+    "jpGuide1": "どうして最後だって思うの？",
+    "jpGuide2": "・どうして最後だって思うの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本当は嫌なくせに",
+    "jpGuide1": "本当は嫌なくせに",
+    "jpGuide2": "・本当はイヤなくせに......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私と……ダンテが戦うことを望んでいる",
+    "jpGuide1": "私と……ダンテが戦うことを望んでいる",
+    "jpGuide2": "・私と......ダンテが戦う事を望んでいる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私が……みんなを守る",
+    "jpGuide1": "私が……みんなを守る",
+    "jpGuide2": "・私が......みんなを守る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "□×××□",
+    "jpGuide1": "[デュエロ]□×××□(成功)",
+    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……送ってくれてありがとう",
+    "jpGuide1": "……送ってくれてありがとう",
+    "jpGuide2": "・......送ってくれてありがとう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]裏路地(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕事をしているなら問題はない",
+    "jpGuide1": "仕事をしているなら問題はない",
+    "jpGuide2": "・仕事をしてるなら問題ない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]食堂(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "偏食は良くない",
+    "jpGuide1": "偏食は良くない",
+    "jpGuide2": "・偏食は良くない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]玄関ホール(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デートしてもいい",
+    "jpGuide1": "デートしてもいい",
+    "jpGuide2": "・デートしてもいい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトは他に楽しいことないの？",
+    "jpGuide1": "デビトは他に楽しいことないの？",
+    "jpGuide2": "・デビトは他に楽しいことないの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……もう、いい加減寝て",
+    "jpGuide1": "……もう、いい加減寝て",
+    "jpGuide2": "・......もう、いい加減寝て",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマはいつもこうしてくれた",
+    "jpGuide1": "マンマはいつもこうしてくれた",
+    "jpGuide2": "・マンマはいつもこうしてくれた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ちゃんと寝てね",
+    "jpGuide1": "ちゃんと寝てね",
+    "jpGuide2": "・ちゃんと寝てね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "・うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマの住んでいた国……",
+    "jpGuide1": "マンマの住んでいた国……",
+    "jpGuide2": "・マンマの住んでた国......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマも凄いと思う",
+    "jpGuide1": "マンマも凄いと思う",
+    "jpGuide2": "・マンマもすごいと思う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつ倒れたの！？",
+    "jpGuide1": "いつ倒れたの！？",
+    "jpGuide2": "・いつ倒れたの！？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "運命の輪……",
+    "jpGuide1": "運命の輪……",
+    "jpGuide2": "・運命の輪......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "姿が見えないから心配で",
+    "jpGuide1": "姿が見えないから心配で",
+    "jpGuide2": "・姿が見えないから心配で",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "みんな心配している",
+    "jpGuide1": "みんな心配している",
+    "jpGuide2": "・みんな心配している......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "嘘なんてつかなくていい",
+    "jpGuide1": "嘘なんてつかなくていい",
+    "jpGuide2": "・嘘なんてつかなくていい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]森(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二丁拳銃の使い心地は？",
+    "jpGuide1": "二丁拳銃の使い心地は？",
+    "jpGuide2": "・二丁拳銃の使い心地は？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "足止めを……！！",
+    "jpGuide1": "足止めを……！！",
+    "jpGuide2": "・足止めを......！！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２人ともやめて！",
+    "jpGuide1": "２人ともやめて！",
+    "jpGuide2": "・２人ともやめて！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにか、しゃべって",
+    "jpGuide1": "なにか、しゃべって",
+    "jpGuide2": "・なにか、しゃべって",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……デビトを助けて！",
+    "jpGuide1": "……デビトを助けて！",
+    "jpGuide2": "・......デビトを助けて！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "眼帯しちゃうの？",
+    "jpGuide1": "眼帯しちゃうの？",
+    "jpGuide2": "・眼帯しちゃうの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]バール(デビト)",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "食欲ないの？",
+    "jpGuide1": "食欲ないの？",
+    "jpGuide2": "・食欲ないの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "Save1",
+    "jpGuide2": "▼SAVE1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎【MAP】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私もなにか……",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "デビト",
+    "jpGuide2": "▶︎【Select】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7",
+    "jpGuide1": "Save2",
+    "jpGuide2": "▼SAVE2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "失敗",
+    "jpGuide1": "[デュエロ](失敗)",
+    "jpGuide2": "▶︎【デュエロ】失敗",
+    "enGuide": "",
+    "badEndPath": "デビトED3"
+  },
+  {
+    "simpleJp": "セーブ7にロード",
+    "jpGuide1": "Save2より",
+    "jpGuide2": "▶️SAVE2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "××□△□",
+    "jpGuide1": "[デュエロ]××□△□(成功)",
+    "jpGuide2": "▶︎【デュエロ】××□△□（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の、可愛いひと……",
+    "jpGuide1": "私の、可愛いひと……",
+    "jpGuide2": "・私の、可愛いひと......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトED1",
+    "jpGuide1": "デビトED1",
+    "jpGuide2": "デビトED1",
+    "enGuide": ""
+  }
+]

@@ -1,0 +1,740 @@
+[
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える＞",
+    "jpGuide2": "答える",
+    "enGuide": "",
+    "badEndPath": "End 01「闇に潜むもの」"
+  },
+  {
+    "simpleJp": "神田に行こう",
+    "jpGuide1": "神田に行こう＞",
+    "jpGuide2": "神田に行こう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "だから今も人込みは嫌いだ",
+    "jpGuide1": "だから今も人込みは嫌いだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える＞",
+    "jpGuide2": "答える",
+    "enGuide": "",
+    "badEndPath": "End 02「遊びの後で」"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ＞",
+    "jpGuide2": "神田まで行くよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような＞",
+    "jpGuide2": "そういえば財布忘れたような",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "でも今は人込みの方が落ち着く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る＞",
+    "jpGuide2": "左を見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "参考書買いたいんだ",
+    "jpGuide1": "参考書買いたいんだ＞",
+    "jpGuide2": "参考書買いたいんだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "興味あるんだ",
+    "jpGuide1": "興味あるんだ＞",
+    "jpGuide2": "興味あるんだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "会えるわけないよ",
+    "jpGuide1": "会えるわけないよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いらないよ、別に欲しいとは思わないし",
+    "jpGuide1": "いらないよ、別に欲しいとは思わないし＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……そうだと思う",
+    "jpGuide1": "……そうだと思う＞",
+    "jpGuide2": "……そうだと思う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える＞",
+    "jpGuide2": "答える",
+    "enGuide": "",
+    "badEndPath": "End 09「抱擁その２」"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ＞",
+    "jpGuide2": "神田まで行くよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような＞",
+    "jpGuide2": "そういえば財布忘れたような",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "でも今は人込みの方が落ち着く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る＞",
+    "jpGuide2": "左を見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "痛い……！",
+    "jpGuide1": "痛い……！＞",
+    "jpGuide2": "痛い……！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "右を見る",
+    "jpGuide1": "右を見る＞",
+    "jpGuide2": "右を見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "右へ曲がってみよう",
+    "jpGuide1": "右へ曲がってみよう＞",
+    "jpGuide2": "右へ曲がってみよう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……＞",
+    "jpGuide2": "怖いとは思わなかった……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！＞",
+    "jpGuide2": "僕じゃない！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜が好きだ",
+    "jpGuide1": "夜が好きだ＞",
+    "jpGuide2": "夜が好きだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気持ち悪い……",
+    "jpGuide1": "気持ち悪い……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただいま",
+    "jpGuide1": "ただいま＞",
+    "jpGuide2": "ただいま",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それに比べて母さんは老けた",
+    "jpGuide1": "それに比べて母さんは老けた＞",
+    "jpGuide2": "それに比べて母さんは老けた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える＞",
+    "jpGuide2": "答える",
+    "enGuide": "",
+    "badEndPath": "End 03「月下の血宴」"
+  },
+  {
+    "simpleJp": "痛い……！",
+    "jpGuide1": "痛い……！＞",
+    "jpGuide2": "痛い……！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？＞",
+    "jpGuide2": "え？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怪しむ",
+    "jpGuide1": "怪しむ＞",
+    "jpGuide2": "怪しむ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロングの子が好み",
+    "jpGuide1": "ロングの子が好み＞",
+    "jpGuide2": "ロングの子が好み",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……＞",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？＞",
+    "jpGuide2": "え？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "帰ってもいいかな……",
+    "jpGuide1": "帰ってもいいかな……＞",
+    "jpGuide2": "帰ってもいいかな……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ごめんね",
+    "jpGuide1": "ごめんね＞",
+    "jpGuide2": "ごめんね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える＞",
+    "jpGuide2": "答える",
+    "enGuide": "",
+    "badEndPath": "End 05「振り向けばそこにいる」"
+  },
+  {
+    "simpleJp": "痛い……！",
+    "jpGuide1": "痛い……！＞",
+    "jpGuide2": "痛い……！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？＞",
+    "jpGuide2": "え？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する＞",
+    "jpGuide2": "挨拶する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロングの子が好み",
+    "jpGuide1": "ロングの子が好み＞",
+    "jpGuide2": "ロングの子が好み",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうも",
+    "jpGuide1": "どうも＞",
+    "jpGuide2": "どうも",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん＞",
+    "jpGuide2": "うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そ、そうだね",
+    "jpGuide1": "そ、そうだね＞",
+    "jpGuide2": "そ、そうだね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……＞",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの灯子て子さ……",
+    "jpGuide1": "あの灯子て子さ……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつから友達なの？",
+    "jpGuide1": "いつから友達なの？＞",
+    "jpGuide2": "いつから友達なの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……＞",
+    "jpGuide2": "怖いとは思わなかった……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜は何か知っている",
+    "jpGuide1": "瑠璃亜は何か知っている＞",
+    "jpGuide2": "瑠璃亜は何か知っている",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？＞",
+    "jpGuide2": "あれは僕がやったの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなんてなりたくない",
+    "jpGuide1": "強くなんてなりたくない＞",
+    "jpGuide2": "強くなんてなりたくない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が怖かった",
+    "jpGuide1": "あの声が怖かった＞",
+    "jpGuide2": "あの声が怖かった",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜が好きだ",
+    "jpGuide1": "夜が好きだ＞",
+    "jpGuide2": "夜が好きだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答えない",
+    "jpGuide1": "答えない＞",
+    "jpGuide2": "答えない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕は気に入っている",
+    "jpGuide1": "僕は気に入っている＞",
+    "jpGuide2": "僕は気に入っている",
+    "enGuide": "",
+    "badEndPath": "End 04「美酒より美味きもの」"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ＞",
+    "jpGuide2": "神田まで行くよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような＞",
+    "jpGuide2": "そういえば財布忘れたような",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "でも今は人込みの方が落ち着く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "横を見る",
+    "jpGuide1": "横を見る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……寒い……",
+    "jpGuide1": "……寒い……＞",
+    "jpGuide2": "……寒い……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう＞",
+    "jpGuide2": "ありがとう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する＞",
+    "jpGuide2": "挨拶する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロングの子が好み",
+    "jpGuide1": "ロングの子が好み＞",
+    "jpGuide2": "ロングの子が好み",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう＞",
+    "jpGuide2": "ありがとう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？＞",
+    "jpGuide2": "え？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いや、そんな事ないけど",
+    "jpGuide1": "いや、そんな事ないけど＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうしてって言われても……",
+    "jpGuide1": "どうしてって言われても……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の子と二人きりに",
+    "jpGuide1": "女の子と二人きりに＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お腹が空いてるように見えたのかな？",
+    "jpGuide1": "お腹が空いてるように見えたのかな？＞",
+    "jpGuide2": "お腹が空いてるように見えたのかな？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "甘い……",
+    "jpGuide1": "甘い……＞",
+    "jpGuide2": "甘い……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん＞",
+    "jpGuide2": "うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんでそれを",
+    "jpGuide1": "なんでそれを＞",
+    "jpGuide2": "なんでそれを",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの日？",
+    "jpGuide1": "あの日？＞",
+    "jpGuide2": "あの日？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……＞",
+    "jpGuide2": "怖いとは思わなかった……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？＞",
+    "jpGuide2": "あれは僕がやったの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなれるの？",
+    "jpGuide1": "強くなれるの？＞",
+    "jpGuide2": "強くなれるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の口に合っていた",
+    "jpGuide1": "僕の口に合っていた＞",
+    "jpGuide2": "僕の口に合っていた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す＞",
+    "jpGuide2": "話す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……＞",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "僕は煩わしいと思う事もある",
+    "jpGuide1": "僕は煩わしいと思う事もある＞",
+    "jpGuide2": "僕は煩わしいと思う事もある",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ＞",
+    "jpGuide2": "神田まで行くよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そう言えば財布忘れたような",
+    "jpGuide1": "そう言えば財布忘れたような＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "だから今も人込みは嫌いだ",
+    "jpGuide1": "だから今も人込みは嫌いだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る＞",
+    "jpGuide2": "左を見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "参考書買いたいんだ",
+    "jpGuide1": "参考書買いたいんだ＞",
+    "jpGuide2": "参考書買いたいんだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "興味あるんだ",
+    "jpGuide1": "興味あるんだ＞",
+    "jpGuide2": "興味あるんだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "かまわないけど",
+    "jpGuide1": "かまわないけど＞",
+    "jpGuide2": "かまわないけど",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恐ろしいものだ",
+    "jpGuide1": "恐ろしいものだ＞",
+    "jpGuide2": "恐ろしいものだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……そうじゃないけど",
+    "jpGuide1": "……そうじゃないけど＞",
+    "jpGuide2": "……そうじゃないけど",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恥ずかしい",
+    "jpGuide1": "恥ずかしい＞",
+    "jpGuide2": "恥ずかしい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いや、あの……",
+    "jpGuide1": "いや、あの……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "聞きたい事があって",
+    "jpGuide1": "聞きたい事があって＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そ、そうだね",
+    "jpGuide1": "そ、そうだね＞",
+    "jpGuide2": "そ、そうだね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……＞",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一人で寂しくない？",
+    "jpGuide1": "一人で寂しくない？＞",
+    "jpGuide2": "一人で寂しくない？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……＞",
+    "jpGuide2": "怖いと思った……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜は何かを知っている",
+    "jpGuide1": "瑠璃亜は何かを知っている＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！＞",
+    "jpGuide2": "僕じゃない！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が支えになってた",
+    "jpGuide1": "あの声が支えになってた＞",
+    "jpGuide2": "あの声が支えになってた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "憧れるよね",
+    "jpGuide1": "憧れるよね＞",
+    "jpGuide2": "憧れるよね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕も読みたいから",
+    "jpGuide1": "僕も読みたいから＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "へんなところは嫌だよ",
+    "jpGuide1": "へんなところは嫌だよ＞",
+    "jpGuide2": "へんなところは嫌だよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やめてくださいっ、お姉さん！",
+    "jpGuide1": "やめてくださいっ、お姉さん！＞",
+    "jpGuide2": "やめてくださいっ、お姉さん！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "は、はい",
+    "jpGuide1": "は、はい＞",
+    "jpGuide2": "は、はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんな事ないよ",
+    "jpGuide1": "そんな事ないよ＞",
+    "jpGuide2": "そんな事ないよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにしてるの？",
+    "jpGuide1": "なにしてるの？＞",
+    "jpGuide2": "なにしてるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいよ、そんなお礼なんて",
+    "jpGuide1": "いいよ、そんなお礼なんて＞",
+    "jpGuide2": "いいよ、そんなお礼なんて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷の原因",
+    "jpGuide1": "傷の原因＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話してみた",
+    "jpGuide1": "話してみた＞",
+    "jpGuide2": "話してみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖くて震えてくるんだ",
+    "jpGuide1": "怖くて震えてくるんだ＞",
+    "jpGuide2": "怖くて震えてくるんだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そっと入る",
+    "jpGuide1": "そっと入る＞",
+    "jpGuide2": "そっと入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……＞",
+    "jpGuide2": "……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜編",
+    "jpGuide1": "End 18「瑠璃亜編」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  }
+]

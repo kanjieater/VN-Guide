@@ -1,5 +1,55 @@
 {
   "title": "Blood: The Last Vampire",
   "vndb_id": "v29081",
-  "routes": []
+  "routes": [
+    {
+      "id": "joukan",
+      "title": "上巻",
+      "stepCount": 121
+    },
+    {
+      "id": "yami_no_ou",
+      "title": "闇の王編",
+      "stepCount": 146
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://xneo.jp/blood-the-last-vampire1/",
+      "title": "BLOOD THE LAST VAMPIRE上巻完全攻略 (XNEO)",
+      "language": "ja",
+      "notes": "Complete choice-by-choice walkthrough for Joukan (Volume 1): full B.S.S. (Blood Search System) trigger list with exact preceding dialogue lines, and the full choice sequence for all 19 Joukan endings. Used as a primary source for Joukan structure and exact choice/BSS text."
+    },
+    {
+      "url": "https://xneo.jp/blood-the-last-vampire2/",
+      "title": "BLOOD THE LAST VAMPIRE下巻完全攻略 (XNEO)",
+      "language": "ja",
+      "notes": "Complete choice-by-choice walkthrough for Gekan (Volume 2): full B.S.S. trigger list and the full choice sequence for all 27 Gekan endings, labelled by route (闇の王編/究明編/灯子編/瑠璃亜編) where applicable, plus BLOOD level thresholds gating specific choices. Used as a primary source for Gekan structure and exact choice/BSS text."
+    },
+    {
+      "url": "http://www.eva.hi-ho.ne.jp/mmitsuru/blood/index.htm",
+      "title": "BLOOD THE LAST VAMPIRE - ドラやる？ (mmitsuru), via Wayback Machine",
+      "language": "ja",
+      "notes": "Second independent complete Japanese walkthrough, hosted on a now-dead personal site and recovered via web.archive.org (live snapshots used: index.htm 2016-05-06, geflag.htm 2005-03-09, geoooka.htm 2005-03-09, per-ending pages joend01-19.htm and geend01-27.htm mostly 2009-05-20/2009-05-23). Structured as one page per ending plus dedicated pages for the B.S.S. lists, the Joukan-to-Gekan flag carry-over rules (geflag.htm), and the Gekan 'Ooka Report' shortcut flowchart (geoooka.htm). This site is what confirmed the true ending is Gekan End27 '真・瑠璃亜編', the exact 3 carry-over flags and their names, and the Ooka Report shortcut mechanic. Cross-validated against xneo.jp: both agree on 19 Joukan / 27 Gekan endings and on the 4 named route labels, though the two sites number the Gekan endings in a different order (see disagreements)."
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/psp/930686-blood-the-last-vampire/faqs/12481",
+      "title": "Blood: The Last Vampire - Guide and Walkthrough (by Gene, GameFAQs, PSP)",
+      "language": "en",
+      "notes": "Supplementary English guide referenced only; GameFAQs blocked automated fetches (HTTP 403) so its content could not be directly verified in this research pass. Listed here for completeness/attribution; not used as a source of fact given it could not be read. Should be treated as secondary to the two Japanese sources per policy regardless."
+    },
+    {
+      "url": "https://note.com/fmasashi_game/n/n8a5cd8c03187",
+      "title": "BLOOD THE LAST VAMPIRE 上巻【PS2 全タイトルレビュー】#115 (Whitebear_game)",
+      "language": "ja",
+      "notes": "A retrospective review, not a walkthrough - confirms general mechanics (BSS, BLOOD/vampire-degree level raising bad-end risk) but has no choice text, route names, or ending list. Used only as narrative/context background, not as a walkthrough source."
+    },
+    {
+      "url": "https://note.com/fmasashi_game/n/ne84e7a86b6a5",
+      "title": "BLOOD THE LAST VAMPIRE 下巻【PS2 全タイトルレビュー】#116 (Whitebear_game)",
+      "language": "ja",
+      "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
+    }
+  ],
+  "generated_at": "2026-07-27T12:53:32.534397+00:00"
 }

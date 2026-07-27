@@ -1,0 +1,1434 @@
+[
+  {
+    "simpleJp": "私は……嫌！",
+    "jpGuide1": "私は……嫌！",
+    "jpGuide2": "・私は......嫌！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の道は……私が決める",
+    "jpGuide1": "私の道は……私が決める",
+    "jpGuide2": "・私の道は......私が決める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "△□△",
+    "jpGuide1": "[デュエロ]△□△(成功)",
+    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう少し話したい……",
+    "jpGuide1": "もう少し話したい……",
+    "jpGuide2": "・もう少し話したい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "ダンテ",
+    "jpGuide2": "▶︎【Select】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん……頑張ろう……",
+    "jpGuide1": "うん……頑張ろう……",
+    "jpGuide2": "・うん......頑張ろう......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何かあるの？",
+    "jpGuide1": "何かあるの？",
+    "jpGuide2": "・何かあるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お祝い？",
+    "jpGuide1": "お祝い？",
+    "jpGuide2": "・......お祝い？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]港(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "△",
+    "jpGuide1": "[デュエロ]△(成功)",
+    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "頑張ってみる",
+    "jpGuide1": "頑張ってみる",
+    "jpGuide2": "・頑張ってみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ",
+    "jpGuide1": "[MAP]剣待機室(ルカ)",
+    "jpGuide2": "▶︎【MAP】ルカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう……でも急にどうしたの？",
+    "jpGuide1": "ありがとう……でも急にどうしたの？",
+    "jpGuide2": "・ありがとう......でも急にどうしたの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "嬉しい……",
+    "jpGuide1": "嬉しい……",
+    "jpGuide2": "・嬉しい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "幹部としてクールに！",
+    "jpGuide1": "幹部としてクールに！",
+    "jpGuide2": "・幹部としてクールに！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "香りも楽しみたい",
+    "jpGuide1": "香りも楽しみたい",
+    "jpGuide2": "・香りも楽しみたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジョーリィ",
+    "jpGuide1": "[MAP]相談役執務室(ジョーリィ)",
+    "jpGuide2": "▶︎【MAP】ジョーリィ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すみれの花の事？",
+    "jpGuide1": "すみれの花の事？",
+    "jpGuide2": "・すみれの花の事？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……今年はあげる気になれない",
+    "jpGuide1": "……今年はあげる気になれない",
+    "jpGuide2": "・......今年はあげる気になれない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２人とも仲いいな……私も入れてもらおう",
+    "jpGuide1": "２人とも仲いいな……私も入れてもらおう",
+    "jpGuide2": "・２人とも仲いいな......私も入れてもらおう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタについて行く",
+    "jpGuide1": "リベルタについて行く",
+    "jpGuide2": "・リベルタについて行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あったかい……",
+    "jpGuide1": "あったかい……",
+    "jpGuide2": "・あったかい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……かわいいリボン……",
+    "jpGuide1": "……かわいいリボン……",
+    "jpGuide2": "・......かわいいリボン......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "フェデリカ……看板猫",
+    "jpGuide1": "フェデリカ……看板猫",
+    "jpGuide2": "・フェデリカ......看板猫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "・ありがとう......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]訓練場(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "・ありがとう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ、頑張って",
+    "jpGuide1": "リベルタ、頑張って",
+    "jpGuide2": "・リベルタ、頑張って",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……この人にナイフはまずい",
+    "jpGuide1": "……この人にナイフはまずい",
+    "jpGuide2": "・......この人にナイフはまずい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "？",
+    "jpGuide1": "[MAP]廊下(？)",
+    "jpGuide2": "▶︎【MAP】廊下（？）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……わかった、誰か連れてくる",
+    "jpGuide1": "……わかった、誰か連れてくる",
+    "jpGuide2": "・......わかった、誰か連れてくる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "幹部長室なら誰かいるかも……",
+    "jpGuide1": "幹部長室なら誰かいるかも……",
+    "jpGuide2": "・幹部長室なら誰かいるかも......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……レガーロのドルチェが待ってる",
+    "jpGuide1": "……レガーロのドルチェが待ってる",
+    "jpGuide2": "・......レガーロのドルチェが待ってる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]幹部長執務室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "明日の予定を聞きたい",
+    "jpGuide1": "明日の予定を聞きたい",
+    "jpGuide2": "・明日の予定を聞きたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタには秘密",
+    "jpGuide1": "リベルタには秘密",
+    "jpGuide2": "・リベルタには秘密",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ゴルゴンゾーラチーズ",
+    "jpGuide1": "ゴルゴンゾーラチーズ",
+    "jpGuide2": "・ゴルゴンゾーラチーズ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "王冠を乗せればいいの？",
+    "jpGuide1": "王冠を乗せればいいの？",
+    "jpGuide2": "・王冠を乗せればいいの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテって父親みたい……",
+    "jpGuide1": "ダンテって父親みたい……",
+    "jpGuide2": "・ダンテって父親みたい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]寝室(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……部屋を間違えたかも",
+    "jpGuide1": "……部屋を間違えたかも",
+    "jpGuide2": "・......部屋を間違えたかも",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァの言った道で行く",
+    "jpGuide1": "ノヴァの言った道で行く",
+    "jpGuide2": "・ノヴァの言った道で行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……別に気にしてない",
+    "jpGuide1": "……別に気にしてない",
+    "jpGuide2": "・......別に気にしてない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]港(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "よろしくね",
+    "jpGuide1": "よろしくね",
+    "jpGuide2": "・よろしくね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それなら私に何かお礼をして！",
+    "jpGuide1": "それなら私に何かお礼をして！",
+    "jpGuide2": "・それなら私に何かお礼をして！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]船長室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ひよこ豆の冷製スープなんて初めて！",
+    "jpGuide1": "ひよこ豆の冷製スープなんて初めて！",
+    "jpGuide2": "・ひよこ豆の冷製スープなんて初めて！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ブラウンさん、失礼です！",
+    "jpGuide1": "ブラウンさん、失礼です！",
+    "jpGuide2": "・ブラウンさん、失礼です！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ドレスって……絹？",
+    "jpGuide1": "ドレスって……絹？",
+    "jpGuide2": "・ドレスって......絹？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……災難、かもしれない",
+    "jpGuide1": "……災難、かもしれない",
+    "jpGuide2": "・......災難、かもしれない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "楽しい？",
+    "jpGuide1": "楽しい？",
+    "jpGuide2": "・楽しい？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]剣待機室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "誰から？",
+    "jpGuide1": "誰から？",
+    "jpGuide2": "・誰から？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何を？",
+    "jpGuide1": "何を？",
+    "jpGuide2": "・何を？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私でも手伝える？",
+    "jpGuide1": "私でも手伝える？",
+    "jpGuide2": "・私でも手伝える？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]市場(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "多分……",
+    "jpGuide1": "多分……",
+    "jpGuide2": "・多分......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテを信じてる！",
+    "jpGuide1": "ダンテを信じてる！",
+    "jpGuide2": "・ダンテを信じてる！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行かないで……",
+    "jpGuide1": "行かないで……",
+    "jpGuide2": "・行かないで......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]アルカナ号(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "港が騒がしいみたい",
+    "jpGuide1": "港が騒がしいみたい",
+    "jpGuide2": "・港が騒がしいみたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]訓練場(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "『アルカナ・デュエロ』に備えようと思って",
+    "jpGuide1": "『アルカナ・デュエロ』に備えようと思って",
+    "jpGuide2": "・『アルカナ・デュエロ』に備えようと思って",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんで年に一度なの？",
+    "jpGuide1": "なんで年に一度なの？",
+    "jpGuide2": "・なんで年に１度なの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんで……ここまで……",
+    "jpGuide1": "なんで……ここまで……",
+    "jpGuide2": "・なんで.......ここまで......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうなるか……わかってるよね",
+    "jpGuide1": "どうなるか……わかってるよね",
+    "jpGuide2": "・どうなるか......わかってるよね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２人とも本当に慣れてるね",
+    "jpGuide1": "２人とも本当に慣れてるね",
+    "jpGuide2": "・２人とも本当に慣れてるわね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "予定次第かな",
+    "jpGuide1": "予定次第かな",
+    "jpGuide2": "・予定次第かな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]アルカナ号(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "例えば食べ物とか？",
+    "jpGuide1": "例えば食べ物とか？",
+    "jpGuide2": "・例えば食べ物とか？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]港(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "諜報部式レガーロ鍋が作れるようになりたい",
+    "jpGuide1": "諜報部式レガーロ鍋が作れるようになりたい",
+    "jpGuide2": "・諜報部式『レガーロ鍋』が作れるようになりたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]アルカナ号(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まずは野菜から",
+    "jpGuide1": "まずは野菜から",
+    "jpGuide2": "・まずは野菜から",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "カルチョ、やってみたい",
+    "jpGuide1": "カルチョ、やってみたい",
+    "jpGuide2": "・カルチョ、やってみたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の事で何か悩んでる？",
+    "jpGuide1": "私の事で何か悩んでる？",
+    "jpGuide2": "・私の事で何か悩んでる？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]幹部長執務室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "情報を、事前に伝えてみたら？",
+    "jpGuide1": "情報を、事前に伝えてみたら？",
+    "jpGuide2": "・情報を、事前に伝えてみたら？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "『レガーロ島が楽しめるメニュー』を用意しよう",
+    "jpGuide1": "『レガーロ島が楽しめるメニュー』を用意しよう",
+    "jpGuide2": "・『レガーロ島が楽しめるメニュー』を用意しよう！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]市場(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仮面好きなんて珍しい",
+    "jpGuide1": "仮面好きなんて珍しい",
+    "jpGuide2": "・仮面好きなんて珍しい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつも見せに行ってるの？",
+    "jpGuide1": "いつも見せに行ってるの？",
+    "jpGuide2": "・いつも見せに行ってるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "悪いことしちゃったね",
+    "jpGuide1": "悪いことしちゃったね",
+    "jpGuide2": "・悪いことしちゃったね",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "蹴りを見せよう……",
+    "jpGuide1": "蹴りを見せよう……",
+    "jpGuide2": "・蹴りを見せよう......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……リベルタらしくない",
+    "jpGuide1": "……リベルタらしくない",
+    "jpGuide2": "・......リベルタらしくない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]市場(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "食事はどうしてるの？",
+    "jpGuide1": "食事はどうしてるの？",
+    "jpGuide2": "・食事はどうしてるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "心配だから……",
+    "jpGuide1": "心配だから……",
+    "jpGuide2": "・心配だから......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行こう……ノヴァ",
+    "jpGuide1": "行こう……ノヴァ",
+    "jpGuide2": "・行こう......ノヴァ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "初めて見た……？",
+    "jpGuide1": "初めて見た……？",
+    "jpGuide2": "・初めて見た......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も、行く",
+    "jpGuide1": "私も、行く",
+    "jpGuide2": "・私も、行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "□×□△",
+    "jpGuide1": "[デュエロ]□×□△(成功)",
+    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]寝室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテとは知り合い？？",
+    "jpGuide1": "ダンテとは知り合い？？",
+    "jpGuide2": "・ダンテとは知り合い？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテに止められてるから",
+    "jpGuide1": "ダンテに止められてるから",
+    "jpGuide2": "・ダンテに止められてるから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうしてそんなことに？",
+    "jpGuide1": "どうしてそんなことに？",
+    "jpGuide2": "・どうしてそんなことに？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ビヴァーチェ広場(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隣に座ってもいい？",
+    "jpGuide1": "隣に座ってもいい？",
+    "jpGuide2": "・隣に座ってもいい？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]市場(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ、聞いてくれる？",
+    "jpGuide1": "ルカ、聞いてくれる？",
+    "jpGuide2": "・ルカ、聞いてくれる？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテらしくなかった",
+    "jpGuide1": "ダンテらしくなかった",
+    "jpGuide2": "・ダンテらしくなかった",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の力は……",
+    "jpGuide1": "私の力は……",
+    "jpGuide2": "・......私の力は......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仮面とリベルタは何か関係があるの？",
+    "jpGuide1": "仮面とリベルタは何か関係があるの？",
+    "jpGuide2": "・仮面とリベルタは何か関係があるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタも仮面のことを気にしていた",
+    "jpGuide1": "リベルタも仮面のことを気にしていた",
+    "jpGuide2": "・リベルタも仮面のことを気にしていた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうすれば元のリベルタに戻るの？",
+    "jpGuide1": "どうすれば元のリベルタに戻るの？",
+    "jpGuide2": "・どうすれば元のリベルタに戻るの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ファミリーには必要",
+    "jpGuide1": "ファミリーには必要",
+    "jpGuide2": "・ファミリーには必要",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……いいの？",
+    "jpGuide1": "……いいの？",
+    "jpGuide2": "・いいの......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大丈夫……真相は確かめる",
+    "jpGuide1": "大丈夫……真相は確かめる",
+    "jpGuide2": "・大丈夫......真相は確かめる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]食堂(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何故『３人揃って』",
+    "jpGuide1": "何故『３人揃って』",
+    "jpGuide2": "・何故『３人揃って』？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]港(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私はここに残ろう",
+    "jpGuide1": "私はここに残ろう",
+    "jpGuide2": "・私はここに残ろう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それは出来ない",
+    "jpGuide1": "それは出来ない",
+    "jpGuide2": "・それは出来ない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……私とマンマが似てるって",
+    "jpGuide1": "……私とマンマが似てるって",
+    "jpGuide2": "・......私とマンマが似てるって",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……好きになったから？",
+    "jpGuide1": "……好きになったから？",
+    "jpGuide2": "・......好きになったから？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]フィオーレ通り(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕事の時はスーツ",
+    "jpGuide1": "仕事の時はスーツ",
+    "jpGuide2": "・仕事の時はスーツ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "今日は魚料理が食べたい",
+    "jpGuide1": "今日は魚料理が食べたい",
+    "jpGuide2": "・今日は魚料理が食べたい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]食堂(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……ノヴァ、ありがとう",
+    "jpGuide1": "……ノヴァ、ありがとう",
+    "jpGuide2": "・......ノヴァ、ありがとう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そうかもしれない……",
+    "jpGuide1": "そうかもしれない……",
+    "jpGuide2": "・そうかもしれない......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "帰るつもりはないよ",
+    "jpGuide1": "帰るつもりはないよ",
+    "jpGuide2": "・帰るつもりはないよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "『アルカナ・デュエロ』はあきらめるの？",
+    "jpGuide1": "『アルカナ・デュエロ』はあきらめるの？",
+    "jpGuide2": "・『アルカナ・デュエロ』はあきらめるの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分を信じて！",
+    "jpGuide1": "自分を信じて！",
+    "jpGuide2": "・自分を信じて！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も放っておけない！",
+    "jpGuide1": "私も放っておけない！",
+    "jpGuide2": "・私も放っておけない！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無理しないで",
+    "jpGuide1": "無理しないで",
+    "jpGuide2": "・無理しないで",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "暖かい……",
+    "jpGuide1": "暖かい……",
+    "jpGuide2": "・温かい......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタはもう平気？",
+    "jpGuide1": "リベルタはもう平気？",
+    "jpGuide2": "・リベルタはもう平気？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテは優しい",
+    "jpGuide1": "ダンテは優しい",
+    "jpGuide2": "・ダンテは優しい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタにはこれがある……",
+    "jpGuide1": "リベルタにはこれがある……",
+    "jpGuide2": "・リベルタにはこれがある......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]フィオーレ通り(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "守られなきゃならないような危険は冒さない！",
+    "jpGuide1": "守られなきゃならないような危険は冒さない！",
+    "jpGuide2": "・守られなきゃならないような危険は冒さない！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "釣りって狙った魚を釣れるもの？",
+    "jpGuide1": "釣りって狙った魚を釣れるもの？",
+    "jpGuide2": "・釣りって......狙った魚を釣れるもの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]幹部長執務室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテはジャッポネに詳しいの？",
+    "jpGuide1": "ダンテはジャッポネに詳しいの？",
+    "jpGuide2": "・ダンテはジャッポネに詳しいの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ビヴァーチェ広場(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕事ってわけじゃない",
+    "jpGuide1": "仕事ってわけじゃない",
+    "jpGuide2": "・仕事って訳じゃない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私と……ダンテが戦うことを望んでいる",
+    "jpGuide1": "私と……ダンテが戦うことを望んでいる",
+    "jpGuide2": "・私と......ダンテが戦う事を望んでいる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "みんなが私を守ってくれる",
+    "jpGuide1": "みんなが私を守ってくれる",
+    "jpGuide2": "・みんなが私を守ってくれる......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "□×××□",
+    "jpGuide1": "[デュエロ]□×××□(成功)",
+    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……私、頑張ろうと思う……",
+    "jpGuide1": "……私、頑張ろうと思う……",
+    "jpGuide2": "・......私、頑張ろうと思う......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジョーリィ",
+    "jpGuide1": "[MAP]厨房(ジョーリィ)",
+    "jpGuide2": "▶︎【MAP】ジョーリィ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "実験に使うの？",
+    "jpGuide1": "実験に使うの？",
+    "jpGuide2": "・実験に使うの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "[MAP]船長室(リベルタ)",
+    "jpGuide2": "▶︎【MAP】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私がついてる……",
+    "jpGuide1": "私がついてる……",
+    "jpGuide2": "・私がついてる......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……信じてる",
+    "jpGuide1": "……信じてる",
+    "jpGuide2": "・......信じてる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]海岸(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見回り？",
+    "jpGuide1": "見回り？",
+    "jpGuide2": "・見回り？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "・うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマの住んでいた国……",
+    "jpGuide1": "マンマの住んでいた国……",
+    "jpGuide2": "・マンマの住んでた国......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマも凄いと思う",
+    "jpGuide1": "マンマも凄いと思う",
+    "jpGuide2": "・マンマもすごいと思う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]港(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "さみしい……？",
+    "jpGuide1": "さみしい……？",
+    "jpGuide2": "・さみしい......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私の道は……私が決める！",
+    "jpGuide1": "私の道は……私が決める！",
+    "jpGuide2": "・私の道は......私が決める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18",
+    "jpGuide1": "Save1",
+    "jpGuide2": "▼SAVE1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつ倒れたの！？",
+    "jpGuide1": "いつ倒れたの！？",
+    "jpGuide2": "・いつ倒れたの！？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "運命の輪……",
+    "jpGuide1": "運命の輪……",
+    "jpGuide2": "・運命の輪......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]書斎(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマの酔っ払いに対する仕打ちって……？",
+    "jpGuide1": "マンマの酔っ払いに対する仕打ちって……？",
+    "jpGuide2": "・マンマの酔っ払いに対する仕打ちって......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]幹部長執務室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "机の上かな",
+    "jpGuide1": "机の上かな",
+    "jpGuide2": "・机の上かな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ、これ……",
+    "jpGuide1": "リベルタ、これ……",
+    "jpGuide2": "・リベルタ、これ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "退がりなさい！",
+    "jpGuide1": "退がりなさい！",
+    "jpGuide2": "・退がりなさい！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何故仮面の男になっていたの？",
+    "jpGuide1": "何故仮面の男になっていたの？",
+    "jpGuide2": "・何故仮面の男になっていたの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "止めてみせる……",
+    "jpGuide1": "止めてみせる……",
+    "jpGuide2": "・止めてみせる......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]海岸(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "この海の向こうにダンテの国が……",
+    "jpGuide1": "この海の向こうにダンテの国が……",
+    "jpGuide2": "・この海の向こうにダンテの国が......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "□",
+    "jpGuide1": "[デュエロ]□",
+    "jpGuide2": "▶︎【デュエロ】□（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も楽しかった！",
+    "jpGuide1": "私も楽しかった！",
+    "jpGuide2": "・私も楽しかった！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私ももう子供じゃない",
+    "jpGuide1": "私ももう子供じゃない",
+    "jpGuide2": "・私ももう子供じゃない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]庭(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大砲に乗ったら危ない？",
+    "jpGuide1": "大砲に乗ったら危ない？",
+    "jpGuide2": "・大砲に乗ったら危ない......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]ダンテ",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]寝室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "楽しかった……大砲打つの",
+    "jpGuide1": "楽しかった……大砲打つの",
+    "jpGuide2": "・楽しかった......大砲撃つの",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "[MAP]船長室(ダンテ)",
+    "jpGuide2": "▶︎【MAP】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19",
+    "jpGuide1": "Save2",
+    "jpGuide2": "▼SAVE2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……自分でも、わからない",
+    "jpGuide1": "……自分でも分からない",
+    "jpGuide2": "・......自分でも、わからない",
+    "enGuide": "",
+    "badEndPath": "ダンテED2"
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私もなにか……",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "ダンテ",
+    "jpGuide2": "▶︎【Select】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "×□×△××",
+    "jpGuide1": "[デュエロ]×□×△××(成功) → ダンテED2",
+    "jpGuide2": "▶︎【デュエロ】×□×△××（成功） → ダンテED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19にロード",
+    "jpGuide1": "Save2より",
+    "jpGuide2": "▶️SAVE2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "6/1までシナリオスキップ",
+    "jpGuide1": "6/1までシナリオスキップ",
+    "jpGuide2": "▶︎６／１までシナリオスキップ",
+    "enGuide": "",
+    "badEndPath": "ノーマルED"
+  },
+  {
+    "simpleJp": "□□□△×□",
+    "jpGuide1": "[デュエロ]□□□△×□(成功)",
+    "jpGuide2": "▶︎【デュエロ】□□□△×□（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何も失いたくない。でも、パーパも失えない",
+    "jpGuide1": "何も失いたくない。でも、パーパも失えない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "第１０のカード『ルオータ・デラ・フォルトゥナ』",
+    "jpGuide1": "第１０のカード『ルオータ・デラ・フォルトゥナ』 → ノーマルED",
+    "jpGuide2": "・第１０のカード『ルオータ・デラ・フォルトゥナ』 → ノーマルED",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19にロード",
+    "jpGuide1": "Save2より",
+    "jpGuide2": "▶️SAVE2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "バカなダンテを放っておけないから",
+    "jpGuide1": "バカなダンテを放っておけないから",
+    "jpGuide2": "・バカなダンテを放っておけないから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私もなにか……",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "ダンテ",
+    "jpGuide2": "▶︎【Select】ダンテ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ20",
+    "jpGuide1": "Save3",
+    "jpGuide2": "▼SAVE3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "失敗",
+    "jpGuide1": "[デュエロ](失敗) → ダンテED3",
+    "jpGuide2": "▶︎【デュエロ】失敗 → ダンテED3",
+    "enGuide": "",
+    "badEndPath": "ダンテED3"
+  },
+  {
+    "simpleJp": "セーブ20にロード",
+    "jpGuide1": "Save3より",
+    "jpGuide2": "▶️SAVE3より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "×□×△××",
+    "jpGuide1": "[デュエロ]×□×△××(成功)",
+    "jpGuide2": "▶︎【デュエロ】×□×△××（成功）",
+    "enGuide": "",
+    "badEndPath": "ダンテED1"
+  },
+  {
+    "simpleJp": "これからは２人の航海日誌を書こう！",
+    "jpGuide1": "これからは２人の航海日誌を書こう！ → ダンテED1",
+    "jpGuide2": "・これからは２人の航海日誌を書こう！ → ダンテED1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18にロード",
+    "jpGuide1": "全員攻略後Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "いつ倒れたの！？",
+    "jpGuide1": "いつ倒れたの！？",
+    "jpGuide2": "・いつ倒れたの！？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "運命の輪……",
+    "jpGuide1": "運命の輪……",
+    "jpGuide2": "・運命の輪......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "必ず私がパーパを……ファミリーを助けてみせる",
+    "jpGuide1": "必ず私がパーパを……ファミリーを助けてみせる",
+    "jpGuide2": "・必ず私がパーパを......ファミリーを助けてみせる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ21",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▼SAVE4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "失敗",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶︎【デュエロ】失敗 → 敗北ED",
+    "enGuide": "",
+    "badEndPath": "敗北ED"
+  },
+  {
+    "simpleJp": "セーブ21にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶️SAVE4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "□□□△×□",
+    "jpGuide1": "[デュエロ]□□□△×□(成功)",
+    "jpGuide2": "▶︎【デュエロ】□□□△×□（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "第１０のカード『ルオータ・デラ・フォルトゥナ』",
+    "jpGuide1": "第１０のカード『ルオータ・デラ・フォルトゥナ』",
+    "jpGuide2": "・第１０のカード『ルオータ・デラ・フォルトゥナ』",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ファミリアED",
+    "jpGuide1": "ファミリアED",
+    "jpGuide2": "ファミリアED",
+    "enGuide": ""
+  }
+]

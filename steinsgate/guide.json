@@ -7,6 +7,35 @@
       "title": "鈴羽END",
       "stepCount": 50,
       "portrait": "https://t.vndb.org/ch/36/97236.jpg"
+    },
+    {
+      "id": "faris",
+      "title": "フェイリスEND",
+      "stepCount": 56,
+      "portrait": "https://t.vndb.org/ch/35/97235.jpg"
+    },
+    {
+      "id": "ruka",
+      "title": "るかEND",
+      "stepCount": 59,
+      "portrait": "https://t.vndb.org/ch/44/28044.jpg"
+    },
+    {
+      "id": "mayuri",
+      "title": "まゆりEND",
+      "stepCount": 63,
+      "portrait": "https://t.vndb.org/ch/95/97195.jpg"
+    },
+    {
+      "id": "kurisu",
+      "title": "紅莉栖END",
+      "stepCount": 88,
+      "portrait": "https://t.vndb.org/ch/34/97234.jpg"
+    },
+    {
+      "id": "true_end",
+      "title": "STEINS;GATE（真END）",
+      "stepCount": 3
     }
   ],
   "sources": [
@@ -53,5 +82,5 @@
       "notes": "Reference only. Confirms v2002 is the original STEINS;GATE (first released Xbox 360, 2009-10-15; PC 2010; later ported to PS3/Vita, Steam 2017-09-11, Switch 2019, iOS/Android 2022). All of these ports share the same story/route content (no routes added between ports) per the walkthrough sites, which reference the wiki content as still valid for the current Steam/Switch/mobile releases. A separate upcoming 'STEINS;GATE RE:BOOT' full remake is scheduled to launch 2026-08-19 through 2026-10-29 across Steam/PS5/Xbox Series/Switch — this is NOT yet released as of the research date (2026-07-26), so it was not targeted; STEINS;GATE ELITE (anime-cutscene version) and STEINS;GATE 0 (sequel) are separate VNDB entries and out of scope for v2002."
     }
   ],
-  "generated_at": "2026-07-26T15:20:01.645905+00:00"
+  "generated_at": "2026-07-26T22:13:44.313189+00:00"
 }

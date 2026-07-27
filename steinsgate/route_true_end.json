@@ -1,0 +1,21 @@
+[
+  {
+    "simpleJp": "セーブ34にロード",
+    "jpGuide1": "セーブポイント【B】をロードする",
+    "jpGuide2": "【セーブ7】をロード",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "居場所",
+    "jpGuide1": "紅莉栖メール【今どこ？】 → 「居場所」と返信する。",
+    "jpGuide2": "紅莉栖：メール「今どこ？」に「居場所」と返信",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "境界面上のシュタインズゲート",
+    "jpGuide1": "真END「境界面上のシュタインズゲート」",
+    "jpGuide2": "TRUE ENDへ",
+    "enGuide": ""
+  }
+]

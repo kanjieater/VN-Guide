@@ -7,6 +7,42 @@
       "title": "リベルタルート",
       "stepCount": 192,
       "portrait": "https://t.vndb.org/ch/85/9085.jpg"
+    },
+    {
+      "id": "parche",
+      "title": "パーチェルート",
+      "stepCount": 187,
+      "portrait": "https://t.vndb.org/ch/89/9089.jpg"
+    },
+    {
+      "id": "debito",
+      "title": "デビトルート",
+      "stepCount": 179,
+      "portrait": "https://t.vndb.org/ch/88/9088.jpg"
+    },
+    {
+      "id": "luca",
+      "title": "ルカルート",
+      "stepCount": 198,
+      "portrait": "https://t.vndb.org/ch/91/9091.jpg"
+    },
+    {
+      "id": "nova",
+      "title": "ノヴァルート",
+      "stepCount": 196,
+      "portrait": "https://t.vndb.org/ch/90/9090.jpg"
+    },
+    {
+      "id": "jolly",
+      "title": "ジョーリィルート",
+      "stepCount": 170,
+      "portrait": "https://t.vndb.org/ch/93/9093.jpg"
+    },
+    {
+      "id": "dante",
+      "title": "ダンテルート",
+      "stepCount": 237,
+      "portrait": "https://t.vndb.org/ch/92/9092.jpg"
     }
   ],
   "sources": [
@@ -53,5 +89,5 @@
       "notes": "Reference only. Official site for the Switch/Steam Rinato release. Confirms the main story premise (Arcana Duello tournament, April 1 to June 1 timeframe) and character roles (Mondo as boss/father, Sumire as his wife, Nova/Parche/Debito/Dante as department executives). No route order or bad-end information; used only to confirm this is the same base story as the PSP/Vita versions with no restructured routes."
     }
   ],
-  "generated_at": "2026-07-26T15:20:22.792854+00:00"
+  "generated_at": "2026-07-27T08:19:52.228784+00:00"
 }

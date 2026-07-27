@@ -1,5 +1,36 @@
 {
   "title": "Kono Yo no Hate de Koi o Utau Shoujo YU-NO",
   "vndb_id": "v1377",
-  "routes": []
+  "routes": [
+    {
+      "id": "mitsuki",
+      "title": "美月ルート",
+      "stepCount": 294
+    },
+    {
+      "id": "ayumi",
+      "title": "亜由美ルート",
+      "stepCount": 218
+    },
+    {
+      "id": "kaori",
+      "title": "香織ルート",
+      "stepCount": 174
+    },
+    {
+      "id": "mio",
+      "title": "澪ルート",
+      "stepCount": 158
+    },
+    {
+      "id": "kanna",
+      "title": "神奈ルート",
+      "stepCount": 56
+    },
+    {
+      "id": "new_world",
+      "title": "異世界ルート",
+      "stepCount": 19
+    }
+  ]
 }

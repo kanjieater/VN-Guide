@@ -1,0 +1,338 @@
+[
+  {
+    "simpleJp": "【自宅前】宝玉ロード（神奈ルート用）を使用する",
+    "jpGuide1": "《宝玉ロード (3) 》：ロード地点に戻ったら",
+    "jpGuide2": "香織ルート　宝玉セーブポイントから 5A",
+    "enGuide": "Load [Jewel Save #Kanna]."
+  },
+  {
+    "simpleJp": "【自宅前】宝玉セーブを作成する（神奈ルート用）",
+    "jpGuide1": "再度《宝玉セーブ》を行い",
+    "jpGuide2": "（再セーブする）",
+    "enGuide": "*Leave [Jewel Save #Kanna] again."
+  },
+  {
+    "simpleJp": "【自宅前】街へ移動",
+    "jpGuide1": "〔街〕へ移動すると",
+    "jpGuide2": "街：",
+    "enGuide": "Move/City"
+  },
+  {
+    "simpleJp": "【街】北条と会話（4回）",
+    "jpGuide1": "北条とのイベントが発生。イベント後",
+    "jpGuide2": "北条と会話",
+    "enGuide": "Talk (4x) (Houjou)"
+  },
+  {
+    "simpleJp": "【街】高台を経て、マンション前へ移動",
+    "jpGuide1": "〔マンション前〕へ移動",
+    "jpGuide2": "神奈の部屋前：",
+    "enGuide": "Move/Heights ... Move/Apartment building"
+  },
+  {
+    "simpleJp": "【マンション前】廊下へ移動し、チャイムを押し、ドアを調べ（2回）、部屋に入る",
+    "jpGuide1": "〔マンション前～神奈の部屋〕：【チャイム】を2回押して【ドア】を2回調べて部屋に入ったら",
+    "jpGuide2": "神奈の部屋に入る",
+    "enGuide": "Move/Corridor ... Push (Doorbell) ... Open (2x) (Doorknob)"
+  },
+  {
+    "simpleJp": "【神奈の部屋】宝玉ロードを使用する（神奈ルート用へ戻る）",
+    "jpGuide1": "《宝玉ロード》を使用する",
+    "jpGuide2": "神奈ルートに入る宝玉セーブに戻る （再セーブは不要） 3F→5B",
+    "enGuide": "*Load [Jewel Save #Kanna]"
+  },
+  {
+    "simpleJp": "【自宅前】海岸へ移動",
+    "jpGuide1": "《宝玉ロード》：ロード地点に戻り〔海岸〕へ移動、",
+    "jpGuide2": "海岸：",
+    "enGuide": "Move/Coast"
+  },
+  {
+    "simpleJp": "【海岸】会社の方（遠くの建物）を調べ、イベントを見る",
+    "jpGuide1": "〔会社前〕へ行こうとすると香織と遭遇、会話後",
+    "jpGuide2": "サイレンが鳴ってて会社の方を見ると香織が来る （自宅前に戻される）",
+    "enGuide": "? (Distant buildings)"
+  },
+  {
+    "simpleJp": "【自宅前】街へ移動",
+    "jpGuide1": "〔街〕へ行くと",
+    "jpGuide2": "街：",
+    "enGuide": "Move/City"
+  },
+  {
+    "simpleJp": "【街】北条と会話",
+    "jpGuide1": "北条とのイベントが発生。イベント後",
+    "jpGuide2": "北条と会話",
+    "enGuide": "Talk (Houjou)"
+  },
+  {
+    "simpleJp": "【街】高台を経て、マンション前へ移動",
+    "jpGuide1": "〔マンション前〕へ移動",
+    "jpGuide2": "神奈の部屋：",
+    "enGuide": "Move/Heights ... Move/Apartment building"
+  },
+  {
+    "simpleJp": "【マンション前】廊下へ移動し、チャイムを押し、ドアを調べ（2回）、部屋に入る",
+    "jpGuide1": "〔マンション前～神奈の部屋〕：【チャイム】を2回、【ドア】を2回調べて部屋に入り、",
+    "jpGuide2": "",
+    "enGuide": "Move/Corridor ... Push (Doorbell) ... Open (2x) (Doorknob)"
+  },
+  {
+    "simpleJp": "【神奈の部屋】周辺を一通り調べ（各2回）、吊戸棚から通帳と写真を発見する",
+    "jpGuide1": "部屋の中を一通り調べてから再度【吊戸棚】を調べると",
+    "jpGuide2": "キッチンの棚から通帳と写真を見つける （神奈ルートに戻る）",
+    "enGuide": "Look/Investigate (Click everything twice) ... Open (Cupboard) (Find passbook)"
+  },
+  {
+    "simpleJp": "【神奈の部屋】左側の壁（バスルーム）を調べ、イベントを見る",
+    "jpGuide1": "物音がするので【バスルーム】を見ると神奈とのイベントが発生。",
+    "jpGuide2": "？マークで画面の左のほうを見ると神奈が入浴中",
+    "enGuide": "? (Entrance on left side)"
+  },
+  {
+    "simpleJp": "【神奈の部屋】神奈と会話（4回）し、翌日へ",
+    "jpGuide1": "翌日になったら",
+    "jpGuide2": "次の日になり",
+    "enGuide": "Talk (4x) (Kanna) ... --- Next Day ---"
+  },
+  {
+    "simpleJp": "（翌日）公園へ移動し、神奈と会話（6回）",
+    "jpGuide1": "〔公園〕へ移動し、神奈とのイベントを見たら",
+    "jpGuide2": "公園で ネックレスの話を聞く",
+    "enGuide": "--- Park --- ... Talk (6x) (Kanna)"
+  },
+  {
+    "simpleJp": "【公園】高台・街を経て、自宅前へ移動",
+    "jpGuide1": "〔自宅前〕へ移動",
+    "jpGuide2": "リビング：",
+    "enGuide": "Move/Heights ... Move/City ... Move/Outside my house"
+  },
+  {
+    "simpleJp": "【自宅前】家の中（リビング）に入り、『親父の手紙』のイベントを進行する（※ADMSで所持済でも必ずリビングへ入る）",
+    "jpGuide1": "〔自宅～三角山・社〕：一度家の中に入ってから ... 〔リビング〕で『親父の手紙』を入手（持っていても寄っておく）。",
+    "jpGuide2": "「親父の手紙」を入手（持っていても寄っておく）",
+    "enGuide": "--- Home / My House --- ... Move/Living room ---> [Father’s letter]"
+  },
+  {
+    "simpleJp": "【リビング】自宅前・海岸を経て、社へ移動し、澪と会話",
+    "jpGuide1": "〔社〕へ向かうと澪と遭遇、会話後",
+    "jpGuide2": "社：澪と会話",
+    "enGuide": "Move/Outside my house ... Move/Coast ... Move/Shrine ... Talk (Mio)"
+  },
+  {
+    "simpleJp": "【社】海岸を経て会社前へ移動し、香織（4回）・亜由美と会話",
+    "jpGuide1": "〔会社前〕へ移動\n↓\n〔ジオ・テクニス社～海岸〕：香織と亜由美と遭遇、会話後",
+    "jpGuide2": "会社：香織と亜由美に会う",
+    "enGuide": "Move/Coast ... Move/Company ... Talk (4x) (Kaori)"
+  },
+  {
+    "simpleJp": "【会社前】海岸へ移動し、作業員と会話",
+    "jpGuide1": "〔海岸〕に戻って【作業員】と会話後",
+    "jpGuide2": "海岸：工事関係者と会話",
+    "enGuide": "Move/Coast ... Talk to Workers"
+  },
+  {
+    "simpleJp": "【海岸】自宅前・街・高台を経て、マンション前へ移動",
+    "jpGuide1": "〔マンション前〕へ移動",
+    "jpGuide2": "神奈の部屋前：",
+    "enGuide": "Move/Outside my house ... Move/City ... Move/Heights ... Move/Apartment building"
+  },
+  {
+    "simpleJp": "【マンション前】廊下へ向かい、一度マンション前に戻ってから再度廊下へ向かい、北条と会話（4回）",
+    "jpGuide1": "〔マンション前～神奈の部屋〕：部屋の前まで来たら一度〔マンション前〕に戻ってから再度〔神奈の部屋前〕に向かうと北条とのイベントが発生。イベント後",
+    "jpGuide2": "部屋の前に行きマンション前に戻りもう一度部屋の前に行き 北条と会話",
+    "enGuide": "Move/Corridor ... Move/Apartment building ... Move/Corridor ... Talk (4x) (Houjou)"
+  },
+  {
+    "simpleJp": "【廊下】マンション前・高台・街・自宅前を経て、学校前へ移動",
+    "jpGuide1": "〔学校前〕へ移動",
+    "jpGuide2": "学校前：",
+    "enGuide": "Move/Apartment building ... Move/Heights ... Move/City ... Move/Outside my house ... Move/School gate"
+  },
+  {
+    "simpleJp": "【学校前】絵里子（5回）、龍蔵寺と会話",
+    "jpGuide1": "〔境町学園～三角山・社〕：校門前で絵里子とのイベントが発生。イベント後に龍蔵寺と遭遇、会話後",
+    "jpGuide2": "絵里子と龍蔵寺に会う",
+    "enGuide": "Talk (5x) (Eriko) ... Talk (Ryuuzouji)"
+  },
+  {
+    "simpleJp": "【学校前】海岸を経て、社へ移動",
+    "jpGuide1": "〔社〕へ移動すると",
+    "jpGuide2": "社：",
+    "enGuide": "Move/Coast ... Move/Shrine"
+  },
+  {
+    "simpleJp": "【社】豊富、澪と遭遇し会話",
+    "jpGuide1": "豊富と澪と遭遇、会話後",
+    "jpGuide2": "豊富と澪に会う",
+    "enGuide": "Talk (Mio)"
+  },
+  {
+    "simpleJp": "【社】海岸を経て、自宅前へ移動",
+    "jpGuide1": "〔自宅前〕へ移動",
+    "jpGuide2": "リビング：",
+    "enGuide": "Move/Coast ... Move/Outside my house"
+  },
+  {
+    "simpleJp": "【自宅前】家の中（リビング）に入り、カウンターの電話に出る",
+    "jpGuide1": "〔自宅～境町学園〕：自宅に戻ると北条から着信、通話後",
+    "jpGuide2": "北条から電話",
+    "enGuide": "--- Home / My House --- ... Move/Living room ... Take (Phone on counter)"
+  },
+  {
+    "simpleJp": "【リビング】自宅前を経て、学校前へ移動",
+    "jpGuide1": "〔学校前〕へ向かい",
+    "jpGuide2": "学校前：",
+    "enGuide": "Move/Outside my house ... Move/School gate"
+  },
+  {
+    "simpleJp": "【学校前】ホールへ移動し、ホール内の生徒たちと会話し神奈の噂を聞く",
+    "jpGuide1": "【ホール内の生徒たち】と会話をしたら",
+    "jpGuide2": "ホール：生徒全員と会話する",
+    "enGuide": "--- Main Hall / 1st floor --- ... Talk (Various students)"
+  },
+  {
+    "simpleJp": "【ホール】学校前を経て、街へ移動",
+    "jpGuide1": "〔街〕へ移動",
+    "jpGuide2": "街：",
+    "enGuide": "Move/School gate ... Move/City"
+  },
+  {
+    "simpleJp": "【街】龍蔵寺と遭遇し会話",
+    "jpGuide1": "〔セントラル街～マンション前〕：龍蔵寺と遭遇、会話後",
+    "jpGuide2": "龍蔵寺と会話",
+    "enGuide": "Talk (Ryuuzouji)"
+  },
+  {
+    "simpleJp": "【街】高台を経てマンション前へ移動し、北条と会話（4回）",
+    "jpGuide1": "〔マンション前〕へ向かうと北条と遭遇、会話後",
+    "jpGuide2": "マンション前：北条と話す",
+    "enGuide": "Move/Heights ... Move/Apartment building ... Talk (4x) (Houjou)"
+  },
+  {
+    "simpleJp": "【マンション前】廊下へ移動し、ドアを開けて神奈の部屋に入る",
+    "jpGuide1": "〔神奈の部屋前〕へ移動",
+    "jpGuide2": "神奈の部屋：",
+    "enGuide": "Move/Corridor ... Open (Doorknob) ... --- Kanna's room ---"
+  },
+  {
+    "simpleJp": "【神奈の部屋】吊戸棚の写真を調べ、写真の中の「左の岩」「右の岩」「奥の岩」を順に調べる",
+    "jpGuide1": "〔神奈の部屋～公園～海岸〕：部屋の中に入ったら【吊戸棚】を開けて写真の両端の【双子岩】を見てから奥の【岩】を見るとイベント発生。イベント後",
+    "jpGuide2": "写真を見る（双子岩を見てから 神奈の後ろの岩に注目",
+    "enGuide": "Open (Cupboard) ... Look/Investigate (Left/Right/Behind rocks IN PHOTO)"
+  },
+  {
+    "simpleJp": "【神奈の部屋】廊下・マンション前・高台を経て公園へ移動し、神奈と会話（6回）",
+    "jpGuide1": "〔公園〕へ移動して神奈のイベントを見たら",
+    "jpGuide2": "高台：公園を見て移動（神奈が子犬と遊んでいる",
+    "enGuide": "Move/Corridor ... Move/Apartment building ... Move/Heights ... Move/Park ... Talk (6x) (Kanna)"
+  },
+  {
+    "simpleJp": "【公園】高台・街・自宅前・海岸等を経て、喫茶店（イヴニング）へ移動",
+    "jpGuide1": "〔海岸〕へ行ってから〔喫茶店〕へ移動",
+    "jpGuide2": "海岸：（寄ればいい） イヴニング：",
+    "enGuide": "Move/Heights ... Move/City ... Move/Outside my house ... Move/Coast ... Move/Outside my house ... Move/City ... Move/Evening"
+  },
+  {
+    "simpleJp": "【イヴニング】右側の女性を調べ、タバコを調べてイベントを見る",
+    "jpGuide1": "〔喫茶・EVENING～境町学園〕：【右側の女性】を見ると香織と龍蔵寺を発見、その後【タバコ】を見ると女性の正体が判明し",
+    "jpGuide2": "絵里子のタバコを見る 街：",
+    "enGuide": "Look/Investigate (Redhead) ... Look/Investigate (Cigar)"
+  },
+  {
+    "simpleJp": "【イヴニング】街を経て、保健室へ移動",
+    "jpGuide1": "そのまま〔保健室〕へ移動すると",
+    "jpGuide2": "街→保健室→学校前　（絵里子から通帳を渡される",
+    "enGuide": "Move/City ... Move/Infirmary"
+  },
+  {
+    "simpleJp": "【保健室】絵里子と会話（5回）",
+    "jpGuide1": "絵里子とのイベントが発生。イベント後",
+    "jpGuide2": "",
+    "enGuide": "Talk (5x) (Eriko)"
+  },
+  {
+    "simpleJp": "【保健室】ホール・学校前を経て、自宅前へ移動",
+    "jpGuide1": "〔自宅前〕へ移動",
+    "jpGuide2": "",
+    "enGuide": "Move/Main hall ... Move/School gate ... Move/Outside my house"
+  },
+  {
+    "simpleJp": "【自宅前】家の中（リビング）に入り、テレビを見る",
+    "jpGuide1": "〔自宅～マンション前～神奈の部屋〕：自宅に戻り【テレビ】を見てから",
+    "jpGuide2": "リビング：テレビを見る",
+    "enGuide": "--- Home / My House --- ... Move/Living room ... Look/Investigate (TV)"
+  },
+  {
+    "simpleJp": "【リビング】自宅前・街・高台を経てマンション前へ移動し、神奈と会話",
+    "jpGuide1": "〔マンション前〕に移動すると神奈と遭遇、会話後",
+    "jpGuide2": "マンション前：神奈と会話",
+    "enGuide": "Move/Outside my house ... Move/City ... Move/Heights ... Move/Apartment building ... Talk (Kanna)"
+  },
+  {
+    "simpleJp": "【マンション前】廊下を経て、神奈の部屋に入る",
+    "jpGuide1": "〔神奈の部屋前〕へ向かい、部屋の中に入って",
+    "jpGuide2": "神奈の部屋：",
+    "enGuide": "Move/Corridor ... Open (Doorknob) ... --- Kanna's room ---"
+  },
+  {
+    "simpleJp": "【神奈の部屋】ベッドを調べ、携帯を発見する",
+    "jpGuide1": "【ベッド】を調べると携帯を発見。",
+    "jpGuide2": "",
+    "enGuide": "Look/Investigate (Bed)"
+  },
+  {
+    "simpleJp": "【神奈の部屋】北条からの電話に出た後、マンション前・高台を経て公園へ移動",
+    "jpGuide1": "北条と通話後〔公園〕へ移動",
+    "jpGuide2": "北条から電話 公園：",
+    "enGuide": "Move/Corridor ... Move/Apartment building ... Move/Heights ... Move/Park"
+  },
+  {
+    "simpleJp": "【公園】周辺を調べ（50回以上）、悲鳴が聞こえたら奥の木立ちを調べる",
+    "jpGuide1": "〔明雲寺公園〕：周辺を一通り調べた後に悲鳴が聞こえたら【植え込み】を再度調べると神奈のイベントが発生。",
+    "jpGuide2": "神奈のイベント",
+    "enGuide": "Look/Investigate (50+x) ... Look/Investigate (Distant trees/after scream)"
+  },
+  {
+    "simpleJp": "【公園】イベントを進行させる（ナイフ等を調べ、キス・会話等のコマンドを実行）",
+    "jpGuide1": "神奈のイベントが発生。",
+    "jpGuide2": "神奈と会話等",
+    "enGuide": "Look/Investigate (Knife/etc.) ... Kiss (2x) (Kanna) ... Talk (10x) (Kanna)"
+  },
+  {
+    "simpleJp": "【公園】宝玉セーブを作成する（イベント停止時）",
+    "jpGuide1": "神奈が目を瞑ったら《宝玉セーブ》を行い、",
+    "jpGuide2": "宝玉セーブ① （神奈が目を瞑り喋らなくなったら すぐ宝玉セーブ） 5C",
+    "enGuide": "*Make [Jewel Save #Kanna End]."
+  },
+  {
+    "simpleJp": "【公園】アイテムを使わずに神奈の顔を調べ、エンディングへ（END No.11）",
+    "jpGuide1": "そのまま進めてエンディングを見たら",
+    "jpGuide2": "「超念石」を使わない（持ってない場合） エンディング11",
+    "enGuide": "- Kanna Bad End -\nLook/Investigate (Kanna's face)"
+  },
+  {
+    "simpleJp": "【公園】宝玉ロードを使用する（イベント停止時へ戻る）",
+    "jpGuide1": "《宝玉ロード》を使用する",
+    "jpGuide2": "宝玉セーブポイント①に戻る 5D",
+    "enGuide": "Load [Jewel Save #Kanna End]."
+  },
+  {
+    "simpleJp": "【公園】神奈に『超念石』を使う（END No.12 派生 ※超念石が必須）",
+    "jpGuide1": "ロード地点に戻り、目を覚まさない神奈に『超念石』を使うとイベントが発生。",
+    "jpGuide2": "「超念石」を使う",
+    "enGuide": "- Kanna End -\nUse/Hypersense Stone (Kanna)"
+  },
+  {
+    "simpleJp": "【神奈の部屋】神奈と会話（3回）し、『書斎のカギ』を入手",
+    "jpGuide1": "イベント後〔神奈の部屋〕へ移動し神奈から『書斎のカギ』を入手。",
+    "jpGuide2": "神奈の部屋：「書斎のカギ」を入手 エンディング12",
+    "enGuide": "Talk (3x) (Kanna) ---> [Study key]"
+  },
+  {
+    "simpleJp": "【神奈の部屋】セーブしてタイトル（メニュー画面）へ戻る",
+    "jpGuide1": "セーブしてメニュー画面に戻る",
+    "jpGuide2": "（異世界を終えた後で ここまで来ると ... 選択できる）",
+    "enGuide": "Proceed to Epilogue/Title Screen."
+  }
+]

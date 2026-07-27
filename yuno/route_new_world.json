@@ -1,0 +1,116 @@
+[
+  {
+    "simpleJp": "【タイトル】「前回の続きから」→「マップとアイテムはそのまま」で開始",
+    "jpGuide1": "★タイトル画面で〔前回の続きから〕➡〔マップとアイテムはそのまま〕を選択して開始",
+    "jpGuide2": "神奈ルートを終わりスタート地点へ（宝玉は1つ足りてない状態でOK）",
+    "enGuide": "\"New World\" (Epilogue)\nRequires all eight Jewels, [Father's Letter] & [Study Key] and all main endings. From the main menu, choose “Restart with current map and items”."
+  },
+  {
+    "simpleJp": "【社】海岸へ移動する",
+    "jpGuide1": "〔三角山・社〕：周辺を一通り調べてから〔海岸〕へ移動した後",
+    "jpGuide2": "社：社に一人で倒れている",
+    "enGuide": "--- Triangle Mountain / Shrine ---\nMove/Coast (Ground at the bottom-center of screen)"
+  },
+  {
+    "simpleJp": "【海岸】自宅前へ移動する",
+    "jpGuide1": "〔会社前〕へ移動",
+    "jpGuide2": "会社：",
+    "enGuide": "--- Coast ---\nMove/Outside my house (Sand at the bottom-left of screen)"
+  },
+  {
+    "simpleJp": "【自宅前】家の中（リビング）へ入る",
+    "jpGuide1": "〔自宅前〕へ移動\n〔自宅〕：自宅に戻ったら",
+    "jpGuide2": "",
+    "enGuide": "--- Home / My House ---\nMove/Living room (House entrance at the center of screen)"
+  },
+  {
+    "simpleJp": "【リビング】親父の書斎前へ移動する",
+    "jpGuide1": "〔親父の書斎前〕へ行き",
+    "jpGuide2": "書斎：",
+    "enGuide": "--- Living room ---\nMove/Father’s study (Partially visible brown door at the top-left of screen)"
+  },
+  {
+    "simpleJp": "【書斎前】ドアノブに『書斎のカギ』を使い、中に入る",
+    "jpGuide1": "『書斎のカギ』を使って中に入る。",
+    "jpGuide2": "「書斎のカギ」を使い扉を開ける",
+    "enGuide": "Use/Study key (Doorknob)\nUse (Doorknob)"
+  },
+  {
+    "simpleJp": "【書斎】宝玉セーブを作成する",
+    "jpGuide1": "〔自宅・親父の書斎〕：部屋に入ったら《宝玉セーブ》をして",
+    "jpGuide2": "宝玉セーブ① （セーブしたら時計は見ないで自室へもどる 6A",
+    "enGuide": "*Make [Jewel Save #Study]."
+  },
+  {
+    "simpleJp": "【書斎】リビングを経て、自室へ移動する",
+    "jpGuide1": "そのまま〔自室〕へ戻って",
+    "jpGuide2": "自室：",
+    "enGuide": "--- Father’s study ---\nMove/Living room (Gray door at right of screen)\n--- Living room ---\nMove/My room (Brown door at the top-center of screen)"
+  },
+  {
+    "simpleJp": "【自室】就寝し、翌朝に電話に出る",
+    "jpGuide1": "就寝。翌日になると結城から着信、通話後",
+    "jpGuide2": "寝る 朝になり電話がかかり結城と話す",
+    "enGuide": "--- My Room ---\nTake (Phone on the top-right of the desk )"
+  },
+  {
+    "simpleJp": "【自室】宝玉ロードを使用する（書斎突入時へ戻る）",
+    "jpGuide1": "《宝玉ロード》を使用する",
+    "jpGuide2": "宝玉セーブポイント①へ戻る （再セーブは不要） 6B",
+    "enGuide": "*Return to the Study, then load [Jewel Save #Study] after the event."
+  },
+  {
+    "simpleJp": "【書斎】柱の上の本（手記）を取り、読む",
+    "jpGuide1": "《宝玉ロード》：ロード地点に戻ったら画面上の【本】を取り、親父の手記を読んだら",
+    "jpGuide2": "書斎：柱の上にある親父の手記を読む",
+    "enGuide": "--- Father’s study ---\nLook/Investigate (Book on the pillar at the top-center of screen)\nTake (Book on the pillar at the top-center of screen)\nRead the memorandum"
+  },
+  {
+    "simpleJp": "【書斎】時計の左のくぼみを開け、「3」→「6」の順にボタンを押し『宝玉』を入手",
+    "jpGuide1": "【時計】を調べて蓋を開け【6時➡3時 (ゲーム起動時のOPで確認可能) 】の順でボタンを押すと時計の文字盤が開き『宝玉③』を入手。",
+    "jpGuide2": "時計のふたを開きオープニングの記憶をヒントに 文字盤（数字の6→3の部分）を押すと開く 中に最後の「宝玉」がある",
+    "enGuide": "Look/Investigate (Distant clock at the left of screen)\nLook/Investigate (Indentation on the left side of clock)\nOpen (Indentation on the left side of clock)\nLook/Investigate (Clock)\nLook/Investigate (Numbers)\nPush (3)\nPush (6) ---> [Final Jewel]"
+  },
+  {
+    "simpleJp": "【書斎】リビング・自宅前・海岸を経て社へ移動",
+    "jpGuide1": "書斎を出て〔社〕へ移動",
+    "jpGuide2": "外に出ると DiscA\n社：",
+    "enGuide": "Move/Living room (Gray door at right of screen)\n--- Living room ---\nMove/Outside my house (Distant hall at the center of screen)\n--- Home / My House ---\nMove/Coast (Road to the bottom-left of screen)\n--- Coast ---\nMove/Shrine (Bottom of the Triangle Mountain at the center of screen)"
+  },
+  {
+    "simpleJp": "【社】地響き後、海岸（画面下中央）を経て開いた洞窟へ入る",
+    "jpGuide1": "〔三角山・社～洞窟〕：社に到着すると地響きが起きて洞窟の入り口が開くので奥へ進み、",
+    "jpGuide2": "洞窟 地響きがおこる 洞窟の中へと入る",
+    "enGuide": "--- Triangle Mountain / Shrine ---\nMove/Coast (Ground at the bottom-center of screen)\n--- Cave ---"
+  },
+  {
+    "simpleJp": "【洞窟】奥へ進み（5回）、分かれ道を「右」→「左」と進み、台座へ",
+    "jpGuide1": "別れ道を【右側➡左側】の順で進んだ先の部屋で【台座】を調べて",
+    "jpGuide2": "扉の二つある部屋",
+    "enGuide": "Move/Forward (5x)\nMove/Right\nMove/Forward\nMove/Left\nMove/Forward (2x)\nLook/Investigate (Pedestal)"
+  },
+  {
+    "simpleJp": "【洞窟】台座に「2 1 3 4 2 10 10 2 4 3 1 2」と入力し、異世界へ",
+    "jpGuide1": "文字を入力するとリフレクターが起動して〔異世界〕へ移動",
+    "jpGuide2": "装置に王の名を入力する 2 1 3 4 2 10 10 2 4 3 1 2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "【異世界】周囲を調べ、セーレスのイベントを見る",
+    "jpGuide1": "〔異世界・デラ=グラント〕：目を覚まして周辺を一通り調べると謎の少女セーレスと出会う",
+    "jpGuide2": "異世界＜デラ＝グラント＞へ （ここでマップ達成率99％になっているはず）",
+    "enGuide": "After this point the game is pretty linear and it isn’t possible to get stuck."
+  },
+  {
+    "simpleJp": "【異世界】一本道をひたすら進む",
+    "jpGuide1": "※以後はルート分岐が無い1本道なのでそのまま進める",
+    "jpGuide2": "分岐など無い一本道になりますので 攻略していません",
+    "enGuide": "Just pick every choice until they start to repeat saying the same thing and move to other others when they do."
+  },
+  {
+    "simpleJp": "【現代（エンディング）】開始直前に設置された宝玉ロードを使用し、TRUE ENDへ",
+    "jpGuide1": "〔洞窟・小部屋〕：現代に戻り、物語開始直前に設置された《宝玉ロード》を使用する\n↓\nTRUE END",
+    "jpGuide2": "異世界が終わって洞窟内に戻ってきたら リフレクターの宝玉が1つ減っています 宝玉セーブの場所は始まる前の所になっていて そこへ飛ぶとエンディングになります",
+    "enGuide": ""
+  }
+]

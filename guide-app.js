@@ -33,7 +33,7 @@ async function init() {
   loadSettings();
   loadState();
   try {
-    const res = await fetch("./guide.json");
+    const res = await fetch("./guide.json?v=" + Date.now());
     if (res.ok) {
       guideData = await res.json();
       if (guideData.title) document.title = guideData.title + " ガイド";
@@ -106,7 +106,8 @@ async function startRoute(id) {
   const route = guideData.routes.find(r => r.id === id);
   if (route && !route.steps) {
     try {
-      const res = await fetch(`./route_${id}.json`);
+      const v = guideData.generated_at ? encodeURIComponent(guideData.generated_at) : Date.now();
+      const res = await fetch(`./route_${id}.json?v=${v}`);
       if (res.ok) {
         route.steps = await res.json();
       } else {

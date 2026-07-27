@@ -6,6 +6,7 @@ Orchestrates the VN guide site generation:
   4. Scaffold <slug>/index.html for any new games
   5. Regenerate root index.html landing page
 """
+import hashlib
 import json
 import os
 import re
@@ -74,8 +75,15 @@ def scaffold_guide(slug: str, title: str, vndb_id: str) -> None:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
     # Always overwrite index.html with the latest template so guide pages
-    # stay in sync with guide_stub.html even for existing games
-    (guide_dir / "index.html").write_text(STUB_TMPL.read_text())
+    # stay in sync with guide_stub.html even for existing games.
+    # Inject a content hash of guide-app.js for cache busting.
+    app_js = REPO_PATH / "guide-app.js"
+    js_hash = hashlib.sha1(app_js.read_bytes()).hexdigest()[:8] if app_js.exists() else "0"
+    html = STUB_TMPL.read_text().replace(
+        '<script src="../guide-app.js"></script>',
+        f'<script src="../guide-app.js?v={js_hash}" defer></script>',
+    )
+    (guide_dir / "index.html").write_text(html)
     if not (guide_dir / "guide.json").exists():
         guide_json = {"title": title, "vndb_id": vndb_id, "routes": []}
         (guide_dir / "guide.json").write_text(

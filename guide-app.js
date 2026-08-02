@@ -66,10 +66,11 @@ function renderHome() {
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
     const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
+    const unreviewedBadge = r.reviewed === false ? '<span class="unreviewed-badge">unverified</span>' : '';
     return `<li><button onclick="startRoute('${r.id}')">
       ${portrait}
       <div class="route-info">
-        <span>${displayTitle}</span>
+        <span>${displayTitle}${unreviewedBadge}</span>
         <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
       </div>
     </button></li>`;

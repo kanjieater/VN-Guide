@@ -69,6 +69,7 @@ if [ -n "${GITHUB_TOKEN:-}" ]; then
     printf 'machine github.com\nlogin %s\npassword %s\n' \
         "${VNDB_USER:-kanjieater}" "${GITHUB_TOKEN}" > ~/.netrc
     chmod 600 ~/.netrc
+    export GH_TOKEN="${GITHUB_TOKEN}"
 fi
 
 git -C "${REPO_PATH}" config user.email "${GIT_EMAIL}"
@@ -83,6 +84,7 @@ run_pipeline() {
     python3 /app/scripts/generate.py
     if in_guide_window; then
         python3 /app/scripts/guide_gen.py
+        python3 /app/scripts/review.py
     else
         echo "[$(date -Iseconds)] Skipping guide generation (outside window)"
     fi

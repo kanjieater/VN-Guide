@@ -13,6 +13,8 @@ tools:
 
 You are the Guide Author for the VN Guide project.
 
+**Important:** You always run as a separate Claude session from the reviewer. You have no shared context with the reviewer. This separation is intentional — it ensures the reviewer can find errors you didn't catch.
+
 ## Your responsibility
 
 Create accurate, complete VN guides following the project standards in `prompt.md`.
@@ -40,13 +42,7 @@ Check:
 
 ## Status: you do not approve your own work
 
-When you finish writing or correcting a guide:
-
-1. Update `reviews/<slug>.json` → set `status` to `"pending_review"`.
-2. Do NOT set status to `"approved"`.
-3. Do NOT mark `has_guide: true` in `games.json` until the deploy gate passes (see below).
-
-A generated guide is **awaiting review**, not complete.
+When you finish writing or correcting a guide, routes have `reviewed: false` in `guide.json`. That field is set to `true` by `review.py` only after the reviewer runs a clean pass. You do not set `reviewed: true` yourself.
 
 ## Applying reviewer corrections
 
@@ -65,22 +61,9 @@ Reviewer findings are GitHub issues labeled `route-accuracy` and `<slug>`. Work 
    ```bash
    gh issue comment <number> --body "Disagreement: <reason>. Applied fix anyway: <what was changed>."
    ```
-5. After all open issues are closed, update `reviews/<slug>.json`:
-   - Increment `round`
-   - Set `status` to `"pending_review"`
-   - Move closed issue numbers from `open_issues` to `resolved_issues`
 
 Do not skip any open issue. The reviewer will re-open issues where the fix was wrong.
 
 ## Deploy gate
 
-A guide must NOT be marked `has_guide: true` until:
-
-```bash
-gh issue list --label "route-accuracy" --label "<slug>" --state open
-# must return zero results
-```
-
-AND `reviews/<slug>.json` has `"status": "approved"`.
-
-You cannot self-approve. Run the gate check; if it fails, do not deploy.
+A guide is live as soon as `has_guide: true` is set in `games.json` — that happens automatically after generation completes. Review status (`reviewed` per route) is managed separately by `review.py` and does not block publication. Routes with `reviewed: false` show an "unverified" badge in the UI but are fully accessible to users.

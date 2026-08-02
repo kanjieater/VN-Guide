@@ -8,19 +8,28 @@ A mobile-optimized, step-by-step walkthrough app for visual novels, automaticall
 
 ## How it works
 
-A Docker container watches a VNDB "playing" list. When a new game appears on the list, Claude Code fetches at least two Japanese walkthroughs, cross-validates them, and generates a structured route guide as JSON. The JSON is pushed to GitHub Pages and served by a shared `guide-app.js` that runs in the browser.
+A Docker container watches a VNDB "playing" list. When a new game appears on the list, Claude Code fetches at least two Japanese walkthroughs, cross-validates them, and generates a structured route guide as JSON. The JSON is pushed to GitHub Pages immediately — routes appear live but tagged "unverified" until they pass an automated accuracy review.
 
 ```
 VNDB playing list
       ↓
   generate.py        — scaffolds game directories, updates index.html
-  guide_gen.py       — invokes Claude Code to generate route JSON
+  guide_gen.py       — invokes Claude Code (author agent) to generate route JSON
+                        routes go live immediately with reviewed: false
+  review.py          — alternates reviewer and author agents in separate sessions
+                        reviewer creates GitHub issues → author fixes → repeat
+                        marks routes reviewed: true when reviewer finds no issues
   deploy.py          — git commit + push to GitHub Pages
       ↓
 games.json + guide.json + route_*.json
       ↓
   guide-app.js       — browser SPA, fetches JSON, tracks progress locally
+                        unreviewed routes show an "unverified" badge
 ```
+
+### Review workflow
+
+Accuracy review is adversarial by design: the reviewer and author agents always run as separate Claude invocations with no shared context, so the reviewer cannot be biased by the author's framing. Review issues are tracked as GitHub issues labeled `route-accuracy` and the game slug. A route's "unverified" badge is removed only after the reviewer runs a clean pass (no open issues).
 
 ---
 
@@ -34,11 +43,12 @@ games.json + guide.json + route_*.json
 ├── games.json                # Registry of all games (VNDB ID → slug, metadata)
 ├── <game-slug>/
 │   ├── index.html            # Minimal shell (auto-generated — do not edit directly)
-│   ├── guide.json            # Route list + metadata
+│   ├── guide.json            # Route list + metadata (reviewed: bool per route)
 │   └── route_<id>.json       # Steps for one route
 ├── scripts/
 │   ├── generate.py           # Scaffold + landing page regeneration
-│   ├── guide_gen.py          # Claude Code invocation loop
+│   ├── guide_gen.py          # Claude Code invocation loop (author agent)
+│   ├── review.py             # Automated review loop (reviewer ↔ author, separate sessions)
 │   ├── deploy.py             # Git commit + push
 │   ├── pull_vndb.py          # VNDB API sync
 │   ├── refresh_oauth.py      # Claude OAuth token refresh
@@ -46,6 +56,12 @@ games.json + guide.json + route_*.json
 │   └── templates/
 │       ├── guide_stub.html   # Template for each game's index.html
 │       └── landing.html      # Template for root index.html
+├── .claude/
+│   ├── agents/
+│   │   ├── guide-author.md   # Author agent instructions
+│   │   └── guide-reviewer.md # Reviewer agent instructions
+│   └── workflows/
+│       └── guide-review.md   # Review lifecycle documentation
 ├── Dockerfile
 └── entrypoint.sh             # Container main loop
 ```
@@ -120,6 +136,9 @@ If you want the container to run continuously and auto-generate guides for every
 | `GUIDE_END_MIN` | `30` | End minute of generation window |
 | `GUIDE_WINDOW_DISABLE` | | Set to `1` to generate at any time |
 | `GUIDE_PRIORITY_VID` | | VNDB ID to generate first; container exits when done |
+| `GUIDE_REVIEW_MAX_ROUNDS` | `5` | Max reviewer/author cycles before giving up on a game |
+| `GUIDE_REVIEW_MODEL` | `claude-sonnet-5` | Model used for reviewer and author agents |
+| `GUIDE_REVIEW_TIMEOUT` | `3600` | Seconds before a single reviewer or author call times out |
 
 ### Using Claude OAuth instead of an API key
 

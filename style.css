@@ -319,3 +319,14 @@ button#toggle-details {
 }
 .toggle-pill.on { background: var(--accent); }
 .toggle-pill.on::after { transform: translateX(22px); }
+.unreviewed-badge {
+  font-size: 10px;
+  font-weight: 500;
+  color: #888;
+  background: rgba(128,128,128,0.15);
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin-left: 6px;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}

@@ -145,6 +145,7 @@ def load_completed_routes(routes: list[dict], guide_dir: Path) -> list[dict]:
     return result
 
 
+
 def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
              guide_dir: Path, research: dict) -> None:
     """Write guide.json with metadata + route list (no steps — steps live in route_{id}.json).
@@ -154,8 +155,9 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
     """
     research_routes = {r["id"]: r for r in research.get("routes", [])}
 
-    # Preserve any portrait data already in guide.json (agent may have set it manually)
+    # Preserve portrait and reviewed status already in guide.json
     existing_portraits: dict[str, str] = {}
+    existing_reviewed: dict[str, bool] = {}
     existing_guide = guide_dir / "guide.json"
     if existing_guide.exists():
         try:
@@ -163,6 +165,8 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
             for r in existing.get("routes", []):
                 if r.get("portrait"):
                     existing_portraits[r["id"]] = r["portrait"]
+                if "reviewed" in r:
+                    existing_reviewed[r["id"]] = r["reviewed"]
         except (json.JSONDecodeError, KeyError):
             pass
 
@@ -172,6 +176,7 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
             "id": r["id"],
             "title": r["title"],
             "stepCount": len(r["steps"]),
+            "reviewed": existing_reviewed.get(r["id"], False),
         }
         portrait = (research_routes.get(r["id"], {}).get("portrait", "")
                     or existing_portraits.get(r["id"], ""))
@@ -327,6 +332,7 @@ def generate_guide(slug: str, title: str, vndb_id: str,
         assemble(slug, title, vndb_id, completed, guide_dir, research)
         run_deploy()
 
+    log(f"Guide generation done for {slug} — routes marked unreviewed until reviewer approves")
     return True
 
 
@@ -386,7 +392,7 @@ def run() -> None:
                 break  # Don't chain when capped — wait for next cycle
             games[vid]["has_guide"] = True
             GAMES_JSON.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n")
-            log(f"Guide complete: {slug}")
+            log(f"Guide live: {slug} (routes marked unreviewed — review.py will approve each route)")
             _generate.generate_landing(games)
             run_deploy()
         else:

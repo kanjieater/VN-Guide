@@ -6,79 +6,92 @@
       "id": "hijikata",
       "title": "土方歳三ルート",
       "stepCount": 112,
-      "portrait": "https://t.vndb.org/ch/61/198061.jpg"
+      "portrait": "https://t.vndb.org/ch/61/198061.jpg",
+      "reviewed": false
     },
     {
       "id": "okita",
       "title": "沖田総司ルート",
       "stepCount": 103,
-      "portrait": "https://t.vndb.org/ch/62/198062.jpg"
+      "portrait": "https://t.vndb.org/ch/62/198062.jpg",
+      "reviewed": false
     },
     {
       "id": "saito",
       "title": "斎藤一ルート",
       "stepCount": 93,
-      "portrait": "https://t.vndb.org/ch/63/198063.jpg"
+      "portrait": "https://t.vndb.org/ch/63/198063.jpg",
+      "reviewed": false
     },
     {
       "id": "toudou",
       "title": "藤堂平助ルート",
       "stepCount": 85,
-      "portrait": "https://t.vndb.org/ch/64/198064.jpg"
+      "portrait": "https://t.vndb.org/ch/64/198064.jpg",
+      "reviewed": false
     },
     {
       "id": "harada",
       "title": "原田左之助ルート",
       "stepCount": 117,
-      "portrait": "https://t.vndb.org/ch/66/198066.jpg"
+      "portrait": "https://t.vndb.org/ch/66/198066.jpg",
+      "reviewed": false
     },
     {
       "id": "nagakura",
       "title": "永倉新八ルート",
       "stepCount": 120,
-      "portrait": "https://t.vndb.org/ch/71/198071.jpg"
+      "portrait": "https://t.vndb.org/ch/71/198071.jpg",
+      "reviewed": false
     },
     {
       "id": "yamazaki",
       "title": "山崎烝ルート",
       "stepCount": 104,
-      "portrait": "https://t.vndb.org/ch/74/198074.jpg"
+      "portrait": "https://t.vndb.org/ch/74/198074.jpg",
+      "reviewed": false
     },
     {
       "id": "sannan",
       "title": "山南敬助ルート",
       "stepCount": 105,
-      "portrait": "https://t.vndb.org/ch/72/198072.jpg"
+      "portrait": "https://t.vndb.org/ch/72/198072.jpg",
+      "reviewed": false
     },
     {
       "id": "iba",
       "title": "伊庭八郎ルート",
       "stepCount": 99,
-      "portrait": "https://t.vndb.org/ch/76/198076.jpg"
+      "portrait": "https://t.vndb.org/ch/76/198076.jpg",
+      "reviewed": false
     },
     {
       "id": "sakamoto",
       "title": "坂本龍馬ルート",
       "stepCount": 119,
-      "portrait": "https://t.vndb.org/ch/80/198080.jpg"
+      "portrait": "https://t.vndb.org/ch/80/198080.jpg",
+      "reviewed": false
     },
     {
       "id": "souma",
       "title": "相馬主計ルート",
       "stepCount": 92,
-      "portrait": "https://t.vndb.org/ch/78/198078.jpg"
+      "portrait": "https://t.vndb.org/ch/78/198078.jpg",
+      "reviewed": false
     },
     {
       "id": "kazama",
       "title": "風間千景ルート",
       "stepCount": 82,
-      "portrait": "https://t.vndb.org/ch/67/198067.jpg"
+      "portrait": "https://t.vndb.org/ch/67/198067.jpg",
+      "reviewed": false
     },
     {
       "id": "yukimura",
       "title": "雪村ルート",
       "stepCount": 35,
-      "portrait": "https://t.vndb.org/ch/59/198059.jpg"
+      "portrait": "https://t.vndb.org/ch/59/198059.jpg",
+      "reviewed": false
     }
   ],
   "sources": [

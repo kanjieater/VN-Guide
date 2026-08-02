@@ -1,6 +1,6 @@
 # VN Guide Review Workflow
 
-A guide is not complete when generated. Completion requires independent review and approval.
+A generated guide is immediately live but marked unreviewed. Review is an ongoing process that runs in the background and marks routes as `reviewed: true` in `guide.json` when they pass.
 
 ---
 
@@ -9,111 +9,86 @@ A guide is not complete when generated. Completion requires independent review a
 ```
 Author generates guide
         ↓
-reviews/<slug>.json → status: "pending_review"
+guide_gen.py sets has_guide: true → guide is live (routes: reviewed: false)
         ↓
-Reviewer checks guide against sources
+review.py starts review loop for each game with unreviewed routes
         ↓
-   Issues? ──no──→ reviews/<slug>.json → status: "approved"
-                           ↓
-                   gh issue list --label route-accuracy,<slug> --state open
-                   (must return zero results)
-                           ↓
-                   games.json → has_guide: true
-                           ↓
-                         Deploy
+   Reviewer session (fresh claude, no shared context with author)
+   reads research.json sources and all route_*.json files
+        ↓
+   Issues? ──no──→ review.py marks all routes reviewed: true in guide.json → deploy
      ↓ yes
-Reviewer creates one GitHub issue per problem
-  --label route-accuracy --label <slug>
-reviews/<slug>.json → status: "changes_requested", open_issues: [<numbers>]
+   Reviewer creates one GitHub issue per problem
+     --label route-accuracy --label <slug>
         ↓
-Author reads each issue (gh issue view <number>)
-Author applies fix, closes issue (gh issue close <number>)
+   Author session (fresh claude, no shared context with reviewer)
+   reads open issues → applies fixes → closes each issue
         ↓
-All open issues closed?
-  ──no──→ keep fixing
-  ──yes──→ reviews/<slug>.json → status: "pending_review", round: N+1
+   review.py deploys fixes, then starts next reviewer round
         ↓
-Reviewer re-checks closed issues against sources
-  Wrong fix? → re-open issue with comment explaining what's still wrong
-  All correct? → reviews/<slug>.json → status: "approved"
-        ↓
-      (loop back if re-opened)
+   (loop until no open issues or MAX_REVIEW_ROUNDS reached)
 ```
+
+Author and reviewer always run as separate `claude` invocations with no shared session.
+`review.py` manages the loop — do not chain author and reviewer manually within one session.
 
 ---
 
-## Deploy gate (hard enforcement)
+## Reviewed status in the UI
 
-Before setting `has_guide: true` in `games.json`, both conditions must hold:
+Routes in `guide.json` carry a `reviewed` boolean:
+- `"reviewed": false` — generated but not yet confirmed against sources; shows "unverified" badge in UI
+- `"reviewed": true` — reviewer passed with no open issues; badge removed
+
+Routes are always publicly accessible regardless of `reviewed` status.
+
+---
+
+## Deploy gate
+
+The only gate before marking `reviewed: true` is:
 
 ```bash
-# 1. No open accuracy issues
 gh issue list --label "route-accuracy" --label "<slug>" --state open
 # must return: no results
-
-# 2. Review file approved
-cat reviews/<slug>.json | python3 -c "import json,sys; d=json.load(sys.stdin); assert d['status']=='approved'"
 ```
 
-Neither the author nor any script may bypass this gate.
+`review.py` checks this automatically. Neither the author agent nor any script may set `reviewed: true` until this check passes.
 
 ---
 
-## Running the author workflow
+## Running the author workflow manually
 
 ```bash
-# Generate a new guide
-claude --agent guide-author -p "Generate the guide for <Game Title> (VNDB: v1234)"
+# Generate a new guide (separate session from reviewer)
+claude -p "Read .claude/agents/guide-author.md and follow those instructions. Generate the guide for <Game Title> (VNDB: v1234)."
 
-# Apply corrections from open reviewer issues
-claude --agent guide-author -p "Apply all open reviewer issues for <slug>"
+# Apply corrections from open reviewer issues (separate session from reviewer)
+claude -p "Read .claude/agents/guide-author.md and follow those instructions. Fix all open GitHub issues labeled route-accuracy and <slug>."
 ```
-
-The author agent reads `prompt.md` for all source and formatting rules.
 
 ---
 
-## Running the reviewer workflow
+## Running the reviewer workflow manually
 
 ```bash
-# Full review of a newly generated guide
-claude --agent guide-reviewer -p "Review the guide for <slug>"
+# Full review of a newly generated guide (separate session from author)
+claude -p "Read .claude/agents/guide-reviewer.md and follow those instructions exactly. Review the guide for <slug>."
 
-# Re-review after author corrections
-claude --agent guide-reviewer -p "Re-review <slug>, round <N>"
+# Re-review after author corrections (separate session from author)
+claude -p "Read .claude/agents/guide-reviewer.md and follow those instructions exactly. Re-review <slug> after author corrections."
 ```
-
-The reviewer agent:
-1. Reads `<slug>/research.json` to find source URLs
-2. Fetches both primary Japanese sources directly
-3. Checks `<slug>/guide.json` and all `<slug>/route_*.json` files
-4. Creates one GitHub issue per finding
-5. Updates `reviews/<slug>.json`
 
 ---
 
-## Review state file
+## Running the automated loop
 
-Every game has `reviews/<slug>.json`. Keep it in sync with GitHub issue state.
-
-```json
-{
-  "game": "<slug>",
-  "guide_path": "<slug>/guide.json",
-  "status": "pending_review",
-  "round": 1,
-  "open_issues": [],
-  "resolved_issues": [],
-  "updated_at": "<ISO timestamp>"
-}
+```bash
+# From inside the container or locally with REPO_PATH set:
+python3 scripts/review.py
 ```
 
-Valid `status` values:
-- `"pending_review"` — author finished, awaiting reviewer
-- `"changes_requested"` — reviewer found issues, awaiting author fixes
-- `"approved"` — reviewer passed, no open issues, guide may be deployed
-
-**Only the reviewer sets `"approved"`.** The author never writes `"approved"` to this field.
+The loop processes all games with `has_guide: true` that have any `reviewed: false` routes. It calls `review.py`'s reviewer and author prompts in alternating fresh sessions until either the reviewer finds no issues or `GUIDE_REVIEW_MAX_ROUNDS` is reached.
 
 ---
 
@@ -121,10 +96,10 @@ Valid `status` values:
 
 - Labels: always `route-accuracy` + the game slug (e.g. `hakuouki-shinsengumi-kitan`)
 - Title: `[<slug>] <Route>: <brief description>`
-- Body: Current / Expected / Sources / Required action sections
+- Body: File / Section / Problem / Current / Expected / Sources / Required action sections
 - One issue per distinct problem — do not bundle multiple problems into one issue
-- The reviewer closes issues only when a fix is verified correct
-- The author closes issues after applying each fix
+- The reviewer re-opens issues where a fix is wrong
+- `review.py` marks routes reviewed after a full clean pass (no open issues)
 
 Searching all open accuracy issues across all games:
 ```bash

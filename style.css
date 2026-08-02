@@ -319,14 +319,46 @@ button#toggle-details {
 }
 .toggle-pill.on { background: var(--accent); }
 .toggle-pill.on::after { transform: translateX(22px); }
-.unreviewed-badge {
-  font-size: 10px;
-  font-weight: 500;
+.unreviewed-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1.5px solid #888;
   color: #888;
-  background: rgba(128,128,128,0.15);
-  border-radius: 3px;
-  padding: 1px 5px;
-  margin-left: 6px;
+  font-size: 9px;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 5px;
   vertical-align: middle;
-  letter-spacing: 0.02em;
+  cursor: default;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.unreviewed-icon::before {
+  content: '!';
+}
+.unreviewed-icon::after {
+  content: '未検証';
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 5px);
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.78);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.07s;
+  z-index: 10;
+}
+.unreviewed-icon:hover::after {
+  opacity: 1;
 }

@@ -66,11 +66,13 @@ function renderHome() {
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
     const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
-    const unreviewedIcon = r.reviewed === false ? '<span class="unreviewed-icon" aria-label="未検証"></span>' : '';
+    const statusIcon = r.reviewed === false
+      ? '<span class="route-status-icon unreviewed-icon" aria-label="未検証"></span>'
+      : '<span class="route-status-icon reviewed-icon" aria-label="検証済み"></span>';
     return `<li><button onclick="startRoute('${r.id}')">
       ${portrait}
       <div class="route-info">
-        <span>${displayTitle}${unreviewedIcon}</span>
+        <span>${displayTitle}${statusIcon}</span>
         <span style="font-size:13px;color:#888;font-weight:400">${pct}%</span>
       </div>
     </button></li>`;

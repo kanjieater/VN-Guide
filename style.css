@@ -319,7 +319,7 @@ button#toggle-details {
 }
 .toggle-pill.on { background: var(--accent); }
 .toggle-pill.on::after { transform: translateX(22px); }
-.unreviewed-icon {
+.route-status-icon {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -327,8 +327,7 @@ button#toggle-details {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  border: 1.5px solid #888;
-  color: #888;
+  border: 1.5px solid;
   font-size: 9px;
   font-weight: 700;
   font-style: normal;
@@ -338,11 +337,7 @@ button#toggle-details {
   flex-shrink: 0;
   line-height: 1;
 }
-.unreviewed-icon::before {
-  content: '!';
-}
-.unreviewed-icon::after {
-  content: '未検証';
+.route-status-icon::after {
   position: absolute;
   left: 50%;
   bottom: calc(100% + 5px);
@@ -359,6 +354,10 @@ button#toggle-details {
   transition: opacity 0.07s;
   z-index: 10;
 }
-.unreviewed-icon:hover::after {
-  opacity: 1;
-}
+.route-status-icon:hover::after { opacity: 1; }
+.unreviewed-icon { color: #888; border-color: #888; }
+.unreviewed-icon::before { content: '!'; }
+.unreviewed-icon::after { content: '未検証'; }
+.reviewed-icon { color: #5cb85c; border-color: #5cb85c; }
+.reviewed-icon::before { content: '✓'; }
+.reviewed-icon::after { content: '検証済み'; }

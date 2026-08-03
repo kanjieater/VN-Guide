@@ -5,17 +5,20 @@
     {
       "id": "joukan",
       "title": "上巻",
-      "stepCount": 121
+      "stepCount": 121,
+      "reviewed": false
     },
     {
       "id": "yami_no_ou",
       "title": "闇の王編",
-      "stepCount": 146
+      "stepCount": 146,
+      "reviewed": false
     },
     {
       "id": "kyuumei",
       "title": "究明編",
-      "stepCount": 99
+      "stepCount": 99,
+      "reviewed": false
     }
   ],
   "sources": [

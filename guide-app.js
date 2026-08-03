@@ -66,9 +66,9 @@ function renderHome() {
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
     const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
-    const statusIcon = r.reviewed === false
-      ? '<span class="route-status-icon unreviewed-icon" aria-label="未検証"></span>'
-      : '<span class="route-status-icon reviewed-icon" aria-label="検証済み"></span>';
+    const statusIcon = r.reviewed === true
+      ? '<span class="route-status-icon reviewed-icon" aria-label="検証済み"></span>'
+      : '<span class="route-status-icon unreviewed-icon" aria-label="未検証"></span>';
     return `<li><button onclick="startRoute('${r.id}')">
       ${portrait}
       <div class="route-info">

@@ -6,37 +6,43 @@
       "id": "moeka",
       "title": "萌郁ルート",
       "stepCount": 5,
-      "portrait": "https://t.vndb.org/ch/38/28038.jpg"
+      "portrait": "https://t.vndb.org/ch/38/28038.jpg",
+      "reviewed": false
     },
     {
       "id": "faris",
       "title": "フェイリスルート",
       "stepCount": 6,
-      "portrait": "https://t.vndb.org/ch/35/97235.jpg"
+      "portrait": "https://t.vndb.org/ch/35/97235.jpg",
+      "reviewed": false
     },
     {
       "id": "ruka",
       "title": "るかルート",
       "stepCount": 14,
-      "portrait": "https://t.vndb.org/ch/44/28044.jpg"
+      "portrait": "https://t.vndb.org/ch/44/28044.jpg",
+      "reviewed": false
     },
     {
       "id": "suzuha",
       "title": "鈴羽ルート",
       "stepCount": 10,
-      "portrait": "https://t.vndb.org/ch/36/97236.jpg"
+      "portrait": "https://t.vndb.org/ch/36/97236.jpg",
+      "reviewed": false
     },
     {
       "id": "kurisu",
       "title": "紅莉栖ルート",
       "stepCount": 3,
-      "portrait": "https://t.vndb.org/ch/34/97234.jpg"
+      "portrait": "https://t.vndb.org/ch/34/97234.jpg",
+      "reviewed": false
     },
     {
       "id": "mayuri",
       "title": "まゆりルート",
       "stepCount": 9,
-      "portrait": "https://t.vndb.org/ch/95/97195.jpg"
+      "portrait": "https://t.vndb.org/ch/95/97195.jpg",
+      "reviewed": false
     }
   ],
   "sources": [

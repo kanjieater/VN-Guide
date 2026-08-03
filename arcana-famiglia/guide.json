@@ -6,43 +6,50 @@
       "id": "liberta",
       "title": "リベルタルート",
       "stepCount": 192,
-      "portrait": "https://t.vndb.org/ch/85/9085.jpg"
+      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
+      "reviewed": false
     },
     {
       "id": "parche",
       "title": "パーチェルート",
       "stepCount": 187,
-      "portrait": "https://t.vndb.org/ch/89/9089.jpg"
+      "portrait": "https://t.vndb.org/ch/89/9089.jpg",
+      "reviewed": false
     },
     {
       "id": "debito",
       "title": "デビトルート",
       "stepCount": 179,
-      "portrait": "https://t.vndb.org/ch/88/9088.jpg"
+      "portrait": "https://t.vndb.org/ch/88/9088.jpg",
+      "reviewed": false
     },
     {
       "id": "luca",
       "title": "ルカルート",
       "stepCount": 198,
-      "portrait": "https://t.vndb.org/ch/91/9091.jpg"
+      "portrait": "https://t.vndb.org/ch/91/9091.jpg",
+      "reviewed": false
     },
     {
       "id": "nova",
       "title": "ノヴァルート",
       "stepCount": 196,
-      "portrait": "https://t.vndb.org/ch/90/9090.jpg"
+      "portrait": "https://t.vndb.org/ch/90/9090.jpg",
+      "reviewed": false
     },
     {
       "id": "jolly",
       "title": "ジョーリィルート",
       "stepCount": 170,
-      "portrait": "https://t.vndb.org/ch/93/9093.jpg"
+      "portrait": "https://t.vndb.org/ch/93/9093.jpg",
+      "reviewed": false
     },
     {
       "id": "dante",
       "title": "ダンテルート",
       "stepCount": 237,
-      "portrait": "https://t.vndb.org/ch/92/9092.jpg"
+      "portrait": "https://t.vndb.org/ch/92/9092.jpg",
+      "reviewed": false
     }
   ],
   "sources": [

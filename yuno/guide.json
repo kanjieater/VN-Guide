@@ -5,32 +5,38 @@
     {
       "id": "mitsuki",
       "title": "美月ルート",
-      "stepCount": 294
+      "stepCount": 294,
+      "reviewed": true
     },
     {
       "id": "ayumi",
       "title": "亜由美ルート",
-      "stepCount": 218
+      "stepCount": 218,
+      "reviewed": true
     },
     {
       "id": "kaori",
       "title": "香織ルート",
-      "stepCount": 174
+      "stepCount": 174,
+      "reviewed": true
     },
     {
       "id": "mio",
       "title": "澪ルート",
-      "stepCount": 158
+      "stepCount": 158,
+      "reviewed": true
     },
     {
       "id": "kanna",
       "title": "神奈ルート",
-      "stepCount": 56
+      "stepCount": 56,
+      "reviewed": true
     },
     {
       "id": "new_world",
       "title": "異世界ルート",
-      "stepCount": 19
+      "stepCount": 19,
+      "reviewed": true
     }
   ]
 }

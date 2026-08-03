@@ -6,37 +6,43 @@
       "id": "takuma",
       "title": "鬼崎拓磨ルート",
       "stepCount": 58,
-      "portrait": "https://t.vndb.org/ch/81/43681.jpg"
+      "portrait": "https://t.vndb.org/ch/81/43681.jpg",
+      "reviewed": true
     },
     {
       "id": "mahiro",
       "title": "鴉取真弘ルート",
       "stepCount": 51,
-      "portrait": "https://t.vndb.org/ch/82/43682.jpg"
+      "portrait": "https://t.vndb.org/ch/82/43682.jpg",
+      "reviewed": true
     },
     {
       "id": "yuuichi",
       "title": "狐邑祐一ルート",
       "stepCount": 63,
-      "portrait": "https://t.vndb.org/ch/83/43683.jpg"
+      "portrait": "https://t.vndb.org/ch/83/43683.jpg",
+      "reviewed": false
     },
     {
       "id": "shinji",
       "title": "犬戒慎司ルート",
       "stepCount": 50,
-      "portrait": "https://t.vndb.org/ch/85/43685.jpg"
+      "portrait": "https://t.vndb.org/ch/85/43685.jpg",
+      "reviewed": false
     },
     {
       "id": "suguru",
       "title": "大蛇卓ルート",
       "stepCount": 55,
-      "portrait": "https://t.vndb.org/ch/84/43684.jpg"
+      "portrait": "https://t.vndb.org/ch/84/43684.jpg",
+      "reviewed": false
     },
     {
       "id": "ryo",
       "title": "狗谷遼ルート",
       "stepCount": 52,
-      "portrait": "https://t.vndb.org/ch/86/43686.jpg"
+      "portrait": "https://t.vndb.org/ch/86/43686.jpg",
+      "reviewed": false
     }
   ],
   "sources": [

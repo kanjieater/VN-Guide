@@ -60,7 +60,7 @@
   {"simpleJp": "すぐに戻る", "jpGuide1": "すぐに戻る（好感度UP✨）", "jpGuide2": "すぐに戻る", "enGuide": ""},
 
   {"simpleJp": "出て行くべきだけど……", "jpGuide1": "出て行くべきだけど……（好感度UP✨）", "jpGuide2": "出て行くべきだけど……", "enGuide": ""},
-  {"simpleJp": "仇をとる", "jpGuide1": "逃げる", "jpGuide2": "仇をとる", "enGuide": ""},
+  {"simpleJp": "仇をとる", "jpGuide1": "逃げる", "jpGuide2": "仇をとる", "enGuide": "Source A lists 逃げる; Source B lists 仇をとる. Sources contradict — this guide follows Source B (Fuukaden Switch-specific)."},
 
   {"simpleJp": "私にできることはありますか", "jpGuide1": "私にできることはありますか（好感度UP✨）", "jpGuide2": "私にできることはありますか", "enGuide": ""},
 
@@ -68,7 +68,7 @@
   {"simpleJp": "我慢させる", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "我慢させる", "enGuide": "", "badEndPath": "ゲームオーバー"},
   {"simpleJp": "一緒に行きます", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "一緒に行きます　→　ゲームオーバー", "enGuide": ""},
   {"simpleJp": "セーブ2にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save2より", "enGuide": "", "isLoad": true},
-  {"simpleJp": "血を与える", "jpGuide1": "薬を与える", "jpGuide2": "血を与える", "enGuide": ""},
+  {"simpleJp": "血を与える", "jpGuide1": "薬を与える", "jpGuide2": "血を与える", "enGuide": "Source A lists 薬を与える; Source B lists 血を与える. Sources contradict — this guide follows Source B (Fuukaden Switch-specific)."},
   {"simpleJp": "ここに残ります", "jpGuide1": "ここに残ります（好感度UP✨）", "jpGuide2": "ここに残ります", "enGuide": ""},
 
   {"simpleJp": "やめてください", "jpGuide1": "やめてください（好感度UP✨）", "jpGuide2": "やめてください", "enGuide": ""},
@@ -125,8 +125,8 @@
   {"simpleJp": "血を与える", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "血を与える", "enGuide": ""},
 
   {"simpleJp": "私にできることは？", "jpGuide1": "私にできることは？（好感度UP✨）", "jpGuide2": "私にできることは？", "enGuide": ""},
-  {"simpleJp": "できる限りのことはします", "jpGuide1": "任せられても困ります", "jpGuide2": "できる限りのことはします", "enGuide": ""},
-  {"simpleJp": "信じない", "jpGuide1": "信じたい（好感度UP✨）", "jpGuide2": "信じない", "enGuide": ""},
+  {"simpleJp": "できる限りのことはします", "jpGuide1": "任せられても困ります", "jpGuide2": "できる限りのことはします", "enGuide": "Source A lists 任せられても困ります, but per Source B this choice leads to 悲恋エンド in Fuukaden. Source B's good end path is できる限りのことはします. This guide follows Source B."},
+  {"simpleJp": "信じない", "jpGuide1": "信じたい（好感度UP✨）", "jpGuide2": "信じない", "enGuide": "Source A lists 信じたい; Source B lists 信じない for グッドエンド. Sources contradict — this guide follows Source B (Fuukaden Switch-specific)."},
 
   {"simpleJp": "グッドエンド", "jpGuide1": "【華ノ章】GOODエンド", "jpGuide2": "グッドエンド", "enGuide": ""}
 ]

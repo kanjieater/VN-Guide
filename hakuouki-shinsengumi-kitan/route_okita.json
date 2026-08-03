@@ -231,7 +231,7 @@
   {
     "simpleJp": "止めても無駄ですから",
     "jpGuide1": "止めても無駄ですから　→　BADエンド（スタッフロールなし）",
-    "jpGuide2": "止めても無駄ですから　→　BADエンド（スタッフロールなし）",
+    "jpGuide2": "沖田さんが心配ですから　→　悲恋エンド",
     "enGuide": ""
   },
   {
@@ -392,7 +392,7 @@
     "jpGuide1": "我慢させる",
     "jpGuide2": "我慢させる",
     "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "badEndPath": "ゲームオーバー / BADエンド（スタッフロールなし④）"
   },
   {
     "simpleJp": "沖田さんの気持ちもわかる",
@@ -448,7 +448,7 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "我慢させる",
     "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "badEndPath": "ゲームオーバー / BADエンド（スタッフロールなし③）"
   },
   {
     "simpleJp": "行ってほしくありません",
@@ -504,7 +504,7 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "我慢させる　→　ゲームオーバー",
     "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "badEndPath": "ゲームオーバー / BADエンド（スタッフロールなし②）"
   },
   {
     "simpleJp": "セーブ18にロード",
@@ -519,12 +519,6 @@
     "jpGuide2": "血を与える",
     "enGuide": "",
     "badEndPath": "悲恋エンド"
-  },
-  {
-    "simpleJp": "血を与える",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "血を与える　→　悲恋エンド",
-    "enGuide": ""
   },
   {
     "simpleJp": "セーブ18にロード",
@@ -547,9 +541,9 @@
     "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ17にロード",
+    "simpleJp": "セーブ18にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "Save3より",
+    "jpGuide2": "Save4より",
     "enGuide": "",
     "isLoad": true
   },

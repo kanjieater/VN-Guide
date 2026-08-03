@@ -11,22 +11,28 @@ Author generates guide
         ↓
 guide_gen.py sets has_guide: true → guide is live (routes: reviewed: false)
         ↓
-review.py starts review loop for each game with unreviewed routes
+review.py iterates over each unreviewed route (one at a time)
         ↓
-   Reviewer session (fresh claude, no shared context with author)
-   reads research.json sources and all route_*.json files
+   Check for existing open GitHub issue for this route
+     ↓ none                           ↓ exists (pre-existing or from prior round)
+   Reviewer session                   skip reviewer → go to Author session
+   (fresh claude, no shared context)
+   reads research.json + route_*.json for this route
         ↓
-   Issues? ──no──→ review.py marks all routes reviewed: true in guide.json → deploy
+   Issues? ──no──→ review.py marks route reviewed: true → deploy → next route
      ↓ yes
-   Reviewer creates one GitHub issue per problem
+   Reviewer creates ONE GitHub issue for this route (all findings in body)
      --label route-accuracy --label <slug>
         ↓
    Author session (fresh claude, no shared context with reviewer)
-   reads open issues → applies fixes → closes each issue
+   reads open issue → applies all fixes → closes issue
         ↓
-   review.py deploys fixes, then starts next reviewer round
+   Reviewer re-review session
+   verifies fixes → closes issue if resolved, comments if not
         ↓
-   (loop until no open issues or MAX_REVIEW_ROUNDS reached)
+   Issue closed? ──yes──→ reviewed: true → deploy → next route
+     ↓ no
+   (repeat up to MAX_REVIEW_ROUNDS)
 ```
 
 Author and reviewer always run as separate `claude` invocations with no shared session.
@@ -88,18 +94,27 @@ claude -p "Read .claude/agents/guide-reviewer.md and follow those instructions e
 python3 scripts/review.py
 ```
 
-The loop processes all games with `has_guide: true` that have any `reviewed: false` routes. It calls `review.py`'s reviewer and author prompts in alternating fresh sessions until either the reviewer finds no issues or `GUIDE_REVIEW_MAX_ROUNDS` is reached.
+The loop processes all games with `has_guide: true` that have any `reviewed: false` routes. Each route gets its own reviewer and author sessions — routes are never batched into one session.
+
+To scope to one game or one route (useful for testing):
+```bash
+GUIDE_PRIORITY_VID=v1715 python3 scripts/review.py           # one game only
+GUIDE_PRIORITY_VID=v1715 GUIDE_REVIEW_ROUTE=okita python3 scripts/review.py  # one route
+```
+
+These env vars can also be set in `compose.yml` to scope the container's review loop.
 
 ---
 
 ## GitHub issue conventions
 
 - Labels: always `route-accuracy` + the game slug (e.g. `hakuouki-shinsengumi-kitan`)
-- Title: `[<slug>] <Route>: <brief description>`
-- Body: File / Section / Problem / Current / Expected / Sources / Required action sections
-- One issue per distinct problem — do not bundle multiple problems into one issue
-- The reviewer re-opens issues where a fix is wrong
-- `review.py` marks routes reviewed after a full clean pass (no open issues)
+- Title: `[<slug>] <Route>: accuracy review`
+- Body: Status + Summary + numbered findings (each with File / Section / Problem / Current / Expected / Sources / Required action)
+- **One issue per route** — all findings for that route go in a single issue body
+- The reviewer adds a comment when any finding is not yet resolved after author corrections
+- The reviewer closes the issue only after all findings are resolved
+- `review.py` marks routes reviewed after the issue is closed
 
 Searching all open accuracy issues across all games:
 ```bash

@@ -58,62 +58,103 @@ For every route in the guide, verify:
 For a full review: check every route completely.
 For a re-review after corrections: focus on corrected sections plus a random sample of 20% of uncorrected steps.
 
-## Review output: GitHub Issues
+## Review output: one GitHub issue per route
 
-Create **one GitHub issue per finding**. Do not write a markdown summary file.
-
-Use this command for each issue:
+Create **one GitHub issue per route reviewed**. All findings for that route go in the body of that single issue. Do not create separate issues per finding.
 
 ```bash
 gh issue create \
-  --title "[<slug>] <Route>: <brief one-line description>" \
+  --title "[<slug>] <Route>: accuracy review" \
   --label "route-accuracy" \
   --label "<slug>" \
   --body "$(cat <<'EOF'
-**File:** \`<slug>/route_<id>.json\`
-**Section:** <Route name / step number or approximate position>
+## Status
 
-**Problem:** <What is wrong, stated precisely.>
+CHANGES REQUESTED
+```
+or
+```
+PASS
+
+---
+
+## Summary
+
+<One paragraph: what was checked, how many issues found, overall confidence.>
+
+---
+
+## Issue 1: <brief description>
+
+**File:** `<slug>/route_<id>.json`
+**Section:** <approximate position>
+
+**Problem:** <precise statement>
 
 **Current:**
-\`\`\`
-<exact content from the guide>
-\`\`\`
+```
+<exact content from guide>
+```
 
 **Expected:**
-\`\`\`
+```
 <what the source says>
-\`\`\`
+```
 
 **Sources:**
-- Source A: <URL> — "<verbatim quote from source>"
-- Source B: <URL> — "<verbatim quote from source, or 'not documented'>"
+- Source A: <URL> — "<verbatim quote>"
+- Source B: <URL> — "<verbatim quote or 'not documented'>"
 
-**Required action:** <Specific instruction for the author — what to change and to what.>
+**Required action:** <what the author must change>
+
+---
+
+## Issue 2: <brief description>
+
+[repeat for each finding]
 EOF
 )"
 ```
 
-Labels required on every issue:
+Labels required:
 - `route-accuracy` — marks it as a blocking accuracy issue
-- `<slug>` — the game slug (e.g. `hakuouki-shinsengumi-kitan`) — used by the deploy gate
+- `<slug>` — the game slug (e.g. `hakuouki-shinsengumi-kitan`)
 
-If you find no issues, confirm with:
-
-```bash
-gh issue list --label "route-accuracy" --label "<slug>" --state open
-```
+If no issues are found, still create the issue with `Status: PASS` and `## Issues\n\nNone found.`
 
 ## Re-review after author corrections
 
-The author closes GitHub issues as they fix each one. When re-reviewing:
+When re-reviewing after the author has pushed fixes:
 
-1. Check that all previously opened issues are closed:
+1. Look up the existing review issue:
    ```bash
    gh issue list --label "route-accuracy" --label "<slug>" --state open
    ```
-2. For each closed issue, verify the fix is correct by re-fetching the relevant source section.
-3. If a fix is wrong: re-open the issue with a comment explaining what is still wrong.
-4. If all fixes are correct and no open issues remain, your pass is clean.
+2. Re-fetch the relevant source sections and verify each fix.
+3. If any fix is wrong: add a comment to the existing issue describing what is still wrong. Do not close it.
+4. If all fixes are correct: proceed to the closing steps below.
 
-Never approve while open issues exist. The `review.py` script marks routes as `reviewed: true` in `guide.json` only after your pass finds no open issues.
+Never close the issue while any finding remains unresolved.
+
+## Required closing steps (clean pass only)
+
+When the review passes — either on first review (no issues found) or after all findings are resolved — you must complete all three steps before the route is considered reviewed:
+
+**Step 1 — Close the GitHub issue** (or confirm it if already closed by the author):
+```bash
+gh issue close <number> --comment "All findings resolved. Route marked reviewed."
+```
+If the author already closed it, add a comment confirming the pass:
+```bash
+gh issue comment <number> --body "Reviewer confirmed: all findings resolved. Marking route as reviewed."
+```
+
+**Step 2 — Mark the route `reviewed: true` in `guide.json`:**
+
+Read `<slug>/guide.json`, find the route entry by `id`, and set `"reviewed": true`. Do not change any other field.
+
+**Step 3 — Confirm:**
+```bash
+python3 -c "import json; g=json.load(open('<slug>/guide.json')); print(next(r for r in g['routes'] if r['id']=='<route_id>'))"
+```
+Verify the output shows `"reviewed": true` before stopping.

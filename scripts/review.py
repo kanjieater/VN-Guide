@@ -1,16 +1,18 @@
 """
 Automated VN guide review loop.
 Runs after guide_gen.py. For each game that has guides but unreviewed routes:
-  Round loop (max MAX_REVIEW_ROUNDS):
-    1. Run guide-reviewer agent in a fresh claude session (no --resume)
-    2. Check for open route-accuracy GitHub issues for this slug
-    3. If issues open: run guide-author agent in a fresh claude session (no --resume)
-    4. Deploy after each author round so fixes are immediately visible
-    5. Repeat until no open issues or max rounds reached
-  On a clean reviewer pass: mark all routes reviewed=true in guide.json
+  For each unreviewed route:
+    Round loop (max MAX_REVIEW_ROUNDS):
+      1. Check for a pre-existing open issue for this route
+      2. If none: run reviewer for this route; if still no issue → mark reviewed
+      3. If issue open: run author to fix it, deploy, then re-review
+      4. Repeat until issue closes or max rounds reached
+  Each route is reviewed in its own fresh claude session — never batched.
 
-Author and reviewer are always separate claude invocations with no shared session
-and no shared context. This is the adversarial property that makes the review useful.
+GUIDE_PRIORITY_VID: only process this game (same env var as guide_gen.py).
+GUIDE_REVIEW_ROUTE: only process this route id within the priority game (for testing).
+
+Author and reviewer are always separate claude invocations with no shared session.
 """
 import json
 import os
@@ -71,82 +73,149 @@ def run_claude_fresh(prompt: str, timeout: int = TIMEOUT_REVIEW) -> bool:
         return False
 
 
-def has_open_issues(slug: str) -> bool:
-    """Return True if any route-accuracy GitHub issues are open for this slug."""
+def get_open_issue_for_route(slug: str, route_id: str, route_title: str = "") -> int | None:
+    """Return issue number if an open route-accuracy issue exists for this route.
+
+    Matches on route_id OR route_title because the reviewer uses the display title
+    (e.g. '沖田総司ルート') in the issue title, not the internal id ('okita').
+    """
     result = subprocess.run(
         ["gh", "issue", "list",
          "--label", "route-accuracy",
          "--label", slug,
          "--state", "open",
-         "--json", "number"],
+         "--json", "number,title"],
         capture_output=True, text=True, cwd=str(REPO_PATH),
     )
     if result.returncode != 0:
         err(f"gh issue list failed: {result.stderr.strip()}")
-        return False
+        return None
     try:
-        return len(json.loads(result.stdout or "[]")) > 0
+        issues = json.loads(result.stdout or "[]")
     except json.JSONDecodeError:
-        return False
+        return None
+    for issue in issues:
+        title = issue.get("title", "").lower()
+        if route_id in title or (route_title and route_title.lower() in title):
+            return issue["number"]
+    return None
 
 
-def mark_all_reviewed(guide_file: Path) -> None:
-    """Set reviewed=true on every route in guide.json."""
+def mark_route_reviewed(guide_file: Path, route_id: str) -> None:
     guide = json.loads(guide_file.read_text())
     for route in guide.get("routes", []):
-        route["reviewed"] = True
+        if route["id"] == route_id:
+            route["reviewed"] = True
     guide_file.write_text(json.dumps(guide, ensure_ascii=False, indent=2))
-    log(f"All routes marked reviewed: {guide_file.relative_to(REPO_PATH)}")
+    log(f"Route {route_id} marked reviewed in {guide_file.relative_to(REPO_PATH)}")
 
 
-def review_game(slug: str) -> None:
+def review_route(slug: str, route_id: str, route_title: str) -> bool:
+    """Run the review loop for a single route. Returns True if route passes."""
     guide_file = REPO_PATH / slug / "guide.json"
 
     for round_num in range(1, MAX_REVIEW_ROUNDS + 1):
-        log(f"Review round {round_num}/{MAX_REVIEW_ROUNDS} for {slug}")
+        log(f"Route {route_id}: round {round_num}/{MAX_REVIEW_ROUNDS}")
 
-        # Reviewer runs in a fresh session — no context from author or prior rounds
-        reviewer_prompt = (
-            f"Read .claude/agents/guide-reviewer.md and follow those instructions exactly. "
-            f"You are reviewing the guide for '{slug}'. "
-            f"Check all routes in {slug}/guide.json and their route_*.json files. "
-            f"Fetch both primary Japanese sources listed in {slug}/research.json. "
-            f"Create a GitHub issue for every problem you find. "
-            f"If no problems are found, confirm with: "
-            f"gh issue list --label route-accuracy --label {slug} --state open"
-        )
-        ok = run_claude_fresh(reviewer_prompt)
-        if not ok:
-            err(f"Reviewer failed for {slug} round {round_num} — will retry next cycle")
-            return
+        existing_issue = get_open_issue_for_route(slug, route_id, route_title)
 
-        if not has_open_issues(slug):
-            log(f"No open issues for {slug} — marking all routes as reviewed")
-            mark_all_reviewed(guide_file)
-            run_deploy()
-            return
+        if existing_issue is None:
+            # No open issue — run fresh reviewer for this route
+            log(f"Route {route_id}: no open issue — running reviewer")
+            reviewer_prompt = (
+                f"Read .claude/agents/guide-reviewer.md and follow those instructions exactly. "
+                f"Review the '{route_title}' route for the game '{slug}'. "
+                f"The route file is {slug}/route_{route_id}.json. "
+                f"Fetch both primary Japanese sources listed in {slug}/research.json. "
+                f"If you find accuracy issues, create exactly ONE GitHub issue with: "
+                f"  title: '[{slug}] {route_title}: accuracy review' "
+                f"  labels: route-accuracy and {slug} "
+                f"  body: all findings for this route "
+                f"If no issues are found, do not create a GitHub issue."
+            )
+            ok = run_claude_fresh(reviewer_prompt)
+            if not ok:
+                err(f"Reviewer failed for {slug}/{route_id} round {round_num} — will retry next cycle")
+                return False
+
+            existing_issue = get_open_issue_for_route(slug, route_id, route_title)
+            if existing_issue is None:
+                log(f"Route {route_id}: reviewer found no issues — passed")
+                return True
 
         if round_num == MAX_REVIEW_ROUNDS:
-            log(f"Reached max rounds ({MAX_REVIEW_ROUNDS}) for {slug} — manual review needed")
-            return
+            log(f"Route {route_id}: reached max rounds ({MAX_REVIEW_ROUNDS}) — manual review needed")
+            return False
 
-        log(f"Open issues found for {slug} — running author to fix (round {round_num})")
-
-        # Author runs in a fresh session — no context from reviewer
+        # Open issue exists — run author to fix it
+        log(f"Route {route_id}: issue #{existing_issue} open — running author (round {round_num})")
         author_prompt = (
             f"Read .claude/agents/guide-author.md and follow those instructions exactly. "
-            f"Fix all open GitHub issues labeled 'route-accuracy' and '{slug}'. "
-            f"List them first: gh issue list --label route-accuracy --label {slug} --state open "
-            f"Then read each issue with: gh issue view <number> "
-            f"Apply each fix to the guide file, then close the issue with: "
-            f"gh issue close <number> --comment \"Fixed: <description>\""
+            f"Fix GitHub issue #{existing_issue} for the '{route_title}' route in '{slug}'. "
+            f"First read the issue: gh issue view {existing_issue} "
+            f"Apply all required fixes to {slug}/route_{route_id}.json. "
+            f"When done, close the issue: "
+            f"gh issue close {existing_issue} --comment \"Fixed: <one-line description of what changed>\""
         )
         ok = run_claude_fresh(author_prompt)
         if not ok:
-            err(f"Author failed for {slug} round {round_num} — will retry next cycle")
-            return
+            err(f"Author failed for {slug}/{route_id} round {round_num} — will retry next cycle")
+            return False
 
         run_deploy()
+
+        # Re-review: verify the fix, comment or close the existing issue
+        log(f"Route {route_id}: re-reviewing after author corrections (round {round_num})")
+        re_reviewer_prompt = (
+            f"Read .claude/agents/guide-reviewer.md and follow those instructions exactly. "
+            f"Re-review the '{route_title}' route for '{slug}' after author corrections. "
+            f"First read the existing issue: gh issue view {existing_issue} "
+            f"Re-fetch the relevant sections of both Japanese sources listed in {slug}/research.json. "
+            f"Verify each finding in the issue was correctly fixed in {slug}/route_{route_id}.json. "
+            f"If all findings are resolved: close the issue with a confirming comment. "
+            f"If any finding is still wrong: add a comment to issue #{existing_issue} describing what remains, do not close it."
+        )
+        ok = run_claude_fresh(re_reviewer_prompt)
+        if not ok:
+            err(f"Re-reviewer failed for {slug}/{route_id} round {round_num} — will retry next cycle")
+            return False
+
+        # Check if the issue was closed by the re-reviewer
+        still_open = get_open_issue_for_route(slug, route_id, route_title)
+        if still_open is None:
+            log(f"Route {route_id}: issue closed by reviewer — passed")
+            return True
+
+        log(f"Route {route_id}: issue #{still_open} still open after round {round_num}")
+
+    return False
+
+
+def review_game(slug: str, priority_route: str | None = None) -> None:
+    guide_file = REPO_PATH / slug / "guide.json"
+
+    try:
+        guide = json.loads(guide_file.read_text())
+    except (json.JSONDecodeError, FileNotFoundError) as e:
+        err(f"Could not read guide.json for {slug}: {e}")
+        return
+
+    for route in guide.get("routes", []):
+        if route.get("reviewed"):
+            continue
+        route_id = route["id"]
+        if priority_route and route_id != priority_route:
+            continue
+
+        route_title = route.get("title", route_id)
+        log(f"{slug}: reviewing route {route_id} ({route_title})")
+
+        passed = review_route(slug, route_id, route_title)
+        if passed:
+            mark_route_reviewed(guide_file, route_id)
+            run_deploy()
+        else:
+            log(f"{slug}/{route_id}: did not pass — will retry next cycle")
 
 
 def run() -> None:
@@ -159,11 +228,25 @@ def run() -> None:
         return
 
     games = json.loads(GAMES_JSON.read_text())
+
+    # GUIDE_REVIEW_VID scopes the review loop to one game (separate from GUIDE_PRIORITY_VID
+    # which controls the guide-gen exit gate in entrypoint.sh).
+    priority_vid = os.environ.get("GUIDE_REVIEW_VID")
+    priority_route = os.environ.get("GUIDE_REVIEW_ROUTE")
+
+    if priority_vid:
+        log(f"GUIDE_REVIEW_VID={priority_vid}: scoping review to this game only")
+    if priority_route:
+        log(f"GUIDE_REVIEW_ROUTE={priority_route}: scoping review to this route only")
+
     reviewed_any = False
 
     for vid, entry in games.items():
         if not entry.get("has_guide"):
             continue
+        if priority_vid and vid != priority_vid:
+            continue
+
         slug = entry["slug"]
         guide_file = REPO_PATH / slug / "guide.json"
         if not guide_file.exists():
@@ -175,12 +258,15 @@ def run() -> None:
             continue
 
         unreviewed = [r for r in guide.get("routes", []) if r.get("reviewed") is not True]
+        if priority_route:
+            unreviewed = [r for r in unreviewed if r["id"] == priority_route]
+
         if not unreviewed:
             log(f"{slug}: all routes reviewed")
             continue
 
         log(f"{slug}: {len(unreviewed)} unreviewed route(s) — starting review loop")
-        review_game(slug)
+        review_game(slug, priority_route=priority_route)
         reviewed_any = True
 
     if not reviewed_any:

@@ -138,7 +138,7 @@ Never close the issue while any finding remains unresolved.
 
 ## Required closing steps (clean pass only)
 
-When the review passes — either on first review (no issues found) or after all findings are resolved — you must complete all three steps before the route is considered reviewed:
+When the accuracy review passes — either on first review (no issues found) or after all findings are resolved — you must complete all steps below before the route is considered reviewed:
 
 **Step 1 — Close the GitHub issue** (or confirm it if already closed by the author):
 ```bash
@@ -149,11 +149,21 @@ If the author already closed it, add a comment confirming the pass:
 gh issue comment <number> --body "Reviewer confirmed: all findings resolved. Marking route as reviewed."
 ```
 
-**Step 2 — Mark the route `reviewed: true` in `guide.json`:**
+**Step 2 — Verify the structural review has also passed:**
+
+Check that there is no open `route-structure` issue for this route:
+```bash
+gh issue list --label "route-structure" --label "<slug>" --state open
+```
+If any structural issue is still open, do not mark the route reviewed — stop and report that structural review is still blocking.
+
+**Step 3 — Mark the route `reviewed: true` in `guide.json`:**
+
+Only when both the accuracy issue is closed AND no open structural issue exists:
 
 Read `<slug>/guide.json`, find the route entry by `id`, and set `"reviewed": true`. Do not change any other field.
 
-**Step 3 — Confirm:**
+**Step 4 — Confirm:**
 ```bash
 python3 -c "import json; g=json.load(open('<slug>/guide.json')); print(next(r for r in g['routes'] if r['id']=='<route_id>'))"
 ```

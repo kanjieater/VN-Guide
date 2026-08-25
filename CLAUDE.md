@@ -5,15 +5,16 @@
 A generated guide is **not complete**. Completion requires:
 
 1. Author generates or corrects the guide
-2. Reviewer independently checks the guide against both Japanese sources
-3. All reviewer issues are resolved (GitHub issue closed)
-4. `review.py` sets `reviewed: true` on the route in `guide.json`
+2. Structural reviewer independently checks route flow and bad-end chain integrity
+3. Accuracy reviewer independently checks all choices against both Japanese sources
+4. All issues from both reviewers are resolved (GitHub issues closed)
+5. The accuracy reviewer sets `reviewed: true` once both reviews pass
 
 **Never:**
-- Set `reviewed: true` in `guide.json` manually — only `review.py` sets this
+- Set `reviewed: true` before both the structural (`route-structure`) and accuracy (`route-accuracy`) issues are closed
 - Self-approve a guide you just generated or corrected
 - Skip review because the changes are small
-- Create duplicate GitHub issues for a route that already has an open issue
+- Create duplicate GitHub issues for a route that already has an open issue of that type
 
 ---
 
@@ -36,22 +37,28 @@ Review state is tracked per route as `"reviewed": bool` inside `<slug>/guide.jso
 - `"reviewed": false` — generated but not yet confirmed; shows "unverified" badge in UI
 - `"reviewed": true` — reviewer passed with no open GitHub issues; badge removed
 
-The gate before `reviewed: true` is: no open GitHub issues labeled `route-accuracy` + `<slug>` for that route.
+The gate before `reviewed: true` is: no open GitHub issues labeled `route-structure` + `<slug>` AND no open issues labeled `route-accuracy` + `<slug>` for that route.
 
 Valid lifecycle:
 ```
-guide_gen.py generates route  →  reviewed: false
+guide_gen.py generates route        →  reviewed: false
         ↓
-Reviewer runs (fresh session)  →  creates one GitHub issue if problems found
+Structural reviewer runs            →  creates route-structure issue if chain defects found
         ↓ (if issues)
-Author runs (fresh session)    →  fixes all findings, closes the issue
+Author runs (fresh session)         →  fixes structural findings, closes issue
         ↓
-Reviewer re-runs               →  confirms fixes or comments if still wrong
-        ↓ (when issue closed)
-review.py sets reviewed: true  →  deploy
+Structural reviewer re-runs         →  confirms fixes or comments if still wrong
+        ↓ (structural issue closed)
+Accuracy reviewer runs              →  creates route-accuracy issue if source mismatches found
+        ↓ (if issues)
+Author runs (fresh session)         →  fixes accuracy findings, closes issue
+        ↓
+Accuracy reviewer re-runs           →  confirms fixes or comments if still wrong
+        ↓ (both issues closed)
+Accuracy reviewer sets reviewed: true  →  deploy
 ```
 
-Only `review.py` may set `reviewed: true`. Neither the author nor reviewer sets this directly.
+The accuracy reviewer sets `reviewed: true` only after confirming both the structural and accuracy issues are closed. Neither the author nor the structural reviewer sets this field.
 
 ---
 

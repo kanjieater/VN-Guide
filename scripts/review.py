@@ -26,7 +26,12 @@ REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 GAMES_JSON = REPO_PATH / "games.json"
 
-MODEL = os.environ.get("GUIDE_REVIEW_MODEL", "claude-sonnet-5")
+REVIEWER_MODEL = os.environ.get("GUIDE_REVIEWER_MODEL", "claude-sonnet-5")
+REVIEWER_EFFORT = os.environ.get("GUIDE_REVIEWER_EFFORT", "max")
+STRUCTURAL_REVIEWER_MODEL = os.environ.get("GUIDE_STRUCTURAL_REVIEWER_MODEL", "claude-sonnet-5")
+STRUCTURAL_REVIEWER_EFFORT = os.environ.get("GUIDE_STRUCTURAL_REVIEWER_EFFORT", "high")
+AUTHOR_MODEL = os.environ.get("GUIDE_AUTHOR_MODEL", "claude-sonnet-5")
+AUTHOR_EFFORT = os.environ.get("GUIDE_AUTHOR_EFFORT", "high")
 MAX_TURNS = int(os.environ.get("GUIDE_REVIEW_MAX_TURNS", "60"))
 MAX_REVIEW_ROUNDS = int(os.environ.get("GUIDE_REVIEW_MAX_ROUNDS", "5"))
 TIMEOUT_REVIEW = int(os.environ.get("GUIDE_REVIEW_TIMEOUT", str(3600)))
@@ -49,7 +54,9 @@ def run_deploy() -> None:
         err("Deploy failed — changes saved locally, will push on next cycle")
 
 
-def run_claude_fresh(prompt: str, timeout: int = TIMEOUT_REVIEW) -> bool:
+def run_claude_fresh(prompt: str, model: str = REVIEWER_MODEL,
+                     effort: str = REVIEWER_EFFORT,
+                     timeout: int = TIMEOUT_REVIEW) -> bool:
     """Invoke claude CLI in a completely fresh session (no --resume).
 
     Each call starts with no context from any prior call — author and reviewer
@@ -59,7 +66,8 @@ def run_claude_fresh(prompt: str, timeout: int = TIMEOUT_REVIEW) -> bool:
         "claude",
         "-p", prompt,
         "--dangerously-skip-permissions",
-        "--model", MODEL,
+        "--model", model,
+        "--effort", effort,
         "--max-turns", str(MAX_TURNS),
     ]
     try:
@@ -101,6 +109,116 @@ def get_open_issue_for_route(slug: str, route_id: str, route_title: str = "") ->
     return None
 
 
+def get_open_structural_issue_for_route(slug: str, route_id: str, route_title: str = "") -> int | None:
+    """Return issue number if an open route-structure issue exists for this route."""
+    result = subprocess.run(
+        ["gh", "issue", "list",
+         "--label", "route-structure",
+         "--label", slug,
+         "--state", "open",
+         "--json", "number,title"],
+        capture_output=True, text=True, cwd=str(REPO_PATH),
+    )
+    if result.returncode != 0:
+        err(f"gh issue list (structural) failed: {result.stderr.strip()}")
+        return None
+    try:
+        issues = json.loads(result.stdout or "[]")
+    except json.JSONDecodeError:
+        return None
+    for issue in issues:
+        title = issue.get("title", "").lower()
+        if route_id in title or (route_title and route_title.lower() in title):
+            return issue["number"]
+    return None
+
+
+def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
+    """Run the structural review loop for a single route. Returns True when structure passes."""
+    guide_file = REPO_PATH / slug / "guide.json"
+
+    for round_num in range(1, MAX_REVIEW_ROUNDS + 1):
+        log(f"Route {route_id}: structural round {round_num}/{MAX_REVIEW_ROUNDS}")
+
+        existing_issue = get_open_structural_issue_for_route(slug, route_id, route_title)
+
+        if existing_issue is None:
+            log(f"Route {route_id}: no open structural issue — running structural reviewer")
+            reviewer_prompt = (
+                f"Read .claude/agents/guide-reviewer-structural.md and follow those instructions exactly. "
+                f"Review the structure of the '{route_title}' route for the game '{slug}'. "
+                f"The route file is {slug}/route_{route_id}.json. "
+                f"Do NOT fetch any Japanese walkthroughs — this is a structural review only. "
+                f"Trace the main route and every bad end chain. "
+                f"If you find structural issues, create exactly ONE GitHub issue with: "
+                f"  title: '[{slug}] {route_title}: structural review' "
+                f"  labels: route-structure and {slug} "
+                f"  body: all structural findings for this route. "
+                f"If no structural issues are found, do not create a GitHub issue."
+            )
+            ok = run_claude_fresh(
+                reviewer_prompt,
+                model=STRUCTURAL_REVIEWER_MODEL,
+                effort=STRUCTURAL_REVIEWER_EFFORT,
+            )
+            if not ok:
+                err(f"Structural reviewer failed for {slug}/{route_id} round {round_num}")
+                return False
+
+            existing_issue = get_open_structural_issue_for_route(slug, route_id, route_title)
+            if existing_issue is None:
+                log(f"Route {route_id}: structural reviewer found no issues — passed")
+                return True
+
+        if round_num == MAX_REVIEW_ROUNDS:
+            log(f"Route {route_id}: structural review reached max rounds — manual review needed")
+            return False
+
+        log(f"Route {route_id}: structural issue #{existing_issue} open — running author (round {round_num})")
+        author_prompt = (
+            f"Read .claude/agents/guide-author.md and follow those instructions exactly. "
+            f"Fix GitHub issue #{existing_issue} for the '{route_title}' route in '{slug}'. "
+            f"First read the issue: gh issue view {existing_issue} "
+            f"Apply all required structural fixes to {slug}/route_{route_id}.json. "
+            f"When done, close the issue: "
+            f"gh issue close {existing_issue} --comment \"Fixed: <one-line description of what changed>\""
+        )
+        ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
+        if not ok:
+            err(f"Author failed for structural fix {slug}/{route_id} round {round_num}")
+            return False
+
+        run_deploy()
+
+        log(f"Route {route_id}: re-reviewing structure after author corrections (round {round_num})")
+        re_reviewer_prompt = (
+            f"Read .claude/agents/guide-reviewer-structural.md and follow those instructions exactly. "
+            f"Re-review the structure of the '{route_title}' route for '{slug}' after author corrections. "
+            f"First read the existing issue: gh issue view {existing_issue} "
+            f"Re-read {slug}/route_{route_id}.json and re-trace all bad end chains. "
+            f"Verify each structural finding in the issue was correctly fixed. "
+            f"If all findings are resolved: close the issue with a confirming comment. "
+            f"If any finding is still wrong: add a comment to issue #{existing_issue} describing what remains. Do not close it."
+        )
+        ok = run_claude_fresh(
+            re_reviewer_prompt,
+            model=STRUCTURAL_REVIEWER_MODEL,
+            effort=STRUCTURAL_REVIEWER_EFFORT,
+        )
+        if not ok:
+            err(f"Structural re-reviewer failed for {slug}/{route_id} round {round_num}")
+            return False
+
+        still_open = get_open_structural_issue_for_route(slug, route_id, route_title)
+        if still_open is None:
+            log(f"Route {route_id}: structural issue closed — passed")
+            return True
+
+        log(f"Route {route_id}: structural issue #{still_open} still open after round {round_num}")
+
+    return False
+
+
 def mark_route_reviewed(guide_file: Path, route_id: str) -> None:
     guide = json.loads(guide_file.read_text())
     for route in guide.get("routes", []):
@@ -133,7 +251,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
                 f"  body: all findings for this route "
                 f"If no issues are found, do not create a GitHub issue."
             )
-            ok = run_claude_fresh(reviewer_prompt)
+            ok = run_claude_fresh(reviewer_prompt, model=REVIEWER_MODEL, effort=REVIEWER_EFFORT)
             if not ok:
                 err(f"Reviewer failed for {slug}/{route_id} round {round_num} — will retry next cycle")
                 return False
@@ -157,7 +275,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"When done, close the issue: "
             f"gh issue close {existing_issue} --comment \"Fixed: <one-line description of what changed>\""
         )
-        ok = run_claude_fresh(author_prompt)
+        ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
         if not ok:
             err(f"Author failed for {slug}/{route_id} round {round_num} — will retry next cycle")
             return False
@@ -175,7 +293,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"If all findings are resolved: close the issue with a confirming comment. "
             f"If any finding is still wrong: add a comment to issue #{existing_issue} describing what remains, do not close it."
         )
-        ok = run_claude_fresh(re_reviewer_prompt)
+        ok = run_claude_fresh(re_reviewer_prompt, model=REVIEWER_MODEL, effort=REVIEWER_EFFORT)
         if not ok:
             err(f"Re-reviewer failed for {slug}/{route_id} round {round_num} — will retry next cycle")
             return False
@@ -209,6 +327,11 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
 
         route_title = route.get("title", route_id)
         log(f"{slug}: reviewing route {route_id} ({route_title})")
+
+        structural_passed = structural_review_route(slug, route_id, route_title)
+        if not structural_passed:
+            log(f"{slug}/{route_id}: structural review did not pass — skipping accuracy review")
+            continue
 
         passed = review_route(slug, route_id, route_title)
         if passed:

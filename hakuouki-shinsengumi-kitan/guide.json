@@ -7,7 +7,7 @@
       "title": "土方歳三ルート",
       "stepCount": 112,
       "portrait": "https://t.vndb.org/ch/61/198061.jpg",
-      "reviewed": true
+      "reviewed": false
     },
     {
       "id": "okita",
@@ -19,9 +19,9 @@
     {
       "id": "saito",
       "title": "斎藤一ルート",
-      "stepCount": 93,
+      "stepCount": 94,
       "portrait": "https://t.vndb.org/ch/63/198063.jpg",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "toudou",

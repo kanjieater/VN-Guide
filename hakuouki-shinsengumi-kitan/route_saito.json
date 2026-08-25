@@ -159,8 +159,7 @@
     "simpleJp": "羽織を持ってきましょうか？",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save1より／羽織を持ってきましょうか？",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "隊士のこと",
@@ -490,6 +489,13 @@
     "jpGuide1": "長岡邸に戻りませんか？　→　BADエンド（スタッフロールなし③）",
     "jpGuide2": "長岡邸に戻りませんか？",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ32にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save4より",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "ためらう",

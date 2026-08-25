@@ -114,6 +114,12 @@ def run_deploy() -> None:
         err("Deploy failed — guide saved locally, will push on next cycle")
 
 
+def load_game_notes(guide_dir: Path) -> str:
+    """Return the contents of prompt_supplement.md if it exists for this game, else empty string."""
+    f = guide_dir / "prompt_supplement.md"
+    return f.read_text() if f.exists() else ""
+
+
 def build_prompt(template_name: str, **kwargs) -> str:
     tmpl = (PROMPTS_PATH / template_name).read_text()
     prompt_md = (REPO_PATH / "prompt.md").read_text()
@@ -215,6 +221,7 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
         RESEARCH_FILE=str(research_file),
         DATE=datetime.now(timezone.utc).isoformat(),
         PLATFORM_NOTE=platform_note,
+        GAME_NOTES=load_game_notes(guide_dir),
     )
     session_file = guide_dir / "research_session.txt"
     ok = run_claude(prompt, MAX_TURNS_RESEARCH, guide_dir, session_file=session_file,
@@ -307,6 +314,7 @@ def generate_guide(slug: str, title: str, vndb_id: str,
                 ROUTE_FILE=str(route_file),
                 SAVE_OFFSET=str(save_offset),
                 SAVE_OFFSET_PLUS1=str(save_offset + 1),
+                GAME_NOTES=load_game_notes(guide_dir),
             )
             route_session_file = guide_dir / f"route_{route_id}_session.txt"
             ok = run_claude(prompt, MAX_TURNS_ROUTE, guide_dir, session_file=route_session_file)

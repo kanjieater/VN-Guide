@@ -1,4 +1,5 @@
 $PROMPT_MD
+$GAME_NOTES
 
 ---
 

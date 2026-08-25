@@ -26,7 +26,10 @@ REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 GAMES_JSON = REPO_PATH / "games.json"
 
-MODEL = os.environ.get("GUIDE_REVIEW_MODEL", "claude-sonnet-5")
+REVIEWER_MODEL = os.environ.get("GUIDE_REVIEWER_MODEL", "claude-sonnet-5")
+REVIEWER_EFFORT = os.environ.get("GUIDE_REVIEWER_EFFORT", "max")
+AUTHOR_MODEL = os.environ.get("GUIDE_AUTHOR_MODEL", "claude-sonnet-5")
+AUTHOR_EFFORT = os.environ.get("GUIDE_AUTHOR_EFFORT", "high")
 MAX_TURNS = int(os.environ.get("GUIDE_REVIEW_MAX_TURNS", "60"))
 MAX_REVIEW_ROUNDS = int(os.environ.get("GUIDE_REVIEW_MAX_ROUNDS", "5"))
 TIMEOUT_REVIEW = int(os.environ.get("GUIDE_REVIEW_TIMEOUT", str(3600)))
@@ -49,7 +52,9 @@ def run_deploy() -> None:
         err("Deploy failed — changes saved locally, will push on next cycle")
 
 
-def run_claude_fresh(prompt: str, timeout: int = TIMEOUT_REVIEW) -> bool:
+def run_claude_fresh(prompt: str, model: str = REVIEWER_MODEL,
+                     effort: str = REVIEWER_EFFORT,
+                     timeout: int = TIMEOUT_REVIEW) -> bool:
     """Invoke claude CLI in a completely fresh session (no --resume).
 
     Each call starts with no context from any prior call — author and reviewer
@@ -59,7 +64,8 @@ def run_claude_fresh(prompt: str, timeout: int = TIMEOUT_REVIEW) -> bool:
         "claude",
         "-p", prompt,
         "--dangerously-skip-permissions",
-        "--model", MODEL,
+        "--model", model,
+        "--effort", effort,
         "--max-turns", str(MAX_TURNS),
     ]
     try:
@@ -133,7 +139,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
                 f"  body: all findings for this route "
                 f"If no issues are found, do not create a GitHub issue."
             )
-            ok = run_claude_fresh(reviewer_prompt)
+            ok = run_claude_fresh(reviewer_prompt, model=REVIEWER_MODEL, effort=REVIEWER_EFFORT)
             if not ok:
                 err(f"Reviewer failed for {slug}/{route_id} round {round_num} — will retry next cycle")
                 return False
@@ -157,7 +163,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"When done, close the issue: "
             f"gh issue close {existing_issue} --comment \"Fixed: <one-line description of what changed>\""
         )
-        ok = run_claude_fresh(author_prompt)
+        ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
         if not ok:
             err(f"Author failed for {slug}/{route_id} round {round_num} — will retry next cycle")
             return False
@@ -175,7 +181,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"If all findings are resolved: close the issue with a confirming comment. "
             f"If any finding is still wrong: add a comment to issue #{existing_issue} describing what remains, do not close it."
         )
-        ok = run_claude_fresh(re_reviewer_prompt)
+        ok = run_claude_fresh(re_reviewer_prompt, model=REVIEWER_MODEL, effort=REVIEWER_EFFORT)
         if not ok:
             err(f"Re-reviewer failed for {slug}/{route_id} round {round_num} — will retry next cycle")
             return False

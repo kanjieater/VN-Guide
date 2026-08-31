@@ -28,16 +28,8 @@
     "has_guide": true,
     "title": "Arcana Famiglia",
     "alttitle": "アルカナ・ファミリア",
-    "cover_url": "https://t.vndb.org/cv/94/96894.jpg",
+    "cover_url": "https://t.vndb.org/cv/65/113965.jpg",
     "added_at": "2026-07-07T22:51:38.476489+00:00"
-  },
-  "v29081": {
-    "slug": "blood-the-last-vampire",
-    "has_guide": false,
-    "title": "Blood: The Last Vampire",
-    "alttitle": "",
-    "cover_url": "https://t.vndb.org/cv/31/119231.jpg",
-    "added_at": "2026-07-07T22:51:38.476564+00:00"
   },
   "v405": {
     "slug": "マブラヴ-altered-fable",
@@ -47,13 +39,13 @@
     "cover_url": "https://t.vndb.org/cv/43/95643.jpg",
     "added_at": "2026-07-20T22:31:13.744503+00:00"
   },
-  "v6618": {
-    "slug": "steinsgate-比翼恋理のだーりん",
-    "has_guide": true,
-    "title": "STEINS;GATE: Hiyoku Renri no Darling",
-    "alttitle": "STEINS;GATE 比翼恋理のだーりん",
-    "cover_url": "https://t.vndb.org/cv/44/75844.jpg",
-    "added_at": "2026-07-20T22:31:13.744554+00:00"
+  "v29081": {
+    "slug": "blood-the-last-vampire",
+    "has_guide": false,
+    "title": "Blood: The Last Vampire",
+    "alttitle": "",
+    "cover_url": "https://t.vndb.org/cv/31/119231.jpg",
+    "added_at": "2026-07-07T22:51:38.476564+00:00"
   },
   "v2002": {
     "slug": "steinsgate",
@@ -62,5 +54,37 @@
     "alttitle": "",
     "cover_url": "https://t.vndb.org/cv/19/77819.jpg",
     "added_at": "2026-07-26T14:43:43.555767+00:00"
+  },
+  "v98": {
+    "slug": "akai-ito",
+    "has_guide": false,
+    "title": "Akai Ito",
+    "alttitle": "アカイイト",
+    "cover_url": "https://t.vndb.org/cv/85/89085.jpg",
+    "added_at": "2026-08-31T17:22:19.884258+00:00"
+  },
+  "v147": {
+    "slug": "eve-burst-error",
+    "has_guide": false,
+    "title": "EVE burst error",
+    "alttitle": "",
+    "cover_url": "https://t.vndb.org/cv/82/103582.jpg",
+    "added_at": "2026-08-31T17:22:19.884323+00:00"
+  },
+  "v210": {
+    "slug": "himawari",
+    "has_guide": false,
+    "title": "Himawari",
+    "alttitle": "ひまわり",
+    "cover_url": "https://t.vndb.org/cv/73/98573.jpg",
+    "added_at": "2026-08-31T17:22:19.884335+00:00"
+  },
+  "v13666": {
+    "slug": "凍京necroトウキョウネクロ",
+    "has_guide": false,
+    "title": "Tokyo NECRO",
+    "alttitle": "凍京NECRO＜トウキョウ・ネクロ＞",
+    "cover_url": "https://t.vndb.org/cv/79/78079.jpg",
+    "added_at": "2026-08-31T17:22:19.884358+00:00"
   }
 }

@@ -1,0 +1,128 @@
+[
+  {
+    "simpleJp": "ここはひとつ……霞でどうか？",
+    "jpGuide1": "ここはひとつ……霞でどうか？",
+    "jpGuide2": "ここはひとつ霞でどうか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "【セーブ１】（２回使用）",
+    "jpGuide2": "＜セーブ１＞※悠陽、冥夜分岐",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "純夏のやつ、しょうがねぇなぁ・・・",
+    "jpGuide1": "純夏のやつ、しょうがねぇなあ……",
+    "jpGuide2": "純夏のやつ、しょうがねぇなぁ・・・",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ラジオ実況プロサッカー",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ラジオ実況プロサッカー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "千鶴・柏木の間",
+    "jpGuide1": "千鶴・柏木の間",
+    "jpGuide2": "千鶴・柏木の間",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "＜セーブ２＞※彩峰（＋柏木、悠陽回収、回収）分岐",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行くぞ、霞ッ！！",
+    "jpGuide1": "行くぞ、霞ッ！！",
+    "jpGuide2": "行くぞ、霞ッ！！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "適当にブラブラしてるよ",
+    "jpGuide1": "適当にブラブラしてるよ",
+    "jpGuide2": "適当にブラブラしてるよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "＜セーブ３＞※海についたら早めにセーブ\n※美琴（＋壬姫）、千鶴、築地、まりも、宗像・風間分岐",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "10:00　純夏／霞の部屋",
+    "jpGuide1": "10:00　純夏／霞の部屋",
+    "jpGuide2": "純夏／霞の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "10:15　武の部屋",
+    "jpGuide1": "10:15　武の部屋",
+    "jpGuide2": "武の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "【セーブ２】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ああ、いいよ",
+    "jpGuide1": "ああ、いいよ",
+    "jpGuide2": "ああ、いいよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "11:45　橋",
+    "jpGuide1": "11:45　橋",
+    "jpGuide2": "橋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "12:00　水着ショップ",
+    "jpGuide1": "12:00　水着ショップ",
+    "jpGuide2": "水着ショップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "12:15　水着ショップ",
+    "jpGuide1": "12:15　水着ショップ",
+    "jpGuide2": "水着ショップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "【セーブ３】",
+    "jpGuide2": "＜セーブ４＞※純夏、霞分岐\n※ビーチバレーのルール開設の選択肢でセーブ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "はい／いいえ（※ルール解説）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、純夏、イルマ、ピアティフ（敗北する）",
+    "jpGuide1": "ミニゲーム：ビーチバレー\nキャラ選択：武、純夏、イルマ、ピアティフ（敗北する）",
+    "jpGuide2": "【１戦目】武、、純夏、イルマ、ピアティフ\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、純夏（敗北する）",
+    "jpGuide1": "キャラ選択：武、純夏（敗北する）",
+    "jpGuide2": "【２戦目】武、、純夏\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "純夏エンド",
+    "jpGuide1": "純夏 ＥＮＤ",
+    "jpGuide2": "※純夏H\n＜純夏エンド＞",
+    "enGuide": ""
+  }
+]

@@ -1,5 +1,52 @@
 {
   "title": "Muv-Luv Altered Fable",
   "vndb_id": "v405",
-  "routes": []
+  "routes": [
+    {
+      "id": "sumika",
+      "title": "純夏ルート",
+      "stepCount": 21,
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/09/109.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "http://sagaoz.net/foolmaker/game/m/muvluvalfe.html",
+      "title": "マブラヴ ALTERED FABLE 攻略 by 愚者の館（アーカイブ）",
+      "language": "ja",
+      "notes": "Complete choice-by-choice walkthrough for 100% CG/recollection completion, confirmed against game version 1.10 (2007/09/04). Contains explicit 【セーブ１】–【セーブ１２】 save markers, exact choice text, minigame/volleyball team-selection instructions (win/lose per match), and an editor's afterword explicitly stating the route order was designed 「同じイベントを極力２度以上見せないことを最優先目的として」(to avoid showing the same event twice) — i.e. the order is an efficiency recommendation, not a game-enforced unlock sequence. Covers all 10 character endings (純夏/霞/冥夜/悠陽/千鶴/慧/壬姫/美琴/晴子/まりも) plus incidental CG-recollection detours. Used as primary source #1 and as the basis for recommended_order."
+    },
+    {
+      "url": "http://gamerssquare.kanpaku.jp/muvluvalteredfable.htm",
+      "title": "ゲーム攻略・マブラヴ ALTERED FABLE オルタード・フェーブル（アージュ）- Gamer's Square",
+      "language": "ja",
+      "notes": "Second complete choice-by-choice walkthrough, also confirmed against patch version 1.10, independently covering the same 10 character endings plus recollection-only detours (築地／CG回収, 宗像・風間回収, 悠陽回収). Uses its own ＜セーブXX＞ / ＜セーブXXから＞ markers and documents an alternate but equally valid play order (純夏→霞→美琴→壬姫→千鶴→[recollection]→悠陽→冥夜→彩峰→柏木→[recollection]). Explicitly notes which volleyball matches must be won vs. thrown/given-up, and flags Kasumi as the sole route requiring a WIN in the first match. Used as primary source #2 for cross-validation of every branch point and choice text."
+    },
+    {
+      "url": "http://alteredfable.wikidb.info/%E6%94%BB%E7%95%A5%E3%83%AB%E3%83%BC%E3%83%88/",
+      "title": "攻略ルート - マブラヴ ALTERED FABLE（オルタード フェイブル） wikidb",
+      "language": "ja",
+      "notes": "Supplementary community wiki page listing, per character, the exact sequence of map locations and choices needed to branch into that character's route/volleyball pairing, plus a 'hard to collect CG' (回収しにくい？CG) section cross-referencing specific choices to specific CG numbers. Used to cross-check branch choice text (e.g. Yuuhi's A/B variant choice) against the two full walkthroughs above. Does not use SAVE-number markers itself so was not used as a primary numbering source."
+    },
+    {
+      "url": "https://steamcommunity.com/app/449830/discussions/0/352788917761282044/",
+      "title": "muv-luv alterd fable routes guide anywhere? - Steam Community discussion",
+      "language": "en",
+      "notes": "English supplementary reference only (per policy, used to corroborate structure, never as a primary source). A community answer summarized in search results states the game has 9-10 short 'mini-arcs' that branch off after the beach volleyball minigame and then merge back into a shared final arc, rather than fully separate exclusive routes with locks — corroborating both Japanese full guides' finding that there are no prerequisites/unlock conditions between the 10 character endings. Direct fetch of the linked Steam Community walkthrough guide (id=2930806711) was rate-limited (HTTP 429) during this research session and could not be directly verified; not relied upon for any specific choice text."
+    },
+    {
+      "url": "https://vndb.org/v405",
+      "title": "Muv-Luv Altered Fable: A Shimmering Shard of Spacetime - VNDB entry v405",
+      "language": "en",
+      "notes": "Reference only. Confirms this VNDB entry aggregates the original Aug/Sep 2007 PC release, 2014 Photonmelodies editions, the Mar 2020 age Archives box editions, and the Feb 2025 age Archives Download Edition/Memorial Bundle (the most recent official release), plus English fan-translation patches (2014, 2026) and a 2020 official Steam release (photonmelodies♮). Web search confirmed this title never received a console port (unlike the main Muv-Luv/Alternative titles, which reached Xbox 360/PS3/Vita/Switch) — it remains PC-only, so the 2007-era Japanese walkthroughs are fully valid for the current/latest (Steam/age Archives) release since no routes or content were added across re-releases."
+    },
+    {
+      "url": "https://vndb.org/v405/chars",
+      "title": "Muv-Luv Altered Fable - Character list, VNDB",
+      "language": "en",
+      "notes": "Reference only. Used to map each route character to their VNDB character ID for portrait URLs: Sumika c109, Meiya c107, Yuuhi c176, Chizuru c116, Miki c133, Kei (Ayamine) c126, Kasumi c178, Mikoto c266, Haruko (Kashiwagi) c172, Marimo (Jinguuji) c111. All ten portrait URLs (https://t.vndb.org/ch/{last2}/{id}.jpg) were verified to return HTTP 200 during this session."
+    }
+  ],
+  "generated_at": "2026-08-31T20:11:47.393558+00:00"
 }

@@ -97,5 +97,5 @@
       "notes": "Reference only. Used to map each route character to their VNDB character ID for portrait URLs: Sumika c109, Meiya c107, Yuuhi c176, Chizuru c116, Miki c133, Kei (Ayamine) c126, Kasumi c178, Mikoto c266, Haruko (Kashiwagi) c172, Marimo (Jinguuji) c111. All ten portrait URLs (https://t.vndb.org/ch/{last2}/{id}.jpg) were verified to return HTTP 200 during this session."
     }
   ],
-  "generated_at": "2026-09-01T18:14:33.200223+00:00"
+  "generated_at": "2026-09-01T18:14:35.349626+00:00"
 }

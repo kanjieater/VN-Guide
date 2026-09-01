@@ -1,0 +1,68 @@
+[
+  {
+    "simpleJp": "セーブ11",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "＜セーブ３から＞※共通ルートより",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "千鶴・茜の部屋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "千鶴・茜の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "橋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "橋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プール",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "プール",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "よし、入るか",
+    "jpGuide1": "よし、入るか",
+    "jpGuide2": "いいぜ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "その勝負、受けよう！",
+    "jpGuide1": "その勝負、受けよう！",
+    "jpGuide2": "その勝負、受けよう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12",
+    "jpGuide1": "【セーブ７】（２回使用）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "はい／いいえ（※解説）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、千鶴、イルマ、まりも（敗北する）",
+    "jpGuide1": "ミニゲーム：ビーチバレー\nキャラ選択：武、千鶴、イルマ、まりも（敗北する）",
+    "jpGuide2": "【１戦目】武、、千鶴、イルマ、ピアティフ\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、千鶴（敗北する）",
+    "jpGuide1": "キャラ選択：武、千鶴（敗北する）",
+    "jpGuide2": "【２戦目】武、千鶴\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "千鶴エンド",
+    "jpGuide1": "千鶴 ＥＮＤ",
+    "jpGuide2": "※千鶴H\n＜千鶴エンド＞",
+    "enGuide": ""
+  }
+]

@@ -34,23 +34,32 @@ CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0   # required — default 600s kills long 
 in the whole repo** — it will run structural/accuracy reviews on other games'
 routes owned by a different container. Always pin both.
 
-## 4. Wire up Claude auth — do NOT bind-mount the whole ~/.claude dir
+## 4. Wire up Claude auth — snapshot-copy credentials, don't bind-mount them
 
-Share just the credentials file with the host, so token refreshes (on either
-side) stay in sync instead of one side's copy going stale:
-
-`compose.yml`:
-```yaml
-volumes:
-  - /home/ke/code/vn-guide/scripts:/app/scripts
-  - /home/ke/code/vn-guide:/app/repo
-  - <some-claude-volume>:/home/guide/.claude
-  - /home/ke/.claude/.credentials.json:/home/guide/.claude/.credentials.json
-networks:
-  - selfhost
+Use the container's own isolated named volume for `/home/guide/.claude`, then
+seed it with a one-time copy of the host's live credentials:
+```bash
+docker run --rm \
+  -v <claude-volume-name>:/data \
+  -v /home/ke/.claude/.credentials.json:/src/.credentials.json:ro \
+  alpine sh -c "cp /src/.credentials.json /data/.credentials.json && \
+    chown 1000:1000 /data/.credentials.json && chmod 600 /data/.credentials.json"
 ```
 Requires the host user to already be logged in via `claude` (a valid
 `~/.claude/.credentials.json` with an active subscription).
+
+**Do not bind-mount `~/.claude/.credentials.json` as a single file** —
+`claude` rewrites it atomically (write-temp + rename), which detaches a
+single-file bind mount from the new inode. The container silently keeps
+seeing the old, now-discarded file forever and eventually fails with
+`OAuth session expired and could not be refreshed`. When that happens,
+just stop the container and re-run the snapshot copy above, then
+`docker compose up -d --force-recreate`.
+
+Also note: this container and your interactive host Claude session **share
+the same subscription's usage limit**. If both are active at once you can
+hit `You've hit your session limit` on either side — that's expected, not a
+bug; it just retries next cycle.
 
 ## 5. Start it and verify it's actually doing work, not just up
 

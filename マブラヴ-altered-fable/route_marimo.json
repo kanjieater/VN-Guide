@@ -1,0 +1,80 @@
+[
+  {
+    "simpleJp": "セーブ20",
+    "jpGuide1": "セーブ１２から",
+    "jpGuide2": "＜セーブ３から＞※共通ルートより",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "橋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "橋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ベガビーチ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ベガビーチ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ベガビーチ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ベガビーチ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "街道",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "街道",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水着ショップ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "水着ショップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水着ショップ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "水着ショップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "武の部屋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "武の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "はい／いいえ（※解説）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、まりも、水月、遙（敗北する）",
+    "jpGuide1": "ミニゲーム：ビーチバレー\nキャラ選択：武、まりも、水月、遙（敗北する）",
+    "jpGuide2": "【１戦目】武、、水月、遥、まりも\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、まりも（敗北する）",
+    "jpGuide1": "キャラ選択：武、まりも（敗北する）",
+    "jpGuide2": "【２戦目】武、まりも\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "道沿いに行った方がいい！",
+    "jpGuide1": "道沿いに行った方がいい！",
+    "jpGuide2": "道沿いに行ったほうがいい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まりもエンド",
+    "jpGuide1": "まりも ＥＮＤ",
+    "jpGuide2": "※遥ＣＧ回収⇒まりもH\n＜まりもエンド＞",
+    "enGuide": ""
+  }
+]

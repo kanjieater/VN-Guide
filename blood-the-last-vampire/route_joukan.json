@@ -1,0 +1,3199 @@
+[
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Neither xneo.jp nor mmitsuru marks explicit save points for this branching prologue; this save slot is an editorial addition placed at the earliest safe point so every one of Joukan's 19 endings can be reached and reloaded from a shared checkpoint."
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "答える＞",
+    "enGuide": "",
+    "badEndPath": "End 01「闇に潜むもの」"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "神田に行こう",
+    "jpGuide1": "神田に行こう",
+    "jpGuide2": "神田に行こう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "答える＞",
+    "enGuide": "",
+    "badEndPath": "End 02「遊びの後で」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "神田まで行くよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "そういえば財布忘れたような＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "後ろを見る",
+    "jpGuide1": "後ろを見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ショートの子が好み",
+    "jpGuide1": "ショートの子が好み",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「ちょっと待ってよ」",
+    "jpGuide1": "ちょっと待ってよ\t瑠璃亜の「あたし瑠璃亜、行こうか」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "ショートの女の子「あたし、瑠璃亜」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "どこへ行くの？",
+    "jpGuide1": "どこへ行くの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "だって今会ったばかりだよ",
+    "jpGuide1": "だって今会ったばかりだよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遊びに行くんだ",
+    "jpGuide1": "遊びに行くんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行く」",
+    "jpGuide1": "行く\t瑠璃亜の「おいでよ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「おいでよ」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "……そうだと思う",
+    "jpGuide1": "……そうだと思う",
+    "jpGuide2": "……そうだと思う＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "End 04「美酒より美味きもの」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "神田まで行くよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "そういえば財布忘れたような＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
+    "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
+    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「少女の姿を捜す」",
+    "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
+    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "右を見る",
+    "jpGuide1": "右を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行ってみよう」",
+    "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "まっすぐ行こう",
+    "jpGuide1": "まっすぐ行こう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「え？」",
+    "jpGuide1": "え？\t瑠璃亜の「おいしい」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「おいしい……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "なんだろう、この子",
+    "jpGuide1": "なんだろう、この子",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……な、ないよ",
+    "jpGuide1": "……な、ないよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「慣れてないから」",
+    "jpGuide1": "慣れてないから\t灯子の「どうかしたの？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「どうかしたの？」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: レストラン)"
+  },
+  {
+    "simpleJp": "こんなところに",
+    "jpGuide1": "こんなところに",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お腹が空いてるように見えたのかな？",
+    "jpGuide1": "お腹が空いてるように見えたのかな？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "甘い……",
+    "jpGuide1": "甘い……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんでそれを",
+    "jpGuide1": "なんでそれを",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すべてを？",
+    "jpGuide1": "すべてを？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の口に合っていた",
+    "jpGuide1": "僕の口に合っていた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……嫌な気分だった",
+    "jpGuide1": "……嫌な気分だった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "答える＞",
+    "enGuide": "",
+    "badEndPath": "End 05「振り向けばそこにいる」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "教会の坂の下の本屋だけど",
+    "jpGuide1": "教会の坂の下の本屋だけど",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……寒い……",
+    "jpGuide1": "……寒い……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する",
+    "jpGuide2": "挨拶する＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんだか馴れ馴れしい",
+    "jpGuide1": "なんだか馴れ馴れしい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうも",
+    "jpGuide1": "どうも",
+    "jpGuide2": "どうも＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんで知ってるの？」",
+    "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "帰ってもいいかな……",
+    "jpGuide1": "帰ってもいいかな……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あ、いや",
+    "jpGuide1": "あ、いや",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここで暮らしてるの？",
+    "jpGuide1": "ここで暮らしてるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜はさ……",
+    "jpGuide1": "瑠璃亜はさ……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうして僕に声をかけたの？",
+    "jpGuide1": "どうして僕に声をかけたの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……",
+    "jpGuide2": "怖いとは思わなかった……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜は何か知っている",
+    "jpGuide1": "瑠璃亜は何か知っている",
+    "jpGuide2": "瑠璃亜は何か知っている＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？",
+    "jpGuide2": "あれは僕がやったの？＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなんてなりたくない",
+    "jpGuide1": "強くなんてなりたくない",
+    "jpGuide2": "強くなんてなりたくない＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が怖かった",
+    "jpGuide1": "あの声が怖かった",
+    "jpGuide2": "あの声が怖かった＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜が好きだ",
+    "jpGuide1": "夜が好きだ",
+    "jpGuide2": "夜が好きだ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "badEndPath": "エンディング6"
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロングの子が好み",
+    "jpGuide1": "ロングの子が好み",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんで知ってるの？」",
+    "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "なんでそれを",
+    "jpGuide1": "なんでそれを",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声？",
+    "jpGuide1": "あの声？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなれるの？",
+    "jpGuide1": "強くなれるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の口に合っていた",
+    "jpGuide1": "僕の口に合っていた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……嫌な気分だった",
+    "jpGuide1": "……嫌な気分だった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「あれ……？」",
+    "jpGuide1": "あれ……？\t灯子の「ねえ、私を見て」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「ねえ、私を見て」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: レストラン)"
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "badEndPath": "エンディング7"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「この鈴は……」",
+    "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「声をかけてみる」",
+    "jpGuide1": "声をかけてみる\t主人公の「でも行き先は～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『でも行き先はまだ教えてはくれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: コンビニ)"
+  },
+  {
+    "simpleJp": "僕、用事あるんだけど",
+    "jpGuide1": "僕、用事あるんだけど",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そ、そうだね",
+    "jpGuide1": "そ、そうだね",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここで暮らしてるの？",
+    "jpGuide1": "ここで暮らしてるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうして僕を？",
+    "jpGuide1": "どうして僕を？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜は何か知っている",
+    "jpGuide1": "瑠璃亜は何か知っている",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなれるの？",
+    "jpGuide1": "強くなれるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が支えになってた",
+    "jpGuide1": "あの声が支えになってた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「……うん」",
+    "jpGuide1": "……うん\t瑠璃亜の「楽しもうよ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "へんなところは嫌だよ",
+    "jpGuide1": "へんなところは嫌だよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やめてくださいっ、お姉さん！",
+    "jpGuide1": "やめてくださいっ、お姉さん！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "は、はい",
+    "jpGuide1": "は、はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんな事ないよ",
+    "jpGuide1": "そんな事ないよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにしてるの？",
+    "jpGuide1": "なにしてるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいよ、そんなお礼なんて",
+    "jpGuide1": "いいよ、そんなお礼なんて",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話さなかった",
+    "jpGuide1": "話さなかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただいま",
+    "jpGuide1": "ただいま",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なに見てるの？」",
+    "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
+    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "まるで年をとってないみたいだ",
+    "jpGuide1": "まるで年をとってないみたいだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それがどうかしたの？",
+    "jpGuide1": "それがどうかしたの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "居間へ戻る",
+    "jpGuide1": "居間へ戻る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この子、誰かわかる？",
+    "jpGuide1": "この子、誰かわかる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "昨日、似てる人を見掛けたから",
+    "jpGuide1": "昨日、似てる人を見掛けたから",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "答える＞",
+    "enGuide": "",
+    "badEndPath": "End 09「抱擁その２」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "神田まで行くよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「この鈴は……」",
+    "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "そういえば財布忘れたような＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "左を見る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
+    "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
+    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「少女の姿を捜す」",
+    "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
+    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "右を見る",
+    "jpGuide1": "右を見る",
+    "jpGuide2": "右を見る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行ってみよう」",
+    "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "右へ曲がってみよう",
+    "jpGuide1": "右へ曲がってみよう",
+    "jpGuide2": "右へ曲がってみよう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t主人公の「なんだったんだ～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだったんだ？　あれは……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "BSSタップ：「僕は知ってる！？」",
+    "jpGuide1": "僕は知ってる！？\t主人公の「なんだ、今のは」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだ？　今のは……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……",
+    "jpGuide2": "怖いとは思わなかった……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなんてなりたくない",
+    "jpGuide1": "強くなんてなりたくない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜が好きだ",
+    "jpGuide1": "夜が好きだ",
+    "jpGuide2": "夜が好きだ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんだろう」",
+    "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
+    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
+  },
+  {
+    "simpleJp": "気持ちいい",
+    "jpGuide1": "気持ちいい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただいま",
+    "jpGuide1": "ただいま",
+    "jpGuide2": "ただいま＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まるで年をとってないみたいだ",
+    "jpGuide1": "まるで年をとってないみたいだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この子、誰かわかる？",
+    "jpGuide1": "この子、誰かわかる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "昨日、似てる人を見掛けたから",
+    "jpGuide1": "昨日、似てる人を見掛けたから",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "badEndPath": "エンディング10"
+  },
+  {
+    "simpleJp": "痛い……！",
+    "jpGuide1": "痛い……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロングの子が好み",
+    "jpGuide1": "ロングの子が好み",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんで知ってるの？」",
+    "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "そ、そうだね",
+    "jpGuide1": "そ、そうだね",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここで暮らしてるの？",
+    "jpGuide1": "ここで暮らしてるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの制服の子……",
+    "jpGuide1": "あの制服の子……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜は何か知っている",
+    "jpGuide1": "瑠璃亜は何か知っている",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が支えになってた",
+    "jpGuide1": "あの声が支えになってた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「……うん」",
+    "jpGuide1": "……うん\t瑠璃亜の「楽しもうよ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "わかった",
+    "jpGuide1": "わかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "う……うん",
+    "jpGuide1": "う……うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにしてるの？",
+    "jpGuide1": "なにしてるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただいま",
+    "jpGuide1": "ただいま",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なに見てるの？」",
+    "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
+    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "まるで年をとってないみたいだ",
+    "jpGuide1": "まるで年をとってないみたいだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それがどうかしたの？",
+    "jpGuide1": "それがどうかしたの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "居間へ戻る",
+    "jpGuide1": "居間へ戻る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この子、誰かわかる？",
+    "jpGuide1": "この子、誰かわかる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "たいした事じゃないよ",
+    "jpGuide1": "たいした事じゃないよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「離して！」",
+    "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
+    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "End 11「恐るべきもの」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「この鈴は……」",
+    "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
+    "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
+    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「少女の姿を捜す」",
+    "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
+    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "右を見る",
+    "jpGuide1": "右を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行ってみよう」",
+    "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "右へ曲がってみよう",
+    "jpGuide1": "右へ曲がってみよう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜は嫌いだ",
+    "jpGuide1": "夜は嫌いだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんだろう」",
+    "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
+    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
+  },
+  {
+    "simpleJp": "なんともない",
+    "jpGuide1": "なんともない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただいま",
+    "jpGuide1": "ただいま",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それに比べて母さんは老けた",
+    "jpGuide1": "それに比べて母さんは老けた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この写真、いつ撮ったの？",
+    "jpGuide1": "この写真、いつ撮ったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「離して！」",
+    "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
+    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「やめてよ！」",
+    "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "End 12「咆哮その１」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
+    "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
+    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「少女の姿を捜す」",
+    "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
+    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "右を見る",
+    "jpGuide1": "右を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行ってみよう」",
+    "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "右へ曲がってみよう",
+    "jpGuide1": "右へ曲がってみよう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜は嫌いだ",
+    "jpGuide1": "夜は嫌いだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんだろう」",
+    "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
+    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
+  },
+  {
+    "simpleJp": "なんともない",
+    "jpGuide1": "なんともない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただいま",
+    "jpGuide1": "ただいま",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それに比べて母さんは老けた",
+    "jpGuide1": "それに比べて母さんは老けた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この写真、いつ撮ったの？",
+    "jpGuide1": "この写真、いつ撮ったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「離して！」",
+    "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
+    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「やめてよ！」",
+    "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「……逃げなきゃ」",
+    "jpGuide1": "……逃げなきゃ\t主人公が外に出たら、サーチする。",
+    "jpGuide2": "▲（爆発に巻きこまれ転がった主人公が現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "……右だ",
+    "jpGuide1": "……右だ",
+    "jpGuide2": "……右だ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "End 13「咆哮その２」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「この鈴は……」",
+    "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
+    "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
+    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「少女の姿を捜す」",
+    "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
+    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "右を見る",
+    "jpGuide1": "右を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行ってみよう」",
+    "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "右へ曲がってみよう",
+    "jpGuide1": "右へ曲がってみよう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜は嫌いだ",
+    "jpGuide1": "夜は嫌いだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんだろう」",
+    "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
+    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
+  },
+  {
+    "simpleJp": "なんともない",
+    "jpGuide1": "なんともない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただいま",
+    "jpGuide1": "ただいま",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それに比べて母さんは老けた",
+    "jpGuide1": "それに比べて母さんは老けた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この写真、いつ撮ったの？",
+    "jpGuide1": "この写真、いつ撮ったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「離して！」",
+    "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
+    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「やめてよ！」",
+    "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「……逃げなきゃ」",
+    "jpGuide1": "……逃げなきゃ\t主人公が外に出たら、サーチする。",
+    "jpGuide2": "▲（爆発に巻きこまれ転がった主人公が現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "……物置に隠れよう",
+    "jpGuide1": "……物置に隠れよう",
+    "jpGuide2": "……物置に隠れよう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "badEndPath": "エンディング14"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「この鈴は……」",
+    "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「うん」",
+    "jpGuide1": "うん\t瑠璃亜の「本当？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「……行かないよ」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "参考書買いたいんだ",
+    "jpGuide1": "参考書買いたいんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜……」",
+    "jpGuide1": "瑠璃亜……\t瑠璃亜の「もう私には～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「……もう、あたしには関係ないけどね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
+  },
+  {
+    "simpleJp": "BSSタップ：「好きなの、そういうの？」",
+    "jpGuide1": "好きなの、そういうの？\t主人公の「吸血鬼の本」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「吸血鬼の本？」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
+  },
+  {
+    "simpleJp": "興味あるんだ",
+    "jpGuide1": "興味あるんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "かまわないけど",
+    "jpGuide1": "かまわないけど",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恐ろしいものだ",
+    "jpGuide1": "恐ろしいものだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行く」",
+    "jpGuide1": "行く\t瑠璃亜の「おいでよ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「おいでよ」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "……そうじゃないけど",
+    "jpGuide1": "……そうじゃないけど",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「折角会えた？」",
+    "jpGuide1": "折角会えた？\t瑠璃亜の「せっかく会えた～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「折角会えたんだから……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "BSSタップ：「……」",
+    "jpGuide1": "……\t瑠璃亜が主人公の手を取ったら、サーチする。",
+    "jpGuide2": "▲主人公「え……？」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "恥ずかしい",
+    "jpGuide1": "恥ずかしい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「え？」",
+    "jpGuide1": "え？\t瑠璃亜の「おいしい」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「おいしい……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "BSSタップ：「君と一緒にいたい」",
+    "jpGuide1": "君と一緒にいたい\t主人公の「瑠璃亜」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『その場の空気をごまかすように僕は瑠璃亜の名前を呼んだ』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "そ、そうだね",
+    "jpGuide1": "そ、そうだね",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すごいところだね",
+    "jpGuide1": "すごいところだね",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一人で寂しくない？",
+    "jpGuide1": "一人で寂しくない？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜は何か知っている",
+    "jpGuide1": "瑠璃亜は何か知っている",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が怖かった",
+    "jpGuide1": "あの声が怖かった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "憧れるよね",
+    "jpGuide1": "憧れるよね",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいよ",
+    "jpGuide1": "いいよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「……うん」",
+    "jpGuide1": "……うん\t瑠璃亜の「ねえ、遊びに行こう」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: アパート)"
+  },
+  {
+    "simpleJp": "BSSタップ：「そんなにくっつかないでよ」",
+    "jpGuide1": "そんなにくっつかないでよ\t瑠璃亜の「なんでこんなにたくさんの～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「なんでこんなにたくさんの人がいるんだろうね？」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "わかった",
+    "jpGuide1": "わかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんな事ないよ",
+    "jpGuide1": "そんな事ないよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにしてるの？",
+    "jpGuide1": "なにしてるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいよ、そんなお礼なんて",
+    "jpGuide1": "いいよ、そんなお礼なんて",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "同情する",
+    "jpGuide1": "同情する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話してみた",
+    "jpGuide1": "話してみた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖くて震えてくるんだ",
+    "jpGuide1": "怖くて震えてくるんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そっと入る",
+    "jpGuide1": "そっと入る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "答える＞",
+    "enGuide": "",
+    "badEndPath": "End 19「究明編」"
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "神田まで行くよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「この鈴は……」",
+    "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "そういえば財布忘れたような＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "左を見る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
+    "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
+    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「少女の姿を捜す」",
+    "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
+    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "右を見る",
+    "jpGuide1": "右を見る",
+    "jpGuide2": "右を見る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行ってみよう」",
+    "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "右へ曲がってみよう",
+    "jpGuide1": "右へ曲がってみよう",
+    "jpGuide2": "右へ曲がってみよう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t主人公の「なんだったんだ～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだったんだ？　あれは……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "BSSタップ：「僕は知ってる！？」",
+    "jpGuide1": "僕は知ってる！？\t主人公の「なんだ、今のは」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『なんだ？　今のは……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "僕じゃない！＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜は好きだ",
+    "jpGuide1": "夜は好きだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんだろう」",
+    "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
+    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
+  },
+  {
+    "simpleJp": "なんともない",
+    "jpGuide1": "なんともない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そっと入る",
+    "jpGuide1": "そっと入る",
+    "jpGuide2": "そっと入る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まるで年をとってないみたいだ",
+    "jpGuide1": "まるで年をとってないみたいだ",
+    "jpGuide2": "まるで年をとってないみたいだ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "……なんでもない",
+    "jpGuide1": "……なんでもない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「離して！」",
+    "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
+    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「やめてよ！」",
+    "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「……逃げなきゃ」",
+    "jpGuide1": "……逃げなきゃ\t主人公が外に出たら、サーチする。",
+    "jpGuide2": "▲（爆発に巻きこまれ転がった主人公が現れた瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "……物置に隠れよう",
+    "jpGuide1": "……物置に隠れよう",
+    "jpGuide2": "……物置に隠れよう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「うわあ！」",
+    "jpGuide1": "うわあ！\t灯子が主人公に向かって歩きはじめたら、サーチする。",
+    "jpGuide2": "▲（灯子を下から見上げたシーンになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "BLOODレベル確認：100（エンディング15）",
+    "jpGuide1": "BLOODレベルを100にする",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "xneo.jp documents a 15th Joukan ending that triggers automatically once the BLOOD level meter fills to 100, overriding whatever branch you are on. mmitsuru's index page lists a matching 15th entry (redacted title fragment 「永…血」) but its own per-ending page for this one was never archived, so no choice sequence can be sourced for it. Neither guide ties it to a specific save point; keep tapping every available BSS trigger and it can appear on almost any branch instead of the ending you were aiming for. No load step is included here because no source documents where the meter actually maxes out."
+  },
+  {
+    "simpleJp": "答えない",
+    "jpGuide1": "答えない",
+    "jpGuide2": "答えない＞",
+    "enGuide": "Switch to the 答えない branch, which is required to reach End 03, End 08, End 16 (闇の王編) and End 17 (灯子編)."
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Neither xneo.jp nor mmitsuru marks explicit save points for this branching prologue; this save slot is an editorial addition placed at the earliest safe point so every one of Joukan's 19 endings can be reached and reloaded from a shared checkpoint."
+  },
+  {
+    "simpleJp": "答えない",
+    "jpGuide1": "答えない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "End 03「月下の血宴」"
+  },
+  {
+    "simpleJp": "僕は気に入っている",
+    "jpGuide1": "僕は気に入っている",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "痛い……！",
+    "jpGuide1": "痛い……！",
+    "jpGuide2": "痛い……！＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ショートの子が好み",
+    "jpGuide1": "ショートの子が好み",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんで知ってるの？」",
+    "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "帰ってもいいかな……",
+    "jpGuide1": "帰ってもいいかな……",
+    "jpGuide2": "帰ってもいいかな……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ごめんね",
+    "jpGuide1": "ごめんね",
+    "jpGuide2": "ごめんね＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答えない",
+    "jpGuide1": "答えない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "badEndPath": "エンディング8"
+  },
+  {
+    "simpleJp": "僕は煩わしいと思う事もある",
+    "jpGuide1": "僕は煩わしいと思う事もある",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロングの子が好み",
+    "jpGuide1": "ロングの子が好み",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "え？",
+    "jpGuide1": "え？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんで知ってるの？」",
+    "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "なんでそれを",
+    "jpGuide1": "なんでそれを",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの日？",
+    "jpGuide1": "あの日？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなれるの？",
+    "jpGuide1": "強くなれるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の口に合っていた",
+    "jpGuide1": "僕の口に合っていた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……嫌な気分だった",
+    "jpGuide1": "……嫌な気分だった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんな事ないよ",
+    "jpGuide1": "そんな事ないよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "悪いけど……",
+    "jpGuide1": "悪いけど……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「灯子から離れる」",
+    "jpGuide1": "灯子から離れる\t灯子の「あなた、おいしそう」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「あなた、おいしそう……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 公園)"
+  },
+  {
+    "simpleJp": "君が……怖いんだ",
+    "jpGuide1": "君が……怖いんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "君は……？",
+    "jpGuide1": "君は……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そっと入る",
+    "jpGuide1": "そっと入る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答えない",
+    "jpGuide1": "答えない",
+    "jpGuide2": "答えない＞",
+    "enGuide": "",
+    "badEndPath": "End 16「闇の王編」"
+  },
+  {
+    "simpleJp": "僕は煩わしいと思った事がある",
+    "jpGuide1": "僕は煩わしいと思った事がある",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怪しむ",
+    "jpGuide1": "怪しむ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんだか馴れ馴れしい",
+    "jpGuide1": "なんだか馴れ馴れしい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうも",
+    "jpGuide1": "どうも",
+    "jpGuide2": "どうも＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そ、そうだね",
+    "jpGuide1": "そ、そうだね",
+    "jpGuide2": "そ、そうだね＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここで暮らしてるの？",
+    "jpGuide1": "ここで暮らしてるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの灯子って子さ……",
+    "jpGuide1": "あの灯子って子さ……",
+    "jpGuide2": "あの灯子って子さ……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつから友達なの？",
+    "jpGuide1": "いつから友達なの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜が知るわけないか",
+    "jpGuide1": "瑠璃亜が知るわけないか",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなれるの？",
+    "jpGuide1": "強くなれるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が怖かった",
+    "jpGuide1": "あの声が怖かった",
+    "jpGuide2": "あの声が怖かった＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「……うん」",
+    "jpGuide1": "……うん\t瑠璃亜の「楽しもうよ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "わかった",
+    "jpGuide1": "わかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんな事ないよ",
+    "jpGuide1": "そんな事ないよ",
+    "jpGuide2": "そんな事ないよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにしてるの？",
+    "jpGuide1": "なにしてるの？",
+    "jpGuide2": "なにしてるの？＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そっと入る",
+    "jpGuide1": "そっと入る",
+    "jpGuide2": "そっと入る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それに比べて母さんは老けた",
+    "jpGuide1": "それに比べて母さんは老けた",
+    "jpGuide2": "それに比べて母さんは老けた＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「離して！」",
+    "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
+    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「やめてよ！」",
+    "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答えない",
+    "jpGuide1": "答えない",
+    "jpGuide2": "答えない＞",
+    "enGuide": "",
+    "badEndPath": "End 17「灯子編」"
+  },
+  {
+    "simpleJp": "僕は気に入っている",
+    "jpGuide1": "僕は気に入っている",
+    "jpGuide2": "僕は気に入っている＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "神田まで行くよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "神田に行こう",
+    "jpGuide1": "神田に行こう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "後ろを見る",
+    "jpGuide1": "後ろを見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……熱い！",
+    "jpGuide1": "……熱い！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "ありがとう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "挨拶する",
+    "jpGuide1": "挨拶する",
+    "jpGuide2": "挨拶する＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ロングの方が好み",
+    "jpGuide1": "ロングの方が好み",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ありがとう",
+    "jpGuide1": "ありがとう",
+    "jpGuide2": "ありがとう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なんで知ってるの？」",
+    "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "なんでそれを",
+    "jpGuide1": "なんでそれを",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すべてを？",
+    "jpGuide1": "すべてを？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いとは思わなかった……",
+    "jpGuide1": "怖いとは思わなかった……",
+    "jpGuide2": "怖いとは思わなかった……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あれは僕がやったの？",
+    "jpGuide1": "あれは僕がやったの？",
+    "jpGuide2": "あれは僕がやったの？＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強くなれるの？",
+    "jpGuide1": "強くなれるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の口には合わなかった",
+    "jpGuide1": "僕の口には合わなかった",
+    "jpGuide2": "僕の口には合わなかった＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「あれ……？」",
+    "jpGuide1": "あれ……？\t灯子の「ねえ、私を見て」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「ねえ、私を見て」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: レストラン)"
+  },
+  {
+    "simpleJp": "そっと入る",
+    "jpGuide1": "そっと入る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なに見てるの？」",
+    "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
+    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "まるで年をとってないみたいだ",
+    "jpGuide1": "まるで年をとってないみたいだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それがどうかしたの？",
+    "jpGuide1": "それがどうかしたの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "居間へ戻る",
+    "jpGuide1": "居間へ戻る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「それ本当に十年前の写真かな？」",
+    "jpGuide1": "それ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この子、誰かわかる？",
+    "jpGuide1": "この子、誰かわかる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "昨日、似てる人を見掛けたから",
+    "jpGuide1": "昨日、似てる人を見掛けたから",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「離して！」",
+    "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
+    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "BSSタップ：「やめてよ！」",
+    "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload to try the next branch.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "答える",
+    "jpGuide1": "答える",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なに？」",
+    "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
+    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "神田まで行くよ",
+    "jpGuide1": "神田まで行くよ",
+    "jpGuide2": "神田まで行くよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「この鈴は……」",
+    "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "BSSタップ：「空を見上げる」",
+    "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "そういえば財布忘れたような",
+    "jpGuide1": "そういえば財布忘れたような",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「取りに戻るか」",
+    "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
+    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
+  },
+  {
+    "simpleJp": "でも今は人込みの方が落ち着く",
+    "jpGuide1": "でも今は人込みの方が落ち着く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「！！」",
+    "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
+    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "左を見る",
+    "jpGuide1": "左を見る",
+    "jpGuide2": "左を見る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「うん」",
+    "jpGuide1": "うん\t瑠璃亜の「本当？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「……行かないよ」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
+  },
+  {
+    "simpleJp": "参考書買いたいんだ",
+    "jpGuide1": "参考書買いたいんだ",
+    "jpGuide2": "参考書買いたいんだ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜……」",
+    "jpGuide1": "瑠璃亜……\t瑠璃亜の「もう私には～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「……もう、あたしには関係ないけどね」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
+  },
+  {
+    "simpleJp": "BSSタップ：「好きなの、そういうの？」",
+    "jpGuide1": "好きなの、そういうの？\t主人公の「吸血鬼の本」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲主人公「吸血鬼の本？」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
+  },
+  {
+    "simpleJp": "興味あるんだ",
+    "jpGuide1": "興味あるんだ",
+    "jpGuide2": "興味あるんだ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "かまわないけど",
+    "jpGuide1": "かまわないけど",
+    "jpGuide2": "かまわないけど＞",
+    "enGuide": "Sets 吸血鬼の本フラグ ON (buy the vampire book and let Rulia keep it) — required ON for the true ending (瑠璃亜編 / 真・瑠璃亜編) per mmitsuru's geflag.htm."
+  },
+  {
+    "simpleJp": "恐ろしいものだ",
+    "jpGuide1": "恐ろしいものだ",
+    "jpGuide2": "恐ろしいものだ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「行く」",
+    "jpGuide1": "行く\t瑠璃亜の「おいでよ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「おいでよ」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "……そうじゃないけど",
+    "jpGuide1": "……そうじゃないけど",
+    "jpGuide2": "……そうじゃないけど＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「折角会えた？」",
+    "jpGuide1": "折角会えた？\t瑠璃亜の「せっかく会えた～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「折角会えたんだから……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恥ずかしい",
+    "jpGuide1": "恥ずかしい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「え？」",
+    "jpGuide1": "え？\t瑠璃亜の「おいしい」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「おいしい……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "BSSタップ：「君と一緒にいたい」",
+    "jpGuide1": "君と一緒にいたい\t主人公の「瑠璃亜」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『その場の空気をごまかすように僕は瑠璃亜の名前を呼んだ』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
+  },
+  {
+    "simpleJp": "そ、そうだね",
+    "jpGuide1": "そ、そうだね",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すごいところだね",
+    "jpGuide1": "すごいところだね",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一人で寂しくない？",
+    "jpGuide1": "一人で寂しくない？",
+    "jpGuide2": "一人で寂しくない？＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怖いと思った……",
+    "jpGuide1": "怖いと思った……",
+    "jpGuide2": "怖いと思った……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瑠璃亜は何か知っている",
+    "jpGuide1": "瑠璃亜は何か知っている",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕じゃない！",
+    "jpGuide1": "僕じゃない！",
+    "jpGuide2": "僕じゃない！＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声が怖かった",
+    "jpGuide1": "あの声が怖かった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "憧れるよね",
+    "jpGuide1": "憧れるよね",
+    "jpGuide2": "憧れるよね＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいよ",
+    "jpGuide1": "いいよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「……うん」",
+    "jpGuide1": "……うん\t瑠璃亜の「ねえ、遊びに行こう」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: アパート)"
+  },
+  {
+    "simpleJp": "BSSタップ：「そんなにくっつかないでよ」",
+    "jpGuide1": "そんなにくっつかないでよ\t瑠璃亜の「なんでこんなにたくさんの～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「なんでこんなにたくさんの人がいるんだろうね？」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
+  },
+  {
+    "simpleJp": "わかった",
+    "jpGuide1": "わかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんな事ないよ",
+    "jpGuide1": "そんな事ないよ",
+    "jpGuide2": "そんな事ないよ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なにしてるの？",
+    "jpGuide1": "なにしてるの？",
+    "jpGuide2": "なにしてるの？＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "強引なんだもん",
+    "jpGuide1": "強引なんだもん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「ぼ、僕も……」",
+    "jpGuide1": "ぼ、僕も……\t瑠璃亜の「あたしあんたと～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "▲瑠璃亜「本当に分かり合えそうな人に……」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 公園)"
+  },
+  {
+    "simpleJp": "話してみた",
+    "jpGuide1": "話してみた",
+    "jpGuide2": "話してみた＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血が騒ぐんだ",
+    "jpGuide1": "血が騒ぐんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そっと入る",
+    "jpGuide1": "そっと入る",
+    "jpGuide2": "そっと入る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「なに見てるの？」",
+    "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
+    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "まるで年をとってないみたいだ",
+    "jpGuide1": "まるで年をとってないみたいだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それがどうかしたの？",
+    "jpGuide1": "それがどうかしたの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "居間へ戻る",
+    "jpGuide1": "居間へ戻る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
+    "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
+  },
+  {
+    "simpleJp": "この写真、いつ撮ったの？",
+    "jpGuide1": "この写真、いつ撮ったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜を抱く」",
+    "jpGuide1": "瑠璃亜を抱く\t瑠璃亜の「あんたの命が」のセリフが終わったら、サーチする。",
+    "jpGuide2": "▲主人公「る、瑠璃亜……？」",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+  },
+  {
+    "simpleJp": "瑠璃亜編",
+    "jpGuide1": "End 18「瑠璃亜編」",
+    "jpGuide2": "End 18「瑠璃亜編」",
+    "enGuide": "Joukan complete — choose Continue to carry BLOOD level and flags into Gekan on the 瑠璃亜編 branch. Flag check for this exact path (per mmitsuru geflag.htm): 吸血鬼の本フラグ = ON (book bought and left with Rulia, see the choice above); 瑠璃亜の過去フラグ = OFF (this path never selects 傷の原因, the only documented choice that sets it); 五匹の子豚さんフラグ = OFF on THIS path because it never visits the 「五匹の子豚さん」karaoke box (that scene, and the ON choice for this flag, is documented separately by mmitsuru as 「へんなところは嫌だよ」→「やめてくださいっ、お姉さん！」→「は、はい」after leaving Rulia's apartment). All three flags are required ON/OFF exactly as: book ON, karaoke ON, past-question OFF to reach the true ending End 27「真・瑠璃亜編」in Gekan — see the rulia/true_end route guides for the adjusted choice needed at the karaoke point."
+  }
+]

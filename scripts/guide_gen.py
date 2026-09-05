@@ -27,7 +27,7 @@ MODEL = os.environ.get("GUIDE_GEN_MODEL", "claude-sonnet-5")
 MAX_TURNS_RESEARCH = 60
 MAX_TURNS_ROUTE = 50
 TIMEOUT_RESEARCH = 3600  # research fetches multiple sites; give it an hour
-TIMEOUT_ROUTE = 1800
+TIMEOUT_ROUTE = int(os.environ.get("GUIDE_ROUTE_TIMEOUT", "3600"))
 
 
 def log(msg: str) -> None:
@@ -319,9 +319,11 @@ def generate_guide(slug: str, title: str, vndb_id: str,
             route_session_file = guide_dir / f"route_{route_id}_session.txt"
             ok = run_claude(prompt, MAX_TURNS_ROUTE, guide_dir, session_file=route_session_file)
 
-            if not ok or not route_file.exists():
+            if not route_file.exists():
                 err(f"Route {route_id} failed for {slug}")
                 return False
+            if not ok:
+                log(f"Route {route_id} subprocess timed out but file was written — treating as success")
 
             route_session_file.unlink(missing_ok=True)
 

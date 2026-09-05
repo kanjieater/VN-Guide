@@ -5,19 +5,7 @@
     {
       "id": "joukan",
       "title": "上巻",
-      "stepCount": 121,
-      "reviewed": false
-    },
-    {
-      "id": "yami_no_ou",
-      "title": "闇の王編",
-      "stepCount": 146,
-      "reviewed": false
-    },
-    {
-      "id": "kyuumei",
-      "title": "究明編",
-      "stepCount": 99,
+      "stepCount": 527,
       "reviewed": false
     }
   ],
@@ -59,5 +47,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-08-03T00:16:45.864723+00:00"
+  "generated_at": "2026-09-05T02:24:11.511195+00:00"
 }

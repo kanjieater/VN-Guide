@@ -92,12 +92,22 @@ run_pipeline() {
     echo "[$(date -Iseconds)] Sync complete"
 }
 
+# Done means every route is generated AND reviewed — exiting at has_guide alone
+# would abandon the routes before the reviewer ever sees them.
 priority_game_done() {
     [ -z "${GUIDE_PRIORITY_VID:-}" ] && return 1
     python3 - <<'EOF'
 import json, os, sys, pathlib
-games = json.loads(pathlib.Path(os.environ["REPO_PATH"], "games.json").read_text())
-sys.exit(0 if games.get(os.environ.get("GUIDE_PRIORITY_VID", ""), {}).get("has_guide") else 1)
+repo = pathlib.Path(os.environ["REPO_PATH"])
+games = json.loads((repo / "games.json").read_text())
+entry = games.get(os.environ.get("GUIDE_PRIORITY_VID", ""), {})
+if not entry.get("has_guide"):
+    sys.exit(1)
+try:
+    routes = json.loads((repo / entry["slug"] / "guide.json").read_text()).get("routes", [])
+except (OSError, json.JSONDecodeError):
+    sys.exit(1)
+sys.exit(0 if routes and all(r.get("reviewed") is True for r in routes) else 1)
 EOF
 }
 

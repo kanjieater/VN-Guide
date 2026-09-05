@@ -365,8 +365,6 @@ def run() -> None:
     reviewed_any = False
 
     for vid, entry in games.items():
-        if not entry.get("has_guide"):
-            continue
         if priority_vid and vid != priority_vid:
             continue
 

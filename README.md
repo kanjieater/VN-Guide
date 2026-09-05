@@ -17,6 +17,8 @@ VNDB playing list
   guide_gen.py       — invokes Claude Code (author agent) to generate route JSON
                         routes go live immediately with reviewed: false
   review.py          — alternates reviewer and author agents in separate sessions
+                        reviews each completed route as it lands, without waiting
+                        for the rest of the game's routes to finish generating
                         reviewer creates GitHub issues → author fixes → repeat
                         marks routes reviewed: true when reviewer finds no issues
   deploy.py          — git commit + push to GitHub Pages

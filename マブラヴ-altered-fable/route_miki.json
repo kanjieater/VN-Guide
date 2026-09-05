@@ -1,0 +1,68 @@
+[
+  {
+    "simpleJp": "セーブ16",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "＜セーブ５から＞※美琴ルートより",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "橋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "橋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お土産屋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "お土産屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お土産屋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "お土産屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "橋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "橋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "砂浜",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "砂浜",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "美琴・壬姫の部屋",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "美琴・壬姫の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "はい／いいえ（※解説）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、壬姫、ピアティフ、イルマ（敗北する）",
+    "jpGuide1": "ミニゲーム：ビーチバレー\nキャラ選択：武、壬姫、ピアティフ、イルマ（敗北する）",
+    "jpGuide2": "【１戦目】武、、壬姫、イルマ、ピアティフ\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、壬姫（敗北する）",
+    "jpGuide1": "キャラ選択：武、壬姫（敗北する）",
+    "jpGuide2": "【２戦目】武、壬姫\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "壬姫エンド",
+    "jpGuide1": "壬姫 ＥＮＤ",
+    "jpGuide2": "※壬姫H\n＜壬姫エンド＞",
+    "enGuide": ""
+  }
+]

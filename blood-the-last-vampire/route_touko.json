@@ -1,0 +1,206 @@
+[
+  {
+    "simpleJp": "少年は現れなかった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は現れなかった＞□３□へ",
+    "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, mirroring the approach already used in route_yami_no_ou.json and route_kyuumei.json. The companion Joukan guide (route_joukan.json) spends its own Continue on the 瑠璃亜編 branch and separately walks through Joukan's own End17「灯子編」as a badEndPath detour there, but per this task's scope that Joukan-side content is out of scope here — this guide covers only the Gekan-side 灯子編 branch, reached independently via the Ooka Report. Per mmitsuru's geoooka.htm, the Ooka Report is a legitimate, non-canon-affecting way to jump straight into any Gekan route's opening scene; it does not affect the in-game completion percentage. xneo.jp's Gekan page does not document the Ooka Report mechanic at all, so jpGuide1 is empty for this whole step group. This is the lowest-BLOOD-bonus path to 灯子編 documented in mmitsuru's geoooka.htm flowchart (□１□→□３□→□４□→□５□→□９□→灯子編, total +10 BLOOD); an alternative path through □４□'s 灯子-specific option (+10) then □１１□ (+10 or +20 more) also reaches 灯子編, but at a higher starting BLOOD level (20 or 30) than the path used here."
+  },
+  {
+    "simpleJp": "少年はうずくまったままだった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年はうずくまったままだった＞□４□へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "少年は声をかけた少女と一緒に行った",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は声をかけた少女と一緒に行った＞□５□へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二人は何処かへ行ったようだ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "二人は何処かへ行ったようだ＞□９□へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "少年は一人でアパートを出た",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は一人でアパートを出た＞+10 灯子編",
+    "enGuide": "+10 BLOOD. This is the final Ooka Report branch that places the player at the start of the 灯子編 (Touko) route in Gekan, starting BLOOD level 10. From here the guide follows xneo.jp's '各ルート・エンディングへの行き方' Gekan ending list (its own Endings 6, 9, 10 and 24, all headed ～灯子編～), cross-checked against mmitsuru's B.S.S. list (gebss.htm) and its two archived per-ending pages for this route (geend06.htm, geend24.htm — both explicitly titled 灯子編 by mmitsuru, confirming the route even though mmitsuru's own Gekan ending numbers differ from xneo.jp's, per research.json's documented cross-site numbering disagreement)."
+  },
+  {
+    "simpleJp": "セーブ41",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial save placed at the very start of 灯子編's Gekan content, before the first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here (this PS2 title has no mid-chapter save screen documented by either source); this slot exists so every documented ending of this route can be reached and reloaded from a shared checkpoint, matching the convention already used in route_yami_no_ou.json and route_kyuumei.json. Starting BLOOD level here is 10 (see note above)."
+  },
+  {
+    "simpleJp": "BSSタップ：「灯子の『欲しいの？』」",
+    "jpGuide1": "いらないよ\t灯子の「欲しいの？」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２４）鈴無し 桜の大木の下、ふと目が合う灯子と主人公 ▲灯子「欲しいの……？」→いらないよ",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the one B.S.S. trigger mmitsuru's own gebss.htm lists under a dedicated 灯子編 header (entry 24, the only entry under that header at all); xneo.jp's own category table places it under 桜ヶ丘団地（灯子編）specifically, not shared with the other three routes. Both sources agree this is 灯子編's own opening B.S.S., occurring immediately after entering the route. xneo.jp's own Ending 9 row for 灯子編 begins with this exact trigger."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の『私にとって、すべては』」",
+    "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１０）鈴無し 桜ヶ丘、桜の大木の下で、一段と声が大きくなる正夫 正夫「私にとって、すべてはこの土地から始まったんだ」△→この土地……？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. xneo.jp's own per-ending table lists this exact trigger as the very first item of its Ending 6 row (headed ～灯子編～), and its category header groups it under 桜ヶ丘団地（闇の王編・究明編・灯子編）as shared across all three of those routes. mmitsuru's gebss.htm instead files this same trigger (its entry 10) only under its own 闇の王編 header, without repeating it under 灯子編 — this guide follows xneo.jp's explicit multi-route tagging, since xneo.jp's own Ending 6 row for 灯子編 directly confirms this trigger occurs on this route. xneo.jp's Ending 9/10/24 rows do not separately list this trigger (their own rows begin with いらないよ or jump straight to 父さん、何処へ行くの？instead); neither source clarifies whether both this trigger and いらないよ occur on every single 灯子編 playthrough, or whether the two ending groups (6, versus 9/10/24) represent genuinely different early branches. This guide includes both once, in the order xneo.jp's own Ending 6 row implies, and flags this as the guide's own reconstruction of a shared backbone rather than a single directly-sourced continuous listing."
+  },
+  {
+    "simpleJp": "BSSタップ：「３つ目の街の場面」",
+    "jpGuide1": "僕のせいなの？\t３つ目の街の場面が映ったら、サーチする。",
+    "jpGuide2": "（１１）鈴有り 新宿歌舞伎町、”西武新宿”行きの黄色い電車の画面、その次、右に”Ｋｏｍ”と書いた看板のある画面、その次、右に”クスリ”と書いた看板（左に”沖縄そば”）のある画面の次 ▲（新宿に着いて３つ目の画面、並木道のある画面に変わったとき）→僕のせいなの？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp's category header (新宿・歌舞伎町（闇の王編・究明編・灯子編）) this trigger and the next three (そうだね……, 正夫の手を掴まない, 正夫を追いかける) are shared across all three named routes, including 灯子編; xneo.jp's own Ending 9 row for 灯子編 goes on to name the latter two of these explicitly. This exact trigger is already documented for 闇の王編 in route_yami_no_ou.json using the identical simpleJp/jpGuide1 text."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の『考えてみれば』」",
+    "jpGuide1": "そうだね……\t正夫の「考えてみたら～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１２）鈴有り （１１）無視後、正夫と歌舞伎町を歩く主人公 正夫「考えてみれば誰でも無意識の内に何かに操られていると言えるんじゃないのかな……？」△→そうだね……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Same shared-header justification as the previous step (新宿・歌舞伎町（闇の王編・究明編・灯子編）)."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の『さあ、おいで』」",
+    "jpGuide1": "正夫の手を掴まない\t正夫の「さ、おいで～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１３）鈴無し 信濃町、線路の柵の前、線路内へ侵入する正夫と外にいる主人公 正夫「さぁ、おいで」△→正夫の手を掴まない",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the first choice explicitly named in xneo.jp's own Ending 9 row for 灯子編 (いらないよ → 正夫の手を掴まない → 正夫を追いかける → ...)."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の『父さんは行くよ』」",
+    "jpGuide1": "正夫を追いかける\t正夫の「父さんは行くよ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１４）鈴無し （１３）の後、先に行く正夫 ▲（正夫のセリフ「父さんは行くよ」後、涙を流す主人公のアップになった瞬間）→正夫を追いかける",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "父さん、何処へ行くの？",
+    "jpGuide1": "父さん、何処へ行くの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This exact choice text appears in both xneo.jp's Ending 6 row (as its 2nd item) and its Ending 9/10/24 rows (as their shared item just before ぼくはなにを……), confirming it is a single common checkpoint before this route's endings diverge further. mmitsuru has no archived per-ending page that prints this specific line by name — its own geend06.htm and geend24.htm pages both use an unlabelled '……＞' placeholder at a comparable position instead — so jpGuide2 is unavailable here."
+  },
+  {
+    "simpleJp": "BSSタップ：「ここは第二次大戦末期～」",
+    "jpGuide1": "こんなところに……\t正夫の「ここは第二次大戦末期～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１５）鈴有り 地下基地跡、直前の選択肢「父さん、ここは？」後 正夫「ここは第二次世界大戦末期、本土決戦に備えて作られた旧日本軍の地下基地跡だって彼が言ってたよ」△→こんなところに……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Shared-header justification (旧日本軍の地下基地（闇の王編・究明編・灯子編）) per xneo.jp; not individually listed in any of xneo.jp's four 灯子編 ending rows, but confirmed applicable to this route by the category header — the identical trigger is already documented for 闇の王編 in route_yami_no_ou.json using the same simpleJp/jpGuide1 text."
+  },
+  {
+    "simpleJp": "セーブ42",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint placed immediately before this route's own maze fork inside the underground base, so both the short bad end below (xneo.jp's Ending 6 / mmitsuru's End06「迷宮」) and the long continuation toward Endings 9, 10 and 24 can be reached and reloaded from one shared point."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
+    "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
+    "jpGuide2": "（１６）鈴無し 地下基地跡２つ目の扉の前 ▲（２つ目の扉の前で立ち止まった正夫の顔アップ）→正夫から離れる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Both xneo.jp's Ending 6 row and mmitsuru's geend06.htm page (which shows the identical scene description '（基地跡、２つ目の扉の前で立ち止まった正夫の顔アップ）') confirm this exact trigger immediately precedes the maze fork below."
+  },
+  {
+    "simpleJp": "まっすぐだ",
+    "jpGuide1": "まっすぐだ",
+    "jpGuide2": "まっすぐだ＞",
+    "enGuide": "First step of a detour to xneo.jp's Ending 6 (灯子編), independently confirmed by mmitsuru's geend06.htm page (titled 'End 06「迷宮」'), which documents the identical continuation まっすぐだ→シーツをめくる immediately after this same B.S.S. trigger — strong two-source agreement on this specific short bad end. Neither source documents what the alternative (non-まっすぐだ) direction choice is worded as at this exact fork; see the note on the good-path continuation after the reload below.",
+    "badEndPath": "エンディング6「灯子編」"
+  },
+  {
+    "simpleJp": "シーツをめくる",
+    "jpGuide1": "シーツをめくる",
+    "jpGuide2": "シーツをめくる＞",
+    "enGuide": "Per xneo.jp this completes Ending 6 (灯子編). mmitsuru's geend06.htm page documents this identical final choice completing its own 'End 06「迷宮」' (Labyrinth) — the second of mmitsuru's two independently-labelled 灯子編 endings, alongside End24 covered later in this guide."
+  },
+  {
+    "simpleJp": "セーブ42にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "BSSタップ：「カッツの『人の心を』」",
+    "jpGuide1": "ぼくはなにを……\tカッツの「人の心を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２０）鈴有り 刀に魅入られる主人公 ▲カッツの声「人の心を殺すんだ……」→ぼくはなにを……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Good-path continuation from セーブ42: avoid まっすぐだ at the previous B.S.S. (that leads to Ending 6 / End06, covered above). Neither xneo.jp's own Ending 9/10/24 rows nor mmitsuru's End24 page document any explicit direction choice(s) between 正夫から離れる and this point for 灯子編 specifically — both sources jump straight from 父さん、何処へ行くの？／正夫から離れる to this trigger, already inside Walter Katz's room. This differs from the other three named routes, each of which documents its own distinct maze-navigation sequence through this same underground base (e.g. 右だ for 闇の王編's own endings in route_yami_no_ou.json, or 左だ→ディスクを取る→右だ→左だ for 究明編's Ending 26 in route_kyuumei.json) before reaching a comparable point. This guide follows the two primary sources' own terse listings for 灯子編 exactly as documented, without inventing an undocumented maze sequence; if the game does present additional direction choices here, avoid repeating まっすぐだ, since that specific choice is the one confirmed (by both sources) to produce Ending 6 / End06 instead."
+  },
+  {
+    "simpleJp": "BSSタップ：「灯子の『邪魔するものは』」",
+    "jpGuide1": "僕は何をしようと……\t灯子の「邪魔するものは～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２１）鈴有り 刀を持ってふらふらと立ちあがる主人公 ▲灯子の声「邪魔をするものは消してしまえばいいわ」→僕は何をしようと……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "僕の意思？",
+    "enGuide": "Both xneo.jp (all of Endings 9, 10 and 24) and mmitsuru's geend24.htm page use this exact same choice text at this exact position, confirming strong cross-source agreement on this checkpoint."
+  },
+  {
+    "simpleJp": "セーブ43",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint immediately before the BLOOD-gated fork that separates Ending 9 (BLOOD under 80) from Endings 10 and 24 (BLOOD 80 or higher), mirroring the identical convergence point already documented for 究明編 in route_kyuumei.json (whose own Ending 11/14/26 sections note that under-80 BLOOD at this exact position completes as this route's Ending 9 instead)."
+  },
+  {
+    "simpleJp": "BLOODレベル確認：80未満が必要",
+    "jpGuide1": "カッツ……！（BLOODレベルが80未満の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "If BLOOD level is under 80 at this point, selecting カッツ……！ completes the story immediately as xneo.jp's Ending 9 (灯子編) — see the next step. Neither mmitsuru page documenting 灯子編 (geend06.htm, geend24.htm) covers a separate under-80 outcome for this route."
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp this completes Ending 9 (灯子編) immediately when BLOOD is under 80.",
+    "badEndPath": "エンディング9「灯子編」"
+  },
+  {
+    "simpleJp": "セーブ43にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "BLOODレベル確認：80以上が必要",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be 80 or higher here to continue toward Endings 10/24 instead of ending immediately as Ending 9 (see above). mmitsuru's geend24.htm page does not use a 'カッツ……！' choice at this position at all — instead it documents a differently-worded '小夜……！' choice followed by a B.S.S. named '！！' (trigger: 小夜「目を覚ますんだ！」), also explicitly gated at BLOODレベル80（赤）以上, matching the same template-reuse pattern already documented for 究明編's Ending 26 in route_kyuumei.json and for 闇の王編's Endings 22/23 in route_yami_no_ou.json. This guide follows xneo.jp's documented structure for consistency with those other routes."
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "後ろに飛ぶ",
+    "jpGuide1": "後ろに飛ぶ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp this completes Ending 10 (灯子編). mmitsuru's own geend1011.htm page documents an unrelated ending it also numbers 'End10', using this same final choice text (後ろに飛ぶ) after an identically-worded BLOOD≥80 カッツ……！ gate, but mmitsuru explicitly labels its own End10 as 闇の王編 (reached via a completely different, 瑠璃亜-centred chain), not 灯子編 — this is the cross-site Gekan ending-number mismatch already flagged in research.json. mmitsuru's 闇の王編 End10 page is not used as a source for this 灯子編 route beyond noting that the two sites' games clearly reuse the same final-boss template (カッツ……！(≥80) → 後ろに飛ぶ／横に飛ぶ) across multiple named routes.",
+    "badEndPath": "エンディング10「灯子編」"
+  },
+  {
+    "simpleJp": "セーブ43にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Good-path continuation from セーブ43 toward this route's deepest documented ending. mmitsuru's geend24.htm page shows an equivalent 横に飛ぶ choice at a comparable position in its own version of this final chain, reached there via the differently-worded 小夜……！ prompt discussed above rather than xneo.jp's カッツ……！."
+  },
+  {
+    "simpleJp": "BSSタップ：「カッツの攻撃を横に避けた後」",
+    "jpGuide1": "小夜に刀を投げる\tカッツの攻撃を横に避けた後、主人公が立ち上がりそうになったら、サーチする。",
+    "jpGuide2": "（２３）鈴無し （２２）後【または（２２）直前の選択肢「カッツ……！」後】BLOODレベル80（赤）以上、選択肢「横に飛ぶ」後、刀を取って再び立ち向かう主人公 ▲（再び刀を取って主人公が立ちあがる瞬間）→小夜に刀を投げる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. mmitsuru's geend24.htm page describes this same beat via its own scene description '（再び刀を取って主人公が立ちあがる瞬間）', immediately before its End24 label, even though it does not print the resulting B.S.S. name 小夜に刀を投げる explicitly on that page (unlike gebss.htm, which does list it by name under its 灯子編-relevant 闇の王編 section). Both sources agree this is the final action before the route's ending screen."
+  },
+  {
+    "simpleJp": "灯子編（エンディング24）",
+    "jpGuide1": "エンディング24～灯子編～",
+    "jpGuide2": "End 24「灯子編」",
+    "enGuide": "Route complete. This is the deepest and final documented conclusion of 灯子編, reached by both xneo.jp (as its own Ending 24) and mmitsuru (as its explicitly-labelled 'End 24「灯子編」'), despite mmitsuru describing the immediately preceding choices with different wording (闇の王「来るのだ、私の元へ」→ B.S.S.「カッツの声『人の心を殺すんだ』」→ 僕の意思？ → 小夜……！ → B.S.S.「小夜『目を覚ますんだ！』」→ 横に飛ぶ, versus xneo.jp's 父さん、何処へ行くの？ → ぼくはなにを…… → 僕は何をしようと…… → 僕の意思？ → カッツ……！(BLOOD≥80) → 横に飛ぶ → 小夜に刀を投げる). This guide follows xneo.jp's structure throughout, consistent with how this project's other Gekan route guides (route_yami_no_ou.json, route_kyuumei.json) already resolve the same recurring template-reuse disagreement found in mmitsuru's end-game pages. This guide does not continue into another route from here; the other three documented 灯子編 endings (6/End06, 9, 10) were covered earlier via save/load detours."
+  }
+]

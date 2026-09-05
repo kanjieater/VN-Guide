@@ -1,0 +1,98 @@
+[
+  {
+    "simpleJp": "セーブ9",
+    "jpGuide1": "セーブ１から",
+    "jpGuide2": "＜セーブ１から＞※共通ルートより",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "悪い、外に行って涼んでくるよ",
+    "jpGuide1": "悪い、外に行って涼んでくるよ",
+    "jpGuide2": "悪い、外に行って涼んでくるよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "冥夜・悠陽の間",
+    "jpGuide1": "美琴・壬姫の間",
+    "jpGuide2": "冥夜・悠陽の間",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "つつつつ月詠さーーーーん！！",
+    "jpGuide1": "つつつつ月詠さーーーーん！！",
+    "jpGuide2": "つつつつ月詠さーーーーん！！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ10",
+    "jpGuide1": "【セーブ４】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "スキーに決めた！",
+    "jpGuide1": "スキーに決めた！",
+    "jpGuide2": "スキーに決めた！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わかった、お前に頼むよ",
+    "jpGuide1": "わかった、お前に頼むよ",
+    "jpGuide2": "わかった、お前に頼むよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ミニゲーム：スキー",
+    "jpGuide1": "ミニゲーム：スキー",
+    "jpGuide2": "※ミニゲーム（スキー）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "冥夜／悠陽の部屋",
+    "jpGuide1": "10:00　冥夜／悠陽の部屋",
+    "jpGuide2": "冥夜／悠陽の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "冥夜／悠陽の部屋",
+    "jpGuide1": "10:15　冥夜／悠陽の部屋",
+    "jpGuide2": "冥夜／悠陽の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "武の部屋",
+    "jpGuide1": "10:30　武の部屋",
+    "jpGuide2": "武の部屋",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "じゃあ一緒に海、行くか！",
+    "jpGuide1": "じゃあ一緒に海、行くか！",
+    "jpGuide2": "じゃあ一緒に海、行くか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "はい／いいえ（※解説）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、悠陽、ウォーケン、ピアティフ（敗北する）",
+    "jpGuide1": "ミニゲーム：ビーチバレー\nキャラ選択：武、悠陽、ウォーケン、ピアティフ（敗北する）",
+    "jpGuide2": "【１戦目】武、、悠陽、イルマ、ピアティフ\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "キャラ選択：武、悠陽（敗北する）",
+    "jpGuide1": "キャラ選択：武、悠陽（敗北する）",
+    "jpGuide2": "【２戦目】武、悠陽\n※開始後すぐにSPACE⇒ESCでギブアップ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "悠陽エンド",
+    "jpGuide1": "悠陽 ＥＮＤ",
+    "jpGuide2": "※悠陽H（A）\n＜悠陽エンド＞",
+    "enGuide": ""
+  }
+]

@@ -5,7 +5,7 @@
     {
       "id": "joukan",
       "title": "上巻",
-      "stepCount": 121,
+      "stepCount": 527,
       "reviewed": false
     },
     {
@@ -17,7 +17,13 @@
     {
       "id": "kyuumei",
       "title": "究明編",
-      "stepCount": 99,
+      "stepCount": 107,
+      "reviewed": false
+    },
+    {
+      "id": "touko",
+      "title": "灯子編",
+      "stepCount": 33,
       "reviewed": false
     }
   ],
@@ -59,5 +65,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-08-03T00:16:45.864723+00:00"
+  "generated_at": "2026-09-05T21:52:50.462428+00:00"
 }

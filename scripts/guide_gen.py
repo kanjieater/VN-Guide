@@ -164,10 +164,12 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
     # Preserve portrait and reviewed status already in guide.json
     existing_portraits: dict[str, str] = {}
     existing_reviewed: dict[str, bool] = {}
+    existing_data: dict | None = None
     existing_guide = guide_dir / "guide.json"
     if existing_guide.exists():
         try:
             existing = json.loads(existing_guide.read_text())
+            existing_data = existing
             for r in existing.get("routes", []):
                 if r.get("portrait"):
                     existing_portraits[r["id"]] = r["portrait"]
@@ -195,8 +197,17 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
         "vndb_id": vndb_id,
         "routes": route_list,
         "sources": research.get("sources", []),
-        "generated_at": datetime.now(timezone.utc).isoformat(),
     }
+
+    # Rewriting generated_at on every pass would dirty the tree each run and make
+    # deploy.py commit forever, so only touch the file when content actually changed.
+    if existing_data is not None:
+        prior = {k: v for k, v in existing_data.items() if k != "generated_at"}
+        if prior == guide_data:
+            log("guide.json unchanged, keeping existing generated_at")
+            return
+
+    guide_data["generated_at"] = datetime.now(timezone.utc).isoformat()
     (guide_dir / "guide.json").write_text(
         json.dumps(guide_data, ensure_ascii=False, indent=2),
         encoding="utf-8",

@@ -19,6 +19,12 @@
       "title": "究明編",
       "stepCount": 107,
       "reviewed": false
+    },
+    {
+      "id": "touko",
+      "title": "灯子編",
+      "stepCount": 33,
+      "reviewed": false
     }
   ],
   "sources": [
@@ -59,5 +65,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-09-05T17:15:39.303186+00:00"
+  "generated_at": "2026-09-05T17:37:54.804726+00:00"
 }

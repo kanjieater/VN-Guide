@@ -1,0 +1,654 @@
+[
+  {
+    "simpleJp": "少年は現れなかった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は現れなかった＞□３□へ",
+    "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, mirroring the approach already used in route_yami_no_ou.json (the companion Joukan guide, route_joukan.json, already spends its own Continue on the 瑠璃亜編 branch, so 究明編 is reached independently here). Per mmitsuru's geoooka.htm, the Ooka Report is a legitimate, non-canon-affecting way to jump straight into any Gekan route's opening scene; it does not affect the in-game completion percentage. xneo.jp's Gekan page does not document the Ooka Report mechanic at all, so jpGuide1 is empty for this whole step group. Unlike route_yami_no_ou.json's shortest path (which kept starting BLOOD at 0), the only documented Ooka Report path to 究明編 requires two BLOOD bonuses along the way (see next two steps) — there is no 0-bonus route to this branch per geoooka.htm."
+  },
+  {
+    "simpleJp": "少年は慌てて立ち上がる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は慌てて立ち上がる＞□１８□へ +10",
+    "enGuide": "+10 BLOOD. This is the only documented option at this point (□３□) that leads onward to 究明編 (via □１８□); the other option, 少年はうずくまったままだった, instead leads to □４□ and eventually only to 灯子編/瑠璃亜編/闇の王編."
+  },
+  {
+    "simpleJp": "少年は一人だった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は一人だった＞+20 究明編",
+    "enGuide": "+20 BLOOD. This is the only documented option at □１８□ that reaches 究明編 (the other option, 少年はそこで灯子に出会った, leads to □１１□ and continues toward 灯子編). Total starting BLOOD level entering 究明編 via this path is 30 (10+20 from the two bonuses above) — higher than route_yami_no_ou.json's 0-BLOOD start, since no 0-bonus path to 究明編 exists in mmitsuru's geoooka.htm flowchart."
+  },
+  {
+    "simpleJp": "セーブ33",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial save placed at the very start of 究明編's Gekan content, before the first B.S.S. opportunity, mirroring the convention used in route_yami_no_ou.json (this PS2 title has no mid-chapter save screen documented by either source; all saves in this guide are editorial checkpoints placed so every documented ending can be reached and reloaded from a shared point). Starting BLOOD level here is 30, not 0 (see notes above)."
+  },
+  {
+    "simpleJp": "BSSタップ：「あ……あれは……」",
+    "jpGuide1": "小夜にしがみつく\t主人公の「あ、あれは……」のセリフが終わったら、サーチする。",
+    "jpGuide2": "（１）鈴有り 開始後、回想シーン ▲主人公（子供時代）「あ……あれは……」→小夜にしがみつく",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This exact trigger point is shared with 闇の王編 (per xneo.jp's B.S.S. list section header 回想（闇の王編・究明編）); xneo.jp documents that failing this specific tap leads to its Ending 1 (labelled ～闇の王編～), which is not one of 究明編's own six documented endings (2/3/4/11/14/26) and is already fully covered in route_yami_no_ou.json. This guide assumes the tap succeeds and does not re-document that shared failure ending here."
+  },
+  {
+    "simpleJp": "セーブ34",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint immediately after the first B.S.S. succeeds. The next choice is a two-way prompt (うん / ……) that, per xneo.jp's own per-ending listings, determines which broad group of 究明編 sub-endings is reachable: Endings 11 and 14 are both documented under '……' here, while Endings 2, 3, 4 and 26 are all documented under 'うん'. mmitsuru's own archived pages for this route (geend14.htm, geend26.htm) instead show a third variant, 'う……うん', at this exact position — none of the three walkthroughs fully agree on this line's wording, though all treat it as leading into the same subsequent chain. This guide follows xneo.jp's choice exactly as documented per target ending, redoing this choice from this save as needed."
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 11 (究明編). See the note on セーブ34 above regarding this line's cross-source disagreement (うん／……／う……うん).",
+    "badEndPath": "エンディング11「究明編」"
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "何がそんなに楽しいの？",
+    "enGuide": "mmitsuru's archived pages for this route (geend14.htm/geend26.htm) write this same line without the ellipsis before the question mark (何がそんなに楽しいの？ instead of 何がそんなに楽しいの……？); this appears to be a minor transcription difference for the same on-screen line, not a separate choice."
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's own archived 究明編 pages (geend14.htm/geend26.htm) choose a different option here, 僕は……戻りたい, which leads to a different (but ultimately convergent) B.S.S. trigger for 戻れない per mmitsuru's gebss.htm entry (3) rather than entry (2) used below. This guide follows xneo.jp's documented choice for each of its named endings."
+  },
+  {
+    "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
+    "jpGuide1": "戻れない\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２）鈴有り 坂の途中で座り込む主人公【（３）や（４）と同じ場面】、選択肢「もう僕は翼手なんだ」直後 主人公『もう僕は翼手なんだ……』△→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "xneo.jp's own top-of-page note states there are 4 valid combinations for this 3-round repeated choice set (そんなことない/騙されない……/違う……！/[4th line] is one of them; そうだね/そうかもしれない/そうだ……/[4th line] is another). mmitsuru's archived 究明編 pages consistently use the そうだね……／そうかもしれない／そうだ…… combination instead of this one. Per xneo.jp's own note, this suggests the specific combination chosen here does not by itself change which ending is reached — only the two-way answer given last (see the 'あの声を聞いちゃいけない' / 'あの声だけが唯一の救いかもしれない' choice below) plus later choices matter. This guide follows xneo.jp's documented combination consistently."
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "あの声を聞いちゃいけない",
+    "enGuide": "This is the one line in this 3-choice set that both sources agree on verbatim; xneo.jp documents this exact answer as leading toward Endings 11, 14 and 26, and mmitsuru's own 究明編 pages (geend14.htm/geend26.htm) also use this exact same answer."
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "引き出しを開けてみる",
+    "enGuide": "mmitsuru's own 究明編 pages (geend14.htm/geend26.htm) also document this same action, though reached via the differing earlier choices noted above."
+  },
+  {
+    "simpleJp": "写真を見てみる",
+    "jpGuide1": "写真を見てみる",
+    "jpGuide2": "写真を見てみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "赤いテープだ",
+    "jpGuide1": "赤いテープだ",
+    "jpGuide2": "青いテープだ",
+    "enGuide": "Source disagreement: xneo.jp calls this 赤いテープ (red tape) at this point across Endings 4, 11, 14 and 26, while mmitsuru's own 究明編 pages (geend14.htm/geend26.htm) describe the same 写真を見てみる action as revealing 青いテープ (blue tape) instead. mmitsuru's pages for this route also share several other structural quirks with 闇の王編's own End22/23 pages documented in route_yami_no_ou.json (e.g. an extra 小夜……！ / ！！ B.S.S. beat before the final escape that xneo.jp does not document at all for 究明編), suggesting mmitsuru's write-up for this route may partly reuse its own 闇の王編 template. This guide follows xneo.jp's tape colours and structure throughout, since it is the more detailed and internally consistent source for this specific route's six distinct endings."
+  },
+  {
+    "simpleJp": "BLOODレベル確認：70以上が必要",
+    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
+    "jpGuide2": "飛び降りる＞ （この選択肢後の時点でBLOODレベル70（オレンジ）以上）",
+    "enGuide": "BLOOD level must be 70 or higher at this choice to continue the story instead of ending immediately here (see xneo.jp's Ending 4 for the under-70 outcome, covered later in this guide). If BLOOD is under 70, reload and make sure to tap every B.S.S. opportunity encountered so far."
+  },
+  {
+    "simpleJp": "飛び降りる",
+    "jpGuide1": "飛び降りる",
+    "jpGuide2": "飛び降りる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父さん、何処へ行くの？",
+    "jpGuide1": "父さん、何処へ行くの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This is the choice unique to Ending 11 at this position; xneo.jp's Ending 14 instead shows '……' here and Ending 26 shows the B.S.S. 'この土地……？' (see later in this guide). mmitsuru has no archived page corresponding to xneo.jp's Ending 11 at all — mmitsuru's own End10/End11 numbering (geend1011.htm) documents unrelated content headed 闇の王編, not 究明編, confirming the cross-site Gekan ending-number disagreement noted in research.json. jpGuide2 is therefore unavailable for the remainder of this specific detour."
+  },
+  {
+    "simpleJp": "BSSタップ：「カッツの『来るのだ』」",
+    "jpGuide1": "嫌だ\tカッツの「来るのだ～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１７）鈴有り （１６）無視後、王の間、主人公だけが闇の王の前に残される 闇の王「来るのだ、私の元へ」△→嫌だ",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Note mmitsuru's own gebss.htm entry describes this trigger line as spoken by 闇の王 (the Dark King) rather than カッツ (Katz) as xneo.jp's table names it; both refer to the same B.S.S. name 嫌だ."
+  },
+  {
+    "simpleJp": "BSSタップ：「カッツの『人の心を』」",
+    "jpGuide1": "ぼくはなにを……\tカッツの「人の心を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２０）鈴有り 刀に魅入られる主人公 ▲カッツの声「人の心を殺すんだ……」→ぼくはなにを……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "BSSタップ：「灯子の『邪魔するものは』」",
+    "jpGuide1": "僕は何をしようと……\t灯子の「邪魔するものは～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２１）鈴有り 刀を持ってふらふらと立ちあがる主人公 ▲灯子の声「邪魔をするものは消してしまえばいいわ」→僕は何をしようと……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "僕の意思？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：80以上が必要",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（２３）鈴無し （２２）後【または（２２）直前の選択肢「カッツ……！」後】BLOODレベル80（赤）以上、選択肢「横に飛ぶ」後、刀を取って再び立ち向かう主人公",
+    "enGuide": "BLOOD level must be 80 or higher here. xneo.jp documents that this exact convergence point is shared with its own Ending 9 (灯子編, out of scope for this route): if BLOOD is under 80, the choice completes immediately as Ending 9 instead. If BLOOD is 80 or higher, the following choice between 横に飛ぶ (this route's Ending 11) and 後ろに飛ぶ (xneo.jp's Ending 10, 灯子編, out of scope) determines which route's ending you get — choose 横に飛ぶ."
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "横に飛ぶ",
+    "enGuide": "Per xneo.jp this completes Ending 11 (究明編). As noted above, mmitsuru has no archived page matching this specific ending's numbering."
+  },
+  {
+    "simpleJp": "セーブ34にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a fresh detour (reloaded from セーブ34) toward xneo.jp's Ending 14 (究明編).",
+    "badEndPath": "エンディング14「究明編」"
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "何がそんなに楽しいの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
+    "jpGuide1": "戻れない\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２）鈴有り 坂の途中で座り込む主人公【（３）や（４）と同じ場面】、選択肢「もう僕は翼手なんだ」直後 主人公『もう僕は翼手なんだ……』△→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "あの声を聞いちゃいけない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "引き出しを開けてみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "写真を見てみる",
+    "jpGuide1": "写真を見てみる",
+    "jpGuide2": "写真を見てみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "赤いテープだ",
+    "jpGuide1": "赤いテープだ",
+    "jpGuide2": "青いテープだ",
+    "enGuide": "Same source disagreement on tape colour as noted earlier in this guide (xneo.jp: red; mmitsuru: blue)."
+  },
+  {
+    "simpleJp": "BLOODレベル確認：70以上が必要",
+    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
+    "jpGuide2": "飛び降りる＞ （この選択肢後の時点でBLOODレベル70（オレンジ）以上）",
+    "enGuide": "BLOOD level must be 70 or higher here to continue toward Ending 14 instead of ending immediately (see xneo.jp's Ending 4, covered later in this guide, for the under-70 outcome)."
+  },
+  {
+    "simpleJp": "飛び降りる",
+    "jpGuide1": "飛び降りる",
+    "jpGuide2": "飛び降りる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……",
+    "enGuide": "This is the choice unique to Ending 14 at this position (xneo.jp's Ending 11 instead shows '父さん、何処へ行くの？' here, and Ending 26 shows the B.S.S. 'この土地……？'). mmitsuru's geend14.htm page also shows '……' at a comparable position, though only after an additional この土地……？-style B.S.S. beat that xneo.jp does not document for its own Ending 14 — see the tape-colour note above regarding mmitsuru's apparent structural overlap with its own 闇の王編 pages."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
+    "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
+    "jpGuide2": "（１６）鈴無し 地下基地跡２つ目の扉の前 ▲（２つ目の扉の前で立ち止まった正夫の顔アップ）→正夫から離れる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "まっすぐだ",
+    "jpGuide1": "まっすぐだ",
+    "jpGuide2": "まっすぐだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部屋を出る",
+    "jpGuide1": "部屋を出る",
+    "jpGuide2": "部屋を出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "右だ",
+    "jpGuide1": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend14.htm page shows 左だ instead of 右だ at this exact position (its route through the base takes a different direction). This guide follows xneo.jp's documented direction for this ending."
+  },
+  {
+    "simpleJp": "ディスクを取る",
+    "jpGuide1": "ディスクを取る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend14.htm page does not mention picking up a disc at all in its version of this scene."
+  },
+  {
+    "simpleJp": "まっすぐだ",
+    "jpGuide1": "まっすぐだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend14.htm page does not have a second まっすぐだ direction choice at this position; its documented path ends its direction choices earlier (see notes above)."
+  },
+  {
+    "simpleJp": "BSSタップ：「カッツの『人の心を』」",
+    "jpGuide1": "ぼくはなにを……\tカッツの「人の心を～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２０）鈴有り 刀に魅入られる主人公 ▲カッツの声「人の心を殺すんだ……」→ぼくはなにを……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "BSSタップ：「灯子の『邪魔するものは』」",
+    "jpGuide1": "僕は何をしようと……\t灯子の「邪魔するものは～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２１）鈴有り 刀を持ってふらふらと立ちあがる主人公 ▲灯子の声「邪魔をするものは消してしまえばいいわ」→僕は何をしようと……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "僕の意思？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：80以上が必要",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be 80 or higher here. mmitsuru's geend14.htm page does not use a 'カッツ……！' choice at all at this position — instead it documents an extra '小夜……！' choice followed by a B.S.S. named '！！' (trigger: 小夜「目を覚ますんだ！」, per mmitsuru's gebss.htm entry 22), a structure matching route_yami_no_ou.json's own Ending 22 chain rather than anything xneo.jp documents for 究明編. This guide follows xneo.jp's documented structure for its own Ending 14."
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "横に飛ぶ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「カッツの攻撃を横に避けた後」",
+    "jpGuide1": "小夜に刀を投げる\tカッツの攻撃を横に避けた後、主人公が立ち上がりそうになったら、サーチする。",
+    "jpGuide2": "（２３）鈴無し （２２）後【または（２２）直前の選択肢「カッツ……！」後】BLOODレベル80（赤）以上、選択肢「横に飛ぶ」後、刀を取って再び立ち向かう主人公 ▲（再び刀を取って主人公が立ちあがる瞬間）→小夜に刀を投げる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp this completes Ending 14 (究明編)."
+  },
+  {
+    "simpleJp": "セーブ34にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Good-path continuation from セーブ34: this choice, per xneo.jp, leads (via later choices) toward Endings 2, 3, 4 and 26. mmitsuru's own archived 究明編 pages use 'う……うん' at this exact position instead (see the note on セーブ34 above)."
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "何がそんなに楽しいの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
+    "jpGuide1": "戻れない\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２）鈴有り 坂の途中で座り込む主人公【（３）や（４）と同じ場面】、選択肢「もう僕は翼手なんだ」直後 主人公『もう僕は翼手なんだ……』△→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ35",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint before the next choice, which per xneo.jp's own per-ending listings splits Endings 2, 3 and 4 (via 'あの声だけが唯一の救いかもしれない') from the continuing main path toward Ending 26 (via 'あの声を聞いちゃいけない')."
+  },
+  {
+    "simpleJp": "あの声だけが唯一の救いかもしれない",
+    "jpGuide1": "あの声だけが唯一の救いかもしれない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's Endings 2, 3 and 4 (究明編). mmitsuru's own 究明編 pages never use this exact answer (they use あの声を聞いちゃいけない even for their own version of the tape-drawer scene, per geend020304.htm) — see the tape-colour note above for further discussion of this structural disagreement.",
+    "badEndPath": "エンディング2「究明編」"
+  },
+  {
+    "simpleJp": "手帳を取ってみる",
+    "jpGuide1": "手帳を取ってみる",
+    "jpGuide2": "手帳を取ってみる",
+    "enGuide": "mmitsuru's geend020304.htm page also documents this exact action (for its own End02), even though it is reached via different earlier choices there (あの声を聞いちゃいけない instead of あの声だけが唯一の救いかもしれない)."
+  },
+  {
+    "simpleJp": "青いテープだ",
+    "jpGuide1": "青いテープだ",
+    "jpGuide2": "青いテープだ",
+    "enGuide": "Both sources agree the diary (手帳) leads to blue tape — the only tape-colour point where xneo.jp and mmitsuru's per-ending pages for this route do not disagree."
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……",
+    "enGuide": "Per xneo.jp this completes Ending 2 (究明編). mmitsuru's geend020304.htm page documents this same final '……' choice completing its own 'End 02「大岡」'."
+  },
+  {
+    "simpleJp": "セーブ35にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "あの声だけが唯一の救いかもしれない",
+    "jpGuide1": "あの声だけが唯一の救いかもしれない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a fresh detour (reloaded from セーブ35) toward xneo.jp's Ending 3 (究明編).",
+    "badEndPath": "エンディング3「究明編」"
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend020304.htm page does not document opening the drawer at all for its own End03 — it instead says End03 is reached by replacing End02's final '……' choice with 抵抗する, implying (per mmitsuru) the same 手帳/blue-tape route as End02. This guide follows xneo.jp's more detailed drawer/tape submenu structure."
+  },
+  {
+    "simpleJp": "テープを聞いてみる",
+    "jpGuide1": "テープを聞いてみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "黒いテープだ",
+    "jpGuide1": "黒いテープだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru never documents a black tape (黒いテープ) for this route at all."
+  },
+  {
+    "simpleJp": "抵抗する",
+    "jpGuide1": "抵抗する",
+    "jpGuide2": "抵抗する",
+    "enGuide": "Per xneo.jp this completes Ending 3 (究明編). mmitsuru's geend020304.htm page also uses this exact final choice text (抵抗する) to complete its own 'End 03「狂気のナイフ」', despite documenting a different route to reach it (see notes above)."
+  },
+  {
+    "simpleJp": "セーブ35にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "あの声だけが唯一の救いかもしれない",
+    "jpGuide1": "あの声だけが唯一の救いかもしれない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a fresh detour (reloaded from セーブ35) toward xneo.jp's Ending 4 (究明編).",
+    "badEndPath": "エンディング4「究明編」"
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "引き出しを開けてみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "写真を見てみる",
+    "jpGuide1": "写真を見てみる",
+    "jpGuide2": "写真を見てみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "赤いテープだ",
+    "jpGuide1": "赤いテープだ",
+    "jpGuide2": "青いテープだ",
+    "enGuide": "Same tape-colour disagreement as noted earlier (xneo.jp: red; mmitsuru's geend020304.htm implies blue, reusing End02's tape via its terse 'same until the last choice' description)."
+  },
+  {
+    "simpleJp": "BLOODレベル確認：70未満が必要",
+    "jpGuide1": "飛び降りる（BLOODレベルが70未満の場合）",
+    "jpGuide2": "飛び降りる＞ （この選択肢後の時点でBLOODレベル70（オレンジ）以下）",
+    "enGuide": "BLOOD level must be under 70 here for Ending 4. Note a minor boundary disagreement between sources: xneo.jp says 未満 (strictly under 70), while mmitsuru says 以下 (70 or under, i.e. including exactly 70) — if BLOOD is exactly 70, mmitsuru's wording implies this still leads to Ending 4, while xneo.jp's wording implies it would instead continue to the 70-or-above branch (Endings 11/14/26). If BLOOD is well clear of 70 in either direction this does not matter; treat exactly-70 as ambiguous and avoid it if trying deliberately for Ending 4."
+  },
+  {
+    "simpleJp": "飛び降りる",
+    "jpGuide1": "飛び降りる",
+    "jpGuide2": "飛び降りる",
+    "enGuide": "Per xneo.jp this completes Ending 4 (究明編). mmitsuru's geend020304.htm page also uses this exact final choice text to complete its own 'End 04「脱出」'."
+  },
+  {
+    "simpleJp": "セーブ35にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "あの声を聞いちゃいけない",
+    "enGuide": "Good-path continuation from セーブ35, leading to this route's final/deepest documented ending, xneo.jp's Ending 26 (headed ～究明編～). mmitsuru's geend26.htm page (explicitly titled 'End 26「究明編」') also uses this exact answer."
+  },
+  {
+    "simpleJp": "引き出しを開けてみる",
+    "jpGuide1": "引き出しを開けてみる",
+    "jpGuide2": "引き出しを開けてみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "写真を見てみる",
+    "jpGuide1": "写真を見てみる",
+    "jpGuide2": "写真を見てみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "赤いテープだ",
+    "jpGuide1": "赤いテープだ",
+    "jpGuide2": "青いテープだ",
+    "enGuide": "Same tape-colour disagreement as noted earlier in this guide (xneo.jp: red; mmitsuru: blue)."
+  },
+  {
+    "simpleJp": "BLOODレベル確認：70以上が必要",
+    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
+    "jpGuide2": "飛び降りる＞ （この選択肢後の時点でBLOODレベル70（オレンジ）以上）",
+    "enGuide": "BLOOD level must be 70 or higher here to continue toward Ending 26 instead of ending immediately (compare Ending 4's under-70 outcome above). Tap every B.S.S. opportunity encountered so far if unsure."
+  },
+  {
+    "simpleJp": "飛び降りる",
+    "jpGuide1": "飛び降りる",
+    "jpGuide2": "飛び降りる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の『私にとって、すべては』」",
+    "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１０）鈴無し 桜ヶ丘、桜の大木の下で、一段と声が大きくなる正夫 正夫「私にとって、すべてはこの土地から始まったんだ」△→この土地……？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the choice unique to Ending 26 at this position (compare Ending 11's '父さん、何処へ行くの？' and Ending 14's '……', both covered earlier in this guide)."
+  },
+  {
+    "simpleJp": "父さん、ここは？",
+    "jpGuide1": "父さん、ここは？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend26.htm page shows '……' instead of '父さん、ここは？' at this exact position."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
+    "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
+    "jpGuide2": "（１６）鈴無し 地下基地跡２つ目の扉の前 ▲（２つ目の扉の前で立ち止まった正夫の顔アップ）→正夫から離れる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "左だ",
+    "jpGuide1": "左だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend26.htm page shows まっすぐだ instead of 左だ at this exact position (its documented path through the base takes different directions throughout this segment)."
+  },
+  {
+    "simpleJp": "ディスクを取る",
+    "jpGuide1": "ディスクを取る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend26.htm page does not mention picking up a disc at all."
+  },
+  {
+    "simpleJp": "右だ",
+    "jpGuide1": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend26.htm page does not have a corresponding 右だ choice; its documented path goes directly from まっすぐだ to 部屋を出る."
+  },
+  {
+    "simpleJp": "左だ",
+    "jpGuide1": "左だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend26.htm page does not have a second direction choice before 部屋を出る."
+  },
+  {
+    "simpleJp": "部屋を出る",
+    "jpGuide1": "部屋を出る",
+    "jpGuide2": "部屋を出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左だ",
+    "jpGuide1": "左だ",
+    "jpGuide2": "左だ",
+    "enGuide": "mmitsuru's geend26.htm page also shows 左だ immediately after 部屋を出る, matching xneo.jp at this specific position even though the preceding direction choices differ between the two sources."
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "僕の意思？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：80以上が必要",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be 80 or higher here. mmitsuru's geend26.htm page does not use a 'カッツ……！' choice at this position at all — instead it documents an extra '小夜……！' choice followed by a B.S.S. named '！！' (trigger: 小夜「目を覚ますんだ！」, per mmitsuru's gebss.htm entry 22), matching route_yami_no_ou.json's own Ending 22 chain rather than anything xneo.jp documents for 究明編's Ending 26. This guide follows xneo.jp's documented structure."
+  },
+  {
+    "simpleJp": "カッツ……！",
+    "jpGuide1": "カッツ……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "横に飛ぶ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「カッツの攻撃を横に避けた後」",
+    "jpGuide1": "小夜に刀を投げる\tカッツの攻撃を横に避けた後、主人公が立ち上がりそうになったら、サーチする。",
+    "jpGuide2": "（２３）鈴無し （２２）後【または（２２）直前の選択肢「カッツ……！」後】BLOODレベル80（赤）以上、選択肢「横に飛ぶ」後、刀を取って再び立ち向かう主人公 ▲（再び刀を取って主人公が立ちあがる瞬間）→小夜に刀を投げる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "BSSタップ：「灯子の『あなたは私の中で』」",
+    "jpGuide1": "離れる！\t灯子の「あなたはわたしの～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２５）鈴無し カッツは倒され、トンネルを出る主人公の前に現れた灯子 ▲灯子「あなたは私の中で生きていくの」→離れる！",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the most reliable point of agreement between the two sources for this route's deepest ending: both xneo.jp's Ending 26 (headed ～究明編～) and mmitsuru's geend26.htm page (explicitly titled 'End 26「究明編」') end with this exact B.S.S. trigger and outcome."
+  },
+  {
+    "simpleJp": "究明編（エンディング26）",
+    "jpGuide1": "エンディング26～究明編～",
+    "jpGuide2": "End 26「究明編」",
+    "enGuide": "Route complete. This is the deepest and final documented conclusion of 究明編, reached by both xneo.jp (as its own Ending 26) and mmitsuru (as its explicitly-labelled 'End 26「究明編」'), despite the two sources disagreeing on several earlier choice details throughout this guide (see notes above: round2 wording, the 3-choice flavour set, tape colour, and several direction choices in the underground base). This guide does not continue into another route from here; the other five documented 究明編 endings (2, 3, 4, 11, 14) were covered earlier via save/load detours."
+  }
+]

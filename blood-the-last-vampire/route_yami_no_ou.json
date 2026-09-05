@@ -1,0 +1,894 @@
+[
+  {
+    "simpleJp": "少年は現れなかった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は現れなかった＞□３□へ",
+    "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start. This is used because the companion Joukan (上巻) guide (route_joukan.json) already spends its own Continue on the 瑠璃亜編 branch, so 闇の王編 is reached independently here. Per mmitsuru's geoooka.htm, the Ooka Report is a legitimate, non-canon-affecting way to jump straight into any Gekan route's opening scene; it does not affect the in-game completion percentage. xneo.jp's Gekan page does not document the Ooka Report mechanic at all (it assumes the player already continued from a specific Joukan ending), so jpGuide1 is empty for this step group. This shortest path keeps starting BLOOD level at 0."
+  },
+  {
+    "simpleJp": "少年はうずくまったままだった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年はうずくまったままだった＞□４□へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "少年は声をかけた少女と一緒に行った",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は声をかけた少女と一緒に行った＞□５□へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二人は何処かへ行ったようだ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "二人は何処かへ行ったようだ＞□９□へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "少年は瑠璃亜と一緒だった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年は瑠璃亜と一緒だった＞□１０□へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "少年はいい雰囲気だった",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "少年はいい雰囲気だった＞闇の王編",
+    "enGuide": "This is the final Ooka Report branch that places the player at the start of the 闇の王編 (Dark King) route in Gekan, BLOOD level 0. From here the guide follows xneo.jp's '各ルート・エンディングへの行き方' Gekan ending list, cross-checked against mmitsuru's B.S.S. list (gebss.htm) and its two archived per-ending pages for this route family (geend22.htm, geend23.htm)."
+  },
+  {
+    "simpleJp": "セーブ21",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial save placed at the very start of the 闇の王編 Gekan content, before the first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here (this PS2 title has no mid-chapter save screen); this slot exists so every documented ending of this route can be reached and reloaded from a shared checkpoint, matching the convention already used in route_joukan.json."
+  },
+  {
+    "simpleJp": "BSSサーチをしない（あえて失敗させる）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "xneo.jp's Gekan ending list documents 'エンディング1～闇の王編～ B.S.S.を失敗する' (Ending 1 = fail the B.S.S. here) as a complete, standalone path with no further choices listed. Missing/failing this first B.S.S. tap (at the childhood flashback line 「あ……あれは……」) leads directly to this ending instead of the '小夜にしがみつく' branch that all other 闇の王編 endings continue from.",
+    "badEndPath": "エンディング1「闇の王編」"
+  },
+  {
+    "simpleJp": "セーブ21にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "BSSタップ：「あ……あれは……」",
+    "jpGuide1": "小夜にしがみつく\t主人公の「あ、あれは……」のセリフが終わったら、サーチする。",
+    "jpGuide2": "（１）鈴有り 開始後、回想シーン ▲主人公（子供時代）「あ……あれは……」→小夜にしがみつく",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Successfully tapping produces the 小夜にしがみつく (cling to Saya) branch that every other 闇の王編 ending continues from. Sources disagree slightly on exact timing: xneo.jp says to search when the line has just finished (セリフが終わったら); mmitsuru marks the same line with ▲ (search as the line begins). Either source's window is close enough in practice to be treated as the same trigger."
+  },
+  {
+    "simpleJp": "セーブ22",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint immediately after the first B.S.S. succeeds, before the timed multiple-choice sequence that determines which of the remaining 闇の王編 sub-endings (5, 7, 8, 12, 13, 19, 22, 23 in xneo.jp's own numbering) is reached. Neither source marks an explicit save here; this is an editorial addition so every documented sub-ending can be visited and reloaded from one shared point."
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 19 (闇の王編). mmitsuru has no archived per-ending page covering this specific short chain, only the general B.S.S. list.",
+    "badEndPath": "エンディング19「闇の王編」"
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕は……戻りたい",
+    "jpGuide1": "僕は……戻りたい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp, choosing this here ends the sequence immediately as Ending 19, with no further choices listed."
+  },
+  {
+    "simpleJp": "セーブ22にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 5 (闇の王編).",
+    "badEndPath": "エンディング5「闇の王編」"
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
+    "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２）鈴有り 坂の途中で座り込む主人公、選択肢「もう僕は翼手なんだ」直後 主人公『もう僕は翼手なんだ……』△→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そうだね……",
+    "jpGuide1": "そうだね……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そうかもしれない",
+    "jpGuide1": "そうかもしれない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんだこいつら……",
+    "jpGuide1": "なんだこいつら……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「さ、おいで」",
+    "jpGuide1": "正夫の手を掴まない\t正夫の「さ、おいで～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１３）鈴無し 信濃町、線路の柵の前、線路内へ侵入する正夫と外にいる主人公 正夫「さぁ、おいで」△→正夫の手を掴まない",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp this completes Ending 5."
+  },
+  {
+    "simpleJp": "セーブ22にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 7 (闇の王編).",
+    "badEndPath": "エンディング7「闇の王編」"
+  },
+  {
+    "simpleJp": "そして僕はあの声を受け入れたんだ",
+    "jpGuide1": "そして僕はあの声を受け入れたんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
+    "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２）鈴有り 坂の途中で座り込む主人公、選択肢「もう僕は翼手なんだ」直後 主人公『もう僕は翼手なんだ……』△→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「二人の姿が２度目に映ったら」",
+    "jpGuide1": "瑠璃亜に会えてよかった\t二人の姿が２度目に映ったら、サーチする。",
+    "jpGuide2": "（５）鈴無し 渋谷の坂で瑠璃亜に拾われた後、画面の目の前を電車が走ってから、ガード下の二人（遠くからの視点）、ガード下を歩く二人、瑠璃亜の顔が４回映った後 →瑠璃亜に会えてよかった",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Succeeding at this FIRST opportunity (rather than skipping it) is what leads to the 瑠璃亜に会えてよかった branch used by Ending 7/8/13, as opposed to 瑠璃亜の傍にいる used by Ending 12/22/23."
+  },
+  {
+    "simpleJp": "瑠璃亜……",
+    "jpGuide1": "瑠璃亜……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：50未満が必要",
+    "jpGuide1": "力が……ほしい（BLOODレベルが50未満の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be under 50 at this choice for the 力が……ほしい option shown here to lead to Ending 7. If BLOOD is 50 or higher, avoid extra B.S.S. taps earlier in this detour before reloading and retrying."
+  },
+  {
+    "simpleJp": "力が……ほしい",
+    "jpGuide1": "力が……ほしい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「さあ、心から願うがいい……」",
+    "jpGuide1": "駄目だ……そんな力……\t闇の王の「心から願うがいい～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（８）鈴無し ガード下、直前の選択肢「瑠璃亜……」と選択した時点でBLOODレベル49（黄色）以下の状態、その後「力が……ほしい」を選択 ▲声「さあ、心から願うがいい……」→駄目だ……そんな力……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "父さん、ここは？",
+    "jpGuide1": "父さん、ここは？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp this completes Ending 7."
+  },
+  {
+    "simpleJp": "セーブ22にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "うん",
+    "jpGuide1": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 8 (闇の王編).",
+    "badEndPath": "エンディング8「闇の王編」"
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
+    "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２）鈴有り 坂の途中で座り込む主人公、選択肢「もう僕は翼手なんだ」直後 主人公『もう僕は翼手なんだ……』△→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声だけが唯一の救いかもしれない",
+    "jpGuide1": "あの声だけが唯一の救いかもしれない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Note this is a different 4th-round answer than Ending 7's 'あの声を聞いちゃいけない', yet both continue into the same 瑠璃亜に会えてよかった B.S.S. next — the two answers are not, by themselves, what separates Ending 7 from Ending 8; the later choices below are."
+  },
+  {
+    "simpleJp": "BSSタップ：「二人の姿が２度目に映ったら」",
+    "jpGuide1": "瑠璃亜に会えてよかった\t二人の姿が２度目に映ったら、サーチする。",
+    "jpGuide2": "（５）鈴無し 渋谷の坂で瑠璃亜に拾われた後、画面の目の前を電車が走ってから、ガード下の二人（遠くからの視点）、ガード下を歩く二人、瑠璃亜の顔が４回映った後 →瑠璃亜に会えてよかった",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "瑠璃亜……",
+    "jpGuide1": "瑠璃亜……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：50未満が必要",
+    "jpGuide1": "力が……ほしい（BLOODレベルが50未満の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be under 50 at this choice for the 力が……ほしい option shown here to lead toward Ending 8."
+  },
+  {
+    "simpleJp": "力が……ほしい",
+    "jpGuide1": "力が……ほしい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "泣く",
+    "jpGuide1": "泣く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ここは何処なんだろう……？",
+    "jpGuide1": "ここは何処なんだろう……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "友達が死んだんだよ",
+    "jpGuide1": "友達が死んだんだよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左側の下を見る",
+    "jpGuide1": "左側の下を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「３つ目の街の場面」",
+    "jpGuide1": "僕のせいなの？\t３つ目の街の場面が映ったら、サーチする。",
+    "jpGuide2": "（１１）鈴有り 新宿歌舞伎町、３つ目の画面に変わったとき →僕のせいなの？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "父さん、ここは？",
+    "jpGuide1": "父さん、ここは？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「ここは第二次大戦末期～」",
+    "jpGuide1": "こんなところに……\t正夫の「ここは第二次大戦末期～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１５）鈴有り 地下基地跡、直前の選択肢「父さん、ここは？」後 正夫「ここは第二次世界大戦末期、本土決戦に備えて作られた旧日本軍の地下基地跡だって彼が言ってたよ」△→こんなところに……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "僕には意思なんて……",
+    "jpGuide1": "僕には意思なんて……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp this completes Ending 8."
+  },
+  {
+    "simpleJp": "セーブ22にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "う……うん",
+    "jpGuide1": "う……うん",
+    "jpGuide2": "う……うん＞",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 13 (闇の王編). This entire chain textually matches mmitsuru's archived geend22.htm/geend23.htm pages (both titled 下巻End22/End23 'への行き方'), which state 'this chain is the same as End23 except for the last part' (最後以外はEnd23と同じです) — i.e. mmitsuru treats this SAME choice chain as also leading to its own separately-named End22「全ては闇に」and End23「闇の王編」at higher BLOOD levels, cross-referenced below at the final choice.",
+    "badEndPath": "エンディング13「闇の王編」"
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "僕はあの声に怯えた……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕は何をしているんだ……",
+    "jpGuide1": "僕は何をしているんだ……",
+    "jpGuide2": "僕は何してるんだ……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕は戻りたい……",
+    "jpGuide1": "僕は戻りたい……",
+    "jpGuide2": "僕は……戻りたい＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「僕はまだ人間でいたいんだ」",
+    "jpGuide1": "戻れない……\t主人公の「僕はまだ人間でいたいんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（３）鈴有り 坂の途中で座り込む主人公、選択肢「僕は……戻りたい」後 ▲主人公『僕はまだ人間でいたいんだ……』→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そうだね……",
+    "jpGuide1": "そうだね……",
+    "jpGuide2": "そうだね……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そうかもしれない",
+    "jpGuide1": "そうかもしれない",
+    "jpGuide2": "そうかもしれない＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そうだ……",
+    "jpGuide1": "そうだ……",
+    "jpGuide2": "そうだ……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "あの声を聞いちゃいけない＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「二人の姿が２度目に映ったら」",
+    "jpGuide1": "瑠璃亜に会えてよかった\t二人の姿が２度目に映ったら、サーチする。",
+    "jpGuide2": "（５）鈴無し 渋谷の坂で瑠璃亜に拾われた後...瑠璃亜の顔が４回映った後 →瑠璃亜に会えてよかった",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "BLOODレベル確認：50以上が必要（source disagreement, see enGuide）",
+    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
+    "jpGuide2": "瑠璃亜……＞ （この選択後の時点でBLOODレベル49（黄）以下）",
+    "enGuide": "Sources disagree on the BLOOD condition attached to the next line: xneo.jp's Ending 13 entry states BLOOD 50+ at this point (skipping straight to 泣く with no 力が……ほしい step); mmitsuru's geend22/23 pages instead show this same choice at BLOOD 49 or below, with an extra 力が……ほしい line inserted before 泣く. Both then continue through an otherwise identical remaining chain. This guide follows xneo.jp's higher-BLOOD variant (no 力が……ほしい insert) since that is the entry explicitly labelled Ending 13 by the primary source; if BLOOD happens to be 49 or under here instead, mmitsuru's account says an extra 力が……ほしい choice will appear first — pick it and continue to 泣く."
+  },
+  {
+    "simpleJp": "瑠璃亜……",
+    "jpGuide1": "瑠璃亜……",
+    "jpGuide2": "瑠璃亜……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "泣く",
+    "jpGuide1": "泣く",
+    "jpGuide2": "泣く＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕はここを知っている？",
+    "jpGuide1": "僕はここを知っている？",
+    "jpGuide2": "僕はここを知っている……！＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何を言えばいいのだろう",
+    "jpGuide1": "何を言えばいいのだろう",
+    "jpGuide2": "何を言えばいいのだろう＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
+    "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
+    "jpGuide2": "▲（基地跡２つ目の扉の前で立ち止まった正夫の顔アップ）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "右だ",
+    "jpGuide1": "右だ",
+    "jpGuide2": "右だ＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「脱出時に立ち止まったら」",
+    "jpGuide1": "あれは……\t脱出時に立ち止まったら、サーチする。",
+    "jpGuide2": "▲（走って逃げる瑠璃亜と主人公がスピードを落とし始めた頃：服が見えた瞬間でも間に合う）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の上着を掴んだら」",
+    "jpGuide1": "父さんの……\t正夫の上着を掴んだら、サーチする。",
+    "jpGuide2": "▲（正夫の服を主人公が手に取った瞬間）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "父さん……",
+    "jpGuide1": "父さん……",
+    "jpGuide2": "父さん……＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "駆け寄る",
+    "jpGuide1": "駆け寄る",
+    "jpGuide2": "駆け寄る＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "僕の意思？＞",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：85未満が必要",
+    "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85未満の場合）",
+    "jpGuide2": "闘って道を開くんだ……！＞ （この選択後の時点でBLOODレベル85（赤）以上）で全ては闇に(End22)、正夫死亡シーンでBLOODレベルを100にするとEnd23「闇の王編」、早すぎるとEnd21、遅すぎるとEnd22になる",
+    "enGuide": "For xneo.jp's Ending 13 specifically, BLOOD must be under 85 at this final choice. mmitsuru documents the SAME choice at higher BLOOD leading to two further named endings it also treats as this same chain: BLOOD 85 or higher (but not exactly 100 when 正夫 dies) leads to mmitsuru's End22「全ては闇に」；hitting BLOOD exactly 100 at the precise moment 正夫 dies leads to mmitsuru's End23「闇の王編」（hitting 100 too early instead produces its unrelated End21, which neither source ties to this route specifically, so it is not detailed further here). This guide does not attempt to force an exact BLOOD=100 timing demonstration, since neither source gives a tappable checklist precise enough to script it reliably — see the equivalent, more clearly documented BLOOD-85/BLOOD-100 gate later in this same guide (xneo.jp's own Ending 23) for the version of the 闇の王編 conclusion this guide treats as the route's main ending."
+  },
+  {
+    "simpleJp": "闘って道を開くんだ……！",
+    "jpGuide1": "闘って道を開くんだ……！",
+    "jpGuide2": "闘って道を開くんだ……！＞",
+    "enGuide": "Per xneo.jp this completes Ending 13 (with BLOOD under 85). See the BLOOD checkpoint note above for the mmitsuru-documented higher-BLOOD variants (全ては闇に／闇の王編) of this same chain."
+  },
+  {
+    "simpleJp": "セーブ22にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This begins the main chain toward xneo.jp's Ending 23 (explicitly headed ～闇の王編～), which this guide treats as the route's main/final conclusion since xneo.jp is this game's primary Gekan source and gives this exact chain its own unambiguous ～闇の王編～ heading. mmitsuru has no archived per-ending page textually matching this specific chain (its own archived End22/End23 pages instead match the 'う……うん' chain covered above), so jpGuide2 is unavailable for the plain choice steps in this chain; mmitsuru's B.S.S. list (gebss.htm) does independently corroborate every B.S.S. trigger below."
+  },
+  {
+    "simpleJp": "僕はあの声に怯えた……",
+    "jpGuide1": "僕はあの声に怯えた……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何がそんなに楽しいの……？",
+    "jpGuide1": "何がそんなに楽しいの……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう僕は翼手なんだ",
+    "jpGuide1": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
+    "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２）鈴有り 坂の途中で座り込む主人公、選択肢「もう僕は翼手なんだ」直後 主人公『もう僕は翼手なんだ……』△→戻れない……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "そんなことない",
+    "jpGuide1": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "騙されない……",
+    "jpGuide1": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う……！",
+    "jpGuide1": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あの声を聞いちゃいけない",
+    "jpGuide1": "あの声を聞いちゃいけない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSサーチを見送る（１回目）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（５）鈴無し 渋谷の坂で瑠璃亜に拾われた後、画面の目の前を電車が走ってから、ガード下の二人...瑠璃亜の顔が４回映った後 → 瑠璃亜に会えてよかった（この機会を見送ることで次の機会に進む）",
+    "enGuide": "Deliberately do NOT search at this first 瑠璃亜 B.S.S. opportunity (the one that produces 瑠璃亜に会えてよかった, used by Endings 7/8/13 above). xneo.jp's Ending 12/22/23 entries do not document this skip explicitly (they simply do not list 瑠璃亜に会えてよかった as a step), so jpGuide1 is empty; the skip mechanic itself is only explained by mmitsuru's B.S.S. list."
+  },
+  {
+    "simpleJp": "BSSサーチを見送る（２回目）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（６）鈴無し （５）無視後 ▲主人公『偶然にしては出来過ぎている』→考え過ぎだよ……（この機会も見送ることで次の機会に進む）",
+    "enGuide": "Deliberately do NOT search at this second 瑠璃亜 B.S.S. opportunity either (the one that would produce 考え過ぎだよ……). Skipping both this and the previous opportunity is required to reach the third opportunity below, 瑠璃亜の傍にいる, which is what Ending 12/22/23 all use."
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜……」",
+    "jpGuide1": "瑠璃亜の傍にいる\t主人公の「瑠璃亜～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（７）鈴無し （５）無視（６）無視後、ガード下、主人公の頬を触る瑠璃亜 ▲主人公『瑠璃亜……』→瑠璃亜の傍にいる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the third and final 瑠璃亜 B.S.S. opportunity in this scene; searching here (after skipping the first two) produces 瑠璃亜の傍にいる."
+  },
+  {
+    "simpleJp": "BLOODレベル確認：50以上が必要",
+    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be 50 or higher at this choice to continue toward Ending 12/22/23 instead of a lower-BLOOD variant."
+  },
+  {
+    "simpleJp": "瑠璃亜……",
+    "jpGuide1": "瑠璃亜……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "泣く",
+    "jpGuide1": "泣く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ23",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint after the 瑠璃亜の傍にいる branch is locked in. The next choice is where xneo.jp's Ending 22 (瑠璃亜の傍にいる family) splits off from Endings 12 and 23, which continue identically a little further before splitting from each other."
+  },
+  {
+    "simpleJp": "僕はここを知っている……！",
+    "jpGuide1": "僕はここを知っている……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's own Ending 22 (闇の王編). Note: this is a DIFFERENT choice chain from mmitsuru's own separately-numbered 'End22「全ては闇に」' (which textually matches the 'う……うん' chain covered earlier in this guide, not this one) — the two sites' Gekan ending numbers do not refer to the same content, per the source disagreement noted in research.json. jpGuide2 is unavailable for this chain's plain choice steps since mmitsuru has no archived page matching it; its B.S.S. triggers are corroborated via gebss.htm below.",
+    "badEndPath": "エンディング22「闇の王編」"
+  },
+  {
+    "simpleJp": "僕が怖くないの？",
+    "jpGuide1": "僕が怖くないの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左側の下を見る",
+    "jpGuide1": "左側の下を見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「私にとって、すべてはこの土地から」",
+    "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１０）鈴無し 桜ヶ丘、桜の大木の下で、一段と声が大きくなる正夫 正夫「私にとって、すべてはこの土地から始まったんだ」△→この土地……？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父さん、ここは？",
+    "jpGuide1": "父さん、ここは？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
+    "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
+    "jpGuide2": "▲（基地跡２つ目の扉の前で立ち止まった正夫の顔アップ）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "右だ",
+    "jpGuide1": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「脱出時に立ち止まったら」",
+    "jpGuide1": "あれは……\t脱出時に立ち止まったら、サーチする。",
+    "jpGuide2": "▲（走って逃げる瑠璃亜と主人公がスピードを落とし始めた頃：服が見えた瞬間でも間に合う）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：80以上が必要",
+    "jpGuide1": "小夜……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be 80 or higher at this choice for this specific branch (小夜……！) to lead onward to Ending 22."
+  },
+  {
+    "simpleJp": "小夜……！",
+    "jpGuide1": "小夜……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「目を覚ますんだ！」",
+    "jpGuide1": "！！\t（推定タイミング：小夜「目を覚ますんだ！」のセリフ付近）",
+    "jpGuide2": "（２２）鈴無し （１９）後、一連の選択肢を選ばず刀を構える主人公、直前の選択肢「小夜……！」後 ▲小夜「目を覚ますんだ！」→！！",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. xneo.jp's own timing text for this exact trigger is not separately spelled out beyond listing the B.S.S. name '！！' at this position in the Ending 22 chain; mmitsuru's numbered B.S.S. entry (22) supplies the precise trigger line quoted here."
+  },
+  {
+    "simpleJp": "横に飛ぶ",
+    "jpGuide1": "横に飛ぶ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「再び刀を取って立ちあがる瞬間」",
+    "jpGuide1": "小夜に刀を投げる\t（推定タイミング：主人公が再び刀を取って立ちあがる場面）",
+    "jpGuide2": "（２３）鈴無し （２２）後【または直前の選択肢「カッツ……！」後】BLOODレベル80（赤）以上、選択肢「横に飛ぶ」後、刀を取って再び立ち向かう主人公 ▲（再び刀を取って主人公が立ちあがる瞬間）→小夜に刀を投げる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp this completes Ending 22."
+  },
+  {
+    "simpleJp": "セーブ23にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "ここは何処なんだろう……？",
+    "jpGuide1": "ここは何処なんだろう……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This is the choice that keeps the main chain heading toward Endings 12 and 23 instead of the Ending 22 detour just shown."
+  },
+  {
+    "simpleJp": "僕が怖くないの？",
+    "jpGuide1": "僕が怖くないの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「私にとって、すべてはこの土地から」",
+    "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（１０）鈴無し 桜ヶ丘、桜の大木の下で、一段と声が大きくなる正夫 正夫「私にとって、すべてはこの土地から始まったんだ」△→この土地……？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
+    "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
+    "jpGuide2": "▲（基地跡２つ目の扉の前で立ち止まった正夫の顔アップ）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "右だ",
+    "jpGuide1": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BSSタップ：「脱出時に立ち止まったら」",
+    "jpGuide1": "あれは……\t脱出時に立ち止まったら、サーチする。",
+    "jpGuide2": "▲（走って逃げる瑠璃亜と主人公がスピードを落とし始めた頃：服が見えた瞬間でも間に合う）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "BSSタップ：「正夫の上着を掴んだら」",
+    "jpGuide1": "父さんの……\t正夫の上着を掴んだら、サーチする。",
+    "jpGuide2": "▲（正夫の服を主人公が手に取った瞬間）＞",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
+  },
+  {
+    "simpleJp": "セーブ24",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint after the final shared B.S.S. of the Ending 12 / Ending 23 pair. xneo.jp's Ending 12 entry lists one extra plain line ('父さん……') here that its Ending 23 entry does not list; the next detour below follows Ending 12's own listing exactly as documented, including that line, without assuming it is also part of Ending 23's path."
+  },
+  {
+    "simpleJp": "父さん……",
+    "jpGuide1": "父さん……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 12 (闇の王編). This 父さん…… line is listed by xneo.jp's Ending 12 entry immediately after 父さんの…… but is not listed at all in its Ending 23 entry, making it the first documented point of difference between the two.",
+    "badEndPath": "エンディング12「闇の王編」"
+  },
+  {
+    "simpleJp": "駆け寄る",
+    "jpGuide1": "駆け寄る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父さん……！",
+    "jpGuide1": "父さん……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp this completes Ending 12."
+  },
+  {
+    "simpleJp": "セーブ24にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "駆け寄る",
+    "jpGuide1": "駆け寄る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕の意思？",
+    "jpGuide1": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：85以上が必要",
+    "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "BLOOD level must be 85 or higher at this final choice for this chain to lead to Ending 23 instead of falling back to the lower-BLOOD Ending 12/13-style outcomes documented earlier in this guide."
+  },
+  {
+    "simpleJp": "闘って道を開くんだ……！",
+    "jpGuide1": "闘って道を開くんだ……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "BLOODレベル確認：100以上が必要（ゲーム終了時）",
+    "jpGuide1": "【ゲームが終了した時】（BLOODレベルが100以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "xneo.jp states the final requirement loosely as BLOOD 100 or higher at the moment the game concludes. mmitsuru's B.S.S./flag documentation for the textually-similar chain covered earlier in this guide is more precise about an equivalent moment, requiring BLOOD to hit exactly 100 at the exact instant 正夫 dies (too early produces mmitsuru's unrelated End21; too late/insufficient produces mmitsuru's End22「全ては闇に」). Neither source gives a tap-by-tap checklist precise enough to guarantee hitting the target exactly, so keep every B.S.S. trigger from this entire route in mind and tap all of them on this final run-through to maximize BLOOD level before this point."
+  },
+  {
+    "simpleJp": "闇の王編（エンディング23）",
+    "jpGuide1": "エンディング23～闇の王編～",
+    "jpGuide2": "End 23「闇の王編」",
+    "enGuide": "Route complete. xneo.jp lists this as its own Ending 23, headed ～闇の王編～. mmitsuru's archived geend23.htm page explicitly labels its own (textually different, 'う……うん' prefixed) chain 'End 23「闇の王編」', confirming both sources agree this exact route is named 闇の王編 for its main conclusion even though they reach a same-named label via two structurally different documented paths (see the notes throughout this guide on that disagreement). This is the route's main/final ending; the guide does not continue into another route from here."
+  }
+]

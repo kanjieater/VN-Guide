@@ -25,6 +25,12 @@
       "title": "灯子編",
       "stepCount": 33,
       "reviewed": false
+    },
+    {
+      "id": "rulia",
+      "title": "瑠璃亜編",
+      "stepCount": 46,
+      "reviewed": false
     }
   ],
   "sources": [
@@ -65,5 +71,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-09-05T21:52:50.462428+00:00"
+  "generated_at": "2026-09-06T03:18:15.165558+00:00"
 }

@@ -2258,16 +2258,17 @@
     "isLoad": true
   },
   {
-    "simpleJp": "BLOODレベル確認：100（エンディング15）",
+    "simpleJp": "BLOODレベル確認：100",
     "jpGuide1": "BLOODレベルを100にする",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "xneo.jp documents a 15th Joukan ending that triggers automatically once the BLOOD level meter fills to 100, overriding whatever branch you are on. mmitsuru's index page lists a matching 15th entry (redacted title fragment 「永…血」) but its own per-ending page for this one was never archived, so no choice sequence can be sourced for it. Neither guide ties it to a specific save point; keep tapping every available BSS trigger and it can appear on almost any branch instead of the ending you were aiming for. No load step is included here because no source documents where the meter actually maxes out."
+    "enGuide": "Not a bad-end detour with a sourced path — xneo.jp documents a 15th Joukan ending (エンディング15) that triggers automatically once the BLOOD level meter fills to 100, overriding whatever branch you are on. mmitsuru's index page lists a matching 15th entry (redacted title fragment 「永…血」) but its own per-ending page for this one was never archived, so no choice sequence can be sourced for it. Neither guide ties it to a specific save point; keep tapping every available BSS trigger and it can appear on almost any branch instead of the ending you were aiming for. No badEndPath/load step is included here because no source documents where the meter actually maxes out or that this trigger point is where it happens."
   },
   {
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
     "jpGuide2": "答えない＞",
-    "enGuide": "Switch to the 答えない branch, which is required to reach End 03, End 08, End 16 (闇の王編) and End 17 (灯子編)."
+    "enGuide": "Switch to the 答えない branch, which is required to reach End 03, End 08, End 16 (闇の王編) and End 17 (灯子編). Both xneo.jp and mmitsuru confirm 瑠璃亜編 (the branch this route continues on) opens with 答える instead, so 答えない never leads anywhere but these four side endings — treat this whole excursion as a detour back to セーブ1.",
+    "badEndPath": "答えない分岐（End 03/エンディング8/End 16「闇の王編」/End 17「灯子編」）"
   },
   {
     "simpleJp": "セーブ2",
@@ -3191,7 +3192,7 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
-    "simpleJp": "瑠璃亜編",
+    "simpleJp": "End 18「瑠璃亜編」",
     "jpGuide1": "End 18「瑠璃亜編」",
     "jpGuide2": "End 18「瑠璃亜編」",
     "enGuide": "Joukan complete — choose Continue to carry BLOOD level and flags into Gekan on the 瑠璃亜編 branch. Flag check for this exact path (per mmitsuru geflag.htm): 吸血鬼の本フラグ = ON (book bought and left with Rulia, see the choice above); 瑠璃亜の過去フラグ = OFF (this path never selects 傷の原因, the only documented choice that sets it); 五匹の子豚さんフラグ = OFF on THIS path because it never visits the 「五匹の子豚さん」karaoke box (that scene, and the ON choice for this flag, is documented separately by mmitsuru as 「へんなところは嫌だよ」→「やめてくださいっ、お姉さん！」→「は、はい」after leaving Rulia's apartment). All three flags are required ON/OFF exactly as: book ON, karaoke ON, past-question OFF to reach the true ending End 27「真・瑠璃亜編」in Gekan — see the rulia/true_end route guides for the adjusted choice needed at the karaoke point."

@@ -1,5 +1,58 @@
 {
   "title": "Akai Ito",
   "vndb_id": "v98",
-  "routes": []
+  "routes": [
+    {
+      "id": "uzuki",
+      "title": "千羽烏月ルート",
+      "stepCount": 27,
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/83/11683.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://xneo.jp/akaiito/",
+      "title": "アカイイト完全攻略 | XNEO",
+      "language": "ja",
+      "notes": "Complete text walkthrough covering all 5 heroine routes. For each route lists: the unlock condition ('攻略条件') if any, the True End name/ED number, and a full day-by-day (1日目～4日目) list of every choice, with every branch to a Bad End or Normal End spelled out as '選択肢 → 選択肢... でBad/Normal End「名前」（EDxx）'. This is the primary source used for exact choice text and ending names/numbers. Fetched directly (not summarized) and stored/reviewed line-by-line; last updated per page footer 2020年6月13日."
+    },
+    {
+      "url": "http://saomix.fc2web.com/akaiito/",
+      "title": "アカイイト攻略 分岐図 (Saomix Elements)",
+      "language": "ja",
+      "notes": "Complete hand-drawn branch-diagram (分岐図) covering the entire common route and all 5 heroine routes as a flowchart of choice boxes leading to all 32 numbered endings (END No.1 - No.32). The original site (saomix.fc2web.com) is dead (FC2's free homepage service shut down 2025-06-30); content was recovered via the Wayback Machine snapshot at http://web.archive.org/web/20250411062104/http://saomix.fc2web.com/akaiito/ and its five embedded branch-diagram images (bunkizu0.png through bunkizu4.png), which were read directly as images. Used to cross-validate every ED name/number and route-unlock condition documented by xneo.jp; all endings and prerequisite conditions checked in this research (ED3, ED8, ED11, ED12, ED13, ED15, ED18, ED21, ED22-ED32) matched between the two sources. Also documents an early common-route '幻視行' left/right split with its own unlock conditions that is not explained in xneo.jp's text guide — flagged as an open detail to verify before writing full step-by-step routes."
+    },
+    {
+      "url": "https://w.atwiki.jp/wakasugi_orz/pages/12.html",
+      "title": "FAQ/アカイイト攻略FAQ - アカイイト/アオイシロ まとめwiki",
+      "language": "ja",
+      "notes": "Partial/supplementary source, not a complete walkthrough on its own. Its FAQ section documents three specific hard-to-find choice sequences that are easy to miss on the branch diagram (烏月ルート「吸血鬼」の左, 烏月ルート「どうしてこんなところに？」の左→左, 葛ルート「コドク」の左, サクヤルート「歓迎の心は掃除から」の左→右), given as full choice chains. These were cross-checked against xneo.jp's day-by-day listings and are consistent. Also confirms there is no single canonical 'grand happy end' bugfix and that a specific ending ('言霊の継承(2)') has a known freeze bug unrelated to route logic. Site required a direct fetch with a browser user-agent (returns HTTP 403 to generic fetchers)."
+    },
+    {
+      "url": "https://w.atwiki.jp/gcmatome/pages/4086.html",
+      "title": "アカイイト - ゲームカタログ@Wiki ～名作からクソゲーまで～",
+      "language": "ja",
+      "notes": "Reference/review article, not a choice-by-choice walkthrough. Used to corroborate structural facts: total of 32 endings (5 happy/True Ends, 12 Normal Ends, 15 Bad Ends); confirms only Uzuki's route needs no prior unlock ('ルートの解除をせずにいきなりハッピーエンドに到達出来るのは烏月だけ'); explicitly states there is NO single 'true happy end' among the 5 heroine True Ends ('「真のハッピーエンド」が存在しない...本当の意味でのハッピーエンドが存在しない'), and that the sequel Aoishiro added a 'Grand Happy End' specifically in response to this criticism (implying Akai Ito itself, including the 2023 HD Remaster, was not given one). Also confirms the 2023 Switch/Steam 'AKAIITO HD REMASTER' is a remaster of the same content/routes as the original 2004 PS2 release, with no new routes added. Retrieved via Wayback Machine snapshot (direct fetch returns HTTP 403) at http://web.archive.org/web/20250303014011/https://w.atwiki.jp/gcmatome/pages/4086.html."
+    },
+    {
+      "url": "https://lufas.seesaa.net/article/200804article_20.html",
+      "title": "PS２版「アカイイト」で全てのエンディングを見ました。- ルーファスの日記",
+      "language": "ja",
+      "notes": "Supplementary/opinion source only, not a walkthrough (no choice text). A completionist's blog post about having seen all 32 endings. Notable for a claim that conflicts with the guide's neutral 'no true end' framing: the author personally argues Yumei's True End is 'probably' the game's real true ending because the official drama CD's epilogue continues from a state consistent with her route. This is a personal interpretation, not corroborated by any walkthrough site, and is documented under disagreements rather than used to set is_true_ending on any route."
+    },
+    {
+      "url": "https://vndb.org/v98",
+      "title": "Akai Ito - VNDB entry v98",
+      "language": "en",
+      "notes": "Reference only. Confirms release history: original PS2 release (2004-08/10), SuperLite 2000 budget re-release (2005), PSN download (2013), and the newest release, 'AKAIITO HD REMASTER' for Nintendo Switch and Steam/PC (2023-05-25), bundled with a HD Remaster of the sequel Aoishiro. The 2023 HD Remaster is the release targeted for this guide per project rules (most recent platform). No evidence found (from VNDB, official site, or the gcmatome retrospective) that the HD Remaster added routes or endings beyond the 2004 original."
+    },
+    {
+      "url": "https://api.vndb.org/kana (VNDB API, character endpoint filtered on vn=v98)",
+      "title": "VNDB Kana API — character list for v98",
+      "language": "en",
+      "notes": "Reference only, used to obtain exact, non-hallucinated VNDB character IDs and portrait image URLs (queried directly via the API rather than relying on a scraped/summarized page, to avoid transcription errors in image IDs). Confirmed 5 characters with vns.role = 'primary' for v98: Yumei (c10497), Wakasugi Tsuzura (c10498), Asama Sakuya (c10499), Senba Uzuki (c10500), Nozomi (c10502) — these are the 5 heroine routes. Protagonist is Hatou Kei (c10490, role 'main'). Side characters Kei/ケイ (c10507, twin brother, distinct from protagonist despite same reading), Nushi (c10509), Mikage (c10856), and Nara Youko (c91338, no portrait image available) are not route characters."
+    }
+  ],
+  "generated_at": "2026-09-06T17:51:15.867481+00:00"
 }

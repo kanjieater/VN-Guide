@@ -31,6 +31,12 @@
       "title": "瑠璃亜編",
       "stepCount": 46,
       "reviewed": false
+    },
+    {
+      "id": "true_end",
+      "title": "真・瑠璃亜編",
+      "stepCount": 28,
+      "reviewed": false
     }
   ],
   "sources": [
@@ -71,5 +77,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-09-06T03:18:15.165558+00:00"
+  "generated_at": "2026-09-06T03:35:53.080864+00:00"
 }

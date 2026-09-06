@@ -15,6 +15,13 @@
       "stepCount": 46,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/09/12209.jpg"
+    },
+    {
+      "id": "sakuya",
+      "title": "浅間サクヤルート",
+      "stepCount": 44,
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     }
   ],
   "sources": [
@@ -61,5 +68,5 @@
       "notes": "Reference only, used to obtain exact, non-hallucinated VNDB character IDs and portrait image URLs (queried directly via the API rather than relying on a scraped/summarized page, to avoid transcription errors in image IDs). Confirmed 5 characters with vns.role = 'primary' for v98: Yumei (c10497), Wakasugi Tsuzura (c10498), Asama Sakuya (c10499), Senba Uzuki (c10500), Nozomi (c10502) — these are the 5 heroine routes. Protagonist is Hatou Kei (c10490, role 'main'). Side characters Kei/ケイ (c10507, twin brother, distinct from protagonist despite same reading), Nushi (c10509), Mikage (c10856), and Nara Youko (c91338, no portrait image available) are not route characters."
     }
   ],
-  "generated_at": "2026-09-06T18:09:16.479487+00:00"
+  "generated_at": "2026-09-06T18:28:28.743195+00:00"
 }

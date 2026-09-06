@@ -3,7 +3,7 @@
     "simpleJp": "少年は現れなかった",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "少年は現れなかった＞□３□へ",
-    "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, mirroring the approach already used in route_yami_no_ou.json and route_kyuumei.json. The companion Joukan guide (route_joukan.json) spends its own Continue on the 瑠璃亜編 branch and separately walks through Joukan's own End17「灯子編」as a badEndPath detour there, but per this task's scope that Joukan-side content is out of scope here — this guide covers only the Gekan-side 灯子編 branch, reached independently via the Ooka Report. Per mmitsuru's geoooka.htm, the Ooka Report is a legitimate, non-canon-affecting way to jump straight into any Gekan route's opening scene; it does not affect the in-game completion percentage. xneo.jp's Gekan page does not document the Ooka Report mechanic at all, so jpGuide1 is empty for this whole step group. This is the lowest-BLOOD-bonus path to 灯子編 documented in mmitsuru's geoooka.htm flowchart (□１□→□３□→□４□→□５□→□９□→灯子編, total +10 BLOOD); an alternative path through □４□'s 灯子-specific option (+10) then □１１□ (+10 or +20 more) also reaches 灯子編, but at a higher starting BLOOD level (20 or 30) than the path used here."
+    "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, mirroring the approach already used in route_yami_no_ou.json and route_kyuumei.json. The companion Joukan guide (route_joukan.json) spends its own Continue on the 瑠璃亜編 branch and separately walks through Joukan's own End17「灯子編」as a badEndPath detour there, but per this task's scope that Joukan-side content is out of scope here — this guide covers only the Gekan-side 灯子編 branch, reached independently via the Ooka Report. Per mmitsuru's geoooka.htm, the Ooka Report is a legitimate, non-canon-affecting way to jump straight into any Gekan route's opening scene; it does not affect the in-game completion percentage. xneo.jp's Gekan page documents the Ooka Report mechanic only in service of reaching 瑠璃亜編 (its own Ending 20 and Ending 27 rows both open with an explicit ＜大岡レポート＞ choice sequence); it does not document any path to 灯子編 through the Ooka Report, so jpGuide1 is empty for this step group specifically. This is the lowest-BLOOD-bonus path to 灯子編 documented in mmitsuru's geoooka.htm flowchart (□１□→□３□→□４□→□５□→□９□→灯子編, total +10 BLOOD); an alternative path through □４□'s 灯子-specific option (+10) then □１１□ (+10 or +20 more) also reaches 灯子編, but at a higher starting BLOOD level (20 or 30) than the path used here."
   },
   {
     "simpleJp": "少年はうずくまったままだった",
@@ -76,6 +76,12 @@
     "jpGuide1": "父さん、何処へ行くの？",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "This exact choice text appears in both xneo.jp's Ending 6 row (as its 2nd item) and its Ending 9/10/24 rows (as their shared item just before ぼくはなにを……), confirming it is a single common checkpoint before this route's endings diverge further. mmitsuru has no archived per-ending page that prints this specific line by name — its own geend06.htm and geend24.htm pages both use an unlabelled '……＞' placeholder at a comparable position instead — so jpGuide2 is unavailable here."
+  },
+  {
+    "simpleJp": "父さん、ここは？",
+    "jpGuide1": "父さん、ここは？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Documented by mmitsuru's gebss.htm as the choice immediately preceding entry (15), the こんなところに…… B.S.S. trigger below (\"直前の選択肢「父さん、ここは？」後\"); also confirmed by xneo.jp's own Ending 7 and Ending 8 rows (闇の王編, sharing this same underground-base backbone), both of which show this exact choice immediately before こんなところに……. This project's sibling routes already include this same step at the equivalent position (route_yami_no_ou.json, route_kyuumei.json). It coexists as a separate sequential choice after 父さん、何処へ行くの？ rather than substituting for it; no source documents these two as alternates of one another."
   },
   {
     "simpleJp": "BSSタップ：「ここは第二次大戦末期～」",
@@ -188,7 +194,7 @@
   {
     "simpleJp": "横に飛ぶ",
     "jpGuide1": "横に飛ぶ",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "横に飛ぶ＞",
     "enGuide": "Good-path continuation from セーブ43 toward this route's deepest documented ending. mmitsuru's geend24.htm page shows an equivalent 横に飛ぶ choice at a comparable position in its own version of this final chain, reached there via the differently-worded 小夜……！ prompt discussed above rather than xneo.jp's カッツ……！."
   },
   {

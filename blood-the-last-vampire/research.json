@@ -14,7 +14,9 @@
       "id": "yami_no_ou",
       "title": "闇の王編",
       "portrait": "",
-      "prerequisites": ["joukan"],
+      "prerequisites": [
+        "joukan"
+      ],
       "is_true_ending": false,
       "notes": "Dark King arc. Reached in Joukan via End16, continued in Gekan (下巻) via the 闇の王編 branch, which itself fans out into multiple Gekan endings (e.g. End22 「全ては闇に」, End23 「闇の王編」 per the mmitsuru numbering; xneo.jp's independent numbering places equivalent Dark King endings at its own Endings 5/7/8/12/13/19/22/23 - the two sites number Gekan's 27 endings in a different order, see disagreements). No BLOOD level requirement confirmed for the branch's main outcome; several sub-endings are gated by BLOOD level thresholds (below/above 50, 85, 100) at specific choices."
     },
@@ -22,7 +24,9 @@
       "id": "kyuumei",
       "title": "究明編",
       "portrait": "",
-      "prerequisites": ["joukan"],
+      "prerequisites": [
+        "joukan"
+      ],
       "is_true_ending": false,
       "notes": "Investigation/truth-seeking arc, not tied to a specific heroine. Reached in Joukan via End19, continued in Gekan via the 究明編 branch (mmitsuru End26; several equivalent endings on xneo.jp: Endings 2/3/4/11/14/26). Multiple sub-endings gated by BLOOD level (70/80 thresholds) at the same recurring choice points (tape color picked from the desk drawer, then the escape from the underground base)."
     },
@@ -30,7 +34,9 @@
       "id": "touko",
       "title": "灯子編",
       "portrait": "",
-      "prerequisites": ["joukan"],
+      "prerequisites": [
+        "joukan"
+      ],
       "is_true_ending": false,
       "notes": "Touko (灯子) arc. Reached in Joukan via End17, continued in Gekan via the 灯子編 branch (mmitsuru End24; xneo.jp equivalent Endings 6/9/10/24). Touko does not have a VNDB character entry, so no portrait is available."
     },
@@ -38,7 +44,9 @@
       "id": "rulia",
       "title": "瑠璃亜編",
       "portrait": "",
-      "prerequisites": ["joukan"],
+      "prerequisites": [
+        "joukan"
+      ],
       "is_true_ending": false,
       "notes": "Rulia (瑠璃亜) arc, the route that leads to the true ending. Reached in Joukan via End18, continued in Gekan via the 瑠璃亜編 branch (mmitsuru Endings 20/25/27; xneo.jp equivalent Endings 15/16/17/18/20/25/27). This route is the only one where the 3 carried-over Joukan flags matter. Most sub-endings here are otherwise-normal bad ends; End27 (真・瑠璃亜編, see true_end) is the true-ending variant of this same branch, not a separately-chosen route. Rulia does not have a VNDB character entry, so no portrait is available."
     },
@@ -46,12 +54,21 @@
       "id": "true_end",
       "title": "真・瑠璃亜編",
       "portrait": "",
-      "prerequisites": ["rulia"],
+      "prerequisites": [
+        "rulia"
+      ],
       "is_true_ending": true,
       "notes": "Gekan End27 per eva.hi-ho.ne.jp/mmitsuru (labelled explicitly 'End27「真・瑠璃亜編」' on that site's End27 page: geend27.htm). xneo.jp's independent numbering also lists an Ending 27 on the 瑠璃亜編 branch with an identical final choice sequence, confirming this is the same true ending under different numbering. Requirements per mmitsuru's geend27.htm: 必要フラグ (required flags) = 吸血鬼の本フラグ ON and 五匹の子豚さんフラグ ON; 不必要フラグ (must NOT be set) = 瑠璃亜の過去フラグ. In practice this means, during Joukan (or the Gekan Ooka Report shortcut): buy the vampire book and let Rulia keep it, win over the karaoke 'mama-san', and do NOT ask Rulia why she became a chiropteran (choose the 'considerate' option instead at the branch that would set that flag). The final choice chain in Gekan is otherwise identical to the other 瑠璃亜編 bad ends up to the very last exchange, where instead of 小夜「楽にしてやる」ending badly, the flags redirect to the true ending screen."
     }
   ],
-  "recommended_order": ["joukan", "yami_no_ou", "kyuumei", "touko", "rulia", "true_end"],
+  "recommended_order": [
+    "joukan",
+    "yami_no_ou",
+    "kyuumei",
+    "touko",
+    "rulia",
+    "true_end"
+  ],
   "sources": [
     {
       "url": "https://xneo.jp/blood-the-last-vampire1/",
@@ -90,6 +107,6 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "disagreements": "Both primary Japanese sources (xneo.jp and eva.hi-ho.ne.jp/mmitsuru) agree on the total ending counts (19 in Joukan, 27 in Gekan), on the four named Gekan/Joukan route labels (闇の王編, 究明編, 灯子編, 瑠璃亜編), and on the true ending being a 瑠璃亜編 variant reached by maxing specific flags rather than a wholly separate route. However, the two sites assign different Ending numbers to the same content on the Gekan side: mmitsuru's numbering places the four route-representative endings at 22-26 with the true ending explicitly labelled End27 '真・瑠璃亜編', while xneo.jp's own internal numbering (also 1-27) interleaves route endings throughout the list (e.g. its Ending 15 is 'BLOODレベルを100にする' under 瑠璃亜編, and it does not explicitly print a '真・瑠璃亜編' label on its own Ending 27, though the final choice sequence for that ending is identical to mmitsuru's End27). When writing the full guide, mmitsuru's explicit '真・瑠璃亜編' labelling should be treated as authoritative for identifying the true ending, cross-checked against xneo.jp's matching choice sequence rather than its ending number. Neither source documents an official numbering used in-game (the PSP version's own END LIST menu numbers endings in yet another order per mmitsuru's index page, which lists End 01-19 for Joukan and End 01-27 for Gekan using partially-redacted titles like 'End 01「失…憶」' - these in-game numbers were not cross-referenced choice-by-choice in this research pass and should not be assumed identical to either walkthrough site's numbering when the actual guide is authored. Additionally, GameFAQs blocked fetching, so the English guide's content is unverified and should not be relied on for facts, only used if it can be read directly during guide writing.",
+  "disagreements": "Both primary Japanese sources (xneo.jp and eva.hi-ho.ne.jp/mmitsuru) agree on the total ending counts (19 in Joukan, 27 in Gekan), on the four named Gekan/Joukan route labels (闇の王編, 究明編, 灯子編, 瑠璃亜編), and on the true ending being a 瑠璃亜編 variant reached by maxing specific flags rather than a wholly separate route. However, the two sites assign different Ending numbers to the same content on the Gekan side: mmitsuru's numbering places the four route-representative endings at 22-26 with the true ending explicitly labelled End27 '真・瑠璃亜編', while xneo.jp's own internal numbering (also 1-27) interleaves route endings throughout the list (e.g. its Ending 15 is 'BLOODレベルを100にする' under 瑠璃亜編, and it does not explicitly print a '真・瑠璃亜編' label on its own Ending 27, though the final choice sequence for that ending is identical to mmitsuru's End27). When writing the full guide, mmitsuru's explicit '真・瑠璃亜編' labelling should be treated as authoritative for identifying the true ending, cross-checked against xneo.jp's matching choice sequence rather than its ending number. Neither source documents an official numbering used in-game (the PSP version's own END LIST menu numbers endings in yet another order per mmitsuru's index page, which lists End 01-19 for Joukan and End 01-27 for Gekan using partially-redacted titles like 'End 01「失…憶」' - these in-game numbers were not cross-referenced choice-by-choice in this research pass and should not be assumed identical to either walkthrough site's numbering when the actual guide is authored. Additionally, GameFAQs blocked fetching, so the English guide's content is unverified and should not be relied on for facts, only used if it can be read directly during guide writing. UNRESOLVED (route_touko.json, 灯子編): neither source confirms whether the この土地……？ B.S.S. trigger (xneo.jp Ending 6 opener; mmitsuru entry (10), filed only under 闇の王編) and the いらないよ B.S.S. trigger (xneo.jp Ending 9 opener; mmitsuru entry (24), filed only under 灯子編) occur sequentially on one 灯子編 playthrough, or whether they mark two mutually exclusive early sub-branches. xneo.jp's Ending 6 row never shows いらないよ, and its Ending 9/10/24 rows never show この土地……？; mmitsuru does not file either entry under a header shared with the other. route_touko.json currently includes both once, in that order, as its own reconstruction of a shared backbone, with a single save point (セーブ41) assumed to reach all four documented endings (6/9/10/24). This has not been independently confirmed by a third source or gameplay reference — if the two triggers are actually exclusive alternatives, the route's save structure would need a second save/load branch here to reach all four endings.",
   "generated_at": "2026-07-26T15:30:00+00:00"
 }

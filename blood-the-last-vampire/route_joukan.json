@@ -2264,10 +2264,10 @@
     "enGuide": "Not a bad-end detour with a sourced path — xneo.jp documents a 15th Joukan ending (エンディング15) that triggers automatically once the BLOOD level meter fills to 100, overriding whatever branch you are on. mmitsuru's index page lists a matching 15th entry (redacted title fragment 「永…血」) but its own per-ending page for this one was never archived, so no choice sequence can be sourced for it. Neither guide ties it to a specific save point; keep tapping every available BSS trigger and it can appear on almost any branch instead of the ending you were aiming for. No badEndPath/load step is included here because no source documents where the meter actually maxes out or that this trigger point is where it happens."
   },
   {
-    "simpleJp": "答えない",
-    "jpGuide1": "答えない",
-    "jpGuide2": "答えない＞",
-    "enGuide": "Switch to the 答えない branch, which is required to reach End 03, End 08, End 16 (闇の王編) and End 17 (灯子編). Both xneo.jp and mmitsuru confirm 瑠璃亜編 (the branch this route continues on) opens with 答える instead, so 答えない never leads anywhere but these four side endings — treat this whole excursion as a detour back to セーブ1.",
+    "simpleJp": "（分岐点：答えないルートへ）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Structural marker only, not a step the player takes or a sourced quote. Closes the reload chain opened by セーブ1にロード above so the four 答えない sub-endings below (End 03, エンディング8, End 16「闇の王編」, End 17「灯子編」) can be tracked as one wrapping branch group, per the chain-pairing fix in #13.",
     "badEndPath": "答えない分岐（End 03/エンディング8/End 16「闇の王編」/End 17「灯子編」）"
   },
   {
@@ -2279,8 +2279,8 @@
   {
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
+    "jpGuide2": "答えない＞",
+    "enGuide": "Switch to the 答えない branch, which is required to reach End 03, End 08, End 16 (闇の王編) and End 17 (灯子編). Both xneo.jp and mmitsuru confirm 瑠璃亜編 (the branch this route continues on) opens with 答える instead, so 答えない never leads anywhere but these four side endings — treat this whole excursion as a detour back to セーブ1.",
     "badEndPath": "End 03「月下の血宴」"
   },
   {

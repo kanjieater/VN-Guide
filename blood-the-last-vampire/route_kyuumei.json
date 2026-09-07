@@ -129,7 +129,7 @@
   {
     "simpleJp": "BSSタップ：「カッツの『来るのだ』」",
     "jpGuide1": "嫌だ\tカッツの「来るのだ～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（１７）鈴有り （１６）無視後、王の間、主人公だけが闇の王の前に残される 闇の王「来るのだ、私の元へ」△→嫌だ",
+    "jpGuide2": "（１７）鈴無し （１６）無視後、王の間、主人公だけが闇の王の前に残される 闇の王「来るのだ、私の元へ」△→嫌だ",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Note mmitsuru's own gebss.htm entry describes this trigger line as spoken by 闇の王 (the Dark King) rather than カッツ (Katz) as xneo.jp's table names it; both refer to the same B.S.S. name 嫌だ."
   },
   {
@@ -355,7 +355,7 @@
     "simpleJp": "うん",
     "jpGuide1": "うん",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Good-path continuation from セーブ34: this choice, per xneo.jp, leads (via later choices) toward Endings 2, 3, 4 and 26. mmitsuru's own archived 究明編 pages use 'う……うん' at this exact position instead (see the note on セーブ34 above)."
+    "enGuide": "Good-path continuation from セーブ34: this choice, per xneo.jp, leads (via later choices) toward Endings 2, 3, 4 and 26. Of mmitsuru's own archived 究明編 pages, only geend26.htm (and geend14.htm, which shares End26's path up to its final beat) uses 'う……うん' at this exact position; mmitsuru's geend020304.htm (covering Endings 2, 3 and 4) instead shows plain '……' here — a third variant beyond the two (うん／……) this guide already models (see the note on セーブ34 above)."
   },
   {
     "simpleJp": "僕はあの声に怯えた……",
@@ -485,13 +485,13 @@
   {
     "simpleJp": "引き出しを開けてみる",
     "jpGuide1": "引き出しを開けてみる",
-    "jpGuide2": "引き出しを開けてみる",
-    "enGuide": ""
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "mmitsuru's geend020304.htm page does not document opening the drawer at all for its own End04 — it instead says End04 is reached by replacing End02's final choice with 飛び降りる, implying (per mmitsuru) the same 手帳/blue-tape route as End02, not this drawer/photo submenu."
   },
   {
     "simpleJp": "写真を見てみる",
     "jpGuide1": "写真を見てみる",
-    "jpGuide2": "写真を見てみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {

@@ -1,0 +1,93 @@
+[
+  {
+    "simpleJp": "駅員さんに聞きたいことが",
+    "jpGuide1": "【駅員さんに聞きたいことが】",
+    "jpGuide2": "【はじめの一歩】左　駅員さんに聞きたいことが",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "旅館を紹介してもらうことにした",
+    "jpGuide1": "【旅館を紹介してもらうことにした】",
+    "jpGuide2": "【誰かの写真】左　旅館を紹介してもらうことにした",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "勇気を出して自分でフォロー",
+    "jpGuide1": "【勇気を出して自分でフォロー】",
+    "jpGuide2": "【天ぷらぷらぷら】左　勇気を出して自分でフォロー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ウヅキってどんな字？",
+    "jpGuide1": "【ウヅキってどんな字？】",
+    "jpGuide2": "左　ウヅキはどんな字なの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "【わたしは首を横に振る】",
+    "jpGuide2": "【タソガレ】右　わたしは首を横に振る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気のせいだと思いこむ",
+    "jpGuide1": "【気のせいだと思いこむ】",
+    "jpGuide2": "左　気のせいだと思い込む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "会ったことを話してみる",
+    "jpGuide1": "【会ったことを話してみる】",
+    "jpGuide2": "【犬と猿】左　会ったことを話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "追いかける",
+    "jpGuide1": "【追いかける】",
+    "jpGuide2": "【千客万来の夜】左　追いかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "納得できない",
+    "jpGuide1": "【納得できない】",
+    "jpGuide2": "【鬼影】左　納得できない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "別に……",
+    "jpGuide1": "【別に……】",
+    "jpGuide2": "【不法侵入？】右　別に……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "陽子ちゃんに電話しよう",
+    "jpGuide1": "【陽子ちゃんに電話しよう】",
+    "jpGuide2": "【時間的にはもうすぐ明日】右　陽子ちゃんに電話しよう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もうこだわらない",
+    "jpGuide1": "→【もうこだわらない】でBad End『二重箱の底で』（ED14）",
+    "jpGuide2": "【二重箱の底で】右　もうこだわらない → END No.14　二重箱の底で",
+    "enGuide": "",
+    "badEndPath": "Bad End『二重箱の底で』（ED14）"
+  },
+  {
+    "simpleJp": "Bad End『二重箱の底で』（ED14）",
+    "jpGuide1": "Bad End『二重箱の底で』（ED14）",
+    "jpGuide2": "END No.14　二重箱の底で",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "試させてもらう",
+    "jpGuide1": "【試させてもらう】",
+    "jpGuide2": "【二重箱の底で】左　試させてもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "True End『光は風に』（ED15）",
+    "jpGuide1": "True End『光は風に』（ED15）",
+    "jpGuide2": "END No.15　光は風に",
+    "enGuide": ""
+  }
+]

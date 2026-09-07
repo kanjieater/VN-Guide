@@ -136,47 +136,29 @@
     "enGuide": "Good-path continuation from セーブ48, toward the long chain (Endings 17/18/20/25). This exact text also appears in mmitsuru's geend1516.htm page, but attached there to the SHORT branch (End15/16) rather than this long one — see the structural-disagreement note on セーブ48. This guide follows xneo.jp's own mapping."
   },
   {
-    "simpleJp": "どうして翼手になったの？",
-    "jpGuide1": "どうして翼手になったの？",
-    "jpGuide2": "どうして翼手になったの？＞",
-    "enGuide": "This exact line also appears in mmitsuru's geend171820.htm/geend25.htm chains at the equivalent position in their own (differently-prefixed) long branch."
+    "simpleJp": "セーブ49",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint immediately after そうだね, before the fork separating Ending 17 (他の翼手って知ってるの？ branch) from Endings 18/20/25 (どうして翼手になったの？ branch), per xneo.jp's own Ending 17 row (…そうだね／他の翼手って知ってるの？／瑠璃亜を抱く／瑠璃亜と一緒にいられるのなら／…) versus its Ending 18/20/25 rows (…そうだね／どうして翼手になったの？／[B.S.S.×3]／瑠璃亜を抱く／瑠璃亜は僕が守るから／…). Corrected per accuracy review issue #16: the guide previously placed this fork one step later (after 瑠璃亜を抱く) and let どうして翼手になったの？ + the three B.S.S. taps feed both branches, which does not match any single row on xneo.jp. Relocated セーブ49 here from its previous position later in this file; save number is unchanged."
   },
   {
-    "simpleJp": "BSSタップ：「瑠璃亜の『自分が弱かった』」",
-    "jpGuide1": "弱いって……？\t瑠璃亜の「自分が弱かった～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（２７）鈴無し 桜ヶ丘の廃マンション、直前の選択肢「どうして翼手になったの？」直後 ▲瑠璃亜「自分が弱かったから……」→弱いって……？",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. Both sources place this immediately after どうして翼手になったの？; mmitsuru's geend171820.htm/geend25.htm chains show the identical cue line ▲瑠璃亜「自分が弱かったから……」 at this position (without naming the resulting choice explicitly, consistent with those pages' more terse style)."
-  },
-  {
-    "simpleJp": "BSSタップ：「瑠璃亜の『あんたがいてくれるから』」",
-    "jpGuide1": "瑠璃亜……\t瑠璃亜の「あんたがいてくれるから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（２８）鈴無し （２７）後、瑠璃亜の過去フラグＯＮ状態、瑠璃亜が過去を語った後 ▲瑠璃亜「……あんたがいてくれるから……あたしは……」→瑠璃亜……",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the 瑠璃亜の過去フラグ＝ON variant of this B.S.S. slot per mmitsuru's gebss.htm (entry 28); the OFF-flag variant is entry (29), 他の翼手って知ってるの？, which does not fire here since this route's Ooka Report path set the flag ON. mmitsuru's geend171820.htm/geend25.htm chains show the identical cue ▲瑠璃亜「……あんたがいてくれるから～」 at this position."
-  },
-  {
-    "simpleJp": "BSSタップ：「主人公の『他の翼手のこと』」",
-    "jpGuide1": "どんな人だったの？\t主人公の「他の翼手のこと～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（３０）鈴無し （２８）後、又は（２９）直後、又は（２７）直前の選択肢「他の翼手って知ってるの？」直後 ▲主人公「他の翼手って知ってるの？」→どんな人だったの？",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. mmitsuru's geend171820.htm/geend25.htm chains show the identical cue ▲主人公「他の翼手って知ってるの？」 at this position."
+    "simpleJp": "他の翼手って知ってるの？",
+    "jpGuide1": "他の翼手って知ってるの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp's own Ending 17 row, this is the choice immediately after そうだね on this branch — not どうして翼手になったの？, which belongs only to the Endings 18/20/25 branch (see セーブ49 note). mmitsuru could not be accessed this review pass to confirm source 2; mmitsuru's own geend171820.htm/geend25.htm pages reportedly show End17/18/20/25 sharing a single 瑠璃亜と一緒にいられるのなら line, which may not resolve this branch point either way — re-verify against mmitsuru once accessible (per issue #16).",
+    "badEndPath": "エンディング17"
   },
   {
     "simpleJp": "瑠璃亜を抱く",
     "jpGuide1": "瑠璃亜を抱く",
     "jpGuide2": "瑠璃亜を抱く＞",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "セーブ49",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint before the fork that separates Ending 17 (瑠璃亜と一緒にいられるのなら branch) from Endings 18/20/25 (瑠璃亜は僕が守るから branch), per xneo.jp's own Ending 17 vs Ending 18/20/25 rows. mmitsuru's geend171820.htm/geend25.htm pages instead show ALL FOUR of their End17/18/20/25 sharing a single 瑠璃亜と一緒にいられるのなら line with no separate 瑠璃亜は僕が守るから branch at all — another instance of the two sites documenting this stretch of the route differently (see research.json's noted disagreement on Gekan branch/ending organization). This guide follows xneo.jp's own row-by-row structure."
+    "enGuide": "Per xneo.jp's own Ending 17 row, the line after 他の翼手って知ってるの？ on this branch."
   },
   {
     "simpleJp": "瑠璃亜と一緒にいられるのなら",
     "jpGuide1": "瑠璃亜と一緒にいられるのなら",
     "jpGuide2": "瑠璃亜と一緒にいられるのなら＞",
-    "enGuide": "Per xneo.jp this begins the branch reaching Ending 17. This exact text also appears in mmitsuru's geend171820.htm/geend25.htm chains, but there it is shared by End17/18/20/25 alike rather than marking a distinct branch (see note above).",
-    "badEndPath": "エンディング17"
+    "enGuide": "Per xneo.jp this continues the branch reaching Ending 17. This exact text also appears in mmitsuru's geend171820.htm/geend25.htm chains, but there it is shared by End17/18/20/25 alike rather than marking a distinct branch (see note on セーブ49)."
   },
   {
     "simpleJp": "僕のを飲むんだ",
@@ -204,10 +186,40 @@
     "isLoad": true
   },
   {
+    "simpleJp": "どうして翼手になったの？",
+    "jpGuide1": "どうして翼手になったの？",
+    "jpGuide2": "どうして翼手になったの？＞",
+    "enGuide": "Good-path continuation from セーブ49, toward Endings 18/20/25. Per xneo.jp's own Ending 18/20/25 rows this is the choice taken instead of 他の翼手って知ってるの？ (see セーブ49 note). This exact line also appears in mmitsuru's geend171820.htm/geend25.htm chains at the equivalent position in their own (differently-prefixed) long branch."
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜の『自分が弱かった』」",
+    "jpGuide1": "弱いって……？\t瑠璃亜の「自分が弱かった～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２７）鈴無し 桜ヶ丘の廃マンション、直前の選択肢「どうして翼手になったの？」直後 ▲瑠璃亜「自分が弱かったから……」→弱いって……？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Both sources place this immediately after どうして翼手になったの？; mmitsuru's geend171820.htm/geend25.htm chains show the identical cue line ▲瑠璃亜「自分が弱かったから……」 at this position (without naming the resulting choice explicitly, consistent with those pages' more terse style)."
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜の『あんたがいてくれるから』」",
+    "jpGuide1": "瑠璃亜……\t瑠璃亜の「あんたがいてくれるから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２８）鈴無し （２７）後、瑠璃亜の過去フラグＯＮ状態、瑠璃亜が過去を語った後 ▲瑠璃亜「……あんたがいてくれるから……あたしは……」→瑠璃亜……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the 瑠璃亜の過去フラグ＝ON variant of this B.S.S. slot per mmitsuru's gebss.htm (entry 28); the OFF-flag variant is entry (29), 他の翼手って知ってるの？, which does not fire here since this route's Ooka Report path set the flag ON. mmitsuru's geend171820.htm/geend25.htm chains show the identical cue ▲瑠璃亜「……あんたがいてくれるから～」 at this position."
+  },
+  {
+    "simpleJp": "BSSタップ：「主人公の『他の翼手のこと』」",
+    "jpGuide1": "どんな人だったの？\t主人公の「他の翼手のこと～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（３０）鈴無し （２８）後、又は（２９）直後、又は（２７）直前の選択肢「他の翼手って知ってるの？」直後 ▲主人公「他の翼手って知ってるの？」→どんな人だったの？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. mmitsuru's geend171820.htm/geend25.htm chains show the identical cue ▲主人公「他の翼手って知ってるの？」 at this position."
+  },
+  {
+    "simpleJp": "瑠璃亜を抱く",
+    "jpGuide1": "瑠璃亜を抱く",
+    "jpGuide2": "瑠璃亜を抱く＞",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "瑠璃亜は僕が守るから",
     "jpGuide1": "瑠璃亜は僕が守るから",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Good-path continuation from セーブ49, toward Endings 18/20/25. Per xneo.jp's own Ending 18/20/25 rows this is the line chosen instead of 瑠璃亜と一緒にいられるのなら."
+    "enGuide": "Per xneo.jp's own Ending 18/20/25 rows this is the line after 瑠璃亜を抱く on this branch. mmitsuru's pages do not document a distinct 瑠璃亜は僕が守るから branch at this position (see セーブ49 note); no equivalent line is available to quote from source 2 here."
   },
   {
     "simpleJp": "我慢して！",

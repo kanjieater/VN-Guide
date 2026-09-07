@@ -1,5 +1,34 @@
 {
   "title": "EVE burst error",
   "vndb_id": "v147",
-  "routes": []
+  "routes": [
+    {
+      "id": "marina",
+      "title": "まりな編",
+      "stepCount": 344,
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/39/44339.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://myst-site.com/eve-be/guide.html",
+      "title": "EVE-burst error 非公式完全攻略ガイド (MYST / Sacred Hill) — 攻略チャート index, with sub-pages guide01.html–guide07.html covering 12月2日–12月8,9日",
+      "language": "ja",
+      "notes": "Complete day-by-day flowchart-style walkthrough covering both Marina and Kojiro threads from Dec 2 through the Dec 8-9 finale, including the 'multi-site system' block/unlock notation, zapping markers, and a downloadable Excel full-game chart. Written primarily against the original Windows release but the site explicitly also references EVE burst error R. Verified pages: index (guide.html), guide01.html (12/2, Marina opening), guide02.html (12/3, both threads), guide05.html (12/6, database/embassy/ship sequences with zapping sync points), guide07.html (12/8-9 finale, five-murder-case breakdown). To be used as PRIMARY source #1 for route flow, scenario-switch points, and the finale's culprit/case breakdown. Does not clearly state a fixed on-screen name for the 'provisional' first ending — flagged as uncertain, see terror_provisional notes."
+    },
+    {
+      "url": "https://yellowbrother.seesaa.net/article/446152425.html",
+      "title": "PSV EVE burst error R 攻略 トップページ — Almagest (Seesaa blog), 22-part numbered series from https://yellowbrother.seesaa.net/article/440678963.html (Part 1) through https://yellowbrother.seesaa.net/article/440745361.html (Part 22)",
+      "language": "ja",
+      "notes": "Complete command-level (話す/移動する/見る・調べる) walkthrough of EVE burst error R for PS Vita, organized by day and by thread (Kojiro/Marina/Terror), including trophy checklist and platinum-trophy notes. The author explicitly states this walkthrough also applies to the Nintendo Switch release (Oct 2018) — i.e. it targets the same content as our target platform. Verified parts: Part 1 (440678963, 12/3 Kojiro opening), Part 18 (440739015, 12/7 Marina, ship sequences, explicit 'small次郎編にサイトチェンジ' site-change marker), Part 22 (440745361, 12/9 Terror finale, culprit-guessing answers for all 5 murders, trophy list). To be used as PRIMARY source #2, especially for confirming the target-version (R/Switch) content and the exact culprit-quiz answers. Does not document traditional mid-story 'bad end' game-over screens in the parts checked — see disagreements/notes on bad-end structure below."
+    },
+    {
+      "url": "https://gameline.jp/eve1/",
+      "title": "EVE burst error攻略サイト | EVE1 - ゲームライン",
+      "language": "ja",
+      "notes": "Supplementary/tertiary Japanese source. Confirmed to organize its walkthrough by calendar date (12/2-12/9) like the other two sources, and links to companion guides for the sequels EVE rebirth terror (EVE2) / EVE ghost enemies (EVE3), confirming this site covers EVE1 (burst error) specifically. Individual date sub-pages returned server errors (503) during this research pass and were not fully read — not fully verified as complete. Should be treated as a cross-check source only, not a primary source, unless re-fetched successfully during guide writing."
+    }
+  ],
+  "generated_at": "2026-09-07T04:20:49.911997+00:00"
 }

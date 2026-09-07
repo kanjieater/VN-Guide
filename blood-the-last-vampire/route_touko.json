@@ -75,19 +75,7 @@
     "simpleJp": "父さん、何処へ行くの？",
     "jpGuide1": "父さん、何処へ行くの？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "This exact choice text appears in both xneo.jp's Ending 6 row (as its 2nd item) and its Ending 9/10/24 rows (as their shared item just before ぼくはなにを……), confirming it is a single common checkpoint before this route's endings diverge further. mmitsuru has no archived per-ending page that prints this specific line by name — its own geend06.htm and geend24.htm pages both use an unlabelled '……＞' placeholder at a comparable position instead — so jpGuide2 is unavailable here."
-  },
-  {
-    "simpleJp": "父さん、ここは？",
-    "jpGuide1": "父さん、ここは？",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Documented by mmitsuru's gebss.htm as the choice immediately preceding entry (15), the こんなところに…… B.S.S. trigger below (\"直前の選択肢「父さん、ここは？」後\"); also confirmed by xneo.jp's own Ending 7 and Ending 8 rows (闇の王編, sharing this same underground-base backbone), both of which show this exact choice immediately before こんなところに……. This project's sibling routes already include this same step at the equivalent position (route_yami_no_ou.json, route_kyuumei.json). It coexists as a separate sequential choice after 父さん、何処へ行くの？ rather than substituting for it; no source documents these two as alternates of one another."
-  },
-  {
-    "simpleJp": "BSSタップ：「ここは第二次大戦末期～」",
-    "jpGuide1": "こんなところに……\t正夫の「ここは第二次大戦末期～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（１５）鈴有り 地下基地跡、直前の選択肢「父さん、ここは？」後 正夫「ここは第二次世界大戦末期、本土決戦に備えて作られた旧日本軍の地下基地跡だって彼が言ってたよ」△→こんなところに……",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. Shared-header justification (旧日本軍の地下基地（闇の王編・究明編・灯子編）) per xneo.jp; not individually listed in any of xneo.jp's four 灯子編 ending rows, but confirmed applicable to this route by the category header — the identical trigger is already documented for 闇の王編 in route_yami_no_ou.json using the same simpleJp/jpGuide1 text."
+    "enGuide": "This exact choice text appears in both xneo.jp's Ending 6 row (as its 2nd item) and its Ending 9/10/24 rows (as their shared item just before ぼくはなにを……), confirming it is a single common checkpoint before this route's endings diverge further. mmitsuru has no archived per-ending page that prints this specific line by name — its own geend06.htm and geend24.htm pages both use an unlabelled '……＞' placeholder at a comparable position instead — so jpGuide2 is unavailable here. Note (post-#12 correction): this route previously also included a \"父さん、ここは？\" choice and a following こんなところに…… B.S.S. trigger immediately after this step, on the theory that they were a shared backbone segment with route_yami_no_ou.json/route_kyuumei.json. Independent re-review found this unsupported: all four of xneo.jp's own 灯子編 ending rows (6, 9, 10, 24) contain 父さん、何処へ行くの？ and never 父さん、ここは？ or こんなところに……, while every sampled 闇の王編 source (xneo.jp Endings 7 and 8, mmitsuru's End10 page) contains 父さん、ここは？ and never 父さん、何処へ行くの？. That is a clean, mutually exclusive split indicating those two lines are 闇の王編-specific alternates, not a step in 灯子編's own path. Both steps have been removed from this route as likely-misattributed content; see research.json's disagreements field for the related この土地……？/いらないよ uncertainty this route already flags at an earlier point."
   },
   {
     "simpleJp": "セーブ42",

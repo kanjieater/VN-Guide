@@ -13,6 +13,9 @@ A generated guide is **not complete**. Completion requires:
 **Never:**
 - Set `reviewed: true` before both the structural (`route-structure`) and accuracy (`route-accuracy`) issues are closed
 - Self-approve a guide you just generated or corrected
+- Close a review issue as the author — only the reviewer that filed it may close it, and only
+  after independently re-verifying the fix against the Japanese sources. The author reports
+  the fix with `gh issue comment`; closing authority belongs solely to the reviewer.
 - Skip review because the changes are small
 - Create duplicate GitHub issues for a route that already has an open issue of that type
 
@@ -45,16 +48,16 @@ guide_gen.py generates route        →  reviewed: false
         ↓
 Structural reviewer runs            →  creates route-structure issue if chain defects found
         ↓ (if issues)
-Author runs (fresh session)         →  fixes structural findings, closes issue
+Author runs (fresh session)         →  fixes structural findings, comments (never closes)
         ↓
-Structural reviewer re-runs         →  confirms fixes or comments if still wrong
-        ↓ (structural issue closed)
+Structural reviewer re-runs         →  verifies and closes, or comments if still wrong
+        ↓ (structural issue closed by reviewer)
 Accuracy reviewer runs              →  creates route-accuracy issue if source mismatches found
         ↓ (if issues)
-Author runs (fresh session)         →  fixes accuracy findings, closes issue
+Author runs (fresh session)         →  fixes accuracy findings, comments (never closes)
         ↓
-Accuracy reviewer re-runs           →  confirms fixes or comments if still wrong
-        ↓ (both issues closed)
+Accuracy reviewer re-runs           →  verifies and closes, or comments if still wrong
+        ↓ (both issues closed by reviewers)
 Accuracy reviewer sets reviewed: true  →  deploy
 ```
 

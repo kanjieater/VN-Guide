@@ -53,16 +53,18 @@ Reviewer findings are GitHub issues labeled `route-accuracy` and `<slug>`. Work 
    gh issue list --label "route-accuracy" --label "<slug>" --state open
    ```
 2. For each issue: read the full body (`gh issue view <number>`), apply the Required action to the guide file.
-3. Close the issue after applying the fix:
+3. Report the fix on the issue. **Never close an issue yourself** — closing is the reviewer's
+   decision, made after independently re-checking your work against the Japanese sources.
+   Closing your own issue is self-approval and defeats the point of adversarial review:
    ```bash
-   gh issue close <number> --comment "Fixed: <one-line description of what changed>"
+   gh issue comment <number> --body "Fixed: <one-line description of what changed>"
    ```
 4. If a finding appears factually wrong according to both sources, do not silently skip it — leave a comment explaining the disagreement and still apply a best-effort fix:
    ```bash
    gh issue comment <number> --body "Disagreement: <reason>. Applied fix anyway: <what was changed>."
    ```
 
-Do not skip any open issue. The reviewer will re-open issues where the fix was wrong.
+Do not skip any open issue. The issue stays open until the reviewer verifies the fix and closes it.
 
 ## Deploy gate
 

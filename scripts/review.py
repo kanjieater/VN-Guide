@@ -180,8 +180,10 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"Fix GitHub issue #{existing_issue} for the '{route_title}' route in '{slug}'. "
             f"First read the issue: gh issue view {existing_issue} "
             f"Apply all required structural fixes to {slug}/route_{route_id}.json. "
-            f"When done, close the issue: "
-            f"gh issue close {existing_issue} --comment \"Fixed: <one-line description of what changed>\""
+            f"When done, report what you changed: "
+            f"gh issue comment {existing_issue} --body \"Fixed: <one-line description of what changed>\" "
+            f"Do NOT close the issue. Only the reviewer may close it, after independently "
+            f"verifying your fix against the sources."
         )
         ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
         if not ok:
@@ -219,13 +221,24 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
     return False
 
 
-def mark_route_reviewed(guide_file: Path, route_id: str) -> None:
+def mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title: str) -> bool:
+    """Set reviewed: true, but only if no open issue contradicts it.
+
+    Re-checked here rather than trusted from the caller: a reviewer can file a
+    fresh issue during the same round that decided the route passed.
+    """
+    blocking = get_open_issue_for_route(slug, route_id, route_title)
+    if blocking is not None:
+        err(f"Refusing to mark {slug}/{route_id} reviewed — issue #{blocking} is still open")
+        return False
+
     guide = json.loads(guide_file.read_text())
     for route in guide.get("routes", []):
         if route["id"] == route_id:
             route["reviewed"] = True
     guide_file.write_text(json.dumps(guide, ensure_ascii=False, indent=2))
     log(f"Route {route_id} marked reviewed in {guide_file.relative_to(REPO_PATH)}")
+    return True
 
 
 def review_route(slug: str, route_id: str, route_title: str) -> bool:
@@ -272,8 +285,10 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"Fix GitHub issue #{existing_issue} for the '{route_title}' route in '{slug}'. "
             f"First read the issue: gh issue view {existing_issue} "
             f"Apply all required fixes to {slug}/route_{route_id}.json. "
-            f"When done, close the issue: "
-            f"gh issue close {existing_issue} --comment \"Fixed: <one-line description of what changed>\""
+            f"When done, report what you changed: "
+            f"gh issue comment {existing_issue} --body \"Fixed: <one-line description of what changed>\" "
+            f"Do NOT close the issue. Only the reviewer may close it, after independently "
+            f"re-fetching the Japanese sources and verifying your fix."
         )
         ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
         if not ok:
@@ -335,8 +350,8 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
 
         passed = review_route(slug, route_id, route_title)
         if passed:
-            mark_route_reviewed(guide_file, route_id)
-            run_deploy()
+            if mark_route_reviewed(guide_file, slug, route_id, route_title):
+                run_deploy()
         else:
             log(f"{slug}/{route_id}: did not pass — will retry next cycle")
 

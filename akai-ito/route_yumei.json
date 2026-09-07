@@ -1,0 +1,339 @@
+[
+  {
+    "simpleJp": "駅員さんに聞きたいことが",
+    "jpGuide1": "【駅員さんに聞きたいことが】",
+    "jpGuide2": "【はじめの一歩】左　駅員さんに聞きたいことが",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "バスがなくても何とか……",
+    "jpGuide1": "【バスがなくても何とか……】",
+    "jpGuide2": "【誰かの写真】右　バスがなくても何とか…",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり戻してください",
+    "jpGuide1": "【やっぱり戻してください】",
+    "jpGuide2": "左　やっぱり戻して下さい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "【わたしは首を横に振る】",
+    "jpGuide2": "【タソガレ】右　わたしは首を横に振る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "確かめてみる",
+    "jpGuide1": "【確かめてみる】",
+    "jpGuide2": "右　確かめてみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "こわくないこわくない",
+    "jpGuide1": "【こわくないこわくない】",
+    "jpGuide2": "【夢で見た景色】左　こわくないこわくない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「あ、いえ、別に」とその場を立ち去る",
+    "jpGuide1": "→【「あ、いえ、別に」とその場を立ち去る】、以降True Endと同じ選択肢でBad End『くらやみのまゆ』（ED18）",
+    "jpGuide2": "左　二日目【縁樹の導き】で「あ、いえ、別に」とその場を立ち去る　【犬と猿】で「話すのをやめておこう」を選択",
+    "enGuide": "",
+    "badEndPath": "Bad End『くらやみのまゆ』（ED18）"
+  },
+  {
+    "simpleJp": "かける",
+    "jpGuide1": "【かける】",
+    "jpGuide2": "右　かける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "せっかくだからもう少し",
+    "jpGuide1": "【せっかくだからもう少し】",
+    "jpGuide2": "【バス待ち最大小一時間】左　せっかくだからもう少し",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "会ったことを話してみる",
+    "jpGuide1": "【会ったことを話してみる】",
+    "jpGuide2": "【犬と猿】左　会ったことを話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲んでもらう",
+    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide2": "左　血を飲んでもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夢のことを話してみる",
+    "jpGuide1": "【夢のことを話してみる】",
+    "jpGuide2": "【吸血鬼】右　夢のことを話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "反対したいお年頃",
+    "jpGuide1": "【反対したいお年頃】",
+    "jpGuide2": "左　反抗したいお年頃（【幻視行】通過で選択肢出現）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕方なしに我慢",
+    "jpGuide1": "【仕方なしに我慢】",
+    "jpGuide2": "【食事の後は】左　仕方なしに我慢",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲んでもらう",
+    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide2": "左　血を飲んでもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "帰らない",
+    "jpGuide1": "【帰らない】",
+    "jpGuide2": "【烏合】左　帰らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲ませる",
+    "jpGuide1": "【血を飲ませる】",
+    "jpGuide2": "【とりこのあさ】右　血を飲ませる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家の掃除をする",
+    "jpGuide1": "【家の掃除をする】",
+    "jpGuide2": "【カゴノナカ】中　家の掃除をする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おかしいと思った",
+    "jpGuide1": "【おかしいと思った】",
+    "jpGuide2": "【回帰】左　おかしいと思った",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "だけど彼女たちだって可哀相",
+    "jpGuide1": "【だけど彼女たちだって可哀相】",
+    "jpGuide2": "【始末のこと】左　だけど彼女たちだって可哀相",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲んでもらう",
+    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide2": "【蛍の多く】左　血を飲んでもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "絶対にお姉ちゃんを助ける",
+    "jpGuide1": "【絶対にお姉ちゃんを助ける】",
+    "jpGuide2": "【覚醒】左　絶対にお姉ちゃんを助ける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Bad End『くらやみのまゆ』（ED18）",
+    "jpGuide1": "Bad End『くらやみのまゆ』（ED18）",
+    "jpGuide2": "END No.18　くらやみのまゆ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「大きな木ですね？」と話をかえる",
+    "jpGuide1": "【「大きな木ですね？」と話をかえる】",
+    "jpGuide2": "【縁樹の導き】中「大きな木ですね？」と話を変える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "かける",
+    "jpGuide1": "【かける】",
+    "jpGuide2": "右　かける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "帰ろうかな",
+    "jpGuide1": "→【帰ろうかな】でNormal End『槐夢・夏の終わり』（ED1）",
+    "jpGuide2": "【バス待ち最大小一時間】右　帰ろうかな → END No.1　槐夢・夏の終わり",
+    "enGuide": "",
+    "badEndPath": "Normal End『槐夢・夏の終わり』（ED1）"
+  },
+  {
+    "simpleJp": "せっかくだからもう少し",
+    "jpGuide1": "【せっかくだからもう少し】",
+    "jpGuide2": "【バス待ち最大小一時間】左　せっかくだからもう少し",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "会ったことを話してみる",
+    "jpGuide1": "【会ったことを話してみる】",
+    "jpGuide2": "【犬と猿】左　会ったことを話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "→【…………】、以降True Endと同じ選択肢で、4日目の選択肢【たしなめないと】でBad End『赤い絆』（ED20）",
+    "jpGuide2": "右　…………",
+    "enGuide": "",
+    "badEndPath": "Bad End『赤い絆』（ED20）"
+  },
+  {
+    "simpleJp": "夢のことを話してみる",
+    "jpGuide1": "【夢のことを話してみる】",
+    "jpGuide2": "【吸血鬼】右　夢のことを話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "反対したいお年頃",
+    "jpGuide1": "【反対したいお年頃】",
+    "jpGuide2": "左　反抗したいお年頃（【幻視行】通過で選択肢出現）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕方なしに我慢",
+    "jpGuide1": "【仕方なしに我慢】",
+    "jpGuide2": "【食事の後は】左　仕方なしに我慢",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲んでもらう",
+    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide2": "左　血を飲んでもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "帰らない",
+    "jpGuide1": "【帰らない】",
+    "jpGuide2": "【烏合】左　帰らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲ませる",
+    "jpGuide1": "【血を飲ませる】",
+    "jpGuide2": "【とりこのあさ】右　血を飲ませる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家の掃除をする",
+    "jpGuide1": "【家の掃除をする】",
+    "jpGuide2": "【カゴノナカ】中　家の掃除をする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "たしなめないと",
+    "jpGuide1": "【たしなめないと】",
+    "jpGuide2": "中　たしなめないと",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Bad End『赤い絆』（ED20）",
+    "jpGuide1": "Bad End『赤い絆』（ED20）",
+    "jpGuide2": "END No.20　赤い絆",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲んでもらう",
+    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide2": "左　血を飲んでもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夢のことを話してみる",
+    "jpGuide1": "【夢のことを話してみる】",
+    "jpGuide2": "【吸血鬼】右　夢のことを話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "反対したいお年頃",
+    "jpGuide1": "【反対したいお年頃】",
+    "jpGuide2": "左　反抗したいお年頃（【幻視行】通過で選択肢出現）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "仕方なしに我慢",
+    "jpGuide1": "【仕方なしに我慢】",
+    "jpGuide2": "【食事の後は】左　仕方なしに我慢",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲んでもらう",
+    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide2": "左　血を飲んでもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "帰る",
+    "jpGuide1": "→【帰る】でNormal End『残夢・夏の終わり』（ED5）",
+    "jpGuide2": "【烏合】右　帰る → END No.5　残夢・夏の終わり",
+    "enGuide": "",
+    "badEndPath": "Normal End『残夢・夏の終わり』（ED5）"
+  },
+  {
+    "simpleJp": "帰らない",
+    "jpGuide1": "【帰らない】",
+    "jpGuide2": "【烏合】左　帰らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲ませる",
+    "jpGuide1": "【血を飲ませる】",
+    "jpGuide2": "【とりこのあさ】右　血を飲ませる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "薪の調達に行く",
+    "jpGuide1": "→【薪の調達に行く】でBad End『ラクヨウ』（ED16）",
+    "jpGuide2": "【カゴノナカ】右　薪の調達に行く → END No.16　ラクヨウ",
+    "enGuide": "",
+    "badEndPath": "Bad End『ラクヨウ』（ED16）"
+  },
+  {
+    "simpleJp": "家の掃除をする",
+    "jpGuide1": "【家の掃除をする】",
+    "jpGuide2": "【カゴノナカ】中　家の掃除をする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ケンカでもしたのかな",
+    "jpGuide1": "→【ケンカでもしたのかな】でBad End『回帰』（ED17）",
+    "jpGuide2": "【回帰】右　ケンカでもしたのかな → END No.17　回帰",
+    "enGuide": "",
+    "badEndPath": "Bad End『回帰』（ED17）"
+  },
+  {
+    "simpleJp": "おかしいと思った",
+    "jpGuide1": "【おかしいと思った】",
+    "jpGuide2": "【回帰】左　おかしいと思った",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "だけど彼女たちだって可哀相",
+    "jpGuide1": "【だけど彼女たちだって可哀相】",
+    "jpGuide2": "【始末のこと】左　だけど彼女たちだって可哀相",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を飲んでもらう",
+    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide2": "【蛍の多く】左　血を飲んでもらう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ただ見ることしかできなかった",
+    "jpGuide1": "→【ただ見ることしかできなかった】でNormal End『一片の残花』（ED19）",
+    "jpGuide2": "【覚醒】右　ただ見ることしかできなかった → END No.19　一片の残花",
+    "enGuide": "",
+    "badEndPath": "Normal End『一片の残花』（ED19）"
+  },
+  {
+    "simpleJp": "絶対にお姉ちゃんを助ける",
+    "jpGuide1": "【絶対にお姉ちゃんを助ける】",
+    "jpGuide2": "【覚醒】左　絶対にお姉ちゃんを助ける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "True End『白花の咲く頃に』（ED21）",
+    "jpGuide1": "True End『白花の咲く頃に』（ED21）",
+    "jpGuide2": "END No.21　白花の咲く頃に",
+    "enGuide": ""
+  }
+]

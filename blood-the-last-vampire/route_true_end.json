@@ -1,0 +1,170 @@
+[
+  {
+    "simpleJp": "少年は神田へと向かった",
+    "jpGuide1": "少年は神田へと向かった",
+    "jpGuide2": "少年は神田へと向かった＞□２□へ +10",
+    "enGuide": "This route (真・瑠璃亜編 / 真エンド, mmitsuru's End27「真・瑠璃亜編」) is reached via the same Gekan 'Ooka Report' (大岡レポート) shortcut used by route_rulia.json, matching the convention already used across all Gekan route files. Prerequisite per guide.json: route_rulia.json (this is the true-ending variant of that same 瑠璃亜編 branch, not a separately-chosen route). Steps 1-7 of this Ooka Report opening are IDENTICAL to route_rulia.json's own steps 1-7 (same +10 BLOOD bonuses, same 吸血鬼の本フラグ ON and 五匹の子豚さんフラグ ON requirements); this route diverges only at the final Ooka option (step 8 below), where the flag-OFF choice must be taken instead of route_rulia.json's flag-ON choice. Per mmitsuru's geend27.htm page (per research.json, which recorded this during an earlier research pass with working archive.org access — see the important access-limitation note on step 8): 必要フラグ（required ON）= 吸血鬼の本フラグ, 五匹の子豚さんフラグ; 不必要フラグ（required OFF）= 瑠璃亜の過去フラグ. +10 BLOOD here. Per mmitsuru's geoooka.htm flowchart this is □１□'s first option, leading to □２□ (quoted verbatim identically in route_rulia.json's step 1)."
+  },
+  {
+    "simpleJp": "少年は少女と出会った",
+    "jpGuide1": "少年は少女と出会った",
+    "jpGuide2": "少年は少女と出会った＞□１２□へ",
+    "enGuide": "Per geoooka.htm this is □２□'s second option, leading to □１２□ (the branch that eventually reaches 瑠璃亜編). Identical to route_rulia.json step 2."
+  },
+  {
+    "simpleJp": "二人は書店に行ったようだ",
+    "jpGuide1": "二人は書店に行ったようだ",
+    "jpGuide2": "二人は書店に行ったようだ＞□１３□へ +10",
+    "enGuide": "+10 BLOOD. Per geoooka.htm this is □１２□'s first option, leading to □１３□. Identical to route_rulia.json step 3."
+  },
+  {
+    "simpleJp": "二人はある本に興味をもった",
+    "jpGuide1": "二人はある本に興味をもった",
+    "jpGuide2": "二人はある本に興味をもった＞□１４□へ +10",
+    "enGuide": "+10 BLOOD. Per geoooka.htm this is □１３□'s first option, leading to □１４□. Identical to route_rulia.json step 4."
+  },
+  {
+    "simpleJp": "二人はその本を買った",
+    "jpGuide1": "二人はその本を買った",
+    "jpGuide2": "二人はその本を買った＞□１５□へ +10",
+    "enGuide": "+10 BLOOD. Per geoooka.htm this is □１４□'s first option, leading to □１５□. Identical to route_rulia.json step 5."
+  },
+  {
+    "simpleJp": "少年はそれを渡した",
+    "jpGuide1": "少年はそれを渡した",
+    "jpGuide2": "少年はそれを渡した＞□１６□へ 吸血鬼の本フラグＯＮ",
+    "enGuide": "Sets 吸血鬼の本フラグ ON — required ON for the true ending (真・瑠璃亜編). Per geflag.htm this corresponds to the Joukan bookstore choice 'B.S.S.▲主人公「吸血鬼の本？」の後、「興味あるんだ」→「かまわないけど」' plus Rulia's apartment 'いいよ' choice; the Ooka Report reproduces the same flag with this single line instead. No BLOOD bonus is listed for this specific option. Identical to route_rulia.json step 6."
+  },
+  {
+    "simpleJp": "少年は怪しい所にいた",
+    "jpGuide1": "少年は怪しい所にいた",
+    "jpGuide2": "少年は怪しい所にいた＞□１７□へ +10 五匹の子豚さんフラグＯＮ",
+    "enGuide": "+10 BLOOD. Sets 五匹の子豚さんフラグ ON — required ON for the true ending (真・瑠璃亜編). Per geflag.htm this corresponds to the Joukan karaoke-box scene 'へんなところは嫌だよ」→「やめてくださいっ、お姉さん！」→「は、はい」'; the Ooka Report sets the same flag directly with this line. Identical to route_rulia.json step 7."
+  },
+  {
+    "simpleJp": "少年は傷のわけを聞いた",
+    "jpGuide1": "少年は傷のわけを聞いた",
+    "jpGuide2": "少年は傷のわけを聞いた＞+10 瑠璃亜の過去フラグＯＮ 瑠璃亜編",
+    "enGuide": "CORRECTED per accuracy review issue #17: this step previously read 少年は気を使ってる (keeping 瑠璃亜の過去フラグ OFF), sourced only from mmitsuru's geend27.htm. mmitsuru remains unreachable (eva.hi-ho.ne.jp is dead; web.archive.org fetches are blocked in this tool environment, re-confirmed this session). xneo.jp — re-verified this session via a direct raw-HTML fetch of https://xneo.jp/blood-the-last-vampire2/ (not just the page-summary tool) — shows its own Ending 27 row's ＜大岡レポート＞ sequence is byte-for-byte identical to its Endings 20 and 25 rows, ending in 少年は傷のわけを聞いた (the flag-ON option), not 少年は気を使ってる. This route follows xneo.jp's directly-confirmed path: identical Ooka Report choice to route_rulia.json's own step 8 (+10 BLOOD, total BLOOD level entering the route: 60; sets 瑠璃亜の過去フラグ ON). VERIFIED DIFFERENTIATOR (resolves the outstanding required action on issue #17): a byte-level comparison of xneo.jp's own Ending 20, 25 and 27 rows (raw HTML, this session, not flag-based) shows: Ending 25's row omits all four of 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……, stopping at 瑠璃亜に駆け寄る; Ending 20's row includes those four B.S.S. triggers but ALSO stops at 瑠璃亜に駆け寄る (missing the final 瑠璃亜をかばう search); Ending 27 (真・瑠璃亜編)'s row includes all four B.S.S. triggers AND completes through the final 瑠璃亜をかばう search. This route documents that full combination in the steps below — completing every optional B.S.S. trigger on this stretch, not any flag state, is what reaches the true ending. NOTE: route_rulia.json's own documented Ending 25 steps (already reviewed:true, issue #16 closed) currently also include all four of these B.S.S. triggers plus the completed 瑠璃亜をかばう search — identical to this route's sequence — which per this session's raw-HTML fetch does not match xneo.jp's actual Ending 25 row. That is a latent defect in route_rulia.json, out of scope for this file; filed as a separate route-accuracy issue rather than corrected here."
+  },
+  {
+    "simpleJp": "セーブ55",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint at the very start of this route's Gekan content (BLOOD level 60, flags: 吸血鬼の本＝ON, 五匹の子豚さん＝ON, 瑠璃亜の過去＝ON — corrected per issue #17, see step 8's note), placed before the route's first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here; this slot exists so this route's ending can be reached and reloaded from a shared checkpoint, matching the convention used in the other Gekan route guides (including route_rulia.json's own セーブ47 at the equivalent position). This route's ending depends on completing every optional B.S.S. trigger from this checkpoint onward without missing any (see step 8's VERIFIED DIFFERENTIATOR note) — if the player misses one, reload here rather than continuing."
+  },
+  {
+    "simpleJp": "BSSタップ：「主人公がうつむいたら」",
+    "jpGuide1": "今なら逃げられる……\t主人公がうつむいたら、サーチする。",
+    "jpGuide2": "（２６）鈴有り 過去の記憶がよみがえり、主人公のセリフ『僕には小夜という～』『呪われた鬼の～』の後 （目が覚めた主人公がちょっと瑠璃亜を見やり、また目をそらしてうつむいたとき）△→今なら逃げられる……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the opening B.S.S. of 瑠璃亜編 per both sources, identical to route_rulia.json's equivalent step (this cue does not depend on the 瑠璃亜の過去フラグ state)."
+  },
+  {
+    "simpleJp": "そうだね",
+    "jpGuide1": "そうだね",
+    "jpGuide2": "そうだね＞",
+    "enGuide": "Per xneo.jp's own Ending 20/25/27 rows, this is the choice (over the alternatives 他にもこういう所があるの？ and 前のアパートは？) that leads toward this route's deep chain. The two alternatives at this exact fork lead to xneo.jp's Endings 16 and 15 respectively — both are already fully documented with complete save/load bad-end detours in route_rulia.json (which shares this identical fork, reached via its flag-ON Ooka Report path); this guide does not repeat those detours here since route_rulia.json is this route's own prerequisite per guide.json. No additional save is inserted at this exact fork for that reason (route_rulia.json's セーブ48 already covers reloading this junction)."
+  },
+  {
+    "simpleJp": "どうして翼手になったの？",
+    "jpGuide1": "どうして翼手になったの？",
+    "jpGuide2": "どうして翼手になったの？＞",
+    "enGuide": "Identical text/position to route_rulia.json's equivalent step."
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜の『自分が弱かった』」",
+    "jpGuide1": "弱いって……？\t瑠璃亜の「自分が弱かった～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２７）鈴無し 桜ヶ丘の廃マンション、直前の選択肢「どうして翼手になったの？」直後 ▲瑠璃亜「自分が弱かったから……」→弱いって……？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Per mmitsuru's gebss.htm (entry 27) this cue fires regardless of 瑠璃亜の過去フラグ state. This is one of the four B.S.S. triggers that must ALL be completed to reach 真・瑠璃亜編 instead of route_rulia.json's Ending 25 — see step 8's VERIFIED DIFFERENTIATOR note. Do not skip this tap."
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜の『あんたがいてくれるから』」",
+    "jpGuide1": "瑠璃亜……\t瑠璃亜の「あんたがいてくれるから～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（２８）鈴無し （２７）後、瑠璃亜の過去フラグＯＮ状態、瑠璃亜が過去を語った後 ▲瑠璃亜「……あんたがいてくれるから……あたしは……」→瑠璃亜……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. CORRECTED per accuracy review issue #17: this step previously documented 他の翼手って知ってるの？ (the alleged 瑠璃亜の過去フラグ＝OFF variant, mmitsuru entry 29), sourced only from the unreachable mmitsuru. xneo.jp's own Ending 27 row — re-verified this session via raw-HTML fetch — lists 瑠璃亜…… at this position, identical to its Endings 20 and 25 rows. Since step 8 above sets 瑠璃亜の過去フラグ ON, this is the flag-ON variant of this B.S.S. slot per mmitsuru's gebss.htm (entry 28). This is one of the four B.S.S. triggers that must ALL be completed to reach 真・瑠璃亜編 instead of Ending 25 — see step 8's VERIFIED DIFFERENTIATOR note. Do not skip this tap."
+  },
+  {
+    "simpleJp": "BSSタップ：「主人公の『他の翼手のこと』」",
+    "jpGuide1": "どんな人だったの？\t主人公の「他の翼手のこと～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（３０）鈴無し （２８）後、又は（２９）直後、又は（２７）直前の選択肢「他の翼手って知ってるの？」直後 ▲主人公「他の翼手って知ってるの？」→どんな人だったの？",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. mmitsuru's own entry (30) text (quoted verbatim in jpGuide2, identical to the citation already used in route_rulia.json) explicitly confirms this fires after EITHER entry (28) OR entry (29) — i.e. regardless of the 瑠璃亜の過去フラグ state — converging the flag-ON and flag-OFF branches back together from this point onward. This is one of the four B.S.S. triggers that must ALL be completed to reach 真・瑠璃亜編 instead of route_rulia.json's Ending 25 — see step 8's VERIFIED DIFFERENTIATOR note. Do not skip this tap."
+  },
+  {
+    "simpleJp": "瑠璃亜を抱く",
+    "jpGuide1": "瑠璃亜を抱く",
+    "jpGuide2": "瑠璃亜を抱く＞",
+    "enGuide": "Identical text/position to route_rulia.json's equivalent step."
+  },
+  {
+    "simpleJp": "セーブ56",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint before the fork that separates 瑠璃亜と一緒にいられるのなら (→ xneo.jp Ending 17) from 瑠璃亜は僕が守るから (→ Endings 18/20/25/27), per xneo.jp's own Ending 17 vs Ending 18/20/25/27 rows. The 瑠璃亜と一緒にいられるのなら branch and its Ending 17 are already fully documented with a complete save/load detour in route_rulia.json (セーブ49); this guide does not repeat it here."
+  },
+  {
+    "simpleJp": "瑠璃亜は僕が守るから",
+    "jpGuide1": "瑠璃亜は僕が守るから",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp's own Ending 18/20/25/27 rows this is the line chosen instead of 瑠璃亜と一緒にいられるのなら (which leads to Ending 17, already covered by route_rulia.json — see previous step). No verbatim source-2 match available for this exact line, matching the same gap already noted in route_rulia.json's identical step."
+  },
+  {
+    "simpleJp": "我慢して！",
+    "jpGuide1": "我慢して！",
+    "jpGuide2": "我慢して！＞",
+    "enGuide": "Identical text/position to route_rulia.json's equivalent step."
+  },
+  {
+    "simpleJp": "BSSタップ：「主人公の顔がアップになったら」",
+    "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする。",
+    "jpGuide2": "（３１）鈴無し ガード下、チーマーに絡まれうずくまる主人公、押さえつけられる瑠璃亜 ▲（チーマーが瑠璃亜の服に切れこみを入れたとき）→瑠璃亜！",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Identical trigger to route_rulia.json's equivalent step."
+  },
+  {
+    "simpleJp": "逃げ出す",
+    "jpGuide1": "逃げ出す",
+    "jpGuide2": "逃げ出す＞",
+    "enGuide": "Per xneo.jp shared by Endings 18, 20, 25 and 27 alike at this position. Choosing 瑠璃亜から離れる instead ends the scene immediately as Ending 18 (already covered by route_rulia.json — see next step's note)."
+  },
+  {
+    "simpleJp": "セーブ57",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Editorial checkpoint before the fork separating 瑠璃亜から離れる (Ending 18, short, terminal — already fully documented with a save/load detour in route_rulia.json at its セーブ50) from マッチを見る (continues toward Endings 20/25/27); this guide does not repeat the Ending 18 detour here."
+  },
+  {
+    "simpleJp": "マッチを見る",
+    "jpGuide1": "マッチを見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp's own Ending 20/25/27 rows this is the line chosen instead of 瑠璃亜から離れる (Ending 18, see previous step). No verbatim source-2 match available, matching route_rulia.json's identical step."
+  },
+  {
+    "simpleJp": "BSSタップ：「主人公の『瑠璃亜、もしかしたら』」",
+    "jpGuide1": "ママさんなら……\t主人公の「瑠璃亜、もしかしたら～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（３２）鈴無し ガード下から逃げ出し、再び桜ヶ丘、選択肢「逃げ出す」後 吸血鬼の本フラグ、五匹の子豚さんフラグの両方ともＯＮ状態、直前の選択肢「マッチを見る」後 主人公『瑠璃亜……もしかしたら瑠璃亜、また翼手の血が騒いで……』△→ママさんなら……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. mmitsuru's own trigger description explicitly requires BOTH 吸血鬼の本フラグ and 五匹の子豚さんフラグ ON, which this route satisfies (set in steps 6-7 above) — this line makes no mention of the 瑠璃亜の過去フラグ state. CORRECTED per accuracy review issue #17: this is the fourth of four B.S.S. triggers (弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……) that a raw-HTML, byte-level comparison of xneo.jp's own Ending 20/25/27 rows this session confirms must ALL be completed, together with the final 瑠璃亜をかばう search below, to reach 真・瑠璃亜編 rather than route_rulia.json's Ending 25 (which per that same fetch omits all four) or the Ending 20 near-miss (which includes all four but misses the final search) — see step 8's VERIFIED DIFFERENTIATOR note for the full comparison. Per prompt_supplement.md's B.S.S. rule, every documented trigger must be included regardless of which specific ending row happens to print it; on this route that rule and the ending-selection mechanism happen to coincide exactly."
+  },
+  {
+    "simpleJp": "BSSタップ：「小夜の『待て』」",
+    "jpGuide1": "瑠璃亜から離れる\t小夜の「どけ……」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（３３）鈴有り 桜ヶ丘の廃マンション、暴走しかける瑠璃亜、小夜が不意に現れる ▲小夜「待て！」→瑠璃亜から離れる",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Identical trigger to route_rulia.json's equivalent step, including that file's own noted cross-source timing discrepancy (xneo.jp's B.S.S. table names this trigger's cue as 小夜の「どけ……」, which per mmitsuru's gebss.htm actually matches a later cue, entry 35; both sources nonetheless agree the resulting choice text 瑠璃亜から離れる occurs at this position in the Ending 20/25/27 chain)."
+  },
+  {
+    "simpleJp": "BSSタップ：「瑠璃亜の『いっ、いや』」",
+    "jpGuide1": "瑠璃亜に駆け寄る\t瑠璃亜の「い、いや～」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（３４）鈴無し （３３）後、不意に我に返る瑠璃亜 ▲瑠璃亜「いっ……いや……！！」→瑠璃亜に駆け寄る",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Identical trigger to route_rulia.json's equivalent step. UNCERTAINTY NOTE (carried over from route_rulia.json): if the player deliberately does not act on the remaining B.S.S. opportunities from this point, xneo.jp documents a near-miss outcome, Ending 20, stopping one step earlier than this route's ending (without the final 瑠璃亜をかばう action below); mmitsuru similarly documents End20「瑠璃亜、君はもう」 as the outcome of not completing the final search. Ending 20 is not reconstructed here as a playable save/load detour since neither source gives an explicit, quotable choice-box text for deliberately declining the search (matching route_rulia.json's own reasoning for the same near-miss)."
+  },
+  {
+    "simpleJp": "BSSタップ：「小夜の『楽にしてやる』」",
+    "jpGuide1": "瑠璃亜をかばう\t小夜の「楽にしてやる」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（３６）鈴無し （３５）無視後、瑠璃亜を狩ろうとする小夜 ▲小夜「……楽にしてやる」→瑠璃亜をかばう",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. CORRECTED per accuracy review issue #17: this route does not follow a distinct flag path from route_rulia.json — steps 8 and the mid-chain B.S.S. above set the same flags and choices as route_rulia.json's equivalent steps, since mmitsuru (the only source for the previously-claimed flag-OFF premise) remains unreachable and xneo.jp's own Ending 27 row directly contradicts that premise. VERIFIED DIFFERENTIATOR: a raw-HTML, byte-level comparison of xneo.jp's own Ending 20/25/27 rows this session (see step 8's note for the full breakdown) shows that successfully completing this final search — 小夜「……楽にしてやる」→瑠璃亜をかばう — together with all four optional B.S.S. triggers earlier in this route, is what reaches 真・瑠璃亜編 (End27). Missing this final search after doing the four optional triggers instead produces Ending 20; doing this final search but skipping the four optional triggers instead produces route_rulia.json's Ending 25. The prior DISAGREEMENT NOTE citing mmitsuru's 不必要フラグ＝瑠璃亜の過去フラグ requirement remains removed: that requirement could not be re-verified against mmitsuru this session and directly conflicts with xneo.jp's own confirmed Ending 27 row, so this guide no longer relies on it. See step 8's note re: a related latent defect discovered in route_rulia.json's own (already-approved) Ending 25 steps, filed as a separate issue rather than corrected here."
+  },
+  {
+    "simpleJp": "真・瑠璃亜編（エンディング27）",
+    "jpGuide1": "エンディング27～瑠璃亜編～",
+    "jpGuide2": "End27「真・瑠璃亜編」",
+    "enGuide": "Route complete — this is the true ending of Blood: The Last Vampire. jpGuide1 is xneo.jp's own row heading for its Ending 27 (re-verified this session via raw-HTML fetch: xneo.jp's page does not print the word 真 or 真・瑠璃亜編 anywhere, using the same generic ～瑠璃亜編～ heading for Endings 15/16/17/18/20/25/27 alike). jpGuide2 is mmitsuru's explicit ending title as recorded in research.json ('labelled explicitly 'End27「真・瑠璃亜編」' on that site's End27 page: geend27.htm') from an earlier research session that had working access to mmitsuru's site via web.archive.org; this session could not re-fetch web.archive.org directly (fetches to that domain are blocked in this tool environment) to re-confirm the title character-for-character, so this quote is carried over from the project's own prior verified research rather than freshly re-checked here — flagged for the reviewer's attention given the unusual sourcing chain. CORRECTED per accuracy review issue #17: required flags are 吸血鬼の本フラグ ON, 五匹の子豚さんフラグ ON, 瑠璃亜の過去フラグ ON (matching route_rulia.json — the previous 瑠璃亜の過去フラグ OFF requirement came solely from the unreachable mmitsuru and directly conflicted with xneo.jp's own Ending 27 row). VERIFIED DIFFERENTIATOR: this route reaches the true ending not via any flag but by completing all four optional B.S.S. triggers documented above (弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……) AND the final 瑠璃亜をかばう search — a mechanism confirmed this session via a byte-level raw-HTML comparison of xneo.jp's own Ending 20/25/27 rows (see step 8's note for the full breakdown). This is the final route in the recommended play order (joukan → yami_no_ou → kyuumei → touko → rulia → true_end) and the game's true/best ending."
+  }
+]

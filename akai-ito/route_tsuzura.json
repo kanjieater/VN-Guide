@@ -1,0 +1,285 @@
+[
+  {
+    "simpleJp": "下調べもしたし大丈夫",
+    "jpGuide1": "【下調べもしたし大丈夫】",
+    "jpGuide2": "【はじめの一歩】右　下調べもしたし大丈夫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "【わたしは首を横に振る】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大丈夫だよ",
+    "jpGuide1": "【大丈夫だよ】",
+    "jpGuide2": "【時差ですか】左　大丈夫だよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "葛ちゃんと食べよう",
+    "jpGuide1": "【葛ちゃんと食べよう】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "負けてたまるか",
+    "jpGuide1": "【負けてたまるか】",
+    "jpGuide2": "【饅頭恐いと王子の狐】右　負けてたまるか",
+    "enGuide": "",
+    "badEndPath": "Bad End『蛇の神の使い』（ED8）"
+  },
+  {
+    "simpleJp": "葛ちゃんを探しに行こう",
+    "jpGuide1": "【葛ちゃんを探しに行こう】",
+    "jpGuide2": "【そして誰もいなくなった】中　葛ちゃんを探しに行こう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何とかしたいけど",
+    "jpGuide1": "【何とかしたいけど】",
+    "jpGuide2": "【カレイド】左　何とかしたいけど",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分が出る",
+    "jpGuide1": "【自分が出る】",
+    "jpGuide2": "【雨と共にきたる】左　自分が出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ん～？",
+    "jpGuide1": "【ん～？】",
+    "jpGuide2": "【蛇と蝶と狐】左　ん～？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気になる",
+    "jpGuide1": "【気になる】",
+    "jpGuide2": "【蛇神の影】左　気になる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "じゃあ行こうか",
+    "jpGuide1": "【じゃあ行こうか】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何を話してるんだろ？",
+    "jpGuide1": "【何を話してるんだろ？】",
+    "jpGuide2": "【良月】左　何を話してるんだろ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行ってきます",
+    "jpGuide1": "【行ってきます】",
+    "jpGuide2": "【夏夜に咲く花】右　行ってきます",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でもひとりは嫌なんでしょ？",
+    "jpGuide1": "【でもひとりは嫌なんでしょ？】",
+    "jpGuide2": "【コドク】右　でもひとりは嫌なんでしょ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "抵抗しない",
+    "jpGuide1": "【抵抗しない】",
+    "jpGuide2": "【言霊の継承】右　抵抗しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "鏡を探してみる",
+    "jpGuide1": "【鏡を探してみる】",
+    "jpGuide2": "【鏡の鬼】右　鏡を探してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "割るのは忍びない",
+    "jpGuide1": "【割るのは忍びない】 → Bad End『蛇の神の使い』（ED8）",
+    "jpGuide2": "【積極攻勢】右　割るのは忍びない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "素直に謝る",
+    "jpGuide1": "【素直に謝る】",
+    "jpGuide2": "【饅頭恐いと王子の狐】左　素直に謝る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大人しく待ってみようか",
+    "jpGuide1": "【大人しく待ってみようか】",
+    "jpGuide2": "【そして誰もいなくなった】右　大人しく待ってみようか",
+    "enGuide": "",
+    "badEndPath": "Normal End『帰着・夏の終わり』（ED2）"
+  },
+  {
+    "simpleJp": "電話をかけることにする",
+    "jpGuide1": "【電話をかけることにする】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そんな気がしなくもない",
+    "jpGuide1": "【そんな気がしなくもない】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "帰ろうかな",
+    "jpGuide1": "【帰ろうかな】 → Normal End『帰着・夏の終わり』（ED2）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "葛ちゃんを探しに行こう",
+    "jpGuide1": "【葛ちゃんを探しに行こう】",
+    "jpGuide2": "【そして誰もいなくなった】中　葛ちゃんを探しに行こう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何ともならないか",
+    "jpGuide1": "【何ともならないか】 → Bad End『座礁・難破』（ED6）",
+    "jpGuide2": "【カレイド】右　何ともならないか",
+    "enGuide": "",
+    "badEndPath": "Bad End『座礁・難破』（ED6）"
+  },
+  {
+    "simpleJp": "何とかしたいけど",
+    "jpGuide1": "【何とかしたいけど】",
+    "jpGuide2": "【カレイド】左　何とかしたいけど",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分が出る",
+    "jpGuide1": "【自分が出る】",
+    "jpGuide2": "【雨と共にきたる】左　自分が出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "これは夢だし",
+    "jpGuide1": "【これは夢だし】",
+    "jpGuide2": "【蛇と蝶と狐】右　これは夢だし",
+    "enGuide": "",
+    "badEndPath": "Bad End『言霊の継承（２）』（ED10）"
+  },
+  {
+    "simpleJp": "別にそんなことは",
+    "jpGuide1": "【別にそんなことは】",
+    "jpGuide2": "【蛇神の影】右　別にそんなことは",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "サクヤさんに付き合う",
+    "jpGuide1": "【サクヤさんに付き合う】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "保護者同伴なら",
+    "jpGuide1": "【保護者同伴なら】",
+    "jpGuide2": "【夏夜に咲く花】左　保護者同伴なら",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でもひとりは嫌なんでしょ？",
+    "jpGuide1": "【でもひとりは嫌なんでしょ？】",
+    "jpGuide2": "【コドク】右　でもひとりは嫌なんでしょ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "抵抗しない",
+    "jpGuide1": "【抵抗しない】 → Bad End『言霊の継承（２）』（ED10）",
+    "jpGuide2": "【言霊の継承】右　抵抗しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ん～？",
+    "jpGuide1": "【ん～？】",
+    "jpGuide2": "【蛇と蝶と狐】左　ん～？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気になる",
+    "jpGuide1": "【気になる】",
+    "jpGuide2": "【蛇神の影】左　気になる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "じゃあ行こうか",
+    "jpGuide1": "【じゃあ行こうか】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何を話してるんだろ？",
+    "jpGuide1": "【何を話してるんだろ？】",
+    "jpGuide2": "【良月】左　何を話してるんだろ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行ってきます",
+    "jpGuide1": "【行ってきます】",
+    "jpGuide2": "【夏夜に咲く花】右　行ってきます",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ひとりで生きたいなら―",
+    "jpGuide1": "【ひとりで生きたいなら―】 → Normal End『やりたい放題好き放題』（ED7）",
+    "jpGuide2": "【コドク】左　ひとりで生きたいなら",
+    "enGuide": "",
+    "badEndPath": "Normal End『やりたい放題好き放題』（ED7）"
+  },
+  {
+    "simpleJp": "でもひとりは嫌なんでしょ？",
+    "jpGuide1": "【でもひとりは嫌なんでしょ？】",
+    "jpGuide2": "【コドク】右　でもひとりは嫌なんでしょ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "抵抗する",
+    "jpGuide1": "【抵抗する】 → Normal End『言霊の継承（１）』（ED9）",
+    "jpGuide2": "【言霊の継承】左　抵抗する",
+    "enGuide": "",
+    "badEndPath": "Normal End『言霊の継承（１）』（ED9）"
+  },
+  {
+    "simpleJp": "抵抗しない",
+    "jpGuide1": "【抵抗しない】",
+    "jpGuide2": "【言霊の継承】右　抵抗しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "鏡を探してみる",
+    "jpGuide1": "【鏡を探してみる】",
+    "jpGuide2": "【鏡の鬼】右　鏡を探してみる",
+    "enGuide": "",
+    "badEndPath": "Normal End『此岸と彼岸』（ED11）"
+  },
+  {
+    "simpleJp": "割るのは忍びない",
+    "jpGuide1": "【割るのは忍びない】",
+    "jpGuide2": "【積極攻勢】右　割るのは忍びない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "封じを強化する",
+    "jpGuide1": "【封じを強化する】",
+    "jpGuide2": "【鏡の鬼】左　封じを強化する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "忘れたくない！",
+    "jpGuide1": "【忘れたくない！】 → True End『彼岸の花をつかまえて』（ED12）",
+    "jpGuide2": "【漂白夢】左　忘れたくない！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "True End『彼岸の花をつかまえて』（ED12）",
+    "jpGuide1": "True End『彼岸の花をつかまえて』（ED12）",
+    "jpGuide2": "END No.12　彼岸の花をつかまえて",
+    "enGuide": ""
+  }
+]

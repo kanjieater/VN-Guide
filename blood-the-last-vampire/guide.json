@@ -5,7 +5,7 @@
     {
       "id": "joukan",
       "title": "上巻",
-      "stepCount": 527,
+      "stepCount": 526,
       "reviewed": false
     },
     {
@@ -23,7 +23,19 @@
     {
       "id": "touko",
       "title": "灯子編",
-      "stepCount": 33,
+      "stepCount": 34,
+      "reviewed": true
+    },
+    {
+      "id": "rulia",
+      "title": "瑠璃亜編",
+      "stepCount": 46,
+      "reviewed": true
+    },
+    {
+      "id": "true_end",
+      "title": "真・瑠璃亜編",
+      "stepCount": 28,
       "reviewed": false
     }
   ],
@@ -65,5 +77,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-09-05T21:52:50.462428+00:00"
+  "generated_at": "2026-09-06T03:35:53.080864+00:00"
 }

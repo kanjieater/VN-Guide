@@ -1,0 +1,107 @@
+{
+  "title": "Akai Ito",
+  "vndb_id": "v98",
+  "routes": [
+    {
+      "id": "uzuki",
+      "title": "千羽烏月ルート",
+      "portrait": "https://t.vndb.org/ch/83/11683.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Senba Uzuki (千羽烏月, VNDB c10500). Both primary Japanese sources agree this is the only heroine route reachable to a True End with no prior unlock: xneo.jp lists no '攻略条件' (unlock condition) line for her route, and the ゲームカタログ@Wiki summary states explicitly 'ルートの解除をせずにいきなりハッピーエンドに到達出来るのは烏月だけ' (Uzuki is the only one who can reach a Happy End without first unlocking a route). True End is 'True End 爽やかな立ち風' (ED32). Also has Normal End '挫北・夏の終わり' (ED3) and '途切れた糸・夏の終わりまで' (ED30), and Bad Ends '赤い縛め' (ED13), 'シマイ' (ED28), '血海' (ED29), '赤い維斗' (ED31). All ED numbers cross-validated against the saomix.fc2web.com branch-diagram images (via Wayback Machine)."
+    },
+    {
+      "id": "tsuzura",
+      "title": "若杉葛ルート",
+      "portrait": "https://t.vndb.org/ch/09/12209.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Wakasugi Tsuzura (若杉葛, VNDB c10498). xneo.jp states: '攻略条件：True Endルートは、先にNormal End「此岸と彼岸」（ED11）を見る必要がある' — the route's own True End ('彼岸の花をつかまえて', ED12) requires having already seen this route's own Normal End ('此岸と彼岸', ED11) on a prior clear, i.e. the route must effectively be played twice. Also produces Bad End '蛇の神の使い' (ED8), which is itself a listed prerequisite for the Sakuya and Yumei routes (see below) — so Tsuzura's route must be played, and this specific bad end viewed, before those two routes can reach their True Ends. Other endings on this route: Normal Ends '帰着・夏の終わり' (ED2) and 'やりたい放題好き放題' (ED7)/'言霊の継承（１）' (ED9), Bad Ends '座礁・難破' (ED6) and '言霊の継承（２）' (ED10). UNRESOLVED DETAIL: the saomix branch-diagram images additionally show an early common-route split ('幻視行' choice) gated by a '左ルート封印解除条件' / '右ルート封印解除条件' (left/right route unlock condition) that references clearing specific days of the Tsuzura/Sakuya route on an earlier playthrough. Neither source fully spells out how this interacts with a completely fresh save's very first playthrough; this must be re-verified choice-by-choice against both sources before writing the step-by-step guide for this route."
+    },
+    {
+      "id": "sakuya",
+      "title": "浅間サクヤルート",
+      "portrait": "https://t.vndb.org/ch/82/11682.jpg",
+      "prerequisites": [
+        "uzuki",
+        "tsuzura"
+      ],
+      "is_true_ending": false,
+      "notes": "Asama Sakuya (浅間サクヤ, VNDB c10499). xneo.jp states: '攻略条件：烏月のTrue End「爽やかな立ち風」と葛のBad End「蛇の神の使い」を見る' (must have seen Uzuki's True End ED32 AND Tsuzura's Bad End ED8). True End is 'ついのときまで' (ED25). Other endings: Bad End '雫' (ED4), Normal Ends '満開の花' (ED27) and '月へ向かう蝶' (ED26), Normal End '鬼切りの鬼' (ED23), Bad End '凍てる弧月' (ED24), Bad End '月の蝕み' (ED22). Order relative to Yumei is interchangeable per xneo.jp (identical prerequisite condition for both); listed before Yumei here purely for guide-ordering purposes."
+    },
+    {
+      "id": "yumei",
+      "title": "ユメイルート",
+      "portrait": "https://t.vndb.org/ch/10/12210.jpg",
+      "prerequisites": [
+        "uzuki",
+        "tsuzura"
+      ],
+      "is_true_ending": false,
+      "notes": "Yumei (ユメイ, VNDB c10497). Same prerequisite as Sakuya per xneo.jp: '攻略条件：烏月のTrue End「爽やかな立ち風」と葛のBad End「蛇の神の使い」を見る'. True End is '白花の咲く頃に' (ED21). This route produces Bad End 'くらやみのまゆ' (ED18), which is the required prerequisite for the Nozomi route (see below), so Yumei must be played (and this specific bad end viewed) before Nozomi. Other endings: Normal End '槐夢・夏の終わり' (ED1), Bad End '赤い絆' (ED20), Normal End '残夢・夏の終わり' (ED5), Bad Ends 'ラクヨウ' (ED16) and '回帰' (ED17), Normal End '一片の残花' (ED19). Per ゲームカタログ@Wiki, this is the only route where the game's 'blood gauge' system meaningfully affects the scenario (吸血や大量出血によるゲージ減少が進行上まともに影響するのはユメイルートだけ)."
+    },
+    {
+      "id": "nozomi",
+      "title": "ノゾミルート",
+      "portrait": "https://t.vndb.org/ch/45/12245.jpg",
+      "prerequisites": [
+        "yumei"
+      ],
+      "is_true_ending": false,
+      "notes": "Nozomi (ノゾミ, VNDB c10502). xneo.jp states: '攻略条件：ユメイのBad End「くらやみのまゆ」を見る' (must have seen Yumei's Bad End ED18). This is the last route unlocked in the prerequisite chain (uzuki -> tsuzura -> [sakuya/yumei] -> nozomi), and is short: only a True End 'True End 光は風に' (ED15) and one Bad End '二重箱の底で' (ED14) are documented by xneo.jp. No source describes this as an overarching narrative 'true end' of the whole game (see disagreements) — it is best understood as the final/capstone route by unlock order, not as a definitively superior ending."
+    }
+  ],
+  "recommended_order": [
+    "uzuki",
+    "tsuzura",
+    "sakuya",
+    "yumei",
+    "nozomi"
+  ],
+  "sources": [
+    {
+      "url": "https://xneo.jp/akaiito/",
+      "title": "アカイイト完全攻略 | XNEO",
+      "language": "ja",
+      "notes": "Complete text walkthrough covering all 5 heroine routes. For each route lists: the unlock condition ('攻略条件') if any, the True End name/ED number, and a full day-by-day (1日目～4日目) list of every choice, with every branch to a Bad End or Normal End spelled out as '選択肢 → 選択肢... でBad/Normal End「名前」（EDxx）'. This is the primary source used for exact choice text and ending names/numbers. Fetched directly (not summarized) and stored/reviewed line-by-line; last updated per page footer 2020年6月13日."
+    },
+    {
+      "url": "http://saomix.fc2web.com/akaiito/",
+      "title": "アカイイト攻略 分岐図 (Saomix Elements)",
+      "language": "ja",
+      "notes": "Complete hand-drawn branch-diagram (分岐図) covering the entire common route and all 5 heroine routes as a flowchart of choice boxes leading to all 32 numbered endings (END No.1 - No.32). The original site (saomix.fc2web.com) is dead (FC2's free homepage service shut down 2025-06-30); content was recovered via the Wayback Machine snapshot at http://web.archive.org/web/20250411062104/http://saomix.fc2web.com/akaiito/ and its five embedded branch-diagram images (bunkizu0.png through bunkizu4.png), which were read directly as images. Used to cross-validate every ED name/number and route-unlock condition documented by xneo.jp; all endings and prerequisite conditions checked in this research (ED3, ED8, ED11, ED12, ED13, ED15, ED18, ED21, ED22-ED32) matched between the two sources. Also documents an early common-route '幻視行' left/right split with its own unlock conditions that is not explained in xneo.jp's text guide — flagged as an open detail to verify before writing full step-by-step routes."
+    },
+    {
+      "url": "https://w.atwiki.jp/wakasugi_orz/pages/12.html",
+      "title": "FAQ/アカイイト攻略FAQ - アカイイト/アオイシロ まとめwiki",
+      "language": "ja",
+      "notes": "Partial/supplementary source, not a complete walkthrough on its own. Its FAQ section documents three specific hard-to-find choice sequences that are easy to miss on the branch diagram (烏月ルート「吸血鬼」の左, 烏月ルート「どうしてこんなところに？」の左→左, 葛ルート「コドク」の左, サクヤルート「歓迎の心は掃除から」の左→右), given as full choice chains. These were cross-checked against xneo.jp's day-by-day listings and are consistent. Also confirms there is no single canonical 'grand happy end' bugfix and that a specific ending ('言霊の継承(2)') has a known freeze bug unrelated to route logic. Site required a direct fetch with a browser user-agent (returns HTTP 403 to generic fetchers)."
+    },
+    {
+      "url": "https://w.atwiki.jp/gcmatome/pages/4086.html",
+      "title": "アカイイト - ゲームカタログ@Wiki ～名作からクソゲーまで～",
+      "language": "ja",
+      "notes": "Reference/review article, not a choice-by-choice walkthrough. Used to corroborate structural facts: total of 32 endings (5 happy/True Ends, 12 Normal Ends, 15 Bad Ends); confirms only Uzuki's route needs no prior unlock ('ルートの解除をせずにいきなりハッピーエンドに到達出来るのは烏月だけ'); explicitly states there is NO single 'true happy end' among the 5 heroine True Ends ('「真のハッピーエンド」が存在しない...本当の意味でのハッピーエンドが存在しない'), and that the sequel Aoishiro added a 'Grand Happy End' specifically in response to this criticism (implying Akai Ito itself, including the 2023 HD Remaster, was not given one). Also confirms the 2023 Switch/Steam 'AKAIITO HD REMASTER' is a remaster of the same content/routes as the original 2004 PS2 release, with no new routes added. Retrieved via Wayback Machine snapshot (direct fetch returns HTTP 403) at http://web.archive.org/web/20250303014011/https://w.atwiki.jp/gcmatome/pages/4086.html."
+    },
+    {
+      "url": "https://lufas.seesaa.net/article/200804article_20.html",
+      "title": "PS２版「アカイイト」で全てのエンディングを見ました。- ルーファスの日記",
+      "language": "ja",
+      "notes": "Supplementary/opinion source only, not a walkthrough (no choice text). A completionist's blog post about having seen all 32 endings. Notable for a claim that conflicts with the guide's neutral 'no true end' framing: the author personally argues Yumei's True End is 'probably' the game's real true ending because the official drama CD's epilogue continues from a state consistent with her route. This is a personal interpretation, not corroborated by any walkthrough site, and is documented under disagreements rather than used to set is_true_ending on any route."
+    },
+    {
+      "url": "https://vndb.org/v98",
+      "title": "Akai Ito - VNDB entry v98",
+      "language": "en",
+      "notes": "Reference only. Confirms release history: original PS2 release (2004-08/10), SuperLite 2000 budget re-release (2005), PSN download (2013), and the newest release, 'AKAIITO HD REMASTER' for Nintendo Switch and Steam/PC (2023-05-25), bundled with a HD Remaster of the sequel Aoishiro. The 2023 HD Remaster is the release targeted for this guide per project rules (most recent platform). No evidence found (from VNDB, official site, or the gcmatome retrospective) that the HD Remaster added routes or endings beyond the 2004 original."
+    },
+    {
+      "url": "https://api.vndb.org/kana (VNDB API, character endpoint filtered on vn=v98)",
+      "title": "VNDB Kana API — character list for v98",
+      "language": "en",
+      "notes": "Reference only, used to obtain exact, non-hallucinated VNDB character IDs and portrait image URLs (queried directly via the API rather than relying on a scraped/summarized page, to avoid transcription errors in image IDs). Confirmed 5 characters with vns.role = 'primary' for v98: Yumei (c10497), Wakasugi Tsuzura (c10498), Asama Sakuya (c10499), Senba Uzuki (c10500), Nozomi (c10502) — these are the 5 heroine routes. Protagonist is Hatou Kei (c10490, role 'main'). Side characters Kei/ケイ (c10507, twin brother, distinct from protagonist despite same reading), Nushi (c10509), Mikage (c10856), and Nara Youko (c91338, no portrait image available) are not route characters."
+    }
+  ],
+  "disagreements": "1) No source designates a single overarching 'true ending' for the whole game, and the two primary walkthroughs (xneo.jp, saomix branch diagram) simply label each heroine's best ending 'True End' independently without ranking them against each other. The ゲームカタログ@Wiki retrospective explicitly confirms this is intentional/by design ('「真のハッピーエンド」が存在しない' — there is no single 'true happy end'; every one of the 5 True Ends still involves a sacrifice of some kind), which is why none of the 5 routes is marked is_true_ending in this file. However, one supplementary blog (lufas.seesaa.net) personally argues Yumei's True End is the closest thing to a canonical true ending because the official drama CD's epilogue is only consistent with her route's outcome (not Nozomi's, despite Nozomi being the last-unlocked/'capstone' route by prerequisite chain). This is a matter of fan interpretation, not a documented walkthrough mechanic, so recommended_order still places Nozomi last (as the mechanically final/most-locked route) without claiming it is narratively 'the' true end. 2) The saomix branch-diagram images document an early common-route branch point (【幻視行】) gated by separate 'left route' and 'right route' unlock conditions that reference clearing specific days of the Tsuzura/Sakuya route on a prior playthrough. xneo.jp's text guide does not mention this gate at all — it simply gives the day-by-day optimal choices per route, implying the gate is either automatically satisfied by following its choices in the given order, or only relevant to alternate/suboptimal paths. This was not fully resolved in this research pass and should be re-verified choice-by-choice (ideally by cross-checking the saomix flowchart images again panel-by-panel) before writing the step-by-step guide for the Tsuzura and Sakuya routes, to make sure no hidden prerequisite is missed. 3) Sakuya and Yumei have textually identical prerequisites in xneo.jp (Uzuki True End + Tsuzura Bad End), so their relative order is interchangeable; this file lists Sakuya before Yumei arbitrarily, but the guide author should feel free to swap them, noting that Yumei must still precede Nozomi regardless (since Nozomi depends on Yumei's Bad End). 4) The wakasugi_orz FAQ page and the original saomix.fc2web.com site are both effectively dead as live websites (saomix's host FC2WEB shut down its free-homepage service on 2025-06-30; the atwiki page 403s on generic fetchers). Both were still successfully retrieved for this research (via Wayback Machine and via a browser-like User-Agent respectively) but the guide author should re-confirm accessibility before relying on them again in a future session.",
+  "generated_at": "2026-09-06T03:43:07+00:00"
+}

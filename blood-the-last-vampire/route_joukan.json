@@ -2055,8 +2055,8 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "答える＞",
-    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend19.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング19); the 'End 19「究明編」' title-to-sequence pairing — including whether this is the correct Joukan ending that unlocks the 究明編 Gekan route — is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
-    "badEndPath": "End 19「究明編」"
+    "enGuide": "This xneo.jp-sourced sequence (エンディング19) was previously labelled 'End 19「究明編」' after mmitsuru, on the claim that mmitsuru's joend19.htm was never archived. That claim was wrong: joend19.htm has a real, period-accurate Wayback snapshot (20090520031219, confirmed via CDX plus a direct fetch of the archived page). Its real End 19 path diverges from this xneo sequence partway through — mmitsuru continues 怖いとは思わなかった……→夜が嫌いだ→気持ち悪い……→……→この写真、いつ撮ったの？→(extra step: 浴槽の栓を誰かが抜いた, not present in this sequence), while this xneo sequence instead has 怖いと思った……→夜は好きだ→なんともない→……なんでもない at those same points — two of which are direct opposite-meaning contradictions (怖いと思った……／怖いとは思わなかった……, 夜は好きだ／夜が嫌いだ). The mmitsuru title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy.",
+    "badEndPath": "エンディング19"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
@@ -2505,8 +2505,8 @@
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
     "jpGuide2": "答えない＞",
-    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend16.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング16); the 'End 16「闇の王編」' title-to-sequence pairing — including whether this is the correct Joukan ending that unlocks the 闇の王編 Gekan route — is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
-    "badEndPath": "End 16「闇の王編」"
+    "enGuide": "This xneo.jp-sourced sequence (エンディング16) was previously labelled 'End 16「闇の王編」' after mmitsuru, on the claim that mmitsuru's joend16.htm was never archived. That claim was wrong: joend16.htm has a real, period-accurate Wayback snapshot (20090523014404, confirmed via CDX plus a direct fetch of the archived page). Its real End 16 path diverges from this xneo sequence starting at the second choice — mmitsuru has 僕は煩わしいと思う事もある (a different verb form from this sequence's 僕は煩わしいと思った事がある) followed by 教会の坂の下の本屋だけど→……寒い……→挨拶する→ショートの子が好み→……→へんなところは嫌だよ→やめてくださいっ、お姉さん！→は、はい (a karaoke-box scene this sequence never visits), while this xneo sequence instead continues ……熱い！→ありがとう→怪しむ→なんだか馴れ馴れしい→どうも→うん→……→ここで暮らしてるの？. The mmitsuru title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy.",
+    "badEndPath": "エンディング16"
   },
   {
     "simpleJp": "僕は煩わしいと思った事がある",

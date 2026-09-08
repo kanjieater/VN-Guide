@@ -9,8 +9,8 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "答える＞",
-    "enGuide": "",
-    "badEndPath": "End 01「闇に潜むもの」"
+    "enGuide": "This xneo.jp-sourced sequence (エンディング1: 答える→空を見上げる→神田に行こう→でも今は人込みの方が落ち着く) was previously labelled 'End 01「闇に潜むもの」' after mmitsuru. Fetched mmitsuru's own joend01.htm (Wayback snapshot 20070401140203) directly this session: its real End 01 path is 答える→空を見上げる→神田に行こう→だから今も人込みは嫌いだ — the final line differs (だから今も人込みは嫌いだ, never documented anywhere on xneo.jp) and xneo.jp does not itself document that alternate final choice as its own ending. The two sequences diverge at the very last choice, so the mmitsuru title cannot be confirmed to apply to this xneo-sourced sequence; the numeric xneo label is used instead per policy (no invented correspondence).",
+    "badEndPath": "エンディング1"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
@@ -41,8 +41,8 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "答える＞",
-    "enGuide": "",
-    "badEndPath": "End 02「遊びの後で」"
+    "enGuide": "This xneo.jp-sourced sequence (エンディング2) was previously labelled 'End 02「遊びの後で」' after mmitsuru. Fetched mmitsuru's own joend02.htm (Wayback snapshot 20070401140023) directly this session: its real End 02 path shares this sequence's opening (答える→...→でも今は人込みの方が落ち着く) but then diverges completely — mmitsuru continues 左を見る→参考書買いたいんだ→瑠璃亜「もう関係ない」→吸血鬼の本？→興味あるんだ→会えるわけないよ→いらないよ→……そうだと思う (a bookstore/Rulia scene), while this xneo sequence continues 後ろを見る→……熱い！→挨拶する→ショートの子が好み→...→……そうだと思う (a train/girl scene). Both happen to end on the same final line by coincidence, but the paths are not the same ending. The mmitsuru title cannot be confirmed to apply here; the numeric xneo label is used instead per policy.",
+    "badEndPath": "エンディング2"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
@@ -181,8 +181,8 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
-    "badEndPath": "End 04「美酒より美味きもの」"
+    "enGuide": "This xneo.jp-sourced sequence (エンディング4) was previously labelled 'End 04「美酒より美味きもの」' after mmitsuru. Fetched mmitsuru's own joend04.htm (Wayback snapshot 20070211224549) directly this session: its real End 04 path opens with 答えない, not 答える — a direct first-choice contradiction with this sequence. The mmitsuru title cannot be confirmed to apply here; the numeric xneo label is used instead per policy.",
+    "badEndPath": "エンディング4"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
@@ -375,8 +375,8 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "答える＞",
-    "enGuide": "",
-    "badEndPath": "End 05「振り向けばそこにいる」"
+    "enGuide": "This xneo.jp-sourced sequence (エンディング5) was previously labelled 'End 05「振り向けばそこにいる」' after mmitsuru. Fetched mmitsuru's own joend05.htm (Wayback snapshot 20070211225723) directly this session: its real End 05 path shares this sequence's final six lines (怖いとは思わなかった……→瑠璃亜は何か知っている→あれは僕がやったの？→強くなんてなりたくない→あの声が怖かった→夜が好きだ) but the earlier portion differs entirely — mmitsuru opens 答える→痛い……！→え？→挨拶する→ロングの子が好み→どうも→うん→そ、そうだね→……→あの灯子て子さ……→いつから友達なの？, while this sequence opens 答える→なに？→教会の坂の下の本屋だけど→……寒い……→ありがとう→挨拶する→なんだか馴れ馴れしい→どうも→え？→なんで知ってるの？→帰ってもいいかな……→あ、いや→ここで暮らしてるの？→瑠璃亜はさ……→どうして僕に声をかけたの？ — a different scene leading to the same final lines. The mmitsuru title cannot be confirmed to apply here; the numeric xneo label is used instead per policy.",
+    "badEndPath": "エンディング5"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
@@ -861,7 +861,7 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "答える＞",
-    "enGuide": "",
+    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend09.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング9); the 'End 09「抱擁その２」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
     "badEndPath": "End 09「抱擁その２」"
   },
   {
@@ -1231,7 +1231,7 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
+    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend11.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング11); the 'End 11「恐るべきもの」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
     "badEndPath": "End 11「恐るべきもの」"
   },
   {
@@ -1407,7 +1407,7 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
+    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend12.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング12); the 'End 12「咆哮その１」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
     "badEndPath": "End 12「咆哮その１」"
   },
   {
@@ -1589,7 +1589,7 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
+    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend13.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング13); the 'End 13「咆哮その２」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
     "badEndPath": "End 13「咆哮その２」"
   },
   {
@@ -2055,7 +2055,7 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "答える＞",
-    "enGuide": "",
+    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend19.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング19); the 'End 19「究明編」' title-to-sequence pairing — including whether this is the correct Joukan ending that unlocks the 究明編 Gekan route — is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
     "badEndPath": "End 19「究明編」"
   },
   {
@@ -2267,7 +2267,7 @@
     "simpleJp": "（分岐点：答えないルートへ）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Structural marker only, not a step the player takes or a sourced quote. Marks the point where the route splits between 答える (continues on to 瑠璃亜編) and 答えない (leads only to the four side endings below: End 03, エンディング8, End 16「闇の王編」, End 17「灯子編」)."
+    "enGuide": "Structural marker only, not a step the player takes or a sourced quote. Marks the point where the route splits between 答える (this guide's main line, which xneo.jp's own numbering follows through to its final, longest エンディング18) and 答えない (leads to the four side endings below: エンディング3, エンディング8, End 16「闇の王編」, End 17「灯子編」). See the caveat on the final 'End 18「瑠璃亜編」' step and on the 答えない step immediately below: mmitsuru's own archived page for End 18「瑠璃亜編」 was fetched this session and actually opens with 答えない, not 答える, contradicting the assumption this split was originally documented under. This is flagged as an open structural question, not resolved here."
   },
   {
     "simpleJp": "セーブ2",
@@ -2279,8 +2279,8 @@
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
     "jpGuide2": "答えない＞",
-    "enGuide": "Switch to the 答えない branch, which is required to reach End 03, End 08, End 16 (闇の王編) and End 17 (灯子編). Both xneo.jp and mmitsuru confirm 瑠璃亜編 (the branch this route continues on) opens with 答える instead, so 答えない never leads anywhere but these four side endings — treat this whole excursion as a detour back to セーブ2.",
-    "badEndPath": "End 03「月下の血宴」"
+    "enGuide": "Switch to the 答えない branch, which xneo.jp documents leading to エンディング3/8/16/17. Correction: the claim previously here that 'both xneo.jp and mmitsuru confirm 瑠璃亜編 opens with 答える instead' is false — mmitsuru's own joend18.htm (fetched via Wayback Machine this session) shows End 18「瑠璃亜編」 itself opens with 答えない, not 答える. Fetched mmitsuru's own joend03.htm (Wayback snapshot 20070211225345) directly this session: its real End 03 path opens with 答える, not 答えない — a direct first-choice contradiction with this xneo-sourced エンディング3 sequence. The mmitsuru 'End 03「月下の血宴」' title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy. See also the caveat on the 分岐点 marker step above and on the final 'End 18「瑠璃亜編」' step regarding the unresolved 答える/答えない split question.",
+    "badEndPath": "エンディング3"
   },
   {
     "simpleJp": "僕は気に入っている",
@@ -2505,7 +2505,7 @@
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
     "jpGuide2": "答えない＞",
-    "enGuide": "",
+    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend16.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング16); the 'End 16「闇の王編」' title-to-sequence pairing — including whether this is the correct Joukan ending that unlocks the 闇の王編 Gekan route — is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
     "badEndPath": "End 16「闇の王編」"
   },
   {
@@ -2663,8 +2663,8 @@
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
     "jpGuide2": "答えない＞",
-    "enGuide": "",
-    "badEndPath": "End 17「灯子編」"
+    "enGuide": "This xneo.jp-sourced sequence (エンディング17) was previously labelled 'End 17「灯子編」' after mmitsuru. Fetched mmitsuru's own joend17.htm (Wayback snapshot 20090523014409) directly this session: its real End 17 path shares this opening (答えない→僕は気に入っている) but diverges immediately after — mmitsuru continues でも今は人込みの方が落ち着く→横を見る→……寒い……→ありがとう→挨拶する→ロングの子が好み→...→灯子「あなた…見た事ある？」→いや、そんな事ないけど→どうしてって言われても……→聞いてないよ→怖いとは思わなかった……→あれは僕がやったの？→強くなんてなりたくない→僕の口には合わなかった→話さない→（灯子「ねえ、私を見て」）→（引きずられる死体の手）→あの化け物は……→そっと入る→……→（灯子「私、あなたが……」） (an alley/train scene with a monster-reveal ending), while this sequence continues 神田に行こう→でも今は人込みの方が落ち着く→後ろを見る→……熱い！→ありがとう→挨拶する→ロングの方が好み→...→強くなれるの？→僕の口には合わなかった→話す→……→あれ……？→そっと入る→...→離して！→やめてよ！ (a different train scene). The mmitsuru title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy.",
+    "badEndPath": "エンディング17"
   },
   {
     "simpleJp": "僕は気に入っている",
@@ -3187,6 +3187,6 @@
     "simpleJp": "End 18「瑠璃亜編」",
     "jpGuide1": "End 18「瑠璃亜編」",
     "jpGuide2": "End 18「瑠璃亜編」",
-    "enGuide": "Joukan complete — choose Continue to carry BLOOD level and flags into Gekan on the 瑠璃亜編 branch. Flag check for this exact path (per mmitsuru geflag.htm): 吸血鬼の本フラグ = ON (book bought and left with Rulia, see the choice above); 瑠璃亜の過去フラグ = OFF (this path never selects 傷の原因, the only documented choice that sets it); 五匹の子豚さんフラグ = OFF on THIS path because it never visits the 「五匹の子豚さん」karaoke box (that scene, and the ON choice for this flag, is documented separately by mmitsuru as 「へんなところは嫌だよ」→「やめてくださいっ、お姉さん！」→「は、はい」after leaving Rulia's apartment). All three flags are required ON/OFF exactly as: book ON, karaoke ON, past-question OFF to reach the true ending End 27「真・瑠璃亜編」in Gekan — see the rulia/true_end route guides for the adjusted choice needed at the karaoke point."
+    "enGuide": "Joukan complete — choose Continue to carry BLOOD level and flags into Gekan on the 瑠璃亜編 branch. Flag check for this exact path (per mmitsuru geflag.htm): 吸血鬼の本フラグ = ON (book bought and left with Rulia, see the choice above); 瑠璃亜の過去フラグ = OFF (this path never selects 傷の原因, the only documented choice that sets it); 五匹の子豚さんフラグ = OFF on THIS path because it never visits the 「五匹の子豚さん」karaoke box (that scene, and the ON choice for this flag, is documented separately by mmitsuru as 「へんなところは嫌だよ」→「やめてくださいっ、お姉さん！」→「は、はい」after leaving Rulia's apartment). All three flags are required ON/OFF exactly as: book ON, karaoke ON, past-question OFF to reach the true ending End 27「真・瑠璃亜編」in Gekan — see the rulia/true_end route guides for the adjusted choice needed at the karaoke point. UNRESOLVED DISCREPANCY (fetched mmitsuru's own joend18.htm via Wayback Machine, snapshot 20260906025819, directly this session): mmitsuru's real End 18「瑠璃亜編」 path opens with 答えない, not 答える as this route uses — the opposite of what the 分岐点 marker and the 答えない step earlier in this file assume. mmitsuru's own End18 path also includes 傷の原因 and the karaoke-box scene (「へんなところは嫌だよ」→「やめてくださいっ、お姉さん！」→「は、はい」) directly in-line on the way to End18, which contradicts this note's claim that those are OFF/separate for 'this path'. It is not clear from either source alone whether xneo.jp's エンディング18 (答える branch, used here) and mmitsuru's End18 (答えない branch) are actually the same ending reached two different ways, or whether this guide has the 答える/答えない split backwards for reaching 瑠璃亜編. The flag values stated above should NOT be treated as settled until a structural reviewer resolves which branch mmitsuru's page actually documents; this also affects the rulia/true_end route prerequisites, which currently assume 'reached via End18' on the 答える branch."
   }
 ]

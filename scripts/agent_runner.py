@@ -29,6 +29,40 @@ def credentials_available() -> bool:
         Path.home() / ".claude" / ".credentials.json").exists()
 
 
+def _write_openrouter_model_config(agent_dir: str, model: str) -> None:
+    """Declare Union Alpha in the private config, without changing other models.
+
+    The pinned Pi catalog predates this model. Explicit metadata and an output
+    budget prevent OpenRouter from reserving almost the entire context as output.
+    Other OpenRouter models retain their own catalog limits and pricing.
+    """
+    if model != "stealth/union-alpha":
+        return
+    max_tokens = int(os.environ.get("GUIDE_OPENROUTER_MAX_TOKENS", "16384"))
+    if not 1 <= max_tokens <= 65536:
+        raise ValueError("GUIDE_OPENROUTER_MAX_TOKENS must be between 1 and 65536")
+    config = {
+        "providers": {
+            "openrouter": {
+                "baseUrl": "https://openrouter.ai/api/v1",
+                "api": "openai-completions",
+                "apiKey": "$OPENROUTER_API_KEY",
+                "models": [{
+                    "id": model,
+                    "name": model,
+                    "input": ["text"],
+                    "contextWindow": 262144,
+                    "maxTokens": max_tokens,
+                    "reasoning": False,
+                    "compat": {"maxTokensField": "max_tokens"},
+                    "samplingParams": {"max_tokens": max_tokens},
+                }],
+            },
+        },
+    }
+    (Path(agent_dir) / "models.json").write_text(json.dumps(config), encoding="utf-8")
+
+
 def run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
                    timeout: int) -> bool:
     """Run a fresh, tool-capable Pi session with an explicit OpenRouter model.
@@ -57,6 +91,7 @@ def run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
     # A private agent directory prevents host plugins, credentials and default
     # models from overriding this explicitly configured unattended run.
     with tempfile.TemporaryDirectory(prefix="vn-guide-pi-") as agent_dir:
+        _write_openrouter_model_config(agent_dir, model)
         env = dict(os.environ, PI_CODING_AGENT_DIR=agent_dir, PI_SKIP_VERSION_CHECK="1",
                    PI_TELEMETRY="0")
         # Pass the prompt through a file instead of argv (large research prompts).
@@ -114,10 +149,13 @@ def run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
                     print(f"\n[agent] tool: {event.get('toolName')}", flush=True)
                 elif kind == "message_end":
                     message = event.get("message", {})
-                    if message.get("role") == "assistant" and message.get("stopReason") in {"error", "aborted"}:
-                        failed = True
-                        print(f"\n[agent] {message.get('errorMessage', 'Provider error')}",
-                              file=sys.stderr, flush=True)
+                    if message.get("role") == "assistant":
+                        # Pi retries transient provider errors internally. Judge the
+                        # final assistant result, not an error it later recovered from.
+                        failed = message.get("stopReason") in {"error", "aborted"}
+                        if failed:
+                            print(f"\n[agent] {message.get('errorMessage', 'Provider error')}",
+                                  file=sys.stderr, flush=True)
                 elif kind == "agent_end":
                     completed = True
             code = proc.wait(timeout=max(0.01, deadline - time.monotonic()))

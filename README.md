@@ -137,6 +137,7 @@ If you want the container to run continuously and auto-generate guides for every
 | `GUIDE_STRUCTURAL_REVIEWER_MODEL` / `GUIDE_REVIEWER_MODEL` | shared model | Override structural / accuracy reviewer model |
 | `ANTHROPIC_API_KEY` | | Anthropic API key (optional if using Claude OAuth) |
 | `OPENROUTER_API_KEY` | | Required when `GUIDE_PROVIDER=openrouter` |
+| `GUIDE_OPENROUTER_MAX_TOKENS` | `16384` | Union Alpha output-token cap (1–65536); its context is explicitly registered as 262144 tokens |
 | `RUN_INTERVAL_HOURS` | `6` | Hours between sync cycles |
 | `GUIDE_START_HOUR` | `22` | Start of generation window (24h local time) |
 | `GUIDE_END_HOUR` | `0` | End hour of generation window |

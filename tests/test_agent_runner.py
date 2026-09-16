@@ -29,6 +29,23 @@ class ProviderTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 agent_runner.provider()
 
+    def test_union_alpha_private_model_config(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.dict(os.environ, {}, clear=True):
+            agent_runner._write_openrouter_model_config(tmp, 'stealth/union-alpha')
+            config = json.loads((Path(tmp) / 'models.json').read_text())
+            model = config['providers']['openrouter']['models'][0]
+            self.assertEqual(model['id'], 'stealth/union-alpha')
+            self.assertEqual(model['contextWindow'], 262144)
+            self.assertEqual(model['maxTokens'], 16384)
+            self.assertEqual(model['samplingParams']['max_tokens'], 16384)
+            self.assertFalse(model['reasoning'])
+            os.environ['GUIDE_OPENROUTER_MAX_TOKENS'] = '999999'
+            with self.assertRaises(ValueError):
+                agent_runner._write_openrouter_model_config(tmp, 'stealth/union-alpha')
+        with tempfile.TemporaryDirectory() as tmp:
+            agent_runner._write_openrouter_model_config(tmp, 'another/model')
+            self.assertFalse((Path(tmp) / 'models.json').exists())
+
     def test_credentials_separate(self):
         with patch.dict(os.environ, {'GUIDE_PROVIDER': 'openrouter', 'ANTHROPIC_API_KEY': 'claude'}, clear=True):
             self.assertFalse(agent_runner.credentials_available())
@@ -70,6 +87,9 @@ class ProviderTests(unittest.TestCase):
         self.assertFalse(self.fake_pi('print(\'{"type":"message_end","message":{"role":"assistant","stopReason":"error"}}\')\nprint(\'{"type":"agent_end"}\')'))
         self.assertFalse(self.fake_pi('print("no completion")'))
         self.assertFalse(self.fake_pi('import sys\nprint(\'{"type":"agent_end"}\')\nsys.exit(1)'))
+
+    def test_recovered_provider_error(self):
+        self.assertTrue(self.fake_pi('print(\'{"type":"message_end","message":{"role":"assistant","stopReason":"error"}}\')\nprint(\'{"type":"message_end","message":{"role":"assistant","stopReason":"stop"}}\')\nprint(\'{"type":"agent_end"}\')'))
 
     def test_turn_limit(self):
         self.assertFalse(self.fake_pi('print(\'{"type":"turn_start"}\')\nprint(\'{"type":"turn_start"}\')\nprint(\'{"type":"agent_end"}\')', max_turns=1))

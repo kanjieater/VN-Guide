@@ -387,9 +387,12 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
             if not approved:
                 try:
                     latest = json.loads(guide_file.read_text())
-                    if not isinstance(latest, dict) or not isinstance(latest.get("routes"), list):
+                    routes = latest["routes"] if isinstance(latest, dict) else None
+                    if not isinstance(routes, list) or not all(
+                        isinstance(r, dict) and isinstance(r.get("id"), str) for r in routes
+                    ) or not any(r["id"] == route_id for r in routes):
                         raise ValueError("Invalid guide metadata")
-                except (OSError, ValueError):
+                except (OSError, ValueError, KeyError):
                     latest = json.loads(snapshot)
                 for entry in latest.get("routes", []):
                     if entry["id"] == route_id:

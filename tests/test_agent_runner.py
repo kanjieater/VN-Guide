@@ -133,13 +133,40 @@ class ReviewTests(unittest.TestCase):
             guide = Path(tmp) / 'game' / 'guide.json'
             guide.parent.mkdir()
             guide.write_text('{"routes":[{"id":"route","reviewed":false}]}')
+
             def approve(*args, **kwargs):
                 guide.write_text('{"routes":[{"id":"route","reviewed":true}]}')
                 return True
+
             with patch.object(review, 'REPO_PATH', Path(tmp)), patch.object(review, 'structural_review_route', return_value=True), patch.object(review, 'review_route', return_value=True), patch.object(review, 'run_claude_fresh', side_effect=approve), patch.object(review, 'get_open_issue_for_route', side_effect=[None, RuntimeError('GitHub offline')]), patch.object(review, 'get_open_structural_issue_for_route', return_value=None):
                 with self.assertRaises(RuntimeError):
                     review.review_game('game')
                 self.assertFalse(json.loads(guide.read_text())['routes'][0]['reviewed'])
+
+    def test_approval_rollback_restores_malformed_metadata(self):
+        malformed = [
+            '{"routes":[null,{"id":"route","reviewed":true}]}',
+            '{"routes":[{"reviewed":true}],"id":"route"}',
+            '{"routes":{"id":"route","reviewed":true}}',
+            '{"routes":[{"id":"other","reviewed":true}]}',
+        ]
+        snapshot = '{"routes":[{"id":"route","reviewed":false}]}'
+        for broken in malformed:
+            with self.subTest(broken=broken):
+                with tempfile.TemporaryDirectory() as tmp:
+                    guide = Path(tmp) / 'game' / 'guide.json'
+                    guide.parent.mkdir()
+                    guide.write_text(snapshot)
+
+                    def approve(*args, **kwargs):
+                        guide.write_text(broken)
+                        return True
+
+                    with patch.object(review, 'REPO_PATH', Path(tmp)), patch.object(review, 'structural_review_route', return_value=True), patch.object(review, 'review_route', return_value=True), patch.object(review, 'run_claude_fresh', side_effect=approve), patch.object(review, 'get_open_issue_for_route', side_effect=[None, RuntimeError('GitHub offline')]), patch.object(review, 'get_open_structural_issue_for_route', return_value=None):
+                        with self.assertRaises(RuntimeError):
+                            review.review_game('game')
+                    restored = json.loads(guide.read_text())
+                    self.assertEqual(restored, json.loads(snapshot))
 
 
 if __name__ == '__main__':

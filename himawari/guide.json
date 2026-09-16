@@ -8,6 +8,12 @@
       "stepCount": 55,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/25/46525.jpg"
+    },
+    {
+      "id": "akari",
+      "title": "Restart",
+      "stepCount": 6,
+      "reviewed": false
     }
   ],
   "sources": [
@@ -144,5 +150,5 @@
       "notes": "Additional candidate found in Japanese search; direct wiki access returned 403. Not read in full and not used as evidence or counted toward the two-complete-guide requirement."
     }
   ],
-  "generated_at": "2026-09-16T22:04:22.041349+00:00"
+  "generated_at": "2026-09-16T22:06:33.934040+00:00"
 }

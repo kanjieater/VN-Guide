@@ -1,0 +1,40 @@
+[
+  {
+    "simpleJp": "セーブ19",
+    "jpGuide1": "◆セーブ10",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大吾と一緒にいたい",
+    "jpGuide1": "大吾と一緒にいたい",
+    "jpGuide2": "大吾に真実を話す　/　大吾と一緒にいたい　END「旅立ち」",
+    "enGuide": "",
+    "badEndPath": "【旅立ち】END"
+  },
+  {
+    "simpleJp": "【旅立ち】END",
+    "jpGuide1": "【旅立ち】END",
+    "jpGuide2": "END「旅立ち」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ19にロード",
+    "jpGuide1": "◆セーブ10から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "大吾に真実を話す",
+    "jpGuide1": "大吾に真実を話す",
+    "jpGuide2": "大吾に真実を話す　/　大吾と一緒にいたい　END「旅立ち」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "【星乃 明香里】END",
+    "jpGuide1": "【星乃 明香里】END",
+    "jpGuide2": "「2nd episodeクリア  」",
+    "enGuide": ""
+  }
+]

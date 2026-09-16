@@ -83,13 +83,49 @@ class ProviderTests(unittest.TestCase):
                 return agent_runner.run_openrouter('test', 'stealth/union-alpha', max_turns, root, timeout)
 
     def test_event_success_and_errors(self):
-        self.assertTrue(self.fake_pi('print(\'{"type":"agent_end"}\')'))
+        self.assertTrue(self.fake_pi('print(\'{"type":"message_end","message":{"role":"assistant","stopReason":"stop"}}\')\nprint(\'{"type":"agent_end"}\')'))
+        self.assertFalse(self.fake_pi('print(\'{"type":"agent_end"}\')'))
         self.assertFalse(self.fake_pi('print(\'{"type":"message_end","message":{"role":"assistant","stopReason":"error"}}\')\nprint(\'{"type":"agent_end"}\')'))
         self.assertFalse(self.fake_pi('print("no completion")'))
         self.assertFalse(self.fake_pi('import sys\nprint(\'{"type":"agent_end"}\')\nsys.exit(1)'))
 
     def test_recovered_provider_error(self):
         self.assertTrue(self.fake_pi('print(\'{"type":"message_end","message":{"role":"assistant","stopReason":"error"}}\')\nprint(\'{"type":"message_end","message":{"role":"assistant","stopReason":"stop"}}\')\nprint(\'{"type":"agent_end"}\')'))
+
+    def test_terminal_completion_required(self):
+        for reason in ['length', 'toolUse', 'error', 'aborted', None]:
+            event = json.dumps({'type': 'message_end', 'message': {'role': 'assistant', 'stopReason': reason}})
+            with self.subTest(reason=reason):
+                self.assertFalse(self.fake_pi('print(' + repr(event) + ')\nprint(\'{"type":"agent_end"}\')'))
+        self.assertFalse(self.fake_pi('print(\'{"type":"auto_retry_end","success":true}\')\nprint(\'{"type":"agent_end"}\')'))
+        self.assertTrue(self.fake_pi('print(\'{"type":"message_end","message":{"role":"assistant","stopReason":"length"}}\')\nprint(\'{"type":"turn_start"}\')\nprint(\'{"type":"message_end","message":{"role":"assistant","stopReason":"stop"}}\')\nprint(\'{"type":"agent_end"}\')'))
+
+    def test_driver_sigterm_reaps_pi(self):
+        import signal
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = root / 'pi'
+            fake.write_text('#!' + sys.executable + '\nimport os,time\nfrom pathlib import Path\nPath("pi.pid").write_text(str(os.getpid()))\nprint("ready",flush=True)\ntime.sleep(60)\nPath("late-write").touch()\n')
+            fake.chmod(0o755)
+            script_dir = str(Path(agent_runner.__file__).parent)
+            driver = f'import sys; sys.path.insert(0,{script_dir!r}); import agent_runner; from pathlib import Path; agent_runner.run_openrouter("test","stealth/union-alpha",3,Path({tmp!r}),90)'
+            env = dict(os.environ, OPENROUTER_API_KEY='fake', PATH=tmp + ':' + os.environ['PATH'])
+            proc = subprocess.Popen([sys.executable, '-c', driver], env=env, stdout=subprocess.PIPE, text=True)
+            try:
+                while proc.stdout.readline().strip() != 'ready':
+                    if proc.poll() is not None:
+                        self.fail('driver exited before fake Pi started')
+                pid = int((root / 'pi.pid').read_text())
+                proc.send_signal(signal.SIGTERM)
+                self.assertEqual(proc.wait(timeout=10), 143)
+                with self.assertRaises(ProcessLookupError):
+                    os.kill(pid, 0)
+                self.assertFalse((root / 'late-write').exists())
+            finally:
+                if proc.poll() is None:
+                    proc.kill()
+                    proc.wait()
+                proc.stdout.close()
 
     def test_turn_limit(self):
         self.assertFalse(self.fake_pi('print(\'{"type":"turn_start"}\')\nprint(\'{"type":"turn_start"}\')\nprint(\'{"type":"agent_end"}\')', max_turns=1))
@@ -121,6 +157,31 @@ time.sleep(10)
 
 
 class ReviewTests(unittest.TestCase):
+    def test_approval_cannot_modify_other_metadata(self):
+        snapshot = {'title': 'Game', 'routes': [{'id': 'r1', 'reviewed': False}, {'id': 'r2', 'reviewed': False}]}
+        valid = json.loads(json.dumps(snapshot))
+        valid['routes'][0]['reviewed'] = True
+        bad_outputs = [
+            {'routes': [valid['routes'][0]]},
+            dict(valid, routes=list(reversed(valid['routes']))),
+            dict(valid, title='Changed'),
+            dict(valid, routes=[valid['routes'][0], {'id': 'r2', 'reviewed': True}]),
+            dict(valid, routes=[{'id': 'r1', 'reviewed': 1}, valid['routes'][1]]),
+        ]
+        for output in [valid] + bad_outputs:
+            with tempfile.TemporaryDirectory() as tmp:
+                path = Path(tmp) / 'guide.json'
+                original = json.dumps(snapshot)
+                path.write_text(original)
+                def approve(*args):
+                    path.write_text(json.dumps(output))
+                    return True
+                with patch.object(review, '_mark_route_reviewed', side_effect=approve):
+                    accepted = review.mark_route_reviewed(path, 'game', 'r1', 'R1')
+                self.assertEqual(accepted, output is valid)
+                if not accepted:
+                    self.assertEqual(path.read_text(), original)
+
     def test_issue_lookup_fails_closed(self):
         for function in [review.get_open_issue_for_route, review.get_open_structural_issue_for_route]:
             for code, output in [(1, ''), (0, 'broken'), (0, '{}'), (0, '')]:

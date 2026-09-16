@@ -17,13 +17,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import generate as _generate
+import agent_runner
 
 REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 PROMPTS_PATH = SCRIPTS_PATH / "prompts"
 GAMES_JSON = REPO_PATH / "games.json"
 
-MODEL = os.environ.get("GUIDE_GEN_MODEL", "claude-sonnet-5")
+MODEL = agent_runner.model_for("GEN")
 MAX_TURNS_RESEARCH = 60
 MAX_TURNS_ROUTE = 50
 TIMEOUT_RESEARCH = 3600  # research fetches multiple sites; give it an hour
@@ -64,6 +65,9 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
     Saves the session ID to session_file after every run so the next attempt
     can resume.
     """
+    if agent_runner.provider() == "openrouter":
+        return agent_runner.run_openrouter(prompt, MODEL, max_turns, cwd, timeout)
+
     session_id = session_file.read_text().strip() if session_file and session_file.exists() else None
 
     if session_id:
@@ -358,10 +362,8 @@ def generate_guide(slug: str, title: str, vndb_id: str,
 
 
 def run() -> None:
-    has_api_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
-    has_oauth = Path.home().joinpath(".claude", ".credentials.json").exists()
-    if not has_api_key and not has_oauth:
-        log("No Anthropic credentials found — skipping guide generation")
+    if not agent_runner.credentials_available():
+        log(f"No {agent_runner.provider()} credentials found — skipping guide generation")
         return
 
     if not GAMES_JSON.exists():
@@ -384,9 +386,8 @@ def run() -> None:
 
     priority_vid = os.environ.get("GUIDE_PRIORITY_VID")
     if priority_vid:
-        priority = [(v, e) for v, e in pending if v == priority_vid]
-        rest = [(v, e) for v, e in pending if v != priority_vid]
-        pending = priority + rest
+        # A targeted job must not continue into other games after this one.
+        pending = [(v, e) for v, e in pending if v == priority_vid]
 
     max_routes_env = os.environ.get("GUIDE_MAX_ROUTES")
     max_routes = int(max_routes_env) if max_routes_env else None

@@ -21,16 +21,17 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import agent_runner
 
 REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 GAMES_JSON = REPO_PATH / "games.json"
 
-REVIEWER_MODEL = os.environ.get("GUIDE_REVIEWER_MODEL", "claude-sonnet-5")
+REVIEWER_MODEL = agent_runner.model_for("REVIEWER")
 REVIEWER_EFFORT = os.environ.get("GUIDE_REVIEWER_EFFORT", "max")
-STRUCTURAL_REVIEWER_MODEL = os.environ.get("GUIDE_STRUCTURAL_REVIEWER_MODEL", "claude-sonnet-5")
+STRUCTURAL_REVIEWER_MODEL = agent_runner.model_for("STRUCTURAL_REVIEWER")
 STRUCTURAL_REVIEWER_EFFORT = os.environ.get("GUIDE_STRUCTURAL_REVIEWER_EFFORT", "high")
-AUTHOR_MODEL = os.environ.get("GUIDE_AUTHOR_MODEL", "claude-sonnet-5")
+AUTHOR_MODEL = agent_runner.model_for("AUTHOR")
 AUTHOR_EFFORT = os.environ.get("GUIDE_AUTHOR_EFFORT", "high")
 MAX_TURNS = int(os.environ.get("GUIDE_REVIEW_MAX_TURNS", "60"))
 MAX_REVIEW_ROUNDS = int(os.environ.get("GUIDE_REVIEW_MAX_ROUNDS", "5"))
@@ -62,6 +63,9 @@ def run_claude_fresh(prompt: str, model: str = REVIEWER_MODEL,
     Each call starts with no context from any prior call — author and reviewer
     never share a session, so neither can be biased by the other's framing.
     """
+    if agent_runner.provider() == "openrouter":
+        return agent_runner.run_openrouter(prompt, model, MAX_TURNS, REPO_PATH, timeout)
+
     cmd = [
         "claude",
         "-p", prompt,
@@ -96,17 +100,23 @@ def get_open_issue_for_route(slug: str, route_id: str, route_title: str = "") ->
         capture_output=True, text=True, cwd=str(REPO_PATH),
     )
     if result.returncode != 0:
-        err(f"gh issue list failed: {result.stderr.strip()}")
-        return None
-    try:
-        issues = json.loads(result.stdout or "[]")
-    except json.JSONDecodeError:
-        return None
+        raise RuntimeError(f"gh issue list failed: {result.stderr.strip()}")
+    issues = parse_issues(result.stdout)
     for issue in issues:
         title = issue.get("title", "").lower()
         if route_id in title or (route_title and route_title.lower() in title):
             return issue["number"]
     return None
+
+
+def parse_issues(output: str) -> list[dict]:
+    issues = json.loads(output)
+    if not isinstance(issues, list) or any(
+        not isinstance(i, dict) or not isinstance(i.get("number"), int)
+        or not isinstance(i.get("title"), str) for i in issues
+    ):
+        raise ValueError("Expected issue list with number and title")
+    return issues
 
 
 def get_open_structural_issue_for_route(slug: str, route_id: str, route_title: str = "") -> int | None:
@@ -120,12 +130,8 @@ def get_open_structural_issue_for_route(slug: str, route_id: str, route_title: s
         capture_output=True, text=True, cwd=str(REPO_PATH),
     )
     if result.returncode != 0:
-        err(f"gh issue list (structural) failed: {result.stderr.strip()}")
-        return None
-    try:
-        issues = json.loads(result.stdout or "[]")
-    except json.JSONDecodeError:
-        return None
+        raise RuntimeError(f"gh issue list (structural) failed: {result.stderr.strip()}")
+    issues = parse_issues(result.stdout)
     for issue in issues:
         title = issue.get("title", "").lower()
         if route_id in title or (route_title and route_title.lower() in title):
@@ -227,18 +233,36 @@ def mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title:
     Re-checked here rather than trusted from the caller: a reviewer can file a
     fresh issue during the same round that decided the route passed.
     """
-    blocking = get_open_issue_for_route(slug, route_id, route_title)
+    blocking = (get_open_issue_for_route(slug, route_id, route_title)
+                or get_open_structural_issue_for_route(slug, route_id, route_title))
     if blocking is not None:
         err(f"Refusing to mark {slug}/{route_id} reviewed — issue #{blocking} is still open")
         return False
 
+    # Approval belongs to an independent accuracy reviewer, not the pipeline or author.
+    ok = run_claude_fresh(
+        f"Read prompt.md, CLAUDE.md and .claude/agents/guide-reviewer.md. "
+        f"You are the independent accuracy reviewer for {slug}/{route_id} ({route_title}). "
+        f"Structural and accuracy passes have completed. Independently re-fetch both Japanese "
+        f"sources in {slug}/research.json and verify this route. Check GitHub for open "
+        f"route-structure AND route-accuracy issues labeled {slug} for this route. "
+        f"Only if both reviews pass and neither issue type is open, set reviewed: true for "
+        f"{route_id} in {slug}/guide.json. This metadata approval is your only permitted "
+        f"guide edit. Otherwise leave reviewed false and report findings in the existing "
+        f"issue or create one if none exists. Never self-correct route content.",
+        model=REVIEWER_MODEL, effort=REVIEWER_EFFORT,
+    )
+    blocking = (get_open_issue_for_route(slug, route_id, route_title)
+                or get_open_structural_issue_for_route(slug, route_id, route_title))
     guide = json.loads(guide_file.read_text())
-    for route in guide.get("routes", []):
-        if route["id"] == route_id:
-            route["reviewed"] = True
-    guide_file.write_text(json.dumps(guide, ensure_ascii=False, indent=2))
-    log(f"Route {route_id} marked reviewed in {guide_file.relative_to(REPO_PATH)}")
-    return True
+    if not ok or blocking is not None:
+        for route in guide.get("routes", []):
+            if route["id"] == route_id:
+                route["reviewed"] = False
+        guide_file.write_text(json.dumps(guide, ensure_ascii=False, indent=2))
+        return False
+    return any(r["id"] == route_id and r.get("reviewed") is True
+               for r in guide.get("routes", []))
 
 
 def review_route(slug: str, route_id: str, route_title: str) -> bool:
@@ -343,20 +367,41 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
         route_title = route.get("title", route_id)
         log(f"{slug}: reviewing route {route_id} ({route_title})")
 
-        structural_passed = structural_review_route(slug, route_id, route_title)
-        if not structural_passed:
-            log(f"{slug}/{route_id}: structural review did not pass — skipping accuracy review")
-            continue
+        approved = False
+        snapshot = guide_file.read_text()
+        try:
+            structural_passed = structural_review_route(slug, route_id, route_title)
+            if not structural_passed:
+                log(f"{slug}/{route_id}: structural review did not pass — skipping accuracy review")
+                continue
 
-        passed = review_route(slug, route_id, route_title)
-        if passed:
-            if mark_route_reviewed(guide_file, slug, route_id, route_title):
+            if review_route(slug, route_id, route_title):
+                approved = mark_route_reviewed(guide_file, slug, route_id, route_title)
+            if approved:
                 run_deploy()
-        else:
-            log(f"{slug}/{route_id}: did not pass — will retry next cycle")
+            else:
+                log(f"{slug}/{route_id}: did not pass — will retry next cycle")
+        finally:
+            # A reviewer can write approval before its CLI fails or GitHub becomes
+            # unavailable. Never leave that optimistic flag for the next run to skip.
+            if not approved:
+                try:
+                    latest = json.loads(guide_file.read_text())
+                    if not isinstance(latest, dict) or not isinstance(latest.get("routes"), list):
+                        raise ValueError("Invalid guide metadata")
+                except (OSError, ValueError):
+                    latest = json.loads(snapshot)
+                for entry in latest.get("routes", []):
+                    if entry["id"] == route_id:
+                        entry["reviewed"] = False
+                guide_file.write_text(json.dumps(latest, ensure_ascii=False, indent=2))
 
 
 def run() -> None:
+    if not agent_runner.credentials_available():
+        err(f"No {agent_runner.provider()} credentials found — skipping review")
+        return
+
     if not GAMES_JSON.exists():
         log("games.json not found, skipping")
         return
@@ -369,7 +414,7 @@ def run() -> None:
 
     # GUIDE_REVIEW_VID scopes the review loop to one game (separate from GUIDE_PRIORITY_VID
     # which controls the guide-gen exit gate in entrypoint.sh).
-    priority_vid = os.environ.get("GUIDE_REVIEW_VID")
+    priority_vid = os.environ.get("GUIDE_REVIEW_VID") or os.environ.get("GUIDE_PRIORITY_VID")
     priority_route = os.environ.get("GUIDE_REVIEW_ROUTE")
 
     if priority_vid:

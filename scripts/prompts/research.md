@@ -22,6 +22,7 @@ Use this JSON shape:
 {
   "title": "$TITLE",
   "vndb_id": "$VNDB_ID",
+  "target_release": "$PLATFORM_NOTE",
   "routes": [
     {
       "id": "ascii_route_key",
@@ -56,6 +57,8 @@ Use this JSON shape:
 
 Rules:
 
+- Identify the target platform/edition/release before accepting sources. Persist it in `target_release` (replace an empty/generic placeholder with the actual target when necessary).
+- Verify every Set A/B component applies to that target release. Document port/remaster/edition differences and whether they affect routes, choices, saves, unlocks, or endings.
 - `id` must be ASCII-only romanized keys.
 - `recommended_order` lists route ids from first to last; true/final route last when applicable.
 - Label every primary source component with `set: "A"` or `set: "B"`.

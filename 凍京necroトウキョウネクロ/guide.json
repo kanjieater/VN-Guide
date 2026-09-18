@@ -13,21 +13,21 @@
       "id": "kiriri",
       "title": "阿蘇霧里ルート",
       "stepCount": 5,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": ""
     },
     {
       "id": "con_su",
       "title": "コン・スールート",
       "stepCount": 3,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": ""
     },
     {
       "id": "iria",
       "title": "宝形イリアルート",
       "stepCount": 3,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": ""
     },
     {

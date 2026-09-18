@@ -6,11 +6,14 @@ The workflow is environment-neutral: a role may use a checkout, repository API, 
 
 ## Review destination
 
-Before reviewing a route, determine whether the current work has an open pull request.
+Before reviewing a route, first honor any review transport explicitly specified by the caller/orchestrator.
+
+If none is specified:
 
 - **Open PR, direct/manual agent review:** put review findings and author fixes on that PR instead of creating route-review issue spam.
 - **No open PR:** use the existing issue workflow.
-- **Automated runner:** it may retain its existing persistence/issue mechanism; this PR does not redesign the local runner.
+
+The local automated runner explicitly requests issue-based review, so its issue transport takes precedence over the direct-agent PR default.
 
 ## Per-route lifecycle
 
@@ -36,7 +39,12 @@ findings? ── yes → PR feedback or fallback issue
    │               Accuracy reviewer re-fetches
    │               sources and re-verifies
    ↓
-No open structural/accuracy blocker
+Did accuracy-stage fixes change route structure?
+   │ yes
+   └────────────→ rerun Structural → Accuracy
+   │ no
+   ↓
+Both gates clean for the same route content
         ↓
 Accuracy stage/orchestrator sets reviewed: true
 ```
@@ -65,7 +73,7 @@ Use the invalidation matrix in `.claude/guide-standards.md`.
 
 In particular:
 
-- structural route changes invalidate structural + accuracy;
+- structural route changes invalidate structural + accuracy **whenever those gates have already passed, even if `reviewed:false`**;
 - factual/source changes invalidate accuracy only unless structure also changed;
 - research source-basis/prerequisite/order changes invalidate accuracy for affected routes;
 - portrait/title/display-only metadata does not invalidate review.

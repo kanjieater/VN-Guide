@@ -16,6 +16,8 @@ Read `.claude/guide-standards.md` first. Work in a fresh context separate from t
 
 Use whatever repository/file/web/issue capabilities are available. Command examples are illustrative.
 
+If the caller/orchestrator explicitly specifies a review transport (for example, create/use a `route-accuracy` issue), follow that transport exactly. Only default to PR-first when no transport is specified.
+
 ## Scope
 
 Verify factual accuracy and source fidelity. Do not fix route content.
@@ -42,19 +44,23 @@ For the route under review, verify:
 - every route-defining choice and its order;
 - route prerequisites and unlock conditions;
 - ending reachability;
-- save positions (a save may be documented by only one set, but must be explicit there);
+- save positions (a save may be documented by only one set, but must be explicit there), including the canonical rule that a source conflict uses the **earlier documented position**;
 - **every documented bad end is present**, including multiple bad ends from the same save;
 - each bad-end chain starts at the first wrong choice, uses the exact documented `badEndPath` label, runs through the documented terminal, and is followed by the correct load-back step;
 - no `badEndPath` exists unless a Japanese source explicitly documents that bad end;
 - `isLoad: true` appears only after a bad-end detour;
 - cross-route save numbering;
 - no hallucinated or missing required choices;
+- every emitted player-action `simpleJp` is exact in-game text with no paraphrase, suffix, or location prefix;
+- save/load steps are standalone and are the only normal non-choice `simpleJp` steps;
+- useful available `enGuide` detail has not been silently dropped;
 - no contradictions across guide sections;
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
-- `jpGuide1` is verbatim Set A text;
-- `jpGuide2` is verbatim Set B text when that exact step is printed there;
-- `（第二ガイドに記載なし）` is used only when Set B supports the surrounding route/ending but does not print that exact step;
-- a route does not pass if a required step lacks exact Set-A text.
+- each present source excerpt is verbatim;
+- `（第一ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set B;
+- `（第二ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set A;
+- route-defining choices/prerequisites/endings are independently supported by both sets, with no omission placeholder standing in for missing independent support;
+- the documented target platform/edition is compatible with both verification sets.
 
 For a full review, check the route completely.
 
@@ -65,9 +71,9 @@ For a re-review after corrections:
 
 ## Review record
 
-Follow the feedback-destination rules in `.claude/guide-standards.md`.
+Follow caller/orchestrator transport instructions first. If none are specified, follow the feedback-destination defaults in `.claude/guide-standards.md`.
 
-When an open PR exists, put this route's review on that PR instead of creating a route issue. When no PR exists, use the existing issue workflow.
+With no specified transport: when an open PR exists, put this route's review on that PR instead of creating a route issue; when no PR exists, use the existing issue workflow.
 
 Use the canonical finding schema in `.claude/guide-standards.md` for every accuracy finding.
 

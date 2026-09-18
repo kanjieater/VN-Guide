@@ -33,6 +33,16 @@ A game requires **two independent Japanese verification sets**:
 
 "Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every route choice, prerequisite/unlock, and ending must be independently supported by both sets. A save point or repeated UI action may appear in only one set; in that case include it only when explicitly documented and mark the other source field as not documented rather than fabricating text.
 
+## Character portraits
+
+Portrait URLs must be directly verified against a character record or another authoritative/structured source.
+
+- Match the route character by name, not by numeric coincidence.
+- When using VNDB, use the exact `image.url` returned by the character record.
+- VNDB character IDs (for example `c34600`) and VNDB image IDs are separate identifiers. **Never construct a CDN portrait URL by inserting the character ID into an image-path pattern.**
+- If the current environment cannot directly inspect VNDB's character image field, use another verifiable character source and document that source in `research.json`.
+- A portrait-only correction does not invalidate structural or accuracy route review.
+
 ## Source fields
 
 Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.

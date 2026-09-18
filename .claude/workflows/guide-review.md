@@ -51,6 +51,17 @@ Accuracy stage/orchestrator sets reviewed: true
 
 For direct PR review, a clean pass can be recorded with a concise PASS comment. In issue fallback mode, a clean first pass creates no issue.
 
+## Direct PR review content binding
+
+PR feedback is an audit surface, so clean direct/manual review records must identify the exact content reviewed.
+
+- Structural PASS/resolution records include the current route-file blob SHA/content hash.
+- Accuracy PASS/resolution records include the current route-file blob SHA/content hash **and** current `research.json` blob SHA/content hash.
+- Before final approval, fetch current identifiers again. Any mismatch invalidates the corresponding earlier clean record and requires re-review.
+- Final `reviewed: true` requires structural and accuracy clean records that both apply to the current route content, and an accuracy record that applies to the current research content.
+
+This prevents stale browser-agent PASS comments from surviving later commits without turning PR comments into automated runtime state.
+
 ## Concurrency
 
 Review routes one at a time per review type.

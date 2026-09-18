@@ -59,9 +59,7 @@ class GuideTargetTests(unittest.TestCase):
             "GUIDE_PLATFORM",
             "GUIDE_TARGET_URL",
         ]
-        with patch.dict(guide_gen.os.environ, {}, clear=False):
-            for key in keys:
-                guide_gen.os.environ.pop(key, None)
+        with patch.dict(guide_gen.os.environ, {}, clear=True):
             self.assertIsNone(guide_gen.resolve_guide_target({}))
 
         with patch.dict(

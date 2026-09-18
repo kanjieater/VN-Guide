@@ -115,6 +115,57 @@ def run_deploy() -> None:
         err("Deploy failed — guide saved locally, will push on next cycle")
 
 
+def normalize_guide_target(target: object) -> dict[str, str] | None:
+    """Return a validated guide target or None.
+
+    A guide target is intentionally release-specific. The VNDB work id alone
+    is not enough because one work can contain materially different ports and
+    editions.
+    """
+    if not isinstance(target, dict):
+        return None
+
+    normalized = {
+        "label": str(target.get("label", "")).strip(),
+        "platform": str(target.get("platform", "")).strip(),
+        "url": str(target.get("url", "")).strip(),
+    }
+    if not all(normalized.values()):
+        return None
+    if not normalized["url"].startswith(("https://", "http://")):
+        return None
+    return normalized
+
+
+def resolve_guide_target(entry: dict) -> dict[str, str] | None:
+    """Resolve the explicit target release from repo metadata or caller input.
+
+    Repository metadata wins. For a new game without `guide_target`, callers
+    may supply all three env vars below; the caller target is then persisted to
+    games.json by run() before research starts.
+    """
+    if "guide_target" in entry:
+        target = normalize_guide_target(entry.get("guide_target"))
+        if target is None:
+            err("games.json guide_target must contain non-empty label, platform, and URL")
+        return target
+
+    env_target = {
+        "label": os.environ.get("GUIDE_TARGET_LABEL", "").strip(),
+        "platform": os.environ.get("GUIDE_PLATFORM", "").strip(),
+        "url": os.environ.get("GUIDE_TARGET_URL", "").strip(),
+    }
+    if not any(env_target.values()):
+        return None
+    target = normalize_guide_target(env_target)
+    if target is None:
+        err(
+            "Explicit caller target is incomplete — set GUIDE_TARGET_LABEL, "
+            "GUIDE_PLATFORM, and GUIDE_TARGET_URL together"
+        )
+    return target
+
+
 def load_game_notes(guide_dir: Path) -> str:
     """Return the contents of prompt_supplement.md if it exists for this game, else empty string."""
     f = guide_dir / "prompt_supplement.md"
@@ -196,6 +247,7 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
     guide_data = {
         "title": title,
         "vndb_id": vndb_id,
+        "guide_target": research.get("guide_target"),
         "routes": route_list,
         "sources": research.get("sources", []),
     }
@@ -217,22 +269,44 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
     log(f"Updated guide.json ({len(route_list)}/{total} routes)")
 
 
-def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool:
+def phase_research(
+    slug: str,
+    title: str,
+    vndb_id: str,
+    guide_dir: Path,
+    guide_target: dict[str, str],
+) -> bool:
     research_file = guide_dir / "research.json"
     if research_file.exists():
-        log(f"Research already done for {slug}, skipping")
+        try:
+            existing = json.loads(research_file.read_text())
+        except json.JSONDecodeError as exc:
+            err(f"research.json is invalid JSON for {slug}: {exc}")
+            return False
+
+        existing_target = normalize_guide_target(existing.get("guide_target"))
+        if existing_target != guide_target:
+            err(
+                f"{slug}: existing research target is missing or does not match "
+                f"games.json/caller guide_target; research must be redone for "
+                f"the explicit target release"
+            )
+            return False
+
+        log(f"Research already done for {slug} and target matches, skipping")
         return True
 
-    log(f"Phase 1 – Research: {title}")
-    platform = os.environ.get("GUIDE_PLATFORM", "")
-    platform_note = f"Target platform: {platform} — research sources and route list must reflect this specific version." if platform else ""
+    log(
+        f"Phase 1 – Research: {title} "
+        f"[{guide_target['label']} / {guide_target['platform']}]"
+    )
     prompt = build_prompt(
         "research.md",
         TITLE=title,
         VNDB_ID=vndb_id,
         RESEARCH_FILE=str(research_file),
         DATE=datetime.now(timezone.utc).isoformat(),
-        PLATFORM_NOTE=platform_note,
+        GUIDE_TARGET_JSON=json.dumps(guide_target, ensure_ascii=False),
         GAME_NOTES=load_game_notes(guide_dir),
     )
     session_file = guide_dir / "research_session.txt"
@@ -282,13 +356,18 @@ def compute_save_offset(routes: list, route_idx: int, guide_dir: Path) -> int:
     return total
 
 
-def generate_guide(slug: str, title: str, vndb_id: str,
-                   max_routes: int | None = None,
-                   start_route: str | None = None) -> bool:
+def generate_guide(
+    slug: str,
+    title: str,
+    vndb_id: str,
+    guide_target: dict[str, str],
+    max_routes: int | None = None,
+    start_route: str | None = None,
+) -> bool:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
 
-    if not phase_research(slug, title, vndb_id, guide_dir):
+    if not phase_research(slug, title, vndb_id, guide_dir, guide_target):
         return False
 
     research = json.loads((guide_dir / "research.json").read_text())
@@ -408,11 +487,36 @@ def run() -> None:
         slug = entry["slug"]
         title = entry.get("title", slug)
 
+        guide_target = resolve_guide_target(entry)
+        if guide_target is None:
+            err(
+                f"{slug}: no explicit guide target. Add games.json "
+                f"guide_target {{label, platform, url}} or supply "
+                f"GUIDE_TARGET_LABEL + GUIDE_PLATFORM + GUIDE_TARGET_URL. "
+                f"Refusing to infer a release from VNDB work {vid}."
+            )
+            break
+
+        # Persist a complete caller-supplied target before research so repo state
+        # becomes the source of truth for browser/local agents alike.
+        if entry.get("guide_target") != guide_target:
+            games[vid]["guide_target"] = guide_target
+            GAMES_JSON.write_text(
+                json.dumps(games, ensure_ascii=False, indent=2) + "\n"
+            )
+            log(f"Persisted explicit guide target for {slug}")
+
         # start_route only applies to the priority game; subsequent games start from the top
         this_start_route = priority_route if (priority_vid and vid == priority_vid) else None
 
-        success = generate_guide(slug, title, vid, max_routes=max_routes,
-                                 start_route=this_start_route)
+        success = generate_guide(
+            slug,
+            title,
+            vid,
+            guide_target,
+            max_routes=max_routes,
+            start_route=this_start_route,
+        )
 
         if success:
             if max_routes is not None:

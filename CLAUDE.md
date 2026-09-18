@@ -19,7 +19,7 @@ Keep author, structural-review, and accuracy-review work in separate sessions/co
 - Authors never self-approve or resolve reviewer-owned blockers.
 - `isLoad: true` is only for terminating a bad-end detour; ordinary cross-route load instructions are plain steps.
 - Do not run concurrent reviewers of the same type for the same route.
-- For direct agent review, use an existing PR for feedback instead of creating route-review issue spam; automated runners may retain their existing review transport.
+- Caller/orchestrator-specified review transport takes precedence. Only direct/manual review with no specified transport defaults to using an existing PR instead of creating route-review issue spam.
 - `reviewed: true` is set only after the structural and accuracy gates are clean.
 - When reviewed content changes, apply the invalidation matrix in `.claude/guide-standards.md` rather than blindly rerunning or preserving every gate.
 - Before declaring work complete, synchronize any tracked generated artifacts affected by source-data changes; browser/repository agents must use the committed generator/template as the specification when they cannot run the local generator.

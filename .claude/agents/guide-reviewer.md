@@ -69,15 +69,7 @@ Follow the feedback-destination rules in `.claude/guide-standards.md`.
 
 When an open PR exists, put this route's review on that PR instead of creating a route issue. When no PR exists, use the existing issue workflow.
 
-For **every accuracy finding**, include this evidence schema regardless of transport:
-
-- **File / step:** route file and exact step index or narrow section.
-- **Problem:** precise factual/source-fidelity defect.
-- **Current:** exact current guide content.
-- **Expected:** exact corrected content or behavior.
-- **Set A evidence:** URL plus the shortest relevant verbatim excerpt.
-- **Set B evidence:** URL plus the shortest relevant verbatim excerpt, or explicitly `not documented` when the standards permit that omission.
-- **Required action:** deterministic correction the author should make.
+Use the canonical finding schema in `.claude/guide-standards.md` for every accuracy finding.
 
 Group all findings for one route/type into one PR comment or one fallback issue. Do not split every finding into separate issues/comments.
 

@@ -3,12 +3,12 @@
   "vndb_id": "v13666",
   "routes": [
     {
-      "id": "iria",
-      "title": "宝形イリアルート",
+      "id": "mitsumi",
+      "title": "義城蜜魅ルート",
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "One of the four initially available heroine endings. Both the directly readable Japanese walkthrough and independent route-matrix writeups agree on the branch combination: first choice 左（地下）, second choice 左（イリア） -> イリアEND. VNDB character match: 宝形イリア / Hougyou Iria (c34599). Portrait intentionally left blank in this browser-agent pass because the VNDB image URL itself was not directly verified."
+      "notes": "Recommended first route in the primary Japanese ordering source. Route condition is エチカ=上/屋上 (screen-right in source 1), then 早雲=イリア (screen-left in source 1), producing 蜜魅END."
     },
     {
       "id": "kiriri",
@@ -16,15 +16,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "One of the four initially available heroine endings. Branch combination: first choice 左（地下）, second choice 右（ミルグラム） -> 霧里END. The LastCharles walkthrough reaches this efficiently by loading セーブ02 after clearing Iria. VNDB character match: 阿蘇霧里 / Aso Kiriri (c34601). Portrait intentionally left blank pending direct image verification."
-    },
-    {
-      "id": "mitsumi",
-      "title": "義城蜜魅ルート",
-      "portrait": "",
-      "prerequisites": [],
-      "is_true_ending": false,
-      "notes": "One of the four initially available heroine endings. Branch combination: first choice 右（屋上）, second choice 左（イリア） -> 蜜魅END. The LastCharles walkthrough reaches this efficiently by loading セーブ01 after the left-side pair is cleared, then creates セーブ03 before the second choice. VNDB character match: 義城蜜魅 / Gijou Mitsumi (c34600). Portrait intentionally left blank pending direct image verification."
+      "notes": "Recommended second route. Route condition is エチカ=下/地下 (screen-left in source 1), then 早雲=ミルグラム (screen-right in source 1), producing 霧里END."
     },
     {
       "id": "con_su",
@@ -32,73 +24,69 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "One of the four initially available heroine endings. Branch combination: first choice 右（屋上）, second choice 右（ミルグラム） -> コン・スーEND. The LastCharles walkthrough reaches this by loading セーブ03 after Mitsumi. VNDB character match: コン・スー / Con Su (c34602). Portrait intentionally left blank pending direct image verification."
+      "notes": "Recommended third route. Route condition is エチカ=上/屋上 (screen-right in source 1), then 早雲=ミルグラム (screen-right in source 1), producing コン・スーEND."
+    },
+    {
+      "id": "iria",
+      "title": "宝形イリアルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Recommended fourth heroine route. Route condition is エチカ=下/地下 (screen-left in source 1), then 早雲=イリア (screen-left in source 1), producing イリアEND. Multiple Japanese sources recommend leaving Iria until last among the four heroine routes because it connects most naturally into the final route."
     },
     {
       "id": "true_end",
       "title": "TRUE END",
       "portrait": "",
       "prerequisites": [
-        "iria",
-        "kiriri",
         "mitsumi",
-        "con_su"
+        "kiriri",
+        "con_su",
+        "iria"
       ],
       "is_true_ending": true,
-      "notes": "Unlocks only after all four heroine endings. The Japanese walkthrough says to return to the title screen, select SEARCH, perform 検索 twelve times, then select the center option to reach TRUE END. Multiple independent Japanese writeups corroborate that clearing all four left/right combinations unlocks a new title-screen branch leading to the true ending. Exact per-step jpGuide1/jpGuide2 text must still be verified against two complete Japanese walkthroughs before route_true_end.json is authored."
+      "notes": "Unlocks only after all four heroine endings. Source 1 gives the complete final-route interaction: from the title screen choose SEARCH, select 検索 twelve times, then choose the center option, leading to TRUE END. Source 2 independently confirms that clearing all four heroine routes adds the final route item to the title screen, but does not spell out the twelve-search interaction."
     }
   ],
   "recommended_order": [
-    "iria",
-    "kiriri",
     "mitsumi",
+    "kiriri",
     "con_su",
+    "iria",
     "true_end"
   ],
   "sources": [
     {
       "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/tokyo-necro-necro",
-      "title": "Tokyo NECRO 凍京NECRO＜トウキョウ・ネクロ＞ 攻略 | LastCharles",
+      "title": "Tokyo NECRO 凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - LastCharles",
       "language": "ja",
-      "notes": "Directly readable complete Japanese walkthrough used as the primary route-structure source in this browser-agent pass. Documents セーブ01/02/03, all four left/right branch combinations and heroine endings, and the post-four-end title-screen SEARCH sequence for TRUE END."
+      "notes": "Primary complete Japanese walkthrough. Gives the three save positions, exact left/right route branches for all four heroine endings, and the complete post-clear TRUE END sequence (title-screen SEARCH, 検索 x12, center choice). Its published route order is optimized around save reuse rather than story order."
     },
     {
-      "url": "https://seiya-saiga.com/game/nitroplus/tokyonecro.html",
-      "title": "凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - 誠也の部屋",
+      "url": "https://xn--zck9awe6d820vk6qg9be46k.com/game-kansou/19747/",
+      "title": "凍京NECRO（トウキョウネクロ）の感想や攻略順!百合ゲー？",
       "language": "ja",
-      "notes": "Independent Japanese walkthrough identified as the source used by the Otaku Lair Tokyo NECRO walkthrough, and also referenced by another completion guide. This is the intended second primary Japanese source. IMPORTANT ACCESS LIMITATION: the current browser-agent environment resolves the exact URL but fails to decode the page because of its legacy encoding, so its exact choice/save text could not be independently quote-checked in this pass. Do not populate jpGuide2 from this source until it can be fetched/decoded directly."
+      "notes": "Second independent Japanese route guide. The author states they completed all routes, lists all four route combinations using エチカ 上/下 and 早雲 イリア/ミルグラム, confirms all four clears unlock the last route from the title screen, and recommends 義城蜜魅 → 阿蘇霧里 → コン・スー → 宝形イリア. It does not document save points or the internal SEARCH x12 steps, so those fields are explicitly marked 第二ガイドに記載なし where applicable."
     },
     {
-      "url": "https://ruadesu.blog.shinobi.jp/nitroplus/",
-      "title": "凍京NECRO play notes / route matrix (Ruadesu)",
+      "url": "https://spica.ldblog.jp/archives/5999977.html",
+      "title": "凍京NECRO の感想 - スピカの忘れ物",
       "language": "ja",
-      "notes": "Independent Japanese-language play notes used to corroborate the two-choice route matrix: 右（屋上）+左（イリア）=蜜魅END, 左（地下）+左（イリア）=イリアEND, 左（地下）+右（ミルグラム）=霧里END, 右（屋上）+右（ミルグラム）=コン・スーEND. Supplemental corroboration only, not treated as a full second walkthrough."
+      "notes": "Supplementary Japanese source for route-order corroboration. Recommends 霧里 → コン・スー → 蜜魅 → イリア → TRUE, agrees there is no enforced heroine route order, recommends Iria last, and confirms TRUE appears after all heroine clears."
     },
     {
       "url": "https://jigujigu.blog38.fc2.com/blog-entry-1517.html",
       "title": "伝統攻撃 凍京NECRO 感想",
       "language": "ja",
-      "notes": "Japanese review/playthrough writeup whose indexed text states that there are four routes determined by exactly two midgame choices, with no route-order restriction, and that a new title item unlocks after the four routes. Supplemental structural corroboration."
+      "notes": "Supplementary Japanese structural source. Confirms exactly two binary choices determine the four routes, explicitly maps 左左=イリア, 右左=蜜魅, 左右=霧里, 右右=コン・スー, states there is no route-order restriction, and recommends Iria last for story flow."
     },
     {
-      "url": "https://www.otakulair.com/english-visual-novel-walkthroughs/tokyo-necro-walkthrough-nitro-plus-jast-usa/",
-      "title": "Tokyo Necro Walkthrough | Otaku Lair",
-      "language": "en",
-      "notes": "Complete English walkthrough explicitly stating that it is based on the Seiya Saiga walkthrough. Independently reproduces the same three-save route order and four heroine branches, plus the post-clear true-ending flow. Used only as supplemental evidence and to recover the exact Seiya Saiga source URL; it does not satisfy the project's two-Japanese-source requirement."
-    },
-    {
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2960976541",
-      "title": "凍京NECRO route guide (Steam Community)",
-      "language": "zh",
-      "notes": "Supplemental Chinese guide that explicitly references 誠也の部屋 and reproduces the same four combinations: 左/左=宝形伊莉雅, 右/左=义城蜜魅, 左/右=阿苏雾里, 右/右=コン・スー; after all four, title-screen SEARCH -> 検索 x12 -> center choice for the true ending. Not counted as a Japanese primary source."
-    },
-    {
-      "url": "https://vndb.org/v13666",
-      "title": "Tokyo NECRO - VNDB v13666",
-      "language": "en",
-      "notes": "Reference source for game identity and character matching. VNDB tags also identify the work as having few choices, unique routes, and one true end. Character IDs matched in this pass: Hougyou Iria c34599, Gijou Mitsumi c34600, Aso Kiriri c34601, Con Su c34602."
+      "url": "https://seiya-saiga.com/game/nitroplus/tokyonecro.html",
+      "title": "凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - 誠也の部屋",
+      "language": "ja",
+      "notes": "Additional known Japanese walkthrough identified by multiple external references. The page itself was not used for guide fields in this pass because its legacy encoding could not be reliably decoded through the available fetch path; no unverified text from it was copied into the guide."
     }
   ],
-  "disagreements": "1) The four heroine routes appear to have no enforced play order. A Japanese review explicitly says there is no route-order restriction, while LastCharles presents the efficient save-reuse order Iria -> Kiriri -> Mitsumi -> Con Su. This research uses that order because it minimizes replay and maps directly to セーブ01/02/03; it is not claiming a canonical story order. 2) The directly readable LastCharles walkthrough and multiple independent Japanese/other-language sources agree on the route matrix and TRUE END unlock. However, the project's quality gate requires two complete Japanese walkthroughs with exact jpGuide1/jpGuide2 text. The identified second primary Japanese walkthrough at seiya-saiga.com cannot currently be decoded by this browser-agent environment. Therefore this research pass deliberately stops short of authoring route_*.json or marking has_guide=true rather than copying LastCharles text into jpGuide2 or fabricating source text. 3) The TRUE END flow is consistently described as title-screen SEARCH -> 検索 x12 -> center selection, but the exact player-visible text/timing for each of those search interactions should be transcribed directly from both Japanese primary walkthroughs before generating route_true_end.json.",
-  "generated_at": "2026-09-18T19:01:00+00:00"
+  "disagreements": "1) There is no enforced order among the four heroine routes. Japanese recommendation sources differ on the preferred first three routes, but they consistently recommend leaving Iria until last before TRUE. This guide adopts source 2's explicit full recommendation: 蜜魅 → 霧里 → コン・スー → イリア → TRUE. 2) Source 1 numbers its reusable saves for its own completion order (Iria → Kiriri → Mitsumi → Con Su). Because this guide follows a different recommended order, the same three physical checkpoints are renumbered sequentially as セーブ1/2/3 while jpGuide1 preserves source 1's original save labels verbatim. 3) Source 2 documents all four branch combinations and the final-route unlock but does not document save locations or the TRUE route's twelve individual 検索 interactions. Those omissions are represented honestly with （第二ガイドに記載なし） rather than inferred or copied from source 1. 4) The first decision is described semantically as 上/下 by source 2 and as right=屋上 / left=地下 by source 1; supplemental Japanese source 4 independently confirms the screen-direction matrix. The second decision is similarly right=ミルグラム / left=イリア.",
+  "generated_at": "2026-09-18T19:30:00+00:00"
 }

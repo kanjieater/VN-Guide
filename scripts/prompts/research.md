@@ -64,6 +64,6 @@ Rules:
 - Include useful supplemental/provenance sources too, but identify them clearly in `notes`; they do not replace A/B.
 - Explicitly document what each source component does and does not cover.
 - If the A/B gate cannot be satisfied, write the best research file you can, explain the blocker in `disagreements`, and stop. Do not generate routes.
-- For `portrait`, fetch the VNDB character list and match route characters by name. Use the documented VNDB image URL pattern. Leave blank only when no route-character match exists.
+- For `portrait`, match the route character by name and use a **directly verified image URL** from the source record. When using VNDB, fetch the character's returned `image.url` (or equivalent explicit image field) exactly. **Never synthesize a VNDB image URL from the character ID**; VNDB character IDs and image IDs are separate identifiers. If VNDB cannot be inspected in the current environment, use another directly inspectable authoritative/structured character source and document it in `research.json`. Leave blank only when no verified route-character image can be obtained.
 
 Write the file, then stop.

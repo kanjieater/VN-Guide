@@ -21,7 +21,15 @@ Do not combine author and reviewer roles in one session.
 
 Do not generate route content until the research gate passes.
 
-A game requires **two independent Japanese verification sets**:
+A game requires **two independent Japanese verification sets** that apply to the **target release/platform being guided**.
+
+Before accepting either set:
+
+- identify the target platform/edition/release;
+- verify each source applies to that target, or document any version differences and why they do not affect the guide;
+- persist the target release/platform and any applicability caveats in `research.json`.
+
+Then apply these source roles:
 
 - **Set A** should be the detailed primary walkthrough used for exact step/save text.
 - **Set B** must independently cover the full route structure: every route-defining decision, route prerequisite/unlock, and ending used by the guide.
@@ -47,22 +55,40 @@ Portrait URLs must be directly verified against a character record or another au
 
 Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
-- `jpGuide1` must be exact verbatim text from Set A for that step.
-- Set A is the detailed primary walkthrough. If a required guide step has no exact Set-A text, the source assignment is insufficient: find a directly inspectable Set-A source that documents the step or stop and document the blocker. Never leave `jpGuide1` empty and never invent a Set-A placeholder.
-- `jpGuide2` must be exact verbatim text from Set B when that exact step is printed there.
-- If Set B independently supports the surrounding route/ending but does not print that exact step, use exactly `（第二ガイドに記載なし）`.
-- `（第二ガイドに記載なし）` is the only permitted missing-source placeholder.
-- Never copy Set A text into `jpGuide2`.
-- Preserve whitespace and punctuation exactly when quoting a source.
+- `jpGuide1`: exact verbatim Set-A text when Set A prints that step.
+- `jpGuide2`: exact verbatim Set-B text when Set B prints that step.
+- For a **route-defining choice, prerequisite/unlock, or ending**, both verification sets must independently support the fact. If one set cannot support it, the research gate is insufficient and the route cannot pass.
+- For a **non-route-defining save, load, or repeated UI action** that is explicitly documented by only one set, keep the useful step and use the symmetric omission placeholder for the other field:
+  - Set A missing → exactly `（第一ガイドに記載なし）`
+  - Set B missing → exactly `（第二ガイドに記載なし）`
+- Those two exact strings are the only permitted missing-source placeholders.
+- Never copy one source's text into the other source field.
+- Never leave either field empty.
+- Preserve source whitespace and punctuation exactly when quoting.
 
 ## Route step semantics
+
+### Step shape / `simpleJp`
+
+- Every player-action step uses the **exact in-game choice/action text** in `simpleJp`.
+- Do not paraphrase `simpleJp`, append outcome suffixes, or prefix it with location/context text.
+- Save and load instructions are the only normal non-choice `simpleJp` steps.
+- Keep save steps standalone immediately before the action they protect; do not merge a save and a player action into one step.
+- Keep load instructions standalone.
+- `enGuide` contains a useful English reference/hint when an English source or reliable reference is available; otherwise use exactly `""`. Do not discard useful existing English detail merely because it is optional.
+
+### Save rules
+
+- Save slot numbers are sequential across the recommended play order.
+- Do not invent saves. Include a save when at least one primary set explicitly documents it.
+- If sources disagree on the position of the same save/checkpoint, use the **earlier documented position**.
+- A save documented by only one set is allowed under the symmetric source-omission rule above.
+
+### Structural markers
 
 - `badEndPath` marks the first wrong choice of a bad-end detour.
 - `isLoad: true` is reserved **only** for the load that terminates a `badEndPath` detour and returns to the main route.
 - A normal instruction to load a save created in an earlier route is a plain step. Its `simpleJp` may say `セーブNにロード`, but it must **not** have `isLoad: true`.
-- Save slot numbers are sequential across the recommended play order.
-- Do not invent saves. Include a save when at least one primary set explicitly documents it.
-
 ### Bad-end completeness
 
 Every bad end documented by the Japanese verification sets must be actively included before continuing the main route.
@@ -78,6 +104,22 @@ For each documented bad end:
 - if multiple bad ends branch from the same save, include every documented bad-end detour before continuing;
 - never add `badEndPath` where no Japanese source documents a bad end;
 - never invent a bad-end label or terminal.
+
+## `guide.json` assembly contract
+
+Direct/browser agents must assemble `guide.json` equivalently to the local generator:
+
+- route entries follow `research.json` / recommended route order for every completed route;
+- each route entry includes `id`, `title`, `stepCount`, and `reviewed`;
+- `stepCount` equals the actual length of `route_<id>.json`;
+- preserve an existing route's `reviewed` value when reassembling; new routes default to `false`;
+- use the verified portrait from current research, falling back to an existing verified portrait only when research has none;
+- copy current research `sources` into `guide.json`;
+- keep `title` and `vndb_id` synchronized with the game/research record;
+- update `generated_at` only when the assembled guide content actually changes;
+- when every planned route is generated and the guide is made available, update `games.json.has_guide` and then synchronize tracked generated artifacts such as root `index.html`.
+
+Do not mark routes reviewed merely as part of assembly.
 
 ## Review finding schema
 
@@ -101,6 +143,10 @@ Structural findings do not fetch Japanese sources; instead they must show the re
 Group all findings for one route/type together. Do not create one issue/comment per individual finding.
 
 ## Review feedback destination
+
+**Caller/orchestrator transport instructions take precedence.** If the invoking prompt or automated runner explicitly says to create/use a GitHub issue, PR comment, or another review destination, follow that transport exactly.
+
+Only when the caller does **not** specify a transport should direct/manual agents use the defaults below.
 
 Keep review feedback consolidated when possible, but do not make the feedback transport itself a second approval-state system.
 
@@ -162,7 +208,9 @@ For each unreviewed route:
 2. If structural findings exist, the author fixes them and the structural reviewer independently re-verifies.
 3. Accuracy reviewer independently verifies both Japanese verification sets.
 4. If accuracy findings exist, the author fixes them and the accuracy reviewer re-fetches sources and independently re-verifies.
-5. Once both route gates are clean, the accuracy stage/orchestrator sets `reviewed: true`.
+5. **If any accuracy-stage fix changes route structure** (step order, saves/loads, `badEndPath`, `isLoad`, or another structural-flow element), the prior structural pass is stale. Rerun structural review, then rerun accuracy review against the structurally final route.
+6. Repeat until both gates are clean for the same route content.
+7. Only then may the accuracy stage/orchestrator set `reviewed: true`.
 
 Use the open PR for direct-agent feedback when one exists; otherwise use the existing issue workflow. Automated runners may retain their own transport.
 
@@ -170,7 +218,7 @@ The author and structural reviewer never set `reviewed: true`.
 
 ## Review invalidation
 
-When already-reviewed content changes, invalidate only the gates affected:
+Whenever a gate has already passed, a later change can invalidate that pass **even while `reviewed: false`**. Invalidate only the gates affected:
 
 | Change | Set reviewed:false? | Structural re-review | Accuracy re-review |
 | --- | --- | --- | --- |

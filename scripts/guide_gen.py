@@ -122,22 +122,8 @@ def load_game_notes(guide_dir: Path) -> str:
 
 def build_prompt(template_name: str, **kwargs) -> str:
     tmpl = (PROMPTS_PATH / template_name).read_text()
-
-    # Canonical rules are committed so every execution environment sees the same
-    # workflow. prompt.md remains an optional local supplement for installations
-    # that need additional generation guidance.
-    standards = (REPO_PATH / ".claude" / "guide-standards.md").read_text()
-    local_prompt_file = REPO_PATH / "prompt.md"
-    local_prompt = local_prompt_file.read_text() if local_prompt_file.exists() else ""
-    prompt_rules = standards
-    if local_prompt.strip():
-        prompt_rules += (
-            "\n\n---\n\n"
-            "## Optional local supplement\n\n"
-            + local_prompt
-        )
-
-    tmpl = tmpl.replace("$PROMPT_MD", prompt_rules)
+    prompt_md = (REPO_PATH / "prompt.md").read_text()
+    tmpl = tmpl.replace("$PROMPT_MD", prompt_md)
     # Longest keys first so $SAVE_OFFSET_PLUS1 is replaced before $SAVE_OFFSET
     for key, val in sorted(kwargs.items(), key=lambda x: -len(x[0])):
         tmpl = tmpl.replace(f"${key}", str(val))

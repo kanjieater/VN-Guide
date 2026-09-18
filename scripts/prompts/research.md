@@ -27,7 +27,7 @@ Use this JSON shape:
     {
       "id": "ascii_route_key",
       "title": "ルート名（日本語）",
-      "portrait": "https://t.vndb.org/ch/NN/NNNNN.jpg",
+      "portrait": "<verified character image URL or empty string>",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": ""

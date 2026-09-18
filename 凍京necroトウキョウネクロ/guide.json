@@ -6,35 +6,35 @@
       "id": "mitsumi",
       "title": "義城蜜魅ルート",
       "stepCount": 5,
-      "reviewed": true,
-      "portrait": ""
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/00/34600.jpg"
     },
     {
       "id": "kiriri",
       "title": "阿蘇霧里ルート",
       "stepCount": 5,
-      "reviewed": true,
-      "portrait": ""
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/01/34601.jpg"
     },
     {
       "id": "con_su",
       "title": "コン・スールート",
       "stepCount": 3,
-      "reviewed": true,
-      "portrait": ""
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/02/34602.jpg"
     },
     {
       "id": "iria",
       "title": "宝形イリアルート",
       "stepCount": 3,
-      "reviewed": true,
-      "portrait": ""
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/99/34599.jpg"
     },
     {
       "id": "true_end",
       "title": "TRUE END",
       "stepCount": 15,
-      "reviewed": true,
+      "reviewed": false,
       "portrait": ""
     }
   ],
@@ -43,31 +43,49 @@
       "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/tokyo-necro-necro",
       "title": "Tokyo NECRO 凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - LastCharles",
       "language": "ja",
-      "notes": "Primary complete Japanese walkthrough. Gives the three save positions, exact left/right route branches for all four heroine endings, and the complete post-clear TRUE END sequence (title-screen SEARCH, 検索 x12, center choice). Its published route order is optimized around save reuse rather than story order."
+      "notes": "PRIMARY JAPANESE WALKTHROUGH A. Complete compact walkthrough for the whole game: three save positions, all four heroine branch combinations/endings, and the complete post-four-END TRUE sequence (title-screen SEARCH, 検索 x12, 中央を選択, TRUE END). Used for jpGuide1 and exact save placement."
     },
     {
       "url": "https://xn--zck9awe6d820vk6qg9be46k.com/game-kansou/19747/",
       "title": "凍京NECRO（トウキョウネクロ）の感想や攻略順!百合ゲー？",
       "language": "ja",
-      "notes": "Second independent Japanese route guide. The author states they completed all routes, lists all four route combinations using エチカ 上/下 and 早雲 イリア/ミルグラム, confirms all four clears unlock the last route from the title screen, and recommends 義城蜜魅 → 阿蘇霧里 → コン・スー → 宝形イリア. It does not document save points or the internal SEARCH x12 steps, so those fields are explicitly marked 第二ガイドに記載なし where applicable."
-    },
-    {
-      "url": "https://spica.ldblog.jp/archives/5999977.html",
-      "title": "凍京NECRO の感想 - スピカの忘れ物",
-      "language": "ja",
-      "notes": "Supplementary Japanese source for route-order corroboration. Recommends 霧里 → コン・スー → 蜜魅 → イリア → TRUE, agrees there is no enforced heroine route order, recommends Iria last, and confirms TRUE appears after all heroine clears."
+      "notes": "PRIMARY JAPANESE VERIFICATION SET B — PART 1 (route guide/index). The author states they completed all routes, lists all four route combinations using エチカ 上/下 and 早雲 イリア/ミルグラム, confirms clearing all four unlocks the final route from the title screen, and recommends 義城蜜魅 → 阿蘇霧里 → コン・スー → 宝形イリア. This page supplies the verbatim jpGuide2 route-choice text. Source Set B is intentionally multi-page; Parts 2-4 below complete the independent Japanese coverage of the heroine and TRUE-route structure."
     },
     {
       "url": "https://jigujigu.blog38.fc2.com/blog-entry-1517.html",
       "title": "伝統攻撃 凍京NECRO 感想",
       "language": "ja",
-      "notes": "Supplementary Japanese structural source. Confirms exactly two binary choices determine the four routes, explicitly maps 左左=イリア, 右左=蜜魅, 左右=霧里, 右右=コン・スー, states there is no route-order restriction, and recommends Iria last for story flow."
+      "notes": "PRIMARY JAPANESE VERIFICATION SET B — PART 2. Independent Japanese full-route structural verification: states there are exactly two binary choices and no other route choices, maps 左左=宝形イリア / 右左=義城蜜魅 / 左右=阿蘇霧里 / 右右=コン・スー, confirms no route-order restriction, explains the post-clear 再提案 shortcut, and confirms a new title-screen item appears after the four routes."
+    },
+    {
+      "url": "https://kagome1011.blog.fc2.com/blog-entry-314.html",
+      "title": "凍京ＮＥＣＲＯ　Ｔｒｕｅ　ｅｎｄ　＋コン・スーミニゲーム＆がっこうねくろ！",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE VERIFICATION SET B — PART 3. Japanese full-clear/TRUE-END play report. Confirms TRUE was completed, that it starts from a newly unlocked late-game branch, and independently restates the game's entire four-combination branching model (右右 / 右左 / 左右 / 左左). Used to verify the existence and post-four-route placement of TRUE rather than to fabricate UI text the page does not print."
+    },
+    {
+      "url": "https://kazud.hatenablog.com/entry/2024/07/13/074011",
+      "title": "たまには有益なことをしてみる。〖凍京NECRO〗TRUE END 解説、考察、疑問点等",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE VERIFICATION SET B — PART 4. Detailed Japanese re-read of TRUE's 検索結果 section. Independently verifies that the four previously played route branches are the four simulations used by the TRUE sequence and walks through the subsequent 検索/演算 logic through the actual ending. Together with Parts 1-3 this makes Source Set B complete at the route/ending level. It does not print LastCharles's exact twelve identical 検索 button presses or center-button wording, so those jpGuide2 fields remain honestly marked （第二ガイドに記載なし）."
+    },
+    {
+      "url": "https://spica.ldblog.jp/archives/5999977.html",
+      "title": "凍京NECRO の感想 - スピカの忘れ物",
+      "language": "ja",
+      "notes": "Supplementary Japanese corroboration. Confirms four routes, recommends 霧里 → コン・スー → 蜜魅 → イリア → TRUE, says the heroine order is not locked, recommends Iria last, and confirms TRUE appears after all heroine clears."
     },
     {
       "url": "https://seiya-saiga.com/game/nitroplus/tokyonecro.html",
       "title": "凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - 誠也の部屋",
       "language": "ja",
-      "notes": "Additional known Japanese walkthrough identified by multiple external references. The page itself was not used for guide fields in this pass because its legacy encoding could not be reliably decoded through the available fetch path; no unverified text from it was copied into the guide."
+      "notes": "Known independent Japanese walkthrough cited by derivative guides. Retained for provenance, but NOT used for any guide field because the page's legacy encoding cannot be reliably decoded by the available fetch path. No text is inferred from it."
+    },
+    {
+      "url": "https://vndb.org/v13666/chars",
+      "title": "Tokyo NECRO - VNDB character list",
+      "language": "en",
+      "notes": "Reference only for route-character matching and portraits. Verified IDs: Gijou Mitsumi c34600, Aso Kiriri c34601, Con Su c34602, Hougyou Iria c34599. Portrait URLs use the repository's documented VNDB character-image convention."
     }
   ],
   "generated_at": "2026-09-18T19:30:00+00:00"

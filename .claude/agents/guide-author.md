@@ -70,13 +70,16 @@ The author never sets `reviewed: true`.
 
 ## Applying reviewer corrections
 
-For either `route-structure` or `route-accuracy` findings:
+Follow the review destination rules in `.claude/guide-standards.md`.
 
-1. Locate the existing open issue for the affected route.
-2. Read every finding and required action.
-3. Apply the correction.
-4. Apply the appropriate review invalidation.
-5. Comment on the existing issue with a concise summary of the fix.
-6. Leave the issue open.
+If an open PR exists for the work:
 
-Never close a reviewer issue yourself. The reviewer that owns that gate must independently re-verify and close it.
+1. Find the latest marked `CHANGES_REQUESTED` PR comment for the affected route/type.
+2. Apply every required correction.
+3. Apply the appropriate review invalidation.
+4. Post a concise fix comment on the same PR using the documented `vn-guide-fix` marker.
+5. Leave review status to the reviewer.
+
+If no open PR exists, use the fallback review issue for the affected route/type, apply the correction, comment there, and leave the issue open.
+
+The author never posts `PASS` or `RESOLVED`, never closes a reviewer blocker, and never sets `reviewed: true`.

@@ -8,10 +8,9 @@ The workflow is environment-neutral: a role may use a checkout, repository API, 
 
 Before reviewing a route, determine whether the current work has an open pull request.
 
-- **Open PR:** use that single PR as the review ledger for every route. Structural and accuracy reviewers post marked status comments there; authors post marked fix comments there. Do not create route review issues.
-- **No open PR:** use the fallback issue workflow.
-
-In PR mode, the latest marked comment for a route/type is authoritative. `CHANGES_REQUESTED` blocks; `PASS` and `RESOLVED` are clean.
+- **Open PR, direct/manual agent review:** put review findings and author fixes on that PR instead of creating route-review issue spam.
+- **No open PR:** use the existing issue workflow.
+- **Automated runner:** it may retain its existing persistence/issue mechanism; this PR does not redesign the local runner.
 
 ## Per-route lifecycle
 
@@ -22,46 +21,42 @@ reviewed: false
         ↓
 Structural reviewer (fresh context)
         ↓
-findings? ── yes → one route-structure issue
+findings? ── yes → PR feedback or fallback issue
    │                     ↓
-   no                 Author fixes + comments
+   no                 Author fixes + reports
    │                     ↓
    │              Structural reviewer re-verifies
-   │                     ↓
-   │                 reviewer closes
    ↓
 Accuracy reviewer (fresh context)
         ↓
-findings? ── yes → one route-accuracy issue
+findings? ── yes → PR feedback or fallback issue
    │                     ↓
-   no                 Author fixes + comments
+   no                 Author fixes + reports
    │                     ↓
    │               Accuracy reviewer re-fetches
    │               sources and re-verifies
-   │                     ↓
-   │                 reviewer closes
    ↓
 No open structural/accuracy blocker
         ↓
 Accuracy stage/orchestrator sets reviewed: true
 ```
 
-In PR mode, a clean first pass posts a marked `PASS` comment so the PR contains an auditable review ledger. In issue fallback mode, a clean first pass creates no issue.
+For direct PR review, a clean pass can be recorded with a concise PASS comment. In issue fallback mode, a clean first pass creates no issue.
 
 ## Concurrency
 
 Review routes one at a time per review type.
 
-Never run two structural reviewers or two accuracy reviewers concurrently for the same route. Before creating a blocking issue, check for an existing open issue of that type and re-check immediately before creation.
+Never run two structural reviewers or two accuracy reviewers concurrently for the same route. Before creating a fallback blocking issue, check for an existing open issue of that type and re-check immediately before creation.
 
 This prevents duplicate issue races and keeps one canonical thread per gate.
 
 ## Author/reviewer ownership
 
 - Author creates/fixes route content and comments on findings.
-- Structural reviewer owns structural verification and closing structural issues.
-- Accuracy reviewer owns source verification and closing accuracy issues.
-- Author never closes review issues.
+- Structural reviewer owns structural verification and resolution of structural findings.
+- Accuracy reviewer owns source verification and resolution of accuracy findings.
+- In issue fallback mode, only the owning reviewer closes the issue.
 - Author and structural reviewer never set `reviewed: true`.
 
 ## Re-review scope
@@ -79,16 +74,6 @@ Do not rerun structural review merely because source metadata changed if no rout
 
 ## Automated orchestration
 
-`scripts/review.py` implements the same lifecycle with fresh role invocations.
+`scripts/review.py` remains unchanged by this workflow refactor. It is one local implementation of the same author → structural review → accuracy review gates and may continue using its existing issue-based persistence.
 
-Useful scoping variables:
-
-```bash
-GUIDE_REVIEW_VID=v1715 python3 scripts/review.py
-GUIDE_REVIEW_VID=v1715 GUIDE_REVIEW_ROUTE=okita python3 scripts/review.py
-GUIDE_REVIEW_PR=123 GUIDE_REVIEW_VID=v1715 python3 scripts/review.py
-```
-
-`GUIDE_REVIEW_PR` explicitly binds the local orchestrator to an open PR when branch-based PR discovery is unavailable (for example, a detached checkout).
-
-These are convenience examples for environments with the local runner. Other environments should perform the same role transitions with their available repository and issue tools.
+The portable Markdown rules govern quality and role behavior across environments; they do not require browser/repository agents to execute the local Python runner.

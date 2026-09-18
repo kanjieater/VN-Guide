@@ -21,13 +21,32 @@ Do not combine author and reviewer roles in one session.
 
 Do not generate route content until the research gate passes.
 
-A game requires **two independent Japanese verification sets** that apply to the **target release/platform being guided**.
+A game requires an **explicit linked guide target** plus two independent Japanese verification sets that apply to that exact target.
 
-Before accepting either set:
+### Guide target
 
-- identify the target platform/edition/release;
-- verify each source applies to that target, or document any version differences and why they do not affect the guide;
-- persist the target release/platform and any applicability caveats in `research.json`.
+Do **not** infer the target release from the VNDB work id. A single VNDB `v...` work may aggregate materially different original releases, remakes, ports, editions, and localizations.
+
+Before research begins, the caller/repository must supply:
+
+```json
+"guide_target": {
+  "label": "specific edition/release name",
+  "platform": "specific platform",
+  "url": "https://authoritative.example/specific-release"
+}
+```
+
+Rules:
+
+- `games.json.guide_target` is the normal repository source of truth.
+- A caller may explicitly supply the same three fields for a new guide, but the target must be persisted to `games.json` before research so later local/browser agents see the same target.
+- `label`, `platform`, and `url` are all required and non-empty.
+- The URL should identify the **specific intended release/edition**, not merely the broad work. When VNDB contains the exact target release, prefer its `https://vndb.org/r...` release page over the broader `v...` work page.
+- If no explicit target is supplied, stop and report the missing target. Never choose a release by inference.
+- Copy the exact target into `research.json.guide_target` and later into `guide.json.guide_target`.
+- Verify every Set A/B component applies to that exact target, or document version differences and why they do not affect the guide.
+- If the requested target cannot be verified or available walkthroughs apply to a materially different release, stop and document the blocker rather than silently switching targets.
 
 Then apply these source roles:
 
@@ -115,6 +134,7 @@ Direct/browser agents must assemble `guide.json` equivalently to the local gener
 - preserve an existing route's `reviewed` value when reassembling; new routes default to `false`;
 - use the verified portrait from current research, falling back to an existing verified portrait only when research has none;
 - copy current research `sources` into `guide.json`;
+- copy `research.json.guide_target` into `guide.json.guide_target` unchanged;
 - keep `title` and `vndb_id` synchronized with the game/research record;
 - update `generated_at` only when the assembled guide content actually changes;
 - when every planned route is generated and the guide is made available, update `games.json.has_guide` and then synchronize tracked generated artifacts such as root `index.html`.
@@ -232,6 +252,7 @@ Whenever a gate has already passed, a later change can invalidate that pass **ev
 | Route step order, `badEndPath`, `isLoad`, save/load structure | Yes, affected route | Yes | Yes |
 | Route choice/source text/save position/ending content without structural change | Yes, affected route | No | Yes |
 | Research source basis, prerequisites, unlocks, or route-order claims | Yes, affected routes | No unless route files changed structurally | Yes |
+| **Guide target release/platform changes** | **Yes, all routes** | **Yes after routes are regenerated/checked for the new target** | **Yes, with fresh research for the new target** |
 | Portrait/title/display-only metadata | No | No | No |
 | Issue labels/comments/duplicate cleanup only | No | No | No |
 
@@ -241,6 +262,7 @@ If uncertain whether a route-content change is structural, rerun structural revi
 
 A route is complete only when:
 
+- `guide_target` is explicit, linked, and matches the release/platform against which research was performed;
 - its structural review is clean,
 - its accuracy review is clean against both Japanese verification sets,
 - all reviewer findings for the active review have been independently re-verified as resolved, and

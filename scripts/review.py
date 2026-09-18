@@ -160,6 +160,10 @@ def pr_fix_marker(review_type: str, slug: str, route_id: str) -> str:
     return f"<!-- vn-guide-fix:{review_type}:{slug}:{route_id} -->"
 
 
+def pr_invalidate_marker(review_type: str, slug: str, route_id: str) -> str:
+    return f"<!-- vn-guide-invalidate:{review_type}:{slug}:{route_id} -->"
+
+
 def get_pr_review_status(
     pr_number: int, review_type: str, slug: str, route_id: str
 ) -> str | None:
@@ -188,11 +192,23 @@ def get_pr_review_status(
         comments = pages
 
     marker = pr_review_marker(review_type, slug, route_id)
+    invalidation_marker = pr_invalidate_marker(review_type, slug, route_id)
     matches = [c for c in comments if marker in (c.get("body") or "")]
     if not matches:
         return None
 
     latest = max(matches, key=lambda item: item.get("id", 0))
+    invalidations = [
+        c for c in comments
+        if invalidation_marker in (c.get("body") or "")
+    ]
+    if invalidations:
+        latest_invalidation = max(
+            invalidations, key=lambda item: item.get("id", 0)
+        )
+        if latest_invalidation.get("id", 0) > latest.get("id", 0):
+            return None
+
     body = latest.get("body") or ""
     match = re.search(
         r"(?im)^\s*Status:\s*(PASS|CHANGES_REQUESTED|RESOLVED)\s*$",
@@ -208,7 +224,7 @@ def pr_initial_review_prompt(
     return (
         f"An open PR #{pr_number} exists for this work. Use that PR as the review ledger; "
         f"do not create a route review issue. Post one top-level PR comment beginning with "
-        f"{marker!r}. On the next line write exactly 'Status: PASS' if clean or "
+        f"the exact marker `{marker}`. On the next line write exactly 'Status: PASS' if clean or "
         f"'Status: CHANGES_REQUESTED' if findings exist, followed by the findings. "
         f"Before posting, check the PR for an existing comment with the same marker and "
         f"do not race another {review_type} reviewer for this route. "
@@ -233,10 +249,12 @@ def pr_rereview_prompt(
     pr_number: int, review_type: str, slug: str, route_id: str
 ) -> str:
     marker = pr_review_marker(review_type, slug, route_id)
+    fix_marker = pr_fix_marker(review_type, slug, route_id)
     return (
         f"Re-review is tracked on PR #{pr_number}. Read the latest CHANGES_REQUESTED review "
-        f"and the author's fix comment for marker {marker!r}. Post a new top-level PR comment "
-        f"beginning with the same review marker. Write exactly 'Status: RESOLVED' if every "
+        f"with marker `{marker}` and the author's latest fix comment with marker "
+        f"`{fix_marker}`. Post a new top-level PR comment beginning with the same "
+        f"review marker. Write exactly 'Status: RESOLVED' if every "
         f"finding is fixed, otherwise 'Status: CHANGES_REQUESTED' and describe what remains. "
         f"Do not create a route review issue. "
     )
@@ -624,6 +642,20 @@ def mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title:
             err(
                 f"Refusing to mark {slug}/{route_id} reviewed — "
                 f"accuracy PR status is {accuracy_status!r}"
+            )
+            return False
+
+        legacy_accuracy = get_open_issue_for_route(
+            slug, route_id, route_title
+        )
+        legacy_structural = get_open_structural_issue_for_route(
+            slug, route_id, route_title
+        )
+        if legacy_accuracy is not None or legacy_structural is not None:
+            err(
+                f"Refusing to mark {slug}/{route_id} reviewed — "
+                f"legacy review issue still open "
+                f"(accuracy={legacy_accuracy}, structural={legacy_structural})"
             )
             return False
     else:

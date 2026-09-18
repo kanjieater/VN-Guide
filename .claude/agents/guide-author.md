@@ -31,13 +31,15 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 
 Before writing any route:
 
-1. Identify the target platform/edition/release.
-2. Identify two independent Japanese verification sets as defined in `.claude/guide-standards.md`.
-3. Verify both are directly inspectable and apply to the target release; document version differences.
-4. Verify both collectively cover every main-route-defining decision, prerequisite/unlock, and route/main ending used by the guide.
-5. Ensure the research/overall guide plan enumerates every route in recommended order.
-6. Record the target release plus every source/set component and its coverage in `research.json`.
-7. If the gate cannot be satisfied, stop after research and document the blocker.
+1. Read the explicit `guide_target` supplied by `games.json` or the caller. Do **not** choose a release from the VNDB work id.
+2. If the caller supplied a new target, persist it to `games.json` before research.
+3. Require non-empty target `label`, `platform`, and release-specific `url`; if the target is missing, stop and report it.
+4. Identify two independent Japanese verification sets as defined in `.claude/guide-standards.md`.
+5. Verify both are directly inspectable and apply to the **exact target release**; document version differences.
+6. Verify both collectively cover every main-route-defining decision, prerequisite/unlock, and route/main ending used by the guide.
+7. Ensure the research/overall guide plan enumerates every route in recommended order.
+8. Copy the exact target into `research.json.guide_target` and record every source/set component and its coverage.
+9. If the gate cannot be satisfied, stop after research and document the blocker.
 
 Do not count inaccessible pages, translations, or derivatives as an independent primary set.
 
@@ -57,7 +59,7 @@ Before submitting the **current route**, confirm:
 - Every documented non-main ending detour represented via `badEndPath` is complete.
 - Save numbering is sequential across routes.
 - `jpGuide1` / `jpGuide2` follow the exact source-field rules in `.claude/guide-standards.md`.
-- `guide.json` is assembled according to the canonical assembly contract.
+- `guide.json` is assembled according to the canonical assembly contract, including the exact linked `guide_target`.
 
 ### Load semantics
 

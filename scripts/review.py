@@ -213,8 +213,8 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"Apply all required structural fixes to {slug}/route_{route_id}.json. "
             f"When done, report what you changed: "
             f"gh issue comment {existing_issue} --body \"Fixed: <one-line description of what changed>\" "
-            f"Do NOT close the issue. Only the reviewer may close it, after independently "
-            f"verifying your fix against the sources."
+            f"Do NOT close the issue. Only the structural reviewer may close it, after "
+            f"independently re-tracing and verifying the structural fix."
         )
         ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
         if not ok:

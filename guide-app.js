@@ -48,6 +48,33 @@ function renderHome() {
   const status = document.getElementById("home-status");
   const titleEl = document.getElementById("game-title");
   if (titleEl && guideData.title) titleEl.textContent = guideData.title;
+
+  let targetEl = document.getElementById("guide-target");
+  if (!targetEl) {
+    targetEl = document.createElement("p");
+    targetEl.id = "guide-target";
+    const routeList = document.getElementById("route-list");
+    if (routeList) routeList.before(targetEl);
+  }
+  const target = guideData.guide_target;
+  if (targetEl && target && target.label && target.platform && target.url) {
+    const display = target.label + " · " + target.platform;
+    const link = document.createElement("a");
+    link.href = target.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = display;
+    targetEl.replaceChildren(
+      document.createTextNode("対象版: "),
+      link,
+    );
+    targetEl.style.cssText =
+      "margin:0 0 12px;font-size:12px;color:#888;text-align:center;";
+    link.style.color = "inherit";
+    link.style.textDecoration = "underline";
+  } else if (targetEl) {
+    targetEl.style.display = "none";
+  }
   if (!guideData.routes || guideData.routes.length === 0) {
     list.innerHTML = "";
     status.style.display = "";

@@ -15,10 +15,11 @@ Output file: `$ROUTE_FILE`
 ### Instructions
 
 1. Read `$RESEARCH_FILE`.
-2. Confirm Japanese verification Set A and Set B both satisfy the canonical research gate for this route. If not, stop without generating route content.
-3. Fetch the relevant components of both sets directly.
-4. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
-5. Write the complete route as a JSON array to `$ROUTE_FILE`.
+2. Read and preserve the exact `guide_target` from research. Do not reinterpret the VNDB work ID as the target release.
+3. Confirm Japanese verification Set A and Set B both satisfy the canonical research gate for this route **and the exact guide target release**. If not, stop without generating route content.
+4. Fetch the relevant components of both sets directly.
+5. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
+6. Write the complete route as a JSON array to `$ROUTE_FILE`.
 
 ### Step format
 

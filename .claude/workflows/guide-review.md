@@ -90,6 +90,13 @@ This is a repository-consistency check, not a reason to redesign the local orche
 
 ## Automated orchestration
 
-`scripts/review.py` remains unchanged by this workflow refactor. It is one local implementation of the same author → structural review → accuracy review gates and may continue using its existing issue-based persistence.
+`scripts/review.py` remains the local issue-based orchestrator. This PR makes one targeted correctness change to it: after structural review passes, the runner snapshots the route's structural signature; if accuracy-stage corrections change that signature, it reruns structural review and then accuracy review before allowing `reviewed: true`. The final mark-reviewed gate also checks both structural and accuracy blockers.
 
-The portable Markdown rules govern quality and role behavior across environments; they do not require browser/repository agents to execute the local Python runner.
+This does not move PR-comment state into the local runner and does not require browser/repository agents to execute the Python orchestration.
+
+Focused regression tests live in `tests/test_review.py` and cover:
+
+- unchanged route structure → one structural + one accuracy pass;
+- structural changes during accuracy correction → structural + accuracy rerun;
+- source-only / `enGuide` edits → unchanged structural signature;
+- open structural blocker → refuse `reviewed: true`.

@@ -48,6 +48,15 @@ Rules:
 - Verify every Set A/B component applies to that exact target, or document version differences and why they do not affect the guide.
 - If the requested target cannot be verified or available walkthroughs apply to a materially different release, stop and document the blocker rather than silently switching targets.
 
+### Legacy target migration
+
+Do not guess targets for existing guides that predate `guide_target`.
+
+- Existing reviewed flags are not invalidated **solely** because this field was absent historically.
+- Before any new source-dependent generation, correction, or accuracy re-review, the guide must receive an explicit target.
+- If the target backfill merely formalizes the exact release already unambiguously documented in the existing research/sources, the backfill itself is metadata-only and does not invalidate route review.
+- If the old research is ambiguous, or the target changes to a different release/platform/edition, redo research for the new target and invalidate all affected route reviews.
+
 Then apply these source roles:
 
 - **Set A** should be the detailed primary walkthrough used for exact step/save text.
@@ -252,7 +261,8 @@ Whenever a gate has already passed, a later change can invalidate that pass **ev
 | Route step order, `badEndPath`, `isLoad`, save/load structure | Yes, affected route | Yes | Yes |
 | Route choice/source text/save position/ending content without structural change | Yes, affected route | No | Yes |
 | Research source basis, prerequisites, unlocks, or route-order claims | Yes, affected routes | No unless route files changed structurally | Yes |
-| **Guide target release/platform changes** | **Yes, all routes** | **Yes after routes are regenerated/checked for the new target** | **Yes, with fresh research for the new target** |
+| Backfill of the exact already-documented legacy target, with no source/route behavior change | No | No | No |
+| **Guide target release/platform changes or previously ambiguous target is resolved to a specific release** | **Yes, all routes** | **Yes after routes are regenerated/checked for the target** | **Yes, with fresh research for the target** |
 | Portrait/title/display-only metadata | No | No | No |
 | Issue labels/comments/duplicate cleanup only | No | No | No |
 

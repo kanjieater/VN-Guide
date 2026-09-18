@@ -45,11 +45,11 @@ Both `jpGuide1` and `jpGuide2` must be non-empty on every step.
 
 - Use exact verbatim source text when that set prints the step.
 - Main-route-defining choices, prerequisites/unlocks, and route/main endings must be independently supported by **both** sets. If one set cannot support such a fact, stop and repair the research/source gate.
-- For a non-route-defining save/load/repeated UI action **or optional bad-end-only step** documented by only one primary set while the other is silent/non-contradictory:
+- For a non-route-defining save/load/repeated UI action **or optional non-main-ending-only step** documented by only one primary set while the other is silent/non-contradictory:
   - Set A missing → `jpGuide1` is exactly `（第一ガイドに記載なし）`.
   - Set B missing → `jpGuide2` is exactly `（第二ガイドに記載なし）`.
 - Never use an omission placeholder to hide missing independent support for a main-route-defining fact.
-- One-source optional bad ends are allowed when the other primary set is silent/non-contradictory; if the other set contradicts that bad end, stop and reconcile the conflict before generating it.
+- One-source optional non-main endings (bad, normal, alternate, or similarly labeled) are allowed when the other primary set is silent/non-contradictory; if the other set contradicts that ending, stop and reconcile the conflict before generating it.
 - Never copy one source into the other source field.
 - Never leave either field empty.
 - Preserve whitespace and punctuation exactly.
@@ -68,9 +68,9 @@ Both `jpGuide1` and `jpGuide2` must be non-empty on every step.
 - Save slots are sequential across routes in recommended play order.
 - Insert a standalone save step immediately before the action it protects.
 
-### Bad-end loads vs ordinary route-entry loads
+### Ending-detour loads vs ordinary route-entry loads
 
-`isLoad: true` has one meaning only: it terminates a `badEndPath` detour and returns to the main route.
+`isLoad: true` has one meaning only: it terminates a `badEndPath` non-main-ending detour and returns to the main route.
 
 Bad-end pattern:
 
@@ -85,27 +85,27 @@ Bad-end pattern:
 
 If this route begins by loading a save created in an earlier route, write the visible load instruction as a **plain step with no `isLoad` field**.
 
-### Bad-end completeness
+### Non-main ending detour completeness
 
-Every bad end explicitly documented by either primary Japanese verification set must be actively played before continuing the main route when the other set is silent or agrees. One-source bad ends use the appropriate omission placeholder on bad-end-only steps. Contradictory bad-end evidence must be reconciled before generation.
+Every documented non-main ending—bad, normal, alternate, or similarly labeled—explicitly documented by either primary Japanese verification set must be actively played before continuing the main route when the other set is silent or agrees. One-source detours use the appropriate omission placeholder on detour-only steps. Contradictory ending evidence must be reconciled before generation.
 
-For every documented bad end:
+For every documented non-main ending detour:
 
 1. Save at the documented point when a source provides one.
-2. Add the first wrong choice and set `badEndPath` to the **exact documented bad-end label**.
-3. Include every documented step needed to reach the bad-end terminal.
+2. Add the first branch choice and set `badEndPath` to the **exact documented ending label**.
+3. Include every documented step needed to reach the ending terminal.
 4. Add the matching `isLoad: true` step immediately after the terminal.
 5. Continue with the good/main choice.
 
-If multiple bad ends branch from the same save, include **all** of them before continuing.
+If multiple non-main endings branch from the same save, include **all** of them before continuing.
 
-Never add `badEndPath` when no Japanese source documents a bad end, and never invent a bad-end label or terminal.
+Never add `badEndPath` when no Japanese source documents a non-main ending, and never invent an ending label or terminal.
 
 ### Completion
 
 - Cover the complete route from entry to ending.
 - Include all required choices.
-- Include every documented bad-end detour completely.
+- Include every documented non-main ending detour completely.
 - Stop at this route's ending.
 - Output only valid JSON to `$ROUTE_FILE`.
 

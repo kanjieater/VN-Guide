@@ -97,4 +97,6 @@ If no transport was specified and an open PR exists for the work:
 
 If no transport was specified and no open PR exists, use the fallback review issue for the affected route/type, apply the correction, comment there, and leave the issue open.
 
+If a reviewer finding appears inconsistent with the directly inspected sources, do not silently skip it. Explain the disagreement at the active review destination, cite the evidence, and still make the safest source-supported correction available unless the reviewer explicitly withdraws the finding.
+
 The author never self-approves, never closes a reviewer-owned blocker, and never sets `reviewed: true`.

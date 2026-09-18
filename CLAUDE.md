@@ -1,83 +1,26 @@
-# VN Guide — Claude Code Instructions
+# VN Guide — Agent Instructions
 
-## Quality gate: guides require independent review before completion
+Read `.claude/guide-standards.md` first. It is the committed source of truth for guide generation, source requirements, review roles, issue discipline, invalidation, and completion gates.
 
-A generated guide is **not complete**. Completion requires:
-
-1. Author generates or corrects the guide
-2. Structural reviewer independently checks route flow and bad-end chain integrity
-3. Accuracy reviewer independently checks all choices against both Japanese sources
-4. All issues from both reviewers are resolved (GitHub issues closed)
-5. The accuracy reviewer sets `reviewed: true` once both reviews pass
-
-**Never:**
-- Set `reviewed: true` before both the structural (`route-structure`) and accuracy (`route-accuracy`) issues are closed
-- Self-approve a guide you just generated or corrected
-- Close a review issue as the author — only the reviewer that filed it may close it, and only
-  after independently re-verifying the fix against the Japanese sources. The author reports
-  the fix with `gh issue comment`; closing authority belongs solely to the reviewer.
-- Skip review because the changes are small
-- Create duplicate GitHub issues for a route that already has an open issue of that type
-
----
+A local `prompt.md`, if present, is an optional runtime supplement. It is not required to understand the repository workflow and must not override the committed standards.
 
 ## Roles
 
-**Guide Author** (`.claude/agents/guide-author.md`)
-— generates and corrects guides; leaves review to the reviewer.
+- **Guide Author:** `.claude/agents/guide-author.md`
+- **Structural Reviewer:** `.claude/agents/guide-reviewer-structural.md`
+- **Accuracy Reviewer:** `.claude/agents/guide-reviewer.md`
+- **Workflow:** `.claude/workflows/guide-review.md`
 
-**Accuracy Reviewer** (`.claude/agents/guide-reviewer.md`)
-— independently verifies guides against Japanese sources; does not edit guides.
+Keep author, structural-review, and accuracy-review work in separate sessions/contexts.
 
-Use the appropriate agent for each task. Do not mix roles in a single session.
+## Non-negotiable gates
 
----
+- Research must satisfy the two-independent-Japanese-verification-set gate before route generation.
+- Authors never self-approve and never close reviewer issues.
+- `isLoad: true` is only for terminating a bad-end detour; ordinary cross-route load instructions are plain steps.
+- Do not run concurrent reviewers of the same type for the same route.
+- Clean first-pass reviews do not create PASS issues.
+- `reviewed: true` is set only after the structural and accuracy gates are clean.
+- When reviewed content changes, apply the invalidation matrix in `.claude/guide-standards.md` rather than blindly rerunning or preserving every gate.
 
-## Review state
-
-Review state is tracked per route as `"reviewed": bool` inside `<slug>/guide.json`.
-
-- `"reviewed": false` — generated but not yet confirmed; shows "unverified" badge in UI
-- `"reviewed": true` — reviewer passed with no open GitHub issues; badge removed
-
-The gate before `reviewed: true` is: no open GitHub issues labeled `route-structure` + `<slug>` AND no open issues labeled `route-accuracy` + `<slug>` for that route.
-
-Valid lifecycle:
-```
-guide_gen.py generates route        →  reviewed: false
-        ↓
-Structural reviewer runs            →  creates route-structure issue if chain defects found
-        ↓ (if issues)
-Author runs (fresh session)         →  fixes structural findings, comments (never closes)
-        ↓
-Structural reviewer re-runs         →  verifies and closes, or comments if still wrong
-        ↓ (structural issue closed by reviewer)
-Accuracy reviewer runs              →  creates route-accuracy issue if source mismatches found
-        ↓ (if issues)
-Author runs (fresh session)         →  fixes accuracy findings, comments (never closes)
-        ↓
-Accuracy reviewer re-runs           →  verifies and closes, or comments if still wrong
-        ↓ (both issues closed by reviewers)
-Accuracy reviewer sets reviewed: true  →  deploy
-```
-
-The accuracy reviewer sets `reviewed: true` only after confirming both the structural and accuracy issues are closed. Neither the author nor the structural reviewer sets this field.
-
----
-
-## Workflow reference
-
-See `.claude/workflows/guide-review.md` for manual command examples and the full lifecycle.
-
----
-
-## Guide generation rules
-
-Core rules live in `prompt.md`. Read it before every guide session.
-
-Key points:
-- Two complete Japanese walkthroughs required before writing
-- Cross-validate every choice and save point
-- No invented content — document uncertainty instead
-- Bad end paths must be complete and correctly tagged
-- Save numbering is cross-route sequential
+Shell commands in repository docs are examples, not requirements. Use the repository, web, file, and issue capabilities available in the current environment while preserving the required workflow state.

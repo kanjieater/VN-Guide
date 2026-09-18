@@ -44,37 +44,35 @@ Reconstruct the main route by removing bad-end chains from `badEndPath` through 
 
 Ordinary cross-route load instructions may remain on the main route as plain steps.
 
-## Issue discipline
+## Review record
 
-There must be at most one open `route-structure` issue for this route.
+Follow the review destination rules in `.claude/guide-standards.md`.
 
-Before creating an issue:
-1. Check whether one is already open.
-2. Re-check immediately before creation.
-3. If one exists, use it instead.
+### Open PR exists
 
-Do not run concurrently with another structural reviewer on the same route.
+Use the PR as the review ledger. Do not create a route issue.
 
-### Findings
+Post one marked PR comment for this route/type:
 
-If structural findings exist, create or reuse exactly one issue with:
-- label `route-structure`
-- game-slug label
-- all structural findings and required actions
+- clean first pass → `Status: PASS`;
+- findings → `Status: CHANGES_REQUESTED` followed by all structural findings and required actions.
 
-Do not fix the route yourself.
+Use the exact marker format from the standards so automation can identify the record.
 
-### Clean first pass
+Before posting, inspect existing marked comments for the same route/type. Do not run concurrently with another structural reviewer on the same route.
 
-If there are no structural findings, **do not create a PASS issue**. Report a clean structural pass to the caller/orchestrator.
+### No open PR exists
+
+Use the fallback issue workflow. Create/reuse at most one `route-structure` issue for the route. A clean first pass creates no issue.
 
 ## Re-review
 
-After author corrections:
+After author corrections, re-read and re-trace the route.
 
-1. Read the existing structural issue.
-2. Re-read and re-trace the route.
-3. If any finding remains, comment and leave the issue open.
-4. If all findings are resolved, close the issue with a confirming comment.
+If review is being tracked on an open PR, post a new marked comment for the same route/type:
+- still wrong → `Status: CHANGES_REQUESTED` with what remains;
+- clean → `Status: RESOLVED`.
+
+If issue fallback is in use, comment/close the existing structural issue using the normal reviewer ownership rules.
 
 The structural reviewer never sets `reviewed: true`.

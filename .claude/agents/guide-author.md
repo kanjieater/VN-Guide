@@ -70,6 +70,12 @@ For every invalidated route, set `reviewed: false`. If an open PR contains prior
 
 The author never sets `reviewed: true`.
 
+## Derived-output completion check
+
+Before declaring author work complete, apply the tracked generated-artifact rules in `.claude/guide-standards.md`.
+
+In particular, if this work changes landing-visible fields in `games.json` (including `has_guide`), ensure root `index.html` reflects the same current values. If the current environment cannot run the local generator, inspect the committed generator/template and update the affected tracked output equivalently rather than leaving stale generated data.
+
 ## Applying reviewer corrections
 
 Follow the review destination rules in `.claude/guide-standards.md`.

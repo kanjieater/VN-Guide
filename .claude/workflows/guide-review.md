@@ -4,6 +4,15 @@ The canonical rules are in `.claude/guide-standards.md`. This file describes orc
 
 The workflow is environment-neutral: a role may use a checkout, repository API, connected app, browser, or other available tooling. Command examples are optional conveniences; the required state transitions are what matter.
 
+## Review destination
+
+Before reviewing a route, determine whether the current work has an open pull request.
+
+- **Open PR:** use that single PR as the review ledger for every route. Structural and accuracy reviewers post marked status comments there; authors post marked fix comments there. Do not create route review issues.
+- **No open PR:** use the fallback issue workflow.
+
+In PR mode, the latest marked comment for a route/type is authoritative. `CHANGES_REQUESTED` blocks; `PASS` and `RESOLVED` are clean.
+
 ## Per-route lifecycle
 
 ```
@@ -37,7 +46,7 @@ No open structural/accuracy blocker
 Accuracy stage/orchestrator sets reviewed: true
 ```
 
-A clean first-pass reviewer **does not create a PASS issue**. The absence of a blocking issue plus the completed reviewer run is the clean result.
+In PR mode, a clean first pass posts a marked `PASS` comment so the PR contains an auditable review ledger. In issue fallback mode, a clean first pass creates no issue.
 
 ## Concurrency
 

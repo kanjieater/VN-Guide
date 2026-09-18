@@ -54,42 +54,37 @@ For the route under review, verify:
 
 For a full review, check the route completely. For a re-review, verify every corrected finding plus a meaningful sample of unchanged content.
 
-## Issue discipline
+## Review record
 
-There must be at most one open `route-accuracy` issue for this route.
+Follow the review destination rules in `.claude/guide-standards.md`.
 
-Before creating an issue:
-1. Check whether one is already open.
-2. Re-check immediately before creation.
-3. If one exists, use it instead.
+### Open PR exists
 
-Do not run concurrently with another accuracy reviewer on the same route.
+Use the PR as the review ledger. Do not create a route issue.
 
-### Findings
+Post one marked PR comment for this route/type:
 
-If findings exist, create or reuse exactly one issue for the route with:
-- label `route-accuracy`
-- game-slug label
-- precise findings, source evidence, and required actions
+- clean first pass → `Status: PASS`;
+- findings → `Status: CHANGES_REQUESTED` followed by all findings and required actions.
 
-Do not edit the route to fix it.
+Use the exact marker format from the standards so automation can identify the record.
 
-### Clean first pass
+Before posting, inspect existing marked comments for the same route/type. Do not run concurrently with another accuracy reviewer on the same route.
 
-If there are no findings, **do not create a PASS issue**.
+### No open PR exists
 
-Confirm no structural blocker is open. Then either:
-- set the route's `reviewed: true` if you own final review-state mutation; or
-- report a clean pass so the review orchestrator can set it.
+Use the fallback issue workflow. Create/reuse at most one `route-accuracy` issue for the route. A clean first pass creates no issue.
 
 ## Re-review after author corrections
 
-1. Re-open the existing issue context.
-2. Re-fetch the relevant Japanese source material.
-3. Verify every requested correction.
-4. If anything remains wrong, comment on the existing issue and leave it open.
-5. If all findings are resolved, close the issue with a confirming comment.
-6. Confirm no structural issue is open.
-7. Set/report `reviewed: true` as described above.
+Re-fetch the relevant Japanese source material and verify every requested correction.
 
-Never close an issue while a finding remains unresolved.
+If review is being tracked on an open PR, post a new marked comment for the same route/type:
+- still wrong → `Status: CHANGES_REQUESTED` with what remains;
+- clean → `Status: RESOLVED`.
+
+If issue fallback is in use, comment/close the existing issue using the normal reviewer ownership rules.
+
+Then confirm the structural gate is clean and set/report `reviewed: true` as described above.
+
+Never mark a route reviewed while either gate is blocking.

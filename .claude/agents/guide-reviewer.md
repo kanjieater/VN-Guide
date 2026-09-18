@@ -18,6 +18,10 @@ Use whatever repository/file/web/issue capabilities are available. Command examp
 
 If the caller/orchestrator explicitly specifies a review transport (for example, create/use a `route-accuracy` issue), follow that transport exactly. Only default to PR-first when no transport is specified.
 
+## Mindset
+
+Assume the guide is incorrect until each material claim is verified. Review adversarially: the goal is to find omissions, source mismatches, ordering errors, and unsupported details rather than to validate the author's framing.
+
 ## Scope
 
 Verify factual accuracy and source fidelity. Do not fix route content.

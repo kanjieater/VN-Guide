@@ -4,7 +4,7 @@ These are the canonical, environment-neutral rules for guide generation and revi
 
 Agents may work through a checkout, repository API, connected app, browser, or another execution environment. Shell and `gh` examples elsewhere in the repo are examples only. Use whatever file, web, issue, and repository capabilities are available while preserving the same state transitions and role boundaries.
 
-A local `prompt.md`, when present, is an optional runtime supplement. It may add game-generation detail but must not weaken or replace these committed standards.
+`prompt.md` may be supplied by the local generation runtime as additional generation guidance. Agents that can access it should read it. Agents that cannot access that local file still have the complete portable workflow and quality gates in this committed standard. Local guidance must not weaken or replace these standards.
 
 ## Roles
 
@@ -29,6 +29,7 @@ A game requires **two independent Japanese verification sets**:
 - A translation, derivative guide, or page that merely cites Set A does not count as an independent Set B.
 - A source that cannot be directly inspected does not count toward the gate. It may be listed for provenance only.
 - If the two-set gate cannot be satisfied, stop after research and document the blocker. Do not invent or infer missing guide content.
+- Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
 "Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every route choice, prerequisite/unlock, and ending must be independently supported by both sets. A save point or repeated UI action may appear in only one set; in that case include it only when explicitly documented and mark the other source field as not documented rather than fabricating text.
 
@@ -67,6 +68,27 @@ For each documented bad end:
 - if multiple bad ends branch from the same save, include every documented bad-end detour before continuing;
 - never add `badEndPath` where no Japanese source documents a bad end;
 - never invent a bad-end label or terminal.
+
+## Review finding schema
+
+Use the same evidence-rich finding format regardless of whether feedback is posted to a PR or a fallback issue.
+
+Every finding must include:
+
+- **File / step:** exact route file and step index or narrow section.
+- **Problem:** precise defect.
+- **Current:** exact current content/behavior.
+- **Expected:** exact corrected content/behavior.
+- **Required action:** deterministic author action.
+
+Accuracy findings must additionally include:
+
+- **Set A evidence:** source URL plus the shortest relevant verbatim excerpt.
+- **Set B evidence:** source URL plus the shortest relevant verbatim excerpt, or explicitly `not documented` only where these standards permit that omission.
+
+Structural findings do not fetch Japanese sources; instead they must show the relevant route-step sequence that demonstrates the structural defect.
+
+Group all findings for one route/type together. Do not create one issue/comment per individual finding.
 
 ## Review feedback destination
 

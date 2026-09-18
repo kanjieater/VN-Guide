@@ -2,12 +2,12 @@
 Automated VN guide review loop.
 Runs after guide_gen.py. For each game that has guides but unreviewed routes:
   For each unreviewed route:
-    Round loop (max MAX_REVIEW_ROUNDS):
-      1. Check for a pre-existing open issue for this route
-      2. If none: run reviewer for this route; if still no issue → mark reviewed
-      3. If issue open: run author to fix it, deploy, then re-review
-      4. Repeat until issue closes or max rounds reached
-  Each route is reviewed in its own fresh claude session — never batched.
+    1. Run structural review to a clean pass
+    2. Run accuracy review to a clean pass
+    3. If accuracy-stage fixes changed the route's structural signature, loop back
+       through structural review and accuracy review for the updated route
+    4. Mark reviewed only when both gates are clean for the same route content
+  Each reviewer/author action runs in its own fresh claude session — never batched.
 
 GUIDE_PRIORITY_VID: only process this game (same env var as guide_gen.py).
 GUIDE_REVIEW_ROUTE: only process this route id within the priority game (for testing).
@@ -79,6 +79,37 @@ def run_claude_fresh(prompt: str, model: str = REVIEWER_MODEL,
     except FileNotFoundError:
         err("claude CLI not found — is @anthropic-ai/claude-code installed?")
         return False
+
+
+def structural_signature(route_file: Path) -> tuple | None:
+    """Return the route fields whose changes can stale structural review.
+
+    Accuracy fixes may legitimately edit a route after structural review has
+    already passed. Compare this signature before/after accuracy review so
+    structural changes cannot reach reviewed=true without a fresh structural
+    pass. Source-only/enGuide edits do not invalidate structural review.
+    """
+    try:
+        steps = json.loads(route_file.read_text())
+    except (json.JSONDecodeError, FileNotFoundError) as exc:
+        err(f"Could not read structural signature from {route_file}: {exc}")
+        return None
+
+    if not isinstance(steps, list):
+        err(f"Route file is not a step array: {route_file}")
+        return None
+
+    signature = []
+    for step in steps:
+        if not isinstance(step, dict):
+            err(f"Route contains a non-object step: {route_file}")
+            return None
+        signature.append((
+            step.get("simpleJp"),
+            step.get("badEndPath"),
+            bool(step.get("isLoad", False)),
+        ))
+    return tuple(signature)
 
 
 def get_open_issue_for_route(slug: str, route_id: str, route_title: str = "") -> int | None:
@@ -229,7 +260,20 @@ def mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title:
     """
     blocking = get_open_issue_for_route(slug, route_id, route_title)
     if blocking is not None:
-        err(f"Refusing to mark {slug}/{route_id} reviewed — issue #{blocking} is still open")
+        err(
+            f"Refusing to mark {slug}/{route_id} reviewed — "
+            f"accuracy issue #{blocking} is still open"
+        )
+        return False
+
+    structural_blocking = get_open_structural_issue_for_route(
+        slug, route_id, route_title
+    )
+    if structural_blocking is not None:
+        err(
+            f"Refusing to mark {slug}/{route_id} reviewed — "
+            f"structural issue #{structural_blocking} is still open"
+        )
         return False
 
     guide = json.loads(guide_file.read_text())
@@ -341,19 +385,62 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
             continue
 
         route_title = route.get("title", route_id)
+        route_file = REPO_PATH / slug / f"route_{route_id}.json"
         log(f"{slug}: reviewing route {route_id} ({route_title})")
 
-        structural_passed = structural_review_route(slug, route_id, route_title)
-        if not structural_passed:
-            log(f"{slug}/{route_id}: structural review did not pass — skipping accuracy review")
-            continue
+        completed = False
+        for gate_round in range(1, MAX_REVIEW_ROUNDS + 1):
+            log(
+                f"{slug}/{route_id}: gate round "
+                f"{gate_round}/{MAX_REVIEW_ROUNDS}"
+            )
 
-        passed = review_route(slug, route_id, route_title)
-        if passed:
-            if mark_route_reviewed(guide_file, slug, route_id, route_title):
+            structural_passed = structural_review_route(
+                slug, route_id, route_title
+            )
+            if not structural_passed:
+                log(
+                    f"{slug}/{route_id}: structural review did not pass — "
+                    f"skipping accuracy review"
+                )
+                break
+
+            signature_before_accuracy = structural_signature(route_file)
+            if signature_before_accuracy is None:
+                break
+
+            accuracy_passed = review_route(slug, route_id, route_title)
+            if not accuracy_passed:
+                log(
+                    f"{slug}/{route_id}: accuracy review did not pass — "
+                    f"will retry next cycle"
+                )
+                break
+
+            signature_after_accuracy = structural_signature(route_file)
+            if signature_after_accuracy is None:
+                break
+
+            if signature_after_accuracy != signature_before_accuracy:
+                log(
+                    f"{slug}/{route_id}: accuracy-stage fixes changed route "
+                    f"structure — invalidating the prior structural pass and "
+                    f"rerunning structural + accuracy"
+                )
+                continue
+
+            if mark_route_reviewed(
+                guide_file, slug, route_id, route_title
+            ):
                 run_deploy()
-        else:
-            log(f"{slug}/{route_id}: did not pass — will retry next cycle")
+                completed = True
+            break
+
+        if not completed:
+            log(
+                f"{slug}/{route_id}: review gates not simultaneously clean — "
+                f"leaving reviewed=false"
+            )
 
 
 def run() -> None:

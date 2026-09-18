@@ -13,11 +13,13 @@ jobs:
         run: |
           import json, urllib.request
           ids = ["c109","c178","c107","c176","c116","c126","c133","c266","c172","c111"]
+          filters = ["or", *[["id", "=", cid] for cid in ids]]
           req = urllib.request.Request(
               "https://api.vndb.org/kana/character",
               data=json.dumps({
-                  "filters": ["id", "=", ids],
-                  "fields": "id,name,original,image.url"
+                  "filters": filters,
+                  "fields": "id,name,original,image.url",
+                  "results": 100
               }).encode(),
               headers={"Content-Type":"application/json","User-Agent":"VN-Guide portrait audit"}
           )

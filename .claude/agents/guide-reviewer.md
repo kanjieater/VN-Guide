@@ -63,7 +63,8 @@ For the route under review, verify:
 - each present source excerpt is verbatim;
 - `（第一ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set B;
 - `（第二ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set A;
-- route-defining choices/prerequisites/endings are independently supported by both sets, with no omission placeholder standing in for missing independent support;
+- main-route-defining choices/prerequisites/route endings are independently supported by both sets, with no omission placeholder standing in for missing independent support;
+- optional bad-end detours documented by one primary set are included when the other set is silent/non-contradictory, with the correct omission placeholder on bad-end-only steps; conflicting bad-end evidence is reconciled rather than guessed;
 - the documented target platform/edition is compatible with both verification sets.
 
 For a full review, check the route completely.
@@ -83,7 +84,13 @@ Use the canonical finding schema in `.claude/guide-standards.md` for every accur
 
 Group all findings for one route/type into one PR comment or one fallback issue. Do not split every finding into separate issues/comments.
 
-A clean PR review may be a concise PASS comment. A clean issue-fallback review creates no issue.
+A clean PR review may be concise but must include content identifiers:
+- `Route blob: <current route-file blob SHA/content hash>`
+- `Research blob: <current research.json blob SHA/content hash>`
+
+On PR re-review, include the same current identifiers with the resolved result. Before final approval, confirm the latest structural clean record's route blob matches the current route file and this accuracy clean record's route + research blobs match current content.
+
+A clean issue-fallback review creates no issue.
 
 ## Re-review after author corrections
 

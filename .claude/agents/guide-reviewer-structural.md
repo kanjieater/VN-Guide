@@ -31,11 +31,12 @@ Trace the entire route.
 
 For every bad-end chain verify:
 
-- exactly one `badEndPath` start;
-- all intermediate chain steps are plain;
+- exactly one non-empty `badEndPath` start;
+- zero or more intermediate plain steps are allowed (an immediate-terminal bad end may load immediately);
 - exactly one terminating `isLoad: true`;
 - the terminating load references a save created earlier in the same route;
-- no nested/unpaired bad-end start exists.
+- no nested/unpaired bad-end start exists;
+- the named bad end is represented at the terminal step or is unambiguously identifiable from the chain context.
 
 Reconstruct the main route by removing bad-end chains from `badEndPath` through their terminating `isLoad`. The remaining route must:
 

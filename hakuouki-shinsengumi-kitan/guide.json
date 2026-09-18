@@ -1,6 +1,11 @@
 {
   "title": "Hakuouki ~Shinsengumi Kitan~",
   "vndb_id": "v1715",
+  "guide_target": {
+    "label": "薄桜鬼 真改 風華伝",
+    "platform": "Nintendo Switch",
+    "url": "https://vndb.org/r56825"
+  },
   "routes": [
     {
       "id": "hijikata",

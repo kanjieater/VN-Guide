@@ -1,5 +1,74 @@
 {
   "title": "Tokyo NECRO",
   "vndb_id": "v13666",
-  "routes": []
+  "routes": [
+    {
+      "id": "mitsumi",
+      "title": "義城蜜魅ルート",
+      "stepCount": 5,
+      "reviewed": false,
+      "portrait": ""
+    },
+    {
+      "id": "kiriri",
+      "title": "阿蘇霧里ルート",
+      "stepCount": 5,
+      "reviewed": false,
+      "portrait": ""
+    },
+    {
+      "id": "con_su",
+      "title": "コン・スールート",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": ""
+    },
+    {
+      "id": "iria",
+      "title": "宝形イリアルート",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": ""
+    },
+    {
+      "id": "true_end",
+      "title": "TRUE END",
+      "stepCount": 15,
+      "reviewed": false,
+      "portrait": ""
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/tokyo-necro-necro",
+      "title": "Tokyo NECRO 凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - LastCharles",
+      "language": "ja",
+      "notes": "Primary complete Japanese walkthrough. Gives the three save positions, exact left/right route branches for all four heroine endings, and the complete post-clear TRUE END sequence (title-screen SEARCH, 検索 x12, center choice). Its published route order is optimized around save reuse rather than story order."
+    },
+    {
+      "url": "https://xn--zck9awe6d820vk6qg9be46k.com/game-kansou/19747/",
+      "title": "凍京NECRO（トウキョウネクロ）の感想や攻略順!百合ゲー？",
+      "language": "ja",
+      "notes": "Second independent Japanese route guide. The author states they completed all routes, lists all four route combinations using エチカ 上/下 and 早雲 イリア/ミルグラム, confirms all four clears unlock the last route from the title screen, and recommends 義城蜜魅 → 阿蘇霧里 → コン・スー → 宝形イリア. It does not document save points or the internal SEARCH x12 steps, so those fields are explicitly marked 第二ガイドに記載なし where applicable."
+    },
+    {
+      "url": "https://spica.ldblog.jp/archives/5999977.html",
+      "title": "凍京NECRO の感想 - スピカの忘れ物",
+      "language": "ja",
+      "notes": "Supplementary Japanese source for route-order corroboration. Recommends 霧里 → コン・スー → 蜜魅 → イリア → TRUE, agrees there is no enforced heroine route order, recommends Iria last, and confirms TRUE appears after all heroine clears."
+    },
+    {
+      "url": "https://jigujigu.blog38.fc2.com/blog-entry-1517.html",
+      "title": "伝統攻撃 凍京NECRO 感想",
+      "language": "ja",
+      "notes": "Supplementary Japanese structural source. Confirms exactly two binary choices determine the four routes, explicitly maps 左左=イリア, 右左=蜜魅, 左右=霧里, 右右=コン・スー, states there is no route-order restriction, and recommends Iria last for story flow."
+    },
+    {
+      "url": "https://seiya-saiga.com/game/nitroplus/tokyonecro.html",
+      "title": "凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - 誠也の部屋",
+      "language": "ja",
+      "notes": "Additional known Japanese walkthrough identified by multiple external references. The page itself was not used for guide fields in this pass because its legacy encoding could not be reliably decoded through the available fetch path; no unverified text from it was copied into the guide."
+    }
+  ],
+  "generated_at": "2026-09-18T19:30:00+00:00"
 }

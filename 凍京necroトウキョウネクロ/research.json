@@ -1,0 +1,104 @@
+{
+  "title": "Tokyo NECRO",
+  "vndb_id": "v13666",
+  "routes": [
+    {
+      "id": "iria",
+      "title": "宝形イリアルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "One of the four initially available heroine endings. Both the directly readable Japanese walkthrough and independent route-matrix writeups agree on the branch combination: first choice 左（地下）, second choice 左（イリア） -> イリアEND. VNDB character match: 宝形イリア / Hougyou Iria (c34599). Portrait intentionally left blank in this browser-agent pass because the VNDB image URL itself was not directly verified."
+    },
+    {
+      "id": "kiriri",
+      "title": "阿蘇霧里ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "One of the four initially available heroine endings. Branch combination: first choice 左（地下）, second choice 右（ミルグラム） -> 霧里END. The LastCharles walkthrough reaches this efficiently by loading セーブ02 after clearing Iria. VNDB character match: 阿蘇霧里 / Aso Kiriri (c34601). Portrait intentionally left blank pending direct image verification."
+    },
+    {
+      "id": "mitsumi",
+      "title": "義城蜜魅ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "One of the four initially available heroine endings. Branch combination: first choice 右（屋上）, second choice 左（イリア） -> 蜜魅END. The LastCharles walkthrough reaches this efficiently by loading セーブ01 after the left-side pair is cleared, then creates セーブ03 before the second choice. VNDB character match: 義城蜜魅 / Gijou Mitsumi (c34600). Portrait intentionally left blank pending direct image verification."
+    },
+    {
+      "id": "con_su",
+      "title": "コン・スールート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "One of the four initially available heroine endings. Branch combination: first choice 右（屋上）, second choice 右（ミルグラム） -> コン・スーEND. The LastCharles walkthrough reaches this by loading セーブ03 after Mitsumi. VNDB character match: コン・スー / Con Su (c34602). Portrait intentionally left blank pending direct image verification."
+    },
+    {
+      "id": "true_end",
+      "title": "TRUE END",
+      "portrait": "",
+      "prerequisites": [
+        "iria",
+        "kiriri",
+        "mitsumi",
+        "con_su"
+      ],
+      "is_true_ending": true,
+      "notes": "Unlocks only after all four heroine endings. The Japanese walkthrough says to return to the title screen, select SEARCH, perform 検索 twelve times, then select the center option to reach TRUE END. Multiple independent Japanese writeups corroborate that clearing all four left/right combinations unlocks a new title-screen branch leading to the true ending. Exact per-step jpGuide1/jpGuide2 text must still be verified against two complete Japanese walkthroughs before route_true_end.json is authored."
+    }
+  ],
+  "recommended_order": [
+    "iria",
+    "kiriri",
+    "mitsumi",
+    "con_su",
+    "true_end"
+  ],
+  "sources": [
+    {
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/tokyo-necro-necro",
+      "title": "Tokyo NECRO 凍京NECRO＜トウキョウ・ネクロ＞ 攻略 | LastCharles",
+      "language": "ja",
+      "notes": "Directly readable complete Japanese walkthrough used as the primary route-structure source in this browser-agent pass. Documents セーブ01/02/03, all four left/right branch combinations and heroine endings, and the post-four-end title-screen SEARCH sequence for TRUE END."
+    },
+    {
+      "url": "https://seiya-saiga.com/game/nitroplus/tokyonecro.html",
+      "title": "凍京NECRO＜トウキョウ・ネクロ＞ 攻略 - 誠也の部屋",
+      "language": "ja",
+      "notes": "Independent Japanese walkthrough identified as the source used by the Otaku Lair Tokyo NECRO walkthrough, and also referenced by another completion guide. This is the intended second primary Japanese source. IMPORTANT ACCESS LIMITATION: the current browser-agent environment resolves the exact URL but fails to decode the page because of its legacy encoding, so its exact choice/save text could not be independently quote-checked in this pass. Do not populate jpGuide2 from this source until it can be fetched/decoded directly."
+    },
+    {
+      "url": "https://ruadesu.blog.shinobi.jp/nitroplus/",
+      "title": "凍京NECRO play notes / route matrix (Ruadesu)",
+      "language": "ja",
+      "notes": "Independent Japanese-language play notes used to corroborate the two-choice route matrix: 右（屋上）+左（イリア）=蜜魅END, 左（地下）+左（イリア）=イリアEND, 左（地下）+右（ミルグラム）=霧里END, 右（屋上）+右（ミルグラム）=コン・スーEND. Supplemental corroboration only, not treated as a full second walkthrough."
+    },
+    {
+      "url": "https://jigujigu.blog38.fc2.com/blog-entry-1517.html",
+      "title": "伝統攻撃 凍京NECRO 感想",
+      "language": "ja",
+      "notes": "Japanese review/playthrough writeup whose indexed text states that there are four routes determined by exactly two midgame choices, with no route-order restriction, and that a new title item unlocks after the four routes. Supplemental structural corroboration."
+    },
+    {
+      "url": "https://www.otakulair.com/english-visual-novel-walkthroughs/tokyo-necro-walkthrough-nitro-plus-jast-usa/",
+      "title": "Tokyo Necro Walkthrough | Otaku Lair",
+      "language": "en",
+      "notes": "Complete English walkthrough explicitly stating that it is based on the Seiya Saiga walkthrough. Independently reproduces the same three-save route order and four heroine branches, plus the post-clear true-ending flow. Used only as supplemental evidence and to recover the exact Seiya Saiga source URL; it does not satisfy the project's two-Japanese-source requirement."
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2960976541",
+      "title": "凍京NECRO route guide (Steam Community)",
+      "language": "zh",
+      "notes": "Supplemental Chinese guide that explicitly references 誠也の部屋 and reproduces the same four combinations: 左/左=宝形伊莉雅, 右/左=义城蜜魅, 左/右=阿苏雾里, 右/右=コン・スー; after all four, title-screen SEARCH -> 検索 x12 -> center choice for the true ending. Not counted as a Japanese primary source."
+    },
+    {
+      "url": "https://vndb.org/v13666",
+      "title": "Tokyo NECRO - VNDB v13666",
+      "language": "en",
+      "notes": "Reference source for game identity and character matching. VNDB tags also identify the work as having few choices, unique routes, and one true end. Character IDs matched in this pass: Hougyou Iria c34599, Gijou Mitsumi c34600, Aso Kiriri c34601, Con Su c34602."
+    }
+  ],
+  "disagreements": "1) The four heroine routes appear to have no enforced play order. A Japanese review explicitly says there is no route-order restriction, while LastCharles presents the efficient save-reuse order Iria -> Kiriri -> Mitsumi -> Con Su. This research uses that order because it minimizes replay and maps directly to セーブ01/02/03; it is not claiming a canonical story order. 2) The directly readable LastCharles walkthrough and multiple independent Japanese/other-language sources agree on the route matrix and TRUE END unlock. However, the project's quality gate requires two complete Japanese walkthroughs with exact jpGuide1/jpGuide2 text. The identified second primary Japanese walkthrough at seiya-saiga.com cannot currently be decoded by this browser-agent environment. Therefore this research pass deliberately stops short of authoring route_*.json or marking has_guide=true rather than copying LastCharles text into jpGuide2 or fabricating source text. 3) The TRUE END flow is consistently described as title-screen SEARCH -> 検索 x12 -> center selection, but the exact player-visible text/timing for each of those search interactions should be transcribed directly from both Japanese primary walkthroughs before generating route_true_end.json.",
+  "generated_at": "2026-09-18T19:01:00+00:00"
+}

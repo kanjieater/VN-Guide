@@ -7,28 +7,28 @@
       "title": "義城蜜魅ルート",
       "stepCount": 5,
       "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/00/34600.jpg"
+      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/22/b2/34552_crt_c85cF.jpg"
     },
     {
       "id": "kiriri",
       "title": "阿蘇霧里ルート",
       "stepCount": 5,
       "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/01/34601.jpg"
+      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/52/cd/34553_crt_34UuC.jpg"
     },
     {
       "id": "con_su",
       "title": "コン・スールート",
       "stepCount": 3,
       "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/02/34602.jpg"
+      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/61/5a/34554_crt_519ZN.jpg"
     },
     {
       "id": "iria",
       "title": "宝形イリアルート",
       "stepCount": 3,
       "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/99/34599.jpg"
+      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/be/fa/34551_crt_7wO8G.jpg"
     },
     {
       "id": "true_end",
@@ -82,10 +82,10 @@
       "notes": "Known independent Japanese walkthrough cited by derivative guides. Retained for provenance, but NOT used for any guide field because the page's legacy encoding cannot be reliably decoded by the available fetch path. No text is inferred from it."
     },
     {
-      "url": "https://vndb.org/v13666/chars",
-      "title": "Tokyo NECRO - VNDB character list",
-      "language": "en",
-      "notes": "Reference only for route-character matching and portraits. Verified IDs: Gijou Mitsumi c34600, Aso Kiriri c34601, Con Su c34602, Hougyou Iria c34599. Portrait URLs use the repository's documented VNDB character-image convention."
+      "url": "https://github.com/czy0729/Bangumi-Subject/blob/b27311eb0f7d54b329e134c095879a273b3189c4/data/840/84094.json",
+      "title": "Bangumi subject data — 凍京NECRO character image mapping",
+      "language": "ja",
+      "notes": "Reference only for portrait mapping. This Tokyo NECRO subject record explicitly maps 宝形イリア, 義城蜜魅, 阿蘇霧里, and コン・スー to their Bangumi character image URLs. Used because the previous portrait URLs incorrectly assumed a VNDB character ID could be converted directly into a VNDB image filename."
     }
   ],
   "generated_at": "2026-09-18T19:30:00+00:00"

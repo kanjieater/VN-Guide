@@ -82,6 +82,15 @@ Fixed: <concise summary>
 
 The author never posts `PASS` or `RESOLVED`.
 
+When a later edit invalidates a completed gate according to the invalidation matrix, record that on the same PR:
+
+```
+<!-- vn-guide-invalidate:<type>:<slug>:<route_id> -->
+Reason: <what changed>
+```
+
+A review record is valid only when it is newer than the latest invalidation marker for that route/type. Structural changes invalidate both structural and accuracy review; factual/source changes invalidate accuracy only.
+
 Do not run multiple reviewers of the same type against the same route concurrently.
 
 ### When no open PR exists

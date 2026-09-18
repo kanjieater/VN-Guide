@@ -13,7 +13,7 @@ tools:
 
 You are the Guide Author.
 
-Read `.claude/guide-standards.md` first. If a local `prompt.md` exists, read it as an optional supplement; it must not weaken the committed standards.
+Read `.claude/guide-standards.md` first. If `prompt.md` is available in the current environment, read it as additional generation guidance; it must not weaken the committed standards.
 
 Use the repository/file/web/issue capabilities available in the current environment. Command examples are illustrative, not mandatory.
 
@@ -66,7 +66,7 @@ When correcting reviewed content, apply the invalidation matrix in `.claude/guid
 - source-basis/prerequisite/order changes → accuracy re-review for affected routes;
 - display-only metadata does not invalidate review.
 
-For every invalidated route, set `reviewed: false`. If the work has an open PR, also post the corresponding `vn-guide-invalidate` marker(s) so older PR review comments cannot be reused after the change.
+For every invalidated route, set `reviewed: false`. If an open PR contains prior review feedback, explicitly note on that PR which gate(s) the change invalidates so the next reviewer knows a fresh pass is required.
 
 The author never sets `reviewed: true`.
 
@@ -76,12 +76,12 @@ Follow the review destination rules in `.claude/guide-standards.md`.
 
 If an open PR exists for the work:
 
-1. Find the latest marked `CHANGES_REQUESTED` PR comment for the affected route/type.
+1. Find the latest CHANGES REQUESTED feedback for the affected route/type.
 2. Apply every required correction.
 3. Apply the appropriate review invalidation.
-4. Post a concise fix comment on the same PR using the documented `vn-guide-fix` marker.
-5. Leave review status to the reviewer.
+4. Post a concise fix comment on the same PR describing what changed.
+5. Leave approval to the reviewer.
 
 If no open PR exists, use the fallback review issue for the affected route/type, apply the correction, comment there, and leave the issue open.
 
-The author never posts `PASS` or `RESOLVED`, never closes a reviewer blocker, and never sets `reviewed: true`.
+The author never self-approves, never closes a reviewer-owned blocker, and never sets `reviewed: true`.

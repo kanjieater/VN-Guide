@@ -238,8 +238,9 @@ def pr_author_fix_prompt(
     fix_marker = pr_fix_marker(review_type, slug, route_id)
     return (
         f"Review is tracked on PR #{pr_number}. Read the latest PR comment containing "
-        f"{review_marker!r} with Status: CHANGES_REQUESTED and apply every requested fix. "
-        f"When done, post a top-level PR comment beginning with {fix_marker!r}, followed by "
+        f"the exact marker `{review_marker}` with Status: CHANGES_REQUESTED and apply every requested fix. "
+        f"When done, post a top-level PR comment beginning with the exact marker "
+        f"`{fix_marker}`, followed by "
         f"'Fixed: <concise summary>'. Do not post PASS/RESOLVED and do not create or close "
         f"a route review issue. "
     )

@@ -50,16 +50,12 @@ Follow the review destination rules in `.claude/guide-standards.md`.
 
 ### Open PR exists
 
-Use the PR as the review ledger. Do not create a route issue.
+Use the existing PR for this route's structural feedback instead of creating a route issue.
 
-Post one marked PR comment for this route/type:
+- Clean first pass → leave a concise PASS comment identifying the route and structural review.
+- Findings → leave one CHANGES REQUESTED comment containing all structural findings and required actions for the route.
 
-- clean first pass → `Status: PASS`;
-- findings → `Status: CHANGES_REQUESTED` followed by all structural findings and required actions.
-
-Use the exact marker format from the standards so automation can identify the record.
-
-Before posting, inspect existing marked comments for the same route/type. Do not run concurrently with another structural reviewer on the same route.
+Before posting, inspect existing feedback for the same route/type. Do not run concurrently with another structural reviewer on the same route.
 
 ### No open PR exists
 
@@ -69,9 +65,9 @@ Use the fallback issue workflow. Create/reuse at most one `route-structure` issu
 
 After author corrections, re-read and re-trace the route.
 
-If review is being tracked on an open PR, post a new marked comment for the same route/type:
-- still wrong → `Status: CHANGES_REQUESTED` with what remains;
-- clean → `Status: RESOLVED`.
+If review is on an open PR:
+- still wrong → comment precisely what remains;
+- clean → explicitly confirm that the previous structural findings are resolved.
 
 If issue fallback is in use, comment/close the existing structural issue using the normal reviewer ownership rules.
 

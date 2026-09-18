@@ -1,0 +1,7 @@
+[
+  {"simpleJp":"セーブ1にロード","jpGuide1":"◆セーブ01 から","jpGuide2":"（第二ガイドに記載なし）","enGuide":"","isLoad":true},
+  {"simpleJp":"左","jpGuide1":"左：(地下)","jpGuide2":"エチカ　下","enGuide":"エチカ：地下側。"},
+  {"simpleJp":"セーブ3","jpGuide1":"◆セーブ02","jpGuide2":"（第二ガイドに記載なし）","enGuide":"The primary walkthrough calls this セーブ02 because it presents a different completion order. This guide renumbers saves sequentially in the recommended order."},
+  {"simpleJp":"右","jpGuide1":"右：(ミルグラム)","jpGuide2":"早雲　ミルグラム","enGuide":"早雲：ミルグラム側。"},
+  {"simpleJp":"霧里END","jpGuide1":"霧里END","jpGuide2":"（第二ガイドに記載なし）","enGuide":""}
+]

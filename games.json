@@ -21,7 +21,12 @@
     "title": "Hakuouki ~Shinsengumi Kitan~",
     "alttitle": "薄桜鬼 新選組奇譚",
     "cover_url": "https://t.vndb.org/cv/60/76060.jpg",
-    "added_at": "2026-07-07T22:51:38.476454+00:00"
+    "added_at": "2026-07-07T22:51:38.476454+00:00",
+    "guide_target": {
+      "label": "薄桜鬼 真改 風華伝",
+      "platform": "Nintendo Switch",
+      "url": "https://vndb.org/r56825"
+    }
   },
   "v8203": {
     "slug": "arcana-famiglia",

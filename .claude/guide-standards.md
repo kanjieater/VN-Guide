@@ -48,20 +48,57 @@ A game requires **two independent Japanese verification sets**:
 - Save slot numbers are sequential across the recommended play order.
 - Do not invent saves. Include a save when at least one primary set explicitly documents it.
 
-## Issue discipline
+## Review destination and blocking state
 
-There is at most one open issue of each review type for a route:
+Prefer one review ledger over per-route issue spam.
 
-- `route-structure` + game slug
-- `route-accuracy` + game slug
+### When an open PR exists for the work
+
+Use that PR for all structural and accuracy review records. Do **not** create route review issues.
+
+Each reviewer posts a top-level PR comment containing a stable machine-readable marker:
+
+```
+<!-- vn-guide-review:<type>:<slug>:<route_id> -->
+Status: PASS
+```
+
+where `<type>` is `structural` or `accuracy`.
+
+Allowed statuses:
+
+- `PASS` — clean first pass.
+- `CHANGES_REQUESTED` — blocking findings follow in the same comment.
+- `RESOLVED` — a previous `CHANGES_REQUESTED` record was independently re-verified after an author fix.
+
+For a route/type pair, the **latest marked PR comment is authoritative**.
+
+The author reports a fix on the same PR using:
+
+```
+<!-- vn-guide-fix:<type>:<slug>:<route_id> -->
+Fixed: <concise summary>
+```
+
+The author never posts `PASS` or `RESOLVED`.
 
 Do not run multiple reviewers of the same type against the same route concurrently.
 
-Before creating an issue, check whether one of that type is already open for the route. Re-check immediately before creation. If an issue appeared, use the existing issue instead of creating another.
+### When no open PR exists
 
-A **clean first-pass review does not create a PASS issue**. No issue means no findings. Issues exist only for blocking findings and are closed by the reviewer after re-verification.
+Fall back to the issue workflow:
 
-The author may comment on an issue after fixing it but never closes it.
+- at most one open `route-structure` issue per route;
+- at most one open `route-accuracy` issue per route;
+- clean first passes create no issue;
+- findings are fixed by the author and closed only by the owning reviewer after re-verification.
+
+Before creating a fallback issue, check for an existing one and re-check immediately before creation.
+
+### Blocking definition
+
+- In PR mode, `CHANGES_REQUESTED` is blocking; `PASS` or `RESOLVED` is clean.
+- In issue fallback mode, an open issue of the corresponding review type is blocking.
 
 ## Review lifecycle
 

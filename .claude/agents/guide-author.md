@@ -66,6 +66,8 @@ When correcting reviewed content, apply the invalidation matrix in `.claude/guid
 - source-basis/prerequisite/order changes → accuracy re-review for affected routes;
 - display-only metadata does not invalidate review.
 
+For every invalidated route, set `reviewed: false`. If the work has an open PR, also post the corresponding `vn-guide-invalidate` marker(s) so older PR review comments cannot be reused after the change.
+
 The author never sets `reviewed: true`.
 
 ## Applying reviewer corrections

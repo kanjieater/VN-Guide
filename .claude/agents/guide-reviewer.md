@@ -43,45 +43,53 @@ For the route under review, verify:
 - route prerequisites and unlock conditions;
 - ending reachability;
 - save positions (a save may be documented by only one set, but must be explicit there);
-- bad-end paths and load-back behavior;
+- **every documented bad end is present**, including multiple bad ends from the same save;
+- each bad-end chain starts at the first wrong choice, uses the exact documented `badEndPath` label, runs through the documented terminal, and is followed by the correct load-back step;
+- no `badEndPath` exists unless a Japanese source explicitly documents that bad end;
 - `isLoad: true` appears only after a bad-end detour;
 - cross-route save numbering;
 - no hallucinated or missing required choices;
 - no contradictions across guide sections;
+- both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
 - `jpGuide1` is verbatim Set A text;
 - `jpGuide2` is verbatim Set B text when that exact step is printed there;
-- `（第二ガイドに記載なし）` is used only when Set B supports the surrounding route/ending but does not print that exact step.
+- `（第二ガイドに記載なし）` is used only when Set B supports the surrounding route/ending but does not print that exact step;
+- a route does not pass if a required step lacks exact Set-A text.
 
-For a full review, check the route completely. For a re-review, verify every corrected finding plus a meaningful sample of unchanged content.
+For a full review, check the route completely.
+
+For a re-review after corrections:
+- verify every corrected finding;
+- re-check at least **20% of unchanged steps** (minimum one unchanged step when any exist), selected without bias/randomly where practical;
+- if a correction can cascade into save numbering, route ordering, prerequisites, bad-end structure, or nearby source attribution, expand the re-review to every potentially affected step rather than stopping at 20%.
 
 ## Review record
 
-Follow the review destination rules in `.claude/guide-standards.md`.
+Follow the feedback-destination rules in `.claude/guide-standards.md`.
 
-### Open PR exists
+When an open PR exists, put this route's review on that PR instead of creating a route issue. When no PR exists, use the existing issue workflow.
 
-Use the PR as the review ledger. Do not create a route issue.
+For **every accuracy finding**, include this evidence schema regardless of transport:
 
-Post one marked PR comment for this route/type:
+- **File / step:** route file and exact step index or narrow section.
+- **Problem:** precise factual/source-fidelity defect.
+- **Current:** exact current guide content.
+- **Expected:** exact corrected content or behavior.
+- **Set A evidence:** URL plus the shortest relevant verbatim excerpt.
+- **Set B evidence:** URL plus the shortest relevant verbatim excerpt, or explicitly `not documented` when the standards permit that omission.
+- **Required action:** deterministic correction the author should make.
 
-- clean first pass → `Status: PASS`;
-- findings → `Status: CHANGES_REQUESTED` followed by all findings and required actions.
+Group all findings for one route/type into one PR comment or one fallback issue. Do not split every finding into separate issues/comments.
 
-Use the exact marker format from the standards so automation can identify the record.
-
-Before posting, inspect existing marked comments for the same route/type. Do not run concurrently with another accuracy reviewer on the same route.
-
-### No open PR exists
-
-Use the fallback issue workflow. Create/reuse at most one `route-accuracy` issue for the route. A clean first pass creates no issue.
+A clean PR review may be a concise PASS comment. A clean issue-fallback review creates no issue.
 
 ## Re-review after author corrections
 
 Re-fetch the relevant Japanese source material and verify every requested correction.
 
-If review is being tracked on an open PR, post a new marked comment for the same route/type:
-- still wrong → `Status: CHANGES_REQUESTED` with what remains;
-- clean → `Status: RESOLVED`.
+If review is on an open PR, comment on that PR:
+- still wrong → state exactly what remains, using the same evidence schema;
+- clean → explicitly confirm the prior findings are resolved.
 
 If issue fallback is in use, comment/close the existing issue using the normal reviewer ownership rules.
 

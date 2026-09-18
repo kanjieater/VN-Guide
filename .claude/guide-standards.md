@@ -34,9 +34,13 @@ A game requires **two independent Japanese verification sets**:
 
 ## Source fields
 
-- `jpGuide1` is verbatim text from Set A.
-- `jpGuide2` is verbatim text from Set B when that exact step is printed there.
-- If Set B supports the route/ending semantically but does not print that exact step, use exactly `（第二ガイドに記載なし）`.
+Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
+
+- `jpGuide1` must be exact verbatim text from Set A for that step.
+- Set A is the detailed primary walkthrough. If a required guide step has no exact Set-A text, the source assignment is insufficient: find a directly inspectable Set-A source that documents the step or stop and document the blocker. Never leave `jpGuide1` empty and never invent a Set-A placeholder.
+- `jpGuide2` must be exact verbatim text from Set B when that exact step is printed there.
+- If Set B independently supports the surrounding route/ending but does not print that exact step, use exactly `（第二ガイドに記載なし）`.
+- `（第二ガイドに記載なし）` is the only permitted missing-source placeholder.
 - Never copy Set A text into `jpGuide2`.
 - Preserve whitespace and punctuation exactly when quoting a source.
 
@@ -48,84 +52,67 @@ A game requires **two independent Japanese verification sets**:
 - Save slot numbers are sequential across the recommended play order.
 - Do not invent saves. Include a save when at least one primary set explicitly documents it.
 
-## Review destination and blocking state
+### Bad-end completeness
 
-Prefer one review ledger over per-route issue spam.
+Every bad end documented by the Japanese verification sets must be actively included before continuing the main route.
+
+For each documented bad end:
+
+- insert the save before the branch when a source documents one;
+- mark the **first wrong choice** with `badEndPath`;
+- use the exact bad-end label documented by the source;
+- include every subsequent step needed to reach the bad-end terminal;
+- immediately follow the terminal with the matching `isLoad: true` load-back step;
+- then continue with the good/main choice;
+- if multiple bad ends branch from the same save, include every documented bad-end detour before continuing;
+- never add `badEndPath` where no Japanese source documents a bad end;
+- never invent a bad-end label or terminal.
+
+## Review feedback destination
+
+Keep review feedback consolidated when possible, but do not make the feedback transport itself a second approval-state system.
 
 ### When an open PR exists for the work
 
-Use that PR for all structural and accuracy review records. Do **not** create route review issues.
+For direct/manual agent review, put structural and accuracy findings on the existing PR instead of creating per-route review issues. Keep each route/type clearly identified in the comment so the author and re-reviewer can follow the thread.
 
-Each reviewer posts a top-level PR comment containing a stable machine-readable marker:
+- Clean review: leave a concise PASS comment for that route/type.
+- Findings: leave one detailed CHANGES REQUESTED comment for that route/type.
+- Author corrections: reply/comment on the same PR with what changed.
+- Re-review: confirm the findings are resolved on the same PR, or state precisely what remains.
 
-```
-<!-- vn-guide-review:<type>:<slug>:<route_id> -->
-Status: PASS
-```
+Do not launch multiple reviewers of the same type against the same route concurrently.
 
-where `<type>` is `structural` or `accuracy`.
-
-Allowed statuses:
-
-- `PASS` — clean first pass.
-- `CHANGES_REQUESTED` — blocking findings follow in the same comment.
-- `RESOLVED` — a previous `CHANGES_REQUESTED` record was independently re-verified after an author fix.
-
-For a route/type pair, the **latest marked PR comment is authoritative**.
-
-The author reports a fix on the same PR using:
-
-```
-<!-- vn-guide-fix:<type>:<slug>:<route_id> -->
-Fixed: <concise summary>
-```
-
-The author never posts `PASS` or `RESOLVED`.
-
-When a later edit invalidates a completed gate according to the invalidation matrix, record that on the same PR:
-
-```
-<!-- vn-guide-invalidate:<type>:<slug>:<route_id> -->
-Reason: <what changed>
-```
-
-A review record is valid only when it is newer than the latest invalidation marker for that route/type. Structural changes invalidate both structural and accuracy review; factual/source changes invalidate accuracy only.
-
-Do not run multiple reviewers of the same type against the same route concurrently.
+PR comments are an audit trail and collaboration surface; they are **not** a machine-readable replacement for `reviewed` or for whatever persistence mechanism an automated orchestrator already uses.
 
 ### When no open PR exists
 
-Fall back to the issue workflow:
+Use the existing issue workflow:
 
 - at most one open `route-structure` issue per route;
 - at most one open `route-accuracy` issue per route;
 - clean first passes create no issue;
 - findings are fixed by the author and closed only by the owning reviewer after re-verification.
 
-Before creating a fallback issue, check for an existing one and re-check immediately before creation.
+Before creating an issue, check for an existing one and re-check immediately before creation.
 
-### Blocking definition
+### Automated orchestrators
 
-- In PR mode, `CHANGES_REQUESTED` is blocking; `PASS` or `RESOLVED` is clean.
-- In issue fallback mode, an open issue of the corresponding review type is blocking.
+An automated runner may keep its existing transport/persistence mechanism. It must still enforce the same role separation, review gates, evidence requirements, and `reviewed` semantics. These standards do not require a particular shell command, API, issue format, or local process.
 
 ## Review lifecycle
 
 For each unreviewed route:
 
 1. Structural reviewer performs a fresh structural review.
-2. Record the result on the open PR when one exists; otherwise use issue fallback for findings.
-3. If structural changes are requested, the author fixes them and reports the fix to the same review destination.
-4. Structural reviewer independently re-verifies and records `RESOLVED` on the PR or closes the fallback issue.
-5. Accuracy reviewer independently verifies both Japanese verification sets.
-6. Record the result on the open PR when one exists; otherwise use issue fallback for findings.
-7. If accuracy changes are requested, the author fixes them and reports the fix to the same review destination.
-8. Accuracy reviewer re-fetches sources, re-verifies, and records `RESOLVED` on the PR or closes the fallback issue.
-9. Once both route gates are clean, the accuracy stage/orchestrator sets `reviewed: true`.
+2. If structural findings exist, the author fixes them and the structural reviewer independently re-verifies.
+3. Accuracy reviewer independently verifies both Japanese verification sets.
+4. If accuracy findings exist, the author fixes them and the accuracy reviewer re-fetches sources and independently re-verifies.
+5. Once both route gates are clean, the accuracy stage/orchestrator sets `reviewed: true`.
+
+Use the open PR for direct-agent feedback when one exists; otherwise use the existing issue workflow. Automated runners may retain their own transport.
 
 The author and structural reviewer never set `reviewed: true`.
-
-If an old fallback review issue already exists when PR mode begins, do not silently ignore an unresolved finding. Carry any unresolved finding into the PR review record and resolve/close the legacy issue before final approval.
 
 ## Review invalidation
 
@@ -147,8 +134,7 @@ A route is complete only when:
 
 - its structural review is clean,
 - its accuracy review is clean against both Japanese verification sets,
-- its active review destination has no blocker (`CHANGES_REQUESTED` in PR mode, or an open fallback issue),
-- no unresolved legacy review issue remains, and
+- all reviewer findings for the active review have been independently re-verified as resolved, and
 - `reviewed: true`.
 
 A game is fully reviewed only when every route satisfies that gate.

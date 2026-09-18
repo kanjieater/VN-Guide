@@ -49,9 +49,9 @@ For the route under review, verify:
 - route prerequisites and unlock conditions;
 - ending reachability;
 - save positions (a save may be documented by only one set, but must be explicit there), including the canonical rule that a source conflict uses the **earlier documented position**;
-- **every documented bad end is present**, including multiple bad ends from the same save;
-- each bad-end chain starts at the first wrong choice, uses the exact documented `badEndPath` label, runs through the documented terminal, and is followed by the correct load-back step;
-- no `badEndPath` exists unless a Japanese source explicitly documents that bad end;
+- **every documented non-main ending detour is present** (bad, normal, alternate, or similarly labeled), including multiple detours from the same save;
+- each non-main-ending chain starts at the first branch step, uses the exact documented `badEndPath` ending label, runs through the documented terminal, and is followed by the correct load-back step;
+- no `badEndPath` exists unless a Japanese source explicitly documents that non-main ending;
 - `isLoad: true` appears only after a bad-end detour;
 - cross-route save numbering;
 - no hallucinated or missing required choices;
@@ -64,7 +64,7 @@ For the route under review, verify:
 - `（第一ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set B;
 - `（第二ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set A;
 - main-route-defining choices/prerequisites/route endings are independently supported by both sets, with no omission placeholder standing in for missing independent support;
-- optional bad-end detours documented by one primary set are included when the other set is silent/non-contradictory, with the correct omission placeholder on bad-end-only steps; conflicting bad-end evidence is reconciled rather than guessed;
+- optional non-main ending detours documented by one primary set are included when the other set is silent/non-contradictory, with the correct omission placeholder on detour-only steps; conflicting ending evidence is reconciled rather than guessed;
 - the documented target platform/edition is compatible with both verification sets.
 
 For a full review, check the route completely.

@@ -1,6 +1,6 @@
 ---
 name: guide-reviewer-structural
-description: Independent structural reviewer for VN route files. Checks route flow and bad-end-chain integrity without source research. Never edits guide content.
+description: Independent structural reviewer for VN route files. Checks route flow and non-main-ending-chain integrity without source research. Never edits guide content.
 model: claude-sonnet-5
 tools:
   - Read
@@ -20,7 +20,7 @@ If the caller/orchestrator explicitly specifies a review transport (for example,
 
 Each `route_<id>.json` is a flat step array.
 
-- `badEndPath` marks the first wrong choice of a bad-end detour.
+- `badEndPath` marks the first branch step of a documented non-main ending detour (bad, normal, alternate, or similarly labeled).
 - `isLoad: true` terminates that detour and returns to the main route.
 - `isLoad: true` must never be used for an ordinary cross-route save load.
 - An ordinary route-entry instruction such as `セーブ3にロード` is structurally a plain step unless it terminates a preceding `badEndPath`.
@@ -29,7 +29,7 @@ Each `route_<id>.json` is a flat step array.
 
 Trace the entire route.
 
-For every bad-end chain verify:
+For every non-main-ending chain verify:
 
 - exactly one non-empty `badEndPath` start;
 - zero or more intermediate plain steps are allowed (an immediate-terminal bad end may load immediately);
@@ -38,7 +38,7 @@ For every bad-end chain verify:
 - no nested/unpaired bad-end start exists;
 - the named bad end is represented at the terminal step or is unambiguously identifiable from the chain context.
 
-Reconstruct the main route by removing bad-end chains from `badEndPath` through their terminating `isLoad`. The remaining route must:
+Reconstruct the main route by removing non-main-ending chains from `badEndPath` through their terminating `isLoad`. The remaining route must:
 
 - begin at step 0;
 - end at the intended good ending;

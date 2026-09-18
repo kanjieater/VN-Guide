@@ -6,7 +6,7 @@
       "id": "mitsumi",
       "title": "義城蜜魅ルート",
       "stepCount": 5,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": ""
     },
     {
@@ -34,7 +34,7 @@
       "id": "true_end",
       "title": "TRUE END",
       "stepCount": 15,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": ""
     }
   ],

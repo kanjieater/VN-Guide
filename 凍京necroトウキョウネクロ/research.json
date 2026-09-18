@@ -5,38 +5,55 @@
     {
       "id": "mitsumi",
       "title": "義城蜜魅ルート",
-      "stepCount": 5,
-      "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/00/34600.jpg"
+      "portrait": "https://t.vndb.org/ch/00/34600.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Recommended first route in the primary Japanese ordering source. Route condition is エチカ=上/屋上 (screen-right in source 1), then 早雲=イリア (screen-left in source 1), producing 蜜魅END."
     },
     {
       "id": "kiriri",
       "title": "阿蘇霧里ルート",
-      "stepCount": 5,
-      "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/01/34601.jpg"
+      "portrait": "https://t.vndb.org/ch/01/34601.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Recommended second route. Route condition is エチカ=下/地下 (screen-left in source 1), then 早雲=ミルグラム (screen-right in source 1), producing 霧里END."
     },
     {
       "id": "con_su",
       "title": "コン・スールート",
-      "stepCount": 3,
-      "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/02/34602.jpg"
+      "portrait": "https://t.vndb.org/ch/02/34602.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Recommended third route. Route condition is エチカ=上/屋上 (screen-right in source 1), then 早雲=ミルグラム (screen-right in source 1), producing コン・スーEND."
     },
     {
       "id": "iria",
       "title": "宝形イリアルート",
-      "stepCount": 3,
-      "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/99/34599.jpg"
+      "portrait": "https://t.vndb.org/ch/99/34599.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Recommended fourth heroine route. Route condition is エチカ=下/地下 (screen-left in source 1), then 早雲=イリア (screen-left in source 1), producing イリアEND. Multiple Japanese sources recommend leaving Iria until last among the four heroine routes because it connects most naturally into the final route."
     },
     {
       "id": "true_end",
       "title": "TRUE END",
-      "stepCount": 15,
-      "reviewed": true,
-      "portrait": ""
+      "portrait": "",
+      "prerequisites": [
+        "mitsumi",
+        "kiriri",
+        "con_su",
+        "iria"
+      ],
+      "is_true_ending": true,
+      "notes": "Unlocks only after all four heroine endings. Source 1 gives the complete final-route interaction: from the title screen choose SEARCH, select 検索 twelve times, then choose the center option, leading to TRUE END. Source 2 independently confirms that clearing all four heroine routes adds the final route item to the title screen, but does not spell out the twelve-search interaction."
     }
+  ],
+  "recommended_order": [
+    "mitsumi",
+    "kiriri",
+    "con_su",
+    "iria",
+    "true_end"
   ],
   "sources": [
     {
@@ -88,5 +105,6 @@
       "notes": "Reference only for route-character matching and portraits. Verified IDs: Gijou Mitsumi c34600, Aso Kiriri c34601, Con Su c34602, Hougyou Iria c34599. Portrait URLs use the repository's documented VNDB character-image convention."
     }
   ],
+  "disagreements": "1) There is no enforced order among the four heroine routes. Japanese recommendation sources differ on the preferred first three routes, but consistently recommend leaving Iria until last before TRUE. This guide adopts Source Set B Part 1's explicit full recommendation: 蜜魅 → 霧里 → コン・スー → イリア → TRUE. 2) Source A numbers reusable saves for its own completion order (Iria → Kiriri → Mitsumi → Con Su). Because this guide follows a different recommended order, the same three physical checkpoints are renumbered sequentially as セーブ1/2/3 while jpGuide1 preserves Source A's original save labels verbatim. 3) The second independent Japanese verification is a documented multi-page source set rather than one page: Part 1 supplies exact heroine route-choice text and final-route unlock; Part 2 independently verifies the full four-branch matrix and post-clear behavior; Parts 3-4 independently verify TRUE's unlocked branch and 検索/演算 progression through the ending. No Source Set B page prints the exact save labels or every one of Source A's twelve identical 検索 UI presses, so those individual jpGuide2 fields remain （第二ガイドに記載なし） as required rather than being copied or invented. 4) Source A describes the first decision by screen direction/location (right=屋上, left=地下); Source Set B Part 1 describes it as エチカ 上/下 and Part 2 independently confirms the left/right route matrix. The second decision is likewise left=イリア, right=ミルグラム. 5) 誠也の部屋 is a known independent complete walkthrough but remains unused because its legacy encoding could not be decoded reliably; derivative translations are not substituted for the original Japanese text.",
   "generated_at": "2026-09-18T19:30:00+00:00"
 }

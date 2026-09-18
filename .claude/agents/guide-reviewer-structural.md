@@ -14,6 +14,8 @@ Read `.claude/guide-standards.md` first. Work in a fresh context separate from t
 
 Use whatever repository/file/issue capabilities are available. Do not fetch Japanese walkthroughs and do not edit guide content.
 
+If the caller/orchestrator explicitly specifies a review transport (for example, create/use a `route-structure` issue), follow that transport exactly. Only default to PR-first when no transport is specified.
+
 ## Route semantics
 
 Each `route_<id>.json` is a flat step array.
@@ -46,9 +48,9 @@ Ordinary cross-route load instructions may remain on the main route as plain ste
 
 ## Review record
 
-Follow the review destination rules in `.claude/guide-standards.md` and use its canonical finding schema for every structural finding.
+Follow caller/orchestrator transport instructions first. If none are specified, follow the review destination defaults in `.claude/guide-standards.md`. Use the canonical finding schema for every structural finding.
 
-### Open PR exists
+### Open PR exists and no caller transport was specified
 
 Use the existing PR for this route's structural feedback instead of creating a route issue.
 
@@ -57,7 +59,7 @@ Use the existing PR for this route's structural feedback instead of creating a r
 
 Before posting, inspect existing feedback for the same route/type. Do not run concurrently with another structural reviewer on the same route.
 
-### No open PR exists
+### No open PR exists and no caller transport was specified
 
 Use the fallback issue workflow. Create/reuse at most one `route-structure` issue for the route. A clean first pass creates no issue.
 

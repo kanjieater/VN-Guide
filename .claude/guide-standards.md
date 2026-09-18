@@ -32,14 +32,14 @@ Before accepting either set:
 Then apply these source roles:
 
 - **Set A** should be the detailed primary walkthrough used for exact step/save text.
-- **Set B** must independently cover the full route structure: every route-defining decision, route prerequisite/unlock, and ending used by the guide.
+- **Set B** must independently cover the full **main-route structure**: every route-defining decision, route prerequisite/unlock, and route/main ending used by the guide. Optional bad-end detours are handled separately below and may be documented by only one primary set when the other is silent and non-contradictory.
 - A verification set may be one page or multiple Japanese pages. If multiple pages are needed, document every component in `research.json` and explain what each component covers.
 - A translation, derivative guide, or page that merely cites Set A does not count as an independent Set B.
 - A source that cannot be directly inspected does not count toward the gate. It may be listed for provenance only.
 - If the two-set gate cannot be satisfied, stop after research and document the blocker. Do not invent or infer missing guide content.
 - Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
-"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every route choice, prerequisite/unlock, and ending must be independently supported by both sets. A save point or repeated UI action may appear in only one set; in that case include it only when explicitly documented and mark the other source field as not documented rather than fabricating text.
+"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets. A save point, repeated UI action, or optional bad-end detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. If the other set contradicts the step/outcome, resolve the conflict before generation.
 
 ## Character portraits
 
@@ -57,8 +57,8 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
 - `jpGuide1`: exact verbatim Set-A text when Set A prints that step.
 - `jpGuide2`: exact verbatim Set-B text when Set B prints that step.
-- For a **route-defining choice, prerequisite/unlock, or ending**, both verification sets must independently support the fact. If one set cannot support it, the research gate is insufficient and the route cannot pass.
-- For a **non-route-defining save, load, or repeated UI action** that is explicitly documented by only one set, keep the useful step and use the symmetric omission placeholder for the other field:
+- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact. If one set cannot support it, the research gate is insufficient and the route cannot pass.
+- For a **non-route-defining save, load, repeated UI action, or optional bad-end-only step** that is explicitly documented by only one primary set while the other is silent/non-contradictory, keep the useful step and use the symmetric omission placeholder for the other field:
   - Set A missing → exactly `（第一ガイドに記載なし）`
   - Set B missing → exactly `（第二ガイドに記載なし）`
 - Those two exact strings are the only permitted missing-source placeholders.
@@ -91,7 +91,7 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 - A normal instruction to load a save created in an earlier route is a plain step. Its `simpleJp` may say `セーブNにロード`, but it must **not** have `isLoad: true`.
 ### Bad-end completeness
 
-Every bad end documented by the Japanese verification sets must be actively included before continuing the main route.
+Every bad end explicitly documented by **either** directly inspected primary Japanese verification set must be actively included before continuing the main route when the other set is silent or agrees. One-set bad ends are allowed; use the source-omission placeholder for the silent set on bad-end-only steps. If the second set contradicts the existence, branch condition, or outcome of that bad end, reconcile the conflict before including it.
 
 For each documented bad end:
 
@@ -162,6 +162,13 @@ For direct/manual agent review, put structural and accuracy findings on the exis
 Do not launch multiple reviewers of the same type against the same route concurrently.
 
 PR comments are an audit trail and collaboration surface; they are **not** a machine-readable replacement for `reviewed` or for whatever persistence mechanism an automated orchestrator already uses.
+
+For direct/manual PR review, clean review evidence must be **content-bound**:
+
+- Structural `PASS` / resolved records include the reviewed route file's current repository blob SHA (or an equivalent deterministic content hash if the environment does not expose blob SHAs).
+- Accuracy `PASS` / resolved records include both the reviewed route-file blob SHA and the current `research.json` blob SHA/content hash.
+- Before relying on an earlier clean record or setting `reviewed: true`, fetch the current identifiers again. If the route identifier no longer matches the structural record, structural review is stale. If the route or research identifier no longer matches the accuracy record, accuracy review is stale.
+- Final approval requires structural and accuracy clean records that match the **current** relevant content. This rule does not depend on the author remembering to announce invalidation.
 
 ### When no open PR exists
 

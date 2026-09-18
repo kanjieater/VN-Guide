@@ -10,6 +10,7 @@ Intermediate files survive container restarts so generation resumes where it lef
 """
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -257,10 +258,16 @@ def phase_research(slug: str, title: str, vndb_id: str, guide_dir: Path) -> bool
 
 
 def count_saves_in_route(route_file: Path) -> int:
-    """Count セーブN steps in a completed route file."""
+    """Count actual standalone セーブN steps, excluding load instructions."""
     try:
         steps = json.loads(route_file.read_text())
-        return sum(1 for s in steps if isinstance(s.get("simpleJp", ""), str) and s["simpleJp"].startswith("セーブ"))
+        return sum(
+            1
+            for step in steps
+            if isinstance(step, dict)
+            and isinstance(step.get("simpleJp"), str)
+            and re.fullmatch(r"セーブ\d+", step["simpleJp"])
+        )
     except Exception:
         return 0
 

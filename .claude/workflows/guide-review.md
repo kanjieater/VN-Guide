@@ -86,6 +86,9 @@ Useful scoping variables:
 ```bash
 GUIDE_REVIEW_VID=v1715 python3 scripts/review.py
 GUIDE_REVIEW_VID=v1715 GUIDE_REVIEW_ROUTE=okita python3 scripts/review.py
+GUIDE_REVIEW_PR=123 GUIDE_REVIEW_VID=v1715 python3 scripts/review.py
 ```
+
+`GUIDE_REVIEW_PR` explicitly binds the local orchestrator to an open PR when branch-based PR discovery is unavailable (for example, a detached checkout).
 
 These are convenience examples for environments with the local runner. Other environments should perform the same role transitions with their available repository and issue tools.

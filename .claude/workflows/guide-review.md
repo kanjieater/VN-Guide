@@ -72,6 +72,14 @@ In particular:
 
 Do not rerun structural review merely because source metadata changed if no route structure changed.
 
+## Pre-merge consistency check
+
+Before a guide change is considered complete, verify tracked generated artifacts are synchronized with their source data.
+
+For example, if `games.json` changes `has_guide` or other landing-visible metadata, root `index.html` must be regenerated or equivalently synchronized according to `scripts/generate.py` and the landing template. This applies even when the reviewing/authoring agent cannot execute the local Python runner.
+
+This is a repository-consistency check, not a reason to redesign the local orchestration.
+
 ## Automated orchestration
 
 `scripts/review.py` remains unchanged by this workflow refactor. It is one local implementation of the same author → structural review → accuracy review gates and may continue using its existing issue-based persistence.

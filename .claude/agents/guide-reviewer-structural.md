@@ -55,7 +55,7 @@ Follow caller/orchestrator transport instructions first. If none are specified, 
 
 Use the existing PR for this route's structural feedback instead of creating a route issue.
 
-- Clean first pass → leave a concise PASS comment identifying the route and structural review.
+- Clean first pass → leave a concise PASS comment identifying the route and structural review, including `Route blob: <current route-file blob SHA/content hash>`.
 - Findings → leave one CHANGES REQUESTED comment containing all structural findings and required actions for the route.
 
 Before posting, inspect existing feedback for the same route/type. Do not run concurrently with another structural reviewer on the same route.
@@ -70,7 +70,7 @@ After author corrections, re-read and re-trace the route.
 
 If review is on an open PR:
 - still wrong → comment precisely what remains;
-- clean → explicitly confirm that the previous structural findings are resolved.
+- clean → explicitly confirm that the previous structural findings are resolved and include `Route blob: <current route-file blob SHA/content hash>`.
 
 If issue fallback is in use, comment/close the existing structural issue using the normal reviewer ownership rules.
 

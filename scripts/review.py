@@ -183,7 +183,7 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"When done, report what you changed: "
             f"gh issue comment {existing_issue} --body \"Fixed: <one-line description of what changed>\" "
             f"Do NOT close the issue. Only the reviewer may close it, after independently "
-            f"verifying your fix against the sources."
+            f"verifying the structural fix."
         )
         ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
         if not ok:
@@ -270,7 +270,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
                 f"Read .claude/guide-standards.md and .claude/agents/guide-reviewer.md and follow them exactly. "
                 f"Review the '{route_title}' route for the game '{slug}'. "
                 f"The route file is {slug}/route_{route_id}.json. "
-                f"Fetch both primary Japanese sources listed in {slug}/research.json. "
+                f"Fetch both Japanese verification sets documented in {slug}/research.json. "
                 f"If you find accuracy issues, create exactly ONE GitHub issue with: "
                 f"  title: '[{slug}] {route_title}: accuracy review' "
                 f"  labels: route-accuracy and {slug} "
@@ -316,7 +316,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"Read .claude/guide-standards.md and .claude/agents/guide-reviewer.md and follow them exactly. "
             f"Re-review the '{route_title}' route for '{slug}' after author corrections. "
             f"First read the existing issue: gh issue view {existing_issue} "
-            f"Re-fetch the relevant sections of both Japanese sources listed in {slug}/research.json. "
+            f"Re-fetch the relevant components of both Japanese verification sets documented in {slug}/research.json. "
             f"Verify each finding in the issue was correctly fixed in {slug}/route_{route_id}.json. "
             f"If all findings are resolved: close the issue with a confirming comment. "
             f"If any finding is still wrong: add a comment to issue #{existing_issue} describing what remains, do not close it."

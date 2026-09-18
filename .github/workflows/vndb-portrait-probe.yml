@@ -1,0 +1,32 @@
+name: VNDB portrait probe
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query VNDB character portraits
+        shell: python
+        run: |
+          import json, urllib.request
+          ids = ["c109","c178","c107","c176","c116","c126","c133","c266","c172","c111"]
+          req = urllib.request.Request(
+              "https://api.vndb.org/kana/character",
+              data=json.dumps({
+                  "filters": ["id", "=", ids],
+                  "fields": "id,name,original,image.url"
+              }).encode(),
+              headers={"Content-Type":"application/json","User-Agent":"VN-Guide portrait audit"}
+          )
+          with urllib.request.urlopen(req, timeout=30) as r:
+              data = json.load(r)
+          for item in data["results"]:
+              print(json.dumps({
+                  "id": item["id"],
+                  "name": item["name"],
+                  "original": item.get("original"),
+                  "image": (item.get("image") or {}).get("url")
+              }, ensure_ascii=False))

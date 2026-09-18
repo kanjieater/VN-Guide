@@ -44,11 +44,12 @@ Save/load instructions are the only non-choice steps.
 Both `jpGuide1` and `jpGuide2` must be non-empty on every step.
 
 - Use exact verbatim source text when that set prints the step.
-- Route-defining choices, prerequisites/unlocks, and endings must be independently supported by **both** sets. If one set cannot support such a fact, stop and repair the research/source gate.
-- For a non-route-defining save/load/repeated UI action documented by only one set:
+- Main-route-defining choices, prerequisites/unlocks, and route/main endings must be independently supported by **both** sets. If one set cannot support such a fact, stop and repair the research/source gate.
+- For a non-route-defining save/load/repeated UI action **or optional bad-end-only step** documented by only one primary set while the other is silent/non-contradictory:
   - Set A missing → `jpGuide1` is exactly `（第一ガイドに記載なし）`.
   - Set B missing → `jpGuide2` is exactly `（第二ガイドに記載なし）`.
-- Never use an omission placeholder to hide missing independent support for a route-defining fact.
+- Never use an omission placeholder to hide missing independent support for a main-route-defining fact.
+- One-source optional bad ends are allowed when the other primary set is silent/non-contradictory; if the other set contradicts that bad end, stop and reconcile the conflict before generating it.
 - Never copy one source into the other source field.
 - Never leave either field empty.
 - Preserve whitespace and punctuation exactly.
@@ -86,7 +87,7 @@ If this route begins by loading a save created in an earlier route, write the vi
 
 ### Bad-end completeness
 
-Every bad end documented by the Japanese verification sets must be actively played before continuing the main route.
+Every bad end explicitly documented by either primary Japanese verification set must be actively played before continuing the main route when the other set is silent or agrees. One-source bad ends use the appropriate omission placeholder on bad-end-only steps. Contradictory bad-end evidence must be reconciled before generation.
 
 For every documented bad end:
 

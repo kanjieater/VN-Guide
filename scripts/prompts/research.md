@@ -50,6 +50,6 @@ Notes:
 - `id` must be ASCII-only romanized keys (e.g. `takuma`, `shinji`, `true_end`)
 - `recommended_order` lists route ids from first to last (true route last)
 - Include all sources found, noting completeness
-- `portrait`: fetch `https://vndb.org/v$VNDB_ID/chars` to find the character for each route. VNDB character image URLs follow the pattern `https://t.vndb.org/ch/{last2ofID}/{fullID}.jpg` — e.g. character ID 43681 → `https://t.vndb.org/ch/81/43681.jpg`. Match each route to its character by name. Leave empty string if no match found.
+- `portrait`: match each route to the correct VNDB character by name, then copy that character's actual image URL from VNDB exactly (prefer the Kana API `POST /character` field `image.url`). **Do not construct a portrait URL from the character ID.** VNDB character IDs (for example `c109`) and image IDs (for example the `140` in `https://t.vndb.org/ch/40/140.jpg`) are separate identifiers. Verify the returned character name before writing the URL. Leave an empty string if no verified portrait is available.
 
 Write the file, then stop.

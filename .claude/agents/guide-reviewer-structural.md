@@ -46,7 +46,7 @@ Ordinary cross-route load instructions may remain on the main route as plain ste
 
 ## Review record
 
-Follow the review destination rules in `.claude/guide-standards.md`.
+Follow the review destination rules in `.claude/guide-standards.md` and use its canonical finding schema for every structural finding.
 
 ### Open PR exists
 

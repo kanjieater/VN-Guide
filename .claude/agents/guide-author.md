@@ -46,7 +46,8 @@ Before submitting a route, confirm:
 
 - Every route in the recommended order is covered.
 - Every ending is reachable following the guide.
-- Route decisions and ending conditions are independently supported by both Japanese verification sets.
+- Main-route-defining decisions, prerequisites/unlocks, and route/main ending conditions are independently supported by both Japanese verification sets.
+- Optional bad-end detours documented by one primary set are retained when the other set is silent/non-contradictory; contradictory bad-end evidence is reconciled before generation.
 - Every save is explicitly documented by at least one primary set.
 - If sources disagree on save position, the earlier documented position is used.
 - Every emitted player-action `simpleJp` is exact in-game text and follows the canonical step-shape rules.

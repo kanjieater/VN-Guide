@@ -145,7 +145,7 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
         if existing_issue is None:
             log(f"Route {route_id}: no open structural issue — running structural reviewer")
             reviewer_prompt = (
-                f"Read .claude/agents/guide-reviewer-structural.md and follow those instructions exactly. "
+                f"Read .claude/guide-standards.md and .claude/agents/guide-reviewer-structural.md and follow them exactly. "
                 f"Review the structure of the '{route_title}' route for the game '{slug}'. "
                 f"The route file is {slug}/route_{route_id}.json. "
                 f"Do NOT fetch any Japanese walkthroughs — this is a structural review only. "
@@ -176,7 +176,7 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
 
         log(f"Route {route_id}: structural issue #{existing_issue} open — running author (round {round_num})")
         author_prompt = (
-            f"Read .claude/agents/guide-author.md and follow those instructions exactly. "
+            f"Read .claude/guide-standards.md and .claude/agents/guide-author.md and follow them exactly. "
             f"Fix GitHub issue #{existing_issue} for the '{route_title}' route in '{slug}'. "
             f"First read the issue: gh issue view {existing_issue} "
             f"Apply all required structural fixes to {slug}/route_{route_id}.json. "
@@ -222,14 +222,27 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
 
 
 def mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title: str) -> bool:
-    """Set reviewed: true, but only if no open issue contradicts it.
+    """Set reviewed: true only when both review gates have no open blocker.
 
-    Re-checked here rather than trusted from the caller: a reviewer can file a
-    fresh issue during the same round that decided the route passed.
+    Re-check here rather than trusting caller state: a reviewer can file a fresh
+    issue during the same round that otherwise appeared to pass.
     """
-    blocking = get_open_issue_for_route(slug, route_id, route_title)
-    if blocking is not None:
-        err(f"Refusing to mark {slug}/{route_id} reviewed — issue #{blocking} is still open")
+    accuracy_blocking = get_open_issue_for_route(slug, route_id, route_title)
+    if accuracy_blocking is not None:
+        err(
+            f"Refusing to mark {slug}/{route_id} reviewed — "
+            f"accuracy issue #{accuracy_blocking} is still open"
+        )
+        return False
+
+    structural_blocking = get_open_structural_issue_for_route(
+        slug, route_id, route_title
+    )
+    if structural_blocking is not None:
+        err(
+            f"Refusing to mark {slug}/{route_id} reviewed — "
+            f"structural issue #{structural_blocking} is still open"
+        )
         return False
 
     guide = json.loads(guide_file.read_text())
@@ -254,7 +267,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             # No open issue — run fresh reviewer for this route
             log(f"Route {route_id}: no open issue — running reviewer")
             reviewer_prompt = (
-                f"Read .claude/agents/guide-reviewer.md and follow those instructions exactly. "
+                f"Read .claude/guide-standards.md and .claude/agents/guide-reviewer.md and follow them exactly. "
                 f"Review the '{route_title}' route for the game '{slug}'. "
                 f"The route file is {slug}/route_{route_id}.json. "
                 f"Fetch both primary Japanese sources listed in {slug}/research.json. "
@@ -300,7 +313,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
         # Re-review: verify the fix, comment or close the existing issue
         log(f"Route {route_id}: re-reviewing after author corrections (round {round_num})")
         re_reviewer_prompt = (
-            f"Read .claude/agents/guide-reviewer.md and follow those instructions exactly. "
+            f"Read .claude/guide-standards.md and .claude/agents/guide-reviewer.md and follow them exactly. "
             f"Re-review the '{route_title}' route for '{slug}' after author corrections. "
             f"First read the existing issue: gh issue view {existing_issue} "
             f"Re-fetch the relevant sections of both Japanese sources listed in {slug}/research.json. "

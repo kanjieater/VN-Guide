@@ -61,8 +61,8 @@ For the route under review, verify:
 - no contradictions across guide sections;
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
 - each present source excerpt is verbatim;
-- `（第一ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set B;
-- `（第二ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action documented only by Set A;
+- `（第一ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action or non-main-ending-only step documented only by Set B;
+- `（第二ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action or non-main-ending-only step documented only by Set A;
 - main-route-defining choices/prerequisites/route endings are independently supported by both sets, with no omission placeholder standing in for missing independent support;
 - optional non-main ending detours documented by one primary set are included when the other set is silent/non-contradictory, with the correct omission placeholder on detour-only steps; conflicting ending evidence is reconciled rather than guessed;
 - the documented target platform/edition is compatible with both verification sets.

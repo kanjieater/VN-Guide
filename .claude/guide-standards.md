@@ -105,16 +105,18 @@ Before creating a fallback issue, check for an existing one and re-check immedia
 For each unreviewed route:
 
 1. Structural reviewer performs a fresh structural review.
-2. If structural findings exist, create/reuse one `route-structure` issue.
-3. Author fixes and comments.
-4. Structural reviewer re-verifies and closes only when clean.
-5. Accuracy reviewer performs a fresh source review.
-6. If accuracy findings exist, create/reuse one `route-accuracy` issue.
-7. Author fixes and comments.
-8. Accuracy reviewer re-fetches sources, re-verifies, and closes only when clean.
-9. When there are no open structural or accuracy issues for the route, the accuracy-review stage/orchestrator sets `reviewed: true`.
+2. Record the result on the open PR when one exists; otherwise use issue fallback for findings.
+3. If structural changes are requested, the author fixes them and reports the fix to the same review destination.
+4. Structural reviewer independently re-verifies and records `RESOLVED` on the PR or closes the fallback issue.
+5. Accuracy reviewer independently verifies both Japanese verification sets.
+6. Record the result on the open PR when one exists; otherwise use issue fallback for findings.
+7. If accuracy changes are requested, the author fixes them and reports the fix to the same review destination.
+8. Accuracy reviewer re-fetches sources, re-verifies, and records `RESOLVED` on the PR or closes the fallback issue.
+9. Once both route gates are clean, the accuracy stage/orchestrator sets `reviewed: true`.
 
 The author and structural reviewer never set `reviewed: true`.
+
+If an old fallback review issue already exists when PR mode begins, do not silently ignore an unresolved finding. Carry any unresolved finding into the PR review record and resolve/close the legacy issue before final approval.
 
 ## Review invalidation
 
@@ -136,7 +138,8 @@ A route is complete only when:
 
 - its structural review is clean,
 - its accuracy review is clean against both Japanese verification sets,
-- no open blocking issue exists for that route, and
+- its active review destination has no blocker (`CHANGES_REQUESTED` in PR mode, or an open fallback issue),
+- no unresolved legacy review issue remains, and
 - `reviewed: true`.
 
 A game is fully reviewed only when every route satisfies that gate.

@@ -27,8 +27,8 @@ Output file: `$ROUTE_FILE`
   {
     "simpleJp": "戦う",
     "jpGuide1": "verbatim text from Set A",
-    "jpGuide2": "verbatim text from Set B, or （第二ガイドに記載なし）",
-    "enGuide": ""
+    "jpGuide2": "verbatim text from Set B, or an allowed omission placeholder",
+    "enGuide": "English reference/hint when available, otherwise empty string"
   }
 ]
 ```
@@ -43,13 +43,21 @@ Save/load instructions are the only non-choice steps.
 
 Both `jpGuide1` and `jpGuide2` must be non-empty on every step.
 
-- `jpGuide1`: exact verbatim text from Set A.
-- If a required step has no exact Set-A text, stop: the Set-A source assignment is insufficient. Find a directly inspectable Set-A source that documents the step or document the blocker. Never leave `jpGuide1` empty or fabricate text.
-- `jpGuide2`: exact verbatim text from Set B when that exact step is printed there.
-- If Set B independently supports the surrounding route/ending but does not print the exact step, use exactly `（第二ガイドに記載なし）`.
-- `（第二ガイドに記載なし）` is the only permitted missing-source placeholder.
-- Never copy Set A into `jpGuide2`.
+- Use exact verbatim source text when that set prints the step.
+- Route-defining choices, prerequisites/unlocks, and endings must be independently supported by **both** sets. If one set cannot support such a fact, stop and repair the research/source gate.
+- For a non-route-defining save/load/repeated UI action documented by only one set:
+  - Set A missing → `jpGuide1` is exactly `（第一ガイドに記載なし）`.
+  - Set B missing → `jpGuide2` is exactly `（第二ガイドに記載なし）`.
+- Never use an omission placeholder to hide missing independent support for a route-defining fact.
+- Never copy one source into the other source field.
+- Never leave either field empty.
 - Preserve whitespace and punctuation exactly.
+
+### `enGuide`
+
+- Preserve a useful English reference/hint when an English source or reliable reference is available.
+- Otherwise use exactly `""`.
+- Do not erase useful existing English detail merely because this field is optional.
 
 ### Saves
 

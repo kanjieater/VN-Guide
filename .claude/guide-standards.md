@@ -32,14 +32,14 @@ Before accepting either set:
 Then apply these source roles:
 
 - **Set A** should be the detailed primary walkthrough used for exact step/save text.
-- **Set B** must independently cover the full **main-route structure**: every route-defining decision, route prerequisite/unlock, and route/main ending used by the guide. Optional bad-end detours are handled separately below and may be documented by only one primary set when the other is silent and non-contradictory.
+- **Set B** must independently cover the full **main-route structure**: every route-defining decision, route prerequisite/unlock, and route/main ending used by the guide. Optional non-main ending detours (bad, normal, alternate, or similarly labeled endings) are handled separately below and may be documented by only one primary set when the other is silent and non-contradictory.
 - A verification set may be one page or multiple Japanese pages. If multiple pages are needed, document every component in `research.json` and explain what each component covers.
 - A translation, derivative guide, or page that merely cites Set A does not count as an independent Set B.
 - A source that cannot be directly inspected does not count toward the gate. It may be listed for provenance only.
 - If the two-set gate cannot be satisfied, stop after research and document the blocker. Do not invent or infer missing guide content.
 - Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
-"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets. A save point, repeated UI action, or optional bad-end detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. If the other set contradicts the step/outcome, resolve the conflict before generation.
+"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. If the other set contradicts the step/outcome, resolve the conflict before generation.
 
 ## Character portraits
 
@@ -58,7 +58,7 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 - `jpGuide1`: exact verbatim Set-A text when Set A prints that step.
 - `jpGuide2`: exact verbatim Set-B text when Set B prints that step.
 - For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact. If one set cannot support it, the research gate is insufficient and the route cannot pass.
-- For a **non-route-defining save, load, repeated UI action, or optional bad-end-only step** that is explicitly documented by only one primary set while the other is silent/non-contradictory, keep the useful step and use the symmetric omission placeholder for the other field:
+- For a **non-route-defining save, load, repeated UI action, or optional non-main-ending-only step** that is explicitly documented by only one primary set while the other is silent/non-contradictory, keep the useful step and use the symmetric omission placeholder for the other field:
   - Set A missing → exactly `（第一ガイドに記載なし）`
   - Set B missing → exactly `（第二ガイドに記載なし）`
 - Those two exact strings are the only permitted missing-source placeholders.
@@ -86,24 +86,24 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
 ### Structural markers
 
-- `badEndPath` marks the first wrong choice of a bad-end detour.
-- `isLoad: true` is reserved **only** for the load that terminates a `badEndPath` detour and returns to the main route.
+- `badEndPath` is the historical field name for the first branch step of any documented non-main ending detour, including bad, normal, alternate, or similarly labeled endings.
+- `isLoad: true` is reserved **only** for the load that terminates a `badEndPath` non-main-ending detour and returns to the main route.
 - A normal instruction to load a save created in an earlier route is a plain step. Its `simpleJp` may say `セーブNにロード`, but it must **not** have `isLoad: true`.
-### Bad-end completeness
+### Non-main ending detour completeness
 
-Every bad end explicitly documented by **either** directly inspected primary Japanese verification set must be actively included before continuing the main route when the other set is silent or agrees. One-set bad ends are allowed; use the source-omission placeholder for the silent set on bad-end-only steps. If the second set contradicts the existence, branch condition, or outcome of that bad end, reconcile the conflict before including it.
+Every documented non-main ending detour—bad, normal, alternate, or similarly labeled—explicitly documented by **either** directly inspected primary Japanese verification set must be actively included before continuing the main route when the other set is silent or agrees. One-set detours are allowed; use the source-omission placeholder for the silent set on detour-only steps. If the second set contradicts the existence, branch condition, or outcome of that ending, reconcile the conflict before including it.
 
-For each documented bad end:
+For each documented non-main ending detour:
 
 - insert the save before the branch when a source documents one;
 - mark the **first wrong choice** with `badEndPath`;
-- use the exact bad-end label documented by the source;
-- include every subsequent step needed to reach the bad-end terminal;
+- use the exact ending label documented by the source;
+- include every subsequent step needed to reach the ending terminal;
 - immediately follow the terminal with the matching `isLoad: true` load-back step;
 - then continue with the good/main choice;
-- if multiple bad ends branch from the same save, include every documented bad-end detour before continuing;
-- never add `badEndPath` where no Japanese source documents a bad end;
-- never invent a bad-end label or terminal.
+- if multiple non-main endings branch from the same save, include every documented detour before continuing;
+- never add `badEndPath` where no Japanese source documents a non-main ending;
+- never invent an ending label or terminal.
 
 ## `guide.json` assembly contract
 
@@ -197,7 +197,7 @@ Before finishing author work:
 4. If it cannot, reproduce only the affected deterministic transformation from the committed source/template and update the tracked derived file directly.
 5. Verify the derived file now agrees with the source-of-truth values before declaring the work complete.
 
-Do **not** modify local/Pi orchestration merely to make a browser or repository agent able to run it. The committed generator is the specification for the derived output, not a required execution environment.
+Do **not** modify local automated orchestration merely to make a browser or repository agent able to run it. The committed generator is the specification for the derived output, not a required execution environment.
 
 Known dependency in this repo:
 

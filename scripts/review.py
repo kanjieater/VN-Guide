@@ -194,7 +194,7 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
 
         log(f"Route {route_id}: re-reviewing structure after author corrections (round {round_num})")
         re_reviewer_prompt = (
-            f"Read .claude/agents/guide-reviewer-structural.md and follow those instructions exactly. "
+            f"Read .claude/guide-standards.md and .claude/agents/guide-reviewer-structural.md and follow them exactly. "
             f"Re-review the structure of the '{route_title}' route for '{slug}' after author corrections. "
             f"First read the existing issue: gh issue view {existing_issue} "
             f"Re-read {slug}/route_{route_id}.json and re-trace all bad end chains. "
@@ -294,7 +294,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
         # Open issue exists — run author to fix it
         log(f"Route {route_id}: issue #{existing_issue} open — running author (round {round_num})")
         author_prompt = (
-            f"Read .claude/agents/guide-author.md and follow those instructions exactly. "
+            f"Read .claude/guide-standards.md and .claude/agents/guide-author.md and follow them exactly. "
             f"Fix GitHub issue #{existing_issue} for the '{route_title}' route in '{slug}'. "
             f"First read the issue: gh issue view {existing_issue} "
             f"Apply all required fixes to {slug}/route_{route_id}.json. "

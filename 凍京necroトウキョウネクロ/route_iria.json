@@ -1,5 +1,20 @@
 [
-  {"simpleJp":"セーブ3にロード","jpGuide1":"◆セーブ02 から","jpGuide2":"（第二ガイドに記載なし）","enGuide":"This is the checkpoint created after choosing the 地下 side in the 霧里 route.","isLoad":true},
-  {"simpleJp":"左","jpGuide1":"左：(イリア)","jpGuide2":"早雲　イリア","enGuide":"早雲：イリア側。"},
-  {"simpleJp":"イリアEND","jpGuide1":"イリアEND","jpGuide2":"（第二ガイドに記載なし）","enGuide":""}
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "◆セーブ02 から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This is the checkpoint created after choosing the 地下 side in the 霧里 route."
+  },
+  {
+    "simpleJp": "左",
+    "jpGuide1": "左：(イリア)",
+    "jpGuide2": "早雲　イリア",
+    "enGuide": "早雲：イリア側。"
+  },
+  {
+    "simpleJp": "イリアEND",
+    "jpGuide1": "イリアEND",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  }
 ]

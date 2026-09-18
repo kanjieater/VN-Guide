@@ -30,9 +30,11 @@ You may update only the route's `reviewed` flag as the final approval action whe
 
 ## Source loading
 
-Read the game's `research.json` and identify Japanese verification Set A and Set B.
+Read the game's `games.json` entry, `research.json`, and `guide.json`.
 
-Fetch the actual source material directly. If a set has multiple pages, inspect the components relevant to the route.
+First verify that `games.json.guide_target`, `research.json.guide_target`, and `guide.json.guide_target` are identical and contain a specific label, platform, and linked release URL. Do not treat the broader VNDB `v...` work id as a substitute for the target release.
+
+Then identify Japanese verification Set A and Set B and fetch the actual source material directly. If a set has multiple pages, inspect the components relevant to the route.
 
 Do not:
 - rely only on `research.json` summaries;
@@ -52,7 +54,7 @@ For the route under review, verify:
 - **every documented non-main ending detour is present** (bad, normal, alternate, or similarly labeled), including multiple detours from the same save;
 - each non-main-ending chain starts at the first branch step, uses the exact documented `badEndPath` ending label, runs through the documented terminal, and is followed by the correct load-back step;
 - no `badEndPath` exists unless a Japanese source explicitly documents that non-main ending;
-- `isLoad: true` appears only after a bad-end detour;
+- `isLoad: true` appears only after a documented non-main ending detour;
 - cross-route save numbering;
 - no hallucinated or missing required choices;
 - every emitted player-action `simpleJp` is exact in-game text with no paraphrase, suffix, or location prefix;
@@ -65,14 +67,14 @@ For the route under review, verify:
 - `（第二ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action or non-main-ending-only step documented only by Set A;
 - main-route-defining choices/prerequisites/route endings are independently supported by both sets, with no omission placeholder standing in for missing independent support;
 - optional non-main ending detours documented by one primary set are included when the other set is silent/non-contradictory, with the correct omission placeholder on detour-only steps; conflicting ending evidence is reconciled rather than guessed;
-- the documented target platform/edition is compatible with both verification sets.
+- the explicit linked `guide_target` matches repo/research/guide metadata and both verification sets actually apply to that exact release/platform.
 
 For a full review, check the route completely.
 
 For a re-review after corrections:
 - verify every corrected finding;
 - re-check at least **20% of unchanged steps** (minimum one unchanged step when any exist), selected without bias/randomly where practical;
-- if a correction can cascade into save numbering, route ordering, prerequisites, bad-end structure, or nearby source attribution, expand the re-review to every potentially affected step rather than stopping at 20%.
+- if a correction can cascade into save numbering, route ordering, prerequisites, non-main-ending structure, or nearby source attribution, expand the re-review to every potentially affected step rather than stopping at 20%.
 
 ## Review record
 

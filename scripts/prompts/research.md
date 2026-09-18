@@ -6,8 +6,8 @@ $GAME_NOTES
 ## Current Task: Research Phase
 
 Game: $TITLE
-VNDB ID: $VNDB_ID
-$PLATFORM_NOTE
+VNDB work ID: $VNDB_ID
+Authoritative guide target: $GUIDE_TARGET_JSON
 
 Complete **only the research phase**.
 
@@ -22,7 +22,7 @@ Use this JSON shape:
 {
   "title": "$TITLE",
   "vndb_id": "$VNDB_ID",
-  "target_release": "$PLATFORM_NOTE",
+  "guide_target": $GUIDE_TARGET_JSON,
   "routes": [
     {
       "id": "ascii_route_key",
@@ -57,8 +57,10 @@ Use this JSON shape:
 
 Rules:
 
-- Identify the target platform/edition/release before accepting sources. Persist it in `target_release` (replace an empty/generic placeholder with the actual target when necessary).
-- Verify every Set A/B component applies to that target release. Document port/remaster/edition differences and whether they affect routes, choices, saves, unlocks, or endings.
+- `guide_target` is authoritative caller/repository input. Copy it **exactly**; do not choose, broaden, or replace the target release yourself.
+- Its `url` must link to the specific intended release/edition when possible (prefer a VNDB `r...` release page rather than the broader `v...` work page when VNDB has the exact release).
+- Verify every Set A/B component applies to that exact target release. Document port/remaster/edition differences and whether they affect routes, choices, saves, unlocks, or endings.
+- If the supplied target cannot be verified or the sources only apply to a materially different release, stop and document the blocker rather than silently switching targets.
 - `id` must be ASCII-only romanized keys.
 - `recommended_order` lists route ids from first to last; true/final route last when applicable.
 - Label every primary source component with `set: "A"` or `set: "B"`.

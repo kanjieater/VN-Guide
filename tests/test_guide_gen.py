@@ -3,6 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 
 MODULE_PATH = Path(__file__).resolve().parents[1] / "scripts" / "guide_gen.py"
@@ -10,6 +11,69 @@ SPEC = importlib.util.spec_from_file_location("vn_guide_gen", MODULE_PATH)
 guide_gen = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader is not None
 SPEC.loader.exec_module(guide_gen)
+
+
+class GuideTargetTests(unittest.TestCase):
+    def test_repo_guide_target_is_authoritative(self):
+        target = {
+            "label": "薄桜鬼 真改 風華伝",
+            "platform": "Nintendo Switch",
+            "url": "https://vndb.org/r56825",
+        }
+        with patch.dict(
+            guide_gen.os.environ,
+            {
+                "GUIDE_TARGET_LABEL": "Other",
+                "GUIDE_PLATFORM": "PC",
+                "GUIDE_TARGET_URL": "https://example.com/other",
+            },
+            clear=False,
+        ):
+            self.assertEqual(
+                guide_gen.resolve_guide_target({"guide_target": target}),
+                target,
+            )
+
+    def test_complete_caller_target_is_accepted(self):
+        with patch.dict(
+            guide_gen.os.environ,
+            {
+                "GUIDE_TARGET_LABEL": "Edition",
+                "GUIDE_PLATFORM": "Nintendo Switch",
+                "GUIDE_TARGET_URL": "https://vndb.org/r123",
+            },
+            clear=False,
+        ):
+            self.assertEqual(
+                guide_gen.resolve_guide_target({}),
+                {
+                    "label": "Edition",
+                    "platform": "Nintendo Switch",
+                    "url": "https://vndb.org/r123",
+                },
+            )
+
+    def test_missing_or_incomplete_target_is_rejected(self):
+        keys = [
+            "GUIDE_TARGET_LABEL",
+            "GUIDE_PLATFORM",
+            "GUIDE_TARGET_URL",
+        ]
+        with patch.dict(guide_gen.os.environ, {}, clear=False):
+            for key in keys:
+                guide_gen.os.environ.pop(key, None)
+            self.assertIsNone(guide_gen.resolve_guide_target({}))
+
+        with patch.dict(
+            guide_gen.os.environ,
+            {
+                "GUIDE_TARGET_LABEL": "Edition",
+                "GUIDE_PLATFORM": "Nintendo Switch",
+            },
+            clear=False,
+        ):
+            guide_gen.os.environ.pop("GUIDE_TARGET_URL", None)
+            self.assertIsNone(guide_gen.resolve_guide_target({}))
 
 
 class SaveOffsetTests(unittest.TestCase):

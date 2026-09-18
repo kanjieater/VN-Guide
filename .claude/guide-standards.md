@@ -122,6 +122,28 @@ Before creating an issue, check for an existing one and re-check immediately bef
 
 An automated runner may keep its existing transport/persistence mechanism. It must still enforce the same role separation, review gates, evidence requirements, and `reviewed` semantics. These standards do not require a particular shell command, API, issue format, or local process.
 
+## Tracked generated-artifact consistency
+
+A change is not complete if a tracked generated file is left inconsistent with the source data that produces it.
+
+Before finishing author work:
+
+1. Identify whether any modified source-of-truth file has tracked derived outputs in the repository.
+2. Inspect the committed generator/template to determine the exact dependency.
+3. If the current environment can safely run the relevant deterministic generation step, use it.
+4. If it cannot, reproduce only the affected deterministic transformation from the committed source/template and update the tracked derived file directly.
+5. Verify the derived file now agrees with the source-of-truth values before declaring the work complete.
+
+Do **not** modify local/Pi orchestration merely to make a browser or repository agent able to run it. The committed generator is the specification for the derived output, not a required execution environment.
+
+Known dependency in this repo:
+
+- `games.json` → root `index.html` via `scripts/generate.py::generate_landing()` and `scripts/templates/landing.html`.
+- Therefore changes to landing-visible fields such as `slug`, `title`, `alttitle`, `cover_url`, or `has_guide` must also be reflected in the tracked root `index.html`.
+- A browser/repository agent that cannot run `generate.py` must still update the affected embedded landing data equivalently and verify it matches current `games.json`.
+
+This consistency check is separate from structural/accuracy review. It does not invalidate a route review when only a derived presentation artifact is synchronized to already-approved source data.
+
 ## Review lifecycle
 
 For each unreviewed route:

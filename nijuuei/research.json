@@ -42,40 +42,53 @@
       "url": "https://sagaoz.net/foolmaker/game/n/nijuuei.html",
       "title": "二重影 攻略 by 愚者の館（アーカイブ）",
       "language": "ja",
-      "notes": "Set A. Directly inspected complete Japanese walkthrough for ケロQ 二重影, explicitly marked 確認バージョン『修正なし』 and 状況『完了（CG・回想100%）』. It covers 桔梗・命・楓玲, every movement/choice sequence, timed choices, shared saves, and the documented main/bad/alternate endings.",
+      "notes": "Primary Set A. Directly inspected complete Japanese walkthrough for ケロQ 二重影. It explicitly reports 確認バージョン「修正なし」 and 状況「完了（ＣＧ・回想１００％）」, and contains separate 桔梗・命・楓玲 sections with movement/action sequences, timed choices, saves, heroine bad ends, main heroine ends, 北条 END, 舞 BAD END, and イルスイ BAD END.",
       "set": "A"
+    },
+    {
+      "url": "https://www5c.biglobe.ne.jp/~s-sight/newpage2.htm",
+      "title": "二重影攻略 - BIGLOBE",
+      "language": "ja",
+      "notes": "Primary Set B. Independent directly inspected 12-day Japanese walkthrough. It documents the day-by-day navigation/action flow, heroine-affection choices (including 桔梗・命・楓玲 and 紗枝), the day-11 final quiz, heroine selection by highest affection, the 陵辱 vs ハッピー ending branch, and the Il-Sui rescue/failure sequence. Its route presentation differs substantially from SagaoZ, providing an independent cross-check rather than a derivative copy.",
+      "set": "B"
     },
     {
       "url": "https://ifs.nog.cc/destiny-tiar.hp.infoseek.co.jp/kouryaku_nijuukage.htm",
       "title": "ゲーム攻略＿二重影 (Destiny-Tiar / Infoseek mirror)",
       "language": "ja",
-      "notes": "Independent Set-B candidate discovered in Japanese web search. Indexed content independently states that the three攻略 heroines are 楓玲・命・桔梗, that they share progress through day 9, that 桔梗 branches on day 9 and 楓玲/命 on day 11, and that timed-choice failures cause immediate bad ends. Search-indexed excerpts also expose route-ending instructions. However, direct page inspection currently times out, so under the repository's source-inspection rule this does NOT yet count as accepted Set B."
+      "notes": "Supplementary independent candidate. Search indexing shows three攻略 heroines (楓玲・命・桔梗), common progress through day 9, and route splits on days 9/11, but direct page inspection times out. Retained only as corroborative discovery; it is not needed for the accepted A/B gate."
+    },
+    {
+      "url": "https://ftcom.skr.jp/game/t3ken/nijyueiK02.htm",
+      "title": "二重影攻略館 7～12日目",
+      "language": "ja",
+      "notes": "Supplementary independent source surfaced by current search. Search-indexed content independently documents the late-game heroine/Jubei happy-end choice and the Il-Sui bad-end failure sequence. Direct page open currently returns 403, so it is supplementary rather than a primary verification set."
     },
     {
       "url": "https://w.atwiki.jp/erogem/pages/497.html",
       "title": "PCゲーム攻略/は行/ふ/二重影 - ゲーム攻略まとめwiki",
       "language": "ja",
-      "notes": "Supplementary only. Directly inspectable and complete-looking, but it explicitly attributes its save data/source basis to SAGAOZ and reproduces the SagaoZ walkthrough structure/text. It is therefore derivative and cannot count as an independent Set B."
+      "notes": "Supplementary derivative source only. Directly inspectable, but it attributes its source/save-data basis to SAGAOZ and reproduces the SagaoZ walkthrough structure/text; therefore it is not used as an independent verification set."
     },
     {
       "url": "https://galge.top/topics/10181",
       "title": "二重影日文攻略 - 2DFan",
       "language": "ja",
-      "notes": "Supplementary only. Directly inspectable Japanese-text copy whose route sequence is effectively verbatim SagaoZ material. It is not independent enough to satisfy Set B."
+      "notes": "Supplementary derivative source only. Directly inspectable Japanese copy whose route sequence is effectively SagaoZ material; not used as Set B."
     },
     {
       "url": "https://www.keroq.co.jp/product/nijuu/top.htm",
       "title": "二重影 - KeroQ official product page",
       "language": "ja",
-      "notes": "Official target/provenance reference for the original PC product. The page identifies 二重影 as a discontinued KeroQ product. Used to anchor guide_target, not as a walkthrough verification set."
+      "notes": "Official target/provenance reference for the original KeroQ PC product. Used to anchor guide_target, not as a walkthrough verification set."
     },
     {
       "url": "https://www.keromakura.net/support/support/download.html",
       "title": "ケロQ＆枕 Official site - 二重影 support/update page",
       "language": "ja",
-      "notes": "Official PC support reference. Documents 二重影 executable/update files and Windows-specific support instructions, corroborating the original Windows PC target. Not a walkthrough source."
+      "notes": "Official PC support reference documenting 二重影 executable/update files and Windows-specific support instructions. Used for target provenance, not route verification."
     }
   ],
-  "disagreements": "RESEARCH GATE BLOCKER: Set A is directly inspected and complete, but an independent directly inspectable Set B has not yet passed the repository gate. The strongest independent candidate is the old Destiny-Tiar/Infoseek walkthrough mirrored at ifs.nog.cc; search indexing exposes substantive independent route structure, but direct fetches time out. The directly accessible AtWiki and 2DFan pages are derivatives/copies of SagaoZ and therefore cannot be used as independent verification. Per AGENTS.md / guide-author rules, route JSON generation must stop here until an independent Japanese Set B can be directly inspected. TARGET NOTE: this guide is scoped to KeroQ's original 2000 Windows PC product, not the 2002 Dreamcast/PlayStation ports. Contemporary listings distinguish 初回版 and 通常版 packaging; no route-content difference between those PC packages was directly verified in this pass, so the target is intentionally the original PC product family rather than a console port.",
-  "generated_at": "2026-09-19T20:52:00+00:00"
+  "disagreements": "RESEARCH GATE SATISFIED: SagaoZ is accepted Set A and the independent BIGLOBE walkthrough is accepted Set B. The two guides use different optimization strategies: SagaoZ gives separate completion routes and often chooses route-neutral alternatives that avoid unrelated affection/CG events, while BIGLOBE presents one 12-day framework, annotates affinity increases, and explains how late affinity choices select 桔梗・命・楓玲. Route authoring must preserve exact source text rather than pretending the two paths are identical. Route-defining agreement is strong: BIGLOBE independently documents 桔梗-affinity choices on days 6/7/8/10/11, 命-affinity choices and the day-11 sword branch, 楓玲-affinity choices, the eight-answer final quiz, the heroine-specific day-12 陵辱/ハッピー split, and the Il-Sui rescue/failure sequence; SagaoZ independently reaches and names the corresponding heroine BAD END / heroine END outcomes. ROUTE-NEUTRAL DIFFERENCES: the guides sometimes take opposite early affinity/CG choices (for example the day-3 village option) or different valid timed-combat inputs. These differences must be called out where they appear rather than copied across source fields. ENDING PRESENTATION: BIGLOBE describes ～は俺と来い as 陵辱エンド and ～は十兵衛と一緒に行け as ハッピーエンド; SagaoZ labels the corresponding heroine outcomes [heroine] BAD END and [heroine] END. BIGLOBE also documents 紗枝エンド as an optional day-6 detour when her affinity event is taken; because SagaoZ's completion routes generally avoid/exit that branch, include it only where the chosen route state actually makes it reachable and preserve the source-basis distinction. TARGET: original 2000 Windows PC product family, not the 2002 console ports; no route-content difference between 初回版 and 通常版 packaging was directly verified.",
+  "generated_at": "2026-09-19T21:18:00+00:00"
 }

@@ -3,7 +3,7 @@
     "simpleJp": "少年は神田へと向かった",
     "jpGuide1": "少年は神田へと向かった",
     "jpGuide2": "少年は神田へと向かった",
-    "enGuide": "This route is the 真・瑠璃亜編 / true-ending variant of the same original PS2 下巻 branch used by route_rulia.json. CORRECTED after the PS2 target/source re-check: xneo.jp's explicit Ending 25 and Ending 27 rows use the SAME 大岡レポート opening, including 少年は傷のわけを聞いた; there is no Ooka-Report flag-state divergence between those two Set A rows. The verified distinction occurs later: Ending 27 performs four optional B.S.S. results (弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……) and also completes the final 瑠璃亜をかばう search, whereas Ending 25 skips those four but still completes the final search. +10 BLOOD; this first Ooka choice leads to □２□."
+    "enGuide": "This route is the 真・瑠璃亜編 / true-ending variant of the same original-PS2 下巻 branch used by route_rulia.json. XNEO's Ending 25 and Ending 27 rows use the same visible Ooka Report opening; the verified distinction occurs later, where Ending 27 performs four additional B.S.S. results and still completes the final 瑠璃亜をかばう search."
   },
   {
     "simpleJp": "少年は少女と出会った",
@@ -33,19 +33,19 @@
     "simpleJp": "少年はそれを渡した",
     "jpGuide1": "少年はそれを渡した",
     "jpGuide2": "少年はそれを渡した",
-    "enGuide": "Sets 吸血鬼の本フラグ ON — required ON for the true ending (真・瑠璃亜編). No BLOOD bonus is listed for this specific option. Identical to route_rulia.json step 6."
+    "enGuide": "Follow the visible Ooka Report choice 少年はそれを渡した. XNEO's Ending 27 row and the Set-B true-ending gameplay recording both use this opening."
   },
   {
     "simpleJp": "少年は怪しい所にいた",
     "jpGuide1": "少年は怪しい所にいた",
     "jpGuide2": "少年は怪しい所にいた",
-    "enGuide": "+10 BLOOD. Sets 五匹の子豚さんフラグ ON — required ON for the true ending (真・瑠璃亜編). Identical to route_rulia.json step 7."
+    "enGuide": "+10 BLOOD. Follow the visible Ooka Report choice 少年は怪しい所にいた."
   },
   {
     "simpleJp": "少年は傷のわけを聞いた",
     "jpGuide1": "少年は傷のわけを聞いた",
     "jpGuide2": "少年は傷のわけを聞いた",
-    "enGuide": "Use 少年は傷のわけを聞いた here. xneo.jp's PS2 Ending 27 row uses the same Ooka Report opening as Ending 25, so 瑠璃亜の過去フラグ is ON on the Set A path for both. VERIFIED DIFFERENTIATOR: Ending 25 then skips the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but still completes 瑠璃亜をかばう; Ending 20 performs those four but stops before the final search; Ending 27 performs all four AND completes 瑠璃亜をかばう. route_rulia.json has been corrected to the Ending 25 sequence; this file intentionally performs the full Ending 27 combination."
+    "enGuide": "Use 少年は傷のわけを聞いた here. XNEO's Ending 27 row uses the same Ooka Report opening as Ending 25. The later four optional B.S.S. results plus the final 瑠璃亜をかばう search form the route distinction represented below."
   },
   {
     "simpleJp": "セーブ17",
@@ -81,13 +81,13 @@
     "simpleJp": "BSSタップ：「瑠璃亜の『あんたがいてくれるから』」",
     "jpGuide1": "瑠璃亜……\t瑠璃亜の「あんたがいてくれるから～」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "瑠璃亜……",
-    "enGuide": "Blood Search System — tap here to obtain 瑠璃亜……. xneo.jp's PS2 Ending 27 and Ending 20 rows include this result; Ending 25 omits it. list identifies this as the 瑠璃亜の過去フラグ=ON variant of this slot. This is the second of the four optional B.S.S. results that must be performed on the Ending 27 path."
+    "enGuide": "Blood Search System — tap here to obtain 瑠璃亜……. XNEO's Ending 27 row includes this result while Ending 25 omits it. This is the second of the four additional B.S.S. results represented on the true-ending path."
   },
   {
     "simpleJp": "BSSタップ：「主人公の『他の翼手のこと』」",
     "jpGuide1": "どんな人だったの？\t主人公の「他の翼手のこと～」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "どんな人だったの？",
-    "enGuide": "Blood Search System — tap here to obtain どんな人だったの？. list documents this trigger after either variant of the preceding slot, and xneo.jp's PS2 Ending 27 row includes it while Ending 25 omits it. This is the third of the four optional B.S.S. results required by the verified Ending 27 completion pattern."
+    "enGuide": "Blood Search System — tap here to obtain どんな人だったの？. XNEO's Ending 27 row includes it while Ending 25 omits it. This is the third of the four additional B.S.S. results represented on the true-ending path."
   },
   {
     "simpleJp": "瑠璃亜を抱く",

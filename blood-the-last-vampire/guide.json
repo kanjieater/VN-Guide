@@ -5,19 +5,19 @@
     {
       "id": "joukan",
       "title": "上巻",
-      "stepCount": 526,
+      "stepCount": 524,
       "reviewed": false
     },
     {
       "id": "yami_no_ou",
       "title": "闇の王編",
-      "stepCount": 146,
+      "stepCount": 141,
       "reviewed": false
     },
     {
       "id": "kyuumei",
       "title": "究明編",
-      "stepCount": 107,
+      "stepCount": 101,
       "reviewed": false
     },
     {
@@ -148,7 +148,7 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-09-19T21:49:00+00:00",
+  "generated_at": "2026-09-19T22:22:00+00:00",
   "guide_target": {
     "label": "BLOOD THE LAST VAMPIRE 上巻・下巻（2000年オリジナル版）",
     "platform": "PlayStation 2",

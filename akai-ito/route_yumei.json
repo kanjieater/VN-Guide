@@ -30,7 +30,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ22",
+    "simpleJp": "セーブ16",
     "jpGuide1": "－セーブ①－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -61,7 +61,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ16にロード",
     "jpGuide1": "－セーブ①から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -74,7 +74,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ21",
+    "simpleJp": "セーブ17",
     "jpGuide1": "－セーブ②－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -183,7 +183,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ21にロード",
+    "simpleJp": "セーブ17にロード",
     "jpGuide1": "－セーブ②から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -214,7 +214,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ22",
+    "simpleJp": "セーブ18",
     "jpGuide1": "－セーブ③－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -305,7 +305,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ18にロード",
     "jpGuide1": "－セーブ③から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -348,7 +348,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ21",
+    "simpleJp": "セーブ19",
     "jpGuide1": "－セーブ④－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -361,7 +361,7 @@
     "badEndPath": "Normal End『残夢・夏の終わり』（ED5）"
   },
   {
-    "simpleJp": "セーブ21にロード",
+    "simpleJp": "セーブ19にロード",
     "jpGuide1": "－セーブ④から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -380,7 +380,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ22",
+    "simpleJp": "セーブ20",
     "jpGuide1": "－セーブ⑤－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -393,7 +393,7 @@
     "badEndPath": "Bad End『ラクヨウ』（ED16）"
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ20にロード",
     "jpGuide1": "－セーブ⑤から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",

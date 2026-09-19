@@ -13,7 +13,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Original PlayStation 2 Volume 1 (上巻), released 2000-12-21. Common prologue that must be cleared before continuing into 下巻. XNEO Set A documents all 19 numbered 上巻 endings. The replacement gameplay-video Set B independently covers the four main handoff outcomes used by the complete guide — 闇の王編, 灯子編, 瑠璃亜編, and 究明編 — through route-specific original-PS2 recordings. Optional 上巻 endings not exercised by those recordings remain Set-A-only detours and therefore use the permitted Set-B omission placeholder rather than legacy mmitsuru text."
+      "notes": "Original PlayStation 2 Volume 1 (上巻), released 2000-12-21. Common prologue that must be cleared before continuing into 下巻. XNEO is the sole directly inspectable Japanese accuracy source accepted for this owner-approved exception and documents all 19 numbered 上巻 endings. GRADIUSER4649X gameplay recordings are retained only as supplementary provenance/candidate material because their actual gameplay frames could not be directly inspected in this environment."
     },
     {
       "id": "yami_no_ou",
@@ -23,7 +23,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Dark King arc. Reached from 上巻's 闇の王編 handoff and continued in 下巻. XNEO Set A documents the detailed 闇の王 ending branches and uses Ending 23 for the guide's main completion path. The original-PS2 下巻 闇の王編 gameplay recording is the independent Set-B component for the main route; optional alternate endings not exercised in that recording remain Set-A-only detours."
+      "notes": "Dark King arc. Reached from 上巻's 闇の王編 handoff and continued in 下巻. XNEO is the sole accepted directly inspectable Japanese accuracy source under the owner-approved exception and documents the detailed 闇の王 branches, including Ending 23 and its BLOOD thresholds. The GRADIUSER4649X recording is supplementary provenance/candidate material only, not verified Set B."
     },
     {
       "id": "kyuumei",
@@ -33,7 +33,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Investigation/truth-seeking arc, not tied to a specific heroine. Reached from 上巻's 究明編 handoff and continued in 下巻. XNEO Set A documents the detailed branches, including Endings 2/3/4/11/14/26 and their BLOOD thresholds. The original-PS2 下巻 究明編 gameplay recording is the independent Set-B component for the main route; alternate endings not exercised there remain Set-A-only detours."
+      "notes": "Investigation/truth-seeking arc, not tied to a specific heroine. Reached from 上巻's 究明編 handoff and continued in 下巻. XNEO is the sole accepted directly inspectable Japanese accuracy source under the owner-approved exception and documents Endings 2/3/4/11/14/26 and their BLOOD thresholds. The GRADIUSER4649X recording is supplementary provenance/candidate material only, not verified Set B."
     },
     {
       "id": "touko",
@@ -43,7 +43,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Touko (灯子) arc. Reached from 上巻's 灯子編 handoff and continued in 下巻. XNEO Set A documents the route's detailed Ending 6/9/10/24 branches. The original-PS2 下巻 灯子編 gameplay recording is the independent Set-B component for the main route; alternate endings not exercised there remain Set-A-only detours. Touko does not have a VNDB character entry, so no portrait is available."
+      "notes": "Touko (灯子) arc. Reached from 上巻's 灯子編 handoff and continued in 下巻. XNEO is the sole accepted directly inspectable Japanese accuracy source under the owner-approved exception and documents the Ending 6/9/10/24 branches. The GRADIUSER4649X recording is supplementary provenance/candidate material only, not verified Set B. Touko does not have a VNDB character entry, so no portrait is available."
     },
     {
       "id": "rulia",
@@ -53,7 +53,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Rulia (瑠璃亜) arc on the original PS2 下巻 and the branch leading toward the true-ending variant. XNEO Set A documents Endings 15/16/17/18/20/25/27. The original-PS2 下巻 瑠璃亜編 gameplay recording is Set B for the main Ending-25 route. XNEO's Ending 25 row skips the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… while still completing the final 瑠璃亜をかばう search; route_rulia preserves that sequence. Optional detours not exercised by the recording use the Set-B omission placeholder."
+      "notes": "Rulia (瑠璃亜) arc on the original PS2 下巻. XNEO is the sole accepted directly inspectable Japanese accuracy source under the owner-approved exception. Its explicit Ending 25 row uses the Ooka Report opening followed directly by そうだね, omits the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……, and still completes the final 瑠璃亜をかばう search. The GRADIUSER4649X recording is supplementary provenance/candidate material only, not verified Set B."
     },
     {
       "id": "true_end",
@@ -63,7 +63,7 @@
         "rulia"
       ],
       "is_true_ending": true,
-      "notes": "True-ending variant of 瑠璃亜編 on the original PS2 下巻. XNEO's Ending 27 row uses the same route opening as Ending 25, then additionally performs four optional B.S.S. results — 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… — before also completing the final 瑠璃亜をかばう search. The route-specific original-PS2 下巻 真・瑠璃亜編 gameplay recording is the independent Set-B component for this outcome. The guide keeps XNEO's ending number in Set A while Set B contributes only gameplay-visible Japanese route text/outcome labels."
+      "notes": "True-ending variant of 瑠璃亜編 on the original PS2 下巻. XNEO is the sole accepted directly inspectable Japanese accuracy source under the owner-approved exception. Its Ending 27 row uses the same Ooka Report opening as Ending 25, then additionally performs the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… before also completing the final 瑠璃亜をかばう search. The GRADIUSER4649X recording is supplementary provenance/candidate material only, not verified Set B."
     }
   ],
   "recommended_order": [
@@ -93,76 +93,67 @@
       "url": "https://www.youtube.com/watch?v=POs7MMCMJ7E",
       "title": "BLOOD THE LAST VAMPIRE 上巻　闇の王編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 上巻 闇の王編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=FgI6DNkGA-0",
       "title": "BLOOD THE LAST VAMPIRE 上巻　究明編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 上巻 究明編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=TCx5bPK38Vg",
       "title": "BLOOD THE LAST VAMPIRE 上巻　灯子編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 上巻 灯子編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=1b8aZ82Ngow",
       "title": "BLOOD THE LAST VAMPIRE 上巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 上巻 瑠璃亜編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=HR05w27tj9w",
       "title": "BLOOD THE LAST VAMPIRE 下巻　闇の王編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 下巻 闇の王編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=w6EP18DMcjc",
       "title": "BLOOD THE LAST VAMPIRE 下巻　究明編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 下巻 究明編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=esO7OstTuB8",
       "title": "BLOOD THE LAST VAMPIRE 下巻　灯子編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 下巻 灯子編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=CqsTdVXxrzo",
       "title": "BLOOD THE LAST VAMPIRE 下巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 下巻 瑠璃亜編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.youtube.com/watch?v=i1W5ruYeUvk",
       "title": "BLOOD THE LAST VAMPIRE 下巻　真・瑠璃亜編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Set B component for the original-PS2 下巻 真・瑠璃亜編 outcome. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
     },
     {
       "url": "https://www.gameman.jp/item/16555_m.html",
       "title": "BLOOD THE LAST VAMPIRE 上巻 - GAMEMAN 動画 index (PS2)",
       "language": "ja",
-      "notes": "Supplementary navigation/provenance index for the Set-B 上巻 gameplay recordings. The page identifies the item as PlayStation 2 and links the route-specific videos; the index itself is not a substitute for the gameplay evidence."
+      "notes": "Supplementary PS2 navigation/provenance index for the candidate GRADIUSER4649X gameplay recordings. The index is directly inspectable, but it is not a walkthrough and is not a substitute for direct inspection of the recordings."
     },
     {
       "url": "https://www.gameman.jp/item/16556_m.html",
       "title": "BLOOD THE LAST VAMPIRE 下巻 - GAMEMAN 動画 index (PS2)",
       "language": "ja",
-      "notes": "Supplementary navigation/provenance index for the Set-B 下巻 gameplay recordings. The page identifies the item as PlayStation 2 and links the route-specific videos; the index itself is not a substitute for the gameplay evidence."
+      "notes": "Supplementary PS2 navigation/provenance index for the candidate GRADIUSER4649X gameplay recordings. The index is directly inspectable, but it is not a walkthrough and is not a substitute for direct inspection of the recordings."
     },
     {
       "url": "https://gamefaqs.gamespot.com/ps2/580301-blood-the-last-vampire-joukan/faqs/12481",
@@ -183,6 +174,6 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "disagreements": "GUIDE TARGET: original Japanese PlayStation 2 two-volume release (上巻 SCPS-15007 / 下巻 SCPS-15008), released 2000-12-21; the 2006 PSP compilation is not the target. SET-B MIGRATION: the inaccessible mmitsuru archive is no longer an active verification set. Set A remains XNEO. Set B is the route-specific original-PS2 Japanese gameplay-video set indexed on GAMEMAN. Because gameplay recordings show in-game text rather than walkthrough prose, jpGuide2 records gameplay-visible Japanese choices/B.S.S. result labels/route outcomes for covered paths; optional detours not exercised by the Set-B recordings use exactly （第二ガイドに記載なし）. GameFAQs remains supplementary only. ENDING NUMBERS/TITLES: the gameplay videos are route-titled rather than an independent numbered ending table, so XNEO remains the source for ending numbers; no Set-B ending-number equivalence is inferred. TRUE ENDING: XNEO's explicit Ending 25 vs Ending 27 rows establish the completion distinction used by the guide — Ending 25 skips 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but completes 瑠璃亜をかばう, while Ending 27 includes all four and also completes 瑠璃亜をかばう. The separate 下巻 真・瑠璃亜編 gameplay recording provides independent route-result evidence without being used to invent an ending-number mapping. TOUKO: XNEO's この土地……？ belongs to its optional Ending 6 row, while the deeper main 灯子編 rows use いらないよ and the later shared choices. route_touko now models この土地……？ as a Set-A-only Ending 6 detour rather than as an unresolved main-path B.S.S. action; the Set-B gameplay recording remains the basis for the main 灯子編 route.",
-  "generated_at": "2026-09-19T22:20:00+00:00"
+  "disagreements": "GUIDE TARGET: original Japanese PlayStation 2 two-volume release (上巻 SCPS-15007 / 下巻 SCPS-15008), released 2000-12-21; the 2006 PSP compilation is not the target. OWNER-APPROVED ONE-SOURCE EXCEPTION: XNEO is the sole accepted directly inspectable Japanese accuracy source for this guide. No independent Japanese Set B that is both directly inspectable in this environment and complete enough for the guide was found. The GRADIUSER4649X original-PS2 gameplay recordings remain supplementary provenance/candidate material only: their metadata/indexing can be inspected, but their actual gameplay frames/choice screens could not be directly inspected, so they are not claimed as verified Set B. GameFAQs remains supplementary only. Accordingly, route jpGuide2 fields use exactly （第二ガイドに記載なし） rather than presenting uninspected gameplay-derived text as independently verified evidence. This exception is explicitly owner-approved as a known defect and is not itself an accuracy-review PASS. TRUE ENDING: XNEO's explicit Ending 25 vs Ending 27 rows establish the completion distinction used by the guide — Ending 25 skips 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but completes 瑠璃亜をかばう, while Ending 27 includes all four and also completes 瑠璃亜をかばう. TOUKO: XNEO's この土地……？ belongs to optional Ending 6, while the deeper main 灯子編 rows use いらないよ and the later shared choices.",
+  "generated_at": "2026-09-19T23:05:00+00:00"
 }

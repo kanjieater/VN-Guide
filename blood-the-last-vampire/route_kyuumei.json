@@ -18,7 +18,7 @@
     "enGuide": "+20 BLOOD. This is the only documented option at □１８□ that reaches 究明編 (the other option, 少年はそこで灯子に出会った, leads to □１１□ and continues toward 灯子編). Total starting BLOOD level entering 究明編 via this path is 30 (10+20 from the two bonuses above) — higher than route_yami_no_ou.json's 0-BLOOD start, since no 0-bonus path to 究明編 exists in mmitsuru's geoooka.htm flowchart."
   },
   {
-    "simpleJp": "セーブ33",
+    "simpleJp": "セーブ7",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial save placed at the very start of 究明編's Gekan content, before the first B.S.S. opportunity, mirroring the convention used in route_yami_no_ou.json (this PS2 title has no mid-chapter save screen documented by either source; all saves in this guide are editorial checkpoints placed so every documented ending can be reached and reloaded from a shared point). Starting BLOOD level here is 30, not 0 (see notes above)."
@@ -30,7 +30,7 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level. This exact trigger point is shared with 闇の王編 (per xneo.jp's B.S.S. list section header 回想（闇の王編・究明編）); xneo.jp documents that failing this specific tap leads to its Ending 1 (labelled ～闇の王編～), which is not one of 究明編's own six documented endings (2/3/4/11/14/26) and is already fully covered in route_yami_no_ou.json. This guide assumes the tap succeeds and does not re-document that shared failure ending here."
   },
   {
-    "simpleJp": "セーブ34",
+    "simpleJp": "セーブ8",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial checkpoint immediately after the first B.S.S. succeeds. The next choice is a two-way prompt (うん / ……) that, per xneo.jp's own per-ending listings, determines which broad group of 究明編 sub-endings is reachable: Endings 11 and 14 are both documented under '……' here, while Endings 2, 3, 4 and 26 are all documented under 'うん'. mmitsuru's own archived pages for this route (geend14.htm, geend26.htm) instead show a third variant, 'う……うん', at this exact position — none of the three walkthroughs fully agree on this line's wording, though all treat it as leading into the same subsequent chain. This guide follows xneo.jp's choice exactly as documented per target ending, redoing this choice from this save as needed."
@@ -39,7 +39,7 @@
     "simpleJp": "……",
     "jpGuide1": "……",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "First step of a detour toward xneo.jp's Ending 11 (究明編). See the note on セーブ34 above regarding this line's cross-source disagreement (うん／……／う……うん).",
+    "enGuide": "First step of a detour toward xneo.jp's Ending 11 (究明編). See the note on セーブ8 above regarding this line's cross-source disagreement (うん／……／う……うん).",
     "badEndPath": "エンディング11「究明編」"
   },
   {
@@ -169,7 +169,7 @@
     "enGuide": "Per xneo.jp this completes Ending 11 (究明編). As noted above, mmitsuru has no archived page matching this specific ending's numbering."
   },
   {
-    "simpleJp": "セーブ34にロード",
+    "simpleJp": "セーブ8にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -179,7 +179,7 @@
     "simpleJp": "……",
     "jpGuide1": "……",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "First step of a fresh detour (reloaded from セーブ34) toward xneo.jp's Ending 14 (究明編).",
+    "enGuide": "First step of a fresh detour (reloaded from セーブ8) toward xneo.jp's Ending 14 (究明編).",
     "badEndPath": "エンディング14「究明編」"
   },
   {
@@ -345,7 +345,7 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp this completes Ending 14 (究明編)."
   },
   {
-    "simpleJp": "セーブ34にロード",
+    "simpleJp": "セーブ8にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -355,7 +355,7 @@
     "simpleJp": "うん",
     "jpGuide1": "うん",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Good-path continuation from セーブ34: this choice, per xneo.jp, leads (via later choices) toward Endings 2, 3, 4 and 26. Of mmitsuru's own archived 究明編 pages, only geend26.htm (and geend14.htm, which shares End26's path up to its final beat) uses 'う……うん' at this exact position; mmitsuru's geend020304.htm (covering Endings 2, 3 and 4) instead shows plain '……' here — a third variant beyond the two (うん／……) this guide already models (see the note on セーブ34 above)."
+    "enGuide": "Good-path continuation from セーブ8: this choice, per xneo.jp, leads (via later choices) toward Endings 2, 3, 4 and 26. Of mmitsuru's own archived 究明編 pages, only geend26.htm (and geend14.htm, which shares End26's path up to its final beat) uses 'う……うん' at this exact position; mmitsuru's geend020304.htm (covering Endings 2, 3 and 4) instead shows plain '……' here — a third variant beyond the two (うん／……) this guide already models (see the note on セーブ8 above)."
   },
   {
     "simpleJp": "僕はあの声に怯えた……",
@@ -400,7 +400,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ35",
+    "simpleJp": "セーブ9",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial checkpoint before the next choice, which per xneo.jp's own per-ending listings splits Endings 2, 3 and 4 (via 'あの声だけが唯一の救いかもしれない') from the continuing main path toward Ending 26 (via 'あの声を聞いちゃいけない')."
@@ -431,7 +431,7 @@
     "enGuide": "Per xneo.jp this completes Ending 2 (究明編). mmitsuru's geend020304.htm page documents this same final '……' choice completing its own 'End 02「大岡」'."
   },
   {
-    "simpleJp": "セーブ35にロード",
+    "simpleJp": "セーブ9にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -441,7 +441,7 @@
     "simpleJp": "あの声だけが唯一の救いかもしれない",
     "jpGuide1": "あの声だけが唯一の救いかもしれない",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "First step of a fresh detour (reloaded from セーブ35) toward xneo.jp's Ending 3 (究明編).",
+    "enGuide": "First step of a fresh detour (reloaded from セーブ9) toward xneo.jp's Ending 3 (究明編).",
     "badEndPath": "エンディング3「究明編」"
   },
   {
@@ -469,7 +469,7 @@
     "enGuide": "Per xneo.jp this completes Ending 3 (究明編). mmitsuru's geend020304.htm page also uses this exact final choice text (抵抗する) to complete its own 'End 03「狂気のナイフ」', despite documenting a different route to reach it (see notes above)."
   },
   {
-    "simpleJp": "セーブ35にロード",
+    "simpleJp": "セーブ9にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -479,7 +479,7 @@
     "simpleJp": "あの声だけが唯一の救いかもしれない",
     "jpGuide1": "あの声だけが唯一の救いかもしれない",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "First step of a fresh detour (reloaded from セーブ35) toward xneo.jp's Ending 4 (究明編).",
+    "enGuide": "First step of a fresh detour (reloaded from セーブ9) toward xneo.jp's Ending 4 (究明編).",
     "badEndPath": "エンディング4「究明編」"
   },
   {
@@ -513,7 +513,7 @@
     "enGuide": "Per xneo.jp this completes Ending 4 (究明編). mmitsuru's geend020304.htm page also uses this exact final choice text to complete its own 'End 04「脱出」'."
   },
   {
-    "simpleJp": "セーブ35にロード",
+    "simpleJp": "セーブ9にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -523,7 +523,7 @@
     "simpleJp": "あの声を聞いちゃいけない",
     "jpGuide1": "あの声を聞いちゃいけない",
     "jpGuide2": "あの声を聞いちゃいけない",
-    "enGuide": "Good-path continuation from セーブ35, leading to this route's final/deepest documented ending, xneo.jp's Ending 26 (headed ～究明編～). mmitsuru's geend26.htm page (explicitly titled 'End 26「究明編」') also uses this exact answer."
+    "enGuide": "Good-path continuation from セーブ9, leading to this route's final/deepest documented ending, xneo.jp's Ending 26 (headed ～究明編～). mmitsuru's geend26.htm page (explicitly titled 'End 26「究明編」') also uses this exact answer."
   },
   {
     "simpleJp": "引き出しを開けてみる",

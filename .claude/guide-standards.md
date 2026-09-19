@@ -127,10 +127,11 @@ Every documented non-main ending detour—bad, normal, alternate, or similarly l
 For each documented non-main ending detour:
 
 - insert the save before the branch when a source documents one;
-- for a save-backed detour, mark the **first wrong choice** with `badEndPath`; for a source-documented replay-from-start detour with no usable checkpoint, mark the **first replay step** with `badEndPath` so the entire standalone replay can be removed during main-route reconstruction;
+- mark the **first wrong choice** with `badEndPath`; for a replay-from-start detour, steps before that wrong choice may be shared with the eventual main run, but the route file must include the full failed playthrough from route entry through the ending;
 - use the exact ending label documented by the source;
 - include every subsequent step needed to reach the ending terminal;
 - immediately follow the terminal with exactly one structural return: the matching `isLoad: true` load-back step, or `isRestart: true` when the source requires replaying from the beginning and supplies no usable checkpoint;
+- after `isRestart: true`, replay the route from its beginning and then continue on the good/main path; during structural reconstruction, remove the **entire failed-play prefix from route step 0 through that `isRestart` terminator**, not merely from the `badEndPath` step;
 - then continue with the good/main choice;
 - if multiple non-main endings branch from the same save, include every documented detour before continuing;
 - never add `badEndPath` where no Japanese source documents a non-main ending;

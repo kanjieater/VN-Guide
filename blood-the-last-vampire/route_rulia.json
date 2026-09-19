@@ -2,50 +2,50 @@
   {
     "simpleJp": "少年は神田へと向かった",
     "jpGuide1": "少年は神田へと向かった",
-    "jpGuide2": "少年は神田へと向かった＞□２□へ +10",
-    "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, matching the convention already used in route_touko.json, route_kyuumei.json and route_yami_no_ou.json. +10 BLOOD. Per mmitsuru's geoooka.htm flowchart this is □１□'s first option, leading to □２□. This exact opening line is also quoted verbatim as the first item of xneo.jp's own '＜大岡レポート＞' preamble for both its Ending 20 and Ending 25 rows under 瑠璃亜編, confirming this is the correct path toward this route."
+    "jpGuide2": "少年は神田へと向かった",
+    "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, matching the convention already used in route_touko.json, route_kyuumei.json and route_yami_no_ou.json. +10 BLOOD. This exact opening line is also quoted verbatim as the first item of xneo.jp's own '＜大岡レポート＞' preamble for both its Ending 20 and Ending 25 rows under 瑠璃亜編, confirming this is the correct path toward this route."
   },
   {
     "simpleJp": "少年は少女と出会った",
     "jpGuide1": "少年は少女と出会った",
-    "jpGuide2": "少年は少女と出会った＞□１２□へ",
-    "enGuide": "Per geoooka.htm this is □２□'s second option, leading to □１２□ (the branch that eventually reaches 瑠璃亜編; the other □２□ option and □３□ lead toward 灯子編/闇の王編/究明編 instead, per the same flowchart)."
+    "jpGuide2": "少年は少女と出会った",
+    "enGuide": ""
   },
   {
     "simpleJp": "二人は書店に行ったようだ",
     "jpGuide1": "二人は書店に行ったようだ",
-    "jpGuide2": "二人は書店に行ったようだ＞□１３□へ +10",
-    "enGuide": "+10 BLOOD. Per geoooka.htm this is □１２□'s first option, leading to □１３□."
+    "jpGuide2": "二人は書店に行ったようだ",
+    "enGuide": "+10 BLOOD."
   },
   {
     "simpleJp": "二人はある本に興味をもった",
     "jpGuide1": "二人はある本に興味をもった",
-    "jpGuide2": "二人はある本に興味をもった＞□１４□へ +10",
-    "enGuide": "+10 BLOOD. Per geoooka.htm this is □１３□'s first option, leading to □１４□."
+    "jpGuide2": "二人はある本に興味をもった",
+    "enGuide": "+10 BLOOD."
   },
   {
     "simpleJp": "二人はその本を買った",
     "jpGuide1": "二人はその本を買った",
-    "jpGuide2": "二人はその本を買った＞□１５□へ +10",
-    "enGuide": "+10 BLOOD. Per geoooka.htm this is □１４□'s first option, leading to □１５□."
+    "jpGuide2": "二人はその本を買った",
+    "enGuide": "+10 BLOOD."
   },
   {
     "simpleJp": "少年はそれを渡した",
     "jpGuide1": "少年はそれを渡した",
-    "jpGuide2": "少年はそれを渡した＞□１６□へ 吸血鬼の本フラグＯＮ",
-    "enGuide": "Sets 吸血鬼の本フラグ ON (required ON for the true ending, 真・瑠璃亜編 — see the separate true_end route). Per geflag.htm this corresponds to the Joukan bookstore choice 'B.S.S.▲主人公「吸血鬼の本？」の後、「興味あるんだ」→「かまわないけど」' plus Rulia's apartment 'いいよ' choice; the Ooka Report reproduces the same flag with this single line instead. No BLOOD bonus is listed for this specific option (only the alternative, 少年はそれを渡さなかった, gives +10)."
+    "jpGuide2": "少年はそれを渡した",
+    "enGuide": "Sets 吸血鬼の本フラグ ON (required ON for the true ending, 真・瑠璃亜編 — see the separate true_end route). No BLOOD bonus is listed for this specific option (only the alternative, 少年はそれを渡さなかった, gives +10)."
   },
   {
     "simpleJp": "少年は怪しい所にいた",
     "jpGuide1": "少年は怪しい所にいた",
-    "jpGuide2": "少年は怪しい所にいた＞□１７□へ +10 五匹の子豚さんフラグＯＮ",
-    "enGuide": "+10 BLOOD. Sets 五匹の子豚さんフラグ ON (required ON for the true ending, 真・瑠璃亜編). Per geflag.htm this corresponds to the Joukan karaoke-box scene 'へんなところは嫌だよ」→「やめてくださいっ、お姉さん！」→「は、はい」'; the Ooka Report sets the same flag directly with this line."
+    "jpGuide2": "少年は怪しい所にいた",
+    "enGuide": "+10 BLOOD. Sets 五匹の子豚さんフラグ ON (required ON for the true ending, 真・瑠璃亜編)."
   },
   {
     "simpleJp": "少年は傷のわけを聞いた",
     "jpGuide1": "少年は傷のわけを聞いた",
-    "jpGuide2": "少年は傷のわけを聞いた＞+10 瑠璃亜の過去フラグＯＮ 瑠璃亜編",
-    "enGuide": "+10 BLOOD (total BLOOD level entering the route: 60). Sets 瑠璃亜の過去フラグ ON. CORRECTED after the PS2 target/source re-check: xneo.jp's explicit Ending 25 and Ending 27 rows use this same Ooka Report choice, so this flag does not distinguish those two endings in the Set A sequence. The current guide therefore keeps this source-backed Ooka path for both route_rulia and route_true_end and treats mmitsuru's conflicting true-ending flag condition as a documented source disagreement rather than as a routing instruction."
+    "jpGuide2": "少年は傷のわけを聞いた",
+    "enGuide": "+10 BLOOD (total BLOOD level entering the route: 60). Sets 瑠璃亜の過去フラグ ON. CORRECTED after the PS2 target/source re-check: xneo.jp's explicit Ending 25 and Ending 27 rows use this same Ooka Report choice, so this flag does not distinguish those two endings in the Set A sequence."
   },
   {
     "simpleJp": "セーブ13",
@@ -56,39 +56,39 @@
   {
     "simpleJp": "BSSタップ：「主人公がうつむいたら」",
     "jpGuide1": "今なら逃げられる……\t主人公がうつむいたら、サーチする。",
-    "jpGuide2": "（２６）鈴有り 過去の記憶がよみがえり、主人公のセリフ『僕には小夜という～』『呪われた鬼の～』の後 （目が覚めた主人公がちょっと瑠璃亜を見やり、また目をそらしてうつむいたとき）△→今なら逃げられる……",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the opening B.S.S. of 瑠璃亜編 per both sources: xneo.jp's own category header lists it under 雨宿り（瑠璃亜編）, and mmitsuru's gebss.htm lists it as its own entry (26), the first entry under that page's 瑠璃亜編 header, describing the identical flashback/waking-up scene."
+    "jpGuide2": "今なら逃げられる……",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the opening B.S.S."
   },
   {
     "simpleJp": "セーブ14",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint immediately before this route's first branching choice, which offers (per xneo.jp's own Ending 15/16/17/18 rows) three distinct next lines: 前のアパートは？ (→ Ending 15, shortest), 他にもこういう所があるの？ (→ Ending 16, short), and そうだね (→ the long chain toward Endings 17/18/20/25). IMPORTANT SOURCE DISAGREEMENT: mmitsuru's own geend1516.htm page instead shows そうだね leading to its End15/16 (the SHORT endings), while its geend171820.htm/geend25.htm pages show 他にもこういう所があるの？ leading to its End17/18/20/25 (the LONG chain) — the exact opposite mapping of which named choice is 'short' vs 'long' compared to xneo.jp. This guide follows xneo.jp's own mapping throughout (そうだね = long/main path), consistent with how research.json documents mmitsuru and xneo.jp organizing this Gekan route's branches differently; the choice TEXT itself (そうだね, 他にもこういう所があるの？, 前のアパートは？) is still cross-confirmed as appearing somewhere in both sources' 瑠璃亜編 material, just attached to different branches."
+    "enGuide": "Editorial checkpoint immediately before this route's first branching choice, which offers (per xneo.jp's own Ending 15/16/17/18 rows) three distinct next lines: 前のアパートは？ (→ Ending 15, shortest), 他にもこういう所があるの？ (→ Ending 16, short), and そうだね (→ the long chain toward Endings 17/18/20/25)."
   },
   {
     "simpleJp": "他にもこういう所があるの？",
     "jpGuide1": "他にもこういう所があるの？",
-    "jpGuide2": "他にもこういう所があるの？＞",
-    "enGuide": "Per xneo.jp this begins Ending 16 (瑠璃亜編). This exact text also appears verbatim in mmitsuru's geend171820.htm/geend25.htm pages, but there it is documented as the OPENING line of mmitsuru's own End17/18/20/25 chain (the long path) rather than a short detour — see the note on the previous save step for this cross-site mapping disagreement.",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp this begins Ending 16 (瑠璃亜編).",
     "badEndPath": "エンディング16"
   },
   {
     "simpleJp": "どうして翼手になったの？",
     "jpGuide1": "どうして翼手になったの？",
-    "jpGuide2": "どうして翼手になったの？＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "瑠璃亜を抱く",
     "jpGuide1": "瑠璃亜を抱く",
-    "jpGuide2": "瑠璃亜を抱く＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "瑠璃亜は僕が守るから",
     "jpGuide1": "瑠璃亜は僕が守るから",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp's own Ending 16 row this is the next line after 瑠璃亜を抱く on the 他にもこういう所があるの？ branch. mmitsuru's pages do not document a distinct 瑠璃亜は僕が守るから branch at this position (see the earlier structural-disagreement note); no equivalent line is available to quote from source 2 here."
+    "enGuide": "Per xneo.jp's own Ending 16 row this is the next line after 瑠璃亜を抱く on the 他にもこういう所があるの？ branch."
   },
   {
     "simpleJp": "我慢して！",
@@ -107,20 +107,20 @@
     "simpleJp": "前のアパートは？",
     "jpGuide1": "前のアパートは？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp this begins Ending 15 (瑠璃亜編), the shortest documented sub-ending of this route. mmitsuru's own geend1516.htm page documents an ending with the identical final action (瑠璃亜を離す, see below) and the identical title 'End 15「乾いた笑い」', but reaches it via a different opening line (そうだね→どうして翼手になったの？) rather than this exact text — likely the same underlying scene, described differently by each site (see the structural-disagreement note on セーブ14). No verbatim source-2 match for this specific line.",
+    "enGuide": "Per xneo.jp this begins Ending 15 (瑠璃亜編), the shortest documented sub-ending of this route.",
     "badEndPath": "エンディング15"
   },
   {
     "simpleJp": "他の翼手って知ってるの？",
     "jpGuide1": "他の翼手って知ってるの？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp this is the second and final line of its Ending 15 row, leading directly to the ending. Note this exact text also names a separate B.S.S. entry elsewhere in xneo.jp's own table (瑠璃亜の「いいよ、謝らなくても～」のセリフ...), and mmitsuru's gebss.htm entry (29) documents the same line as a B.S.S. firing specifically when 瑠璃亜の過去フラグ is OFF — but this route's Ooka Report path set that flag ON, so this occurrence here is treated as xneo.jp's own literal Ending 15 choice text rather than that B.S.S., per xneo.jp's own row listing it as a plain choice at this position, not as a B.S.S. entry."
+    "enGuide": "Per xneo.jp this is the second and final line of its Ending 15 row, leading directly to the ending. Note this exact text also names a separate B.S.S. firing specifically when 瑠璃亜の過去フラグ is OFF — but this route's Ooka Report path set that flag ON, so this occurrence here is treated as xneo.jp's own literal Ending 15 choice text rather than that B.S.S., per xneo.jp's own row listing it as a plain choice at this position, not as a B.S.S. entry."
   },
   {
     "simpleJp": "瑠璃亜を離す",
     "jpGuide1": "瑠璃亜を離す",
-    "jpGuide2": "瑠璃亜を離す＞",
-    "enGuide": "Completes Ending 15 (瑠璃亜編) per xneo.jp. mmitsuru's geend1516.htm page ends its own End15「乾いた笑い」chain with this identical final action, confirming both sources agree on the terminal choice/title even though they document different preceding lines (see notes above)."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Completes Ending 15 (瑠璃亜編) per xneo.jp."
   },
   {
     "simpleJp": "セーブ14にロード",
@@ -132,8 +132,8 @@
   {
     "simpleJp": "そうだね",
     "jpGuide1": "そうだね",
-    "jpGuide2": "そうだね＞",
-    "enGuide": "Good-path continuation from セーブ14, toward the long chain (Endings 17/18/20/25). This exact text also appears in mmitsuru's geend1516.htm page, but attached there to the SHORT branch (End15/16) rather than this long one — see the structural-disagreement note on セーブ14. This guide follows xneo.jp's own mapping."
+    "jpGuide2": "そうだね",
+    "enGuide": "Good-path continuation from セーブ14, toward the long chain (Endings 17/18/20/25). This guide follows xneo.jp's own mapping."
   },
   {
     "simpleJp": "セーブ15",
@@ -145,20 +145,20 @@
     "simpleJp": "他の翼手って知ってるの？",
     "jpGuide1": "他の翼手って知ってるの？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp's own Ending 17 row, this is the choice immediately after そうだね on this branch — not どうして翼手になったの？, which belongs only to the Endings 18/20/25 branch (see セーブ15 note). mmitsuru could not be accessed this review pass to confirm source 2; mmitsuru's own geend171820.htm/geend25.htm pages reportedly show End17/18/20/25 sharing a single 瑠璃亜と一緒にいられるのなら line, which may not resolve this branch point either way — re-verify against mmitsuru once accessible (per issue #16).",
+    "enGuide": "Per xneo.jp's own Ending 17 row, this is the choice immediately after そうだね on this branch — not どうして翼手になったの？, which belongs only to the Endings 18/20/25 branch (see セーブ15 note).",
     "badEndPath": "エンディング17"
   },
   {
     "simpleJp": "瑠璃亜を抱く",
     "jpGuide1": "瑠璃亜を抱く",
-    "jpGuide2": "瑠璃亜を抱く＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Ending 25 path: arrive here after deliberately letting the three optional B.S.S. opportunities immediately after どうして翼手になったの？ pass without searching. xneo.jp's PS2 Ending 25 row goes directly from どうして翼手になったの？ to 瑠璃亜を抱く; Ending 27 includes 弱いって……？／瑠璃亜……／どんな人だったの？ before this same choice."
   },
   {
     "simpleJp": "瑠璃亜と一緒にいられるのなら",
     "jpGuide1": "瑠璃亜と一緒にいられるのなら",
-    "jpGuide2": "瑠璃亜と一緒にいられるのなら＞",
-    "enGuide": "Per xneo.jp this continues the branch reaching Ending 17. This exact text also appears in mmitsuru's geend171820.htm/geend25.htm chains, but there it is shared by End17/18/20/25 alike rather than marking a distinct branch (see note on セーブ15)."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Per xneo.jp this continues the branch reaching Ending 17."
   },
   {
     "simpleJp": "僕のを飲むんだ",
@@ -169,14 +169,14 @@
   {
     "simpleJp": "BSSタップ：「主人公の顔がアップになったら」",
     "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする。",
-    "jpGuide2": "（３１）鈴無し ガード下、チーマーに絡まれうずくまる主人公、押さえつけられる瑠璃亜 ▲（チーマーが瑠璃亜の服に切れこみを入れたとき）→瑠璃亜！",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. mmitsuru's geend171820.htm/geend25.htm chains show the identical cue ▲（チーマーが瑠璃亜の服に切れこみを入れたとき）at this position, immediately before their own branch point (successful search here continues toward mmitsuru's End17; failing/idling here continues toward mmitsuru's End18/20, per that page's phrasing '（End17の最後でB.S.S.を成功させる）' for reaching End18/20)."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "出来る限り瑠璃亜と一緒にいてあげよう",
     "jpGuide1": "出来る限り瑠璃亜と一緒にいてあげよう",
-    "jpGuide2": "出来る限り瑠璃亜と一緒にいてあげよう＞",
-    "enGuide": "Completes Ending 17 (瑠璃亜編) per xneo.jp. mmitsuru's geend171820.htm page ends its own End17「瑠璃亜の手」chain with this identical final line, confirming strong cross-source agreement on this specific terminal choice despite the disagreement on how the branch leading here is organized."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Completes Ending 17 (瑠璃亜編) per xneo.jp."
   },
   {
     "simpleJp": "セーブ15にロード",
@@ -188,38 +188,38 @@
   {
     "simpleJp": "どうして翼手になったの？",
     "jpGuide1": "どうして翼手になったの？",
-    "jpGuide2": "どうして翼手になったの？＞",
+    "jpGuide2": "どうして翼手になったの？",
     "enGuide": "Good-path continuation from セーブ15 toward Endings 18/20/25. For this route's Ending 25 path, do NOT trigger the next three optional B.S.S. opportunities (弱いって……？／瑠璃亜……／どんな人だったの？); let those moments pass and continue to 瑠璃亜を抱く. This is directly supported by xneo.jp's PS2 Ending 25 row, which goes どうして翼手になったの？→瑠璃亜を抱く, while Ending 27 inserts those three B.S.S. results between the same two choices. The separate true_end route performs them."
   },
   {
     "simpleJp": "瑠璃亜を抱く",
     "jpGuide1": "瑠璃亜を抱く",
-    "jpGuide2": "瑠璃亜を抱く＞",
+    "jpGuide2": "瑠璃亜を抱く",
     "enGuide": ""
   },
   {
     "simpleJp": "瑠璃亜は僕が守るから",
     "jpGuide1": "瑠璃亜は僕が守るから",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp's own Ending 18/20/25 rows this is the line after 瑠璃亜を抱く on this branch. mmitsuru's pages do not document a distinct 瑠璃亜は僕が守るから branch at this position (see セーブ15 note); no equivalent line is available to quote from source 2 here."
+    "jpGuide2": "瑠璃亜は僕が守るから",
+    "enGuide": "Per xneo.jp's own Ending 18/20/25 rows this is the line after 瑠璃亜を抱く on this branch."
   },
   {
     "simpleJp": "我慢して！",
     "jpGuide1": "我慢して！",
-    "jpGuide2": "我慢して！＞",
-    "enGuide": "This exact line also appears in mmitsuru's geend171820.htm/geend25.htm chains at the equivalent position (there reached via 瑠璃亜と一緒にいられるのなら instead, per the disagreement already noted)."
+    "jpGuide2": "我慢して！",
+    "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「主人公の顔がアップになったら」",
     "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする。",
-    "jpGuide2": "（３１）鈴無し ガード下、チーマーに絡まれうずくまる主人公、押さえつけられる瑠璃亜 ▲（チーマーが瑠璃亜の服に切れこみを入れたとき）→瑠璃亜！",
+    "jpGuide2": "瑠璃亜！",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Same B.S.S. entry as the one already documented on the Ending 17 branch above; per xneo.jp's own tables the identical named trigger reappears at the equivalent story beat on this branch (瑠璃亜は僕が守るから) as well."
   },
   {
     "simpleJp": "逃げ出す",
     "jpGuide1": "逃げ出す",
-    "jpGuide2": "逃げ出す＞",
-    "enGuide": "Per xneo.jp shared by Endings 18, 20 and 25 alike at this position. mmitsuru's geend25.htm page shows this identical word at the corresponding branch point for its own End25 (chosen instead of the B.S.S.-success/idle chain that leads to mmitsuru's End17/18/20)."
+    "jpGuide2": "逃げ出す",
+    "enGuide": "Per xneo.jp shared by Endings 18, 20 and 25 alike at this position."
   },
   {
     "simpleJp": "セーブ16",
@@ -231,7 +231,7 @@
     "simpleJp": "瑠璃亜から離れる",
     "jpGuide1": "瑠璃亜から離れる",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp this immediately completes Ending 18 (瑠璃亜編) — the last line of its Ending 18 row. mmitsuru's geend171820.htm page documents its own End18「一人きり」as reached instead by NOT acting on a short chain of B.S.S. cues (▲小夜「待て！」／▲瑠璃亜「いっ……いや……！！」／▲小夜「どけ」) immediately after the チーマー scene — a different mechanism (missed searches rather than an explicit wrong choice) for what this guide treats, per xneo.jp's own table, as a single named choice at this position. No verbatim source-2 quote is available for this exact choice text.",
+    "enGuide": "Per xneo.jp this immediately completes Ending 18 (瑠璃亜編) — the last line of its Ending 18 row. cues (▲小夜「待て！」／▲瑠璃亜「いっ……いや……！！」／▲小夜「どけ」) immediately after the チーマー scene — a different mechanism (missed searches rather than an explicit wrong choice) for what this guide treats, per xneo.jp's own table, as a single named choice at this position.",
     "badEndPath": "エンディング18"
   },
   {
@@ -244,31 +244,31 @@
   {
     "simpleJp": "マッチを見る",
     "jpGuide1": "マッチを見る",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "マッチを見る",
     "enGuide": "Good-path continuation from セーブ16 toward Ending 25. After choosing マッチを見る, do NOT trigger the optional B.S.S. result ママさんなら……; let that opportunity pass and continue to the later 小夜「待て」 search. xneo.jp's PS2 Ending 25 row omits ママさんなら……, whereas Ending 27 includes it at this exact point. This is the fourth optional B.S.S. that differentiates route_true_end's Ending 27 sequence from this Ending 25 sequence."
   },
   {
     "simpleJp": "BSSタップ：「小夜の『待て』」",
     "jpGuide1": "瑠璃亜から離れる\t小夜の「どけ……」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（３３）鈴有り 桜ヶ丘の廃マンション、暴走しかける瑠璃亜、小夜が不意に現れる ▲小夜「待て！」→瑠璃亜から離れる",
-    "enGuide": "Blood Search System — tap here. On this Ending 25 path this is the next B.S.S. action after deliberately skipping ママさんなら……. Both sources document the resulting choice 瑠璃亜から離れる in this late 瑠璃亜編 chain, although xneo.jp and mmitsuru describe the exact cue timing differently; retain the existing source text verbatim."
+    "jpGuide2": "瑠璃亜から離れる",
+    "enGuide": "Blood Search System — tap here. On this Ending 25 path this is the next B.S.S. action after deliberately skipping ママさんなら……."
   },
   {
     "simpleJp": "BSSタップ：「瑠璃亜の『いっ、いや』」",
     "jpGuide1": "瑠璃亜に駆け寄る\t瑠璃亜の「い、いや～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（３４）鈴無し （３３）後、不意に我に返る瑠璃亜 ▲瑠璃亜「いっ……いや……！！」→瑠璃亜に駆け寄る",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. Both sources place this immediately after the previous 瑠璃亜から離れる B.S.S."
+    "jpGuide2": "瑠璃亜に駆け寄る",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "BSSタップ：「小夜の『楽にしてやる』」",
     "jpGuide1": "瑠璃亜をかばう\t小夜の「楽にしてやる」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "（３６）鈴無し （３５）無視後、瑠璃亜を狩ろうとする小夜 ▲小夜「……楽にしてやる」→瑠璃亜をかばう",
+    "jpGuide2": "瑠璃亜をかばう",
     "enGuide": "Blood Search System — tap here to choose 瑠璃亜をかばう. With the four earlier optional B.S.S. results deliberately skipped (弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……), xneo.jp's PS2 Ending 25 row ends with this successful final search. Ending 27 uses the same final 瑠璃亜をかばう search but additionally includes all four optional B.S.S. results; route_true_end documents that full-completion path. Ending 20 is the complementary near-miss that includes the four optional results but stops before this final search."
   },
   {
     "simpleJp": "瑠璃亜編（エンディング25）",
     "jpGuide1": "エンディング25～瑠璃亜編～",
-    "jpGuide2": "End 25「瑠璃亜編」",
-    "enGuide": "Route complete — xneo.jp's PS2 Ending 25 (瑠璃亜編). CORRECTED per issue #18: this path now matches the explicit Ending 25 row by skipping all four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… while still completing the final 瑠璃亜をかばう search. The separate true_end route uses the same Ooka Report opening and final search but performs all four optional B.S.S. results, matching xneo.jp's Ending 27 row. mmitsuru's historical flag-model disagreement remains documented in research.json rather than being used to override the directly listed PS2 Ending 25/27 sequences."
+    "jpGuide2": "瑠璃亜編",
+    "enGuide": "Route complete — xneo.jp's PS2 Ending 25 (瑠璃亜編). CORRECTED per issue #18: this path now matches the explicit Ending 25 row by skipping all four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… while still completing the final 瑠璃亜をかばう search. The separate true_end route uses the same Ooka Report opening and final search but performs all four optional B.S.S. results, matching xneo.jp's Ending 27 row."
   }
 ]

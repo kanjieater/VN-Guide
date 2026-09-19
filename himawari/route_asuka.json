@@ -1,0 +1,168 @@
+[
+  {
+    "simpleJp": "先へ進む",
+    "jpGuide1": "先へ進む",
+    "jpGuide2": "先へ進む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "明香に早くいいわけをしなければ",
+    "jpGuide1": "明香に早くいいわけをしなければ",
+    "jpGuide2": "明香に早くいいわけをしなければ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスは、確かにいる",
+    "jpGuide1": "アリエスは、確かにいる",
+    "jpGuide2": "アリエスは、確かにいる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "手を取らない",
+    "jpGuide1": "手を取らない",
+    "jpGuide2": "手を取らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "明香が心配だ…",
+    "jpGuide1": "明香が心配だ…",
+    "jpGuide2": "明香が心配だ…",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり交換しない",
+    "jpGuide1": "やっぱり交換しない",
+    "jpGuide2": "やっぱり交換しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部長を呼ぶ",
+    "jpGuide1": "部長を呼ぶ",
+    "jpGuide2": "部長を呼ぶ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "迷惑なわけないだろ",
+    "jpGuide1": "迷惑なわけないだろ",
+    "jpGuide2": "迷惑なもんか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "明香、すごい声だな",
+    "jpGuide1": "明香、すごい声だな",
+    "jpGuide2": "明香、すごい声だな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それでも月を目指す",
+    "jpGuide1": "それでも月を目指す",
+    "jpGuide2": "それでも月を目指す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "舐めない",
+    "jpGuide1": "舐めない",
+    "jpGuide2": "舐めない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "最終兵器、明香",
+    "jpGuide1": "最終兵器、明香",
+    "jpGuide2": "最終兵器、明香",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "明香の言う方を信じる",
+    "jpGuide1": "明香の言う方を信じる",
+    "jpGuide2": "明香の言う方を信じる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ひまわりを作り続ける",
+    "jpGuide1": "ひまわりを作り続ける",
+    "jpGuide2": "天体観測会を開く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "センパイ",
+    "jpGuide1": "センパイ",
+    "jpGuide2": "社長",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ34",
+    "jpGuide1": "◆セーブ18",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…わかった",
+    "jpGuide1": "…わかった",
+    "jpGuide2": "……嘘だ　/　…わかった　END「Beautiful　Dreamer」",
+    "enGuide": "",
+    "badEndPath": "Beautiful Dreamer"
+  },
+  {
+    "simpleJp": "セーブ34にロード",
+    "jpGuide1": "◆セーブ18から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "……嘘だ",
+    "jpGuide1": "……嘘だ",
+    "jpGuide2": "……嘘だ　/　…わかった　END「Beautiful　Dreamer」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ35",
+    "jpGuide1": "◆セーブ19",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "屋敷に帰る",
+    "jpGuide1": "屋敷に帰る",
+    "jpGuide2": "学校へ行く　/　屋敷に帰る　END「逃避」",
+    "enGuide": "",
+    "badEndPath": "逃避"
+  },
+  {
+    "simpleJp": "セーブ35にロード",
+    "jpGuide1": "◆セーブ19から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "学校へ行く",
+    "jpGuide1": "学校へ行く",
+    "jpGuide2": "学校へ行く　/　屋敷に帰る　END「逃避」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスとアクアの様子を見てみる",
+    "jpGuide1": "アリエスとアクアの様子を見てみる",
+    "jpGuide2": "アリエスとアクアの様子を見てみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "明香と明の所に行く",
+    "jpGuide1": "明香と明の所に行く",
+    "jpGuide2": "明香と明の所に行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部長とジョニーが心配だ",
+    "jpGuide1": "部長とジョニーが心配だ",
+    "jpGuide2": "部長とジョニーが心配だ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "西園寺明香",
+    "jpGuide1": "【西園寺明香】END",
+    "jpGuide2": "「明香編クリア」",
+    "enGuide": ""
+  }
+]

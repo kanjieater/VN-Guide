@@ -21,6 +21,13 @@
       "stepCount": 49,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/24/46524.jpg"
+    },
+    {
+      "id": "asuka",
+      "title": "西園寺明香",
+      "stepCount": 27,
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/27/46527.jpg"
     }
   ],
   "sources": [
@@ -157,5 +164,5 @@
       "notes": "Additional candidate found in Japanese search; direct wiki access returned 403. Not read in full and not used as evidence or counted toward the two-complete-guide requirement."
     }
   ],
-  "generated_at": "2026-09-16T22:08:47.633594+00:00"
+  "generated_at": "2026-09-19T13:30:24.211284+00:00"
 }

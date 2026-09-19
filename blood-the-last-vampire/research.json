@@ -97,8 +97,8 @@
       "set": "B"
     },
     {
-      "url": "https://gamefaqs.gamespot.com/psp/930686-blood-the-last-vampire/faqs/12481",
-      "title": "Blood: The Last Vampire - Guide and Walkthrough (by Gene, GameFAQs, PSP)",
+      "url": "https://gamefaqs.gamespot.com/ps2/580301-blood-the-last-vampire-joukan/faqs/12481",
+      "title": "Blood: The Last Vampire - Guide and Walkthrough (by Gene, GameFAQs, PS2)",
       "language": "en",
       "notes": "Supplementary English PS2 FAQ by Gene. Directly inspectable and explicitly identifies BLOOD THE LAST VAMPIRE <上巻> (PS2) and <下巻> (PS2) as the two chapters released together on 2000-12-21. Used only as target/provenance corroboration, not as one of the two Japanese verification sets."
     },
@@ -116,5 +116,5 @@
     }
   ],
   "disagreements": "GUIDE TARGET: original Japanese PlayStation 2 two-volume release (上巻 SCPS-15007 / 下巻 SCPS-15008), released 2000-12-21. This resolves the legacy PS2/PSP ambiguity; the 2006 PSP compilation is not the guide target. Set A (xneo.jp) explicitly identifies the original PS2 release, and Set B's archived walkthrough material predates the PSP compilation. Gekan numbering/branch presentation differs between xneo.jp and mmitsuru, so ending numbers must be matched by their documented choice sequences rather than assumed identical across sites. TRUE ENDING: xneo.jp's explicit Ending 25 vs Ending 27 rows establish a completion-based distinction: Ending 25 skips 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but completes 瑠璃亜をかばう; Ending 27 includes all four and also completes 瑠璃亜をかばう. The guide follows that directly verified PS2 sequence. mmitsuru explicitly labels End27 真・瑠璃亜編 but historically documents a conflicting 瑠璃亜の過去フラグ condition; retain this as an unresolved cross-source discrepancy rather than silently forcing one site's flag model onto the other's sequence. TOUKO: neither source confirms whether この土地……？ and いらないよ occur sequentially on one 灯子編 playthrough or represent different early sub-branches; route_touko.json follows the source-backed Touko-specific sequence and records the uncertainty in its enGuide notes. Also, source evidence shows 父さん、ここは？/こんなところに…… belong to the sampled 闇の王編 corridor rather than the 灯子編 rows, so those steps were removed from route_touko.json.",
-  "generated_at": "2026-09-19T19:15:00+00:00"
+  "generated_at": "2026-09-19T19:42:00+00:00"
 }

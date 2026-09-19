@@ -66,6 +66,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ21",
+    "jpGuide1": "－セーブ①－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "もうこだわらない",
     "jpGuide1": "→【もうこだわらない】でBad End『二重箱の底で』（ED14）",
     "jpGuide2": "【二重箱の底で】右　もうこだわらない → END No.14　二重箱の底で",
@@ -77,6 +83,13 @@
     "jpGuide1": "Bad End『二重箱の底で』（ED14）",
     "jpGuide2": "END No.14　二重箱の底で",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ21にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "試させてもらう",

@@ -32,14 +32,15 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 Before writing any route:
 
 1. Read the explicit `guide_target` supplied by `games.json` or the caller. Do **not** choose a release from the VNDB work id.
-2. If the caller supplied a new target, persist it to `games.json` before research.
-3. Require non-empty target `label`, `platform`, and release-specific `url`; if the target is missing, stop and report it.
-4. Identify two independent Japanese verification sets as defined in `.claude/guide-standards.md`.
-5. Verify both are directly inspectable and apply to the **exact target release**; document version differences.
-6. Verify both collectively cover every main-route-defining decision, prerequisite/unlock, and route/main ending used by the guide.
-7. Ensure the research/overall guide plan enumerates every route in recommended order.
-8. Copy the exact target into `research.json.guide_target` and record every source/set component and its coverage.
-9. If the gate cannot be satisfied, stop after research and document the blocker.
+2. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id (for the local runner, `GUIDE_TARGET_VID` must equal this game's VNDB id). Never reuse a caller target for another pending game.
+3. Persist an accepted caller target to `games.json` before research.
+4. Require non-empty target `label`, `platform`, and release-specific `url`; if the target is missing, stop and report it.
+5. Identify two independent Japanese verification sets as defined in `.claude/guide-standards.md`.
+6. Verify both are directly inspectable and apply to the **exact target release**; document version differences.
+7. Verify both collectively cover every main-route-defining decision, prerequisite/unlock, and route/main ending used by the guide.
+8. Ensure the research/overall guide plan enumerates every route in recommended order.
+9. Copy the exact target into `research.json.guide_target` and record every source/set component and its coverage.
+10. If the gate cannot be satisfied, stop after research and document the blocker.
 
 Do not count inaccessible pages, translations, or derivatives as an independent primary set.
 

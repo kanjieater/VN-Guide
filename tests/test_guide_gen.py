@@ -70,10 +70,11 @@ class GuideTargetTests(unittest.TestCase):
         with patch.dict(
             guide_gen.os.environ,
             {
+                "GUIDE_TARGET_VID": "v123",
                 "GUIDE_TARGET_LABEL": "Edition",
                 "GUIDE_PLATFORM": "Nintendo Switch",
             },
-            clear=False,
+            clear=True,
         ):
             guide_gen.os.environ.pop("GUIDE_TARGET_URL", None)
             self.assertIsNone(guide_gen.resolve_guide_target({}, "v123"))

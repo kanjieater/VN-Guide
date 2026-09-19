@@ -8,7 +8,7 @@
       "portrait": "https://t.vndb.org/ch/83/11683.jpg",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Senba Uzuki (千羽烏月, VNDB c10500). Reachable from the start and the first heroine route in the recommended order. True End is『爽やかな立ち風』（ED32）; alternate endings are ED3/13/28/29/30/31. The current route text is reconciled against the HD-target Set-A walkthrough and directly inspectable Foxtail red3 Set B; historical Saomix material is provenance only."
+      "notes": "Senba Uzuki (千羽烏月, VNDB c10500). Reachable from the start and the first heroine route in the recommended order. True End is『爽やかな立ち風』（ED32）; alternate endings are ED3/13/28/29/30/31. The current route text is reconciled against the HD-target Set-A walkthrough and directly inspectable Foxtail red3 Set B; historical Saomix material is provenance only. HD-target correction (2026-09-19): the day-1 route branch uses『わたしはこくりと頷いた』, supported by the HD-target walkthrough and Foxtail red3; the older XNEO『わたしは首を横に振る』variant is not used for this target."
     },
     {
       "id": "tsuzura",
@@ -27,7 +27,7 @@
         "tsuzura"
       ],
       "is_true_ending": false,
-      "notes": "Asama Sakuya (浅間サクヤ, VNDB c10499). Recommended after the required Uzuki/Tsuzura unlock work. True End is『ついのときまで』（ED25）; other documented endings are ED4/22-24/26-27. For the targeted HD Remaster, the current main-route choices follow the HD-target walkthrough and Foxtail red4 where they agree. ED4『雫』 is a separate replay-from-beginning path supported by the HD-target walkthrough and Foxtail red6; it has no documented checkpoint, so the route represents the complete failed playthrough through ED4 and then begins the Sakuya main route again with no invented save or restart semantic. ED24 uses target-supported spelling『凍てる孤月』; XNEO's『凍てる弧月』is recorded as an older variant."
+      "notes": "Asama Sakuya (浅間サクヤ, VNDB c10499). Recommended after the required Uzuki/Tsuzura unlock work. True End is『ついのときまで』（ED25）; other documented endings are ED4/22-24/26-27. The main route and day-4 recovery use the HD-target walkthrough plus Foxtail red4. The HD-target walkthrough explicitly documents five Sakuya checkpoints; all are represented: global Save14=local①, Save15=local②, Save16=local③, Save17=local④, Save18=local⑤. ED4『雫』 has multiple documented valid routes: the guide uses the target-specific Livedoor replay-from-beginning sequence; Foxtail red6 and other walkthrough material document alternative routes to the same ending rather than an exclusive condition. Because red6 does not independently verify the exact emitted HD-target replay sequence, it is retained as supplementary alternative-path evidence and the ED4 detour's exact Set-B fields use the omission placeholder except for the independently listed ED4 endpoint. ED24 uses target-supported spelling『凍てる孤月』. ED26 classification is explicitly reconciled as Normal End: XNEO labels it Normal and Foxtail presents No.26 with the same normal-ending marker used for ED23/ED27, while the HD-target Livedoor recovery page labels it Bad; the guide therefore uses the XNEO Set-A component for the ED26 terminal classification."
     },
     {
       "id": "yumei",
@@ -38,7 +38,7 @@
         "tsuzura"
       ],
       "is_true_ending": false,
-      "notes": "Yumei (ユメイ, VNDB c10497). True End is『白花の咲く頃に』（ED21）; alternate endings are ED1/5/16-20. The route content is reconciled against the HD-target Set-A walkthrough and directly inspectable Foxtail red1 Set B. Yumei must precede Nozomi because the Nozomi route seal requires completing an ending after choosing『だけど彼女たちだって可哀相』; ED18 alone is not the mechanical unlock condition."
+      "notes": "Yumei (ユメイ, VNDB c10497). True End is『白花の咲く頃に』（ED21）; alternate endings are ED1/5/16-20. The route content is reconciled against the HD-target Set-A walkthrough and directly inspectable Foxtail red1 Set B. Yumei must precede Nozomi because the Nozomi route seal requires completing an ending after choosing『だけど彼女たちだって可哀相』; ED18 alone is not the mechanical unlock condition. HD-target correction (2026-09-19): the first-day branch uses『わたしはこくりと頷いた』→『気のせいだと思い込む』, supported by the HD-target walkthrough and Foxtail red1."
     },
     {
       "id": "nozomi",
@@ -149,11 +149,16 @@
       "url": "https://foxtail.okitsune.com/kitchen/capture/red6.htm",
       "title": "アカイイト攻略 - 浅間サクヤ ED4 条件分岐 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Sakuya ED4『雫』. Directly inspectable conditional branch table linked from red4; verifies the separate replay-from-beginning sequence through『蛇が！　毒が！？』/『お願いします』to ED4.",
-      "set": "B"
+      "notes": "Supplementary Japanese branch evidence for an alternative route to Sakuya ED4『雫』. Directly inspectable and linked from Foxtail red4, but it does not match the exact target-specific ED4 recovery sequence emitted by this guide, so it is not counted as an active Set-B component for that detour."
+    },
+    {
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/akaiito-hd-remaster-hd-remaster",
+      "title": "AKAIITO HD REMASTER 攻略",
+      "language": "ja",
+      "notes": "Supplementary target-labeled walkthrough only; not counted as Set A or Set B. It documents yet another valid path to Sakuya ED4『雫』, supporting the conclusion that the differing Livedoor/Foxtail ED4 sequences are alternative solutions rather than mutually exclusive ending conditions."
     }
   ],
-  "disagreements": "1) There is no single overarching 'true ending' for the whole game; each heroine has its own best/True End, so no route is marked as the one global true ending. 2) XNEO is useful as an older full-text walkthrough but differs from the targeted HD Remaster walkthrough on several literal choice forms and some ending orthography/classification. For exact Switch-target action text, the guide uses the HD-target walkthrough when independently corroborated by Foxtail Set B. 3) Sakuya/Yumei ordering remains interchangeable after their shared unlock work, but Yumei must occur before Nozomi because the Nozomi route seal needs the Yumei-side『だけど彼女たちだって可哀相』flag; Nozomi does not mechanically depend on ED18 alone. 4) Historical Saomix/old wiki material is retained only for provenance and no longer counts toward the active accuracy gate. 5) Known reconciled variants include ED24『凍てる孤月』for the HD target (vs XNEO『凍てる弧月』), target-specific Tsuzura/Sakuya/Nozomi action text, and the separate Sakuya ED4 replay path documented by the HD-target walkthrough plus Foxtail red6.",
+  "disagreements": "1) There is no single overarching 'true ending'; each heroine has its own best/True End. 2) Exact Switch-target action text is taken from the HD-target walkthrough where independently corroborated by active Foxtail Set B; older XNEO variants are retained only when specifically resolved in research. 3) Nozomi's mechanical unlock is the Tsuzura/Yumei route-seal pair, not ED18 alone. 4) Historical Saomix material is provenance only. 5) Sakuya ED4 has multiple documented valid routes. The guide emits the target-specific Livedoor replay sequence; Foxtail red6 documents a different alternative path to the same ED4 and is supplementary rather than active verification for that exact detour. 6) ED26『月へ向かう蝶』 has a classification disagreement: XNEO and Foxtail support Normal End, while the HD-target Livedoor page labels it Bad End. The guide resolves ED26 as Normal End and uses the XNEO Set-A component for the terminal classification. 7) ED24 is『凍てる孤月』for the HD target; XNEO's『凍てる弧月』is an older variant.",
   "generated_at": "2026-09-06T03:43:07+00:00",
   "guide_target": {
     "label": "アカイイト HD REMASTER",

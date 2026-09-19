@@ -51,7 +51,7 @@
     "simpleJp": "セーブ17",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint at the very start of this route's Gekan content (BLOOD level 60, flags: 吸血鬼の本＝ON, 五匹の子豚さん＝ON, 瑠璃亜の過去＝ON — corrected per issue #17, see step 8's note), placed before the route's first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here; this slot exists so this route's ending can be reached and reloaded from a shared checkpoint, matching the convention used in the other Gekan route guides (including route_rulia.json's own セーブ13 at the equivalent position). This route's ending depends on completing every optional B.S.S. trigger from this checkpoint onward without missing any (see step 8's VERIFIED DIFFERENTIATOR note) — if the player misses one, reload here rather than continuing."
+    "enGuide": "Editorial checkpoint at the start of the 真・瑠璃亜編 lower-volume content, before the route's B.S.S. opportunities. It is not gameplay-source text, so jpGuide2 correctly uses the omission placeholder. If a required B.S.S. opportunity is missed, reload here rather than continuing."
   },
   {
     "simpleJp": "BSSタップ：「主人公がうつむいたら」",
@@ -153,7 +153,7 @@
     "simpleJp": "BSSタップ：「瑠璃亜の『いっ、いや』」",
     "jpGuide1": "瑠璃亜に駆け寄る\t瑠璃亜の「い、いや～」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "瑠璃亜に駆け寄る",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. Identical trigger to route_rulia.json's equivalent step. UNCERTAINTY NOTE (carried over from route_rulia.json): if the player deliberately does not act on the remaining B.S.S. Ending 20 is not reconstructed here as a playable save/load detour since neither source gives an explicit, quotable choice-box text for deliberately declining the search (matching route_rulia.json's own reasoning for the same near-miss)."
+    "enGuide": "Blood Search System — tap here to obtain 瑠璃亜に駆け寄る. This is part of the main 真・瑠璃亜編 chain; the separate Ending 20 near-miss is not reconstructed here as a save/load detour because the guide has no explicit choice-box action for deliberately declining the later search."
   },
   {
     "simpleJp": "BSSタップ：「小夜の『楽にしてやる』」",

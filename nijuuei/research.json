@@ -1,0 +1,81 @@
+{
+  "title": "Nijuuei",
+  "vndb_id": "v3856",
+  "guide_target": {
+    "label": "二重影（2000年オリジナルPC版）",
+    "platform": "Windows PC",
+    "url": "https://www.keroq.co.jp/product/nijuu/top.htm"
+  },
+  "routes": [
+    {
+      "id": "kikyou",
+      "title": "桔梗ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Main heroine ending labeled 桔梗 END by the directly inspected SagaoZ walkthrough. The same walkthrough also documents a 桔梗 BAD END detour near the final-day heroine choice. This route is the source walkthrough's first full playthrough and establishes shared save points used to shorten later heroine clears."
+    },
+    {
+      "id": "mikoto",
+      "title": "命ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Main heroine ending labeled 命 END by SagaoZ. The optimized walkthrough branches from an earlier shared save and also documents 北条 END, 舞 BAD END, 命 BAD END, and イルスイ BAD END detours. These are ending detours within the overall 命-oriented walkthrough path, not separate main heroine routes."
+    },
+    {
+      "id": "fuurei",
+      "title": "楓玲ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Main heroine ending labeled 楓玲 END by SagaoZ. The optimized walkthrough branches from a save created during the 命 path and documents a 楓玲 BAD END before the main 楓玲 END. The save reuse is a guide optimization rather than a confirmed hard in-game unlock prerequisite."
+    }
+  ],
+  "recommended_order": [
+    "kikyou",
+    "mikoto",
+    "fuurei"
+  ],
+  "sources": [
+    {
+      "url": "https://sagaoz.net/foolmaker/game/n/nijuuei.html",
+      "title": "二重影 攻略 by 愚者の館（アーカイブ）",
+      "language": "ja",
+      "notes": "Set A. Directly inspected complete Japanese walkthrough for ケロQ 二重影, explicitly marked 確認バージョン『修正なし』 and 状況『完了（CG・回想100%）』. It covers 桔梗・命・楓玲, every movement/choice sequence, timed choices, shared saves, and the documented main/bad/alternate endings.",
+      "set": "A"
+    },
+    {
+      "url": "https://ifs.nog.cc/destiny-tiar.hp.infoseek.co.jp/kouryaku_nijuukage.htm",
+      "title": "ゲーム攻略＿二重影 (Destiny-Tiar / Infoseek mirror)",
+      "language": "ja",
+      "notes": "Independent Set-B candidate discovered in Japanese web search. Indexed content independently states that the three攻略 heroines are 楓玲・命・桔梗, that they share progress through day 9, that 桔梗 branches on day 9 and 楓玲/命 on day 11, and that timed-choice failures cause immediate bad ends. Search-indexed excerpts also expose route-ending instructions. However, direct page inspection currently times out, so under the repository's source-inspection rule this does NOT yet count as accepted Set B."
+    },
+    {
+      "url": "https://w.atwiki.jp/erogem/pages/497.html",
+      "title": "PCゲーム攻略/は行/ふ/二重影 - ゲーム攻略まとめwiki",
+      "language": "ja",
+      "notes": "Supplementary only. Directly inspectable and complete-looking, but it explicitly attributes its save data/source basis to SAGAOZ and reproduces the SagaoZ walkthrough structure/text. It is therefore derivative and cannot count as an independent Set B."
+    },
+    {
+      "url": "https://galge.top/topics/10181",
+      "title": "二重影日文攻略 - 2DFan",
+      "language": "ja",
+      "notes": "Supplementary only. Directly inspectable Japanese-text copy whose route sequence is effectively verbatim SagaoZ material. It is not independent enough to satisfy Set B."
+    },
+    {
+      "url": "https://www.keroq.co.jp/product/nijuu/top.htm",
+      "title": "二重影 - KeroQ official product page",
+      "language": "ja",
+      "notes": "Official target/provenance reference for the original PC product. The page identifies 二重影 as a discontinued KeroQ product. Used to anchor guide_target, not as a walkthrough verification set."
+    },
+    {
+      "url": "https://www.keromakura.net/support/support/download.html",
+      "title": "ケロQ＆枕 Official site - 二重影 support/update page",
+      "language": "ja",
+      "notes": "Official PC support reference. Documents 二重影 executable/update files and Windows-specific support instructions, corroborating the original Windows PC target. Not a walkthrough source."
+    }
+  ],
+  "disagreements": "RESEARCH GATE BLOCKER: Set A is directly inspected and complete, but an independent directly inspectable Set B has not yet passed the repository gate. The strongest independent candidate is the old Destiny-Tiar/Infoseek walkthrough mirrored at ifs.nog.cc; search indexing exposes substantive independent route structure, but direct fetches time out. The directly accessible AtWiki and 2DFan pages are derivatives/copies of SagaoZ and therefore cannot be used as independent verification. Per AGENTS.md / guide-author rules, route JSON generation must stop here until an independent Japanese Set B can be directly inspected. TARGET NOTE: this guide is scoped to KeroQ's original 2000 Windows PC product, not the 2002 Dreamcast/PlayStation ports. Contemporary listings distinguish 初回版 and 通常版 packaging; no route-content difference between those PC packages was directly verified in this pass, so the target is intentionally the original PC product family rather than a console port.",
+  "generated_at": "2026-09-19T20:52:00+00:00"
+}

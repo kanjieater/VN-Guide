@@ -96,6 +96,31 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 - Never leave either field empty.
 - Preserve source whitespace and punctuation exactly when quoting.
 
+
+## Section types
+
+Research/guide entries are normally heroine/story routes. A non-route post-clear checklist may instead use:
+
+```json
+{
+  "id": "completion",
+  "title": "クリア後",
+  "type": "completion"
+}
+```
+
+Rules for `type: "completion"`:
+
+- It is a first-class guide section, not a heroine route and not an ending route.
+- It may contain exact menu/navigation actions, unlock checks, supplemental-story reads, Tips/Database/Keywords completion, or other documented post-clear actions.
+- It must be linear: no `badEndPath`, no `isLoad: true`, and no save/load detour structure.
+- Its structural terminal is the **last documented completion action**, not a good-ending terminal.
+- The final step must be a real documented completion action/result from the sources; do not invent a synthetic `COMPLETE` marker.
+- Completion claims that gate later completion actions (for example an unlock prerequisite) require independent Japanese support from Set A and Set B. A verification set may use different components for normal routes and completion material, but all components must be documented in `research.json` with the same set label.
+- `simpleJp` for a completion section is the exact menu/action label or exact documented completion/result label the player should act on or verify.
+- Omission placeholders remain allowed only where the other set is silent and the fact is non-gating/non-contradictory.
+- Completion sections participate in the same structural-review, accuracy-review, `reviewed`, content-hash, and invalidation lifecycle as routes, using the completion-specific structural terminal semantics above.
+
 ## Route step semantics
 
 ### Step shape / `simpleJp`
@@ -139,8 +164,8 @@ For each documented non-main ending detour:
 
 Direct/browser agents must assemble `guide.json` equivalently to the local generator:
 
-- route entries follow `research.json` / recommended route order for every completed route;
-- each route entry includes `id`, `title`, `stepCount`, and `reviewed`;
+- section entries follow `research.json` / recommended order for every completed section;
+- each entry includes `id`, `title`, `stepCount`, and `reviewed`; copy `type` when research declares a non-default section type such as `completion`;
 - `stepCount` equals the actual length of `route_<id>.json`;
 - preserve an existing route's `reviewed` value when reassembling; new routes default to `false`;
 - use the verified portrait from current research, falling back to an existing verified portrait only when research has none;
@@ -272,7 +297,7 @@ If uncertain whether a route-content change is structural, rerun structural revi
 
 ## Completion gate
 
-A route is complete only when:
+A route or typed completion section is complete only when:
 
 - `guide_target` is explicit, linked, and matches the release/platform against which research was performed;
 - its structural review is clean,
@@ -280,4 +305,4 @@ A route is complete only when:
 - all reviewer findings for the active review have been independently re-verified as resolved, and
 - `reviewed: true`.
 
-A game is fully reviewed only when every route satisfies that gate.
+A game is fully reviewed only when every guide section satisfies that gate.

@@ -109,14 +109,16 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
     return ok
 
 
-def run_deploy() -> None:
-    """Commit and push whatever changed. Push failure is non-fatal."""
+def run_deploy() -> bool:
+    """Commit and push whatever changed. Return whether the shared repo was updated."""
     result = subprocess.run(
         ["python3", str(SCRIPTS_PATH / "deploy.py")],
         cwd=str(REPO_PATH),
     )
     if result.returncode != 0:
-        err("Deploy failed — guide saved locally, will push on next cycle")
+        err("Deploy failed — changes remain local")
+        return False
+    return True
 
 
 def normalize_guide_target(target: object) -> dict[str, str] | None:
@@ -273,6 +275,53 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
     log(f"Updated guide.json ({len(route_list)}/{total} routes)")
 
 
+def invalidate_for_target_change(
+    guide_dir: Path,
+    guide_target: dict[str, str],
+) -> bool:
+    """Drop target-bound generated state when an explicit target actually changes.
+
+    Missing legacy target metadata is not guessed here: phase_research() will fail
+    closed until that legacy state is explicitly migrated. A valid, different
+    target in either research.json or guide.json is an actual target change and
+    requires fresh research, regenerated routes, and fresh review state.
+    """
+    prior_targets: list[tuple[str, dict[str, str]]] = []
+    for name in ("research.json", "guide.json"):
+        path = guide_dir / name
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text())
+        except json.JSONDecodeError:
+            continue
+        prior = normalize_guide_target(data.get("guide_target"))
+        if prior is not None:
+            prior_targets.append((name, prior))
+
+    changed = [(name, target) for name, target in prior_targets if target != guide_target]
+    if not changed:
+        return False
+
+    details = ", ".join(
+        f"{name}={target['label']} / {target['platform']}"
+        for name, target in changed
+    )
+    log(
+        "Guide target changed; invalidating target-bound research/routes/review "
+        f"state ({details})"
+    )
+
+    for path in guide_dir.glob("route_*.json"):
+        path.unlink(missing_ok=True)
+    for path in guide_dir.glob("route_*_session.txt"):
+        path.unlink(missing_ok=True)
+    for name in ("research.json", "research_session.txt", "guide.json"):
+        (guide_dir / name).unlink(missing_ok=True)
+
+    return True
+
+
 def phase_research(
     slug: str,
     title: str,
@@ -377,6 +426,8 @@ def generate_guide(
 ) -> bool:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
+
+    invalidate_for_target_change(guide_dir, guide_target)
 
     if not phase_research(slug, title, vndb_id, guide_dir, guide_target):
         return False
@@ -521,6 +572,12 @@ def run() -> None:
                 json.dumps(games, ensure_ascii=False, indent=2) + "\n"
             )
             log(f"Persisted explicit guide target for {slug}")
+            if not run_deploy():
+                err(
+                    f"{slug}: could not publish the explicit guide target; "
+                    "refusing research until games.json is shared successfully"
+                )
+                break
 
         # start_route only applies to the explicitly targeted game
         this_start_route = (

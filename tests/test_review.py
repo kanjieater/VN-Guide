@@ -127,6 +127,7 @@ class ReviewGateTests(unittest.TestCase):
                 ],
             ),
             patch.object(review, "mark_route_reviewed", return_value=True) as mark,
+            patch.object(review, "approval_only", return_value=True),
             patch.object(review, "run_deploy") as deploy,
         ):
             review.review_game(slug)

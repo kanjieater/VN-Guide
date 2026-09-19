@@ -2,31 +2,31 @@
   {
     "simpleJp": "少年は現れなかった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は現れなかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, mirroring the approach already used in route_yami_no_ou.json and route_kyuumei.json. The companion Joukan guide (route_joukan.json) spends its own Continue on the 瑠璃亜編 branch and separately walks through Joukan's own End17「灯子編」as a badEndPath detour there, but per this task's scope that Joukan-side content is out of scope here — this guide covers only the Gekan-side 灯子編 branch, reached independently via the Ooka Report. xneo.jp's Gekan page documents the Ooka Report mechanic only in service of reaching 瑠璃亜編 (its own Ending 20 and Ending 27 rows both open with an explicit ＜大岡レポート＞ choice sequence); it does not document any path to 灯子編 through the Ooka Report, so jpGuide1 is empty for this step group specifically."
   },
   {
     "simpleJp": "少年はうずくまったままだった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年はうずくまったままだった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "少年は声をかけた少女と一緒に行った",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は声をかけた少女と一緒に行った",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "二人は何処かへ行ったようだ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "二人は何処かへ行ったようだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "少年は一人でアパートを出た",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は一人でアパートを出た",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "+10 BLOOD. This is the final Ooka Report branch that places the player at the start of the 灯子編 (Touko) route in Gekan, starting BLOOD level 10."
   },
   {
@@ -39,7 +39,7 @@
     "simpleJp": "BSSタップ：「正夫の『私にとって、すべては』」",
     "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Set-A-only optional detour for XNEO Ending 6. XNEO's Ending 6 row begins with この土地……？; the Set-B 灯子編 recording is reserved for the main route and does not independently document this optional detour.",
+    "enGuide": "XNEO-only optional detour for Ending 6. XNEO's Ending 6 row begins with この土地……？; under the owner-approved one-source exception, jpGuide2 uses the missing-source placeholder.",
     "badEndPath": "エンディング6「灯子編」"
   },
   {
@@ -76,38 +76,38 @@
   {
     "simpleJp": "BSSタップ：「灯子の『欲しいの？』」",
     "jpGuide1": "いらないよ\t灯子の「欲しいの？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "いらないよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the one B.S.S. xneo.jp's own Ending 9 row for 灯子編 begins with this exact trigger."
   },
   {
     "simpleJp": "BSSタップ：「３つ目の街の場面」",
     "jpGuide1": "僕のせいなの？\t３つ目の街の場面が映ったら、サーチする。",
-    "jpGuide2": "僕のせいなの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp's category header (新宿・歌舞伎町（闇の王編・究明編・灯子編）) this trigger and the next three (そうだね……, 正夫の手を掴まない, 正夫を追いかける) are shared across all three named routes, including 灯子編; xneo.jp's own Ending 9 row for 灯子編 goes on to name the latter two of these explicitly. This exact trigger is already documented for 闇の王編 in route_yami_no_ou.json using the identical simpleJp/jpGuide1 text."
   },
   {
     "simpleJp": "BSSタップ：「正夫の『考えてみれば』」",
     "jpGuide1": "そうだね……\t正夫の「考えてみたら～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "そうだね……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Same shared-header justification as the previous step (新宿・歌舞伎町（闇の王編・究明編・灯子編）)."
   },
   {
     "simpleJp": "BSSタップ：「正夫の『さあ、おいで』」",
     "jpGuide1": "正夫の手を掴まない\t正夫の「さ、おいで～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "正夫の手を掴まない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the first choice explicitly named in xneo.jp's own Ending 9 row for 灯子編 (いらないよ → 正夫の手を掴まない → 正夫を追いかける → ...)."
   },
   {
     "simpleJp": "BSSタップ：「正夫の『父さんは行くよ』」",
     "jpGuide1": "正夫を追いかける\t正夫の「父さんは行くよ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "正夫を追いかける",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "父さん、何処へ行くの？",
     "jpGuide1": "父さん、何処へ行くの？",
-    "jpGuide2": "父さん、何処へ行くの？",
-    "enGuide": "Main 灯子編 continuation. This choice appears on XNEO's Ending 9/10/24 rows and in the Set-B gameplay recording."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Main 灯子編 continuation. This choice appears on XNEO's Ending 9/10/24 rows."
   },
   {
     "simpleJp": "セーブ11",
@@ -118,25 +118,25 @@
   {
     "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
     "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
-    "jpGuide2": "正夫から離れる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "BSSタップ：「カッツの『人の心を』」",
     "jpGuide1": "ぼくはなにを……\tカッツの「人の心を～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "ぼくはなにを……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Good-path continuation from セーブ11: avoid まっすぐだ at the previous B.S.S. (that leads to Ending 6 / End06, covered above). This differs from the other three named routes, each of which documents its own distinct maze-navigation sequence through this same underground base (e.g. 右だ for 闇の王編's own endings in route_yami_no_ou.json, or 左だ→ディスクを取る→右だ→左だ for 究明編's Ending 26 in route_kyuumei.json) before reaching a comparable point."
   },
   {
     "simpleJp": "BSSタップ：「灯子の『邪魔するものは』」",
     "jpGuide1": "僕は何をしようと……\t灯子の「邪魔するものは～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "僕は何をしようと……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "僕の意思？",
     "jpGuide1": "僕の意思？",
-    "jpGuide2": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -149,7 +149,7 @@
     "simpleJp": "カッツ……！",
     "jpGuide1": "カッツ……！（BLOODレベルが80未満の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Set-A-only optional Ending 9 detour. XNEO prints the under-80 condition directly on this choice; the Set-B recording does not cover this optional detour.",
+    "enGuide": "XNEO-only optional Ending 9 detour. XNEO prints the under-80 condition directly on this choice.",
     "badEndPath": "エンディング9「灯子編」"
   },
   {
@@ -162,8 +162,8 @@
   {
     "simpleJp": "カッツ……！",
     "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
-    "jpGuide2": "カッツ……！",
-    "enGuide": "Choose カッツ……！ on the main continuation when it appears. XNEO prints the BLOOD condition on this choice; the Set-B gameplay independently shows the successful continuation."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Choose カッツ……！ on the main continuation when it appears. XNEO prints the BLOOD condition directly on this choice."
   },
   {
     "simpleJp": "後ろに飛ぶ",
@@ -182,19 +182,19 @@
   {
     "simpleJp": "横に飛ぶ",
     "jpGuide1": "横に飛ぶ",
-    "jpGuide2": "横に飛ぶ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Good-path continuation from セーブ12 toward this route's deepest documented ending."
   },
   {
     "simpleJp": "BSSタップ：「カッツの攻撃を横に避けた後」",
     "jpGuide1": "小夜に刀を投げる\tカッツの攻撃を横に避けた後、主人公が立ち上がりそうになったら、サーチする。",
-    "jpGuide2": "小夜に刀を投げる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "灯子編（エンディング24）",
     "jpGuide1": "エンディング24～灯子編～",
-    "jpGuide2": "灯子編",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Route complete. This guide does not continue into another route from here; the other three documented 灯子編 endings (6/End06, 9, 10) were covered earlier via save/load detours."
   }
 ]

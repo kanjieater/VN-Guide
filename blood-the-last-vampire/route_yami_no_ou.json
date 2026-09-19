@@ -39,7 +39,7 @@
     "simpleJp": "セーブ3",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial save placed at the very start of the 闇の王編 Gekan content, before the first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here (this PS2 title has no mid-chapter save screen); this slot exists so every documented ending of this route can be reached and reloaded from a shared checkpoint, matching the convention already used in route_joukan.json."
+    "enGuide": "Editorial save at the start of the 下巻 闇の王編 content, before the first B.S.S. opportunity. The active primary sources are used for route evidence rather than save-slot documentation, so jpGuide2 correctly uses the omission placeholder."
   },
   {
     "simpleJp": "BSSサーチをしない（あえて失敗させる）",
@@ -65,13 +65,13 @@
     "simpleJp": "セーブ4",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint immediately after the first B.S.S. succeeds, before the timed multiple-choice sequence that determines which of the remaining 闇の王編 sub-endings (5, 7, 8, 12, 13, 19, 22, 23 in xneo.jp's own numbering) is reached. Neither source marks an explicit save here; this is an editorial addition so every documented sub-ending can be visited and reloaded from one shared point."
+    "enGuide": "Editorial checkpoint before the timed-choice region that fans out to the documented 闇の王編 endings. It is not gameplay-source text, so jpGuide2 correctly uses the omission placeholder."
   },
   {
     "simpleJp": "うん",
     "jpGuide1": "うん",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "First step of a detour toward xneo.jp's Ending 19 (闇の王編). list.",
+    "enGuide": "First step of the Set-A-only detour toward XNEO Ending 19 (闇の王編). The replacement Set-B recording is used for the main route, so this optional detour carries the omission placeholder.",
     "badEndPath": "エンディング19「闇の王編」"
   },
   {
@@ -554,7 +554,7 @@
     "simpleJp": "BLOODレベル確認：85未満が必要",
     "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85未満の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "For xneo.jp's Ending 13 specifically, BLOOD must be under 85 at this final choice. This guide does not attempt to force an exact BLOOD=100 timing demonstration, since neither source gives a tappable checklist precise enough to script it reliably — see the equivalent, more clearly documented BLOOD-85/BLOOD-100 gate later in this same guide (xneo.jp's own Ending 23) for the version of the 闇の王編 conclusion this guide treats as the route's main ending."
+    "enGuide": "For XNEO Ending 13 specifically, BLOOD must be under 85 at this final choice. This is an optional Set-A detour; the replacement Set-B main-route recording is not used to claim independent text for it."
   },
   {
     "simpleJp": "闘って道を開くんだ……！",
@@ -573,7 +573,7 @@
     "simpleJp": "……",
     "jpGuide1": "……",
     "jpGuide2": "……",
-    "enGuide": "This begins the main chain toward xneo.jp's Ending 23 (explicitly headed ～闇の王編～), which this guide treats as the route's main/final conclusion since xneo.jp is this game's primary Gekan source and gives this exact chain its own unambiguous ～闇の王編～ heading. trigger below."
+    "enGuide": "This begins the main chain toward XNEO Ending 23, explicitly headed ～闇の王編～. The replacement Set-B 闇の王編 recording is the independent gameplay component for this main route."
   },
   {
     "simpleJp": "僕はあの声に怯えた……",
@@ -626,14 +626,14 @@
   {
     "simpleJp": "BSSサーチを見送る（１回目）",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "BSSサーチを見送る（１回目）",
-    "enGuide": "Deliberately do NOT search at this first 瑠璃亜 B.S.S. opportunity (the one that produces 瑠璃亜に会えてよかった, used by Endings 7/8/13 above). list."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Deliberately do not search at the first 瑠璃亜 B.S.S. opportunity so the route can advance to the later opportunity used by XNEO's Ending 12/22/23 chain. This is an editorial skip instruction rather than on-screen source text, so jpGuide2 uses the omission placeholder."
   },
   {
     "simpleJp": "BSSサーチを見送る（２回目）",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "BSSサーチを見送る（２回目）",
-    "enGuide": "Deliberately do NOT search at this second 瑠璃亜 B.S.S. opportunity either (the one that would produce 考え過ぎだよ……). Skipping both this and the previous opportunity is required to reach the third opportunity below, 瑠璃亜の傍にいる, which is what Ending 12/22/23 all use."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Deliberately do not search at the second 瑠璃亜 B.S.S. opportunity either. This is an editorial skip instruction rather than on-screen source text, so jpGuide2 uses the omission placeholder."
   },
   {
     "simpleJp": "BSSタップ：「瑠璃亜……」",
@@ -742,7 +742,7 @@
     "simpleJp": "BSSタップ：「目を覚ますんだ！」",
     "jpGuide1": "！！\t（推定タイミング：小夜「目を覚ますんだ！」のセリフ付近）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. xneo.jp's own timing text for this exact trigger is not separately spelled out beyond listing the B.S.S. entry (22) supplies the precise trigger line quoted here."
+    "enGuide": "Blood Search System detour step for XNEO Ending 22. XNEO lists the resulting B.S.S. entry at this position, but this optional detour is not claimed as covered by the main-route Set-B recording."
   },
   {
     "simpleJp": "横に飛ぶ",
@@ -883,7 +883,7 @@
     "simpleJp": "BLOODレベル確認：100以上が必要（ゲーム終了時）",
     "jpGuide1": "【ゲームが終了した時】（BLOODレベルが100以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "xneo.jp states the final requirement loosely as BLOOD 100 or higher at the moment the game concludes. Neither source gives a tap-by-tap checklist precise enough to guarantee hitting the target exactly, so keep every B.S.S. trigger from this entire route in mind and tap all of them on this final run-through to maximize BLOOD level before this point."
+    "enGuide": "XNEO states that BLOOD 100 or higher is required when the game concludes. Keep the documented B.S.S. opportunities in mind on the final main-route run to maximize BLOOD before this point."
   },
   {
     "simpleJp": "闇の王編（エンディング23）",

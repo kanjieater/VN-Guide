@@ -48,10 +48,10 @@
     "enGuide": "Use 少年は傷のわけを聞いた here. xneo.jp's PS2 Ending 27 row uses the same Ooka Report opening as Ending 25, so 瑠璃亜の過去フラグ is ON on the Set A path for both. VERIFIED DIFFERENTIATOR: Ending 25 then skips the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but still completes 瑠璃亜をかばう; Ending 20 performs those four but stops before the final search; Ending 27 performs all four AND completes 瑠璃亜をかばう. route_rulia.json has been corrected to the Ending 25 sequence; this file intentionally performs the full Ending 27 combination."
   },
   {
-    "simpleJp": "セーブ55",
+    "simpleJp": "セーブ17",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint at the very start of this route's Gekan content (BLOOD level 60, flags: 吸血鬼の本＝ON, 五匹の子豚さん＝ON, 瑠璃亜の過去＝ON — corrected per issue #17, see step 8's note), placed before the route's first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here; this slot exists so this route's ending can be reached and reloaded from a shared checkpoint, matching the convention used in the other Gekan route guides (including route_rulia.json's own セーブ47 at the equivalent position). This route's ending depends on completing every optional B.S.S. trigger from this checkpoint onward without missing any (see step 8's VERIFIED DIFFERENTIATOR note) — if the player misses one, reload here rather than continuing."
+    "enGuide": "Editorial checkpoint at the very start of this route's Gekan content (BLOOD level 60, flags: 吸血鬼の本＝ON, 五匹の子豚さん＝ON, 瑠璃亜の過去＝ON — corrected per issue #17, see step 8's note), placed before the route's first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here; this slot exists so this route's ending can be reached and reloaded from a shared checkpoint, matching the convention used in the other Gekan route guides (including route_rulia.json's own セーブ13 at the equivalent position). This route's ending depends on completing every optional B.S.S. trigger from this checkpoint onward without missing any (see step 8's VERIFIED DIFFERENTIATOR note) — if the player misses one, reload here rather than continuing."
   },
   {
     "simpleJp": "BSSタップ：「主人公がうつむいたら」",
@@ -96,10 +96,10 @@
     "enGuide": "Identical text/position to route_rulia.json's equivalent step."
   },
   {
-    "simpleJp": "セーブ56",
+    "simpleJp": "セーブ18",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint before the fork that separates 瑠璃亜と一緒にいられるのなら (→ xneo.jp Ending 17) from 瑠璃亜は僕が守るから (→ Endings 18/20/25/27), per xneo.jp's own Ending 17 vs Ending 18/20/25/27 rows. The 瑠璃亜と一緒にいられるのなら branch and its Ending 17 are already fully documented with a complete save/load detour in route_rulia.json (セーブ49); this guide does not repeat it here."
+    "enGuide": "Editorial checkpoint before the fork that separates 瑠璃亜と一緒にいられるのなら (→ xneo.jp Ending 17) from 瑠璃亜は僕が守るから (→ Endings 18/20/25/27), per xneo.jp's own Ending 17 vs Ending 18/20/25/27 rows. The 瑠璃亜と一緒にいられるのなら branch and its Ending 17 are already fully documented with a complete save/load detour in route_rulia.json (セーブ15); this guide does not repeat it here."
   },
   {
     "simpleJp": "瑠璃亜は僕が守るから",
@@ -126,10 +126,10 @@
     "enGuide": "Per xneo.jp shared by Endings 18, 20, 25 and 27 alike at this position. Choosing 瑠璃亜から離れる instead ends the scene immediately as Ending 18 (already covered by route_rulia.json — see next step's note)."
   },
   {
-    "simpleJp": "セーブ57",
+    "simpleJp": "セーブ19",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint before the fork separating 瑠璃亜から離れる (Ending 18, short, terminal — already fully documented with a save/load detour in route_rulia.json at its セーブ50) from マッチを見る (continues toward Endings 20/25/27); this guide does not repeat the Ending 18 detour here."
+    "enGuide": "Editorial checkpoint before the fork separating 瑠璃亜から離れる (Ending 18, short, terminal — already fully documented with a save/load detour in route_rulia.json at its セーブ16) from マッチを見る (continues toward Endings 20/25/27); this guide does not repeat the Ending 18 detour here."
   },
   {
     "simpleJp": "マッチを見る",

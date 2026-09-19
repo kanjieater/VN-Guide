@@ -19,7 +19,7 @@
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
-      "stepCount": 52,
+      "stepCount": 64,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     },
@@ -119,7 +119,7 @@
       "set": "B"
     }
   ],
-  "generated_at": "2026-09-19T19:03:00.000Z",
+  "generated_at": "2026-09-19T20:48:00.000Z",
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",

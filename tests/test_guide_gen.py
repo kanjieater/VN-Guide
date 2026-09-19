@@ -385,6 +385,50 @@ class TargetPersistenceTests(unittest.TestCase):
             generate.assert_not_called()
 
 
+class CompletionSectionTests(unittest.TestCase):
+    def test_assemble_preserves_completion_type(self):
+        with tempfile.TemporaryDirectory() as td:
+            guide_dir = Path(td)
+            research = {
+                "guide_target": {
+                    "label": "Edition",
+                    "platform": "Windows",
+                    "url": "https://vndb.org/r123",
+                },
+                "sources": [],
+                "routes": [
+                    {
+                        "id": "completion",
+                        "title": "クリア後",
+                        "type": "completion",
+                        "portrait": "",
+                    }
+                ],
+            }
+            completed = [
+                {
+                    "id": "completion",
+                    "title": "クリア後",
+                    "type": "completion",
+                    "steps": [
+                        {
+                            "simpleJp": "三十六輪",
+                            "jpGuide1": "三十六輪",
+                            "jpGuide2": "三十六輪",
+                            "enGuide": "",
+                        }
+                    ],
+                }
+            ]
+
+            guide_gen.assemble("game", "Game", "v123", completed, guide_dir, research)
+
+            guide = json.loads((guide_dir / "guide.json").read_text(encoding="utf-8"))
+            self.assertEqual(guide["routes"][0]["type"], "completion")
+            self.assertEqual(guide["routes"][0]["stepCount"], 1)
+            self.assertFalse(guide["routes"][0]["reviewed"])
+
+
 class SaveOffsetTests(unittest.TestCase):
     def test_count_saves_excludes_bad_end_and_plain_loads(self):
         with tempfile.TemporaryDirectory() as td:

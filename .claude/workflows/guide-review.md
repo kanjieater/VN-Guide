@@ -21,9 +21,10 @@ Before generation/research:
 
 1. Read `games.json.guide_target` or an explicit caller-supplied target.
 2. Require `label`, `platform`, and a specific release/edition `url`.
-3. Persist caller-supplied targets to `games.json` before research.
-4. Copy the exact same object into `research.json` and `guide.json`.
-5. Stop rather than infer when no target is supplied.
+3. Require caller-supplied targets to be scoped to the exact VN work id (the local runner uses `GUIDE_TARGET_VID`); never carry that target into another pending game.
+4. Persist accepted caller-supplied targets to `games.json` before research.
+5. Copy the exact same object into `research.json` and `guide.json`.
+6. Stop rather than infer when no target is supplied.
 
 When VNDB represents multiple releases under one `v...` work, use the specific intended `r...` release link when available. A change to the guide target invalidates the existing research basis and all route reviews.
 

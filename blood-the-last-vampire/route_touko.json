@@ -30,7 +30,7 @@
     "enGuide": "+10 BLOOD. This is the final Ooka Report branch that places the player at the start of the 灯子編 (Touko) route in Gekan, starting BLOOD level 10. From here the guide follows xneo.jp's '各ルート・エンディングへの行き方' Gekan ending list (its own Endings 6, 9, 10 and 24, all headed ～灯子編～), cross-checked against mmitsuru's B.S.S. list (gebss.htm) and its two archived per-ending pages for this route (geend06.htm, geend24.htm — both explicitly titled 灯子編 by mmitsuru, confirming the route even though mmitsuru's own Gekan ending numbers differ from xneo.jp's, per research.json's documented cross-site numbering disagreement)."
   },
   {
-    "simpleJp": "セーブ41",
+    "simpleJp": "セーブ10",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial save placed at the very start of 灯子編's Gekan content, before the first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here (this PS2 title has no mid-chapter save screen documented by either source); this slot exists so every documented ending of this route can be reached and reloaded from a shared checkpoint, matching the convention already used in route_yami_no_ou.json and route_kyuumei.json. Starting BLOOD level here is 10 (see note above)."
@@ -78,7 +78,7 @@
     "enGuide": "This exact choice text appears in both xneo.jp's Ending 6 row (as its 2nd item) and its Ending 9/10/24 rows (as their shared item just before ぼくはなにを……), confirming it is a single common checkpoint before this route's endings diverge further. mmitsuru has no archived per-ending page that prints this specific line by name — its own geend06.htm and geend24.htm pages both use an unlabelled '……＞' placeholder at a comparable position instead — so jpGuide2 is unavailable here. Note (post-#12 correction): this route previously also included a \"父さん、ここは？\" choice and a following こんなところに…… B.S.S. trigger immediately after this step, on the theory that they were a shared backbone segment with route_yami_no_ou.json/route_kyuumei.json. Independent re-review found this unsupported: all four of xneo.jp's own 灯子編 ending rows (6, 9, 10, 24) contain 父さん、何処へ行くの？ and never 父さん、ここは？ or こんなところに……, while every sampled 闇の王編 source (xneo.jp Endings 7 and 8, mmitsuru's End10 page) contains 父さん、ここは？ and never 父さん、何処へ行くの？. That is a clean, mutually exclusive split indicating those two lines are 闇の王編-specific alternates, not a step in 灯子編's own path. Both steps have been removed from this route as likely-misattributed content; see research.json's disagreements field for the related この土地……？/いらないよ uncertainty this route already flags at an earlier point."
   },
   {
-    "simpleJp": "セーブ42",
+    "simpleJp": "セーブ11",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial checkpoint placed immediately before this route's own maze fork inside the underground base, so both the short bad end below (xneo.jp's Ending 6 / mmitsuru's End06「迷宮」) and the long continuation toward Endings 9, 10 and 24 can be reached and reloaded from one shared point."
@@ -103,7 +103,7 @@
     "enGuide": "Per xneo.jp this completes Ending 6 (灯子編). mmitsuru's geend06.htm page documents this identical final choice completing its own 'End 06「迷宮」' (Labyrinth) — the second of mmitsuru's two independently-labelled 灯子編 endings, alongside End24 covered later in this guide."
   },
   {
-    "simpleJp": "セーブ42にロード",
+    "simpleJp": "セーブ11にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -113,7 +113,7 @@
     "simpleJp": "BSSタップ：「カッツの『人の心を』」",
     "jpGuide1": "ぼくはなにを……\tカッツの「人の心を～」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（２０）鈴有り 刀に魅入られる主人公 ▲カッツの声「人の心を殺すんだ……」→ぼくはなにを……",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. Good-path continuation from セーブ42: avoid まっすぐだ at the previous B.S.S. (that leads to Ending 6 / End06, covered above). Neither xneo.jp's own Ending 9/10/24 rows nor mmitsuru's End24 page document any explicit direction choice(s) between 正夫から離れる and this point for 灯子編 specifically — both sources jump straight from 父さん、何処へ行くの？／正夫から離れる to this trigger, already inside Walter Katz's room. This differs from the other three named routes, each of which documents its own distinct maze-navigation sequence through this same underground base (e.g. 右だ for 闇の王編's own endings in route_yami_no_ou.json, or 左だ→ディスクを取る→右だ→左だ for 究明編's Ending 26 in route_kyuumei.json) before reaching a comparable point. This guide follows the two primary sources' own terse listings for 灯子編 exactly as documented, without inventing an undocumented maze sequence; if the game does present additional direction choices here, avoid repeating まっすぐだ, since that specific choice is the one confirmed (by both sources) to produce Ending 6 / End06 instead."
+    "enGuide": "Blood Search System — tap here to raise BLOOD level. Good-path continuation from セーブ11: avoid まっすぐだ at the previous B.S.S. (that leads to Ending 6 / End06, covered above). Neither xneo.jp's own Ending 9/10/24 rows nor mmitsuru's End24 page document any explicit direction choice(s) between 正夫から離れる and this point for 灯子編 specifically — both sources jump straight from 父さん、何処へ行くの？／正夫から離れる to this trigger, already inside Walter Katz's room. This differs from the other three named routes, each of which documents its own distinct maze-navigation sequence through this same underground base (e.g. 右だ for 闇の王編's own endings in route_yami_no_ou.json, or 左だ→ディスクを取る→右だ→左だ for 究明編's Ending 26 in route_kyuumei.json) before reaching a comparable point. This guide follows the two primary sources' own terse listings for 灯子編 exactly as documented, without inventing an undocumented maze sequence; if the game does present additional direction choices here, avoid repeating まっすぐだ, since that specific choice is the one confirmed (by both sources) to produce Ending 6 / End06 instead."
   },
   {
     "simpleJp": "BSSタップ：「灯子の『邪魔するものは』」",
@@ -128,7 +128,7 @@
     "enGuide": "Both xneo.jp (all of Endings 9, 10 and 24) and mmitsuru's geend24.htm page use this exact same choice text at this exact position, confirming strong cross-source agreement on this checkpoint."
   },
   {
-    "simpleJp": "セーブ43",
+    "simpleJp": "セーブ12",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial checkpoint immediately before the BLOOD-gated fork that separates Ending 9 (BLOOD under 80) from Endings 10 and 24 (BLOOD 80 or higher), mirroring the identical convergence point already documented for 究明編 in route_kyuumei.json (whose own Ending 11/14/26 sections note that under-80 BLOOD at this exact position completes as this route's Ending 9 instead)."
@@ -147,7 +147,7 @@
     "badEndPath": "エンディング9「灯子編」"
   },
   {
-    "simpleJp": "セーブ43にロード",
+    "simpleJp": "セーブ12にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -173,7 +173,7 @@
     "badEndPath": "エンディング10「灯子編」"
   },
   {
-    "simpleJp": "セーブ43にロード",
+    "simpleJp": "セーブ12にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -183,7 +183,7 @@
     "simpleJp": "横に飛ぶ",
     "jpGuide1": "横に飛ぶ",
     "jpGuide2": "横に飛ぶ＞",
-    "enGuide": "Good-path continuation from セーブ43 toward this route's deepest documented ending. mmitsuru's geend24.htm page shows an equivalent 横に飛ぶ choice at a comparable position in its own version of this final chain, reached there via the differently-worded 小夜……！ prompt discussed above rather than xneo.jp's カッツ……！."
+    "enGuide": "Good-path continuation from セーブ12 toward this route's deepest documented ending. mmitsuru's geend24.htm page shows an equivalent 横に飛ぶ choice at a comparable position in its own version of this final chain, reached there via the differently-worded 小夜……！ prompt discussed above rather than xneo.jp's カッツ……！."
   },
   {
     "simpleJp": "BSSタップ：「カッツの攻撃を横に避けた後」",

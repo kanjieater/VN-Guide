@@ -36,7 +36,7 @@
     "enGuide": "This is the final Ooka Report branch that places the player at the start of the 闇の王編 (Dark King) route in Gekan, BLOOD level 0. From here the guide follows xneo.jp's '各ルート・エンディングへの行き方' Gekan ending list, cross-checked against mmitsuru's B.S.S. list (gebss.htm) and its two archived per-ending pages for this route family (geend22.htm, geend23.htm)."
   },
   {
-    "simpleJp": "セーブ21",
+    "simpleJp": "セーブ3",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial save placed at the very start of the 闇の王編 Gekan content, before the first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here (this PS2 title has no mid-chapter save screen); this slot exists so every documented ending of this route can be reached and reloaded from a shared checkpoint, matching the convention already used in route_joukan.json."
@@ -49,7 +49,7 @@
     "badEndPath": "エンディング1「闇の王編」"
   },
   {
-    "simpleJp": "セーブ21にロード",
+    "simpleJp": "セーブ3にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -62,7 +62,7 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Successfully tapping produces the 小夜にしがみつく (cling to Saya) branch that every other 闇の王編 ending continues from. Sources disagree slightly on exact timing: xneo.jp says to search when the line has just finished (セリフが終わったら); mmitsuru marks the same line with ▲ (search as the line begins). Either source's window is close enough in practice to be treated as the same trigger."
   },
   {
-    "simpleJp": "セーブ22",
+    "simpleJp": "セーブ4",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial checkpoint immediately after the first B.S.S. succeeds, before the timed multiple-choice sequence that determines which of the remaining 闇の王編 sub-endings (5, 7, 8, 12, 13, 19, 22, 23 in xneo.jp's own numbering) is reached. Neither source marks an explicit save here; this is an editorial addition so every documented sub-ending can be visited and reloaded from one shared point."
@@ -93,7 +93,7 @@
     "enGuide": "Per xneo.jp, choosing this here ends the sequence immediately as Ending 19, with no further choices listed."
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ4にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -167,7 +167,7 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp this completes Ending 5."
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ4にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -265,7 +265,7 @@
     "enGuide": "Per xneo.jp this completes Ending 7."
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ4にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -399,7 +399,7 @@
     "enGuide": "Per xneo.jp this completes Ending 8."
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ4にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -563,7 +563,7 @@
     "enGuide": "Per xneo.jp this completes Ending 13 (with BLOOD under 85). See the BLOOD checkpoint note above for the mmitsuru-documented higher-BLOOD variants (全ては闇に／闇の王編) of this same chain."
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ4にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -660,7 +660,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ23",
+    "simpleJp": "セーブ5",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial checkpoint after the 瑠璃亜の傍にいる branch is locked in. The next choice is where xneo.jp's Ending 22 (瑠璃亜の傍にいる family) splits off from Endings 12 and 23, which continue identically a little further before splitting from each other."
@@ -757,7 +757,7 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp this completes Ending 22."
   },
   {
-    "simpleJp": "セーブ23にロード",
+    "simpleJp": "セーブ5にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -818,7 +818,7 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
-    "simpleJp": "セーブ24",
+    "simpleJp": "セーブ6",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Editorial checkpoint after the final shared B.S.S. of the Ending 12 / Ending 23 pair. xneo.jp's Ending 12 entry lists one extra plain line ('父さん……') here that its Ending 23 entry does not list; the next detour below follows Ending 12's own listing exactly as documented, including that line, without assuming it is also part of Ending 23's path."
@@ -849,7 +849,7 @@
     "enGuide": "Per xneo.jp this completes Ending 12."
   },
   {
-    "simpleJp": "セーブ24にロード",
+    "simpleJp": "セーブ6にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",

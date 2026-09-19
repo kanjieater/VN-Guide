@@ -24,6 +24,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ7",
+    "jpGuide1": "－セーブ①－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "負けてたまるか",
     "jpGuide1": "【負けてたまるか】",
     "jpGuide2": "【饅頭恐いと王子の狐】右　負けてたまるか",
@@ -103,9 +109,22 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ7にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "素直に謝る",
     "jpGuide1": "【素直に謝る】",
     "jpGuide2": "【饅頭恐いと王子の狐】左　素直に謝る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ8",
+    "jpGuide1": "－セーブ②－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -134,9 +153,22 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ8にロード",
+    "jpGuide1": "－セーブ②から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "葛ちゃんを探しに行こう",
     "jpGuide1": "【葛ちゃんを探しに行こう】",
     "jpGuide2": "【そして誰もいなくなった】中　葛ちゃんを探しに行こう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ9",
+    "jpGuide1": "－セーブ③－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -145,6 +177,13 @@
     "jpGuide2": "【カレイド】右　何ともならないか",
     "enGuide": "",
     "badEndPath": "Bad End『座礁・難破』（ED6）"
+  },
+  {
+    "simpleJp": "セーブ9にロード",
+    "jpGuide1": "－セーブ③から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "何とかしたいけど",
@@ -156,6 +195,12 @@
     "simpleJp": "自分が出る",
     "jpGuide1": "【自分が出る】",
     "jpGuide2": "【雨と共にきたる】左　自分が出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ10",
+    "jpGuide1": "－セーブ④",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -196,6 +241,13 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ10にロード",
+    "jpGuide1": "－セーブ④から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "ん～？",
     "jpGuide1": "【ん～？】",
     "jpGuide2": "【蛇と蝶と狐】左　ん～？",
@@ -226,6 +278,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ11",
+    "jpGuide1": "－セーブ⑤－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "ひとりで生きたいなら―",
     "jpGuide1": "【ひとりで生きたいなら―】 → Normal End『やりたい放題好き放題』（ED7）",
     "jpGuide2": "【コドク】左　ひとりで生きたいなら",
@@ -233,9 +291,22 @@
     "badEndPath": "Normal End『やりたい放題好き放題』（ED7）"
   },
   {
+    "simpleJp": "セーブ11にロード",
+    "jpGuide1": "－セーブ⑤から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "でもひとりは嫌なんでしょ？",
     "jpGuide1": "【でもひとりは嫌なんでしょ？】",
     "jpGuide2": "【コドク】右　でもひとりは嫌なんでしょ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12",
+    "jpGuide1": "－セーブ⑥－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -246,9 +317,22 @@
     "badEndPath": "Normal End『言霊の継承（１）』（ED9）"
   },
   {
+    "simpleJp": "セーブ12にロード",
+    "jpGuide1": "－セーブ⑥から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "抵抗しない",
     "jpGuide1": "【抵抗しない】",
     "jpGuide2": "【言霊の継承】右　抵抗しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ13",
+    "jpGuide1": "－セーブ⑦－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -263,6 +347,19 @@
     "jpGuide1": "【割るのは忍びない】",
     "jpGuide2": "【積極攻勢】右　割るのは忍びない",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "Normal End『此岸と彼岸』（ED11）",
+    "jpGuide1": "Normal End『此岸と彼岸』（ED11）",
+    "jpGuide2": "END No.11　此岸と彼岸",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ13にロード",
+    "jpGuide1": "－セーブ⑦から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "封じを強化する",

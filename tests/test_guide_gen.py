@@ -30,7 +30,10 @@ class GuideTargetTests(unittest.TestCase):
             clear=False,
         ):
             self.assertEqual(
-                guide_gen.resolve_guide_target({"guide_target": target}),
+                guide_gen.resolve_guide_target(
+                    {"guide_target": target},
+                    "v1715",
+                ),
                 target,
             )
 
@@ -38,6 +41,7 @@ class GuideTargetTests(unittest.TestCase):
         with patch.dict(
             guide_gen.os.environ,
             {
+                "GUIDE_TARGET_VID": "v123",
                 "GUIDE_TARGET_LABEL": "Edition",
                 "GUIDE_PLATFORM": "Nintendo Switch",
                 "GUIDE_TARGET_URL": "https://vndb.org/r123",
@@ -45,7 +49,7 @@ class GuideTargetTests(unittest.TestCase):
             clear=False,
         ):
             self.assertEqual(
-                guide_gen.resolve_guide_target({}),
+                guide_gen.resolve_guide_target({}, "v123"),
                 {
                     "label": "Edition",
                     "platform": "Nintendo Switch",
@@ -55,12 +59,13 @@ class GuideTargetTests(unittest.TestCase):
 
     def test_missing_or_incomplete_target_is_rejected(self):
         keys = [
+            "GUIDE_TARGET_VID",
             "GUIDE_TARGET_LABEL",
             "GUIDE_PLATFORM",
             "GUIDE_TARGET_URL",
         ]
         with patch.dict(guide_gen.os.environ, {}, clear=True):
-            self.assertIsNone(guide_gen.resolve_guide_target({}))
+            self.assertIsNone(guide_gen.resolve_guide_target({}, "v123"))
 
         with patch.dict(
             guide_gen.os.environ,
@@ -71,7 +76,126 @@ class GuideTargetTests(unittest.TestCase):
             clear=False,
         ):
             guide_gen.os.environ.pop("GUIDE_TARGET_URL", None)
-            self.assertIsNone(guide_gen.resolve_guide_target({}))
+            self.assertIsNone(guide_gen.resolve_guide_target({}, "v123"))
+
+    def test_caller_target_is_scoped_to_one_pending_vn(self):
+        with patch.dict(
+            guide_gen.os.environ,
+            {
+                "GUIDE_TARGET_VID": "v1",
+                "GUIDE_TARGET_LABEL": "Edition One",
+                "GUIDE_PLATFORM": "Nintendo Switch",
+                "GUIDE_TARGET_URL": "https://vndb.org/r1",
+            },
+            clear=True,
+        ):
+            first = guide_gen.resolve_guide_target({}, "v1")
+            second = guide_gen.resolve_guide_target({}, "v2")
+
+        self.assertEqual(
+            first,
+            {
+                "label": "Edition One",
+                "platform": "Nintendo Switch",
+                "url": "https://vndb.org/r1",
+            },
+        )
+        self.assertIsNone(second)
+
+    def test_fresh_research_rejects_missing_or_mismatched_target(self):
+        required = {
+            "label": "Edition",
+            "platform": "Nintendo Switch",
+            "url": "https://vndb.org/r123",
+        }
+
+        bad_targets = [
+            None,
+            {
+                "label": "Other Edition",
+                "platform": "Nintendo Switch",
+                "url": "https://vndb.org/r999",
+            },
+        ]
+
+        for written_target in bad_targets:
+            with self.subTest(written_target=written_target):
+                with tempfile.TemporaryDirectory() as td:
+                    guide_dir = Path(td)
+
+                    def write_research(*args, **kwargs):
+                        data = {
+                            "title": "Game",
+                            "vndb_id": "v123",
+                            "routes": [{"id": "route", "title": "Route"}],
+                        }
+                        if written_target is not None:
+                            data["guide_target"] = written_target
+                        (guide_dir / "research.json").write_text(
+                            json.dumps(data, ensure_ascii=False),
+                            encoding="utf-8",
+                        )
+                        return True
+
+                    with (
+                        patch.object(guide_gen, "build_prompt", return_value="prompt"),
+                        patch.object(
+                            guide_gen,
+                            "run_claude",
+                            side_effect=write_research,
+                        ),
+                    ):
+                        self.assertFalse(
+                            guide_gen.phase_research(
+                                "game",
+                                "Game",
+                                "v123",
+                                guide_dir,
+                                required,
+                            )
+                        )
+
+    def test_fresh_research_accepts_exact_target(self):
+        required = {
+            "label": "Edition",
+            "platform": "Nintendo Switch",
+            "url": "https://vndb.org/r123",
+        }
+        with tempfile.TemporaryDirectory() as td:
+            guide_dir = Path(td)
+
+            def write_research(*args, **kwargs):
+                (guide_dir / "research.json").write_text(
+                    json.dumps(
+                        {
+                            "title": "Game",
+                            "vndb_id": "v123",
+                            "guide_target": required,
+                            "routes": [{"id": "route", "title": "Route"}],
+                        },
+                        ensure_ascii=False,
+                    ),
+                    encoding="utf-8",
+                )
+                return True
+
+            with (
+                patch.object(guide_gen, "build_prompt", return_value="prompt"),
+                patch.object(
+                    guide_gen,
+                    "run_claude",
+                    side_effect=write_research,
+                ),
+            ):
+                self.assertTrue(
+                    guide_gen.phase_research(
+                        "game",
+                        "Game",
+                        "v123",
+                        guide_dir,
+                        required,
+                    )
+                )
 
 
 class SaveOffsetTests(unittest.TestCase):

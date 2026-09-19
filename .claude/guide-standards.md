@@ -25,9 +25,9 @@ A game requires an **explicit linked guide target** plus two independent Japanes
 
 ### Guide target
 
-Do **not** infer the target release from the VNDB work id. A single VNDB `v...` work may aggregate materially different original releases, remakes, ports, editions, and localizations.
+Do **not** infer an arbitrary target from the VNDB work id alone. A single VNDB `v...` work may aggregate materially different original releases, remakes, ports, editions, and localizations.
 
-Before research begins, the caller/repository must supply:
+Before research begins, resolve:
 
 ```json
 "guide_target": {
@@ -41,19 +41,21 @@ Rules:
 
 - `games.json.guide_target` is the normal repository source of truth.
 - A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id (the local runner uses `GUIDE_TARGET_VID`). A caller target for one VN must never be reused for another pending game. Persist the accepted target to `games.json` before research so later local/browser agents see the same target.
+- If neither the repository nor caller supplies a target, default to the **newest official complete release that includes native Japanese in-game text**, using release-specific metadata such as VNDB releases rather than guessing from the broad work entry. This keeps `simpleJp` valid for the target while preferring the newest applicable edition/platform.
+- If the newest applicable Japanese release is ambiguous (for example multiple distinct releases on the same newest date, a multi-platform release that cannot be made platform-specific, or insufficient release metadata), stop and request an explicit target instead of choosing arbitrarily.
 - `label`, `platform`, and `url` are all required and non-empty.
 - The URL should identify the **specific intended release/edition**, not merely the broad work. When VNDB contains the exact target release, prefer its `https://vndb.org/r...` release page over the broader `v...` work page.
-- If no explicit target is supplied, stop and report the missing target. Never choose a release by inference.
+- Once a default target is resolved, persist it to `games.json` before research exactly like a caller-supplied target.
 - Copy the exact target into `research.json.guide_target` and later into `guide.json.guide_target`.
 - Verify every Set A/B component applies to that exact target, or document version differences and why they do not affect the guide.
 - If the requested target cannot be verified or available walkthroughs apply to a materially different release, stop and document the blocker rather than silently switching targets.
 
 ### Legacy target migration
 
-Do not guess targets for existing guides that predate `guide_target`.
+For existing guides that predate `guide_target`, use the same target resolution policy instead of preserving ambiguity indefinitely.
 
 - Existing reviewed flags are not invalidated **solely** because this field was absent historically.
-- Before any new source-dependent generation, correction, or accuracy re-review, the guide must receive an explicit target.
+- Before any new source-dependent generation, correction, or accuracy re-review, the guide must receive a persisted target. If no explicit target exists, resolve the newest unambiguous official complete Japanese release as above.
 - If the target backfill merely formalizes the exact release already unambiguously documented in the existing research/sources, the backfill itself is metadata-only and does not invalidate route review.
 - If the old research is ambiguous, or the target changes to a different release/platform/edition, redo research for the new target and invalidate all affected route reviews.
 

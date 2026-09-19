@@ -100,7 +100,7 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
 - Every player-action step uses the **exact in-game choice/action text** in `simpleJp`.
 - Do not paraphrase `simpleJp`, append outcome suffixes, or prefix it with location/context text.
-- Save and load instructions are the only normal non-choice `simpleJp` steps.
+- Save, load, and source-backed replay/restart instructions are the only normal non-choice `simpleJp` steps.
 - Keep save steps standalone immediately before the action they protect; do not merge a save and a player action into one step.
 - Keep load instructions standalone.
 - `enGuide` contains a useful English reference/hint when an English source or reliable reference is available; otherwise use exactly `""`. Do not discard useful existing English detail merely because it is optional.
@@ -115,8 +115,11 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 ### Structural markers
 
 - `badEndPath` is the historical field name for the first branch step of any documented non-main ending detour, including bad, normal, alternate, or similarly labeled endings.
-- `isLoad: true` is reserved **only** for the load that terminates a `badEndPath` non-main-ending detour and returns to the main route.
+- `isLoad: true` is reserved **only** for a load that terminates a `badEndPath` non-main-ending detour and returns to the main route.
+- `isRestart: true` is reserved **only** for a restart/replay-from-beginning instruction that terminates a `badEndPath` detour when a directly inspected primary source documents that ending as a separate replay from the route/game beginning and does not provide a usable checkpoint. Never invent a save merely to avoid `isRestart`.
+- Exactly one terminator is allowed for each detour: `isLoad: true` **or** `isRestart: true`, never both.
 - A normal instruction to load a save created in an earlier route is a plain step. Its `simpleJp` may say `セーブNにロード`, but it must **not** have `isLoad: true`.
+- A normal restart instruction outside a non-main-ending detour must not have `isRestart: true`.
 ### Non-main ending detour completeness
 
 Every documented non-main ending detour—bad, normal, alternate, or similarly labeled—explicitly documented by **either** directly inspected primary Japanese verification set must be actively included before continuing the main route when the other set is silent or agrees. One-set detours are allowed; use the source-omission placeholder for the silent set on detour-only steps. If the second set contradicts the existence, branch condition, or outcome of that ending, reconcile the conflict before including it.
@@ -124,10 +127,10 @@ Every documented non-main ending detour—bad, normal, alternate, or similarly l
 For each documented non-main ending detour:
 
 - insert the save before the branch when a source documents one;
-- mark the **first wrong choice** with `badEndPath`;
+- for a save-backed detour, mark the **first wrong choice** with `badEndPath`; for a source-documented replay-from-start detour with no usable checkpoint, mark the **first replay step** with `badEndPath` so the entire standalone replay can be removed during main-route reconstruction;
 - use the exact ending label documented by the source;
 - include every subsequent step needed to reach the ending terminal;
-- immediately follow the terminal with the matching `isLoad: true` load-back step;
+- immediately follow the terminal with exactly one structural return: the matching `isLoad: true` load-back step, or `isRestart: true` when the source requires replaying from the beginning and supplies no usable checkpoint;
 - then continue with the good/main choice;
 - if multiple non-main endings branch from the same save, include every documented detour before continuing;
 - never add `badEndPath` where no Japanese source documents a non-main ending;
@@ -244,7 +247,7 @@ For each unreviewed route:
 2. If structural findings exist, the author fixes them and the structural reviewer independently re-verifies.
 3. Accuracy reviewer independently verifies both Japanese verification sets.
 4. If accuracy findings exist, the author fixes them and the accuracy reviewer re-fetches sources and independently re-verifies.
-5. **If any accuracy-stage fix changes route structure** (step order, saves/loads, `badEndPath`, `isLoad`, or another structural-flow element), the prior structural pass is stale. Rerun structural review, then rerun accuracy review against the structurally final route.
+5. **If any accuracy-stage fix changes route structure** (step order, saves/loads/restarts, `badEndPath`, `isLoad`, `isRestart`, or another structural-flow element), the prior structural pass is stale. Rerun structural review, then rerun accuracy review against the structurally final route.
 6. Repeat until both gates are clean for the same route content.
 7. Only then may the accuracy stage/orchestrator set `reviewed: true`.
 
@@ -258,7 +261,7 @@ Whenever a gate has already passed, a later change can invalidate that pass **ev
 
 | Change | Set reviewed:false? | Structural re-review | Accuracy re-review |
 | --- | --- | --- | --- |
-| Route step order, `badEndPath`, `isLoad`, save/load structure | Yes, affected route | Yes | Yes |
+| Route step order, `badEndPath`, `isLoad`, `isRestart`, save/load/restart structure | Yes, affected route | Yes | Yes |
 | Route choice/source text/save position/ending content without structural change | Yes, affected route | No | Yes |
 | Research source basis, prerequisites, unlocks, or route-order claims | Yes, affected routes | No unless route files changed structurally | Yes |
 | Backfill of the exact already-documented legacy target, with no source/route behavior change | No | No | No |

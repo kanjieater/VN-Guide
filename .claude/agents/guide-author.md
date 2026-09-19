@@ -62,9 +62,11 @@ Before submitting the **current route**, confirm:
 - `jpGuide1` / `jpGuide2` follow the exact source-field rules in `.claude/guide-standards.md`.
 - `guide.json` is assembled according to the canonical assembly contract, including the exact linked `guide_target`.
 
-### Load semantics
+### Structural return semantics
 
-`isLoad: true` is **only** the structural terminator of a `badEndPath` detour.
+`isLoad: true` is **only** the structural terminator of a save-backed `badEndPath` detour.
+
+`isRestart: true` is **only** the structural terminator of a source-documented replay-from-beginning detour when no usable checkpoint exists. Never invent a save to avoid using it.
 
 If a later route starts by loading a save created in an earlier route, keep the visible load instruction as a normal step and **omit** `isLoad`.
 

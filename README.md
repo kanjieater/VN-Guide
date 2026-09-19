@@ -119,7 +119,7 @@ If you want the container to run continuously and auto-generate guides for every
 
 - Docker
 - A VNDB account with a "playing" list
-- An Anthropic API key (or Claude OAuth session — see below)
+- A Claude subscription/OAuth session, Anthropic API key, **or OpenRouter API key**
 - A GitHub repo with GitHub Pages enabled
 
 ### Environment variables
@@ -131,16 +131,74 @@ If you want the container to run continuously and auto-generate guides for every
 | `GIT_EMAIL` | `vn-guide-bot@shke.xyz` | Git commit author email |
 | `GIT_NAME` | `VN Guide Bot` | Git commit author name |
 | `REPO_PATH` | `/app/repo` | Path to the cloned repo inside the container |
-| `ANTHROPIC_API_KEY` | | Anthropic API key (optional if using OAuth) |
+| `GUIDE_PROVIDER` | `claude` | `claude` (Claude CLI/subscription) or `openrouter` (Pi CLI) |
+| `GUIDE_MODEL` | provider default | Shared model: `claude-sonnet-5` for Claude, `stealth/union-alpha` for OpenRouter |
+| `GUIDE_GEN_MODEL` / `GUIDE_AUTHOR_MODEL` | shared model | Override generation / correction model |
+| `GUIDE_STRUCTURAL_REVIEWER_MODEL` / `GUIDE_REVIEWER_MODEL` | shared model | Override structural / accuracy reviewer model |
+| `ANTHROPIC_API_KEY` | | Anthropic API key (optional if using Claude OAuth) |
+| `OPENROUTER_API_KEY` | | Required when `GUIDE_PROVIDER=openrouter` |
+| `GUIDE_OPENROUTER_MAX_TOKENS` | `16384` | Union Alpha output-token cap (1–65536); its context is explicitly registered as 262144 tokens |
 | `RUN_INTERVAL_HOURS` | `6` | Hours between sync cycles |
 | `GUIDE_START_HOUR` | `22` | Start of generation window (24h local time) |
 | `GUIDE_END_HOUR` | `0` | End hour of generation window |
 | `GUIDE_END_MIN` | `30` | End minute of generation window |
 | `GUIDE_WINDOW_DISABLE` | | Set to `1` to generate at any time |
-| `GUIDE_PRIORITY_VID` | | VNDB ID to generate first; container exits when done |
+| `GUIDE_PRIORITY_VID` | | Only generate/review this VNDB ID; container exits after all routes are reviewed |
+| `GUIDE_REVIEW_VID` | priority ID | Optional separate game filter for reviews |
 | `GUIDE_REVIEW_MAX_ROUNDS` | `5` | Max reviewer/author cycles before giving up on a game |
-| `GUIDE_REVIEW_MODEL` | `claude-sonnet-5` | Model used for reviewer and author agents |
 | `GUIDE_REVIEW_TIMEOUT` | `3600` | Seconds before a single reviewer or author call times out |
+
+### Switching providers
+
+Copy `.env.example` to `.env` (ignored by Git). Keep your existing Compose `env_file: .env`,
+or add it to the guide service. Choose one profile:
+
+```dotenv
+# Claude subscription — default, still uses the official Claude CLI
+GUIDE_PROVIDER=claude
+GUIDE_MODEL=claude-sonnet-5
+```
+
+```dotenv
+# OpenRouter — separate OpenRouter account/credits, not your Claude subscription
+GUIDE_PROVIDER=openrouter
+GUIDE_MODEL=stealth/union-alpha
+OPENROUTER_API_KEY=your-key
+```
+
+Rebuild the image once to install the pinned Pi CLI, then recreate the service after
+changing `.env` (`docker compose up -d --build --force-recreate` for a build-based service).
+Image-only services must build this Dockerfile under their configured image tag first.
+No code changes are needed to switch back. Remove stale `GUIDE_*_MODEL` overrides when
+switching providers: role override > `GUIDE_MODEL` > provider default. All model IDs must
+belong to the selected provider; there is no silent fallback or cross-provider billing.
+Claude effort settings remain Claude-only (Union Alpha does not expose reasoning effort).
+
+For a local run, install `@earendil-works/pi-coding-agent@0.85.1` with npm and export the
+same environment variables. Python does **not** automatically load `.env`:
+
+```bash
+set -a; . ./.env; set +a
+export REPO_PATH="$PWD" GUIDE_PRIORITY_VID=v210  # Himawari only
+python3 scripts/guide_gen.py
+python3 scripts/review.py
+```
+
+The pipeline commits/pushes generated output, so use a dedicated clean checkout with
+its own upstream branch for test jobs. Ensure `prompt.md` is present (it is locally
+ignored), and that GitHub CLI (`gh auth login`) and Git push are authenticated.
+
+OpenRouter runs fresh tool-capable Pi sessions for research, every route, every author
+correction, and every independent review. It can fetch sources through bash/curl/Python.
+Completed output files survive retries; Claude session IDs are never reused by Pi.
+Unfinished OpenRouter calls restart with the full task prompt. Turn caps and wall-clock
+timeouts are enforced; provider errors are not accepted as review passes. Personal Pi
+plugins/settings are not loaded and `OPENROUTER_API_KEY` must be explicitly supplied.
+Guide completion still requires independent structural and accuracy review; only an
+accuracy reviewer may approve metadata after both issue types are clear. GitHub lookup
+failures abort review rather than counting as a pass.
+
+Run offline regression tests with `python3 -m unittest discover -s tests -v`.
 
 ### Using Claude OAuth instead of an API key
 

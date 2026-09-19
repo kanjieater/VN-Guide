@@ -73,7 +73,7 @@
   },
   "v210": {
     "slug": "himawari",
-    "has_guide": false,
+    "has_guide": true,
     "title": "Himawari",
     "alttitle": "ひまわり",
     "cover_url": "https://t.vndb.org/cv/73/98573.jpg",

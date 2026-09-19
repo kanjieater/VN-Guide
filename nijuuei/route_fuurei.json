@@ -3,19 +3,19 @@
     "simpleJp": "セーブ5にロード",
     "jpGuide1": "セーブ５から",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "命ルートの正答後セーブから分岐。"
+    "enGuide": ""
   },
   {
     "simpleJp": "何もいわない",
     "jpGuide1": "何もいわない",
-    "jpGuide2": "※命ルートの場合のみ選択肢発生  | ・すまん",
-    "enGuide": "SagaoZ の楓玲分岐。BIGLOBE は反対側の「すまん」を命ルート専用と明記しており、同じ分岐構造を独立に裏付ける。"
+    "jpGuide2": "※命ルートの場合のみ選択肢発生",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ8",
     "jpGuide1": "〖セーブ８〗",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "12日目、楓玲の最終分岐直前。"
+    "enGuide": ""
   },
   {
     "simpleJp": "楓玲は俺と来い",
@@ -28,19 +28,19 @@
     "simpleJp": "お前の目的は何だったんだ？",
     "jpGuide1": "お前の目的は何だったんだ？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ending interrogation 1/3."
+    "enGuide": ""
   },
   {
     "simpleJp": "貴様は一体何者だ？",
     "jpGuide1": "貴様は一体何者だ？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ending interrogation 2/3."
+    "enGuide": ""
   },
   {
     "simpleJp": "無影はどこにいる？",
     "jpGuide1": "無影はどこにいる？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ending interrogation 3/3."
+    "enGuide": ""
   },
   {
     "simpleJp": "楓玲 ＢＡＤ ＥＮＤ",
@@ -59,31 +59,31 @@
     "simpleJp": "楓玲は十兵衛と一緒にいけ",
     "jpGuide1": "楓玲は十兵衛と一緒にいけ",
     "jpGuide2": "・～は十兵衛と一緒に行け→ハッピーエンド",
-    "enGuide": "楓玲のメインエンド側。"
+    "enGuide": ""
   },
   {
     "simpleJp": "お前の目的は何だったんだ？",
     "jpGuide1": "お前の目的は何だったんだ？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ending interrogation 1/3."
+    "enGuide": ""
   },
   {
     "simpleJp": "貴様は一体何者だ？",
     "jpGuide1": "貴様は一体何者だ？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ending interrogation 2/3."
+    "enGuide": ""
   },
   {
     "simpleJp": "無影はどこにいる？",
     "jpGuide1": "無影はどこにいる？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ending interrogation 3/3."
+    "enGuide": ""
   },
   {
     "simpleJp": "左",
     "jpGuide1": "左",
-    "jpGuide2": "（正）  | ・左",
-    "enGuide": "イル・スイ救出の最初の正解を選ぶ。"
+    "jpGuide2": "・左",
+    "enGuide": ""
   },
   {
     "simpleJp": "楓玲 ＥＮＤ",

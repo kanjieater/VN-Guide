@@ -6,7 +6,7 @@ $GAME_NOTES
 ## Current Task: Generate One Route
 
 Game: $TITLE (VNDB: $VNDB_ID)
-Section: **$ROUTE_TITLE** (id: `$ROUTE_ID`, type: `$ROUTE_TYPE`)
+Section: **$ROUTE_TITLE** (id: `$ROUTE_ID`)
 Save slot offset: **$SAVE_OFFSET** (first new save in this route = セーブ$SAVE_OFFSET_PLUS1)
 
 Research file: `$RESEARCH_FILE`
@@ -21,17 +21,6 @@ Output file: `$ROUTE_FILE`
 5. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
 6. Write the complete route as a JSON array to `$ROUTE_FILE`.
 
-
-### Completion-section mode
-
-If `$ROUTE_TYPE` is `completion`:
-
-- Generate a linear post-clear checklist instead of a heroine/story route.
-- Include exact documented menu/action labels and completion/result labels in `simpleJp`.
-- Do not emit saves, loads, `badEndPath`, or `isLoad`.
-- Verify gating unlock/order/completion claims independently with Set A and Set B components documented for completion material.
-- End on the final real documented completion action/result. Do not invent a synthetic ending or COMPLETE marker.
-- The normal “stop at this route's ending” rule below is replaced by “stop at the final documented completion action/result.”
 
 ### Step format
 
@@ -116,10 +105,10 @@ Never add `badEndPath` when no Japanese source documents a non-main ending, and 
 
 ### Completion
 
-- For a normal route, cover the complete route from entry to ending. For `completion`, cover the complete post-clear checklist through its final documented completion action/result.
+- Cover the complete guide section from entry to its intended documented terminal/outcome. This may be a heroine ending, chapter ending, true ending, post-clear completion result, or another source-documented terminal appropriate to the section.
 - Include all required choices.
 - Include every documented non-main ending detour completely.
-- Stop at this route's ending.
+- Stop at this section's intended documented terminal/outcome.
 - Output only valid JSON to `$ROUTE_FILE`.
 
 Generate route `$ROUTE_ID` only, then stop.

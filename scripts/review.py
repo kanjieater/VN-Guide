@@ -227,7 +227,37 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
     return False
 
 
+def approval_only(before: str, after: str, route_id: str) -> bool:
+    """Only the target approval flag may change; preserve all other metadata."""
+    try:
+        expected = json.loads(before)
+        routes = expected["routes"]
+        if not isinstance(routes, list) or any(
+            not isinstance(r, dict) or not isinstance(r.get("id"), str) for r in routes
+        ) or sum(r["id"] == route_id for r in routes) != 1:
+            return False
+        for route in routes:
+            if route["id"] == route_id:
+                route["reviewed"] = True
+        # Canonical JSON comparison also distinguishes true from 1.
+        return json.dumps(expected, sort_keys=True) == json.dumps(json.loads(after), sort_keys=True)
+    except (ValueError, KeyError, TypeError):
+        return False
+
+
 def mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title: str) -> bool:
+    snapshot = guide_file.read_text()
+    accepted = False
+    try:
+        accepted = (_mark_route_reviewed(guide_file, slug, route_id, route_title)
+                    and approval_only(snapshot, guide_file.read_text(), route_id))
+        return accepted
+    finally:
+        if not accepted:
+            guide_file.write_text(snapshot)
+
+
+def _mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title: str) -> bool:
     """Set reviewed: true, but only if no open issue contradicts it.
 
     Re-checked here rather than trusted from the caller: a reviewer can file a
@@ -376,7 +406,8 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
                 continue
 
             if review_route(slug, route_id, route_title):
-                approved = mark_route_reviewed(guide_file, slug, route_id, route_title)
+                approved = (mark_route_reviewed(guide_file, slug, route_id, route_title)
+                            and approval_only(snapshot, guide_file.read_text(), route_id))
             if approved:
                 run_deploy()
             else:
@@ -385,19 +416,7 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
             # A reviewer can write approval before its CLI fails or GitHub becomes
             # unavailable. Never leave that optimistic flag for the next run to skip.
             if not approved:
-                try:
-                    latest = json.loads(guide_file.read_text())
-                    routes = latest["routes"] if isinstance(latest, dict) else None
-                    if not isinstance(routes, list) or not all(
-                        isinstance(r, dict) and isinstance(r.get("id"), str) for r in routes
-                    ) or not any(r["id"] == route_id for r in routes):
-                        raise ValueError("Invalid guide metadata")
-                except (OSError, ValueError, KeyError):
-                    latest = json.loads(snapshot)
-                for entry in latest.get("routes", []):
-                    if entry["id"] == route_id:
-                        entry["reviewed"] = False
-                guide_file.write_text(json.dumps(latest, ensure_ascii=False, indent=2))
+                guide_file.write_text(snapshot)
 
 
 def run() -> None:

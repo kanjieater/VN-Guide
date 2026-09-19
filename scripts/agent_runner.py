@@ -65,6 +65,20 @@ def _write_openrouter_model_config(agent_dir: str, model: str) -> None:
 
 def run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
                    timeout: int) -> bool:
+    # Raising unwinds the active invocation's finally block, which terminates
+    # and reaps Pi (including its detached tools), before this driver exits.
+    def terminated(signum, frame):
+        raise SystemExit(128 + signum)
+
+    prior = signal.signal(signal.SIGTERM, terminated)
+    try:
+        return _run_openrouter(prompt, model, max_turns, cwd, timeout)
+    finally:
+        signal.signal(signal.SIGTERM, prior)
+
+
+def _run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
+                    timeout: int) -> bool:
     """Run a fresh, tool-capable Pi session with an explicit OpenRouter model.
 
     Do not load personal extensions/settings/credentials. OPENROUTER_API_KEY is
@@ -119,7 +133,7 @@ def run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
         deadline = time.monotonic() + timeout
         turns = 0
         completed = False
-        failed = False
+        terminal_reason = None
         try:
             while True:
                 remaining = deadline - time.monotonic()
@@ -138,6 +152,8 @@ def run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
                     continue
                 kind = event.get("type")
                 if kind == "turn_start":
+                    terminal_reason = None
+                    completed = False
                     turns += 1
                     if turns > max_turns:
                         raise TimeoutError(f"agent exceeded {max_turns} turns")
@@ -152,14 +168,14 @@ def run_openrouter(prompt: str, model: str, max_turns: int, cwd: Path,
                     if message.get("role") == "assistant":
                         # Pi retries transient provider errors internally. Judge the
                         # final assistant result, not an error it later recovered from.
-                        failed = message.get("stopReason") in {"error", "aborted"}
-                        if failed:
+                        terminal_reason = message.get("stopReason")
+                        if terminal_reason in {"error", "aborted", "length"}:
                             print(f"\n[agent] {message.get('errorMessage', 'Provider error')}",
                                   file=sys.stderr, flush=True)
                 elif kind == "agent_end":
                     completed = True
             code = proc.wait(timeout=max(0.01, deadline - time.monotonic()))
-            return code == 0 and completed and not failed
+            return code == 0 and completed and terminal_reason == "stop"
         except (TimeoutError, subprocess.TimeoutExpired) as exc:
             print(f"\n[agent] {exc}", file=sys.stderr, flush=True)
             return False

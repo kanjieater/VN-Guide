@@ -50,7 +50,12 @@
     "title": "Blood: The Last Vampire",
     "alttitle": "",
     "cover_url": "https://t.vndb.org/cv/31/119231.jpg",
-    "added_at": "2026-07-07T22:51:38.476564+00:00"
+    "added_at": "2026-07-07T22:51:38.476564+00:00",
+    "guide_target": {
+      "label": "BLOOD THE LAST VAMPIRE 上巻・下巻（2000年オリジナル版）",
+      "platform": "PlayStation 2",
+      "url": "https://remote.production-ig.co.jp/contents/works/05_/000149.html"
+    }
   },
   "v2002": {
     "slug": "steinsgate",

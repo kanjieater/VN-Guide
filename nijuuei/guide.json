@@ -6,7 +6,29 @@
     "platform": "Windows PC",
     "url": "https://www.keroq.co.jp/product/nijuu/top.htm"
   },
-  "routes": [],
+  "routes": [
+    {
+      "id": "kikyou",
+      "title": "桔梗ルート",
+      "stepCount": 22,
+      "reviewed": false,
+      "portrait": ""
+    },
+    {
+      "id": "mikoto",
+      "title": "命ルート",
+      "stepCount": 56,
+      "reviewed": false,
+      "portrait": ""
+    },
+    {
+      "id": "fuurei",
+      "title": "楓玲ルート",
+      "stepCount": 9,
+      "reviewed": false,
+      "portrait": ""
+    }
+  ],
   "sources": [
     {
       "url": "https://sagaoz.net/foolmaker/game/n/nijuuei.html",
@@ -59,5 +81,5 @@
       "notes": "Official PC support reference documenting 二重影 executable/update files and Windows-specific support instructions. Used for target provenance, not route verification."
     }
   ],
-  "generated_at": "2026-09-19T21:32:00+00:00"
+  "generated_at": "2026-09-19T22:30:00+00:00"
 }

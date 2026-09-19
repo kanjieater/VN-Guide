@@ -15,6 +15,8 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib import error as urllib_error
+from urllib import request as urllib_request
 
 sys.path.insert(0, str(Path(__file__).parent))
 import generate as _generate
@@ -24,6 +26,24 @@ REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 PROMPTS_PATH = SCRIPTS_PATH / "prompts"
 GAMES_JSON = REPO_PATH / "games.json"
+VNDB_RELEASE_API = "https://api.vndb.org/kana/release"
+VNDB_PLATFORM_NAMES = {
+    "win": "Windows",
+    "lin": "Linux",
+    "mac": "macOS",
+    "psv": "PlayStation Vita",
+    "ps4": "PlayStation 4",
+    "ps5": "PlayStation 5",
+    "ps3": "PlayStation 3",
+    "ps2": "PlayStation 2",
+    "psp": "PSP",
+    "switch": "Nintendo Switch",
+    "xb1": "Xbox One",
+    "xbox": "Xbox",
+    "x360": "Xbox 360",
+    "and": "Android",
+    "ios": "iOS",
+}
 
 MODEL = agent_runner.model_for("GEN")
 MAX_TURNS_RESEARCH = 60
@@ -138,6 +158,79 @@ def normalize_guide_target(target: object) -> dict[str, str] | None:
     return normalized
 
 
+def fetch_newest_japanese_guide_target(vndb_id: str) -> dict[str, str] | None:
+    """Resolve the newest unambiguous official complete Japanese release from VNDB."""
+    payload = {
+        "filters": ["vn", "=", ["id", "=", vndb_id]],
+        "fields": "title,alttitle,released,platforms,languages{lang,mtl},official,patch,vns{id,rtype}",
+        "sort": "released",
+        "reverse": True,
+        "results": 100,
+    }
+    request = urllib_request.Request(
+        VNDB_RELEASE_API,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "User-Agent": "VN-Guide/guide_gen",
+        },
+        method="POST",
+    )
+    try:
+        with urllib_request.urlopen(request, timeout=20) as response:
+            result = json.loads(response.read().decode("utf-8"))
+    except (OSError, urllib_error.URLError, json.JSONDecodeError) as exc:
+        err(f"{vndb_id}: VNDB release lookup failed: {exc}")
+        return None
+
+    candidates: list[dict] = []
+    for release in result.get("results", []):
+        if not release.get("official") or release.get("patch"):
+            continue
+        languages = release.get("languages") or []
+        if not any(
+            lang.get("lang") == "ja" and not lang.get("mtl", False)
+            for lang in languages
+        ):
+            continue
+        linked_vns = release.get("vns") or []
+        if not any(
+            vn.get("id") == vndb_id and vn.get("rtype") == "complete"
+            for vn in linked_vns
+        ):
+            continue
+        if not release.get("released"):
+            continue
+        platforms = release.get("platforms") or []
+        if len(platforms) != 1:
+            continue
+        candidates.append(release)
+
+    if not candidates:
+        err(f"{vndb_id}: no official complete Japanese release found for default targeting")
+        return None
+
+    newest_date = candidates[0]["released"]
+    newest = [release for release in candidates if release["released"] == newest_date]
+    if len(newest) != 1:
+        ids = ", ".join(release["id"] for release in newest)
+        err(
+            f"{vndb_id}: newest Japanese release is ambiguous on {newest_date}: "
+            f"{ids}; supply an explicit guide_target"
+        )
+        return None
+
+    release = newest[0]
+    platform_code = release["platforms"][0]
+    platform = VNDB_PLATFORM_NAMES.get(platform_code, platform_code)
+    title = release.get("alttitle") or release.get("title") or vndb_id
+    return {
+        "label": f"{title} ({newest_date} {platform})",
+        "platform": platform,
+        "url": f"https://vndb.org/{release['id']}",
+    }
+
+
 def resolve_guide_target(
     entry: dict,
     vndb_id: str,
@@ -157,7 +250,7 @@ def resolve_guide_target(
     }
     caller_values = [target_vid, *env_target.values()]
     if not any(caller_values):
-        return None
+        return fetch_newest_japanese_guide_target(vndb_id)
 
     if not target_vid or not all(env_target.values()):
         err(
@@ -558,11 +651,10 @@ def run() -> None:
         guide_target = resolve_guide_target(entry, vid)
         if guide_target is None:
             err(
-                f"{slug}: no explicit guide target. Add games.json "
-                f"guide_target {{label, platform, url}} or supply scoped "
-                f"GUIDE_TARGET_VID + GUIDE_TARGET_LABEL + GUIDE_PLATFORM + "
-                f"GUIDE_TARGET_URL. Refusing to infer a release from VNDB "
-                f"work {vid}."
+                f"{slug}: no unambiguous guide target could be resolved. "
+                "Add games.json guide_target {label, platform, url} or supply "
+                "GUIDE_TARGET_VID + GUIDE_TARGET_LABEL + GUIDE_PLATFORM + "
+                "GUIDE_TARGET_URL."
             )
             break
 
@@ -571,7 +663,7 @@ def run() -> None:
             GAMES_JSON.write_text(
                 json.dumps(games, ensure_ascii=False, indent=2) + "\n"
             )
-            log(f"Persisted explicit guide target for {slug}")
+            log(f"Persisted guide target for {slug}")
             if not run_deploy():
                 err(
                     f"{slug}: could not publish the explicit guide target; "

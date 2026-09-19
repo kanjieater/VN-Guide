@@ -45,9 +45,7 @@ If either verification set fails the completeness/independence gate, the route c
 
 ## Review checklist
 
-If the matching guide/research entry has `type: "completion"`, review it as a post-clear completion section rather than forcing route-ending semantics. Verify every listed menu/action/result, unlock prerequisite, ordering dependency, and final completion condition against the relevant Set A/B components. Gating completion claims require independent Japanese support from both sets. The section must contain no `badEndPath` or `isLoad: true`, and the last step must be the actual documented final completion action/result.
-
-For a normal route under review, verify:
+For the guide section under review, verify:
 
 - every route-defining choice and its order;
 - route prerequisites and unlock conditions;

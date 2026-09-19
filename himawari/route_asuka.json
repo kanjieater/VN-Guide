@@ -1,5 +1,17 @@
 [
   {
+    "simpleJp": "Start",
+    "jpGuide1": "※タイトル画面の■Startから開始",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２０５０",
+    "jpGuide1": "２０５０を選択",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "先へ進む",
     "jpGuide1": "先へ進む",
     "jpGuide2": "先へ進む",
@@ -90,7 +102,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ34",
+    "simpleJp": "セーブ17",
     "jpGuide1": "◆セーブ18",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -100,10 +112,16 @@
     "jpGuide1": "…わかった",
     "jpGuide2": "……嘘だ　/　…わかった　END「Beautiful　Dreamer」",
     "enGuide": "",
-    "badEndPath": "Beautiful Dreamer"
+    "badEndPath": "【Beautiful Dreamer】END"
   },
   {
-    "simpleJp": "セーブ34にロード",
+    "simpleJp": "【Beautiful Dreamer】END",
+    "jpGuide1": "【Beautiful Dreamer】END",
+    "jpGuide2": "END「Beautiful　Dreamer」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ17にロード",
     "jpGuide1": "◆セーブ18から",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -116,7 +134,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ35",
+    "simpleJp": "セーブ18",
     "jpGuide1": "◆セーブ19",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -126,10 +144,16 @@
     "jpGuide1": "屋敷に帰る",
     "jpGuide2": "学校へ行く　/　屋敷に帰る　END「逃避」",
     "enGuide": "",
-    "badEndPath": "逃避"
+    "badEndPath": "【逃避】END"
   },
   {
-    "simpleJp": "セーブ35にロード",
+    "simpleJp": "【逃避】END",
+    "jpGuide1": "【逃避】END",
+    "jpGuide2": "END「逃避」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18にロード",
     "jpGuide1": "◆セーブ19から",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -160,7 +184,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "西園寺明香",
+    "simpleJp": "【西園寺明香】END",
     "jpGuide1": "【西園寺明香】END",
     "jpGuide2": "「明香編クリア」",
     "enGuide": ""

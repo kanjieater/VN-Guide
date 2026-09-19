@@ -78,7 +78,7 @@ git -C "${REPO_PATH}" config user.name "${GIT_NAME}"
 run_pipeline() {
     echo "[$(date -Iseconds)] Starting VN guide sync"
     # Refresh OAuth token if needed (no-op when ANTHROPIC_API_KEY is set)
-    if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+    if [ "${GUIDE_PROVIDER:-claude}" = "claude" ] && [ -z "${ANTHROPIC_API_KEY:-}" ]; then
         python3 /app/scripts/refresh_oauth.py || true
     fi
     python3 /app/scripts/generate.py

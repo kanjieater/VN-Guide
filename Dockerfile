@@ -1,7 +1,7 @@
 FROM python:3.12-slim
 
 # System deps + Node.js 22 LTS + GitHub CLI (run as root for installs)
-RUN apt-get update && apt-get install -y git curl ca-certificates && \
+RUN apt-get update && apt-get install -y git curl ca-certificates openssh-client && \
     curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
     apt-get install -y nodejs && \
     curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
@@ -11,8 +11,9 @@ RUN apt-get update && apt-get install -y git curl ca-certificates && \
     apt-get update && apt-get install -y gh && \
     rm -rf /var/lib/apt/lists/*
 
-# Claude Code CLI for automated guide generation
-RUN npm install -g @anthropic-ai/claude-code
+# Keep Claude CLI for subscription usage; Pi supplies the OpenRouter tool loop.
+RUN npm install -g @anthropic-ai/claude-code && \
+    npm install -g --ignore-scripts @earendil-works/pi-coding-agent@0.85.1
 
 ENV PYTHONUNBUFFERED=1
 ENV CLAUDE_CODE_DISABLE_TELEMETRY=1

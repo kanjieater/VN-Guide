@@ -91,21 +91,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "抵抗しない",
-    "jpGuide1": "【抵抗しない】",
-    "jpGuide2": "【言霊の継承】右　抵抗しない",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "鏡を探してみる",
-    "jpGuide1": "【鏡を探してみる】",
-    "jpGuide2": "【鏡の鬼】右　鏡を探してみる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "割るのは忍びない",
-    "jpGuide1": "【割るのは忍びない】 → Bad End『蛇の神の使い』（ED8）",
-    "jpGuide2": "【積極攻勢】右　割るのは忍びない",
+    "simpleJp": "Bad End『蛇の神の使い』（ED8）",
+    "jpGuide1": "蛇の神の使い",
+    "jpGuide2": "No.8 蛇の神の使い",
     "enGuide": ""
   },
   {
@@ -135,9 +123,9 @@
     "badEndPath": "Normal End『帰着・夏の終わり』（ED2）"
   },
   {
-    "simpleJp": "電話をかけることにする",
-    "jpGuide1": "【電話をかけることにする】",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "simpleJp": "電話をかけてみることにする",
+    "jpGuide1": "電話をかけてみることにする",
+    "jpGuide2": "電話をかけてみることにする",
     "enGuide": ""
   },
   {
@@ -177,6 +165,48 @@
     "jpGuide2": "【カレイド】右　何ともならないか",
     "enGuide": "",
     "badEndPath": "Bad End『座礁・難破』（ED6）"
+  },
+  {
+    "simpleJp": "自分が出る",
+    "jpGuide1": "【自分が出る】",
+    "jpGuide2": "【雨と共にきたる】左　自分が出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ん～？",
+    "jpGuide1": "【ん～？】",
+    "jpGuide2": "【蛇と蝶と狐】左　ん～？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気になる",
+    "jpGuide1": "【気になる】",
+    "jpGuide2": "【蛇神の影】左　気になる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "じゃあ行こうか",
+    "jpGuide1": "【じゃあ行こうか】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何を話してるんだろ？",
+    "jpGuide1": "【何を話してるんだろ？】",
+    "jpGuide2": "【良月】左　何を話してるんだろ？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行ってきます",
+    "jpGuide1": "【行ってきます】",
+    "jpGuide2": "【夏夜に咲く花】右　行ってきます",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Bad End『座礁・難破』（ED6）",
+    "jpGuide1": "座礁・難破",
+    "jpGuide2": "No.6 座礁・難破",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ9にロード",
@@ -223,21 +253,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "保護者同伴なら",
-    "jpGuide1": "【保護者同伴なら】",
-    "jpGuide2": "【夏夜に咲く花】左　保護者同伴なら",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "でもひとりは嫌なんでしょ？",
-    "jpGuide1": "【でもひとりは嫌なんでしょ？】",
-    "jpGuide2": "【コドク】右　でもひとりは嫌なんでしょ？",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "抵抗しない",
-    "jpGuide1": "【抵抗しない】 → Bad End『言霊の継承（２）』（ED10）",
-    "jpGuide2": "【言霊の継承】右　抵抗しない",
+    "simpleJp": "Bad End『言霊の継承（２）』（ED10）",
+    "jpGuide1": "言霊の継承（２）",
+    "jpGuide2": "No.10 言霊の継承(2)",
     "enGuide": ""
   },
   {

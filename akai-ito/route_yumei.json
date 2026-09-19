@@ -18,19 +18,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "わたしは首を横に振る",
-    "jpGuide1": "【わたしは首を横に振る】",
-    "jpGuide2": "わたしは首を横に振る",
+    "simpleJp": "わたしはこくりと頷いた",
+    "jpGuide1": "「わたしはこくりと頷いた」",
+    "jpGuide2": "わたしはこくりと頷いた",
     "enGuide": ""
   },
   {
-    "simpleJp": "確かめてみる",
-    "jpGuide1": "【確かめてみる】",
-    "jpGuide2": "確かめてみる",
+    "simpleJp": "気のせいだと思い込む",
+    "jpGuide1": "「気のせいだと思い込む」",
+    "jpGuide2": "気のせいだと思い込む",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ16",
+    "simpleJp": "セーブ19",
     "jpGuide1": "－セーブ①－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -61,7 +61,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ16にロード",
+    "simpleJp": "セーブ19にロード",
     "jpGuide1": "－セーブ①から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -74,7 +74,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ17",
+    "simpleJp": "セーブ20",
     "jpGuide1": "－セーブ②－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -183,7 +183,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ17にロード",
+    "simpleJp": "セーブ20にロード",
     "jpGuide1": "－セーブ②から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -214,7 +214,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ18",
+    "simpleJp": "セーブ21",
     "jpGuide1": "－セーブ③－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -305,7 +305,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ18にロード",
+    "simpleJp": "セーブ21にロード",
     "jpGuide1": "－セーブ③から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -348,7 +348,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ19",
+    "simpleJp": "セーブ22",
     "jpGuide1": "－セーブ④－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -361,7 +361,7 @@
     "badEndPath": "Normal End『残夢・夏の終わり』（ED5）"
   },
   {
-    "simpleJp": "セーブ19にロード",
+    "simpleJp": "セーブ22にロード",
     "jpGuide1": "－セーブ④から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -380,7 +380,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ20",
+    "simpleJp": "セーブ23",
     "jpGuide1": "－セーブ⑤－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -393,7 +393,7 @@
     "badEndPath": "Bad End『ラクヨウ』（ED16）"
   },
   {
-    "simpleJp": "セーブ20にロード",
+    "simpleJp": "セーブ23にロード",
     "jpGuide1": "－セーブ⑤から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -406,7 +406,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ21",
+    "simpleJp": "セーブ24",
     "jpGuide1": "－セーブ⑥－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -425,7 +425,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ21にロード",
+    "simpleJp": "セーブ24にロード",
     "jpGuide1": "－セーブ⑥から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -450,7 +450,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ22",
+    "simpleJp": "セーブ25",
     "jpGuide1": "－セーブ⑦－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -463,7 +463,7 @@
     "badEndPath": "Normal End『一片の残花』（ED19）"
   },
   {
-    "simpleJp": "セーブ22にロード",
+    "simpleJp": "セーブ25にロード",
     "jpGuide1": "－セーブ⑦から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",

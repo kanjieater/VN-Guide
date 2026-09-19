@@ -2,12 +2,12 @@
 Automated VN guide review loop.
 Runs after guide_gen.py. For each game that has guides but unreviewed routes:
   For each unreviewed route:
-    1. Run structural review to a clean pass
-    2. Run accuracy review to a clean pass
-    3. If accuracy-stage fixes changed the route's structural signature, loop back
-       through structural review and accuracy review for the updated route
-    4. Mark reviewed only when both gates are clean for the same route content
-  Each reviewer/author action runs in its own fresh claude session — never batched.
+    Round loop (max MAX_REVIEW_ROUNDS):
+      1. Check for a pre-existing open issue for this route
+      2. If none: run reviewer for this route; if still no issue → mark reviewed
+      3. If issue open: run author to fix it, deploy, then re-review
+      4. Repeat until issue closes or max rounds reached
+  Each route is reviewed in its own fresh claude session — never batched.
 
 GUIDE_PRIORITY_VID: only process this game (same env var as guide_gen.py).
 GUIDE_REVIEW_ROUTE: only process this route id within the priority game (for testing).
@@ -21,16 +21,17 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import agent_runner
 
 REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 GAMES_JSON = REPO_PATH / "games.json"
 
-REVIEWER_MODEL = os.environ.get("GUIDE_REVIEWER_MODEL", "claude-sonnet-5")
+REVIEWER_MODEL = agent_runner.model_for("REVIEWER")
 REVIEWER_EFFORT = os.environ.get("GUIDE_REVIEWER_EFFORT", "max")
-STRUCTURAL_REVIEWER_MODEL = os.environ.get("GUIDE_STRUCTURAL_REVIEWER_MODEL", "claude-sonnet-5")
+STRUCTURAL_REVIEWER_MODEL = agent_runner.model_for("STRUCTURAL_REVIEWER")
 STRUCTURAL_REVIEWER_EFFORT = os.environ.get("GUIDE_STRUCTURAL_REVIEWER_EFFORT", "high")
-AUTHOR_MODEL = os.environ.get("GUIDE_AUTHOR_MODEL", "claude-sonnet-5")
+AUTHOR_MODEL = agent_runner.model_for("AUTHOR")
 AUTHOR_EFFORT = os.environ.get("GUIDE_AUTHOR_EFFORT", "high")
 MAX_TURNS = int(os.environ.get("GUIDE_REVIEW_MAX_TURNS", "60"))
 MAX_REVIEW_ROUNDS = int(os.environ.get("GUIDE_REVIEW_MAX_ROUNDS", "5"))
@@ -62,6 +63,9 @@ def run_claude_fresh(prompt: str, model: str = REVIEWER_MODEL,
     Each call starts with no context from any prior call — author and reviewer
     never share a session, so neither can be biased by the other's framing.
     """
+    if agent_runner.provider() == "openrouter":
+        return agent_runner.run_openrouter(prompt, model, MAX_TURNS, REPO_PATH, timeout)
+
     cmd = [
         "claude",
         "-p", prompt,
@@ -85,9 +89,7 @@ def structural_signature(route_file: Path) -> tuple | None:
     """Return the route fields whose changes can stale structural review.
 
     Accuracy fixes may legitimately edit a route after structural review has
-    already passed. Compare this signature before/after accuracy review so
-    structural changes cannot reach reviewed=true without a fresh structural
-    pass. Source-only/enGuide edits do not invalidate structural review.
+    already passed. Source-only/enGuide edits do not invalidate structure.
     """
     try:
         steps = json.loads(route_file.read_text())
@@ -127,17 +129,23 @@ def get_open_issue_for_route(slug: str, route_id: str, route_title: str = "") ->
         capture_output=True, text=True, cwd=str(REPO_PATH),
     )
     if result.returncode != 0:
-        err(f"gh issue list failed: {result.stderr.strip()}")
-        return None
-    try:
-        issues = json.loads(result.stdout or "[]")
-    except json.JSONDecodeError:
-        return None
+        raise RuntimeError(f"gh issue list failed: {result.stderr.strip()}")
+    issues = parse_issues(result.stdout)
     for issue in issues:
         title = issue.get("title", "").lower()
         if route_id in title or (route_title and route_title.lower() in title):
             return issue["number"]
     return None
+
+
+def parse_issues(output: str) -> list[dict]:
+    issues = json.loads(output)
+    if not isinstance(issues, list) or any(
+        not isinstance(i, dict) or not isinstance(i.get("number"), int)
+        or not isinstance(i.get("title"), str) for i in issues
+    ):
+        raise ValueError("Expected issue list with number and title")
+    return issues
 
 
 def get_open_structural_issue_for_route(slug: str, route_id: str, route_title: str = "") -> int | None:
@@ -151,12 +159,8 @@ def get_open_structural_issue_for_route(slug: str, route_id: str, route_title: s
         capture_output=True, text=True, cwd=str(REPO_PATH),
     )
     if result.returncode != 0:
-        err(f"gh issue list (structural) failed: {result.stderr.strip()}")
-        return None
-    try:
-        issues = json.loads(result.stdout or "[]")
-    except json.JSONDecodeError:
-        return None
+        raise RuntimeError(f"gh issue list (structural) failed: {result.stderr.strip()}")
+    issues = parse_issues(result.stdout)
     for issue in issues:
         title = issue.get("title", "").lower()
         if route_id in title or (route_title and route_title.lower() in title):
@@ -252,37 +256,72 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
     return False
 
 
+def approval_only(before: str, after: str, route_id: str) -> bool:
+    """Only the target approval flag may change; preserve all other metadata."""
+    try:
+        expected = json.loads(before)
+        routes = expected["routes"]
+        if not isinstance(routes, list) or any(
+            not isinstance(r, dict) or not isinstance(r.get("id"), str) for r in routes
+        ) or sum(r["id"] == route_id for r in routes) != 1:
+            return False
+        for route in routes:
+            if route["id"] == route_id:
+                route["reviewed"] = True
+        # Canonical JSON comparison also distinguishes true from 1.
+        return json.dumps(expected, sort_keys=True) == json.dumps(json.loads(after), sort_keys=True)
+    except (ValueError, KeyError, TypeError):
+        return False
+
+
 def mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title: str) -> bool:
+    snapshot = guide_file.read_text()
+    accepted = False
+    try:
+        accepted = (_mark_route_reviewed(guide_file, slug, route_id, route_title)
+                    and approval_only(snapshot, guide_file.read_text(), route_id))
+        return accepted
+    finally:
+        if not accepted:
+            guide_file.write_text(snapshot)
+
+
+def _mark_route_reviewed(guide_file: Path, slug: str, route_id: str, route_title: str) -> bool:
     """Set reviewed: true, but only if no open issue contradicts it.
 
     Re-checked here rather than trusted from the caller: a reviewer can file a
     fresh issue during the same round that decided the route passed.
     """
-    blocking = get_open_issue_for_route(slug, route_id, route_title)
+    blocking = (get_open_issue_for_route(slug, route_id, route_title)
+                or get_open_structural_issue_for_route(slug, route_id, route_title))
     if blocking is not None:
-        err(
-            f"Refusing to mark {slug}/{route_id} reviewed — "
-            f"accuracy issue #{blocking} is still open"
-        )
+        err(f"Refusing to mark {slug}/{route_id} reviewed — issue #{blocking} is still open")
         return False
 
-    structural_blocking = get_open_structural_issue_for_route(
-        slug, route_id, route_title
+    # Approval belongs to an independent accuracy reviewer, not the pipeline or author.
+    ok = run_claude_fresh(
+        f"Read prompt.md, CLAUDE.md and .claude/agents/guide-reviewer.md. "
+        f"You are the independent accuracy reviewer for {slug}/{route_id} ({route_title}). "
+        f"Structural and accuracy passes have completed. Independently re-fetch both Japanese "
+        f"sources in {slug}/research.json and verify this route. Check GitHub for open "
+        f"route-structure AND route-accuracy issues labeled {slug} for this route. "
+        f"Only if both reviews pass and neither issue type is open, set reviewed: true for "
+        f"{route_id} in {slug}/guide.json. This metadata approval is your only permitted "
+        f"guide edit. Otherwise leave reviewed false and report findings in the existing "
+        f"issue or create one if none exists. Never self-correct route content.",
+        model=REVIEWER_MODEL, effort=REVIEWER_EFFORT,
     )
-    if structural_blocking is not None:
-        err(
-            f"Refusing to mark {slug}/{route_id} reviewed — "
-            f"structural issue #{structural_blocking} is still open"
-        )
-        return False
-
+    blocking = (get_open_issue_for_route(slug, route_id, route_title)
+                or get_open_structural_issue_for_route(slug, route_id, route_title))
     guide = json.loads(guide_file.read_text())
-    for route in guide.get("routes", []):
-        if route["id"] == route_id:
-            route["reviewed"] = True
-    guide_file.write_text(json.dumps(guide, ensure_ascii=False, indent=2))
-    log(f"Route {route_id} marked reviewed in {guide_file.relative_to(REPO_PATH)}")
-    return True
+    if not ok or blocking is not None:
+        for route in guide.get("routes", []):
+            if route["id"] == route_id:
+                route["reviewed"] = False
+        guide_file.write_text(json.dumps(guide, ensure_ascii=False, indent=2))
+        return False
+    return any(r["id"] == route_id and r.get("reviewed") is True
+               for r in guide.get("routes", []))
 
 
 def review_route(slug: str, route_id: str, route_title: str) -> bool:
@@ -388,62 +427,77 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
         route_file = REPO_PATH / slug / f"route_{route_id}.json"
         log(f"{slug}: reviewing route {route_id} ({route_title})")
 
-        completed = False
-        for gate_round in range(1, MAX_REVIEW_ROUNDS + 1):
-            log(
-                f"{slug}/{route_id}: gate round "
-                f"{gate_round}/{MAX_REVIEW_ROUNDS}"
-            )
-
-            structural_passed = structural_review_route(
-                slug, route_id, route_title
-            )
-            if not structural_passed:
+        approved = False
+        snapshot = guide_file.read_text()
+        try:
+            for gate_round in range(1, MAX_REVIEW_ROUNDS + 1):
                 log(
-                    f"{slug}/{route_id}: structural review did not pass — "
-                    f"skipping accuracy review"
+                    f"{slug}/{route_id}: gate round "
+                    f"{gate_round}/{MAX_REVIEW_ROUNDS}"
                 )
+
+                structural_passed = structural_review_route(
+                    slug, route_id, route_title
+                )
+                if not structural_passed:
+                    log(
+                        f"{slug}/{route_id}: structural review did not pass — "
+                        f"skipping accuracy review"
+                    )
+                    break
+
+                signature_before_accuracy = structural_signature(route_file)
+                if signature_before_accuracy is None:
+                    break
+
+                accuracy_passed = review_route(slug, route_id, route_title)
+                if not accuracy_passed:
+                    log(
+                        f"{slug}/{route_id}: accuracy review did not pass — "
+                        f"will retry next cycle"
+                    )
+                    break
+
+                signature_after_accuracy = structural_signature(route_file)
+                if signature_after_accuracy is None:
+                    break
+
+                if signature_after_accuracy != signature_before_accuracy:
+                    log(
+                        f"{slug}/{route_id}: accuracy-stage fixes changed route "
+                        f"structure — invalidating the prior structural pass and "
+                        f"rerunning structural + accuracy"
+                    )
+                    continue
+
+                approved = (
+                    mark_route_reviewed(
+                        guide_file, slug, route_id, route_title
+                    )
+                    and approval_only(
+                        snapshot, guide_file.read_text(), route_id
+                    )
+                )
+                if approved:
+                    run_deploy()
                 break
 
-            signature_before_accuracy = structural_signature(route_file)
-            if signature_before_accuracy is None:
-                break
-
-            accuracy_passed = review_route(slug, route_id, route_title)
-            if not accuracy_passed:
+            if not approved:
                 log(
-                    f"{slug}/{route_id}: accuracy review did not pass — "
-                    f"will retry next cycle"
+                    f"{slug}/{route_id}: review gates not simultaneously clean — "
+                    f"leaving reviewed=false"
                 )
-                break
-
-            signature_after_accuracy = structural_signature(route_file)
-            if signature_after_accuracy is None:
-                break
-
-            if signature_after_accuracy != signature_before_accuracy:
-                log(
-                    f"{slug}/{route_id}: accuracy-stage fixes changed route "
-                    f"structure — invalidating the prior structural pass and "
-                    f"rerunning structural + accuracy"
-                )
-                continue
-
-            if mark_route_reviewed(
-                guide_file, slug, route_id, route_title
-            ):
-                run_deploy()
-                completed = True
-            break
-
-        if not completed:
-            log(
-                f"{slug}/{route_id}: review gates not simultaneously clean — "
-                f"leaving reviewed=false"
-            )
-
+        finally:
+            # Never leave optimistic approval or unrelated guide metadata edits
+            # behind when the complete gate sequence did not pass.
+            if not approved:
+                guide_file.write_text(snapshot)
 
 def run() -> None:
+    if not agent_runner.credentials_available():
+        err(f"No {agent_runner.provider()} credentials found — skipping review")
+        return
+
     if not GAMES_JSON.exists():
         log("games.json not found, skipping")
         return
@@ -456,7 +510,7 @@ def run() -> None:
 
     # GUIDE_REVIEW_VID scopes the review loop to one game (separate from GUIDE_PRIORITY_VID
     # which controls the guide-gen exit gate in entrypoint.sh).
-    priority_vid = os.environ.get("GUIDE_REVIEW_VID")
+    priority_vid = os.environ.get("GUIDE_REVIEW_VID") or os.environ.get("GUIDE_PRIORITY_VID")
     priority_route = os.environ.get("GUIDE_REVIEW_ROUTE")
 
     if priority_vid:

@@ -12,7 +12,7 @@
     {
       "id": "tsuzura",
       "title": "若杉葛ルート",
-      "stepCount": 61,
+      "stepCount": 64,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/09/12209.jpg"
     },
@@ -33,7 +33,7 @@
     {
       "id": "nozomi",
       "title": "ノゾミルート",
-      "stepCount": 17,
+      "stepCount": 18,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/45/12245.jpg"
     }
@@ -57,8 +57,7 @@
       "url": "http://saomix.fc2web.com/akaiito/",
       "title": "アカイイト攻略 分岐図 (Saomix Elements)",
       "language": "ja",
-      "notes": "Complete hand-drawn branch-diagram (分岐図) covering the entire common route and all 5 heroine routes as a flowchart of choice boxes leading to all 32 numbered endings (END No.1 - No.32). The original site (saomix.fc2web.com) is dead (FC2's free homepage service shut down 2025-06-30); content was recovered via the Wayback Machine snapshot at http://web.archive.org/web/20250411062104/http://saomix.fc2web.com/akaiito/ and its five embedded branch-diagram images (bunkizu0.png through bunkizu4.png), which were read directly as images. Used to cross-validate every ED name/number and route-unlock condition documented by xneo.jp; all endings and prerequisite conditions checked in this research (ED3, ED8, ED11, ED12, ED13, ED15, ED18, ED21, ED22-ED32) matched between the two sources. Also documents an early common-route '幻視行' left/right split with its own unlock conditions that is not explained in xneo.jp's text guide — flagged as an open detail to verify before writing full step-by-step routes.",
-      "set": "B"
+      "notes": "Historical/provenance source. The original FC2 site is dead and its archived branch-diagram images are not directly inspectable in the current reviewer environment, so it does not count toward the active Set B accuracy gate. Retained only because earlier research used it for cross-checking route/end-number history."
     },
     {
       "url": "https://w.atwiki.jp/wakasugi_orz/pages/12.html",
@@ -94,14 +93,21 @@
       "url": "https://foxtail.okitsune.com/kitchen/capture/red1.htm",
       "title": "アカイイト攻略 - ユメイ分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Yumei. Directly inspectable Japanese branch table with scene names, choice alternatives, and END No.1/5/16-21 outcomes. Used alongside the existing Saomix Set B material to verify the Yumei main-route and alternate-ending branch choices; it does not document save checkpoints.",
+      "notes": "Set B component for Yumei. Directly inspectable Japanese branch table with scene names, choice alternatives, and END No.1/5/16-21 outcomes. Directly inspected as the active Set B component to verify the Yumei main-route and alternate-ending branch choices; it does not document save checkpoints.",
+      "set": "B"
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red2.htm",
+      "title": "アカイイト攻略 - 若杉葛分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Tsuzura. Directly inspectable Japanese branch table covering the full route, ED2/6-12, route choices, and ending conditions. It does not document save checkpoints.",
       "set": "B"
     },
     {
       "url": "https://foxtail.okitsune.com/kitchen/capture/red3.htm",
       "title": "アカイイト攻略 - 千羽烏月分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Uzuki. Directly inspectable Japanese branch table covering ED3/13/28-32 and the exact branch choices used by the route. Used alongside Saomix for direct browser-verifiable branch evidence; it does not document save checkpoints.",
+      "notes": "Set B component for Uzuki. Directly inspectable Japanese branch table covering ED3/13/28-32 and the exact branch choices used by the route. Directly inspected as the active Set B branch evidence; it does not document save checkpoints.",
       "set": "B"
     },
     {
@@ -119,7 +125,7 @@
       "set": "B"
     }
   ],
-  "generated_at": "2026-09-19T21:26:00.000Z",
+  "generated_at": "2026-09-19T21:50:00.000Z",
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",

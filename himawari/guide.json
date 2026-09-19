@@ -32,7 +32,7 @@
     {
       "id": "completion",
       "title": "クリア後",
-      "stepCount": 11,
+      "stepCount": 8,
       "reviewed": false
     }
   ],
@@ -97,19 +97,21 @@
       "url": "https://himawari.gorillawiki.jp/entry/29",
       "title": "【ひまわり】クリア特典【Pebble in the Sky】",
       "language": "ja",
-      "notes": "Independently documents progressive unlocks: extras/Restart after the first successful playthrough; Aqua after the second; Asuka after the third; Another Side/こもれび and 2048-2050 after the fourth; かげろう after the first Another Side clear."
+      "notes": "Set B completion component. Directly documents Story→Another Side and 2048-2050 after the fourth clear, identifies こもれび, and documents that clearing the first Another Side adds the new かげろう scenario. Also documents Tips updates and Story:Tips.",
+      "set": "B"
     },
     {
       "url": "https://himawari.gorillawiki.jp/entry/28",
       "title": "【ひまわり】Tips【Pebble in the Sky】",
       "language": "ja",
-      "notes": "Lists thirty-six Tips and explicitly requires viewing all through 三十五輪 to add 三十六輪, corroborating Seiya. Has an apparent typo 二一輪 in the position of twenty; do not silently alter that source quote or confuse it with an additional Tip."
+      "notes": "Set B completion component. Lists 三十六輪 and explicitly states `※「三十五輪」まで全て見ると追加される。`, independently supporting the completion section's reviewed terminal. Has an apparent typo 二一輪 in the position of twenty; preserve source text verbatim when quoted.",
+      "set": "B"
     },
     {
       "url": "https://himawari.gorillawiki.jp/entry/31",
       "title": "【ひまわり】キーワード【Pebble in the Sky】",
       "language": "ja",
-      "notes": "Supplementary Keywords inventory. Does not independently state Seiya's final ひまわり unlock condition; do not attribute that instruction to this page."
+      "notes": "Supplementary Keywords inventory. It does not independently state Set A's `Keywordsにひまわりが追加` unlock condition, so the reviewed completion section does not claim that Set-A-only terminal."
     },
     {
       "url": "https://yellowbrotherk.seesaa.net/article/432722481.html",
@@ -172,7 +174,7 @@
       "notes": "Additional candidate found in Japanese search; direct wiki access returned 403. Not read in full and not used as evidence or counted toward the two-complete-guide requirement."
     }
   ],
-  "generated_at": "2026-09-19T21:40:00+00:00",
+  "generated_at": "2026-09-19T21:50:00+00:00",
   "guide_target": {
     "label": "ひまわり -Pebble in the Sky- (2016 Windows版)",
     "platform": "Windows",

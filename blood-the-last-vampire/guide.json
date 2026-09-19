@@ -55,11 +55,79 @@
       "set": "A"
     },
     {
-      "url": "http://www.eva.hi-ho.ne.jp/mmitsuru/blood/index.htm",
-      "title": "BLOOD THE LAST VAMPIRE - ドラやる？ (mmitsuru), via Wayback Machine",
+      "url": "https://www.youtube.com/watch?v=POs7MMCMJ7E",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　闇の王編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Independent Japanese Set B for both PS2 volumes, recovered through Wayback snapshots of the original mmitsuru walkthrough (index, B.S.S., flag/Ooka pages, joend01-19, geend01-27). The walkthrough material originates from the original PS2-era site; archived pages include captures from 2005, before the January 2006 PSP compilation, so this set applies to the original PS2 release rather than the later PSP re-release. It independently covers route/ending structure and names, although its Gekan ending numbering/branch descriptions differ from xneo.jp in places.",
+      "notes": "Set B component for the original-PS2 上巻 闇の王編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
       "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FgI6DNkGA-0",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　究明編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 上巻 究明編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TCx5bPK38Vg",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　灯子編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 上巻 灯子編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1b8aZ82Ngow",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 上巻 瑠璃亜編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HR05w27tj9w",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　闇の王編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 闇の王編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=w6EP18DMcjc",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　究明編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 究明編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=esO7OstTuB8",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　灯子編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 灯子編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CqsTdVXxrzo",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 瑠璃亜編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=i1W5ruYeUvk",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　真・瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 真・瑠璃亜編 outcome. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.gameman.jp/item/16555_m.html",
+      "title": "BLOOD THE LAST VAMPIRE 上巻 - GAMEMAN 動画 index (PS2)",
+      "language": "ja",
+      "notes": "Supplementary navigation/provenance index for the Set-B 上巻 gameplay recordings. The page identifies the item as PlayStation 2 and links the route-specific videos; the index itself is not a substitute for the gameplay evidence."
+    },
+    {
+      "url": "https://www.gameman.jp/item/16556_m.html",
+      "title": "BLOOD THE LAST VAMPIRE 下巻 - GAMEMAN 動画 index (PS2)",
+      "language": "ja",
+      "notes": "Supplementary navigation/provenance index for the Set-B 下巻 gameplay recordings. The page identifies the item as PlayStation 2 and links the route-specific videos; the index itself is not a substitute for the gameplay evidence."
     },
     {
       "url": "https://gamefaqs.gamespot.com/ps2/580301-blood-the-last-vampire-joukan/faqs/12481",
@@ -80,7 +148,7 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-09-19T19:43:00+00:00",
+  "generated_at": "2026-09-19T21:49:00+00:00",
   "guide_target": {
     "label": "BLOOD THE LAST VAMPIRE 上巻・下巻（2000年オリジナル版）",
     "platform": "PlayStation 2",

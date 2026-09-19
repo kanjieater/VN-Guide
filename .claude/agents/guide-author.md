@@ -66,7 +66,7 @@ Before submitting the **current route**, confirm:
 
 `isLoad: true` is **only** the structural terminator of a save-backed `badEndPath` detour.
 
-`isRestart: true` is **only** the structural terminator of a source-documented replay-from-beginning detour when no usable checkpoint exists. Never invent a save to avoid using it.
+For a source-documented replay-from-beginning ending with no usable checkpoint, include the complete failed playthrough through its explicit ending terminal, then begin the route again from its normal opening sequence. Do not invent a save and do not add another structural-return field.
 
 If a later route starts by loading a save created in an earlier route, keep the visible load instruction as a normal step and **omit** `isLoad`.
 

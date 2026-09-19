@@ -24,43 +24,6 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "大人しく待ってみようか",
-    "jpGuide1": "【大人しく待ってみようか】",
-    "jpGuide2": "【そして誰もいなくなった】右　大人しく待ってみようか",
-    "enGuide": "",
-    "badEndPath": "Bad End『雫』（ED4）"
-  },
-  {
-    "simpleJp": "第四案を検討する",
-    "jpGuide1": "【第四案を検討する】",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "自分が出る",
-    "jpGuide1": "【自分が出る】",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "これは夢だし",
-    "jpGuide1": "【これは夢だし】",
-    "jpGuide2": "【蛇と狐】右　これは夢だし",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "どういうこと",
-    "jpGuide1": "【どういうこと】",
-    "jpGuide2": "【シシャ】左　どういうこと？",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "それでも",
-    "jpGuide1": "【それでも】でBad End『雫』（ED4）",
-    "jpGuide2": "【不死の薬】左　それでも",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "腹が減っては戦はできぬ",
     "jpGuide1": "【腹が減っては戦はできぬ】",
     "jpGuide2": "【そして誰もいなくなった】左　腹が減っては戦はできぬ",
@@ -121,6 +84,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ14",
+    "jpGuide1": "－セーブ①－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "行ってみる",
     "jpGuide1": "【行ってみる】",
     "jpGuide2": "【赤い導き】左　行ってみる",
@@ -158,6 +127,19 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "Normal End『満開の花』（ED27）",
+    "jpGuide1": "Normal End『満開の花』（ED27）",
+    "jpGuide2": "END No.27　満開の花",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "サクヤを呼びに行く",
     "jpGuide1": "【サクヤを呼びに行く】",
     "jpGuide2": "【赤い導き】左ルート封印解除条件・鳥月ルートEND「爽やかな立ち風」を見る　右　サクヤを呼びに行く",
@@ -181,6 +163,19 @@
     "jpGuide1": "【身動きできない】でNormal End『月へ向かう蝶』（ED26）",
     "jpGuide2": "【朔夜】右　身動きできない",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "Normal End『月へ向かう蝶』（ED26）",
+    "jpGuide1": "Normal End『月へ向かう蝶』（ED26）",
+    "jpGuide2": "END No.26　月へ向かう蝶",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "サクヤを呼びに行く",
@@ -208,6 +203,19 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "Normal End『鬼切りの鬼』（ED23）",
+    "jpGuide1": "Normal End『鬼切りの鬼』（ED23）",
+    "jpGuide2": "END No.23　鬼切りの鬼",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "サクヤを呼びに行く",
     "jpGuide1": "【サクヤを呼びに行く】",
     "jpGuide2": "【赤い導き】左ルート封印解除条件・鳥月ルートEND「爽やかな立ち風」を見る　右　サクヤを呼びに行く",
@@ -233,6 +241,25 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "Bad End『凍てる弧月』（ED24）",
+    "jpGuide1": "Bad End『凍てる弧月』（ED24）",
+    "jpGuide2": "END No.24　凍てる弧月",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "行ってみる",
+    "jpGuide1": "【行ってみる】",
+    "jpGuide2": "【赤い導き】左　行ってみる",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "止めに入る",
     "jpGuide1": "【止めに入る】",
     "jpGuide2": "【赤い導き】左　止めに入る",
@@ -242,6 +269,12 @@
     "simpleJp": "止めない",
     "jpGuide1": "【止めない】",
     "jpGuide2": "【封じの綻び】左　止めない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ15",
+    "jpGuide1": "－セーブ②－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -256,6 +289,25 @@
     "jpGuide2": "【月の蝕み】左　月は蝕まれる運命なんだ",
     "enGuide": "",
     "badEndPath": "Bad End『月の蝕み』（ED22）"
+  },
+  {
+    "simpleJp": "Bad End『月の蝕み』（ED22）",
+    "jpGuide1": "Bad End『月の蝕み』（ED22）",
+    "jpGuide2": "END No.22　月の蝕み",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ15にロード",
+    "jpGuide1": "－セーブ②から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "飛び出していた",
+    "jpGuide1": "【飛び出していた】",
+    "jpGuide2": "【朱い鬼神】右　飛び出していた",
+    "enGuide": ""
   },
   {
     "simpleJp": "わたしだけは見捨てない",

@@ -42,34 +42,15 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "追いかけない",
-    "jpGuide1": "【追いかけない】",
-    "jpGuide2": "【千客万来の夜】右　追いかけない",
-    "enGuide": "",
-    "badEndPath": "Bad End『赤い縛め』（ED13）"
-  },
-  {
-    "simpleJp": "納得できない",
-    "jpGuide1": "【納得できない】",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "別に……",
-    "jpGuide1": "【別に……】",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "陽子ちゃんに電話しよう",
-    "jpGuide1": "【陽子ちゃんに電話しよう】 → Bad End『赤い縛め』（ED13）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "追いかける",
     "jpGuide1": "【追いかける】",
     "jpGuide2": "【千客万来の夜】左　追いかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "－セーブ①－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -80,10 +61,43 @@
     "badEndPath": "Normal End『挫北・夏の終わり』（ED3）"
   },
   {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "納得できない",
     "jpGuide1": "【納得できない】",
     "jpGuide2": "【鬼影】左　納得できない",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "－セーブ②－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "別に",
+    "jpGuide1": "「別に」",
+    "jpGuide2": "別に(No.13へ)",
+    "enGuide": "",
+    "badEndPath": "Bad End『赤い縛め』（ED13）"
+  },
+  {
+    "simpleJp": "歯磨きはオッケー？",
+    "jpGuide1": "「歯磨きはオッケー？」\nエンディングNo.13\nBad End\n『赤い縛め』",
+    "jpGuide2": "歯磨きはオッケー？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "－セーブ②から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "烏月が気になる",
@@ -98,22 +112,59 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "－セーブ③－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お札貼っておかなくちゃ",
+    "jpGuide1": "「お札貼っておかなくちゃ」",
+    "jpGuide2": "お札貼っておかなくちゃ(CG回収)",
+    "enGuide": "",
+    "badEndPath": "Bad End『シマイ』（ED28）"
+  },
+  {
+    "simpleJp": "開けませんよ。疑ってかかれ",
+    "jpGuide1": "「開けませんよ。疑ってかかれ」",
+    "jpGuide2": "開けませんよ。疑ってかかれ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "開けませんよ。疑ってかかれ",
+    "jpGuide1": "「開けませんよ。疑ってかかれ」",
+    "jpGuide2": "開けませんよ。疑ってかかれ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行ってもらう",
+    "jpGuide1": "「行ってもらう」\nエンディングNo.28\nBad End\n『シマイ』",
+    "jpGuide2": "行ってもらう(No.28へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "－セーブ③－から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "陽子ちゃんに電話しよう",
     "jpGuide1": "【陽子ちゃんに電話しよう】",
     "jpGuide2": "【時間的にはもうすぐ明日】右　陽子ちゃんに電話しよう",
     "enGuide": ""
   },
   {
-    "simpleJp": "行ってもらう",
-    "jpGuide1": "【行ってもらう】 → Bad End『シマイ』（ED28）",
-    "jpGuide2": "【閑暇な午後】右　行ってもらう → END No.28　シマイ",
-    "enGuide": "",
-    "badEndPath": "Bad End『シマイ』（ED28）"
-  },
-  {
     "simpleJp": "提案取り下げ",
     "jpGuide1": "【提案取り下げ】",
     "jpGuide2": "【閑暇な午後】左　提案取り下げ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "－セーブ④－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -124,9 +175,22 @@
     "badEndPath": "Bad End『血海』（ED29）"
   },
   {
+    "simpleJp": "セーブ4にロード",
+    "jpGuide1": "－セーブ④から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "世界が白く―あの花の白に―",
     "jpGuide1": "【世界が白く―あの花の白に―】",
     "jpGuide2": "【血海】右　世界が白く―あの花の白に―",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "－セーブ⑤－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -143,9 +207,22 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "セーブ5にロード",
+    "jpGuide1": "－セーブ⑤から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "信じると約束した",
     "jpGuide1": "【信じると約束した】",
     "jpGuide2": "【鬼と鬼切り】左　信じると約束した",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "－セーブ⑥－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -154,6 +231,13 @@
     "jpGuide2": "【燃える蜃座】右　逃げる → END No.30　途切れた糸・夏の終わりまで",
     "enGuide": "",
     "badEndPath": "Normal End『途切れた糸・夏の終わりまで』（ED30）"
+  },
+  {
+    "simpleJp": "セーブ6にロード",
+    "jpGuide1": "－セーブ⑥から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "烏月を守る",

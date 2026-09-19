@@ -5,35 +5,35 @@
     {
       "id": "uzuki",
       "title": "千羽烏月ルート",
-      "stepCount": 27,
+      "stepCount": 40,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/83/11683.jpg"
     },
     {
       "id": "tsuzura",
       "title": "若杉葛ルート",
-      "stepCount": 46,
+      "stepCount": 61,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/09/12209.jpg"
     },
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
-      "stepCount": 44,
+      "stepCount": 52,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     },
     {
       "id": "yumei",
       "title": "ユメイルート",
-      "stepCount": 55,
+      "stepCount": 78,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/10/12210.jpg"
     },
     {
       "id": "nozomi",
       "title": "ノゾミルート",
-      "stepCount": 15,
+      "stepCount": 17,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/45/12245.jpg"
     }
@@ -44,6 +44,13 @@
       "title": "アカイイト完全攻略 | XNEO",
       "language": "ja",
       "notes": "Complete text walkthrough covering all 5 heroine routes. For each route lists: the unlock condition ('攻略条件') if any, the True End name/ED number, and a full day-by-day (1日目～4日目) list of every choice, with every branch to a Bad End or Normal End spelled out as '選択肢 → 選択肢... でBad/Normal End「名前」（EDxx）'. This is the primary source used for exact choice text and ending names/numbers. Fetched directly (not summarized) and stored/reviewed line-by-line; last updated per page footer 2020年6月13日.",
+      "set": "A"
+    },
+    {
+      "url": "https://blog.livedoor.jp/k_o_blog/archives/38098129.html",
+      "title": "アカイイト/アカイイトHD REMASTER　攻略まとめ",
+      "language": "ja",
+      "notes": "Set A save/load component. Directly inspected Japanese walkthrough that explicitly covers both the PS2 game and アカイイト HD REMASTER (Switch/STEAM). It provides numbered save checkpoints and per-save ending-recovery sequences for all five heroines, so it is used to source the guide's standalone save/load steps. XNEO remains the Set A authority for the existing exact choice/ending labels; where this page differs in ending classification or orthography (for example ED20/ED26 or 此岸/牝岸), the existing XNEO + independent Saomix agreement is retained and the discrepancy is not silently propagated.",
       "set": "A"
     },
     {
@@ -82,9 +89,37 @@
       "title": "VNDB Kana API — character list for v98",
       "language": "en",
       "notes": "Reference only, used to obtain exact, non-hallucinated VNDB character IDs and portrait image URLs (queried directly via the API rather than relying on a scraped/summarized page, to avoid transcription errors in image IDs). Confirmed 5 characters with vns.role = 'primary' for v98: Yumei (c10497), Wakasugi Tsuzura (c10498), Asama Sakuya (c10499), Senba Uzuki (c10500), Nozomi (c10502) — these are the 5 heroine routes. Protagonist is Hatou Kei (c10490, role 'main'). Side characters Kei/ケイ (c10507, twin brother, distinct from protagonist despite same reading), Nushi (c10509), Mikage (c10856), and Nara Youko (c91338, no portrait image available) are not route characters."
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red1.htm",
+      "title": "アカイイト攻略 - ユメイ分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Yumei. Directly inspectable Japanese branch table with scene names, choice alternatives, and END No.1/5/16-21 outcomes. Used alongside the existing Saomix Set B material to verify the Yumei main-route and alternate-ending branch choices; it does not document save checkpoints.",
+      "set": "B"
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red3.htm",
+      "title": "アカイイト攻略 - 千羽烏月分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Uzuki. Directly inspectable Japanese branch table covering ED3/13/28-32 and the exact branch choices used by the route. Used alongside Saomix for direct browser-verifiable branch evidence; it does not document save checkpoints.",
+      "set": "B"
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red4.htm",
+      "title": "アカイイト攻略 - 浅間サクヤ分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Sakuya. Directly inspectable Japanese branch table covering ED4 and ED22-27, including the day-4 branch conditions. It corroborates that ED4 is reached through a distinct earlier-play path but does not document a save checkpoint for that path.",
+      "set": "B"
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red5.htm",
+      "title": "アカイイト攻略 - ノゾミ分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Nozomi. Directly inspectable Japanese branch table covering the route unlock conditions and ED14/15 split at 「もうこだわらない」 versus 「試させてもらう」; it does not document save checkpoints.",
+      "set": "B"
     }
   ],
-  "generated_at": "2026-09-07T03:50:47.499147+00:00",
+  "generated_at": "2026-09-19T19:03:00.000Z",
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",

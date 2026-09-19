@@ -27,7 +27,7 @@
         "tsuzura"
       ],
       "is_true_ending": false,
-      "notes": "Asama Sakuya (浅間サクヤ, VNDB c10499). xneo.jp states: '攻略条件：烏月のTrue End「爽やかな立ち風」と葛のBad End「蛇の神の使い」を見る' (must have seen Uzuki's True End ED32 AND Tsuzura's Bad End ED8). True End is 'ついのときまで' (ED25). Other endings: Bad End '雫' (ED4), Normal Ends '満開の花' (ED27) and '月へ向かう蝶' (ED26), Normal End '鬼切りの鬼' (ED23), Bad End '凍てる弧月' (ED24), Bad End '月の蝕み' (ED22). Order relative to Yumei is interchangeable per xneo.jp (identical prerequisite condition for both); listed before Yumei here purely for guide-ordering purposes."
+      "notes": "Asama Sakuya (浅間サクヤ, VNDB c10499). xneo.jp states: '攻略条件：烏月のTrue End「爽やかな立ち風」と葛のBad End「蛇の神の使い」を見る' (must have seen Uzuki's True End ED32 AND Tsuzura's Bad End ED8). True End is 'ついのときまで' (ED25). Other endings: Bad End '雫' (ED4), Normal Ends '満開の花' (ED27) and '月へ向かう蝶' (ED26), Normal End '鬼切りの鬼' (ED23), Bad End '凍てる弧月' (ED24), Bad End '月の蝕み' (ED22). Order relative to Yumei is interchangeable per xneo.jp (identical prerequisite condition for both); listed before Yumei here purely for guide-ordering purposes. STRUCTURAL NOTE (2026-09-19): the directly inspected HD Remaster save/load walkthrough gives five save-backed day-4 ending detours, but documents ED4『雫』 as a separate replay beginning from day 1 with no save checkpoint. Under the repository rule that saves may not be invented and every badEndPath must terminate by loading a route-local documented save, ED4 cannot be converted into the flat detour model without either another directly inspectable Japanese source that documents a suitable save or a schema/workflow change."
     },
     {
       "id": "yumei",
@@ -67,6 +67,13 @@
       "set": "A"
     },
     {
+      "url": "https://blog.livedoor.jp/k_o_blog/archives/38098129.html",
+      "title": "アカイイト/アカイイトHD REMASTER　攻略まとめ",
+      "language": "ja",
+      "notes": "Set A save/load component. Directly inspected Japanese walkthrough that explicitly covers both the PS2 game and アカイイト HD REMASTER (Switch/STEAM). It provides numbered save checkpoints and per-save ending-recovery sequences for all five heroines, so it is used to source the guide's standalone save/load steps. XNEO remains the Set A authority for the existing exact choice/ending labels; where this page differs in ending classification or orthography (for example ED20/ED26 or 此岸/牝岸), the existing XNEO + independent Saomix agreement is retained and the discrepancy is not silently propagated.",
+      "set": "A"
+    },
+    {
       "url": "http://saomix.fc2web.com/akaiito/",
       "title": "アカイイト攻略 分岐図 (Saomix Elements)",
       "language": "ja",
@@ -102,9 +109,37 @@
       "title": "VNDB Kana API — character list for v98",
       "language": "en",
       "notes": "Reference only, used to obtain exact, non-hallucinated VNDB character IDs and portrait image URLs (queried directly via the API rather than relying on a scraped/summarized page, to avoid transcription errors in image IDs). Confirmed 5 characters with vns.role = 'primary' for v98: Yumei (c10497), Wakasugi Tsuzura (c10498), Asama Sakuya (c10499), Senba Uzuki (c10500), Nozomi (c10502) — these are the 5 heroine routes. Protagonist is Hatou Kei (c10490, role 'main'). Side characters Kei/ケイ (c10507, twin brother, distinct from protagonist despite same reading), Nushi (c10509), Mikage (c10856), and Nara Youko (c91338, no portrait image available) are not route characters."
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red1.htm",
+      "title": "アカイイト攻略 - ユメイ分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Yumei. Directly inspectable Japanese branch table with scene names, choice alternatives, and END No.1/5/16-21 outcomes. Used alongside the existing Saomix Set B material to verify the Yumei main-route and alternate-ending branch choices; it does not document save checkpoints.",
+      "set": "B"
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red3.htm",
+      "title": "アカイイト攻略 - 千羽烏月分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Uzuki. Directly inspectable Japanese branch table covering ED3/13/28-32 and the exact branch choices used by the route. Used alongside Saomix for direct browser-verifiable branch evidence; it does not document save checkpoints.",
+      "set": "B"
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red4.htm",
+      "title": "アカイイト攻略 - 浅間サクヤ分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Sakuya. Directly inspectable Japanese branch table covering ED4 and ED22-27, including the day-4 branch conditions. It corroborates that ED4 is reached through a distinct earlier-play path but does not document a save checkpoint for that path.",
+      "set": "B"
+    },
+    {
+      "url": "https://foxtail.okitsune.com/kitchen/capture/red5.htm",
+      "title": "アカイイト攻略 - ノゾミ分岐表 (Foxtail)",
+      "language": "ja",
+      "notes": "Set B component for Nozomi. Directly inspectable Japanese branch table covering the route unlock conditions and ED14/15 split at 「もうこだわらない」 versus 「試させてもらう」; it does not document save checkpoints.",
+      "set": "B"
     }
   ],
-  "disagreements": "1) No source designates a single overarching 'true ending' for the whole game, and the two primary walkthroughs (xneo.jp, saomix branch diagram) simply label each heroine's best ending 'True End' independently without ranking them against each other. The ゲームカタログ@Wiki retrospective explicitly confirms this is intentional/by design ('「真のハッピーエンド」が存在しない' — there is no single 'true happy end'; every one of the 5 True Ends still involves a sacrifice of some kind), which is why none of the 5 routes is marked is_true_ending in this file. However, one supplementary blog (lufas.seesaa.net) personally argues Yumei's True End is the closest thing to a canonical true ending because the official drama CD's epilogue is only consistent with her route's outcome (not Nozomi's, despite Nozomi being the last-unlocked/'capstone' route by prerequisite chain). This is a matter of fan interpretation, not a documented walkthrough mechanic, so recommended_order still places Nozomi last (as the mechanically final/most-locked route) without claiming it is narratively 'the' true end. 2) The saomix branch-diagram images document an early common-route branch point (【幻視行】) gated by separate 'left route' and 'right route' unlock conditions that reference clearing specific days of the Tsuzura/Sakuya route on a prior playthrough. xneo.jp's text guide does not mention this gate at all — it simply gives the day-by-day optimal choices per route, implying the gate is either automatically satisfied by following its choices in the given order, or only relevant to alternate/suboptimal paths. This was not fully resolved in this research pass and should be re-verified choice-by-choice (ideally by cross-checking the saomix flowchart images again panel-by-panel) before writing the step-by-step guide for the Tsuzura and Sakuya routes, to make sure no hidden prerequisite is missed. 3) Sakuya and Yumei have textually identical prerequisites in xneo.jp (Uzuki True End + Tsuzura Bad End), so their relative order is interchangeable; this file lists Sakuya before Yumei arbitrarily, but the guide author should feel free to swap them, noting that Yumei must still precede Nozomi regardless (since Nozomi depends on Yumei's Bad End). 4) The wakasugi_orz FAQ page and the original saomix.fc2web.com site are both effectively dead as live websites (saomix's host FC2WEB shut down its free-homepage service on 2025-06-30; the atwiki page 403s on generic fetchers). Both were still successfully retrieved for this research (via Wayback Machine and via a browser-like User-Agent respectively) but the guide author should re-confirm accessibility before relying on them again in a future session.",
+  "disagreements": "1) No source designates a single overarching 'true ending' for the whole game, and the two primary walkthroughs (xneo.jp, saomix branch diagram) simply label each heroine's best ending 'True End' independently without ranking them against each other. The ゲームカタログ@Wiki retrospective explicitly confirms this is intentional/by design ('「真のハッピーエンド」が存在しない' — there is no single 'true happy end'; every one of the 5 True Ends still involves a sacrifice of some kind), which is why none of the 5 routes is marked is_true_ending in this file. However, one supplementary blog (lufas.seesaa.net) personally argues Yumei's True End is the closest thing to a canonical true ending because the official drama CD's epilogue is only consistent with her route's outcome (not Nozomi's, despite Nozomi being the last-unlocked/'capstone' route by prerequisite chain). This is a matter of fan interpretation, not a documented walkthrough mechanic, so recommended_order still places Nozomi last (as the mechanically final/most-locked route) without claiming it is narratively 'the' true end. 2) The saomix branch-diagram images document an early common-route branch point (【幻視行】) gated by separate 'left route' and 'right route' unlock conditions that reference clearing specific days of the Tsuzura/Sakuya route on a prior playthrough. xneo.jp's text guide does not mention this gate at all — it simply gives the day-by-day optimal choices per route, implying the gate is either automatically satisfied by following its choices in the given order, or only relevant to alternate/suboptimal paths. This was not fully resolved in this research pass and should be re-verified choice-by-choice (ideally by cross-checking the saomix flowchart images again panel-by-panel) before writing the step-by-step guide for the Tsuzura and Sakuya routes, to make sure no hidden prerequisite is missed. 3) Sakuya and Yumei have textually identical prerequisites in xneo.jp (Uzuki True End + Tsuzura Bad End), so their relative order is interchangeable; this file lists Sakuya before Yumei arbitrarily, but the guide author should feel free to swap them, noting that Yumei must still precede Nozomi regardless (since Nozomi depends on Yumei's Bad End). 4) The wakasugi_orz FAQ page and the original saomix.fc2web.com site are both effectively dead as live websites (saomix's host FC2WEB shut down its free-homepage service on 2025-06-30; the atwiki page 403s on generic fetchers). Both were still successfully retrieved for this research (via Wayback Machine and via a browser-like User-Agent respectively) but the guide author should re-confirm accessibility before relying on them again in a future session. 5) The Livedoor HD Remaster walkthrough added as a Set-A save/load component disagrees with the older primary guides on a few ending classifications/orthographic forms (notably ED20 and ED26, plus 此岸/牝岸-style spelling). It is therefore used for its explicit save/load checkpoint evidence only; ending names/types continue to follow the existing XNEO + independent Saomix agreement. It also documents Sakuya ED4『雫』 as a separate full replay with no save checkpoint, which is a structural-representation blocker under the current flat badEndPath→isLoad contract rather than evidence for inventing a save.",
   "generated_at": "2026-09-06T03:43:07+00:00",
   "guide_target": {
     "label": "アカイイト HD REMASTER",

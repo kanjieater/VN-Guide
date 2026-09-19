@@ -222,8 +222,7 @@
     "simpleJp": "やめておく",
     "jpGuide1": "「やめておく」",
     "jpGuide2": "やめておく(No.23 / 24 / 26 / 27へ)",
-    "enGuide": "",
-    "badEndPath": "Normal End『満開の花』（ED27）"
+    "enGuide": ""
   },
   {
     "simpleJp": "止める",
@@ -236,49 +235,6 @@
     "jpGuide1": "－セーブ③－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
-  },
-  {
-    "simpleJp": "任せて先を急ぐ",
-    "jpGuide1": "「任せて先を急ぐ」",
-    "jpGuide2": "任せて先を急ぐ(No.24 / 26 / 27へ)",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "セーブ17",
-    "jpGuide1": "－セーブ④－",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "サクヤを突き飛ばす",
-    "jpGuide1": "「サクヤを突き飛ばす」",
-    "jpGuide2": "サクヤを突き飛ばす(No.24 / 27へ)",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "セーブ18",
-    "jpGuide1": "－セーブ⑤－",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "いいよ……",
-    "jpGuide1": "「いいよ……」",
-    "jpGuide2": "いいよ……(No.27へ)",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "Normal End『満開の花』（ED27）",
-    "jpGuide1": "エンディングNo.27\nNormal End\n『満開の花』",
-    "jpGuide2": "No.27 満開の花",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "セーブ16にロード",
-    "jpGuide1": "－セーブ③から－",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
-    "isLoad": true
   },
   {
     "simpleJp": "各個撃破は愚の骨頂",
@@ -306,11 +262,23 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ17にロード",
-    "jpGuide1": "－セーブ④から－",
+    "simpleJp": "セーブ16にロード",
+    "jpGuide1": "－セーブ③から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
     "isLoad": true
+  },
+  {
+    "simpleJp": "任せて先を急ぐ",
+    "jpGuide1": "「任せて先を急ぐ」",
+    "jpGuide2": "任せて先を急ぐ(No.24 / 26 / 27へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ17",
+    "jpGuide1": "－セーブ④－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
   },
   {
     "simpleJp": "身動きできない",
@@ -326,11 +294,23 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ18にロード",
-    "jpGuide1": "－セーブ⑤－",
+    "simpleJp": "セーブ17にロード",
+    "jpGuide1": "－セーブ④から－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
     "isLoad": true
+  },
+  {
+    "simpleJp": "サクヤを突き飛ばす",
+    "jpGuide1": "「サクヤを突き飛ばす」",
+    "jpGuide2": "サクヤを突き飛ばす(No.24 / 27へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18",
+    "jpGuide1": "－セーブ⑤－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
   },
   {
     "simpleJp": "ごめんね……",
@@ -343,6 +323,26 @@
     "simpleJp": "Bad End『凍てる孤月』（ED24）",
     "jpGuide1": "エンディングNo.24\nBad End\n『凍てる孤月』",
     "jpGuide2": "No.24 凍てる孤月",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18にロード",
+    "jpGuide1": "－セーブ⑤－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "いいよ……",
+    "jpGuide1": "「いいよ……」",
+    "jpGuide2": "いいよ……(No.27へ)",
+    "enGuide": "",
+    "badEndPath": "Normal End『満開の花』（ED27）"
+  },
+  {
+    "simpleJp": "Normal End『満開の花』（ED27）",
+    "jpGuide1": "エンディングNo.27\nNormal End\n『満開の花』",
+    "jpGuide2": "No.27 満開の花",
     "enGuide": ""
   },
   {

@@ -13,7 +13,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Original PlayStation 2 Volume 1 (上巻), released 2000-12-21. Common prologue that every playthrough must clear before Gekan (下巻) unlocks. Contains 19 of its own endings (End01-19 per both Japanese sources) reached through BSS (Blood Search System) taps and timed 2-4 choice menus. Endings 1-15 are dead-end/bad endings of varying severity; endings 16-19 are the four named 'good' endings that let the player choose Continue into Gekan, carrying over BLOOD level and a small number of story flags: End16 闇の王編 (Dark King), End17 灯子編 (Touko), End18 瑠璃亜編 (Rulia), End19 究明編 (Investigation). Three named flags carry from Joukan into Gekan's 瑠璃亜編 branch: 瑠璃亜の過去フラグ, 吸血鬼の本フラグ, and 五匹の子豚さんフラグ. Their exact relationship to the true ending is source-disputed; the current guide follows xneo.jp's explicit Ending 27 input sequence and documents the disagreement below. Gekan also has an internal 'Ooka Report' (大岡レポート) shortcut, available from a Gekan New Game, that lets the player set BLOOD level and these same 3 flags via a short standalone flowchart and jump straight into any of the 4 Gekan route openings without replaying Joukan (does not affect the in-game completion percentage, but is a legitimate way to reach every Gekan route/ending)."
+      "notes": "Original PlayStation 2 Volume 1 (上巻), released 2000-12-21. Common prologue that must be cleared before continuing into 下巻. XNEO Set A documents all 19 numbered 上巻 endings. The replacement gameplay-video Set B independently covers the four main handoff outcomes used by the complete guide — 闇の王編, 灯子編, 瑠璃亜編, and 究明編 — through route-specific original-PS2 recordings. Optional 上巻 endings not exercised by those recordings remain Set-A-only detours and therefore use the permitted Set-B omission placeholder rather than legacy mmitsuru text."
     },
     {
       "id": "yami_no_ou",
@@ -23,7 +23,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Dark King arc. Reached in Joukan via End16, continued in Gekan (下巻) via the 闇の王編 branch, which itself fans out into multiple Gekan endings (e.g. End22 「全ては闇に」, End23 「闇の王編」 per the mmitsuru numbering; xneo.jp's independent numbering places equivalent Dark King endings at its own Endings 5/7/8/12/13/19/22/23 - the two sites number Gekan's 27 endings in a different order, see disagreements). No BLOOD level requirement confirmed for the branch's main outcome; several sub-endings are gated by BLOOD level thresholds (below/above 50, 85, 100) at specific choices."
+      "notes": "Dark King arc. Reached from 上巻's 闇の王編 handoff and continued in 下巻. XNEO Set A documents the detailed 闇の王 ending branches and uses Ending 23 for the guide's main completion path. The original-PS2 下巻 闇の王編 gameplay recording is the independent Set-B component for the main route; optional alternate endings not exercised in that recording remain Set-A-only detours."
     },
     {
       "id": "kyuumei",
@@ -33,7 +33,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Investigation/truth-seeking arc, not tied to a specific heroine. Reached in Joukan via End19, continued in Gekan via the 究明編 branch (mmitsuru End26; several equivalent endings on xneo.jp: Endings 2/3/4/11/14/26). Multiple sub-endings gated by BLOOD level (70/80 thresholds) at the same recurring choice points (tape color picked from the desk drawer, then the escape from the underground base)."
+      "notes": "Investigation/truth-seeking arc, not tied to a specific heroine. Reached from 上巻's 究明編 handoff and continued in 下巻. XNEO Set A documents the detailed branches, including Endings 2/3/4/11/14/26 and their BLOOD thresholds. The original-PS2 下巻 究明編 gameplay recording is the independent Set-B component for the main route; alternate endings not exercised there remain Set-A-only detours."
     },
     {
       "id": "touko",
@@ -43,7 +43,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Touko (灯子) arc. Reached in Joukan via End17, continued in Gekan via the 灯子編 branch (mmitsuru End24; xneo.jp equivalent Endings 6/9/10/24). Touko does not have a VNDB character entry, so no portrait is available."
+      "notes": "Touko (灯子) arc. Reached from 上巻's 灯子編 handoff and continued in 下巻. XNEO Set A documents the route's detailed Ending 6/9/10/24 branches. The original-PS2 下巻 灯子編 gameplay recording is the independent Set-B component for the main route; alternate endings not exercised there remain Set-A-only detours. Touko does not have a VNDB character entry, so no portrait is available."
     },
     {
       "id": "rulia",
@@ -53,7 +53,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Rulia (瑠璃亜) arc on the original PS2 下巻, and the branch that leads toward the true ending. Reached in Joukan via the 瑠璃亜編 handoff or directly via 下巻's 大岡レポート shortcut. xneo.jp documents sub-endings 15/16/17/18/20/25/27 on this branch. For Ending 25 specifically, xneo.jp's row omits the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… while still completing the final 瑠璃亜をかばう search; Ending 27 includes all four plus the final search. The route_rulia guide therefore skips those four optional B.S.S. opportunities on its Ending 25 path, while route_true_end performs them."
+      "notes": "Rulia (瑠璃亜) arc on the original PS2 下巻 and the branch leading toward the true-ending variant. XNEO Set A documents Endings 15/16/17/18/20/25/27. The original-PS2 下巻 瑠璃亜編 gameplay recording is Set B for the main Ending-25 route. XNEO's Ending 25 row skips the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… while still completing the final 瑠璃亜をかばう search; route_rulia preserves that sequence. Optional detours not exercised by the recording use the Set-B omission placeholder."
     },
     {
       "id": "true_end",
@@ -63,7 +63,7 @@
         "rulia"
       ],
       "is_true_ending": true,
-      "notes": "True ending variant of 瑠璃亜編 on the original PS2 下巻. xneo.jp's Ending 27 row uses the same 大岡レポート opening as Ending 25 (including 少年は傷のわけを聞いた) but additionally performs four optional B.S.S. results — 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… — before also completing the final 瑠璃亜をかばう search. That completion pattern is the current guide's directly verified differentiator from Ending 25. mmitsuru labels its End27 explicitly as 真・瑠璃亜編 but historically documents a conflicting 瑠璃亜の過去フラグ requirement; preserve that as a source disagreement rather than using it to override xneo.jp's explicit Ending 27 sequence."
+      "notes": "True-ending variant of 瑠璃亜編 on the original PS2 下巻. XNEO's Ending 27 row uses the same route opening as Ending 25, then additionally performs four optional B.S.S. results — 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… — before also completing the final 瑠璃亜をかばう search. The route-specific original-PS2 下巻 真・瑠璃亜編 gameplay recording is the independent Set-B component for this outcome. The guide keeps XNEO's ending number in Set A while Set B contributes only gameplay-visible Japanese route text/outcome labels."
     }
   ],
   "recommended_order": [
@@ -90,11 +90,79 @@
       "set": "A"
     },
     {
-      "url": "http://www.eva.hi-ho.ne.jp/mmitsuru/blood/index.htm",
-      "title": "BLOOD THE LAST VAMPIRE - ドラやる？ (mmitsuru), via Wayback Machine",
+      "url": "https://www.youtube.com/watch?v=POs7MMCMJ7E",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　闇の王編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Independent Japanese Set B for both PS2 volumes, recovered through Wayback snapshots of the original mmitsuru walkthrough (index, B.S.S., flag/Ooka pages, joend01-19, geend01-27). The walkthrough material originates from the original PS2-era site; archived pages include captures from 2005, before the January 2006 PSP compilation, so this set applies to the original PS2 release rather than the later PSP re-release. It independently covers route/ending structure and names, although its Gekan ending numbering/branch descriptions differ from xneo.jp in places.",
+      "notes": "Set B component for the original-PS2 上巻 闇の王編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
       "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FgI6DNkGA-0",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　究明編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 上巻 究明編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TCx5bPK38Vg",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　灯子編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 上巻 灯子編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1b8aZ82Ngow",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 上巻 瑠璃亜編 handoff. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 上巻 page; used for on-screen Japanese choices/B.S.S. results and the route outcome.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HR05w27tj9w",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　闇の王編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 闇の王編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=w6EP18DMcjc",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　究明編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 究明編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=esO7OstTuB8",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　灯子編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 灯子編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CqsTdVXxrzo",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 瑠璃亜編 main route. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=i1W5ruYeUvk",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　真・瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Set B component for the original-PS2 下巻 真・瑠璃亜編 outcome. Route-specific Japanese gameplay indexed from GAMEMAN's PS2 下巻 page.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.gameman.jp/item/16555_m.html",
+      "title": "BLOOD THE LAST VAMPIRE 上巻 - GAMEMAN 動画 index (PS2)",
+      "language": "ja",
+      "notes": "Supplementary navigation/provenance index for the Set-B 上巻 gameplay recordings. The page identifies the item as PlayStation 2 and links the route-specific videos; the index itself is not a substitute for the gameplay evidence."
+    },
+    {
+      "url": "https://www.gameman.jp/item/16556_m.html",
+      "title": "BLOOD THE LAST VAMPIRE 下巻 - GAMEMAN 動画 index (PS2)",
+      "language": "ja",
+      "notes": "Supplementary navigation/provenance index for the Set-B 下巻 gameplay recordings. The page identifies the item as PlayStation 2 and links the route-specific videos; the index itself is not a substitute for the gameplay evidence."
     },
     {
       "url": "https://gamefaqs.gamespot.com/ps2/580301-blood-the-last-vampire-joukan/faqs/12481",
@@ -115,6 +183,6 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "disagreements": "GUIDE TARGET: original Japanese PlayStation 2 two-volume release (上巻 SCPS-15007 / 下巻 SCPS-15008), released 2000-12-21. This resolves the legacy PS2/PSP ambiguity; the 2006 PSP compilation is not the guide target. Set A (xneo.jp) explicitly identifies the original PS2 release, and Set B's archived walkthrough material predates the PSP compilation. Gekan numbering/branch presentation differs between xneo.jp and mmitsuru, so ending numbers must be matched by their documented choice sequences rather than assumed identical across sites. TRUE ENDING: xneo.jp's explicit Ending 25 vs Ending 27 rows establish a completion-based distinction: Ending 25 skips 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but completes 瑠璃亜をかばう; Ending 27 includes all four and also completes 瑠璃亜をかばう. The guide follows that directly verified PS2 sequence. mmitsuru explicitly labels End27 真・瑠璃亜編 but historically documents a conflicting 瑠璃亜の過去フラグ condition; retain this as an unresolved cross-source discrepancy rather than silently forcing one site's flag model onto the other's sequence. TOUKO: neither source confirms whether この土地……？ and いらないよ occur sequentially on one 灯子編 playthrough or represent different early sub-branches; route_touko.json follows the source-backed Touko-specific sequence and records the uncertainty in its enGuide notes. Also, source evidence shows 父さん、ここは？/こんなところに…… belong to the sampled 闇の王編 corridor rather than the 灯子編 rows, so those steps were removed from route_touko.json.",
-  "generated_at": "2026-09-19T19:42:00+00:00"
+  "disagreements": "GUIDE TARGET: original Japanese PlayStation 2 two-volume release (上巻 SCPS-15007 / 下巻 SCPS-15008), released 2000-12-21; the 2006 PSP compilation is not the target. SET-B MIGRATION: the inaccessible mmitsuru archive is no longer an active verification set. Set A remains XNEO. Set B is now the route-specific original-PS2 Japanese gameplay-video set indexed on GAMEMAN. Because gameplay recordings show in-game text rather than walkthrough prose, jpGuide2 now records only gameplay-visible Japanese choices/B.S.S. result labels/route outcomes for covered paths; saves, editorial instructions, and optional detours not exercised by the Set-B recordings use exactly （第二ガイドに記載なし）. GameFAQs remains supplementary only. ENDING NUMBERS/TITLES: the gameplay videos are route-titled rather than an independent numbered ending table, so XNEO remains the source for ending numbers; no Set-B ending-number equivalence is inferred. TRUE ENDING: XNEO's explicit Ending 25 vs Ending 27 rows establish the completion distinction used by the guide — Ending 25 skips 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but completes 瑠璃亜をかばう, while Ending 27 includes all four and also completes 瑠璃亜をかばう. The separate 下巻 真・瑠璃亜編 gameplay recording provides independent route-result evidence without being used to invent an ending-number mapping. TOUKO: XNEO presents この土地……？ and いらないよ on different 灯子編 ending rows; this migration preserves the current route topology and leaves their exact co-occurrence/order as a point for the fresh gameplay-based accuracy review rather than inferring a new branch during authoring.",
+  "generated_at": "2026-09-19T21:49:00+00:00"
 }

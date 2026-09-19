@@ -27,7 +27,6 @@ Use this JSON shape:
     {
       "id": "ascii_route_key",
       "title": "ルート名（日本語）",
-      "type": "route",
       "portrait": "<verified character image URL or empty string>",
       "prerequisites": [],
       "is_true_ending": false,
@@ -63,7 +62,6 @@ Rules:
 - Verify every Set A/B component applies to that exact target release. Document port/remaster/edition differences and whether they affect routes, choices, saves, unlocks, or endings.
 - If the supplied target cannot be verified or the sources only apply to a materially different release, stop and document the blocker rather than silently switching targets.
 - `id` must be ASCII-only romanized keys.
-- `type` is optional; omit it for normal routes. Use exactly `"completion"` only for a linear post-clear completion section as defined by the canonical standards.
 - `recommended_order` lists route ids from first to last; true/final route last when applicable.
 - Label every primary source component with `set: "A"` or `set: "B"`.
 - A set may contain multiple Japanese pages, but together it must cover the complete route/ending structure required by the canonical standards.

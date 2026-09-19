@@ -6,7 +6,7 @@ $GAME_NOTES
 ## Current Task: Generate One Route
 
 Game: $TITLE (VNDB: $VNDB_ID)
-Route: **$ROUTE_TITLE** (id: `$ROUTE_ID`)
+Section: **$ROUTE_TITLE** (id: `$ROUTE_ID`, type: `$ROUTE_TYPE`)
 Save slot offset: **$SAVE_OFFSET** (first new save in this route = セーブ$SAVE_OFFSET_PLUS1)
 
 Research file: `$RESEARCH_FILE`
@@ -20,6 +20,18 @@ Output file: `$ROUTE_FILE`
 4. Fetch the relevant components of both sets directly.
 5. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
 6. Write the complete route as a JSON array to `$ROUTE_FILE`.
+
+
+### Completion-section mode
+
+If `$ROUTE_TYPE` is `completion`:
+
+- Generate a linear post-clear checklist instead of a heroine/story route.
+- Include exact documented menu/action labels and completion/result labels in `simpleJp`.
+- Do not emit saves, loads, `badEndPath`, or `isLoad`.
+- Verify gating unlock/order/completion claims independently with Set A and Set B components documented for completion material.
+- End on the final real documented completion action/result. Do not invent a synthetic ending or COMPLETE marker.
+- The normal “stop at this route's ending” rule below is replaced by “stop at the final documented completion action/result.”
 
 ### Step format
 
@@ -104,7 +116,7 @@ Never add `badEndPath` when no Japanese source documents a non-main ending, and 
 
 ### Completion
 
-- Cover the complete route from entry to ending.
+- For a normal route, cover the complete route from entry to ending. For `completion`, cover the complete post-clear checklist through its final documented completion action/result.
 - Include all required choices.
 - Include every documented non-main ending detour completely.
 - Stop at this route's ending.

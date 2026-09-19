@@ -199,6 +199,143 @@ class GuideTargetTests(unittest.TestCase):
                 )
 
 
+class TargetInvalidationTests(unittest.TestCase):
+    def test_real_target_change_invalidates_stale_routes_and_review_state(self):
+        target_a = {
+            "label": "Edition A",
+            "platform": "PC",
+            "url": "https://vndb.org/r100",
+        }
+        target_b = {
+            "label": "Edition B",
+            "platform": "Nintendo Switch",
+            "url": "https://vndb.org/r200",
+        }
+
+        with tempfile.TemporaryDirectory() as td:
+            guide_dir = Path(td)
+            (guide_dir / "research.json").write_text(
+                json.dumps(
+                    {
+                        "guide_target": target_a,
+                        "routes": [{"id": "route", "title": "Route"}],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (guide_dir / "guide.json").write_text(
+                json.dumps(
+                    {
+                        "guide_target": target_a,
+                        "routes": [{"id": "route", "reviewed": True}],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (guide_dir / "route_route.json").write_text(
+                json.dumps([{"simpleJp": "Old target step"}]),
+                encoding="utf-8",
+            )
+            (guide_dir / "route_route_session.txt").write_text("session")
+            (guide_dir / "research_session.txt").write_text("session")
+
+            self.assertTrue(
+                guide_gen.invalidate_for_target_change(guide_dir, target_b)
+            )
+            self.assertFalse((guide_dir / "research.json").exists())
+            self.assertFalse((guide_dir / "guide.json").exists())
+            self.assertFalse((guide_dir / "route_route.json").exists())
+            self.assertFalse((guide_dir / "route_route_session.txt").exists())
+            self.assertFalse((guide_dir / "research_session.txt").exists())
+
+    def test_same_explicit_target_preserves_existing_generated_state(self):
+        target = {
+            "label": "Edition A",
+            "platform": "PC",
+            "url": "https://vndb.org/r100",
+        }
+
+        with tempfile.TemporaryDirectory() as td:
+            guide_dir = Path(td)
+            (guide_dir / "research.json").write_text(
+                json.dumps({"guide_target": target, "routes": [{"id": "route"}]}),
+                encoding="utf-8",
+            )
+            (guide_dir / "guide.json").write_text(
+                json.dumps(
+                    {
+                        "guide_target": target,
+                        "routes": [{"id": "route", "reviewed": True}],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            route_file = guide_dir / "route_route.json"
+            route_file.write_text(
+                json.dumps([{"simpleJp": "Existing step"}]),
+                encoding="utf-8",
+            )
+
+            self.assertFalse(
+                guide_gen.invalidate_for_target_change(guide_dir, target)
+            )
+            self.assertTrue((guide_dir / "research.json").exists())
+            self.assertTrue((guide_dir / "guide.json").exists())
+            self.assertTrue(route_file.exists())
+
+
+class TargetPersistenceTests(unittest.TestCase):
+    def test_caller_target_must_publish_before_research(self):
+        with tempfile.TemporaryDirectory() as td:
+            games_json = Path(td) / "games.json"
+            games_json.write_text(
+                json.dumps(
+                    {
+                        "v123": {
+                            "slug": "game",
+                            "title": "Game",
+                            "has_guide": False,
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            with (
+                patch.object(guide_gen, "GAMES_JSON", games_json),
+                patch.object(
+                    guide_gen.agent_runner,
+                    "credentials_available",
+                    return_value=True,
+                ),
+                patch.object(guide_gen, "run_deploy", return_value=False) as deploy,
+                patch.object(guide_gen, "generate_guide") as generate,
+                patch.dict(
+                    guide_gen.os.environ,
+                    {
+                        "GUIDE_TARGET_VID": "v123",
+                        "GUIDE_TARGET_LABEL": "Edition",
+                        "GUIDE_PLATFORM": "Nintendo Switch",
+                        "GUIDE_TARGET_URL": "https://vndb.org/r123",
+                    },
+                    clear=True,
+                ),
+            ):
+                guide_gen.run()
+
+            persisted = json.loads(games_json.read_text(encoding="utf-8"))
+            self.assertEqual(
+                persisted["v123"]["guide_target"],
+                {
+                    "label": "Edition",
+                    "platform": "Nintendo Switch",
+                    "url": "https://vndb.org/r123",
+                },
+            )
+            deploy.assert_called_once_with()
+            generate.assert_not_called()
+
+
 class SaveOffsetTests(unittest.TestCase):
     def test_count_saves_excludes_bad_end_and_plain_loads(self):
         with tempfile.TemporaryDirectory() as td:

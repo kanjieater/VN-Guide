@@ -57,7 +57,7 @@ Use this JSON shape:
 
 Rules:
 
-- `guide_target` is authoritative caller/repository input. Copy it **exactly**; do not choose, broaden, or replace the target release yourself.
+- `guide_target` is the authoritative resolved target from the repository, caller, or pre-research newest-Japanese-release default. Copy it **exactly**; do not broaden or replace it during research.
 - Its `url` must link to the specific intended release/edition when possible (prefer a VNDB `r...` release page rather than the broader `v...` work page when VNDB has the exact release).
 - Verify every Set A/B component applies to that exact target release. Document port/remaster/edition differences and whether they affect routes, choices, saves, unlocks, or endings.
 - If the supplied target cannot be verified or the sources only apply to a materially different release, stop and document the blocker rather than silently switching targets.

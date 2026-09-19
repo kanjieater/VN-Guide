@@ -3,7 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 
 MODULE_PATH = Path(__file__).resolve().parents[1] / "scripts" / "guide_gen.py"
@@ -57,16 +57,24 @@ class GuideTargetTests(unittest.TestCase):
                 },
             )
 
-    def test_missing_or_incomplete_target_is_rejected(self):
-        keys = [
-            "GUIDE_TARGET_VID",
-            "GUIDE_TARGET_LABEL",
-            "GUIDE_PLATFORM",
-            "GUIDE_TARGET_URL",
-        ]
-        with patch.dict(guide_gen.os.environ, {}, clear=True):
-            self.assertIsNone(guide_gen.resolve_guide_target({}, "v123"))
+    def test_missing_target_defaults_to_newest_japanese_release(self):
+        target = {
+            "label": "Newest Japanese",
+            "platform": "Windows",
+            "url": "https://vndb.org/r123",
+        }
+        with (
+            patch.dict(guide_gen.os.environ, {}, clear=True),
+            patch.object(
+                guide_gen,
+                "fetch_newest_japanese_guide_target",
+                return_value=target,
+            ) as fetch_default,
+        ):
+            self.assertEqual(guide_gen.resolve_guide_target({}, "v123"), target)
+        fetch_default.assert_called_once_with("v123")
 
+    def test_incomplete_caller_target_is_rejected(self):
         with patch.dict(
             guide_gen.os.environ,
             {
@@ -78,6 +86,47 @@ class GuideTargetTests(unittest.TestCase):
         ):
             guide_gen.os.environ.pop("GUIDE_TARGET_URL", None)
             self.assertIsNone(guide_gen.resolve_guide_target({}, "v123"))
+
+    def test_default_target_skips_newer_non_japanese_release(self):
+        response = MagicMock()
+        response.__enter__.return_value = response
+        response.read.return_value = json.dumps(
+            {
+                "results": [
+                    {
+                        "id": "r200",
+                        "title": "Newer localization",
+                        "alttitle": None,
+                        "released": "2020-05-20",
+                        "platforms": ["win"],
+                        "languages": [{"lang": "en", "mtl": False}],
+                        "official": True,
+                        "patch": False,
+                        "vns": [{"id": "v123", "rtype": "complete"}],
+                    },
+                    {
+                        "id": "r123",
+                        "title": "Japanese release",
+                        "alttitle": "日本語版",
+                        "released": "2016-02-12",
+                        "platforms": ["win"],
+                        "languages": [{"lang": "ja", "mtl": False}],
+                        "official": True,
+                        "patch": False,
+                        "vns": [{"id": "v123", "rtype": "complete"}],
+                    },
+                ]
+            }
+        ).encode("utf-8")
+        with patch.object(guide_gen.urllib_request, "urlopen", return_value=response):
+            self.assertEqual(
+                guide_gen.fetch_newest_japanese_guide_target("v123"),
+                {
+                    "label": "日本語版 (2016-02-12 Windows)",
+                    "platform": "Windows",
+                    "url": "https://vndb.org/r123",
+                },
+            )
 
     def test_caller_target_is_scoped_to_one_pending_vn(self):
         with patch.dict(

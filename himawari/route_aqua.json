@@ -1,0 +1,310 @@
+[
+  {
+    "simpleJp": "Start",
+    "jpGuide1": "※タイトル画面の■Startから開始",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２０５０",
+    "jpGuide1": "２０５０を選択",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "先へ進む",
+    "jpGuide1": "先へ進む",
+    "jpGuide2": "先へ進む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "とりあえず、チャーハンだ",
+    "jpGuide1": "とりあえず、チャーハンだ",
+    "jpGuide2": "とりあえず、チャーハンだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスは、確かにいる",
+    "jpGuide1": "アリエスは、確かにいる",
+    "jpGuide2": "アリエスは、確かにいる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "手を取らない",
+    "jpGuide1": "手を取らない",
+    "jpGuide2": "手を取らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アクアはもう飲まないよな？",
+    "jpGuide1": "アクアはもう飲まないよな？",
+    "jpGuide2": "アクアはもう飲まないよな?",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "別に交換してもいいか",
+    "jpGuide1": "別に交換してもいいか",
+    "jpGuide2": "別に交換してもいいか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部長には言わない",
+    "jpGuide1": "部長には言わない",
+    "jpGuide2": "部長には言わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "くそっ、怪盗Ｇめ！",
+    "jpGuide1": "くそっ、怪盗Ｇめ！",
+    "jpGuide2": "くそっ、怪盗Gめ!",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ピッキングで鍵を開けた",
+    "jpGuide1": "ピッキングで鍵を開けた",
+    "jpGuide2": "地下に秘密の出入り口が!",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ11",
+    "jpGuide1": "◆セーブ11",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "教える",
+    "jpGuide1": "教える",
+    "jpGuide2": "隠し通す　/　教える　END「最悪の結末」",
+    "enGuide": "",
+    "badEndPath": "【最悪の結末】END"
+  },
+  {
+    "simpleJp": "【最悪の結末】END",
+    "jpGuide1": "【最悪の結末】END",
+    "jpGuide2": "END「最悪の結末」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ11にロード",
+    "jpGuide1": "◆セーブ11から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "隠し通す",
+    "jpGuide1": "隠し通す",
+    "jpGuide2": "隠し通す　/　教える　END「最悪の結末」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "中",
+    "jpGuide1": "中",
+    "jpGuide2": "上",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "今はまだ手の内を見せる時じゃない",
+    "jpGuide1": "今はまだ手の内を見せる時じゃない",
+    "jpGuide2": "トレース・オン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12",
+    "jpGuide1": "◆セーブ12",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "僕は、動けなかった",
+    "jpGuide1": "僕は、動けなかった",
+    "jpGuide2": "部長、やめましょう…　/　僕は動けなかった　END「グッバイ、マイフレンド」",
+    "enGuide": "",
+    "badEndPath": "【グッバイ、マイフレンド】END"
+  },
+  {
+    "simpleJp": "【グッバイ、マイフレンド】END",
+    "jpGuide1": "【グッバイ、マイフレンド】END",
+    "jpGuide2": "END「グッバイ、マイフレンド」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12にロード",
+    "jpGuide1": "◆セーブ12から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "部長、やめましょう･･･",
+    "jpGuide1": "部長、やめましょう･･･",
+    "jpGuide2": "部長、やめましょう…　/　僕は動けなかった　END「グッバイ、マイフレンド」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ13",
+    "jpGuide1": "◆セーブ13",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何を考えてるんだ、お前は！",
+    "jpGuide1": "何を考えてるんだ、お前は！",
+    "jpGuide2": "アクア…何をやってるんだ!　/　何を考えてるんだ、お前は!　END「トラウマ」",
+    "enGuide": "",
+    "badEndPath": "【トラウマ】END"
+  },
+  {
+    "simpleJp": "【トラウマ】END",
+    "jpGuide1": "【トラウマ】END",
+    "jpGuide2": "END「トラウマ」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ13にロード",
+    "jpGuide1": "◆セーブ13から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "アクア…何をやってるんだ！",
+    "jpGuide1": "アクア…何をやってるんだ！",
+    "jpGuide2": "アクア…何をやってるんだ!　/　何を考えてるんだ、お前は!　END「トラウマ」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14",
+    "jpGuide1": "◆セーブ14",
+    "jpGuide2": "※SAVE",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスの体を抱きしめる",
+    "jpGuide1": "アリエスの体を抱きしめる",
+    "jpGuide2": "アリエスの体を抱きしめる",
+    "enGuide": "",
+    "badEndPath": "【日向葵】END"
+  },
+  {
+    "simpleJp": "セーブ15",
+    "jpGuide1": "◆セーブ17",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう、引き返せない",
+    "jpGuide1": "もう、引き返せない",
+    "jpGuide2": "もう、引き返せない　/　アリエスを解放する　END「摘出」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "【日向葵】END",
+    "jpGuide1": "【日向葵】END",
+    "jpGuide2": "END「向日葵」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ15にロード",
+    "jpGuide1": "◆セーブ17から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "アリエスを解放する",
+    "jpGuide1": "アリエスを解放する",
+    "jpGuide2": "もう、引き返せない　/　アリエスを解放する　END「摘出」",
+    "enGuide": "",
+    "badEndPath": "【摘出】END"
+  },
+  {
+    "simpleJp": "【摘出】END",
+    "jpGuide1": "【摘出】END",
+    "jpGuide2": "END「摘出」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14にロード",
+    "jpGuide1": "◆セーブ14から",
+    "jpGuide2": "SAVEより",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "アリエスの手を振りほどく",
+    "jpGuide1": "アリエスの手を振りほどく",
+    "jpGuide2": "アリエスの手を振りほどく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ16",
+    "jpGuide1": "◆セーブ15",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "また、アクアの作った味噌汁を飲みたい",
+    "jpGuide1": "また、アクアの作った味噌汁を飲みたい",
+    "jpGuide2": "もう一度、葵の顔を見たい　/　また、アクアの作った味噌汁を飲みたい　END「夢の在処」",
+    "enGuide": "",
+    "badEndPath": "【夢の在処】END"
+  },
+  {
+    "simpleJp": "【夢の在処】END",
+    "jpGuide1": "【夢の在処】END",
+    "jpGuide2": "END「夢の在処」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ16にロード",
+    "jpGuide1": "◆セーブ15から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "もう一度、葵の顔を見たい",
+    "jpGuide1": "もう一度、葵の顔を見たい",
+    "jpGuide2": "もう一度、葵の顔を見たい　/　また、アクアの作った味噌汁を飲みたい　END「夢の在処」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ17",
+    "jpGuide1": "◆セーブ16",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "空港だ",
+    "jpGuide1": "空港だ",
+    "jpGuide2": "学校だ　/　空港だ　END「偉大なる一歩」",
+    "enGuide": "",
+    "badEndPath": "【偉大なる一歩】END"
+  },
+  {
+    "simpleJp": "【偉大なる一歩】END",
+    "jpGuide1": "【偉大なる一歩】END",
+    "jpGuide2": "END「偉大なる一歩」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ17にロード",
+    "jpGuide1": "◆セーブ16から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "学校だ",
+    "jpGuide1": "学校だ",
+    "jpGuide2": "学校だ　/　空港だ　END「偉大なる一歩」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "【アクア】END",
+    "jpGuide1": "【アクア】END",
+    "jpGuide2": "「アクア編クリア」",
+    "enGuide": ""
+  }
+]

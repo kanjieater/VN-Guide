@@ -18,7 +18,7 @@ If the caller/orchestrator explicitly specifies a review transport (for example,
 
 ## Route semantics
 
-Each `route_<id>.json` is a flat step array.
+Each `route_<id>.json` is a flat guide-section step array.
 
 - `badEndPath` marks the first branch step of a documented non-main ending detour (bad, normal, alternate, or similarly labeled).
 - `isLoad: true` terminates that detour and returns to the main route.
@@ -27,7 +27,7 @@ Each `route_<id>.json` is a flat step array.
 
 ## Structural review
 
-Trace the entire route.
+Trace the entire section.
 
 For every non-main-ending chain verify:
 
@@ -41,7 +41,7 @@ For every non-main-ending chain verify:
 Reconstruct the main route by removing non-main-ending chains from `badEndPath` through their terminating `isLoad`. The remaining route must:
 
 - begin at step 0;
-- end at the intended good ending;
+- end at the intended documented terminal/outcome for that section (for example a heroine ending, chapter ending, true ending, or post-clear completion result);
 - contain no `isLoad: true`;
 - contain no orphaned structural load.
 
@@ -53,7 +53,7 @@ Follow caller/orchestrator transport instructions first. If none are specified, 
 
 ### Open PR exists and no caller transport was specified
 
-Use the existing PR for this route's structural feedback instead of creating a route issue.
+Use the existing PR for this section's structural feedback instead of creating a route issue.
 
 - Clean first pass → leave a concise PASS comment identifying the route and structural review, including `Route blob: <current route-file blob SHA/content hash>`.
 - Findings → leave one CHANGES REQUESTED comment containing all structural findings and required actions for the route.
@@ -66,7 +66,7 @@ Use the fallback issue workflow. Create/reuse at most one `route-structure` issu
 
 ## Re-review
 
-After author corrections, re-read and re-trace the route.
+After author corrections, re-read and re-trace the section.
 
 If review is on an open PR:
 - still wrong → comment precisely what remains;

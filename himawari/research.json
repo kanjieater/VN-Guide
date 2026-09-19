@@ -5,36 +5,58 @@
     {
       "id": "aries",
       "title": "アリエス",
-      "stepCount": 55,
-      "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/25/46525.jpg"
+      "portrait": "https://t.vndb.org/ch/25/46525.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "First mandatory route; the only heroine route initially clearable. Seiya, Mizukinoko and Gorilla Wiki agree on the enforced main-story order: アリエス → Restart／星乃明香里 → アクア → 西園寺明香. This is a dependency order, not merely a spoiler-minimizing recommendation. Clearing アリエス unlocks Restart. No source requires a bad ending to unlock the next route. Nine distinct bad endings are documented: 黒き巨人, 星の見せた夢, 触るな, 夢の続き, 消えたアリエス, Falling Star, 閉じられた鍵, 白い世界, 煙雨. Seiya explicitly documents source saves 01–09 at their respective branches. The common-route alignment begins with the choice after 先へ進む: アリエスを放っておくわけにはいかない is the Aries alignment, while later playthroughs use different answers for Aqua or Asuka. Gorilla notes that 部長を呼ぶ is not offered on the first playthrough; do not insert that second-playthrough choice into a fresh Aries run. Gorilla explicitly dates 夢の続き to the morning of the 28th and 消えたアリエス to the morning of the 30th: these endings are delayed, not immediate game-over screens. Seiya lists no intervening decisions on those detours, but generation must not interpret the branch arrow as an immediate terminal screen. 煙雨 has two documented triggering answers in Gorilla, 公園だ！ and 明香の家だ！, leading to the same ending. VNDB match is Aries／アリエス, c38503; the portrait image ID is 46525, not the character ID."
     },
     {
       "id": "akari",
       "title": "Restart",
-      "stepCount": 7,
-      "reviewed": true
+      "portrait": "",
+      "prerequisites": [
+        "aries"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory second episode, labeled Restart（星乃 明香里） by Seiya and Restart by Gorilla. Use the unlocked Restart title-menu entry rather than treating this as another heroine selection in the initial common route. Its successful ending unlocks Aqua. Both complete primary guides and Gorilla document one decision and the alternative ending 旅立ち; Seiya explicitly marks source save 10 before this decision. Mizukinoko spells the character 星野明香里, whereas Seiya, Gorilla and VNDB use 星乃明香里. Keep the neutral title Restart to avoid exposing episode identity on the home screen. VNDB's default v210/chars page hides this character; a VNDB API character query for v210 identifies c55290, Hoshino Akari／星乃 明香里, with image null, and c55290 explicitly says No image. Leave the portrait empty rather than constructing an image URL from c55290."
     },
     {
       "id": "aqua",
       "title": "アクア",
-      "stepCount": 49,
-      "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/24/46524.jpg"
+      "portrait": "https://t.vndb.org/ch/24/46524.jpg",
+      "prerequisites": [
+        "akari"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory third main-story route. After Restart's successful ending, Seiya specifies a fresh Start and the year ２０５０. The early common-route alignment is とりあえず、チャーハンだ, followed by Aqua-oriented choices. Clearing the Aqua ending unlocks Asuka. Seven distinct alternative endings are documented: 最悪の結末, グッバイ、マイフレンド, トラウマ, 日向葵, 摘出, 夢の在処, 偉大なる一歩. Mizukinoko calls 日向葵 向日葵; Seiya and Gorilla agree on 日向葵. This is a detour ending within Aqua, not a fifth independently selectable heroine route. Critical structural finding: both 日向葵 and 摘出 start at アリエスの体を抱きしめる, then require a second decision. Seiya source save 14 is before that initial branch; source save 17 is nested inside that detour, before the second decision. Gorilla and Mizukinoko independently show both complete two-choice paths. For 日向葵, badEndPath begins at アリエスの体を抱きしめる. After reloading the documented nested checkpoint, 摘出 begins at its second decision アリエスを解放する. Each complete chain reaches its ending before the appropriate reload. Seiya's published collection order postpones detours until after the good ending and uses nonchronological source save numbers; do not copy that layout into the eventual interleaved guide. Source saves 11–16 cover six outer decision points and source save 17 is a documented nested checkpoint inside the two-step 日向葵／摘出 branch. Canonical save rules require retaining it because Set A explicitly documents it. In traversal order it becomes global セーブ15 after outer セーブ14; the later Set-A source saves 15 and 16 therefore map to global セーブ16 and セーブ17. Asuka then begins at global セーブ18. Mizukinoko explicitly marks only the shared outer save and its reload. VNDB match: Aqua／アクア, c21657, image 46524."
     },
     {
       "id": "asuka",
       "title": "西園寺明香",
-      "stepCount": 31,
-      "reviewed": true,
-      "portrait": "https://t.vndb.org/ch/27/46527.jpg"
+      "portrait": "https://t.vndb.org/ch/27/46527.jpg",
+      "prerequisites": [
+        "aqua"
+      ],
+      "is_true_ending": true,
+      "notes": "Final mandatory heroine route, reached after Aqua's successful ending through Start → ２０５０ according to Seiya. The initial common-route alignment is 明香に早くいいわけをしなければ. Two distinct bad endings are documented by all three Japanese walkthroughs: Beautiful Dreamer and 逃避. Seiya source saves 18 and 19 precede those branches; with Aqua's documented nested save retained, these are also global セーブ18 and セーブ19. All three late visit selections must be read, but Gorilla explicitly says their order is irrelevant; the different Seiya/Mizukinoko orders are not a route conflict. is_true_ending marks the last required main-story route for repository ordering; the sources also call the successful endings of Aries, Akari and Aqua True End, so this flag must not imply that their endings are false or optional. Include post-clear content as a completion section attached to this final route, not invented additional romance routes: STORY → Another Side opens こもれび after Asuka; clearing it unlocks かげろう through Another Side; STORY → 2048-2050 also unlocks after Asuka. Seiya recommends こもれび → かげろう → 2048-2050, then Tips completion. Read Tips 一輪 through 三十五輪 to unlock 三十六輪, associated with the Vita trophy ひまわりの咲く丘. Seiya additionally instructs reading all currently available Database/Keywords entries to add ひまわり, but the currently inspected independent Japanese Set-B material does not establish that unlock condition. The reviewed completion section therefore stops at the independently corroborated 三十六輪 Tips terminal rather than presenting the Keywords unlock as two-set verified. Seiya covers the broader extras; Gorilla independently corroborates the supplemental-story unlocks and final Tip condition. They are reading/menu-access sections, not evidenced branching routes; do not invent choices, saves or bad endings for them. Main-story scope totals four successful character endings plus nineteen bad/alternative endings, followed by the three listed supplemental stories and independently verified Tips completion. VNDB match: Saionji Asuka／西園寺 明香, c38508, image 46527."
     },
     {
       "id": "completion",
       "title": "クリア後",
-      "stepCount": 8,
-      "reviewed": true
+      "portrait": "",
+      "prerequisites": [
+        "asuka"
+      ],
+      "is_true_ending": false,
+      "notes": "Post-clear completion section, not a romance/heroine route. After clearing 西園寺明香, Seiya's exact-target Windows walkthrough instructs STORY → Another Side → こもれび, then Another Side → かげろう; STORY → 2048-2050; and Tips, where viewing 一輪 through 三十五輪 unlocks 三十六輪. Gorilla independently documents the fourth-clear Another Side/こもれび and 2048-2050 unlocks, the post-Another-Side かげろう unlock, and that 三十六輪 is added after viewing all Tips through 三十五輪. Seiya continues into Database → Keywords and the standalone ひまわり keyword unlock, but the currently inspected independent Japanese Set-B material does not document that unlock condition, so the reviewed guide section intentionally stops at 三十六輪. This section remains separate from route_asuka.json so the heroine route itself terminates at 【西園寺明香】END."
     }
+  ],
+  "recommended_order": [
+    "aries",
+    "akari",
+    "aqua",
+    "asuka",
+    "completion"
   ],
   "sources": [
     {
@@ -174,6 +196,7 @@
       "notes": "Additional candidate found in Japanese search; direct wiki access returned 403. Not read in full and not used as evidence or counted toward the two-complete-guide requirement."
     }
   ],
+  "disagreements": "VERSION SCOPE: Target VNDB r44665, the 2016 Japanese Windows release of the Vita-remake content. Set A is the exact-target PC walkthrough. Set B is the 2015 Vita remake r40151 and is used only as independent structural/outcome verification; its textual differences are preserved verbatim and never substituted for exact PC text. VNDB r71939 is a newer Windows localization update but lacks Japanese interface/subtitles, so it is not applicable to this Japanese-text guide target. ROUTE ORDER: Seiya, Mizukinoko and Gorilla agree on the mandatory four-part sequence; no bad-end unlock requirement is documented. Extras belong after the final heroine route, with こもれび before かげろう. NAMING: Mizukinoko's 星野明香里 conflicts with 星乃明香里 in Seiya/Gorilla/VNDB; use the latter for metadata but preserve the former in any verbatim quote. Mizukinoko's 向日葵 ending conflicts with 日向葵 in Seiya/Gorilla; use 日向葵 as the canonical detour label while preserving each quotation. TEXT: Sources vary in fullwidth/halfwidth punctuation, ellipses, Latin G and spaces; notably 僕は動けなかった versus 僕は、動けなかった and 部長、やめましょう… versus 部長、やめましょう･･･ versus 部長、やめましょう・・・. Do not normalize jpGuide quotes or claim these are byte-identical game text. Seiya's raw HTML is preferable to the r.jina.ai Markdown, which adds checkbox syntax. EQUIVALENT CHOICES: Gorilla explicitly resolves the different final Aries confrontation answers, Aqua's 上/中/下 and special-action answers, Asuka's reassurance and address answers, and Asuka's final visit ordering as valid alternatives. Other differences are not explicitly resolved by the fetched pages: Aries uses 人違いです in Mizukinoko versus 部長、タチの悪い冗談はやめてください in Seiya/Gorilla; Aqua uses 地下に秘密の出入り口が! versus ピッキングで鍵を開けた; Asuka uses 天体観測会を開く versus ひまわりを作り続ける. Both complete guides reach the same successful endings with their own selections, but these should not be spliced into an invented hybrid or declared equivalent without additional evidence. Prefer Seiya's internally complete PC path, cross-check it against Gorilla, and explicitly record the differing Mizukinoko reference instead of fabricating a matching quotation. SAVES: Seiya has explicit numbered save/load references; Mizukinoko marks only Aqua's shared save; Gorilla recommends saving at red-bold choices but the text extraction loses color. Lack of a second-source save/load instruction is genuine missing evidence, not permission to quote the first source twice. Set-A source save 17 lies inside Aqua's two-step detour and must be retained under the canonical save rule. In traversal order it becomes global セーブ15 after outer セーブ14; later Aqua saves become global 16–17, and Asuka uses global 18–19. TERMINATION: Gorilla says two Aries endings occur on later mornings; do not assert immediate game over after the triggering answer. Seiya's separate detour blocks list no intervening decisions, but exact elapsed progression should remain distinguished from immediate screen termination during route generation. POST-CLEAR: Mizukinoko omits extras, so Set B for the completion section uses the declared Gorilla clear-bonus and Tips components. These independently support Another Side／こもれび, 2048-2050, the later かげろう unlock, and the 三十六輪 condition. Gorilla's Keywords inventory does not state how `ひまわり` unlocks, so the reviewed completion section ends at independently supported 三十六輪 and omits Set A's later Keywords-only terminal claim. This file records research only; no guide steps, review approval or completed-review claim are being produced.",
   "generated_at": "2026-09-19T21:45:00+00:00",
   "guide_target": {
     "label": "ひまわり -Pebble in the Sky- (2016 Windows版)",

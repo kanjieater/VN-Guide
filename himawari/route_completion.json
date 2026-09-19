@@ -1,0 +1,50 @@
+[
+  {
+    "simpleJp": "STORY",
+    "jpGuide1": "■STORY",
+    "jpGuide2": "・Story→Another Side追加",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Another Side",
+    "jpGuide1": "⇒□Another Side",
+    "jpGuide2": "・Story→Another Side追加",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "こもれび",
+    "jpGuide1": "★こもれび",
+    "jpGuide2": "こもれび　himawari / Episode Zero - the sunny garden -",
+    "enGuide": "Clear こもれび first."
+  },
+  {
+    "simpleJp": "Another Side",
+    "jpGuide1": "⇒□Another Side",
+    "jpGuide2": "Another Side 1周目クリア",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "かげろう",
+    "jpGuide1": "⇒かげろう",
+    "jpGuide2": "・新シナリオ追加\nかげろう　another side of himawari episode 2 - the glorious sky -",
+    "enGuide": "Unlocked after clearing こもれび."
+  },
+  {
+    "simpleJp": "2048-2050",
+    "jpGuide1": "⇒□2048-2050",
+    "jpGuide2": "・Story→2048-2050追加",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Tips",
+    "jpGuide1": "⇒□Tips",
+    "jpGuide2": "Tips",
+    "enGuide": "Read Tips 一輪 through 三十五輪."
+  },
+  {
+    "simpleJp": "三十六輪",
+    "jpGuide1": "三十六輪",
+    "jpGuide2": "三十六輪\n※「三十五輪」まで全て見ると追加される。",
+    "enGuide": "Unlocked after viewing every Tip through 三十五輪. This is the reviewed completion terminal; the later Set-A-only Keywords unlock is omitted because no independent Japanese source establishes its unlock condition."
+  }
+]

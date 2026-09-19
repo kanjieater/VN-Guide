@@ -1,0 +1,350 @@
+[
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "◆セーブ01",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家に戻る",
+    "jpGuide1": "家に戻る",
+    "jpGuide2": "先へ進む　/　家に戻る　END「黒き巨人」",
+    "enGuide": "",
+    "badEndPath": "【黒き巨人】END"
+  },
+  {
+    "simpleJp": "【黒き巨人】END",
+    "jpGuide1": "【黒き巨人】END",
+    "jpGuide2": "END「黒き巨人」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "◆セーブ01から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "先へ進む",
+    "jpGuide1": "先へ進む",
+    "jpGuide2": "先へ進む　/　家に戻る　END「黒き巨人」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスを放っておくわけにはいかない",
+    "jpGuide1": "アリエスを放っておくわけにはいかない",
+    "jpGuide2": "アリエスを放っておくわけにはいかない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "◆セーブ02",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "全部、夢だったんだ……",
+    "jpGuide1": "全部、夢だったんだ……",
+    "jpGuide2": "アリエスは、確かにいる　/　全部、夢だったんだ……　END「星の見せた夢」",
+    "enGuide": "",
+    "badEndPath": "【星の見せた夢】END"
+  },
+  {
+    "simpleJp": "【星の見せた夢】END",
+    "jpGuide1": "【星の見せた夢】END",
+    "jpGuide2": "END「星の見せた夢」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "◆セーブ02から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "アリエスは、確かにいる",
+    "jpGuide1": "アリエスは、確かにいる",
+    "jpGuide2": "アリエスは、確かにいる　/　全部、夢だったんだ……　END「星の見せた夢」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "◆セーブ03",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "手を取る",
+    "jpGuide1": "手を取る",
+    "jpGuide2": "手を取らない　/　手を取る　END「触るな」",
+    "enGuide": "",
+    "badEndPath": "【触るな】END"
+  },
+  {
+    "simpleJp": "【触るな】END",
+    "jpGuide1": "【触るな】END",
+    "jpGuide2": "END「触るな」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "◆セーブ03から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "手を取らない",
+    "jpGuide1": "手を取らない",
+    "jpGuide2": "手を取らない　/　手を取る　END「触るな」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスは大丈夫だろうか",
+    "jpGuide1": "アリエスは大丈夫だろうか",
+    "jpGuide2": "アリエスは大丈夫だろうか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり交換しない",
+    "jpGuide1": "やっぱり交換しない",
+    "jpGuide2": "やっぱり交換しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "迷惑じゃないぞ",
+    "jpGuide1": "迷惑じゃないぞ",
+    "jpGuide2": "迷惑じゃないぞ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "部長、タチの悪い冗談はやめてください",
+    "jpGuide1": "部長、タチの悪い冗談はやめてください",
+    "jpGuide2": "人違いです",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "◆セーブ04",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "月を目指すのをやめる",
+    "jpGuide1": "月を目指すのをやめる",
+    "jpGuide2": "それでも月を目指す　/　月を目指すのをやめる　END「夢の続き」",
+    "enGuide": "",
+    "badEndPath": "【夢の続き】END"
+  },
+  {
+    "simpleJp": "【夢の続き】END",
+    "jpGuide1": "【夢の続き】END",
+    "jpGuide2": "END「夢の続き」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4にロード",
+    "jpGuide1": "◆セーブ04から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "それでも月を目指す",
+    "jpGuide1": "それでも月を目指す",
+    "jpGuide2": "それでも月を目指す　/　月を目指すのをやめる　END「夢の続き」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "舐める",
+    "jpGuide1": "舐める",
+    "jpGuide2": "舐める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスがいい",
+    "jpGuide1": "アリエスがいい",
+    "jpGuide2": "アリエスがいい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスと組む",
+    "jpGuide1": "アリエスと組む",
+    "jpGuide2": "アリエスと組む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "◆セーブ05",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダメ",
+    "jpGuide1": "ダメ",
+    "jpGuide2": "いい　/　ダメ　END「消えたアリエス」",
+    "enGuide": "",
+    "badEndPath": "【消えたアリエス】END"
+  },
+  {
+    "simpleJp": "【消えたアリエス】END",
+    "jpGuide1": "【消えたアリエス】END",
+    "jpGuide2": "END「消えたアリエス」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5にロード",
+    "jpGuide1": "◆セーブ05から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "いい",
+    "jpGuide1": "いい",
+    "jpGuide2": "いい　/　ダメ　END「消えたアリエス」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "◆セーブ06",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスに手を伸ばす",
+    "jpGuide1": "アリエスに手を伸ばす",
+    "jpGuide2": "僕の願いはそんなことじゃない　/　アリエスに手を伸ばす　END「Falling　Star」",
+    "enGuide": "",
+    "badEndPath": "【Falling Star】END"
+  },
+  {
+    "simpleJp": "【Falling Star】END",
+    "jpGuide1": "【Falling Star】END",
+    "jpGuide2": "END「Falling　Star」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6にロード",
+    "jpGuide1": "◆セーブ06から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "僕の願いはそんなことじゃない",
+    "jpGuide1": "僕の願いはそんなことじゃない",
+    "jpGuide2": "僕の願いはそんなことじゃない　/　アリエスに手を伸ばす　END「Falling　Star」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7",
+    "jpGuide1": "◆セーブ07",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そっと引き出しに戻す",
+    "jpGuide1": "そっと引き出しに戻す",
+    "jpGuide2": "アルバムを見る　/　そっと引き出しに戻す　END「閉じられた鍵」",
+    "enGuide": "",
+    "badEndPath": "【閉じられた鍵】END"
+  },
+  {
+    "simpleJp": "【閉じられた鍵】END",
+    "jpGuide1": "【閉じられた鍵】END",
+    "jpGuide2": "END「閉じられた鍵」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7にロード",
+    "jpGuide1": "◆セーブ07から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "アルバムを見る",
+    "jpGuide1": "アルバムを見る",
+    "jpGuide2": "アルバムを見る　/　そっと引き出しに戻す　END「閉じられた鍵」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ8",
+    "jpGuide1": "◆セーブ08",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "アリエスの手に任せる",
+    "jpGuide1": "アリエスの手に任せる",
+    "jpGuide2": "やっぱりダメだ!　/　アリエスの手に任せる　END「白い世界」",
+    "enGuide": "",
+    "badEndPath": "【白い世界】END"
+  },
+  {
+    "simpleJp": "【白い世界】END",
+    "jpGuide1": "【白い世界】END",
+    "jpGuide2": "END「白い世界」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ8にロード",
+    "jpGuide1": "◆セーブ08から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "やっぱりダメだ！",
+    "jpGuide1": "やっぱりダメだ！",
+    "jpGuide2": "やっぱりダメだ!　/　アリエスの手に任せる　END「白い世界」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ9",
+    "jpGuide1": "◆セーブ09",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "公園だ！",
+    "jpGuide1": "公園だ！",
+    "jpGuide2": "学校だ!　/　公園だ!　END「煙雨」",
+    "enGuide": "",
+    "badEndPath": "【煙雨】END"
+  },
+  {
+    "simpleJp": "【煙雨】END",
+    "jpGuide1": "【煙雨】END",
+    "jpGuide2": "END「煙雨」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ9にロード",
+    "jpGuide1": "◆セーブ09から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "学校だ！",
+    "jpGuide1": "学校だ！",
+    "jpGuide2": "学校だ!　/　公園だ!　END「煙雨」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "今は機会を待つ",
+    "jpGuide1": "今は機会を待つ",
+    "jpGuide2": "アクアに向かって突っ込む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "【アリエス】END",
+    "jpGuide1": "【アリエス】END",
+    "jpGuide2": "「1st episodeクリア  」",
+    "enGuide": ""
+  }
+]

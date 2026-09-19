@@ -88,11 +88,16 @@
   },
   "v210": {
     "slug": "himawari",
-    "has_guide": false,
+    "has_guide": true,
     "title": "Himawari",
     "alttitle": "ひまわり",
     "cover_url": "https://t.vndb.org/cv/73/98573.jpg",
-    "added_at": "2026-08-31T17:22:19.884335+00:00"
+    "added_at": "2026-08-31T17:22:19.884335+00:00",
+    "guide_target": {
+      "label": "ひまわり -Pebble in the Sky- (2016 Windows版)",
+      "platform": "Windows",
+      "url": "https://vndb.org/r44665"
+    }
   },
   "v13666": {
     "slug": "凍京necroトウキョウネクロ",

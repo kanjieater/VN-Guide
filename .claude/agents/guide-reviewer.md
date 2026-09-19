@@ -45,7 +45,7 @@ If either verification set fails the completeness/independence gate, the route c
 
 ## Review checklist
 
-For the route under review, verify:
+For the guide section under review, verify:
 
 - every route-defining choice and its order;
 - route prerequisites and unlock conditions;

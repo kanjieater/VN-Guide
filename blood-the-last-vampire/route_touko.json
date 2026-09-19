@@ -33,7 +33,7 @@
     "simpleJp": "セーブ10",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial save placed at the very start of 灯子編's Gekan content, before the first B.S.S. opportunity. Neither source marks an explicit in-game SAVE point here (this PS2 title has no mid-chapter save screen documented by either source); this slot exists so every documented ending of this route can be reached and reloaded from a shared checkpoint, matching the convention already used in route_yami_no_ou.json and route_kyuumei.json. Starting BLOOD level here is 10 (see note above)."
+    "enGuide": "Editorial save at the start of the 下巻 灯子編 content, before the first B.S.S. opportunity. It is not gameplay-source text, so jpGuide2 correctly uses the omission placeholder. Starting BLOOD level here is 10."
   },
   {
     "simpleJp": "BSSタップ：「灯子の『欲しいの？』」",
@@ -44,8 +44,8 @@
   {
     "simpleJp": "BSSタップ：「正夫の『私にとって、すべては』」",
     "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "この土地……？",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. xneo.jp's own per-ending table lists this exact trigger as the very first item of its Ending 6 row (headed ～灯子編～), and its category header groups it under 桜ヶ丘団地（闇の王編・究明編・灯子編）as shared across all three of those routes. xneo.jp's Ending 9/10/24 rows do not separately list this trigger (their own rows begin with いらないよ or jump straight to 父さん、何処へ行くの？instead); neither source clarifies whether both this trigger and いらないよ occur on every single 灯子編 playthrough, or whether the two ending groups (6, versus 9/10/24) represent genuinely different early branches. This guide includes both once, in the order xneo.jp's own Ending 6 row implies, and flags this as the guide's own reconstruction of a shared backbone rather than a single directly-sourced continuous listing."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Blood Search System — XNEO lists この土地……？ at the start of its Ending 6 灯子編 row, while the later 灯子編 rows used for the deeper route do not independently establish that it co-occurs with いらないよ on the same playthrough. The current topology is preserved during this source migration, but no Set-B claim is made for this disputed step; the fresh gameplay-based accuracy pass should resolve whether it belongs on the same run."
   },
   {
     "simpleJp": "BSSタップ：「３つ目の街の場面」",
@@ -93,7 +93,7 @@
     "simpleJp": "まっすぐだ",
     "jpGuide1": "まっすぐだ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "trigger — strong two-source agreement on this specific short bad end. Neither source documents what the alternative (non-まっすぐだ) direction choice is worded as at this exact fork; see the note on the good-path continuation after the reload below.",
+    "enGuide": "Set-A-only optional detour toward XNEO Ending 6. The replacement Set-B recording is used for the main 灯子編 route, so this detour carries the omission placeholder.",
     "badEndPath": "エンディング6「灯子編」"
   },
   {

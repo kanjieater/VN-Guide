@@ -110,7 +110,6 @@ def structural_signature(route_file: Path) -> tuple | None:
             step.get("simpleJp"),
             step.get("badEndPath"),
             bool(step.get("isLoad", False)),
-            bool(step.get("isRestart", False)),
         ))
     return tuple(signature)
 

@@ -25,38 +25,38 @@
   },
   {
     "simpleJp": "大人しく待ってみようか",
-    "jpGuide1": "→【大人しく待ってみようか】【第四案を検討する】【自分が出る】【これは夢だし】【どういうこと】【それでも】でBad End『雫』（ED4）",
+    "jpGuide1": "→〖大人しく待ってみようか〗〖第四案を検討する〗〖自分が出る〗〖これは夢だし〗〖どういうこと〗〖それでも〗でBad End『雫』（ED4）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
     "badEndPath": "Bad End『雫』（ED4）"
   },
   {
     "simpleJp": "第四案を検討する",
-    "jpGuide1": "【第四案を検討する】",
+    "jpGuide1": "〖第四案を検討する〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "自分が出る",
-    "jpGuide1": "【自分が出る】",
+    "jpGuide1": "〖自分が出る〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "これは夢だし",
-    "jpGuide1": "【これは夢だし】",
+    "jpGuide1": "〖これは夢だし〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "どういうこと",
-    "jpGuide1": "【どういうこと】",
+    "jpGuide1": "〖どういうこと〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "それでも",
-    "jpGuide1": "【それでも】",
+    "jpGuide1": "〖それでも〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },

@@ -2,49 +2,49 @@
   {
     "simpleJp": "少年は神田へと向かった",
     "jpGuide1": "少年は神田へと向かった",
-    "jpGuide2": "少年は神田へと向かった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, matching the convention already used in route_touko.json, route_kyuumei.json and route_yami_no_ou.json. +10 BLOOD. This exact opening line is also quoted verbatim as the first item of xneo.jp's own '＜大岡レポート＞' preamble for both its Ending 20 and Ending 25 rows under 瑠璃亜編, confirming this is the correct path toward this route."
   },
   {
     "simpleJp": "少年は少女と出会った",
     "jpGuide1": "少年は少女と出会った",
-    "jpGuide2": "少年は少女と出会った",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "二人は書店に行ったようだ",
     "jpGuide1": "二人は書店に行ったようだ",
-    "jpGuide2": "二人は書店に行ったようだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "+10 BLOOD."
   },
   {
     "simpleJp": "二人はある本に興味をもった",
     "jpGuide1": "二人はある本に興味をもった",
-    "jpGuide2": "二人はある本に興味をもった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "+10 BLOOD."
   },
   {
     "simpleJp": "二人はその本を買った",
     "jpGuide1": "二人はその本を買った",
-    "jpGuide2": "二人はその本を買った",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "+10 BLOOD."
   },
   {
     "simpleJp": "少年はそれを渡した",
     "jpGuide1": "少年はそれを渡した",
-    "jpGuide2": "少年はそれを渡した",
-    "enGuide": "Follow the Ooka Report choice 少年はそれを渡した. XNEO's Ending 25 and Ending 27 rows both use this visible choice; the Set-B 瑠璃亜編 recording independently shows the same route opening."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Follow the Ooka Report choice 少年はそれを渡した. XNEO's Ending 25 and Ending 27 rows both use this visible choice."
   },
   {
     "simpleJp": "少年は怪しい所にいた",
     "jpGuide1": "少年は怪しい所にいた",
-    "jpGuide2": "少年は怪しい所にいた",
-    "enGuide": "+10 BLOOD. Follow the visible Ooka Report choice 少年は怪しい所にいた; both active source sets support this route opening."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "+10 BLOOD. Follow the visible Ooka Report choice 少年は怪しい所にいた; XNEO documents this route opening."
   },
   {
     "simpleJp": "少年は傷のわけを聞いた",
     "jpGuide1": "少年は傷のわけを聞いた",
-    "jpGuide2": "少年は傷のわけを聞いた",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "+10 BLOOD. XNEO's Ending 25 and Ending 27 rows use this same Ooka Report choice, so the two routes do not diverge here; the later B.S.S. completion pattern is what distinguishes them in the guide."
   },
   {
@@ -52,12 +52,6 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Checkpoint at the start of the 下巻 瑠璃亜編 content before the route's branching section."
-  },
-  {
-    "simpleJp": "BSSタップ：「主人公がうつむいたら」",
-    "jpGuide1": "今なら逃げられる……\t主人公がうつむいたら、サーチする。",
-    "jpGuide2": "今なら逃げられる……",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the opening B.S.S."
   },
   {
     "simpleJp": "セーブ14",
@@ -132,7 +126,7 @@
   {
     "simpleJp": "そうだね",
     "jpGuide1": "そうだね",
-    "jpGuide2": "そうだね",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Good-path continuation from セーブ14, toward the long chain (Endings 17/18/20/25). This guide follows xneo.jp's own mapping."
   },
   {
@@ -145,14 +139,14 @@
     "simpleJp": "他の翼手って知ってるの？",
     "jpGuide1": "他の翼手って知ってるの？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per XNEO, this is the second line of the optional Ending 15 row and leads toward that short detour. The guide treats this occurrence only as the visible choice text documented for Ending 15; no hidden internal-flag claim is made.",
+    "enGuide": "XNEO Ending 17 branch after そうだね. Continue 他の翼手って知ってるの？ → 瑠璃亜を抱く → 瑠璃亜と一緒にいられるのなら.",
     "badEndPath": "エンディング17"
   },
   {
     "simpleJp": "瑠璃亜を抱く",
     "jpGuide1": "瑠璃亜を抱く",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ending 25 path: arrive here after deliberately letting the three optional B.S.S. opportunities immediately after どうして翼手になったの？ pass without searching. xneo.jp's PS2 Ending 25 row goes directly from どうして翼手になったの？ to 瑠璃亜を抱く; Ending 27 includes 弱いって……？／瑠璃亜……／どんな人だったの？ before this same choice."
+    "enGuide": "Ending 17 continuation from 他の翼手って知ってるの？ toward 瑠璃亜と一緒にいられるのなら, matching XNEO's explicit Ending 17 sequence."
   },
   {
     "simpleJp": "瑠璃亜と一緒にいられるのなら",
@@ -188,37 +182,37 @@
   {
     "simpleJp": "どうして翼手になったの？",
     "jpGuide1": "どうして翼手になったの？",
-    "jpGuide2": "どうして翼手になったの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Good-path continuation from セーブ15 toward Endings 18/20/25. For this route's Ending 25 path, do NOT trigger the next three optional B.S.S. opportunities (弱いって……？／瑠璃亜……／どんな人だったの？); let those moments pass and continue to 瑠璃亜を抱く. This is directly supported by xneo.jp's PS2 Ending 25 row, which goes どうして翼手になったの？→瑠璃亜を抱く, while Ending 27 inserts those three B.S.S. results between the same two choices. The separate true_end route performs them."
   },
   {
     "simpleJp": "瑠璃亜を抱く",
     "jpGuide1": "瑠璃亜を抱く",
-    "jpGuide2": "瑠璃亜を抱く",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "瑠璃亜は僕が守るから",
     "jpGuide1": "瑠璃亜は僕が守るから",
-    "jpGuide2": "瑠璃亜は僕が守るから",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Per xneo.jp's own Ending 18/20/25 rows this is the line after 瑠璃亜を抱く on this branch."
   },
   {
     "simpleJp": "我慢して！",
     "jpGuide1": "我慢して！",
-    "jpGuide2": "我慢して！",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「主人公の顔がアップになったら」",
     "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする。",
-    "jpGuide2": "瑠璃亜！",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Same B.S.S. entry as the one already documented on the Ending 17 branch above; per xneo.jp's own tables the identical named trigger reappears at the equivalent story beat on this branch (瑠璃亜は僕が守るから) as well."
   },
   {
     "simpleJp": "逃げ出す",
     "jpGuide1": "逃げ出す",
-    "jpGuide2": "逃げ出す",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Per xneo.jp shared by Endings 18, 20 and 25 alike at this position."
   },
   {
@@ -244,31 +238,31 @@
   {
     "simpleJp": "マッチを見る",
     "jpGuide1": "マッチを見る",
-    "jpGuide2": "マッチを見る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Good-path continuation from セーブ16 toward Ending 25. After choosing マッチを見る, do NOT trigger the optional B.S.S. result ママさんなら……; let that opportunity pass and continue to the later 小夜「待て」 search. xneo.jp's PS2 Ending 25 row omits ママさんなら……, whereas Ending 27 includes it at this exact point. This is the fourth optional B.S.S. that differentiates route_true_end's Ending 27 sequence from this Ending 25 sequence."
   },
   {
     "simpleJp": "BSSタップ：「小夜の『待て』」",
     "jpGuide1": "瑠璃亜から離れる\t小夜の「どけ……」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "瑠璃亜から離れる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here. On this Ending 25 path this is the next B.S.S. action after deliberately skipping ママさんなら……."
   },
   {
     "simpleJp": "BSSタップ：「瑠璃亜の『いっ、いや』」",
     "jpGuide1": "瑠璃亜に駆け寄る\t瑠璃亜の「い、いや～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "瑠璃亜に駆け寄る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "BSSタップ：「小夜の『楽にしてやる』」",
     "jpGuide1": "瑠璃亜をかばう\t小夜の「楽にしてやる」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "瑠璃亜をかばう",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to choose 瑠璃亜をかばう. With the four earlier optional B.S.S. results deliberately skipped (弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……), xneo.jp's PS2 Ending 25 row ends with this successful final search. Ending 27 uses the same final 瑠璃亜をかばう search but additionally includes all four optional B.S.S. results; route_true_end documents that full-completion path. Ending 20 is the complementary near-miss that includes the four optional results but stops before this final search."
   },
   {
     "simpleJp": "瑠璃亜編（エンディング25）",
     "jpGuide1": "エンディング25～瑠璃亜編～",
-    "jpGuide2": "瑠璃亜編",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Route complete — xneo.jp's PS2 Ending 25 (瑠璃亜編). CORRECTED per issue #18: this path now matches the explicit Ending 25 row by skipping all four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… while still completing the final 瑠璃亜をかばう search. The separate true_end route uses the same Ooka Report opening and final search but performs all four optional B.S.S. results, matching xneo.jp's Ending 27 row."
   }
 ]

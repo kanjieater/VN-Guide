@@ -1,5 +1,11 @@
 [
   {
+    "simpleJp": "Restart",
+    "jpGuide1": "※タイトル画面の■Restartを開始",
+    "jpGuide2": "☆Restartから開始",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ10",
     "jpGuide1": "◆セーブ10",
     "jpGuide2": "（第二ガイドに記載なし）",

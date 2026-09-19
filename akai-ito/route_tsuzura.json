@@ -373,12 +373,6 @@
     "badEndPath": "Normal End『此岸と彼岸』（ED11）"
   },
   {
-    "simpleJp": "割るべきだと思う",
-    "jpGuide1": "「割るべきだと思う」",
-    "jpGuide2": "割るべきだと思う",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "割るのは忍びない",
     "jpGuide1": "「割るのは忍びない」",
     "jpGuide2": "割るのは忍びない",
@@ -386,7 +380,7 @@
   },
   {
     "simpleJp": "Normal End『此岸と彼岸』（ED11）",
-    "jpGuide1": "エンディングNo.11\nNormal End\n『牝岸と彼岸』",
+    "jpGuide1": "Normal End『此岸と彼岸』（ED11）",
     "jpGuide2": "No.11 此岸と彼岸",
     "enGuide": ""
   },

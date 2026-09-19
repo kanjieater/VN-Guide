@@ -98,7 +98,7 @@ For every documented non-main ending detour:
 2. Add the first branch choice and set `badEndPath` to the **exact documented ending label**.
 3. Include every documented step needed to reach the ending terminal.
 4. Immediately after the terminal, add exactly one structural return: the matching `isLoad: true` step, or `isRestart: true` for a documented replay-from-beginning ending with no usable checkpoint.
-5. Continue with the good/main choice. For a replay-from-start detour, `badEndPath` may begin on the first replay step so the entire standalone replay is structurally removable.
+5. Continue with the good/main choice. For a replay-from-start detour, include the full failed playthrough from route entry, mark the first wrong choice with `badEndPath`, terminate it with `isRestart: true`, then replay the route from the beginning on the good/main path.
 
 If multiple non-main endings branch from the same save, include **all** of them before continuing.
 

@@ -19,7 +19,7 @@
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
-      "stepCount": 66,
+      "stepCount": 60,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     },
@@ -128,11 +128,16 @@
       "url": "https://foxtail.okitsune.com/kitchen/capture/red6.htm",
       "title": "アカイイト攻略 - 浅間サクヤ ED4 条件分岐 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Sakuya ED4『雫』. Directly inspectable conditional branch table linked from red4; verifies the separate replay-from-beginning sequence through『蛇が！　毒が！？』/『お願いします』to ED4.",
-      "set": "B"
+      "notes": "Supplementary Japanese branch evidence for an alternative route to Sakuya ED4『雫』. Directly inspectable and linked from Foxtail red4, but it does not match the exact target-specific ED4 recovery sequence emitted by this guide, so it is not counted as an active Set-B component for that detour."
+    },
+    {
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/akaiito-hd-remaster-hd-remaster",
+      "title": "AKAIITO HD REMASTER 攻略",
+      "language": "ja",
+      "notes": "Supplementary target-labeled walkthrough only; not counted as Set A or Set B. It documents yet another valid path to Sakuya ED4『雫』, supporting the conclusion that the differing Livedoor/Foxtail ED4 sequences are alternative solutions rather than mutually exclusive ending conditions."
     }
   ],
-  "generated_at": "2026-09-19T22:18:00.000Z",
+  "generated_at": "2026-09-19T22:31:00.000Z",
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",

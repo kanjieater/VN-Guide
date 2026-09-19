@@ -22,8 +22,7 @@ Each `route_<id>.json` is a flat step array.
 
 - `badEndPath` marks the first branch step of a documented non-main ending detour (bad, normal, alternate, or similarly labeled).
 - `isLoad: true` terminates a save-backed detour and returns to the main route.
-- `isRestart: true` terminates a source-documented replay-from-beginning detour when no usable checkpoint exists.
-- Exactly one terminator is allowed per detour: `isLoad: true` or `isRestart: true`, never both.
+- A replay-from-beginning detour with no usable documented checkpoint ends at its explicit ending terminal; the following repeated opening sequence is the fresh replay boundary. No second structural-return field is used.
 - `isLoad: true` must never be used for an ordinary cross-route save load.
 - An ordinary route-entry instruction such as `セーブ3にロード` is structurally a plain step unless it terminates a preceding `badEndPath`.
 
@@ -35,18 +34,17 @@ For every non-main-ending chain verify:
 
 - exactly one non-empty `badEndPath` start;
 - zero or more intermediate plain steps are allowed (an immediate-terminal bad end may load immediately);
-- exactly one terminator: `isLoad: true` or `isRestart: true`;
-- an `isLoad: true` terminator references a save created earlier in the same route;
-- an `isRestart: true` terminator is a standalone restart/replay instruction and does not claim a save;
+- a save-backed detour has exactly one terminating `isLoad: true`, and that load references a save created earlier in the same route;
+- a replay-from-beginning prefix has an explicit ending terminal, is followed immediately by the route's normal opening sequence again, and has no invented save/load terminator;
 - no nested/unpaired bad-end start exists;
 - the named bad end is represented at the terminal step or is unambiguously identifiable from the chain context.
 
-Reconstruct the main route by removing save-backed non-main-ending chains from `badEndPath` through their terminating `isLoad`. For a replay-from-beginning chain terminated by `isRestart: true`, remove the entire failed-play prefix from route step 0 through that restart terminator; the residual route must begin with the fresh replay that follows. The remaining route must:
+Reconstruct the main route by removing save-backed non-main-ending chains from `badEndPath` through their terminating `isLoad`. For a replay-from-beginning non-main ending with no usable checkpoint, remove the entire failed-play prefix from route step 0 through its explicit ending terminal; the residual route must begin with the repeated normal opening sequence that follows. The remaining route must:
 
 - begin at step 0;
 - end at the intended good ending;
-- contain no `isLoad: true` or `isRestart: true`;
-- contain no orphaned structural return.
+- contain no `isLoad: true`;
+- contain no orphaned structural load.
 
 Ordinary cross-route load instructions may remain on the main route as plain steps.
 

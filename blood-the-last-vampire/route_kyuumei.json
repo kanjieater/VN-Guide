@@ -109,12 +109,6 @@
     "enGuide": "an extra 小夜……！ / ！！ B.S.S. This guide follows xneo.jp's tape colours and structure throughout, since it is the more detailed and internally consistent source for this specific route's six distinct endings."
   },
   {
-    "simpleJp": "BLOODレベル確認：70以上が必要",
-    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 70 or higher at this choice to continue the story instead of ending immediately here (see xneo.jp's Ending 4 for the under-70 outcome, covered later in this guide). If BLOOD is under 70, reload and make sure to tap every B.S.S. opportunity encountered so far."
-  },
-  {
     "simpleJp": "飛び降りる",
     "jpGuide1": "飛び降りる",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -151,16 +145,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：80以上が必要",
+    "simpleJp": "カッツ……！",
     "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 80 or higher here. xneo.jp documents that this exact convergence point is shared with its own Ending 9 (灯子編, out of scope for this route): if BLOOD is under 80, the choice completes immediately as Ending 9 instead. If BLOOD is 80 or higher, the following choice between 横に飛ぶ (this route's Ending 11) and 後ろに飛ぶ (xneo.jp's Ending 10, 灯子編, out of scope) determines which route's ending you get — choose 横に飛ぶ."
-  },
-  {
-    "simpleJp": "カッツ……！",
-    "jpGuide1": "カッツ……！",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Choose カッツ……！ when it appears. XNEO prints the BLOOD condition on the choice itself; the Set-B gameplay independently shows the successful main-route continuation."
   },
   {
     "simpleJp": "横に飛ぶ",
@@ -249,12 +237,6 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：70以上が必要",
-    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 70 or higher here to continue toward Ending 14 instead of ending immediately (see xneo.jp's Ending 4, covered later in this guide, for the under-70 outcome)."
-  },
-  {
     "simpleJp": "飛び降りる",
     "jpGuide1": "飛び降りる",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -319,12 +301,6 @@
     "jpGuide1": "僕の意思？",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
-  },
-  {
-    "simpleJp": "BLOODレベル確認：80以上が必要",
-    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 80 or higher here. This guide follows xneo.jp's documented structure for its own Ending 14."
   },
   {
     "simpleJp": "カッツ……！",
@@ -544,16 +520,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：70以上が必要",
-    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 70 or higher here to continue toward Ending 26 instead of ending immediately (compare Ending 4's under-70 outcome above). Tap every B.S.S. opportunity encountered so far if unsure."
-  },
-  {
     "simpleJp": "飛び降りる",
-    "jpGuide1": "飛び降りる",
+    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
     "jpGuide2": "飛び降りる",
-    "enGuide": ""
+    "enGuide": "Choose 飛び降りる when it appears to continue toward the deeper 究明編 route. XNEO prints the BLOOD condition on this same choice; the Set-B gameplay independently shows this continuation on the successful route."
   },
   {
     "simpleJp": "BSSタップ：「正夫の『私にとって、すべては』」",
@@ -614,12 +584,6 @@
     "jpGuide1": "僕の意思？",
     "jpGuide2": "僕の意思？",
     "enGuide": ""
-  },
-  {
-    "simpleJp": "BLOODレベル確認：80以上が必要",
-    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 80 or higher here. This guide follows xneo.jp's documented structure."
   },
   {
     "simpleJp": "カッツ……！",

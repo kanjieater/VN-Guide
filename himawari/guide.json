@@ -25,9 +25,15 @@
     {
       "id": "asuka",
       "title": "西園寺明香",
-      "stepCount": 42,
+      "stepCount": 31,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/27/46527.jpg"
+    },
+    {
+      "id": "completion",
+      "title": "クリア後",
+      "stepCount": 11,
+      "reviewed": false
     }
   ],
   "sources": [
@@ -166,7 +172,7 @@
       "notes": "Additional candidate found in Japanese search; direct wiki access returned 403. Not read in full and not used as evidence or counted toward the two-complete-guide requirement."
     }
   ],
-  "generated_at": "2026-09-19T21:00:00+00:00",
+  "generated_at": "2026-09-19T21:12:00+00:00",
   "guide_target": {
     "label": "ひまわり -Pebble in the Sky- (2016 Windows版)",
     "platform": "Windows",

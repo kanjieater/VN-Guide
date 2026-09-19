@@ -21,7 +21,9 @@ If the caller/orchestrator explicitly specifies a review transport (for example,
 Each `route_<id>.json` is a flat step array.
 
 - `badEndPath` marks the first branch step of a documented non-main ending detour (bad, normal, alternate, or similarly labeled).
-- `isLoad: true` terminates that detour and returns to the main route.
+- `isLoad: true` terminates a save-backed detour and returns to the main route.
+- `isRestart: true` terminates a source-documented replay-from-beginning detour when no usable checkpoint exists.
+- Exactly one terminator is allowed per detour: `isLoad: true` or `isRestart: true`, never both.
 - `isLoad: true` must never be used for an ordinary cross-route save load.
 - An ordinary route-entry instruction such as `セーブ3にロード` is structurally a plain step unless it terminates a preceding `badEndPath`.
 
@@ -33,17 +35,18 @@ For every non-main-ending chain verify:
 
 - exactly one non-empty `badEndPath` start;
 - zero or more intermediate plain steps are allowed (an immediate-terminal bad end may load immediately);
-- exactly one terminating `isLoad: true`;
-- the terminating load references a save created earlier in the same route;
+- exactly one terminator: `isLoad: true` or `isRestart: true`;
+- an `isLoad: true` terminator references a save created earlier in the same route;
+- an `isRestart: true` terminator is a standalone restart/replay instruction and does not claim a save;
 - no nested/unpaired bad-end start exists;
 - the named bad end is represented at the terminal step or is unambiguously identifiable from the chain context.
 
-Reconstruct the main route by removing non-main-ending chains from `badEndPath` through their terminating `isLoad`. The remaining route must:
+Reconstruct the main route by removing non-main-ending chains from `badEndPath` through their terminating `isLoad` or `isRestart`. The remaining route must:
 
 - begin at step 0;
 - end at the intended good ending;
-- contain no `isLoad: true`;
-- contain no orphaned structural load.
+- contain no `isLoad: true` or `isRestart: true`;
+- contain no orphaned structural return.
 
 Ordinary cross-route load instructions may remain on the main route as plain steps.
 

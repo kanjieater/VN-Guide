@@ -110,9 +110,9 @@
   },
   {
     "simpleJp": "飛び降りる",
-    "jpGuide1": "飛び降りる",
+    "jpGuide1": "飛び降りる（BLOODレベルが70未満の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Set-A-only optional Ending 4 choice. XNEO prints the under-70 condition directly on this choice."
   },
   {
     "simpleJp": "父さん、何処へ行くの？",
@@ -475,12 +475,6 @@
     "jpGuide1": "赤いテープだ",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
-  },
-  {
-    "simpleJp": "BLOODレベル確認：70未満が必要",
-    "jpGuide1": "飛び降りる（BLOODレベルが70未満の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be under 70 here for Ending 4. If BLOOD is well clear of 70 in either direction this does not matter; treat exactly-70 as ambiguous and avoid it if trying deliberately for Ending 4."
   },
   {
     "simpleJp": "飛び降りる",

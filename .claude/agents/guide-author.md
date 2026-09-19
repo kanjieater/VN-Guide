@@ -31,10 +31,10 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 
 Before writing any route:
 
-1. Read the explicit `guide_target` supplied by `games.json` or the caller. Do **not** choose a release from the VNDB work id.
-2. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id (for the local runner, `GUIDE_TARGET_VID` must equal this game's VNDB id). Never reuse a caller target for another pending game.
-3. Persist an accepted caller target to `games.json` before research.
-4. Require non-empty target `label`, `platform`, and release-specific `url`; if the target is missing, stop and report it.
+1. Read the `guide_target` supplied by `games.json` or the caller.
+2. If neither supplies one, resolve the newest unambiguous official complete release with native Japanese in-game text using release-specific metadata; do not choose from the broad VNDB work entry alone. If that newest applicable release is ambiguous, stop and request an explicit target.
+3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id (for the local runner, `GUIDE_TARGET_VID` must equal this game's VNDB id). Never reuse a caller target for another pending game.
+4. Persist the resolved target—repository, caller, or default—to `games.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
 5. Identify two independent Japanese verification sets as defined in `.claude/guide-standards.md`.
 6. Verify both are directly inspectable and apply to the **exact target release**; document version differences.
 7. Verify both collectively cover every main-route-defining decision, prerequisite/unlock, and route/main ending used by the guide.

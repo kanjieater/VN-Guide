@@ -6,7 +6,7 @@
       "id": "aries",
       "title": "アリエス",
       "stepCount": 55,
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/25/46525.jpg"
     },
     {
@@ -35,13 +35,15 @@
       "url": "https://seiya-saiga.com/game/frontwing/himawari_pc.html",
       "title": "誠也の部屋【ひまわり -Pebble in the sky- PC版 攻略】",
       "language": "ja",
-      "notes": "Primary Japanese walkthrough 1. Complete 2016 PC remake walkthrough, updated 16/05/22: all four main routes, all nineteen bad/alternative endings, nineteen explicitly numbered source saves, reload references, and post-clear Another Side, 2048-2050, Tips and Keywords. Includes Vita trophy annotations; these are not choice text. Direct connections timed out, but the full page was successfully fetched using https://r.jina.ai/https://seiya-saiga.com/game/frontwing/himawari_pc.html, including an HTML response requested with X-Return-Format: html. Use the actual HTML for exact quotes: the default Markdown representation adds checkbox syntax that is not original source text. Source reload references are written as ◆セーブNN から; do not manufacture a verbatim load instruction where a source does not supply one. The source numbers are references, not final player save numbers after reordering detours."
+      "notes": "Set A; exact-target Japanese walkthrough for the 2016 Windows release r44665. Complete PC-remake walkthrough covering all four main routes, all nineteen bad/alternative endings, explicit saves/reloads, and post-clear material. Use this set for exact PC choice/save text. Complete 2016 PC remake walkthrough, updated 16/05/22: all four main routes, all nineteen bad/alternative endings, nineteen explicitly numbered source saves, reload references, and post-clear Another Side, 2048-2050, Tips and Keywords. Includes Vita trophy annotations; these are not choice text. Direct connections timed out, but the full page was successfully fetched using https://r.jina.ai/https://seiya-saiga.com/game/frontwing/himawari_pc.html, including an HTML response requested with X-Return-Format: html. Use the actual HTML for exact quotes: the default Markdown representation adds checkbox syntax that is not original source text. Source reload references are written as ◆セーブNN から; do not manufacture a verbatim load instruction where a source does not supply one. The source numbers are references, not final player save numbers after reordering detours.",
+      "set": "A"
     },
     {
       "url": "https://plaza.rakuten.co.jp/mizukinoko/diary/201508300000/",
       "title": "Vita　ひまわり -Pebble in the sky- 　攻略 | みずきのこのブログ",
       "language": "ja",
-      "notes": "Primary Japanese walkthrough 2. Entire article fetched directly. Dated 2015/08/30; complete choice coverage for the four Vita-remake routes and nineteen bad/alternative endings, including the two-choice Aqua detours and an explicit shared SAVE/reload. Does not cover post-clear supplemental stories, Tips or Keywords, and does not explicitly mark most saves. Use with Seiya for remake-era route cross-validation; use Gorilla's supplemental pages for coverage absent here. Slash-separated alternatives and END labels are source formatting, not one combined game choice. Contains spelling/punctuation differences and some alternate harmless choices; preserve source quotes without silently normalizing them."
+      "notes": "Set B; independent Japanese walkthrough for the immediately preceding 2015 PlayStation Vita remake r40151. It independently corroborates the same four-route unlock/order, route-defining branches, main endings, and nineteen non-main endings used by the Windows target. It is cross-platform structural/outcome evidence, not a source of exact Windows text: punctuation and harmless-choice divergences remain preserved verbatim in jpGuide2 rather than being normalized into Set A. Entire article fetched directly. Dated 2015/08/30; complete choice coverage for the four Vita-remake routes and nineteen bad/alternative endings, including the two-choice Aqua detours and an explicit shared SAVE/reload. Does not cover post-clear supplemental stories, Tips or Keywords, and does not explicitly mark most saves. Use with Seiya for remake-era route cross-validation; use Gorilla's supplemental pages for coverage absent here. Slash-separated alternatives and END labels are source formatting, not one combined game choice. Contains spelling/punctuation differences and some alternate harmless choices; preserve source quotes without silently normalizing them.",
+      "set": "B"
     },
     {
       "url": "https://himawari.gorillawiki.jp/",
@@ -164,5 +166,10 @@
       "notes": "Additional candidate found in Japanese search; direct wiki access returned 403. Not read in full and not used as evidence or counted toward the two-complete-guide requirement."
     }
   ],
-  "generated_at": "2026-09-19T13:30:24.211284+00:00"
+  "generated_at": "2026-09-19T20:54:00+00:00",
+  "guide_target": {
+    "label": "ひまわり -Pebble in the Sky- (2016 Windows版)",
+    "platform": "Windows",
+    "url": "https://vndb.org/r44665"
+  }
 }

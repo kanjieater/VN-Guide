@@ -25,6 +25,24 @@
     "badEndPath": "楓玲 ＢＡＤ ＥＮＤ"
   },
   {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 1/3."
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 2/3."
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 3/3."
+  },
+  {
     "simpleJp": "楓玲 ＢＡＤ ＥＮＤ",
     "jpGuide1": "楓玲 ＢＡＤ ＥＮＤ",
     "jpGuide2": "・～は俺と来い→陵辱エンド",
@@ -42,6 +60,24 @@
     "jpGuide1": "楓玲は十兵衛と一緒にいけ",
     "jpGuide2": "・～は十兵衛と一緒に行け→ハッピーエンド",
     "enGuide": "楓玲のメインエンド側。"
+  },
+  {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 1/3."
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 2/3."
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 3/3."
   },
   {
     "simpleJp": "左",

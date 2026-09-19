@@ -6,6 +6,60 @@
     "enGuide": "桔梗ルートで作った共通セーブから開始。"
   },
   {
+    "simpleJp": "声を確かめる",
+    "jpGuide1": "声を確かめる",
+    "jpGuide2": "声を確かめる",
+    "enGuide": "Day 1. 紗枝 affinity setup."
+  },
+  {
+    "simpleJp": "何か用か？",
+    "jpGuide1": "何か用か？",
+    "jpGuide2": "何か用か？",
+    "enGuide": "Day 1. 紗枝 affinity setup."
+  },
+  {
+    "simpleJp": "起きない",
+    "jpGuide1": "起きない",
+    "jpGuide2": "起きない",
+    "enGuide": "Day 2. 紗枝 affinity setup."
+  },
+  {
+    "simpleJp": "うれしい",
+    "jpGuide1": "うれしい",
+    "jpGuide2": "うれしい",
+    "enGuide": "Day 2. 紗枝 CG/affinity path."
+  },
+  {
+    "simpleJp": "いつもの紗枝で接してくれ",
+    "jpGuide1": "いつもの紗枝で接してくれ",
+    "jpGuide2": "いつもの紗枝で接してくれ",
+    "enGuide": "Day 2. 紗枝 affinity setup."
+  },
+  {
+    "simpleJp": "双子にまつわるこの島の伝説を聞かない",
+    "jpGuide1": "双子にまつわるこの島の伝説を聞かない",
+    "jpGuide2": "双子にまつわるこの島の伝説を聞かない",
+    "enGuide": "Day 2. 紗枝 affinity setup."
+  },
+  {
+    "simpleJp": "話しかける",
+    "jpGuide1": "話しかける",
+    "jpGuide2": "話しかける",
+    "enGuide": "Day 2. 紗枝 affinity setup."
+  },
+  {
+    "simpleJp": "起きない",
+    "jpGuide1": "起きない",
+    "jpGuide2": "起きない",
+    "enGuide": "Day 3. 紗枝 affinity setup."
+  },
+  {
+    "simpleJp": "起きない",
+    "jpGuide1": "起きない",
+    "jpGuide2": "起きない",
+    "enGuide": "Day 4. 紗枝 affinity setup."
+  },
+  {
     "simpleJp": "セーブ3",
     "jpGuide1": "〖セーブ３〗",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -112,6 +166,24 @@
     "enGuide": "命好感度。"
   },
   {
+    "simpleJp": "変な解釈をするな",
+    "jpGuide1": "変な解釈をするな",
+    "jpGuide2": "変な解釈するな",
+    "enGuide": "Day 7. SagaoZ completion path; BIGLOBE marks this as 楓玲 affinity."
+  },
+  {
+    "simpleJp": "考え過ぎだな",
+    "jpGuide1": "考え過ぎだな",
+    "jpGuide2": "考え過ぎだな",
+    "enGuide": "Day 9. SagaoZ completion path; BIGLOBE marks this as 楓玲 affinity."
+  },
+  {
+    "simpleJp": "絶対に呪いを解いてやる",
+    "jpGuide1": "絶対に呪いを解いてやる",
+    "jpGuide2": "絶対に呪いを解いてやる",
+    "enGuide": "Day 10. SagaoZ completion path; BIGLOBE marks this as 楓玲 affinity."
+  },
+  {
     "simpleJp": "好きも嫌いもあるか",
     "jpGuide1": "好きも嫌いもあるか",
     "jpGuide2": "・好きも嫌いもあるか  | ※命好感度ＵＰ",
@@ -177,6 +249,24 @@
     "jpGuide1": "命は俺と来い",
     "jpGuide2": "不正解があった場合はバッドエンドになりますが、舞の陵辱ＣＧが追加されます",
     "enGuide": "SagaoZ では誤答状態のこの分岐が舞 BAD END へ進む。"
+  },
+  {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 1/3."
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 2/3."
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 3/3."
   },
   {
     "simpleJp": "舞 ＢＡＤ ＥＮＤ",
@@ -265,6 +355,24 @@
     "badEndPath": "命 ＢＡＤ ＥＮＤ"
   },
   {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 1/3."
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 2/3."
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 3/3."
+  },
+  {
     "simpleJp": "命 ＢＡＤ ＥＮＤ",
     "jpGuide1": "命 ＢＡＤ ＥＮＤ",
     "jpGuide2": "・～は俺と来い→陵辱エンド",
@@ -282,6 +390,24 @@
     "jpGuide1": "命は十兵衛と一緒にいけ",
     "jpGuide2": "・～は十兵衛と一緒に行け→ハッピーエンド",
     "enGuide": "命のメインエンド側。"
+  },
+  {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 1/3."
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 2/3."
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ending interrogation 3/3."
   },
   {
     "simpleJp": "セーブ7",

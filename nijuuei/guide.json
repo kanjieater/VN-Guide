@@ -10,21 +10,21 @@
     {
       "id": "kikyou",
       "title": "桔梗ルート",
-      "stepCount": 22,
+      "stepCount": 27,
       "reviewed": false,
       "portrait": ""
     },
     {
       "id": "mikoto",
       "title": "命ルート",
-      "stepCount": 56,
+      "stepCount": 77,
       "reviewed": false,
       "portrait": ""
     },
     {
       "id": "fuurei",
       "title": "楓玲ルート",
-      "stepCount": 9,
+      "stepCount": 15,
       "reviewed": false,
       "portrait": ""
     }
@@ -81,5 +81,5 @@
       "notes": "Official PC support reference documenting 二重影 executable/update files and Windows-specific support instructions. Used for target provenance, not route verification."
     }
   ],
-  "generated_at": "2026-09-19T22:30:00+00:00"
+  "generated_at": "2026-09-19T22:05:00+00:00"
 }

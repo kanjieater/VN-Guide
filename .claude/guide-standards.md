@@ -40,7 +40,7 @@ Before research begins, the caller/repository must supply:
 Rules:
 
 - `games.json.guide_target` is the normal repository source of truth.
-- A caller may explicitly supply the same three fields for a new guide, but the target must be persisted to `games.json` before research so later local/browser agents see the same target.
+- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id (the local runner uses `GUIDE_TARGET_VID`). A caller target for one VN must never be reused for another pending game. Persist the accepted target to `games.json` before research so later local/browser agents see the same target.
 - `label`, `platform`, and `url` are all required and non-empty.
 - The URL should identify the **specific intended release/edition**, not merely the broad work. When VNDB contains the exact target release, prefer its `https://vndb.org/r...` release page over the broader `v...` work page.
 - If no explicit target is supplied, stop and report the missing target. Never choose a release by inference.

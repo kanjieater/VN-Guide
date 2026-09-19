@@ -16,20 +16,9 @@ Use whatever repository/file/issue capabilities are available. Do not fetch Japa
 
 If the caller/orchestrator explicitly specifies a review transport (for example, create/use a `route-structure` issue), follow that transport exactly. Only default to PR-first when no transport is specified.
 
-## Section semantics
+## Route semantics
 
-Each `route_<id>.json` is a flat step array. Read the matching entry in `guide.json` / `research.json` to determine its section type.
-
-Normal entries (missing `type`, or any non-`completion` type) use route semantics below.
-
-A `type: "completion"` entry is a linear post-clear checklist:
-- it must contain no `badEndPath`;
-- it must contain no `isLoad: true`;
-- it must contain no structural save/load detour;
-- its last step is the structural terminal and must be the documented final completion action/result for that section;
-- it is not required to end at a heroine/story good ending.
-
-### Normal route semantics
+Each `route_<id>.json` is a flat guide-section step array.
 
 - `badEndPath` marks the first branch step of a documented non-main ending detour (bad, normal, alternate, or similarly labeled).
 - `isLoad: true` terminates that detour and returns to the main route.
@@ -39,16 +28,6 @@ A `type: "completion"` entry is a linear post-clear checklist:
 ## Structural review
 
 Trace the entire section.
-
-For `type: "completion"`:
-- verify the file is a non-empty linear step array;
-- verify there are no `badEndPath` or `isLoad: true` fields;
-- verify no step is a structural save/load detour;
-- verify the section starts at step 0 and ends at its final listed completion action/result;
-- structural review does not decide source accuracy or whether the final action is actually documented; that belongs to accuracy review.
-- if all checks pass, record PASS using the current section blob exactly like a route PASS.
-
-For a normal route, apply the rules below.
 
 For every non-main-ending chain verify:
 
@@ -62,7 +41,7 @@ For every non-main-ending chain verify:
 Reconstruct the main route by removing non-main-ending chains from `badEndPath` through their terminating `isLoad`. The remaining route must:
 
 - begin at step 0;
-- end at the intended good ending;
+- end at the intended documented terminal/outcome for that section (for example a heroine ending, chapter ending, true ending, or post-clear completion result);
 - contain no `isLoad: true`;
 - contain no orphaned structural load.
 
@@ -87,7 +66,7 @@ Use the fallback issue workflow. Create/reuse at most one `route-structure` issu
 
 ## Re-review
 
-After author corrections, re-read and re-trace the route.
+After author corrections, re-read and re-trace the section.
 
 If review is on an open PR:
 - still wrong → comment precisely what remains;

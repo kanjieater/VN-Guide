@@ -305,7 +305,7 @@
     "jpGuide1": "【サクヤを呼びに行く】",
     "jpGuide2": "【赤い導き】左ルート封印解除条件・鳥月ルートEND「爽やかな立ち風」を見る　右　サクヤを呼びに行く",
     "enGuide": "",
-    "badEndPath": "Bad End『凍てる弧月』（ED24）"
+    "badEndPath": "Bad End『凍てる孤月』（ED24）"
   },
   {
     "simpleJp": "止める",
@@ -321,14 +321,14 @@
   },
   {
     "simpleJp": "ごめんね……",
-    "jpGuide1": "【ごめんね……】でBad End『凍てる弧月』（ED24）",
+    "jpGuide1": "【ごめんね……】でBad End『凍てる孤月』（ED24）",
     "jpGuide2": "【散りゆく花びら】右　ごめんね…",
     "enGuide": ""
   },
   {
-    "simpleJp": "Bad End『凍てる弧月』（ED24）",
-    "jpGuide1": "Bad End『凍てる弧月』（ED24）",
-    "jpGuide2": "END No.24　凍てる弧月",
+    "simpleJp": "Bad End『凍てる孤月』（ED24）",
+    "jpGuide1": "凍てる孤月",
+    "jpGuide2": "No.24 凍てる孤月",
     "enGuide": ""
   },
   {
@@ -363,17 +363,17 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "飛び出していた",
-    "jpGuide1": "【飛び出していた】",
-    "jpGuide2": "【朱い鬼神】右　飛び出していた",
-    "enGuide": ""
+    "simpleJp": "見ているしかなかった",
+    "jpGuide1": "見ているしかなかった",
+    "jpGuide2": "見ているしかなかった(No.22へ)",
+    "enGuide": "",
+    "badEndPath": "Bad End『月の蝕み』（ED22）"
   },
   {
     "simpleJp": "月は蝕まれる運命なんだ",
     "jpGuide1": "【月は蝕まれる運命なんだ】でBad End『月の蝕み』（ED22）",
     "jpGuide2": "【月の蝕み】左　月は蝕まれる運命なんだ",
-    "enGuide": "",
-    "badEndPath": "Bad End『月の蝕み』（ED22）"
+    "enGuide": ""
   },
   {
     "simpleJp": "Bad End『月の蝕み』（ED22）",

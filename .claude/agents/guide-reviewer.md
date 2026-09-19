@@ -52,13 +52,15 @@ For the route under review, verify:
 - ending reachability;
 - save positions (a save may be documented by only one set, but must be explicit there), including the canonical rule that a source conflict uses the **earlier documented position**;
 - **every documented non-main ending detour is present** (bad, normal, alternate, or similarly labeled), including multiple detours from the same save;
-- each non-main-ending chain starts at the first branch step, uses the exact documented `badEndPath` ending label, runs through the documented terminal, and is followed by the correct load-back step;
+- each save-backed non-main-ending chain starts at the first branch step, uses the exact documented `badEndPath` ending label, runs through the documented terminal, and is followed by the correct load-back step;
+- a replay-from-beginning ending with no usable documented checkpoint is represented as a complete standalone replay chain and followed by `isRestart: true`, without an invented save;
 - no `badEndPath` exists unless a Japanese source explicitly documents that non-main ending;
-- `isLoad: true` appears only after a documented non-main ending detour;
+- `isLoad: true` appears only after a documented save-backed non-main ending detour;
+- `isRestart: true` appears only after a documented replay-from-beginning non-main ending detour with no usable checkpoint;
 - cross-route save numbering;
 - no hallucinated or missing required choices;
 - every emitted player-action `simpleJp` is exact in-game text with no paraphrase, suffix, or location prefix;
-- save/load steps are standalone and are the only normal non-choice `simpleJp` steps;
+- save/load/restart steps are standalone and are the only normal non-choice `simpleJp` steps;
 - useful available `enGuide` detail has not been silently dropped;
 - no contradictions across guide sections;
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;

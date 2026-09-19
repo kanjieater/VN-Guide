@@ -292,11 +292,14 @@ def load_completed_routes(routes: list[dict], guide_dir: Path) -> list[dict]:
         try:
             steps = json.loads(route_file.read_text())
             if isinstance(steps, list):
-                result.append({
+                item = {
                     "id": route_id,
                     "title": route.get("title", route_id),
                     "steps": steps,
-                })
+                }
+                if route.get("type"):
+                    item["type"] = route["type"]
+                result.append(item)
         except json.JSONDecodeError:
             pass
     return result
@@ -337,6 +340,9 @@ def assemble(slug: str, title: str, vndb_id: str, completed_routes: list[dict],
             "stepCount": len(r["steps"]),
             "reviewed": existing_reviewed.get(r["id"], False),
         }
+        section_type = research_routes.get(r["id"], {}).get("type") or r.get("type")
+        if section_type:
+            entry["type"] = section_type
         portrait = (research_routes.get(r["id"], {}).get("portrait", "")
                     or existing_portraits.get(r["id"], ""))
         if portrait:
@@ -562,6 +568,7 @@ def generate_guide(
                 VNDB_ID=vndb_id,
                 ROUTE_ID=route_id,
                 ROUTE_TITLE=route.get("title", route_id),
+                ROUTE_TYPE=route.get("type", "route"),
                 RESEARCH_FILE=str(guide_dir / "research.json"),
                 ROUTE_FILE=str(route_file),
                 SAVE_OFFSET=str(save_offset),

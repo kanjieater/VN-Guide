@@ -558,9 +558,9 @@
   },
   {
     "simpleJp": "闘って道を開くんだ……！",
-    "jpGuide1": "闘って道を開くんだ……！",
+    "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp this completes Ending 13 (with BLOOD under 85)."
+    "enGuide": "Choose this main-route continuation when it appears. XNEO prints its BLOOD condition on the choice itself; Set B independently shows the successful route action/outcome."
   },
   {
     "simpleJp": "セーブ4にロード",
@@ -624,34 +624,16 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BSSサーチを見送る（１回目）",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Deliberately do not search at the first 瑠璃亜 B.S.S. opportunity so the route can advance to the later opportunity used by XNEO's Ending 12/22/23 chain. This is an editorial skip instruction rather than on-screen source text, so jpGuide2 uses the omission placeholder."
-  },
-  {
-    "simpleJp": "BSSサーチを見送る（２回目）",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Deliberately do not search at the second 瑠璃亜 B.S.S. opportunity either. This is an editorial skip instruction rather than on-screen source text, so jpGuide2 uses the omission placeholder."
-  },
-  {
     "simpleJp": "BSSタップ：「瑠璃亜……」",
     "jpGuide1": "瑠璃亜の傍にいる\t主人公の「瑠璃亜～」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "瑠璃亜の傍にいる",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the third and final 瑠璃亜 B.S.S. opportunity in this scene; searching here (after skipping the first two) produces 瑠璃亜の傍にいる."
-  },
-  {
-    "simpleJp": "BLOODレベル確認：50以上が必要",
-    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 50 or higher at this choice to continue toward Ending 12/22/23 instead of a lower-BLOOD variant."
+    "enGuide": "Blood Search System — tap here to obtain 瑠璃亜の傍にいる. Let the first two 瑠璃亜 B.S.S. opportunities pass without searching, then search on this third opportunity; the skip behavior is guidance attached to this sourced action rather than emitted as synthetic steps."
   },
   {
     "simpleJp": "瑠璃亜……",
-    "jpGuide1": "瑠璃亜……",
+    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
     "jpGuide2": "瑠璃亜……",
-    "enGuide": ""
+    "enGuide": "Continue with 瑠璃亜…… when it appears. XNEO prints the BLOOD condition on this same choice; the Set-B main-route recording independently shows the choice on the successful 闇の王編 route."
   },
   {
     "simpleJp": "泣く",
@@ -868,27 +850,15 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：85以上が必要",
-    "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 85 or higher at this final choice for this chain to lead to Ending 23 instead of falling back to the lower-BLOOD Ending 12/13-style outcomes documented earlier in this guide."
-  },
-  {
     "simpleJp": "闘って道を開くんだ……！",
     "jpGuide1": "闘って道を開くんだ……！",
     "jpGuide2": "闘って道を開くんだ……！",
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：100以上が必要（ゲーム終了時）",
-    "jpGuide1": "【ゲームが終了した時】（BLOODレベルが100以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "XNEO states that BLOOD 100 or higher is required when the game concludes. Keep the documented B.S.S. opportunities in mind on the final main-route run to maximize BLOOD before this point."
-  },
-  {
     "simpleJp": "闇の王編（エンディング23）",
     "jpGuide1": "エンディング23～闇の王編～",
     "jpGuide2": "闇の王編",
-    "enGuide": "Route complete. xneo.jp lists this as its own Ending 23, headed ～闇の王編～. This is the route's main/final ending; the guide does not continue into another route from here."
+    "enGuide": "Route complete. XNEO labels this エンディング23～闇の王編～, and the route-specific PS2 gameplay recording independently reaches the 闇の王編 outcome. No separate synthetic BLOOD-threshold step is emitted."
   }
 ]

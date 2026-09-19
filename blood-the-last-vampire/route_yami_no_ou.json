@@ -2,37 +2,37 @@
   {
     "simpleJp": "少年は現れなかった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は現れなかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start. This is used because the companion Joukan (上巻) guide (route_joukan.json) already spends its own Continue on the 瑠璃亜編 branch, so 闇の王編 is reached independently here. xneo.jp's Gekan page does not document the Ooka Report mechanic at all (it assumes the player already continued from a specific Joukan ending), so jpGuide1 is empty for this step group. This shortest path keeps starting BLOOD level at 0."
   },
   {
     "simpleJp": "少年はうずくまったままだった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年はうずくまったままだった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "少年は声をかけた少女と一緒に行った",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は声をかけた少女と一緒に行った",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "二人は何処かへ行ったようだ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "二人は何処かへ行ったようだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "少年は瑠璃亜と一緒だった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は瑠璃亜と一緒だった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "少年はいい雰囲気だった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年はいい雰囲気だった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "This is the final Ooka Report branch that places the player at the start of the 闇の王編 (Dark King) route in Gekan, BLOOD level 0."
   },
   {
@@ -58,7 +58,7 @@
   {
     "simpleJp": "BSSタップ：「あ……あれは……」",
     "jpGuide1": "小夜にしがみつく\t主人公の「あ、あれは……」のセリフが終わったら、サーチする。",
-    "jpGuide2": "小夜にしがみつく",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. Successfully tapping produces the 小夜にしがみつく (cling to Saya) branch that every other 闇の王編 ending continues from. Either source's window is close enough in practice to be treated as the same trigger."
   },
   {
@@ -71,7 +71,7 @@
     "simpleJp": "うん",
     "jpGuide1": "うん",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "First step of the Set-A-only detour toward XNEO Ending 19 (闇の王編). The replacement Set-B recording is used for the main route, so this optional detour carries the omission placeholder.",
+    "enGuide": "First step of the XNEO-only detour toward Ending 19 (闇の王編). Under the owner-approved one-source exception, jpGuide2 uses the missing-source placeholder.",
     "badEndPath": "エンディング19「闇の王編」"
   },
   {
@@ -236,9 +236,9 @@
   },
   {
     "simpleJp": "瑠璃亜……",
-    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
+    "jpGuide1": "瑠璃亜……",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Set-A-only optional detour choice. XNEO prints the 50-or-higher condition directly on this choice."
+    "enGuide": "Set-A-only optional Ending 7 choice. XNEO prints this occurrence without a BLOOD>=50 parenthetical."
   },
   {
     "simpleJp": "力が……ほしい",
@@ -456,9 +456,9 @@
   },
   {
     "simpleJp": "瑠璃亜……",
-    "jpGuide1": "瑠璃亜……",
+    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Set-A-only Ending 13 choice. XNEO prints the 50-or-higher condition directly on this occurrence."
   },
   {
     "simpleJp": "泣く",
@@ -548,73 +548,73 @@
   {
     "simpleJp": "……",
     "jpGuide1": "……",
-    "jpGuide2": "……",
-    "enGuide": "This begins the main chain toward XNEO Ending 23, explicitly headed ～闇の王編～. The replacement Set-B 闇の王編 recording is the independent gameplay component for this main route."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This begins the main chain toward XNEO Ending 23, explicitly headed ～闇の王編～."
   },
   {
     "simpleJp": "僕はあの声に怯えた……",
     "jpGuide1": "僕はあの声に怯えた……",
-    "jpGuide2": "僕はあの声に怯えた……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "何がそんなに楽しいの……？",
     "jpGuide1": "何がそんなに楽しいの……？",
-    "jpGuide2": "何がそんなに楽しいの……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "もう僕は翼手なんだ",
     "jpGuide1": "もう僕は翼手なんだ",
-    "jpGuide2": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
     "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "戻れない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "そんなことない",
     "jpGuide1": "そんなことない",
-    "jpGuide2": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "騙されない……",
     "jpGuide1": "騙されない……",
-    "jpGuide2": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "違う……！",
     "jpGuide1": "違う……！",
-    "jpGuide2": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "あの声を聞いちゃいけない",
     "jpGuide1": "あの声を聞いちゃいけない",
-    "jpGuide2": "あの声を聞いちゃいけない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「瑠璃亜……」",
     "jpGuide1": "瑠璃亜の傍にいる\t主人公の「瑠璃亜～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "瑠璃亜の傍にいる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to obtain 瑠璃亜の傍にいる. Let the first two 瑠璃亜 B.S.S. opportunities pass without searching, then search on this third opportunity; the skip behavior is guidance attached to this sourced action rather than emitted as synthetic steps."
   },
   {
     "simpleJp": "瑠璃亜……",
     "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
-    "jpGuide2": "瑠璃亜……",
-    "enGuide": "Continue with 瑠璃亜…… when it appears. XNEO prints the BLOOD condition on this same choice; the Set-B main-route recording independently shows the choice on the successful 闇の王編 route."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Continue with 瑠璃亜…… when it appears. XNEO prints the BLOOD condition on this same choice."
   },
   {
     "simpleJp": "泣く",
     "jpGuide1": "泣く",
-    "jpGuide2": "泣く",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -692,9 +692,9 @@
   },
   {
     "simpleJp": "BSSタップ：「目を覚ますんだ！」",
-    "jpGuide1": "！！\t（推定タイミング：小夜「目を覚ますんだ！」のセリフ付近）",
+    "jpGuide1": "！！\t小夜の「目を覚ますんだ！」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Blood Search System detour step for XNEO Ending 22. XNEO lists the resulting B.S.S. entry at this position, but this optional detour is not claimed as covered by the main-route Set-B recording."
+    "enGuide": "Blood Search System detour step for XNEO Ending 22; the timing is quoted directly from XNEO's B.S.S. table."
   },
   {
     "simpleJp": "横に飛ぶ",
@@ -704,9 +704,9 @@
   },
   {
     "simpleJp": "BSSタップ：「再び刀を取って立ちあがる瞬間」",
-    "jpGuide1": "小夜に刀を投げる\t（推定タイミング：主人公が再び刀を取って立ちあがる場面）",
+    "jpGuide1": "小夜に刀を投げる\tカッツの攻撃を横に避けた後、主人公が立ち上がりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level. Per xneo.jp this completes Ending 22."
+    "enGuide": "Blood Search System detour step for XNEO Ending 22; the timing is quoted directly from XNEO's B.S.S. table."
   },
   {
     "simpleJp": "セーブ5にロード",
@@ -718,55 +718,55 @@
   {
     "simpleJp": "ここは何処なんだろう……？",
     "jpGuide1": "ここは何処なんだろう……？",
-    "jpGuide2": "ここは何処なんだろう……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "This is the choice that keeps the main chain heading toward Endings 12 and 23 instead of the Ending 22 detour just shown."
   },
   {
     "simpleJp": "僕が怖くないの？",
     "jpGuide1": "僕が怖くないの？",
-    "jpGuide2": "僕が怖くないの？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "……",
     "jpGuide1": "……",
-    "jpGuide2": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「私にとって、すべてはこの土地から」",
     "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "この土地……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "……",
     "jpGuide1": "……",
-    "jpGuide2": "……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
     "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
-    "jpGuide2": "正夫から離れる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "右だ",
     "jpGuide1": "右だ",
-    "jpGuide2": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「脱出時に立ち止まったら」",
     "jpGuide1": "あれは……\t脱出時に立ち止まったら、サーチする。",
-    "jpGuide2": "あれは……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "BSSタップ：「正夫の上着を掴んだら」",
     "jpGuide1": "父さんの……\t正夫の上着を掴んだら、サーチする。",
-    "jpGuide2": "父さんの……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
@@ -810,25 +810,25 @@
   {
     "simpleJp": "駆け寄る",
     "jpGuide1": "駆け寄る",
-    "jpGuide2": "駆け寄る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "僕の意思？",
     "jpGuide1": "僕の意思？",
-    "jpGuide2": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "闘って道を開くんだ……！",
     "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85以上の場合）",
-    "jpGuide2": "闘って道を開くんだ……！",
-    "enGuide": "Choose this on the main route when it appears. XNEO prints the condition on the choice itself, and Set B independently shows the successful 闇の王編 continuation."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Choose this on the main route when it appears. XNEO prints the BLOOD>=85 condition directly on the choice."
   },
   {
     "simpleJp": "闇の王編（エンディング23）",
     "jpGuide1": "エンディング23～闇の王編～",
-    "jpGuide2": "闇の王編",
-    "enGuide": "Route complete. XNEO labels this エンディング23～闇の王編～, and the route-specific PS2 gameplay recording independently reaches the 闇の王編 outcome. No separate synthetic BLOOD-threshold step is emitted."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Route complete. XNEO labels this エンディング23～闇の王編～. XNEO additionally requires BLOOD level 100 or higher when the game ends; that meter requirement is preserved here as guidance rather than emitted as a synthetic player-action step."
   }
 ]

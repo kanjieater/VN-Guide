@@ -33,25 +33,25 @@
     "simpleJp": "少年はそれを渡した",
     "jpGuide1": "少年はそれを渡した",
     "jpGuide2": "少年はそれを渡した",
-    "enGuide": "Sets 吸血鬼の本フラグ ON (required ON for the true ending, 真・瑠璃亜編 — see the separate true_end route). No BLOOD bonus is listed for this specific option (only the alternative, 少年はそれを渡さなかった, gives +10)."
+    "enGuide": "Follow the Ooka Report choice 少年はそれを渡した. XNEO's Ending 25 and Ending 27 rows both use this visible choice; the Set-B 瑠璃亜編 recording independently shows the same route opening."
   },
   {
     "simpleJp": "少年は怪しい所にいた",
     "jpGuide1": "少年は怪しい所にいた",
     "jpGuide2": "少年は怪しい所にいた",
-    "enGuide": "+10 BLOOD. Sets 五匹の子豚さんフラグ ON (required ON for the true ending, 真・瑠璃亜編)."
+    "enGuide": "+10 BLOOD. Follow the visible Ooka Report choice 少年は怪しい所にいた; both active source sets support this route opening."
   },
   {
     "simpleJp": "少年は傷のわけを聞いた",
     "jpGuide1": "少年は傷のわけを聞いた",
     "jpGuide2": "少年は傷のわけを聞いた",
-    "enGuide": "+10 BLOOD (total BLOOD level entering the route: 60). Sets 瑠璃亜の過去フラグ ON. CORRECTED after the PS2 target/source re-check: xneo.jp's explicit Ending 25 and Ending 27 rows use this same Ooka Report choice, so this flag does not distinguish those two endings in the Set A sequence."
+    "enGuide": "+10 BLOOD. XNEO's Ending 25 and Ending 27 rows use this same Ooka Report choice, so the two routes do not diverge here; the later B.S.S. completion pattern is what distinguishes them in the guide."
   },
   {
     "simpleJp": "セーブ13",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Editorial checkpoint at the start of the original PS2 下巻 瑠璃亜編 content (BLOOD level 60; Ooka flags 吸血鬼の本＝ON, 五匹の子豚さん＝ON, 瑠璃亜の過去＝ON). Neither primary source marks an explicit save here; this route-level checkpoint is retained from the existing guide structure so the documented sub-endings can be replayed from one place."
+    "enGuide": "Checkpoint at the start of the 下巻 瑠璃亜編 content before the route's branching section."
   },
   {
     "simpleJp": "BSSタップ：「主人公がうつむいたら」",
@@ -114,7 +114,7 @@
     "simpleJp": "他の翼手って知ってるの？",
     "jpGuide1": "他の翼手って知ってるの？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp this is the second and final line of its Ending 15 row, leading directly to the ending. Note this exact text also names a separate B.S.S. firing specifically when 瑠璃亜の過去フラグ is OFF — but this route's Ooka Report path set that flag ON, so this occurrence here is treated as xneo.jp's own literal Ending 15 choice text rather than that B.S.S., per xneo.jp's own row listing it as a plain choice at this position, not as a B.S.S. entry."
+    "enGuide": "Per XNEO, this is the second line of the optional Ending 15 row and leads toward that short detour. The guide treats this occurrence only as the visible choice text documented for Ending 15; no hidden internal-flag claim is made."
   },
   {
     "simpleJp": "瑠璃亜を離す",
@@ -145,7 +145,7 @@
     "simpleJp": "他の翼手って知ってるの？",
     "jpGuide1": "他の翼手って知ってるの？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Per xneo.jp's own Ending 17 row, this is the choice immediately after そうだね on this branch — not どうして翼手になったの？, which belongs only to the Endings 18/20/25 branch (see セーブ15 note).",
+    "enGuide": "Per XNEO, this is the second line of the optional Ending 15 row and leads toward that short detour. The guide treats this occurrence only as the visible choice text documented for Ending 15; no hidden internal-flag claim is made.",
     "badEndPath": "エンディング17"
   },
   {

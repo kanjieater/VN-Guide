@@ -6,18 +6,20 @@ $GAME_NOTES
 ## Current Task: Generate One Route
 
 Game: $TITLE (VNDB: $VNDB_ID)
-Route to generate: **$ROUTE_TITLE** (id: `$ROUTE_ID`)
-Save slot offset for this route: **$SAVE_OFFSET** (first save in this route = セーブ$SAVE_OFFSET_PLUS1)
+Route: **$ROUTE_TITLE** (id: `$ROUTE_ID`)
+Save slot offset: **$SAVE_OFFSET** (first new save in this route = セーブ$SAVE_OFFSET_PLUS1)
 
-Research file (read this first for sources): `$RESEARCH_FILE`
+Research file: `$RESEARCH_FILE`
 Output file: `$ROUTE_FILE`
 
 ### Instructions
 
-1. Read `$RESEARCH_FILE` to find the Japanese guide URLs for this game.
-2. Fetch **both** primary Japanese sources and locate the walkthrough for the **$ROUTE_TITLE** route.
-3. Cross-validate every choice and every save point between sources before writing anything.
-4. Write all steps for this route to `$ROUTE_FILE` as a JSON array.
+1. Read `$RESEARCH_FILE`.
+2. Read and preserve the exact `guide_target` from research. Do not reinterpret the VNDB work ID as the target release.
+3. Confirm Japanese verification Set A and Set B both satisfy the canonical research gate for this route **and the exact guide target release**. If not, stop without generating route content.
+4. Fetch the relevant components of both sets directly.
+5. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
+6. Write the complete route as a JSON array to `$ROUTE_FILE`.
 
 ### Step format
 
@@ -25,88 +27,87 @@ Output file: `$ROUTE_FILE`
 [
   {
     "simpleJp": "戦う",
-    "jpGuide1": "verbatim text from primary JP source",
-    "jpGuide2": "verbatim text from secondary JP source",
-    "enGuide": "English reference if available, or empty string"
+    "jpGuide1": "verbatim text from Set A",
+    "jpGuide2": "verbatim text from Set B, or an allowed omission placeholder",
+    "enGuide": "English reference/hint when available, otherwise empty string"
   }
 ]
 ```
 
-For save points with a documented bad ending, use this four-step sequence:
+### `simpleJp`
+
+Every player action is the exact in-game choice text, with no added suffix or location prefix.
+
+Save/load instructions are the only non-choice steps.
+
+### Source fields
+
+Both `jpGuide1` and `jpGuide2` must be non-empty on every step.
+
+- Use exact verbatim source text when that set prints the step.
+- Main-route-defining choices, prerequisites/unlocks, and route/main endings must be independently supported by **both** sets. If one set cannot support such a fact, stop and repair the research/source gate.
+- For a non-route-defining save/load/repeated UI action **or optional non-main-ending-only step** documented by only one primary set while the other is silent/non-contradictory:
+  - Set A missing → `jpGuide1` is exactly `（第一ガイドに記載なし）`.
+  - Set B missing → `jpGuide2` is exactly `（第二ガイドに記載なし）`.
+- Never use an omission placeholder to hide missing independent support for a main-route-defining fact.
+- One-source optional non-main endings (bad, normal, alternate, or similarly labeled) are allowed when the other primary set is silent/non-contradictory; if the other set contradicts that ending, stop and reconcile the conflict before generating it.
+- Never copy one source into the other source field.
+- Never leave either field empty.
+- Preserve whitespace and punctuation exactly.
+
+### `enGuide`
+
+- Preserve a useful English reference/hint when an English source or reliable reference is available.
+- Otherwise use exactly `""`.
+- Do not erase useful existing English detail merely because this field is optional.
+
+### Saves
+
+- Include a save only when at least one primary set explicitly documents it.
+- If only one set documents the save, that is allowed; mark the other source field as not documented rather than inventing text.
+- When sources disagree on save position, use the earlier documented position.
+- Save slots are sequential across routes in recommended play order.
+- Insert a standalone save step immediately before the action it protects.
+
+### Ending-detour loads vs ordinary route-entry loads
+
+`isLoad: true` has one meaning only: it terminates a `badEndPath` non-main-ending detour and returns to the main route.
+
+Bad-end pattern:
 
 ```json
 [
-  {"simpleJp": "セーブ9", "jpGuide1": "▼SAVE9", "jpGuide2": "SAVE9", "enGuide": ""},
-  {"simpleJp": "呼び止める", "jpGuide1": "呼び止める → バッドエンド9", "jpGuide2": "呼び止める → BAD END 9", "enGuide": "", "badEndPath": "バッドエンド9"},
-  {"simpleJp": "セーブ9にロード", "jpGuide1": "セーブ9にロード", "jpGuide2": "LOAD SAVE9", "enGuide": "", "isLoad": true},
-  {"simpleJp": "通り過ぎる", "jpGuide1": "・通り過ぎる", "jpGuide2": "通り過ぎる", "enGuide": ""}
+  {"simpleJp":"セーブ9","jpGuide1":"▼SAVE9","jpGuide2":"SAVE9","enGuide":""},
+  {"simpleJp":"呼び止める","jpGuide1":"呼び止める → バッドエンド9","jpGuide2":"呼び止める → BAD END 9","enGuide":"","badEndPath":"バッドエンド9"},
+  {"simpleJp":"セーブ9にロード","jpGuide1":"セーブ9にロード","jpGuide2":"LOAD SAVE9","enGuide":"","isLoad":true},
+  {"simpleJp":"通り過ぎる","jpGuide1":"・通り過ぎる","jpGuide2":"通り過ぎる","enGuide":""}
 ]
 ```
 
-- `badEndPath`: string — the bad end label from source (e.g. `バッドエンド9`, `BAD END 9`)
-- `isLoad`: boolean `true` — marks the step as a load-back instruction
+If this route begins by loading a save created in an earlier route, write the visible load instruction as a **plain step with no `isLoad` field**.
 
-### Rules for simpleJp
+### Non-main ending detour completeness
 
-**Every player action is a choice. Write the exact text from the choice box, nothing more.**
+Every documented non-main ending—bad, normal, alternate, or similarly labeled—explicitly documented by either primary Japanese verification set must be actively played before continuing the main route when the other set is silent or agrees. One-source detours use the appropriate omission placeholder on detour-only steps. Contradictory ending evidence must be reconciled before generation.
 
-- Write the exact text that appears in the game's choice box, as plain text — no brackets, no punctuation added
-- Examples: `戦う` `神社へ行く` `学校の外を探す` `このまま進む`
-- **Never add** `を選ぶ`、`を選択する`、`に進む`、or any other suffix. The choice text alone is the step.
-- **No location prefix** — omit 【場所】 entirely. Scenes transition automatically in this genre.
-- Save steps and load steps are the only non-choice steps.
+For every documented non-main ending detour:
 
-### Rules for jpGuide1 / jpGuide2
+1. Save at the documented point when a source provides one.
+2. Add the first branch choice and set `badEndPath` to the **exact documented ending label**.
+3. Include every documented step needed to reach the ending terminal.
+4. Add the matching `isLoad: true` step immediately after the terminal.
+5. Continue with the good/main choice.
 
-**BOTH fields must be non-empty for EVERY single step. No exceptions.**
+If multiple non-main endings branch from the same save, include **all** of them before continuing.
 
-These fields are read-only references shown verbatim to the player in the details panel. They must contain the exact text as it appears on each source page — character by character, punctuation and all.
+Never add `badEndPath` when no Japanese source documents a non-main ending, and never invent an ending label or terminal.
 
-**Never:**
-- Paraphrase or summarize
-- Write an empty string for either field
-- Modify the text in any way — not even whitespace
-- Write your own words ("このページには記載なし" etc.)
+### Completion
 
-**If source 2 genuinely has no entry for this step at all:** write `（第二ガイドに記載なし）` in jpGuide2. Never leave it empty, but never fabricate content either — the note is honest attribution.
-**Never copy source 1 into jpGuide2** just to fill the field — that would misrepresent source 2's content.
+- Cover the complete route from entry to ending.
+- Include all required choices.
+- Include every documented non-main ending detour completely.
+- Stop at this route's ending.
+- Output only valid JSON to `$ROUTE_FILE`.
 
-Examples of correct verbatim copying:
-- Source page says `・戦う` → write `・戦う` (not `戦う`, not `「戦う」を選ぶ`)
-- Source page says `▼SAVE1` → write `▼SAVE1`
-- Source page says `SAVE1` in bold → write `SAVE1`
-
-The test: select your jpGuide text, paste it into a browser search (Ctrl+F) on the source page. It must highlight an exact match. If it doesn't, you paraphrased — redo it.
-
-### Rules for saves — required, validated, cross-route numbered
-
-**Cross-validate first:** Only include a save point if at least one source explicitly marks it (▼SAVE, セーブ, SAVE bold, etc.). When sources disagree on where a save goes, use the **earlier** position (earlier = more useful to the player). When sources disagree on whether a save exists at all, include it if any source has it.
-
-**Cross-route numbering:** Save slots span all routes in play order. This route's first save uses slot **$SAVE_OFFSET_PLUS1** (continuing from previous routes). Number sequentially from there: セーブ$SAVE_OFFSET_PLUS1, then increment by 1 for each additional save in this route.
-
-- Insert a standalone save step immediately **before** every save-indicated choice
-- One action per step — never combine save with choice
-- Never invent saves that no source documents
-
-### Rules for bad end steps
-
-The guide actively leads players through every bad end before continuing. Do not just annotate save steps — insert explicit steps.
-
-At every save point with a documented bad ending, insert this sequence (described above in Step format):
-1. Save step
-2. Bad-end choice step (`badEndPath` field = bad end label from source)
-3. Load step (`isLoad: true`, simpleJp = `セーブNにロード`)
-4. Good choice step
-
-- `badEndPath`: exact bad end label from source — never invent
-- `isLoad`: always `true` on load steps; always `false` (omit) on all other steps
-- If a save point has multiple bad ends from different branches, insert each bad-end-choice + load pair before the good branch
-- If no source documents a bad end at this save point, just include the save step and good choice — no `badEndPath` or `isLoad` steps
-
-### Summary
-
-- Cover the **complete** route from start to end — all required choices and transitions
-- Stop at this route's ending; do not continue into the next route
-- Output **only** a valid JSON array to `$ROUTE_FILE` — no markdown fences, no explanation
-
-Generate route `$ROUTE_ID` only. Write the file, then stop.
+Generate route `$ROUTE_ID` only, then stop.

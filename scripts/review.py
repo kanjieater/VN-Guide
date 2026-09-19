@@ -85,6 +85,35 @@ def run_claude_fresh(prompt: str, model: str = REVIEWER_MODEL,
         return False
 
 
+def structural_signature(route_file: Path) -> tuple | None:
+    """Return the route fields whose changes can stale structural review.
+
+    Accuracy fixes may legitimately edit a route after structural review has
+    already passed. Source-only/enGuide edits do not invalidate structure.
+    """
+    try:
+        steps = json.loads(route_file.read_text())
+    except (json.JSONDecodeError, FileNotFoundError) as exc:
+        err(f"Could not read structural signature from {route_file}: {exc}")
+        return None
+
+    if not isinstance(steps, list):
+        err(f"Route file is not a step array: {route_file}")
+        return None
+
+    signature = []
+    for step in steps:
+        if not isinstance(step, dict):
+            err(f"Route contains a non-object step: {route_file}")
+            return None
+        signature.append((
+            step.get("simpleJp"),
+            step.get("badEndPath"),
+            bool(step.get("isLoad", False)),
+        ))
+    return tuple(signature)
+
+
 def get_open_issue_for_route(slug: str, route_id: str, route_title: str = "") -> int | None:
     """Return issue number if an open route-accuracy issue exists for this route.
 
@@ -155,7 +184,7 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
                 f"Review the structure of the '{route_title}' route for the game '{slug}'. "
                 f"The route file is {slug}/route_{route_id}.json. "
                 f"Do NOT fetch any Japanese walkthroughs — this is a structural review only. "
-                f"Trace the main route and every bad end chain. "
+                f"Trace the main route and every non-main ending chain. "
                 f"If you find structural issues, create exactly ONE GitHub issue with: "
                 f"  title: '[{slug}] {route_title}: structural review' "
                 f"  labels: route-structure and {slug} "
@@ -188,8 +217,8 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"Apply all required structural fixes to {slug}/route_{route_id}.json. "
             f"When done, report what you changed: "
             f"gh issue comment {existing_issue} --body \"Fixed: <one-line description of what changed>\" "
-            f"Do NOT close the issue. Only the reviewer may close it, after independently "
-            f"verifying your fix against the sources."
+            f"Do NOT close the issue. Only the structural reviewer may close it, after "
+            f"independently re-tracing and verifying the structural fix."
         )
         ok = run_claude_fresh(author_prompt, model=AUTHOR_MODEL, effort=AUTHOR_EFFORT)
         if not ok:
@@ -203,7 +232,7 @@ def structural_review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"Read .claude/agents/guide-reviewer-structural.md and follow those instructions exactly. "
             f"Re-review the structure of the '{route_title}' route for '{slug}' after author corrections. "
             f"First read the existing issue: gh issue view {existing_issue} "
-            f"Re-read {slug}/route_{route_id}.json and re-trace all bad end chains. "
+            f"Re-read {slug}/route_{route_id}.json and re-trace all non-main ending chains. "
             f"Verify each structural finding in the issue was correctly fixed. "
             f"If all findings are resolved: close the issue with a confirming comment. "
             f"If any finding is still wrong: add a comment to issue #{existing_issue} describing what remains. Do not close it."
@@ -311,7 +340,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
                 f"Read .claude/agents/guide-reviewer.md and follow those instructions exactly. "
                 f"Review the '{route_title}' route for the game '{slug}'. "
                 f"The route file is {slug}/route_{route_id}.json. "
-                f"Fetch both primary Japanese sources listed in {slug}/research.json. "
+                f"Fetch both Japanese verification sets documented in {slug}/research.json, including every component relevant to this route. "
                 f"If you find accuracy issues, create exactly ONE GitHub issue with: "
                 f"  title: '[{slug}] {route_title}: accuracy review' "
                 f"  labels: route-accuracy and {slug} "
@@ -357,7 +386,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             f"Read .claude/agents/guide-reviewer.md and follow those instructions exactly. "
             f"Re-review the '{route_title}' route for '{slug}' after author corrections. "
             f"First read the existing issue: gh issue view {existing_issue} "
-            f"Re-fetch the relevant sections of both Japanese sources listed in {slug}/research.json. "
+            f"Re-fetch the relevant components of both Japanese verification sets documented in {slug}/research.json. "
             f"Verify each finding in the issue was correctly fixed in {slug}/route_{route_id}.json. "
             f"If all findings are resolved: close the issue with a confirming comment. "
             f"If any finding is still wrong: add a comment to issue #{existing_issue} describing what remains, do not close it."
@@ -395,29 +424,74 @@ def review_game(slug: str, priority_route: str | None = None) -> None:
             continue
 
         route_title = route.get("title", route_id)
+        route_file = REPO_PATH / slug / f"route_{route_id}.json"
         log(f"{slug}: reviewing route {route_id} ({route_title})")
 
         approved = False
         snapshot = guide_file.read_text()
         try:
-            structural_passed = structural_review_route(slug, route_id, route_title)
-            if not structural_passed:
-                log(f"{slug}/{route_id}: structural review did not pass — skipping accuracy review")
-                continue
+            for gate_round in range(1, MAX_REVIEW_ROUNDS + 1):
+                log(
+                    f"{slug}/{route_id}: gate round "
+                    f"{gate_round}/{MAX_REVIEW_ROUNDS}"
+                )
 
-            if review_route(slug, route_id, route_title):
-                approved = (mark_route_reviewed(guide_file, slug, route_id, route_title)
-                            and approval_only(snapshot, guide_file.read_text(), route_id))
-            if approved:
-                run_deploy()
-            else:
-                log(f"{slug}/{route_id}: did not pass — will retry next cycle")
+                structural_passed = structural_review_route(
+                    slug, route_id, route_title
+                )
+                if not structural_passed:
+                    log(
+                        f"{slug}/{route_id}: structural review did not pass — "
+                        f"skipping accuracy review"
+                    )
+                    break
+
+                signature_before_accuracy = structural_signature(route_file)
+                if signature_before_accuracy is None:
+                    break
+
+                accuracy_passed = review_route(slug, route_id, route_title)
+                if not accuracy_passed:
+                    log(
+                        f"{slug}/{route_id}: accuracy review did not pass — "
+                        f"will retry next cycle"
+                    )
+                    break
+
+                signature_after_accuracy = structural_signature(route_file)
+                if signature_after_accuracy is None:
+                    break
+
+                if signature_after_accuracy != signature_before_accuracy:
+                    log(
+                        f"{slug}/{route_id}: accuracy-stage fixes changed route "
+                        f"structure — invalidating the prior structural pass and "
+                        f"rerunning structural + accuracy"
+                    )
+                    continue
+
+                approved = (
+                    mark_route_reviewed(
+                        guide_file, slug, route_id, route_title
+                    )
+                    and approval_only(
+                        snapshot, guide_file.read_text(), route_id
+                    )
+                )
+                if approved:
+                    run_deploy()
+                break
+
+            if not approved:
+                log(
+                    f"{slug}/{route_id}: review gates not simultaneously clean — "
+                    f"leaving reviewed=false"
+                )
         finally:
-            # A reviewer can write approval before its CLI fails or GitHub becomes
-            # unavailable. Never leave that optimistic flag for the next run to skip.
+            # Never leave optimistic approval or unrelated guide metadata edits
+            # behind when the complete gate sequence did not pass.
             if not approved:
                 guide_file.write_text(snapshot)
-
 
 def run() -> None:
     if not agent_runner.credentials_available():

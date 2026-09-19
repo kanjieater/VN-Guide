@@ -1,122 +1,126 @@
 # VN Guide Review Workflow
 
-A generated guide is immediately live but marked unreviewed. Review is an ongoing process that runs in the background and marks routes as `reviewed: true` in `guide.json` when they pass.
+The canonical rules are in `.claude/guide-standards.md`. This file describes orchestration.
 
----
+The workflow is environment-neutral: a role may use a checkout, repository API, connected app, browser, or other available tooling. Command examples are optional conveniences; the required state transitions are what matter.
 
-## Lifecycle
+## Review destination
+
+Before reviewing a route, first honor any review transport explicitly specified by the caller/orchestrator.
+
+If none is specified:
+
+- **Open PR, direct/manual agent review:** put review findings and author fixes on that PR instead of creating route-review issue spam.
+- **No open PR:** use the existing issue workflow.
+
+The local automated runner explicitly requests issue-based review, so its issue transport takes precedence over the direct-agent PR default.
+
+## Explicit guide target
+
+Before generation/research:
+
+1. Read `games.json.guide_target` or an explicit caller-supplied target.
+2. Require `label`, `platform`, and a specific release/edition `url`.
+3. Require caller-supplied targets to be scoped to the exact VN work id (the local runner uses `GUIDE_TARGET_VID`); never carry that target into another pending game.
+4. Persist accepted caller-supplied targets to `games.json` before research.
+5. Copy the exact same object into `research.json` and `guide.json`.
+6. Stop rather than infer when no target is supplied.
+
+When VNDB represents multiple releases under one `v...` work, use the specific intended `r...` release link when available. A change to the guide target invalidates the existing research basis and all route reviews.
+
+## Per-route lifecycle
 
 ```
-Author generates guide
+Author generates/corrects route
         ↓
-guide_gen.py sets has_guide: true → guide is live (routes: reviewed: false)
+reviewed: false
         ↓
-review.py iterates over each unreviewed route (one at a time)
+Structural reviewer (fresh context)
         ↓
-   Check for existing open GitHub issue for this route
-     ↓ none                           ↓ exists (pre-existing or from prior round)
-   Reviewer session                   skip reviewer → go to Author session
-   (fresh claude, no shared context)
-   reads research.json + route_*.json for this route
+findings? ── yes → PR feedback or fallback issue
+   │                     ↓
+   no                 Author fixes + reports
+   │                     ↓
+   │              Structural reviewer re-verifies
+   ↓
+Accuracy reviewer (fresh context)
         ↓
-   Issues? ──no──→ review.py marks route reviewed: true → deploy → next route
-     ↓ yes
-   Reviewer creates ONE GitHub issue for this route (all findings in body)
-     --label route-accuracy --label <slug>
+findings? ── yes → PR feedback or fallback issue
+   │                     ↓
+   no                 Author fixes + reports
+   │                     ↓
+   │               Accuracy reviewer re-fetches
+   │               sources and re-verifies
+   ↓
+Did accuracy-stage fixes change route structure?
+   │ yes
+   └────────────→ rerun Structural → Accuracy
+   │ no
+   ↓
+Both gates clean for the same route content
         ↓
-   Author session (fresh claude, no shared context with reviewer)
-   reads open issue → applies all fixes → closes issue
-        ↓
-   Reviewer re-review session
-   verifies fixes → closes issue if resolved, comments if not
-        ↓
-   Issue closed? ──yes──→ reviewed: true → deploy → next route
-     ↓ no
-   (repeat up to MAX_REVIEW_ROUNDS)
+Accuracy stage/orchestrator sets reviewed: true
 ```
 
-Author and reviewer always run as separate `claude` invocations with no shared session.
-`review.py` manages the loop — do not chain author and reviewer manually within one session.
+For direct PR review, a clean pass can be recorded with a concise PASS comment. In issue fallback mode, a clean first pass creates no issue.
 
----
+## Direct PR review content binding
 
-## Reviewed status in the UI
+PR feedback is an audit surface, so clean direct/manual review records must identify the exact content reviewed.
 
-Routes in `guide.json` carry a `reviewed` boolean:
-- `"reviewed": false` — generated but not yet confirmed against sources; shows "unverified" badge in UI
-- `"reviewed": true` — reviewer passed with no open issues; badge removed
+- Structural PASS/resolution records include the current route-file blob SHA/content hash.
+- Accuracy PASS/resolution records include the current route-file blob SHA/content hash **and** current `research.json` blob SHA/content hash.
+- Before final approval, fetch current identifiers again. Any mismatch invalidates the corresponding earlier clean record and requires re-review.
+- Final `reviewed: true` requires structural and accuracy clean records that both apply to the current route content, and an accuracy record that applies to the current research content.
 
-Routes are always publicly accessible regardless of `reviewed` status.
+This prevents stale browser-agent PASS comments from surviving later commits without turning PR comments into automated runtime state.
 
----
+## Concurrency
 
-## Deploy gate
+Review routes one at a time per review type.
 
-The only gate before marking `reviewed: true` is:
+Never run two structural reviewers or two accuracy reviewers concurrently for the same route. Before creating a fallback blocking issue, check for an existing open issue of that type and re-check immediately before creation.
 
-```bash
-gh issue list --label "route-accuracy" --label "<slug>" --state open
-# must return: no results
-```
+This prevents duplicate issue races and keeps one canonical thread per gate.
 
-`review.py` checks this automatically. Neither the author agent nor any script may set `reviewed: true` until this check passes.
+## Author/reviewer ownership
 
----
+- Author creates/fixes route content and comments on findings.
+- Structural reviewer owns structural verification and resolution of structural findings.
+- Accuracy reviewer owns source verification and resolution of accuracy findings.
+- In issue fallback mode, only the owning reviewer closes the issue.
+- Author and structural reviewer never set `reviewed: true`.
 
-## Running the author workflow manually
+## Re-review scope
 
-```bash
-# Generate a new guide (separate session from reviewer)
-claude -p "Read .claude/agents/guide-author.md and follow those instructions. Generate the guide for <Game Title> (VNDB: v1234)."
+Use the invalidation matrix in `.claude/guide-standards.md`.
 
-# Apply corrections from open reviewer issues (separate session from reviewer)
-claude -p "Read .claude/agents/guide-author.md and follow those instructions. Fix all open GitHub issues labeled route-accuracy and <slug>."
-```
+In particular:
 
----
+- structural route changes invalidate structural + accuracy **whenever those gates have already passed, even if `reviewed:false`**;
+- factual/source changes invalidate accuracy only unless structure also changed;
+- research source-basis/prerequisite/order changes invalidate accuracy for affected routes;
+- portrait/title/display-only metadata does not invalidate review.
 
-## Running the reviewer workflow manually
+Do not rerun structural review merely because source metadata changed if no route structure changed.
 
-```bash
-# Full review of a newly generated guide (separate session from author)
-claude -p "Read .claude/agents/guide-reviewer.md and follow those instructions exactly. Review the guide for <slug>."
+## Pre-merge consistency check
 
-# Re-review after author corrections (separate session from author)
-claude -p "Read .claude/agents/guide-reviewer.md and follow those instructions exactly. Re-review <slug> after author corrections."
-```
+Before a guide change is considered complete, verify tracked generated artifacts are synchronized with their source data.
 
----
+For example, if `games.json` changes `has_guide` or other landing-visible metadata, root `index.html` must be regenerated or equivalently synchronized according to `scripts/generate.py` and the landing template. This applies even when the reviewing/authoring agent cannot execute the local Python runner.
 
-## Running the automated loop
+This is a repository-consistency check, not a reason to redesign the local orchestration.
 
-```bash
-# From inside the container or locally with REPO_PATH set:
-python3 scripts/review.py
-```
+## Automated orchestration
 
-The loop processes all games with `has_guide: true` that have any `reviewed: false` routes. Each route gets its own reviewer and author sessions — routes are never batched into one session.
+`scripts/review.py` remains the local issue-based orchestrator. This PR makes one targeted correctness change to it: after structural review passes, the runner snapshots the route's structural signature; if accuracy-stage corrections change that signature, it reruns structural review and then accuracy review before allowing `reviewed: true`. The final mark-reviewed gate also checks both structural and accuracy blockers.
 
-To scope to one game or one route (useful for testing):
-```bash
-GUIDE_PRIORITY_VID=v1715 python3 scripts/review.py           # one game only
-GUIDE_PRIORITY_VID=v1715 GUIDE_REVIEW_ROUTE=okita python3 scripts/review.py  # one route
-```
+This does not move PR-comment state into the local runner and does not require browser/repository agents to execute the Python orchestration.
 
-These env vars can also be set in `compose.yml` to scope the container's review loop.
+Focused regression tests live in `tests/test_review.py` and cover:
 
----
-
-## GitHub issue conventions
-
-- Labels: always `route-accuracy` + the game slug (e.g. `hakuouki-shinsengumi-kitan`)
-- Title: `[<slug>] <Route>: accuracy review`
-- Body: Status + Summary + numbered findings (each with File / Section / Problem / Current / Expected / Sources / Required action)
-- **One issue per route** — all findings for that route go in a single issue body
-- The reviewer adds a comment when any finding is not yet resolved after author corrections
-- The reviewer closes the issue only after all findings are resolved
-- `review.py` marks routes reviewed after the issue is closed
-
-Searching all open accuracy issues across all games:
-```bash
-gh issue list --label "route-accuracy" --state open
-```
+- unchanged route structure → one structural + one accuracy pass;
+- structural changes during accuracy correction → structural + accuracy rerun;
+- source-only / `enGuide` edits → unchanged structural signature;
+- open structural blocker → refuse `reviewed: true`.

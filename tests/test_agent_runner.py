@@ -149,7 +149,17 @@ time.sleep(10)
     def test_priority_does_not_chain_games(self):
         with tempfile.TemporaryDirectory() as tmp:
             games = Path(tmp) / 'games.json'
-            games.write_text(json.dumps({'v210': {'slug': 'himawari'}, 'v999': {'slug': 'other'}}))
+            games.write_text(json.dumps({
+                'v210': {
+                    'slug': 'himawari',
+                    'guide_target': {
+                        'label': 'Himawari target',
+                        'platform': 'PC',
+                        'url': 'https://vndb.org/r210',
+                    },
+                },
+                'v999': {'slug': 'other'},
+            }))
             with patch.dict(os.environ, {'GUIDE_PRIORITY_VID': 'v210'}), patch.object(agent_runner, 'credentials_available', return_value=True), patch.object(guide_gen, 'GAMES_JSON', games), patch.object(guide_gen, 'generate_guide', return_value=True) as generate, patch.object(guide_gen, 'run_deploy'), patch.object(guide_gen._generate, 'generate_landing'):
                 guide_gen.run()
                 self.assertEqual(generate.call_count, 1)
@@ -214,6 +224,7 @@ class ReviewTests(unittest.TestCase):
             guide = Path(tmp) / 'game' / 'guide.json'
             guide.parent.mkdir()
             guide.write_text('{"routes":[{"id":"route","reviewed":false}]}')
+            (guide.parent / 'route_route.json').write_text('[]')
 
             def approve(*args, **kwargs):
                 guide.write_text('{"routes":[{"id":"route","reviewed":true}]}')
@@ -238,6 +249,7 @@ class ReviewTests(unittest.TestCase):
                     guide = Path(tmp) / 'game' / 'guide.json'
                     guide.parent.mkdir()
                     guide.write_text(snapshot)
+                    (guide.parent / 'route_route.json').write_text('[]')
 
                     def approve(*args, **kwargs):
                         guide.write_text(broken)

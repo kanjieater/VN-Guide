@@ -71,7 +71,12 @@ def make_slug(title: str, alttitle: str, vndb_id: str, used: set[str]) -> str:
 
 # ── Scaffold new guide dirs ───────────────────────────────────────────────────
 
-def scaffold_guide(slug: str, title: str, vndb_id: str) -> None:
+def scaffold_guide(
+    slug: str,
+    title: str,
+    vndb_id: str,
+    guide_target: dict | None = None,
+) -> None:
     guide_dir = REPO_PATH / slug
     guide_dir.mkdir(exist_ok=True)
     # Always overwrite index.html with the latest template so guide pages
@@ -86,6 +91,8 @@ def scaffold_guide(slug: str, title: str, vndb_id: str) -> None:
     (guide_dir / "index.html").write_text(html)
     if not (guide_dir / "guide.json").exists():
         guide_json = {"title": title, "vndb_id": vndb_id, "routes": []}
+        if guide_target:
+            guide_json["guide_target"] = guide_target
         (guide_dir / "guide.json").write_text(
             json.dumps(guide_json, ensure_ascii=False, indent=2)
         )
@@ -182,7 +189,12 @@ def run() -> None:
     for vid, entry in games.items():
         slug = entry["slug"]
         guide_dir = REPO_PATH / slug
-        scaffold_guide(slug, entry["title"], vid)
+        scaffold_guide(
+            slug,
+            entry["title"],
+            vid,
+            guide_target=entry.get("guide_target"),
+        )
 
     save_games(games)
     generate_landing(games)

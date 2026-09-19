@@ -6,27 +6,28 @@ $GAME_NOTES
 ## Current Task: Research Phase
 
 Game: $TITLE
-VNDB ID: $VNDB_ID
-$PLATFORM_NOTE
+VNDB work ID: $VNDB_ID
+Authoritative guide target: $GUIDE_TARGET_JSON
 
-Complete **only the research phase** from the instructions above.
+Complete **only the research phase**.
 
-Do NOT generate any guide content yet. Your only output is the research file below.
+Do not generate route content until the two-independent-Japanese-verification-set gate in the canonical standards is satisfied.
 
-When your research is complete, write the results to:
+Write the result to:
 `$RESEARCH_FILE`
 
-Use this exact JSON format:
+Use this JSON shape:
 
 ```json
 {
   "title": "$TITLE",
   "vndb_id": "$VNDB_ID",
+  "guide_target": $GUIDE_TARGET_JSON,
   "routes": [
     {
       "id": "ascii_route_key",
       "title": "ルート名（日本語）",
-      "portrait": "https://t.vndb.org/ch/NN/NNNNN.jpg",
+      "portrait": "<verified character image URL or empty string>",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": ""
@@ -35,21 +36,39 @@ Use this exact JSON format:
   "recommended_order": ["route_key_1", "route_key_2"],
   "sources": [
     {
+      "set": "A",
       "url": "https://example.com/guide",
       "title": "Source title",
       "language": "ja",
-      "notes": "How complete and how this will be used"
+      "notes": "What this component covers and whether it is directly inspectable"
+    },
+    {
+      "set": "B",
+      "url": "https://example.jp/guide",
+      "title": "Independent Japanese source",
+      "language": "ja",
+      "notes": "What this component covers and whether additional B components are needed"
     }
   ],
-  "disagreements": "Document any conflicts between sources here",
+  "disagreements": "Document source conflicts, omissions, and how they are handled",
   "generated_at": "$DATE"
 }
 ```
 
-Notes:
-- `id` must be ASCII-only romanized keys (e.g. `takuma`, `shinji`, `true_end`)
-- `recommended_order` lists route ids from first to last (true route last)
-- Include all sources found, noting completeness
-- `portrait`: match each route to the correct VNDB character by name, then copy that character's actual image URL from VNDB exactly (prefer the Kana API `POST /character` field `image.url`). **Do not construct a portrait URL from the character ID.** VNDB character IDs (for example `c109`) and image IDs (for example the `140` in `https://t.vndb.org/ch/40/140.jpg`) are separate identifiers. Verify the returned character name before writing the URL. Leave an empty string if no verified portrait is available.
+Rules:
+
+- `guide_target` is authoritative caller/repository input. Copy it **exactly**; do not choose, broaden, or replace the target release yourself.
+- Its `url` must link to the specific intended release/edition when possible (prefer a VNDB `r...` release page rather than the broader `v...` work page when VNDB has the exact release).
+- Verify every Set A/B component applies to that exact target release. Document port/remaster/edition differences and whether they affect routes, choices, saves, unlocks, or endings.
+- If the supplied target cannot be verified or the sources only apply to a materially different release, stop and document the blocker rather than silently switching targets.
+- `id` must be ASCII-only romanized keys.
+- `recommended_order` lists route ids from first to last; true/final route last when applicable.
+- Label every primary source component with `set: "A"` or `set: "B"`.
+- A set may contain multiple Japanese pages, but together it must cover the complete route/ending structure required by the canonical standards.
+- Do not count translations, derivatives, or inaccessible pages toward the two-set gate.
+- Include useful supplemental/provenance sources too, but identify them clearly in `notes`; they do not replace A/B.
+- Explicitly document what each source component does and does not cover.
+- If the A/B gate cannot be satisfied, write the best research file you can, explain the blocker in `disagreements`, and stop. Do not generate routes.
+- For `portrait`, match the route character by name and use a **directly verified image URL** from the source record. When using VNDB, fetch the character's returned `image.url` (or equivalent explicit image field) exactly. **Never synthesize a VNDB image URL from the character ID**; VNDB character IDs and image IDs are separate identifiers. If VNDB cannot be inspected in the current environment, use another directly inspectable authoritative/structured character source and document it in `research.json`. Leave blank only when no verified route-character image can be obtained.
 
 Write the file, then stop.

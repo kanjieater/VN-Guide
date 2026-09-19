@@ -41,7 +41,7 @@ For every non-main-ending chain verify:
 - no nested/unpaired bad-end start exists;
 - the named bad end is represented at the terminal step or is unambiguously identifiable from the chain context.
 
-Reconstruct the main route by removing non-main-ending chains from `badEndPath` through their terminating `isLoad` or `isRestart`. The remaining route must:
+Reconstruct the main route by removing save-backed non-main-ending chains from `badEndPath` through their terminating `isLoad`. For a replay-from-beginning chain terminated by `isRestart: true`, remove the entire failed-play prefix from route step 0 through that restart terminator; the residual route must begin with the fresh replay that follows. The remaining route must:
 
 - begin at step 0;
 - end at the intended good ending;

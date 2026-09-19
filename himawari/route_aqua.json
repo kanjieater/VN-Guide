@@ -193,15 +193,15 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "もう、引き返せない",
-    "jpGuide1": "もう、引き返せない",
-    "jpGuide2": "もう、引き返せない　/　アリエスを解放する　END「摘出」",
+    "simpleJp": "セーブ15",
+    "jpGuide1": "◆セーブ17",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
-    "simpleJp": "【日向葵】END",
-    "jpGuide1": "【日向葵】END",
-    "jpGuide2": "END「向日葵」",
+    "simpleJp": "もう、引き返せない",
+    "jpGuide1": "もう、引き返せない",
+    "jpGuide2": "もう、引き返せない　/　アリエスを解放する　END「摘出」",
     "enGuide": ""
   },
   {
@@ -238,7 +238,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ16",
+    "simpleJp": "セーブ17",
     "jpGuide1": "◆セーブ15",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -257,7 +257,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ16にロード",
+    "simpleJp": "セーブ17にロード",
     "jpGuide1": "◆セーブ15から",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",

@@ -64,6 +64,11 @@ class StructuralSignatureTests(unittest.TestCase):
             route_file.write_text(json.dumps(load, ensure_ascii=False))
             self.assertNotEqual(original, review.structural_signature(route_file))
 
+            restart = json.loads(json.dumps(base))
+            restart[0]["isRestart"] = True
+            route_file.write_text(json.dumps(restart, ensure_ascii=False))
+            self.assertNotEqual(original, review.structural_signature(route_file))
+
 
 class ReviewGateTests(unittest.TestCase):
     def _repo(self):

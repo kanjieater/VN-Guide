@@ -24,6 +24,80 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "大人しく待ってみようか",
+    "jpGuide1": "→【大人しく待ってみようか】【第四案を検討する】【自分が出る】【これは夢だし】【どういうこと】【それでも】でBad End『雫』（ED4）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "Bad End『雫』（ED4）"
+  },
+  {
+    "simpleJp": "第四案を検討する",
+    "jpGuide1": "【第四案を検討する】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分が出る",
+    "jpGuide1": "【自分が出る】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "これは夢だし",
+    "jpGuide1": "【これは夢だし】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どういうこと",
+    "jpGuide1": "【どういうこと】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それでも",
+    "jpGuide1": "【それでも】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Bad End『雫』（ED4）",
+    "jpGuide1": "Bad End『雫』（ED4）",
+    "jpGuide2": "No.4 雫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "最初からやり直す",
+    "jpGuide1": "－エンディングNo.4『雫』－\n◇一日目◇",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isRestart": true
+  },
+  {
+    "simpleJp": "下調べもしたし大丈夫",
+    "jpGuide1": "【下調べもしたし大丈夫】",
+    "jpGuide2": "【はじめの一歩】右　下調べもしたし大丈夫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "【わたしは首を横に振る】",
+    "jpGuide2": "【タソガレ】右　わたしは首を横に振る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気をつけるよ",
+    "jpGuide1": "【気をつけるよ】",
+    "jpGuide2": "【時差ですか】右　気をつけるよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜食は美容の敵かも",
+    "jpGuide1": "【夜食は美容の敵かも】",
+    "jpGuide2": "左　夜食は美容の敵かも",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "腹が減っては戦はできぬ",
     "jpGuide1": "【腹が減っては戦はできぬ】",
     "jpGuide2": "【そして誰もいなくなった】左　腹が減っては戦はできぬ",

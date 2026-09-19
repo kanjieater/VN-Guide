@@ -66,7 +66,12 @@
     "title": "Akai Ito",
     "alttitle": "アカイイト",
     "cover_url": "https://t.vndb.org/cv/85/89085.jpg",
-    "added_at": "2026-08-31T17:22:19.884258+00:00"
+    "added_at": "2026-08-31T17:22:19.884258+00:00",
+    "guide_target": {
+      "label": "アカイイト HD REMASTER",
+      "platform": "Nintendo Switch",
+      "url": "https://store-jp.nintendo.com/item/software/D70010000062832"
+    }
   },
   "v147": {
     "slug": "eve-burst-error",

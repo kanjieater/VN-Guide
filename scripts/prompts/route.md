@@ -38,7 +38,7 @@ Output file: `$ROUTE_FILE`
 
 Every player action is the exact in-game choice text, with no added suffix or location prefix.
 
-Save/load instructions are the only non-choice steps.
+Save/load instructions and source-backed replay/restart instructions are the only non-choice steps.
 
 ### Source fields
 
@@ -69,9 +69,11 @@ Both `jpGuide1` and `jpGuide2` must be non-empty on every step.
 - Save slots are sequential across routes in recommended play order.
 - Insert a standalone save step immediately before the action it protects.
 
-### Ending-detour loads vs ordinary route-entry loads
+### Ending-detour returns vs ordinary route-entry loads
 
-`isLoad: true` has one meaning only: it terminates a `badEndPath` non-main-ending detour and returns to the main route.
+`isLoad: true` has one meaning only: it terminates a save-backed `badEndPath` non-main-ending detour and returns to the main route.
+
+`isRestart: true` terminates a source-documented replay-from-beginning detour when the primary source provides no usable checkpoint. Never invent a save to force such an ending into the load-backed pattern.
 
 Bad-end pattern:
 
@@ -95,8 +97,8 @@ For every documented non-main ending detour:
 1. Save at the documented point when a source provides one.
 2. Add the first branch choice and set `badEndPath` to the **exact documented ending label**.
 3. Include every documented step needed to reach the ending terminal.
-4. Add the matching `isLoad: true` step immediately after the terminal.
-5. Continue with the good/main choice.
+4. Immediately after the terminal, add exactly one structural return: the matching `isLoad: true` step, or `isRestart: true` for a documented replay-from-beginning ending with no usable checkpoint.
+5. Continue with the good/main choice. For a replay-from-start detour, `badEndPath` may begin on the first replay step so the entire standalone replay is structurally removable.
 
 If multiple non-main endings branch from the same save, include **all** of them before continuing.
 

@@ -42,10 +42,10 @@
     "enGuide": "Editorial save at the start of the 下巻 闇の王編 content, before the first B.S.S. opportunity. The active primary sources are used for route evidence rather than save-slot documentation, so jpGuide2 correctly uses the omission placeholder."
   },
   {
-    "simpleJp": "BSSサーチをしない（あえて失敗させる）",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "B.S.S.を失敗する",
+    "jpGuide1": "B.S.S.を失敗する",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "xneo.jp's Gekan ending list documents 'エンディング1～闇の王編～ B.S.S.を失敗する' (Ending 1 = fail the B.S.S. here) as a complete, standalone path with no further choices listed. Missing/failing this first B.S.S. tap (at the childhood flashback line 「あ……あれは……」) leads directly to this ending instead of the '小夜にしがみつく' branch that all other 闇の王編 endings continue from.",
+    "enGuide": "Set-A-only optional Ending 1 branch. XNEO's exact route instruction is B.S.S.を失敗する; let the first B.S.S. opportunity fail, then reload for the successful main-route search.",
     "badEndPath": "エンディング1「闇の王編」"
   },
   {
@@ -236,21 +236,15 @@
   },
   {
     "simpleJp": "瑠璃亜……",
-    "jpGuide1": "瑠璃亜……",
+    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "BLOODレベル確認：50未満が必要",
-    "jpGuide1": "力が……ほしい（BLOODレベルが50未満の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be under 50 at this choice for the 力が……ほしい option shown here to lead to Ending 7. If BLOOD is 50 or higher, avoid extra B.S.S. taps earlier in this detour before reloading and retrying."
+    "enGuide": "Set-A-only optional detour choice. XNEO prints the 50-or-higher condition directly on this choice."
   },
   {
     "simpleJp": "力が……ほしい",
-    "jpGuide1": "力が……ほしい",
+    "jpGuide1": "力が……ほしい（BLOODレベルが50未満の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Set-A-only optional detour choice. XNEO prints the under-50 condition directly on this choice."
   },
   {
     "simpleJp": "BSSタップ：「さあ、心から願うがいい……」",
@@ -339,16 +333,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：50未満が必要",
+    "simpleJp": "力が……ほしい",
     "jpGuide1": "力が……ほしい（BLOODレベルが50未満の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be under 50 at this choice for the 力が……ほしい option shown here to lead toward Ending 8."
-  },
-  {
-    "simpleJp": "力が……ほしい",
-    "jpGuide1": "力が……ほしい",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Set-A-only optional detour choice. XNEO prints the under-50 condition directly on this choice."
   },
   {
     "simpleJp": "泣く",
@@ -467,12 +455,6 @@
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
-    "simpleJp": "BLOODレベル確認：50以上が必要（source disagreement, see enGuide）",
-    "jpGuide1": "瑠璃亜……（BLOODレベルが50以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Both then continue through an otherwise identical remaining chain."
-  },
-  {
     "simpleJp": "瑠璃亜……",
     "jpGuide1": "瑠璃亜……",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -551,16 +533,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：85未満が必要",
+    "simpleJp": "闘って道を開くんだ……！",
     "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85未満の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "For XNEO Ending 13 specifically, BLOOD must be under 85 at this final choice. This is an optional Set-A detour; the replacement Set-B main-route recording is not used to claim independent text for it."
-  },
-  {
-    "simpleJp": "闘って道を開くんだ……！",
-    "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85以上の場合）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Choose this main-route continuation when it appears. XNEO prints its BLOOD condition on the choice itself; Set B independently shows the successful route action/outcome."
+    "enGuide": "Set-A-only optional Ending 13 continuation. XNEO prints the under-85 condition directly on this choice."
   },
   {
     "simpleJp": "セーブ4にロード",
@@ -709,16 +685,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "BLOODレベル確認：80以上が必要",
+    "simpleJp": "小夜……！",
     "jpGuide1": "小夜……！（BLOODレベルが80以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "BLOOD level must be 80 or higher at this choice for this specific branch (小夜……！) to lead onward to Ending 22."
-  },
-  {
-    "simpleJp": "小夜……！",
-    "jpGuide1": "小夜……！",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Set-A-only optional Ending 22 continuation. XNEO prints the BLOOD condition directly on this choice."
   },
   {
     "simpleJp": "BSSタップ：「目を覚ますんだ！」",
@@ -851,9 +821,9 @@
   },
   {
     "simpleJp": "闘って道を開くんだ……！",
-    "jpGuide1": "闘って道を開くんだ……！",
+    "jpGuide1": "闘って道を開くんだ……！（BLOODレベルが85以上の場合）",
     "jpGuide2": "闘って道を開くんだ……！",
-    "enGuide": ""
+    "enGuide": "Choose this on the main route when it appears. XNEO prints the condition on the choice itself, and Set B independently shows the successful 闇の王編 continuation."
   },
   {
     "simpleJp": "闇の王編（エンディング23）",

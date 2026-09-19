@@ -137,12 +137,15 @@ def normalize_guide_target(target: object) -> dict[str, str] | None:
     return normalized
 
 
-def resolve_guide_target(entry: dict) -> dict[str, str] | None:
-    """Resolve the explicit target release from repo metadata or caller input.
+def resolve_guide_target(
+    entry: dict,
+    vndb_id: str,
+) -> dict[str, str] | None:
+    """Resolve the explicit target release from repo metadata or scoped caller input.
 
-    Repository metadata wins. For a new game without `guide_target`, callers
-    may supply all three env vars below; the caller target is then persisted to
-    games.json by run() before research starts.
+    Repository metadata wins. A caller-supplied target must also name the exact
+    VN it belongs to via GUIDE_TARGET_VID so one run cannot accidentally apply
+    the same target metadata to a later pending game.
     """
     if "guide_target" in entry:
         target = normalize_guide_target(entry.get("guide_target"))
@@ -150,20 +153,27 @@ def resolve_guide_target(entry: dict) -> dict[str, str] | None:
             err("games.json guide_target must contain non-empty label, platform, and URL")
         return target
 
+    target_vid = os.environ.get("GUIDE_TARGET_VID", "").strip()
     env_target = {
         "label": os.environ.get("GUIDE_TARGET_LABEL", "").strip(),
         "platform": os.environ.get("GUIDE_PLATFORM", "").strip(),
         "url": os.environ.get("GUIDE_TARGET_URL", "").strip(),
     }
-    if not any(env_target.values()):
+    caller_values = [target_vid, *env_target.values()]
+    if not any(caller_values):
         return None
-    target = normalize_guide_target(env_target)
-    if target is None:
+
+    if not target_vid or not all(env_target.values()):
         err(
-            "Explicit caller target is incomplete — set GUIDE_TARGET_LABEL, "
-            "GUIDE_PLATFORM, and GUIDE_TARGET_URL together"
+            "Explicit caller target is incomplete — set GUIDE_TARGET_VID, "
+            "GUIDE_TARGET_LABEL, GUIDE_PLATFORM, and GUIDE_TARGET_URL together"
         )
-    return target
+        return None
+
+    if target_vid != vndb_id:
+        return None
+
+    return normalize_guide_target(env_target)
 
 
 def load_game_notes(guide_dir: Path) -> str:
@@ -321,6 +331,13 @@ def phase_research(
 
     try:
         data = json.loads(research_file.read_text())
+        written_target = normalize_guide_target(data.get("guide_target"))
+        if written_target != guide_target:
+            err(
+                f"{slug}: fresh research guide_target is missing or does not "
+                f"match the required explicit target; refusing route generation"
+            )
+            return False
         if not data.get("routes"):
             err(f"research.json has no routes for {slug}")
             return False
@@ -487,12 +504,13 @@ def run() -> None:
         slug = entry["slug"]
         title = entry.get("title", slug)
 
-        guide_target = resolve_guide_target(entry)
+        guide_target = resolve_guide_target(entry, vid)
         if guide_target is None:
             err(
                 f"{slug}: no explicit guide target. Add games.json "
-                f"guide_target {{label, platform, url}} or supply "
-                f"GUIDE_TARGET_LABEL + GUIDE_PLATFORM + GUIDE_TARGET_URL. "
+                f"guide_target {{label, platform, url}} or supply scoped "
+                f"GUIDE_TARGET_VID + GUIDE_TARGET_LABEL + GUIDE_PLATFORM + "
+                f"GUIDE_TARGET_URL. "
                 f"Refusing to infer a release from VNDB work {vid}."
             )
             break

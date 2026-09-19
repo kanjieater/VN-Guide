@@ -2,19 +2,19 @@
   {
     "simpleJp": "少年は現れなかった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は現れなかった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "This route's guide begins via the Gekan 'Ooka Report' (大岡レポート) shortcut, reached by choosing New Game from a fresh Gekan (下巻) start, mirroring the approach already used in route_yami_no_ou.json (the companion Joukan guide, route_joukan.json, already spends its own Continue on the 瑠璃亜編 branch, so 究明編 is reached independently here). xneo.jp's Gekan page does not document the Ooka Report mechanic at all, so jpGuide1 is empty for this whole step group."
   },
   {
     "simpleJp": "少年は慌てて立ち上がる",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は慌てて立ち上がる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "+10 BLOOD. This is the only documented option at this point (□３□) that leads onward to 究明編 (via □１８□); the other option, 少年はうずくまったままだった, instead leads to □４□ and eventually only to 灯子編/瑠璃亜編/闇の王編."
   },
   {
     "simpleJp": "少年は一人だった",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "少年は一人だった",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "+20 BLOOD. This is the only documented option at □１８□ that reaches 究明編 (the other option, 少年はそこで灯子に出会った, leads to □１１□ and continues toward 灯子編)."
   },
   {
@@ -26,7 +26,7 @@
   {
     "simpleJp": "BSSタップ：「あ……あれは……」",
     "jpGuide1": "小夜にしがみつく\t主人公の「あ、あれは……」のセリフが終わったら、サーチする。",
-    "jpGuide2": "小夜にしがみつく",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. This exact trigger point is shared with 闇の王編 (per xneo.jp's B.S.S. list section header 回想（闇の王編・究明編）); xneo.jp documents that failing this specific tap leads to its Ending 1 (labelled ～闇の王編～), which is not one of 究明編's own six documented endings (2/3/4/11/14/26) and is already fully covered in route_yami_no_ou.json. This guide assumes the tap succeeds and does not re-document that shared failure ending here."
   },
   {
@@ -39,7 +39,7 @@
     "simpleJp": "……",
     "jpGuide1": "……",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "First step of the Set-A-only detour toward XNEO Ending 11 (究明編). The replacement Set-B recording is used for the main route, so this optional detour carries the omission placeholder.",
+    "enGuide": "First step of the XNEO-only detour toward Ending 11 (究明編). Under the owner-approved one-source exception, jpGuide2 uses the missing-source placeholder.",
     "badEndPath": "エンディング11「究明編」"
   },
   {
@@ -62,7 +62,7 @@
   },
   {
     "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
-    "jpGuide1": "戻れない\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
@@ -110,9 +110,9 @@
   },
   {
     "simpleJp": "飛び降りる",
-    "jpGuide1": "飛び降りる（BLOODレベルが70未満の場合）",
+    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Set-A-only optional Ending 4 choice. XNEO prints the under-70 condition directly on this choice."
+    "enGuide": "Set-A-only Ending 11 choice. XNEO prints the 70-or-higher condition directly on this occurrence."
   },
   {
     "simpleJp": "父さん、何処へ行くの？",
@@ -148,7 +148,7 @@
     "simpleJp": "カッツ……！",
     "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Choose カッツ……！ when it appears. XNEO prints the BLOOD condition on the choice itself; the Set-B gameplay independently shows the successful main-route continuation."
+    "enGuide": "Choose カッツ……！ when it appears. XNEO prints the BLOOD condition directly on the choice."
   },
   {
     "simpleJp": "横に飛ぶ",
@@ -190,7 +190,7 @@
   },
   {
     "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
-    "jpGuide1": "戻れない\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
@@ -238,9 +238,9 @@
   },
   {
     "simpleJp": "飛び降りる",
-    "jpGuide1": "飛び降りる",
+    "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Set-A-only Ending 14 choice. XNEO prints the 70-or-higher condition directly on this occurrence."
   },
   {
     "simpleJp": "……",
@@ -304,9 +304,9 @@
   },
   {
     "simpleJp": "カッツ……！",
-    "jpGuide1": "カッツ……！",
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Set-A-only Ending 14 choice. XNEO prints the 80-or-higher condition directly on this occurrence."
   },
   {
     "simpleJp": "横に飛ぶ",
@@ -330,49 +330,49 @@
   {
     "simpleJp": "うん",
     "jpGuide1": "うん",
-    "jpGuide2": "うん",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Good-path continuation from セーブ8: this choice, per xneo.jp, leads (via later choices) toward Endings 2, 3, 4 and 26."
   },
   {
     "simpleJp": "僕はあの声に怯えた……",
     "jpGuide1": "僕はあの声に怯えた……",
-    "jpGuide2": "僕はあの声に怯えた……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "何がそんなに楽しいの……？",
     "jpGuide1": "何がそんなに楽しいの……？",
-    "jpGuide2": "何がそんなに楽しいの……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "もう僕は翼手なんだ",
     "jpGuide1": "もう僕は翼手なんだ",
-    "jpGuide2": "もう僕は翼手なんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「もう僕は翼手なんだ」",
-    "jpGuide1": "戻れない\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "戻れない",
+    "jpGuide1": "戻れない……\t主人公の「もう僕は翼手なんだ」のセリフが終わりそうになったら、サーチする。",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "そんなことない",
     "jpGuide1": "そんなことない",
-    "jpGuide2": "そんなことない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "騙されない……",
     "jpGuide1": "騙されない……",
-    "jpGuide2": "騙されない……",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "違う……！",
     "jpGuide1": "違う……！",
-    "jpGuide2": "違う……！",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -492,121 +492,121 @@
   {
     "simpleJp": "あの声を聞いちゃいけない",
     "jpGuide1": "あの声を聞いちゃいけない",
-    "jpGuide2": "あの声を聞いちゃいけない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Good-path continuation from セーブ9, leading to this route's final/deepest documented ending, xneo.jp's Ending 26 (headed ～究明編～)."
   },
   {
     "simpleJp": "引き出しを開けてみる",
     "jpGuide1": "引き出しを開けてみる",
-    "jpGuide2": "引き出しを開けてみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "写真を見てみる",
     "jpGuide1": "写真を見てみる",
-    "jpGuide2": "写真を見てみる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "赤いテープだ",
     "jpGuide1": "赤いテープだ",
-    "jpGuide2": "赤いテープだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "飛び降りる",
     "jpGuide1": "飛び降りる（BLOODレベルが70以上の場合）",
-    "jpGuide2": "飛び降りる",
-    "enGuide": "Choose 飛び降りる when it appears to continue toward the deeper 究明編 route. XNEO prints the BLOOD condition on this same choice; the Set-B gameplay independently shows this continuation on the successful route."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Choose 飛び降りる when it appears to continue toward the deeper 究明編 route. XNEO prints the BLOOD condition directly on this choice."
   },
   {
     "simpleJp": "BSSタップ：「正夫の『私にとって、すべては』」",
     "jpGuide1": "この土地……？\t正夫の「私にとって～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "この土地……？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. This is the choice unique to Ending 26 at this position (compare Ending 11's '父さん、何処へ行くの？' and Ending 14's '……', both covered earlier in this guide)."
   },
   {
     "simpleJp": "父さん、ここは？",
     "jpGuide1": "父さん、ここは？",
-    "jpGuide2": "父さん、ここは？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「正夫の顔がアップになったら」",
     "jpGuide1": "正夫から離れる\t正夫の顔がアップになったら、サーチする。",
-    "jpGuide2": "正夫から離れる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "左だ",
     "jpGuide1": "左だ",
-    "jpGuide2": "左だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "ディスクを取る",
     "jpGuide1": "ディスクを取る",
-    "jpGuide2": "ディスクを取る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "右だ",
     "jpGuide1": "右だ",
-    "jpGuide2": "右だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "左だ",
     "jpGuide1": "左だ",
-    "jpGuide2": "左だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "部屋を出る",
     "jpGuide1": "部屋を出る",
-    "jpGuide2": "部屋を出る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "左だ",
     "jpGuide1": "左だ",
-    "jpGuide2": "左だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "僕の意思？",
     "jpGuide1": "僕の意思？",
-    "jpGuide2": "僕の意思？",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "カッツ……！",
-    "jpGuide1": "カッツ……！",
-    "jpGuide2": "カッツ……！",
-    "enGuide": ""
+    "jpGuide1": "カッツ……！（BLOODレベルが80以上の場合）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Main Ending 26 choice. XNEO prints the 80-or-higher condition directly on this occurrence."
   },
   {
     "simpleJp": "横に飛ぶ",
     "jpGuide1": "横に飛ぶ",
-    "jpGuide2": "横に飛ぶ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「カッツの攻撃を横に避けた後」",
     "jpGuide1": "小夜に刀を投げる\tカッツの攻撃を横に避けた後、主人公が立ち上がりそうになったら、サーチする。",
-    "jpGuide2": "小夜に刀を投げる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level."
   },
   {
     "simpleJp": "BSSタップ：「灯子の『あなたは私の中で』」",
     "jpGuide1": "離れる！\t灯子の「あなたはわたしの～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "離れる！",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level. trigger and outcome."
   },
   {
     "simpleJp": "究明編（エンディング26）",
     "jpGuide1": "エンディング26～究明編～",
-    "jpGuide2": "究明編",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Route complete. This guide does not continue into another route from here; the other five documented 究明編 endings (2, 3, 4, 11, 14) were covered earlier via save/load detours."
   }
 ]

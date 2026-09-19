@@ -43,13 +43,15 @@
       "url": "https://xneo.jp/akaiito/",
       "title": "アカイイト完全攻略 | XNEO",
       "language": "ja",
-      "notes": "Complete text walkthrough covering all 5 heroine routes. For each route lists: the unlock condition ('攻略条件') if any, the True End name/ED number, and a full day-by-day (1日目～4日目) list of every choice, with every branch to a Bad End or Normal End spelled out as '選択肢 → 選択肢... でBad/Normal End「名前」（EDxx）'. This is the primary source used for exact choice text and ending names/numbers. Fetched directly (not summarized) and stored/reviewed line-by-line; last updated per page footer 2020年6月13日."
+      "notes": "Complete text walkthrough covering all 5 heroine routes. For each route lists: the unlock condition ('攻略条件') if any, the True End name/ED number, and a full day-by-day (1日目～4日目) list of every choice, with every branch to a Bad End or Normal End spelled out as '選択肢 → 選択肢... でBad/Normal End「名前」（EDxx）'. This is the primary source used for exact choice text and ending names/numbers. Fetched directly (not summarized) and stored/reviewed line-by-line; last updated per page footer 2020年6月13日.",
+      "set": "A"
     },
     {
       "url": "http://saomix.fc2web.com/akaiito/",
       "title": "アカイイト攻略 分岐図 (Saomix Elements)",
       "language": "ja",
-      "notes": "Complete hand-drawn branch-diagram (分岐図) covering the entire common route and all 5 heroine routes as a flowchart of choice boxes leading to all 32 numbered endings (END No.1 - No.32). The original site (saomix.fc2web.com) is dead (FC2's free homepage service shut down 2025-06-30); content was recovered via the Wayback Machine snapshot at http://web.archive.org/web/20250411062104/http://saomix.fc2web.com/akaiito/ and its five embedded branch-diagram images (bunkizu0.png through bunkizu4.png), which were read directly as images. Used to cross-validate every ED name/number and route-unlock condition documented by xneo.jp; all endings and prerequisite conditions checked in this research (ED3, ED8, ED11, ED12, ED13, ED15, ED18, ED21, ED22-ED32) matched between the two sources. Also documents an early common-route '幻視行' left/right split with its own unlock conditions that is not explained in xneo.jp's text guide — flagged as an open detail to verify before writing full step-by-step routes."
+      "notes": "Complete hand-drawn branch-diagram (分岐図) covering the entire common route and all 5 heroine routes as a flowchart of choice boxes leading to all 32 numbered endings (END No.1 - No.32). The original site (saomix.fc2web.com) is dead (FC2's free homepage service shut down 2025-06-30); content was recovered via the Wayback Machine snapshot at http://web.archive.org/web/20250411062104/http://saomix.fc2web.com/akaiito/ and its five embedded branch-diagram images (bunkizu0.png through bunkizu4.png), which were read directly as images. Used to cross-validate every ED name/number and route-unlock condition documented by xneo.jp; all endings and prerequisite conditions checked in this research (ED3, ED8, ED11, ED12, ED13, ED15, ED18, ED21, ED22-ED32) matched between the two sources. Also documents an early common-route '幻視行' left/right split with its own unlock conditions that is not explained in xneo.jp's text guide — flagged as an open detail to verify before writing full step-by-step routes.",
+      "set": "B"
     },
     {
       "url": "https://w.atwiki.jp/wakasugi_orz/pages/12.html",
@@ -82,5 +84,10 @@
       "notes": "Reference only, used to obtain exact, non-hallucinated VNDB character IDs and portrait image URLs (queried directly via the API rather than relying on a scraped/summarized page, to avoid transcription errors in image IDs). Confirmed 5 characters with vns.role = 'primary' for v98: Yumei (c10497), Wakasugi Tsuzura (c10498), Asama Sakuya (c10499), Senba Uzuki (c10500), Nozomi (c10502) — these are the 5 heroine routes. Protagonist is Hatou Kei (c10490, role 'main'). Side characters Kei/ケイ (c10507, twin brother, distinct from protagonist despite same reading), Nushi (c10509), Mikage (c10856), and Nara Youko (c91338, no portrait image available) are not route characters."
     }
   ],
-  "generated_at": "2026-09-07T03:50:47.499147+00:00"
+  "generated_at": "2026-09-07T03:50:47.499147+00:00",
+  "guide_target": {
+    "label": "アカイイト HD REMASTER",
+    "platform": "Nintendo Switch",
+    "url": "https://store-jp.nintendo.com/item/software/D70010000062832"
+  }
 }

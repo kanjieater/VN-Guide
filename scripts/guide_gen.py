@@ -18,13 +18,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import generate as _generate
+import agent_runner
 
 REPO_PATH = Path(os.environ.get("REPO_PATH", "/app/repo"))
 SCRIPTS_PATH = Path(__file__).parent
 PROMPTS_PATH = SCRIPTS_PATH / "prompts"
 GAMES_JSON = REPO_PATH / "games.json"
 
-MODEL = os.environ.get("GUIDE_GEN_MODEL", "claude-sonnet-5")
+MODEL = agent_runner.model_for("GEN")
 MAX_TURNS_RESEARCH = 60
 MAX_TURNS_ROUTE = 50
 TIMEOUT_RESEARCH = 3600  # research fetches multiple sites; give it an hour
@@ -65,6 +66,9 @@ def run_claude(prompt: str, max_turns: int, cwd: Path,
     Saves the session ID to session_file after every run so the next attempt
     can resume.
     """
+    if agent_runner.provider() == "openrouter":
+        return agent_runner.run_openrouter(prompt, MODEL, max_turns, cwd, timeout)
+
     session_id = session_file.read_text().strip() if session_file and session_file.exists() else None
 
     if session_id:
@@ -116,12 +120,7 @@ def run_deploy() -> None:
 
 
 def normalize_guide_target(target: object) -> dict[str, str] | None:
-    """Return a validated guide target or None.
-
-    A guide target is intentionally release-specific. The VNDB work id alone
-    is not enough because one work can contain materially different ports and
-    editions.
-    """
+    """Return a validated guide target or None."""
     if not isinstance(target, dict):
         return None
 
@@ -141,12 +140,7 @@ def resolve_guide_target(
     entry: dict,
     vndb_id: str,
 ) -> dict[str, str] | None:
-    """Resolve the explicit target release from repo metadata or scoped caller input.
-
-    Repository metadata wins. A caller-supplied target must also name the exact
-    VN it belongs to via GUIDE_TARGET_VID so one run cannot accidentally apply
-    the same target metadata to a later pending game.
-    """
+    """Resolve repo target or a caller target scoped to exactly one VN."""
     if "guide_target" in entry:
         target = normalize_guide_target(entry.get("guide_target"))
         if target is None:
@@ -461,10 +455,8 @@ def generate_guide(
 
 
 def run() -> None:
-    has_api_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
-    has_oauth = Path.home().joinpath(".claude", ".credentials.json").exists()
-    if not has_api_key and not has_oauth:
-        log("No Anthropic credentials found — skipping guide generation")
+    if not agent_runner.credentials_available():
+        log(f"No {agent_runner.provider()} credentials found — skipping guide generation")
         return
 
     if not GAMES_JSON.exists():
@@ -486,10 +478,18 @@ def run() -> None:
     log(f"{len(pending)} game(s) need guides")
 
     priority_vid = os.environ.get("GUIDE_PRIORITY_VID")
-    if priority_vid:
-        priority = [(v, e) for v, e in pending if v == priority_vid]
-        rest = [(v, e) for v, e in pending if v != priority_vid]
-        pending = priority + rest
+    target_vid = os.environ.get("GUIDE_TARGET_VID")
+    if priority_vid and target_vid and priority_vid != target_vid:
+        err(
+            f"GUIDE_PRIORITY_VID={priority_vid} conflicts with "
+            f"GUIDE_TARGET_VID={target_vid}; refusing ambiguous target scope"
+        )
+        return
+
+    scoped_vid = priority_vid or target_vid
+    if scoped_vid:
+        # A targeted job must not continue into other games after this one.
+        pending = [(v, e) for v, e in pending if v == scoped_vid]
 
     max_routes_env = os.environ.get("GUIDE_MAX_ROUTES")
     max_routes = int(max_routes_env) if max_routes_env else None
@@ -510,13 +510,11 @@ def run() -> None:
                 f"{slug}: no explicit guide target. Add games.json "
                 f"guide_target {{label, platform, url}} or supply scoped "
                 f"GUIDE_TARGET_VID + GUIDE_TARGET_LABEL + GUIDE_PLATFORM + "
-                f"GUIDE_TARGET_URL. "
-                f"Refusing to infer a release from VNDB work {vid}."
+                f"GUIDE_TARGET_URL. Refusing to infer a release from VNDB "
+                f"work {vid}."
             )
             break
 
-        # Persist a complete caller-supplied target before research so repo state
-        # becomes the source of truth for browser/local agents alike.
         if entry.get("guide_target") != guide_target:
             games[vid]["guide_target"] = guide_target
             GAMES_JSON.write_text(
@@ -524,8 +522,12 @@ def run() -> None:
             )
             log(f"Persisted explicit guide target for {slug}")
 
-        # start_route only applies to the priority game; subsequent games start from the top
-        this_start_route = priority_route if (priority_vid and vid == priority_vid) else None
+        # start_route only applies to the explicitly targeted game
+        this_start_route = (
+            priority_route
+            if priority_route and (not scoped_vid or vid == scoped_vid)
+            else None
+        )
 
         success = generate_guide(
             slug,

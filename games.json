@@ -106,5 +106,18 @@
     "alttitle": "凍京NECRO＜トウキョウ・ネクロ＞",
     "cover_url": "https://t.vndb.org/cv/79/78079.jpg",
     "added_at": "2026-08-31T17:22:19.884358+00:00"
+  },
+  "v3856": {
+    "slug": "nijuuei",
+    "has_guide": true,
+    "title": "Nijuuei",
+    "alttitle": "二重影",
+    "cover_url": "https://www.keroq.co.jp/product/nijuu/img/top.png",
+    "added_at": "2026-09-19T20:52:00+00:00",
+    "guide_target": {
+      "label": "二重影（2000年オリジナルPC版）",
+      "platform": "Windows PC",
+      "url": "https://www.keroq.co.jp/product/nijuu/top.htm"
+    }
   }
 }

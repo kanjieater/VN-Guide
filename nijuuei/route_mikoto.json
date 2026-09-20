@@ -1,0 +1,474 @@
+[
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "セーブ１から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "声を確かめる",
+    "jpGuide1": "声を確かめる",
+    "jpGuide2": "声を確かめる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何か用か？",
+    "jpGuide1": "何か用か？",
+    "jpGuide2": "何か用か？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "起きない",
+    "jpGuide1": "起きない",
+    "jpGuide2": "起きない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "うれしい",
+    "jpGuide1": "うれしい",
+    "jpGuide2": "うれしい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつもの紗枝で接してくれ",
+    "jpGuide1": "いつもの紗枝で接してくれ",
+    "jpGuide2": "いつもの紗枝で接してくれ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "双子にまつわるこの島の伝説を聞かない",
+    "jpGuide1": "双子にまつわるこの島の伝説を聞かない",
+    "jpGuide2": "双子にまつわるこの島の伝説を聞かない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話しかける",
+    "jpGuide1": "話しかける",
+    "jpGuide2": "話しかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "起きない",
+    "jpGuide1": "起きない",
+    "jpGuide2": "起きない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "起きない",
+    "jpGuide1": "起きない",
+    "jpGuide2": "起きない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "〖セーブ３〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "起きない",
+    "jpGuide1": "起きない",
+    "jpGuide2": "・起きない",
+    "enGuide": "",
+    "badEndPath": "北条 ＥＮＤ"
+  },
+  {
+    "simpleJp": "北条 ＥＮＤ",
+    "jpGuide1": "北条 ＥＮＤ",
+    "jpGuide2": "北条Ｈシーン後、シナリオ終了〖北条END〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "セーブ３から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "起きる",
+    "jpGuide1": "起きる",
+    "jpGuide2": "・起きる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "忠義を貫くか",
+    "jpGuide1": "忠義を貫くか",
+    "jpGuide2": "忠義を貫くか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事情を聞く",
+    "jpGuide1": "事情を聞く",
+    "jpGuide2": "・事情を聞く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "励ましの言葉をかける",
+    "jpGuide1": "励ましの言葉をかける",
+    "jpGuide2": "・励ましの言葉をかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "誘う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・誘う",
+    "enGuide": "",
+    "badEndPath": "紗枝エンド"
+  },
+  {
+    "simpleJp": "紗枝エンド",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "シナリオ終了〖紗枝エンド〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "セーブ３から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "起きる",
+    "jpGuide1": "起きる",
+    "jpGuide2": "・起きる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "忠義を貫くか",
+    "jpGuide1": "忠義を貫くか",
+    "jpGuide2": "忠義を貫くか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事情を聞く",
+    "jpGuide1": "事情を聞く",
+    "jpGuide2": "・事情を聞く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "励ましの言葉をかける",
+    "jpGuide1": "励ましの言葉をかける",
+    "jpGuide2": "・励ましの言葉をかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "励ますだけにする",
+    "jpGuide1": "励ますだけにする　　（注）",
+    "jpGuide2": "上記ルート選択「励ますだけにする」場合シナリオ続行。",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分で分かるまで放っておく",
+    "jpGuide1": "自分で分かるまで放っておく",
+    "jpGuide2": "◇大岩→自分で分かるまで放っておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "変な解釈をするな",
+    "jpGuide1": "変な解釈をするな",
+    "jpGuide2": "変な解釈するな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考え過ぎだな",
+    "jpGuide1": "考え過ぎだな",
+    "jpGuide2": "考え過ぎだな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "絶対に呪いを解いてやる",
+    "jpGuide1": "絶対に呪いを解いてやる",
+    "jpGuide2": "絶対に呪いを解いてやる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "好きも嫌いもあるか",
+    "jpGuide1": "好きも嫌いもあるか",
+    "jpGuide2": "・好きも嫌いもあるか",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "〖セーブ４〗",
+    "jpGuide2": "最終分岐ポイント。この選択肢を全て正解すると、もっとも好感度の高いヒロインとのエンドルート（陵辱＆ハッピーの２通り）が開かれます。ただし不正解があった場合はバッドエンドになりますが、舞の陵辱ＣＧが追加されますので確実にセーブしておいてからプレイするのが賢明です。",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "骨のない淡島として生まれるからだ。",
+    "jpGuide1": "骨のない淡島として生まれるからだ。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "舞 ＢＡＤ ＥＮＤ"
+  },
+  {
+    "simpleJp": "この島で死んだ人間の墓だ。",
+    "jpGuide1": "この島で死んだ人間の墓だ。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "龍の化身としての飛竜子。",
+    "jpGuide1": "龍の化身としての飛竜子。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水蛭子神を復活させるための儀式であった。",
+    "jpGuide1": "水蛭子神を復活させるための儀式であった。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "用心棒がすべて殺される。",
+    "jpGuide1": "用心棒がすべて殺される。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "”印し”であった。",
+    "jpGuide1": "”印し”であった。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "１０００",
+    "jpGuide1": "１０００",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "”２０周期””火気の用”",
+    "jpGuide1": "”２０周期””火気の用”",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "命は俺と来い",
+    "jpGuide1": "命は俺と来い",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "舞 ＢＡＤ ＥＮＤ",
+    "jpGuide1": "舞 ＢＡＤ ＥＮＤ",
+    "jpGuide2": "不正解があった場合はバッドエンドになりますが、舞の陵辱ＣＧが追加されます",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4にロード",
+    "jpGuide1": "セーブ４から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "骨のない水蛭子として生まれるからだ。",
+    "jpGuide1": "骨のない水蛭子として生まれるからだ。",
+    "jpGuide2": "・骨のない水蛭子として生れるからだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "間引かれた子供の霊を海に帰すためだ。",
+    "jpGuide1": "間引かれた子供の霊を海に帰すためだ。",
+    "jpGuide2": "・間引かれた子どもの霊を海に帰すためだ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "太陽神としての干る子、もしくは日流子。",
+    "jpGuide1": "太陽神としての干る子、もしくは日流子。",
+    "jpGuide2": "・太陽神としての干る子、もしくは日流子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "岩の封印を解くための儀式であった。",
+    "jpGuide1": "岩の封印を解くための儀式であった。",
+    "jpGuide2": "・岩の封印を解くための儀式であった",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "この島に渡って来た順序の逆順で殺される。",
+    "jpGuide1": "この島に渡って来た順序の逆順で殺される。",
+    "jpGuide2": "・この島に渡ってきた順序の逆順で殺される",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "”白し”であった。",
+    "jpGuide1": "”白し”であった。",
+    "jpGuide2": "・白しであった",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "１５０１",
+    "jpGuide1": "１５０１",
+    "jpGuide2": "・1501",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "”６０周期””土気の用”",
+    "jpGuide1": "”６０周期””土気の用”",
+    "jpGuide2": "・６０周期",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "〖セーブ５〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "すまん・・・",
+    "jpGuide1": "すまん・・・",
+    "jpGuide2": "・すまん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "〖セーブ６〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "命は俺と来い",
+    "jpGuide1": "命は俺と来い",
+    "jpGuide2": "・～は俺と来い→陵辱エンド",
+    "enGuide": "",
+    "badEndPath": "命 ＢＡＤ ＥＮＤ"
+  },
+  {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "命 ＢＡＤ ＥＮＤ",
+    "jpGuide1": "命 ＢＡＤ ＥＮＤ",
+    "jpGuide2": "・～は俺と来い→陵辱エンド",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6にロード",
+    "jpGuide1": "セーブ６から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "命は十兵衛と一緒にいけ",
+    "jpGuide1": "命は十兵衛と一緒にいけ",
+    "jpGuide2": "・～は十兵衛と一緒に行け→ハッピーエンド",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お前の目的は何だったんだ？",
+    "jpGuide1": "お前の目的は何だったんだ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "貴様は一体何者だ？",
+    "jpGuide1": "貴様は一体何者だ？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無影はどこにいる？",
+    "jpGuide1": "無影はどこにいる？",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7",
+    "jpGuide1": "〖セーブ７〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "右",
+    "jpGuide1": "右",
+    "jpGuide2": "・右",
+    "enGuide": "",
+    "badEndPath": "イルスイ ＢＡＤ ＥＮＤ"
+  },
+  {
+    "simpleJp": "右",
+    "jpGuide1": "右",
+    "jpGuide2": "・右",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左",
+    "jpGuide1": "左",
+    "jpGuide2": "・左",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "右",
+    "jpGuide1": "右",
+    "jpGuide2": "・右",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左",
+    "jpGuide1": "左",
+    "jpGuide2": "・左ｏｒベルギー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "イルスイ ＢＡＤ ＥＮＤ",
+    "jpGuide1": "イルスイ ＢＡＤ ＥＮＤ",
+    "jpGuide2": "最後まで間違えるとBADエンド",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7にロード",
+    "jpGuide1": "セーブ７から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "左",
+    "jpGuide1": "左",
+    "jpGuide2": "・左",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "命 ＥＮＤ",
+    "jpGuide1": "命 ＥＮＤ",
+    "jpGuide2": "・～は十兵衛と一緒に行け→ハッピーエンド",
+    "enGuide": ""
+  }
+]

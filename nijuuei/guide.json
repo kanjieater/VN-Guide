@@ -1,0 +1,85 @@
+{
+  "title": "Nijuuei",
+  "vndb_id": "v3856",
+  "guide_target": {
+    "label": "二重影（2000年オリジナルPC版）",
+    "platform": "Windows PC",
+    "url": "https://www.keroq.co.jp/product/nijuu/top.htm"
+  },
+  "routes": [
+    {
+      "id": "kikyou",
+      "title": "桔梗ルート",
+      "stepCount": 27,
+      "reviewed": true,
+      "portrait": ""
+    },
+    {
+      "id": "mikoto",
+      "title": "命ルート",
+      "stepCount": 77,
+      "reviewed": false,
+      "portrait": ""
+    },
+    {
+      "id": "fuurei",
+      "title": "楓玲ルート",
+      "stepCount": 15,
+      "reviewed": false,
+      "portrait": ""
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://sagaoz.net/foolmaker/game/n/nijuuei.html",
+      "title": "二重影 攻略 by 愚者の館（アーカイブ）",
+      "language": "ja",
+      "notes": "Primary Set A. Directly inspected complete Japanese walkthrough for ケロQ 二重影. It explicitly reports 確認バージョン「修正なし」 and 状況「完了（ＣＧ・回想１００％）」, and contains separate 桔梗・命・楓玲 sections with movement/action sequences, timed choices, saves, heroine bad ends, main heroine ends, 北条 END, 舞 BAD END, and イルスイ BAD END.",
+      "set": "A"
+    },
+    {
+      "url": "https://www5c.biglobe.ne.jp/~s-sight/newpage2.htm",
+      "title": "二重影攻略 - BIGLOBE",
+      "language": "ja",
+      "notes": "Primary Set B. Independent directly inspected 12-day Japanese walkthrough. It documents the day-by-day navigation/action flow, heroine-affection choices (including 桔梗・命・楓玲 and 紗枝), the day-11 final quiz, heroine selection by highest affection, the 陵辱 vs ハッピー ending branch, and the Il-Sui rescue/failure sequence. Its route presentation differs substantially from SagaoZ, providing an independent cross-check rather than a derivative copy.",
+      "set": "B"
+    },
+    {
+      "url": "https://ifs.nog.cc/destiny-tiar.hp.infoseek.co.jp/kouryaku_nijuukage.htm",
+      "title": "ゲーム攻略＿二重影 (Destiny-Tiar / Infoseek mirror)",
+      "language": "ja",
+      "notes": "Supplementary independent candidate. Search indexing shows three攻略 heroines (楓玲・命・桔梗), common progress through day 9, and route splits on days 9/11, but direct page inspection times out. Retained only as corroborative discovery; it is not needed for the accepted A/B gate."
+    },
+    {
+      "url": "https://ftcom.skr.jp/game/t3ken/nijyueiK02.htm",
+      "title": "二重影攻略館 7～12日目",
+      "language": "ja",
+      "notes": "Supplementary independent source surfaced by current search. Search-indexed content independently documents the late-game heroine/Jubei happy-end choice and the Il-Sui bad-end failure sequence. Direct page open currently returns 403, so it is supplementary rather than a primary verification set."
+    },
+    {
+      "url": "https://w.atwiki.jp/erogem/pages/497.html",
+      "title": "PCゲーム攻略/は行/ふ/二重影 - ゲーム攻略まとめwiki",
+      "language": "ja",
+      "notes": "Supplementary derivative source only. Directly inspectable, but it attributes its source/save-data basis to SAGAOZ and reproduces the SagaoZ walkthrough structure/text; therefore it is not used as an independent verification set."
+    },
+    {
+      "url": "https://galge.top/topics/10181",
+      "title": "二重影日文攻略 - 2DFan",
+      "language": "ja",
+      "notes": "Supplementary derivative source only. Directly inspectable Japanese copy whose route sequence is effectively SagaoZ material; not used as Set B."
+    },
+    {
+      "url": "https://www.keroq.co.jp/product/nijuu/top.htm",
+      "title": "二重影 - KeroQ official product page",
+      "language": "ja",
+      "notes": "Official target/provenance reference for the original KeroQ PC product. Used to anchor guide_target, not as a walkthrough verification set."
+    },
+    {
+      "url": "https://www.keromakura.net/support/support/download.html",
+      "title": "ケロQ＆枕 Official site - 二重影 support/update page",
+      "language": "ja",
+      "notes": "Official PC support reference documenting 二重影 executable/update files and Windows-specific support instructions. Used for target provenance, not route verification."
+    }
+  ],
+  "generated_at": "2026-09-19T22:05:00+00:00"
+}

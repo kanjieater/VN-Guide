@@ -5,38 +5,38 @@
     {
       "id": "joukan",
       "title": "上巻",
-      "stepCount": 526,
-      "reviewed": false
+      "stepCount": 524,
+      "reviewed": true
     },
     {
       "id": "yami_no_ou",
       "title": "闇の王編",
-      "stepCount": 146,
-      "reviewed": false
+      "stepCount": 136,
+      "reviewed": true
     },
     {
       "id": "kyuumei",
       "title": "究明編",
-      "stepCount": 107,
-      "reviewed": false
+      "stepCount": 100,
+      "reviewed": true
     },
     {
       "id": "touko",
       "title": "灯子編",
       "stepCount": 32,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "rulia",
       "title": "瑠璃亜編",
-      "stepCount": 44,
-      "reviewed": false
+      "stepCount": 54,
+      "reviewed": true
     },
     {
       "id": "true_end",
       "title": "真・瑠璃亜編",
-      "stepCount": 28,
-      "reviewed": false
+      "stepCount": 27,
+      "reviewed": true
     }
   ],
   "sources": [
@@ -55,11 +55,70 @@
       "set": "A"
     },
     {
-      "url": "http://www.eva.hi-ho.ne.jp/mmitsuru/blood/index.htm",
-      "title": "BLOOD THE LAST VAMPIRE - ドラやる？ (mmitsuru), via Wayback Machine",
+      "url": "https://www.youtube.com/watch?v=POs7MMCMJ7E",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　闇の王編 (GRADIUSER4649X gameplay)",
       "language": "ja",
-      "notes": "Independent Japanese Set B for both PS2 volumes, recovered through Wayback snapshots of the original mmitsuru walkthrough (index, B.S.S., flag/Ooka pages, joend01-19, geend01-27). The walkthrough material originates from the original PS2-era site; archived pages include captures from 2005, before the January 2006 PSP compilation, so this set applies to the original PS2 release rather than the later PSP re-release. It independently covers route/ending structure and names, although its Gekan ending numbering/branch descriptions differ from xneo.jp in places.",
-      "set": "B"
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FgI6DNkGA-0",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　究明編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TCx5bPK38Vg",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　灯子編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1b8aZ82Ngow",
+      "title": "BLOOD THE LAST VAMPIRE 上巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HR05w27tj9w",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　闇の王編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=w6EP18DMcjc",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　究明編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=esO7OstTuB8",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　灯子編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CqsTdVXxrzo",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=i1W5ruYeUvk",
+      "title": "BLOOD THE LAST VAMPIRE 下巻　真・瑠璃亜編 (GRADIUSER4649X gameplay)",
+      "language": "ja",
+      "notes": "Supplementary provenance/candidate original-PS2 Japanese gameplay recording. Its title/uploader/index provenance is inspectable, but the actual gameplay frames/choice screens could not be directly inspected in this environment, so it is not an active verification set under the owner-approved one-source exception."
+    },
+    {
+      "url": "https://www.gameman.jp/item/16555_m.html",
+      "title": "BLOOD THE LAST VAMPIRE 上巻 - GAMEMAN 動画 index (PS2)",
+      "language": "ja",
+      "notes": "Supplementary PS2 navigation/provenance index for the candidate GRADIUSER4649X gameplay recordings. The index is directly inspectable, but it is not a walkthrough and is not a substitute for direct inspection of the recordings."
+    },
+    {
+      "url": "https://www.gameman.jp/item/16556_m.html",
+      "title": "BLOOD THE LAST VAMPIRE 下巻 - GAMEMAN 動画 index (PS2)",
+      "language": "ja",
+      "notes": "Supplementary PS2 navigation/provenance index for the candidate GRADIUSER4649X gameplay recordings. The index is directly inspectable, but it is not a walkthrough and is not a substitute for direct inspection of the recordings."
     },
     {
       "url": "https://gamefaqs.gamespot.com/ps2/580301-blood-the-last-vampire-joukan/faqs/12481",
@@ -80,7 +139,7 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-09-19T19:43:00+00:00",
+  "generated_at": "2026-09-20T00:36:00+00:00",
   "guide_target": {
     "label": "BLOOD THE LAST VAMPIRE 上巻・下巻（2000年オリジナル版）",
     "platform": "PlayStation 2",

@@ -3,25 +3,25 @@
     "simpleJp": "セーブ1",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Neither xneo.jp nor mmitsuru marks explicit save points for this branching prologue; this save slot is an editorial addition placed at the earliest safe point so every one of Joukan's 19 endings can be reached and reloaded from a shared checkpoint."
+    "enGuide": ""
   },
   {
     "simpleJp": "答える",
     "jpGuide1": "答える",
-    "jpGuide2": "答える＞",
-    "enGuide": "This xneo.jp-sourced sequence (エンディング1: 答える→空を見上げる→神田に行こう→でも今は人込みの方が落ち着く) was previously labelled 'End 01「闇に潜むもの」' after mmitsuru. Fetched mmitsuru's own joend01.htm (Wayback snapshot 20070401140203) directly this session: its real End 01 path is 答える→空を見上げる→神田に行こう→だから今も人込みは嫌いだ — the final line differs (だから今も人込みは嫌いだ, never documented anywhere on xneo.jp) and xneo.jp does not itself document that alternate final choice as its own ending. The two sequences diverge at the very last choice, so the mmitsuru title cannot be confirmed to apply to this xneo-sourced sequence; the numeric xneo label is used instead per policy (no invented correspondence).",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
     "badEndPath": "エンディング1"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "神田に行こう",
     "jpGuide1": "神田に行こう",
-    "jpGuide2": "神田に行こう＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -40,56 +40,56 @@
   {
     "simpleJp": "答える",
     "jpGuide1": "答える",
-    "jpGuide2": "答える＞",
-    "enGuide": "This xneo.jp-sourced sequence (エンディング2) was previously labelled 'End 02「遊びの後で」' after mmitsuru. Fetched mmitsuru's own joend02.htm (Wayback snapshot 20070401140023) directly this session: its real End 02 path shares this sequence's opening (答える→...→でも今は人込みの方が落ち着く) but then diverges completely — mmitsuru continues 左を見る→参考書買いたいんだ→瑠璃亜「もう関係ない」→吸血鬼の本？→興味あるんだ→会えるわけないよ→いらないよ→……そうだと思う (a bookstore/Rulia scene), while this xneo sequence continues 後ろを見る→……熱い！→挨拶する→ショートの子が好み→...→……そうだと思う (a train/girl scene). Both happen to end on the same final line by coincidence, but the paths are not the same ending. The mmitsuru title cannot be confirmed to apply here; the numeric xneo label is used instead per policy.",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Both happen to end on the same final line by coincidence, but the paths are not the same ending.",
     "badEndPath": "エンディング2"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "神田まで行くよ",
     "jpGuide1": "神田まで行くよ",
-    "jpGuide2": "神田まで行くよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "そういえば財布忘れたような",
     "jpGuide1": "そういえば財布忘れたような",
-    "jpGuide2": "そういえば財布忘れたような＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "でも今は人込みの方が落ち着く",
     "jpGuide1": "でも今は人込みの方が落ち着く",
-    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -137,7 +137,7 @@
   {
     "simpleJp": "BSSタップ：「ちょっと待ってよ」",
     "jpGuide1": "ちょっと待ってよ\t瑠璃亜の「あたし瑠璃亜、行こうか」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "ショートの女の子「あたし、瑠璃亜」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -161,13 +161,13 @@
   {
     "simpleJp": "BSSタップ：「行く」",
     "jpGuide1": "行く\t瑠璃亜の「おいでよ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「おいでよ」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
     "simpleJp": "……そうだと思う",
     "jpGuide1": "……そうだと思う",
-    "jpGuide2": "……そうだと思う＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -181,55 +181,55 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "This xneo.jp-sourced sequence (エンディング4) was previously labelled 'End 04「美酒より美味きもの」' after mmitsuru. Fetched mmitsuru's own joend04.htm (Wayback snapshot 20070211224549) directly this session: its real End 04 path opens with 答えない, not 答える — a direct first-choice contradiction with this sequence. The mmitsuru title cannot be confirmed to apply here; the numeric xneo label is used instead per policy.",
+    "enGuide": "",
     "badEndPath": "エンディング4"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "神田まで行くよ",
     "jpGuide1": "神田まで行くよ",
-    "jpGuide2": "神田まで行くよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "そういえば財布忘れたような",
     "jpGuide1": "そういえば財布忘れたような",
-    "jpGuide2": "そういえば財布忘れたような＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "でも今は人込みの方が落ち着く",
     "jpGuide1": "でも今は人込みの方が落ち着く",
-    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -241,7 +241,7 @@
   {
     "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
     "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
-    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -253,7 +253,7 @@
   {
     "simpleJp": "BSSタップ：「少女の姿を捜す」",
     "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
-    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -265,7 +265,7 @@
   {
     "simpleJp": "BSSタップ：「行ってみよう」",
     "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
@@ -277,13 +277,13 @@
   {
     "simpleJp": "……",
     "jpGuide1": "……",
-    "jpGuide2": "……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「え？」",
     "jpGuide1": "え？\t瑠璃亜の「おいしい」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「おいしい……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -301,7 +301,7 @@
   {
     "simpleJp": "BSSタップ：「慣れてないから」",
     "jpGuide1": "慣れてないから\t灯子の「どうかしたの？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「どうかしたの？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: レストラン)"
   },
   {
@@ -374,14 +374,14 @@
   {
     "simpleJp": "答える",
     "jpGuide1": "答える",
-    "jpGuide2": "答える＞",
-    "enGuide": "This xneo.jp-sourced sequence (エンディング5) was previously labelled 'End 05「振り向けばそこにいる」' after mmitsuru. Fetched mmitsuru's own joend05.htm (Wayback snapshot 20070211225723) directly this session: its real End 05 path shares this sequence's final six lines (怖いとは思わなかった……→瑠璃亜は何か知っている→あれは僕がやったの？→強くなんてなりたくない→あの声が怖かった→夜が好きだ) but the earlier portion differs entirely — mmitsuru opens 答える→痛い……！→え？→挨拶する→ロングの子が好み→どうも→うん→そ、そうだね→……→あの灯子て子さ……→いつから友達なの？, while this sequence opens 答える→なに？→教会の坂の下の本屋だけど→……寒い……→ありがとう→挨拶する→なんだか馴れ馴れしい→どうも→え？→なんで知ってるの？→帰ってもいいかな……→あ、いや→ここで暮らしてるの？→瑠璃亜はさ……→どうして僕に声をかけたの？ — a different scene leading to the same final lines. The mmitsuru title cannot be confirmed to apply here; the numeric xneo label is used instead per policy.",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
     "badEndPath": "エンディング5"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -405,7 +405,7 @@
   {
     "simpleJp": "挨拶する",
     "jpGuide1": "挨拶する",
-    "jpGuide2": "挨拶する＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -417,7 +417,7 @@
   {
     "simpleJp": "どうも",
     "jpGuide1": "どうも",
-    "jpGuide2": "どうも＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -429,7 +429,7 @@
   {
     "simpleJp": "BSSタップ：「なんで知ってるの？」",
     "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -465,37 +465,37 @@
   {
     "simpleJp": "怖いとは思わなかった……",
     "jpGuide1": "怖いとは思わなかった……",
-    "jpGuide2": "怖いとは思わなかった……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "瑠璃亜は何か知っている",
     "jpGuide1": "瑠璃亜は何か知っている",
-    "jpGuide2": "瑠璃亜は何か知っている＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "あれは僕がやったの？",
     "jpGuide1": "あれは僕がやったの？",
-    "jpGuide2": "あれは僕がやったの？＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "強くなんてなりたくない",
     "jpGuide1": "強くなんてなりたくない",
-    "jpGuide2": "強くなんてなりたくない＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "あの声が怖かった",
     "jpGuide1": "あの声が怖かった",
-    "jpGuide2": "あの声が怖かった＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "夜が好きだ",
     "jpGuide1": "夜が好きだ",
-    "jpGuide2": "夜が好きだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -509,7 +509,7 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "enGuide": "",
     "badEndPath": "エンディング6"
   },
   {
@@ -551,7 +551,7 @@
   {
     "simpleJp": "BSSタップ：「なんで知ってるの？」",
     "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -605,7 +605,7 @@
   {
     "simpleJp": "BSSタップ：「あれ……？」",
     "jpGuide1": "あれ……？\t灯子の「ねえ、私を見て」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「ねえ、私を見て」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: レストラン)"
   },
   {
@@ -631,13 +631,13 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "enGuide": "",
     "badEndPath": "エンディング7"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -649,13 +649,13 @@
   {
     "simpleJp": "BSSタップ：「この鈴は……」",
     "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -667,13 +667,13 @@
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -685,7 +685,7 @@
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -697,7 +697,7 @@
   {
     "simpleJp": "BSSタップ：「声をかけてみる」",
     "jpGuide1": "声をかけてみる\t主人公の「でも行き先は～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『でも行き先はまだ教えてはくれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: コンビニ)"
   },
   {
@@ -757,7 +757,7 @@
   {
     "simpleJp": "BSSタップ：「……うん」",
     "jpGuide1": "……うん\t瑠璃亜の「楽しもうよ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -811,7 +811,7 @@
   {
     "simpleJp": "BSSタップ：「なに見てるの？」",
     "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
-    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -835,7 +835,7 @@
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -860,74 +860,74 @@
   {
     "simpleJp": "答える",
     "jpGuide1": "答える",
-    "jpGuide2": "答える＞",
-    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend09.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング9); the 'End 09「抱擁その２」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
-    "badEndPath": "End 09「抱擁その２」"
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "badEndPath": "エンディング9"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "神田まで行くよ",
     "jpGuide1": "神田まで行くよ",
-    "jpGuide2": "神田まで行くよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「この鈴は……」",
     "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "そういえば財布忘れたような",
     "jpGuide1": "そういえば財布忘れたような",
-    "jpGuide2": "そういえば財布忘れたような＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "でも今は人込みの方が落ち着く",
     "jpGuide1": "でも今は人込みの方が落ち着く",
-    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
     "simpleJp": "左を見る",
     "jpGuide1": "左を見る",
-    "jpGuide2": "左を見る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
     "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
-    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -939,43 +939,43 @@
   {
     "simpleJp": "BSSタップ：「少女の姿を捜す」",
     "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
-    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
     "simpleJp": "右を見る",
     "jpGuide1": "右を見る",
-    "jpGuide2": "右を見る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「行ってみよう」",
     "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
     "simpleJp": "右へ曲がってみよう",
     "jpGuide1": "右へ曲がってみよう",
-    "jpGuide2": "右へ曲がってみよう＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t主人公の「なんだったんだ～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだったんだ？　あれは……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
     "simpleJp": "BSSタップ：「僕は知ってる！？」",
     "jpGuide1": "僕は知ってる！？\t主人公の「なんだ、今のは」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだ？　今のは……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
     "simpleJp": "怖いとは思わなかった……",
     "jpGuide1": "怖いとは思わなかった……",
-    "jpGuide2": "怖いとは思わなかった……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -993,13 +993,13 @@
   {
     "simpleJp": "夜が好きだ",
     "jpGuide1": "夜が好きだ",
-    "jpGuide2": "夜が好きだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「なんだろう」",
     "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
-    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
   },
   {
@@ -1011,7 +1011,7 @@
   {
     "simpleJp": "ただいま",
     "jpGuide1": "ただいま",
-    "jpGuide2": "ただいま＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -1023,7 +1023,7 @@
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1049,7 +1049,7 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "enGuide": "",
     "badEndPath": "エンディング10"
   },
   {
@@ -1091,7 +1091,7 @@
   {
     "simpleJp": "BSSタップ：「なんで知ってるの？」",
     "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -1139,7 +1139,7 @@
   {
     "simpleJp": "BSSタップ：「……うん」",
     "jpGuide1": "……うん\t瑠璃亜の「楽しもうよ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -1175,7 +1175,7 @@
   {
     "simpleJp": "BSSタップ：「なに見てるの？」",
     "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
-    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1199,7 +1199,7 @@
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1217,7 +1217,7 @@
   {
     "simpleJp": "BSSタップ：「離して！」",
     "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
-    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
@@ -1231,13 +1231,13 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend11.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング11); the 'End 11「恐るべきもの」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
-    "badEndPath": "End 11「恐るべきもの」"
+    "enGuide": "",
+    "badEndPath": "エンディング11"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1249,13 +1249,13 @@
   {
     "simpleJp": "BSSタップ：「この鈴は……」",
     "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1267,13 +1267,13 @@
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1285,7 +1285,7 @@
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -1297,7 +1297,7 @@
   {
     "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
     "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
-    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -1309,7 +1309,7 @@
   {
     "simpleJp": "BSSタップ：「少女の姿を捜す」",
     "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
-    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -1321,7 +1321,7 @@
   {
     "simpleJp": "BSSタップ：「行ってみよう」",
     "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
@@ -1351,7 +1351,7 @@
   {
     "simpleJp": "BSSタップ：「なんだろう」",
     "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
-    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
   },
   {
@@ -1375,7 +1375,7 @@
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1387,13 +1387,13 @@
   {
     "simpleJp": "BSSタップ：「離して！」",
     "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
-    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「やめてよ！」",
     "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
@@ -1407,13 +1407,13 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend12.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング12); the 'End 12「咆哮その１」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
-    "badEndPath": "End 12「咆哮その１」"
+    "enGuide": "",
+    "badEndPath": "エンディング12"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1425,7 +1425,7 @@
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1437,13 +1437,13 @@
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1455,7 +1455,7 @@
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -1467,7 +1467,7 @@
   {
     "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
     "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
-    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -1479,7 +1479,7 @@
   {
     "simpleJp": "BSSタップ：「少女の姿を捜す」",
     "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
-    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -1491,7 +1491,7 @@
   {
     "simpleJp": "BSSタップ：「行ってみよう」",
     "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
@@ -1521,7 +1521,7 @@
   {
     "simpleJp": "BSSタップ：「なんだろう」",
     "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
-    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
   },
   {
@@ -1545,7 +1545,7 @@
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1557,25 +1557,25 @@
   {
     "simpleJp": "BSSタップ：「離して！」",
     "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
-    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「やめてよ！」",
     "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「……逃げなきゃ」",
     "jpGuide1": "……逃げなきゃ\t主人公が外に出たら、サーチする。",
-    "jpGuide2": "▲（爆発に巻きこまれ転がった主人公が現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "……右だ",
     "jpGuide1": "……右だ",
-    "jpGuide2": "……右だ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -1589,13 +1589,13 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Title per mmitsuru's index page, but mmitsuru's dedicated per-ending page (joend13.htm) was never archived by the Wayback Machine (checked this session: no snapshot exists at any timestamp). This sequence and its ending trigger are documented only by xneo.jp (as エンディング13); the 'End 13「咆哮その２」' title-to-sequence pairing is presented here as mmitsuru's index lists it but has not been, and cannot currently be, independently confirmed against source B's own choice sequence for this title.",
-    "badEndPath": "End 13「咆哮その２」"
+    "enGuide": "",
+    "badEndPath": "エンディング13"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1607,13 +1607,13 @@
   {
     "simpleJp": "BSSタップ：「この鈴は……」",
     "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1625,13 +1625,13 @@
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1643,7 +1643,7 @@
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -1655,7 +1655,7 @@
   {
     "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
     "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
-    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -1667,7 +1667,7 @@
   {
     "simpleJp": "BSSタップ：「少女の姿を捜す」",
     "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
-    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -1679,7 +1679,7 @@
   {
     "simpleJp": "BSSタップ：「行ってみよう」",
     "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
@@ -1709,7 +1709,7 @@
   {
     "simpleJp": "BSSタップ：「なんだろう」",
     "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
-    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
   },
   {
@@ -1733,7 +1733,7 @@
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1745,25 +1745,25 @@
   {
     "simpleJp": "BSSタップ：「離して！」",
     "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
-    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「やめてよ！」",
     "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「……逃げなきゃ」",
     "jpGuide1": "……逃げなきゃ\t主人公が外に出たら、サーチする。",
-    "jpGuide2": "▲（爆発に巻きこまれ転がった主人公が現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "……物置に隠れよう",
     "jpGuide1": "……物置に隠れよう",
-    "jpGuide2": "……物置に隠れよう＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -1777,13 +1777,13 @@
     "simpleJp": "答える",
     "jpGuide1": "答える",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "enGuide": "",
     "badEndPath": "エンディング14"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -1795,13 +1795,13 @@
   {
     "simpleJp": "BSSタップ：「この鈴は……」",
     "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1813,13 +1813,13 @@
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -1831,7 +1831,7 @@
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -1843,7 +1843,7 @@
   {
     "simpleJp": "BSSタップ：「うん」",
     "jpGuide1": "うん\t瑠璃亜の「本当？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「……行かないよ」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -1855,13 +1855,13 @@
   {
     "simpleJp": "BSSタップ：「瑠璃亜……」",
     "jpGuide1": "瑠璃亜……\t瑠璃亜の「もう私には～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「……もう、あたしには関係ないけどね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
   },
   {
     "simpleJp": "BSSタップ：「好きなの、そういうの？」",
     "jpGuide1": "好きなの、そういうの？\t主人公の「吸血鬼の本」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「吸血鬼の本？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
   },
   {
@@ -1885,7 +1885,7 @@
   {
     "simpleJp": "BSSタップ：「行く」",
     "jpGuide1": "行く\t瑠璃亜の「おいでよ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「おいでよ」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -1897,13 +1897,13 @@
   {
     "simpleJp": "BSSタップ：「折角会えた？」",
     "jpGuide1": "折角会えた？\t瑠璃亜の「せっかく会えた～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「折角会えたんだから……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
     "simpleJp": "BSSタップ：「……」",
     "jpGuide1": "……\t瑠璃亜が主人公の手を取ったら、サーチする。",
-    "jpGuide2": "▲主人公「え……？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -1915,13 +1915,13 @@
   {
     "simpleJp": "BSSタップ：「え？」",
     "jpGuide1": "え？\t瑠璃亜の「おいしい」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「おいしい……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
     "simpleJp": "BSSタップ：「君と一緒にいたい」",
     "jpGuide1": "君と一緒にいたい\t主人公の「瑠璃亜」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『その場の空気をごまかすように僕は瑠璃亜の名前を呼んだ』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -1981,13 +1981,13 @@
   {
     "simpleJp": "BSSタップ：「……うん」",
     "jpGuide1": "……うん\t瑠璃亜の「ねえ、遊びに行こう」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: アパート)"
   },
   {
     "simpleJp": "BSSタップ：「そんなにくっつかないでよ」",
     "jpGuide1": "そんなにくっつかないでよ\t瑠璃亜の「なんでこんなにたくさんの～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「なんでこんなにたくさんの人がいるんだろうね？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -2054,74 +2054,74 @@
   {
     "simpleJp": "答える",
     "jpGuide1": "答える",
-    "jpGuide2": "答える＞",
-    "enGuide": "This xneo.jp-sourced sequence (エンディング19) was previously labelled 'End 19「究明編」' after mmitsuru, on the claim that mmitsuru's joend19.htm was never archived. That claim was wrong: joend19.htm has a real, period-accurate Wayback snapshot (20090520031219, confirmed via CDX plus a direct fetch of the archived page). Its real End 19 path diverges from this xneo sequence partway through — mmitsuru continues 怖いとは思わなかった……→夜が嫌いだ→気持ち悪い……→……→この写真、いつ撮ったの？→(extra step: 浴槽の栓を誰かが抜いた, not present in this sequence), while this xneo sequence instead has 怖いと思った……→夜は好きだ→なんともない→……なんでもない at those same points — two of which are direct opposite-meaning contradictions (怖いと思った……／怖いとは思わなかった……, 夜は好きだ／夜が嫌いだ). The mmitsuru title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy.",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
     "badEndPath": "エンディング19"
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "神田まで行くよ",
     "jpGuide1": "神田まで行くよ",
-    "jpGuide2": "神田まで行くよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「この鈴は……」",
     "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "そういえば財布忘れたような",
     "jpGuide1": "そういえば財布忘れたような",
-    "jpGuide2": "そういえば財布忘れたような＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "でも今は人込みの方が落ち着く",
     "jpGuide1": "でも今は人込みの方が落ち着く",
-    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
     "simpleJp": "左を見る",
     "jpGuide1": "左を見る",
-    "jpGuide2": "左を見る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「聞こえたのは男の声だ……」",
     "jpGuide1": "聞こえたのは男の声だ……\t「左を見る」を選んだら、すぐにサーチする。",
-    "jpGuide2": "（「左を見る」を選んだ直後、瑠璃亜が立っているのを見て）△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -2133,37 +2133,37 @@
   {
     "simpleJp": "BSSタップ：「少女の姿を捜す」",
     "jpGuide1": "少女の姿を捜す\t主人公が顔を上げて、画面が切り替わったら、サーチする。",
-    "jpGuide2": "▲（うずくまる主人公の横から見た姿がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
     "simpleJp": "右を見る",
     "jpGuide1": "右を見る",
-    "jpGuide2": "右を見る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「行ってみよう」",
     "jpGuide1": "行ってみよう\t主人公の「なんだろう、嫌な予感も～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだろう……嫌な感じもするし……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
     "simpleJp": "右へ曲がってみよう",
     "jpGuide1": "右へ曲がってみよう",
-    "jpGuide2": "右へ曲がってみよう＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t主人公の「なんだったんだ～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだったんだ？　あれは……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
     "simpleJp": "BSSタップ：「僕は知ってる！？」",
     "jpGuide1": "僕は知ってる！？\t主人公の「なんだ、今のは」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『なんだ？　今のは……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 裏通り)"
   },
   {
@@ -2175,7 +2175,7 @@
   {
     "simpleJp": "僕じゃない！",
     "jpGuide1": "僕じゃない！",
-    "jpGuide2": "僕じゃない！＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2187,7 +2187,7 @@
   {
     "simpleJp": "BSSタップ：「なんだろう」",
     "jpGuide1": "なんだろう\t野次馬の２人が画面に現れたら、サーチする。",
-    "jpGuide2": "▲（二人の野次馬の男が画面手前に現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 帰り道)"
   },
   {
@@ -2199,19 +2199,19 @@
   {
     "simpleJp": "そっと入る",
     "jpGuide1": "そっと入る",
-    "jpGuide2": "そっと入る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "まるで年をとってないみたいだ",
     "jpGuide1": "まるで年をとってないみたいだ",
-    "jpGuide2": "まるで年をとってないみたいだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -2223,32 +2223,32 @@
   {
     "simpleJp": "BSSタップ：「離して！」",
     "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
-    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「やめてよ！」",
     "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「……逃げなきゃ」",
     "jpGuide1": "……逃げなきゃ\t主人公が外に出たら、サーチする。",
-    "jpGuide2": "▲（爆発に巻きこまれ転がった主人公が現れた瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "……物置に隠れよう",
     "jpGuide1": "……物置に隠れよう",
-    "jpGuide2": "……物置に隠れよう＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「うわあ！」",
     "jpGuide1": "うわあ！\t灯子が主人公に向かって歩きはじめたら、サーチする。",
-    "jpGuide2": "▲（灯子を下から見上げたシーンになった瞬間）",
-    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会). XNEO separately documents エンディング15 with the condition `BLOODレベルを100にする`. That is a global meter condition rather than an on-screen choice at this position, so it is recorded here as guidance instead of being emitted as a synthetic player-action step; no specific trigger point is claimed."
   },
   {
     "simpleJp": "セーブ1にロード",
@@ -2258,28 +2258,16 @@
     "isLoad": true
   },
   {
-    "simpleJp": "BLOODレベル確認：100",
-    "jpGuide1": "BLOODレベルを100にする",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Not a bad-end detour with a sourced path — xneo.jp documents a 15th Joukan ending (エンディング15) that triggers automatically once the BLOOD level meter fills to 100, overriding whatever branch you are on. mmitsuru's index page lists a matching 15th entry (redacted title fragment 「永…血」) but its own per-ending page for this one was never archived, so no choice sequence can be sourced for it. Neither guide ties it to a specific save point; keep tapping every available BSS trigger and it can appear on almost any branch instead of the ending you were aiming for. No badEndPath/load step is included here because no source documents where the meter actually maxes out or that this trigger point is where it happens."
-  },
-  {
-    "simpleJp": "（分岐点：答えないルートへ）",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Structural marker only, not a step the player takes or a sourced quote. Marks the point where the route splits between 答える (this guide's main line, which xneo.jp's own numbering follows through to its final, longest エンディング18) and 答えない (leads to the four side endings below: エンディング3, エンディング8, End 16「闇の王編」, End 17「灯子編」). See the caveat on the final 'End 18「瑠璃亜編」' step and on the 答えない step immediately below: mmitsuru's own archived page for End 18「瑠璃亜編」 was fetched this session and actually opens with 答えない, not 答える, contradicting the assumption this split was originally documented under. This is flagged as an open structural question, not resolved here."
-  },
-  {
     "simpleJp": "セーブ2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Neither xneo.jp nor mmitsuru marks explicit save points for this branching prologue; this save slot is an editorial addition placed at the earliest safe point so every one of Joukan's 19 endings can be reached and reloaded from a shared checkpoint."
+    "enGuide": ""
   },
   {
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
-    "jpGuide2": "答えない＞",
-    "enGuide": "Switch to the 答えない branch, which xneo.jp documents leading to エンディング3/8/16/17. Correction: the claim previously here that 'both xneo.jp and mmitsuru confirm 瑠璃亜編 opens with 答える instead' is false — mmitsuru's own joend18.htm (fetched via Wayback Machine this session) shows End 18「瑠璃亜編」 itself opens with 答えない, not 答える. Fetched mmitsuru's own joend03.htm (Wayback snapshot 20070211225345) directly this session: its real End 03 path opens with 答える, not 答えない — a direct first-choice contradiction with this xneo-sourced エンディング3 sequence. The mmitsuru 'End 03「月下の血宴」' title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy. See also the caveat on the 分岐点 marker step above and on the final 'End 18「瑠璃亜編」' step regarding the unresolved 答える/答えない split question.",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Choose 答えない here for the Set-A-documented branch leading to the optional エンディング3/8/16/17 detours before returning to the main route. This is the actual sourced player choice; no separate editorial branch-marker step is emitted.",
     "badEndPath": "エンディング3"
   },
   {
@@ -2291,13 +2279,13 @@
   {
     "simpleJp": "痛い……！",
     "jpGuide1": "痛い……！",
-    "jpGuide2": "痛い……！＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "……",
     "jpGuide1": "……",
-    "jpGuide2": "……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2327,19 +2315,19 @@
   {
     "simpleJp": "BSSタップ：「なんで知ってるの？」",
     "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
     "simpleJp": "帰ってもいいかな……",
     "jpGuide1": "帰ってもいいかな……",
-    "jpGuide2": "帰ってもいいかな……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "ごめんね",
     "jpGuide1": "ごめんね",
-    "jpGuide2": "ごめんね＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2353,7 +2341,7 @@
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "mmitsuru's index page names this ending only with a redacted title fragment and its dedicated per-ending page was never archived by the Wayback Machine, so this bad end is documented (choice sequence and all) by xneo.jp only; jpGuide2 is marked as not documented for the un-matched steps below.",
+    "enGuide": "",
     "badEndPath": "エンディング8"
   },
   {
@@ -2401,7 +2389,7 @@
   {
     "simpleJp": "BSSタップ：「なんで知ってるの？」",
     "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -2467,7 +2455,7 @@
   {
     "simpleJp": "BSSタップ：「灯子から離れる」",
     "jpGuide1": "灯子から離れる\t灯子の「あなた、おいしそう」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「あなた、おいしそう……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 公園)"
   },
   {
@@ -2504,8 +2492,8 @@
   {
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
-    "jpGuide2": "答えない＞",
-    "enGuide": "This xneo.jp-sourced sequence (エンディング16) was previously labelled 'End 16「闇の王編」' after mmitsuru, on the claim that mmitsuru's joend16.htm was never archived. That claim was wrong: joend16.htm has a real, period-accurate Wayback snapshot (20090523014404, confirmed via CDX plus a direct fetch of the archived page). Its real End 16 path diverges from this xneo sequence starting at the second choice — mmitsuru has 僕は煩わしいと思う事もある (a different verb form from this sequence's 僕は煩わしいと思った事がある) followed by 教会の坂の下の本屋だけど→……寒い……→挨拶する→ショートの子が好み→……→へんなところは嫌だよ→やめてくださいっ、お姉さん！→は、はい (a karaoke-box scene this sequence never visits), while this xneo sequence instead continues ……熱い！→ありがとう→怪しむ→なんだか馴れ馴れしい→どうも→うん→……→ここで暮らしてるの？. The mmitsuru title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy.",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
     "badEndPath": "エンディング16"
   },
   {
@@ -2541,7 +2529,7 @@
   {
     "simpleJp": "どうも",
     "jpGuide1": "どうも",
-    "jpGuide2": "どうも＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2553,7 +2541,7 @@
   {
     "simpleJp": "そ、そうだね",
     "jpGuide1": "そ、そうだね",
-    "jpGuide2": "そ、そうだね＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2565,7 +2553,7 @@
   {
     "simpleJp": "あの灯子って子さ……",
     "jpGuide1": "あの灯子って子さ……",
-    "jpGuide2": "あの灯子って子さ……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2601,13 +2589,13 @@
   {
     "simpleJp": "あの声が怖かった",
     "jpGuide1": "あの声が怖かった",
-    "jpGuide2": "あの声が怖かった＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「……うん」",
     "jpGuide1": "……うん\t瑠璃亜の「楽しもうよ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -2619,37 +2607,37 @@
   {
     "simpleJp": "そんな事ないよ",
     "jpGuide1": "そんな事ないよ",
-    "jpGuide2": "そんな事ないよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "なにしてるの？",
     "jpGuide1": "なにしてるの？",
-    "jpGuide2": "なにしてるの？＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "そっと入る",
     "jpGuide1": "そっと入る",
-    "jpGuide2": "そっと入る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "それに比べて母さんは老けた",
     "jpGuide1": "それに比べて母さんは老けた",
-    "jpGuide2": "それに比べて母さんは老けた＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「離して！」",
     "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
-    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「やめてよ！」",
     "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
@@ -2662,32 +2650,32 @@
   {
     "simpleJp": "答えない",
     "jpGuide1": "答えない",
-    "jpGuide2": "答えない＞",
-    "enGuide": "This xneo.jp-sourced sequence (エンディング17) was previously labelled 'End 17「灯子編」' after mmitsuru. Fetched mmitsuru's own joend17.htm (Wayback snapshot 20090523014409) directly this session: its real End 17 path shares this opening (答えない→僕は気に入っている) but diverges immediately after — mmitsuru continues でも今は人込みの方が落ち着く→横を見る→……寒い……→ありがとう→挨拶する→ロングの子が好み→...→灯子「あなた…見た事ある？」→いや、そんな事ないけど→どうしてって言われても……→聞いてないよ→怖いとは思わなかった……→あれは僕がやったの？→強くなんてなりたくない→僕の口には合わなかった→話さない→（灯子「ねえ、私を見て」）→（引きずられる死体の手）→あの化け物は……→そっと入る→……→（灯子「私、あなたが……」） (an alley/train scene with a monster-reveal ending), while this sequence continues 神田に行こう→でも今は人込みの方が落ち着く→後ろを見る→……熱い！→ありがとう→挨拶する→ロングの方が好み→...→強くなれるの？→僕の口には合わなかった→話す→……→あれ……？→そっと入る→...→離して！→やめてよ！ (a different train scene). The mmitsuru title cannot be confirmed to apply to this sequence; the numeric xneo label is used instead per policy.",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
     "badEndPath": "エンディング17"
   },
   {
     "simpleJp": "僕は気に入っている",
     "jpGuide1": "僕は気に入っている",
-    "jpGuide2": "僕は気に入っている＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "神田まで行くよ",
     "jpGuide1": "神田まで行くよ",
-    "jpGuide2": "神田まで行くよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -2699,13 +2687,13 @@
   {
     "simpleJp": "でも今は人込みの方が落ち着く",
     "jpGuide1": "でも今は人込みの方が落ち着く",
-    "jpGuide2": "でも今は人込みの方が落ち着く＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -2723,13 +2711,13 @@
   {
     "simpleJp": "ありがとう",
     "jpGuide1": "ありがとう",
-    "jpGuide2": "ありがとう＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "挨拶する",
     "jpGuide1": "挨拶する",
-    "jpGuide2": "挨拶する＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2741,7 +2729,7 @@
   {
     "simpleJp": "ありがとう",
     "jpGuide1": "ありがとう",
-    "jpGuide2": "ありがとう＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2753,7 +2741,7 @@
   {
     "simpleJp": "BSSタップ：「なんで知ってるの？」",
     "jpGuide1": "なんで知ってるの？\t灯子の「あなた人を殺した夢、見たことある？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "灯子「あなた……人を殺した夢、見た事ある？」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
@@ -2771,13 +2759,13 @@
   {
     "simpleJp": "怖いとは思わなかった……",
     "jpGuide1": "怖いとは思わなかった……",
-    "jpGuide2": "怖いとは思わなかった……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "あれは僕がやったの？",
     "jpGuide1": "あれは僕がやったの？",
-    "jpGuide2": "あれは僕がやったの？＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2789,7 +2777,7 @@
   {
     "simpleJp": "僕の口には合わなかった",
     "jpGuide1": "僕の口には合わなかった",
-    "jpGuide2": "僕の口には合わなかった＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -2801,13 +2789,13 @@
   {
     "simpleJp": "……",
     "jpGuide1": "……",
-    "jpGuide2": "……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「あれ……？」",
     "jpGuide1": "あれ……？\t灯子の「ねえ、私を見て」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「ねえ、私を見て」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: レストラン)"
   },
   {
@@ -2819,7 +2807,7 @@
   {
     "simpleJp": "BSSタップ：「なに見てるの？」",
     "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
-    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -2843,7 +2831,7 @@
   {
     "simpleJp": "BSSタップ：「それ本当に十年前の写真かな？」",
     "jpGuide1": "それ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -2861,13 +2849,13 @@
   {
     "simpleJp": "BSSタップ：「離して！」",
     "jpGuide1": "離して！\t灯子の「母さんと～」のセリフが終わる前に、サーチする。",
-    "jpGuide2": "灯子「それは私たちが生き延びるための初歩的なテクニックだわ」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "BSSタップ：「やめてよ！」",
     "jpGuide1": "やめてよ！\t灯子の「あなたの血を～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲灯子「あなたの血を分け与えて……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
@@ -2886,25 +2874,25 @@
   {
     "simpleJp": "BSSタップ：「なに？」",
     "jpGuide1": "なに？\t主人公の「子離れしてない父親～」のセリフが終わったら、サーチする。",
-    "jpGuide2": "主人公『子離れしてない父親っていうのはちょっと問題かもしれない』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "神田まで行くよ",
     "jpGuide1": "神田まで行くよ",
-    "jpGuide2": "神田まで行くよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「この鈴は……」",
     "jpGuide1": "この鈴は……\t主人公の「お守りみたいな～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「お守りみたいなものだしね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
     "simpleJp": "BSSタップ：「空を見上げる」",
     "jpGuide1": "空を見上げる\t主人公の「ちょっとしたことから～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『ちょっとした事から僕は高校へ通うのをやめた……』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -2916,13 +2904,13 @@
   {
     "simpleJp": "BSSタップ：「取りに戻るか」",
     "jpGuide1": "取りに戻るか\t主人公の「いけない忘れたみたいだ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公『いけない……忘れたみたいだ』",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t小夜が歩き出したら、サーチする。",
-    "jpGuide2": "主人公『近所にあんな子いたっけ……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 坂道)"
   },
   {
@@ -2934,79 +2922,79 @@
   {
     "simpleJp": "BSSタップ：「！！」",
     "jpGuide1": "！！\t大岡の顔のアップになったら、サーチする。",
-    "jpGuide2": "▲（ヘッドホンの男がアップになった瞬間）",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
     "simpleJp": "左を見る",
     "jpGuide1": "左を見る",
-    "jpGuide2": "左を見る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「うん」",
     "jpGuide1": "うん\t瑠璃亜の「本当？」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「……行かないよ」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 交差点)"
   },
   {
     "simpleJp": "参考書買いたいんだ",
     "jpGuide1": "参考書買いたいんだ",
-    "jpGuide2": "参考書買いたいんだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「瑠璃亜……」",
     "jpGuide1": "瑠璃亜……\t瑠璃亜の「もう私には～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「……もう、あたしには関係ないけどね」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
   },
   {
     "simpleJp": "BSSタップ：「好きなの、そういうの？」",
     "jpGuide1": "好きなの、そういうの？\t主人公の「吸血鬼の本」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲主人公「吸血鬼の本？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 本屋)"
   },
   {
     "simpleJp": "興味あるんだ",
     "jpGuide1": "興味あるんだ",
-    "jpGuide2": "興味あるんだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "かまわないけど",
     "jpGuide1": "かまわないけど",
-    "jpGuide2": "かまわないけど＞",
-    "enGuide": "Sets 吸血鬼の本フラグ ON (buy the vampire book and let Rulia keep it) — required ON for the true ending (瑠璃亜編 / 真・瑠璃亜編) per mmitsuru's geflag.htm."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
   },
   {
     "simpleJp": "恐ろしいものだ",
     "jpGuide1": "恐ろしいものだ",
-    "jpGuide2": "恐ろしいものだ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「行く」",
     "jpGuide1": "行く\t瑠璃亜の「おいでよ」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「おいでよ」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
     "simpleJp": "……そうじゃないけど",
     "jpGuide1": "……そうじゃないけど",
-    "jpGuide2": "……そうじゃないけど＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「折角会えた？」",
     "jpGuide1": "折角会えた？\t瑠璃亜の「せっかく会えた～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「折角会えたんだから……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
     "simpleJp": "……",
     "jpGuide1": "……",
-    "jpGuide2": "……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -3018,13 +3006,13 @@
   {
     "simpleJp": "BSSタップ：「え？」",
     "jpGuide1": "え？\t瑠璃亜の「おいしい」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「おいしい……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
     "simpleJp": "BSSタップ：「君と一緒にいたい」",
     "jpGuide1": "君と一緒にいたい\t主人公の「瑠璃亜」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『その場の空気をごまかすように僕は瑠璃亜の名前を呼んだ』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 遊園地)"
   },
   {
@@ -3042,13 +3030,13 @@
   {
     "simpleJp": "一人で寂しくない？",
     "jpGuide1": "一人で寂しくない？",
-    "jpGuide2": "一人で寂しくない？＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "怖いと思った……",
     "jpGuide1": "怖いと思った……",
-    "jpGuide2": "怖いと思った……＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -3060,7 +3048,7 @@
   {
     "simpleJp": "僕じゃない！",
     "jpGuide1": "僕じゃない！",
-    "jpGuide2": "僕じゃない！＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -3072,7 +3060,7 @@
   {
     "simpleJp": "憧れるよね",
     "jpGuide1": "憧れるよね",
-    "jpGuide2": "憧れるよね＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -3084,13 +3072,13 @@
   {
     "simpleJp": "BSSタップ：「……うん」",
     "jpGuide1": "……うん\t瑠璃亜の「ねえ、遊びに行こう」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「ね、遊びに行こ！」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: アパート)"
   },
   {
     "simpleJp": "BSSタップ：「そんなにくっつかないでよ」",
     "jpGuide1": "そんなにくっつかないでよ\t瑠璃亜の「なんでこんなにたくさんの～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「なんでこんなにたくさんの人がいるんだろうね？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 電車の中)"
   },
   {
@@ -3102,13 +3090,13 @@
   {
     "simpleJp": "そんな事ないよ",
     "jpGuide1": "そんな事ないよ",
-    "jpGuide2": "そんな事ないよ＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "なにしてるの？",
     "jpGuide1": "なにしてるの？",
-    "jpGuide2": "なにしてるの？＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -3120,13 +3108,13 @@
   {
     "simpleJp": "BSSタップ：「ぼ、僕も……」",
     "jpGuide1": "ぼ、僕も……\t瑠璃亜の「あたしあんたと～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "▲瑠璃亜「本当に分かり合えそうな人に……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 公園)"
   },
   {
     "simpleJp": "話してみた",
     "jpGuide1": "話してみた",
-    "jpGuide2": "話してみた＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -3138,13 +3126,13 @@
   {
     "simpleJp": "そっと入る",
     "jpGuide1": "そっと入る",
-    "jpGuide2": "そっと入る＞",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "BSSタップ：「なに見てるの？」",
     "jpGuide1": "なに見てるの？\t父親が画面から消えそうになったら、サーチする。",
-    "jpGuide2": "正夫「そろそろお腹も空いた頃だろう……」△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -3168,7 +3156,7 @@
   {
     "simpleJp": "BSSタップ：「これ本当に十年前の写真かな？」",
     "jpGuide1": "これ本当に十年前の写真かな？\t主人公の「これは十年前の写真～」のセリフが終わりそうになったら、サーチする。",
-    "jpGuide2": "主人公『これは十年前の写真のはずなのに……どうしてあの子が……？』△",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 自宅)"
   },
   {
@@ -3180,13 +3168,13 @@
   {
     "simpleJp": "BSSタップ：「瑠璃亜を抱く」",
     "jpGuide1": "瑠璃亜を抱く\t瑠璃亜の「あんたの命が」のセリフが終わったら、サーチする。",
-    "jpGuide2": "▲主人公「る、瑠璃亜……？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — tap here to raise BLOOD level (location: 教会)"
   },
   {
     "simpleJp": "End 18「瑠璃亜編」",
     "jpGuide1": "End 18「瑠璃亜編」",
-    "jpGuide2": "End 18「瑠璃亜編」",
-    "enGuide": "Joukan complete — choose Continue to carry this playthrough's BLOOD level and flags into Gekan's 瑠璃亜編 branch. SOURCE DISAGREEMENT: this route's main line follows xneo.jp's explicit エンディング18 sequence, while mmitsuru's archived joend18.htm documents a materially different End18 path that opens with 答えない and also passes through 傷の原因 plus the karaoke-box flag sequence. mmitsuru's geflag.htm separately describes the three carry-over flags (吸血鬼の本／瑠璃亜の過去／五匹の子豚さん), but its historical true-ending flag condition conflicts with xneo.jp's explicit PS2 Ending 27 sequence. Do not treat this Joukan step as a definitive true-ending flag recipe. The Gekan 瑠璃亜編 and 真・瑠璃亜編 guides use the source-backed 大岡レポート setup instead: xneo.jp's Ending 25 and Ending 27 rows share the same Ooka Report choices, and the verified Ending 25/27 distinction is the later B.S.S. completion pattern documented in those route files."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Joukan complete — continue into Gekan's 瑠璃亜編 branch. The Gekan 瑠璃亜編 and 真・瑠璃亜編 guides use their own source-backed 大岡レポート setups and later B.S.S. completion patterns; this step does not claim a hidden internal-flag recipe."
   }
 ]

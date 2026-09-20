@@ -6,37 +6,37 @@
       "id": "joukan",
       "title": "上巻",
       "stepCount": 524,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "yami_no_ou",
       "title": "闇の王編",
       "stepCount": 136,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "kyuumei",
       "title": "究明編",
       "stepCount": 100,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "touko",
       "title": "灯子編",
       "stepCount": 32,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "rulia",
       "title": "瑠璃亜編",
       "stepCount": 54,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "true_end",
       "title": "真・瑠璃亜編",
       "stepCount": 27,
-      "reviewed": false
+      "reviewed": true
     }
   ],
   "sources": [

@@ -10,7 +10,7 @@
     {
       "id": "kikyou",
       "title": "桔梗ルート",
-      "portrait": "",
+      "portrait": "https://image.kungal.iloveren.link/b9/ee/b9eec8d94ce7a67055008da49882f997d1dd1d01573d562417d70e0f61a1ab31_mini.webp",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Main heroine ending labeled 桔梗 END by the directly inspected SagaoZ walkthrough. The same walkthrough also documents a 桔梗 BAD END detour near the final-day heroine choice. This route is the source walkthrough's first full playthrough and establishes shared save points used to shorten later heroine clears."
@@ -18,7 +18,7 @@
     {
       "id": "mikoto",
       "title": "命ルート",
-      "portrait": "",
+      "portrait": "https://image.kungal.iloveren.link/7a/a4/7aa49802fa9ae578c0d4fba7bcc045aaed8343d746d434c2c81090377703a114_mini.webp",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Main heroine ending labeled 命 END by SagaoZ. The optimized walkthrough branches from the shared セーブ1, deliberately builds the early 紗枝-affinity state documented by both primary sets so BIGLOBE's 紗枝エンド detour is actually reachable, then uses セーブ3 to return and continue the 命-oriented completion path. It also documents 北条 END, 舞 BAD END, 命 BAD END, and イルスイ BAD END detours."
@@ -26,7 +26,7 @@
     {
       "id": "fuurei",
       "title": "楓玲ルート",
-      "portrait": "",
+      "portrait": "https://image.kungal.iloveren.link/d4/7a/d47ad6e00e72d9e9c6cd35a6cfcd2e7de2ede96c7290032b218f987f20ad481d_mini.webp",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Main heroine ending labeled 楓玲 END by SagaoZ. The optimized walkthrough branches from セーブ5 created during the 命 path via 何もいわない and documents a 楓玲 BAD END before the main 楓玲 END. BIGLOBE independently establishes the highest-affinity heroine ending structure and explicitly states that すまん is presented only on the 命 route, corroborating the split without printing SagaoZ's opposite branch wording."
@@ -87,8 +87,14 @@
       "title": "ケロQ＆枕 Official site - 二重影 support/update page",
       "language": "ja",
       "notes": "Official PC support reference documenting 二重影 executable/update files and Windows-specific support instructions. Used for target provenance, not route verification."
+    },
+    {
+      "url": "https://www.kungal.com/galgame/531",
+      "title": "二重影 - KunGal / NextMoe structured character graph",
+      "language": "ja",
+      "notes": "Portrait metadata source only. Directly inspected structured character entries match 命・桔梗・楓玲 by name and expose the exact image URLs used by the guide. KunGal identifies its character/cast graph as sourced from NextMoe. This source is not used for route verification."
     }
   ],
   "disagreements": "RESEARCH GATE SATISFIED: SagaoZ is Set A and the independent BIGLOBE walkthrough is Set B. The guides use different optimization strategies: SagaoZ provides exact completion paths and save reuse, while BIGLOBE presents a 12-day framework with heroine-affinity annotations and ending rules. The guide therefore keeps branch/state-affecting choices, source-documented saves, non-main ending detours, the final quiz, and ending interactions; repeated/common navigation and combat that do not define the route are not promoted into route steps. BIGLOBE independently supports the 桔梗/命/楓玲 affinity structure, the eight-answer final quiz, highest-affinity heroine selection, the ～は俺と来い 陵辱 branch, the ～は十兵衛と一緒に行け happy branch, and the Il-Sui rescue/failure sequence. The 命 section preserves SagaoZ's early 紗枝-affinity setup through セーブ3 so BIGLOBE's one-set 紗枝エンド detour is reachable; after loading セーブ3 the guide takes 励ますだけにする and continues the main path. SagaoZ's 命 completion path deliberately takes some choices BIGLOBE annotates as 楓玲 affinity (including 変な解釈するな, 考え過ぎだな, and 絶対に呪いを解いてやる); those are retained rather than rewritten because the primary completion path still reaches 命 END. For the 楓玲 split, SagaoZ prints 何もいわない from セーブ5 while BIGLOBE prints that すまん occurs only on the 命 route and independently documents the highest-affinity heroine ending system; this difference is preserved rather than fabricating an exact Set-B copy of 何もいわない. BIGLOBE describes ～は俺と来い as 陵辱エンド and ～は十兵衛と一緒に行け as ハッピーエンド; SagaoZ labels the corresponding outcomes [heroine] BAD END and [heroine] END. The repeated three-question interrogation printed by SagaoZ on each final arm is retained with the permitted Set-B omission marker because BIGLOBE summarizes the ending branch without printing those repeated prompts. ENTRY: 桔梗 begins at SagaoZ's Day-1 セーブ1 after the shared prologue; BIGLOBE begins its table at Day 1, so the pre-route timed prologue action is not emitted. TARGET: original 2000 Windows PC product family, not the later console ports. Supplementary Destiny-Tiar and FTcom discoveries remain provenance only because their full pages are not directly inspectable in the current fetch path.",
-  "generated_at": "2026-09-19T22:05:00+00:00"
-}
+  "generated_at": "2026-09-20T00:55:00+00:00"
+}\n

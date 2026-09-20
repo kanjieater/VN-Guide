@@ -12,21 +12,21 @@
       "title": "桔梗ルート",
       "stepCount": 27,
       "reviewed": true,
-      "portrait": ""
+      "portrait": "https://image.kungal.iloveren.link/b9/ee/b9eec8d94ce7a67055008da49882f997d1dd1d01573d562417d70e0f61a1ab31_mini.webp"
     },
     {
       "id": "mikoto",
       "title": "命ルート",
       "stepCount": 77,
       "reviewed": false,
-      "portrait": ""
+      "portrait": "https://image.kungal.iloveren.link/7a/a4/7aa49802fa9ae578c0d4fba7bcc045aaed8343d746d434c2c81090377703a114_mini.webp"
     },
     {
       "id": "fuurei",
       "title": "楓玲ルート",
       "stepCount": 15,
       "reviewed": false,
-      "portrait": ""
+      "portrait": "https://image.kungal.iloveren.link/d4/7a/d47ad6e00e72d9e9c6cd35a6cfcd2e7de2ede96c7290032b218f987f20ad481d_mini.webp"
     }
   ],
   "sources": [
@@ -79,7 +79,13 @@
       "title": "ケロQ＆枕 Official site - 二重影 support/update page",
       "language": "ja",
       "notes": "Official PC support reference documenting 二重影 executable/update files and Windows-specific support instructions. Used for target provenance, not route verification."
+    },
+    {
+      "url": "https://www.kungal.com/galgame/531",
+      "title": "二重影 - KunGal / NextMoe structured character graph",
+      "language": "ja",
+      "notes": "Portrait metadata source only. Directly inspected structured character entries match 命・桔梗・楓玲 by name and expose the exact image URLs used by the guide. KunGal identifies its character/cast graph as sourced from NextMoe. This source is not used for route verification."
     }
   ],
-  "generated_at": "2026-09-19T22:05:00+00:00"
-}
+  "generated_at": "2026-09-20T00:55:00+00:00"
+}\n

@@ -75,10 +75,12 @@ Then apply these source roles:
 
 Portrait URLs must be directly verified against a character record or another authoritative/structured source.
 
+- **A route character must have a portrait whenever a directly verifiable character image exists.** Leaving `portrait` blank because the lookup was skipped, inconvenient, or deferred is an authoring defect.
 - Match the route character by name, not by numeric coincidence.
-- When using VNDB, use the exact `image.url` returned by the character record.
+- When using VNDB, use the exact `image.url` returned by the character record. If VNDB exposes an image for that route character, a blank portrait is not acceptable.
 - VNDB character IDs (for example `c34600`) and VNDB image IDs are separate identifiers. **Never construct a CDN portrait URL by inserting the character ID into an image-path pattern.**
 - If the current environment cannot directly inspect VNDB's character image field, use another verifiable character source and document that source in `research.json`.
+- A blank portrait is permitted only after an actual lookup finds no suitable directly verifiable image; document that absence in the route's research notes (or another explicit research field) so reviewers can distinguish “unavailable” from “not checked”.
 - A portrait-only correction does not invalidate structural or accuracy route review.
 
 ## Source fields
@@ -152,7 +154,7 @@ Direct/browser agents must assemble `guide.json` equivalently to the local gener
 - each entry includes `id`, `title`, `stepCount`, and `reviewed`;
 - `stepCount` equals the actual length of `route_<id>.json`;
 - preserve an existing route's `reviewed` value when reassembling; new routes default to `false`;
-- use the verified portrait from current research, falling back to an existing verified portrait only when research has none;
+- require the verified portrait from current research whenever a verifiable route-character image exists; fall back to an existing verified portrait only when research has none, and permit an empty portrait only when research explicitly documents that no suitable verifiable image was found;
 - copy current research `sources` into `guide.json`;
 - copy `research.json.guide_target` into `guide.json.guide_target` unchanged;
 - keep `title` and `vndb_id` synchronized with the game/research record;
@@ -283,7 +285,7 @@ If uncertain whether a route-content change is structural, rerun structural revi
 
 A guide section is complete only when:
 
-- `guide_target` is explicit, linked, and matches the release/platform against which research was performed;
+- `guide_target` is explicit, linked, and matches the release/platform against which research was performed;\n- every route character has a verified portrait when a verifiable image exists, or research explicitly documents that no suitable image was found;
 - its structural review is clean,
 - its accuracy review is clean against both Japanese verification sets,
 - all reviewer findings for the active review have been independently re-verified as resolved, and

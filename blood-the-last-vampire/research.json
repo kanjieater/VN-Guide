@@ -53,7 +53,7 @@
         "joukan"
       ],
       "is_true_ending": false,
-      "notes": "Rulia (瑠璃亜) arc on the original PS2 下巻. XNEO is the sole accepted directly inspectable Japanese accuracy source under the owner-approved exception. Its explicit Ending 25 row uses the Ooka Report opening followed directly by そうだね, omits the four optional B.S.S. results 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら……, and still completes the final 瑠璃亜をかばう search. The GRADIUSER4649X recording is supplementary provenance/candidate material only, not verified Set B."
+      "notes": "Rulia (瑠璃亜) arc on the original PS2 下巻. Under the owner-approved one-source exception, XNEO is the sole accepted directly inspectable Japanese accuracy source. XNEO lists Endings 15–18 as standalone non-Ooka 瑠璃亜 sequences; route_rulia therefore models those optional endings in a separate normal-entry section, with Endings 16–18 each explicitly including the required 雨宿り B.S.S. result 今なら逃げられる……. XNEO explicitly prefixes Endings 20/25/27 with ＜大岡レポート＞; the guide's main Ending-25 line is therefore a separate Ooka-entry section and does not reuse the optional-ending state. Ending 25 omits 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… while still completing the final 瑠璃亜をかばう search."
     },
     {
       "id": "true_end",
@@ -175,5 +175,5 @@
     }
   ],
   "disagreements": "GUIDE TARGET: original Japanese PlayStation 2 two-volume release (上巻 SCPS-15007 / 下巻 SCPS-15008), released 2000-12-21; the 2006 PSP compilation is not the target. OWNER-APPROVED ONE-SOURCE EXCEPTION: XNEO is the sole accepted directly inspectable Japanese accuracy source for this guide. No independent Japanese Set B that is both directly inspectable in this environment and complete enough for the guide was found. The GRADIUSER4649X original-PS2 gameplay recordings remain supplementary provenance/candidate material only: their metadata/indexing can be inspected, but their actual gameplay frames/choice screens could not be directly inspected, so they are not claimed as verified Set B. GameFAQs remains supplementary only. Accordingly, route jpGuide2 fields use exactly （第二ガイドに記載なし） rather than presenting uninspected gameplay-derived text as independently verified evidence. This exception is explicitly owner-approved as a known defect and is not itself an accuracy-review PASS. TRUE ENDING: XNEO's explicit Ending 25 vs Ending 27 rows establish the completion distinction used by the guide — Ending 25 skips 弱いって……？／瑠璃亜……／どんな人だったの？／ママさんなら…… but completes 瑠璃亜をかばう, while Ending 27 includes all four and also completes 瑠璃亜をかばう. TOUKO: XNEO's この土地……？ belongs to optional Ending 6, while the deeper main 灯子編 rows use いらないよ and the later shared choices.",
-  "generated_at": "2026-09-19T23:05:00+00:00"
+  "generated_at": "2026-09-20T00:36:00+00:00"
 }

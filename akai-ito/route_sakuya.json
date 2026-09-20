@@ -1,272 +1,367 @@
 [
   {
-    "simpleJp": "下調べもしたし大丈夫",
-    "jpGuide1": "【下調べもしたし大丈夫】",
-    "jpGuide2": "【はじめの一歩】右　下調べもしたし大丈夫",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "わたしは首を横に振る",
-    "jpGuide1": "【わたしは首を横に振る】",
-    "jpGuide2": "【タソガレ】右　わたしは首を横に振る",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "気をつけるよ",
-    "jpGuide1": "【気をつけるよ】",
-    "jpGuide2": "【時差ですか】右　気をつけるよ",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "夜食は美容の敵かも",
-    "jpGuide1": "【夜食は美容の敵かも】",
-    "jpGuide2": "左　夜食は美容の敵かも",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "大人しく待ってみようか",
-    "jpGuide1": "【大人しく待ってみようか】",
-    "jpGuide2": "【そして誰もいなくなった】右　大人しく待ってみようか",
+    "simpleJp": "駅員さんに聞きたいことが",
+    "jpGuide1": "「駅員さんに聞きたいことが」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
     "badEndPath": "Bad End『雫』（ED4）"
   },
   {
-    "simpleJp": "第四案を検討する",
-    "jpGuide1": "【第四案を検討する】",
+    "simpleJp": "バスがなくても何とか……",
+    "jpGuide1": "「バスがなくても何とか……」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "覚悟を決めた",
+    "jpGuide1": "「覚悟を決めた」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "「わたしは首を横に振る」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気をつけるよ",
+    "jpGuide1": "「気をつけるよ」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お菓子も食べるよ",
+    "jpGuide1": "「お菓子も食べるよ」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "葛ちゃんを探しにいこう",
+    "jpGuide1": "「葛ちゃんを探しにいこう」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何とかしたいけど",
+    "jpGuide1": "「何とかしたいけど」",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "自分が出る",
-    "jpGuide1": "【自分が出る】",
+    "jpGuide1": "「自分が出る」",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "これは夢だし",
-    "jpGuide1": "【これは夢だし】",
-    "jpGuide2": "【蛇と狐】右　これは夢だし",
+    "jpGuide1": "「これは夢だし」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
-    "simpleJp": "どういうこと",
-    "jpGuide1": "【どういうこと】",
-    "jpGuide2": "【シシャ】左　どういうこと？",
+    "simpleJp": "どういうこと？",
+    "jpGuide1": "「どういうこと？」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "それでも",
-    "jpGuide1": "【それでも】でBad End『雫』（ED4）",
-    "jpGuide2": "【不死の薬】左　それでも",
+    "jpGuide1": "「それでも」",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
-    "simpleJp": "腹が減っては戦はできぬ",
-    "jpGuide1": "【腹が減っては戦はできぬ】",
-    "jpGuide2": "【そして誰もいなくなった】左　腹が減っては戦はできぬ",
+    "simpleJp": "Bad End『雫』（ED4）",
+    "jpGuide1": "エンディングNo.4\nBad End\n『雫』",
+    "jpGuide2": "No.4 雫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "下調べもしたし大丈夫",
+    "jpGuide1": "「下調べもしたし大丈夫」",
+    "jpGuide2": "下調べもしたし大丈夫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わたしはこくりと頷いた",
+    "jpGuide1": "「わたしはこくりと頷いた」",
+    "jpGuide2": "わたしはこくりと頷いた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大丈夫だよ",
+    "jpGuide1": "「大丈夫だよ」",
+    "jpGuide2": "大丈夫だよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "葛ちゃんと食べよう",
+    "jpGuide1": "「葛ちゃんと食べよう」",
+    "jpGuide2": "葛ちゃんと食べよう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "とにかく驚く",
+    "jpGuide1": "「とにかく驚く」",
+    "jpGuide2": "とにかく驚く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腹が減っては戦は出来ぬ",
+    "jpGuide1": "「腹が減っては戦は出来ぬ」",
+    "jpGuide2": "腹が減っては戦は出来ぬ",
     "enGuide": ""
   },
   {
     "simpleJp": "地域密着の定食屋さん",
-    "jpGuide1": "【地域密着の定食屋さん】",
-    "jpGuide2": "左　地域密着の定食屋さん",
+    "jpGuide1": "「地域密着の定食屋さん」",
+    "jpGuide2": "地域密着の定食屋さん",
     "enGuide": ""
   },
   {
-    "simpleJp": "これは夢だし",
-    "jpGuide1": "【これは夢だし】",
-    "jpGuide2": "【蛇と狐】右　これは夢だし",
+    "simpleJp": "ん～？",
+    "jpGuide1": "「ん～？」",
+    "jpGuide2": "ん～？",
     "enGuide": ""
   },
   {
-    "simpleJp": "蛇が！　毒が！？",
-    "jpGuide1": "【蛇が！　毒が！？】",
-    "jpGuide2": "【シシャ】中　蛇が！毒が！？（「これは夢だし」を選択すると出現）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "お願いします",
-    "jpGuide1": "【お願いします】",
-    "jpGuide2": "【シシャ】左　お願いします",
+    "simpleJp": "どういうこと？",
+    "jpGuide1": "「どういうこと？」",
+    "jpGuide2": "どういうこと？",
     "enGuide": ""
   },
   {
     "simpleJp": "それでも",
-    "jpGuide1": "【それでも】",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide1": "「それでも」",
+    "jpGuide2": "それでも",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲んでもらう",
-    "jpGuide1": "【血を飲んでもらう】",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide1": "「血を飲んでもらう」",
+    "jpGuide2": "血を飲んでもらう",
     "enGuide": ""
   },
   {
-    "simpleJp": "偏食はんたーい！",
-    "jpGuide1": "【偏食はんたーい！】",
-    "jpGuide2": "【そこが肝心ですから】右　偏食はんたーい！",
+    "simpleJp": "本当に「だけ」なら",
+    "jpGuide1": "「本当に「だけ」なら」",
+    "jpGuide2": "本当に「だけ」なら",
     "enGuide": ""
   },
   {
     "simpleJp": "手伝うってば",
-    "jpGuide1": "【手伝うってば】",
-    "jpGuide2": "【手には包丁・釜戸に炎】左　手伝うってば",
+    "jpGuide1": "「手伝うってば」",
+    "jpGuide2": "手伝うってば",
     "enGuide": ""
   },
   {
     "simpleJp": "しょうがないなぁ……",
-    "jpGuide1": "【しょうがないなぁ……】",
-    "jpGuide2": "【歓迎の心は掃除から】左　しょうがないなぁ…",
+    "jpGuide1": "「しょうがないなぁ……」",
+    "jpGuide2": "しょうがないなぁ……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14",
+    "jpGuide1": "－セーブ①－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "行ってみる",
-    "jpGuide1": "【行ってみる】",
-    "jpGuide2": "【赤い導き】左　行ってみる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "サクヤを呼びに行く",
-    "jpGuide1": "【サクヤを呼びに行く】",
-    "jpGuide2": "【赤い導き】左ルート封印解除条件・鳥月ルートEND「爽やかな立ち風」を見る　右　サクヤを呼びに行く",
-    "enGuide": "",
-    "badEndPath": "Normal End『満開の花』（ED27）"
-  },
-  {
-    "simpleJp": "止める",
-    "jpGuide1": "【止める】",
-    "jpGuide2": "【封じの綻び】右　止める",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "任せて先を急ぐ",
-    "jpGuide1": "【任せて先を急ぐ】",
-    "jpGuide2": "【道を阻むもの】右　任せて先を急ぐ",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "サクヤを突き飛ばす",
-    "jpGuide1": "【サクヤを突き飛ばす】",
-    "jpGuide2": "【朔夜】左　サクヤを突き飛ばす",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "いいよ……",
-    "jpGuide1": "【いいよ……】でNormal End『満開の花』（ED27）",
-    "jpGuide2": "【散りゆく花びら】左　いいよ…",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "サクヤを呼びに行く",
-    "jpGuide1": "【サクヤを呼びに行く】",
-    "jpGuide2": "【赤い導き】左ルート封印解除条件・鳥月ルートEND「爽やかな立ち風」を見る　右　サクヤを呼びに行く",
-    "enGuide": "",
-    "badEndPath": "Normal End『月へ向かう蝶』（ED26）"
-  },
-  {
-    "simpleJp": "止める",
-    "jpGuide1": "【止める】",
-    "jpGuide2": "【封じの綻び】右　止める",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "任せて先を急ぐ",
-    "jpGuide1": "【任せて先を急ぐ】",
-    "jpGuide2": "【道を阻むもの】右　任せて先を急ぐ",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "身動きできない",
-    "jpGuide1": "【身動きできない】でNormal End『月へ向かう蝶』（ED26）",
-    "jpGuide2": "【朔夜】右　身動きできない",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "サクヤを呼びに行く",
-    "jpGuide1": "【サクヤを呼びに行く】",
-    "jpGuide2": "【赤い導き】左ルート封印解除条件・鳥月ルートEND「爽やかな立ち風」を見る　右　サクヤを呼びに行く",
-    "enGuide": "",
-    "badEndPath": "Normal End『鬼切りの鬼』（ED23）"
-  },
-  {
-    "simpleJp": "止める",
-    "jpGuide1": "【止める】",
-    "jpGuide2": "【封じの綻び】右　止める",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "各個撃破は愚の骨頂",
-    "jpGuide1": "【各個撃破は愚の骨頂】",
-    "jpGuide2": "【道を阻むもの】左　個別撃破は愚の骨頂",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "いいよ……",
-    "jpGuide1": "【いいよ……】でNormal End『鬼切りの鬼』（ED23）",
-    "jpGuide2": "【散りゆく花びら】左　いいよ…",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "サクヤを呼びに行く",
-    "jpGuide1": "【サクヤを呼びに行く】",
-    "jpGuide2": "【赤い導き】左ルート封印解除条件・鳥月ルートEND「爽やかな立ち風」を見る　右　サクヤを呼びに行く",
-    "enGuide": "",
-    "badEndPath": "Bad End『凍てる弧月』（ED24）"
-  },
-  {
-    "simpleJp": "止める",
-    "jpGuide1": "【止める】",
-    "jpGuide2": "【封じの綻び】右　止める",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "各個撃破は愚の骨頂",
-    "jpGuide1": "【各個撃破は愚の骨頂】",
-    "jpGuide2": "【道を阻むもの】左　個別撃破は愚の骨頂",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ごめんね……",
-    "jpGuide1": "【ごめんね……】でBad End『凍てる弧月』（ED24）",
-    "jpGuide2": "【散りゆく花びら】右　ごめんね…",
+    "jpGuide1": "「行ってみる」",
+    "jpGuide2": "行ってみる(No.22 / 25へ)",
     "enGuide": ""
   },
   {
     "simpleJp": "止めに入る",
-    "jpGuide1": "【止めに入る】",
-    "jpGuide2": "【赤い導き】左　止めに入る",
+    "jpGuide1": "「止めに入る」",
+    "jpGuide2": "止めに入る",
     "enGuide": ""
   },
   {
     "simpleJp": "止めない",
-    "jpGuide1": "【止めない】",
-    "jpGuide2": "【封じの綻び】左　止めない",
+    "jpGuide1": "「止めない」",
+    "jpGuide2": "止めない",
     "enGuide": ""
   },
   {
-    "simpleJp": "飛び出していた",
-    "jpGuide1": "【飛び出していた】",
-    "jpGuide2": "【朱い鬼神】右　飛び出していた",
+    "simpleJp": "セーブ15",
+    "jpGuide1": "－セーブ②－",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
-    "simpleJp": "月は蝕まれる運命なんだ",
-    "jpGuide1": "【月は蝕まれる運命なんだ】でBad End『月の蝕み』（ED22）",
-    "jpGuide2": "【月の蝕み】左　月は蝕まれる運命なんだ",
+    "simpleJp": "見ているしかなかった",
+    "jpGuide1": "「見ているしかなかった」",
+    "jpGuide2": "見ているしかなかった(No.22へ)",
     "enGuide": "",
     "badEndPath": "Bad End『月の蝕み』（ED22）"
   },
   {
+    "simpleJp": "Bad End『月の蝕み』（ED22）",
+    "jpGuide1": "エンディングNo.22\nBad End\n『月の蝕み』",
+    "jpGuide2": "No.22 月の蝕み",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14にロード",
+    "jpGuide1": "－セーブ①から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "やめておく",
+    "jpGuide1": "「やめておく」",
+    "jpGuide2": "やめておく(No.23 / 24 / 26 / 27へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "止める",
+    "jpGuide1": "「止める」",
+    "jpGuide2": "止める(No23 / 27を迎えるための一条件)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ16",
+    "jpGuide1": "－セーブ③－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "各個撃破は愚の骨頂",
+    "jpGuide1": "「各個撃破は愚の骨頂」",
+    "jpGuide2": "各個撃破は愚の骨頂(No.23 / 24へ)",
+    "enGuide": "",
+    "badEndPath": "Normal End『鬼切りの鬼』（ED23）"
+  },
+  {
+    "simpleJp": "飛び出していた",
+    "jpGuide1": "「飛び出していた」",
+    "jpGuide2": "飛び出していた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいよ……",
+    "jpGuide1": "「いいよ……」",
+    "jpGuide2": "いいよ……(No.23へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Normal End『鬼切りの鬼』（ED23）",
+    "jpGuide1": "エンディングNo.23\nNormal End\n『鬼切りの鬼』",
+    "jpGuide2": "No.23 鬼切りの鬼",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ16にロード",
+    "jpGuide1": "－セーブ③から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "任せて先を急ぐ",
+    "jpGuide1": "「任せて先を急ぐ」",
+    "jpGuide2": "任せて先を急ぐ(No.24 / 26 / 27へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ17",
+    "jpGuide1": "－セーブ④－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "身動きできない",
+    "jpGuide1": "「身動きできない」",
+    "jpGuide2": "身動きできない(No.26へ)",
+    "enGuide": "",
+    "badEndPath": "Normal End『月へ向かう蝶』（ED26）"
+  },
+  {
+    "simpleJp": "Normal End『月へ向かう蝶』（ED26）",
+    "jpGuide1": "Normal End『月へ向かう蝶』（ED26）",
+    "jpGuide2": "No.26 月へ向かう蝶",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ17にロード",
+    "jpGuide1": "－セーブ④から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "サクヤを突き飛ばす",
+    "jpGuide1": "「サクヤを突き飛ばす」",
+    "jpGuide2": "サクヤを突き飛ばす(No.24 / 27へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18",
+    "jpGuide1": "－セーブ⑤－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ごめんね……",
+    "jpGuide1": "「ごめんね……」",
+    "jpGuide2": "ごめんね……(No.24へ)",
+    "enGuide": "",
+    "badEndPath": "Bad End『凍てる孤月』（ED24）"
+  },
+  {
+    "simpleJp": "Bad End『凍てる孤月』（ED24）",
+    "jpGuide1": "エンディングNo.24\nBad End\n『凍てる孤月』",
+    "jpGuide2": "No.24 凍てる孤月",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ18にロード",
+    "jpGuide1": "－セーブ⑤－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "いいよ……",
+    "jpGuide1": "「いいよ……」",
+    "jpGuide2": "いいよ……(No.27へ)",
+    "enGuide": "",
+    "badEndPath": "Normal End『満開の花』（ED27）"
+  },
+  {
+    "simpleJp": "Normal End『満開の花』（ED27）",
+    "jpGuide1": "エンディングNo.27\nNormal End\n『満開の花』",
+    "jpGuide2": "No.27 満開の花",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ15にロード",
+    "jpGuide1": "－セーブ②から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "飛び出していた",
+    "jpGuide1": "「飛び出していた」",
+    "jpGuide2": "飛び出していた",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "わたしだけは見捨てない",
-    "jpGuide1": "【わたしだけは見捨てない】",
-    "jpGuide2": "【月の蝕み】右　わたしだけは見捨てない",
+    "jpGuide1": "「わたしだけは見捨てない」",
+    "jpGuide2": "わたしだけは見捨てない",
     "enGuide": ""
   },
   {
     "simpleJp": "True End『ついのときまで』（ED25）",
-    "jpGuide1": "True End『ついのときまで』（ED25）",
-    "jpGuide2": "END No.25　ついのときまで",
+    "jpGuide1": "エンディングNo.25\nTrue End\n『ついのときまで』",
+    "jpGuide2": "No.25 ついのときまで",
     "enGuide": ""
   }
 ]

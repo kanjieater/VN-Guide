@@ -65,6 +65,7 @@ class StructuralSignatureTests(unittest.TestCase):
             self.assertNotEqual(original, review.structural_signature(route_file))
 
 
+
 class ReviewGateTests(unittest.TestCase):
     def _repo(self):
         temp = tempfile.TemporaryDirectory()

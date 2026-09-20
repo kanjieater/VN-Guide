@@ -124,8 +124,9 @@ Structural review must not require a character/good ending when the section's do
 ### Structural markers
 
 - `badEndPath` is the historical field name for the first branch step of any documented non-main ending detour, including bad, normal, alternate, or similarly labeled endings.
-- `isLoad: true` is reserved **only** for the load that terminates a `badEndPath` non-main-ending detour and returns to the main route.
+- `isLoad: true` is reserved **only** for a load that terminates a save-backed `badEndPath` non-main-ending detour and returns to the main route.
 - A normal instruction to load a save created in an earlier route is a plain step. Its `simpleJp` may say `セーブNにロード`, but it must **not** have `isLoad: true`.
+- A replay-from-beginning ending with no usable documented checkpoint does **not** introduce another structural marker. Represent the complete failed playthrough through its explicit ending terminal, then begin the route again from its normal opening sequence.
 ### Non-main ending detour completeness
 
 Every documented non-main ending detour—bad, normal, alternate, or similarly labeled—explicitly documented by **either** directly inspected primary Japanese verification set must be actively included before continuing the main route when the other set is silent or agrees. One-set detours are allowed; use the source-omission placeholder for the silent set on detour-only steps. If the second set contradicts the existence, branch condition, or outcome of that ending, reconcile the conflict before including it.
@@ -136,8 +137,9 @@ For each documented non-main ending detour:
 - mark the **first wrong choice** with `badEndPath`;
 - use the exact ending label documented by the source;
 - include every subsequent step needed to reach the ending terminal;
-- immediately follow the terminal with the matching `isLoad: true` load-back step;
-- then continue with the good/main choice;
+- for a save-backed detour, immediately follow the terminal with the matching `isLoad: true` load-back step, then continue with the good/main choice;
+- for a source-documented replay-from-beginning ending with no usable checkpoint, include the complete failed playthrough from route step 0 through its explicit ending terminal, then immediately begin the route again from its normal opening sequence; during structural reconstruction, remove that entire failed-play prefix through the terminal;
+- never invent a save solely to force a replay-from-beginning ending into the load-backed shape;
 - if multiple non-main endings branch from the same save, include every documented detour before continuing;
 - never add `badEndPath` where no Japanese source documents a non-main ending;
 - never invent an ending label or terminal.
@@ -253,7 +255,7 @@ For each unreviewed route:
 2. If structural findings exist, the author fixes them and the structural reviewer independently re-verifies.
 3. Accuracy reviewer independently verifies both Japanese verification sets.
 4. If accuracy findings exist, the author fixes them and the accuracy reviewer re-fetches sources and independently re-verifies.
-5. **If any accuracy-stage fix changes route structure** (step order, saves/loads, `badEndPath`, `isLoad`, or another structural-flow element), the prior structural pass is stale. Rerun structural review, then rerun accuracy review against the structurally final route.
+5. **If any accuracy-stage fix changes route structure** (step order, saves/loads, replay-from-beginning prefixes, `badEndPath`, `isLoad`, or another structural-flow element), the prior structural pass is stale. Rerun structural review, then rerun accuracy review against the structurally final route.
 6. Repeat until both gates are clean for the same route content.
 7. Only then may the accuracy stage/orchestrator set `reviewed: true`.
 
@@ -267,7 +269,7 @@ Whenever a gate has already passed, a later change can invalidate that pass **ev
 
 | Change | Set reviewed:false? | Structural re-review | Accuracy re-review |
 | --- | --- | --- | --- |
-| Route step order, `badEndPath`, `isLoad`, save/load structure | Yes, affected route | Yes | Yes |
+| Route step order, `badEndPath`, `isLoad`, save/load structure, replay-from-beginning prefix | Yes, affected route | Yes | Yes |
 | Route choice/source text/save position/ending content without structural change | Yes, affected route | No | Yes |
 | Research source basis, prerequisites, unlocks, or route-order claims | Yes, affected routes | No unless route files changed structurally | Yes |
 | Backfill of the exact already-documented legacy target, with no source/route behavior change | No | No | No |

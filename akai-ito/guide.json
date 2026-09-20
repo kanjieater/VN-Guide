@@ -6,35 +6,35 @@
       "id": "uzuki",
       "title": "千羽烏月ルート",
       "stepCount": 48,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://t.vndb.org/ch/83/11683.jpg"
     },
     {
       "id": "tsuzura",
       "title": "若杉葛ルート",
       "stepCount": 66,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://t.vndb.org/ch/09/12209.jpg"
     },
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
       "stepCount": 59,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     },
     {
       "id": "yumei",
       "title": "ユメイルート",
       "stepCount": 78,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://t.vndb.org/ch/10/12210.jpg"
     },
     {
       "id": "nozomi",
       "title": "ノゾミルート",
       "stepCount": 18,
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://t.vndb.org/ch/45/12245.jpg"
     }
   ],

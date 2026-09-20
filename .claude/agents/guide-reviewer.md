@@ -62,7 +62,8 @@ For the guide section under review, verify:
 - every emitted player-action `simpleJp` is exact in-game text with no paraphrase, suffix, or location prefix;
 - save/load steps are standalone and are the only normal non-choice `simpleJp` steps;
 - useful available `enGuide` detail has not been silently dropped;
-- no contradictions across guide sections;\n- every route character has a directly verified portrait when a verifiable character image exists; a blank portrait is a finding unless research explicitly documents that an actual lookup found no suitable verifiable image;
+- no contradictions across guide sections;
+- every route character has a directly verified portrait when a verifiable character image exists; a blank portrait is a finding unless research explicitly documents that an actual lookup found no suitable verifiable image;
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
 - each present source excerpt is verbatim;
 - `（第一ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action or non-main-ending-only step documented only by Set B;

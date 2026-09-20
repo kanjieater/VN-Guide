@@ -285,7 +285,8 @@ If uncertain whether a route-content change is structural, rerun structural revi
 
 A guide section is complete only when:
 
-- `guide_target` is explicit, linked, and matches the release/platform against which research was performed;\n- every route character has a verified portrait when a verifiable image exists, or research explicitly documents that no suitable image was found;
+- `guide_target` is explicit, linked, and matches the release/platform against which research was performed;
+- every route character has a verified portrait when a verifiable image exists, or research explicitly documents that no suitable image was found;
 - its structural review is clean,
 - its accuracy review is clean against both Japanese verification sets,
 - all reviewer findings for the active review have been independently re-verified as resolved, and

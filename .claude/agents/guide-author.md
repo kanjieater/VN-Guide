@@ -56,7 +56,8 @@ Before submitting the **current route**, confirm:
 - If sources disagree on save position, the earlier documented position is used.
 - Every emitted player-action `simpleJp` is exact in-game text and follows the canonical step-shape rules.
 - Useful available `enGuide` detail is preserved.
-- Dependencies and prerequisites are correct.\n- Every route character has a directly verified portrait when one exists; a blank portrait is allowed only when research explicitly documents that an actual lookup found no suitable verifiable image.
+- Dependencies and prerequisites are correct.
+- Every route character has a directly verified portrait when one exists; a blank portrait is allowed only when research explicitly documents that an actual lookup found no suitable verifiable image.
 - Every documented non-main ending detour represented via `badEndPath` is complete.
 - Save numbering is sequential across routes.
 - `jpGuide1` / `jpGuide2` follow the exact source-field rules in `.claude/guide-standards.md`.

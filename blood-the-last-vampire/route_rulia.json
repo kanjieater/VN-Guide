@@ -170,7 +170,7 @@
   },
   {
     "simpleJp": "BSSタップ：「主人公の顔がアップになったら」",
-    "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする.",
+    "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — XNEO Ending 18 explicitly includes 瑠璃亜！ here."
   },
@@ -285,7 +285,7 @@
   },
   {
     "simpleJp": "BSSタップ：「主人公の顔がアップになったら」",
-    "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする.",
+    "jpGuide1": "瑠璃亜！\t主人公の顔がアップになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System — XNEO Ending 25 explicitly includes 瑠璃亜！ here."
   },
@@ -309,19 +309,19 @@
   },
   {
     "simpleJp": "BSSタップ：「小夜の『待て』」",
-    "jpGuide1": "瑠璃亜から離れる\t小夜の「どけ……」のセリフが終わりそうになったら、サーチする.",
+    "jpGuide1": "瑠璃亜から離れる\t小夜の「どけ……」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System action on the XNEO Ending-25 line."
   },
   {
     "simpleJp": "BSSタップ：「瑠璃亜の『いっ、いや』」",
-    "jpGuide1": "瑠璃亜に駆け寄る\t瑠璃亜の「い、いや～」のセリフが終わりそうになったら、サーチする.",
+    "jpGuide1": "瑠璃亜に駆け寄る\t瑠璃亜の「い、いや～」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Blood Search System action on the XNEO Ending-25 line."
   },
   {
     "simpleJp": "BSSタップ：「小夜の『楽にしてやる』」",
-    "jpGuide1": "瑠璃亜をかばう\t小夜の「楽にしてやる」のセリフが終わりそうになったら、サーチする.",
+    "jpGuide1": "瑠璃亜をかばう\t小夜の「楽にしてやる」のセリフが終わりそうになったら、サーチする。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Final Blood Search System action required by XNEO Ending 25."
   },

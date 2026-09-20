@@ -5,7 +5,7 @@
     {
       "id": "uzuki",
       "title": "千羽烏月ルート",
-      "stepCount": 40,
+      "stepCount": 48,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/83/11683.jpg"
     },
@@ -19,7 +19,7 @@
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
-      "stepCount": 60,
+      "stepCount": 59,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     },
@@ -43,14 +43,14 @@
       "url": "https://xneo.jp/akaiito/",
       "title": "アカイイト完全攻略 | XNEO",
       "language": "ja",
-      "notes": "Complete text walkthrough covering all 5 heroine routes. For each route lists: the unlock condition ('攻略条件') if any, the True End name/ED number, and a full day-by-day (1日目～4日目) list of every choice, with every branch to a Bad End or Normal End spelled out as '選択肢 → 選択肢... でBad/Normal End「名前」（EDxx）'. This is the primary source used for exact choice text and ending names/numbers. Fetched directly (not summarized) and stored/reviewed line-by-line; last updated per page footer 2020年6月13日.",
+      "notes": "Set A component. Detailed Japanese text walkthrough covering all five routes, prerequisites, choices, ending names/numbers, and many alternate-ending paths. Although written for the original PS2 release, the owner-approved reconciliation treats PS2 and HD Remaster as the same route system absent concrete behavioral-change evidence; XNEO is therefore reconciled directly with Livedoor and Foxtail rather than treated as an obsolete-version source. Where it differs, the difference is classified as an alternate valid path, shorthand/omitted state, transcription/orthography issue, or walkthrough error.",
       "set": "A"
     },
     {
       "url": "https://blog.livedoor.jp/k_o_blog/archives/38098129.html",
       "title": "アカイイト/アカイイトHD REMASTER　攻略まとめ",
       "language": "ja",
-      "notes": "Set A target-specific component. Directly inspected Japanese walkthrough explicitly covering both the original PS2 game and アカイイト HD REMASTER (Switch/STEAM). It is used for HD-target choice text, numbered save/checkpoint positions, route-seal conditions, and ending-recovery sequences. Where XNEO differs from this HD-target page, the guide reconciles the difference against independent Foxtail Set B rather than silently preferring the older XNEO form.",
+      "notes": "Set A component. Directly inspected Japanese walkthrough explicitly covering both the original PS2 game and アカイイト HD REMASTER. It is especially useful for numbered save/checkpoint positions and compact ending-recovery sequences, but its HD label does not give it automatic priority over XNEO/Foxtail. Under the same-route-system premise, its disagreements are reconciled as branch-state shorthand or source errors where the state tables disagree. Known examples: the Uzuki ED13 Save② shortcut combines incompatible state (and incorrectly emits the later night choice), Tsuzura ED11 double-lists two alternatives, and its ED20/ED26 classifications are outliers.",
       "set": "A"
     },
     {
@@ -69,7 +69,7 @@
       "url": "https://w.atwiki.jp/gcmatome/pages/4086.html",
       "title": "アカイイト - ゲームカタログ@Wiki ～名作からクソゲーまで～",
       "language": "ja",
-      "notes": "Reference/review article, not a choice-by-choice walkthrough. Used to corroborate structural facts: total of 32 endings (5 happy/True Ends, 12 Normal Ends, 15 Bad Ends); confirms only Uzuki's route needs no prior unlock ('ルートの解除をせずにいきなりハッピーエンドに到達出来るのは烏月だけ'); explicitly states there is NO single 'true happy end' among the 5 heroine True Ends ('「真のハッピーエンド」が存在しない...本当の意味でのハッピーエンドが存在しない'), and that the sequel Aoishiro added a 'Grand Happy End' specifically in response to this criticism (implying Akai Ito itself, including the 2023 HD Remaster, was not given one). Also confirms the 2023 Switch/Steam 'AKAIITO HD REMASTER' is a remaster of the same content/routes as the original 2004 PS2 release, with no new routes added. Retrieved via Wayback Machine snapshot (direct fetch returns HTTP 403) at http://web.archive.org/web/20250303014011/https://w.atwiki.jp/gcmatome/pages/4086.html."
+      "notes": "Reference/review article, not a choice-by-choice walkthrough. Used to corroborate structural facts: total of 32 endings (5 happy/True Ends, 12 Normal Ends, 15 Bad Ends); confirms only Uzuki's route needs no prior unlock ('ルートの解除をせずにいきなりハッピーエンドに到達出来るのは烏月だけ'); explicitly states there is NO single 'true happy end' among the 5 heroine True Ends ('「真のハッピーエンド」が存在しない...本当の意味でのハッピーエンドが存在しない'), and that the sequel Aoishiro added a 'Grand Happy End' specifically in response to this criticism (implying Akai Ito itself, including the 2023 HD Remaster, was not given one). Also supports the owner-approved reconciliation premise: the 2023 Switch/Steam 'AKAIITO HD REMASTER' is a remaster of the same content/routes as the original 2004 PS2 release, with no new routes added; no concrete route-behavior change is documented. Retrieved via Wayback Machine snapshot (direct fetch returns HTTP 403) at http://web.archive.org/web/20250303014011/https://w.atwiki.jp/gcmatome/pages/4086.html."
     },
     {
       "url": "https://lufas.seesaa.net/article/200804article_20.html",
@@ -81,7 +81,7 @@
       "url": "https://vndb.org/v98",
       "title": "Akai Ito - VNDB entry v98",
       "language": "en",
-      "notes": "Reference only. Confirms release history: original PS2 release (2004-08/10), SuperLite 2000 budget re-release (2005), PSN download (2013), and the newest release, 'AKAIITO HD REMASTER' for Nintendo Switch and Steam/PC (2023-05-25), bundled with a HD Remaster of the sequel Aoishiro. The 2023 HD Remaster is the release targeted for this guide per project rules (most recent platform). No evidence found (from VNDB, official site, or the gcmatome retrospective) that the HD Remaster added routes or endings beyond the 2004 original."
+      "notes": "Reference only. Confirms release history: original PS2 release (2004-08/10), SuperLite 2000 budget re-release (2005), PSN download (2013), and the newest release, 'AKAIITO HD REMASTER' for Nintendo Switch and Steam/PC (2023-05-25), bundled with a HD Remaster of the sequel Aoishiro. The 2023 HD Remaster is the release targeted for this guide per project rules (most recent platform). Release-history reference only. No concrete evidence was found that the HD Remaster changed route/ending behavior; walkthrough disagreements are therefore not treated as version differences without separate behavioral evidence."
     },
     {
       "url": "https://api.vndb.org/kana (VNDB API, character endpoint filtered on vn=v98)",
@@ -93,51 +93,51 @@
       "url": "https://foxtail.okitsune.com/kitchen/capture/red1.htm",
       "title": "アカイイト攻略 - ユメイ分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Yumei. Directly inspectable Japanese branch table with scene names, choice alternatives, and END No.1/5/16-21 outcomes. Directly inspected as the active Set B component to verify the Yumei main-route and alternate-ending branch choices; it does not document save checkpoints.",
+      "notes": "Set B component for Yumei. Directly inspectable Japanese branch-state table covering the main route and ED1/5/16-21 outcomes. Used as an independent description of the same underlying PS2/HD route system; it does not document save checkpoints.",
       "set": "B"
     },
     {
       "url": "https://foxtail.okitsune.com/kitchen/capture/red2.htm",
       "title": "アカイイト攻略 - 若杉葛分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Tsuzura. Directly inspectable Japanese branch table covering the full route, ED2/6-12, route choices, and ending conditions. It does not document save checkpoints.",
+      "notes": "Set B component for Tsuzura. Directly inspectable Japanese branch-state table covering the full route and ED2/6-12. It shows the ED11 mirror options as alternatives, which is used to reject Livedoor's accidental sequential double-listing. It does not document save checkpoints.",
       "set": "B"
     },
     {
       "url": "https://foxtail.okitsune.com/kitchen/capture/red3.htm",
       "title": "アカイイト攻略 - 千羽烏月分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Uzuki. Directly inspectable Japanese branch table covering ED3/13/28-32 and the exact branch choices used by the route. Directly inspected as the active Set B branch evidence; it does not document save checkpoints.",
+      "notes": "Set B component for Uzuki. Directly inspectable Japanese branch-state table covering ED3/13/28-32. Its ED13 state notes are decisive for reachability: choosing『別に』after failing to meet Uzuki leads No.13, and the later night choice is explicitly absent in that state. It does not document save checkpoints.",
       "set": "B"
     },
     {
       "url": "https://foxtail.okitsune.com/kitchen/capture/red4.htm",
       "title": "アカイイト攻略 - 浅間サクヤ分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Sakuya main-route and ED22-27 branching. Directly inspectable Japanese branch table; used to verify the HD-target main-route action text and day-4 ending conditions. Its linked conditional table red6 is tracked separately for ED4.",
+      "notes": "Set B component for Sakuya main-route and ED22-27 branching. Directly inspectable Japanese branch-state table for the same underlying route system. For ED22 it labels『見ているしかなかった』as No.22 and also records『月は蝕まれる運命なんだ』as an ED22 condition on another branch; these are reconciled as alternative ways to the same ending, not concatenated or treated as a version difference. It does not document save checkpoints.",
       "set": "B"
     },
     {
       "url": "https://foxtail.okitsune.com/kitchen/capture/red5.htm",
       "title": "アカイイト攻略 - ノゾミ分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Nozomi. Directly inspectable Japanese branch table covering the route unlock conditions and ED14/15 split at 「もうこだわらない」 versus 「試させてもらう」; it does not document save checkpoints.",
+      "notes": "Set B component for Nozomi. Directly inspectable Japanese branch-state table covering the two actual route-seal conditions and ED14/15 split. Used as an independent description of the same PS2/HD route system; it does not document save checkpoints.",
       "set": "B"
     },
     {
       "url": "https://foxtail.okitsune.com/kitchen/capture/red6.htm",
       "title": "アカイイト攻略 - 浅間サクヤ ED4 条件分岐 (Foxtail)",
       "language": "ja",
-      "notes": "Supplementary Japanese branch evidence for an alternative route to Sakuya ED4『雫』. Directly inspectable and linked from Foxtail red4, but it does not match the exact target-specific ED4 recovery sequence emitted by this guide, so it is not counted as an active Set-B component for that detour."
+      "notes": "Supplementary Japanese branch evidence for an alternative route to Sakuya ED4『雫』. Its different ED4 choice sequence is treated as another valid route to the same ending, not evidence of PS2-vs-HD behavioral change. It is not used as the Set-B excerpt source for the exact emitted Livedoor ED4 replay steps."
     },
     {
       "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/akaiito-hd-remaster-hd-remaster",
       "title": "AKAIITO HD REMASTER 攻略",
       "language": "ja",
-      "notes": "Supplementary target-labeled walkthrough only; not counted as Set A or Set B. It documents yet another valid path to Sakuya ED4『雫』, supporting the conclusion that the differing Livedoor/Foxtail ED4 sequences are alternative solutions rather than mutually exclusive ending conditions."
+      "notes": "Supplementary Japanese walkthrough, not counted as Set A or Set B. Used only to reconcile branch-state disputes: it corroborates the earlier no-chase requirement for Uzuki ED13, documents multiple valid Sakuya ED4 routes, and explicitly describes two alternative Sakuya ED22 paths (direct『見ているしかなかった』or『飛び出していた → 月は蝕まれる運命なんだ』). Its HD label is not treated as evidence that the underlying route system changed."
     }
   ],
-  "generated_at": "2026-09-19T22:47:00.000Z",
+  "generated_at": "2026-09-20T00:15:00.000Z",
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",

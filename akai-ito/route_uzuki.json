@@ -24,6 +24,73 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "〖わたしは首を横に振る〗",
+    "jpGuide2": "わたしは首を横に振る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "確かめてみる",
+    "jpGuide1": "【確かめてみる】",
+    "jpGuide2": "確かめてみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "会ったことを話してみる",
+    "jpGuide1": "【会ったことを話してみる】",
+    "jpGuide2": "会ったことを話してみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "追いかけない",
+    "jpGuide1": "〖追いかけない〗",
+    "jpGuide2": "追いかけない",
+    "enGuide": "",
+    "badEndPath": "Bad End『赤い縛め』（ED13）"
+  },
+  {
+    "simpleJp": "納得できない",
+    "jpGuide1": "【納得できない】",
+    "jpGuide2": "納得できない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "別に",
+    "jpGuide1": "〖別に……〗",
+    "jpGuide2": "別に(No.13へ)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Bad End『赤い縛め』（ED13）",
+    "jpGuide1": "Bad End『赤い縛め』（ED13）",
+    "jpGuide2": "No.13 赤い縛め",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "駅員さんに聞きたいことが",
+    "jpGuide1": "【駅員さんに聞きたいことが】",
+    "jpGuide2": "駅員さんに聞きたいことが",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "旅館を紹介してもらうことにした",
+    "jpGuide1": "【旅館を紹介してもらうことにした】",
+    "jpGuide2": "旅館を紹介してもらうことにした",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "勇気を出して自分でフォロー",
+    "jpGuide1": "【勇気を出して自分でフォロー】",
+    "jpGuide2": "勇気を出して自分でフォロー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ウヅキってどんな字？",
+    "jpGuide1": "【ウヅキってどんな字？】",
+    "jpGuide2": "ウヅキってどんな字？",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "わたしはこくりと頷いた",
     "jpGuide1": "「わたしはこくりと頷いた」",
     "jpGuide2": "わたしはこくりと頷いた",
@@ -78,26 +145,6 @@
     "jpGuide1": "－セーブ②－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
-  },
-  {
-    "simpleJp": "別に",
-    "jpGuide1": "「別に」",
-    "jpGuide2": "別に(No.13へ)",
-    "enGuide": "",
-    "badEndPath": "Bad End『赤い縛め』（ED13）"
-  },
-  {
-    "simpleJp": "歯磨きはオッケー？",
-    "jpGuide1": "「歯磨きはオッケー？」\nエンディングNo.13\nBad End\n『赤い縛め』",
-    "jpGuide2": "歯磨きはオッケー？",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "セーブ2にロード",
-    "jpGuide1": "－セーブ②から－",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
-    "isLoad": true
   },
   {
     "simpleJp": "烏月が気になる",

@@ -67,6 +67,7 @@ Rules:
 - If the supplied target cannot be verified or the sources only apply to a materially different release, stop and document the blocker rather than silently switching targets.
 - `id` must be ASCII-only romanized keys.
 - `recommended_order` lists route ids from first to last; true/final route last when applicable. For an explicitly opted-in linear game walkthrough, it is the single canonical section order from start through completion/cleanup.
+- `prerequisites` records only real source-documented unlock/dependency requirements. Never use it to encode the previous/next section relationship; `recommended_order` already owns sequence. In particular, do not make later mandatory sections depend on optional sections unless the game itself requires that optional content to progress.
 - Label every primary source component with `set: "A"` or `set: "B"`.
 - A set may contain multiple Japanese pages, but together it must cover the complete route/ending structure required by the canonical standards.
 - Do not count translations, derivatives, or inaccessible pages toward the two-set gate.

@@ -83,8 +83,13 @@ def scaffold_guide(
     # stay in sync with guide_stub.html even for existing games.
     # Inject a content hash of guide-app.js for cache busting.
     app_js = REPO_PATH / "guide-app.js"
+    style_css = REPO_PATH / "style.css"
     js_hash = hashlib.sha1(app_js.read_bytes()).hexdigest()[:8] if app_js.exists() else "0"
+    css_hash = hashlib.sha1(style_css.read_bytes()).hexdigest()[:8] if style_css.exists() else "0"
     html = STUB_TMPL.read_text().replace(
+        '<link rel="stylesheet" href="../style.css">',
+        f'<link rel="stylesheet" href="../style.css?v={css_hash}">',
+    ).replace(
         '<script src="../guide-app.js"></script>',
         f'<script src="../guide-app.js?v={js_hash}" defer></script>',
     )

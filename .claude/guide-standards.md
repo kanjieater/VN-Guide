@@ -109,6 +109,7 @@ This mode deliberately does **not** introduce a second schema:
 - `route_<id>.json` remains a flat ordered step array.
 - A "route" in storage may represent a chapter, town, story arc, dungeon, optional-content block, NG+ block, or another practical walkthrough section.
 - `research.json.recommended_order` is the single canonical play order. The player should be able to follow section 1 → section 2 → section 3 without bouncing between sections.
+- `routes[*].prerequisites` is **not** a previous-section pointer. Use it only for real source-documented unlock/dependency requirements. Sequential presentation belongs exclusively in `recommended_order`; an optional section must never become an apparent prerequisite for later mandatory progression merely because it appears immediately before it.
 - Optional side content may be isolated into its own section and marked clearly in the section title, for example `【任意】`. Put it at the exact point in the master order where it is safest or most useful to complete. Do not create a separate side-content route that requires the player to leave the main walkthrough and return later.
 - A 100% guide may linearize multiple playthroughs as later sections of the same master order (for example first clear → NG+ cleanup → ending cleanup).
 

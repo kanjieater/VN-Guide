@@ -21,6 +21,20 @@ This title is an ordinary SRPG, not a visual novel. Apply the explicitly scoped 
 - For travel, talking, battles, preparation, pickups, and similar gameplay, concise author-written Japanese instructions are allowed.
 - Do not add `stepType` or any new route/guide fields.
 
+## Battle coverage in the linear route
+
+- Keep mandatory battles in their actual chronological position inside the same master walkthrough; do not create a detached combat appendix.
+- Give battle-specific requirements their own actionable step when they affect story progression, a prerequisite/unlock, a bonus scenario, an ending, a missable/one-time reward, a key item, or another practical 100% condition.
+- Routine tactics, recommended positioning, ordinary enemy cleanup, and other non-gating advice should normally remain optional detail on the relevant battle step rather than becoming mandatory progression steps.
+- If a battle can be skipped, lost intentionally, won for a unique reward, or completed under a turn/kill condition that changes later content, preserve that consequence at the exact point where the battle occurs.
+
+## Supplemental English-reference lane
+
+- The detailed Chinese FFSKY/SquareCN walkthrough is supplemental only and never satisfies Japanese Set A or Set B.
+- It may be used as the English-reference lane for `enGuide`: translate the relevant Chinese evidence into concise English rather than copying Chinese prose into the finished guide.
+- Use that supplemental detail to enrich battle conditions, item consequences, trigger sequences, and practical hints only after the underlying progression-critical fact is allowed by the Japanese source gate.
+- Never copy Chinese text into `jpGuide1` or `jpGuide2`, and never use it to conceal missing independent Japanese support for an unlock, ending condition, missable timing window, or other material progression fact.
+
 ## Completion target
 
 The intended finished guide should cover, when source-verified:

@@ -161,6 +161,13 @@ function currentRoute() {
   return guideData.routes.find(r => r.id === state.currentRoute);
 }
 
+function nextRoute() {
+  const idx = guideData.routes.findIndex(r => r.id === state.currentRoute);
+  return idx >= 0 && idx < guideData.routes.length - 1
+    ? guideData.routes[idx + 1]
+    : null;
+}
+
 // Scan backward from a load step to find the bad-end label that triggered it.
 // Stops at any preceding load step so nested chains don't bleed into each other.
 function findBadEndLabel(steps, loadIdx) {
@@ -211,12 +218,16 @@ function renderSlide() {
   }
 
   document.getElementById("btn-prev").disabled = idx === 0;
-  document.getElementById("btn-next").disabled = idx === total - 1;
+  const nextBtn = document.getElementById("btn-next");
+  const followingRoute = nextRoute();
+  const atSectionEnd = idx === total - 1;
+  nextBtn.disabled = atSectionEnd && !followingRoute;
+  nextBtn.textContent = atSectionEnd && followingRoute ? "次のセクションへ ▶" : "次へ ▶";
 
   showView("view-slide");
 }
 
-function nextStep() {
+async function nextStep() {
   const route = currentRoute();
   if (!route) return;
   const idx = state.progress[route.id] || 0;
@@ -224,7 +235,11 @@ function nextStep() {
     state.progress[route.id] = idx + 1;
     saveState();
     renderSlide();
+    return;
   }
+
+  const followingRoute = nextRoute();
+  if (followingRoute) await startRoute(followingRoute.id);
 }
 
 function prevStep() {

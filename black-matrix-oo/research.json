@@ -16,51 +16,51 @@
       "notes": "Mandatory chapter section."
     },
     {
-      "id": "chapter02",
-      "title": "第2章",
+      "id": "chapter02_to_free2",
+      "title": "第2章 前半（自由行動2まで）",
       "portrait": "",
       "prerequisites": [
         "chapter01"
       ],
       "is_true_ending": false,
-      "notes": "Mandatory chapter section; keep all free-action progression in sequence."
+      "notes": "Mandatory chapter-2 progression ending at 自由行動2. Set A diary and Set B FC2 walkthrough both place bonus scenario 1 here."
     },
     {
-      "id": "chapter03_to_free2",
-      "title": "第3章 前半（自由行動2まで）",
+      "id": "optional_ch02_free2",
+      "title": "【任意】第2章 自由行動2：おつかい",
       "portrait": "",
       "prerequisites": [
-        "chapter02"
+        "chapter02_to_free2"
       ],
       "is_true_ending": false,
-      "notes": "Mandatory progression ending at the point where 自由行動2 optional content becomes available."
+      "notes": "Bonus scenario 1. Corrected from the earlier chapter-3 scaffold: the contemporaneous Set A play diary reaches おつかい before chapter 3, and the Set B FC2 chapter-2 page explicitly places it at 自由行動2. The later TSST bonus-scenario memo labels it chapter 3; that chapter label is treated as a documented source error."
     },
     {
-      "id": "optional_ch03_free2",
-      "title": "【任意】第3章 自由行動2：おつかい",
+      "id": "chapter02_after_free2",
+      "title": "第2章 自由行動2後",
       "portrait": "",
       "prerequisites": [
-        "chapter03_to_free2"
+        "optional_ch02_free2"
       ],
       "is_true_ending": false,
-      "notes": "Bonus scenario 1. Route-level optional block placed at its documented free-action window."
+      "notes": "Remaining mandatory chapter-2 progression after bonus scenario 1 through chapter end."
     },
     {
-      "id": "chapter03_free2_to_free3",
-      "title": "第3章 自由行動2後〜3",
+      "id": "chapter03_to_free3",
+      "title": "第3章 前半（自由行動3まで）",
       "portrait": "",
       "prerequisites": [
-        "optional_ch03_free2"
+        "chapter02_after_free2"
       ],
       "is_true_ending": false,
-      "notes": "Mandatory progression from 自由行動2 through the next optional window."
+      "notes": "Mandatory chapter-3 progression through the next documented optional window. Bonus scenario 2 remains placed at 自由行動3 per Set A; independent Set B timing verification is still required before route generation."
     },
     {
       "id": "optional_ch03_free3",
       "title": "【任意】第3章 自由行動3：うちの子",
       "portrait": "",
       "prerequisites": [
-        "chapter03_free2_to_free3"
+        "chapter03_to_free3"
       ],
       "is_true_ending": false,
       "notes": "Bonus scenario 2. Route-level optional block placed at its documented free-action window."
@@ -373,15 +373,15 @@
         "final_chapter"
       ],
       "is_true_ending": true,
-      "notes": "Linear NG+ / ending cleanup after first clear."
+      "notes": "Linear NG+ / ending cleanup after first clear. Completion research must account for all six endings documented by the Japanese FC2 ending page, including the second-playthrough ending and サーカスED. FC2 states サーカスED requires mastering all circus minigames, then buying 達人ノ書～完～ and D・J; practical placement/timing still needs to be integrated into the master order before route generation."
     }
   ],
   "recommended_order": [
     "chapter01",
-    "chapter02",
-    "chapter03_to_free2",
-    "optional_ch03_free2",
-    "chapter03_free2_to_free3",
+    "chapter02_to_free2",
+    "optional_ch02_free2",
+    "chapter02_after_free2",
+    "chapter03_to_free3",
     "optional_ch03_free3",
     "chapter03_free3_to_free4",
     "optional_ch03_free4",
@@ -428,7 +428,7 @@
       "url": "https://tsst.blog.jp/archives/52734155.html",
       "title": "たそがれストローク — 〖BLACK/MATRIX 00〗ボーナスシナリオまとめ",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET A component. Directly inspectable and enumerates all 14 bonus scenarios with chapter/free-action placement, trigger conversation chains, cross-scenario prerequisites, the ダーナの試練 branch, and the セングラー condition for scenario 14. This closes Set A's optional-content timing gap."
+      "notes": "PRIMARY JAPANESE SET A component. Directly inspectable and enumerates all 14 bonus scenarios with trigger chains and later prerequisites. Important correction: its chapter label for bonus scenario 1 (おつかい) conflicts with the contemporaneous Set A play diary and the Set B FC2 chapter-2 walkthrough, both of which place おつかい before chapter 3 / at chapter 2 free action 2; do not use TSST's chapter-3 label for BS1. Other timing claims remain subject to independent Set B verification."
     },
     {
       "set": "B",
@@ -468,15 +468,51 @@
       "url": "https://bm00.wiki.fc2.com/",
       "title": "BLACK/MATRIX OO 攻略Wiki",
       "language": "ja",
-      "notes": "PROVENANCE ONLY FOR NOW. Search results indicate a detailed Japanese chapter/battle walkthrough, but the current fetch path returns HTTP 403, so it cannot count toward the verification gate until directly inspectable."
+      "notes": "PRIMARY JAPANESE SET B hub. The root can return HTTP 403, but multiple indexed child pages are directly inspectable in the current research environment. Directly inspected chapter 2, chapter 5, chapter 8, final/ending material; these provide detailed mandatory progression, bonus-scenario placement, exact ending choices, NG+ conditions, and circus-ending requirements. Some other child pages still intermittently return 403, so route generation remains blocked until their 100%-critical coverage is recovered or independently replaced.",
+      "set": "B"
     },
     {
       "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784797327755",
       "title": "ブラックマトリクス ダブルオー 公式ガイド",
       "language": "ja",
       "notes": "PROVENANCE ONLY. Confirms a 175-page official guide exists and advertises coverage of all scenario battles/data, but page contents are not directly inspectable through the current research path."
+    },
+    {
+      "set": "B",
+      "url": "https://bm00.wiki.fc2.com/wiki/第2章　大陸にて",
+      "title": "BLACK/MATRIX OO 攻略Wiki — 第2章 大陸にて",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Places bonus scenario 1 おつかい at 第2章 自由行動2, gives its trigger (雑記帳→プラン→「いいよ」), and documents the surrounding mandatory battles/progression. This independently corrects the earlier research scaffold."
+    },
+    {
+      "set": "B",
+      "url": "https://bm00.wiki.fc2.com/wiki/第5章　砕ける心",
+      "title": "BLACK/MATRIX OO 攻略Wiki — 第5章 砕ける心",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 7 and 8 in their free-action windows, their trigger chains, mandatory battles, and ending-relevant dialogue choices."
+    },
+    {
+      "set": "B",
+      "url": "https://bm00.wiki.fc2.com/wiki/第8章　裏切りの刃",
+      "title": "BLACK/MATRIX OO 攻略Wiki — 第8章 裏切りの刃",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 12 and 13 at 自由行動2/4 with trigger chains plus mandatory chapter progression and an ending-relevant choice."
+    },
+    {
+      "set": "B",
+      "url": "https://bm00.wiki.fc2.com/wiki/エンディング",
+      "title": "BLACK/MATRIX OO 攻略Wiki — エンディング",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Enumerates all six endings; documents the bonus-scenario-11 ring split, the exact six story choices relevant to the second-playthrough best ending, and the サーカスED requirement (master all minigames, buy 達人ノ書～完～ and D・J)."
+    },
+    {
+      "set": "B",
+      "url": "https://wazap.com/question/%E4%B8%89%E9%80%B1%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8C%E6%AF%8E%E5%9B%9E%E3%80%8E%E5%BD%BC%E5%A5%B3%E3%81%AF%E5%BE%AE%E7%AC%91%E3%82%80%E3%80%8F%E3%81%AE%E3%82%A8%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%97%E3%81%8B%E8%BF%8E%E3%81%88%E3%82%89%E3%82%8C%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82%0D%0A%E5%88%86%E5%B2%90%E7%82%B9+.../638050/",
+      "title": "ワザップ! — BLACK/MATRIX 00 エンディング分岐Q&A",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B supplementary component. Directly inspectable community Q&A. Independently corroborates the four ordinary ending outcomes, bonus scenario 11 at 第7章 自由行動3, its prerequisites (bonus scenarios 4 and 9), and the ending-affecting ring. It explicitly does not know the second-playthrough ending condition, so use the FC2 ending page for that detail."
     }
   ],
-  "disagreements": "Research remains intentionally blocked before route generation. The scaffold now demonstrates the intended route-level optional-section model: mandatory chapter progression is split at the documented free-action windows, and each substantial bonus block is inserted inline as `【任意】` so the player never leaves the master order and returns later. Set A directly documents all 14 bonus-scenario windows/triggers. Set B independently corroborates mandatory battle order and broad ending/NG+ mechanics, but still does not independently enumerate all 14 bonus-scenario triggers and missable timing. The detailed FFSKY walkthrough agrees with those triggers but is Chinese and supplemental only. Do not generate route_*.json until a second directly inspectable Japanese source closes that remaining 100%-critical optional-content gap.",
-  "generated_at": "2026-09-22T21:58:00+00:00"
+  "disagreements": "Research is still blocked before route generation, but the Set-B situation is materially improved. First, the earlier scaffold had bonus scenario 1 おつかい in chapter 3 because the 2020 TSST memo labels it ＜3章＞. That conflicts with the contemporaneous Set A play diary, which reaches おつかい before its explicit ～第3章～ entry, and with the directly inspected Set B FC2 chapter-2 walkthrough, which places it at 第2章 自由行動2; the detailed FFSKY supplemental walkthrough agrees with chapter 2. The master-order scaffold has therefore been corrected to chapter 2 and the TSST chapter label is recorded as a source disagreement. Second, indexed FC2 child pages are directly inspectable even though the hub/intermittent chapter fetches can 403: chapter 2, chapter 5, chapter 8, and the ending page now provide substantial independent Japanese Set-B coverage, while Wazap independently corroborates bonus scenario 11 timing/prerequisites and its ending-affecting ring. The FC2 ending page also shows that practical 100% cleanup must include six endings, including the second-playthrough best ending and サーカスED. Remaining blocker: independently inspect or replace the still-inaccessible FC2 chapter pages (especially chapters 3, 4, 6, 7, and 9) so every 100%-critical bonus-scenario window/prerequisite and ending-affecting progression fact has direct Set-B support. Do not generate route_*.json until that coverage is closed.",
+  "generated_at": "2026-09-22T22:20:00+00:00"
 }

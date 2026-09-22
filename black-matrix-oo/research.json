@@ -133,7 +133,7 @@
         "chapter04_free2_to_free4"
       ],
       "is_true_ending": false,
-      "notes": "Bonus scenarios 5 and 6 share the same free-action window and are grouped into one optional section."
+      "notes": "Bonus scenarios 5 and 6 share the same chapter-4 free-action window and are intentionally grouped into one optional section. Set A's 2005 diary directly records `うちの子2` followed immediately by `手合わせ`, then mandatory story progression resumes toward ラムシュタイン大聖堂. Exact trigger actions still need independent Set-B support before route generation."
     },
     {
       "id": "chapter04_after_free4",
@@ -243,7 +243,7 @@
         "chapter07_to_free2"
       ],
       "is_true_ending": false,
-      "notes": "Bonus scenario 10 at its documented free-action window."
+      "notes": "Bonus scenario 10. Set A's 2005 diary independently places it in chapter 7 before bonus scenario 11 and before mandatory story progression resumes. Exact trigger actions/timing still need direct Set-B verification."
     },
     {
       "id": "chapter07_free2_to_free3",
@@ -343,7 +343,7 @@
         "chapter09_to_free1"
       ],
       "is_true_ending": false,
-      "notes": "Bonus scenario 14. Set A documents dependencies on bonus scenarios 4, 7, and 10 plus セングラー possession; second-set verification remains required."
+      "notes": "Bonus scenario 14. Set A's 2005 diary independently places it in chapter 9 and directly shows `セングラー` being consumed in the added event. Supplemental sources give the fuller prerequisite chain (BS4 + BS7 + BS10 + セングラー), but that complete chain still needs independent Set-B verification before route generation."
     },
     {
       "id": "chapter09_after_free1",
@@ -421,7 +421,7 @@
       "url": "https://derith.exblog.jp/i5/",
       "title": "Fragments Of Memories — BLACK/MATRIX 00 プレイ日記",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET A. Directly inspectable 2005 43-entry play diary spanning first clear and later-playthrough/endgame entries. Independently establishes chronological story/battle flow and observed bonus-scenario placement: BS2/3 in chapter 3, BS4 then BS5+6 in chapter 4, BS7/8 in chapter 5, BS9 in chapter 6, BS10 then BS11 in chapter 7, BS12 in chapter 8, and BS14 in chapter 9. Individual entries also expose progression choices and battle consequences. It is the independent contemporary chronology lane; exact trigger chains that it does not print still require Set B or may remain unsupported."
+      "notes": "PRIMARY JAPANESE SET A. Directly inspectable 2005 43-entry play diary spanning first clear and later-playthrough/endgame entries. It independently establishes the chronological story/battle flow and observed bonus placement. Newly indexed in this pass: BS2 and BS3 occur during chapter 3; BS4 occurs in chapter 4; BS5 `うちの子2` and BS6 `手合わせ` fire back-to-back in one chapter-4 free-action segment before mandatory progression resumes toward ラムシュタイン大聖堂; BS7/8 occur in chapter 5; BS9 in chapter 6; BS10 then BS11 in chapter 7; BS12 in chapter 8; and BS14 in chapter 9, where `セングラー` is visibly consumed during the added event. Use this as the independent contemporary chronology lane. Exact trigger chains that the diary does not print still require Set B or remain unsupported."
     },
     {
       "url": "https://tsst.blog.jp/archives/52734155.html",
@@ -467,7 +467,7 @@
       "url": "https://bm00.wiki.fc2.com/",
       "title": "BLACK/MATRIX OO 攻略Wiki",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B hub. The root can return HTTP 403, but multiple indexed child pages are directly inspectable in the current research environment. Directly inspected chapter 2, chapter 5, chapter 8, final/ending material; these provide detailed mandatory progression, bonus-scenario placement, exact ending choices, NG+ conditions, and circus-ending requirements. Some other child pages still intermittently return 403, so route generation remains blocked until their 100%-critical coverage is recovered or independently replaced.",
+      "notes": "PRIMARY JAPANESE SET B hub. Some child pages are directly inspectable (chapter 2, chapter 5, chapter 8, ending), while chapters 3/4/6/7/9 still intermittently return HTTP 403. Search indexing exposes useful exact-looking lines for some blocked pages (notably chapter 4, chapter 7, and chapter 9), but those snippets are NOT counted as a clean primary source because the pages cannot be directly inspected. Use them only to target corroborating research.",
       "set": "B"
     },
     {
@@ -519,6 +519,6 @@
       "notes": "PRIMARY JAPANESE SET B supporting component. Directly inspectable Japanese chapter-by-chapter story summary covering the ten-chapter progression and six ending outcomes. Useful as an independent chronology/ending cross-check, but it does not replace detailed walkthrough evidence for bonus-scenario trigger chains or precise missable timing."
     }
   ],
-  "disagreements": "Research remains blocked before route generation, but the unresolved area is now narrow. Set A is the independent 2005 Fragments Of Memories play diary; the 2020 TSST bonus memo has been downgraded to supplemental because it explicitly preserves material from an older vanished site and therefore cannot establish source independence. Set B combines the directly inspectable FC2 walkthrough components with CRADLE's Japanese battle ordering, Japanese ending/NG+ sources, Wazap/5ch corroboration, and the Japanese ten-chapter story summary. The earlier BS1 placement error remains resolved in favor of chapter 2 / 自由行動2. The Chinese FFSKY walkthrough is now explicitly the supplemental English-reference lane: it can supply translated `enGuide` detail and battle consequences in chronological position, but cannot close Japanese verification gaps. Remaining gate: recover or independently replace detailed Japanese support for exact 100%-critical bonus trigger/timing facts still hidden behind inaccessible FC2 chapter pages, especially chapters 3, 4, 6, 7, and 9. Battle-specific facts that affect unlocks, endings, key items, missables, or later content must stay inline at the relevant battle in the master route.",
-  "generated_at": "2026-09-22T22:40:00+00:00"
+  "disagreements": "Research handoff checkpoint. The route order is now well established and should not be redesigned: Set A's 2005 diary independently anchors BS2/3 in chapter 3, BS5+6 together in one chapter-4 free-action segment, BS10 before BS11 in chapter 7, and BS14 in chapter 9 with `セングラー` consumed during the event. BS1 remains corrected to chapter 2 / 自由行動2. Set B directly covers chapter 2, chapter 5, chapter 8, endings/NG+, battle order, and BS11 corroboration. The Chinese FFSKY walkthrough remains supplemental and may be translated into concise `enGuide` details, including battle consequences, but never satisfies Japanese Set A/B. Remaining clean Japanese verification gaps are now narrow: (1) exact trigger/timing facts for BS2/3, (2) exact trigger actions for grouped BS5/6, (3) exact trigger actions/timing for BS10, and (4) the FULL BS14 prerequisite chain beyond Set A's direct proof that `セングラー` is consumed. FC2 indexed snippets appear to contain relevant chapter-4/7/9 text, but because the underlying pages still 403 they must not be treated as direct Set-B evidence. Best next leads: old Japanese Wazap/Q&A pages for the PS1 release; preserved 2004 `BLACK/MATRIX 00攻略スレ２` mirrors/logs; directly inspectable scans/previews of the official 175-page Japanese guide; or another independent Japanese walkthrough. Do not generate route_*.json until these progression-critical gaps are closed. Once closed, author battles inline in the same linear route and give dedicated steps only to battle conditions that affect unlocks, endings, key items, missables, bonus content, or later progression.",
+  "generated_at": "2026-09-22T23:05:00+00:00"
 }

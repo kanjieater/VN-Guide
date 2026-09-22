@@ -99,6 +99,36 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 - Preserve source whitespace and punctuation exactly when quoting.
 
 
+## Non-VN linear walkthroughs — explicit game-specific opt-in only
+
+The repository may also contain ordinary games that use the existing guide schema as a linear walkthrough. This mode is **opt-in per game**: apply it only when that game's `prompt_supplement.md` explicitly identifies the title as a **NON-VN LINEAR WALKTHROUGH**. If that explicit instruction is absent, all normal VN rules in this document remain unchanged.
+
+This mode deliberately does **not** introduce a second schema:
+
+- `guide.json.routes` remains the ordered section list.
+- `route_<id>.json` remains a flat ordered step array.
+- A "route" in storage may represent a chapter, town, story arc, dungeon, optional-content block, NG+ block, or another practical walkthrough section.
+- `research.json.recommended_order` is the single canonical play order. The player should be able to follow section 1 → section 2 → section 3 without bouncing between sections.
+- Optional side content may be isolated into its own section and marked clearly in the section title, for example `【任意】`. Put it at the exact point in the master order where it is safest or most useful to complete. Do not create a separate side-content route that requires the player to leave the main walkthrough and return later.
+- A 100% guide may linearize multiple playthroughs as later sections of the same master order (for example first clear → NG+ cleanup → ending cleanup).
+
+### Game-walkthrough `simpleJp`
+
+For an opted-in non-VN walkthrough only, `simpleJp` is the short Japanese instruction the player should perform next.
+
+- When the game presents literal choice/menu/action text, preserve that exact in-game text.
+- For navigation, battles, conversations, pickups, preparation, or other actions that have no single on-screen command string, a concise author-written Japanese instruction is allowed.
+- Keep one actionable instruction per step. Do not add a new step schema or `stepType` field.
+- This exception does not relax normal VN `simpleJp` rules.
+
+### Game-walkthrough source coverage
+
+The two independent Japanese verification sets remain required for an opted-in game walkthrough, but source granularity differs from a VN choice guide.
+
+Both sets must independently support every material progression fact that could change the run: chapter/section order, required story progression, irreversible choices, prerequisites/unlocks, ending conditions, missable/limited content presented as required for completion, and the placement of optional content when timing materially matters.
+
+Low-level execution details such as ordinary travel, talking to an NPC, a routine pickup, battle advice, or another non-branching microstep may be documented by only one primary set when the other is silent and non-contradictory. Keep both source fields non-empty and use the same symmetric omission placeholders defined below. Never use this exception to hide missing independent support for a progression-critical fact.
+
 ## Route step semantics
 
 ### Step shape / `simpleJp`

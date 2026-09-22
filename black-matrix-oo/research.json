@@ -133,7 +133,7 @@
         "chapter04_free2_to_free4"
       ],
       "is_true_ending": false,
-      "notes": "Bonus scenarios 5 and 6 share the same chapter-4 free-action window and are intentionally grouped into one optional section. Set A's 2005 diary directly records `うちの子2` followed immediately by `手合わせ`, then mandatory story progression resumes toward ラムシュタイン大聖堂. Exact trigger actions still need independent Set-B support before route generation."
+      "notes": "Bonus scenarios 5 and 6 share the same chapter-4 free-action window and are intentionally grouped into one optional section. Set A's 2005 diary directly records `うちの子2` followed immediately by `手合わせ`, then mandatory story progression resumes toward ラムシュタイン大聖堂. Exact trigger actions still need independent Set-B support. Supplemental FFSKY and derivative TSST disagree on BS6's NPC prerequisite list: FFSKY explicitly includes the young Cipher Punk member in addition to the woman and man, while TSST lists only man+woman."
     },
     {
       "id": "chapter04_after_free4",
@@ -243,7 +243,7 @@
         "chapter07_to_free2"
       ],
       "is_true_ending": false,
-      "notes": "Bonus scenario 10. Set A's 2005 diary independently places it in chapter 7 before bonus scenario 11 and before mandatory story progression resumes. Exact trigger actions/timing still need direct Set-B verification."
+      "notes": "Bonus scenario 10. Set A's 2005 diary independently places it in chapter 7 before bonus scenario 11 and before mandatory story progression resumes. Exact trigger actions/timing still need direct Set-B verification. Supplemental FFSKY explicitly places a waitress conversation immediately after シリア; derivative TSST omits it from the main sequence and only has an uncertain note that the waiter may need to be spoken to somewhere, so the trigger sequence remains unresolved."
     },
     {
       "id": "chapter07_free2_to_free3",
@@ -343,7 +343,7 @@
         "chapter09_to_free1"
       ],
       "is_true_ending": false,
-      "notes": "Bonus scenario 14. Set A's 2005 diary independently places it in chapter 9 and directly shows `セングラー` being consumed in the added event. Supplemental sources give the fuller prerequisite chain (BS4 + BS7 + BS10 + セングラー), but that complete chain still needs independent Set-B verification before route generation."
+      "notes": "Bonus scenario 14. Set A's 2005 diary independently places it in chapter 9 and directly shows `セングラー` being consumed in the added event. Japanese Set B now independently verifies that セングラー is required for the chapter-9 クッタ-related event and must be held rather than equipped. The remaining clean Set-B gap is the full BS4+BS7+BS10 prerequisite chain plus the exact notebook/waiter trigger; supplemental sources give those details but cannot close the Japanese gate."
     },
     {
       "id": "chapter09_after_free1",
@@ -448,7 +448,7 @@
       "url": "https://medaka.5ch.io/test/read.cgi/gamesrpg/1327576922",
       "title": "BLACK/MATRIX総合スレッド Chapter:15",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B supplementary/community component. Directly inspectable discussion independently states that the OO bonus-scenario path yields the ring opposed to パスカ's ring, that avoiding/handling that ring matters for the true-ending path, and that the special ending requires a later playthrough. Another post reports checking the physical strategy guide for a late-game item condition. Use cautiously and reconcile with stronger FC2/ending evidence."
+      "notes": "PRIMARY JAPANESE SET B supplementary/community component. Directly inspectable discussion independently states that the OO bonus-scenario path yields the ring opposed to パスカ's ring, that avoiding/handling that ring matters for the true-ending path, and that the special ending requires a later playthrough. Newly inspected posts 319-321 directly establish the chapter-9 item condition for the クッタ-related event: `セングラーは第９章のクッタ関連のイベントに必要` and, after obtaining it, `「装備」せずにただ所持しておくこと`. This independently verifies the セングラー possession/timing constraint for BS14, but not the BS4+BS7+BS10 prerequisite chain or the exact notebook/waiter trigger. Another post reports checking a physical strategy guide for a late-game item condition. Use cautiously and reconcile with stronger walkthrough evidence."
     },
     {
       "set": "B",
@@ -461,7 +461,7 @@
       "url": "https://www.ffsky.com/article/bc5739_a14172.aspx",
       "title": "PS～Black/Matrix00徹底攻略+極道研究",
       "language": "zh",
-      "notes": "SUPPLEMENTAL CHINESE / ENGLISH-REFERENCE LANE ONLY. Directly inspectable detailed full walkthrough with chronological battle-stage order, free-action windows, all 14 bonus-scenario trigger chains, hidden-shop/key-item notes, conditional battle rewards, ending-affecting conditions, and first-clear/NG+ information. Translate only relevant excerpts/meaning into concise `enGuide` detail. Never count this source as Set A/B and never use it to fill `jpGuide1`/`jpGuide2` or bypass missing Japanese verification."
+      "notes": "SUPPLEMENTAL CHINESE / ENGLISH-REFERENCE LANE ONLY. Directly inspectable detailed full walkthrough with chronological battle-stage order, free-action windows, hidden-shop/key-item notes, conditional battle rewards, ending-affecting conditions, and first-clear/NG+ information. Newly inspected relevant material: BS2 after 3-1 uses notebook `うちの子` then ダリア; BS3 uses the inn middle-aged man, フライ/プラン, the new notebook entry, then エクサル before optional battle `?1 問答無用`; BS5 uses notebook `うちの子で...` then the waiter; BS6 explicitly lists three Cipher Punk members (young man, woman, man), then notebook `いつものと...`, then ステイエン; BS10 explicitly inserts the waitress after シリア before プラン→片翼の天使→ウンダ長老→notebook `記憶を消...`→フライ→`う～ん...`; BS14 says BS4+BS7+BS10 cause notebook `カイン様`, then waiter, then `?4 クッタにトドメを`, whose reward is `絶望の光彩`. The BS6 young-member detail conflicts with derivative TSST (male+female only), and the explicit BS10 waitress placement sharpens TSST's uncertain waiter note, so neither discrepancy may be resolved without Japanese evidence. Useful future `enGuide` detail also includes preparing before BS3's strong optional battle, the chapter-4 4-2 optional boss reward (`過酷な抱擁` + `募る思いの告白`), and late chapter-4 Painkiller/AoE cautions. Translate only relevant meaning into concise English. Never count this source as Set A/B and never use it to fill `jpGuide1`/`jpGuide2` or bypass missing Japanese verification."
     },
     {
       "url": "https://bm00.wiki.fc2.com/",
@@ -474,7 +474,7 @@
       "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784797327755",
       "title": "ブラックマトリクス ダブルオー 公式ガイド",
       "language": "ja",
-      "notes": "PROVENANCE ONLY. Confirms a 175-page official guide exists and advertises coverage of all scenario battles/data, but page contents are not directly inspectable through the current research path."
+      "notes": "PROVENANCE ONLY. Confirms the 2004 Japanese `ブラックマトリクス ダブルオー 公式ガイド` (A5, 175 pages, ISBN 9784797327755) and advertises complete coverage of the scenario battles including bonus stages. This pass searched for directly inspectable scans/previews, but no interior pages exposing the missing BS2/3, BS5/6, BS10, or BS14 trigger chains were recovered, so the book cannot close the gate yet."
     },
     {
       "set": "B",
@@ -517,8 +517,14 @@
       "title": "ストーリーを教えてもらうスレ暫定Wiki — BLACK/MATRIX 00",
       "language": "ja",
       "notes": "PRIMARY JAPANESE SET B supporting component. Directly inspectable Japanese chapter-by-chapter story summary covering the ten-chapter progression and six ending outcomes. Useful as an independent chronology/ending cross-check, but it does not replace detailed walkthrough evidence for bonus-scenario trigger chains or precise missable timing."
+    },
+    {
+      "url": "https://kako.5ch.net/test/read.cgi/gamesrpg/1190857662",
+      "title": "BLACK/MATRIX総合スレッド Chapter：13",
+      "language": "ja",
+      "notes": "RESEARCH LEAD PROVENANCE ONLY. Directly inspectable 2008 discussion points an OO ending question to the release-era `BLACK/MATRIX 00攻略スレ２` (thread id 1086009241) and separately says `BLUE MATRIX` is another攻略 lead. This confirms the old攻略 thread/site lineage, but the linked攻略 thread and a usable BLUE MATRIX walkthrough could not be directly recovered in this pass, so this source supplies no trigger fact and does not close any gap."
     }
   ],
-  "disagreements": "Research handoff checkpoint. The route order is now well established and should not be redesigned: Set A's 2005 diary independently anchors BS2/3 in chapter 3, BS5+6 together in one chapter-4 free-action segment, BS10 before BS11 in chapter 7, and BS14 in chapter 9 with `セングラー` consumed during the event. BS1 remains corrected to chapter 2 / 自由行動2. Set B directly covers chapter 2, chapter 5, chapter 8, endings/NG+, battle order, and BS11 corroboration. The Chinese FFSKY walkthrough remains supplemental and may be translated into concise `enGuide` details, including battle consequences, but never satisfies Japanese Set A/B. Remaining clean Japanese verification gaps are now narrow: (1) exact trigger/timing facts for BS2/3, (2) exact trigger actions for grouped BS5/6, (3) exact trigger actions/timing for BS10, and (4) the FULL BS14 prerequisite chain beyond Set A's direct proof that `セングラー` is consumed. FC2 indexed snippets appear to contain relevant chapter-4/7/9 text, but because the underlying pages still 403 they must not be treated as direct Set-B evidence. Best next leads: old Japanese Wazap/Q&A pages for the PS1 release; preserved 2004 `BLACK/MATRIX 00攻略スレ２` mirrors/logs; directly inspectable scans/previews of the official 175-page Japanese guide; or another independent Japanese walkthrough. Do not generate route_*.json until these progression-critical gaps are closed. Once closed, author battles inline in the same linear route and give dedicated steps only to battle conditions that affect unlocks, endings, key items, missables, bonus content, or later progression.",
-  "generated_at": "2026-09-22T23:05:00+00:00"
+  "disagreements": "Research checkpoint after targeted Set-B pass. The route order remains established and must not be redesigned: Set A's 2005 diary independently anchors BS2/3 in chapter 3, BS5+6 together in one chapter-4 free-action segment, BS10 before BS11 in chapter 7, and BS14 in chapter 9 with `セングラー` consumed during the event. BS1 remains corrected to chapter 2 / 自由行動2. Set B directly covers chapter 2, chapter 5, chapter 8, endings/NG+, battle order, and BS11 corroboration. New clean Japanese Set-B evidence from BLACK/MATRIX総合スレッド Chapter:15 posts 319-321 closes only the BS14 item-condition sub-gap: `セングラー` is required for the chapter-9 クッタ-related event and must be held, not equipped. The gate is still OPEN. Remaining clean Japanese Set-B gaps: (1) exact trigger/timing facts for BS2/3; (2) exact trigger actions for grouped BS5/6; (3) exact trigger actions/timing for BS10; and (4) for BS14, the full BS4+BS7+BS10 prerequisite chain plus the exact `雑記帳（カイン様）→ウェイター` trigger. Supplemental evidence must not be promoted: TSST is derivative, and Chinese FFSKY is English-reference-only. Two supplemental discrepancies make direct Japanese verification especially important: FFSKY's BS6 sequence explicitly includes the young Cipher Punk member in addition to the woman/man while TSST lists only man+woman; FFSKY's BS10 sequence explicitly inserts the waitress after シリア while TSST only has an uncertain waiter note. FC2 indexed snippets continue to expose useful-looking chapter-4/7/9 lines but the underlying pages still return 403, so snippets remain search leads only. The release-era `BLACK/MATRIX 00攻略スレ２` thread id 1086009241 is independently confirmed by later Japanese threads, and those threads also name `BLUE MATRIX` as an攻略 lead, but neither source's relevant contents were recoverable directly in this pass. The official 175-page Japanese guide is confirmed to cover bonus stages, but no inspectable interior pages were recovered. Do not generate route_*.json until these progression-critical trigger gaps are closed by directly inspected independent Japanese evidence.",
+  "generated_at": "2026-09-22T23:28:00+00:00"
 }

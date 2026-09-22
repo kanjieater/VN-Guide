@@ -421,14 +421,13 @@
       "url": "https://derith.exblog.jp/i5/",
       "title": "Fragments Of Memories — BLACK/MATRIX 00 プレイ日記",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET A candidate. Directly inspectable 43-entry play diary spanning the game through first clear and later-playthrough/endgame entries. Useful for chronological story flow, free-action events, battles, and observed ending outcomes. Needs route-by-route indexing before authoring."
+      "notes": "PRIMARY JAPANESE SET A. Directly inspectable 2005 43-entry play diary spanning first clear and later-playthrough/endgame entries. Independently establishes chronological story/battle flow and observed bonus-scenario placement: BS2/3 in chapter 3, BS4 then BS5+6 in chapter 4, BS7/8 in chapter 5, BS9 in chapter 6, BS10 then BS11 in chapter 7, BS12 in chapter 8, and BS14 in chapter 9. Individual entries also expose progression choices and battle consequences. It is the independent contemporary chronology lane; exact trigger chains that it does not print still require Set B or may remain unsupported."
     },
     {
-      "set": "A",
       "url": "https://tsst.blog.jp/archives/52734155.html",
       "title": "たそがれストローク — 〖BLACK/MATRIX 00〗ボーナスシナリオまとめ",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET A component. Directly inspectable and enumerates all 14 bonus scenarios with trigger chains and later prerequisites. Important correction: its chapter label for bonus scenario 1 (おつかい) conflicts with the contemporaneous Set A play diary and the Set B FC2 chapter-2 walkthrough, both of which place おつかい before chapter 3 / at chapter 2 free action 2; do not use TSST's chapter-3 label for BS1. Other timing claims remain subject to independent Set B verification."
+      "notes": "SUPPLEMENTAL JAPANESE / DERIVATIVE. Directly inspectable 2020 bonus-scenario memo with all 14 trigger chains and prerequisites, but the author states the material was preserved from an older now-vanished site, so it is not counted as an independent primary verification set. It also labels BS1 おつかい as chapter 3, contradicting the contemporary Set-A diary and Set-B FC2 chapter-2 walkthrough; do not use that chapter label. Retain it as a useful lead/cross-check only."
     },
     {
       "set": "B",
@@ -449,7 +448,7 @@
       "url": "https://medaka.5ch.io/test/read.cgi/gamesrpg/1327576922",
       "title": "BLACK/MATRIX総合スレッド Chapter:15",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B supplementary component with firsthand discussion of bonus scenarios and true-ending/second-playthrough requirements. Community evidence only; use cautiously and reconcile with stronger sources."
+      "notes": "PRIMARY JAPANESE SET B supplementary/community component. Directly inspectable discussion independently states that the OO bonus-scenario path yields the ring opposed to パスカ's ring, that avoiding/handling that ring matters for the true-ending path, and that the special ending requires a later playthrough. Another post reports checking the physical strategy guide for a late-game item condition. Use cautiously and reconcile with stronger FC2/ending evidence."
     },
     {
       "set": "B",
@@ -462,7 +461,7 @@
       "url": "https://www.ffsky.com/article/bc5739_a14172.aspx",
       "title": "PS～Black/Matrix00徹底攻略+極道研究",
       "language": "zh",
-      "notes": "SUPPLEMENTAL ONLY. Directly inspectable detailed full walkthrough with chapter/stage ordering, free-action placement, all 14 bonus-scenario references, hidden-shop notes, ending-affecting conditions, and first-clear/NG+ information. Because it is not Japanese, it cannot satisfy Set A or Set B."
+      "notes": "SUPPLEMENTAL CHINESE / ENGLISH-REFERENCE LANE ONLY. Directly inspectable detailed full walkthrough with chronological battle-stage order, free-action windows, all 14 bonus-scenario trigger chains, hidden-shop/key-item notes, conditional battle rewards, ending-affecting conditions, and first-clear/NG+ information. Translate only relevant excerpts/meaning into concise `enGuide` detail. Never count this source as Set A/B and never use it to fill `jpGuide1`/`jpGuide2` or bypass missing Japanese verification."
     },
     {
       "url": "https://bm00.wiki.fc2.com/",
@@ -511,8 +510,15 @@
       "title": "ワザップ! — BLACK/MATRIX 00 エンディング分岐Q&A",
       "language": "ja",
       "notes": "PRIMARY JAPANESE SET B supplementary component. Directly inspectable community Q&A. Independently corroborates the four ordinary ending outcomes, bonus scenario 11 at 第7章 自由行動3, its prerequisites (bonus scenarios 4 and 9), and the ending-affecting ring. It explicitly does not know the second-playthrough ending condition, so use the FC2 ending page for that detail."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/storyteller/pages/714.html",
+      "title": "ストーリーを教えてもらうスレ暫定Wiki — BLACK/MATRIX 00",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B supporting component. Directly inspectable Japanese chapter-by-chapter story summary covering the ten-chapter progression and six ending outcomes. Useful as an independent chronology/ending cross-check, but it does not replace detailed walkthrough evidence for bonus-scenario trigger chains or precise missable timing."
     }
   ],
-  "disagreements": "Research is still blocked before route generation, but the Set-B situation is materially improved. First, the earlier scaffold had bonus scenario 1 おつかい in chapter 3 because the 2020 TSST memo labels it ＜3章＞. That conflicts with the contemporaneous Set A play diary, which reaches おつかい before its explicit ～第3章～ entry, and with the directly inspected Set B FC2 chapter-2 walkthrough, which places it at 第2章 自由行動2; the detailed FFSKY supplemental walkthrough agrees with chapter 2. The master-order scaffold has therefore been corrected to chapter 2 and the TSST chapter label is recorded as a source disagreement. Second, indexed FC2 child pages are directly inspectable even though the hub/intermittent chapter fetches can 403: chapter 2, chapter 5, chapter 8, and the ending page now provide substantial independent Japanese Set-B coverage, while Wazap independently corroborates bonus scenario 11 timing/prerequisites and its ending-affecting ring. The FC2 ending page also shows that practical 100% cleanup must include six endings, including the second-playthrough best ending and サーカスED. Remaining blocker: independently inspect or replace the still-inaccessible FC2 chapter pages (especially chapters 3, 4, 6, 7, and 9) so every 100%-critical bonus-scenario window/prerequisite and ending-affecting progression fact has direct Set-B support. Do not generate route_*.json until that coverage is closed.",
-  "generated_at": "2026-09-22T22:20:00+00:00"
+  "disagreements": "Research remains blocked before route generation, but the unresolved area is now narrow. Set A is the independent 2005 Fragments Of Memories play diary; the 2020 TSST bonus memo has been downgraded to supplemental because it explicitly preserves material from an older vanished site and therefore cannot establish source independence. Set B combines the directly inspectable FC2 walkthrough components with CRADLE's Japanese battle ordering, Japanese ending/NG+ sources, Wazap/5ch corroboration, and the Japanese ten-chapter story summary. The earlier BS1 placement error remains resolved in favor of chapter 2 / 自由行動2. The Chinese FFSKY walkthrough is now explicitly the supplemental English-reference lane: it can supply translated `enGuide` detail and battle consequences in chronological position, but cannot close Japanese verification gaps. Remaining gate: recover or independently replace detailed Japanese support for exact 100%-critical bonus trigger/timing facts still hidden behind inaccessible FC2 chapter pages, especially chapters 3, 4, 6, 7, and 9. Battle-specific facts that affect unlocks, endings, key items, missables, or later content must stay inline at the relevant battle in the master route.",
+  "generated_at": "2026-09-22T22:40:00+00:00"
 }

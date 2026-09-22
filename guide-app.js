@@ -82,7 +82,7 @@ function renderHome() {
     return;
   }
   status.style.display = "none";
-  const isLinearGame = String(guideData.vndb_id || "").startsWith("game:");
+  const isLinearGame = isLinearGameGuide();
   list.innerHTML = guideData.routes.map((r, routeIdx) => {
     const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
@@ -162,7 +162,12 @@ function currentRoute() {
   return guideData.routes.find(r => r.id === state.currentRoute);
 }
 
+function isLinearGameGuide() {
+  return String(guideData.vndb_id || "").startsWith("game:");
+}
+
 function nextRoute() {
+  if (!isLinearGameGuide()) return null;
   const idx = guideData.routes.findIndex(r => r.id === state.currentRoute);
   return idx >= 0 && idx < guideData.routes.length - 1
     ? guideData.routes[idx + 1]

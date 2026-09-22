@@ -13,7 +13,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Sequential walkthrough section; exact subtitle and all 100% steps still require Japanese-source reconciliation."
+      "notes": "Mandatory chapter section."
     },
     {
       "id": "chapter02",
@@ -23,87 +23,347 @@
         "chapter01"
       ],
       "is_true_ending": false,
-      "notes": "Includes the first free-action period; optional content must remain inline in the master order."
+      "notes": "Mandatory chapter section; keep all free-action progression in sequence."
     },
     {
-      "id": "chapter03",
-      "title": "第3章",
+      "id": "chapter03_to_free2",
+      "title": "第3章 前半（自由行動2まで）",
       "portrait": "",
       "prerequisites": [
         "chapter02"
       ],
       "is_true_ending": false,
-      "notes": "Sequential walkthrough section."
+      "notes": "Mandatory progression ending at the point where 自由行動2 optional content becomes available."
     },
     {
-      "id": "chapter04",
-      "title": "第4章",
+      "id": "optional_ch03_free2",
+      "title": "【任意】第3章 自由行動2：おつかい",
       "portrait": "",
       "prerequisites": [
-        "chapter03"
+        "chapter03_to_free2"
       ],
       "is_true_ending": false,
-      "notes": "Sequential walkthrough section."
+      "notes": "Bonus scenario 1. Route-level optional block placed at its documented free-action window."
     },
     {
-      "id": "chapter05",
-      "title": "第5章",
+      "id": "chapter03_free2_to_free3",
+      "title": "第3章 自由行動2後〜3",
       "portrait": "",
       "prerequisites": [
-        "chapter04"
+        "optional_ch03_free2"
       ],
       "is_true_ending": false,
-      "notes": "Sequential walkthrough section."
+      "notes": "Mandatory progression from 自由行動2 through the next optional window."
     },
     {
-      "id": "chapter06",
-      "title": "第6章",
+      "id": "optional_ch03_free3",
+      "title": "【任意】第3章 自由行動3：うちの子",
       "portrait": "",
       "prerequisites": [
-        "chapter05"
+        "chapter03_free2_to_free3"
       ],
       "is_true_ending": false,
-      "notes": "Contains a progression branch in existing supplementary walkthrough material; exact in-game choice must be independently verified in Japanese before generation."
+      "notes": "Bonus scenario 2. Route-level optional block placed at its documented free-action window."
     },
     {
-      "id": "chapter07",
-      "title": "第7章",
+      "id": "chapter03_free3_to_free4",
+      "title": "第3章 自由行動3後〜4",
       "portrait": "",
       "prerequisites": [
-        "chapter06"
+        "optional_ch03_free3"
       ],
       "is_true_ending": false,
-      "notes": "Ending-affecting optional content is reported around this portion of the game; source gate not yet complete."
+      "notes": "Mandatory progression from 自由行動3 through the next optional window."
     },
     {
-      "id": "chapter08",
-      "title": "第8章",
+      "id": "optional_ch03_free4",
+      "title": "【任意】第3章 自由行動4：アベル",
       "portrait": "",
       "prerequisites": [
-        "chapter07"
+        "chapter03_free3_to_free4"
       ],
       "is_true_ending": false,
-      "notes": "Sequential walkthrough section."
+      "notes": "Bonus scenario 3. Route-level optional block placed at its documented free-action window."
     },
     {
-      "id": "chapter09",
-      "title": "第9章",
+      "id": "chapter03_after_free4",
+      "title": "第3章 自由行動4後",
       "portrait": "",
       "prerequisites": [
-        "chapter08"
+        "optional_ch03_free4"
       ],
       "is_true_ending": false,
-      "notes": "Sequential walkthrough section."
+      "notes": "Remaining mandatory progression for chapter 3."
+    },
+    {
+      "id": "chapter04_to_free2",
+      "title": "第4章 前半（自由行動2まで）",
+      "portrait": "",
+      "prerequisites": [
+        "chapter03_after_free4"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression ending at 自由行動2."
+    },
+    {
+      "id": "optional_ch04_free2",
+      "title": "【任意】第4章 自由行動2：エクサルの小刀",
+      "portrait": "",
+      "prerequisites": [
+        "chapter04_to_free2"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 4 at its documented free-action window."
+    },
+    {
+      "id": "chapter04_free2_to_free4",
+      "title": "第4章 自由行動2後〜4",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch04_free2"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression through the next optional window."
+    },
+    {
+      "id": "optional_ch04_free4",
+      "title": "【任意】第4章 自由行動4：うちの子2・手合わせ",
+      "portrait": "",
+      "prerequisites": [
+        "chapter04_free2_to_free4"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenarios 5 and 6 share the same free-action window and are grouped into one optional section."
+    },
+    {
+      "id": "chapter04_after_free4",
+      "title": "第4章 自由行動4後",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch04_free4"
+      ],
+      "is_true_ending": false,
+      "notes": "Remaining mandatory progression for chapter 4."
+    },
+    {
+      "id": "chapter05_to_free1",
+      "title": "第5章 前半（自由行動1まで）",
+      "portrait": "",
+      "prerequisites": [
+        "chapter04_after_free4"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression ending at 自由行動1."
+    },
+    {
+      "id": "optional_ch05_free1",
+      "title": "【任意】第5章 自由行動1：神秘の薬草",
+      "portrait": "",
+      "prerequisites": [
+        "chapter05_to_free1"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 7 at its documented free-action window."
+    },
+    {
+      "id": "chapter05_free1_to_free3",
+      "title": "第5章 自由行動1後〜3",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch05_free1"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression through the next optional window."
+    },
+    {
+      "id": "optional_ch05_free3",
+      "title": "【任意】第5章 自由行動3：リリスの絵本",
+      "portrait": "",
+      "prerequisites": [
+        "chapter05_free1_to_free3"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 8 at its documented free-action window."
+    },
+    {
+      "id": "chapter05_after_free3",
+      "title": "第5章 自由行動3後",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch05_free3"
+      ],
+      "is_true_ending": false,
+      "notes": "Remaining mandatory progression for chapter 5."
+    },
+    {
+      "id": "chapter06_to_free1",
+      "title": "第6章 前半（自由行動1まで）",
+      "portrait": "",
+      "prerequisites": [
+        "chapter05_after_free3"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression ending at 自由行動1."
+    },
+    {
+      "id": "optional_ch06_free1",
+      "title": "【任意】第6章 自由行動1：灰色の翼",
+      "portrait": "",
+      "prerequisites": [
+        "chapter06_to_free1"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 9 at its documented free-action window."
+    },
+    {
+      "id": "chapter06_after_free1",
+      "title": "第6章 自由行動1後",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch06_free1"
+      ],
+      "is_true_ending": false,
+      "notes": "Remaining mandatory progression for chapter 6; exact branch text still requires independent Japanese verification."
+    },
+    {
+      "id": "chapter07_to_free2",
+      "title": "第7章 前半（自由行動2まで）",
+      "portrait": "",
+      "prerequisites": [
+        "chapter06_after_free1"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression ending at 自由行動2."
+    },
+    {
+      "id": "optional_ch07_free2",
+      "title": "【任意】第7章 自由行動2：僕らの撲殺寸前事件・温泉編",
+      "portrait": "",
+      "prerequisites": [
+        "chapter07_to_free2"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 10 at its documented free-action window."
+    },
+    {
+      "id": "chapter07_free2_to_free3",
+      "title": "第7章 自由行動2後〜3",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch07_free2"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression through the next optional window."
+    },
+    {
+      "id": "optional_ch07_free3",
+      "title": "【任意】第7章 自由行動3：介在する影",
+      "portrait": "",
+      "prerequisites": [
+        "chapter07_free2_to_free3"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 11. Set A documents dependency on bonus scenarios 4 and 9 and the ダーナの試練 branch; second-set verification remains required."
+    },
+    {
+      "id": "chapter07_after_free3",
+      "title": "第7章 自由行動3後",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch07_free3"
+      ],
+      "is_true_ending": false,
+      "notes": "Remaining mandatory progression for chapter 7."
+    },
+    {
+      "id": "chapter08_to_free2",
+      "title": "第8章 前半（自由行動2まで）",
+      "portrait": "",
+      "prerequisites": [
+        "chapter07_after_free3"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression ending at 自由行動2."
+    },
+    {
+      "id": "optional_ch08_free2",
+      "title": "【任意】第8章 自由行動2：リリスの疑問",
+      "portrait": "",
+      "prerequisites": [
+        "chapter08_to_free2"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 12 at its documented free-action window."
+    },
+    {
+      "id": "chapter08_free2_to_free4",
+      "title": "第8章 自由行動2後〜4",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch08_free2"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression through the next optional window."
+    },
+    {
+      "id": "optional_ch08_free4",
+      "title": "【任意】第8章 自由行動4：秘密の特訓",
+      "portrait": "",
+      "prerequisites": [
+        "chapter08_free2_to_free4"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 13 at its documented free-action window."
+    },
+    {
+      "id": "chapter08_after_free4",
+      "title": "第8章 自由行動4後",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch08_free4"
+      ],
+      "is_true_ending": false,
+      "notes": "Remaining mandatory progression for chapter 8."
+    },
+    {
+      "id": "chapter09_to_free1",
+      "title": "第9章 前半（自由行動1まで）",
+      "portrait": "",
+      "prerequisites": [
+        "chapter08_after_free4"
+      ],
+      "is_true_ending": false,
+      "notes": "Mandatory progression ending at 自由行動1."
+    },
+    {
+      "id": "optional_ch09_free1",
+      "title": "【任意】第9章 自由行動1：血塗られたラブレター",
+      "portrait": "",
+      "prerequisites": [
+        "chapter09_to_free1"
+      ],
+      "is_true_ending": false,
+      "notes": "Bonus scenario 14. Set A documents dependencies on bonus scenarios 4, 7, and 10 plus セングラー possession; second-set verification remains required."
+    },
+    {
+      "id": "chapter09_after_free1",
+      "title": "第9章 自由行動1後",
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch09_free1"
+      ],
+      "is_true_ending": false,
+      "notes": "Remaining mandatory progression for chapter 9."
     },
     {
       "id": "final_chapter",
       "title": "最終章",
       "portrait": "",
       "prerequisites": [
-        "chapter09"
+        "chapter09_after_free1"
       ],
       "is_true_ending": false,
-      "notes": "First-clear ending path. Multiple ending outcomes exist and must be linearized across later cleanup sections rather than exposed as route branches."
+      "notes": "First-clear ending path. Ending outcome mechanics remain subject to the normal two-set gate."
     },
     {
       "id": "ngplus_completion",
@@ -113,19 +373,45 @@
         "final_chapter"
       ],
       "is_true_ending": true,
-      "notes": "Linear NG+ cleanup for remaining endings/unlocks and any completion-critical optional content."
+      "notes": "Linear NG+ / ending cleanup after first clear."
     }
   ],
   "recommended_order": [
     "chapter01",
     "chapter02",
-    "chapter03",
-    "chapter04",
-    "chapter05",
-    "chapter06",
-    "chapter07",
-    "chapter08",
-    "chapter09",
+    "chapter03_to_free2",
+    "optional_ch03_free2",
+    "chapter03_free2_to_free3",
+    "optional_ch03_free3",
+    "chapter03_free3_to_free4",
+    "optional_ch03_free4",
+    "chapter03_after_free4",
+    "chapter04_to_free2",
+    "optional_ch04_free2",
+    "chapter04_free2_to_free4",
+    "optional_ch04_free4",
+    "chapter04_after_free4",
+    "chapter05_to_free1",
+    "optional_ch05_free1",
+    "chapter05_free1_to_free3",
+    "optional_ch05_free3",
+    "chapter05_after_free3",
+    "chapter06_to_free1",
+    "optional_ch06_free1",
+    "chapter06_after_free1",
+    "chapter07_to_free2",
+    "optional_ch07_free2",
+    "chapter07_free2_to_free3",
+    "optional_ch07_free3",
+    "chapter07_after_free3",
+    "chapter08_to_free2",
+    "optional_ch08_free2",
+    "chapter08_free2_to_free4",
+    "optional_ch08_free4",
+    "chapter08_after_free4",
+    "chapter09_to_free1",
+    "optional_ch09_free1",
+    "chapter09_after_free1",
     "final_chapter",
     "ngplus_completion"
   ],
@@ -191,6 +477,6 @@
       "notes": "PROVENANCE ONLY. Confirms a 175-page official guide exists and advertises coverage of all scenario battles/data, but page contents are not directly inspectable through the current research path."
     }
   ],
-  "disagreements": "Research remains intentionally blocked before route generation. Set A now has direct Japanese coverage of the complete chronological playthrough plus all 14 bonus-scenario triggers/timing. Set B independently corroborates the mandatory battle order and broad ending/NG+ mechanics, but the directly inspectable Japanese Set B gathered so far still does not independently enumerate all 14 bonus-scenario triggers and their missable timing. The detailed FFSKY walkthrough agrees with those triggers but is Chinese and therefore supplemental only. Do not generate route_*.json until a second directly inspectable Japanese source closes that remaining 100%-critical optional-content gap.",
-  "generated_at": "2026-09-22T21:21:00+00:00"
+  "disagreements": "Research remains intentionally blocked before route generation. The scaffold now demonstrates the intended route-level optional-section model: mandatory chapter progression is split at the documented free-action windows, and each substantial bonus block is inserted inline as `【任意】` so the player never leaves the master order and returns later. Set A directly documents all 14 bonus-scenario windows/triggers. Set B independently corroborates mandatory battle order and broad ending/NG+ mechanics, but still does not independently enumerate all 14 bonus-scenario triggers and missable timing. The detailed FFSKY walkthrough agrees with those triggers but is Chinese and supplemental only. Do not generate route_*.json until a second directly inspectable Japanese source closes that remaining 100%-critical optional-content gap.",
+  "generated_at": "2026-09-22T21:58:00+00:00"
 }

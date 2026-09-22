@@ -179,7 +179,9 @@ def run() -> None:
     # Back-fill cover URLs for any games.json entries that were added manually
     # (e.g. the initial YU-NO seed) and never got a cover from VNDB.
     for vid, entry in games.items():
-        if not entry.get("cover_url"):
+        # Only VNDB-backed entries can be back-filled from VNDB. Non-VN games
+        # use namespaced manual keys (for example "game:black-matrix-oo").
+        if vid.startswith("v") and not entry.get("cover_url"):
             vn = pull_vndb.lookup_vn_by_id(vid)
             if vn and vn.get("cover_url"):
                 entry["cover_url"] = vn["cover_url"]

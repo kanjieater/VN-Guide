@@ -82,6 +82,7 @@ function renderHome() {
     return;
   }
   status.style.display = "none";
+  const isLinearGame = String(guideData.vndb_id || "").startsWith("game:");
   list.innerHTML = guideData.routes.map((r, routeIdx) => {
     const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
@@ -92,7 +93,7 @@ function renderHome() {
     const portrait = r.portrait
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
-    const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
+    const displayTitle = (!isLinearGame && settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
     const statusIcon = r.reviewed === true
       ? '<span class="route-status-icon reviewed-icon" aria-label="検証済み"></span>'
       : '<span class="route-status-icon unreviewed-icon" aria-label="未検証"></span>';

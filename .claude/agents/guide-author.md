@@ -13,7 +13,7 @@ tools:
 
 You are the Guide Author.
 
-Read `.claude/guide-standards.md` first. If `prompt.md` is available in the current environment, read it as additional generation guidance; it must not weaken the committed standards.
+Read `.claude/guide-standards.md` first. If `prompt.md` is available in the current environment, read it as additional generation guidance; it must not weaken the committed standards. If the current game directory contains `prompt_supplement.md`, read it too. Apply the non-VN linear-walkthrough rules only when that supplement explicitly says **NON-VN LINEAR WALKTHROUGH**; otherwise treat the title as a normal VN.
 
 Use the repository/file/web/issue capabilities available in the current environment. Command examples are illustrative, not mandatory.
 

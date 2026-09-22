@@ -138,6 +138,13 @@
       "notes": "PRIMARY JAPANESE SET A candidate. Directly inspectable 43-entry play diary spanning the game through first clear and later-playthrough/endgame entries. Useful for chronological story flow, free-action events, battles, and observed ending outcomes. Needs route-by-route indexing before authoring."
     },
     {
+      "set": "A",
+      "url": "https://tsst.blog.jp/archives/52734155.html",
+      "title": "たそがれストローク — 〖BLACK/MATRIX 00〗ボーナスシナリオまとめ",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET A component. Directly inspectable and enumerates all 14 bonus scenarios with chapter/free-action placement, trigger conversation chains, cross-scenario prerequisites, the ダーナの試練 branch, and the セングラー condition for scenario 14. This closes Set A's optional-content timing gap."
+    },
+    {
       "set": "B",
       "url": "https://cradle2grave.netlify.app/bmoo/exp/",
       "title": "CRADLE 2 GRAVE — ブラックマトリクス OO 自動系スキル修得考察",
@@ -159,6 +166,13 @@
       "notes": "PRIMARY JAPANESE SET B supplementary component with firsthand discussion of bonus scenarios and true-ending/second-playthrough requirements. Community evidence only; use cautiously and reconcile with stronger sources."
     },
     {
+      "set": "B",
+      "url": "https://blog.livedoor.jp/juyoku/archives/51565870.html",
+      "title": "BLACK/MATRIX・ダブルオー再評価",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component for ending mechanics. Directly inspectable firsthand write-up stating that the ordinary ending matrix is controlled by the ring that counters パスカのペインリング plus the final boss defeat/retreat decision, yielding four main patterns, with additional sub-ending content."
+    },
+    {
       "url": "https://www.ffsky.com/article/bc5739_a14172.aspx",
       "title": "PS～Black/Matrix00徹底攻略+極道研究",
       "language": "zh",
@@ -177,6 +191,6 @@
       "notes": "PROVENANCE ONLY. Confirms a 175-page official guide exists and advertises coverage of all scenario battles/data, but page contents are not directly inspectable through the current research path."
     }
   ],
-  "disagreements": "Research is intentionally blocked before route generation. Set A is promising and Set B can independently corroborate battle order and broad ending structure, but the directly inspectable Japanese sources gathered so far do not yet provide independent complete coverage of all 14 bonus-scenario triggers, missable timing, and all ending prerequisites. The detailed FFSKY walkthrough fills many gaps but is Chinese and therefore supplemental only. Do not generate route_*.json until a second directly inspectable Japanese walkthrough/source set closes those completion-critical gaps.",
+  "disagreements": "Research remains intentionally blocked before route generation. Set A now has direct Japanese coverage of the complete chronological playthrough plus all 14 bonus-scenario triggers/timing. Set B independently corroborates the mandatory battle order and broad ending/NG+ mechanics, but the directly inspectable Japanese Set B gathered so far still does not independently enumerate all 14 bonus-scenario triggers and their missable timing. The detailed FFSKY walkthrough agrees with those triggers but is Chinese and therefore supplemental only. Do not generate route_*.json until a second directly inspectable Japanese source closes that remaining 100%-critical optional-content gap.",
   "generated_at": "2026-09-22T21:21:00+00:00"
 }

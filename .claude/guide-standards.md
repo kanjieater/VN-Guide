@@ -133,9 +133,11 @@ Low-level execution details such as ordinary travel, talking to an NPC, a routin
 
 ### Step shape / `simpleJp`
 
-- Every player-action step uses the **exact in-game choice/action text** in `simpleJp`.
-- Do not paraphrase `simpleJp`, append outcome suffixes, or prefix it with location/context text.
-- Save and load instructions are the only normal non-choice `simpleJp` steps.
+For normal VN guides, use the rules below. An explicitly opted-in **NON-VN LINEAR WALKTHROUGH** uses the game-walkthrough `simpleJp` rules above instead for non-choice gameplay actions; literal in-game choices/menu labels still remain exact.
+
+- Every VN player-action step uses the **exact in-game choice/action text** in `simpleJp`.
+- For VNs, do not paraphrase `simpleJp`, append outcome suffixes, or prefix it with location/context text.
+- For VNs, save and load instructions are the only normal non-choice `simpleJp` steps.
 - Keep save steps standalone immediately before the action they protect; do not merge a save and a player action into one step.
 - Keep load instructions standalone.
 - `enGuide` contains a useful English reference/hint when an English source or reliable reference is available; otherwise use exactly `""`. Do not discard useful existing English detail merely because it is optional.

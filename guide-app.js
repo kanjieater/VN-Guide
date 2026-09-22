@@ -167,7 +167,6 @@ function isLinearGameGuide() {
 }
 
 function nextRoute() {
-  if (!isLinearGameGuide()) return null;
   const idx = guideData.routes.findIndex(r => r.id === state.currentRoute);
   return idx >= 0 && idx < guideData.routes.length - 1
     ? guideData.routes[idx + 1]

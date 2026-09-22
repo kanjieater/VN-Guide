@@ -9,7 +9,9 @@ This title is an ordinary SRPG, not a visual novel. Apply the explicitly scoped 
 - Keep using `guide.json.routes` and `route_<id>.json`.
 - Treat each stored "route" as the next sequential walkthrough section.
 - Build one master order from the beginning of the game through 100% cleanup. The player must never need to leave one section, jump to another branch, and later return.
-- Prefer chapter-sized sections. If optional content is large enough to deserve its own section, place it exactly where it should be done and mark the section title with `【任意】`.
+- Prefer chapter-sized sections, but split a chapter at an optional-content timing window when needed so the optional block can sit exactly where it is playable. Mark optional section titles with `【任意】`.
+- Never make one optional route span mandatory story progression. If skipping the optional route would also skip required story steps, split the surrounding mandatory chapter section more finely.
+- Group multiple optional events into one `【任意】` section when they share the same timing window; do not create separate routes merely to mirror tiny source entries.
 - Multiple playthroughs are still one linear guide: first clear → NG+ / ending cleanup → final completion.
 
 ## Step writing

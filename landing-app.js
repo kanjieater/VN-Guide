@@ -3,9 +3,15 @@ const GAMES = window.VN_GUIDE_GAMES || [];
 
 const VISITED_KEY = "vn-guide-visited";
 const GUIDE_META_CACHE = new Map();
-let sortMode = localStorage.getItem("vn-guide-sort") || "recent";
-let filterMode = localStorage.getItem("vn-guide-filter") || "all";
+const root = document.documentElement;
+let sortMode = root.dataset.vngSort || localStorage.getItem("vn-guide-sort") || "recent";
+let filterMode = root.dataset.vngFilter || localStorage.getItem("vn-guide-filter") || "all";
 let renderVersion = 0;
+
+function applyControlState() {
+  root.dataset.vngSort = sortMode;
+  root.dataset.vngFilter = filterMode;
+}
 
 function getVisited() {
   try { return JSON.parse(localStorage.getItem(VISITED_KEY) || "{}"); } catch { return {}; }
@@ -128,21 +134,19 @@ async function render() {
     ? games.map(renderCard).join("\n")
     : `<div class="empty-state">${emptyText}</div>`;
 
-  document.getElementById("btn-recent").classList.toggle("active", sortMode === "recent");
-  document.getElementById("btn-alpha").classList.toggle("active", sortMode === "alpha");
-  document.getElementById("btn-all").classList.toggle("active", filterMode === "all");
-  document.getElementById("btn-playing").classList.toggle("active", filterMode === "playing");
 }
 
 function setSort(mode) {
   sortMode = mode;
   localStorage.setItem("vn-guide-sort", mode);
+  applyControlState();
   render();
 }
 
 function setFilter(mode) {
   filterMode = mode;
   localStorage.setItem("vn-guide-filter", mode);
+  applyControlState();
   render();
 }
 
@@ -153,5 +157,6 @@ Object.assign(window, {
   setFilter,
 });
 
+applyControlState();
 render();
 })();

@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "BS4・BS7・BS10を完了し、セングラーを装備せず所持する",
+    "jpGuide1": "『セングラー』ってここで使うものだったみたいで、このイベント後消えた",
+    "jpGuide2": "ボーナスシナリオ4・7・10を見ている\nセングラー所持でシナリオ追加。装備はしないこと",
+    "enGuide": "Before triggering BS14, make sure BS4, BS7, and BS10 are complete and that セングラー is in inventory, not equipped. The item is consumed by the added event."
+  },
+  {
+    "simpleJp": "雑記帳「カイン様」を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "雑記帳（カイン様）→ウェイター",
+    "enGuide": "Read the notebook entry 「カイン様」."
+  },
+  {
+    "simpleJp": "酒場のウェイターに話しかける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "雑記帳（カイン様）→ウェイター",
+    "enGuide": "Talk to the bar waiter to trigger Bonus Scenario 14, 血塗られたラブレター."
+  },
+  {
+    "simpleJp": "BATTLE ?4「クッタにトドメを」でクッタを倒す",
+    "jpGuide1": "BATTLE〖クッタにトドメを〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Defeat Kutta. FFSKY lists 「絶望の光彩」 as the battle reward; the セングラー follow-up then plays and consumes the item."
+  }
+]

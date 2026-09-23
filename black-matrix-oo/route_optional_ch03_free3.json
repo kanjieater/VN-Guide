@@ -1,0 +1,14 @@
+[
+  {
+    "simpleJp": "雑記帳「うちの子」を読む",
+    "jpGuide1": "雑記帳に書かれた記事の子がエクサルに似ている気がする、とカイン",
+    "jpGuide2": "雑記帳（うちの子）→ダリアさん",
+    "enGuide": "Read the notebook entry 「うちの子」."
+  },
+  {
+    "simpleJp": "ダリアに話しかける",
+    "jpGuide1": "ここはダリアさんに聞いてみよう！",
+    "jpGuide2": "雑記帳（うちの子）→ダリアさん",
+    "enGuide": "Talk to Daria to trigger Bonus Scenario 2, うちの子."
+  }
+]

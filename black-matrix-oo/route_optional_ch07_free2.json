@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "シリア→ウェイトレス→プラン→片翼の天使→ウンダ長老の順に話しかける",
+    "jpGuide1": "ボーナスシナリオ１０　＜僕らの撲殺寸前事件・温泉編＞",
+    "jpGuide2": "シリア→プラン、片翼の天使、ウンダ→雑記帳（記憶を消してくれ）→フライ\n※どこかでウェイターに話し掛ける？",
+    "enGuide": "Follow FFSKY's explicit trigger order: Siria → waitress → Plan → one-winged angel → Elder Unda."
+  },
+  {
+    "simpleJp": "雑記帳「記憶を消してくれ」を読む",
+    "jpGuide1": "ルカが疲れているみたいだから疲れをとる方法を探す",
+    "jpGuide2": "シリア→プラン、片翼の天使、ウンダ→雑記帳（記憶を消してくれ）→フライ",
+    "enGuide": "Read the notebook entry 「記憶を消してくれ」."
+  },
+  {
+    "simpleJp": "フライに話しかけて「う～ん…」を選ぶ",
+    "jpGuide1": "温泉にしよう　→　フライが良い場所知ってるから案内してもらう\nボーナスシナリオ１０　＜僕らの撲殺寸前事件・温泉編＞",
+    "jpGuide2": "雑記帳（記憶を消してくれ）→フライ\n選択肢「う～ん」で温泉へ",
+    "enGuide": "Talk to Fry and choose 「う～ん…」 to enter Bonus Scenario 10."
+  }
+]

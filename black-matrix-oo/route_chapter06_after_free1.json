@@ -1,0 +1,38 @@
+[
+  {
+    "simpleJp": "BATTLE 6-1「惨劇の広場」を9ターン以内に敵全滅でクリア",
+    "jpGuide1": "BATTLE〖惨劇の広場〗\n９ターンで敵を全滅させなければならない",
+    "jpGuide2": "6-1「惨劇の広場」",
+    "enGuide": "Defeat every enemy within 9 turns. A healer and a position-swapping archer can slow you down, so split your force efficiently."
+  },
+  {
+    "simpleJp": "BATTLE 6-2「赤い牙の再撃」で力天使を倒す",
+    "jpGuide1": "BATTLE〖赤い牙の再撃〗\nレッド・ムフロンを倒せ！",
+    "jpGuide2": "6-2「赤い牙の再撃」",
+    "enGuide": "Defeat the Force Angel / Red Mufflon."
+  },
+  {
+    "simpleJp": "選択肢「でも、みんなが!!」",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Choose 「でも、みんなが!!」 to enter the optional 6-3 branch instead of skipping directly to 6-4. This is required for the extra battle and its unique rewards."
+  },
+  {
+    "simpleJp": "BATTLE 6-3「闇にうごめく玩具」を8ターン以内に敵全滅でクリア",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "6-3「闇にうごめく玩具」",
+    "enGuide": "Defeat every enemy within 8 turns. The enemy moves first. Clearing this branch awards 「風霊のピアス」「引退した技術者」「収束する闇黒」."
+  },
+  {
+    "simpleJp": "BATTLE 6-4「烈火のごとく」でベイルを倒す",
+    "jpGuide1": "BATTLE〖烈火のごとく〗\nカインとベイルの一騎打ち",
+    "jpGuide2": "6-4「烈火のごとく」",
+    "enGuide": "Win the Cain-vs-Veil duel. Use favorable-time windows and avoid Veil's Pain Ring timing. Victory awards 「募る思いの告白」."
+  },
+  {
+    "simpleJp": "BATTLE 6-5「あざ笑うアラギ」でアラギを倒す",
+    "jpGuide1": "BATTLE〖あざ笑うアラギ〗",
+    "jpGuide2": "6-5「あざ笑うアラギ」",
+    "enGuide": "Defeat Aragi to finish Chapter 6."
+  }
+]

@@ -437,7 +437,7 @@ function renderSlide() {
   const followingRoute = nextRoute();
   const atSectionEnd = idx === total - 1;
   nextBtn.disabled = atSectionEnd && !followingRoute;
-  nextBtn.textContent = atSectionEnd && followingRoute ? "次のセクションへ ▶" : "次へ ▶";
+  nextBtn.textContent = "次へ ▶";
 
   showView("view-slide");
 }

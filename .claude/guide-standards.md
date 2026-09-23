@@ -66,7 +66,7 @@ Then apply these source roles:
 - A verification set may be one page or multiple Japanese pages. If multiple pages are needed, document every component in `research.json` and explain what each component covers.
 - A translation, derivative guide, or page that merely cites Set A does not count as an independent Set B.
 - A source that cannot be directly inspected does not count toward the gate. It may be listed for provenance only.
-- If the two-set gate cannot be satisfied, stop after research and document the blocker. Do not invent or infer missing guide content.
+- If the two-set gate cannot be satisfied, stop after research and document the blocker **unless** an explicitly opted-in non-VN guide has a valid repository-owner-approved title-scoped exception covering the exact residual fact as defined below. Facts outside that enumerated exception still fail the normal gate. Do not invent or infer missing guide content.
 - Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
 "Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. If the other set contradicts the step/outcome, resolve the conflict before generation.
@@ -150,6 +150,7 @@ The normal two-independent-Japanese-source gate remains the default. A game may 
 Such an exception must:
 
 - be title-scoped and must not generalize to other guides;
+- record approval provenance in the supplement/research record: at minimum the approval date plus a PR/comment URL, issue/comment reference, or explicit caller-approval context sufficient for a later reviewer to verify that the author did not self-grant the exception;
 - enumerate the exact residual facts it covers rather than broadly waiving the source gate;
 - state which recovered sources may establish each missing fact and what role each source plays;
 - preserve normal Japanese Set A/Set B verification everywhere usable independent Japanese evidence exists;

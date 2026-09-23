@@ -13,7 +13,7 @@ test("production source scope is dynamic and intentional exclusions are explicit
   assert.equal(isProductionSource("landing-app.js"), true);
   assert.equal(isProductionSource("future/new-runtime.mjs"), true);
   assert.equal(isProductionSource("tools/generate.mjs"), true);
-  assert.equal(isProductionSource("tools/generate-cli.mjs"), false);
+  assert.equal(isProductionSource("tools/generate-cli.mjs"), true);
   assert.equal(isProductionSource("tools/check-diff-coverage.mjs"), false);
   assert.equal(isProductionSource("tests-js/new-runtime.test.mjs"), false);
   assert.equal(isProductionSource("README.md"), false);

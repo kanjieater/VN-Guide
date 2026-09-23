@@ -53,7 +53,7 @@ For those four gaps only:
 
 - retain the already verified Japanese Set-A chronology and all directly inspected Japanese Set-B evidence;
 - permit the directly inspected Japanese TSST bonus memo as derivative corroboration;
-- permit the directly inspected original Chinese FFSKY walkthrough to supply missing operational trigger/action detail and translated `enGuide` hints;
+- permit the directly inspected original Chinese FFSKY walkthrough to supply operational trigger/action detail and practical hints. **Render those facts as concise natural English in `enGuide`; `enGuide` is a translation/summary field and does not need to match the Chinese source wording.**
 - where TSST is incomplete but FFSKY is explicit, use FFSKY's fuller operational sequence while documenting that provenance;
 - specifically, BS6 includes the young Cipher Punk member in addition to the woman/man, and BS10 includes the waitress after シリア;
 - BS14's セングラー requirement remains backed by direct Japanese Set-B evidence; the exception covers only BS4+BS7+BS10 and 雑記帳「カイン様」→ウェイター;

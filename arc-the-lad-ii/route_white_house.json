@@ -1,0 +1,38 @@
+[
+  {
+    "simpleJp": "サルバ砂漠を抜ける",
+    "jpGuide1": "用心棒ジェフリーと戦闘がある。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Proceed west after the pre-White-House cleanup."
+  },
+  {
+    "simpleJp": "帰らずの森を出口まで抜ける",
+    "jpGuide1": "正しいルートは、入り口から、→、→、↑、↑、→、↑、↑、←、↑。",
+    "jpGuide2": "迷いの森脱出",
+    "enGuide": "Do not hunt Balzac yet; simply use the keeper/route to reach White House."
+  },
+  {
+    "simpleJp": "白い家下水道を突破する",
+    "jpGuide1": "スイッチで扉を開いて進む。",
+    "jpGuide2": "白い家到着",
+    "enGuide": "Use the switches to open the route into White House."
+  },
+  {
+    "simpleJp": "白い家でガルムヘッドを倒す",
+    "jpGuide1": "中央部を倒せば勝ち。",
+    "jpGuide2": "ガルムヘッド撃破",
+    "enGuide": "Defeat the central body."
+  },
+  {
+    "simpleJp": "ミリル救出後の戦闘とエルクの一騎討ちを終える",
+    "jpGuide1": "その後エルクとボスで一騎討ちになる。",
+    "jpGuide2": "実験室戦終了",
+    "enGuide": "Finish the remaining White House sequence and return to Silver Noah."
+  },
+  {
+    "simpleJp": "シルバーノア作戦室でエルクに2回話す",
+    "jpGuide1": "エルクに２回話し掛けると進む",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Then speak to Chopin in the other room to advance into the split-party arc."
+  }
+]

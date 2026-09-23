@@ -36,20 +36,21 @@ First verify that `games.json.guide_target`, `research.json.guide_target`, and `
 
 Then identify Japanese verification Set A and Set B and fetch the actual source material directly. If a set has multiple pages, inspect the components relevant to the route.
 
-Before declaring a missing second Japanese lane to be a blocker, check whether the game's supplement contains an explicit owner-approved title-scoped source exception covering that exact fact. Honor it exactly as written: do not reopen it and do not extend it to unlisted facts. Verify that `research.json` describes the same exception scope without contradictory stale gate wording.
+Before declaring a missing second Japanese lane to be a blocker, check whether the game's supplement contains an explicit owner-approved title-scoped source exception covering that exact fact. Verify the recorded approval provenance (date plus PR/comment, issue/comment, or explicit caller-approval context) so an author cannot self-grant the waiver. Honor a valid exception exactly as written: do not reopen it and do not extend it to unlisted facts. Verify that `research.json` describes the same exception scope without contradictory stale gate wording.
 
 Do not:
 - rely only on `research.json` summaries;
 - count an inaccessible source as verified;
 - treat a translation/derivative of Set A as independent Set B.
 
-If either verification set fails the completeness/independence gate, the route cannot pass.
+If either verification set fails the completeness/independence gate for a normally gated fact, the route cannot pass. The only exception is an exact fact covered by a valid, provenance-backed owner-approved title-scoped exception; all unlisted facts still require the normal gate.
 
 ## Review checklist
 
 For the guide section under review, verify:
 
 - every route-defining choice and its order;
+- for opted-in non-VN walkthroughs, every canonical material progression fact has the required support: section/order progression, required story progression, irreversible choices, prerequisites/unlocks, endings, timing-critical optional placement, and missable/limited or unique-reward conditions presented as required for completion; one-source coverage is only for genuinely low-level non-branching execution details unless an exact owner exception applies;
 - when sources print different literal choices within the same event, determine whether they are different decision points in the same sequence before treating them as contradictory;
 - route prerequisites and unlock conditions;
 - ending reachability;
@@ -62,16 +63,16 @@ For the guide section under review, verify:
 - replay-from-beginning endings with no usable checkpoint use an explicit ending terminal plus a fresh repeated opening sequence, with no invented structural return marker;
 - cross-route save numbering;
 - no hallucinated or missing required choices;
-- every emitted player-action `simpleJp` is exact in-game text with no paraphrase, suffix, or location prefix;
-- save/load steps are standalone and are the only normal non-choice `simpleJp` steps;
+- for normal VNs, every emitted player-action `simpleJp` is exact in-game text with no paraphrase, suffix, or location prefix, and save/load steps are the only normal non-choice `simpleJp` steps;
+- for an explicitly opted-in non-VN walkthrough, apply the canonical game-walkthrough `simpleJp` rules instead: literal choices/menu labels remain exact, while concise author-written Japanese is allowed for navigation, battles, talks, pickups, preparation, and similar non-choice actions;
 - useful available `enGuide` detail has not been silently dropped;
 - no contradictions across guide sections;
 - every route character has a directly verified portrait when a verifiable character image exists; a blank portrait is a finding unless research explicitly documents that an actual lookup found no suitable verifiable image;
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
 - each present source excerpt is verbatim;
-- `（第一ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action or non-main-ending-only step documented only by Set B;
-- `（第二ガイドに記載なし）` is used only for a non-route-defining save/load/repeated UI action or non-main-ending-only step documented only by Set A;
-- main-route-defining choices/prerequisites/route endings are independently supported by both sets, with no omission placeholder standing in for missing independent support;
+- `（第一ガイドに記載なし）` is used only where the canonical omission rules permit it, including an exact fact whose valid owner-approved exception explicitly permits a missing Japanese lane;
+- `（第二ガイドに記載なし）` is used only where the canonical omission rules permit it, including an exact fact whose valid owner-approved exception explicitly permits a missing Japanese lane;
+- main-route-defining choices/prerequisites/route endings are independently supported by both sets unless that exact fact is covered by a valid owner-approved exception; an omission placeholder must never stand in for missing support outside the exception;
 - optional non-main ending detours documented by one primary set are included when the other set is silent/non-contradictory, with the correct omission placeholder on detour-only steps; conflicting ending evidence is reconciled rather than guessed;
 - the explicit linked `guide_target` matches repo/research/guide metadata and both verification sets actually apply to that exact release/platform.
 - for newly registered/updated games, the game has an exact-target `cover_url` when a directly verifiable cover exists, or research documents that the lookup found none.

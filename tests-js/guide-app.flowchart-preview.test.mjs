@@ -25,6 +25,9 @@ test("flowchart exploration is preview-only until the reader explicitly continue
 
   let renderArgs = null;
   app.window.VNFlowchart = {
+    deriveCurrentProgress(_routes, progress) {
+      return { ...progress };
+    },
     render(...args) {
       renderArgs = args;
       args[0].textContent = "rendered";

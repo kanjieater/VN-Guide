@@ -76,6 +76,10 @@
     color: #fff;
   }
 
+  .filter-tabs {
+    margin-top: 8px;
+  }
+
   main {
     max-width: 600px;
     margin: 0 auto;
@@ -201,7 +205,12 @@
   <h1>VN Guide</h1>
   <div class="sort-tabs">
     <button id="btn-recent" class="active" onclick="setSort('recent')">最近</button>
-    <button id="btn-alpha"  onclick="setSort('alpha')">あいうえお</button>
+    <button id="btn-alpha" onclick="setSort('alpha')">あいうえお</button>
+  </div>
+  <br>
+  <div class="sort-tabs filter-tabs">
+    <button id="btn-all" class="active" onclick="setFilter('all')">すべて</button>
+    <button id="btn-playing" onclick="setFilter('playing')">プレイ中</button>
   </div>
   <br>
   <input id="search" class="search-input" type="search" placeholder="ゲームを検索…" oninput="render()" autocomplete="off">
@@ -216,10 +225,13 @@
 </footer>
 
 <script>
-const GAMES = [{"slug": "yuno", "title": "Kono Yo no Hate de Koi o Utau Shoujo YU-NO", "alttitle": "この世の果てで恋を唄う少女YU-NO", "has_guide": true, "cover_url": "https://t.vndb.org/cv/29/59029.jpg"}, {"slug": "hiiro-no-kakera", "title": "Hiiro no Kakera", "alttitle": "緋色の欠片", "has_guide": true, "cover_url": "https://t.vndb.org/cv/43/85243.jpg"}, {"slug": "hakuouki-shinsengumi-kitan", "title": "Hakuouki ~Shinsengumi Kitan~", "alttitle": "薄桜鬼 新選組奇譚", "has_guide": true, "cover_url": "https://t.vndb.org/cv/60/76060.jpg"}, {"slug": "arcana-famiglia", "title": "Arcana Famiglia", "alttitle": "アルカナ・ファミリア", "has_guide": true, "cover_url": "https://t.vndb.org/cv/65/113965.jpg"}, {"slug": "マブラヴ-altered-fable", "title": "Muv-Luv Altered Fable", "alttitle": "マブラヴ ALTERED FABLE", "has_guide": true, "cover_url": "https://t.vndb.org/cv/43/95643.jpg"}, {"slug": "blood-the-last-vampire", "title": "Blood: The Last Vampire", "alttitle": "", "has_guide": true, "cover_url": "https://t.vndb.org/cv/31/119231.jpg"}, {"slug": "steinsgate", "title": "STEINS;GATE", "alttitle": "", "has_guide": true, "cover_url": "https://t.vndb.org/cv/19/77819.jpg"}, {"slug": "akai-ito", "title": "Akai Ito", "alttitle": "アカイイト", "has_guide": true, "cover_url": "https://t.vndb.org/cv/85/89085.jpg"}, {"slug": "eve-burst-error", "title": "EVE burst error", "alttitle": "", "has_guide": false, "cover_url": "https://t.vndb.org/cv/82/103582.jpg"}, {"slug": "himawari", "title": "Himawari", "alttitle": "ひまわり", "has_guide": true, "cover_url": "https://t.vndb.org/cv/73/98573.jpg"}, {"slug": "凍京necroトウキョウネクロ", "title": "Tokyo NECRO", "alttitle": "凍京NECRO＜トウキョウ・ネクロ＞", "has_guide": true, "cover_url": "https://t.vndb.org/cv/79/78079.jpg"}, {"slug": "nijuuei", "title": "Nijuuei", "alttitle": "二重影", "has_guide": true, "cover_url": "https://www.keroq.co.jp/product/nijuu/img/top.png"}];
+const GAMES = [{"slug":"yuno","title":"Kono Yo no Hate de Koi o Utau Shoujo YU-NO","alttitle":"この世の果てで恋を唄う少女YU-NO","has_guide":true,"cover_url":"https://t.vndb.org/cv/29/59029.jpg"},{"slug":"hiiro-no-kakera","title":"Hiiro no Kakera","alttitle":"緋色の欠片","has_guide":true,"cover_url":"https://t.vndb.org/cv/43/85243.jpg"},{"slug":"hakuouki-shinsengumi-kitan","title":"Hakuouki ~Shinsengumi Kitan~","alttitle":"薄桜鬼 新選組奇譚","has_guide":true,"cover_url":"https://t.vndb.org/cv/60/76060.jpg"},{"slug":"arcana-famiglia","title":"Arcana Famiglia","alttitle":"アルカナ・ファミリア","has_guide":true,"cover_url":"https://t.vndb.org/cv/65/113965.jpg"},{"slug":"マブラヴ-altered-fable","title":"Muv-Luv Altered Fable","alttitle":"マブラヴ ALTERED FABLE","has_guide":true,"cover_url":"https://t.vndb.org/cv/43/95643.jpg"},{"slug":"blood-the-last-vampire","title":"Blood: The Last Vampire","alttitle":"","has_guide":true,"cover_url":"https://t.vndb.org/cv/31/119231.jpg"},{"slug":"steinsgate","title":"STEINS;GATE","alttitle":"","has_guide":true,"cover_url":"https://t.vndb.org/cv/19/77819.jpg"},{"slug":"akai-ito","title":"Akai Ito","alttitle":"アカイイト","has_guide":true,"cover_url":"https://t.vndb.org/cv/85/89085.jpg"},{"slug":"eve-burst-error","title":"EVE burst error","alttitle":"","has_guide":false,"cover_url":"https://t.vndb.org/cv/82/103582.jpg"},{"slug":"himawari","title":"Himawari","alttitle":"ひまわり","has_guide":true,"cover_url":"https://t.vndb.org/cv/73/98573.jpg"},{"slug":"凍京necroトウキョウネクロ","title":"Tokyo NECRO","alttitle":"凍京NECRO＜トウキョウ・ネクロ＞","has_guide":true,"cover_url":"https://t.vndb.org/cv/79/78079.jpg"},{"slug":"nijuuei","title":"Nijuuei","alttitle":"二重影","has_guide":true,"cover_url":"https://www.keroq.co.jp/product/nijuu/img/top.png"}];
 
 const VISITED_KEY = "vn-guide-visited";
+const GUIDE_META_CACHE = new Map();
 let sortMode = localStorage.getItem("vn-guide-sort") || "recent";
+let filterMode = localStorage.getItem("vn-guide-filter") || "all";
+let renderVersion = 0;
 
 function getVisited() {
   try { return JSON.parse(localStorage.getItem(VISITED_KEY) || "{}"); } catch { return {}; }
@@ -269,24 +281,96 @@ function renderCard(g) {
 </a>`;
 }
 
-function render() {
+function guideStorageKey(slug) {
+  const basePath = location.pathname.endsWith("/")
+    ? location.pathname
+    : location.pathname.replace(/[^/]*$/, "");
+  return "guide_" + `${basePath}${slug}/`.replace(/\//g, "_");
+}
+
+function savedGuideState(slug) {
+  try {
+    const raw = localStorage.getItem(guideStorageKey(slug));
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+async function guideMeta(slug) {
+  if (!GUIDE_META_CACHE.has(slug)) {
+    GUIDE_META_CACHE.set(slug, fetch(`./${slug}/guide.json`, { cache: "no-store" })
+      .then(res => res.ok ? res.json() : null)
+      .catch(() => null));
+  }
+  return GUIDE_META_CACHE.get(slug);
+}
+
+async function isPlaying(g) {
+  const saved = savedGuideState(g.slug);
+  if (!saved || !saved.progress || Object.keys(saved.progress).length === 0) return false;
+
+  const guide = await guideMeta(g.slug);
+  if (!guide || !Array.isArray(guide.routes) || guide.routes.length === 0) return false;
+
+  const routeIds = new Set(guide.routes.map(route => route.id));
+  const hasActiveProgress = Object.keys(saved.progress).some(id => routeIds.has(id));
+  if (!hasActiveProgress) return false;
+
+  const maxProgress = guide.routes.reduce((sum, route) => {
+    const count = route.stepCount || (route.steps ? route.steps.length : 0);
+    return sum + Math.max(count - 1, 1);
+  }, 0);
+  const doneSteps = guide.routes.reduce((sum, route) => {
+    const count = route.stepCount || (route.steps ? route.steps.length : 0);
+    const progress = saved.progress[route.id];
+    if (progress === undefined) return sum;
+    if (count === 1) return sum + 1;
+    return sum + Math.max(0, Math.min(progress, count - 1));
+  }, 0);
+
+  return maxProgress > 0 && doneSteps < maxProgress;
+}
+
+async async function render() {
+  const version = ++renderVersion;
   const list = document.getElementById("game-list");
   const q = (document.getElementById("search").value || "").trim().toLowerCase();
   let games = sortedGames();
+
   if (q) games = games.filter(g =>
     (g.title || "").toLowerCase().includes(q) ||
     (g.alttitle || "").toLowerCase().includes(q)
   );
+
+  if (filterMode === "playing") {
+    const matches = await Promise.all(games.map(async g => [g, await isPlaying(g)]));
+    if (version !== renderVersion) return;
+    games = matches.filter(([, playing]) => playing).map(([g]) => g);
+  }
+
+  const emptyText = filterMode === "playing"
+    ? "プレイ中のゲームがありません"
+    : (q ? "該当するゲームがありません" : "ゲームがありません");
   list.innerHTML = games.length
     ? games.map(renderCard).join("\n")
-    : `<div class="empty-state">プレイ中のゲームがありません</div>`;
+    : `<div class="empty-state">${emptyText}</div>`;
+
   document.getElementById("btn-recent").classList.toggle("active", sortMode === "recent");
   document.getElementById("btn-alpha").classList.toggle("active", sortMode === "alpha");
+  document.getElementById("btn-all").classList.toggle("active", filterMode === "all");
+  document.getElementById("btn-playing").classList.toggle("active", filterMode === "playing");
 }
 
 function setSort(mode) {
   sortMode = mode;
   localStorage.setItem("vn-guide-sort", mode);
+  render();
+}
+
+function setFilter(mode) {
+  filterMode = mode;
+  localStorage.setItem("vn-guide-filter", mode);
   render();
 }
 

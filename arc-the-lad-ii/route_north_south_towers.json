@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "アークを北の塔、エルクを南の塔に入れて2パーティーを作る",
+    "jpGuide1": "アークが北の塔、エルクが南の塔のパーティーに強制参加",
+    "jpGuide2": "北極南極",
+    "enGuide": "The towers are simultaneous. Touching an orb switches parties and removes an ice block in the other tower."
+  },
+  {
+    "simpleJp": "南の塔4Fの宝箱から「氷の剣」を必ず取る",
+    "jpGuide1": "南の塔の宝箱から「アイスファング」「氷の剣」",
+    "jpGuide2": "南の塔4Fの宝箱",
+    "enGuide": "Missable. The towers cannot be revisited after Andel, and Ice Sword is required for Light Sword synthesis."
+  },
+  {
+    "simpleJp": "両塔の球体とスイッチを使いながら最上階へ進む",
+    "jpGuide1": "ふわふわしている球体を調べると、反対側の塔の氷の塊が消え",
+    "jpGuide2": "北極1戦目、南極1戦目",
+    "enGuide": "Use the icicle walkways and check side paths under low ceilings for treasure."
+  },
+  {
+    "simpleJp": "北の塔最上階でアンデルを倒す",
+    "jpGuide1": "北の塔の最上階でアンデルと戦闘",
+    "jpGuide2": "アンデル戦",
+    "enGuide": "After victory both towers are permanently closed, so verify the Ice Sword before finishing."
+  }
+]

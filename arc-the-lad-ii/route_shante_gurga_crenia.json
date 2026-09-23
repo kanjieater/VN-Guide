@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "シャンテで鍛錬の岩場へ行き、グルガを仲間にする",
+    "jpGuide1": "グルガを仲間にして戦闘。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Equip Gurga before the fight; he initially lacks armor."
+  },
+  {
+    "simpleJp": "クレニアで闘技場イベントを決勝まで進める",
+    "jpGuide1": "闘技場と宿屋を往復することになる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Alternate between the inn and arena until the finals are complete."
+  },
+  {
+    "simpleJp": "決勝後、部屋の動く紙を調べる",
+    "jpGuide1": "ひらひらと動いている紙を調べる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This advances the story to the Uninhabited Mansion."
+  },
+  {
+    "simpleJp": "無人の館を右側の部屋経由で突破する",
+    "jpGuide1": "２つの部屋があるところでは右に進む。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Clear the blocked-exit battle and return to Crenia."
+  },
+  {
+    "simpleJp": "クレニアの宿を出て編を終える",
+    "jpGuide1": "宿を出るとイベント終了。",
+    "jpGuide2": "クレニア編終了",
+    "enGuide": "This closes Shante/Gurga's split-party segment."
+  }
+]

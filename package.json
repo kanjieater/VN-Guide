@@ -6,8 +6,8 @@
   "scripts": {
     "generate": "bun tools/generate-cli.mjs",
     "generate:check": "bun tools/generate-cli.mjs --check",
-    "test": "bun test --concurrent --max-concurrency=20",
-    "test:coverage": "bun test --coverage --concurrent --max-concurrency=20",
+    "test": "bun test --parallel --concurrent --max-concurrency=20",
+    "test:coverage": "bun test --coverage --parallel --concurrent --max-concurrency=20",
     "coverage:diff": "bun tools/check-diff-coverage.mjs"
   },
   "devDependencies": {

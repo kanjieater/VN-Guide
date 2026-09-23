@@ -1,15 +1,21 @@
 [
   {
-    "simpleJp": "酒場の夜イベントを終えてプロディアスへ行く",
-    "jpGuide1": "1500G稼いだら酒場へ行って",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Once the required money/story event is complete, move back to Prodius for the ceremony ticket."
+    "simpleJp": "酒場の夜イベントを終える",
+    "jpGuide1": "1500G稼いだら酒場へ行ってマスターに話し掛ける。",
+    "jpGuide2": "酒場のマスターに話す→アパートへ移動→酒場へ移動",
+    "enGuide": "Earn the required money and finish the closed-bar night event."
   },
   {
-    "simpleJp": "ヒエン置き場で「チケット」を受け取る",
-    "jpGuide1": "「チケット」をもらう。",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Get the ticket from Bibiga after the event."
+    "simpleJp": "プロディアスへ行く",
+    "jpGuide1": "ひとまずプロディアスへ行く。",
+    "jpGuide2": "プロディアス",
+    "enGuide": "Return to Prodius after the night event."
+  },
+  {
+    "simpleJp": "ヒエン置き場でビビガから「チケット」を受け取る",
+    "jpGuide1": "改めてビビガに話し掛けて「チケット」をもらう。",
+    "jpGuide2": "ビビガに話しかけて「チケット」回収",
+    "enGuide": "Get the ceremony ticket from Bibiga at the Hien storage area."
   },
   {
     "simpleJp": "式典会場へ入り、ヤゴス島へ進む",

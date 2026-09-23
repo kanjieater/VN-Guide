@@ -1,4 +1,4 @@
-name: Unit tests
+name: Tests and coverage
 
 on:
   pull_request:
@@ -10,12 +10,49 @@ permissions:
   contents: read
 
 jobs:
-  unit:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run unit tests
-        run: python -m unittest discover -s tests -p "test_*.py"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install coverage tools
+        run: python -m pip install --disable-pip-version-check coverage diff-cover
+
+      - name: Install JavaScript test dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Run Python behavior tests with coverage
+        run: |
+          python -m coverage run --branch --source=scripts -m unittest discover -s tests -p "test_*.py"
+          python -m coverage report --show-missing
+          python -m coverage xml -o coverage-python.xml
+
+      - name: Run JavaScript use-case tests with coverage
+        run: npm run coverage:js
+
+      - name: Require 100% coverage on changed executable lines
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            BASE="origin/$BASE_REF"
+          elif [ -n "$BEFORE_SHA" ] && [ "$BEFORE_SHA" != "0000000000000000000000000000000000000000" ]; then
+            BASE="$BEFORE_SHA"
+          else
+            BASE="HEAD^"
+          fi
+
+          echo "Checking changed-line coverage against $BASE"
+          diff-cover coverage-python.xml --compare-branch="$BASE" --fail-under=100
+          diff-cover coverage-js/cobertura-coverage.xml --compare-branch="$BASE" --fail-under=100

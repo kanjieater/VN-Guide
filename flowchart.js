@@ -160,14 +160,31 @@
     svg.appendChild(path);
   }
 
-  function renderNode(svg, node) {
+  function renderNode(svg, node, route, onNavigate) {
     const center = nodeCenter(node);
     const x = center.x - NODE_WIDTH / 2;
     const y = center.y - NODE_HEIGHT / 2;
+    const navigable = typeof onNavigate === "function";
     const group = el("g", {
-      class: `flow-node flow-node-${node.kind}`,
+      class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}`,
       transform: `translate(${x} ${y})`,
+      ...(navigable ? {
+        role: "link",
+        tabindex: "0",
+        "aria-label": `${node.label || route.title || route.id} をガイドで開く`,
+      } : {}),
     });
+
+    if (navigable) {
+      const navigate = () => onNavigate(route.id, node.stepIndex);
+      group.addEventListener("click", navigate);
+      group.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          navigate();
+        }
+      });
+    }
 
     if (node.kind === "branch") {
       const cx = NODE_WIDTH / 2;
@@ -215,7 +232,7 @@
     svg.appendChild(group);
   }
 
-  function renderRoute(route) {
+  function renderRoute(route, onNavigate) {
     const graph = buildRouteGraph(route);
     const section = document.createElement("section");
     section.className = "flowchart-route";
@@ -264,19 +281,19 @@
       const to = byId.get(edge.to);
       if (from && to) renderEdge(svg, from, to, edge.kind);
     });
-    graph.nodes.forEach(node => renderNode(svg, node));
+    graph.nodes.forEach(node => renderNode(svg, node, route, onNavigate));
 
     scroller.appendChild(svg);
     section.appendChild(scroller);
     return section;
   }
 
-  function render(container, guideData) {
+  function render(container, guideData, onNavigate) {
     container.replaceChildren();
 
     const note = document.createElement("div");
     note.className = "flowchart-note";
-    note.textContent = "既存の攻略ルートから自動生成した推定分岐図です。ゲーム内部の全分岐を保証するものではありません。";
+    note.textContent = "既存の攻略ルートから自動生成した推定分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。ゲーム内部の全分岐を保証するものではありません。";
     container.appendChild(note);
 
     const legend = document.createElement("div");
@@ -286,7 +303,7 @@
 
     const routes = Array.isArray(guideData.routes) ? guideData.routes : [];
     routes.forEach((route, index) => {
-      container.appendChild(renderRoute(route));
+      container.appendChild(renderRoute(route, onNavigate));
       if (index < routes.length - 1) {
         const next = document.createElement("div");
         next.className = "flowchart-next";

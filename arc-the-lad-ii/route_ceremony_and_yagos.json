@@ -1,0 +1,38 @@
+[
+  {
+    "simpleJp": "酒場の夜イベントを終えてプロディアスへ行く",
+    "jpGuide1": "1500G稼いだら酒場へ行って",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Once the required money/story event is complete, move back to Prodius for the ceremony ticket."
+  },
+  {
+    "simpleJp": "ヒエン置き場で「チケット」を受け取る",
+    "jpGuide1": "「チケット」をもらう。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Get the ticket from Bibiga after the event."
+  },
+  {
+    "simpleJp": "式典会場へ入り、ヤゴス島へ進む",
+    "jpGuide1": "イベントでヤゴス島へ。",
+    "jpGuide2": "ヤゴス島不時着",
+    "enGuide": "Entering the ceremony permanently closes the first guild-job window."
+  },
+  {
+    "simpleJp": "ヤゴス島の封印の遺跡をB2Fまで進む",
+    "jpGuide1": "B2Fまで進めばひとまずクリア。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This is the first Ruins visit."
+  },
+  {
+    "simpleJp": "再び封印の遺跡へ入り、最深部でパワーユニットを取る",
+    "jpGuide1": "最深部でパワーユニットを入手",
+    "jpGuide2": "パワーユニット入手",
+    "enGuide": "Return from the deepest floor to B2F to finish the objective."
+  },
+  {
+    "simpleJp": "ユドの村で休み、最後の戦闘を終える",
+    "jpGuide1": "この後からリーザがラヴィッシュを修得可能になる。",
+    "jpGuide2": "ヤゴス島出発",
+    "enGuide": "After the beach/village sequence, Lieza can begin learning Ravish and the party returns to East Aldia."
+  }
+]

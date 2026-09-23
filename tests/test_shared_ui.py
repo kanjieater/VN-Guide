@@ -8,6 +8,16 @@ STYLE = ROOT / "style.css"
 
 
 class SharedGuideUiTests(unittest.TestCase):
+    def test_shared_javascript_owns_all_guide_views_and_metadata_order(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn("function mountAppShell()", source)
+        for view_id in ("view-home", "view-slide", "view-jump", "view-settings"):
+            self.assertIn(f'id="${{view_id}}"'.replace("${view_id}", view_id), source)
+        updated = source.index('id="guide-updated"')
+        target = source.index('id="guide-target"')
+        self.assertLess(updated, target)
+        self.assertIn('class="guide-meta"', source)
+
     def test_first_step_can_backtrack_to_previous_route_transition(self):
         source = APP.read_text(encoding="utf-8")
         self.assertIn(

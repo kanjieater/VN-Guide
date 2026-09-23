@@ -158,6 +158,259 @@
         "optional_ch04_free4"
       ],
       "is_true_ending": false
+    },
+    {
+      "id": "chapter05_to_free1",
+      "title": "第5章 前半（自由行動1まで）",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter04_after_free4"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch05_free1",
+      "title": "【任意】第5章 自由行動1：神秘の薬草",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter05_to_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter05_free1_to_free3",
+      "title": "第5章 自由行動1後〜3",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch05_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch05_free3",
+      "title": "【任意】第5章 自由行動3：リリスの絵本",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter05_free1_to_free3"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter05_after_free3",
+      "title": "第5章 自由行動3後",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch05_free3"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter06_to_free1",
+      "title": "第6章 前半（自由行動1まで）",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter05_after_free3"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch06_free1",
+      "title": "【任意】第6章 自由行動1：灰色の翼",
+      "stepCount": 2,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter06_to_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter06_after_free1",
+      "title": "第6章 自由行動1後",
+      "stepCount": 6,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch06_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter07_to_free2",
+      "title": "第7章 前半（自由行動2まで）",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter06_after_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch07_free2",
+      "title": "【任意】第7章 自由行動2：僕らの撲殺寸前事件・温泉編",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter07_to_free2"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter07_free2_to_free3",
+      "title": "第7章 自由行動2後〜3",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch07_free2"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch07_free3",
+      "title": "【任意】第7章 自由行動3：介在する影",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter07_free2_to_free3"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter07_after_free3",
+      "title": "第7章 自由行動3後",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch07_free3"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter08_to_free2",
+      "title": "第8章 前半（自由行動2まで）",
+      "stepCount": 2,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter07_after_free3"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch08_free2",
+      "title": "【任意】第8章 自由行動2：リリスの疑問",
+      "stepCount": 2,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter08_to_free2"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter08_free2_to_free4",
+      "title": "第8章 自由行動2後〜4",
+      "stepCount": 2,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch08_free2"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch08_free4",
+      "title": "【任意】第8章 自由行動4：秘密の特訓",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter08_free2_to_free4"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter08_after_free4",
+      "title": "第8章 自由行動4後",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch08_free4"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter09_to_free1",
+      "title": "第9章 前半（自由行動1まで）",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter08_after_free4"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_ch09_free1",
+      "title": "【任意】第9章 自由行動1：血塗られたラブレター",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter09_to_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "chapter09_after_free1",
+      "title": "第9章 自由行動1後",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "optional_ch09_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "final_chapter",
+      "title": "最終章",
+      "stepCount": 6,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "chapter09_after_free1"
+      ],
+      "is_true_ending": false
+    },
+    {
+      "id": "ngplus_completion",
+      "title": "2周目以降・エンディング回収",
+      "stepCount": 15,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [
+        "final_chapter"
+      ],
+      "is_true_ending": true
     }
   ],
   "sources": [
@@ -282,5 +535,5 @@
       "notes": "HIGH-PRIORITY JAPANESE SET-B CANDIDATE / NOT YET GATE-CLOSING. Independent Japanese no-commentary play-video series `〖プレイ動画〗ブラックマトリクスOO`, playlist `mylist/38903044`, begun in 2013 by a player who states they had played BMOO repeatedly since release and intended to continue the previously incomplete video coverage to the end. Search/Nicozon metadata confirms the series spans the needed chapters and reaches chapter 10. Concrete target parts recovered for focused inspection include chapter 3 `3-4` (`sm22144281`, previous `sm22121454`), chapter 4 `4-1` (`sm22224935`) through `4-5` (`sm22313254`), chapter 7 `7-3` (`sm23977976`), `7-4` (`sm24091204`), `7-5` (`sm24189546`), and chapter 9 `9-4` (`sm24867194`). The current research environment can directly inspect the Japanese video metadata but cannot play/extract the actual gameplay frames, so DO NOT count this source as inspected Set B yet. A browser/session capable of playing NicoNico should inspect only the free-action windows around BS2/3, grouped BS5/6, BS10, and BS14; if the videos visibly perform the trigger chains, record exact observed actions/timing and promote only those directly watched parts into Set B."
     }
   ],
-  "generated_at": "2026-09-23T00:45:00+00:00"
+  "generated_at": "2026-09-23T01:55:00+00:00"
 }

@@ -6,6 +6,7 @@ let guideData = { routes: [] };
 let state = { currentRoute: null, progress: {} };
 let settings = { blurPortraits: true };
 let pendingNextRoute = null;
+let transitionFromRoute = null;
 
 function loadState() {
   try { const s = localStorage.getItem(STORAGE_KEY); if (s) state = JSON.parse(s); } catch {}
@@ -54,8 +55,10 @@ function renderHome() {
   if (!targetEl) {
     targetEl = document.createElement("p");
     targetEl.id = "guide-target";
-    const routeList = document.getElementById("route-list");
-    if (routeList) routeList.before(targetEl);
+  }
+  const updatedEl = document.getElementById("guide-updated");
+  if (updatedEl && targetEl.previousElementSibling !== updatedEl) {
+    updatedEl.after(targetEl);
   }
   const target = guideData.guide_target;
   if (targetEl && target && target.label && target.platform && target.url) {
@@ -69,8 +72,9 @@ function renderHome() {
       document.createTextNode("対象版: "),
       link,
     );
+    targetEl.style.display = "";
     targetEl.style.cssText =
-      "margin:0 0 12px;font-size:12px;color:#888;text-align:center;";
+      "margin:0;font-size:12px;color:#888;text-align:center;";
     link.style.color = "inherit";
     link.style.textDecoration = "underline";
   } else if (targetEl) {
@@ -106,15 +110,7 @@ function renderHome() {
       </div>
     </button></li>`;
   }).join("");
-  const maxProgress = guideData.routes.reduce((s, r) => {
-    const n = r.steps ? r.steps.length : (r.stepCount || 0);
-    return s + Math.max(n - 1, 1);
-  }, 0);
-  const doneSteps = guideData.routes.reduce((s, r) => {
-    const p = state.progress[r.id];
-    return s + (p !== undefined ? p : 0);
-  }, 0);
-  const totalPct = maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
+  const totalPct = overallProgressPercent();
   let totalEl = document.getElementById("total-progress");
   if (!totalEl) {
     totalEl = document.createElement("p");
@@ -124,7 +120,6 @@ function renderHome() {
   totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
   totalEl.textContent = `全体進行度: ${totalPct}%`;
 
-  const updatedEl = document.getElementById("guide-updated");
   if (updatedEl && guideData.generated_at) {
     const d = new Date(guideData.generated_at);
     updatedEl.textContent = `最終更新: ${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
@@ -174,10 +169,28 @@ function nextRoute() {
     : null;
 }
 
-function renderRouteTransition(route) {
-  pendingNextRoute = route;
+function previousRoute() {
+  const idx = guideData.routes.findIndex(r => r.id === state.currentRoute);
+  return idx > 0 ? guideData.routes[idx - 1] : null;
+}
 
-  document.getElementById("slide-route-title").textContent = "次へ";
+function overallProgressPercent() {
+  const maxProgress = guideData.routes.reduce((sum, route) => {
+    const count = route.steps ? route.steps.length : (route.stepCount || 0);
+    return sum + Math.max(count - 1, 1);
+  }, 0);
+  const doneSteps = guideData.routes.reduce((sum, route) => {
+    const progress = state.progress[route.id];
+    return sum + (progress !== undefined ? progress : 0);
+  }, 0);
+  return maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
+}
+
+function renderRouteTransition(route, fromRoute = currentRoute()) {
+  pendingNextRoute = route;
+  transitionFromRoute = fromRoute;
+
+  document.getElementById("slide-route-title").textContent = `次へ · ${overallProgressPercent()}%`;
   document.getElementById("step-counter").textContent = "ルート完了";
 
   const instrEl = document.getElementById("simple-instruction");
@@ -213,13 +226,14 @@ function findBadEndLabel(steps, loadIdx) {
 
 function renderSlide() {
   pendingNextRoute = null;
+  transitionFromRoute = null;
   const route = currentRoute();
   if (!route || !route.steps || !route.steps.length) { renderHome(); return; }
   const idx = state.progress[route.id] || 0;
   const step = route.steps[idx];
   const total = route.steps.length;
 
-  document.getElementById("slide-route-title").textContent = route.title;
+  document.getElementById("slide-route-title").textContent = `${route.title} · ${overallProgressPercent()}%`;
   document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
   const instrEl = document.getElementById("simple-instruction");
   if (step.isLoad) {
@@ -251,7 +265,9 @@ function renderSlide() {
     badEndEl.style.display = "none";
   }
 
-  document.getElementById("btn-prev").disabled = idx === 0;
+  const priorRoute = previousRoute();
+  document.getElementById("btn-prev").disabled =
+    idx === 0 && !(priorRoute && priorRoute.id in state.progress);
   const nextBtn = document.getElementById("btn-next");
   const followingRoute = nextRoute();
   const atSectionEnd = idx === total - 1;
@@ -283,10 +299,23 @@ async function nextStep() {
   if (followingRoute) renderRouteTransition(followingRoute);
 }
 
-function prevStep() {
+async function prevStep() {
   if (pendingNextRoute) {
+    const fromRoute = transitionFromRoute;
     pendingNextRoute = null;
-    renderSlide();
+    transitionFromRoute = null;
+
+    if (fromRoute && fromRoute.id !== state.currentRoute) {
+      await startRoute(fromRoute.id);
+      const loaded = currentRoute();
+      if (loaded && loaded.steps && loaded.steps.length) {
+        state.progress[loaded.id] = loaded.steps.length - 1;
+        saveState();
+        renderSlide();
+      }
+    } else {
+      renderSlide();
+    }
     return;
   }
 
@@ -297,6 +326,12 @@ function prevStep() {
     state.progress[route.id] = idx - 1;
     saveState();
     renderSlide();
+    return;
+  }
+
+  const priorRoute = previousRoute();
+  if (priorRoute && priorRoute.id in state.progress) {
+    renderRouteTransition(route, priorRoute);
   }
 }
 

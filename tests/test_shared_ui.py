@@ -34,10 +34,10 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn("await startRoute(fromRoute.id);", source)
         self.assertNotIn("state.progress[loaded.id] = loaded.steps.length - 1;", source)
 
-    def test_route_cards_have_fixed_uniform_height(self):
+    def test_route_cards_share_uniform_minimum_height(self):
         source = STYLE.read_text(encoding="utf-8")
-        self.assertIn("height: 90px;", source)
         self.assertIn("min-height: 90px;", source)
+        self.assertNotIn("\n  height: 90px;\n  min-height: 90px;", source)
 
 
 if __name__ == "__main__":

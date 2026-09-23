@@ -48,9 +48,9 @@
     "Midgame and late guild chains are routed conservatively before major story acceleration. Where Set B alone supplies an exact prerequisite or disappearance timestamp, the guide preserves the safe order but does not state that causal rule as independently verified unless a second Japanese source supports it.",
     "Fores becomes temporarily country-locked after the inn trigger until Ghia Temple is cleared; the mandatory temple progression is bound to both Japanese lanes.",
     "Amigue's guild block is completed before God's Tower. Set B records the exact G#42 cutoff; the route keeps the safe placement without relying on unsupported causal wording for other Amigue jobs.",
-    "Barbarad's late guild cleanup is performed immediately after the Pyramid exterior segment. Set B records G#49's appearance and the broad Monji-arc job lockout; the guide treats this as a conservative audit point rather than presenting those Set-B-only timing statements as two-lane conclusions.",
+    "Barbarad's late guild cleanup is performed immediately after the Pyramid opening/exterior progression. Set B records G#49's exact appearance after the exterior battle; an independent Japanese completion walkthrough likewise states that 「あぶない薬」 has appeared after Pyramid progression. The broader Monji-arc lockout remains Set-B-specific, so the final audit is phrased conservatively.",
     "G#37 is handled before Air Castle and the final cleanup also verifies God Hunter proof/GP, sealed ruins, remaining bounties, and synthesis materials.",
-    "G#23 is handled during the Romalia city assault before city completion. Set B records the exact appearance/expiry window; the player-facing route uses that safe placement without claiming the exact timing as independently verified by Chokota.",
+    "G#23 is handled during the Romalia city assault before city completion. Set B records the exact appearance/expiry window; Chokota requires delivery to the resistance son inside Romalia city and independently states the city becomes inaccessible after its final battle, while a separate Japanese completion diary also performs the delivery during the city treasure sweep. The route therefore uses the two-lane-safe city-assault placement without overstating the exact Set-B-only timestamps.",
     "Entering Air Castle is the final world lockout.",
     "Choko can be recruited without conversion after Ruins Dungeon B50. The later B51-B71 awakening continuation is conversion-gated; the promoted independent Japanese Choko walkthrough corroborates the mid/late Tokoko event chronology.",
     "In the mid Choko event, do not wipe all green slimes; collect the one-time Red Shoes and leave through the southwest route. These irreversible facts are independently corroborated.",
@@ -291,7 +291,21 @@
       "title": "特殊能力/ヴァニッシュ",
       "language": "ja",
       "notes": "Independent support that Vanish is learned when Choko's awakening event is completed."
+    },
+    {
+      "set": "A",
+      "url": "https://ameblo.jp/pu2014/entry-11848523653.html",
+      "title": "アーク２攻略13：アミーグ～北極、南極",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for G#49 timing. Explicitly notes that 「あぶない薬」 appears after Pyramid progression and should be completed before moving into the later forced-story sequence."
+    },
+    {
+      "set": "A",
+      "url": "https://sekaijyusaya.hatenablog.com/entry/2023/08/02/184510",
+      "title": "sayaのゲーム日記（仮） — ロマリア市街の宝箱・お守り",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for the Romalia-city completion window. Records collecting the fixed city treasure and delivering G#23's amulet to the resistance son during the city assault before taking the underground route."
     }
   ],
-  "generated_at": "2026-09-23T16:05:00+00:00"
+  "generated_at": "2026-09-23T16:16:00+00:00"
 }

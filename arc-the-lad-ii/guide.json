@@ -1,0 +1,511 @@
+{
+  "title": "Arc the Lad II",
+  "vndb_id": "game:arc-the-lad-ii",
+  "guide_target": {
+    "label": "アークザラッドⅡ（プレイステーション クラシック内蔵・日本国内版）",
+    "platform": "PlayStation Classic",
+    "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/"
+  },
+  "routes": [
+    {
+      "id": "prologue_to_shu",
+      "title": "序盤：プロディアス〜シュウ加入",
+      "stepCount": 7,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_early_guild",
+      "title": "【任意】式典前：初期ギルド仕事・手配",
+      "stepCount": 7,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_convert_secret_lab",
+      "title": "【任意・コンバート】秘密研究所",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "ceremony_and_yagos",
+      "title": "式典〜ヤゴス島",
+      "stepCount": 6,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "yagos_return_to_garuano",
+      "title": "ヤゴス島帰還〜ガルアーノの屋敷",
+      "stepCount": 5,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_pre_whitehouse",
+      "title": "【任意】白い家前：期限付きギルド仕事",
+      "stepCount": 12,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "white_house",
+      "title": "白い家",
+      "stepCount": 6,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_convert_whitehouse",
+      "title": "【任意・コンバート】白い家後：アーク対アンデル",
+      "stepCount": 1,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "shu_shante_smelia",
+      "title": "シュウ・シャンテ：スメリア〜ロマリア戦艦",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "shante_gurga_crenia",
+      "title": "シャンテ・グルガ：クレニア",
+      "stepCount": 5,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_lieza_guild",
+      "title": "【任意】リーザ編限定：ラムールの仕事",
+      "stepCount": 2,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "lieza_gogen_fores",
+      "title": "リーザ・ゴーゲン：ホルン〜キメラ研究所",
+      "stepCount": 5,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "elk_poco_smelia",
+      "title": "エルク・ポコ：パレンシア城跡〜タワー",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "shu_tosh_scrap_town",
+      "title": "シュウ・トッシュ：クズ鉄の町",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_romalia_split_guild",
+      "title": "【任意】シュウ編限定・ロマリアの仕事",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "shu_tosh_tunnel",
+      "title": "シュウ・トッシュ：ロマリアトンネル",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "chimera_lab_reunion",
+      "title": "ロマリアキメラ研究所〜全員合流",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_post_reunion",
+      "title": "【任意】合流直後：ロマリア・グレイシーヌ準備",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "greycine",
+      "title": "グレイシーヌ",
+      "stepCount": 6,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_world_cleanup_1",
+      "title": "【任意】グレイシーヌ後：世界巡回・召喚獣・ギルド仕事",
+      "stepCount": 16,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_choko_recruit",
+      "title": "【任意】ちょこ加入・遺跡ダンジョンB50",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "fores",
+      "title": "フォーレス",
+      "stepCount": 5,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "brakia",
+      "title": "ブラキア",
+      "stepCount": 5,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_world_cleanup_2",
+      "title": "【任意】フォーレス・ブラキア後：期限付き仕事",
+      "stepCount": 16,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "millmana",
+      "title": "ミルマーナ",
+      "stepCount": 9,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_millmana_cleanup",
+      "title": "【任意】ミルマーナ後：仕事・海底油田手配",
+      "stepCount": 7,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_choko_mid",
+      "title": "【任意】ちょこ中盤イベント・赤いくつ",
+      "stepCount": 6,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "amigue_to_permission",
+      "title": "アミーグ：神の塔許可まで",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_amigue_guild",
+      "title": "【任意】神の塔前：アミーグ期限付き仕事",
+      "stepCount": 8,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "amigue_gods_tower",
+      "title": "アミーグ：神の塔",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "barbarad_to_pyramid",
+      "title": "バルバラード：ピラミッド外観まで",
+      "stepCount": 7,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_pre_monji_cleanup",
+      "title": "【任意】紋次編急展開前：全期限付き仕事の最終回収",
+      "stepCount": 25,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "barbarad_pyramid",
+      "title": "バルバラード：ピラミッド",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "palencia_tower_and_past",
+      "title": "パレンシアタワー〜過去編",
+      "stepCount": 7,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "past_world",
+      "title": "過去世界：四精霊巡り",
+      "stepCount": 10,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "north_south_towers",
+      "title": "現代帰還〜北・南の塔",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_choko_late",
+      "title": "【任意】ちょこ終盤イベント：廃墟のトココ",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_convert_choko_awakening",
+      "title": "【任意・コンバート】ちょこ覚醒：遺跡B51〜B71",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_final_cleanup",
+      "title": "【任意】空中城前：G#37・残仕事・最終回収",
+      "stepCount": 11,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "romalia_invasion_to_city",
+      "title": "ロマリア突入〜市街侵攻",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "optional_romalia_g23",
+      "title": "【任意】ロマリア市街：G#23・宝箱最終回収",
+      "stepCount": 3,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "romalia_city_finish",
+      "title": "ロマリア市街・地下道決着",
+      "stepCount": 4,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "air_castle",
+      "title": "空中城・最終決戦",
+      "stepCount": 7,
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/",
+      "title": "ちょこた / みどりすたいる — アークザラッド2攻略",
+      "language": "ja",
+      "notes": "PRIMARY SET A hub. Main攻略1-4 establish full story chronology. Guild, wanted, Choko, Ruins Dungeon, sealed ruins, and item pages provide detailed optional-content execution and missable notes."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/guild.htm",
+      "title": "ギルドイベント",
+      "language": "ja",
+      "notes": "Detailed execution steps for the guild-job catalog."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/wanted.htm",
+      "title": "手配モンスター",
+      "language": "ja",
+      "notes": "Wanted-monster locations and notable one-time steals/drops."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/choko.htm",
+      "title": "ちょこ覚醒イベント",
+      "language": "ja",
+      "notes": "Choko recruitment and awakening chronology, irreversible green-slime battle rule, and conversion requirement."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/",
+      "title": "アークザラッド２ データまとめ Wiki*",
+      "language": "ja",
+      "notes": "PRIMARY SET B hub. Independent composite verification set."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/ギルド仕事/時期別",
+      "title": "ギルド仕事/時期別",
+      "language": "ja",
+      "notes": "Independent authoritative-in-practice timing table for all guild jobs, including expiration, prerequisite, short-window, and final-lockout notes."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/手配モンスター",
+      "title": "手配モンスター",
+      "language": "ja",
+      "notes": "Independent bounty data and appearance conditions."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/ちょこ",
+      "title": "キャラ/ちょこ",
+      "language": "ja",
+      "notes": "Independent Choko recruitment/convert behavior and Ruins B50 facts."
+    },
+    {
+      "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/",
+      "title": "PlayStation.Blog 日本語 — プレイステーション クラシック内蔵ソフト全20本",
+      "language": "ja",
+      "notes": "AUTHORITATIVE TARGET SOURCE. Sony explicitly lists Arc the Lad II in the domestic PlayStation Classic lineup."
+    },
+    {
+      "url": "https://toal-uni-games.com/ps-classic/",
+      "title": "UniGames — プレイステーションクラシックで遊んだ感想。アークザラッドのコンバートは可能？",
+      "language": "ja",
+      "notes": "Direct Japanese hands-on confirmation that Arc I and Arc II share virtual memory card storage on PlayStation Classic and conversion works."
+    },
+    {
+      "set": "B",
+      "url": "https://yagamuu.hatenablog.jp/entry/2024/10/08/030714",
+      "title": "アークザラッドⅡ - JP Any% Glitchless(No File Conversion) RTAレポート(9:58:50)",
+      "language": "ja",
+      "notes": "Independent Japanese full-game chronology corroboration. Its lap sequence independently verifies the mandatory story order from Alfred through Yagos, White House, the split-party arcs, Chimera Research Lab, Greycine/Fores/Brakia/Millmana/Amigue/Barbarad, Palencia Tower/past, north/south towers, Romalia, and Air Castle. Used only for story-order verification, not optional-completion timing."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/国/西アルディア",
+      "title": "国/西アルディア",
+      "language": "ja",
+      "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/グリーンスライム",
+      "title": "キャラ/グリーンスライム",
+      "language": "ja",
+      "notes": "Independent support for the irreversible Choko-event condition: at least one green slime must remain alive for the event to continue."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/武器/赤いくつ",
+      "title": "武器/赤いくつ",
+      "language": "ja",
+      "notes": "Independent support that Red Shoes appears only during the Choko village battle, hidden behind the church."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/BOSS/アクラ",
+      "title": "BOSS/アクラ",
+      "language": "ja",
+      "notes": "Independent support for converted Choko awakening at Ruins B71: Choko duels Akura while the other party fights adds, then the group reunites."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/武器/光の剣",
+      "title": "武器/光の剣",
+      "language": "ja",
+      "notes": "Independent support for Light Sword synthesis from Earth + Ice + Fire + Wind swords."
+    }
+  ],
+  "generated_at": "2026-09-23T14:30:00+00:00"
+}

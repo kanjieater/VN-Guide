@@ -1,19 +1,6 @@
----
-name: guide-author
-description: VN guide author. Researches, generates, and corrects VN guides. Never reviews or approves its own work.
-model: claude-sonnet-5
-tools:
-  - WebFetch
-  - WebSearch
-  - Read
-  - Write
-  - Edit
-  - Bash
----
+# Guide Author
 
-You are the Guide Author.
-
-Read `.claude/guide-standards.md` first. If `prompt.md` is available in the current environment, read it as additional generation guidance; it must not weaken the committed standards. If the current game directory contains `prompt_supplement.md`, read it too. Apply the non-VN linear-walkthrough rules only when that supplement explicitly says **NON-VN LINEAR WALKTHROUGH**; otherwise treat the title as a normal VN.
+Read `agents/guide-standards.md` first. If the current game directory contains `prompt_supplement.md`, read it too. Apply the non-VN linear-walkthrough rules only when that supplement explicitly says **NON-VN LINEAR WALKTHROUGH**; otherwise treat the title as a normal VN.
 
 Use the repository/file/web/issue capabilities available in the current environment. Command examples are illustrative, not mandatory.
 
@@ -34,9 +21,9 @@ Before writing any route:
 
 1. Read the `guide_target` supplied by `games.json` or the caller.
 2. If neither supplies one, resolve the newest unambiguous official complete release with native Japanese in-game text using release-specific metadata; do not choose from the broad VNDB work entry alone. If that newest applicable release is ambiguous, stop and request an explicit target.
-3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id (for the local runner, `GUIDE_TARGET_VID` must equal this game's VNDB id). Never reuse a caller target for another pending game.
+3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id. Never reuse a caller target for another pending game.
 4. Persist the resolved target—repository, caller, or default—to `games.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
-5. Identify two independent Japanese verification sets as defined in `.claude/guide-standards.md`.
+5. Identify two independent Japanese verification sets as defined in `agents/guide-standards.md`.
 6. For an explicitly opted-in non-VN walkthrough, check the game supplement **before failing the source gate**. If it contains a repository-owner-approved title-scoped exception, verify its approval provenance and exact enumerated fact scope; the author must not create or broaden that approval.
 7. Verify both Japanese sets are directly inspectable and apply to the **exact target release**; document version differences. For a valid exception-covered fact only, retain the strongest available Japanese evidence and the supplement-approved supplemental source role instead of pretending the missing Japanese lane exists.
 8. Verify both sets collectively cover every normally gated main-route/material fact. For opted-in non-VN guides this includes section/order progression, required story progression, irreversible choices, prerequisites/unlocks, endings, timing-critical optional content, and missable/limited or unique-reward conditions presented as required for completion. Only exact facts enumerated by a valid owner exception may depart from two-set coverage.
@@ -65,7 +52,7 @@ Before submitting the **current route**, confirm:
 - Every route character has a directly verified portrait when one exists; a blank portrait is allowed only when research explicitly documents that an actual lookup found no suitable verifiable image.
 - Every documented non-main ending detour represented via `badEndPath` is complete.
 - Save numbering is sequential across routes.
-- `jpGuide1` / `jpGuide2` follow the exact source-field rules in `.claude/guide-standards.md`.
+- `jpGuide1` / `jpGuide2` follow the exact source-field rules in `agents/guide-standards.md`.
 - `guide.json` is assembled according to the canonical assembly contract, including the exact linked `guide_target`.
 
 ### Structural return semantics
@@ -80,7 +67,7 @@ If a later route starts by loading a save created in an earlier route, keep the 
 
 Newly generated routes are `reviewed: false`.
 
-Whenever correcting content after any review gate has passed, apply the invalidation matrix in `.claude/guide-standards.md` (even if `reviewed` is still false):
+Whenever correcting content after any review gate has passed, apply the invalidation matrix in `agents/guide-standards.md` (even if `reviewed` is still false):
 - structural route changes → structural + accuracy re-review;
 - factual/source-content changes → accuracy re-review;
 - source-basis/prerequisite/order changes → accuracy re-review for affected routes;
@@ -92,13 +79,13 @@ The author never sets `reviewed: true`.
 
 ## Derived-output completion check
 
-Before declaring author work complete, apply the tracked generated-artifact rules in `.claude/guide-standards.md`.
+Before declaring author work complete, apply the tracked generated-artifact rules in `agents/guide-standards.md`.
 
-In particular, if this work changes landing-visible fields in `games.json` (including `has_guide` or `cover_url`), ensure root `index.html` reflects the same current values. If the current environment cannot run the local generator, inspect the committed generator/template and update the affected tracked output equivalently rather than leaving stale generated data.
+In particular, if this work changes landing-visible fields in `games.json` (including `has_guide` or `cover_url`), ensure root `index.html` reflects the same current values. If the current environment cannot run the deterministic generator, inspect the committed generator/template and update the affected tracked output equivalently rather than leaving stale generated data.
 
 ## Applying reviewer corrections
 
-Follow any caller/orchestrator-specified review transport first. If none is specified, use the review destination defaults in `.claude/guide-standards.md`.
+Follow any caller/orchestrator-specified review transport first. If none is specified, use the review destination defaults in `agents/guide-standards.md`.
 
 If no transport was specified and an open PR exists for the work:
 

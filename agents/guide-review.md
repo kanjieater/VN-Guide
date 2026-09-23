@@ -1,6 +1,6 @@
 # VN Guide Review Workflow
 
-The canonical rules are in `.claude/guide-standards.md`. This file describes orchestration.
+The canonical rules are in `agents/guide-standards.md`. This file describes orchestration.
 
 The workflow is environment-neutral: a role may use a checkout, repository API, connected app, browser, or other available tooling. Command examples are optional conveniences; the required state transitions are what matter.
 
@@ -13,7 +13,6 @@ If none is specified:
 - **Open PR, direct/manual agent review:** put review findings and author fixes on that PR instead of creating route-review issue spam.
 - **No open PR:** use the existing issue workflow.
 
-The local automated runner explicitly requests issue-based review, so its issue transport takes precedence over the direct-agent PR default.
 
 ## Explicit guide target
 
@@ -21,7 +20,7 @@ Before generation/research:
 
 1. Read `games.json.guide_target` or an explicit caller-supplied target.
 2. Require `label`, `platform`, and a specific release/edition `url`.
-3. Require caller-supplied targets to be scoped to the exact VN work id (the local runner uses `GUIDE_TARGET_VID`); never carry that target into another pending game.
+3. Require caller-supplied targets to be scoped to the exact VN work id; never carry that target into another pending game.
 4. Persist accepted caller-supplied targets to `games.json` before research.
 5. Copy the exact same object into `research.json` and `guide.json`.
 6. Stop rather than infer when no target is supplied.
@@ -93,7 +92,7 @@ This prevents duplicate issue races and keeps one canonical thread per gate.
 
 ## Re-review scope
 
-Use the invalidation matrix in `.claude/guide-standards.md`.
+Use the invalidation matrix in `agents/guide-standards.md`.
 
 In particular:
 
@@ -108,19 +107,5 @@ Do not rerun structural review merely because source metadata changed if no rout
 
 Before a guide change is considered complete, verify tracked generated artifacts are synchronized with their source data.
 
-For example, if `games.json` changes `has_guide` or other landing-visible metadata, root `index.html` must be regenerated or equivalently synchronized according to `scripts/generate.py` and the landing template. This applies even when the reviewing/authoring agent cannot execute the local Python runner.
+For example, if `games.json` changes `has_guide` or other landing-visible metadata, root `index.html` must be regenerated or equivalently synchronized according to `tools/generate.mjs` and the landing template. Run `bun run generate` after changing landing-visible repository metadata. CI runs `bun run generate:check` and rejects stale generated artifacts.
 
-This is a repository-consistency check, not a reason to redesign the local orchestration.
-
-## Automated orchestration
-
-`scripts/review.py` remains the local issue-based orchestrator. This PR makes one targeted correctness change to it: after structural review passes, the runner snapshots the route's structural signature; if accuracy-stage corrections change that signature, it reruns structural review and then accuracy review before allowing `reviewed: true`. The final mark-reviewed gate also checks both structural and accuracy blockers.
-
-This does not move PR-comment state into the local runner and does not require browser/repository agents to execute the Python orchestration.
-
-Focused regression tests live in `tests/test_review.py` and cover:
-
-- unchanged route structure → one structural + one accuracy pass;
-- structural changes during accuracy correction → structural + accuracy rerun;
-- source-only / `enGuide` edits → unchanged structural signature;
-- open structural blocker → refuse `reviewed: true`.

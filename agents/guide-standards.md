@@ -4,7 +4,7 @@ These are the canonical, environment-neutral rules for guide generation and revi
 
 Agents may work through a checkout, repository API, connected app, browser, or another execution environment. Shell and `gh` examples elsewhere in the repo are examples only. Use whatever file, web, issue, and repository capabilities are available while preserving the same state transitions and role boundaries.
 
-`prompt.md` may be supplied by the local generation runtime as additional generation guidance. Agents that can access it should read it. Agents that cannot access that local file still have the complete portable workflow and quality gates in this committed standard. Local guidance must not weaken or replace these standards.
+Game-specific `prompt_supplement.md` files may add stricter title-scoped instructions. They must not weaken or replace these standards except where an explicit repository-owner-approved exception is recorded with provenance.
 
 ## Roles
 
@@ -40,7 +40,7 @@ Before research begins, resolve:
 Rules:
 
 - `games.json.guide_target` is the normal repository source of truth.
-- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id (the local runner uses `GUIDE_TARGET_VID`). A caller target for one VN must never be reused for another pending game. Persist the accepted target to `games.json` before research so later local/browser agents see the same target.
+- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to `games.json` before research so later agents see the same target.
 - If neither the repository nor caller supplies a target, default to the **newest official complete release that includes native Japanese in-game text**, using release-specific metadata such as VNDB releases rather than guessing from the broad work entry. This keeps `simpleJp` valid for the target while preferring the newest applicable edition/platform.
 - If the newest applicable Japanese release is ambiguous (for example multiple distinct releases on the same newest date, a multi-platform release that cannot be made platform-specific, or insufficient release metadata), stop and request an explicit target instead of choosing arbitrarily.
 - `label`, `platform`, and `url` are all required and non-empty.
@@ -214,7 +214,7 @@ For each documented non-main ending detour:
 
 ## `guide.json` assembly contract
 
-Direct/browser agents must assemble `guide.json` equivalently to the local generator:
+Direct/browser agents must assemble `guide.json` equivalently to the deterministic generator:
 
 - entries follow `research.json` / recommended order for every completed guide section;
 - each entry includes `id`, `title`, `stepCount`, and `reviewed`;
@@ -309,7 +309,7 @@ Do **not** modify local automated orchestration merely to make a browser or repo
 
 Known dependency in this repo:
 
-- `games.json` → root `index.html` via `scripts/generate.py::generate_landing()` and `scripts/templates/landing.html`.
+- `games.json` → root `index.html` via `tools/generate.mjs::generate_landing()` and `scripts/templates/landing.html`.
 - Therefore changes to landing-visible fields such as `slug`, `title`, `alttitle`, `cover_url`, or `has_guide` must also be reflected in the tracked root `index.html`.
 - A browser/repository agent that cannot run `generate.py` must still update the affected embedded landing data equivalently and verify it matches current `games.json`.
 

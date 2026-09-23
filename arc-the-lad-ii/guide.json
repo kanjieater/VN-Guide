@@ -10,7 +10,7 @@
     {
       "id": "prologue_to_shu",
       "title": "序盤：プロディアス〜シュウ加入",
-      "stepCount": 11,
+      "stepCount": 12,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -334,7 +334,7 @@
     {
       "id": "optional_choko_late",
       "title": "【任意】ちょこ終盤イベント：廃墟のトココ",
-      "stepCount": 3,
+      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -388,7 +388,7 @@
     {
       "id": "air_castle",
       "title": "空中城・最終決戦",
-      "stepCount": 7,
+      "stepCount": 9,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -505,7 +505,77 @@
       "title": "武器/光の剣",
       "language": "ja",
       "notes": "Independent support for Light Sword synthesis from Earth + Ice + Fire + Wind swords."
+    },
+    {
+      "set": "A",
+      "url": "https://arinosu.ari-jigoku.com/arc2/suikamesann.html",
+      "title": "アークザラッド２データベース — 極限低レベルネックレス取得（暫定版）",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for early optional-content placement. The author explicitly states a completion policy of doing every guild job, then records G#01, G#02, G#07, and G#03 after Shu joins and before the closed-bar/Grunag transition to Yagos. Used to corroborate the safe early-job ordering; Set B remains the source for exact disappearance timestamps."
+    },
+    {
+      "set": "A",
+      "url": "https://tekeremu.zatunen.com/ArcTheLad1-2/arc2_tehai.htm",
+      "title": "Arc The Lad 2 — 手配モンスター",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for wanted-monster handling where Chokota is silent. It instructs checking wanted posters on reaching a new town and independently documents first-encounter-only stealing plus Shamus's Grand Knife."
+    },
+    {
+      "set": "B",
+      "url": "https://yagamuu.github.io/speedrun-docs/arc2_jp_any_glitchless_no_file_convert.html",
+      "title": "アークザラッドⅡ JP Any% Glitchless (No File Conversion) 手順",
+      "language": "ja",
+      "notes": "Direct detailed chronology companion to the recorded RTA report. Used for exact mandatory micro-order/excerpts in the opening and ceremony sections, including Alfred 2, Indigos guild/bar, the post-Leland alley sequence, and the ticket progression."
+    },
+    {
+      "set": "A",
+      "url": "https://kojikoji2200.blog.fc2.com/blog-entry-2429.html",
+      "title": "アークザラッド2 プレイ記録 — リーザ分岐・ギルド仕事",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for safe placement of the Lieza/Gogen split guild work. The play record performs both 旅から帰らない息子を探してほしい and いたずら息子を捕まえてほしい during Lieza's temporary segment."
+    },
+    {
+      "set": "B",
+      "url": "https://plaza.rakuten.co.jp/minnakoikoi/3038/",
+      "title": "アークザラッド2攻略 — ちょこイベント",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT JAPANESE CHOKO WALKTHROUGH. Corroborates the mid-event key/grave/battle sequence and the later ruined-Tokoko continuation after Andel; used where the Arc II Data Wiki is too coarse for exact event chronology."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/サニア",
+      "title": "キャラ/サニア",
+      "language": "ja",
+      "notes": "Independent explicit support for Sania's Greycine-arc recruitment timing."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/防具/ローブ",
+      "title": "防具/ローブ",
+      "language": "ja",
+      "notes": "Records the Palencia robe-stall behavior during the Elk/Poco segment; retained specifically to document the availability disagreement with Chokota."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/国/ロマリア",
+      "title": "国/ロマリア",
+      "language": "ja",
+      "notes": "Independent Romalia-city and Air-Castle data: city/underground structure, Air Castle services and trials, and the Kukuru-plus-party final-battle structure."
+    },
+    {
+      "set": "A",
+      "url": "https://sekaijyusaya.hatenablog.com/entry/2023/08/24/185924",
+      "title": "sayaのゲーム日記（仮） — アークザラッド2 ゲームクリア",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for the terminal sequence. Explicitly describes the post-Zalbad last boss as a three-battle sequence: Kukuru alone, party first form, party second/final form."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/特殊能力/ヴァニッシュ",
+      "title": "特殊能力/ヴァニッシュ",
+      "language": "ja",
+      "notes": "Independent support that Vanish is learned when Choko's awakening event is completed."
     }
   ],
-  "generated_at": "2026-09-23T14:46:00+00:00"
+  "generated_at": "2026-09-23T16:07:00+00:00"
 }

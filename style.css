@@ -52,6 +52,14 @@ html, body {
   line-height: 1.6;
 }
 
+.guide-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+
 .view-header a {
   background: none;
   border: 1px solid var(--border);

@@ -1,14 +1,14 @@
 [
   {
-    "simpleJp": "スメリア神殿でククルに2回話す",
+    "simpleJp": "スメリア神殿でククルに話してイベントを進める",
     "jpGuide1": "ククルに2回話し掛けてパレンシアへ",
-    "jpGuide2": "パレンシアタワー99F到着",
-    "enGuide": "This begins the Palencia Tower/Monji sequence."
+    "jpGuide2": "上部のククルに話しかけイベント進行",
+    "enGuide": "Advance Kukuru's event to begin the Palencia Tower sequence. Set A specifies two conversations."
   },
   {
     "simpleJp": "ダウンタウンでトッシュを表示して酒場のマスターに話す",
     "jpGuide1": "トッシュを表示（R2）させて酒場のマスターから情報を得て",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "操作キャラをトッシュに変更…マスターに話しイベント進行",
     "enGuide": "Return to Silver Noah, then choose Ark plus three members to pursue Tosh."
   },
   {
@@ -36,9 +36,9 @@
     "enGuide": "After Tosh's duel, finish the group boss battle. The game immediately moves to Touvil and the past."
   },
   {
-    "simpleJp": "過去へ送る人間キャラを1人選ぶ",
+    "simpleJp": "過去へ送る仲間を選ぶ",
     "jpGuide1": "過去に行けるのは人間キャラ1人だけ",
-    "jpGuide2": "過去編終了",
-    "enGuide": "Choose one human companion for Ark. Choko and other summons cannot be chosen."
+    "jpGuide2": "過去に送り込むのはイーガ",
+    "enGuide": "Choose the companion for Ark's trip to the past. Set A specifies the one-human restriction; Set B directly demonstrates selecting Iga."
   }
 ]

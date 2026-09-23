@@ -121,14 +121,121 @@ class SharedGuideUiTests(unittest.TestCase):
             source,
         )
         self.assertIn(
-            "if (priorRoute) {\n    renderRouteTransition(route, priorRoute);",
+            'renderRouteTransition(route, priorRoute, "backward");',
             source,
         )
 
     def test_transition_back_restores_saved_previous_route_position(self):
         source = APP.read_text(encoding="utf-8")
-        self.assertIn("await startRoute(fromRoute.id);", source)
+        self.assertIn(
+            'await startRoute(fromRoute.id, { fromView: "transition" });',
+            source,
+        )
         self.assertNotIn("state.progress[loaded.id] = loaded.steps.length - 1;", source)
+
+
+    def test_browser_history_tracks_all_shared_screens(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn('window.addEventListener("popstate"', source)
+        self.assertIn('writeNavigation({ view: "home" }, "replace");', source)
+        self.assertIn('writeNavigation({ view: "flowchart" });', source)
+        self.assertIn('writeNavigation({ view: "settings" });', source)
+        self.assertIn('writeNavigation({ view: "jump", routeId: route.id });', source)
+        self.assertIn('view: "transition"', source)
+
+    def test_route_steps_replace_history_instead_of_flooding_it(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertGreaterEqual(
+            source.count('fromView: currentNavigation().fromView || null'),
+            2,
+        )
+        self.assertGreaterEqual(source.count('}, "replace");'), 5)
+
+    def test_auxiliary_back_controls_use_browser_history(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn('onclick="closeFlowchart()"', source)
+        self.assertIn('onclick="closeSettings()"', source)
+        self.assertIn("function closeFlowchart() {\n  history.back();\n}", source)
+        self.assertIn("function closeSettings() {\n  history.back();\n}", source)
+        self.assertIn("function resumeSlide() {\n  history.back();\n}", source)
+
+    def test_flowchart_preview_gets_history_entry_without_committing_progress(self):
+        source = APP.read_text(encoding="utf-8")
+        start = source.index("async function jumpFromFlowchart")
+        end = source.index("// ── Slide", start)
+        jump = source[start:end]
+        self.assertIn('fromView: "flowchart"', jump)
+        self.assertIn("preview: true", jump)
+        self.assertIn("flowchartPreview =", jump)
+        self.assertNotIn("state.progress[route.id] = target", jump)
+        self.assertNotIn("saveState();", jump)
+
+    def test_reload_preserves_existing_app_owned_history_entry(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn(
+            "const existingNavigation = history.state && history.state[NAV_STATE_KEY]",
+            source,
+        )
+        self.assertIn(
+            "const requestedNavigation = existingNavigation || navigationFromLocation();",
+            source,
+        )
+        self.assertIn(
+            "if (existingNavigation) {\n    await applyNavigation(existingNavigation);\n  } else {",
+            source,
+        )
+
+    def test_preview_state_round_trips_through_hash_navigation(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn('if (nav.preview) params.set("preview", "1");', source)
+        self.assertIn('preview: params.get("preview") === "1"', source)
+        self.assertIn("if (nav.preview) {", source)
+        self.assertIn("flowchartPreview = { routeId: route.id, stepIndex: targetStep };", source)
+
+    def test_async_navigation_ignores_stale_route_work(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn("let navigationApplyEpoch = 0;", source)
+        self.assertGreaterEqual(
+            source.count("const applyEpoch = ++navigationApplyEpoch;"),
+            3,
+        )
+        self.assertGreaterEqual(
+            source.count("applyEpoch !== navigationApplyEpoch"),
+            4,
+        )
+
+    def test_slow_start_route_cannot_resurrect_after_browser_back(self):
+        source = APP.read_text(encoding="utf-8")
+        start_route = source.split("async function startRoute", 1)[1].split(
+            "// ── Flowchart", 1
+        )[0]
+        self.assertIn("const applyEpoch = ++navigationApplyEpoch;", start_route)
+        self.assertIn("const sourceUrl = location.href;", start_route)
+        self.assertIn("const route = await ensureRouteLoaded(id);", start_route)
+        self.assertIn(
+            "applyEpoch !== navigationApplyEpoch || location.href !== sourceUrl",
+            start_route,
+        )
+        self.assertLess(
+            start_route.index("applyEpoch !== navigationApplyEpoch"),
+            start_route.index("state.currentRoute = id;"),
+        )
+
+    def test_navigation_writes_cancel_outstanding_async_route_work(self):
+        source = APP.read_text(encoding="utf-8")
+        write_navigation = source.split("function writeNavigation", 1)[1].split(
+            "function currentNavigation", 1
+        )[0]
+        self.assertIn("navigationApplyEpoch += 1;", write_navigation)
+
+    def test_flowchart_jump_cannot_complete_after_newer_navigation(self):
+        source = APP.read_text(encoding="utf-8")
+        flowchart_jump = source.split("async function jumpFromFlowchart", 1)[1].split(
+            "// ── Slide", 1
+        )[0]
+        self.assertIn("const applyEpoch = ++navigationApplyEpoch;", flowchart_jump)
+        self.assertIn("const sourceUrl = location.href;", flowchart_jump)
+        self.assertIn("location.href !== sourceUrl", flowchart_jump)
 
     def test_route_cards_share_uniform_minimum_height(self):
         source = STYLE.read_text(encoding="utf-8")

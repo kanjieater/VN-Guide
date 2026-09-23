@@ -26,6 +26,10 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn('if (isLinearGameGuide()) return;', source)
         self.assertIn('window.VNFlowchart.render(content, guideData, jumpFromFlowchart);', source)
         self.assertIn('async function jumpFromFlowchart(routeId, stepIndex)', source)
+        loader = source[source.index("async function loadFlowchartRenderer()"):source.index("async function showFlowchart()")]
+        self.assertIn('const v = window.__guideAssetVersion || Date.now();', loader)
+        self.assertIn('script.src = "../flowchart.js?v=" + v;', loader)
+        self.assertNotIn("guideData.generated_at", loader)
         self.assertIn('role: "link"', flowchart)
         self.assertIn('tabindex: "0"', flowchart)
         self.assertIn('fit.textContent = "全体"', flowchart)

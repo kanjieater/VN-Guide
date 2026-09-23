@@ -3,9 +3,10 @@ const STORAGE_KEY = "guide_" + location.pathname.replace(/\//g, "_");
 const SETTINGS_KEY = "vng_settings";
 
 let guideData = { routes: [] };
-let state = { currentRoute: null, progress: {} };
+let state = { currentRoute: null, progress: {}, seenProgress: {} };
 let settings = { blurPortraits: true };
 let pendingNextRoute = null;
+let flowchartPreview = null;
 let transitionFromRoute = null;
 let flowchartScriptPromise = null;
 let flowchartSidecarPromise = null;
@@ -96,12 +97,49 @@ function mountAppShell() {
   `;
 }
 
+function normalizeState() {
+  if (!state || typeof state !== "object") state = {};
+  if (!state.progress || typeof state.progress !== "object") state.progress = {};
+  if (!state.seenProgress || typeof state.seenProgress !== "object") state.seenProgress = {};
+  if (!Object.prototype.hasOwnProperty.call(state, "currentRoute")) state.currentRoute = null;
+
+  // Existing saves predate seenProgress. Seed them from the current resume
+  // positions so upgrading does not make already-played nodes look unread.
+  for (const [routeId, value] of Object.entries(state.progress)) {
+    if (!Number.isInteger(value) || value < 0) continue;
+    const previous = state.seenProgress[routeId];
+    state.seenProgress[routeId] = Number.isInteger(previous)
+      ? Math.max(previous, value)
+      : value;
+  }
+}
+
 function loadState() {
-  try { const s = localStorage.getItem(STORAGE_KEY); if (s) state = JSON.parse(s); } catch {}
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) state = JSON.parse(saved);
+  } catch {}
+  normalizeState();
+}
+
+function markSeen(routeId, stepIndex) {
+  if (!routeId || !Number.isInteger(stepIndex) || stepIndex < 0) return;
+  const previous = state.seenProgress[routeId];
+  if (!Number.isInteger(previous) || stepIndex > previous) {
+    state.seenProgress[routeId] = stepIndex;
+  }
 }
 
 function saveState() {
+  normalizeState();
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch {}
+}
+
+function displayedStepIndex(route) {
+  if (flowchartPreview && flowchartPreview.routeId === route.id) {
+    return flowchartPreview.stepIndex;
+  }
+  return state.progress[route.id] || 0;
 }
 
 function loadSettings() {
@@ -256,9 +294,11 @@ async function startRoute(id) {
       }
     } catch { renderHome(); return; }
   }
-  // Only update state after route loads successfully
+  // Only update state after route loads successfully.
+  flowchartPreview = null;
   state.currentRoute = id;
   if (!(id in state.progress)) state.progress[id] = 0;
+  markSeen(id, state.progress[id]);
   saveState();
   renderSlide();
 }
@@ -326,7 +366,10 @@ async function showFlowchart() {
       loadFlowchartSidecar(),
     ]);
     await loadFlowchartRenderer();
-    window.VNFlowchart.render(content, guideData, jumpFromFlowchart, sidecar);
+    window.VNFlowchart.render(content, guideData, jumpFromFlowchart, sidecar, {
+      seen: state.seenProgress,
+      current: state.progress,
+    });
   } catch {
     content.innerHTML = '<p class="flowchart-error">分岐図を読み込めませんでした。</p>';
   }
@@ -340,9 +383,10 @@ async function jumpFromFlowchart(routeId, stepIndex) {
     ? 0
     : Math.max(0, Math.min(stepIndex, route.steps.length - 1));
 
+  // Flowchart navigation is deliberately non-destructive. Merely exploring the
+  // chart must not advance or rewind saved progress. 次へ commits the preview.
   state.currentRoute = route.id;
-  state.progress[route.id] = target;
-  saveState();
+  flowchartPreview = { routeId: route.id, stepIndex: target };
   renderSlide();
 }
 
@@ -429,12 +473,14 @@ function renderSlide() {
   transitionFromRoute = null;
   const route = currentRoute();
   if (!route || !route.steps || !route.steps.length) { renderHome(); return; }
-  const idx = state.progress[route.id] || 0;
+  const idx = displayedStepIndex(route);
   const step = route.steps[idx];
   const total = route.steps.length;
+  const previewing = !!(flowchartPreview && flowchartPreview.routeId === route.id);
 
   document.getElementById("slide-route-title").textContent = `${route.title} · ${overallProgressPercent()}%`;
-  document.getElementById("step-counter").textContent = `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)`;
+  document.getElementById("step-counter").textContent =
+    `${idx + 1} / ${total} (${Math.round((idx + 1) / total * 100)}%)${previewing ? " · プレビュー" : ""}`;
   const instrEl = document.getElementById("simple-instruction");
   if (step.isLoad) {
     const label = findBadEndLabel(route.steps, idx);
@@ -470,8 +516,12 @@ function renderSlide() {
   const nextBtn = document.getElementById("btn-next");
   const followingRoute = nextRoute();
   const atSectionEnd = idx === total - 1;
-  nextBtn.disabled = atSectionEnd && !followingRoute;
-  nextBtn.textContent = atSectionEnd && followingRoute ? "次のセクションへ ▶" : "次へ ▶";
+  nextBtn.disabled = previewing ? false : (atSectionEnd && !followingRoute);
+  nextBtn.textContent = previewing
+    ? "ここから進む ▶"
+    : atSectionEnd && followingRoute
+      ? "次のセクションへ ▶"
+      : "次へ ▶";
 
   showView("view-slide");
 }
@@ -486,14 +536,39 @@ async function nextStep() {
 
   const route = currentRoute();
   if (!route) return;
+
+  if (flowchartPreview && flowchartPreview.routeId === route.id) {
+    const previewIndex = flowchartPreview.stepIndex;
+    flowchartPreview = null;
+    markSeen(route.id, previewIndex);
+
+    if (previewIndex < route.steps.length - 1) {
+      state.progress[route.id] = previewIndex + 1;
+      markSeen(route.id, state.progress[route.id]);
+      saveState();
+      renderSlide();
+      return;
+    }
+
+    state.progress[route.id] = previewIndex;
+    saveState();
+    const followingRoute = nextRoute();
+    if (followingRoute) renderRouteTransition(followingRoute);
+    else renderSlide();
+    return;
+  }
+
   const idx = state.progress[route.id] || 0;
   if (idx < route.steps.length - 1) {
     state.progress[route.id] = idx + 1;
+    markSeen(route.id, state.progress[route.id]);
     saveState();
     renderSlide();
     return;
   }
 
+  markSeen(route.id, idx);
+  saveState();
   const followingRoute = nextRoute();
   if (followingRoute) renderRouteTransition(followingRoute);
 }
@@ -514,6 +589,20 @@ async function prevStep() {
 
   const route = currentRoute();
   if (!route) return;
+
+  if (flowchartPreview && flowchartPreview.routeId === route.id) {
+    if (flowchartPreview.stepIndex > 0) {
+      flowchartPreview.stepIndex -= 1;
+      renderSlide();
+      return;
+    }
+    const priorRoute = previousRoute();
+    flowchartPreview = null;
+    if (priorRoute) renderRouteTransition(route, priorRoute);
+    else renderSlide();
+    return;
+  }
+
   const idx = state.progress[route.id] || 0;
   if (idx > 0) {
     state.progress[route.id] = idx - 1;
@@ -537,6 +626,7 @@ function toggleDetails() {
 }
 
 function goHome() {
+  flowchartPreview = null;
   state.currentRoute = null;
   saveState();
   renderHome();
@@ -567,7 +657,9 @@ function showJump() {
 function jumpTo(idx) {
   const route = currentRoute();
   if (!route) return;
+  flowchartPreview = null;
   state.progress[route.id] = idx;
+  markSeen(route.id, idx);
   saveState();
   renderSlide();
 }

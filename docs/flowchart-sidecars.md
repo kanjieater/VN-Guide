@@ -2,18 +2,22 @@
 
 `flowchart.json` is an optional per-VN topology overlay for facts that the normal flat walkthrough intentionally cannot preserve.
 
-The normal `guide.json` + `route_*.json` files remain authoritative for player instructions. A sidecar must not copy the entire route graph or become a second walkthrough format. Without a valid sidecar, the UI continues to render the generic inferred chart.
+The normal `guide.json` + `route_*.json` files remain authoritative for player instructions. A sidecar must not copy the entire route graph or become a second walkthrough format. Without a valid sidecar, the UI renders the generic inferred chart.
+
+A sidecar being present does **not** by itself mean its topology has passed an accuracy review. The UI therefore describes it neutrally as a detailed/enhanced chart. Factual review still happens through the normal repository review process.
 
 ## Version 1
 
-A sidecar has `"version": 1` and may contain four kinds of corrections:
+A sidecar has exactly `"version": 1` and may use:
 
-- `syntheticNodes` — a documented choice/result that is missing from the optimized flat route.
-- `addEdges` / `removeEdges` — correct relationships that generic save/load inference cannot recover.
-- `groups` — collapse ordered walkthrough steps into a semantic group such as “all of these, in any order.”
+- `syntheticNodes` — topology nodes absent from the optimized flat route.
+- `addEdges` / `removeEdges` — relationships generic save/load inference cannot recover correctly.
+- `groups` — replace serialized walkthrough steps with one semantic group, such as “all of these, in any order.”
 - `routeLinks` — explicit unlock/dependency edges between route sections.
 
-References point back into existing route data instead of duplicating it:
+Unknown top-level fields are rejected.
+
+References point back into the graph produced by the same runtime route inference used by the UI:
 
 ```json
 { "route": "aries", "save": "9" }
@@ -22,11 +26,13 @@ References point back into existing route data instead of duplicating it:
 { "synthetic": "aries-smoke-rain-asuka-house" }
 ```
 
-If the same `simpleJp` appears more than once, add `"occurrence": 2` (or higher). Sidecar references are validated against the current route files by the unit tests.
+A `save` reference resolves only when that save is actually emitted as a branch node by runtime inference; merely having a raw `セーブN` route step is insufficient. A `step` reference resolves only to graph nodes that runtime inference renders. If the same `simpleJp` is rendered more than once, add a positive integer `"occurrence"`.
+
+The repository tests execute `flowchart.js` directly under Node and build every committed sidecar with the production `buildEnhancedGraph()` path. This keeps repository validation and browser resolution semantics aligned.
 
 ## Synthetic nodes
 
-Synthetic nodes are only for source-verified topology that is genuinely absent from the flat walkthrough:
+Synthetic nodes are only for topology genuinely absent from the flat walkthrough:
 
 ```json
 {
@@ -41,11 +47,19 @@ Synthetic nodes are only for source-verified topology that is genuinely absent f
 }
 ```
 
-`near` is a layout anchor. `jumpTo` is optional; when present, tapping the synthetic node opens the closest actionable point in the normal guide.
+Rules:
+
+- `id` is required and unique across both synthetic nodes and groups.
+- `kind` may be `step`, `detour`, `end`, or `branch`.
+- `near` is required and controls layout.
+- If `route` is supplied, it must match the resolved `near` route.
+- `jumpTo` is optional. When present, both the clickable `routeId` and `stepIndex` come from that single resolved target, including for cross-route jumps.
+- `navigable: false` makes the synthetic node a topology-only annotation. It retains its layout/edge identity but receives no walkthrough `stepIndex` and cannot be clicked into the guide.
+- `rowOffset` and `laneOffset` must be finite numeric values in the supported range.
 
 ## Groups
 
-Use a group when the walkthrough serializes actions whose true game semantics are unordered:
+Use a group when the walkthrough serializes actions whose actual semantics are unordered:
 
 ```json
 {
@@ -60,8 +74,16 @@ Use a group when the walkthrough serializes actions whose true game semantics ar
 }
 ```
 
-The renderer replaces the serialized member chain with one grouped node and reconnects the incoming/outgoing graph edges.
+Groups require at least two concrete `step` references, all from the same route. A supplied group `route` must match that member route. The renderer replaces the serialized member chain with one grouped node and reconnects the incoming/outgoing edges.
+
+## Edges
+
+Each edge has `from`, `to`, optional `label`, and optional `kind`. Supported kinds are `normal`, `detour`, and `unlock`. Entries in `routeLinks` use `unlock`.
+
+A `removeEdges` entry must identify an edge that actually exists after route inference and grouping. Removing a nonexistent edge rejects the whole sidecar instead of silently doing nothing.
 
 ## Failure behavior
 
-Sidecars are enhancement-only. If the file is missing, malformed, uses an unsupported version, or any required reference cannot be resolved, the renderer falls back to the generic inferred chart rather than presenting stale topology as verified.
+Sidecars are enhancement-only. The complete v1 shape is validated before use: supported fields and kinds, reference shapes, route membership, occurrences, numeric offsets, unique IDs, group relationships, navigation targets, and edge operations.
+
+If the file is missing, malformed, uses an unsupported version, fails schema validation, references graph nodes that do not exist, or requests an impossible transformation, the renderer rejects the sidecar as a whole and falls back to the generic inferred chart.

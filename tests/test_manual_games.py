@@ -120,8 +120,13 @@ class SharedGuideShellTests(unittest.TestCase):
             repo_path = Path(td)
             template = repo_path / "guide_stub.html"
             template.write_text(
-                '<link rel="stylesheet" href="../style.css">\n'
-                '<script src="../guide-app.js"></script>\n',
+                '<script>window.__guideAssetVersion=Date.now();'
+                'const l=document.createElement("link");l.rel="stylesheet";'
+                'l.href="../style.css?v="+window.__guideAssetVersion;'
+                'document.head.appendChild(l);</script>\n'
+                '<script>const s=document.createElement("script");'
+                's.src="../guide-app.js?v="+window.__guideAssetVersion;'
+                'document.body.appendChild(s);</script>\n',
                 encoding="utf-8",
             )
 

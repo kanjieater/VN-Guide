@@ -169,7 +169,41 @@
     svg.appendChild(path);
   }
 
-  function renderNode(svg, node, onNavigate) {
+  function progressValue(progressMap, routeId) {
+    if (!progressMap || !routeId) return null;
+    const value = progressMap[routeId];
+    return Number.isInteger(value) ? value : null;
+  }
+
+  function nodeProgressState(node, progressState) {
+    // Sidecar-only synthetic alternatives have navigation coordinates, not
+    // proof that the player actually visited that branch. Keep them neutral
+    // unless a synthetic construct defines explicit progress evidence
+    // (currently groups via seenStepIndex/currentStepIndexes).
+    if (node.synthetic && !Number.isInteger(node.seenStepIndex)) {
+      return { seen: false, current: false, known: false };
+    }
+
+    const seenProgress = progressValue(progressState && progressState.seen, node.routeId);
+    const currentProgress = progressValue(progressState && progressState.current, node.routeId);
+    const seenTarget = Number.isInteger(node.seenStepIndex)
+      ? node.seenStepIndex
+      : node.stepIndex;
+
+    const seen = Number.isInteger(seenTarget)
+      ? (seenTarget < 0 ? seenProgress != null : seenProgress != null && seenProgress >= seenTarget)
+      : false;
+    const currentTargets = Array.isArray(node.currentStepIndexes)
+      ? node.currentStepIndexes
+      : [node.stepIndex];
+    const current = currentTargets.some(stepIndex =>
+      Number.isInteger(stepIndex) && stepIndex >= 0 && currentProgress === stepIndex
+    );
+
+    return { seen, current, known: true };
+  }
+
+  function renderNode(svg, node, onNavigate, progressState) {
     const height = nodeHeight(node);
     const center = nodeCenter(node);
     const x = center.x - NODE_WIDTH / 2;
@@ -178,8 +212,16 @@
       typeof onNavigate === "function" &&
       node.routeId &&
       Number.isInteger(node.stepIndex);
+    const progress = nodeProgressState(node, progressState);
+    const progressClass = !progress.known
+      ? " flow-node-neutral"
+      : progress.current
+        ? " flow-node-current"
+        : progress.seen
+          ? " flow-node-seen"
+          : " flow-node-unseen";
     const group = el("g", {
-      class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}`,
+      class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}${progressClass}`,
       transform: `translate(${x} ${y})`,
       ...(navigable ? {
         role: "link",
@@ -270,24 +312,219 @@
     svg.appendChild(group);
   }
 
+  const SIDECAR_TOP_LEVEL_KEYS = new Set([
+    "version", "title", "syntheticNodes", "groups", "addEdges", "removeEdges", "routeLinks",
+  ]);
+  const SYNTHETIC_KINDS = new Set(["step", "detour", "end", "branch"]);
+  const EDGE_KINDS = new Set(["normal", "detour", "unlock"]);
+
+  function isPlainObject(value) {
+    return !!value && typeof value === "object" && !Array.isArray(value);
+  }
+
+  function own(value, key) {
+    return Object.prototype.hasOwnProperty.call(value, key);
+  }
+
+  function requireAllowedKeys(value, allowed, context) {
+    const extra = Object.keys(value).filter(key => !allowed.has(key));
+    if (extra.length) {
+      throw new Error(`${context} has unsupported field(s): ${extra.join(", ")}`);
+    }
+  }
+
+  function requireNonEmptyString(value, context) {
+    if (typeof value !== "string" || !value.trim()) {
+      throw new Error(`${context} must be a non-empty string`);
+    }
+  }
+
+  function validateOffset(value, context) {
+    if (value == null) return;
+    if (typeof value !== "number" || !Number.isFinite(value) || Math.abs(value) > 1000) {
+      throw new Error(`${context} must be a finite number between -1000 and 1000`);
+    }
+  }
+
+  function validateRefShape(ref, routeIds, sidecarIds, context) {
+    if (!isPlainObject(ref)) throw new Error(`${context} must be an object`);
+
+    if (own(ref, "synthetic")) {
+      requireAllowedKeys(ref, new Set(["synthetic"]), context);
+      requireNonEmptyString(ref.synthetic, `${context}.synthetic`);
+      if (!sidecarIds.has(ref.synthetic)) {
+        throw new Error(`${context} references unknown sidecar node ${ref.synthetic}`);
+      }
+      return;
+    }
+
+    requireAllowedKeys(ref, new Set(["route", "start", "save", "step"]), context);
+    requireNonEmptyString(ref.route, `${context}.route`);
+    if (!routeIds.has(ref.route)) throw new Error(`${context} references unknown route ${ref.route}`);
+
+    const hasStart = own(ref, "start");
+    const hasSave = own(ref, "save");
+    const hasStep = own(ref, "step");
+    if (Number(hasStart) + Number(hasSave) + Number(hasStep) !== 1) {
+      throw new Error(`${context} must select exactly one of start, save, or step`);
+    }
+
+    if (hasStart) {
+      if (ref.start !== true) throw new Error(`${context}.start must be true`);
+      return;
+    }
+
+    if (hasSave) {
+      const slot = String(ref.save);
+      if (!/^[0-9０-９]+$/.test(slot)) throw new Error(`${context}.save must be a save-slot number`);
+      return;
+    }
+
+    if (!isPlainObject(ref.step)) throw new Error(`${context}.step must be an object`);
+    requireAllowedKeys(ref.step, new Set(["simpleJp", "occurrence"]), `${context}.step`);
+    requireNonEmptyString(ref.step.simpleJp, `${context}.step.simpleJp`);
+    if (own(ref.step, "occurrence")) {
+      if (!Number.isInteger(ref.step.occurrence) || ref.step.occurrence < 1) {
+        throw new Error(`${context}.step.occurrence must be a positive integer`);
+      }
+    }
+  }
+
+  function validateEdge(edge, routeIds, sidecarIds, context, routeLink) {
+    if (!isPlainObject(edge)) throw new Error(`${context} must be an object`);
+    requireAllowedKeys(edge, new Set(["from", "to", "kind", "label"]), context);
+    validateRefShape(edge.from, routeIds, sidecarIds, `${context}.from`);
+    validateRefShape(edge.to, routeIds, sidecarIds, `${context}.to`);
+
+    if (own(edge, "kind")) {
+      if (typeof edge.kind !== "string" || !EDGE_KINDS.has(edge.kind)) {
+        throw new Error(`${context}.kind is unsupported`);
+      }
+      if (routeLink && edge.kind !== "unlock") {
+        throw new Error(`${context}.kind must be unlock for routeLinks`);
+      }
+    }
+    if (own(edge, "label") && typeof edge.label !== "string") {
+      throw new Error(`${context}.label must be a string`);
+    }
+  }
+
+  function validateSidecar(guideData, sidecar) {
+    if (!isPlainObject(sidecar) || sidecar.version !== 1) {
+      throw new Error("Unsupported flowchart sidecar");
+    }
+    requireAllowedKeys(sidecar, SIDECAR_TOP_LEVEL_KEYS, "flowchart sidecar");
+    if (own(sidecar, "title")) requireNonEmptyString(sidecar.title, "flowchart sidecar.title");
+
+    const routes = Array.isArray(guideData.routes) ? guideData.routes : [];
+    const routeIds = new Set(routes.map(route => route && route.id).filter(Boolean));
+    const arrays = ["syntheticNodes", "groups", "addEdges", "removeEdges", "routeLinks"];
+    for (const key of arrays) {
+      if (own(sidecar, key) && !Array.isArray(sidecar[key])) {
+        throw new Error(`flowchart sidecar.${key} must be an array`);
+      }
+    }
+
+    const syntheticNodes = sidecar.syntheticNodes || [];
+    const groups = sidecar.groups || [];
+    const sidecarIds = new Set();
+
+    for (const [index, node] of syntheticNodes.entries()) {
+      const context = `syntheticNodes[${index}]`;
+      if (!isPlainObject(node)) throw new Error(`${context} must be an object`);
+      requireAllowedKeys(
+        node,
+        new Set(["id", "route", "kind", "label", "near", "rowOffset", "laneOffset", "jumpTo", "navigable"]),
+        context
+      );
+      requireNonEmptyString(node.id, `${context}.id`);
+      if (sidecarIds.has(node.id)) throw new Error(`Duplicate sidecar node id: ${node.id}`);
+      sidecarIds.add(node.id);
+    }
+
+    for (const [index, group] of groups.entries()) {
+      const context = `groups[${index}]`;
+      if (!isPlainObject(group)) throw new Error(`${context} must be an object`);
+      requireAllowedKeys(group, new Set(["id", "route", "label", "members"]), context);
+      requireNonEmptyString(group.id, `${context}.id`);
+      if (sidecarIds.has(group.id)) throw new Error(`Duplicate sidecar node id: ${group.id}`);
+      sidecarIds.add(group.id);
+    }
+
+    for (const [index, node] of syntheticNodes.entries()) {
+      const context = `syntheticNodes[${index}]`;
+      requireNonEmptyString(node.label, `${context}.label`);
+      const kind = node.kind || "step";
+      if (!SYNTHETIC_KINDS.has(kind)) throw new Error(`${context}.kind is unsupported`);
+      if (own(node, "route")) {
+        requireNonEmptyString(node.route, `${context}.route`);
+        if (!routeIds.has(node.route)) throw new Error(`${context}.route is unknown`);
+      }
+      validateOffset(node.rowOffset, `${context}.rowOffset`);
+      validateOffset(node.laneOffset, `${context}.laneOffset`);
+      if (own(node, "navigable") && typeof node.navigable !== "boolean") {
+        throw new Error(`${context}.navigable must be a boolean`);
+      }
+      validateRefShape(node.near, routeIds, sidecarIds, `${context}.near`);
+      if (node.jumpTo != null) {
+        validateRefShape(node.jumpTo, routeIds, sidecarIds, `${context}.jumpTo`);
+      }
+    }
+
+    for (const [index, group] of groups.entries()) {
+      const context = `groups[${index}]`;
+      if (own(group, "label")) requireNonEmptyString(group.label, `${context}.label`);
+      if (!Array.isArray(group.members) || group.members.length < 2) {
+        throw new Error(`${context}.members must contain at least two refs`);
+      }
+
+      const memberRoutes = [];
+      for (const [memberIndex, ref] of group.members.entries()) {
+        validateRefShape(ref, routeIds, sidecarIds, `${context}.members[${memberIndex}]`);
+        if (!ref.step) throw new Error(`${context}.members must reference concrete route steps`);
+        memberRoutes.push(ref.route);
+      }
+      const memberRoute = memberRoutes[0];
+      if (memberRoutes.some(routeId => routeId !== memberRoute)) {
+        throw new Error(`${context}.members must all belong to the same route`);
+      }
+      if (own(group, "route")) {
+        requireNonEmptyString(group.route, `${context}.route`);
+        if (group.route !== memberRoute) {
+          throw new Error(`${context}.route must match its member route`);
+        }
+      }
+    }
+
+    for (const [index, edge] of (sidecar.addEdges || []).entries()) {
+      validateEdge(edge, routeIds, sidecarIds, `addEdges[${index}]`, false);
+    }
+    for (const [index, edge] of (sidecar.removeEdges || []).entries()) {
+      validateEdge(edge, routeIds, sidecarIds, `removeEdges[${index}]`, false);
+    }
+    for (const [index, edge] of (sidecar.routeLinks || []).entries()) {
+      validateEdge(edge, routeIds, sidecarIds, `routeLinks[${index}]`, true);
+    }
+
+    return sidecar;
+  }
+
   function resolveRef(graph, ref) {
-    if (!ref || typeof ref !== "object") return null;
-    if (ref.synthetic) {
+    if (own(ref, "synthetic")) {
       return graph.nodes.find(node => node.id === `sidecar-${ref.synthetic}`) || null;
     }
     const routeNodes = graph.nodes.filter(node => node.routeId === ref.route);
     if (ref.start === true) {
       return routeNodes.find(node => node.kind === "route") || null;
     }
-    if (ref.save != null) {
-      return routeNodes.find(node => node.kind === "branch" && String(node.slot) === String(ref.save)) || null;
+    if (own(ref, "save")) {
+      return routeNodes.find(
+        node => node.kind === "branch" && String(node.slot) === String(ref.save)
+      ) || null;
     }
-    if (ref.step && ref.step.simpleJp) {
-      const occurrence = Math.max(1, Number(ref.step.occurrence || 1));
-      const matches = routeNodes.filter(node => node.label === ref.step.simpleJp);
-      return matches[occurrence - 1] || null;
-    }
-    return null;
+    const occurrence = ref.step.occurrence || 1;
+    const matches = routeNodes.filter(node => node.label === ref.step.simpleJp);
+    return matches[occurrence - 1] || null;
   }
 
   function requireRef(graph, ref, context) {
@@ -306,8 +543,59 @@
     });
   }
 
+  function requireContiguousGroup(graph, members, groupId) {
+    const memberIds = new Set(members.map(node => node.id));
+    const internal = graph.edges.filter(edge =>
+      memberIds.has(edge.from) && memberIds.has(edge.to)
+    );
+    const incoming = graph.edges.filter(edge =>
+      memberIds.has(edge.to) && !memberIds.has(edge.from)
+    );
+    const outgoing = graph.edges.filter(edge =>
+      memberIds.has(edge.from) && !memberIds.has(edge.to)
+    );
+
+    if (incoming.length !== 1 || outgoing.length !== 1 ||
+        internal.length !== members.length - 1) {
+      throw new Error(
+        `Group ${groupId} must resolve to one contiguous chain with a single entry and exit`
+      );
+    }
+
+    const inDegree = new Map(members.map(node => [node.id, 0]));
+    const outDegree = new Map(members.map(node => [node.id, 0]));
+    const nextById = new Map();
+    for (const edge of internal) {
+      inDegree.set(edge.to, inDegree.get(edge.to) + 1);
+      outDegree.set(edge.from, outDegree.get(edge.from) + 1);
+      if (nextById.has(edge.from)) {
+        throw new Error(`Group ${groupId} contains an internal branch`);
+      }
+      nextById.set(edge.from, edge.to);
+    }
+
+    const starts = members.filter(node => inDegree.get(node.id) === 0);
+    const ends = members.filter(node => outDegree.get(node.id) === 0);
+    if (starts.length !== 1 || ends.length !== 1 ||
+        incoming[0].to !== starts[0].id || outgoing[0].from !== ends[0].id) {
+      throw new Error(`Group ${groupId} is not a contiguous rendered chain`);
+    }
+
+    const visited = new Set();
+    let cursor = starts[0].id;
+    while (cursor && !visited.has(cursor)) {
+      visited.add(cursor);
+      cursor = nextById.get(cursor) || null;
+    }
+    if (visited.size !== members.length || cursor !== null) {
+      throw new Error(`Group ${groupId} is not a simple contiguous chain`);
+    }
+
+    return { memberIds, incoming, outgoing };
+  }
+
   function buildEnhancedGraph(guideData, sidecar) {
-    if (!sidecar || sidecar.version !== 1) throw new Error("Unsupported flowchart sidecar");
+    validateSidecar(guideData, sidecar);
 
     const nodes = [];
     let edges = [];
@@ -325,57 +613,71 @@
     const graph = { nodes, edges, maxDepth: 0, maxRow: 0, enhanced: true };
 
     for (const synthetic of sidecar.syntheticNodes || []) {
-      if (!synthetic.id || !synthetic.label) throw new Error("Invalid synthetic flowchart node");
       const near = requireRef(graph, synthetic.near, `synthetic ${synthetic.id} near`);
-      const jump = synthetic.jumpTo ? requireRef(graph, synthetic.jumpTo, `synthetic ${synthetic.id} jumpTo`) : null;
+      if (synthetic.route && synthetic.route !== near.routeId) {
+        throw new Error(`Synthetic node ${synthetic.id} route must match its near anchor route`);
+      }
+      const jump = synthetic.jumpTo
+        ? requireRef(graph, synthetic.jumpTo, `synthetic ${synthetic.id} jumpTo`)
+        : near;
       graph.nodes.push({
         id: `sidecar-${synthetic.id}`,
         kind: synthetic.kind || "step",
         label: synthetic.label,
-        routeId: synthetic.route || near.routeId,
-        row: near.row + Number(synthetic.rowOffset || 0),
-        depth: Math.max(0, near.depth + Number(synthetic.laneOffset == null ? 1 : synthetic.laneOffset)),
-        stepIndex: jump ? jump.stepIndex : null,
+        routeId: jump.routeId,
+        row: near.row + (synthetic.rowOffset || 0),
+        depth: Math.max(0, near.depth + (synthetic.laneOffset == null ? 1 : synthetic.laneOffset)),
+        stepIndex: synthetic.navigable === false
+          ? null
+          : (Number.isInteger(jump.stepIndex) ? jump.stepIndex : null),
         synthetic: true,
       });
     }
 
     for (const groupDef of sidecar.groups || []) {
-      if (!groupDef.id || !Array.isArray(groupDef.members) || groupDef.members.length < 2) {
-        throw new Error("Invalid flowchart group");
-      }
       const members = groupDef.members.map((ref, index) =>
         requireRef(graph, ref, `group ${groupDef.id} member ${index + 1}`)
       );
-      const memberIds = new Set(members.map(node => node.id));
-      const incoming = graph.edges.filter(edge => memberIds.has(edge.to) && !memberIds.has(edge.from));
-      const outgoing = graph.edges.filter(edge => memberIds.has(edge.from) && !memberIds.has(edge.to));
+      const routeId = members[0].routeId;
+      if (members.some(node => node.routeId !== routeId)) {
+        throw new Error(`Group ${groupDef.id} resolved across multiple routes`);
+      }
+
+      const { memberIds, incoming, outgoing } =
+        requireContiguousGroup(graph, members, groupDef.id);
       graph.edges = graph.edges.filter(edge => !memberIds.has(edge.from) && !memberIds.has(edge.to));
       graph.nodes = graph.nodes.filter(node => !memberIds.has(node.id));
 
+      const navigationTarget = members[0];
       const groupNode = {
         id: `sidecar-${groupDef.id}`,
         kind: "group",
         label: groupDef.label || "順不同（すべて）",
         items: members.map(node => node.label),
-        routeId: groupDef.route || members[0].routeId,
+        routeId: navigationTarget.routeId,
         row: Math.min(...members.map(node => node.row)),
         depth: Math.min(...members.map(node => node.depth)),
-        stepIndex: members[0].stepIndex,
+        stepIndex: Number.isInteger(navigationTarget.stepIndex) ? navigationTarget.stepIndex : null,
+        seenStepIndex: Math.max(...members.map(node =>
+          Number.isInteger(node.stepIndex) ? node.stepIndex : -1
+        )),
+        currentStepIndexes: members
+          .map(node => node.stepIndex)
+          .filter(Number.isInteger),
         synthetic: true,
       };
       graph.nodes.push(groupNode);
-      incoming.forEach(edge => graph.edges.push({ from: edge.from, to: groupNode.id, kind: edge.kind || "normal" }));
-      outgoing.forEach(edge => graph.edges.push({ from: groupNode.id, to: edge.to, kind: edge.kind || "normal" }));
+      incoming.forEach(edge =>
+        graph.edges.push({ from: edge.from, to: groupNode.id, kind: edge.kind || "normal" })
+      );
+      outgoing.forEach(edge =>
+        graph.edges.push({ from: groupNode.id, to: edge.to, kind: edge.kind || "normal" })
+      );
     }
 
-    const extraEdges = [
-      ...(sidecar.addEdges || []),
-      ...(sidecar.routeLinks || []),
-    ];
-    for (const edgeDef of extraEdges) {
-      const from = requireRef(graph, edgeDef.from, "edge from");
-      const to = requireRef(graph, edgeDef.to, "edge to");
+    for (const edgeDef of sidecar.addEdges || []) {
+      const from = requireRef(graph, edgeDef.from, "add edge from");
+      const to = requireRef(graph, edgeDef.to, "add edge to");
       graph.edges.push({
         from: from.id,
         to: to.id,
@@ -384,10 +686,25 @@
       });
     }
 
+    for (const edgeDef of sidecar.routeLinks || []) {
+      const from = requireRef(graph, edgeDef.from, "route link from");
+      const to = requireRef(graph, edgeDef.to, "route link to");
+      graph.edges.push({
+        from: from.id,
+        to: to.id,
+        kind: edgeDef.kind || "unlock",
+        label: edgeDef.label || "",
+      });
+    }
+
     for (const edgeDef of sidecar.removeEdges || []) {
       const from = requireRef(graph, edgeDef.from, "remove edge from");
       const to = requireRef(graph, edgeDef.to, "remove edge to");
+      const before = graph.edges.length;
       graph.edges = graph.edges.filter(edge => !(edge.from === from.id && edge.to === to.id));
+      if (graph.edges.length === before) {
+        throw new Error(`Flowchart sidecar removeEdges target does not exist: ${from.id} -> ${to.id}`);
+      }
     }
 
     graph.edges = dedupeEdges(graph.edges);
@@ -396,7 +713,7 @@
     return graph;
   }
 
-  function renderGraphSection(titleText, graph, onNavigate, ariaLabel) {
+  function renderGraphSection(titleText, graph, onNavigate, ariaLabel, progressState) {
     const section = document.createElement("section");
     section.className = "flowchart-route";
 
@@ -455,6 +772,16 @@
       zoomReadout.textContent = `${Math.round(scale * 100)}%`;
     }
 
+    function zoomAt(nextScale, clientX) {
+      const rect = scroller.getBoundingClientRect();
+      const localX = Number.isFinite(clientX)
+        ? clientX - rect.left
+        : scroller.clientWidth / 2;
+      const contentX = (scroller.scrollLeft + localX) / scale;
+      applyScale(nextScale);
+      scroller.scrollLeft = Math.max(0, contentX * scale - localX);
+    }
+
     function fitToWidth() {
       const availableWidth = Math.max(1, scroller.clientWidth - 2);
       applyScale(Math.min(1, availableWidth / width));
@@ -463,16 +790,59 @@
 
     zoomOut.addEventListener("click", () => {
       fitMode = false;
-      applyScale(scale / 1.25);
+      zoomAt(scale / 1.25);
     });
     zoomIn.addEventListener("click", () => {
       fitMode = false;
-      applyScale(scale * 1.25);
+      zoomAt(scale * 1.25);
     });
     fit.addEventListener("click", () => {
       fitMode = true;
       fitToWidth();
     });
+
+    scroller.addEventListener("wheel", event => {
+      event.preventDefault();
+      fitMode = false;
+      const factor = Math.exp(-event.deltaY * 0.0015);
+      zoomAt(scale * factor, event.clientX);
+    }, { passive: false });
+
+    let pinchDistance = null;
+
+    function touchDistance(touches) {
+      const dx = touches[0].clientX - touches[1].clientX;
+      const dy = touches[0].clientY - touches[1].clientY;
+      return Math.hypot(dx, dy);
+    }
+
+    function touchMidpointX(touches) {
+      return (touches[0].clientX + touches[1].clientX) / 2;
+    }
+
+    scroller.addEventListener("touchstart", event => {
+      if (event.touches.length !== 2) return;
+      event.preventDefault();
+      fitMode = false;
+      pinchDistance = touchDistance(event.touches);
+    }, { passive: false });
+
+    scroller.addEventListener("touchmove", event => {
+      if (event.touches.length !== 2 || !pinchDistance) return;
+      event.preventDefault();
+      const nextDistance = touchDistance(event.touches);
+      if (nextDistance <= 0) return;
+      zoomAt(scale * (nextDistance / pinchDistance), touchMidpointX(event.touches));
+      pinchDistance = nextDistance;
+    }, { passive: false });
+
+    scroller.addEventListener("touchend", event => {
+      if (event.touches.length < 2) pinchDistance = null;
+    }, { passive: true });
+
+    scroller.addEventListener("touchcancel", () => {
+      pinchDistance = null;
+    }, { passive: true });
 
     const defs = el("defs");
     const marker = el("marker", {
@@ -494,7 +864,7 @@
       const to = byId.get(edge.to);
       if (from && to) renderEdge(svg, from, to, edge.kind);
     });
-    graph.nodes.forEach(node => renderNode(svg, node, onNavigate));
+    graph.nodes.forEach(node => renderNode(svg, node, onNavigate, progressState));
 
     scroller.appendChild(svg);
     section.appendChild(zoomBar);
@@ -515,18 +885,19 @@
     return section;
   }
 
-  function renderRoute(route, onNavigate) {
+  function renderRoute(route, onNavigate, progressState) {
     const graph = buildRouteGraph(route);
     graph.maxRow = graph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
     return renderGraphSection(
       route.title || route.id,
       graph,
       onNavigate,
-      `${route.title || route.id} の自動生成分岐図`
+      `${route.title || route.id} の自動生成分岐図`,
+      progressState
     );
   }
 
-  function render(container, guideData, onNavigate, sidecar) {
+  function render(container, guideData, onNavigate, sidecar, progressState) {
     container.replaceChildren();
 
     let enhancedGraph = null;
@@ -541,13 +912,16 @@
     const note = document.createElement("div");
     note.className = "flowchart-note";
     note.textContent = enhancedGraph
-      ? "既存ルートに検証済みの補足トポロジーを重ねた詳細分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。"
+      ? "既存ルートに補足トポロジーを重ねた詳細分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。"
       : "既存の攻略ルートから自動生成した推定分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。ゲーム内部の全分岐を保証するものではありません。";
     container.appendChild(note);
 
     const legend = document.createElement("div");
     legend.className = "flowchart-legend";
     legend.innerHTML =
+      '<span><i class="flowchart-legend-seen"></i> 既読</span>' +
+      '<span><i class="flowchart-legend-current"></i> 現在位置</span>' +
+      '<span><i class="flowchart-legend-unseen"></i> 未読</span>' +
       '<span><i class="flowchart-legend-branch">?</i> 分岐</span>' +
       '<span><i class="flowchart-legend-end"></i> END</span>' +
       (enhancedGraph
@@ -561,13 +935,14 @@
         sidecar.title || guideData.title || "詳細分岐図",
         enhancedGraph,
         onNavigate,
-        `${guideData.title || "ゲーム"} の詳細分岐図`
+        `${guideData.title || "ゲーム"} の詳細分岐図`,
+        progressState
       ));
       return;
     }
 
     routes.forEach((route, index) => {
-      container.appendChild(renderRoute(route, onNavigate));
+      container.appendChild(renderRoute(route, onNavigate, progressState));
       if (index < routes.length - 1) {
         const next = document.createElement("div");
         next.className = "flowchart-next";
@@ -577,5 +952,11 @@
     });
   }
 
-  window.VNFlowchart = { buildRouteGraph, buildEnhancedGraph, render };
+  window.VNFlowchart = {
+    buildRouteGraph,
+    validateSidecar,
+    buildEnhancedGraph,
+    nodeProgressState,
+    render,
+  };
 })();

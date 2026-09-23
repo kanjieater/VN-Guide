@@ -318,7 +318,7 @@
     "jpGuide1": "原田さんは優しいんですね",
     "jpGuide2": "原田さんは優しいんですね",
     "enGuide": "",
-    "badEndPath": "【風ノ章】BADエンド（スタッフロールあり）"
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "隊士のこと",
@@ -408,8 +408,7 @@
     "simpleJp": "逃げる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "逃げる",
-    "enGuide": "",
-    "badEndPath": "【風ノ章】BADエンド（スタッフロールあり）"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ55にロード",

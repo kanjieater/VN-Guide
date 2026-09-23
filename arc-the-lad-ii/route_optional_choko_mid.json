@@ -8,13 +8,13 @@
   {
     "simpleJp": "時の森を「上→上→上→上」で抜けて墓地へ行く",
     "jpGuide1": "上→上→上→上の順で進むと墓地に出られる",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "操作するキャラをちょこにして、墓地の大きい墓石を調べる",
     "enGuide": "At the cemetery, enter through the trees on the west and inspect the large eastern grave from behind."
   },
   {
     "simpleJp": "トココの村で裏庭の鍵を取り、棒状の墓を調べる",
     "jpGuide1": "裏庭に出る鍵は、左下のほうにあるガラクタの山",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "ちょこの家の左下の物置を調べて鍵を取り、裏口を抜けてシルバの墓を調べる",
     "enGuide": "Return to Choko's house, search the lower-left junk pile for the backyard key, then inspect the stick-shaped grave behind the house."
   },
   {
@@ -32,7 +32,7 @@
   {
     "simpleJp": "墓地では大きな墓だけを通常攻撃で破壊する",
     "jpGuide1": "勝利条件は以前に調べた一つだけ大きな墓を倒す",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "墓地ではまたバトルになるが、光る墓石を破壊して、村を出る",
     "enGuide": "Destroy the single large grave. After the event, leave the Time Forest; the next Choko stage waits until the polar towers are cleared."
   }
 ]

@@ -1,0 +1,13 @@
+{
+  "name": "vn-guide-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:js": "node --test tests-js/*.test.mjs",
+    "coverage:js": "c8 --all --include=guide-app.js --include=flowchart.js --reporter=text --reporter=cobertura --reports-dir=coverage-js node --test tests-js/*.test.mjs"
+  },
+  "devDependencies": {
+    "c8": "10.1.3",
+    "jsdom": "26.1.0"
+  }
+}

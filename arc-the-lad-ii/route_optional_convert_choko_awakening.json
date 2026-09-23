@@ -2,7 +2,7 @@
   {
     "simpleJp": "遺跡ダンジョンB50の大きな玉座を調べる",
     "jpGuide1": "B50にある大きな玉座を調べると、階段が出現",
-    "jpGuide2": "B50Fの椅子に座っている巨大なしかばね",
+    "jpGuide2": "50Fの玉座の下に隠された深層",
     "enGuide": "Converted Arc I Choko data only. If the stairway does not appear, this continuation is unavailable on the current save."
   },
   {
@@ -20,7 +20,7 @@
   {
     "simpleJp": "アクラを倒し「かくせい」「ヴァニッシュ」を修得する",
     "jpGuide1": "「かくせい」「ヴァニッシュ」の特殊能力を修得",
-    "jpGuide2": "覚醒イベントをこなし、かくせい使用",
+    "jpGuide2": "「ヴァニッシュ」　『ちょこ覚醒イベント』終了時に習得",
     "enGuide": "This completes Choko's full conversion-only awakening route."
   }
 ]

@@ -12,15 +12,15 @@
     "enGuide": "Poco joins during the castle-ruins sequence; use the Leaf Orb after the underground event."
   },
   {
-    "simpleJp": "パレンシア到着直後の露店を確認する",
+    "simpleJp": "パレンシア到着後、早めに露店を確認する",
     "jpGuide1": "ここに来た時点のみ、「ローブ」などを売っている露店が開店。",
     "jpGuide2": "エルク・ポコ編中で酒場から出入りすることで開店する",
-    "enGuide": "This shop is temporary. Buy anything you want now before changing maps."
+    "enGuide": "Check the robe stall immediately. Set A says it is initial-arrival-only; Set B says it can reopen when leaving the bar during this segment, so the exact availability is disputed."
   },
   {
     "simpleJp": "パレンシアタワー地下を突破する",
     "jpGuide1": "右下のほうから地下へ。扉をスイッチで開きながら進む。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "すぐ右の通路を通って地下へ",
     "enGuide": "Progress through the underground tower and finish Elk/Poco's segment."
   }
 ]

@@ -135,7 +135,7 @@
   },
   "game:arc-the-lad-ii": {
     "slug": "arc-the-lad-ii",
-    "has_guide": false,
+    "has_guide": true,
     "title": "Arc the Lad II",
     "alttitle": "アークザラッドⅡ",
     "cover_url": "https://blog.ja.playstation.com/tachyon/sites/7/2018/10/20181029-psclassic-1-04.png",

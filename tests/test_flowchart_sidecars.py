@@ -21,12 +21,19 @@ process.stdin.on("end", () => {
   try {
     const payload = JSON.parse(input);
     const graph = window.VNFlowchart.buildEnhancedGraph(payload.guide, payload.sidecar);
+    const progress = payload.progressNodeId
+      ? window.VNFlowchart.nodeProgressState(
+          graph.nodes.find(node => node.id === payload.progressNodeId),
+          payload.progressState || {}
+        )
+      : null;
     process.stdout.write(JSON.stringify({
       ok: true,
       nodes: graph.nodes,
       edges: graph.edges,
       maxDepth: graph.maxDepth,
       maxRow: graph.maxRow,
+      progress,
     }));
   } catch (error) {
     process.stdout.write(JSON.stringify({
@@ -48,10 +55,20 @@ def load_game_payload(game_dir: Path):
     return guide, sidecar
 
 
-def run_runtime(guide: dict, sidecar: dict):
+def run_runtime(
+    guide: dict,
+    sidecar: dict,
+    progress_node_id: str | None = None,
+    progress_state: dict | None = None,
+):
+    payload = {"guide": guide, "sidecar": sidecar}
+    if progress_node_id is not None:
+        payload["progressNodeId"] = progress_node_id
+        payload["progressState"] = progress_state or {}
+
     result = subprocess.run(
         ["node", "-e", NODE_RUNNER, str(FLOWCHART)],
-        input=json.dumps({"guide": guide, "sidecar": sidecar}, ensure_ascii=False),
+        input=json.dumps(payload, ensure_ascii=False),
         text=True,
         capture_output=True,
         check=True,
@@ -206,6 +223,78 @@ class FlowchartSidecarTests(unittest.TestCase):
         self.assertEqual(node["routeId"], "b")
         self.assertEqual(node["stepIndex"], 1)
 
+    def test_synthetic_node_progress_is_neutral_without_explicit_visit_identity(self):
+        guide = {
+            "routes": [
+                {
+                    "id": "a",
+                    "title": "A",
+                    "steps": [
+                        {"simpleJp": "A1"},
+                        {"simpleJp": "A2"},
+                        {"simpleJp": "A3"},
+                    ],
+                }
+            ]
+        }
+        sidecar = {
+            "version": 1,
+            "syntheticNodes": [
+                {
+                    "id": "alt",
+                    "label": "Alternate",
+                    "near": {"route": "a", "step": {"simpleJp": "A1"}},
+                    "jumpTo": {"route": "a", "step": {"simpleJp": "A2"}},
+                }
+            ],
+        }
+        result = run_runtime(
+            guide,
+            sidecar,
+            "sidecar-alt",
+            {"seen": {"a": 2}, "current": {"a": 1}},
+        )
+        self.assertTrue(result["ok"], result.get("error"))
+        self.assertEqual(
+            result["progress"],
+            {"seen": False, "current": False, "known": False},
+        )
+
+    def test_runtime_rejects_non_contiguous_group_members(self):
+        guide = {
+            "routes": [
+                {
+                    "id": "a",
+                    "title": "A",
+                    "steps": [
+                        {"simpleJp": "A"},
+                        {"simpleJp": "M1"},
+                        {"simpleJp": "X"},
+                        {"simpleJp": "M2"},
+                        {"simpleJp": "Y"},
+                        {"simpleJp": "M3"},
+                        {"simpleJp": "Z"},
+                    ],
+                }
+            ]
+        }
+        sidecar = {
+            "version": 1,
+            "groups": [
+                {
+                    "id": "bad-group",
+                    "members": [
+                        {"route": "a", "step": {"simpleJp": "M1"}},
+                        {"route": "a", "step": {"simpleJp": "M2"}},
+                        {"route": "a", "step": {"simpleJp": "M3"}},
+                    ],
+                }
+            ],
+        }
+        result = run_runtime(guide, sidecar)
+        self.assertFalse(result["ok"])
+        self.assertIn("contiguous", result["error"])
+
     def test_himawari_sidecar_captures_non_flat_topology(self):
         guide, sidecar = load_game_payload(ROOT / "himawari")
         result = run_runtime(guide, sidecar)
@@ -236,7 +325,11 @@ class FlowchartSidecarTests(unittest.TestCase):
         }
 
         self.assertIn(("STORY", "2048-2050", "unlock"), edge_labels)
-        self.assertIn(("クリア後", "Tips", "normal"), edge_labels)
+        self.assertIn(("【アリエス】END", "Tips", "unlock"), edge_labels)
+        self.assertIn(("【星乃 明香里】END", "Tips", "unlock"), edge_labels)
+        self.assertIn(("【アクア】END", "Tips", "unlock"), edge_labels)
+        self.assertIn(("【西園寺明香】END", "Tips", "unlock"), edge_labels)
+        self.assertNotIn(("クリア後", "Tips", "normal"), edge_labels)
         self.assertNotIn(("かげろう", "2048-2050", "normal"), edge_labels)
         self.assertNotIn(("2048-2050", "Tips", "normal"), edge_labels)
 

@@ -37,12 +37,13 @@ Before writing any route:
 3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id (for the local runner, `GUIDE_TARGET_VID` must equal this game's VNDB id). Never reuse a caller target for another pending game.
 4. Persist the resolved target—repository, caller, or default—to `games.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
 5. Identify two independent Japanese verification sets as defined in `.claude/guide-standards.md`.
-6. Verify both are directly inspectable and apply to the **exact target release**; document version differences.
-7. Verify both collectively cover every main-route-defining decision, prerequisite/unlock, and route/main ending used by the guide.
-8. Ensure the research/overall guide plan enumerates every route in recommended order.
-9. Copy the exact target into `research.json.guide_target` and record every source/set component and its coverage.
-10. For a new/updated game registration, look up and persist a directly verified cover for the exact target edition/platform; document a failed lookup if none is available.
-11. If the gate cannot be satisfied, stop after research and document the blocker.
+6. For an explicitly opted-in non-VN walkthrough, check the game supplement **before failing the source gate**. If it contains a repository-owner-approved title-scoped exception, verify its approval provenance and exact enumerated fact scope; the author must not create or broaden that approval.
+7. Verify both Japanese sets are directly inspectable and apply to the **exact target release**; document version differences. For a valid exception-covered fact only, retain the strongest available Japanese evidence and the supplement-approved supplemental source role instead of pretending the missing Japanese lane exists.
+8. Verify both sets collectively cover every normally gated main-route/material fact. For opted-in non-VN guides this includes section/order progression, required story progression, irreversible choices, prerequisites/unlocks, endings, timing-critical optional content, and missable/limited or unique-reward conditions presented as required for completion. Only exact facts enumerated by a valid owner exception may depart from two-set coverage.
+9. Ensure the research/overall guide plan enumerates every route in recommended order.
+10. Copy the exact target into `research.json.guide_target` and record every source/set component and its coverage; when an exception exists, also record its approval provenance and exact scope in the supplement/research notes.
+11. For a new/updated game registration, look up and persist a directly verified cover for the exact target edition/platform; document a failed lookup if none is available.
+12. If the gate cannot be satisfied for any non-exception fact, stop after research and document the blocker.
 
 Do not count inaccessible pages, translations, or derivatives as an independent primary set.
 
@@ -52,13 +53,14 @@ Before submitting the **current route**, confirm:
 
 - The current route is complete from its entry through every in-scope documented non-main ending detour and its route/main ending.
 - Every ending represented in the current route is reachable following the guide.
-- Main-route-defining decisions, prerequisites/unlocks, and route/main ending conditions are independently supported by both Japanese verification sets.
+- Main-route-defining decisions, prerequisites/unlocks, and route/main ending conditions are independently supported by both Japanese verification sets, except an exact fact explicitly covered by a valid owner-approved title-scoped exception.
 - Optional non-main ending detours (bad, normal, alternate, or similarly labeled endings) documented by one primary set are retained when the other set is silent/non-contradictory; contradictory ending evidence is reconciled before generation.
 - Every save is explicitly documented by at least one primary set.
 - If sources disagree on save position, the earlier documented position is used.
-- Every emitted player-action `simpleJp` is exact in-game text and follows the canonical step-shape rules.
+- For normal VNs, every emitted player-action `simpleJp` is exact in-game text and save/load are the only normal non-choice steps. For an explicitly opted-in non-VN walkthrough, use the canonical game-walkthrough `simpleJp` rules: literal choices/menu labels remain exact, while navigation, battle, talk, pickup, preparation, and similar non-choice actions may use concise author-written Japanese.
 - Useful available `enGuide` detail is preserved.
 - Dependencies and prerequisites are correct.
+- For opted-in non-VN guides, every material progression fact defined by the canonical game-walkthrough source-coverage rules has the required source support; one-source coverage is reserved for genuinely low-level non-branching execution details unless an exact fact is covered by a valid owner exception.
 - For non-VN linear walkthroughs, every playthrough-ending terminal explicitly establishes the next run before later gameplay continues, unless a source-backed load already does so.
 - Every route character has a directly verified portrait when one exists; a blank portrait is allowed only when research explicitly documents that an actual lookup found no suitable verifiable image.
 - Every documented non-main ending detour represented via `badEndPath` is complete.

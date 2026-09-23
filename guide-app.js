@@ -281,7 +281,7 @@ async function loadFlowchartRenderer() {
   if (!flowchartScriptPromise) {
     flowchartScriptPromise = new Promise((resolve, reject) => {
       const script = document.createElement("script");
-      const v = guideData.generated_at ? encodeURIComponent(guideData.generated_at) : Date.now();
+      const v = window.__guideAssetVersion || Date.now();
       script.src = "../flowchart.js?v=" + v;
       script.onload = resolve;
       script.onerror = () => {

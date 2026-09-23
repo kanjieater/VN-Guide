@@ -19,8 +19,9 @@ class LandingPlayingFilterTests(unittest.TestCase):
     def test_filters_share_one_control_row(self):
         source = LANDING.read_text(encoding="utf-8")
         start = source.index('<div class="control-row">')
-        end = source.index("</div>\n  <br>", start)
+        end = source.index('<input id="search"', start)
         row = source[start:end]
+        self.assertNotIn("<br>", row)
         for button_id in ("btn-recent", "btn-alpha", "btn-all", "btn-playing"):
             self.assertIn(f'id="{button_id}"', row)
 

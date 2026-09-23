@@ -8,6 +8,81 @@ let settings = { blurPortraits: true };
 let pendingNextRoute = null;
 let transitionFromRoute = null;
 
+function mountAppShell() {
+  const app = document.getElementById("app");
+  if (!app) return;
+
+  app.innerHTML = `
+    <div id="view-home" class="view active">
+      <div class="view-header">
+        <a href="../">← 戻る</a>
+        <h3 id="game-title"></h3>
+        <button onclick="showSettings()">⚙</button>
+      </div>
+      <div class="home-content">
+        <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
+        <p id="total-progress"></p>
+        <ul id="route-list"></ul>
+        <div class="guide-meta">
+          <p id="guide-updated"></p>
+          <p id="guide-target"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="view-slide" class="view">
+      <div class="view-header">
+        <button onclick="goHome()">🏠</button>
+        <h3 id="slide-route-title"></h3>
+        <button onclick="showSettings()">⚙</button>
+        <button onclick="showJump()">一覧</button>
+      </div>
+      <div class="step-container">
+        <div id="step-counter"></div>
+        <div id="simple-instruction"></div>
+        <button id="toggle-details" onclick="toggleDetails()">詳細を表示</button>
+        <div id="details-section">
+          <div class="detail-block" id="detail-jp1"></div>
+          <div class="detail-block" id="detail-jp2"></div>
+          <div class="detail-block" id="detail-en"></div>
+          <div class="detail-block bad-end-block" id="detail-bad-end" style="display:none"></div>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <button id="btn-prev" onclick="prevStep()">◀ 前へ</button>
+        <button id="btn-next" onclick="nextStep()" class="primary">次へ ▶</button>
+      </div>
+    </div>
+
+    <div id="view-jump" class="view">
+      <div class="view-header">
+        <button onclick="resumeSlide()">◀ 戻る</button>
+        <h3 id="jump-route-title"></h3>
+      </div>
+      <div id="jump-list-container">
+        <ul id="jump-list"></ul>
+      </div>
+    </div>
+
+    <div id="view-settings" class="view">
+      <div class="view-header">
+        <button onclick="goHome()">◀ 戻る</button>
+        <h3>設定</h3>
+        <div style="width:50px"></div>
+      </div>
+      <div class="settings-body">
+        <div class="setting-row" onclick="toggleSetting('blurPortraits')">
+          <div>
+            <div class="setting-label">キャラクター画像をぼかす</div>
+            <div class="setting-desc">未開始のルートの画像を隠す（ネタバレ防止）</div>
+          </div>
+          <div id="toggle-blurPortraits" class="toggle-pill"></div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 function loadState() {
   try { const s = localStorage.getItem(STORAGE_KEY); if (s) state = JSON.parse(s); } catch {}
 }
@@ -433,5 +508,6 @@ document.addEventListener("visibilitychange", () => {
   }
 });
 
+mountAppShell();
 scheduleViewportSync();
 init();

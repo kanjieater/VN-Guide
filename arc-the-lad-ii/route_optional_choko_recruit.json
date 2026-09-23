@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "未コンバートなら遺跡ダンジョンB50でちょこを倒す",
+    "jpGuide1": "遺跡ダンジョンのB50へ行き、ちょこを倒す。",
+    "jpGuide2": "遺跡ダンジョンをB50Fまで踏破",
+    "enGuide": "Skip this B50 fight if converted Arc I data already contains Choko."
+  },
+  {
+    "simpleJp": "クレニア島の時の森を抜けてトココの村へ行く",
+    "jpGuide1": "左→下→右→上→左→右→上→上",
+    "jpGuide2": "時の森にて正しい抜け方でトココの村に行く必要がある",
+    "enGuide": "Converted Choko can access this much earlier; on a normal file the forest appears after the B50 recruitment condition."
+  },
+  {
+    "simpleJp": "ちょこの家で「はい」を選ぶ",
+    "jpGuide1": "泊まりますか？という質問に「はい」と答えた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Accept the overnight invitation."
+  },
+  {
+    "simpleJp": "ちょこを追い越さず、話しかけながら案内について行く",
+    "jpGuide1": "ちょこに話し掛ければ大抵歩いていくので、それを追いかける",
+    "jpGuide2": "トココの村にてイベントを完遂することで仲間にできる",
+    "enGuide": "Do not run ahead of Choko during the village/forest/cemetery tour. Finishing it recruits her."
+  }
+]

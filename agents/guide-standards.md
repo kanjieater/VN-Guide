@@ -311,7 +311,7 @@ Known dependency in this repo:
 
 - `games.json` → root `index.html` via `tools/generate.mjs::renderLanding()` and `templates/landing.html`.
 - Therefore changes to landing-visible fields such as `slug`, `title`, `alttitle`, `cover_url`, or `has_guide` must also be reflected in the tracked root `index.html`.
-- A browser/repository agent that cannot run `generate.py` must still update the affected embedded landing data equivalently and verify it matches current `games.json`.
+- A browser/repository agent that cannot run `bun run generate` must still update the affected landing data equivalently and verify it matches current `games.json`.
 
 This consistency check is separate from structural/accuracy review. It does not invalidate a route review when only a derived presentation artifact is synchronized to already-approved source data.
 

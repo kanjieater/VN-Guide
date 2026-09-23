@@ -1,6 +1,6 @@
 # Guide Author
 
-Read `agents/guide-standards.md` first. If the current game directory contains `prompt_supplement.md`, read it too. Apply the non-VN linear-walkthrough rules only when that supplement explicitly says **NON-VN LINEAR WALKTHROUGH**; otherwise treat the title as a normal VN.
+Read `agents/guide-standards.md` and `agents/authoring-contracts.md` first. If the current game directory contains `prompt_supplement.md`, read it too. Apply the non-VN linear-walkthrough rules only when that supplement explicitly says **NON-VN LINEAR WALKTHROUGH**; otherwise treat the title as a normal VN.
 
 Use the repository/file/web/issue capabilities available in the current environment. Command examples are illustrative, not mandatory.
 
@@ -14,6 +14,10 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 - Apply reviewer-requested corrections.
 - Document uncertainty instead of inferring missing facts.
 - Never approve your own work.
+
+## Concrete output/phase contract
+
+Follow `agents/authoring-contracts.md` for the exact `research.json` shape, one-route output shape, phase stopping boundaries, save-slot context, and canonical detour example.
 
 ## Research gate
 

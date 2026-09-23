@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "シリア・フライ・片翼の天使の薬草関連会話を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "シリア→雑記帳（よく効く薬）→フライ→片翼の天使\n※どこかでシリアにもう1回会話",
+    "enGuide": "Exhaust the herb-related conversations with Siria, Fry, and the one-winged angel, checking the notebook as the chain updates."
+  },
+  {
+    "simpleJp": "片翼の天使に「紅い」と答える",
+    "jpGuide1": "片翼の天使から「ルオナの花の色は？」と聞かれ「紅い」を選ぶと―\nボーナスシナリオ７　＜神秘の薬草＞",
+    "jpGuide2": "シリア→雑記帳（よく効く薬）→フライ→片翼の天使",
+    "enGuide": "Return to the one-winged angel and answer 「紅い」 when asked the flower's color to trigger Bonus Scenario 7."
+  },
+  {
+    "simpleJp": "BATTLE ?2「神秘の薬草」でクッタを倒す",
+    "jpGuide1": "BATTLE〖クッタを倒せ！〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Defeat Kutta to finish 神秘の薬草."
+  }
+]

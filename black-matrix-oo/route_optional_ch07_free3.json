@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "BS4とBS9を完了した状態でウェイトレスに話しかける",
+    "jpGuide1": "ボーナスシナリオ１１　＜介在する影＞\nウェイトレスさんが「ヨハネさん、また一人で地下通路に入ってったみたいよ」",
+    "jpGuide2": "ウェイトレス\nボーナスシナリオ4・9を見ていること",
+    "enGuide": "With Bonus Scenarios 4 and 9 completed, talk to the waitress to start Bonus Scenario 11."
+  },
+  {
+    "simpleJp": "選択肢「もうちょっと」",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "選択肢「もうちょっと」で戦闘・ダーナの試練",
+    "enGuide": "Choose 「もうちょっと」 to take the Dana Trial battle branch."
+  },
+  {
+    "simpleJp": "BATTLE ?3「ダーナの試練」で敵を全滅させる",
+    "jpGuide1": "BATTLE〖ダーナの試練〗\n敵を全滅させれば良い",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Defeat all enemies. Completing this trial gives the ending-affecting opposing ring, so this clear will use the 'ring held' ending pair."
+  }
+]

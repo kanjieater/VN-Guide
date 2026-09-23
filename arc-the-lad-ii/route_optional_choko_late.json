@@ -1,20 +1,14 @@
 [
   {
-    "simpleJp": "時の森を1回上へ抜けて廃墟のトココへ行く",
-    "jpGuide1": "森を一回上に抜けるだけでトココの村（廃墟）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "This final village stage opens after the north/south towers."
+    "simpleJp": "北・南の塔クリア後、時の森から廃墟のトココへ行く",
+    "jpGuide1": "北極・南極をクリアするぐらいまでストーリーを進めると、村に帰ることができる。",
+    "jpGuide2": "アンデルを倒してから再び村へ行く。",
+    "enGuide": "Return to Tokoko after the polar-tower/Andel sequence; the village is now ruined."
   },
   {
-    "simpleJp": "ちょこの家から出てコープス戦を勝つ",
+    "simpleJp": "廃墟のトココのイベントと戦闘を最後まで終える",
     "jpGuide1": "ちょこの家から出ると、イベント後にコープスと戦闘",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "The dialogue choice 父さま、おかわり！ does not change progression."
-  },
-  {
-    "simpleJp": "クレニア宿屋へ移動するイベントまで見る",
-    "jpGuide1": "クレニアの宿屋へと自動的に移動",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "On a non-converted file, Choko's event chain ends here. Converted files continue in the next optional section."
+    "jpGuide2": "イベントと戦闘をクリアしたら",
+    "enGuide": "Complete the ruined-village event and Corpse battle. Set A then moves the party automatically to the Crenia inn; converted files can continue into the awakening route."
   }
 ]

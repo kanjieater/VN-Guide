@@ -556,6 +556,23 @@ button#toggle-details {
   font-weight: 600;
 }
 
+.flow-node-link {
+  cursor: pointer;
+  outline: none;
+}
+
+.flow-node-link:focus .flow-node-shape {
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .flow-node-link:hover .flow-node-shape {
+    stroke: var(--accent);
+    stroke-width: 2.5;
+  }
+}
+
 .flow-node-route .flow-node-text {
   font-weight: 700;
 }

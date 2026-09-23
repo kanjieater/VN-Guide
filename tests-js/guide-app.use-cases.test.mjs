@@ -1,8 +1,6 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
-import vm from "node:vm";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { test } from "bun:test";
 
 import { JSDOM } from "jsdom";
@@ -11,7 +9,8 @@ import { JSDOM } from "jsdom";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, "..");
 const APP_PATH = resolve(ROOT, "guide-app.js");
-const APP_SOURCE = readFileSync(APP_PATH, "utf8");
+const APP_URL = pathToFileURL(APP_PATH).href;
+let importCounter = 0;
 
 
 function clone(value) {
@@ -43,6 +42,27 @@ function stateKey(pathname) {
 function readState(window, pathname = "/game/") {
   const raw = window.localStorage.getItem(stateKey(pathname));
   return raw ? JSON.parse(raw) : null;
+}
+
+function installBrowserGlobals(window) {
+  const values = {
+    window,
+    document: window.document,
+    navigator: window.navigator,
+    location: window.location,
+    history: window.history,
+    localStorage: window.localStorage,
+    fetch: window.fetch,
+    requestAnimationFrame: window.requestAnimationFrame.bind(window),
+    cancelAnimationFrame: window.cancelAnimationFrame.bind(window),
+  };
+  for (const [name, value] of Object.entries(values)) {
+    Object.defineProperty(globalThis, name, {
+      configurable: true,
+      writable: true,
+      value,
+    });
+  }
 }
 
 
@@ -106,14 +126,15 @@ async function bootApp({
     return response({}, false);
   };
 
-  new vm.Script(APP_SOURCE, { filename: APP_PATH }).runInContext(dom.getInternalVMContext());
+  installBrowserGlobals(window);
+  await import(`${APP_URL}?test=${++importCounter}`);
   await settle();
 
   return { dom, window, fetchCalls };
 }
 
 
-test("reader can start, advance, reload, finish, and backtrack through a route transition", async () => {
+test.serial("reader can start, advance, reload, finish, and backtrack through a route transition", async () => {
   const guide = {
     title: "Demo VN",
     generated_at: "2026-09-23T12:00:00Z",
@@ -178,7 +199,7 @@ test("reader can start, advance, reload, finish, and backtrack through a route t
 });
 
 
-test("flowchart exploration is preview-only until the reader explicitly continues", async () => {
+test.serial("flowchart exploration is preview-only until the reader explicitly continues", async () => {
   const guide = {
     title: "Preview VN",
     routes: [
@@ -233,7 +254,7 @@ test("flowchart exploration is preview-only until the reader explicitly continue
 });
 
 
-test("spoiler protection, settings persistence, and linear-game behavior match the reader model", async () => {
+test.serial("spoiler protection, settings persistence, and linear-game behavior match the reader model", async () => {
   const guide = {
     title: "Spoiler VN",
     routes: [
@@ -279,7 +300,7 @@ test("spoiler protection, settings persistence, and linear-game behavior match t
 });
 
 
-test("bad-end instructions remain understandable in both slide and jump-list views", async () => {
+test.serial("bad-end instructions remain understandable in both slide and jump-list views", async () => {
   const guide = {
     title: "Bad End VN",
     routes: [
@@ -331,7 +352,7 @@ test("bad-end instructions remain understandable in both slide and jump-list vie
 });
 
 
-test("failed guide and route fetches leave the user on a recoverable home view", async () => {
+test.serial("failed guide and route fetches leave the user on a recoverable home view", async () => {
   const failedGuide = await bootApp({
     guide: { routes: [] },
     guideFetchOk: false,

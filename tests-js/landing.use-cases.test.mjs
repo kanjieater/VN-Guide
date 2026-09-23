@@ -64,7 +64,12 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
       return {
         ok: true,
         async json() {
-          return { routes: [{ id: "route", stepCount: 4 }] };
+          return {
+            routes: [
+              { id: "route", stepCount: 4 },
+              { id: "other", stepCount: 2 },
+            ],
+          };
         },
       };
     }
@@ -113,6 +118,9 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
     "guide_" + encodedPath.replace(/\//g, "_"),
     JSON.stringify({ progress: { route: 1 } })
   );
+  const twoKey = "guide_" + new URL("./two/", window.location.href).pathname.replace(/\//g, "_");
+  window.localStorage.setItem(twoKey, "{invalid json");
+
   window.document.getElementById("search").value = "";
   window.setFilter("playing");
   await new Promise(resolve => setTimeout(resolve, 0));

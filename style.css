@@ -76,6 +76,7 @@ html, body {
 
 #route-list li button {
   width: 100%;
+  min-height: 88px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;

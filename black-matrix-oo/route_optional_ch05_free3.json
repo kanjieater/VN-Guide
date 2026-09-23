@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "街とサーカスでリリスの絵本に関する会話を一通り聞く",
+    "jpGuide1": "ボーナスシナリオ８　＜リリスの絵本＞",
+    "jpGuide2": "サーカス、街中でリリスの話を聞く→雑記帳（えほんをつくるの）→ダリアさん",
+    "enGuide": "Collect the Lilith-story conversations around town and the circus. FFSKY's fuller order is waiter → Fry → Exal → clown → old man → couple man → couple woman → Exal."
+  },
+  {
+    "simpleJp": "雑記帳「えほんをつくるの」を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "サーカス、街中でリリスの話を聞く→雑記帳（えほんをつくるの）→ダリアさん",
+    "enGuide": "Read the newly unlocked notebook entry 「えほんをつくるの」."
+  },
+  {
+    "simpleJp": "ダリアに話しかける",
+    "jpGuide1": "ボーナスシナリオ８　＜リリスの絵本＞",
+    "jpGuide2": "サーカス、街中でリリスの話を聞く→雑記帳（えほんをつくるの）→ダリアさん",
+    "enGuide": "Talk to Daria to trigger Bonus Scenario 8, リリスの絵本."
+  }
+]

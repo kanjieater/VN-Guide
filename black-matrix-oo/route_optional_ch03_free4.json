@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "宿屋の中年に話しかける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "中年→フライ、プラン→雑記帳（ひとさわぎ）→エクサル",
+    "enGuide": "Talk to the middle-aged man at the inn."
+  },
+  {
+    "simpleJp": "フライとプランに話しかける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "中年→フライ、プラン→雑記帳（ひとさわぎ）→エクサル",
+    "enGuide": "Talk to Fry and Plan at the circus."
+  },
+  {
+    "simpleJp": "雑記帳「ひとさわぎ」を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "中年→フライ、プラン→雑記帳（ひとさわぎ）→エクサル",
+    "enGuide": "Check the new notebook entry 「ひとさわぎ」."
+  },
+  {
+    "simpleJp": "エクサルに話しかける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "中年→フライ、プラン→雑記帳（ひとさわぎ）→エクサル",
+    "enGuide": "Talk to Exal to enter Bonus Scenario 3, アベル."
+  },
+  {
+    "simpleJp": "BATTLE ?1「問答無用」で敵を全滅させる",
+    "jpGuide1": "BATTLE〖問答無用〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Defeat all enemies. This optional fight is notably stronger than the surrounding battles, so prepare healing items and equipment before triggering it."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "ダリアとシリアに話しかける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "雑記帳（うさばらし）→シリア",
+    "enGuide": "Talk to Daria and Siria before checking the notebook; this is the fuller FFSKY trigger sequence."
+  },
+  {
+    "simpleJp": "雑記帳「うさばらし」を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "雑記帳（うさばらし）→シリア",
+    "enGuide": "Read the notebook entry 「うさばらし」."
+  },
+  {
+    "simpleJp": "シリアに話しかけて最初の選択肢を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "雑記帳（うさばらし）→シリア",
+    "enGuide": "Return to Siria and choose the first option to trigger Bonus Scenario 13, 秘密の特訓."
+  }
+]

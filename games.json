@@ -119,5 +119,18 @@
       "platform": "Windows PC",
       "url": "https://www.keroq.co.jp/product/nijuu/top.htm"
     }
+  },
+  "game:black-matrix-oo": {
+    "slug": "black-matrix-oo",
+    "has_guide": true,
+    "title": "BLACK/MATRIX OO",
+    "alttitle": "ブラックマトリクス ダブルオー",
+    "cover_url": "",
+    "added_at": "2026-09-22T21:21:00+00:00",
+    "guide_target": {
+      "label": "BLACK/MATRIX OO（2004年オリジナル版）",
+      "platform": "PlayStation",
+      "url": "https://www.gavas.jp/products/detail.php?product_id=9492"
+    }
   }
 }

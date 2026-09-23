@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "BATTLE 2-2「乙女の一徹」をクリア",
+    "jpGuide1": "BATTLE〖乙女の一徹〗",
+    "jpGuide2": "2-2「乙女の一徹」",
+    "enGuide": "Defeat Stayen. Watch the apprentice priest's long-range item healing."
+  },
+  {
+    "simpleJp": "BATTLE 2-3「悪魔討伐部隊」を5ターン耐える",
+    "jpGuide1": "BATTLE〖悪魔討伐部隊〗\nクレイスには手を出さず、誰も戦闘不能にならないように5ターン耐えろ！",
+    "jpGuide2": "2-3「悪魔討伐部隊」",
+    "enGuide": "Survive 5 turns. Avoid engaging Kreis and keep everyone alive."
+  },
+  {
+    "simpleJp": "BATTLE 2-4「闇にうごめく者」で敵を全滅させる",
+    "jpGuide1": "BATTLE〖闇にうごめく者〗\nこの変な奴らを全部倒せばいい",
+    "jpGuide2": "2-4「闇にうごめく者」",
+    "enGuide": "Defeat all enemies. Their attack power is high and several use bows, so watch party HP."
+  },
+  {
+    "simpleJp": "BATTLE 2-5「黒き翼のアベル」でアラギを倒す",
+    "jpGuide1": "BATTLE〖黒き翼のアベル〗\n目的は、アベルではなくアラギを倒すこと",
+    "jpGuide2": "2-5「黒き翼のアベル」",
+    "enGuide": "Defeat Aragi. When the boss activates a Pain Ring, nearby demons can make powerful ranged attacks. The ring 「ささやく精霊」 also carries useful healing magic worth learning."
+  }
+]

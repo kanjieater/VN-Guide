@@ -39,6 +39,7 @@ To avoid repeatedly rediscovering the same dead ends, keep these source roles fi
 - **Blocked FC2 search snippets are leads only.** Do not treat snippets as inspected evidence.
 - **The 2004 攻略スレ, BLUE MATRIX lead, official-guide interiors, mirrors, and caches are recovery leads only.** Do not spend another pass broadly rediscovering these same leads. Retry one only when a concrete directly inspectable URL/page/scan has been found.
 - **The exact 2004攻略 thread is now identified:** `http://game9.2ch.net/test/read.cgi/gameover/1086009241/` (`gameover`, not `gamesrpg`). Generic mirror/cache recovery has already been attempted without directly inspectable trigger text. Do not search the wrong board or repeat broad mirror sweeps; revisit only if a concrete surviving copy is discovered.
+- **Next-source priority is the independent NicoNico gameplay series `mylist/38903044`.** Chapter 3/4/7/9 parts are mapped in `research.json`. Do not promote metadata alone; directly watch the relevant free-action sequence and record the visible trigger actions/timing. If the current environment cannot play NicoNico, leave this as a handoff rather than restarting exhausted Wazap/mirror/official-guide searches.
 
 The unresolved research task is therefore **Japanese corroboration, not gameplay discovery**. The operational trigger chains are already known from supplemental sources; research should target only the exact Japanese facts still listed as open in `research.json`.
 

@@ -27,6 +27,12 @@ process.stdin.on("end", () => {
           payload.progressState || {}
         )
       : null;
+    const derivedCurrent = payload.progressMap
+      ? window.VNFlowchart.deriveCurrentProgress(
+          payload.guide.routes || [],
+          payload.progressMap
+        )
+      : null;
     process.stdout.write(JSON.stringify({
       ok: true,
       nodes: graph.nodes,
@@ -34,6 +40,7 @@ process.stdin.on("end", () => {
       maxDepth: graph.maxDepth,
       maxRow: graph.maxRow,
       progress,
+      derivedCurrent,
     }));
   } catch (error) {
     process.stdout.write(JSON.stringify({
@@ -60,11 +67,14 @@ def run_runtime(
     sidecar: dict,
     progress_node_id: str | None = None,
     progress_state: dict | None = None,
+    progress_map: dict | None = None,
 ):
     payload = {"guide": guide, "sidecar": sidecar}
     if progress_node_id is not None:
         payload["progressNodeId"] = progress_node_id
         payload["progressState"] = progress_state or {}
+    if progress_map is not None:
+        payload["progressMap"] = progress_map
 
     result = subprocess.run(
         ["node", "-e", NODE_RUNNER, str(FLOWCHART)],
@@ -320,6 +330,50 @@ class FlowchartSidecarTests(unittest.TestCase):
         result = run_runtime(guide, sidecar)
         self.assertFalse(result["ok"])
         self.assertIn("contiguous", result["error"])
+
+    def test_completed_route_moves_current_marker_to_next_route_start(self):
+        guide = {
+            "routes": [
+                {
+                    "id": "a",
+                    "title": "A",
+                    "steps": [{"simpleJp": "A1"}, {"simpleJp": "A2"}],
+                },
+                {
+                    "id": "b",
+                    "title": "B",
+                    "steps": [{"simpleJp": "B1"}, {"simpleJp": "B2"}],
+                },
+            ]
+        }
+        result = run_runtime(guide, {"version": 1}, progress_map={"a": 1})
+        self.assertTrue(result["ok"], result.get("error"))
+        self.assertEqual(result["derivedCurrent"], {"b": -1})
+
+        start = run_runtime(
+            guide,
+            {"version": 1},
+            progress_node_id="b-0",
+            progress_state={"current": {"b": -1}},
+        )
+        self.assertEqual(
+            start["progress"],
+            {"seen": False, "current": True, "known": True},
+        )
+
+    def test_all_routes_complete_leaves_no_current_marker(self):
+        guide = {
+            "routes": [
+                {
+                    "id": "a",
+                    "title": "A",
+                    "steps": [{"simpleJp": "A1"}, {"simpleJp": "A2"}],
+                }
+            ]
+        }
+        result = run_runtime(guide, {"version": 1}, progress_map={"a": 1})
+        self.assertTrue(result["ok"], result.get("error"))
+        self.assertEqual(result["derivedCurrent"], {})
 
     def test_himawari_sidecar_captures_non_flat_topology(self):
         guide, sidecar = load_game_payload(ROOT / "himawari")

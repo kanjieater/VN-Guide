@@ -21,13 +21,13 @@
     "simpleJp": "G#49「あぶない薬」を完了する",
     "jpGuide1": "テュケの洞窟の右側の部屋にいるリヴァイアサンを倒せばクリア。",
     "jpGuide2": "G#49　あぶない薬　ピラミッド外観戦終了で発生",
-    "enGuide": "This is the reason for the structural split: it only appears after the Pyramid exterior battle."
+    "enGuide": "Complete G#49 now, immediately after the Pyramid exterior battle, before resuming the Pyramid."
   },
   {
     "simpleJp": "G#10「面接試験有、山賊お断り」を完了する",
     "jpGuide1": "テュケの洞窟にいるピエール・ベロニカに話し、アルディア橋に戻って報告するとクリア。",
     "jpGuide2": "G#10　面接試験有、山賊お断り",
-    "enGuide": "Your earlier G#06 + G#18 great-success results unlock this. At Aldia Bridge answer そうでもねえよ, then finish the Tuke Cave dragon lead and report back."
+    "enGuide": "Complete G#10 now after preserving the earlier G#06 and G#18 results. At Aldia Bridge answer そうでもねえよ, finish the Tuke Cave dragon lead, and report back."
   },
   {
     "simpleJp": "カナラ砂漠でダリウスを討伐する",
@@ -144,9 +144,9 @@
     "enGuide": "Clear the other regular Alibarsha FBA target. Maios is deferred to the sealed-ruin chain later."
   },
   {
-    "simpleJp": "未清算の期限付きギルド仕事をすべて清算する",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "未清算の期限付きギルド仕事をここで一括確認する",
+    "jpGuide1": "全てのギルド仕事は大成功させる。",
     "jpGuide2": "紋次編が急展開を迎えると…殆どの仕事ができなくなる",
-    "enGuide": "Audit the guild lists now. After the Monji escalation, most outstanding accepted jobs are forcibly abandoned."
+    "enGuide": "Use this as a conservative audit point before the Monji/Palencia sequence. Set B records a broad job lockout once that arc accelerates."
   }
 ]

@@ -1,0 +1,98 @@
+[
+  {
+    "simpleJp": "未加入ならラマダ寺の修行でヘモジーを仲間にする",
+    "jpGuide1": "ハイスコアを出すと、アーク1で「ヘモジー」を仲間にしていない又はコンバートしていない場合は「ヘモジー」が仲間になる。",
+    "jpGuide2": "ラマダ寺の「修行」で好成績を収める",
+    "enGuide": "Skip this if Hemojii already carried over through conversion."
+  },
+  {
+    "simpleJp": "水の神殿でフウジンを仲間にする",
+    "jpGuide1": "「フウジン」：水の神殿",
+    "jpGuide2": "初訪問時に水の精霊との謁見イベントがあり、フウジンが加入する。",
+    "enGuide": "Clear the battle and meet the Water Spirit."
+  },
+  {
+    "simpleJp": "アゼンダ高地でライジンを仲間にする",
+    "jpGuide1": "「ライジン」：アゼンダ高地",
+    "jpGuide2": "アゼンダ高地の奥へ行くと仲間にできる。",
+    "enGuide": "Clear the area and meet the Light Spirit."
+  },
+  {
+    "simpleJp": "チョンガラの店でオドンを仲間にする",
+    "jpGuide1": "「オドン」：チョンガラの店",
+    "jpGuide2": "アララトスにある「チョンガラの店」に入る",
+    "enGuide": "Simply entering the shop after world travel opens adds Odon."
+  },
+  {
+    "simpleJp": "G#17「モンスターを殺してください」をすぐ大成功で完了する",
+    "jpGuide1": "モンスターを殺してください",
+    "jpGuide2": "G#17は…大成功には速やかな解決が求められる。",
+    "enGuide": "Prioritize this before starting the next country arc; its best result depends on prompt completion."
+  },
+  {
+    "simpleJp": "G#18「私をインディゴスに連れてって」を大成功で完了する",
+    "jpGuide1": "私をインディゴスに連れてって",
+    "jpGuide2": "大成功　3500G　6GP　「斧使い」マーグを撃破する",
+    "enGuide": "Defeat Marg. Great success is required for later G#10."
+  },
+  {
+    "simpleJp": "G#19「辻斬り御用」を完了する",
+    "jpGuide1": "辻斬り御用",
+    "jpGuide2": "G#19　辻斬り御用",
+    "enGuide": "Appears after G#18 finishes."
+  },
+  {
+    "simpleJp": "G#09「続・インディゴス宝石強盗団」を完了する",
+    "jpGuide1": "続・インディゴス宝石団",
+    "jpGuide2": "G#09　続・インディゴス宝石強盗団",
+    "enGuide": "Your earlier G#03 result should satisfy its prerequisite."
+  },
+  {
+    "simpleJp": "G#13「武器ドロボウ退治」を完了する",
+    "jpGuide1": "武器ドロボウ退治",
+    "jpGuide2": "G#13　武器ドロボウ退治",
+    "enGuide": "This also opens the Prodius blacksmith's members-only shop."
+  },
+  {
+    "simpleJp": "G#20「先祖の宝捜しを手伝って！」を完了する",
+    "jpGuide1": "先祖の宝捜しを手伝って！",
+    "jpGuide2": "G#20　先祖の宝捜しを手伝って！",
+    "enGuide": "Start the Palencia chain."
+  },
+  {
+    "simpleJp": "G#21「先祖の宝捜し　その後」を完了する",
+    "jpGuide1": "先祖の宝捜し　その後",
+    "jpGuide2": "G#21　先祖の宝捜し　その後",
+    "enGuide": "Requires G#20."
+  },
+  {
+    "simpleJp": "G#22「父さんの仇討ちの助太刀をして」を完了する",
+    "jpGuide1": "父さんの仇討ちの助太刀をして",
+    "jpGuide2": "G#22　父さんの仇討ちの助太刀をして",
+    "enGuide": "Requires G#21."
+  },
+  {
+    "simpleJp": "G#33「家を探してます」を完了する",
+    "jpGuide1": "家を探してます",
+    "jpGuide2": "G#33　家を探してます",
+    "enGuide": "Now that world travel is open, its out-of-country objective is practical to finish."
+  },
+  {
+    "simpleJp": "G#34「愛の告白、僕に勇気を下さい！」を完了する",
+    "jpGuide1": "愛の告白、僕に勇気を下さい！",
+    "jpGuide2": "G#34　愛の告白、僕に勇気を下さい！",
+    "enGuide": "Choose to accept the request and defeat Yomi's Messenger at Anan Plateau; this clears that bounty too."
+  },
+  {
+    "simpleJp": "G#50「砂漠の盗賊団を撃退してくれ」を完了する",
+    "jpGuide1": "砂漠の盗賊団を撃退してくれ",
+    "jpGuide2": "G#50　砂漠の盗賊団を撃退してくれ",
+    "enGuide": "Start this Elzark chain well before the Past arc cutoff."
+  },
+  {
+    "simpleJp": "G#51「続・砂漠の盗賊団」を完了する",
+    "jpGuide1": "続・砂漠の盗賊団",
+    "jpGuide2": "G#51　続・砂漠の盗賊団",
+    "enGuide": "Requires G#50 and also clears the wanted target Zanac during the fight."
+  }
+]

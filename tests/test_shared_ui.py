@@ -12,7 +12,7 @@ class SharedGuideUiTests(unittest.TestCase):
         source = APP.read_text(encoding="utf-8")
         self.assertIn("function mountAppShell()", source)
         for view_id in ("view-home", "view-slide", "view-jump", "view-settings"):
-            self.assertIn(f'id="${{view_id}}"'.replace("${view_id}", view_id), source)
+            self.assertIn(f'id="{view_id}"', source)
         updated = source.index('id="guide-updated"')
         target = source.index('id="guide-target"')
         self.assertLess(updated, target)

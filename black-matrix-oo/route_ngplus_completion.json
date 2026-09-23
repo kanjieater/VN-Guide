@@ -1,0 +1,92 @@
+[
+  {
+    "simpleJp": "クリアデータを引き継いで2周目以降を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "習得済みのスキル、習得中のスキルの経験値が引き継がれる。\nサーカスのミニゲームの結果が引き継がれる。\nクリアボーナスのペインリングが最初から使える。",
+    "enGuide": "Start New Game+ from clear data. Learned skill progress, circus minigame results, and clear-bonus Pain Rings carry over."
+  },
+  {
+    "simpleJp": "対リング所持のクリアでアベルを倒して「旅立ち」を見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ラストバトルで対リングを持ってる場合\n　アベル倒す：『旅立ち』",
+    "enGuide": "On a clear where you completed BS11 and still have the opposing ring, defeat Abel instead of retreating to obtain 「旅立ち」."
+  },
+  {
+    "simpleJp": "BS11を取らない周回でアベルを倒して「彼女は微笑む」を見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ラストバトルでリングを持ってない場合\n　アベル倒す：『彼女は微笑む』",
+    "enGuide": "On a later clear, skip the BS11/Dana Trial ring so you reach the finale without the opposing ring; defeat Abel to obtain 「彼女は微笑む」."
+  },
+  {
+    "simpleJp": "対リングなしで撤退して「キミといつまでも」を見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ラストバトルでリングを持ってない場合\n　撤退：『キミといつまでも』",
+    "enGuide": "On a no-opposing-ring clear, retreat from Abel to obtain 「キミといつまでも」. This ending is the prerequisite for 「それぞれの明日」."
+  },
+  {
+    "simpleJp": "次のNG+で5-2「みんなを助けたい」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "5-2  | みんなを助けたい",
+    "enGuide": "For the best-ending run after 「キミといつまでも」 is in your clear history, choose 「みんなを助けたい」 at 5-2."
+  },
+  {
+    "simpleJp": "5-3で「そうかもしれない」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "5-3  | そうかもしれない",
+    "enGuide": "Choose 「そうかもしれない」 at 5-3."
+  },
+  {
+    "simpleJp": "続く選択肢で「信じている」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "信じている",
+    "enGuide": "Choose 「信じている」 at the following relevant choice."
+  },
+  {
+    "simpleJp": "第6章で「そうだとは思わない」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "6  | そうだとは思わない",
+    "enGuide": "Choose 「そうだとは思わない」 in Chapter 6."
+  },
+  {
+    "simpleJp": "7-2で「わからない」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "7-2  | わからない",
+    "enGuide": "Choose 「わからない」 at 7-2."
+  },
+  {
+    "simpleJp": "8-3で「許すよ」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "8-3  | 許すよ",
+    "enGuide": "Choose 「許すよ」 at 8-3."
+  },
+  {
+    "simpleJp": "この周回ではBS11を取らず対リングなしで最終戦まで進む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "2週目選択肢正解+対リングを持ってない状態で撤退する：『それぞれの明日』",
+    "enGuide": "Do not obtain the BS11 opposing ring on this best-ending run. Reach the final Abel decision with no opposing ring."
+  },
+  {
+    "simpleJp": "アベル戦で撤退して「それぞれの明日」を見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "2週目選択肢正解+対リングを持ってない状態で撤退する：『それぞれの明日』",
+    "enGuide": "Retreat from Abel after making all six correct NG+ choices to obtain 「それぞれの明日」."
+  },
+  {
+    "simpleJp": "サーカスのミニゲームを全てマスターする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ミニゲームを全部マスター",
+    "enGuide": "For the final special ending, master every circus minigame. Minigame results carry across NG+."
+  },
+  {
+    "simpleJp": "「達人ノ書～完～」と「D・J」を購入する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
+    "enGuide": "After mastering all circus minigames, buy 「達人ノ書～完～」 and 「D・J」."
+  },
+  {
+    "simpleJp": "条件を満たして「サーカスED」を見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
+    "enGuide": "Proceed with the circus-ending condition satisfied to obtain the sixth ending, 「サーカスED」."
+  }
+]

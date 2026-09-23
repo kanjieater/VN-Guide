@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "ピラミッドのスフィンクス問題を正解して進む",
+    "jpGuide1": "問題の答えは「人間」「用心棒ジェフリー」「ゴッズ」「地」「鳥」「イービルアイ」",
+    "jpGuide2": "ピラミッド",
+    "enGuide": "Use the six answers in that order as each question appears; wrong answers trigger extra fights."
+  },
+  {
+    "simpleJp": "1F中央の穴からB1の宝を回収する",
+    "jpGuide1": "B1にある宝は、1F中央の穴に落ちると取れる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Approach the finger-floor area from below and use the front-right tile to fall into the treasure area."
+  },
+  {
+    "simpleJp": "3Fのスイッチで流砂を変えて最上階へ行く",
+    "jpGuide1": "3FではスイッチをONにすると流砂の流れを変えて最上階へ行く。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Finish any Pyramid exploration before the boss; the dungeon becomes inaccessible afterward."
+  },
+  {
+    "simpleJp": "最上階でカサドールを倒す",
+    "jpGuide1": "倒すとバルバラードはクリア。ピラミッドには入れなくなる。",
+    "jpGuide2": "バルバラード編終了",
+    "enGuide": "Use Gogen's Teleport to reach the lower treasure chests before ending the fight if you want the unique dungeon loot."
+  }
+]

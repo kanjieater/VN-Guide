@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "クズ鉄の町で酒場→宿屋→モーリスの順に情報を追う",
+    "jpGuide1": "まずは酒場のマスターに話を聞く。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Follow the resistance contacts until Tosh appears."
+  },
+  {
+    "simpleJp": "鉄クズ置き場でトッシュと戦う",
+    "jpGuide1": "クズ鉄置き場でトッシュと一騎討ち。勝っても負けてもいい。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "The result does not block progression."
+  },
+  {
+    "simpleJp": "レジスタンスアジトでトッシュを仲間にする",
+    "jpGuide1": "レジスタンスアジトでトッシュが仲間になる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Stop story progression here and clear the split-party guild window before entering the tunnel."
+  }
+]

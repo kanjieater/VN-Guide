@@ -58,7 +58,8 @@
     "Wanted monster Shamus has a unique Grand Knife steal; Tianus's unique Uninyan Sword is only stealable on the first encounter; Grovis appears only during the Sea Oil Field escape and has a Fate steal that conflicts with having already hunted Balzac.",
     "The one-time Palencia street vendor appears only on initial arrival during Elk's split segment.",
     "Elk's dream has the rare Flame Sword drop; it is a synthesis input and retrying is inconvenient.",
-    "Palencia Tower 77F is optional but contains unique/rare treasure accessed by repeatedly toggling the 99F elevator switch."
+    "Palencia Tower 77F is optional but contains unique/rare treasure accessed by repeatedly toggling the 99F elevator switch.",
+    "To obtain both the unique Fate and the full bounty clear, postpone Balzac until after Grovis: Returnless Forest remains available as an FBA after White House, while Grovis appears only during the timed Sea Oil Field escape. Steal Fate from Grovis with Shu first; then return to Returnless Forest and hunt Balzac."
   ],
   "route_plan": [
     {
@@ -278,7 +279,21 @@
       "title": "UniGames — プレイステーションクラシックで遊んだ感想。アークザラッドのコンバートは可能？",
       "language": "ja",
       "notes": "Direct Japanese hands-on confirmation that Arc I and Arc II share virtual memory card storage on PlayStation Classic and conversion works."
+    },
+    {
+      "set": "B",
+      "url": "https://yagamuu.hatenablog.jp/entry/2024/10/08/030714",
+      "title": "アークザラッドⅡ - JP Any% Glitchless(No File Conversion) RTAレポート(9:58:50)",
+      "language": "ja",
+      "notes": "Independent Japanese full-game chronology corroboration. Its lap sequence independently verifies the mandatory story order from Alfred through Yagos, White House, the split-party arcs, Chimera Research Lab, Greycine/Fores/Brakia/Millmana/Amigue/Barbarad, Palencia Tower/past, north/south towers, Romalia, and Air Castle. Used only for story-order verification, not optional-completion timing."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/国/西アルディア",
+      "title": "国/西アルディア",
+      "language": "ja",
+      "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
     }
   ],
-  "generated_at": "2026-09-23T03:45:00+00:00"
+  "generated_at": "2026-09-23T04:05:00+00:00"
 }

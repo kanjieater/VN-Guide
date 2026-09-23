@@ -43,6 +43,36 @@
         }
       },
       "kind": "detour"
+    },
+    {
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "STORY"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      },
+      "kind": "unlock",
+      "label": "4周目クリアで追加"
+    },
+    {
+      "from": {
+        "route": "completion",
+        "start": true
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "normal",
+      "label": "クリア後確認"
     }
   ],
   "groups": [
@@ -128,6 +158,36 @@
       },
       "kind": "unlock",
       "label": "クリア後 解禁"
+    }
+  ],
+  "removeEdges": [
+    {
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "かげろう"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      }
+    },
+    {
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      }
     }
   ]
 }

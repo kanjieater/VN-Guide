@@ -111,7 +111,14 @@
       "url": "https://choro-game.com/e/hakuoki-fuka-guide",
       "title": "薄桜鬼 真改 風華伝 for Nintendo Switch 攻略 | choro",
       "language": "ja",
-      "notes": "SECONDARY source index page (same blog previously hosted at xxchoroxx.blog.fc2.com, now redirects to choro-game.com), verified via direct fetch, also specifically for the Nintendo Switch 真改風華伝 release. Covers the same 12 romance-route characters across both 風ノ章 (Main story Ch.1-5) and 華ノ章 (character route Ch.1-5) with SAVE1-SAVE6 style markers and 血を与える/我慢させる-style choice text. Individual character pages fetched and cross-checked: https://choro-game.com/blog-entry-2729.html (土方), -2731 (沖田), -2733 (斎藤), -2734 (藤堂), -2735 (原田), -2736 (永倉), -3126 (山南), -3128 (山崎), -3129 (伊庭), -3125 (相馬), -3124 (坂本), -3127 (風間). NOTE: unlike source 1, this blog has NO dedicated 雪村 (Yukimura) walkthrough page — confirmed absent from its character index — so Yukimura route steps will be marked '（第二ガイドに記載なし）' in jpGuide2 during guide writing.",
+      "notes": "SECONDARY source index page (same blog previously hosted at xxchoroxx.blog.fc2.com, now redirects to choro-game.com), verified via direct fetch, also specifically for the Nintendo Switch 真改風華伝 release. Covers the same 12 romance-route characters across both 風ノ章 (Main story Ch.1-5) and 華ノ章 (character route Ch.1-5) with SAVE1-SAVE6 style markers and 血を与える/我慢させる-style choice text. Individual character pages fetched and cross-checked: https://choro-game.com/blog-entry-2729.html (土方), -2731 (沖田), -2733 (斎藤), -2734 (藤堂), -2735 (原田), -2736 (永倉), -3126 (山南), -3128 (山崎), -3129 (伊庭), -3125 (相馬), -3124 (坂本), -3127 (風間). NOTE: unlike source 1, this blog has NO dedicated 雪村 (Yukimura) walkthrough page; Yukimura is therefore covered by the separate ruRi Set-B component below.",
+      "set": "B"
+    },
+    {
+      "url": "https://ruri-ototgame.hatenablog.com/entry/2024/08/19/122535",
+      "title": "薄桜鬼 真改 風華伝 for Nintendo Switch　個別攻略 - ruRiの気ままにオタ活",
+      "language": "ja",
+      "notes": "SECONDARY Set-B component used specifically for the Yukimura route because the choro Set-B component does not cover it. This is an independent Japanese walkthrough for the exact Nintendo Switch 真改 風華伝 target release. Its 雪村ルート section independently reproduces the current Souma SAVE1 handoff and the full 風ノ章 choice sequence, then shows 華ノ章 as a no-choice continuation.",
       "set": "B"
     },
     {

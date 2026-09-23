@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "目覚めた直後にシュウのベッドを調べて「ククリ」を取る",
+    "jpGuide1": "目覚めてすぐにベッドを調べると「ククリ」入手。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Do this immediately; it is an easy one-time pickup."
+  },
+  {
+    "simpleJp": "酒場でシャンテに話し、ジーン襲撃戦を終える",
+    "jpGuide1": "ジーンを倒すと勝ち。",
+    "jpGuide2": "ジーン戦1戦目",
+    "enGuide": "Advance the Shante/Jean story after returning from Yagos."
+  },
+  {
+    "simpleJp": "ガルアーノの屋敷で右端の部屋から鍵を取る",
+    "jpGuide1": "最初から右端の部屋にある。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ignore the misleading left-room hint and take the key from the rightmost room."
+  },
+  {
+    "simpleJp": "大講堂でガルアーノを倒す",
+    "jpGuide1": "ガルアーノを倒すと勝ち。",
+    "jpGuide2": "偽ガルアーノ撃破",
+    "enGuide": "Finish the mansion sequence."
+  },
+  {
+    "simpleJp": "ユドの村のヴィルマー宅でヂークベックを仲間にする",
+    "jpGuide1": "ヂークベックが仲間になる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This optional permanent recruit becomes available after the mansion."
+  }
+]

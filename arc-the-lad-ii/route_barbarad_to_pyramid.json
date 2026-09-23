@@ -1,0 +1,44 @@
+[
+  {
+    "simpleJp": "最初にピラミッドの砂嵐を確認してからムハドへ行く",
+    "jpGuide1": "まずはピラミッドへ行って砂嵐を見てからムハドへ。",
+    "jpGuide2": "バルバラード編開始",
+    "enGuide": "The sandstorm is the story trigger for Muhad."
+  },
+  {
+    "simpleJp": "ムハドでラタ→酒場の順に話す",
+    "jpGuide1": "ギルドにいるラタと話した後…今度は酒場へ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This opens Kanara Desert."
+  },
+  {
+    "simpleJp": "カナラ砂漠でレイブンを倒して「見逃す」を選ぶ",
+    "jpGuide1": "「見逃す」を選ぶと「エメラルド」をもらえる。",
+    "jpGuide2": "レイブン退治イベント終了",
+    "enGuide": "Use the exact choice 見逃す for the Emerald reward."
+  },
+  {
+    "simpleJp": "G#46「指輪探し」を受けておく",
+    "jpGuide1": "指輪探し",
+    "jpGuide2": "G#46　指輪探し",
+    "enGuide": "It is now available; taking it before further desert travel is efficient."
+  },
+  {
+    "simpleJp": "テュケの洞窟でグァルデから「エンジェルクライム」を盗んで討伐する",
+    "jpGuide1": "手配モンスター「グァルデ」を倒して奥へ進む",
+    "jpGuide2": "グァルデ　エンジェルクライム",
+    "enGuide": "Bring Shu. This story encounter is easy to miss as a unique steal because there is no party reselect at contact."
+  },
+  {
+    "simpleJp": "サリュ族のキャンプでナムのテントへ行く",
+    "jpGuide1": "ナムのテントでイベント発生。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Ark temporarily leaves the party."
+  },
+  {
+    "simpleJp": "ピラミッド外観のイベント戦を終える",
+    "jpGuide1": "イベント後、アークが復帰して戦闘。",
+    "jpGuide2": "ピラミッド外観戦終了",
+    "enGuide": "Stop after this battle: G#49 has just appeared, so perform the final pre-Monji guild sweep before going deeper."
+  }
+]

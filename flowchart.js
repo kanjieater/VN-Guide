@@ -175,6 +175,44 @@
     return Number.isInteger(value) ? value : null;
   }
 
+  function deriveCurrentProgress(routes, progressMap) {
+    const orderedRoutes = Array.isArray(routes) ? routes : [];
+    let completedAny = false;
+
+    for (const route of orderedRoutes) {
+      if (!route || !route.id) continue;
+      const count = Array.isArray(route.steps)
+        ? route.steps.length
+        : (Number.isInteger(route.stepCount) ? route.stepCount : 0);
+      if (count <= 0) continue;
+
+      const progress = progressValue(progressMap, route.id);
+      if (progress == null) {
+        return completedAny ? { [route.id]: -1 } : {};
+      }
+
+      const terminalIndex = Math.max(0, count - 1);
+      if (progress < terminalIndex) {
+        return { [route.id]: Math.max(0, progress) };
+      }
+
+      completedAny = true;
+    }
+
+    return {};
+  }
+
+  function routeTitleHidden(routeId, progressState) {
+    if (!progressState || !progressState.hideRouteTitles) return false;
+    const progress = progressValue(progressState.routeProgress, routeId);
+    return progress == null || progress <= 0;
+  }
+
+  function routeTitleFor(route, routeIndex, progressState) {
+    if (!routeTitleHidden(route.id, progressState)) return route.title || route.id;
+    return `ルート ${routeIndex + 1}`;
+  }
+
   function nodeProgressState(node, progressState) {
     // Sidecar-only synthetic alternatives have navigation coordinates, not
     // proof that the player actually visited that branch. Keep them neutral
@@ -197,7 +235,7 @@
       ? node.currentStepIndexes
       : [node.stepIndex];
     const current = currentTargets.some(stepIndex =>
-      Number.isInteger(stepIndex) && stepIndex >= 0 && currentProgress === stepIndex
+      Number.isInteger(stepIndex) && currentProgress === stepIndex
     );
 
     return { seen, current, known: true };
@@ -213,6 +251,9 @@
       node.routeId &&
       Number.isInteger(node.stepIndex);
     const progress = nodeProgressState(node, progressState);
+    const displayLabel = node.kind === "route" && routeTitleHidden(node.routeId, progressState)
+      ? (progressState.routePlaceholders && progressState.routePlaceholders[node.routeId]) || "ルート"
+      : node.label;
     const progressClass = !progress.known
       ? " flow-node-neutral"
       : progress.current
@@ -226,7 +267,7 @@
       ...(navigable ? {
         role: "link",
         tabindex: "0",
-        "aria-label": `${node.label || node.routeId} をガイドで開く`,
+        "aria-label": `${displayLabel || node.routeId} をガイドで開く`,
       } : {}),
     });
 
@@ -274,7 +315,7 @@
           "text-anchor": "middle",
           class: "flow-node-text flow-node-group-title",
         });
-        label.textContent = node.label;
+        label.textContent = displayLabel;
         group.appendChild(label);
         (node.items || []).forEach((item, index) => {
           const itemLabel = el("text", {
@@ -286,7 +327,7 @@
           group.appendChild(itemLabel);
         });
       } else {
-        const lines = wrapLabel(node.label, 17);
+        const lines = wrapLabel(displayLabel, 17);
         const lineHeight = 16;
         const firstY = height / 2 - ((lines.length - 1) * lineHeight) / 2 + 5;
         lines.forEach((lineText, index) => {
@@ -307,7 +348,7 @@
       ? "セーブ/ロード構造から推定した分岐"
       : node.kind === "group"
         ? `${node.label}: ${(node.items || []).join(" / ")}`
-        : node.label;
+        : displayLabel;
     group.appendChild(title);
     svg.appendChild(group);
   }
@@ -937,14 +978,14 @@
     return section;
   }
 
-  function renderRoute(route, onNavigate, progressState, zoomGroup) {
+  function renderRoute(route, routeIndex, onNavigate, progressState, zoomGroup) {
     const graph = buildRouteGraph(route);
     graph.maxRow = graph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
     return renderGraphSection(
-      route.title || route.id,
+      routeTitleFor(route, routeIndex, progressState),
       graph,
       onNavigate,
-      `${route.title || route.id} の自動生成分岐図`,
+      `${routeTitleFor(route, routeIndex, progressState)} の自動生成分岐図`,
       progressState,
       zoomGroup
     );
@@ -997,7 +1038,7 @@
     }
 
     routes.forEach((route, index) => {
-      container.appendChild(renderRoute(route, onNavigate, progressState, zoomGroup));
+      container.appendChild(renderRoute(route, index, onNavigate, progressState, zoomGroup));
       if (index < routes.length - 1) {
         const next = document.createElement("div");
         next.className = "flowchart-next";
@@ -1011,6 +1052,7 @@
     buildRouteGraph,
     validateSidecar,
     buildEnhancedGraph,
+    deriveCurrentProgress,
     nodeProgressState,
     render,
   };

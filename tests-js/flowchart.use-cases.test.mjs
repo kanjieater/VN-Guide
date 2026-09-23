@@ -242,10 +242,15 @@ test("rendered flowchart supports pointer, keyboard, wheel, pinch, and zoom-cont
 
   const scroller = container.querySelector(".flowchart-canvas");
   const svg = scroller.querySelector("svg");
-  const initialWidth = svg.style.width;
+  Object.defineProperty(scroller, "clientWidth", {
+    configurable: true,
+    value: 300,
+  });
+  controls[1].click();
+  const fittedWidth = svg.style.width;
 
   controls[2].click();
-  assert.notEqual(svg.style.width, initialWidth);
+  assert.notEqual(svg.style.width, fittedWidth);
 
   scroller.dispatchEvent(new runtime.window.WheelEvent("wheel", {
     deltaY: -100,

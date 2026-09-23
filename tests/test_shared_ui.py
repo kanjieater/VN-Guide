@@ -59,6 +59,14 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn("event.preventDefault();", flowchart)
         self.assertIn("touch-action: pan-x pan-y;", style)
 
+    def test_flowchart_zoom_controls_float_bottom_right_with_touch_targets(self):
+        style = STYLE.read_text(encoding="utf-8")
+        self.assertIn("position: fixed;", style)
+        self.assertIn("bottom: calc(env(safe-area-inset-bottom, 0px) + 14px);", style)
+        self.assertIn("right: max(12px, calc((100vw - 600px) / 2 + 12px));", style)
+        self.assertIn("width: 48px;", style)
+        self.assertIn("height: 48px;", style)
+
     def test_flowchart_nodes_receive_seen_current_and_unseen_states(self):
         source = APP.read_text(encoding="utf-8")
         flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")

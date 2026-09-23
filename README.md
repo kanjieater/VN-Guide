@@ -6,6 +6,20 @@ Each guide is built from multiple Japanese walkthroughs, then independently chec
 
 **Live site:** [kanjieater.github.io/VN-Guide](https://kanjieater.github.io/VN-Guide/)
 
+## Tests and coverage
+
+The test suite favors user-visible workflows over implementation-string assertions. Python tests exercise guide generation, review gates, and orchestration behavior; JavaScript tests execute the real reader and flowchart code in a browser-like DOM and cover journeys such as resume, route transitions, spoiler settings, bad-end/load handling, flowchart preview/commit, and zoom/navigation.
+
+Run the suites locally with:
+
+```bash
+python -m unittest discover -s tests -p "test_*.py"
+npm install
+npm run test:js
+```
+
+CI records whole-repository Python and JavaScript coverage and enforces **100% changed-line coverage** for executable code on every PR and push to `main`. This is deliberately a diff-coverage invariant rather than a fake 100% legacy denominator: any executable line added or changed must be exercised, while older adapter/error-path code remains visible in the coverage report until it is covered by a real use case.
+
 ## For Agents
 
 This README is the entry point for working on the repository.

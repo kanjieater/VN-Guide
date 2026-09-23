@@ -6,10 +6,14 @@ $GAME_NOTES
 ## Current Task: Research Phase
 
 Game: $TITLE
-VNDB work ID: $VNDB_ID
+Game key / VNDB work ID when applicable: $VNDB_ID
 Authoritative guide target: $GUIDE_TARGET_JSON
 
 Complete **only the research phase**.
+
+Treat this as a normal VN unless $GAME_NOTES explicitly identifies it as a **NON-VN LINEAR WALKTHROUGH**. That opt-in is game-specific; do not apply chapter/area/optional-section semantics to ordinary VNs.
+
+For an opted-in linear game walkthrough, keep the existing schema unchanged: plan one ordered `routes` list whose entries are sequential walkthrough sections. Put optional-content sections at their exact place in the master play order and mark them clearly in the title. The player must not need to bounce between sections.
 
 Do not generate route content until the two-independent-Japanese-verification-set gate in the canonical standards is satisfied.
 
@@ -62,7 +66,8 @@ Rules:
 - Verify every Set A/B component applies to that exact target release. Document port/remaster/edition differences and whether they affect routes, choices, saves, unlocks, or endings.
 - If the supplied target cannot be verified or the sources only apply to a materially different release, stop and document the blocker rather than silently switching targets.
 - `id` must be ASCII-only romanized keys.
-- `recommended_order` lists route ids from first to last; true/final route last when applicable.
+- `recommended_order` lists route ids from first to last; true/final route last when applicable. For an explicitly opted-in linear game walkthrough, it is the single canonical section order from start through completion/cleanup.
+- `prerequisites` records only real source-documented unlock/dependency requirements. Never use it to encode the previous/next section relationship; `recommended_order` already owns sequence. In particular, do not make later mandatory sections depend on optional sections unless the game itself requires that optional content to progress.
 - Label every primary source component with `set: "A"` or `set: "B"`.
 - A set may contain multiple Japanese pages, but together it must cover the complete route/ending structure required by the canonical standards.
 - Do not count translations, derivatives, or inaccessible pages toward the two-set gate.

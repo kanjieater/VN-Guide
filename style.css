@@ -170,6 +170,38 @@ html, body {
   text-align: center;
 }
 
+.route-transition {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px 0;
+}
+
+.route-transition-kicker {
+  font-size: 14px;
+  font-weight: 600;
+  color: #888;
+}
+
+.route-transition-portrait {
+  width: min(180px, 48vw);
+  max-height: 42dvh;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.route-transition-title {
+  font-size: clamp(24px, 6vw, 34px);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
 
 #details-section {
   background: var(--surface);

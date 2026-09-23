@@ -609,10 +609,13 @@ def run() -> None:
 
     games = json.loads(GAMES_JSON.read_text())
 
+    # Automatic generation is VNDB-backed. Manually managed non-VN games use
+    # namespaced keys such as "game:..." and are intentionally left to the
+    # game-specific authoring workflow until their guide is complete.
     pending = [
         (vid, entry)
         for vid, entry in games.items()
-        if not entry.get("has_guide", False)
+        if vid.startswith("v") and not entry.get("has_guide", False)
     ]
 
     if not pending:

@@ -5,7 +5,7 @@ $GAME_NOTES
 
 ## Current Task: Generate One Route
 
-Game: $TITLE (VNDB: $VNDB_ID)
+Game: $TITLE (key / VNDB when applicable: $VNDB_ID)
 Section: **$ROUTE_TITLE** (id: `$ROUTE_ID`)
 Save slot offset: **$SAVE_OFFSET** (first new save in this route = セーブ$SAVE_OFFSET_PLUS1)
 
@@ -13,6 +13,10 @@ Research file: `$RESEARCH_FILE`
 Output file: `$ROUTE_FILE`
 
 ### Instructions
+
+Treat this as a normal VN unless $GAME_NOTES explicitly identifies it as a **NON-VN LINEAR WALKTHROUGH**. That opt-in is game-specific and must not alter ordinary VN generation.
+
+For an opted-in linear game walkthrough, this "route" is simply the next sequential walkthrough section. Follow the game-specific rules in the canonical standards: keep the existing route-file schema, allow concise Japanese action instructions for non-choice gameplay, preserve exact in-game text for literal choices/menu labels, and place optional content only where research says it belongs in the one master order.
 
 1. Read `$RESEARCH_FILE`.
 2. Read and preserve the exact `guide_target` from research. Do not reinterpret the VNDB work ID as the target release.
@@ -37,9 +41,9 @@ Output file: `$ROUTE_FILE`
 
 ### `simpleJp`
 
-Every player action is the exact in-game choice text, with no added suffix or location prefix.
+For a normal VN, every player action is the exact in-game choice text, with no added suffix or location prefix, and save/load instructions are the only non-choice steps.
 
-Save/load instructions are the only non-choice steps.
+For an explicitly opted-in non-VN linear walkthrough only, follow the game-walkthrough `simpleJp` exception in the canonical standards: literal choices/menu labels remain exact, while navigation, battle, talk, pickup, preparation, and similar non-choice actions may use concise author-written Japanese instructions.
 
 ### Source fields
 

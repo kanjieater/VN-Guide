@@ -60,7 +60,8 @@
     "Elk's dream has the rare Flame Sword drop; it is a synthesis input and retrying is inconvenient.",
     "Palencia Tower 77F is optional but contains unique/rare treasure accessed by repeatedly toggling the 99F elevator switch.",
     "To obtain both the unique Fate and the full bounty clear, postpone Balzac until after Grovis: Returnless Forest remains available as an FBA after White House, while Grovis appears only during the timed Sea Oil Field escape. Steal Fate from Grovis with Shu first; then return to Returnless Forest and hunt Balzac.",
-    "Conversion chronology correction: the Secret Research Lab event belongs before the ceremony/Yagos transition, while the Ark-versus-Andel conversion event occurs after White House. They must be separate sections."
+    "Conversion chronology correction: the Secret Research Lab event belongs before the ceremony/Yagos transition, while the Ark-versus-Andel conversion event occurs after White House. They must be separate sections.",
+    "The Shu/Tosh story section is split at Tosh recruitment so G#24-26, especially short-window G#26, are completed before tunnel/hideout progression can invalidate the job."
   ],
   "route_plan": [
     {
@@ -116,12 +117,16 @@
       "title": "エルク・ポコ：パレンシア城跡〜タワー"
     },
     {
-      "id": "shu_tosh_romalia",
-      "title": "シュウ・トッシュ：クズ鉄の町〜トンネル"
+      "id": "shu_tosh_scrap_town",
+      "title": "シュウ・トッシュ：クズ鉄の町"
     },
     {
       "id": "optional_romalia_split_guild",
       "title": "【任意】シュウ編限定・ロマリアの仕事"
+    },
+    {
+      "id": "shu_tosh_tunnel",
+      "title": "シュウ・トッシュ：ロマリアトンネル"
     },
     {
       "id": "chimera_lab_reunion",
@@ -300,5 +305,5 @@
       "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
     }
   ],
-  "generated_at": "2026-09-23T04:12:00+00:00"
+  "generated_at": "2026-09-23T04:20:00+00:00"
 }

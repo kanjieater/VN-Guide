@@ -3,6 +3,7 @@ import { readFile, readdir } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { test } from "bun:test";
+import { JSDOM } from "jsdom";
 
 import { findGeneratedDrift } from "../tools/generate.mjs";
 
@@ -48,4 +49,34 @@ test("all guide directories use the shared bootstrap shell", async () => {
   for (const slug of guides) {
     assert.equal(await readFile(join(ROOT, slug, "index.html"), "utf8"), shell, slug);
   }
+});
+
+
+test("shared guide shell cache-busts both shared assets with one per-load version", async () => {
+  const shell = await readFile(join(ROOT, "templates", "guide.html"), "utf8");
+  const dom = new JSDOM(shell, {
+    url: "https://example.test/game/",
+    runScripts: "dangerously",
+  });
+
+  const style = dom.window.document.querySelector('link[rel="stylesheet"]');
+  const app = [...dom.window.document.scripts].find(script =>
+    script.src.includes("guide-app.js?v=")
+  );
+
+  assert.ok(style, "guide shell should inject the shared stylesheet");
+  assert.ok(app, "guide shell should inject the shared app script");
+
+  const styleUrl = new URL(style.href);
+  const appUrl = new URL(app.src);
+  const styleVersion = styleUrl.searchParams.get("v");
+  const appVersion = appUrl.searchParams.get("v");
+
+  assert.match(styleUrl.pathname, /\/style\.css$/);
+  assert.match(appUrl.pathname, /\/guide-app\.js$/);
+  assert.match(styleVersion, /^\d+$/);
+  assert.equal(appVersion, styleVersion);
+  assert.equal(Number(dom.window.__guideAssetVersion), Number(styleVersion));
+
+  dom.window.close();
 });

@@ -12,6 +12,7 @@ import {
   renderLanding,
   syncGeneratedFiles,
 } from "../tools/generate.mjs";
+import { main as runGenerateCli } from "../tools/generate-cli.mjs";
 
 async function fixture() {
   const root = await mkdtemp(join(tmpdir(), "vnguide-generator-"));
@@ -84,4 +85,53 @@ test("generator check fails on drift, write mode fixes it, and the next check is
   } finally {
     await rm(root, { recursive: true, force: true });
   }
+});
+
+
+test("generator CLI handles check, write, no-op, and failure modes", async () => {
+  const messages = [];
+  const errors = [];
+
+  let result = await runGenerateCli(["--check"], {
+    sync: async (_root, options) => {
+      assert.deepEqual(options, { check: true });
+      return [];
+    },
+    log: message => messages.push(message),
+    error: message => errors.push(message),
+  });
+  assert.equal(result, 0);
+  assert.equal(messages.pop(), "Generated artifacts are synchronized.");
+
+  result = await runGenerateCli([], {
+    sync: async (_root, options) => {
+      assert.deepEqual(options, { check: false });
+      return ["index.html", "game/manifest.json"];
+    },
+    log: message => messages.push(message),
+    error: message => errors.push(message),
+  });
+  assert.equal(result, 0);
+  assert.equal(
+    messages.pop(),
+    "Updated 2 generated artifact(s): index.html, game/manifest.json"
+  );
+
+  result = await runGenerateCli([], {
+    sync: async () => [],
+    log: message => messages.push(message),
+    error: message => errors.push(message),
+  });
+  assert.equal(result, 0);
+  assert.equal(messages.pop(), "Generated artifacts already synchronized.");
+
+  result = await runGenerateCli(["--check"], {
+    sync: async () => {
+      throw new Error("stale generated output");
+    },
+    log: message => messages.push(message),
+    error: message => errors.push(message),
+  });
+  assert.equal(result, 1);
+  assert.equal(errors.pop(), "stale generated output");
 });

@@ -1,9 +1,8 @@
 import { readFile } from "node:fs/promises";
 
 const EXCLUDED_EXECUTABLE_SOURCES = new Set([
-  // CI/test infrastructure is tested, but is not application/generator production logic.
+  // CI-only coverage enforcement infrastructure.
   "tools/check-diff-coverage.mjs",
-  "tools/generate-cli.mjs",
 ]);
 
 export function isProductionSource(path) {

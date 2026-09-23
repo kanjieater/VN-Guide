@@ -63,6 +63,12 @@
     "simpleJp": "シュウの家へ戻り、シュウを仲間にする",
     "jpGuide1": "シュウの家に戻るとシュウが仲間になる。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Return to Shu's apartment; Shu now joins permanently. Rest once afterward to open the first guild-job batch."
+    "enGuide": "Return to Shu's apartment; Shu now joins permanently."
+  },
+  {
+    "simpleJp": "シュウ加入後、もう一度一泊する",
+    "jpGuide1": "一泊するとギルドの仕事を請けられるようになる。",
+    "jpGuide2": "G#01　発生時期　シュウ加入",
+    "enGuide": "Rest once before beginning the first guild-job block."
   }
 ]

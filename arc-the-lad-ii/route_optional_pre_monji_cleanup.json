@@ -1,0 +1,50 @@
+[
+  {
+    "simpleJp": "G#46「指輪探し」を完了する",
+    "jpGuide1": "カナラ砂漠へ行き…戦闘に勝てばクリア。",
+    "jpGuide2": "G#46　指輪探し",
+    "enGuide": "Find the flashing ring from one tile away in Kanara Desert, then win the battle."
+  },
+  {
+    "simpleJp": "G#47「迷子の少女」を完了する",
+    "jpGuide1": "迷子の少女",
+    "jpGuide2": "G#47　迷子の少女",
+    "enGuide": "Meet the girl at Muhad inn, visit the former empty room beside Elk's apartment in Prodius, then return and win the fight."
+  },
+  {
+    "simpleJp": "G#48「砂漠の神隠し」を完了する",
+    "jpGuide1": "「指輪探し」をクリアすると出現。",
+    "jpGuide2": "G#48　砂漠の神隠し　＋G#46終了",
+    "enGuide": "Requires G#46; return to Kanara Desert and win the battle."
+  },
+  {
+    "simpleJp": "G#49「あぶない薬」を完了する",
+    "jpGuide1": "テュケの洞窟の右側の部屋にいるリヴァイアサンを倒せばクリア。",
+    "jpGuide2": "G#49　あぶない薬　ピラミッド外観戦終了で発生",
+    "enGuide": "This is the reason for the structural split: it only appears after the Pyramid exterior battle."
+  },
+  {
+    "simpleJp": "G#10「面接試験有、山賊お断り」を完了する",
+    "jpGuide1": "テュケの洞窟にいるピエール・ベロニカに話し、アルディア橋に戻って報告するとクリア。",
+    "jpGuide2": "G#10　面接試験有、山賊お断り",
+    "enGuide": "Your earlier G#06 + G#18 great-success results unlock this. At Aldia Bridge answer そうでもねえよ, then finish the Tuke Cave dragon lead and report back."
+  },
+  {
+    "simpleJp": "カナラ砂漠でダリウスを討伐する",
+    "jpGuide1": "ダリウス　カナラ砂漠",
+    "jpGuide2": "ダリウス　バルバラード",
+    "enGuide": "Clear this regional bounty before story lockouts begin."
+  },
+  {
+    "simpleJp": "バルバラード封印の遺跡B1でガウディラスを討伐する",
+    "jpGuide1": "ガウディラス　バルバラード遺跡B1",
+    "jpGuide2": "ガウディラス　バルバラード封印の遺跡",
+    "enGuide": "Finish the Barbarad regional bounty while free travel remains."
+  },
+  {
+    "simpleJp": "未清算の期限付きギルド仕事をすべて清算する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "紋次編が急展開を迎えると…殆どの仕事ができなくなる",
+    "enGuide": "Audit the guild lists now. After the Monji escalation, most outstanding accepted jobs are forcibly abandoned."
+  }
+]

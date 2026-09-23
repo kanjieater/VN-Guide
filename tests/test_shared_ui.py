@@ -34,7 +34,8 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn('fit.textContent = "全体"', flowchart)
         self.assertIn('zoomOut.textContent = "−"', flowchart)
         self.assertIn('zoomIn.textContent = "＋"', flowchart)
-        self.assertIn("requestAnimationFrame(fitToWidth)", flowchart)
+        self.assertIn("requestAnimationFrame(() => {", flowchart)
+        self.assertIn("zoomGroup.refresh(zoomController)", flowchart)
         self.assertIn("async function loadFlowchartSidecar()", source)
         self.assertIn(
             'window.VNFlowchart.render(content, guideData, jumpFromFlowchart, sidecar, {',
@@ -49,13 +50,26 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn('fetch("./flowchart.json?v=" + Date.now())', source)
         self.assertNotIn('fetch("./flowchart.json', flowchart)
 
+    def test_flowchart_uses_one_shared_zoom_controller_for_all_route_sections(self):
+        flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
+        self.assertIn("function createZoomGroup(container)", flowchart)
+        self.assertIn("const zoomGroup = createZoomGroup(container);", flowchart)
+        self.assertIn("renderRoute(route, onNavigate, progressState, zoomGroup)", flowchart)
+        self.assertIn("zoomGroup.zoomBy(factor, zoomController, event.clientX)", flowchart)
+
+    def test_flowchart_vertical_scroll_is_not_trapped_by_horizontal_canvas(self):
+        style = STYLE.read_text(encoding="utf-8")
+        self.assertIn("min-height: 0;", style)
+        self.assertIn("overscroll-behavior-x: contain;", style)
+        self.assertIn("overscroll-behavior-y: auto;", style)
+
     def test_flowchart_supports_wheel_and_pinch_zoom_anywhere_on_canvas(self):
         flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
         style = STYLE.read_text(encoding="utf-8")
         self.assertIn('scroller.addEventListener("wheel"', flowchart)
         self.assertIn('scroller.addEventListener("touchstart"', flowchart)
         self.assertIn('scroller.addEventListener("touchmove"', flowchart)
-        self.assertIn("function zoomAt(nextScale, clientX)", flowchart)
+        self.assertIn("function zoomAtScale(nextScale, clientX)", flowchart)
         self.assertIn("event.preventDefault();", flowchart)
         self.assertIn("touch-action: pan-x pan-y;", style)
 

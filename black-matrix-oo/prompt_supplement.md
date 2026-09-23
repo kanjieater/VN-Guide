@@ -38,6 +38,7 @@ To avoid repeatedly rediscovering the same dead ends, keep these source roles fi
 - **FFSKY/SquareCN is a detailed original Chinese walkthrough, not the vanished Japanese archive.** Its author says the guide was written from his own month of work/play. It already supplies practical trigger chains, battle consequences, and useful hints for the unresolved scenarios. Preserve those facts for translated `enGuide` use, but it cannot satisfy the Japanese Set-A/Set-B gate.
 - **Blocked FC2 search snippets are leads only.** Do not treat snippets as inspected evidence.
 - **The 2004 攻略スレ, BLUE MATRIX lead, official-guide interiors, mirrors, and caches are recovery leads only.** Do not spend another pass broadly rediscovering these same leads. Retry one only when a concrete directly inspectable URL/page/scan has been found.
+- **The exact 2004攻略 thread is now identified:** `http://game9.2ch.net/test/read.cgi/gameover/1086009241/` (`gameover`, not `gamesrpg`). Generic mirror/cache recovery has already been attempted without directly inspectable trigger text. Do not search the wrong board or repeat broad mirror sweeps; revisit only if a concrete surviving copy is discovered.
 
 The unresolved research task is therefore **Japanese corroboration, not gameplay discovery**. The operational trigger chains are already known from supplemental sources; research should target only the exact Japanese facts still listed as open in `research.json`.
 

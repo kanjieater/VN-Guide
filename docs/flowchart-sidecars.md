@@ -54,6 +54,7 @@ Rules:
 - `near` is required and controls layout.
 - If `route` is supplied, it must match the resolved `near` route.
 - `jumpTo` is optional. When present, both the clickable `routeId` and `stepIndex` come from that single resolved target, including for cross-route jumps.
+- `navigable: false` makes the synthetic node a topology-only annotation. It retains its layout/edge identity but receives no walkthrough `stepIndex` and cannot be clicked into the guide.
 - `rowOffset` and `laneOffset` must be finite numeric values in the supported range.
 
 ## Groups

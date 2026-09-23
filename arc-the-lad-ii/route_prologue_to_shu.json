@@ -14,31 +14,55 @@
   {
     "simpleJp": "人質に話して「しっぷうのバンダナ」を受け取る",
     "jpGuide1": "「しっぷうのバンダナ」をもらえる。",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Talk to the rescued hostage after the fight; this is an easy one-time pickup."
+    "jpGuide2": "人質になっていた女性と会話し、疾風のバンダナ回収",
+    "enGuide": "Talk to the rescued hostage after the fight and take the Gale Bandana."
   },
   {
     "simpleJp": "リーザとパンディットを加えて追跡する",
     "jpGuide1": "リーザとパンディットが仲間に。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Continue the pursuit through the remaining airport sequence."
+    "enGuide": "Continue the pursuit with Lieza and Paundit."
   },
   {
-    "simpleJp": "インディゴスでギルド→酒場→廃墟の町へ進む",
+    "simpleJp": "飛行船の甲板でアルフレッドたちを倒す",
+    "jpGuide1": "甲板でアルフレッドたちと戦闘。",
+    "jpGuide2": "戦闘処理(アルフレッド2)",
+    "enGuide": "Clear the mandatory second Alfred battle on the aircraft deck before reaching Indigos."
+  },
+  {
+    "simpleJp": "インディゴスでギルド→酒場の順に話す",
     "jpGuide1": "まずはギルドで話を聞き、その後酒場へ",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Follow the leads to the ruined town."
+    "jpGuide2": "ギルド受付→受付隣のハンター→酒場のマスターの順で会話",
+    "enGuide": "Follow the Indigos lead through the guild and bar."
   },
   {
-    "simpleJp": "リーランド戦を終えてシュウの家へ戻る",
+    "simpleJp": "廃墟の町でリーランドを倒す",
     "jpGuide1": "リーランドと戦闘。瀕死にすれば勝ち。",
-    "jpGuide2": "路地裏終了",
-    "enGuide": "Complete the early ruined-town/Indigos sequence and return to Shu's apartment."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Go to the ruined town and finish the Leland battle."
   },
   {
-    "simpleJp": "シュウを仲間にして一泊する",
+    "simpleJp": "シュウの家へ戻って一晩休む",
+    "jpGuide1": "シュウの家へ戻る。一晩休んだら",
+    "jpGuide2": "シュウのアパートへ戻りイベント進行",
+    "enGuide": "Return to Shu's apartment and rest to advance the event."
+  },
+  {
+    "simpleJp": "リーザたちを連れてギルドへ行く",
+    "jpGuide1": "リーザたちを仲間にしてギルドへ。",
+    "jpGuide2": "ギルドへ移動しマスターと話しかける",
+    "enGuide": "Return to the guild with Lieza's group and speak to the guild master."
+  },
+  {
+    "simpleJp": "路地裏の戦闘を終える",
+    "jpGuide1": "敵がどんどん出てくる戦闘に入る。ある程度倒したらイベントが発生する。",
+    "jpGuide2": "戦闘処理(路地裏)",
+    "enGuide": "Finish the mandatory alley battle that follows the guild event."
+  },
+  {
+    "simpleJp": "シュウの家へ戻り、シュウを仲間にする",
     "jpGuide1": "シュウの家に戻るとシュウが仲間になる。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Sleeping once after Shu joins opens the first batch of guild jobs. Do those before advancing the ceremony."
+    "enGuide": "Return to Shu's apartment; Shu now joins permanently. Rest once afterward to open the first guild-job batch."
   }
 ]

@@ -496,6 +496,30 @@ button#toggle-details {
   border-top: 2px dashed #6f8fae;
 }
 
+.flowchart-legend-seen,
+.flowchart-legend-current,
+.flowchart-legend-unseen {
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.flowchart-legend-seen {
+  background: #1d3026;
+  border-color: #5b9f76;
+}
+
+.flowchart-legend-current {
+  background: #243249;
+  border-color: #78aee8;
+  box-shadow: 0 0 0 1px #78aee8;
+}
+
+.flowchart-legend-unseen {
+  background: #181818;
+  border-color: #4a4a4a;
+  opacity: 0.58;
+}
+
 .flowchart-route {
   margin: 0 0 14px;
 }
@@ -544,6 +568,8 @@ button#toggle-details {
   overflow-x: auto;
   overflow-y: hidden;
   background: var(--surface);
+  touch-action: pan-x pan-y;
+  overscroll-behavior: contain;
   border: 1px solid var(--border);
   border-radius: 9px;
   -webkit-overflow-scrolling: touch;
@@ -648,6 +674,34 @@ button#toggle-details {
   fill: var(--accent);
   font-size: 15px;
   font-weight: 700;
+}
+
+.flow-node-unseen .flow-node-shape {
+  opacity: 0.55;
+}
+
+.flow-node-unseen .flow-node-text {
+  fill: #777;
+}
+
+.flow-node-seen .flow-node-shape {
+  fill: #1d3026;
+  stroke: #5b9f76;
+}
+
+.flow-node-seen .flow-node-text {
+  fill: #d5eadc;
+}
+
+.flow-node-current .flow-node-shape {
+  fill: #243249;
+  stroke: #78aee8;
+  stroke-width: 3;
+  filter: drop-shadow(0 0 4px rgba(120, 174, 232, 0.45));
+}
+
+.flow-node-current .flow-node-text {
+  fill: #f0f6ff;
 }
 
 .flowchart-next {

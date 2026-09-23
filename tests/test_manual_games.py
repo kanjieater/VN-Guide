@@ -86,5 +86,30 @@ class ManualGameIsolationTests(unittest.TestCase):
             lookup.assert_not_called()
 
 
+class SharedGuideShellTests(unittest.TestCase):
+    def test_scaffold_uses_exact_shared_html_shell(self):
+        with tempfile.TemporaryDirectory() as td:
+            repo_path = Path(td)
+            template = repo_path / "guide_stub.html"
+            template.write_text(
+                '<link rel="stylesheet" href="../style.css">\n'
+                '<script src="../guide-app.js"></script>\n',
+                encoding="utf-8",
+            )
+
+            with (
+                patch.object(generate, "REPO_PATH", repo_path),
+                patch.object(generate, "STUB_TMPL", template),
+            ):
+                generate.scaffold_guide("sample-game", "Sample Game", "game:sample")
+
+            generated = (repo_path / "sample-game" / "index.html").read_text(
+                encoding="utf-8"
+            )
+            self.assertEqual(generated, template.read_text(encoding="utf-8"))
+            self.assertNotIn("guide-app.js?v=", generated)
+            self.assertNotIn("style.css?v=", generated)
+
+
 if __name__ == "__main__":
     unittest.main()

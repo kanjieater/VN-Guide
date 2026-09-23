@@ -81,15 +81,8 @@ function renderHome() {
   const titleEl = document.getElementById("game-title");
   if (titleEl && guideData.title) titleEl.textContent = guideData.title;
 
-  let targetEl = document.getElementById("guide-target");
-  if (!targetEl) {
-    targetEl = document.createElement("p");
-    targetEl.id = "guide-target";
-  }
+  const targetEl = document.getElementById("guide-target");
   const updatedEl = document.getElementById("guide-updated");
-  if (updatedEl && targetEl.previousElementSibling !== updatedEl) {
-    updatedEl.after(targetEl);
-  }
   const target = guideData.guide_target;
   if (targetEl && target && target.label && target.platform && target.url) {
     const display = target.label + " · " + target.platform;
@@ -141,14 +134,11 @@ function renderHome() {
     </button></li>`;
   }).join("");
   const totalPct = overallProgressPercent();
-  let totalEl = document.getElementById("total-progress");
-  if (!totalEl) {
-    totalEl = document.createElement("p");
-    totalEl.id = "total-progress";
-    list.before(totalEl);
+  const totalEl = document.getElementById("total-progress");
+  if (totalEl) {
+    totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
+    totalEl.textContent = `全体進行度: ${totalPct}%`;
   }
-  totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
-  totalEl.textContent = `全体進行度: ${totalPct}%`;
 
   if (updatedEl && guideData.generated_at) {
     const d = new Date(guideData.generated_at);

@@ -421,7 +421,9 @@ button#toggle-details {
 
 .flowchart-body {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  overscroll-behavior-y: contain;
   padding: 14px;
 }
 
@@ -582,7 +584,8 @@ button#toggle-details {
   overflow-y: hidden;
   background: var(--surface);
   touch-action: pan-x pan-y;
-  overscroll-behavior: contain;
+  overscroll-behavior-x: contain;
+  overscroll-behavior-y: auto;
   border: 1px solid var(--border);
   border-radius: 9px;
   -webkit-overflow-scrolling: touch;

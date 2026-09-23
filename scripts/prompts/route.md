@@ -20,12 +20,14 @@ For an opted-in linear game walkthrough, this "route" is simply the next sequent
 
 1. Read `$RESEARCH_FILE`.
 2. Read and preserve the exact `guide_target` from research. Do not reinterpret the VNDB work ID as the target release.
-3. Confirm Japanese verification Set A and Set B both satisfy the canonical research gate for this route **and the exact guide target release**. If not, stop without generating route content.
-4. Fetch the relevant components of both sets directly.
-5. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
+3. For an explicitly opted-in non-VN guide, check the game supplement **before failing the normal A/B gate**. If it contains an owner-approved title-scoped exception, verify that research records the approval provenance and exact enumerated scope; do not create or broaden the exception yourself.
+4. Confirm Japanese Set A and Set B satisfy the canonical research gate for this route and exact target for every normally gated fact. An exact fact covered by a valid owner exception may use only the source roles that exception explicitly permits; if any unlisted fact lacks the normal coverage, stop without generating route content.
+5. Fetch the relevant Japanese and exception-approved supplemental source components directly.
+6. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
+   - For an opted-in non-VN guide, also reconcile the full canonical material-progression set: section/order progression, required story progression, irreversible choices, timing-critical optional placement, and missable/limited or unique-reward conditions presented as required for completion. One-source coverage is allowed only for genuinely low-level non-branching execution details unless an exact owner exception applies.
    - When sources show different literal choices within the same event, first determine whether they are different decision points in one sequence; if so, preserve both in order instead of treating them as contradictory.
-6. If the game supplement contains an explicit owner-approved title-scoped exception, apply it only to the enumerated facts and keep omission placeholders/source roles honest exactly as the supplement requires.
-7. Write the complete route as a JSON array to `$ROUTE_FILE`.
+7. Apply any valid owner exception only to its enumerated facts and keep omission placeholders/source roles honest exactly as the supplement requires.
+8. Write the complete route as a JSON array to `$ROUTE_FILE`.
 
 
 ### Step format
@@ -52,11 +54,11 @@ For an explicitly opted-in non-VN linear walkthrough only, follow the game-walkt
 Both `jpGuide1` and `jpGuide2` must be non-empty on every step.
 
 - Use exact verbatim source text when that set prints the step.
-- Main-route-defining choices, prerequisites/unlocks, and route/main endings must be independently supported by **both** sets. If one set cannot support such a fact, stop and repair the research/source gate.
+- Main-route-defining choices, prerequisites/unlocks, and route/main endings must be independently supported by **both** sets unless that exact fact is covered by a valid owner-approved title-scoped exception. If an unlisted fact lacks support, stop and repair the research/source gate.
 - For a non-route-defining save/load/repeated UI action **or optional non-main-ending-only step** documented by only one primary set while the other is silent/non-contradictory:
   - Set A missing → `jpGuide1` is exactly `（第一ガイドに記載なし）`.
   - Set B missing → `jpGuide2` is exactly `（第二ガイドに記載なし）`.
-- Never use an omission placeholder to hide missing independent support for a main-route-defining fact.
+- Never use an omission placeholder to hide missing independent support for a main-route-defining fact outside a valid exception. For an exception-covered fact, use an omission placeholder only when the supplement explicitly permits that missing Japanese lane.
 - One-source optional non-main endings (bad, normal, alternate, or similarly labeled) are allowed when the other primary set is silent/non-contradictory; if the other set contradicts that ending, stop and reconcile the conflict before generating it.
 - Never copy one source into the other source field.
 - Never leave either field empty.

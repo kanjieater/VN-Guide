@@ -28,6 +28,19 @@ This title is an ordinary SRPG, not a visual novel. Apply the explicitly scoped 
 - Routine tactics, recommended positioning, ordinary enemy cleanup, and other non-gating advice should normally remain optional detail on the relevant battle step rather than becoming mandatory progression steps.
 - If a battle can be skipped, lost intentionally, won for a unique reward, or completed under a turn/kill condition that changes later content, preserve that consequence at the exact point where the battle occurs.
 
+## Locked research lanes for this title
+
+To avoid repeatedly rediscovering the same dead ends, keep these source roles fixed unless a newly discovered source is directly inspectable and materially stronger:
+
+- **Set A is fixed:** Fragments Of Memories (derith) is the independent contemporary Japanese play diary and chronology lane.
+- **Set B is a composite, not one missing magic walkthrough:** use the directly inspectable Japanese FC2 child pages, CRADLE battle ordering, Japanese ending/NG+ sources, Wazap/5ch corroboration, and other directly inspectable Japanese components already enumerated in `research.json`. Extend Set B only with a directly inspected Japanese source that closes a specific remaining progression-critical gap.
+- **TSST is derivative supplemental Japanese evidence only.** Its author explicitly says the bonus-scenario notes were preserved from an older vanished site. It is useful for trigger text and as a search lead, but it cannot establish independent Set-B verification.
+- **FFSKY/SquareCN is a detailed original Chinese walkthrough, not the vanished Japanese archive.** Its author says the guide was written from his own month of work/play. It already supplies practical trigger chains, battle consequences, and useful hints for the unresolved scenarios. Preserve those facts for translated `enGuide` use, but it cannot satisfy the Japanese Set-A/Set-B gate.
+- **Blocked FC2 search snippets are leads only.** Do not treat snippets as inspected evidence.
+- **The 2004 攻略スレ, BLUE MATRIX lead, official-guide interiors, mirrors, and caches are recovery leads only.** Do not spend another pass broadly rediscovering these same leads. Retry one only when a concrete directly inspectable URL/page/scan has been found.
+
+The unresolved research task is therefore **Japanese corroboration, not gameplay discovery**. The operational trigger chains are already known from supplemental sources; research should target only the exact Japanese facts still listed as open in `research.json`.
+
 ## Supplemental English-reference lane
 
 - The detailed Chinese FFSKY/SquareCN walkthrough is supplemental only and never satisfies Japanese Set A or Set B.

@@ -87,6 +87,31 @@ class ManualGameIsolationTests(unittest.TestCase):
 
 
 class SharedGuideShellTests(unittest.TestCase):
+    def test_committed_guide_shells_all_match_shared_template(self):
+        template = (ROOT / "scripts" / "templates" / "guide_stub.html").read_text(
+            encoding="utf-8"
+        )
+        guide_dirs = sorted(
+            path for path in ROOT.iterdir()
+            if path.is_dir() and (path / "guide.json").exists()
+        )
+        self.assertTrue(guide_dirs)
+        for guide_dir in guide_dirs:
+            with self.subTest(guide=guide_dir.name):
+                self.assertEqual(
+                    (guide_dir / "index.html").read_text(encoding="utf-8"),
+                    template,
+                )
+
+    def test_shared_template_fixes_metadata_order(self):
+        template = (ROOT / "scripts" / "templates" / "guide_stub.html").read_text(
+            encoding="utf-8"
+        )
+        updated = template.index('id="guide-updated"')
+        target = template.index('id="guide-target"')
+        self.assertLess(updated, target)
+        self.assertIn('class="guide-meta"', template)
+
     def test_scaffold_uses_exact_shared_html_shell(self):
         with tempfile.TemporaryDirectory() as td:
             repo_path = Path(td)

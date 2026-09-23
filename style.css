@@ -531,23 +531,35 @@ button#toggle-details {
 }
 
 .flowchart-zoom {
+  position: fixed;
+  right: max(12px, calc((100vw - 600px) / 2 + 12px));
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 14px);
+  z-index: 40;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 6px;
-  margin: 0 0 6px;
+  margin: 0;
+  padding: 7px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(30, 30, 30, 0.94);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(8px);
 }
 
 .flowchart-zoom button {
-  min-width: 38px;
-  min-height: 32px;
-  padding: 4px 10px;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 0;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 9px;
   background: var(--surface);
   color: var(--text);
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
   touch-action: manipulation;
 }
@@ -557,10 +569,11 @@ button#toggle-details {
 }
 
 .flowchart-zoom-readout {
-  min-width: 46px;
-  color: #888;
+  min-width: 48px;
+  color: #aaa;
   font-size: 12px;
-  text-align: right;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
 }
 
 .flowchart-canvas {

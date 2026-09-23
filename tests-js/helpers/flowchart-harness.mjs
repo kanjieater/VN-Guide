@@ -15,6 +15,17 @@ export async function createFlowchartRuntime() {
     callback(0);
     return 1;
   };
+  window.cancelAnimationFrame = () => {};
+  Object.defineProperty(globalThis, "requestAnimationFrame", {
+    configurable: true,
+    writable: true,
+    value: window.requestAnimationFrame.bind(window),
+  });
+  Object.defineProperty(globalThis, "cancelAnimationFrame", {
+    configurable: true,
+    writable: true,
+    value: window.cancelAnimationFrame.bind(window),
+  });
   Object.defineProperty(globalThis, "window", {
     configurable: true,
     writable: true,

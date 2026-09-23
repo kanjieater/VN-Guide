@@ -1,13 +1,16 @@
 {
-  "name": "vn-guide-tests",
+  "name": "vn-guide",
   "private": true,
   "type": "module",
+  "packageManager": "bun@1.4.2",
   "scripts": {
-    "test:js": "node --test tests-js/*.test.mjs",
-    "coverage:js": "c8 --all --include=guide-app.js --include=flowchart.js --reporter=text --reporter=cobertura --reports-dir=coverage-js node --test tests-js/*.test.mjs"
+    "generate": "bun tools/generate-cli.mjs",
+    "generate:check": "bun tools/generate-cli.mjs --check",
+    "test": "bun test --concurrent --max-concurrency=20",
+    "test:coverage": "bun test --coverage --concurrent --max-concurrency=20",
+    "coverage:diff": "bun tools/check-diff-coverage.mjs"
   },
   "devDependencies": {
-    "c8": "10.1.3",
     "jsdom": "26.1.0"
   }
 }

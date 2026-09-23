@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
-import test from "node:test";
+import { test } from "bun:test";
 
 import { JSDOM } from "jsdom";
 
@@ -91,7 +91,7 @@ async function bootApp({
   window.clearTimeout = () => {};
 
   const fetchCalls = [];
-  window.fetch = async input => {
+  window.fetch = async inpu() => {
     const url = String(input);
     fetchCalls.push(url);
 
@@ -118,7 +118,7 @@ async function bootApp({
 }
 
 
-test("reader can start, advance, reload, finish, and backtrack through a route transition", async t => {
+test("reader can start, advance, reload, finish, and backtrack through a route transition", async () => {
   const guide = {
     title: "Demo VN",
     generated_at: "2026-09-23T12:00:00Z",
@@ -138,7 +138,6 @@ test("reader can start, advance, reload, finish, and backtrack through a route t
   };
 
   const first = await bootApp({ guide, routes });
-  t.after(() => first.dom.window.close());
 
   assert.equal(first.window.document.title, "Demo VN ガイド");
   assert.match(first.window.document.getElementById("route-list").textContent, /ルート 1/);
@@ -157,7 +156,6 @@ test("reader can start, advance, reload, finish, and backtrack through a route t
     routes,
     storage: { [stateKey("/game/")]: persistedState },
   });
-  t.after(() => second.dom.window.close());
 
   await second.window.startRoute("a");
   assert.equal(second.window.document.getElementById("step-counter").textContent, "2 / 2 (100%)");
@@ -182,7 +180,7 @@ test("reader can start, advance, reload, finish, and backtrack through a route t
 });
 
 
-test("flowchart exploration is preview-only until the reader explicitly continues", async t => {
+test("flowchart exploration is preview-only until the reader explicitly continues", async () => {
   const guide = {
     title: "Preview VN",
     routes: [
@@ -201,7 +199,6 @@ test("flowchart exploration is preview-only until the reader explicitly continue
   };
 
   const app = await bootApp({ guide });
-  t.after(() => app.dom.window.close());
 
   await app.window.startRoute("a");
   await app.window.nextStep();
@@ -237,7 +234,7 @@ test("flowchart exploration is preview-only until the reader explicitly continue
 });
 
 
-test("spoiler protection, settings persistence, and linear-game behavior match the reader model", async t => {
+test("spoiler protection, settings persistence, and linear-game behavior match the reader model", async () => {
   const guide = {
     title: "Spoiler VN",
     routes: [
@@ -249,7 +246,6 @@ test("spoiler protection, settings persistence, and linear-game behavior match t
   };
 
   const app = await bootApp({ guide, routes });
-  t.after(() => app.dom.window.close());
 
   let routeList = app.window.document.getElementById("route-list");
   assert.match(routeList.textContent, /ルート 1/);
@@ -274,7 +270,6 @@ test("spoiler protection, settings persistence, and linear-game behavior match t
     },
     routes: { "chapter-1": [{ simpleJp: "Proceed" }] },
   });
-  t.after(() => linear.dom.window.close());
 
   assert.match(linear.window.document.getElementById("route-list").textContent, /Chapter 1/);
   assert.equal(linear.window.document.getElementById("btn-flowchart").style.display, "none");
@@ -283,7 +278,7 @@ test("spoiler protection, settings persistence, and linear-game behavior match t
 });
 
 
-test("bad-end instructions remain understandable in both slide and jump-list views", async t => {
+test("bad-end instructions remain understandable in both slide and jump-list views", async () => {
   const guide = {
     title: "Bad End VN",
     routes: [
@@ -305,7 +300,6 @@ test("bad-end instructions remain understandable in both slide and jump-list vie
   };
 
   const app = await bootApp({ guide });
-  t.after(() => app.dom.window.close());
 
   await app.window.startRoute("a");
   const badEnd = app.window.document.getElementById("detail-bad-end");
@@ -335,12 +329,11 @@ test("bad-end instructions remain understandable in both slide and jump-list vie
 });
 
 
-test("failed guide and route fetches leave the user on a recoverable home view", async t => {
+test("failed guide and route fetches leave the user on a recoverable home view", async () => {
   const failedGuide = await bootApp({
     guide: { routes: [] },
     guideFetchOk: false,
   });
-  t.after(() => failedGuide.dom.window.close());
 
   assert.ok(failedGuide.window.document.getElementById("view-home").classList.contains("active"));
   assert.match(failedGuide.window.document.getElementById("home-status").textContent, /ガイド作成中/);
@@ -351,7 +344,6 @@ test("failed guide and route fetches leave the user on a recoverable home view",
       routes: [{ id: "missing", title: "Missing", stepCount: 2 }],
     },
   });
-  t.after(() => missingRoute.dom.window.close());
 
   await missingRoute.window.startRoute("missing");
   assert.ok(missingRoute.window.document.getElementById("view-home").classList.contains("active"));

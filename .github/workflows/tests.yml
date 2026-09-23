@@ -17,28 +17,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: oven-sh/setup-bun@v2
         with:
-          python-version: "3.12"
+          bun-version: "1.4.2"
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
+      - name: Install test dependency
+        run: bun install --no-save
 
-      - name: Install coverage tools
-        run: python -m pip install --disable-pip-version-check coverage diff-cover
+      - name: Verify generated artifacts
+        run: bun run generate:check
 
-      - name: Install JavaScript test dependencies
-        run: npm install --no-audit --no-fund
-
-      - name: Run Python behavior tests with coverage
-        run: |
-          python -m coverage run --branch --source=scripts -m unittest discover -s tests -p "test_*.py"
-          python -m coverage report --show-missing
-          python -m coverage xml -o coverage-python.xml
-
-      - name: Run JavaScript use-case tests with coverage
-        run: npm run coverage:js
+      - name: Run tests in parallel with coverage
+        run: bun run test:coverage
 
       - name: Require 100% coverage on changed executable lines
         env:
@@ -52,7 +42,4 @@ jobs:
           else
             BASE="HEAD^"
           fi
-
-          echo "Checking changed-line coverage against $BASE"
-          diff-cover coverage-python.xml --compare-branch="$BASE" --fail-under=100
-          diff-cover coverage-js/cobertura-coverage.xml --compare-branch="$BASE" --fail-under=100
+          bun tools/check-diff-coverage.mjs "$BASE"

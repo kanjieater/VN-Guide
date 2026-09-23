@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
-import test from "node:test";
+import { test } from "bun:test";
 
 import { JSDOM } from "jsdom";
 
@@ -33,9 +33,8 @@ function loadFlowchart() {
 }
 
 
-test("inferred graph models save/load branches and replay-from-start endings", t => {
+test("inferred graph models save/load branches and replay-from-start endings", () => {
   const runtime = loadFlowchart();
-  t.after(() => runtime.dom.window.close());
 
   const branched = runtime.api.buildRouteGraph({
     id: "a",
@@ -78,9 +77,8 @@ test("inferred graph models save/load branches and replay-from-start endings", t
 });
 
 
-test("detailed sidecars can group real steps, add annotations, and retain navigation identity", t => {
+test("detailed sidecars can group real steps, add annotations, and retain navigation identity", () => {
   const runtime = loadFlowchart();
-  t.after(() => runtime.dom.window.close());
 
   const guide = {
     title: "Detailed VN",
@@ -157,9 +155,8 @@ test("detailed sidecars can group real steps, add annotations, and retain naviga
 });
 
 
-test("sidecar validation fails closed on ambiguous or unsupported topology", t => {
+test("sidecar validation fails closed on ambiguous or unsupported topology", () => {
   const runtime = loadFlowchart();
-  t.after(() => runtime.dom.window.close());
 
   const guide = {
     routes: [
@@ -194,9 +191,8 @@ test("sidecar validation fails closed on ambiguous or unsupported topology", t =
 });
 
 
-test("rendered flowchart supports pointer, keyboard, wheel, pinch, and zoom-control navigation", t => {
+test("rendered flowchart supports pointer, keyboard, wheel, pinch, and zoom-control navigation", () => {
   const runtime = loadFlowchart();
-  t.after(() => runtime.dom.window.close());
 
   const container = runtime.window.document.getElementById("chart");
   const navigations = [];
@@ -291,9 +287,8 @@ test("rendered flowchart supports pointer, keyboard, wheel, pinch, and zoom-cont
 });
 
 
-test("invalid detailed sidecar visibly falls back to the inferred graph", t => {
+test("invalid detailed sidecar visibly falls back to the inferred graph", () => {
   const runtime = loadFlowchart();
-  t.after(() => runtime.dom.window.close());
 
   const warnings = [];
   runtime.window.console.warn = (...args) => warnings.push(args);

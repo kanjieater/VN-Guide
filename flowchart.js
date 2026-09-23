@@ -176,6 +176,14 @@
   }
 
   function nodeProgressState(node, progressState) {
+    // Sidecar-only synthetic alternatives have navigation coordinates, not
+    // proof that the player actually visited that branch. Keep them neutral
+    // unless a synthetic construct defines explicit progress evidence
+    // (currently groups via seenStepIndex/currentStepIndexes).
+    if (node.synthetic && !Number.isInteger(node.seenStepIndex)) {
+      return { seen: false, current: false, known: false };
+    }
+
     const seenProgress = progressValue(progressState && progressState.seen, node.routeId);
     const currentProgress = progressValue(progressState && progressState.current, node.routeId);
     const seenTarget = Number.isInteger(node.seenStepIndex)
@@ -185,10 +193,14 @@
     const seen = Number.isInteger(seenTarget)
       ? (seenTarget < 0 ? seenProgress != null : seenProgress != null && seenProgress >= seenTarget)
       : false;
-    const current = Number.isInteger(node.stepIndex) && node.stepIndex >= 0 &&
-      currentProgress === node.stepIndex;
+    const currentTargets = Array.isArray(node.currentStepIndexes)
+      ? node.currentStepIndexes
+      : [node.stepIndex];
+    const current = currentTargets.some(stepIndex =>
+      Number.isInteger(stepIndex) && stepIndex >= 0 && currentProgress === stepIndex
+    );
 
-    return { seen, current };
+    return { seen, current, known: true };
   }
 
   function renderNode(svg, node, onNavigate, progressState) {
@@ -201,11 +213,13 @@
       node.routeId &&
       Number.isInteger(node.stepIndex);
     const progress = nodeProgressState(node, progressState);
-    const progressClass = progress.current
-      ? " flow-node-current"
-      : progress.seen
-        ? " flow-node-seen"
-        : " flow-node-unseen";
+    const progressClass = !progress.known
+      ? " flow-node-neutral"
+      : progress.current
+        ? " flow-node-current"
+        : progress.seen
+          ? " flow-node-seen"
+          : " flow-node-unseen";
     const group = el("g", {
       class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}${progressClass}`,
       transform: `translate(${x} ${y})`,
@@ -526,6 +540,57 @@
     });
   }
 
+  function requireContiguousGroup(graph, members, groupId) {
+    const memberIds = new Set(members.map(node => node.id));
+    const internal = graph.edges.filter(edge =>
+      memberIds.has(edge.from) && memberIds.has(edge.to)
+    );
+    const incoming = graph.edges.filter(edge =>
+      memberIds.has(edge.to) && !memberIds.has(edge.from)
+    );
+    const outgoing = graph.edges.filter(edge =>
+      memberIds.has(edge.from) && !memberIds.has(edge.to)
+    );
+
+    if (incoming.length !== 1 || outgoing.length !== 1 ||
+        internal.length !== members.length - 1) {
+      throw new Error(
+        `Group ${groupId} must resolve to one contiguous chain with a single entry and exit`
+      );
+    }
+
+    const inDegree = new Map(members.map(node => [node.id, 0]));
+    const outDegree = new Map(members.map(node => [node.id, 0]));
+    const nextById = new Map();
+    for (const edge of internal) {
+      inDegree.set(edge.to, inDegree.get(edge.to) + 1);
+      outDegree.set(edge.from, outDegree.get(edge.from) + 1);
+      if (nextById.has(edge.from)) {
+        throw new Error(`Group ${groupId} contains an internal branch`);
+      }
+      nextById.set(edge.from, edge.to);
+    }
+
+    const starts = members.filter(node => inDegree.get(node.id) === 0);
+    const ends = members.filter(node => outDegree.get(node.id) === 0);
+    if (starts.length !== 1 || ends.length !== 1 ||
+        incoming[0].to !== starts[0].id || outgoing[0].from !== ends[0].id) {
+      throw new Error(`Group ${groupId} is not a contiguous rendered chain`);
+    }
+
+    const visited = new Set();
+    let cursor = starts[0].id;
+    while (cursor && !visited.has(cursor)) {
+      visited.add(cursor);
+      cursor = nextById.get(cursor) || null;
+    }
+    if (visited.size !== members.length || cursor !== null) {
+      throw new Error(`Group ${groupId} is not a simple contiguous chain`);
+    }
+
+    return { memberIds, incoming, outgoing };
+  }
+
   function buildEnhancedGraph(guideData, sidecar) {
     validateSidecar(guideData, sidecar);
 
@@ -573,9 +638,8 @@
         throw new Error(`Group ${groupDef.id} resolved across multiple routes`);
       }
 
-      const memberIds = new Set(members.map(node => node.id));
-      const incoming = graph.edges.filter(edge => memberIds.has(edge.to) && !memberIds.has(edge.from));
-      const outgoing = graph.edges.filter(edge => memberIds.has(edge.from) && !memberIds.has(edge.to));
+      const { memberIds, incoming, outgoing } =
+        requireContiguousGroup(graph, members, groupDef.id);
       graph.edges = graph.edges.filter(edge => !memberIds.has(edge.from) && !memberIds.has(edge.to));
       graph.nodes = graph.nodes.filter(node => !memberIds.has(node.id));
 
@@ -592,6 +656,9 @@
         seenStepIndex: Math.max(...members.map(node =>
           Number.isInteger(node.stepIndex) ? node.stepIndex : -1
         )),
+        currentStepIndexes: members
+          .map(node => node.stepIndex)
+          .filter(Number.isInteger),
         synthetic: true,
       };
       graph.nodes.push(groupNode);
@@ -880,5 +947,11 @@
     });
   }
 
-  window.VNFlowchart = { buildRouteGraph, validateSidecar, buildEnhancedGraph, render };
+  window.VNFlowchart = {
+    buildRouteGraph,
+    validateSidecar,
+    buildEnhancedGraph,
+    nodeProgressState,
+    render,
+  };
 })();

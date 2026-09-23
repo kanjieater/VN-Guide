@@ -103,14 +103,15 @@ class SharedGuideShellTests(unittest.TestCase):
                     template,
                 )
 
-    def test_shared_template_fixes_metadata_order(self):
+    def test_shared_template_is_only_a_bootstrap_shell(self):
         template = (ROOT / "scripts" / "templates" / "guide_stub.html").read_text(
             encoding="utf-8"
         )
-        updated = template.index('id="guide-updated"')
-        target = template.index('id="guide-target"')
-        self.assertLess(updated, target)
-        self.assertIn('class="guide-meta"', template)
+        self.assertLessEqual(len(template.splitlines()), 24)
+        self.assertIn('<div id="app"></div>', template)
+        self.assertIn('<script src="../guide-app.js"></script>', template)
+        self.assertNotIn('id="view-home"', template)
+        self.assertNotIn('id="route-list"', template)
 
     def test_scaffold_uses_exact_shared_html_shell(self):
         with tempfile.TemporaryDirectory() as td:

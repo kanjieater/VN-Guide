@@ -543,6 +543,7 @@ async function nextStep() {
       view: "route",
       routeId: route.id,
       step: state.progress[route.id],
+      fromView: currentNavigation().fromView || null,
     }, "replace");
     return;
   }
@@ -590,6 +591,7 @@ async function prevStep() {
       view: "route",
       routeId: route.id,
       step: state.progress[route.id],
+      fromView: currentNavigation().fromView || null,
     }, "replace");
     return;
   }

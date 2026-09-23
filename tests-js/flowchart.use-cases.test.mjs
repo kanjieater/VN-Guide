@@ -258,7 +258,8 @@ test.serial("rendered flowchart supports pointer, keyboard, wheel, pinch, and zo
 
 test.serial("invalid detailed sidecar visibly falls back to the inferred graph", async () => {
   const warnings = [];
-  runtime.window.console.warn = (...args) => warnings.push(args);
+  const originalWarn = console.warn;
+  console.warn = (...args) => warnings.push(args);
 
   const container = resetChart(runtime);
   runtime.api.render(
@@ -278,6 +279,7 @@ test.serial("invalid detailed sidecar visibly falls back to the inferred graph",
     {}
   );
 
+  console.warn = originalWarn;
   assert.equal(warnings.length, 1);
   assert.match(container.querySelector(".flowchart-note").textContent, /推定分岐図/);
   assert.equal(container.querySelectorAll(".flowchart-route").length, 1);

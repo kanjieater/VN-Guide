@@ -280,8 +280,7 @@
     "simpleJp": "まだこれからです",
     "jpGuide1": "まだこれからです　→　悲恋エンド",
     "jpGuide2": "まだこれからです　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ70にロード",
@@ -561,7 +560,7 @@
     "jpGuide1": "近藤さんの話題",
     "jpGuide2": "薬を与える",
     "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "近藤さんもわかっているはず",
@@ -585,8 +584,7 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "我慢させる　→　BADエンド（スタッフロールなし②）",
     "jpGuide2": "我慢させる",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "駄目です",

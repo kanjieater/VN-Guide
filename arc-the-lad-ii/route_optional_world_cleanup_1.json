@@ -33,7 +33,7 @@
     "simpleJp": "G#18「私をインディゴスに連れてって」を大成功で完了する",
     "jpGuide1": "私をインディゴスに連れてって",
     "jpGuide2": "大成功　3500G　6GP　「斧使い」マーグを撃破する",
-    "enGuide": "Defeat Marg. Great success is required for later G#10."
+    "enGuide": "Aim for great success here and preserve that result for the later G#10 completion route."
   },
   {
     "simpleJp": "G#19「辻斬り御用」を完了する",
@@ -45,7 +45,7 @@
     "simpleJp": "G#09「続・インディゴス宝石強盗団」を完了する",
     "jpGuide1": "続・インディゴス宝石団",
     "jpGuide2": "G#09　続・インディゴス宝石強盗団",
-    "enGuide": "Your earlier G#03 result should satisfy its prerequisite."
+    "enGuide": "Complete this sequel job now while the earlier G#03 result is still available to the chain."
   },
   {
     "simpleJp": "G#13「武器ドロボウ退治」を完了する",
@@ -63,13 +63,13 @@
     "simpleJp": "G#21「先祖の宝捜し　その後」を完了する",
     "jpGuide1": "先祖の宝捜し　その後",
     "jpGuide2": "G#21　先祖の宝捜し　その後",
-    "enGuide": "Requires G#20."
+    "enGuide": "Continue directly with the second Palencia treasure job."
   },
   {
     "simpleJp": "G#22「父さんの仇討ちの助太刀をして」を完了する",
     "jpGuide1": "父さんの仇討ちの助太刀をして",
     "jpGuide2": "G#22　父さんの仇討ちの助太刀をして",
-    "enGuide": "Requires G#21."
+    "enGuide": "Finish the Palencia treasure-job sequence now."
   },
   {
     "simpleJp": "G#33「家を探してます」を完了する",
@@ -93,6 +93,6 @@
     "simpleJp": "G#51「続・砂漠の盗賊団」を完了する",
     "jpGuide1": "続・砂漠の盗賊団",
     "jpGuide2": "G#51　続・砂漠の盗賊団",
-    "enGuide": "Requires G#50 and also clears the wanted target Zanac during the fight."
+    "enGuide": "Complete the second Alibarsha desert-bandit job immediately after G#50."
   }
 ]

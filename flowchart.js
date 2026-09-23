@@ -261,6 +261,53 @@
       "aria-label": `${route.title || route.id} の自動生成分岐図`,
     });
 
+    const zoomBar = document.createElement("div");
+    zoomBar.className = "flowchart-zoom";
+    const zoomOut = document.createElement("button");
+    zoomOut.type = "button";
+    zoomOut.textContent = "−";
+    zoomOut.setAttribute("aria-label", "縮小");
+    const fit = document.createElement("button");
+    fit.type = "button";
+    fit.textContent = "全体";
+    fit.setAttribute("aria-label", "幅に合わせて全体表示");
+    const zoomIn = document.createElement("button");
+    zoomIn.type = "button";
+    zoomIn.textContent = "＋";
+    zoomIn.setAttribute("aria-label", "拡大");
+    const zoomReadout = document.createElement("span");
+    zoomReadout.className = "flowchart-zoom-readout";
+    zoomBar.append(zoomOut, fit, zoomIn, zoomReadout);
+
+    let scale = 1;
+    let fitMode = true;
+
+    function applyScale(nextScale) {
+      scale = Math.max(0.15, Math.min(2.5, nextScale));
+      svg.style.width = `${Math.round(width * scale)}px`;
+      svg.style.height = `${Math.round(height * scale)}px`;
+      zoomReadout.textContent = `${Math.round(scale * 100)}%`;
+    }
+
+    function fitToWidth() {
+      const availableWidth = Math.max(1, scroller.clientWidth - 2);
+      applyScale(Math.min(1, availableWidth / width));
+      scroller.scrollLeft = 0;
+    }
+
+    zoomOut.addEventListener("click", () => {
+      fitMode = false;
+      applyScale(scale / 1.25);
+    });
+    zoomIn.addEventListener("click", () => {
+      fitMode = false;
+      applyScale(scale * 1.25);
+    });
+    fit.addEventListener("click", () => {
+      fitMode = true;
+      fitToWidth();
+    });
+
     const defs = el("defs");
     const marker = el("marker", {
       id: "flow-arrow",
@@ -284,7 +331,17 @@
     graph.nodes.forEach(node => renderNode(svg, node, route, onNavigate));
 
     scroller.appendChild(svg);
+    section.appendChild(zoomBar);
     section.appendChild(scroller);
+
+    requestAnimationFrame(fitToWidth);
+    if (window.ResizeObserver) {
+      const resizeObserver = new ResizeObserver(() => {
+        if (fitMode) fitToWidth();
+      });
+      resizeObserver.observe(scroller);
+    }
+
     return section;
   }
 

@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "シュウとシャンテでトウヴィルからパレンシアへ向かう",
+    "jpGuide1": "操作するキャラがシュウとシャンテになる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Begin the first split-party arc and move through Touvil to Palencia."
+  },
+  {
+    "simpleJp": "ダウンタウンでペペに依頼する",
+    "jpGuide1": "そのペペに話し、酒をおごって依頼をする。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Get Pepe's help before heading to Quina Hill."
+  },
+  {
+    "simpleJp": "クイナの丘で「微かに光る石」を4個集める",
+    "jpGuide1": "「微かに光る石」を４回戦って４つ入手する。",
+    "jpGuide2": "微かに光る石4つ入手",
+    "enGuide": "One wyvern in each fight guarantees the stone; collect all four."
+  },
+  {
+    "simpleJp": "ロマリア戦艦を最深部まで攻略する",
+    "jpGuide1": "最深部で飛行船を上げたら、右のスイッチを切り替える。",
+    "jpGuide2": "ロマリア戦艦終了",
+    "enGuide": "Use the local switches to open doors and finish the battleship sequence."
+  }
+]

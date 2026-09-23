@@ -54,7 +54,7 @@ class SharedGuideUiTests(unittest.TestCase):
         flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
         self.assertIn("function createZoomGroup(container)", flowchart)
         self.assertIn("const zoomGroup = createZoomGroup(container);", flowchart)
-        self.assertIn("renderRoute(route, onNavigate, progressState, zoomGroup)", flowchart)
+        self.assertIn("renderRoute(route, index, onNavigate, progressState, zoomGroup)", flowchart)
         self.assertIn("zoomGroup.zoomBy(factor, zoomController, event.clientX)", flowchart)
 
     def test_flowchart_vertical_scroll_is_not_trapped_by_horizontal_canvas(self):
@@ -100,6 +100,34 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn('return { seen: false, current: false, known: false };', flowchart)
         self.assertIn('" flow-node-neutral"', flowchart)
         self.assertIn(".flow-node-neutral .flow-node-shape", style)
+
+    def test_existing_route_spoiler_masking_applies_to_games_and_flowcharts(self):
+        source = APP.read_text(encoding="utf-8")
+        flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
+        self.assertIn(
+            'const hiddenTitle = isLinearGame ? `セクション ${routeIdx + 1}` : `ルート ${routeIdx + 1}`;',
+            source,
+        )
+        self.assertIn(
+            "const displayTitle = (settings.blurPortraits && !hasProgress) ? hiddenTitle : r.title;",
+            source,
+        )
+        self.assertIn("hideRouteTitles: settings.blurPortraits", source)
+        self.assertIn("routeProgress: state.progress", source)
+        self.assertIn("function routeTitleHidden(routeId, progressState)", flowchart)
+        self.assertIn('node.kind === "route" && routeTitleHidden(node.routeId, progressState)', flowchart)
+        self.assertNotIn('"？？？"', flowchart)
+        self.assertNotIn("hideSpoilers", source)
+
+    def test_flowchart_current_marker_uses_single_derived_stage(self):
+        source = APP.read_text(encoding="utf-8")
+        flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
+        self.assertIn("function deriveCurrentProgress(routes, progressMap)", flowchart)
+        self.assertIn(
+            "current: window.VNFlowchart.deriveCurrentProgress(",
+            source,
+        )
+        self.assertNotIn("current: state.progress,", source)
 
     def test_flowchart_click_is_preview_only_until_next(self):
         source = APP.read_text(encoding="utf-8")

@@ -435,7 +435,8 @@ function renderHome() {
     const portrait = r.portrait
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
-    const displayTitle = (!isLinearGame && settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
+    const hiddenTitle = isLinearGame ? `セクション ${routeIdx + 1}` : `ルート ${routeIdx + 1}`;
+    const displayTitle = (settings.blurPortraits && !hasProgress) ? hiddenTitle : r.title;
     const statusIcon = r.reviewed === true
       ? '<span class="route-status-icon reviewed-icon" aria-label="検証済み"></span>'
       : '<span class="route-status-icon unreviewed-icon" aria-label="未検証"></span>';
@@ -555,7 +556,15 @@ async function renderFlowchart() {
     await loadFlowchartRenderer();
     window.VNFlowchart.render(content, guideData, jumpFromFlowchart, sidecar, {
       seen: state.seenProgress,
-      current: state.progress,
+      current: window.VNFlowchart.deriveCurrentProgress(
+        guideData.routes || [],
+        state.progress
+      ),
+      routeProgress: state.progress,
+      hideRouteTitles: settings.blurPortraits,
+      routePlaceholders: Object.fromEntries(
+        (guideData.routes || []).map((route, index) => [route.id, `ルート ${index + 1}`])
+      ),
     });
   } catch {
     content.innerHTML = '<p class="flowchart-error">分岐図を読み込めませんでした。</p>';

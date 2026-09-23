@@ -1,17 +1,27 @@
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
-import vm from "node:vm";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { test } from "bun:test";
 import { JSDOM } from "jsdom";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const SOURCE = await readFile(join(ROOT, "flowchart.js"), "utf8");
+const FLOWCHART_URL = pathToFileURL(join(ROOT, "flowchart.js")).href;
+let importCounter = 0;
 
-function runtime() {
-  const dom = new JSDOM("<!doctype html><html><body></body></html>", { runScripts: "outside-only" });
-  new vm.Script(SOURCE, { filename: join(ROOT, "flowchart.js") }).runInContext(dom.getInternalVMContext());
+async function runtime() {
+  const dom = new JSDOM("<!doctype html><html><body></body></html>");
+  Object.defineProperty(globalThis, "window", {
+    configurable: true,
+    writable: true,
+    value: dom.window,
+  });
+  Object.defineProperty(globalThis, "document", {
+    configurable: true,
+    writable: true,
+    value: dom.window.document,
+  });
+  await import(`${FLOWCHART_URL}?sidecar=${++importCounter}`);
   return { dom, api: dom.window.VNFlowchart };
 }
 
@@ -27,7 +37,7 @@ async function loadGame(slug) {
   };
 }
 
-test("every committed detailed sidecar satisfies the runtime contract", async () => {
+test.serial("every committed detailed sidecar satisfies the runtime contract", async () => {
   const entries = await readdir(ROOT, { withFileTypes: true });
   const slugs = [];
   for (const entry of entries) {
@@ -39,7 +49,7 @@ test("every committed detailed sidecar satisfies the runtime contract", async ()
   }
   assert.ok(slugs.length > 0);
 
-  const { dom, api } = runtime();
+  const { dom, api } = await runtime();
   for (const slug of slugs) {
     const { guide, sidecar } = await loadGame(slug);
     assert.doesNotThrow(() => api.buildEnhancedGraph(guide, sidecar), slug);
@@ -47,9 +57,9 @@ test("every committed detailed sidecar satisfies the runtime contract", async ()
   dom.window.close();
 });
 
-test("Himawari detailed graph preserves non-flat unlock topology", async () => {
+test.serial("Himawari detailed graph preserves non-flat unlock topology", async () => {
   const { guide, sidecar } = await loadGame("himawari");
-  const { dom, api } = runtime();
+  const { dom, api } = await runtime();
   const graph = api.buildEnhancedGraph(guide, sidecar);
   const nodes = new Map(graph.nodes.map(node => [node.id, node]));
   const edges = new Set(graph.edges.map(edge =>

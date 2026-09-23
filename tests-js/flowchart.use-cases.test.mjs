@@ -74,6 +74,7 @@ test("inferred graph models save/load branches and replay-from-start endings", (
     replay.edges.some(edge => edge.from === ending.id && edge.to === secondPass.id),
     false
   );
+  runtime.dom.window.close();
 });
 
 
@@ -152,6 +153,7 @@ test("detailed sidecars can group real steps, add annotations, and retain naviga
     }))),
     { seen: false, current: false, known: false }
   );
+  runtime.dom.window.close();
 });
 
 
@@ -188,6 +190,7 @@ test("sidecar validation fails closed on ambiguous or unsupported topology", () 
     }),
     /positive integer/
   );
+  runtime.dom.window.close();
 });
 
 
@@ -289,6 +292,7 @@ test("rendered flowchart supports pointer, keyboard, wheel, pinch, and zoom-cont
 
   controls[1].click();
   assert.match(container.querySelector(".flowchart-zoom-readout").textContent, /%/);
+  runtime.dom.window.close();
 });
 
 
@@ -319,4 +323,5 @@ test("invalid detailed sidecar visibly falls back to the inferred graph", () => 
   assert.equal(warnings.length, 1);
   assert.match(container.querySelector(".flowchart-note").textContent, /推定分岐図/);
   assert.equal(container.querySelectorAll(".flowchart-route").length, 1);
+  runtime.dom.window.close();
 });

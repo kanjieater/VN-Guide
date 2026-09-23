@@ -109,7 +109,9 @@ class SharedGuideShellTests(unittest.TestCase):
         )
         self.assertLessEqual(len(template.splitlines()), 24)
         self.assertIn('<div id="app"></div>', template)
-        self.assertIn('<script src="../guide-app.js"></script>', template)
+        self.assertIn('window.__guideAssetVersion=Date.now()', template)
+        self.assertIn('../style.css?v="+window.__guideAssetVersion', template)
+        self.assertIn('../guide-app.js?v="+window.__guideAssetVersion', template)
         self.assertNotIn('id="view-home"', template)
         self.assertNotIn('id="route-list"', template)
 
@@ -133,8 +135,9 @@ class SharedGuideShellTests(unittest.TestCase):
                 encoding="utf-8"
             )
             self.assertEqual(generated, template.read_text(encoding="utf-8"))
-            self.assertNotIn("guide-app.js?v=", generated)
-            self.assertNotIn("style.css?v=", generated)
+            self.assertIn("guide-app.js?v=", generated)
+            self.assertIn("style.css?v=", generated)
+            self.assertIn("Date.now()", generated)
 
 
 if __name__ == "__main__":

@@ -14,4 +14,4 @@ Use the capabilities available in the current environment. Shell commands are co
 
 Keep author, structural-review, and accuracy-review work in separate contexts. Do not self-approve.
 
-When `games.json` or shared templates change, run `bun run generate` (or make exactly equivalent deterministic updates if Bun is unavailable). CI runs `bun run generate:check` to ensure tracked generated artifacts are synchronized.
+When `games.json` or shared templates change, run `bun run generate` (or make exactly equivalent deterministic updates if Bun is unavailable). The Bun repository-contract tests ensure tracked generated artifacts are synchronized.

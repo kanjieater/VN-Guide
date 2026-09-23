@@ -107,5 +107,5 @@ Do not rerun structural review merely because source metadata changed if no rout
 
 Before a guide change is considered complete, verify tracked generated artifacts are synchronized with their source data.
 
-For example, if `games.json` changes `has_guide` or other landing-visible metadata, root `index.html` must be regenerated or equivalently synchronized according to `tools/generate.mjs` and the landing template. Run `bun run generate` after changing landing-visible repository metadata. CI runs `bun run generate:check` and rejects stale generated artifacts.
+For example, if `games.json` changes `has_guide` or other landing-visible metadata, root `index.html` must be regenerated or equivalently synchronized according to `tools/generate.mjs` and the landing template. Run `bun run generate` after changing landing-visible repository metadata. The Bun repository-contract tests reject stale generated artifacts.
 

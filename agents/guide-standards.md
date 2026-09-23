@@ -309,7 +309,7 @@ Do **not** modify local automated orchestration merely to make a browser or repo
 
 Known dependency in this repo:
 
-- `games.json` → root `index.html` via `tools/generate.mjs::generate_landing()` and `scripts/templates/landing.html`.
+- `games.json` → root `index.html` via `tools/generate.mjs::renderLanding()` and `templates/landing.html`.
 - Therefore changes to landing-visible fields such as `slug`, `title`, `alttitle`, `cover_url`, or `has_guide` must also be reflected in the tracked root `index.html`.
 - A browser/repository agent that cannot run `generate.py` must still update the affected embedded landing data equivalently and verify it matches current `games.json`.
 

@@ -84,11 +84,6 @@ async function bootApp({
     return 1;
   };
   window.cancelAnimationFrame = () => {};
-  window.setTimeout = callback => {
-    callback();
-    return 1;
-  };
-  window.clearTimeout = () => {};
 
   const fetchCalls = [];
   window.fetch = async input => {
@@ -165,6 +160,7 @@ test("reader can start, advance, reload, finish, and backtrack through a route t
   assert.match(second.window.document.getElementById("simple-instruction").textContent, /Beta/);
 
   await second.window.prevStep();
+  await settle();
   assert.equal(second.window.document.getElementById("step-counter").textContent, "2 / 2 (100%)");
   assert.equal(readState(second.window).progress.a, 1);
 
@@ -348,5 +344,9 @@ test("failed guide and route fetches leave the user on a recoverable home view",
   await missingRoute.window.startRoute("missing");
   assert.ok(missingRoute.window.document.getElementById("view-home").classList.contains("active"));
   assert.match(missingRoute.window.document.getElementById("home-status").textContent, /生成中/);
-  assert.equal(readState(missingRoute.window), null);
+  assert.deepEqual(readState(missingRoute.window), {
+    currentRoute: null,
+    progress: {},
+    seenProgress: {},
+  });
 });

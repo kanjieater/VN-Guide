@@ -61,6 +61,7 @@
         depth,
         row: row++,
         stepIndex,
+        routeId: route.id,
         ...(extra || {}),
       };
       nodes.push(node);
@@ -139,44 +140,56 @@
     return node;
   }
 
+  function nodeHeight(node) {
+    if (node.kind === "group") {
+      return Math.max(NODE_HEIGHT, 44 + (node.items || []).length * 18);
+    }
+    return NODE_HEIGHT;
+  }
+
   function nodeCenter(node) {
     return {
       x: PADDING_X + node.depth * LANE_GAP + NODE_WIDTH / 2,
-      y: PADDING_Y + node.row * ROW_GAP + NODE_HEIGHT / 2,
+      y: PADDING_Y + node.row * ROW_GAP + nodeHeight(node) / 2,
     };
   }
 
   function renderEdge(svg, fromNode, toNode, kind) {
     const from = nodeCenter(fromNode);
     const to = nodeCenter(toNode);
-    const startY = from.y + NODE_HEIGHT / 2;
-    const endY = to.y - NODE_HEIGHT / 2;
+    const startY = from.y + nodeHeight(fromNode) / 2;
+    const endY = to.y - nodeHeight(toNode) / 2;
     const midY = Math.min(endY - 12, startY + Math.max(22, (endY - startY) / 2));
+    const edgeKind = kind && kind !== "normal" ? ` flow-edge-${kind}` : "";
     const path = el("path", {
       d: `M ${from.x} ${startY} V ${midY} H ${to.x} V ${endY}`,
-      class: `flow-edge ${kind === "detour" ? "flow-edge-detour" : ""}`,
+      class: `flow-edge${edgeKind}`,
       "marker-end": "url(#flow-arrow)",
     });
     svg.appendChild(path);
   }
 
-  function renderNode(svg, node, route, onNavigate) {
+  function renderNode(svg, node, onNavigate) {
+    const height = nodeHeight(node);
     const center = nodeCenter(node);
     const x = center.x - NODE_WIDTH / 2;
-    const y = center.y - NODE_HEIGHT / 2;
-    const navigable = typeof onNavigate === "function";
+    const y = center.y - height / 2;
+    const navigable =
+      typeof onNavigate === "function" &&
+      node.routeId &&
+      Number.isInteger(node.stepIndex);
     const group = el("g", {
       class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}`,
       transform: `translate(${x} ${y})`,
       ...(navigable ? {
         role: "link",
         tabindex: "0",
-        "aria-label": `${node.label || route.title || route.id} をガイドで開く`,
+        "aria-label": `${node.label || node.routeId} をガイドで開く`,
       } : {}),
     });
 
     if (navigable) {
-      const navigate = () => onNavigate(route.id, node.stepIndex);
+      const navigate = () => onNavigate(node.routeId, node.stepIndex);
       group.addEventListener("click", navigate);
       group.addEventListener("keydown", event => {
         if (event.key === "Enter" || event.key === " ") {
@@ -188,7 +201,7 @@
 
     if (node.kind === "branch") {
       const cx = NODE_WIDTH / 2;
-      const cy = NODE_HEIGHT / 2;
+      const cy = height / 2;
       const size = 24;
       group.appendChild(el("polygon", {
         points: `${cx},${cy-size} ${cx+size},${cy} ${cx},${cy+size} ${cx-size},${cy}`,
@@ -207,41 +220,191 @@
         x: 0,
         y: 0,
         width: NODE_WIDTH,
-        height: NODE_HEIGHT,
+        height,
         rx: node.kind === "end" ? 20 : 9,
         class: "flow-node-shape",
       }));
-      const lines = wrapLabel(node.label, 17);
-      const lineHeight = 16;
-      const firstY = NODE_HEIGHT / 2 - ((lines.length - 1) * lineHeight) / 2 + 5;
-      lines.forEach((lineText, index) => {
+
+      if (node.kind === "group") {
         const label = el("text", {
           x: NODE_WIDTH / 2,
-          y: firstY + index * lineHeight,
+          y: 22,
           "text-anchor": "middle",
-          class: "flow-node-text",
+          class: "flow-node-text flow-node-group-title",
         });
-        label.textContent = lineText;
+        label.textContent = node.label;
         group.appendChild(label);
-      });
+        (node.items || []).forEach((item, index) => {
+          const itemLabel = el("text", {
+            x: 12,
+            y: 44 + index * 18,
+            class: "flow-node-text flow-node-group-item",
+          });
+          itemLabel.textContent = `• ${item}`;
+          group.appendChild(itemLabel);
+        });
+      } else {
+        const lines = wrapLabel(node.label, 17);
+        const lineHeight = 16;
+        const firstY = height / 2 - ((lines.length - 1) * lineHeight) / 2 + 5;
+        lines.forEach((lineText, index) => {
+          const label = el("text", {
+            x: NODE_WIDTH / 2,
+            y: firstY + index * lineHeight,
+            "text-anchor": "middle",
+            class: "flow-node-text",
+          });
+          label.textContent = lineText;
+          group.appendChild(label);
+        });
+      }
     }
 
     const title = el("title");
-    title.textContent = node.kind === "branch" ? "セーブ/ロード構造から推定した分岐" : node.label;
+    title.textContent = node.kind === "branch"
+      ? "セーブ/ロード構造から推定した分岐"
+      : node.kind === "group"
+        ? `${node.label}: ${(node.items || []).join(" / ")}`
+        : node.label;
     group.appendChild(title);
     svg.appendChild(group);
   }
 
-  function renderRoute(route, onNavigate) {
-    const graph = buildRouteGraph(route);
+  function resolveRef(graph, ref) {
+    if (!ref || typeof ref !== "object") return null;
+    if (ref.synthetic) {
+      return graph.nodes.find(node => node.id === `sidecar-${ref.synthetic}`) || null;
+    }
+    const routeNodes = graph.nodes.filter(node => node.routeId === ref.route);
+    if (ref.start === true) {
+      return routeNodes.find(node => node.kind === "route") || null;
+    }
+    if (ref.save != null) {
+      return routeNodes.find(node => node.kind === "branch" && String(node.slot) === String(ref.save)) || null;
+    }
+    if (ref.step && ref.step.simpleJp) {
+      const occurrence = Math.max(1, Number(ref.step.occurrence || 1));
+      const matches = routeNodes.filter(node => node.label === ref.step.simpleJp);
+      return matches[occurrence - 1] || null;
+    }
+    return null;
+  }
+
+  function requireRef(graph, ref, context) {
+    const node = resolveRef(graph, ref);
+    if (!node) throw new Error(`Unresolved flowchart sidecar ref: ${context}`);
+    return node;
+  }
+
+  function dedupeEdges(edges) {
+    const seen = new Set();
+    return edges.filter(edge => {
+      const key = `${edge.from}|${edge.to}|${edge.kind || "normal"}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function buildEnhancedGraph(guideData, sidecar) {
+    if (!sidecar || sidecar.version !== 1) throw new Error("Unsupported flowchart sidecar");
+
+    const nodes = [];
+    let edges = [];
+    let rowOffset = 0;
+    const routes = Array.isArray(guideData.routes) ? guideData.routes : [];
+
+    routes.forEach(route => {
+      const routeGraph = buildRouteGraph(route);
+      const localMaxRow = routeGraph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
+      routeGraph.nodes.forEach(node => nodes.push({ ...node, row: node.row + rowOffset }));
+      routeGraph.edges.forEach(edge => edges.push({ ...edge }));
+      rowOffset += localMaxRow + 3;
+    });
+
+    const graph = { nodes, edges, maxDepth: 0, maxRow: 0, enhanced: true };
+
+    for (const synthetic of sidecar.syntheticNodes || []) {
+      if (!synthetic.id || !synthetic.label) throw new Error("Invalid synthetic flowchart node");
+      const near = requireRef(graph, synthetic.near, `synthetic ${synthetic.id} near`);
+      const jump = synthetic.jumpTo ? requireRef(graph, synthetic.jumpTo, `synthetic ${synthetic.id} jumpTo`) : null;
+      graph.nodes.push({
+        id: `sidecar-${synthetic.id}`,
+        kind: synthetic.kind || "step",
+        label: synthetic.label,
+        routeId: synthetic.route || near.routeId,
+        row: near.row + Number(synthetic.rowOffset || 0),
+        depth: Math.max(0, near.depth + Number(synthetic.laneOffset == null ? 1 : synthetic.laneOffset)),
+        stepIndex: jump ? jump.stepIndex : null,
+        synthetic: true,
+      });
+    }
+
+    for (const groupDef of sidecar.groups || []) {
+      if (!groupDef.id || !Array.isArray(groupDef.members) || groupDef.members.length < 2) {
+        throw new Error("Invalid flowchart group");
+      }
+      const members = groupDef.members.map((ref, index) =>
+        requireRef(graph, ref, `group ${groupDef.id} member ${index + 1}`)
+      );
+      const memberIds = new Set(members.map(node => node.id));
+      const incoming = graph.edges.filter(edge => memberIds.has(edge.to) && !memberIds.has(edge.from));
+      const outgoing = graph.edges.filter(edge => memberIds.has(edge.from) && !memberIds.has(edge.to));
+      graph.edges = graph.edges.filter(edge => !memberIds.has(edge.from) && !memberIds.has(edge.to));
+      graph.nodes = graph.nodes.filter(node => !memberIds.has(node.id));
+
+      const groupNode = {
+        id: `sidecar-${groupDef.id}`,
+        kind: "group",
+        label: groupDef.label || "順不同（すべて）",
+        items: members.map(node => node.label),
+        routeId: groupDef.route || members[0].routeId,
+        row: Math.min(...members.map(node => node.row)),
+        depth: Math.min(...members.map(node => node.depth)),
+        stepIndex: members[0].stepIndex,
+        synthetic: true,
+      };
+      graph.nodes.push(groupNode);
+      incoming.forEach(edge => graph.edges.push({ from: edge.from, to: groupNode.id, kind: edge.kind || "normal" }));
+      outgoing.forEach(edge => graph.edges.push({ from: groupNode.id, to: edge.to, kind: edge.kind || "normal" }));
+    }
+
+    const extraEdges = [
+      ...(sidecar.addEdges || []),
+      ...(sidecar.routeLinks || []),
+    ];
+    for (const edgeDef of extraEdges) {
+      const from = requireRef(graph, edgeDef.from, "edge from");
+      const to = requireRef(graph, edgeDef.to, "edge to");
+      graph.edges.push({
+        from: from.id,
+        to: to.id,
+        kind: edgeDef.kind || "normal",
+        label: edgeDef.label || "",
+      });
+    }
+
+    for (const edgeDef of sidecar.removeEdges || []) {
+      const from = requireRef(graph, edgeDef.from, "remove edge from");
+      const to = requireRef(graph, edgeDef.to, "remove edge to");
+      graph.edges = graph.edges.filter(edge => !(edge.from === from.id && edge.to === to.id));
+    }
+
+    graph.edges = dedupeEdges(graph.edges);
+    graph.maxDepth = graph.nodes.reduce((max, node) => Math.max(max, node.depth), 0);
+    graph.maxRow = graph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
+    return graph;
+  }
+
+  function renderGraphSection(titleText, graph, onNavigate, ariaLabel) {
     const section = document.createElement("section");
     section.className = "flowchart-route";
 
     const heading = document.createElement("h4");
-    heading.textContent = route.title || route.id;
+    heading.textContent = titleText;
     section.appendChild(heading);
 
-    if (!Array.isArray(route.steps) || route.steps.length === 0) {
+    if (!graph.nodes.length) {
       const empty = document.createElement("p");
       empty.className = "flowchart-empty";
       empty.textContent = "ルートデータを読み込めませんでした。";
@@ -250,7 +413,10 @@
     }
 
     const width = PADDING_X * 2 + NODE_WIDTH + graph.maxDepth * LANE_GAP;
-    const height = PADDING_Y * 2 + Math.max(1, graph.nodes.length) * ROW_GAP;
+    const maxRow = graph.maxRow != null
+      ? graph.maxRow
+      : graph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
+    const height = PADDING_Y * 2 + (maxRow + 1) * ROW_GAP + 80;
     const scroller = document.createElement("div");
     scroller.className = "flowchart-canvas";
     const svg = el("svg", {
@@ -258,7 +424,7 @@
       width,
       height,
       role: "img",
-      "aria-label": `${route.title || route.id} の自動生成分岐図`,
+      "aria-label": ariaLabel,
     });
 
     const zoomBar = document.createElement("div");
@@ -328,7 +494,7 @@
       const to = byId.get(edge.to);
       if (from && to) renderEdge(svg, from, to, edge.kind);
     });
-    graph.nodes.forEach(node => renderNode(svg, node, route, onNavigate));
+    graph.nodes.forEach(node => renderNode(svg, node, onNavigate));
 
     scroller.appendChild(svg);
     section.appendChild(zoomBar);
@@ -349,20 +515,57 @@
     return section;
   }
 
-  function render(container, guideData, onNavigate) {
+  function renderRoute(route, onNavigate) {
+    const graph = buildRouteGraph(route);
+    graph.maxRow = graph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
+    return renderGraphSection(
+      route.title || route.id,
+      graph,
+      onNavigate,
+      `${route.title || route.id} の自動生成分岐図`
+    );
+  }
+
+  function render(container, guideData, onNavigate, sidecar) {
     container.replaceChildren();
+
+    let enhancedGraph = null;
+    if (sidecar) {
+      try {
+        enhancedGraph = buildEnhancedGraph(guideData, sidecar);
+      } catch (error) {
+        console.warn("Flowchart sidecar rejected; falling back to inferred graph.", error);
+      }
+    }
 
     const note = document.createElement("div");
     note.className = "flowchart-note";
-    note.textContent = "既存の攻略ルートから自動生成した推定分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。ゲーム内部の全分岐を保証するものではありません。";
+    note.textContent = enhancedGraph
+      ? "既存ルートに検証済みの補足トポロジーを重ねた詳細分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。"
+      : "既存の攻略ルートから自動生成した推定分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。ゲーム内部の全分岐を保証するものではありません。";
     container.appendChild(note);
 
     const legend = document.createElement("div");
     legend.className = "flowchart-legend";
-    legend.innerHTML = '<span><i class="flowchart-legend-branch">?</i> 分岐</span><span><i class="flowchart-legend-end"></i> END</span>';
+    legend.innerHTML =
+      '<span><i class="flowchart-legend-branch">?</i> 分岐</span>' +
+      '<span><i class="flowchart-legend-end"></i> END</span>' +
+      (enhancedGraph
+        ? '<span><i class="flowchart-legend-group"></i> 順不同</span><span><i class="flowchart-legend-unlock"></i> 解禁</span>'
+        : '');
     container.appendChild(legend);
 
     const routes = Array.isArray(guideData.routes) ? guideData.routes : [];
+    if (enhancedGraph) {
+      container.appendChild(renderGraphSection(
+        sidecar.title || guideData.title || "詳細分岐図",
+        enhancedGraph,
+        onNavigate,
+        `${guideData.title || "ゲーム"} の詳細分岐図`
+      ));
+      return;
+    }
+
     routes.forEach((route, index) => {
       container.appendChild(renderRoute(route, onNavigate));
       if (index < routes.length - 1) {
@@ -374,5 +577,5 @@
     });
   }
 
-  window.VNFlowchart = { buildRouteGraph, render };
+  window.VNFlowchart = { buildRouteGraph, buildEnhancedGraph, render };
 })();

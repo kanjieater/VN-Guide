@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "title": "Himawari · 詳細分岐図",
+  "syntheticNodes": [
+    {
+      "id": "aries-smoke-rain-asuka-house",
+      "route": "aries",
+      "kind": "step",
+      "label": "明香の家だ！",
+      "near": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "公園だ！"
+        }
+      },
+      "rowOffset": 0,
+      "laneOffset": 1,
+      "jumpTo": {
+        "route": "aries",
+        "save": "9"
+      }
+    }
+  ],
+  "addEdges": [
+    {
+      "from": {
+        "route": "aries",
+        "save": "9"
+      },
+      "to": {
+        "synthetic": "aries-smoke-rain-asuka-house"
+      },
+      "kind": "detour"
+    },
+    {
+      "from": {
+        "synthetic": "aries-smoke-rain-asuka-house"
+      },
+      "to": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "【煙雨】END"
+        }
+      },
+      "kind": "detour"
+    }
+  ],
+  "groups": [
+    {
+      "id": "asuka-late-visits",
+      "route": "asuka",
+      "label": "3か所すべて（順不同）",
+      "members": [
+        {
+          "route": "asuka",
+          "step": {
+            "simpleJp": "アリエスとアクアの様子を見てみる"
+          }
+        },
+        {
+          "route": "asuka",
+          "step": {
+            "simpleJp": "明香と明の所に行く"
+          }
+        },
+        {
+          "route": "asuka",
+          "step": {
+            "simpleJp": "部長とジョニーが心配だ"
+          }
+        }
+      ]
+    }
+  ],
+  "routeLinks": [
+    {
+      "from": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "【アリエス】END"
+        }
+      },
+      "to": {
+        "route": "akari",
+        "start": true
+      },
+      "kind": "unlock",
+      "label": "Restart 解禁"
+    },
+    {
+      "from": {
+        "route": "akari",
+        "step": {
+          "simpleJp": "【星乃 明香里】END"
+        }
+      },
+      "to": {
+        "route": "aqua",
+        "start": true
+      },
+      "kind": "unlock",
+      "label": "アクア 解禁"
+    },
+    {
+      "from": {
+        "route": "aqua",
+        "step": {
+          "simpleJp": "【アクア】END"
+        }
+      },
+      "to": {
+        "route": "asuka",
+        "start": true
+      },
+      "kind": "unlock",
+      "label": "西園寺明香 解禁"
+    },
+    {
+      "from": {
+        "route": "asuka",
+        "step": {
+          "simpleJp": "【西園寺明香】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "start": true
+      },
+      "kind": "unlock",
+      "label": "クリア後 解禁"
+    }
+  ]
+}

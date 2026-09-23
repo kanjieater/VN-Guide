@@ -484,6 +484,18 @@ button#toggle-details {
   background: #251d1d;
 }
 
+.flowchart-legend-group {
+  border: 1px dashed #5f8871;
+  border-radius: 4px;
+  background: #1b2420;
+}
+
+.flowchart-legend-unlock {
+  width: 22px !important;
+  height: 0 !important;
+  border-top: 2px dashed #6f8fae;
+}
+
 .flowchart-route {
   margin: 0 0 14px;
 }
@@ -580,6 +592,28 @@ button#toggle-details {
 .flow-node-end .flow-node-shape {
   fill: #251d1d;
   stroke: #765454;
+}
+
+.flow-node-group .flow-node-shape {
+  fill: #1b2420;
+  stroke: #5f8871;
+  stroke-dasharray: 5 4;
+}
+
+.flow-node-group-title {
+  fill: #9ed6b3;
+  font-weight: 700;
+}
+
+.flow-node-group-item {
+  fill: #c8d2cc;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.flow-edge-unlock {
+  stroke: #6f8fae;
+  stroke-dasharray: 6 5;
 }
 
 .flow-node-text {

@@ -24,7 +24,6 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn('id="btn-flowchart"', source)
         self.assertIn('aria-label="分岐図"', source)
         self.assertIn('if (isLinearGameGuide()) return;', source)
-        self.assertIn('window.VNFlowchart.render(content, guideData, jumpFromFlowchart);', source)
         self.assertIn('async function jumpFromFlowchart(routeId, stepIndex)', source)
         loader = source[source.index("async function loadFlowchartRenderer()"):source.index("async function showFlowchart()")]
         self.assertIn('const v = window.__guideAssetVersion || Date.now();', loader)
@@ -36,9 +35,13 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn('zoomOut.textContent = "−"', flowchart)
         self.assertIn('zoomIn.textContent = "＋"', flowchart)
         self.assertIn("requestAnimationFrame(fitToWidth)", flowchart)
+        self.assertIn("async function loadFlowchartSidecar()", source)
+        self.assertIn('window.VNFlowchart.render(content, guideData, jumpFromFlowchart, sidecar);', source)
+        self.assertIn("function buildEnhancedGraph(guideData, sidecar)", flowchart)
+        self.assertIn("Flowchart sidecar rejected; falling back to inferred graph.", flowchart)
         self.assertIn('buildRouteGraph', flowchart)
-        self.assertNotIn("flowchart.json", source)
-        self.assertNotIn("flowchart.json", flowchart)
+        self.assertIn('fetch("./flowchart.json?v=" + Date.now())', source)
+        self.assertNotIn('fetch("./flowchart.json', flowchart)
 
     def test_first_step_can_backtrack_to_previous_route_transition(self):
         source = APP.read_text(encoding="utf-8")

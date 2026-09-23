@@ -8,6 +8,7 @@ let settings = { blurPortraits: true };
 let pendingNextRoute = null;
 let transitionFromRoute = null;
 let flowchartScriptPromise = null;
+let flowchartSidecarPromise = null;
 
 function mountAppShell() {
   const app = document.getElementById("app");
@@ -276,6 +277,22 @@ async function loadRouteForFlowchart(route) {
   }
 }
 
+async function loadFlowchartSidecar() {
+  if (!flowchartSidecarPromise) {
+    flowchartSidecarPromise = (async () => {
+      try {
+        const res = await fetch("./flowchart.json?v=" + Date.now());
+        if (!res.ok) return null;
+        const data = await res.json();
+        return data && data.version === 1 ? data : null;
+      } catch {
+        return null;
+      }
+    })();
+  }
+  return flowchartSidecarPromise;
+}
+
 async function loadFlowchartRenderer() {
   if (window.VNFlowchart) return;
   if (!flowchartScriptPromise) {
@@ -304,9 +321,12 @@ async function showFlowchart() {
   showView("view-flowchart");
 
   try {
-    await Promise.all((guideData.routes || []).map(loadRouteForFlowchart));
+    const [, sidecar] = await Promise.all([
+      Promise.all((guideData.routes || []).map(loadRouteForFlowchart)),
+      loadFlowchartSidecar(),
+    ]);
     await loadFlowchartRenderer();
-    window.VNFlowchart.render(content, guideData, jumpFromFlowchart);
+    window.VNFlowchart.render(content, guideData, jumpFromFlowchart, sidecar);
   } catch {
     content.innerHTML = '<p class="flowchart-error">分岐図を読み込めませんでした。</p>';
   }
@@ -451,7 +471,7 @@ function renderSlide() {
   const followingRoute = nextRoute();
   const atSectionEnd = idx === total - 1;
   nextBtn.disabled = atSectionEnd && !followingRoute;
-  nextBtn.textContent = "次へ ▶";
+  nextBtn.textContent = atSectionEnd && followingRoute ? "次のセクションへ ▶" : "次へ ▶";
 
   showView("view-slide");
 }

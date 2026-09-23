@@ -494,6 +494,39 @@ button#toggle-details {
   font-weight: 700;
 }
 
+.flowchart-zoom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  margin: 0 0 6px;
+}
+
+.flowchart-zoom button {
+  min-width: 38px;
+  min-height: 32px;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.flowchart-zoom button:active {
+  background: #2a2a3a;
+}
+
+.flowchart-zoom-readout {
+  min-width: 46px;
+  color: #888;
+  font-size: 12px;
+  text-align: right;
+}
+
 .flowchart-canvas {
   width: 100%;
   overflow-x: auto;
@@ -554,6 +587,23 @@ button#toggle-details {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 12px;
   font-weight: 600;
+}
+
+.flow-node-link {
+  cursor: pointer;
+  outline: none;
+}
+
+.flow-node-link:focus .flow-node-shape {
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .flow-node-link:hover .flow-node-shape {
+    stroke: var(--accent);
+    stroke-width: 2.5;
+  }
 }
 
 .flow-node-route .flow-node-text {

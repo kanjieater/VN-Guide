@@ -281,7 +281,7 @@ async function loadFlowchartRenderer() {
   if (!flowchartScriptPromise) {
     flowchartScriptPromise = new Promise((resolve, reject) => {
       const script = document.createElement("script");
-      const v = guideData.generated_at ? encodeURIComponent(guideData.generated_at) : Date.now();
+      const v = window.__guideAssetVersion || Date.now();
       script.src = "../flowchart.js?v=" + v;
       script.onload = resolve;
       script.onerror = () => {
@@ -306,10 +306,24 @@ async function showFlowchart() {
   try {
     await Promise.all((guideData.routes || []).map(loadRouteForFlowchart));
     await loadFlowchartRenderer();
-    window.VNFlowchart.render(content, guideData);
+    window.VNFlowchart.render(content, guideData, jumpFromFlowchart);
   } catch {
     content.innerHTML = '<p class="flowchart-error">分岐図を読み込めませんでした。</p>';
   }
+}
+
+async function jumpFromFlowchart(routeId, stepIndex) {
+  const route = (guideData.routes || []).find(r => r.id === routeId);
+  if (!route || !(await loadRouteForFlowchart(route)) || !route.steps.length) return;
+
+  const target = stepIndex < 0
+    ? 0
+    : Math.max(0, Math.min(stepIndex, route.steps.length - 1));
+
+  state.currentRoute = route.id;
+  state.progress[route.id] = target;
+  saveState();
+  renderSlide();
 }
 
 // ── Slide ─────────────────────────────────────────────────────────────────────

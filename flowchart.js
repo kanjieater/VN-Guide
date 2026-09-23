@@ -160,14 +160,31 @@
     svg.appendChild(path);
   }
 
-  function renderNode(svg, node) {
+  function renderNode(svg, node, route, onNavigate) {
     const center = nodeCenter(node);
     const x = center.x - NODE_WIDTH / 2;
     const y = center.y - NODE_HEIGHT / 2;
+    const navigable = typeof onNavigate === "function";
     const group = el("g", {
-      class: `flow-node flow-node-${node.kind}`,
+      class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}`,
       transform: `translate(${x} ${y})`,
+      ...(navigable ? {
+        role: "link",
+        tabindex: "0",
+        "aria-label": `${node.label || route.title || route.id} をガイドで開く`,
+      } : {}),
     });
+
+    if (navigable) {
+      const navigate = () => onNavigate(route.id, node.stepIndex);
+      group.addEventListener("click", navigate);
+      group.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          navigate();
+        }
+      });
+    }
 
     if (node.kind === "branch") {
       const cx = NODE_WIDTH / 2;
@@ -215,7 +232,7 @@
     svg.appendChild(group);
   }
 
-  function renderRoute(route) {
+  function renderRoute(route, onNavigate) {
     const graph = buildRouteGraph(route);
     const section = document.createElement("section");
     section.className = "flowchart-route";
@@ -244,6 +261,53 @@
       "aria-label": `${route.title || route.id} の自動生成分岐図`,
     });
 
+    const zoomBar = document.createElement("div");
+    zoomBar.className = "flowchart-zoom";
+    const zoomOut = document.createElement("button");
+    zoomOut.type = "button";
+    zoomOut.textContent = "−";
+    zoomOut.setAttribute("aria-label", "縮小");
+    const fit = document.createElement("button");
+    fit.type = "button";
+    fit.textContent = "全体";
+    fit.setAttribute("aria-label", "幅に合わせて全体表示");
+    const zoomIn = document.createElement("button");
+    zoomIn.type = "button";
+    zoomIn.textContent = "＋";
+    zoomIn.setAttribute("aria-label", "拡大");
+    const zoomReadout = document.createElement("span");
+    zoomReadout.className = "flowchart-zoom-readout";
+    zoomBar.append(zoomOut, fit, zoomIn, zoomReadout);
+
+    let scale = 1;
+    let fitMode = true;
+
+    function applyScale(nextScale) {
+      scale = Math.max(0.15, Math.min(2.5, nextScale));
+      svg.style.width = `${Math.round(width * scale)}px`;
+      svg.style.height = `${Math.round(height * scale)}px`;
+      zoomReadout.textContent = `${Math.round(scale * 100)}%`;
+    }
+
+    function fitToWidth() {
+      const availableWidth = Math.max(1, scroller.clientWidth - 2);
+      applyScale(Math.min(1, availableWidth / width));
+      scroller.scrollLeft = 0;
+    }
+
+    zoomOut.addEventListener("click", () => {
+      fitMode = false;
+      applyScale(scale / 1.25);
+    });
+    zoomIn.addEventListener("click", () => {
+      fitMode = false;
+      applyScale(scale * 1.25);
+    });
+    fit.addEventListener("click", () => {
+      fitMode = true;
+      fitToWidth();
+    });
+
     const defs = el("defs");
     const marker = el("marker", {
       id: "flow-arrow",
@@ -264,19 +328,33 @@
       const to = byId.get(edge.to);
       if (from && to) renderEdge(svg, from, to, edge.kind);
     });
-    graph.nodes.forEach(node => renderNode(svg, node));
+    graph.nodes.forEach(node => renderNode(svg, node, route, onNavigate));
 
     scroller.appendChild(svg);
+    section.appendChild(zoomBar);
     section.appendChild(scroller);
+
+    requestAnimationFrame(fitToWidth);
+    if (window.ResizeObserver) {
+      const resizeObserver = new ResizeObserver(() => {
+        if (!scroller.isConnected) {
+          resizeObserver.disconnect();
+          return;
+        }
+        if (fitMode) fitToWidth();
+      });
+      resizeObserver.observe(scroller);
+    }
+
     return section;
   }
 
-  function render(container, guideData) {
+  function render(container, guideData, onNavigate) {
     container.replaceChildren();
 
     const note = document.createElement("div");
     note.className = "flowchart-note";
-    note.textContent = "既存の攻略ルートから自動生成した推定分岐図です。ゲーム内部の全分岐を保証するものではありません。";
+    note.textContent = "既存の攻略ルートから自動生成した推定分岐図です。各ノードをタップすると攻略の該当箇所へ移動します。ゲーム内部の全分岐を保証するものではありません。";
     container.appendChild(note);
 
     const legend = document.createElement("div");
@@ -286,7 +364,7 @@
 
     const routes = Array.isArray(guideData.routes) ? guideData.routes : [];
     routes.forEach((route, index) => {
-      container.appendChild(renderRoute(route));
+      container.appendChild(renderRoute(route, onNavigate));
       if (index < routes.length - 1) {
         const next = document.createElement("div");
         next.className = "flowchart-next";

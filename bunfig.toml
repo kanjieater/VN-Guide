@@ -2,3 +2,4 @@
 coverageReporter = ["text", "lcov"]
 coverageDir = "./coverage"
 coverageSkipTestFiles = true
+coveragePathIgnorePatterns = ["tests-js/**"]

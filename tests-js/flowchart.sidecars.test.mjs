@@ -1,29 +1,12 @@
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { fileURLToPath } from "node:url";
 import { test } from "bun:test";
-import { JSDOM } from "jsdom";
+import { createFlowchartRuntime } from "./helpers/flowchart-harness.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const FLOWCHART_URL = pathToFileURL(join(ROOT, "flowchart.js")).href;
-let importCounter = 0;
-
-async function runtime() {
-  const dom = new JSDOM("<!doctype html><html><body></body></html>");
-  Object.defineProperty(globalThis, "window", {
-    configurable: true,
-    writable: true,
-    value: dom.window,
-  });
-  Object.defineProperty(globalThis, "document", {
-    configurable: true,
-    writable: true,
-    value: dom.window.document,
-  });
-  await import(`${FLOWCHART_URL}?sidecar=${++importCounter}`);
-  return { dom, api: dom.window.VNFlowchart };
-}
+const runtime = await createFlowchartRuntime();
 
 async function loadGame(slug) {
   const dir = join(ROOT, slug);
@@ -49,17 +32,16 @@ test.serial("every committed detailed sidecar satisfies the runtime contract", a
   }
   assert.ok(slugs.length > 0);
 
-  const { dom, api } = await runtime();
+  const { api } = runtime;
   for (const slug of slugs) {
     const { guide, sidecar } = await loadGame(slug);
     assert.doesNotThrow(() => api.buildEnhancedGraph(guide, sidecar), slug);
   }
-  dom.window.close();
 });
 
 test.serial("Himawari detailed graph preserves non-flat unlock topology", async () => {
   const { guide, sidecar } = await loadGame("himawari");
-  const { dom, api } = await runtime();
+  const { api } = runtime;
   const graph = api.buildEnhancedGraph(guide, sidecar);
   const nodes = new Map(graph.nodes.map(node => [node.id, node]));
   const edges = new Set(graph.edges.map(edge =>
@@ -75,5 +57,4 @@ test.serial("Himawari detailed graph preserves non-flat unlock topology", async 
   assert.ok(edges.has("【アリエス】END -> Tips追加（1周目クリア） [unlock]"));
   assert.ok(edges.has("クリア後 -> Tips [normal]"));
   assert.equal(edges.has("かげろう -> 2048-2050 [normal]"), false);
-  dom.window.close();
 });

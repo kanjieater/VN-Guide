@@ -1,47 +1,10 @@
 import assert from "node:assert/strict";
-import { dirname, resolve } from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
-import { test } from "bun:test";
+import { createFlowchartRuntime, resetChart } from "./helpers/flowchart-harness.mjs";
 
-import { JSDOM } from "jsdom";
-
-
-const HERE = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(HERE, "..");
-const FLOWCHART_PATH = resolve(ROOT, "flowchart.js");
-const FLOWCHART_URL = pathToFileURL(FLOWCHART_PATH).href;
-let importCounter = 0;
-
-
-async function loadFlowchart() {
-  const dom = new JSDOM("<!doctype html><html><body><div id=\"chart\"></div></body></html>", {
-    url: "https://example.test/game/",
-    pretendToBeVisual: true,
-  });
-  const { window } = dom;
-  window.requestAnimationFrame = callback => {
-    callback(0);
-    return 1;
-  };
-  Object.defineProperty(globalThis, "window", {
-    configurable: true,
-    writable: true,
-    value: window,
-  });
-  Object.defineProperty(globalThis, "document", {
-    configurable: true,
-    writable: true,
-    value: window.document,
-  });
-
-  await import(`${FLOWCHART_URL}?test=${++importCounter}`);
-  return { dom, window, api: window.VNFlowchart };
-}
+const runtime = await createFlowchartRuntime();
 
 
 test.serial("inferred graph models save/load branches and replay-from-start endings", async () => {
-  const runtime = await loadFlowchart();
-
   const branched = runtime.api.buildRouteGraph({
     id: "a",
     title: "Route A",
@@ -80,13 +43,10 @@ test.serial("inferred graph models save/load branches and replay-from-start endi
     replay.edges.some(edge => edge.from === ending.id && edge.to === secondPass.id),
     false
   );
-  runtime.dom.window.close();
 });
 
 
 test.serial("detailed sidecars can group real steps, add annotations, and retain navigation identity", async () => {
-  const runtime = await loadFlowchart();
-
   const guide = {
     title: "Detailed VN",
     routes: [
@@ -159,13 +119,10 @@ test.serial("detailed sidecars can group real steps, add annotations, and retain
     }))),
     { seen: false, current: false, known: false }
   );
-  runtime.dom.window.close();
 });
 
 
 test.serial("sidecar validation fails closed on ambiguous or unsupported topology", async () => {
-  const runtime = await loadFlowchart();
-
   const guide = {
     routes: [
       {
@@ -196,14 +153,11 @@ test.serial("sidecar validation fails closed on ambiguous or unsupported topolog
     }),
     /positive integer/
   );
-  runtime.dom.window.close();
 });
 
 
 test.serial("rendered flowchart supports pointer, keyboard, wheel, pinch, and zoom-control navigation", async () => {
-  const runtime = await loadFlowchart();
-
-  const container = runtime.window.document.getElementById("chart");
+  const container = resetChart(runtime);
   const navigations = [];
 
   runtime.api.render(
@@ -298,17 +252,14 @@ test.serial("rendered flowchart supports pointer, keyboard, wheel, pinch, and zo
 
   controls[1].click();
   assert.match(container.querySelector(".flowchart-zoom-readout").textContent, /%/);
-  runtime.dom.window.close();
 });
 
 
 test.serial("invalid detailed sidecar visibly falls back to the inferred graph", async () => {
-  const runtime = await loadFlowchart();
-
   const warnings = [];
   runtime.window.console.warn = (...args) => warnings.push(args);
 
-  const container = runtime.window.document.getElementById("chart");
+  const container = resetChart(runtime);
   runtime.api.render(
     container,
     {
@@ -329,5 +280,4 @@ test.serial("invalid detailed sidecar visibly falls back to the inferred graph",
   assert.equal(warnings.length, 1);
   assert.match(container.querySelector(".flowchart-note").textContent, /推定分岐図/);
   assert.equal(container.querySelectorAll(".flowchart-route").length, 1);
-  runtime.dom.window.close();
 });

@@ -84,14 +84,10 @@ async function main() {
   ]);
   if (proc.exitCode !== 0) throw new Error(proc.stderr.toString());
 
-  const shardNames = ["guide-app", "flowchart", "sidecars", "core"];
-  const coverage = new Map();
-  for (const shard of shardNames) {
-    parseLcov(await readFile(`coverage/${shard}/lcov.info`, "utf8"), coverage);
-  }
+  const lcov = await readFile("coverage/lcov.info", "utf8");
   const uncovered = uncoveredChangedLines(
     parseChangedLines(proc.stdout.toString()),
-    coverage
+    parseLcov(lcov)
   );
 
   if (uncovered.length) {

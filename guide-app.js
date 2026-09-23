@@ -174,14 +174,28 @@ function previousRoute() {
   return idx > 0 ? guideData.routes[idx - 1] : null;
 }
 
+function routeStepCount(route) {
+  return route.steps ? route.steps.length : (route.stepCount || 0);
+}
+
+function isRouteComplete(route) {
+  if (!route || !(route.id in state.progress)) return false;
+  const count = routeStepCount(route);
+  if (count <= 1) return count === 1;
+  return state.progress[route.id] >= count - 1;
+}
+
 function overallProgressPercent() {
   const maxProgress = guideData.routes.reduce((sum, route) => {
-    const count = route.steps ? route.steps.length : (route.stepCount || 0);
+    const count = routeStepCount(route);
     return sum + Math.max(count - 1, 1);
   }, 0);
   const doneSteps = guideData.routes.reduce((sum, route) => {
+    const count = routeStepCount(route);
     const progress = state.progress[route.id];
-    return sum + (progress !== undefined ? progress : 0);
+    if (progress === undefined) return sum;
+    if (count === 1) return sum + 1;
+    return sum + Math.max(0, Math.min(progress, count - 1));
   }, 0);
   return maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
 }
@@ -267,7 +281,7 @@ function renderSlide() {
 
   const priorRoute = previousRoute();
   document.getElementById("btn-prev").disabled =
-    idx === 0 && !(priorRoute && priorRoute.id in state.progress);
+    idx === 0 && !isRouteComplete(priorRoute);
   const nextBtn = document.getElementById("btn-next");
   const followingRoute = nextRoute();
   const atSectionEnd = idx === total - 1;
@@ -330,7 +344,7 @@ async function prevStep() {
   }
 
   const priorRoute = previousRoute();
-  if (priorRoute && priorRoute.id in state.progress) {
+  if (isRouteComplete(priorRoute)) {
     renderRouteTransition(route, priorRoute);
   }
 }

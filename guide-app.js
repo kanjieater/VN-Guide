@@ -198,13 +198,6 @@ function routeStepCount(route) {
   return route.steps ? route.steps.length : (route.stepCount || 0);
 }
 
-function isRouteComplete(route) {
-  if (!route || !(route.id in state.progress)) return false;
-  const count = routeStepCount(route);
-  if (count <= 1) return count === 1;
-  return state.progress[route.id] >= count - 1;
-}
-
 function overallProgressPercent() {
   const maxProgress = guideData.routes.reduce((sum, route) => {
     const count = routeStepCount(route);

@@ -1,9 +1,9 @@
 [
   {
-    "simpleJp": "ピラミッドのスフィンクス問題を正解して進む",
+    "simpleJp": "スフィンクス問題を正解して先へ進む",
     "jpGuide1": "問題の答えは「人間」「用心棒ジェフリー」「ゴッズ」「地」「鳥」「イービルアイ」",
-    "jpGuide2": "ピラミッド",
-    "enGuide": "Use the six answers in that order as each question appears; wrong answers trigger extra fights."
+    "jpGuide2": "スフィンクスのなぞなぞ",
+    "enGuide": "Set A supplies the six literal answers; use them as needed while progressing through the Sphinx rooms."
   },
   {
     "simpleJp": "1F中央の穴からB1の宝を回収する",
@@ -14,7 +14,7 @@
   {
     "simpleJp": "3Fのスイッチで流砂を変えて最上階へ行く",
     "jpGuide1": "3FではスイッチをONにすると流砂の流れを変えて最上階へ行く。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "3Fの右側の石を押してスイッチをON→流砂の流れを変える",
     "enGuide": "Finish any Pyramid exploration before the boss; the dungeon becomes inaccessible afterward."
   },
   {

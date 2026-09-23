@@ -7,6 +7,7 @@ let state = { currentRoute: null, progress: {} };
 let settings = { blurPortraits: true };
 let pendingNextRoute = null;
 let transitionFromRoute = null;
+let flowchartScriptPromise = null;
 
 function mountAppShell() {
   const app = document.getElementById("app");
@@ -17,6 +18,7 @@ function mountAppShell() {
       <div class="view-header">
         <a href="../">← 戻る</a>
         <h3 id="game-title"></h3>
+        <button id="btn-flowchart" class="icon-button" onclick="showFlowchart()" style="display:none" aria-label="分岐図" title="分岐図"><svg class="flowchart-button-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="5" rx="1"></rect><rect x="2" y="17" width="7" height="5" rx="1"></rect><rect x="15" y="17" width="7" height="5" rx="1"></rect><path d="M12 7v5M5.5 17v-3h13v3"></path></svg></button>
         <button onclick="showSettings()">⚙</button>
       </div>
       <div class="home-content">
@@ -61,6 +63,16 @@ function mountAppShell() {
       </div>
       <div id="jump-list-container">
         <ul id="jump-list"></ul>
+      </div>
+    </div>
+
+    <div id="view-flowchart" class="view">
+      <div class="view-header">
+        <button onclick="renderHome()">◀ 戻る</button>
+        <h3>分岐図</h3>
+      </div>
+      <div id="flowchart-content" class="flowchart-body">
+        <p class="flowchart-loading">分岐図を準備中…</p>
       </div>
     </div>
 
@@ -186,6 +198,8 @@ function renderHome() {
   }
   status.style.display = "none";
   const isLinearGame = isLinearGameGuide();
+  const flowchartButton = document.getElementById("btn-flowchart");
+  if (flowchartButton) flowchartButton.style.display = isLinearGame ? "none" : "";
   list.innerHTML = guideData.routes.map((r, routeIdx) => {
     const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
@@ -246,6 +260,56 @@ async function startRoute(id) {
   if (!(id in state.progress)) state.progress[id] = 0;
   saveState();
   renderSlide();
+}
+
+// ── Flowchart ──────────────────────────────────────────────────────────────────
+async function loadRouteForFlowchart(route) {
+  if (route.steps) return true;
+  try {
+    const v = guideData.generated_at ? encodeURIComponent(guideData.generated_at) : Date.now();
+    const res = await fetch("./route_" + route.id + ".json?v=" + v);
+    if (!res.ok) return false;
+    route.steps = await res.json();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function loadFlowchartRenderer() {
+  if (window.VNFlowchart) return;
+  if (!flowchartScriptPromise) {
+    flowchartScriptPromise = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      const v = guideData.generated_at ? encodeURIComponent(guideData.generated_at) : Date.now();
+      script.src = "../flowchart.js?v=" + v;
+      script.onload = resolve;
+      script.onerror = () => {
+        flowchartScriptPromise = null;
+        reject(new Error("flowchart renderer failed to load"));
+      };
+      document.head.appendChild(script);
+    });
+  }
+  await flowchartScriptPromise;
+  if (!window.VNFlowchart) throw new Error("flowchart renderer unavailable");
+}
+
+async function showFlowchart() {
+  if (isLinearGameGuide()) return;
+  const content = document.getElementById("flowchart-content");
+  if (!content) return;
+
+  content.innerHTML = '<p class="flowchart-loading">分岐図を生成中…</p>';
+  showView("view-flowchart");
+
+  try {
+    await Promise.all((guideData.routes || []).map(loadRouteForFlowchart));
+    await loadFlowchartRenderer();
+    window.VNFlowchart.render(content, guideData);
+  } catch {
+    content.innerHTML = '<p class="flowchart-error">分岐図を読み込めませんでした。</p>';
+  }
 }
 
 // ── Slide ─────────────────────────────────────────────────────────────────────

@@ -11,12 +11,23 @@ class SharedGuideUiTests(unittest.TestCase):
     def test_shared_javascript_owns_all_guide_views_and_metadata_order(self):
         source = APP.read_text(encoding="utf-8")
         self.assertIn("function mountAppShell()", source)
-        for view_id in ("view-home", "view-slide", "view-jump", "view-settings"):
+        for view_id in ("view-home", "view-slide", "view-jump", "view-flowchart", "view-settings"):
             self.assertIn(f'id="{view_id}"', source)
         updated = source.index('id="guide-updated"')
         target = source.index('id="guide-target"')
         self.assertLess(updated, target)
         self.assertIn('class="guide-meta"', source)
+
+    def test_flowchart_is_generic_and_vn_only(self):
+        source = APP.read_text(encoding="utf-8")
+        flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
+        self.assertIn('id="btn-flowchart"', source)
+        self.assertIn('aria-label="分岐図"', source)
+        self.assertIn('if (isLinearGameGuide()) return;', source)
+        self.assertIn('window.VNFlowchart.render(content, guideData);', source)
+        self.assertIn('buildRouteGraph', flowchart)
+        self.assertNotIn("flowchart.json", source)
+        self.assertNotIn("flowchart.json", flowchart)
 
     def test_first_step_can_backtrack_to_previous_route_transition(self):
         source = APP.read_text(encoding="utf-8")

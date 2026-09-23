@@ -1,0 +1,38 @@
+[
+  {
+    "simpleJp": "ロマリア空港でチョンガラに話してグレイシーヌへ行く",
+    "jpGuide1": "チョンガラに話し掛けると、グレイシーヌへ行く",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This begins the first full-party country arc."
+  },
+  {
+    "simpleJp": "ラマダ寺へ行き、サニアを仲間にする",
+    "jpGuide1": "イベントでサニアが仲間になる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Sania becomes a permanent party member here."
+  },
+  {
+    "simpleJp": "ペイサスで同じ姿の男11人に話し、刑事へ報告する",
+    "jpGuide1": "全部で11人。11人に話したら、刑事に話し掛ける",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Search both buildings and outside areas, including the detective on library 2F."
+  },
+  {
+    "simpleJp": "ノヤム原野の戦闘を終える",
+    "jpGuide1": "イベントが発生し戦闘。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Continue the investigation."
+  },
+  {
+    "simpleJp": "ラマダ山を攻略してイーガにラマダ真拳を修得させる",
+    "jpGuide1": "イーガがラマダ真拳を修得する。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Finish the mountain sequence before heading to the border."
+  },
+  {
+    "simpleJp": "国境戦で列車砲の照準を避けながら敵を全滅させる",
+    "jpGuide1": "列車砲の射程範囲内に入ると、敵味方関わらず次のターンにダメージ",
+    "jpGuide2": "この戦闘に勝利すればグレイシーヌ編クリア",
+    "enGuide": "Move out of the marked 3x3 bombardment area each turn. Winning unlocks world travel."
+  }
+]

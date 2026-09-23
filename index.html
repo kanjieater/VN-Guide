@@ -12,6 +12,7 @@
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="favicon-192.png">
 <title>VN Guide</title>
+<script src="./landing-boot.js"></script>
 <style>
   :root {
     --bg: #121212;
@@ -71,7 +72,10 @@
     transition: color 0.15s, background 0.15s;
   }
 
-  .sort-tabs button.active {
+  html[data-vng-sort="recent"] #btn-recent,
+  html[data-vng-sort="alpha"] #btn-alpha,
+  html[data-vng-filter="all"] #btn-all,
+  html[data-vng-filter="playing"] #btn-playing {
     background: var(--accent);
     color: #fff;
   }
@@ -209,11 +213,11 @@
   <h1>VN Guide</h1>
   <div class="control-row">
     <div class="sort-tabs">
-      <button id="btn-recent" class="active" onclick="setSort('recent')">最近</button>
+      <button id="btn-recent" onclick="setSort('recent')">最近</button>
       <button id="btn-alpha" onclick="setSort('alpha')">あいうえお</button>
     </div>
     <div class="sort-tabs">
-      <button id="btn-all" class="active" onclick="setFilter('all')">すべて</button>
+      <button id="btn-all" onclick="setFilter('all')">すべて</button>
       <button id="btn-playing" onclick="setFilter('playing')">プレイ中</button>
     </div>
   </div>

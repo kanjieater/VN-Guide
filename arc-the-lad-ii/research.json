@@ -70,179 +70,50 @@
     "The sealed-ruin power-unit chain is completed before final lockout: Greycine → Alaratos → Brakia → Amigue → Barbarad → Alibarsha. This obtains Wind Sword and opens the Alibarsha ruin where Maios can be hunted.",
     "Choko's mid event is independently corroborated by Arc II Data Wiki: green slimes must not all be defeated, and Red Shoes appears only during that battle. The converted awakening continuation independently reaches Ruins B71 and Akura."
   ],
-  "route_plan": [
-    {
-      "id": "prologue_to_shu",
-      "title": "序盤：プロディアス〜シュウ加入"
-    },
-    {
-      "id": "optional_early_guild",
-      "title": "【任意】式典前：初期ギルド仕事・手配"
-    },
-    {
-      "id": "optional_convert_secret_lab",
-      "title": "【任意・コンバート】秘密研究所"
-    },
-    {
-      "id": "ceremony_and_yagos",
-      "title": "式典〜ヤゴス島"
-    },
-    {
-      "id": "yagos_return_to_garuano",
-      "title": "ヤゴス島帰還〜ガルアーノの屋敷"
-    },
-    {
-      "id": "optional_pre_whitehouse",
-      "title": "【任意】白い家前：期限付きギルド仕事"
-    },
-    {
-      "id": "white_house",
-      "title": "白い家"
-    },
-    {
-      "id": "optional_convert_whitehouse",
-      "title": "【任意・コンバート】白い家後：アーク対アンデル"
-    },
-    {
-      "id": "shu_shante_smelia",
-      "title": "シュウ・シャンテ：スメリア〜ロマリア戦艦"
-    },
-    {
-      "id": "shante_gurga_crenia",
-      "title": "シャンテ・グルガ：クレニア"
-    },
-    {
-      "id": "optional_lieza_guild",
-      "title": "【任意】リーザ編限定：ラムールの仕事"
-    },
-    {
-      "id": "lieza_gogen_fores",
-      "title": "リーザ・ゴーゲン：ホルン〜キメラ研究所"
-    },
-    {
-      "id": "elk_poco_smelia",
-      "title": "エルク・ポコ：パレンシア城跡〜タワー"
-    },
-    {
-      "id": "shu_tosh_scrap_town",
-      "title": "シュウ・トッシュ：クズ鉄の町"
-    },
-    {
-      "id": "optional_romalia_split_guild",
-      "title": "【任意】シュウ編限定・ロマリアの仕事"
-    },
-    {
-      "id": "shu_tosh_tunnel",
-      "title": "シュウ・トッシュ：ロマリアトンネル"
-    },
-    {
-      "id": "chimera_lab_reunion",
-      "title": "ロマリアキメラ研究所〜全員合流"
-    },
-    {
-      "id": "optional_post_reunion",
-      "title": "【任意】合流直後：ロマリア・グレイシーヌ準備"
-    },
-    {
-      "id": "greycine",
-      "title": "グレイシーヌ"
-    },
-    {
-      "id": "optional_world_cleanup_1",
-      "title": "【任意】グレイシーヌ後：世界巡回・召喚獣・ギルド仕事"
-    },
-    {
-      "id": "optional_choko_recruit",
-      "title": "【任意】ちょこ加入・遺跡ダンジョンB50"
-    },
-    {
-      "id": "fores",
-      "title": "フォーレス"
-    },
-    {
-      "id": "brakia",
-      "title": "ブラキア"
-    },
-    {
-      "id": "optional_world_cleanup_2",
-      "title": "【任意】フォーレス・ブラキア後：期限付き仕事"
-    },
-    {
-      "id": "millmana",
-      "title": "ミルマーナ"
-    },
-    {
-      "id": "optional_millmana_cleanup",
-      "title": "【任意】ミルマーナ後：仕事・海底油田手配"
-    },
-    {
-      "id": "optional_choko_mid",
-      "title": "【任意】ちょこ中盤イベント・赤いくつ"
-    },
-    {
-      "id": "amigue_to_permission",
-      "title": "アミーグ：神の塔許可まで"
-    },
-    {
-      "id": "optional_amigue_guild",
-      "title": "【任意】神の塔前：アミーグ期限付き仕事"
-    },
-    {
-      "id": "amigue_gods_tower",
-      "title": "アミーグ：神の塔"
-    },
-    {
-      "id": "barbarad_to_pyramid",
-      "title": "バルバラード：ピラミッド外観まで"
-    },
-    {
-      "id": "optional_pre_monji_cleanup",
-      "title": "【任意】紋次編急展開前：全期限付き仕事の最終回収"
-    },
-    {
-      "id": "barbarad_pyramid",
-      "title": "バルバラード：ピラミッド"
-    },
-    {
-      "id": "palencia_tower_and_past",
-      "title": "パレンシアタワー〜過去編"
-    },
-    {
-      "id": "past_world",
-      "title": "過去世界：四精霊巡り"
-    },
-    {
-      "id": "north_south_towers",
-      "title": "現代帰還〜北・南の塔"
-    },
-    {
-      "id": "optional_choko_late",
-      "title": "【任意】ちょこ終盤イベント：廃墟のトココ"
-    },
-    {
-      "id": "optional_convert_choko_awakening",
-      "title": "【任意・コンバート】ちょこ覚醒：遺跡B51〜B71"
-    },
-    {
-      "id": "optional_final_cleanup",
-      "title": "【任意】空中城前：G#37・残仕事・最終回収"
-    },
-    {
-      "id": "romalia_invasion_to_city",
-      "title": "ロマリア突入〜市街侵攻"
-    },
-    {
-      "id": "optional_romalia_g23",
-      "title": "【任意】ロマリア市街：G#23・宝箱最終回収"
-    },
-    {
-      "id": "romalia_city_finish",
-      "title": "ロマリア市街・地下道決着"
-    },
-    {
-      "id": "air_castle",
-      "title": "空中城・最終決戦"
-    }
+  "recommended_order": [
+    "prologue_to_shu",
+    "optional_early_guild",
+    "optional_convert_secret_lab",
+    "ceremony_and_yagos",
+    "yagos_return_to_garuano",
+    "optional_pre_whitehouse",
+    "white_house",
+    "optional_convert_whitehouse",
+    "shu_shante_smelia",
+    "shante_gurga_crenia",
+    "optional_lieza_guild",
+    "lieza_gogen_fores",
+    "elk_poco_smelia",
+    "shu_tosh_scrap_town",
+    "optional_romalia_split_guild",
+    "shu_tosh_tunnel",
+    "chimera_lab_reunion",
+    "optional_post_reunion",
+    "greycine",
+    "optional_world_cleanup_1",
+    "optional_choko_recruit",
+    "fores",
+    "brakia",
+    "optional_world_cleanup_2",
+    "millmana",
+    "optional_millmana_cleanup",
+    "optional_choko_mid",
+    "amigue_to_permission",
+    "optional_amigue_guild",
+    "amigue_gods_tower",
+    "barbarad_to_pyramid",
+    "optional_pre_monji_cleanup",
+    "barbarad_pyramid",
+    "palencia_tower_and_past",
+    "past_world",
+    "north_south_towers",
+    "optional_choko_late",
+    "optional_convert_choko_awakening",
+    "optional_final_cleanup",
+    "romalia_invasion_to_city",
+    "optional_romalia_g23",
+    "romalia_city_finish",
+    "air_castle"
   ],
   "sources": [
     {

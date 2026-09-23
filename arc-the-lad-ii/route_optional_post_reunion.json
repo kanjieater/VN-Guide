@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "G#27「再生品を盗む犯人を捕まえて欲しい」を完了する",
+    "jpGuide1": "再生品を盗む犯人を捕まえて欲しい",
+    "jpGuide2": "G#27　再生品を盗む犯人を捕まえて欲しい",
+    "enGuide": "This opens immediately after Chimera Lab; finish and settle it before G#28."
+  },
+  {
+    "simpleJp": "ジャッカルの手配書を確認する",
+    "jpGuide1": "手配「ジャッカル」を含む敵を倒せばクリア。",
+    "jpGuide2": "＋G#27終了＆清算　ジャッカル確認",
+    "enGuide": "G#28 requires the Jackal bounty to be checked first."
+  },
+  {
+    "simpleJp": "G#28「夜な夜な来るモンスターを倒して」を完了する",
+    "jpGuide1": "夜な夜な来るモンスターを倒して",
+    "jpGuide2": "G#28　夜な夜な来るモンスターを倒して",
+    "enGuide": "The fight includes Jackal, so this also clears that bounty if the posting was checked."
+  },
+  {
+    "simpleJp": "鉄クズ置き場でグラヴィスを討伐する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "グラヴィス　鉄クズ置き場",
+    "enGuide": "Clean up the newly available Scrap Yard bounty while you are already back in Romalia."
+  }
+]

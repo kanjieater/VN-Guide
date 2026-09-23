@@ -19,6 +19,58 @@
         "route": "aries",
         "save": "9"
       }
+    },
+    {
+      "id": "tips-after-aries",
+      "label": "Tips追加（1周目クリア）",
+      "near": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "【アリエス】END"
+        }
+      },
+      "rowOffset": 0,
+      "laneOffset": 1,
+      "navigable": false
+    },
+    {
+      "id": "tips-after-akari",
+      "label": "Tips更新（2周目クリア）",
+      "near": {
+        "route": "akari",
+        "step": {
+          "simpleJp": "【星乃 明香里】END"
+        }
+      },
+      "rowOffset": 0,
+      "laneOffset": 1,
+      "navigable": false
+    },
+    {
+      "id": "tips-after-aqua",
+      "label": "Tips更新（3周目クリア）",
+      "near": {
+        "route": "aqua",
+        "step": {
+          "simpleJp": "【アクア】END"
+        }
+      },
+      "rowOffset": 0,
+      "laneOffset": 1,
+      "navigable": false
+    },
+    {
+      "id": "tips-after-asuka",
+      "label": "Tips更新（4周目クリア）",
+      "near": {
+        "route": "asuka",
+        "step": {
+          "simpleJp": "【西園寺明香】END"
+        }
+      },
+      "rowOffset": 0,
+      "laneOffset": 1,
+      "navigable": false
     }
   ],
   "addEdges": [
@@ -84,10 +136,7 @@
         }
       },
       "to": {
-        "route": "completion",
-        "step": {
-          "simpleJp": "Tips"
-        }
+        "synthetic": "tips-after-aries"
       },
       "kind": "unlock",
       "label": "1周目クリアでTips追加"
@@ -100,10 +149,7 @@
         }
       },
       "to": {
-        "route": "completion",
-        "step": {
-          "simpleJp": "Tips"
-        }
+        "synthetic": "tips-after-akari"
       },
       "kind": "unlock",
       "label": "2周目クリアでTips更新"
@@ -116,10 +162,7 @@
         }
       },
       "to": {
-        "route": "completion",
-        "step": {
-          "simpleJp": "Tips"
-        }
+        "synthetic": "tips-after-aqua"
       },
       "kind": "unlock",
       "label": "3周目クリアでTips更新"
@@ -132,13 +175,24 @@
         }
       },
       "to": {
+        "synthetic": "tips-after-asuka"
+      },
+      "kind": "unlock",
+      "label": "4周目クリアでTips更新"
+    },
+    {
+      "from": {
+        "route": "completion",
+        "start": true
+      },
+      "to": {
         "route": "completion",
         "step": {
           "simpleJp": "Tips"
         }
       },
-      "kind": "unlock",
-      "label": "4周目クリアでTips更新"
+      "kind": "normal",
+      "label": "全ルートクリア後の完了確認"
     }
   ],
   "groups": [

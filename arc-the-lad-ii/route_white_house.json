@@ -2,8 +2,8 @@
   {
     "simpleJp": "サルバ砂漠を抜ける",
     "jpGuide1": "用心棒ジェフリーと戦闘がある。",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Proceed west after the pre-White-House cleanup."
+    "jpGuide2": "サルバ砂漠",
+    "enGuide": "Proceed through Salba Desert and its mandatory battle after the pre-White-House cleanup."
   },
   {
     "simpleJp": "帰らずの森を出口まで抜ける",
@@ -32,7 +32,7 @@
   {
     "simpleJp": "シルバーノア作戦室でエルクに2回話す",
     "jpGuide1": "エルクに２回話し掛けると進む",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "エルクに2回話しかけた後チョピンに話しかけるとイベント進行",
     "enGuide": "Then speak to Chopin in the other room to advance into the split-party arc."
   }
 ]

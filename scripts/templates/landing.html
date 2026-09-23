@@ -332,7 +332,7 @@ async function isPlaying(g) {
   return maxProgress > 0 && doneSteps < maxProgress;
 }
 
-async async function render() {
+async function render() {
   const version = ++renderVersion;
   const list = document.getElementById("game-list");
   const q = (document.getElementById("search").value || "").trim().toLowerCase();

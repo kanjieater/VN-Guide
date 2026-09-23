@@ -43,6 +43,24 @@ To avoid repeatedly rediscovering the same dead ends, keep these source roles fi
 
 The unresolved research task is therefore **Japanese corroboration, not gameplay discovery**. The operational trigger chains are already known from supplemental sources; research should target only the exact Japanese facts still listed as open in `research.json`.
 
+## Owner-approved source exception
+
+**Approved by the repository owner on 2026-09-22. This exception is title-scoped to BLACK/MATRIX OO and must not be generalized to other guides.**
+
+The research gate may proceed without further video/archive recovery for exactly four residual bonus-scenario evidence gaps: BS2/3, grouped BS5/6, BS10, and the remaining BS14 prerequisite/trigger chain.
+
+For those four gaps only:
+
+- retain the already verified Japanese Set-A chronology and all directly inspected Japanese Set-B evidence;
+- permit the directly inspected Japanese TSST bonus memo as derivative corroboration;
+- permit the directly inspected original Chinese FFSKY walkthrough to supply missing operational trigger/action detail and translated `enGuide` hints;
+- where TSST is incomplete but FFSKY is explicit, use FFSKY's fuller operational sequence while documenting that provenance;
+- specifically, BS6 includes the young Cipher Punk member in addition to the woman/man, and BS10 includes the waitress after シリア;
+- BS14's セングラー requirement remains backed by direct Japanese Set-B evidence; the exception covers only BS4+BS7+BS10 and 雑記帳「カイン様」→ウェイター;
+- never copy Chinese text into `jpGuide1` or `jpGuide2`. Use Japanese source text where available and the normal omission placeholder when the exception leaves one Japanese source field undocumented.
+
+This owner-approved exception closes the research gate for BLACK/MATRIX OO. Do not resume generic mirror hunting or require gameplay-video verification before authoring.
+
 ## Supplemental English-reference lane
 
 - The detailed Chinese FFSKY/SquareCN walkthrough is supplemental only and never satisfies Japanese Set A or Set B.

@@ -83,8 +83,13 @@ def scaffold_guide(
     # stay in sync with guide_stub.html even for existing games.
     # Inject a content hash of guide-app.js for cache busting.
     app_js = REPO_PATH / "guide-app.js"
+    style_css = REPO_PATH / "style.css"
     js_hash = hashlib.sha1(app_js.read_bytes()).hexdigest()[:8] if app_js.exists() else "0"
+    css_hash = hashlib.sha1(style_css.read_bytes()).hexdigest()[:8] if style_css.exists() else "0"
     html = STUB_TMPL.read_text().replace(
+        '<link rel="stylesheet" href="../style.css">',
+        f'<link rel="stylesheet" href="../style.css?v={css_hash}">',
+    ).replace(
         '<script src="../guide-app.js"></script>',
         f'<script src="../guide-app.js?v={js_hash}" defer></script>',
     )
@@ -179,7 +184,9 @@ def run() -> None:
     # Back-fill cover URLs for any games.json entries that were added manually
     # (e.g. the initial YU-NO seed) and never got a cover from VNDB.
     for vid, entry in games.items():
-        if not entry.get("cover_url"):
+        # Only VNDB-backed entries can be back-filled from VNDB. Non-VN games
+        # use namespaced manual keys (for example "game:black-matrix-oo").
+        if vid.startswith("v") and not entry.get("cover_url"):
             vn = pull_vndb.lookup_vn_by_id(vid)
             if vn and vn.get("cover_url"):
                 entry["cover_url"] = vn["cover_url"]

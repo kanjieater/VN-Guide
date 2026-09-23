@@ -5,6 +5,7 @@ const SETTINGS_KEY = "vng_settings";
 let guideData = { routes: [] };
 let state = { currentRoute: null, progress: {} };
 let settings = { blurPortraits: true };
+let pendingNextRoute = null;
 
 function loadState() {
   try { const s = localStorage.getItem(STORAGE_KEY); if (s) state = JSON.parse(s); } catch {}
@@ -82,6 +83,7 @@ function renderHome() {
     return;
   }
   status.style.display = "none";
+  const isLinearGame = isLinearGameGuide();
   list.innerHTML = guideData.routes.map((r, routeIdx) => {
     const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
@@ -92,7 +94,7 @@ function renderHome() {
     const portrait = r.portrait
       ? `<img src="${escHtml(r.portrait)}" class="route-portrait${shouldBlur ? ' locked' : ''}" alt="" loading="lazy">`
       : '';
-    const displayTitle = (settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
+    const displayTitle = (!isLinearGame && settings.blurPortraits && !hasProgress) ? `ルート ${routeIdx + 1}` : r.title;
     const statusIcon = r.reviewed === true
       ? '<span class="route-status-icon reviewed-icon" aria-label="検証済み"></span>'
       : '<span class="route-status-icon unreviewed-icon" aria-label="未検証"></span>';
@@ -161,6 +163,44 @@ function currentRoute() {
   return guideData.routes.find(r => r.id === state.currentRoute);
 }
 
+function isLinearGameGuide() {
+  return String(guideData.vndb_id || "").startsWith("game:");
+}
+
+function nextRoute() {
+  const idx = guideData.routes.findIndex(r => r.id === state.currentRoute);
+  return idx >= 0 && idx < guideData.routes.length - 1
+    ? guideData.routes[idx + 1]
+    : null;
+}
+
+function renderRouteTransition(route) {
+  pendingNextRoute = route;
+
+  document.getElementById("slide-route-title").textContent = "次へ";
+  document.getElementById("step-counter").textContent = "ルート完了";
+
+  const instrEl = document.getElementById("simple-instruction");
+  const portrait = route.portrait
+    ? `<img src="${escHtml(route.portrait)}" class="route-transition-portrait" alt="" loading="lazy">`
+    : "";
+  instrEl.innerHTML = `<div class="route-transition">
+    <div class="route-transition-kicker">次のルートへ</div>
+    ${portrait}
+    <div class="route-transition-title">${escHtml(route.title || route.id)}</div>
+  </div>`;
+
+  document.getElementById("toggle-details").style.display = "none";
+  document.getElementById("details-section").style.display = "none";
+
+  document.getElementById("btn-prev").disabled = false;
+  const nextBtn = document.getElementById("btn-next");
+  nextBtn.disabled = false;
+  nextBtn.textContent = "始める ▶";
+
+  showView("view-slide");
+}
+
 // Scan backward from a load step to find the bad-end label that triggered it.
 // Stops at any preceding load step so nested chains don't bleed into each other.
 function findBadEndLabel(steps, loadIdx) {
@@ -172,6 +212,7 @@ function findBadEndLabel(steps, loadIdx) {
 }
 
 function renderSlide() {
+  pendingNextRoute = null;
   const route = currentRoute();
   if (!route || !route.steps || !route.steps.length) { renderHome(); return; }
   const idx = state.progress[route.id] || 0;
@@ -211,12 +252,23 @@ function renderSlide() {
   }
 
   document.getElementById("btn-prev").disabled = idx === 0;
-  document.getElementById("btn-next").disabled = idx === total - 1;
+  const nextBtn = document.getElementById("btn-next");
+  const followingRoute = nextRoute();
+  const atSectionEnd = idx === total - 1;
+  nextBtn.disabled = atSectionEnd && !followingRoute;
+  nextBtn.textContent = atSectionEnd && followingRoute ? "次のセクションへ ▶" : "次へ ▶";
 
   showView("view-slide");
 }
 
-function nextStep() {
+async function nextStep() {
+  if (pendingNextRoute) {
+    const route = pendingNextRoute;
+    pendingNextRoute = null;
+    await startRoute(route.id);
+    return;
+  }
+
   const route = currentRoute();
   if (!route) return;
   const idx = state.progress[route.id] || 0;
@@ -224,10 +276,20 @@ function nextStep() {
     state.progress[route.id] = idx + 1;
     saveState();
     renderSlide();
+    return;
   }
+
+  const followingRoute = nextRoute();
+  if (followingRoute) renderRouteTransition(followingRoute);
 }
 
 function prevStep() {
+  if (pendingNextRoute) {
+    pendingNextRoute = null;
+    renderSlide();
+    return;
+  }
+
   const route = currentRoute();
   if (!route) return;
   const idx = state.progress[route.id] || 0;

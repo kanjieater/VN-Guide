@@ -1,32 +1,32 @@
 [
   {
-    "simpleJp": "ルワガの戦闘後、左側の家でジンバに話す",
+    "simpleJp": "ルワガの戦闘後、左側の家のイベントを進める",
     "jpGuide1": "戦闘後、左側の家にいるジンバと話す。",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "This advances the Brakia investigation."
+    "jpGuide2": "ルワガ　戦闘後、左の家",
+    "enGuide": "Advance the left-house event after the Luwaga battle; Set A identifies the NPC as Jinba."
   },
   {
     "simpleJp": "領主の館を最深部まで進む",
     "jpGuide1": "目的は最深部に行くことのみ。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "領主の館",
     "enGuide": "Clear the manor sequence, then return to Luwaga."
   },
   {
     "simpleJp": "グルガの家で話した後、宿屋を経てもう一度グルガの家へ行く",
     "jpGuide1": "もう一度グルガの家に行く。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "グルガの家→宿屋→グルガの家",
     "enGuide": "This opens the route to Banza Mountain."
   },
   {
     "simpleJp": "バンザ山をトロッコとレバーで登る",
     "jpGuide1": "レバーはポイント切り替えができ、切り替えるとトロッコのルートが変わる。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "バンザ山　トロッコ／レバー",
     "enGuide": "Check alternate mine-cart routes as you progress."
   },
   {
     "simpleJp": "山頂手前でレイガルを倒す",
     "jpGuide1": "敵を全滅させるとブラキアはクリア。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "レイガル戦",
     "enGuide": "Gurga is forced into this battle. Brakia remains revisitable for later guild jobs."
   }
 ]

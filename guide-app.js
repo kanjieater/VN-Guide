@@ -300,8 +300,7 @@ function renderSlide() {
   }
 
   const priorRoute = previousRoute();
-  document.getElementById("btn-prev").disabled =
-    idx === 0 && !isRouteComplete(priorRoute);
+  document.getElementById("btn-prev").disabled = idx === 0 && !priorRoute;
   const nextBtn = document.getElementById("btn-next");
   const followingRoute = nextRoute();
   const atSectionEnd = idx === total - 1;
@@ -341,12 +340,6 @@ async function prevStep() {
 
     if (fromRoute && fromRoute.id !== state.currentRoute) {
       await startRoute(fromRoute.id);
-      const loaded = currentRoute();
-      if (loaded && loaded.steps && loaded.steps.length) {
-        state.progress[loaded.id] = loaded.steps.length - 1;
-        saveState();
-        renderSlide();
-      }
     } else {
       renderSlide();
     }
@@ -364,7 +357,7 @@ async function prevStep() {
   }
 
   const priorRoute = previousRoute();
-  if (isRouteComplete(priorRoute)) {
+  if (priorRoute) {
     renderRouteTransition(route, priorRoute);
   }
 }

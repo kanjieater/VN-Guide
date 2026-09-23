@@ -1,0 +1,73 @@
+{
+  "title": "BLACK/MATRIX OO",
+  "vndb_id": "game:black-matrix-oo",
+  "guide_target": {
+    "label": "BLACK/MATRIX OO（2004年オリジナル版）",
+    "platform": "PlayStation",
+    "url": "https://www.gavas.jp/products/detail.php?product_id=9492"
+  },
+  "routes": [],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://derith.exblog.jp/i5/",
+      "title": "Fragments Of Memories — BLACK/MATRIX 00 プレイ日記",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET A candidate. Directly inspectable 43-entry play diary spanning the game through first clear and later-playthrough/endgame entries. Useful for chronological story flow, free-action events, battles, and observed ending outcomes. Needs route-by-route indexing before authoring."
+    },
+    {
+      "set": "A",
+      "url": "https://tsst.blog.jp/archives/52734155.html",
+      "title": "たそがれストローク — 〖BLACK/MATRIX 00〗ボーナスシナリオまとめ",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET A component. Directly inspectable and enumerates all 14 bonus scenarios with chapter/free-action placement, trigger conversation chains, cross-scenario prerequisites, the ダーナの試練 branch, and the セングラー condition for scenario 14. This closes Set A's optional-content timing gap."
+    },
+    {
+      "set": "B",
+      "url": "https://cradle2grave.netlify.app/bmoo/exp/",
+      "title": "CRADLE 2 GRAVE — ブラックマトリクス OO 自動系スキル修得考察",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspectable ordered battle-stage list covering 1-3 through 10-1 and useful progression cross-checks, but not a complete walkthrough by itself."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/gcmatome/pages/6233.html",
+      "title": "ゲームカタログ@Wiki — BLACK/MATRIX OO",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component for exact platform/release identity and broad ending/NG+ structure. It does not provide all optional-content triggers."
+    },
+    {
+      "set": "B",
+      "url": "https://medaka.5ch.io/test/read.cgi/gamesrpg/1327576922",
+      "title": "BLACK/MATRIX総合スレッド Chapter:15",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B supplementary component with firsthand discussion of bonus scenarios and true-ending/second-playthrough requirements. Community evidence only; use cautiously and reconcile with stronger sources."
+    },
+    {
+      "set": "B",
+      "url": "https://blog.livedoor.jp/juyoku/archives/51565870.html",
+      "title": "BLACK/MATRIX・ダブルオー再評価",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B component for ending mechanics. Directly inspectable firsthand write-up stating that the ordinary ending matrix is controlled by the ring that counters パスカのペインリング plus the final boss defeat/retreat decision, yielding four main patterns, with additional sub-ending content."
+    },
+    {
+      "url": "https://www.ffsky.com/article/bc5739_a14172.aspx",
+      "title": "PS～Black/Matrix00徹底攻略+極道研究",
+      "language": "zh",
+      "notes": "SUPPLEMENTAL ONLY. Directly inspectable detailed full walkthrough with chapter/stage ordering, free-action placement, all 14 bonus-scenario references, hidden-shop notes, ending-affecting conditions, and first-clear/NG+ information. Because it is not Japanese, it cannot satisfy Set A or Set B."
+    },
+    {
+      "url": "https://bm00.wiki.fc2.com/",
+      "title": "BLACK/MATRIX OO 攻略Wiki",
+      "language": "ja",
+      "notes": "PROVENANCE ONLY FOR NOW. Search results indicate a detailed Japanese chapter/battle walkthrough, but the current fetch path returns HTTP 403, so it cannot count toward the verification gate until directly inspectable."
+    },
+    {
+      "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784797327755",
+      "title": "ブラックマトリクス ダブルオー 公式ガイド",
+      "language": "ja",
+      "notes": "PROVENANCE ONLY. Confirms a 175-page official guide exists and advertises coverage of all scenario battles/data, but page contents are not directly inspectable through the current research path."
+    }
+  ],
+  "generated_at": "2026-09-22T21:45:00+00:00"
+}

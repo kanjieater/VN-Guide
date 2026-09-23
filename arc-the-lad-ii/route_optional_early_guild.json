@@ -3,37 +3,37 @@
     "simpleJp": "G#01「インディゴス下水道調べ」を完了する",
     "jpGuide1": "インディゴス下水道調べ",
     "jpGuide2": "G#01　インディゴス下水道調べ",
-    "enGuide": "Complete this first; G#07 depends on it and G#01 expires when the ceremony begins."
+    "enGuide": "Complete this in the first guild block before advancing the main story. It is also needed before G#07 appears."
   },
   {
     "simpleJp": "G#02「廃墟の幽霊屋敷」を完了する",
     "jpGuide1": "廃墟の幽霊屋敷",
     "jpGuide2": "G#02　廃墟の幽霊屋敷",
-    "enGuide": "This also expires when the ceremony begins."
+    "enGuide": "Clear the haunted-house job in this same early block before moving on."
   },
   {
-    "simpleJp": "ドクスンの手配書を確認する",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "ギルドで新しい手配書を確認する",
+    "jpGuide1": "新しい町に着いたらまず手配書を確認すること。",
     "jpGuide2": "＋ドクスン確認",
-    "enGuide": "Required before G#03 can be completed cleanly."
+    "enGuide": "Check the newly available wanted posters before taking the jewelry-store job."
   },
   {
-    "simpleJp": "G#03「インディゴス宝石強盗団」を中成功以上で完了する",
-    "jpGuide1": "インディゴス宝石強盗団",
-    "jpGuide2": "G#03　インディゴス宝石強盗団",
-    "enGuide": "Aim for at least medium success; it is a prerequisite for the later continuation job."
+    "simpleJp": "G#03「インディゴス宝石強盗団」で敵を逃がさず完了する",
+    "jpGuide1": "敵を逃がさずに倒せばクリア。",
+    "jpGuide2": "G#03を中成功以上でこなす必要がある",
+    "enGuide": "Block the escape route and finish the job without letting the thieves get away."
   },
   {
     "simpleJp": "G#07「バーンズさんの犬捜し」を完了する",
-    "jpGuide1": "バーンズさんの犬捜し",
+    "jpGuide1": "Gバーンズさんの犬捜し",
     "jpGuide2": "G#07　バーンズさんの犬捜し",
-    "enGuide": "Do this now. Its window is even shorter than the ceremony cutoff."
+    "enGuide": "Do this before advancing the closed-bar/Grunag sequence; the independent completion route places it in this same early window."
   },
   {
     "simpleJp": "インディゴス下水道でシャムスから「グランドナイフ」を盗んで討伐する",
     "jpGuide1": "シャムス　450　1　インディゴス下水道　グランドナイフ盗（初回遭遇時のみ）",
-    "jpGuide2": "シャムス：アジュを狩った足で入り直すだけで鉢合わせることがある",
-    "enGuide": "Bring Shu. The Grand Knife steal is first-encounter-sensitive, so take it before killing Shamus."
+    "jpGuide2": "グランドナイフ　初回遭遇時のみ入手可能",
+    "enGuide": "Bring Shu and steal the Grand Knife on the first encounter before killing Shamus."
   },
   {
     "simpleJp": "廃屋でゴルザを討伐する",

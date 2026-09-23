@@ -23,6 +23,32 @@ export async function settle() {
   await new Promise(resolvePromise => setImmediate(resolvePromise));
 }
 
+export function deferred() {
+  let resolve;
+  let reject;
+  const promise = new Promise((resolvePromise, rejectPromise) => {
+    resolve = resolvePromise;
+    reject = rejectPromise;
+  });
+  return { promise, resolve, reject };
+}
+
+export async function moveHistory(window, direction) {
+  const popstate = new Promise((resolvePromise, rejectPromise) => {
+    const timeout = setTimeout(
+      () => rejectPromise(new Error(`Timed out waiting for popstate after history.${direction}()`)),
+      500
+    );
+    window.addEventListener("popstate", event => {
+      clearTimeout(timeout);
+      resolvePromise(event);
+    }, { once: true });
+  });
+  window.history[direction]();
+  await popstate;
+  await settle();
+}
+
 export function stateKey(pathname) {
   return "guide_" + pathname.replace(/\//g, "_");
 }
@@ -60,6 +86,8 @@ export async function bootApp({
   pathname = "/game/",
   storage = {},
   guideFetchOk = true,
+  routeFetchers = {},
+  initialHistory = [],
 } = {}) {
   const dom = new JSDOM("<!doctype html><html><head></head><body><div id=\"app\"></div></body></html>", {
     url: `https://example.test${pathname}`,
@@ -70,6 +98,14 @@ export async function bootApp({
 
   for (const [key, value] of Object.entries(storage)) {
     window.localStorage.setItem(key, value);
+  }
+
+  if (initialHistory.length) {
+    const [first, ...rest] = initialHistory;
+    window.history.replaceState(clone(first.state), "", first.url);
+    for (const entry of rest) {
+      window.history.pushState(clone(entry.state), "", entry.url);
+    }
   }
 
   Object.defineProperty(window, "innerHeight", {
@@ -106,7 +142,11 @@ export async function bootApp({
 
     const match = url.match(/^\.\/route_(.+?)\.json/);
     if (match) {
-      const route = routes[match[1]];
+      const routeId = match[1];
+      if (routeFetchers[routeId]) {
+        return response(await routeFetchers[routeId](), true);
+      }
+      const route = routes[routeId];
       return route ? response(route, true) : response({}, false);
     }
 

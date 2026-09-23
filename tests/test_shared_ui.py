@@ -25,14 +25,50 @@ class SharedGuideUiTests(unittest.TestCase):
             source,
         )
         self.assertIn(
-            "if (priorRoute) {\n    renderRouteTransition(route, priorRoute);",
+            'renderRouteTransition(route, priorRoute, "backward");',
             source,
         )
 
     def test_transition_back_restores_saved_previous_route_position(self):
         source = APP.read_text(encoding="utf-8")
-        self.assertIn("await startRoute(fromRoute.id);", source)
+        self.assertIn(
+            'await startRoute(fromRoute.id, { fromView: "transition" });',
+            source,
+        )
         self.assertNotIn("state.progress[loaded.id] = loaded.steps.length - 1;", source)
+
+    def test_browser_history_tracks_screens_and_replaces_route_steps(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn('writeNavigation({ view: "home" }, "replace");', source)
+        self.assertIn('window.addEventListener("popstate"', source)
+        self.assertIn('view: "transition"', source)
+        self.assertIn('view: "jump"', source)
+        self.assertIn('writeNavigation({ view: "settings" });', source)
+        self.assertIn('}, "replace");', source)
+        self.assertIn("history.back();", source)
+
+    def test_route_history_preserves_transition_parent_across_steps(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn(
+            'fromView: options.fromView || currentNavigation().view || "home"',
+            source,
+        )
+        self.assertGreaterEqual(
+            source.count('fromView: currentNavigation().fromView || null'),
+            2,
+        )
+        self.assertIn(
+            'if (currentNavigation().fromView === "transition")',
+            source,
+        )
+
+    def test_settings_back_uses_browser_history(self):
+        source = APP.read_text(encoding="utf-8")
+        self.assertIn('onclick="closeSettings()"', source)
+        self.assertIn(
+            "function closeSettings() {\n  history.back();\n}",
+            source,
+        )
 
     def test_route_cards_share_uniform_minimum_height(self):
         source = STYLE.read_text(encoding="utf-8")

@@ -268,8 +268,7 @@
     "simpleJp": "理由を尋ねる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "理由を尋ねる　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ96にロード",
@@ -487,7 +486,7 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "薬を与える",
     "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "後ろへ下がる",
@@ -511,8 +510,7 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "我慢させる",
     "jpGuide2": "我慢させる",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "父の側についたんですか？",

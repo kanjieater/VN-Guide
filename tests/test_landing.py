@@ -8,6 +8,22 @@ LANDING = ROOT / "scripts" / "templates" / "landing.html"
 
 
 class LandingPlayingFilterTests(unittest.TestCase):
+    def test_playing_filter_requires_visible_nonzero_progress(self):
+        source = LANDING.read_text(encoding="utf-8")
+        self.assertIn(
+            "const pct = maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;",
+            source,
+        )
+        self.assertIn("return pct > 0 && pct < 100;", source)
+
+    def test_filters_share_one_control_row(self):
+        source = LANDING.read_text(encoding="utf-8")
+        start = source.index('<div class="control-row">')
+        end = source.index("</div>\n  <br>", start)
+        row = source[start:end]
+        for button_id in ("btn-recent", "btn-alpha", "btn-all", "btn-playing"):
+            self.assertIn(f'id="{button_id}"', row)
+
     def test_storage_key_uses_canonical_encoded_guide_url(self):
         source = LANDING.read_text(encoding="utf-8")
         self.assertIn(

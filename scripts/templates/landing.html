@@ -322,8 +322,11 @@ async function isPlaying(g) {
     return sum + Math.max(count - 1, 1);
   }, 0);
   const doneSteps = guide.routes.reduce((sum, route) => {
+    const count = route.stepCount || (route.steps ? route.steps.length : 0);
     const progress = saved.progress[route.id];
-    return sum + (progress !== undefined ? progress : 0);
+    if (progress === undefined) return sum;
+    if (count === 1) return sum + 1;
+    return sum + Math.max(0, Math.min(progress, count - 1));
   }, 0);
 
   return maxProgress > 0 && doneSteps < maxProgress;

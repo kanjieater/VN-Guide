@@ -30,7 +30,7 @@ function response(body, ok = true) {
 
 
 async function settle() {
-  await new Promise(resolvePromise => setImmediate(resolvePromise));
+  await new Promise(resolvePromise => setTimeout(resolvePromise, 5));
   await new Promise(resolvePromise => setImmediate(resolvePromise));
 }
 
@@ -173,6 +173,8 @@ test("reader can start, advance, reload, finish, and backtrack through a route t
   second.window.goHome();
   assert.equal(readState(second.window).currentRoute, null);
   assert.match(second.window.document.getElementById("route-list").textContent, /Alpha/);
+  first.dom.window.close();
+  second.dom.window.close();
 });
 
 
@@ -227,6 +229,7 @@ test("flowchart exploration is preview-only until the reader explicitly continue
   assert.equal(readState(app.window).progress.a, 3);
   assert.equal(readState(app.window).seenProgress.a, 3);
   assert.equal(app.window.document.getElementById("step-counter").textContent, "4 / 4 (100%)");
+  app.dom.window.close();
 });
 
 
@@ -271,6 +274,8 @@ test("spoiler protection, settings persistence, and linear-game behavior match t
   assert.equal(linear.window.document.getElementById("btn-flowchart").style.display, "none");
   await linear.window.showFlowchart();
   assert.ok(linear.window.document.getElementById("view-home").classList.contains("active"));
+  app.dom.window.close();
+  linear.dom.window.close();
 });
 
 
@@ -322,6 +327,7 @@ test("bad-end instructions remain understandable in both slide and jump-list vie
   app.window.jumpTo(2);
   assert.equal(readState(app.window).progress.a, 2);
   assert.equal(app.window.document.getElementById("simple-instruction").textContent, "安全な選択");
+  app.dom.window.close();
 });
 
 
@@ -349,4 +355,6 @@ test("failed guide and route fetches leave the user on a recoverable home view",
     progress: {},
     seenProgress: {},
   });
+  failedGuide.dom.window.close();
+  missingRoute.dom.window.close();
 });

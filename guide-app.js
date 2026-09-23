@@ -18,7 +18,7 @@ function mountAppShell() {
       <div class="view-header">
         <a href="../">← 戻る</a>
         <h3 id="game-title"></h3>
-        <button id="btn-flowchart" onclick="showFlowchart()" style="display:none">分岐図</button>
+        <button id="btn-flowchart" class="icon-button" onclick="showFlowchart()" style="display:none" aria-label="分岐図" title="分岐図"><svg class="flowchart-button-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="5" rx="1"></rect><rect x="2" y="17" width="7" height="5" rx="1"></rect><rect x="15" y="17" width="7" height="5" rx="1"></rect><path d="M12 7v5M5.5 17v-3h13v3"></path></svg></button>
         <button onclick="showSettings()">⚙</button>
       </div>
       <div class="home-content">

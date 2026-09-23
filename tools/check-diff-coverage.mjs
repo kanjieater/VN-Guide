@@ -2,18 +2,18 @@ import { readFile } from "node:fs/promises";
 
 const TARGETS = new Set(["guide-app.js", "flowchart.js", "tools/generate.mjs"]);
 
-export function parseLcov(text) {
-  const files = new Map();
+export function parseLcov(text, files = new Map()) {
   let current = null;
 
   for (const line of text.split(/\r?\n/)) {
     if (line.startsWith("SF:")) {
       current = line.slice(3).replaceAll("\\", "/");
       while (current.startsWith("./")) current = current.slice(2);
-      files.set(current, new Map());
+      if (!files.has(current)) files.set(current, new Map());
     } else if (current && line.startsWith("DA:")) {
       const [lineNumber, count] = line.slice(3).split(",").map(Number);
-      files.get(current).set(lineNumber, count);
+      const existing = files.get(current).get(lineNumber) || 0;
+      files.get(current).set(lineNumber, existing + count);
     } else if (line === "end_of_record") {
       current = null;
     }
@@ -84,10 +84,14 @@ async function main() {
   ]);
   if (proc.exitCode !== 0) throw new Error(proc.stderr.toString());
 
-  const lcov = await readFile("coverage/lcov.info", "utf8");
+  const shardNames = ["guide-app", "flowchart", "sidecars", "core"];
+  const coverage = new Map();
+  for (const shard of shardNames) {
+    parseLcov(await readFile(`coverage/${shard}/lcov.info`, "utf8"), coverage);
+  }
   const uncovered = uncoveredChangedLines(
     parseChangedLines(proc.stdout.toString()),
-    parseLcov(lcov)
+    coverage
   );
 
   if (uncovered.length) {

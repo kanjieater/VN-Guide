@@ -1,6 +1,19 @@
 import { readFile } from "node:fs/promises";
 
-const TARGETS = new Set(["guide-app.js", "flowchart.js", "tools/generate.mjs"]);
+const EXCLUDED_EXECUTABLE_SOURCES = new Set([
+  // CI/test infrastructure is tested, but is not application/generator production logic.
+  "tools/check-diff-coverage.mjs",
+  "tools/generate-cli.mjs",
+]);
+
+export function isProductionSource(path) {
+  const normalized = path.replaceAll("\\", "/");
+  if (!/\.(?:js|mjs)$/.test(normalized)) return false;
+  if (normalized.startsWith("tests-js/")) return false;
+  if (normalized.startsWith("node_modules/")) return false;
+  if (normalized.startsWith("coverage/")) return false;
+  return !EXCLUDED_EXECUTABLE_SOURCES.has(normalized);
+}
 
 export function parseLcov(text, files = new Map()) {
   let current = null;
@@ -27,13 +40,18 @@ export function parseChangedLines(diff) {
   let file = null;
 
   for (const line of diff.split(/\r?\n/)) {
-    if (line.startsWith("+++ b/")) {
-      file = line.slice(6);
-      if (TARGETS.has(file) && !changed.has(file)) changed.set(file, new Set());
+    if (line.startsWith("+++ ")) {
+      const target = line.slice(4);
+      file = target === "/dev/null"
+        ? null
+        : target.startsWith("b/") ? target.slice(2) : target;
+      if (file && isProductionSource(file) && !changed.has(file)) {
+        changed.set(file, new Set());
+      }
       continue;
     }
 
-    if (!file || !TARGETS.has(file) || !line.startsWith("@@")) continue;
+    if (!file || !changed.has(file) || !line.startsWith("@@")) continue;
     const match = line.match(/\+(\d+)(?:,(\d+))?/);
     if (!match) continue;
 
@@ -79,8 +97,7 @@ async function main() {
   if (!base) throw new Error("Usage: bun tools/check-diff-coverage.mjs <base-ref>");
 
   const proc = Bun.spawnSync([
-    "git", "diff", "--unified=0", "--no-color", `${base}...HEAD`, "--",
-    "guide-app.js", "flowchart.js", "tools/generate.mjs",
+    "git", "diff", "--unified=0", "--no-color", `${base}...HEAD`,
   ]);
   if (proc.exitCode !== 0) throw new Error(proc.stderr.toString());
 
@@ -95,7 +112,7 @@ async function main() {
     uncovered.forEach(item => console.error(`  ${item}`));
     process.exit(1);
   }
-  console.log("100% changed-line coverage for executable app/generator code.");
+  console.log("100% changed-line coverage for production application/generator modules.");
 }
 
 if (import.meta.main) {

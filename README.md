@@ -42,4 +42,4 @@ bun run test:coverage
 
 Tests are use-case driven. Bun's native `--parallel` mode gives every test file a fresh global while scheduling files across CPU cores; independent tests within a file may additionally run concurrently with a maximum concurrency of 20. They exercise reader resume/navigation, route transitions, spoiler behavior, bad-end/load handling, flowchart preview/commit and zoom interactions, detailed sidecar topology, landing-page progress filtering, and deterministic generation.
 
-CI reports whole-code coverage and enforces **100% changed-line coverage** for executable application/generator code.
+CI reports whole-code coverage and enforces **100% changed-line coverage** for production application/generator modules. The gate discovers production `.js`/`.mjs` files dynamically; only explicit CI/test entrypoints are excluded, so a newly added runtime module cannot silently bypass coverage.

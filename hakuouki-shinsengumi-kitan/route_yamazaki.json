@@ -262,8 +262,7 @@
     "simpleJp": "気持ちは分かります",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "気持ちは分かります　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ85にロード",
@@ -567,8 +566,7 @@
     "simpleJp": "力を使うべき",
     "jpGuide1": "力を使うべき",
     "jpGuide2": "力を使うべき　→　ゲームオーバー",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ89にロード",

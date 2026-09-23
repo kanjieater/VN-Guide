@@ -496,7 +496,7 @@ async function startRoute(id, options = {}) {
   }
 }
 
-// ── Flowchart// ── Flowchart ──────────────────────────────────────────────────────────────────
+// ── Flowchart ──────────────────────────────────────────────────────────────────
 async function loadRouteForFlowchart(route) {
   return !!(await ensureRouteLoaded(route.id));
 }
@@ -572,7 +572,7 @@ function closeFlowchart() {
   history.back();
 }
 
-async function jumpFromFlowchartasync function jumpFromFlowchart(routeId, stepIndex) {
+async function jumpFromFlowchart(routeId, stepIndex) {
   const applyEpoch = ++navigationApplyEpoch;
   const sourceUrl = location.href;
   const route = (guideData.routes || []).find(r => r.id === routeId);
@@ -597,7 +597,7 @@ async function jumpFromFlowchartasync function jumpFromFlowchart(routeId, stepIn
   });
 }
 
-// ── Slide// ── Slide ─────────────────────────────────────────────────────────────────────
+// ── Slide ─────────────────────────────────────────────────────────────────────
 function currentRoute() {
   return guideData.routes.find(r => r.id === state.currentRoute);
 }
@@ -925,7 +925,7 @@ function goHome() {
   writeNavigation({ view: "home" });
 }
 
-// ── Jump list// ── Jump list ─────────────────────────────────────────────────────────────────
+// ── Jump list ─────────────────────────────────────────────────────────────────
 function renderJump() {
   const route = currentRoute();
   if (!route || !route.steps) return;
@@ -954,7 +954,7 @@ function showJump() {
   writeNavigation({ view: "jump", routeId: route.id });
 }
 
-function jumpTo(idx)function jumpTo(idx) {
+function jumpTo(idx) {
   const route = currentRoute();
   if (!route) return;
   flowchartPreview = null;
@@ -974,7 +974,7 @@ function resumeSlide() {
   history.back();
 }
 
-// ── Settings// ── Settings ──────────────────────────────────────────────────────────────────
+// ── Settings ──────────────────────────────────────────────────────────────────
 function renderSettings() {
   for (const [k, v] of Object.entries(settings)) {
     const el = document.getElementById(`toggle-${k}`);
@@ -992,7 +992,7 @@ function closeSettings() {
   history.back();
 }
 
-function toggleSetting(key)function toggleSetting(key) {
+function toggleSetting(key) {
   settings[key] = !settings[key];
   const el = document.getElementById(`toggle-${key}`);
   if (el) el.classList.toggle("on", settings[key]);

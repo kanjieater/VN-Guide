@@ -40,7 +40,7 @@
     ]
   },
   "critical_findings": [
-    "Early guild jobs G#01, G#02, G#03 expire at the ceremony; G#07 depends on G#01 and has its own early limit.",
+    "Early guild work is placed immediately after Shu joins and before the closed-bar/Grunag/Yagos progression. Set B supplies the exact disappearance windows (G#01/#02/#03 at ceremony start; G#07 at the Grunag cutoff), while the independently promoted Ari no Su completion route—whose stated policy is to complete every guild job—independently clears G#01, G#02, G#07, and G#03 in this same pre-Grunag block.",
     "After Yagos, G#04→G#05→G#06 and later G#08 plus G#11/#12 and G#14→#15→#16 must be completed before White House ends.",
     "During Lieza/Gogen's Fores segment, G#29 and G#30 exist only for that temporary party window.",
     "During Shu/Tosh's Romalia segment, G#26 has a very short window; G#24→#25 can remain until Air Castle but are safest here.",
@@ -68,7 +68,8 @@
     "Romalia invasion is split before city completion: G#23 appears when the city-wall assault begins and expires when Air Castle rises, so deliver the amulet while Romalia city is still accessible; entering the final plaza/finishing the city also locks out city treasure.",
     "Final normal-game Light Sword path is protected: Fire Sword from Elk's one-time dream battle, Earth Sword from Yagos sealed-ruin B4-B7 or Empty House, Wind Sword from Barbarad sealed ruin, and the missable Ice Sword from South Tower. Synthesize 光の剣 before Air Castle.",
     "The sealed-ruin power-unit chain is completed before final lockout: Greycine → Alaratos → Brakia → Amigue → Barbarad → Alibarsha. This obtains Wind Sword and opens the Alibarsha ruin where Maios can be hunted.",
-    "Choko's mid event is independently corroborated by Arc II Data Wiki: green slimes must not all be defeated, and Red Shoes appears only during that battle. The converted awakening continuation independently reaches Ruins B71 and Akura."
+    "Choko's mid event is independently corroborated by Arc II Data Wiki: green slimes must not all be defeated, and Red Shoes appears only during that battle. The converted awakening continuation independently reaches Ruins B71 and Akura.",
+    "For the early G#03 block, the route no longer presents the Set-B-only 'wanted-poster prerequisite' or 'medium-success continuation threshold' as independently verified claims. Instead it uses a conservative two-source action sequence: Tekeremu independently instructs checking wanted posters on reaching a new town, Chokota instructs preventing the jewelry thieves from escaping, and Set B documents the Dokusun check plus the minimum success condition."
   ],
   "recommended_order": [
     "prologue_to_shu",
@@ -225,7 +226,28 @@
       "title": "武器/光の剣",
       "language": "ja",
       "notes": "Independent support for Light Sword synthesis from Earth + Ice + Fire + Wind swords."
+    },
+    {
+      "set": "A",
+      "url": "https://arinosu.ari-jigoku.com/arc2/suikamesann.html",
+      "title": "アークザラッド２データベース — 極限低レベルネックレス取得（暫定版）",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for early optional-content placement. The author explicitly states a completion policy of doing every guild job, then records G#01, G#02, G#07, and G#03 after Shu joins and before the closed-bar/Grunag transition to Yagos. Used to corroborate the safe early-job ordering; Set B remains the source for exact disappearance timestamps."
+    },
+    {
+      "set": "A",
+      "url": "https://tekeremu.zatunen.com/ArcTheLad1-2/arc2_tehai.htm",
+      "title": "Arc The Lad 2 — 手配モンスター",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for wanted-monster handling where Chokota is silent. It instructs checking wanted posters on reaching a new town and independently documents first-encounter-only stealing plus Shamus's Grand Knife."
+    },
+    {
+      "set": "B",
+      "url": "https://yagamuu.github.io/speedrun-docs/arc2_jp_any_glitchless_no_file_convert.html",
+      "title": "アークザラッドⅡ JP Any% Glitchless (No File Conversion) 手順",
+      "language": "ja",
+      "notes": "Direct detailed chronology companion to the recorded RTA report. Used for exact mandatory micro-order/excerpts in the opening and ceremony sections, including Alfred 2, Indigos guild/bar, the post-Leland alley sequence, and the ticket progression."
     }
   ],
-  "generated_at": "2026-09-23T05:28:00+00:00"
+  "generated_at": "2026-09-23T14:45:00+00:00"
 }

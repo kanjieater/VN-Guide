@@ -12,8 +12,14 @@ test("linear games show real section titles and suppress the VN flowchart", asyn
     routes: { "chapter-1": [{ simpleJp: "Proceed" }] },
   });
 
-  assert.match(app.window.document.getElementById("route-list").textContent, /Chapter 1/);
+  assert.match(app.window.document.getElementById("route-list").textContent, /セクション 1/);
+  assert.doesNotMatch(app.window.document.getElementById("route-list").textContent, /Chapter 1/);
   assert.equal(app.window.document.getElementById("btn-flowchart").style.display, "none");
+
+  app.window.showSettings();
+  app.window.toggleSetting("blurPortraits");
+  app.window.goHome();
+  assert.match(app.window.document.getElementById("route-list").textContent, /Chapter 1/);
   await app.window.showFlowchart();
   assert.ok(app.window.document.getElementById("view-home").classList.contains("active"));
 

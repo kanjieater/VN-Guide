@@ -35,6 +35,12 @@
       "to": { "route": "completion", "step": { "simpleJp": "かげろう" } },
       "kind": "unlock",
       "label": "こもれびクリア後"
+    },
+    {
+      "from": { "route": "completion", "start": true },
+      "to": { "route": "completion", "step": { "simpleJp": "Tips" } },
+      "kind": "normal",
+      "label": "クリア進行に応じて確認"
     }
   ],
   "groups": [

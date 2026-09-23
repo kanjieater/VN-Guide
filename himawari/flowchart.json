@@ -78,8 +78,10 @@
     },
     {
       "from": {
-        "route": "completion",
-        "start": true
+        "route": "aries",
+        "step": {
+          "simpleJp": "【アリエス】END"
+        }
       },
       "to": {
         "route": "completion",
@@ -87,8 +89,56 @@
           "simpleJp": "Tips"
         }
       },
-      "kind": "normal",
-      "label": "クリア進行に応じて確認"
+      "kind": "unlock",
+      "label": "1周目クリアでTips追加"
+    },
+    {
+      "from": {
+        "route": "akari",
+        "step": {
+          "simpleJp": "【星乃 明香里】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "unlock",
+      "label": "2周目クリアでTips更新"
+    },
+    {
+      "from": {
+        "route": "aqua",
+        "step": {
+          "simpleJp": "【アクア】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "unlock",
+      "label": "3周目クリアでTips更新"
+    },
+    {
+      "from": {
+        "route": "asuka",
+        "step": {
+          "simpleJp": "【西園寺明香】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "unlock",
+      "label": "4周目クリアでTips更新"
     }
   ],
   "groups": [

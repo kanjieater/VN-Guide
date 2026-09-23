@@ -23,7 +23,9 @@ For an opted-in linear game walkthrough, this "route" is simply the next sequent
 3. Confirm Japanese verification Set A and Set B both satisfy the canonical research gate for this route **and the exact guide target release**. If not, stop without generating route content.
 4. Fetch the relevant components of both sets directly.
 5. Reconcile every route-defining choice, prerequisite/unlock, ending, and documented save before writing.
-6. Write the complete route as a JSON array to `$ROUTE_FILE`.
+   - When sources show different literal choices within the same event, first determine whether they are different decision points in one sequence; if so, preserve both in order instead of treating them as contradictory.
+6. If the game supplement contains an explicit owner-approved title-scoped exception, apply it only to the enumerated facts and keep omission placeholders/source roles honest exactly as the supplement requires.
+7. Write the complete route as a JSON array to `$ROUTE_FILE`.
 
 
 ### Step format
@@ -115,6 +117,7 @@ Never add `badEndPath` when no Japanese source documents a non-main ending, and 
 - Include all required choices.
 - Include every documented non-main ending detour completely.
 - Stop at this section's intended documented terminal/outcome.
+- If that terminal ends a playthrough and later guide content belongs to another clear/NG+/replay, the next section must explicitly establish that fresh run before later gameplay continues unless a source-backed load already does so.
 - Output only valid JSON to `$ROUTE_FILE`.
 
 Generate route `$ROUTE_ID` only, then stop.

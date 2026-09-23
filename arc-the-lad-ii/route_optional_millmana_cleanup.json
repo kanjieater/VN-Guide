@@ -2,20 +2,20 @@
   {
     "simpleJp": "帰らずの森でバルザックを討伐して「クレイモア」を入手する",
     "jpGuide1": "バルザック　帰らずの森　クレイモア落",
-    "jpGuide2": "バルザック　白い家に潜入後～",
-    "enGuide": "Now that Grovis/Fate is secured, it is safe to finish Balzac and obtain the Claymore drop."
+    "jpGuide2": "バルザックを先に倒しているとグロヴィスのフェイトは入手不可",
+    "enGuide": "Now that Grovis/Fate is secured, return for Balzac and the Claymore drop."
   },
   {
     "simpleJp": "G#36「石版調査の護衛」を完了する",
     "jpGuide1": "石版調査の護衛",
     "jpGuide2": "G#36　石板調査の護衛",
-    "enGuide": "Protect the central area across three fights (5, 7, then 5 turns). This expires after both Amigue and Barbarad are complete."
+    "enGuide": "Complete this now as part of the conservative post-Millmana guild sweep."
   },
   {
     "simpleJp": "G#38「炭坑の落盤事故の炭坑夫救出作業」を完了する",
     "jpGuide1": "炭坑の落盤事故の炭坑夫救出作業",
     "jpGuide2": "G#38　炭坑の落盤事故の炭坑夫救出作業",
-    "enGuide": "Rescue all ten miners. This shares the Amigue+Barbarad completion cutoff."
+    "enGuide": "Complete this now in the same conservative sweep and rescue all ten miners."
   },
   {
     "simpleJp": "G#35「ラマダ山に、モンスターが！」を完了する",
@@ -38,7 +38,7 @@
   {
     "simpleJp": "ニエンの森最深部でキッシュから「ピティ」を盗んで討伐する",
     "jpGuide1": "キッシュ　ニエンの森最深部　ピティ盗",
-    "jpGuide2": "キッシュ　マンイーター　ニエンの森",
+    "jpGuide2": "キッシュ　盗：ピティ",
     "enGuide": "Bring Shu and steal Pity before finishing Kish."
   }
 ]

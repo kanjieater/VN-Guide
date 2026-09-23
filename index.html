@@ -282,10 +282,8 @@ function renderCard(g) {
 }
 
 function guideStorageKey(slug) {
-  const basePath = location.pathname.endsWith("/")
-    ? location.pathname
-    : location.pathname.replace(/[^/]*$/, "");
-  return "guide_" + `${basePath}${slug}/`.replace(/\//g, "_");
+  const pathname = new URL(`./${encodeURIComponent(slug)}/`, location.href).pathname;
+  return "guide_" + pathname.replace(/\//g, "_");
 }
 
 function savedGuideState(slug) {

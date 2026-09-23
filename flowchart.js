@@ -713,7 +713,72 @@
     return graph;
   }
 
-  function renderGraphSection(titleText, graph, onNavigate, ariaLabel, progressState) {
+  function createZoomGroup(container) {
+    const controllers = [];
+    let multiplier = 1;
+
+    const zoomBar = document.createElement("div");
+    zoomBar.className = "flowchart-zoom";
+    const zoomOut = document.createElement("button");
+    zoomOut.type = "button";
+    zoomOut.textContent = "−";
+    zoomOut.setAttribute("aria-label", "縮小");
+    const fit = document.createElement("button");
+    fit.type = "button";
+    fit.textContent = "全体";
+    fit.setAttribute("aria-label", "幅に合わせて全体表示");
+    const zoomIn = document.createElement("button");
+    zoomIn.type = "button";
+    zoomIn.textContent = "＋";
+    zoomIn.setAttribute("aria-label", "拡大");
+    const zoomReadout = document.createElement("span");
+    zoomReadout.className = "flowchart-zoom-readout";
+    zoomBar.append(zoomOut, fit, zoomIn, zoomReadout);
+    container.appendChild(zoomBar);
+
+    function updateReadout() {
+      zoomReadout.textContent = `${Math.round(multiplier * 100)}%`;
+    }
+
+    function applyAll(focusController, clientX) {
+      controllers.forEach(controller => {
+        controller.applyMultiplier(
+          multiplier,
+          controller === focusController ? clientX : undefined
+        );
+      });
+      updateReadout();
+    }
+
+    function zoomBy(factor, focusController, clientX) {
+      multiplier = Math.max(0.2, Math.min(4, multiplier * factor));
+      applyAll(focusController, clientX);
+    }
+
+    function fitAll() {
+      multiplier = 1;
+      controllers.forEach(controller => controller.fit());
+      updateReadout();
+    }
+
+    zoomOut.addEventListener("click", () => zoomBy(1 / 1.25));
+    zoomIn.addEventListener("click", () => zoomBy(1.25));
+    fit.addEventListener("click", fitAll);
+    updateReadout();
+
+    return {
+      register(controller) {
+        controllers.push(controller);
+      },
+      zoomBy,
+      multiplier: () => multiplier,
+      refresh(controller) {
+        controller.applyMultiplier(multiplier);
+      },
+    };
+  }
+
+  function renderGraphSection(titleText, graph, onNavigate, ariaLabel, progressState, zoomGroup) {
     const section = document.createElement("section");
     section.className = "flowchart-route";
 
@@ -744,35 +809,20 @@
       "aria-label": ariaLabel,
     });
 
-    const zoomBar = document.createElement("div");
-    zoomBar.className = "flowchart-zoom";
-    const zoomOut = document.createElement("button");
-    zoomOut.type = "button";
-    zoomOut.textContent = "−";
-    zoomOut.setAttribute("aria-label", "縮小");
-    const fit = document.createElement("button");
-    fit.type = "button";
-    fit.textContent = "全体";
-    fit.setAttribute("aria-label", "幅に合わせて全体表示");
-    const zoomIn = document.createElement("button");
-    zoomIn.type = "button";
-    zoomIn.textContent = "＋";
-    zoomIn.setAttribute("aria-label", "拡大");
-    const zoomReadout = document.createElement("span");
-    zoomReadout.className = "flowchart-zoom-readout";
-    zoomBar.append(zoomOut, fit, zoomIn, zoomReadout);
-
     let scale = 1;
-    let fitMode = true;
 
     function applyScale(nextScale) {
       scale = Math.max(0.15, Math.min(2.5, nextScale));
       svg.style.width = `${Math.round(width * scale)}px`;
       svg.style.height = `${Math.round(height * scale)}px`;
-      zoomReadout.textContent = `${Math.round(scale * 100)}%`;
     }
 
-    function zoomAt(nextScale, clientX) {
+    function fittedScale() {
+      const availableWidth = Math.max(1, scroller.clientWidth - 2);
+      return Math.min(1, availableWidth / width);
+    }
+
+    function zoomAtScale(nextScale, clientX) {
       const rect = scroller.getBoundingClientRect();
       const localX = Number.isFinite(clientX)
         ? clientX - rect.left
@@ -782,30 +832,25 @@
       scroller.scrollLeft = Math.max(0, contentX * scale - localX);
     }
 
-    function fitToWidth() {
-      const availableWidth = Math.max(1, scroller.clientWidth - 2);
-      applyScale(Math.min(1, availableWidth / width));
-      scroller.scrollLeft = 0;
-    }
-
-    zoomOut.addEventListener("click", () => {
-      fitMode = false;
-      zoomAt(scale / 1.25);
-    });
-    zoomIn.addEventListener("click", () => {
-      fitMode = false;
-      zoomAt(scale * 1.25);
-    });
-    fit.addEventListener("click", () => {
-      fitMode = true;
-      fitToWidth();
-    });
+    const zoomController = {
+      applyMultiplier(multiplier, clientX) {
+        zoomAtScale(fittedScale() * multiplier, clientX);
+      },
+      fit() {
+        applyScale(fittedScale());
+        scroller.scrollLeft = 0;
+      },
+    };
+    if (zoomGroup) zoomGroup.register(zoomController);
 
     scroller.addEventListener("wheel", event => {
       event.preventDefault();
-      fitMode = false;
       const factor = Math.exp(-event.deltaY * 0.0015);
-      zoomAt(scale * factor, event.clientX);
+      if (zoomGroup) {
+        zoomGroup.zoomBy(factor, zoomController, event.clientX);
+      } else {
+        zoomAtScale(scale * factor, event.clientX);
+      }
     }, { passive: false });
 
     let pinchDistance = null;
@@ -823,7 +868,6 @@
     scroller.addEventListener("touchstart", event => {
       if (event.touches.length !== 2) return;
       event.preventDefault();
-      fitMode = false;
       pinchDistance = touchDistance(event.touches);
     }, { passive: false });
 
@@ -832,7 +876,12 @@
       event.preventDefault();
       const nextDistance = touchDistance(event.touches);
       if (nextDistance <= 0) return;
-      zoomAt(scale * (nextDistance / pinchDistance), touchMidpointX(event.touches));
+      const factor = nextDistance / pinchDistance;
+      if (zoomGroup) {
+        zoomGroup.zoomBy(factor, zoomController, touchMidpointX(event.touches));
+      } else {
+        zoomAtScale(scale * factor, touchMidpointX(event.touches));
+      }
       pinchDistance = nextDistance;
     }, { passive: false });
 
@@ -867,17 +916,20 @@
     graph.nodes.forEach(node => renderNode(svg, node, onNavigate, progressState));
 
     scroller.appendChild(svg);
-    section.appendChild(zoomBar);
     section.appendChild(scroller);
 
-    requestAnimationFrame(fitToWidth);
+    requestAnimationFrame(() => {
+      if (zoomGroup) zoomGroup.refresh(zoomController);
+      else zoomController.fit();
+    });
     if (window.ResizeObserver) {
       const resizeObserver = new ResizeObserver(() => {
         if (!scroller.isConnected) {
           resizeObserver.disconnect();
           return;
         }
-        if (fitMode) fitToWidth();
+        if (zoomGroup) zoomGroup.refresh(zoomController);
+        else zoomController.fit();
       });
       resizeObserver.observe(scroller);
     }
@@ -885,7 +937,7 @@
     return section;
   }
 
-  function renderRoute(route, onNavigate, progressState) {
+  function renderRoute(route, onNavigate, progressState, zoomGroup) {
     const graph = buildRouteGraph(route);
     graph.maxRow = graph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
     return renderGraphSection(
@@ -893,7 +945,8 @@
       graph,
       onNavigate,
       `${route.title || route.id} の自動生成分岐図`,
-      progressState
+      progressState,
+      zoomGroup
     );
   }
 
@@ -929,6 +982,7 @@
         : '');
     container.appendChild(legend);
 
+    const zoomGroup = createZoomGroup(container);
     const routes = Array.isArray(guideData.routes) ? guideData.routes : [];
     if (enhancedGraph) {
       container.appendChild(renderGraphSection(
@@ -936,13 +990,14 @@
         enhancedGraph,
         onNavigate,
         `${guideData.title || "ゲーム"} の詳細分岐図`,
-        progressState
+        progressState,
+        zoomGroup
       ));
       return;
     }
 
     routes.forEach((route, index) => {
-      container.appendChild(renderRoute(route, onNavigate, progressState));
+      container.appendChild(renderRoute(route, onNavigate, progressState, zoomGroup));
       if (index < routes.length - 1) {
         const next = document.createElement("div");
         next.className = "flowchart-next";

@@ -19,9 +19,7 @@
       "id": "chapter02_to_free2",
       "title": "第2章 前半（自由行動2まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter01"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory chapter-2 progression ending at 自由行動2. Set A diary and Set B FC2 walkthrough both place bonus scenario 1 here."
     },
@@ -29,9 +27,7 @@
       "id": "optional_ch02_free2",
       "title": "【任意】第2章 自由行動2：おつかい",
       "portrait": "",
-      "prerequisites": [
-        "chapter02_to_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 1. Corrected from the earlier chapter-3 scaffold: the contemporaneous Set A play diary reaches おつかい before chapter 3, and the Set B FC2 chapter-2 page explicitly places it at 自由行動2. The later TSST bonus-scenario memo labels it chapter 3; that chapter label is treated as a documented source error."
     },
@@ -39,9 +35,7 @@
       "id": "chapter02_after_free2",
       "title": "第2章 自由行動2後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch02_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory chapter-2 progression after bonus scenario 1 through chapter end."
     },
@@ -49,9 +43,7 @@
       "id": "chapter03_to_free3",
       "title": "第3章 前半（自由行動3まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter02_after_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory chapter-3 progression through the next documented optional window. Bonus scenario 2 remains placed at 自由行動3 per Set A; independent Set B timing verification is still required before route generation."
     },
@@ -59,9 +51,7 @@
       "id": "optional_ch03_free3",
       "title": "【任意】第3章 自由行動3：うちの子",
       "portrait": "",
-      "prerequisites": [
-        "chapter03_to_free3"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 2. Owner-approved source exception closes the residual trigger gap using Set A chronology plus TSST/FFSKY trigger evidence: after the relevant chapter-3 progression, use 雑記帳「うちの子」 and speak with ダリア."
     },
@@ -69,9 +59,7 @@
       "id": "chapter03_free3_to_free4",
       "title": "第3章 自由行動3後〜4",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch03_free3"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression from 自由行動3 through the next optional window."
     },
@@ -79,9 +67,7 @@
       "id": "optional_ch03_free4",
       "title": "【任意】第3章 自由行動4：アベル",
       "portrait": "",
-      "prerequisites": [
-        "chapter03_free3_to_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 3. Owner-approved source exception closes the residual trigger gap using Set A chronology plus TSST/FFSKY trigger evidence: speak with the inn middle-aged man, then フライ/プラン, use the new notebook entry, and speak with エクサル before the optional battle."
     },
@@ -89,9 +75,7 @@
       "id": "chapter03_after_free4",
       "title": "第3章 自由行動4後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch03_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory progression for chapter 3."
     },
@@ -99,9 +83,7 @@
       "id": "chapter04_to_free2",
       "title": "第4章 前半（自由行動2まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter03_after_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression ending at 自由行動2."
     },
@@ -109,9 +91,7 @@
       "id": "optional_ch04_free2",
       "title": "【任意】第4章 自由行動2：エクサルの小刀",
       "portrait": "",
-      "prerequisites": [
-        "chapter04_to_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 4 at its documented free-action window."
     },
@@ -119,9 +99,7 @@
       "id": "chapter04_free2_to_free4",
       "title": "第4章 自由行動2後〜4",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch04_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression through the next optional window."
     },
@@ -129,9 +107,7 @@
       "id": "optional_ch04_free4",
       "title": "【任意】第4章 自由行動4：うちの子2・手合わせ",
       "portrait": "",
-      "prerequisites": [
-        "chapter04_free2_to_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenarios 5 and 6 share the same chapter-4 free-action window and remain grouped. Set A directly records `うちの子2` followed immediately by `手合わせ`. Owner-approved exception resolves the missing triggers from TSST/FFSKY. For BS6, follow FFSKY's more explicit sequence including all three Cipher Punk members (young man, woman, man), then the notebook entry and ステイエン; TSST is partial here."
     },
@@ -139,9 +115,7 @@
       "id": "chapter04_after_free4",
       "title": "第4章 自由行動4後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch04_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory progression for chapter 4."
     },
@@ -149,9 +123,7 @@
       "id": "chapter05_to_free1",
       "title": "第5章 前半（自由行動1まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter04_after_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression ending at 自由行動1."
     },
@@ -159,9 +131,7 @@
       "id": "optional_ch05_free1",
       "title": "【任意】第5章 自由行動1：神秘の薬草",
       "portrait": "",
-      "prerequisites": [
-        "chapter05_to_free1"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 7 at its documented free-action window."
     },
@@ -169,9 +139,7 @@
       "id": "chapter05_free1_to_free3",
       "title": "第5章 自由行動1後〜3",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch05_free1"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression through the next optional window."
     },
@@ -179,9 +147,7 @@
       "id": "optional_ch05_free3",
       "title": "【任意】第5章 自由行動3：リリスの絵本",
       "portrait": "",
-      "prerequisites": [
-        "chapter05_free1_to_free3"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 8 at its documented free-action window."
     },
@@ -189,9 +155,7 @@
       "id": "chapter05_after_free3",
       "title": "第5章 自由行動3後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch05_free3"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory progression for chapter 5."
     },
@@ -199,9 +163,7 @@
       "id": "chapter06_to_free1",
       "title": "第6章 前半（自由行動1まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter05_after_free3"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression ending at 自由行動1."
     },
@@ -209,9 +171,7 @@
       "id": "optional_ch06_free1",
       "title": "【任意】第6章 自由行動1：灰色の翼",
       "portrait": "",
-      "prerequisites": [
-        "chapter06_to_free1"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 9 at its documented free-action window."
     },
@@ -219,9 +179,7 @@
       "id": "chapter06_after_free1",
       "title": "第6章 自由行動1後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch06_free1"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory progression for chapter 6. Owner-approved operational-source exception permits FFSKY to supply the exact optional branch choice and unique-reward conditions in translated `enGuide`, while Japanese chronology/battle order remains anchored by Set A/CRADLE."
     },
@@ -229,9 +187,7 @@
       "id": "chapter07_to_free2",
       "title": "第7章 前半（自由行動2まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter06_after_free1"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression ending at 自由行動2."
     },
@@ -239,9 +195,7 @@
       "id": "optional_ch07_free2",
       "title": "【任意】第7章 自由行動2：僕らの撲殺寸前事件・温泉編",
       "portrait": "",
-      "prerequisites": [
-        "chapter07_to_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 10. Set A independently places it in chapter 7 before BS11. Owner-approved exception resolves the trigger/timing from TSST/FFSKY; follow FFSKY's explicit sequence including the waitress after シリア."
     },
@@ -249,9 +203,7 @@
       "id": "chapter07_free2_to_free3",
       "title": "第7章 自由行動2後〜3",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch07_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression through the next optional window."
     },
@@ -260,7 +212,8 @@
       "title": "【任意】第7章 自由行動3：介在する影",
       "portrait": "",
       "prerequisites": [
-        "chapter07_free2_to_free3"
+        "optional_ch04_free2",
+        "optional_ch06_free1"
       ],
       "is_true_ending": false,
       "notes": "Bonus scenario 11. Set A documents dependency on bonus scenarios 4 and 9 and the ダーナの試練 branch; second-set verification remains required."
@@ -269,9 +222,7 @@
       "id": "chapter07_after_free3",
       "title": "第7章 自由行動3後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch07_free3"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory progression for chapter 7."
     },
@@ -279,9 +230,7 @@
       "id": "chapter08_to_free2",
       "title": "第8章 前半（自由行動2まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter07_after_free3"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression ending at 自由行動2."
     },
@@ -289,9 +238,7 @@
       "id": "optional_ch08_free2",
       "title": "【任意】第8章 自由行動2：リリスの疑問",
       "portrait": "",
-      "prerequisites": [
-        "chapter08_to_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 12 at its documented free-action window."
     },
@@ -299,9 +246,7 @@
       "id": "chapter08_free2_to_free4",
       "title": "第8章 自由行動2後〜4",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch08_free2"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression through the next optional window."
     },
@@ -309,9 +254,7 @@
       "id": "optional_ch08_free4",
       "title": "【任意】第8章 自由行動4：秘密の特訓",
       "portrait": "",
-      "prerequisites": [
-        "chapter08_free2_to_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Bonus scenario 13 at its documented free-action window."
     },
@@ -319,9 +262,7 @@
       "id": "chapter08_after_free4",
       "title": "第8章 自由行動4後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch08_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory progression for chapter 8."
     },
@@ -329,9 +270,7 @@
       "id": "chapter09_to_free1",
       "title": "第9章 前半（自由行動1まで）",
       "portrait": "",
-      "prerequisites": [
-        "chapter08_after_free4"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mandatory progression ending at 自由行動1."
     },
@@ -340,7 +279,9 @@
       "title": "【任意】第9章 自由行動1：血塗られたラブレター",
       "portrait": "",
       "prerequisites": [
-        "chapter09_to_free1"
+        "optional_ch04_free2",
+        "optional_ch05_free1",
+        "optional_ch07_free2"
       ],
       "is_true_ending": false,
       "notes": "Bonus scenario 14. Set A places it in chapter 9 and directly shows `セングラー` consumed; Japanese Set B independently confirms セングラー is required and must be held, not equipped. Owner-approved exception closes the remaining prerequisite/trigger chain using TSST/FFSKY: BS4 + BS7 + BS10, then 雑記帳「カイン様」→ウェイター; keep セングラー in inventory."
@@ -349,9 +290,7 @@
       "id": "chapter09_after_free1",
       "title": "第9章 自由行動1後",
       "portrait": "",
-      "prerequisites": [
-        "optional_ch09_free1"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "Remaining mandatory progression for chapter 9."
     },
@@ -359,9 +298,7 @@
       "id": "final_chapter",
       "title": "最終章",
       "portrait": "",
-      "prerequisites": [
-        "chapter09_after_free1"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
       "notes": "First-clear ending path. Ending outcome mechanics remain subject to the normal two-set gate."
     },
@@ -538,5 +475,5 @@
     }
   ],
   "disagreements": "RESEARCH GATE CLOSED UNDER OWNER-APPROVED TITLE-SCOPED SOURCE EXCEPTION (approved by repository owner on 2026-09-22). Normal Japanese verification remains in force everywhere already supported: Set A is the independent 2005 Fragments Of Memories diary; Set B remains the directly inspected Japanese composite (FC2 child pages, CRADLE battle order, Japanese ending/NG+ sources, Wazap/5ch corroboration, etc.). The exception applies ONLY to the four residual bonus-trigger gaps that exhaustive Japanese archive recovery could not close: BS2/3, grouped BS5/6, BS10, and the remaining BS14 prerequisite/trigger chain. For those facts, authoring may proceed from the existing Japanese chronology/partial corroboration together with derivative Japanese TSST and the original Chinese FFSKY walkthrough. FFSKY supplies the more explicit operational sequence where TSST is incomplete: for BS6 include the young Cipher Punk member in addition to the woman/man; for BS10 include the waitress after シリア. BS14 keeps the independently Japanese-verified セングラー rule (required in chapter 9; hold it, do not equip it) and uses TSST/FFSKY only for BS4+BS7+BS10 and 雑記帳「カイン様」→ウェイター. BS1 remains chapter 2 / 自由行動2 despite TSST's erroneous chapter-3 label. The abandoned NicoNico/video path is no longer required for gate closure. Route authoring may now begin. Chinese text must never be placed verbatim in `jpGuide1`/`jpGuide2`; use Japanese evidence where present and concise English translation in `enGuide` for FFSKY-derived practical detail. Owner approval additionally covers residual low-level operational details where Japanese chronology/structure is already established but exact actionable wording survived only in FFSKY; the chapter-6 `でも、みんなが!!` branch into 6-3 is the concrete case. Keep this material translated in `enGuide`, never as Chinese text in Japanese source fields.",
-  "generated_at": "2026-09-23T01:42:00+00:00"
+  "generated_at": "2026-09-23T02:04:00+00:00"
 }

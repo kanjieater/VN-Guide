@@ -10,7 +10,7 @@
     {
       "id": "prologue_to_shu",
       "title": "序盤：プロディアス〜シュウ加入",
-      "stepCount": 7,
+      "stepCount": 11,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -37,7 +37,7 @@
     {
       "id": "ceremony_and_yagos",
       "title": "式典〜ヤゴス島",
-      "stepCount": 6,
+      "stepCount": 7,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -507,5 +507,5 @@
       "notes": "Independent support for Light Sword synthesis from Earth + Ice + Fire + Wind swords."
     }
   ],
-  "generated_at": "2026-09-23T14:30:00+00:00"
+  "generated_at": "2026-09-23T14:46:00+00:00"
 }

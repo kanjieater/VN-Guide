@@ -260,6 +260,32 @@ class FlowchartSidecarTests(unittest.TestCase):
             {"seen": False, "current": False, "known": False},
         )
 
+    def test_non_navigable_synthetic_annotation_has_no_walkthrough_target(self):
+        guide = {
+            "routes": [
+                {
+                    "id": "a",
+                    "title": "A",
+                    "steps": [{"simpleJp": "A1"}],
+                }
+            ]
+        }
+        sidecar = {
+            "version": 1,
+            "syntheticNodes": [
+                {
+                    "id": "note",
+                    "label": "Annotation",
+                    "near": {"route": "a", "step": {"simpleJp": "A1"}},
+                    "navigable": False,
+                }
+            ],
+        }
+        result = run_runtime(guide, sidecar)
+        self.assertTrue(result["ok"], result.get("error"))
+        node = next(node for node in result["nodes"] if node["id"] == "sidecar-note")
+        self.assertIsNone(node["stepIndex"])
+
     def test_runtime_rejects_non_contiguous_group_members(self):
         guide = {
             "routes": [
@@ -325,13 +351,25 @@ class FlowchartSidecarTests(unittest.TestCase):
         }
 
         self.assertIn(("STORY", "2048-2050", "unlock"), edge_labels)
-        self.assertIn(("【アリエス】END", "Tips", "unlock"), edge_labels)
-        self.assertIn(("【星乃 明香里】END", "Tips", "unlock"), edge_labels)
-        self.assertIn(("【アクア】END", "Tips", "unlock"), edge_labels)
-        self.assertIn(("【西園寺明香】END", "Tips", "unlock"), edge_labels)
-        self.assertNotIn(("クリア後", "Tips", "normal"), edge_labels)
+        self.assertIn(("【アリエス】END", "Tips追加（1周目クリア）", "unlock"), edge_labels)
+        self.assertIn(("【星乃 明香里】END", "Tips更新（2周目クリア）", "unlock"), edge_labels)
+        self.assertIn(("【アクア】END", "Tips更新（3周目クリア）", "unlock"), edge_labels)
+        self.assertIn(("【西園寺明香】END", "Tips更新（4周目クリア）", "unlock"), edge_labels)
+        self.assertIn(("クリア後", "Tips", "normal"), edge_labels)
+        self.assertNotIn(("【アリエス】END", "Tips", "unlock"), edge_labels)
+        self.assertNotIn(("【星乃 明香里】END", "Tips", "unlock"), edge_labels)
+        self.assertNotIn(("【アクア】END", "Tips", "unlock"), edge_labels)
+        self.assertNotIn(("【西園寺明香】END", "Tips", "unlock"), edge_labels)
         self.assertNotIn(("かげろう", "2048-2050", "normal"), edge_labels)
         self.assertNotIn(("2048-2050", "Tips", "normal"), edge_labels)
+
+        for node_id in (
+            "sidecar-tips-after-aries",
+            "sidecar-tips-after-akari",
+            "sidecar-tips-after-aqua",
+            "sidecar-tips-after-asuka",
+        ):
+            self.assertIsNone(nodes[node_id]["stepIndex"])
 
 
 if __name__ == "__main__":

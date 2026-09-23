@@ -442,7 +442,7 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "我慢させる",
     "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "武田さんの話を聞く",
@@ -460,8 +460,7 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "我慢させる",
     "jpGuide2": "我慢させる",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "傷付けられたりしません",
@@ -480,7 +479,8 @@
     "simpleJp": "血を与える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "血を与える",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "傷付けられたりしません",

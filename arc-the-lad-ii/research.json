@@ -1,0 +1,284 @@
+{
+  "game": "Arc the Lad II",
+  "vndb_id": "game:arc-the-lad-ii",
+  "guide_target": {
+    "label": "アークザラッドⅡ（プレイステーション クラシック内蔵・日本国内版）",
+    "platform": "PlayStation Classic",
+    "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/"
+  },
+  "research_gate": {
+    "status": "closed",
+    "exception": null,
+    "notes": [
+      "No title-scoped source exception is used.",
+      "Set A is the directly inspectable Japanese ちょこた/みどりすたいる walkthrough family.",
+      "Set B is the independent Japanese アークザラッド２ データまとめ Wiki* family, using timing, region, boss, bounty, character, item, and guild-job pages as a composite verification set.",
+      "Sony's Japanese PlayStation Blog is authoritative for the 2018 domestic PlayStation Classic target. A directly inspected Japanese PlayStation Classic hands-on report confirms Arc I and Arc II share virtual memory-card data and conversion works.",
+      "The PlayStation Classic title has no standalone retail package; cover_url uses Sony's Arc II image from the exact PlayStation Classic announcement page rather than substituting a different retail edition cover."
+    ]
+  },
+  "completion_scope": {
+    "mandatory": [
+      "complete main story through Air Castle and final boss",
+      "complete all guild jobs, respecting expiration and prerequisite chains",
+      "hunt all practical source-documented wanted monsters and flag one-time steal/drop conflicts",
+      "recruit optional permanent characters/summons available within Arc II",
+      "cover Ruins Dungeon/Choko content and all source-verified timing-critical optional content",
+      "collect source-verified one-time/unique rewards whose opportunity can permanently disappear"
+    ],
+    "optional_conversion": [
+      "conversion-only secret research-lab scene early in the story",
+      "conversion-only White House aftermath scene",
+      "early Choko availability if Arc I Choko data was converted",
+      "full Choko awakening continuation below Ruins Dungeon B50 after the late Tokoko event"
+    ],
+    "excluded": [
+      "Monster Game/casino external-disc transfers and prizes",
+      "repeatable grinding and max-stat optimization",
+      "arbitrary random drops and exhaustive generic treasure collection",
+      "capturing every generic monster species"
+    ]
+  },
+  "critical_findings": [
+    "Early guild jobs G#01, G#02, G#03 expire at the ceremony; G#07 depends on G#01 and has its own early limit.",
+    "After Yagos, G#04→G#05→G#06 and later G#08 plus G#11/#12 and G#14→#15→#16 must be completed before White House ends.",
+    "During Lieza/Gogen's Fores segment, G#29 and G#30 exist only for that temporary party window.",
+    "During Shu/Tosh's Romalia segment, G#26 has a very short window; G#24→#25 can remain until Air Castle but are safest here.",
+    "After the Chimera Research Lab reunion, G#27→#28 unlock; most midgame guild jobs later die when the Monji/Palencia-Tower arc accelerates.",
+    "G#17 should be cleared immediately after Greycine for best result; G#18 must be a great success for G#10's chain.",
+    "Fores becomes temporarily country-locked after sleeping at the inn until Ghia Temple is cleared.",
+    "After Brakia, G#52→#56 and G#55→#57→#58 form a prerequisite chain; G#58 additionally requires G#54 great success.",
+    "Amigue G#42 has an especially short window: after permission for God's Tower and before Amigue completion.",
+    "Barbarad G#49 only appears once Pyramid exterior progression starts; most remaining jobs fail when the Monji arc accelerates.",
+    "G#37 is a late God Hunter job requiring the north/south towers cleared, 250 GP, and the God Hunter proof; it expires at Air Castle entry.",
+    "G#23 starts during Romalia city-wall progression and expires when Air Castle rises.",
+    "Entering Air Castle is the final world lockout.",
+    "Choko can be recruited without conversion after reaching Ruins Dungeon B50, but the post-Tokoko B51-B71 awakening continuation requires converted Arc I data in which Choko was recruited.",
+    "In Tokoko's later battle, wiping out all green slimes permanently kills the awakening continuation; escape southwest instead and collect Red Shoes during that battle.",
+    "Wanted monster Shamus has a unique Grand Knife steal; Tianus's unique Uninyan Sword is only stealable on the first encounter; Grovis appears only during the Sea Oil Field escape and has a Fate steal that conflicts with having already hunted Balzac.",
+    "The one-time Palencia street vendor appears only on initial arrival during Elk's split segment.",
+    "Elk's dream has the rare Flame Sword drop; it is a synthesis input and retrying is inconvenient.",
+    "Palencia Tower 77F is optional but contains unique/rare treasure accessed by repeatedly toggling the 99F elevator switch."
+  ],
+  "route_plan": [
+    {
+      "id": "prologue_to_shu",
+      "title": "序盤：プロディアス〜シュウ加入"
+    },
+    {
+      "id": "optional_early_guild",
+      "title": "【任意】式典前：初期ギルド仕事・手配"
+    },
+    {
+      "id": "ceremony_and_yagos",
+      "title": "式典〜ヤゴス島"
+    },
+    {
+      "id": "yagos_return_to_garuano",
+      "title": "ヤゴス島帰還〜ガルアーノの屋敷"
+    },
+    {
+      "id": "optional_pre_whitehouse",
+      "title": "【任意】白い家前：期限付きギルド仕事"
+    },
+    {
+      "id": "white_house",
+      "title": "白い家"
+    },
+    {
+      "id": "optional_convert_early",
+      "title": "【任意・コンバート】序盤追加イベント"
+    },
+    {
+      "id": "shu_shante_smelia",
+      "title": "シュウ・シャンテ：スメリア〜ロマリア戦艦"
+    },
+    {
+      "id": "shante_gurga_crenia",
+      "title": "シャンテ・グルガ：クレニア"
+    },
+    {
+      "id": "optional_lieza_guild",
+      "title": "【任意】リーザ編限定：ラムールの仕事"
+    },
+    {
+      "id": "lieza_gogen_fores",
+      "title": "リーザ・ゴーゲン：ホルン〜キメラ研究所"
+    },
+    {
+      "id": "elk_poco_smelia",
+      "title": "エルク・ポコ：パレンシア城跡〜タワー"
+    },
+    {
+      "id": "shu_tosh_romalia",
+      "title": "シュウ・トッシュ：クズ鉄の町〜トンネル"
+    },
+    {
+      "id": "optional_romalia_split_guild",
+      "title": "【任意】シュウ編限定・ロマリアの仕事"
+    },
+    {
+      "id": "chimera_lab_reunion",
+      "title": "ロマリアキメラ研究所〜全員合流"
+    },
+    {
+      "id": "optional_post_reunion",
+      "title": "【任意】合流直後：ロマリア・グレイシーヌ準備"
+    },
+    {
+      "id": "greycine",
+      "title": "グレイシーヌ"
+    },
+    {
+      "id": "optional_world_cleanup_1",
+      "title": "【任意】グレイシーヌ後：世界巡回・召喚獣・ギルド仕事"
+    },
+    {
+      "id": "optional_choko_recruit",
+      "title": "【任意】ちょこ加入・遺跡ダンジョンB50"
+    },
+    {
+      "id": "fores",
+      "title": "フォーレス"
+    },
+    {
+      "id": "brakia",
+      "title": "ブラキア"
+    },
+    {
+      "id": "optional_world_cleanup_2",
+      "title": "【任意】フォーレス・ブラキア後：期限付き仕事"
+    },
+    {
+      "id": "millmana",
+      "title": "ミルマーナ"
+    },
+    {
+      "id": "optional_millmana_cleanup",
+      "title": "【任意】ミルマーナ後：仕事・海底油田手配"
+    },
+    {
+      "id": "amigue",
+      "title": "アミーグ"
+    },
+    {
+      "id": "optional_amigue_guild",
+      "title": "【任意】神の塔前：アミーグ期限付き仕事"
+    },
+    {
+      "id": "barbarad",
+      "title": "バルバラード"
+    },
+    {
+      "id": "optional_pre_monji_cleanup",
+      "title": "【任意】紋次編急展開前：全期限付き仕事の最終回収"
+    },
+    {
+      "id": "palencia_tower_and_past",
+      "title": "パレンシアタワー〜過去編"
+    },
+    {
+      "id": "past_world",
+      "title": "過去世界：四精霊巡り"
+    },
+    {
+      "id": "north_south_towers",
+      "title": "現代帰還〜北・南の塔"
+    },
+    {
+      "id": "optional_choko_late",
+      "title": "【任意】北・南の塔後：トココ最終イベント"
+    },
+    {
+      "id": "optional_convert_choko_awakening",
+      "title": "【任意・コンバート】ちょこ覚醒：遺跡B51〜B71"
+    },
+    {
+      "id": "optional_final_cleanup",
+      "title": "【任意】空中城前：G#37・残仕事・最終回収"
+    },
+    {
+      "id": "romalia_invasion",
+      "title": "ロマリア突入"
+    },
+    {
+      "id": "optional_romalia_g23",
+      "title": "【任意】ロマリア市街：G#23・宝箱最終回収"
+    },
+    {
+      "id": "air_castle",
+      "title": "空中城・最終決戦"
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/",
+      "title": "ちょこた / みどりすたいる — アークザラッド2攻略",
+      "language": "ja",
+      "notes": "PRIMARY SET A hub. Main攻略1-4 establish full story chronology. Guild, wanted, Choko, Ruins Dungeon, sealed ruins, and item pages provide detailed optional-content execution and missable notes."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/guild.htm",
+      "title": "ギルドイベント",
+      "language": "ja",
+      "notes": "Detailed execution steps for the guild-job catalog."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/wanted.htm",
+      "title": "手配モンスター",
+      "language": "ja",
+      "notes": "Wanted-monster locations and notable one-time steals/drops."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/choko.htm",
+      "title": "ちょこ覚醒イベント",
+      "language": "ja",
+      "notes": "Choko recruitment and awakening chronology, irreversible green-slime battle rule, and conversion requirement."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/",
+      "title": "アークザラッド２ データまとめ Wiki*",
+      "language": "ja",
+      "notes": "PRIMARY SET B hub. Independent composite verification set."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/ギルド仕事/時期別",
+      "title": "ギルド仕事/時期別",
+      "language": "ja",
+      "notes": "Independent authoritative-in-practice timing table for all guild jobs, including expiration, prerequisite, short-window, and final-lockout notes."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/手配モンスター",
+      "title": "手配モンスター",
+      "language": "ja",
+      "notes": "Independent bounty data and appearance conditions."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/ちょこ",
+      "title": "キャラ/ちょこ",
+      "language": "ja",
+      "notes": "Independent Choko recruitment/convert behavior and Ruins B50 facts."
+    },
+    {
+      "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/",
+      "title": "PlayStation.Blog 日本語 — プレイステーション クラシック内蔵ソフト全20本",
+      "language": "ja",
+      "notes": "AUTHORITATIVE TARGET SOURCE. Sony explicitly lists Arc the Lad II in the domestic PlayStation Classic lineup."
+    },
+    {
+      "url": "https://toal-uni-games.com/ps-classic/",
+      "title": "UniGames — プレイステーションクラシックで遊んだ感想。アークザラッドのコンバートは可能？",
+      "language": "ja",
+      "notes": "Direct Japanese hands-on confirmation that Arc I and Arc II share virtual memory card storage on PlayStation Classic and conversion works."
+    }
+  ],
+  "generated_at": "2026-09-23T03:45:00+00:00"
+}

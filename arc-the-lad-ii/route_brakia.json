@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "ルワガの戦闘後、左側の家でジンバに話す",
+    "jpGuide1": "戦闘後、左側の家にいるジンバと話す。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This advances the Brakia investigation."
+  },
+  {
+    "simpleJp": "領主の館を最深部まで進む",
+    "jpGuide1": "目的は最深部に行くことのみ。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Clear the manor sequence, then return to Luwaga."
+  },
+  {
+    "simpleJp": "グルガの家で話した後、宿屋を経てもう一度グルガの家へ行く",
+    "jpGuide1": "もう一度グルガの家に行く。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This opens the route to Banza Mountain."
+  },
+  {
+    "simpleJp": "バンザ山をトロッコとレバーで登る",
+    "jpGuide1": "レバーはポイント切り替えができ、切り替えるとトロッコのルートが変わる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Check alternate mine-cart routes as you progress."
+  },
+  {
+    "simpleJp": "山頂手前でレイガルを倒す",
+    "jpGuide1": "敵を全滅させるとブラキアはクリア。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gurga is forced into this battle. Brakia remains revisitable for later guild jobs."
+  }
+]

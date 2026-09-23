@@ -1,5 +1,4 @@
 :root {
-  --app-height: 100dvh;
   --bg: #121212;
   --text: #e0e0e0;
   --accent: #4a90e2;
@@ -15,13 +14,13 @@ html, body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   overflow: hidden;
-  height: var(--app-height);
+  height: 100dvh;
 }
 
 #app {
   max-width: 600px;
   margin: 0 auto;
-  height: var(--app-height);
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   position: relative;

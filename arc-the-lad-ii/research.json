@@ -40,36 +40,31 @@
     ]
   },
   "critical_findings": [
-    "Early guild work is placed immediately after Shu joins and before the closed-bar/Grunag/Yagos progression. Set B supplies the exact disappearance windows (G#01/#02/#03 at ceremony start; G#07 at the Grunag cutoff), while the independently promoted Ari no Su completion route—whose stated policy is to complete every guild job—independently clears G#01, G#02, G#07, and G#03 in this same pre-Grunag block.",
-    "After Yagos, G#04→G#05→G#06 and later G#08 plus G#11/#12 and G#14→#15→#16 must be completed before White House ends.",
-    "During Lieza/Gogen's Fores segment, G#29 and G#30 exist only for that temporary party window.",
-    "During Shu/Tosh's Romalia segment, G#26 has a very short window; G#24→#25 can remain until Air Castle but are safest here.",
-    "After the Chimera Research Lab reunion, G#27→#28 unlock; most midgame guild jobs later die when the Monji/Palencia-Tower arc accelerates.",
-    "G#17 should be cleared immediately after Greycine for best result; G#18 must be a great success for G#10's chain.",
-    "Fores becomes temporarily country-locked after sleeping at the inn until Ghia Temple is cleared.",
-    "After Brakia, G#52→#56 and G#55→#57→#58 form a prerequisite chain; G#58 additionally requires G#54 great success.",
-    "Amigue G#42 has an especially short window: after permission for God's Tower and before Amigue completion.",
-    "Barbarad G#49 only appears once Pyramid exterior progression starts; most remaining jobs fail when the Monji arc accelerates.",
-    "G#37 is a late God Hunter job requiring the north/south towers cleared, 250 GP, and the God Hunter proof; it expires at Air Castle entry.",
-    "G#23 starts during Romalia city-wall progression and expires when Air Castle rises.",
+    "Early guild work is placed immediately after Shu joins and an explicit post-join rest. Set B supplies exact early disappearance windows; the promoted Ari no Su completion route independently corroborates clearing G#01, G#02, G#07, and G#03 in this same early block. Player guidance uses conservative ordering rather than unsupported causal wording.",
+    "The pre-White-House guild block is deliberately cleared as a conservative sweep. Set B records the exact prerequisite chains and White-House cutoffs; Chokota/Ari no Su independently document the jobs and safe early completion order. The route no longer presents one-lane causal prerequisites as two-lane facts.",
+    "G#29 and G#30 are completed during the Lieza/Gogen split. Set B records their exact expiry; an independent Japanese play diary also performs both jobs during that split, so the guide uses the shared safe placement without overstating unlock causality.",
+    "During Shu/Tosh's Romalia segment, the guide clears G#24-G#26 before the tunnel as conservative routing. Set B records G#26's short window; the route avoids presenting disputed or one-lane prerequisite claims as settled facts.",
+    "After the Chimera Research Lab reunion, G#27/G#28 and nearby bounty cleanup are performed immediately. Set B carries the exact prerequisite details; the player-facing route uses safe sequencing while independently sourcing the actions and Gravis availability.",
+    "Midgame and late guild chains are routed conservatively before major story acceleration. Where Set B alone supplies an exact prerequisite or disappearance timestamp, the guide preserves the safe order but does not state that causal rule as independently verified unless a second Japanese source supports it.",
+    "Fores becomes temporarily country-locked after the inn trigger until Ghia Temple is cleared; the mandatory temple progression is bound to both Japanese lanes.",
+    "Amigue's guild block is completed before God's Tower. Set B records the exact G#42 cutoff; the route keeps the safe placement without relying on unsupported causal wording for other Amigue jobs.",
+    "Barbarad's late guild cleanup is performed immediately after the Pyramid exterior segment. Set B records G#49's appearance and the broad Monji-arc job lockout; the guide treats this as a conservative audit point rather than presenting those Set-B-only timing statements as two-lane conclusions.",
+    "G#37 is handled before Air Castle and the final cleanup also verifies God Hunter proof/GP, sealed ruins, remaining bounties, and synthesis materials.",
+    "G#23 is handled during the Romalia city assault before city completion. Set B records the exact appearance/expiry window; the player-facing route uses that safe placement without claiming the exact timing as independently verified by Chokota.",
     "Entering Air Castle is the final world lockout.",
-    "Choko can be recruited without conversion after reaching Ruins Dungeon B50, but the post-Tokoko B51-B71 awakening continuation requires converted Arc I data in which Choko was recruited.",
-    "In Tokoko's later battle, wiping out all green slimes permanently kills the awakening continuation; escape southwest instead and collect Red Shoes during that battle.",
-    "Wanted monster Shamus has a unique Grand Knife steal; Tianus's unique Uninyan Sword is only stealable on the first encounter; Grovis appears only during the Sea Oil Field escape and has a Fate steal that conflicts with having already hunted Balzac.",
-    "The one-time Palencia street vendor appears only on initial arrival during Elk's split segment.",
-    "Elk's dream has the rare Flame Sword drop; it is a synthesis input and retrying is inconvenient.",
-    "Palencia Tower 77F is optional but contains unique/rare treasure accessed by repeatedly toggling the 99F elevator switch.",
-    "To obtain both the unique Fate and the full bounty clear, postpone Balzac until after Grovis: Returnless Forest remains available as an FBA after White House, while Grovis appears only during the timed Sea Oil Field escape. Steal Fate from Grovis with Shu first; then return to Returnless Forest and hunt Balzac.",
-    "Conversion chronology correction: the Secret Research Lab event belongs before the ceremony/Yagos transition, while the Ark-versus-Andel conversion event occurs after White House. They must be separate sections.",
-    "The Shu/Tosh story section is split at Tosh recruitment so G#24-26, especially short-window G#26, are completed before tunnel/hideout progression can invalidate the job.",
-    "Amigue is split at the elder's tower permission: G#39-42 are authored before God's Tower, because G#42 expires when the Amigue arc ends.",
-    "Barbarad is split after the Pyramid exterior battle: G#49 only appears at that point, so the final pre-Monji guild cleanup must occur before returning to complete the Pyramid.",
-    "Choko's midgame cemetery/Tokoko sequence should be done after Millmana once Choko is Lv55+: during the green-slime battle, do not wipe the slimes, collect the one-time Red Shoes, and escape southwest. The ruined-village continuation is a separate later stage after the north/south towers.",
-    "Romalia invasion is split before city completion: G#23 appears when the city-wall assault begins and expires when Air Castle rises, so deliver the amulet while Romalia city is still accessible; entering the final plaza/finishing the city also locks out city treasure.",
-    "Final normal-game Light Sword path is protected: Fire Sword from Elk's one-time dream battle, Earth Sword from Yagos sealed-ruin B4-B7 or Empty House, Wind Sword from Barbarad sealed ruin, and the missable Ice Sword from South Tower. Synthesize 光の剣 before Air Castle.",
-    "The sealed-ruin power-unit chain is completed before final lockout: Greycine → Alaratos → Brakia → Amigue → Barbarad → Alibarsha. This obtains Wind Sword and opens the Alibarsha ruin where Maios can be hunted.",
-    "Choko's mid event is independently corroborated by Arc II Data Wiki: green slimes must not all be defeated, and Red Shoes appears only during that battle. The converted awakening continuation independently reaches Ruins B71 and Akura.",
-    "For the early G#03 block, the route no longer presents the Set-B-only 'wanted-poster prerequisite' or 'medium-success continuation threshold' as independently verified claims. Instead it uses a conservative two-source action sequence: Tekeremu independently instructs checking wanted posters on reaching a new town, Chokota instructs preventing the jewelry thieves from escaping, and Set B documents the Dokusun check plus the minimum success condition."
+    "Choko can be recruited without conversion after Ruins Dungeon B50. The later B51-B71 awakening continuation is conversion-gated; the promoted independent Japanese Choko walkthrough corroborates the mid/late Tokoko event chronology.",
+    "In the mid Choko event, do not wipe all green slimes; collect the one-time Red Shoes and leave through the southwest route. These irreversible facts are independently corroborated.",
+    "The late Choko ruined-Tokoko event follows the north/south-tower/Andel sequence. Exact micro-actions are coarsened where the independent lane documents only the event-level progression.",
+    "Wanted monster Shamus has the first-encounter Grand Knife steal; Tianus has the first-encounter Uninyan Sword steal; Grovis's timed Sea Oil Field encounter carries Fate and conflicts with defeating Balzac first.",
+    "Palencia stall availability is disputed: Chokota says the stall is available only on initial arrival and disappears after a map change, while the Arc II Data Wiki Robe page says it opens when leaving the bar during the Elk/Poco segment. The guide therefore tells the player to check it immediately without asserting the disputed exact window.",
+    "Elk's dream has the normal-game Flame Sword opportunity; South Tower contains the missable Ice Sword; Barbarad sealed ruins contain Wind Sword; Earth Sword is available in the Yagos sealed ruin/alternate source. These feed the normal-game Light Sword synthesis.",
+    "Palencia Tower 77F is optional completion content reached by repeated 99F elevator-switch toggling.",
+    "To obtain Fate and still clear Balzac, postpone Balzac until after Grovis: independent Japanese wanted-monster sources document the conflict, and Returnless Forest remains available afterward.",
+    "The Secret Research Lab conversion event belongs before the ceremony/Yagos transition; the Ark-versus-Andel conversion event occurs after White House. They remain separate optional conversion sections.",
+    "The sealed-ruin power-unit route is completed before final lockout in the conservative order Greycine → Alaratos → Brakia → Amigue → Barbarad → Alibarsha, then Wind Sword and remaining Alibarsha bounty cleanup are completed.",
+    "Romalia city treasure must be taken before the final plaza lockout; Chokota lists the fixed city/underground loot and Set B independently documents the permanent city access loss.",
+    "Air Castle final progression is corrected to three battles after Zalbad: Kukuru alone versus the incomplete Dark Ruler, then the party versus the first form, then the party versus the second/final form. An independent Japanese playthrough explicitly calls this a three-battle sequence, and Set B documents the same structure.",
+    "For early G#03, the route does not present the Set-B-only poster/medium-success rules as independently verified causal claims. It instead uses a conservative poster check plus the independently supported no-escape job clear."
   ],
   "recommended_order": [
     "prologue_to_shu",
@@ -247,7 +242,56 @@
       "title": "アークザラッドⅡ JP Any% Glitchless (No File Conversion) 手順",
       "language": "ja",
       "notes": "Direct detailed chronology companion to the recorded RTA report. Used for exact mandatory micro-order/excerpts in the opening and ceremony sections, including Alfred 2, Indigos guild/bar, the post-Leland alley sequence, and the ticket progression."
+    },
+    {
+      "set": "A",
+      "url": "https://kojikoji2200.blog.fc2.com/blog-entry-2429.html",
+      "title": "アークザラッド2 プレイ記録 — リーザ分岐・ギルド仕事",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for safe placement of the Lieza/Gogen split guild work. The play record performs both 旅から帰らない息子を探してほしい and いたずら息子を捕まえてほしい during Lieza's temporary segment."
+    },
+    {
+      "set": "B",
+      "url": "https://plaza.rakuten.co.jp/minnakoikoi/3038/",
+      "title": "アークザラッド2攻略 — ちょこイベント",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT JAPANESE CHOKO WALKTHROUGH. Corroborates the mid-event key/grave/battle sequence and the later ruined-Tokoko continuation after Andel; used where the Arc II Data Wiki is too coarse for exact event chronology."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/サニア",
+      "title": "キャラ/サニア",
+      "language": "ja",
+      "notes": "Independent explicit support for Sania's Greycine-arc recruitment timing."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/防具/ローブ",
+      "title": "防具/ローブ",
+      "language": "ja",
+      "notes": "Records the Palencia robe-stall behavior during the Elk/Poco segment; retained specifically to document the availability disagreement with Chokota."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/国/ロマリア",
+      "title": "国/ロマリア",
+      "language": "ja",
+      "notes": "Independent Romalia-city and Air-Castle data: city/underground structure, Air Castle services and trials, and the Kukuru-plus-party final-battle structure."
+    },
+    {
+      "set": "A",
+      "url": "https://sekaijyusaya.hatenablog.com/entry/2023/08/24/185924",
+      "title": "sayaのゲーム日記（仮） — アークザラッド2 ゲームクリア",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for the terminal sequence. Explicitly describes the post-Zalbad last boss as a three-battle sequence: Kukuru alone, party first form, party second/final form."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/特殊能力/ヴァニッシュ",
+      "title": "特殊能力/ヴァニッシュ",
+      "language": "ja",
+      "notes": "Independent support that Vanish is learned when Choko's awakening event is completed."
     }
   ],
-  "generated_at": "2026-09-23T14:45:00+00:00"
+  "generated_at": "2026-09-23T16:05:00+00:00"
 }

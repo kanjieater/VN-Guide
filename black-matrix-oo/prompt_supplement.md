@@ -59,7 +59,7 @@ For those four gaps only:
 - BS14's セングラー requirement remains backed by direct Japanese Set-B evidence; the exception covers only BS4+BS7+BS10 and 雑記帳「カイン様」→ウェイター;
 - never copy Chinese text into `jpGuide1` or `jpGuide2`. Use Japanese source text where available and the normal omission placeholder when the exception leaves one Japanese source field undocumented.
 
-This owner-approved exception closes the research gate for BLACK/MATRIX OO. Do not resume generic mirror hunting or require gameplay-video verification before authoring.
+This owner-approved exception closes the research gate for BLACK/MATRIX OO. Do not resume generic mirror hunting or require gameplay-video verification before authoring. This approval also permits FFSKY to supply concise English `enGuide` wording for residual low-level operational details (for example the chapter-6 optional branch/reward conditions) when the Japanese chronology/section placement is already established. This does not turn FFSKY into a Japanese verification set: keep `jpGuide1`/`jpGuide2` Japanese-only, using directly inspected Japanese text or the normal omission placeholder.
 
 ## Supplemental English-reference lane
 

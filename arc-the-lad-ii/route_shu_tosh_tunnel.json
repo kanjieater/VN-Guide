@@ -2,7 +2,7 @@
   {
     "simpleJp": "ロマリアトンネルの最初の戦闘を終える",
     "jpGuide1": "戦闘のみ。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "ロマリアトンネル　戦闘",
     "enGuide": "Advance until the resistance hideout sequence."
   },
   {
@@ -14,13 +14,13 @@
   {
     "simpleJp": "トッシュで6ターン以上稼いで「うつせみの玉」を使う",
     "jpGuide1": "最低でも6ターンは必要。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "1～5ターン待機、6ターン目「うつせみの玉使用」",
     "enGuide": "The turns Tosh survives become Shu's available bomb-setting time."
   },
   {
     "simpleJp": "シュウで2か所の爆薬を起動する",
     "jpGuide1": "カバーを開け、タイマーをセットし、スイッチを入れる",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "爆弾を調べて",
     "enGuide": "Each charge needs three actions; finish both to complete the tunnel operation."
   }
 ]

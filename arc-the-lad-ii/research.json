@@ -63,7 +63,9 @@
     "Conversion chronology correction: the Secret Research Lab event belongs before the ceremony/Yagos transition, while the Ark-versus-Andel conversion event occurs after White House. They must be separate sections.",
     "The Shu/Tosh story section is split at Tosh recruitment so G#24-26, especially short-window G#26, are completed before tunnel/hideout progression can invalidate the job.",
     "Amigue is split at the elder's tower permission: G#39-42 are authored before God's Tower, because G#42 expires when the Amigue arc ends.",
-    "Barbarad is split after the Pyramid exterior battle: G#49 only appears at that point, so the final pre-Monji guild cleanup must occur before returning to complete the Pyramid."
+    "Barbarad is split after the Pyramid exterior battle: G#49 only appears at that point, so the final pre-Monji guild cleanup must occur before returning to complete the Pyramid.",
+    "Choko's midgame cemetery/Tokoko sequence should be done after Millmana once Choko is Lv55+: during the green-slime battle, do not wipe the slimes, collect the one-time Red Shoes, and escape southwest. The ruined-village continuation is a separate later stage after the north/south towers.",
+    "Romalia invasion is split before city completion: G#23 appears when the city-wall assault begins and expires when Air Castle rises, so deliver the amulet while Romalia city is still accessible; entering the final plaza/finishing the city also locks out city treasure."
   ],
   "route_plan": [
     {
@@ -171,6 +173,10 @@
       "title": "【任意】ミルマーナ後：仕事・海底油田手配"
     },
     {
+      "id": "optional_choko_mid",
+      "title": "【任意】ちょこ中盤イベント・赤いくつ"
+    },
+    {
       "id": "amigue_to_permission",
       "title": "アミーグ：神の塔許可まで"
     },
@@ -208,7 +214,7 @@
     },
     {
       "id": "optional_choko_late",
-      "title": "【任意】北・南の塔後：トココ最終イベント"
+      "title": "【任意】ちょこ終盤イベント：廃墟のトココ"
     },
     {
       "id": "optional_convert_choko_awakening",
@@ -219,12 +225,16 @@
       "title": "【任意】空中城前：G#37・残仕事・最終回収"
     },
     {
-      "id": "romalia_invasion",
-      "title": "ロマリア突入"
+      "id": "romalia_invasion_to_city",
+      "title": "ロマリア突入〜市街侵攻"
     },
     {
       "id": "optional_romalia_g23",
       "title": "【任意】ロマリア市街：G#23・宝箱最終回収"
+    },
+    {
+      "id": "romalia_city_finish",
+      "title": "ロマリア市街・地下道決着"
     },
     {
       "id": "air_castle",
@@ -315,5 +325,5 @@
       "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
     }
   ],
-  "generated_at": "2026-09-23T04:50:00+00:00"
+  "generated_at": "2026-09-23T05:12:00+00:00"
 }

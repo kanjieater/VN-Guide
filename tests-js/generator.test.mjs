@@ -49,7 +49,7 @@ test("generator projects games.json into landing cards and manifests", () => {
   ]);
   assert.equal(
     renderLanding("x /* GAMES_DATA */ y", games),
-    'x [{"slug": "one", "title": "One", "alttitle": "一", "has_guide": true, "cover_url": "a.jpg"}, {"slug": "two", "title": "Two", "alttitle": "", "has_guide": false, "cover_url": ""}] y'
+    'x [{"slug":"one","title":"One","alttitle":"一","has_guide":true,"cover_url":"a.jpg"},{"slug":"two","title":"Two","alttitle":"","has_guide":false,"cover_url":""}] y'
   );
   assert.equal(buildManifest("One").name, "One ガイド");
 });

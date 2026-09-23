@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { test } from "bun:test";
 import { createFlowchartRuntime, resetChart } from "./helpers/flowchart-harness.mjs";
 
 const runtime = await createFlowchartRuntime();

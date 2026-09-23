@@ -1,20 +1,20 @@
 [
   {
-    "simpleJp": "5つの防御壁を下げ、捕虜の周囲の兵士に3回ずつ話して救出する",
+    "simpleJp": "5つの防御壁を下げて城前へ進む",
     "jpGuide1": "5つの防衛壁はスイッチで消える",
-    "jpGuide2": "ロマリア",
-    "enGuide": "The prisoner rescue is optional execution detail, but clearing the walls advances the city assault."
+    "jpGuide2": "５つの防壁を突破し城を目指すことになる。",
+    "enGuide": "Lower all five barriers to advance. Set A also documents the optional prisoner-rescue interaction along the way."
   },
   {
     "simpleJp": "地下道が開いたら入り、宝箱を回収して出口まで進む",
     "jpGuide1": "地下道にも宝箱があるので行っておいた方がいい",
-    "jpGuide2": "ロマリアトンネル終了",
-    "enGuide": "Collect Muse, Life Stealer and Terry's Crest before leaving the underground route."
+    "jpGuide2": "市街地と地下道に分かれており、どちらからも城に到達できる",
+    "enGuide": "Take the underground detour before the final plaza; Set A documents its fixed treasure."
   },
   {
     "simpleJp": "城前広場へ進み、ロマリア市街最後の戦闘を終える",
     "jpGuide1": "出た先で戦闘後クリア。二度と入れなくなる",
-    "jpGuide2": "空中城突入",
+    "jpGuide2": "城前広場に入ってしまうとロマリア市街に二度と入れなくなってしまい、宝箱も入手不能",
     "enGuide": "After this battle Romalia city is permanently inaccessible and Air Castle rises."
   },
   {

@@ -65,7 +65,10 @@
     "Amigue is split at the elder's tower permission: G#39-42 are authored before God's Tower, because G#42 expires when the Amigue arc ends.",
     "Barbarad is split after the Pyramid exterior battle: G#49 only appears at that point, so the final pre-Monji guild cleanup must occur before returning to complete the Pyramid.",
     "Choko's midgame cemetery/Tokoko sequence should be done after Millmana once Choko is Lv55+: during the green-slime battle, do not wipe the slimes, collect the one-time Red Shoes, and escape southwest. The ruined-village continuation is a separate later stage after the north/south towers.",
-    "Romalia invasion is split before city completion: G#23 appears when the city-wall assault begins and expires when Air Castle rises, so deliver the amulet while Romalia city is still accessible; entering the final plaza/finishing the city also locks out city treasure."
+    "Romalia invasion is split before city completion: G#23 appears when the city-wall assault begins and expires when Air Castle rises, so deliver the amulet while Romalia city is still accessible; entering the final plaza/finishing the city also locks out city treasure.",
+    "Final normal-game Light Sword path is protected: Fire Sword from Elk's one-time dream battle, Earth Sword from Yagos sealed-ruin B4-B7 or Empty House, Wind Sword from Barbarad sealed ruin, and the missable Ice Sword from South Tower. Synthesize 光の剣 before Air Castle.",
+    "The sealed-ruin power-unit chain is completed before final lockout: Greycine → Alaratos → Brakia → Amigue → Barbarad → Alibarsha. This obtains Wind Sword and opens the Alibarsha ruin where Maios can be hunted.",
+    "Choko's mid event is independently corroborated by Arc II Data Wiki: green slimes must not all be defeated, and Red Shoes appears only during that battle. The converted awakening continuation independently reaches Ruins B71 and Akura."
   ],
   "route_plan": [
     {
@@ -323,7 +326,35 @@
       "title": "国/西アルディア",
       "language": "ja",
       "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/グリーンスライム",
+      "title": "キャラ/グリーンスライム",
+      "language": "ja",
+      "notes": "Independent support for the irreversible Choko-event condition: at least one green slime must remain alive for the event to continue."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/武器/赤いくつ",
+      "title": "武器/赤いくつ",
+      "language": "ja",
+      "notes": "Independent support that Red Shoes appears only during the Choko village battle, hidden behind the church."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/BOSS/アクラ",
+      "title": "BOSS/アクラ",
+      "language": "ja",
+      "notes": "Independent support for converted Choko awakening at Ruins B71: Choko duels Akura while the other party fights adds, then the group reunites."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/武器/光の剣",
+      "title": "武器/光の剣",
+      "language": "ja",
+      "notes": "Independent support for Light Sword synthesis from Earth + Ice + Fire + Wind swords."
     }
   ],
-  "generated_at": "2026-09-23T05:12:00+00:00"
+  "generated_at": "2026-09-23T05:28:00+00:00"
 }

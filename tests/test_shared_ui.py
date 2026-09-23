@@ -80,6 +80,13 @@ class SharedGuideUiTests(unittest.TestCase):
         self.assertIn(".flow-node-current .flow-node-shape", style)
         self.assertIn(".flow-node-unseen .flow-node-shape", style)
 
+    def test_synthetic_progress_uses_neutral_visual_state(self):
+        flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
+        style = STYLE.read_text(encoding="utf-8")
+        self.assertIn('return { seen: false, current: false, known: false };', flowchart)
+        self.assertIn('" flow-node-neutral"', flowchart)
+        self.assertIn(".flow-node-neutral .flow-node-shape", style)
+
     def test_flowchart_click_is_preview_only_until_next(self):
         source = APP.read_text(encoding="utf-8")
         start = source.index("async function jumpFromFlowchart")

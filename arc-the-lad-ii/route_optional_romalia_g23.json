@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "クズ鉄の町ショップの赤い髪の依頼人からお守りを受け取る",
+    "jpGuide1": "ショップにいる赤い髪の依頼人に話す",
+    "jpGuide2": "依頼人はショップにいる",
+    "enGuide": "Get the amulet before returning to the Romalia assault."
+  },
+  {
+    "simpleJp": "ロマリア市街の第3・第4防御壁の間にいる息子へお守りを渡す",
+    "jpGuide1": "ロマリア市街の中央にある大通りにいるレジスタンスの息子",
+    "jpGuide2": "第３防御壁と第４防御壁の間",
+    "enGuide": "You must lower either the third or fourth defense wall to reach him. Speaking to him with the amulet completes G#23."
+  },
+  {
+    "simpleJp": "城前広場へ入る前にロマリア市街の宝箱をすべて回収する",
+    "jpGuide1": "「ガーネット」「デスロザリー」「タワーガード」「クレイジーフェイス」「ちからの実」「いい爆弾」「スタッフオブフォース」「ダークカード」「パロの実」「クラヴィスの本+4」「強力果物」",
+    "jpGuide2": "城前広場での戦闘を終えるとロマリア市街地には二度と入れなくなる",
+    "enGuide": "Final city-loot window. Prioritize Staff of Force, Dark Card and the other fixed city chests before the plaza battle."
+  }
+]

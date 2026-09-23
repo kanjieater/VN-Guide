@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "クズ鉄の町で2回の戦闘を終え、酒場でダニーにトッシュかシュウを表示して話す",
+    "jpGuide1": "ダニーにトッシュかシュウを表示して話しかける",
+    "jpGuide2": "操作キャラをトッシュにする、その後ダニーに話しかけイベント",
+    "enGuide": "Follow Danny to the resistance hideout and clear the fight there."
+  },
+  {
+    "simpleJp": "ロマリアトンネルで10ターン耐える",
+    "jpGuide1": "10ターン持ちこたえる戦闘",
+    "jpGuide2": "ロマリアトンネル10ターン耐久戦",
+    "enGuide": "Enemies respawn during the defense. Afterward, continue through 2F and defeat the TYPE-A clones."
+  },
+  {
+    "simpleJp": "ロマリア市街でレジスタンスと合流し、城壁攻略を開始する",
+    "jpGuide1": "少し進むとレジスタンスと合流",
+    "jpGuide2": "ロマリア",
+    "enGuide": "Once the city-wall assault begins, pause the main route for the G#23 cleanup block before finishing Romalia."
+  },
+  {
+    "simpleJp": "クズ鉄の町ギルドへ戻りG#23「息子にお守りを届けておくれ」を受ける",
+    "jpGuide1": "息子にお守りを届けておくれ",
+    "jpGuide2": "ロマリア城壁攻略開始",
+    "enGuide": "Take G#23 now, then return to the city assault and deliver the amulet before moving on."
+  }
+]

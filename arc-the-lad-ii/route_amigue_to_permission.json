@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "モレア酒場の2人組に話して「よろしく頼む」を選ぶ",
+    "jpGuide1": "「よろしく頼む」を選ぶ。",
+    "jpGuide2": "右の酒場…イベント／よろしく頼む",
+    "enGuide": "This advances the Amigue opening sequence."
+  },
+  {
+    "simpleJp": "長老の家の前でイベントを進める",
+    "jpGuide1": "長老の家の前にいる2人に話すと中に入れる。",
+    "jpGuide2": "階段上の右ブラザーに話しかけイベント",
+    "enGuide": "Advance the elder-house entrance event. Set A says to speak to both people outside; Set B explicitly names the right-side brother."
+  },
+  {
+    "simpleJp": "長老に10000G払って神の塔の許可を得る",
+    "jpGuide1": "10000Gを請求される。払わないと先へ進めない",
+    "jpGuide2": "長老から神の塔に登る許可を得る",
+    "enGuide": "Stop here and clear the Amigue guild block before entering God's Tower."
+  }
+]

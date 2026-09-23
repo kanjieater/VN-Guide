@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "5つの防御壁を下げて城前へ進む",
+    "jpGuide1": "5つの防衛壁はスイッチで消える",
+    "jpGuide2": "５つの防壁を突破し城を目指すことになる。",
+    "enGuide": "Lower all five barriers to advance. Set A also documents the optional prisoner-rescue interaction along the way."
+  },
+  {
+    "simpleJp": "地下道が開いたら入り、宝箱を回収して出口まで進む",
+    "jpGuide1": "地下道にも宝箱があるので行っておいた方がいい",
+    "jpGuide2": "市街地と地下道に分かれており、どちらからも城に到達できる",
+    "enGuide": "Take the underground detour before the final plaza; Set A documents its fixed treasure."
+  },
+  {
+    "simpleJp": "城前広場へ進み、ロマリア市街最後の戦闘を終える",
+    "jpGuide1": "出た先で戦闘後クリア。二度と入れなくなる",
+    "jpGuide2": "城前広場に入ってしまうとロマリア市街に二度と入れなくなってしまい、宝箱も入手不能",
+    "enGuide": "After this battle Romalia city is permanently inaccessible and Air Castle rises."
+  },
+  {
+    "simpleJp": "空中城へ入る前に一度戻って最終準備する",
+    "jpGuide1": "一度は戻って準備するといい",
+    "jpGuide2": "空中城突入",
+    "enGuide": "Verify G#37 and G#23 are settled, all desired synthesis is complete, and your final party equipment is ready."
+  }
+]

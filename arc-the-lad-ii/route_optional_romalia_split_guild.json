@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "G#24「クズ鉄の大穴の恐怖のガス」を完了して清算する",
+    "jpGuide1": "クズ鉄の大穴の恐怖のガス",
+    "jpGuide2": "G#24　クズ鉄の大穴の恐怖のガス",
+    "enGuide": "Finish and settle this first so G#25 appears."
+  },
+  {
+    "simpleJp": "G#25「モンスターがあふれでてくる！？」を完了する",
+    "jpGuide1": "モンスターがあふれでてくる！？",
+    "jpGuide2": "G#25　モンスターがあふれでてくる！？",
+    "enGuide": "Requires G#24 to be completed and settled."
+  },
+  {
+    "simpleJp": "G#26「鉄クズ置き場でのクズ鉄拾いの警護」を完了する",
+    "jpGuide1": "鉄クズ置き場でのクズ鉄拾いの警護",
+    "jpGuide2": "G#26　鉄クズ置き場のクズ鉄拾いの警護",
+    "enGuide": "Critical short window: do this before advancing to the tunnel/attacked hideout."
+  },
+  {
+    "simpleJp": "SA-200SPの手配書を念のため確認する",
+    "jpGuide1": "手配モンスターSA-200SPなどと戦闘。",
+    "jpGuide2": "手配書確認　不要",
+    "enGuide": "Conservative prep only: Set B is internally inconsistent about whether the poster is required for the reward, so checking it is harmless but not treated as a verified prerequisite."
+  }
+]

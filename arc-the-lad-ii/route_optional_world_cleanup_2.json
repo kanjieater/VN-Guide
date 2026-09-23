@@ -1,0 +1,98 @@
+[
+  {
+    "simpleJp": "G#31「ベリンガル笑劇場を警護して欲しい」を完了する",
+    "jpGuide1": "ベリンガル笑劇場を警護して欲しい",
+    "jpGuide2": "G#31　ベリンガル笑劇場を警護して欲しい",
+    "enGuide": "Complete G#31 here immediately after the earlier Lieza-side work."
+  },
+  {
+    "simpleJp": "G#32「ホルンの村に食料を届けて欲しい」を完了する",
+    "jpGuide1": "ホルンの村に食料を届けて欲しい",
+    "jpGuide2": "G#32　ホルンの村に食料を届けて欲しい",
+    "enGuide": "Complete this during the current conservative pre-Monji sweep."
+  },
+  {
+    "simpleJp": "G#52「線路の上の岩石取り除き作業」を完了して清算する",
+    "jpGuide1": "線路の上の岩石取り除き作業",
+    "jpGuide2": "G#52　線路の上の岩石取り除き作業",
+    "enGuide": "Push every rock into a hole, not merely off the track; settle the result before continuing the Banza job sequence."
+  },
+  {
+    "simpleJp": "G#53「落とした鉱石の収拾」で鉱石20個を集めて大成功にする",
+    "jpGuide1": "落とした鉱石の収拾",
+    "jpGuide2": "大成功　4000G　8GP　鉱石を20個全て収集",
+    "enGuide": "Collect all 20 before ending the job; settle it before continuing."
+  },
+  {
+    "simpleJp": "G#54「病気を治す草を取ってくる」を大成功で完了して清算する",
+    "jpGuide1": "病気を治す草を取ってくる",
+    "jpGuide2": "大成功　3000G　7GP　目的の草を入手し、依頼人に渡す",
+    "enGuide": "Get the great-success result and settle it; keep that result for the later child-monster job."
+  },
+  {
+    "simpleJp": "G#55「ふとっちょのために肉を取ってくる」を完了する",
+    "jpGuide1": "ふとっちょのために肉を取ってくる",
+    "jpGuide2": "G#55　ふとっちょのために肉を取ってくる",
+    "enGuide": "Finish and settle it before attempting the egg chain."
+  },
+  {
+    "simpleJp": "G#56「トロッコ占領のモンスター退治」を完了する",
+    "jpGuide1": "トロッコ占領のモンスター退治",
+    "jpGuide2": "G#56　トロッコ占領のモンスター退治",
+    "enGuide": "Complete and settle G#56 before the egg job."
+  },
+  {
+    "simpleJp": "G#57「モンスターの卵を取ってくる」を完了して清算する",
+    "jpGuide1": "モンスターの卵をとってくる",
+    "jpGuide2": "G#57　モンスターの卵を取ってくる",
+    "enGuide": "Complete and settle the egg job immediately after the preceding Banza jobs."
+  },
+  {
+    "simpleJp": "G#58「子供達がモンスターに！」を完了する",
+    "jpGuide1": "子供達がモンスターに！",
+    "jpGuide2": "G#54を大成功で終了＆清算していなければ攻略不可",
+    "enGuide": "Finish this at the end of the Banza chain after preserving the earlier G#54 great-success result."
+  },
+  {
+    "simpleJp": "G#43「おじいさんを捜してください」を完了する",
+    "jpGuide1": "おじいさんを捜してください",
+    "jpGuide2": "G#43　おじいさんを捜してください",
+    "enGuide": "Begin the Misro cleanup while your levels are appropriate."
+  },
+  {
+    "simpleJp": "G#44「謎のモンスター闘技場占拠」を完了する",
+    "jpGuide1": "謎のモンスター闘技場占拠",
+    "jpGuide2": "G#44　謎のモンスター闘技場占拠",
+    "enGuide": "Complete this during the current conservative pre-Monji sweep."
+  },
+  {
+    "simpleJp": "G#45「闘技場モンスター反乱」を完了する",
+    "jpGuide1": "闘技場モンスター反乱",
+    "jpGuide2": "G#45　闘技場モンスター反乱",
+    "enGuide": "Clear the follow-up arena job immediately after G#44."
+  },
+  {
+    "simpleJp": "バンザ山西側でギャロップから「マッドビルダー」を盗んで討伐する",
+    "jpGuide1": "ギャロップ　3060　4　バンザ山左側　マッドビルダー盗",
+    "jpGuide2": "ギャロップ　サンダーバード　バンザ山西側",
+    "enGuide": "Bring Shu. Gallop appears while the Banza guild work is active; steal Mad Builder before the kill."
+  },
+  {
+    "simpleJp": "バンザ山でギガスを討伐する",
+    "jpGuide1": "ギガス　2925　4　バンザ山回復ポイントの後",
+    "jpGuide2": "ギガス　バンザ山",
+    "enGuide": "Clear this bounty during the same Banza return trip."
+  },
+  {
+    "simpleJp": "バンザ山1Fでダバノを討伐する",
+    "jpGuide1": "ダバノ　2970　5　バンザ山1F",
+    "jpGuide2": "ダバノ　バンザ山1F",
+    "enGuide": "Dabano can drop Dark Stream."
+  },
+  {
+    "simpleJp": "バンザ山左奥でドレイパーを討伐する",
+    "jpGuide1": "ドレイパー　3060　4　バンザ山左奥",
+    "jpGuide2": "ドレイパー　バンザ山西側",
+    "enGuide": "Draper becomes available once the relevant Banza progression/job state is open."
+  }
+]

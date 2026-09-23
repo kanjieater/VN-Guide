@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "ホルンのリーザの家で戦闘を終える",
+    "jpGuide1": "リーザの家へ行くと戦闘。",
+    "jpGuide2": "ホルン　戦闘",
+    "enGuide": "Finish all desired free-world cleanup before the next step."
+  },
+  {
+    "simpleJp": "ラムール宿屋で「勝手に泊まる」を選ぶ",
+    "jpGuide1": "「勝手に泊まる」を選ぶとイベント開始。",
+    "jpGuide2": "宿屋で夜にするとクリアまで出国できない",
+    "enGuide": "This commits you to Fores until Ghia Temple is cleared."
+  },
+  {
+    "simpleJp": "ギーア寺院で祭壇の隠しスイッチを押す",
+    "jpGuide1": "祭壇を調べ、、隠しスイッチを押すと中に入れる。",
+    "jpGuide2": "ギーア寺院　隠しスイッチ",
+    "enGuide": "Use the outer routes first, then open the central path."
+  },
+  {
+    "simpleJp": "特殊能力禁止区間を直接攻撃中心で突破する",
+    "jpGuide1": "しばらく特殊能力が使えなくなる",
+    "jpGuide2": "特殊能力が使えなくなる",
+    "enGuide": "Bring strong physical attackers for this section."
+  },
+  {
+    "simpleJp": "最上部で教皇を倒す",
+    "jpGuide1": "敵を全滅させるとフォーレスはクリア。",
+    "jpGuide2": "ギーア寺院　最終戦",
+    "enGuide": "Lieza is forced into the boss party; save beforehand because the source notes a possible pre-battle freeze."
+  }
+]

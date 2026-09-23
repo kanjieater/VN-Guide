@@ -1,0 +1,311 @@
+{
+  "game": "Arc the Lad II",
+  "vndb_id": "game:arc-the-lad-ii",
+  "guide_target": {
+    "label": "アークザラッドⅡ（プレイステーション クラシック内蔵・日本国内版）",
+    "platform": "PlayStation Classic",
+    "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/"
+  },
+  "research_gate": {
+    "status": "closed",
+    "exception": null,
+    "notes": [
+      "No title-scoped source exception is used.",
+      "Set A is the directly inspectable Japanese ちょこた/みどりすたいる walkthrough family.",
+      "Set B is the independent Japanese アークザラッド２ データまとめ Wiki* family, using timing, region, boss, bounty, character, item, and guild-job pages as a composite verification set.",
+      "Sony's Japanese PlayStation Blog is authoritative for the 2018 domestic PlayStation Classic target. A directly inspected Japanese PlayStation Classic hands-on report confirms Arc I and Arc II share virtual memory-card data and conversion works.",
+      "The PlayStation Classic title has no standalone retail package; cover_url uses Sony's Arc II image from the exact PlayStation Classic announcement page rather than substituting a different retail edition cover."
+    ]
+  },
+  "completion_scope": {
+    "mandatory": [
+      "complete main story through Air Castle and final boss",
+      "complete all guild jobs, respecting expiration and prerequisite chains",
+      "hunt all practical source-documented wanted monsters and flag one-time steal/drop conflicts",
+      "recruit optional permanent characters/summons available within Arc II",
+      "cover Ruins Dungeon/Choko content and all source-verified timing-critical optional content",
+      "collect source-verified one-time/unique rewards whose opportunity can permanently disappear"
+    ],
+    "optional_conversion": [
+      "conversion-only secret research-lab scene early in the story",
+      "conversion-only White House aftermath scene",
+      "early Choko availability if Arc I Choko data was converted",
+      "full Choko awakening continuation below Ruins Dungeon B50 after the late Tokoko event"
+    ],
+    "excluded": [
+      "Monster Game/casino external-disc transfers and prizes",
+      "repeatable grinding and max-stat optimization",
+      "arbitrary random drops and exhaustive generic treasure collection",
+      "capturing every generic monster species"
+    ]
+  },
+  "critical_findings": [
+    "Early guild work is placed immediately after Shu joins and an explicit post-join rest. Set B supplies exact early disappearance windows; the promoted Ari no Su completion route independently corroborates clearing G#01, G#02, G#07, and G#03 in this same early block. Player guidance uses conservative ordering rather than unsupported causal wording.",
+    "The pre-White-House guild block is deliberately cleared as a conservative sweep. Set B records the exact prerequisite chains and White-House cutoffs; Chokota/Ari no Su independently document the jobs and safe early completion order. The route no longer presents one-lane causal prerequisites as two-lane facts.",
+    "G#29 and G#30 are completed during the Lieza/Gogen split. Set B records their exact expiry; an independent Japanese play diary also performs both jobs during that split, so the guide uses the shared safe placement without overstating unlock causality.",
+    "During Shu/Tosh's Romalia segment, the guide clears G#24-G#26 before the tunnel as conservative routing. Set B records G#26's short window; the route avoids presenting disputed or one-lane prerequisite claims as settled facts.",
+    "After the Chimera Research Lab reunion, G#27/G#28 and nearby bounty cleanup are performed immediately. Set B carries the exact prerequisite details; the player-facing route uses safe sequencing while independently sourcing the actions and Gravis availability.",
+    "Midgame and late guild chains are routed conservatively before major story acceleration. Where Set B alone supplies an exact prerequisite or disappearance timestamp, the guide preserves the safe order but does not state that causal rule as independently verified unless a second Japanese source supports it.",
+    "Fores becomes temporarily country-locked after the inn trigger until Ghia Temple is cleared; the mandatory temple progression is bound to both Japanese lanes.",
+    "Amigue's guild block is completed before God's Tower. Set B records the exact G#42 cutoff; the route keeps the safe placement without relying on unsupported causal wording for other Amigue jobs.",
+    "Barbarad's late guild cleanup is performed immediately after the Pyramid opening/exterior progression. Set B records G#49's exact appearance after the exterior battle; an independent Japanese completion walkthrough likewise states that 「あぶない薬」 has appeared after Pyramid progression. The broader Monji-arc lockout remains Set-B-specific, so the final audit is phrased conservatively.",
+    "G#37 is handled before Air Castle and the final cleanup also verifies God Hunter proof/GP, sealed ruins, remaining bounties, and synthesis materials.",
+    "G#23 is handled during the Romalia city assault before city completion. Set B records the exact appearance/expiry window; Chokota requires delivery to the resistance son inside Romalia city and independently states the city becomes inaccessible after its final battle, while a separate Japanese completion diary also performs the delivery during the city treasure sweep. The route therefore uses the two-lane-safe city-assault placement without overstating the exact Set-B-only timestamps.",
+    "Entering Air Castle is the final world lockout.",
+    "Choko can be recruited without conversion after Ruins Dungeon B50. The later B51-B71 awakening continuation is conversion-gated; the promoted independent Japanese Choko walkthrough corroborates the mid/late Tokoko event chronology.",
+    "In the mid Choko event, do not wipe all green slimes; collect the one-time Red Shoes and leave through the southwest route. These irreversible facts are independently corroborated.",
+    "The late Choko ruined-Tokoko event follows the north/south-tower/Andel sequence. Exact micro-actions are coarsened where the independent lane documents only the event-level progression.",
+    "Wanted monster Shamus has the first-encounter Grand Knife steal; Tianus has the first-encounter Uninyan Sword steal; Grovis's timed Sea Oil Field encounter carries Fate and conflicts with defeating Balzac first.",
+    "Palencia stall availability is disputed: Chokota says the stall is available only on initial arrival and disappears after a map change, while the Arc II Data Wiki Robe page says it opens when leaving the bar during the Elk/Poco segment. The guide therefore tells the player to check it immediately without asserting the disputed exact window.",
+    "Elk's dream has the normal-game Flame Sword opportunity; South Tower contains the missable Ice Sword; Barbarad sealed ruins contain Wind Sword; Earth Sword is available in the Yagos sealed ruin/alternate source. These feed the normal-game Light Sword synthesis.",
+    "Palencia Tower 77F is optional completion content reached by repeated 99F elevator-switch toggling.",
+    "To obtain Fate and still clear Balzac, postpone Balzac until after Grovis: independent Japanese wanted-monster sources document the conflict, and Returnless Forest remains available afterward.",
+    "The Secret Research Lab conversion event belongs before the ceremony/Yagos transition; the Ark-versus-Andel conversion event occurs after White House. They remain separate optional conversion sections.",
+    "The sealed-ruin power-unit route is completed before final lockout in the conservative order Greycine → Alaratos → Brakia → Amigue → Barbarad → Alibarsha, then Wind Sword and remaining Alibarsha bounty cleanup are completed.",
+    "Romalia city treasure must be taken before the final plaza lockout; Chokota lists the fixed city/underground loot and Set B independently documents the permanent city access loss.",
+    "Air Castle final progression is corrected to three battles after Zalbad: Kukuru alone versus the incomplete Dark Ruler, then the party versus the first form, then the party versus the second/final form. An independent Japanese playthrough explicitly calls this a three-battle sequence, and Set B documents the same structure.",
+    "For early G#03, the route does not present the Set-B-only poster/medium-success rules as independently verified causal claims. It instead uses a conservative poster check plus the independently supported no-escape job clear."
+  ],
+  "recommended_order": [
+    "prologue_to_shu",
+    "optional_early_guild",
+    "optional_convert_secret_lab",
+    "ceremony_and_yagos",
+    "yagos_return_to_garuano",
+    "optional_pre_whitehouse",
+    "white_house",
+    "optional_convert_whitehouse",
+    "shu_shante_smelia",
+    "shante_gurga_crenia",
+    "optional_lieza_guild",
+    "lieza_gogen_fores",
+    "elk_poco_smelia",
+    "shu_tosh_scrap_town",
+    "optional_romalia_split_guild",
+    "shu_tosh_tunnel",
+    "chimera_lab_reunion",
+    "optional_post_reunion",
+    "greycine",
+    "optional_world_cleanup_1",
+    "optional_choko_recruit",
+    "fores",
+    "brakia",
+    "optional_world_cleanup_2",
+    "millmana",
+    "optional_millmana_cleanup",
+    "optional_choko_mid",
+    "amigue_to_permission",
+    "optional_amigue_guild",
+    "amigue_gods_tower",
+    "barbarad_to_pyramid",
+    "optional_pre_monji_cleanup",
+    "barbarad_pyramid",
+    "palencia_tower_and_past",
+    "past_world",
+    "north_south_towers",
+    "optional_choko_late",
+    "optional_convert_choko_awakening",
+    "optional_final_cleanup",
+    "romalia_invasion_to_city",
+    "optional_romalia_g23",
+    "romalia_city_finish",
+    "air_castle"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/",
+      "title": "ちょこた / みどりすたいる — アークザラッド2攻略",
+      "language": "ja",
+      "notes": "PRIMARY SET A hub. Main攻略1-4 establish full story chronology. Guild, wanted, Choko, Ruins Dungeon, sealed ruins, and item pages provide detailed optional-content execution and missable notes."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/guild.htm",
+      "title": "ギルドイベント",
+      "language": "ja",
+      "notes": "Detailed execution steps for the guild-job catalog."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/wanted.htm",
+      "title": "手配モンスター",
+      "language": "ja",
+      "notes": "Wanted-monster locations and notable one-time steals/drops."
+    },
+    {
+      "set": "A",
+      "url": "https://chokota.com/complete/atl2/choko.htm",
+      "title": "ちょこ覚醒イベント",
+      "language": "ja",
+      "notes": "Choko recruitment and awakening chronology, irreversible green-slime battle rule, and conversion requirement."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/",
+      "title": "アークザラッド２ データまとめ Wiki*",
+      "language": "ja",
+      "notes": "PRIMARY SET B hub. Independent composite verification set."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/ギルド仕事/時期別",
+      "title": "ギルド仕事/時期別",
+      "language": "ja",
+      "notes": "Independent authoritative-in-practice timing table for all guild jobs, including expiration, prerequisite, short-window, and final-lockout notes."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/手配モンスター",
+      "title": "手配モンスター",
+      "language": "ja",
+      "notes": "Independent bounty data and appearance conditions."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/ちょこ",
+      "title": "キャラ/ちょこ",
+      "language": "ja",
+      "notes": "Independent Choko recruitment/convert behavior and Ruins B50 facts."
+    },
+    {
+      "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/",
+      "title": "PlayStation.Blog 日本語 — プレイステーション クラシック内蔵ソフト全20本",
+      "language": "ja",
+      "notes": "AUTHORITATIVE TARGET SOURCE. Sony explicitly lists Arc the Lad II in the domestic PlayStation Classic lineup."
+    },
+    {
+      "url": "https://toal-uni-games.com/ps-classic/",
+      "title": "UniGames — プレイステーションクラシックで遊んだ感想。アークザラッドのコンバートは可能？",
+      "language": "ja",
+      "notes": "Direct Japanese hands-on confirmation that Arc I and Arc II share virtual memory card storage on PlayStation Classic and conversion works."
+    },
+    {
+      "set": "B",
+      "url": "https://yagamuu.hatenablog.jp/entry/2024/10/08/030714",
+      "title": "アークザラッドⅡ - JP Any% Glitchless(No File Conversion) RTAレポート(9:58:50)",
+      "language": "ja",
+      "notes": "Independent Japanese full-game chronology corroboration. Its lap sequence independently verifies the mandatory story order from Alfred through Yagos, White House, the split-party arcs, Chimera Research Lab, Greycine/Fores/Brakia/Millmana/Amigue/Barbarad, Palencia Tower/past, north/south towers, Romalia, and Air Castle. Used only for story-order verification, not optional-completion timing."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/国/西アルディア",
+      "title": "国/西アルディア",
+      "language": "ja",
+      "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/グリーンスライム",
+      "title": "キャラ/グリーンスライム",
+      "language": "ja",
+      "notes": "Independent support for the irreversible Choko-event condition: at least one green slime must remain alive for the event to continue."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/武器/赤いくつ",
+      "title": "武器/赤いくつ",
+      "language": "ja",
+      "notes": "Independent support that Red Shoes appears only during the Choko village battle, hidden behind the church."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/BOSS/アクラ",
+      "title": "BOSS/アクラ",
+      "language": "ja",
+      "notes": "Independent support for converted Choko awakening at Ruins B71: Choko duels Akura while the other party fights adds, then the group reunites."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/武器/光の剣",
+      "title": "武器/光の剣",
+      "language": "ja",
+      "notes": "Independent support for Light Sword synthesis from Earth + Ice + Fire + Wind swords."
+    },
+    {
+      "set": "A",
+      "url": "https://arinosu.ari-jigoku.com/arc2/suikamesann.html",
+      "title": "アークザラッド２データベース — 極限低レベルネックレス取得（暫定版）",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for early optional-content placement. The author explicitly states a completion policy of doing every guild job, then records G#01, G#02, G#07, and G#03 after Shu joins and before the closed-bar/Grunag transition to Yagos. Used to corroborate the safe early-job ordering; Set B remains the source for exact disappearance timestamps."
+    },
+    {
+      "set": "A",
+      "url": "https://tekeremu.zatunen.com/ArcTheLad1-2/arc2_tehai.htm",
+      "title": "Arc The Lad 2 — 手配モンスター",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for wanted-monster handling where Chokota is silent. It instructs checking wanted posters on reaching a new town and independently documents first-encounter-only stealing plus Shamus's Grand Knife."
+    },
+    {
+      "set": "B",
+      "url": "https://yagamuu.github.io/speedrun-docs/arc2_jp_any_glitchless_no_file_convert.html",
+      "title": "アークザラッドⅡ JP Any% Glitchless (No File Conversion) 手順",
+      "language": "ja",
+      "notes": "Direct detailed chronology companion to the recorded RTA report. Used for exact mandatory micro-order/excerpts in the opening and ceremony sections, including Alfred 2, Indigos guild/bar, the post-Leland alley sequence, and the ticket progression."
+    },
+    {
+      "set": "A",
+      "url": "https://kojikoji2200.blog.fc2.com/blog-entry-2429.html",
+      "title": "アークザラッド2 プレイ記録 — リーザ分岐・ギルド仕事",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for safe placement of the Lieza/Gogen split guild work. The play record performs both 旅から帰らない息子を探してほしい and いたずら息子を捕まえてほしい during Lieza's temporary segment."
+    },
+    {
+      "set": "B",
+      "url": "https://plaza.rakuten.co.jp/minnakoikoi/3038/",
+      "title": "アークザラッド2攻略 — ちょこイベント",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT JAPANESE CHOKO WALKTHROUGH. Corroborates the mid-event key/grave/battle sequence and the later ruined-Tokoko continuation after Andel; used where the Arc II Data Wiki is too coarse for exact event chronology."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/キャラ/サニア",
+      "title": "キャラ/サニア",
+      "language": "ja",
+      "notes": "Independent explicit support for Sania's Greycine-arc recruitment timing."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/防具/ローブ",
+      "title": "防具/ローブ",
+      "language": "ja",
+      "notes": "Records the Palencia robe-stall behavior during the Elk/Poco segment; retained specifically to document the availability disagreement with Chokota."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/国/ロマリア",
+      "title": "国/ロマリア",
+      "language": "ja",
+      "notes": "Independent Romalia-city and Air-Castle data: city/underground structure, Air Castle services and trials, and the Kukuru-plus-party final-battle structure."
+    },
+    {
+      "set": "A",
+      "url": "https://sekaijyusaya.hatenablog.com/entry/2023/08/24/185924",
+      "title": "sayaのゲーム日記（仮） — アークザラッド2 ゲームクリア",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for the terminal sequence. Explicitly describes the post-Zalbad last boss as a three-battle sequence: Kukuru alone, party first form, party second/final form."
+    },
+    {
+      "set": "B",
+      "url": "https://wikiwiki.jp/arc2data/特殊能力/ヴァニッシュ",
+      "title": "特殊能力/ヴァニッシュ",
+      "language": "ja",
+      "notes": "Independent support that Vanish is learned when Choko's awakening event is completed."
+    },
+    {
+      "set": "A",
+      "url": "https://ameblo.jp/pu2014/entry-11848523653.html",
+      "title": "アーク２攻略13：アミーグ～北極、南極",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for G#49 timing. Explicitly notes that 「あぶない薬」 appears after Pyramid progression and should be completed before moving into the later forced-story sequence."
+    },
+    {
+      "set": "A",
+      "url": "https://sekaijyusaya.hatenablog.com/entry/2023/08/02/184510",
+      "title": "sayaのゲーム日記（仮） — ロマリア市街の宝箱・お守り",
+      "language": "ja",
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for the Romalia-city completion window. Records collecting the fixed city treasure and delivering G#23's amulet to the resistance son during the city assault before taking the underground route."
+    }
+  ],
+  "generated_at": "2026-09-23T16:16:00+00:00"
+}

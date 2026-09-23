@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "神の塔の6つの三角ワープは左から2番目を選ぶ",
+    "jpGuide1": "6つ並んだ三角ワープは、左から2番目が正解。",
+    "jpGuide2": "神の塔",
+    "enGuide": "Avoid the 10F triangle warp that sends you back to the entrance."
+  },
+  {
+    "simpleJp": "11Fは左のスイッチを使う",
+    "jpGuide1": "11Fは左のスイッチで丸ワープの行き先を変える。",
+    "jpGuide2": "左のスイッチを入れる",
+    "enGuide": "The right switch starts an unnecessary battle."
+  },
+  {
+    "simpleJp": "最上階でグロルガルデを倒す",
+    "jpGuide1": "倒すとアミーグはクリア。神の塔には入れなくなる。",
+    "jpGuide2": "アミーグ編終了",
+    "enGuide": "Use durable characters up front; Grolgalde acts twice before your party gets its first turn."
+  }
+]

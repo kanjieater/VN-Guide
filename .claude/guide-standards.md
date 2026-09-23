@@ -66,10 +66,21 @@ Then apply these source roles:
 - A verification set may be one page or multiple Japanese pages. If multiple pages are needed, document every component in `research.json` and explain what each component covers.
 - A translation, derivative guide, or page that merely cites Set A does not count as an independent Set B.
 - A source that cannot be directly inspected does not count toward the gate. It may be listed for provenance only.
-- If the two-set gate cannot be satisfied, stop after research and document the blocker. Do not invent or infer missing guide content.
+- If the two-set gate cannot be satisfied, stop after research and document the blocker **unless** an explicitly opted-in non-VN guide has a valid repository-owner-approved title-scoped exception covering the exact residual fact as defined below. Facts outside that enumerated exception still fail the normal gate. Do not invent or infer missing guide content.
 - Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
-"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. If the other set contradicts the step/outcome, resolve the conflict before generation.
+"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets **unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for an explicitly opted-in non-VN guide**. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. For an exception-covered fact, use only the source roles and omission behavior explicitly permitted by the supplement. If the other set contradicts the step/outcome, resolve the conflict before generation.
+
+## Game covers
+
+Every game registration should have a cover image for the exact intended release/edition when one can be directly verified.
+
+- During initial registration/research, actively look up a cover for the exact `guide_target` edition/platform; do not leave `cover_url` blank merely because cover lookup was deferred.
+- Prefer a stable direct image URL from an authoritative, structured, or otherwise reliable source that clearly matches the target edition.
+- Do not use a different edition, limited edition, remake, port, or localization cover merely because it is easier to find.
+- A blank `cover_url` is permitted only after an actual lookup finds no suitable verifiable image; document that outcome in research notes so “unavailable” is distinguishable from “not checked”.
+- Cover-only corrections are display metadata and do not invalidate structural or accuracy route review.
+- Because `games.json.cover_url` is landing-visible metadata, synchronize the tracked root `index.html` whenever it changes.
 
 ## Character portraits
 
@@ -89,7 +100,7 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
 - `jpGuide1`: exact verbatim Set-A text when Set A prints that step.
 - `jpGuide2`: exact verbatim Set-B text when Set B prints that step.
-- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact. If one set cannot support it, the research gate is insufficient and the route cannot pass.
+- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for an explicitly opted-in non-VN guide. If an unlisted fact lacks support, the research gate is insufficient and the route cannot pass.
 - For a **non-route-defining save, load, repeated UI action, or optional non-main-ending-only step** that is explicitly documented by only one primary set while the other is silent/non-contradictory, keep the useful step and use the symmetric omission placeholder for the other field:
   - Set A missing → exactly `（第一ガイドに記載なし）`
   - Set B missing → exactly `（第二ガイドに記載なし）`
@@ -112,6 +123,8 @@ This mode deliberately does **not** introduce a second schema:
 - `routes[*].prerequisites` is **not** a previous-section pointer. Use it only for real source-documented unlock/dependency requirements. Sequential presentation belongs exclusively in `recommended_order`; an optional section must never become an apparent prerequisite for later mandatory progression merely because it appears immediately before it.
 - Optional side content may be isolated into its own section and marked clearly in the section title, for example `【任意】`. Put it at the exact point in the master order where it is safest or most useful to complete. Do not create a separate side-content route that requires the player to leave the main walkthrough and return later.
 - A 100% guide may linearize multiple playthroughs as later sections of the same master order (for example first clear → NG+ cleanup → ending cleanup).
+- A playthrough-ending terminal is a hard run boundary. If the next section/step requires another clear, NG+, or replay, explicitly establish that fresh run before the next gameplay action unless a source-backed save/load does so. Never imply that gameplay simply continues past an ending.
+- When two sources show different literal choices in the same event, first determine whether they occur at different decision points in one sequence before treating them as contradictory. Preserve both in order when the evidence supports sequential choices.
 
 ### Game-walkthrough `simpleJp`
 
@@ -124,11 +137,29 @@ For an opted-in non-VN walkthrough only, `simpleJp` is the short Japanese instru
 
 ### Game-walkthrough source coverage
 
-The two independent Japanese verification sets remain required for an opted-in game walkthrough, but source granularity differs from a VN choice guide.
+The two independent Japanese verification sets remain the default for an opted-in game walkthrough, but source granularity differs from a VN choice guide. A valid repository-owner-approved title-scoped exception may relax that default only for its exact enumerated residual facts.
 
-Both sets must independently support every material progression fact that could change the run: chapter/section order, required story progression, irreversible choices, prerequisites/unlocks, ending conditions, missable/limited content presented as required for completion, and the placement of optional content when timing materially matters.
+Both sets must independently support every material progression fact that could change the run: chapter/section order, required story progression, irreversible choices, prerequisites/unlocks, ending conditions, missable/limited content presented as required for completion, and the placement of optional content when timing materially matters—unless that exact fact is covered by a valid owner exception.
 
-Low-level execution details such as ordinary travel, talking to an NPC, a routine pickup, battle advice, or another non-branching microstep may be documented by only one primary set when the other is silent and non-contradictory. Keep both source fields non-empty and use the same symmetric omission placeholders defined below. Never use this exception to hide missing independent support for a progression-critical fact.
+Low-level execution details such as ordinary travel, talking to an NPC, a routine pickup, battle advice, or another non-branching microstep may be documented by only one primary set when the other is silent and non-contradictory. Keep both source fields non-empty and use the same symmetric omission placeholders defined below. For exception-covered material facts, use only the source roles and omission behavior explicitly allowed by the supplement. Never use either rule to hide missing independent support for an unlisted progression-critical fact.
+
+### Owner-approved title-scoped source exceptions
+
+The normal two-independent-Japanese-source gate remains the default. A game may depart from it only through an explicit repository-owner-approved exception recorded in that game's `prompt_supplement.md`.
+
+Such an exception must:
+
+- be title-scoped and must not generalize to other guides;
+- record approval provenance in the supplement/research record: at minimum the approval date plus a PR/comment URL, issue/comment reference, or explicit caller-approval context sufficient for a later reviewer to verify that the author did not self-grant the exception;
+- enumerate the exact residual facts it covers rather than broadly waiving the source gate;
+- state which recovered sources may establish each missing fact and what role each source plays;
+- preserve normal Japanese Set A/Set B verification everywhere usable independent Japanese evidence exists;
+- keep non-Japanese source material out of `jpGuide1` / `jpGuide2`; use the normal omission placeholder when a Japanese lane lacks the exact text;
+- permit non-Japanese operational detail only in the fields explicitly allowed by the supplement (normally concise translated `enGuide`);
+- require `research.json` source notes/disagreements to match the current exception scope so stale “gate still open” or narrower exception wording does not contradict the supplement;
+- be honored by reviewers exactly as written: do not reopen an approved exception, and do not silently expand it beyond the enumerated facts.
+
+An owner-approved exception is an explicit provenance decision, not evidence that the missing Japanese source suddenly exists. Review findings should distinguish “allowed by the title exception” from “verified by both Japanese sets”.
 
 ## Route step semantics
 
@@ -155,6 +186,8 @@ For normal VN guides, use the rules below. An explicitly opted-in **NON-VN LINEA
 Every `route_<id>.json` is a guide section. Its main-path structural terminal is the section's intended documented terminal/outcome, which may be a heroine ending, chapter ending, true ending, post-clear completion result, or another source-documented terminal appropriate to that section.
 
 Structural review must not require a character/good ending when the section's documented purpose has a different terminal. A linear section with no detours passes structural review when it begins at step 0, contains no orphan structural loads, and ends at its intended documented terminal/outcome.
+
+For an opted-in non-VN walkthrough, structural continuity also spans section and playthrough boundaries. After an ending/clear terminal, the next actionable gameplay must explicitly establish the next run (for example clear-data NG+, replay from the beginning, or a source-backed load). Do not accept an impossible ending → later-gameplay transition merely because each individual section is internally linear.
 
 ### Structural markers
 

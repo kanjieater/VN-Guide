@@ -50,6 +50,8 @@ Every guide must be tied to an explicit game release/platform. Do not infer the 
 
 Use the repository's `guide_target` metadata and verify that the walkthrough sources apply to that release. When possible, link directly to the specific VNDB release (`r...`) rather than only the broader work (`v...`).
 
+For new game registrations, also verify and populate a cover for that exact target edition/platform when one is available. Non-VN linear walkthroughs are opt-in through the game's `prompt_supplement.md`; title-scoped source exceptions, when explicitly approved by the repository owner, must record approval provenance, enumerate the exact facts they cover, and do not weaken the normal source gate for other facts or games.
+
 ### Orchestration
 
 An agent coordinating a guide should carry it through the entire lifecycle:

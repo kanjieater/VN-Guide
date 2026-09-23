@@ -48,6 +48,8 @@ Reconstruct the main route by removing save-backed non-main-ending chains from `
 
 Ordinary cross-route load instructions may remain on the main route as plain steps.
 
+For an explicitly opted-in **NON-VN LINEAR WALKTHROUGH**, also trace continuity across adjacent sections and across playthrough terminals. If an ending/clear terminal is followed by gameplay from another clear, NG+, or replay, require an explicit fresh-run boundary (or a source-backed load already present in the route). Do not pass an ending → later-gameplay jump merely because the individual route files are each internally linear.
+
 ## Review record
 
 Follow caller/orchestrator transport instructions first. If none are specified, follow the review destination defaults in `.claude/guide-standards.md`. Use the canonical finding schema for every structural finding.

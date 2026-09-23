@@ -69,7 +69,7 @@ Then apply these source roles:
 - If the two-set gate cannot be satisfied, stop after research and document the blocker **unless** an explicitly opted-in non-VN guide has a valid repository-owner-approved title-scoped exception covering the exact residual fact as defined below. Facts outside that enumerated exception still fail the normal gate. Do not invent or infer missing guide content.
 - Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
-"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. If the other set contradicts the step/outcome, resolve the conflict before generation.
+"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets **unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for an explicitly opted-in non-VN guide**. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. For an exception-covered fact, use only the source roles and omission behavior explicitly permitted by the supplement. If the other set contradicts the step/outcome, resolve the conflict before generation.
 
 ## Game covers
 
@@ -100,7 +100,7 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
 - `jpGuide1`: exact verbatim Set-A text when Set A prints that step.
 - `jpGuide2`: exact verbatim Set-B text when Set B prints that step.
-- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact. If one set cannot support it, the research gate is insufficient and the route cannot pass.
+- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for an explicitly opted-in non-VN guide. If an unlisted fact lacks support, the research gate is insufficient and the route cannot pass.
 - For a **non-route-defining save, load, repeated UI action, or optional non-main-ending-only step** that is explicitly documented by only one primary set while the other is silent/non-contradictory, keep the useful step and use the symmetric omission placeholder for the other field:
   - Set A missing → exactly `（第一ガイドに記載なし）`
   - Set B missing → exactly `（第二ガイドに記載なし）`
@@ -137,11 +137,11 @@ For an opted-in non-VN walkthrough only, `simpleJp` is the short Japanese instru
 
 ### Game-walkthrough source coverage
 
-The two independent Japanese verification sets remain required for an opted-in game walkthrough, but source granularity differs from a VN choice guide.
+The two independent Japanese verification sets remain the default for an opted-in game walkthrough, but source granularity differs from a VN choice guide. A valid repository-owner-approved title-scoped exception may relax that default only for its exact enumerated residual facts.
 
-Both sets must independently support every material progression fact that could change the run: chapter/section order, required story progression, irreversible choices, prerequisites/unlocks, ending conditions, missable/limited content presented as required for completion, and the placement of optional content when timing materially matters.
+Both sets must independently support every material progression fact that could change the run: chapter/section order, required story progression, irreversible choices, prerequisites/unlocks, ending conditions, missable/limited content presented as required for completion, and the placement of optional content when timing materially matters—unless that exact fact is covered by a valid owner exception.
 
-Low-level execution details such as ordinary travel, talking to an NPC, a routine pickup, battle advice, or another non-branching microstep may be documented by only one primary set when the other is silent and non-contradictory. Keep both source fields non-empty and use the same symmetric omission placeholders defined below. Never use this exception to hide missing independent support for a progression-critical fact.
+Low-level execution details such as ordinary travel, talking to an NPC, a routine pickup, battle advice, or another non-branching microstep may be documented by only one primary set when the other is silent and non-contradictory. Keep both source fields non-empty and use the same symmetric omission placeholders defined below. For exception-covered material facts, use only the source roles and omission behavior explicitly allowed by the supplement. Never use either rule to hide missing independent support for an unlisted progression-critical fact.
 
 ### Owner-approved title-scoped source exceptions
 

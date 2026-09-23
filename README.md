@@ -40,6 +40,6 @@ bun test
 bun run test:coverage
 ```
 
-Tests are use-case driven and run concurrently with a maximum concurrency of 20. They exercise reader resume/navigation, route transitions, spoiler behavior, bad-end/load handling, flowchart preview/commit and zoom interactions, detailed sidecar topology, landing-page progress filtering, and deterministic generation.
+Tests are use-case driven. CI launches four isolated Bun test shards in parallel so browser-global suites cannot interfere with each other; pure tooling/contract tests additionally run concurrently with a maximum concurrency of 20. They exercise reader resume/navigation, route transitions, spoiler behavior, bad-end/load handling, flowchart preview/commit and zoom interactions, detailed sidecar topology, landing-page progress filtering, and deterministic generation.
 
 CI reports whole-code coverage and enforces **100% changed-line coverage** for executable application/generator code.

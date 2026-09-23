@@ -24,8 +24,38 @@ function saveSettings() {
   try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)); } catch {}
 }
 
+
+// ── Viewport sizing ───────────────────────────────────────────────────────────
+// Some Android split-screen/browser combinations can leave CSS dynamic viewport
+// units stale until the window is manually resized. Mirror the visual viewport
+// into a CSS variable and refresh it after resize transitions settle.
+let viewportSyncTimer = null;
+
+function syncViewportHeight() {
+  const visualHeight = window.visualViewport && window.visualViewport.height;
+  const height = visualHeight || window.innerHeight;
+  if (height > 0) {
+    document.documentElement.style.setProperty("--app-height", `${Math.round(height)}px`);
+  }
+}
+
+function scheduleViewportSync() {
+  syncViewportHeight();
+  requestAnimationFrame(syncViewportHeight);
+  clearTimeout(viewportSyncTimer);
+  viewportSyncTimer = setTimeout(syncViewportHeight, 250);
+}
+
+window.addEventListener("resize", scheduleViewportSync, { passive: true });
+window.addEventListener("orientationchange", scheduleViewportSync, { passive: true });
+window.addEventListener("pageshow", scheduleViewportSync);
+if (window.visualViewport) {
+  window.visualViewport.addEventListener("resize", scheduleViewportSync, { passive: true });
+}
+
 // ── View management ───────────────────────────────────────────────────────────
 function showView(id) {
+  syncViewportHeight();
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById(id).classList.add("active");
 }
@@ -421,7 +451,11 @@ async function requestWakeLock() {
   try { wakeLock = await navigator.wakeLock.request("screen"); } catch {}
 }
 document.addEventListener("visibilitychange", () => {
-  if (document.visibilityState === "visible") requestWakeLock();
+  if (document.visibilityState === "visible") {
+    scheduleViewportSync();
+    requestWakeLock();
+  }
 });
 
+scheduleViewportSync();
 init();

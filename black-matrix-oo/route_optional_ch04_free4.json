@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "雑記帳「うちの子ですがね」を読む",
+    "jpGuide1": "ボーナスシナリオ５　＜うちの子２＞",
+    "jpGuide2": "雑記帳（うちの子ですがね）→ウェイター",
+    "enGuide": "Read the notebook entry 「うちの子ですがね」."
+  },
+  {
+    "simpleJp": "酒場のウェイターに話しかける",
+    "jpGuide1": "ボーナスシナリオ５　＜うちの子２＞",
+    "jpGuide2": "雑記帳（うちの子ですがね）→ウェイター",
+    "enGuide": "Talk to the waiter to trigger Bonus Scenario 5, うちの子2."
+  },
+  {
+    "simpleJp": "サイファーパンクの構成員若者・構成員女・構成員男に話しかける",
+    "jpGuide1": "ボーナスシナリオ６　＜手合わせ＞\nなんか連続で発生したぞ！？",
+    "jpGuide2": "サイファーパンク構成員男・女→雑記帳（いつものところ）→ステイエン",
+    "enGuide": "For Bonus Scenario 6, talk to all three Cipher Punk members: the young man, the woman, and the man. FFSKY explicitly includes the young member; the derivative Japanese memo omits him."
+  },
+  {
+    "simpleJp": "雑記帳「いつものところ」を読む",
+    "jpGuide1": "ボーナスシナリオ６　＜手合わせ＞",
+    "jpGuide2": "サイファーパンク構成員男・女→雑記帳（いつものところ）→ステイエン",
+    "enGuide": "After speaking to the three Cipher Punk members, read the notebook entry 「いつものところ」."
+  },
+  {
+    "simpleJp": "ステイエンに話しかける",
+    "jpGuide1": "ステイエンが肩慣らしのため、カインかエクサルに相手になって欲しいと言う",
+    "jpGuide2": "サイファーパンク構成員男・女→雑記帳（いつものところ）→ステイエン",
+    "enGuide": "Talk to Stayen to trigger Bonus Scenario 6, 手合わせ."
+  }
+]

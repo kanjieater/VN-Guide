@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "ロマリアトンネルの最初の戦闘を終える",
+    "jpGuide1": "戦闘のみ。",
+    "jpGuide2": "ロマリアトンネル　戦闘",
+    "enGuide": "Advance until the resistance hideout sequence."
+  },
+  {
+    "simpleJp": "SA-200SPから「パラライザー」を盗んで倒す",
+    "jpGuide1": "手配モンスターから「パラライザー」を盗んでおくと後が楽になる。",
+    "jpGuide2": "ＳＡ－２００ＳＰ　パラライザー",
+    "enGuide": "Bring Shu and steal before the target dies; it is a rare and useful item."
+  },
+  {
+    "simpleJp": "トッシュで6ターン以上稼いで「うつせみの玉」を使う",
+    "jpGuide1": "最低でも6ターンは必要。",
+    "jpGuide2": "1～5ターン待機、6ターン目「うつせみの玉使用」",
+    "enGuide": "The turns Tosh survives become Shu's available bomb-setting time."
+  },
+  {
+    "simpleJp": "シュウで2か所の爆薬を起動する",
+    "jpGuide1": "カバーを開け、タイマーをセットし、スイッチを入れる",
+    "jpGuide2": "爆弾を調べて",
+    "enGuide": "Each charge needs three actions; finish both to complete the tunnel operation."
+  }
+]

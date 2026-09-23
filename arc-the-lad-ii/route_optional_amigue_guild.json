@@ -1,0 +1,50 @@
+[
+  {
+    "simpleJp": "G#39「酒場のゴロつき退治」を完了する",
+    "jpGuide1": "酒場のゴロつき退治",
+    "jpGuide2": "G#39　酒場のゴロつき退治",
+    "enGuide": "Win Shu's quick-draw duel after the five-count. Watch Shu's turn animation rather than relying only on the count."
+  },
+  {
+    "simpleJp": "G#40「迷子のロバ探し」を完了する",
+    "jpGuide1": "迷子のロバ探し",
+    "jpGuide2": "G#40　迷子のロバ探し",
+    "enGuide": "Talk twice to the owner, get the town clue, find the donkey at Madeta Hill, then report back."
+  },
+  {
+    "simpleJp": "G#41「アミーグロックの羽根を探せ」を完了する",
+    "jpGuide1": "アミーグロックの羽根を探せ",
+    "jpGuide2": "G#41　アミーグロックの羽を探せ",
+    "enGuide": "Complete G#41 immediately after G#40 in this same Amigue guild block. Collect five feathers from Amigue Rocks and return them."
+  },
+  {
+    "simpleJp": "G#42「長老館の紛失事件」を完了する",
+    "jpGuide1": "神の塔をクリアすると消滅するので注意。",
+    "jpGuide2": "G#42　長老館の紛失事件　アミーグ編終了で消滅",
+    "enGuide": "Critical short window. Follow the dialogue chain, then light seven of the ordinary lamps before lighting the special upper-right-left lamp; do not light all nine."
+  },
+  {
+    "simpleJp": "アミーグFBAでドルゴンを討伐する",
+    "jpGuide1": "ドルゴン　アミーグFBA",
+    "jpGuide2": "ドルゴン　アミーグ",
+    "enGuide": "Clear the local bounty while the country is open."
+  },
+  {
+    "simpleJp": "アミーグFBAでゴルゴンを討伐する",
+    "jpGuide1": "ゴルゴン　アミーグFBA",
+    "jpGuide2": "ゴルゴン　アミーグ",
+    "enGuide": "Clear the second overworld bounty."
+  },
+  {
+    "simpleJp": "アミーグ封印の遺跡B1でベラドンナを討伐する",
+    "jpGuide1": "ベラドンナ　アミーグ遺跡B1",
+    "jpGuide2": "ベラドンナ　アミーグ封印の遺跡",
+    "enGuide": "Take the bounty while visiting the sealed ruin."
+  },
+  {
+    "simpleJp": "アミーグ封印の遺跡B3でダリーを討伐する",
+    "jpGuide1": "ダリー　アミーグ遺跡B3",
+    "jpGuide2": "ダリー　アミーグ封印の遺跡",
+    "enGuide": "Finish the local sealed-ruin bounty set."
+  }
+]

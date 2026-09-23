@@ -1,0 +1,56 @@
+[
+  {
+    "simpleJp": "アジャール酒場でサニアを表示してロアンに話す",
+    "jpGuide1": "酒場にいるロアンにサニアを表示して（R2で切り替え）話す。",
+    "jpGuide2": "サニアにキャラ変更し、ロエンに話しイベント",
+    "enGuide": "This reveals the Sea Oil Field lead; visit it once, then return to Roan."
+  },
+  {
+    "simpleJp": "ニエンの森を抜ける",
+    "jpGuide1": "抜けたら一度準備のために戻れる。",
+    "jpGuide2": "ニエンの森",
+    "enGuide": "After the first clear you can prepare before the train-gun position."
+  },
+  {
+    "simpleJp": "列車砲陣地で突入部隊とおとり部隊を編成する",
+    "jpGuide1": "エルクとサニアが強制参加",
+    "jpGuide2": "列車砲陣地　部隊編成",
+    "enGuide": "Split equipment carefully: Elk/Sania are forced into the train team and Ark into the decoy team."
+  },
+  {
+    "simpleJp": "巨大列車を最深部まで攻略する",
+    "jpGuide1": "最深部にいる敵を倒せばクリア。",
+    "jpGuide2": "巨大列車攻略",
+    "enGuide": "Use switches to redirect/disable the red sensors and clear the deepest fight."
+  },
+  {
+    "simpleJp": "アジャールでロアンに話して海底油田へ戻る",
+    "jpGuide1": "ロアンに話すとイベント。",
+    "jpGuide2": "もう一度ロエンに話し",
+    "enGuide": "Prepare Shu for the eventual escape party before committing to the boss."
+  },
+  {
+    "simpleJp": "海底油田でヤグンを倒す",
+    "jpGuide1": "最深部でヤグンと戦闘。",
+    "jpGuide2": "ヤグン撃破",
+    "enGuide": "Remember the nearby escape submarine before starting this battle."
+  },
+  {
+    "simpleJp": "脱出メンバーにシュウを入れる",
+    "jpGuide1": "グロヴィス　盗：フェイト",
+    "jpGuide2": "脱出メンバーにシュウを入れていないと盗めない",
+    "enGuide": "Put Shu in the escape party so the unique Fate steal is possible."
+  },
+  {
+    "simpleJp": "脱出中の寄り道部屋でグロヴィスから「フェイト」を盗んで討伐する",
+    "jpGuide1": "グロヴィス　盗：フェイト",
+    "jpGuide2": "バルザックを先に倒しているとフェイトは入手不可",
+    "enGuide": "During the timed escape, enter the formerly blocked room, steal Fate from Grovis, then finish the bounty."
+  },
+  {
+    "simpleJp": "寄り道部屋の宝箱を回収して潜水艦で脱出する",
+    "jpGuide1": "脱出するとミルマーナはクリア。海底油田は消滅する。",
+    "jpGuide2": "海底油田脱出",
+    "enGuide": "This area disappears permanently after escape, so take the unique/timing-sensitive loot now."
+  }
+]

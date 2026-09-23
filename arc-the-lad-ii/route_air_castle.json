@@ -1,0 +1,56 @@
+[
+  {
+    "simpleJp": "空中城へ突入する",
+    "jpGuide1": "一度突入するともとの世界には帰れなくなる",
+    "jpGuide2": "空中城突入",
+    "enGuide": "Final point of no return. Enter only after the completion cleanup is finished."
+  },
+  {
+    "simpleJp": "入口付近の敵を倒し、シルバーノアの設備を使えるようにする",
+    "jpGuide1": "入口近くの敵を倒すとシルバーノアに戻れるようになる",
+    "jpGuide2": "作戦室が魔改造され、ショップ、鍛冶屋、合成屋、マザークレアなどが駆けつけてくれ",
+    "enGuide": "Inside Air Castle only, Silver Noah provides recovery, save, shop, smith, synthesis, Mother Claire and other services."
+  },
+  {
+    "simpleJp": "赤い丸のワープで進み、中間セーブポイントでセーブする",
+    "jpGuide1": "途中に回復・セーブポイントがある",
+    "jpGuide2": "空中城6部屋",
+    "enGuide": "This save is also the Arc III conversion checkpoint, so make a durable final save here."
+  },
+  {
+    "simpleJp": "6つの個人部屋を1人ずつ攻略する",
+    "jpGuide1": "6つの部屋があり、それぞれ1人ずつが入れる",
+    "jpGuide2": "空中城6部屋",
+    "enGuide": "Choose a suitable character for each room; all six must be cleared."
+  },
+  {
+    "simpleJp": "4つの試練部屋を勝ち、中央の水晶を調べる",
+    "jpGuide1": "4つの部屋の試練",
+    "jpGuide2": "4つの試練は、4つの部屋で戦闘するだけ。／中央の石を調べ、上の部屋に入り戦闘",
+    "enGuide": "Clear all four surrounding trial rooms, then inspect the center crystal to open the route onward."
+  },
+  {
+    "simpleJp": "ザルバドを倒す",
+    "jpGuide1": "その奥でザルバド戦",
+    "jpGuide2": "ザルバド戦開始",
+    "enGuide": "This is the last major boss before the final encounter."
+  },
+  {
+    "simpleJp": "ククル1人で不完全な闇黒の支配者と戦う",
+    "jpGuide1": "ラスボス３連戦が始まる。ククル一人で挑む",
+    "jpGuide2": "まずはククル一人で、復活したてで不完全な闇黒の支配者と戦うイベント戦",
+    "enGuide": "The final sequence starts with the mandatory Kukuru-only event battle."
+  },
+  {
+    "simpleJp": "パーティーで闇黒の支配者の第1形態を倒す",
+    "jpGuide1": "闇黒の支配者一戦目。卵型。倒すと２戦目に移行。",
+    "jpGuide2": "その後イベントを挟み、次はククル以外のパーティメンバーで戦う",
+    "enGuide": "After the Kukuru event, defeat the first party-fought form."
+  },
+  {
+    "simpleJp": "続けて闇黒の支配者の第2形態を倒す",
+    "jpGuide1": "闇黒の支配者２戦目。このゲームのラスボス。",
+    "jpGuide2": "闇黒の支配者戦3",
+    "enGuide": "Defeat the final form to reach Arc the Lad II's ending. This is the terminal step of the guide."
+  }
+]

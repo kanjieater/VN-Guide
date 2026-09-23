@@ -1,0 +1,44 @@
+[
+  {
+    "simpleJp": "G#01「インディゴス下水道調べ」を完了する",
+    "jpGuide1": "インディゴス下水道調べ",
+    "jpGuide2": "G#01　インディゴス下水道調べ",
+    "enGuide": "Complete this in the first guild block before advancing the main story."
+  },
+  {
+    "simpleJp": "G#02「廃墟の幽霊屋敷」を完了する",
+    "jpGuide1": "廃墟の幽霊屋敷",
+    "jpGuide2": "G#02　廃墟の幽霊屋敷",
+    "enGuide": "Clear the haunted-house job in this same early block before moving on."
+  },
+  {
+    "simpleJp": "ギルドで新しい手配書を確認する",
+    "jpGuide1": "新しい町に着いたらまず手配書を確認すること。",
+    "jpGuide2": "＋ドクスン確認",
+    "enGuide": "Check the newly available wanted posters before taking the jewelry-store job."
+  },
+  {
+    "simpleJp": "G#03「インディゴス宝石強盗団」で敵を逃がさず完了する",
+    "jpGuide1": "敵を逃がさずに倒せばクリア。",
+    "jpGuide2": "G#03を中成功以上でこなす必要がある",
+    "enGuide": "Block the escape route and finish the job without letting the thieves get away."
+  },
+  {
+    "simpleJp": "G#07「バーンズさんの犬捜し」を完了する",
+    "jpGuide1": "Gバーンズさんの犬捜し",
+    "jpGuide2": "G#07　バーンズさんの犬捜し",
+    "enGuide": "Do this before advancing the closed-bar/Grunag sequence; the independent completion route places it in this same early window."
+  },
+  {
+    "simpleJp": "インディゴス下水道でシャムスから「グランドナイフ」を盗んで討伐する",
+    "jpGuide1": "シャムス　450　1　インディゴス下水道　グランドナイフ盗（初回遭遇時のみ）",
+    "jpGuide2": "グランドナイフ　初回遭遇時のみ入手可能",
+    "enGuide": "Bring Shu and steal the Grand Knife on the first encounter before killing Shamus."
+  },
+  {
+    "simpleJp": "廃屋でゴルザを討伐する",
+    "jpGuide1": "ゴルザ　540　1　廃屋",
+    "jpGuide2": "ゴルザ　スケルトン　廃墟の町―廃屋",
+    "enGuide": "Clear the early Prodius bounty while the area is already relevant."
+  }
+]

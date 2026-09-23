@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "リーザでホルンへ行く",
+    "jpGuide1": "飛行船に乗ってホルンへ。",
+    "jpGuide2": "ホルン1戦目終了",
+    "enGuide": "Kerak and Mofly join at the start of this segment; converted Hemojii data may also carry over."
+  },
+  {
+    "simpleJp": "ホルンの岩を調べてラムールへ行く",
+    "jpGuide1": "岩を調べてからラムールへ。",
+    "jpGuide2": "戦闘後、大岩を調べてホルンを出る",
+    "enGuide": "This opens the next story trigger."
+  },
+  {
+    "simpleJp": "ラムールで5人以上に話してゴーゲンを仲間にする",
+    "jpGuide1": "5人以上に話した後、外に出ようとするとイベント発生。ゴーゲンが仲間に。",
+    "jpGuide2": "NPC5人に話しかけ、街から出ようとするとイベント発生",
+    "enGuide": "Recruit Gogen, then return to Horn."
+  },
+  {
+    "simpleJp": "ホルンのつり橋とリーザの家の戦闘を終える",
+    "jpGuide1": "つり橋と、村の一番奥にあるリーザの家でそれぞれ戦闘。",
+    "jpGuide2": "ホルン2戦目終了",
+    "enGuide": "Defeat the Beast Master in Lieza's house to continue."
+  },
+  {
+    "simpleJp": "ホルン支部キメラ研究所を攻略する",
+    "jpGuide1": "右から３番目、６番目、８番目をONにする右の部屋（先へ進める）",
+    "jpGuide2": "キメラ研究所（ホルン支部）",
+    "enGuide": "Use the switch patterns to open the route. Pick up Smart Capture and Leila's Mirror while here."
+  }
+]

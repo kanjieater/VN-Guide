@@ -1,0 +1,152 @@
+[
+  {
+    "simpleJp": "G#46「指輪探し」を完了する",
+    "jpGuide1": "カナラ砂漠へ行き…戦闘に勝てばクリア。",
+    "jpGuide2": "G#46　指輪探し",
+    "enGuide": "Find the flashing ring from one tile away in Kanara Desert, then win the battle."
+  },
+  {
+    "simpleJp": "G#47「迷子の少女」を完了する",
+    "jpGuide1": "迷子の少女",
+    "jpGuide2": "G#47　迷子の少女",
+    "enGuide": "Meet the girl at Muhad inn, visit the former empty room beside Elk's apartment in Prodius, then return and win the fight."
+  },
+  {
+    "simpleJp": "G#48「砂漠の神隠し」を完了する",
+    "jpGuide1": "「指輪探し」をクリアすると出現。",
+    "jpGuide2": "G#48　砂漠の神隠し　＋G#46終了",
+    "enGuide": "Requires G#46; return to Kanara Desert and win the battle."
+  },
+  {
+    "simpleJp": "G#49「あぶない薬」を完了する",
+    "jpGuide1": "ピラミッド攻略後、ギルドの仕事「あぶない薬」が発生しているので忘れずに。",
+    "jpGuide2": "G#49　あぶない薬　ピラミッド外観戦終了で発生",
+    "enGuide": "G#49 is available after the Pyramid opening/exterior progression; complete it now before resuming the story."
+  },
+  {
+    "simpleJp": "G#10「面接試験有、山賊お断り」で「そうでもねえよ」を選ぶ",
+    "jpGuide1": "テュケの洞窟にいるピエール・ベロニカに話し、アルディア橋に戻って報告するとクリア。",
+    "jpGuide2": "G#10　面接試験有、山賊お断り",
+    "enGuide": "Complete G#10 now after preserving the earlier G#06 and G#18 results. At Aldia Bridge answer そうでもねえよ, finish the Tuke Cave dragon lead, and report back."
+  },
+  {
+    "simpleJp": "カナラ砂漠でダリウスを討伐する",
+    "jpGuide1": "ダリウス　カナラ砂漠",
+    "jpGuide2": "ダリウス　バルバラード",
+    "enGuide": "Clear this regional bounty before story lockouts begin."
+  },
+  {
+    "simpleJp": "バルバラード封印の遺跡B1でガウディラスを討伐する",
+    "jpGuide1": "ガウディラス　バルバラード遺跡B1",
+    "jpGuide2": "ガウディラス　バルバラード封印の遺跡",
+    "enGuide": "Finish the Barbarad regional bounty while free travel remains."
+  },
+  {
+    "simpleJp": "ウィルの岩場でブーシーを討伐する",
+    "jpGuide1": "ブーシー　ウィルの岩場　スティンガー落",
+    "jpGuide2": "ブーシー　ウィルの岩場",
+    "enGuide": "Finish this East Aldia bounty before the global lockout."
+  },
+  {
+    "simpleJp": "インディゴス下水道でアジュを討伐する",
+    "jpGuide1": "アジュ　インディゴス下水道",
+    "jpGuide2": "アジュ　インディゴス下水道",
+    "enGuide": "Clear the other sewer bounty if it was not already taken during the early jobs."
+  },
+  {
+    "simpleJp": "サルバ砂漠でホイスラーを討伐する",
+    "jpGuide1": "ホイスラー　サルバ砂漠マップ3",
+    "jpGuide2": "ホイスラー　サルバ砂漠",
+    "enGuide": "Clear the remaining East Aldia free-area bounty."
+  },
+  {
+    "simpleJp": "クイナの丘でラギを討伐する",
+    "jpGuide1": "ラギ　クイナの丘　ミランダ落",
+    "jpGuide2": "ラギ　クイナの丘",
+    "enGuide": "Sweep the Palencia-region wanted list."
+  },
+  {
+    "simpleJp": "クイナの丘でキバを討伐する",
+    "jpGuide1": "キバ　クイナの丘　ウィングドスピア落",
+    "jpGuide2": "キバ　クイナの丘",
+    "enGuide": "Keep revisiting until Kiba appears if needed."
+  },
+  {
+    "simpleJp": "パレンシア城地下倉庫跡でシャコウを討伐する",
+    "jpGuide1": "シャコウ　パレンシア城跡",
+    "jpGuide2": "シャコウ　パレンシア城地下倉庫跡",
+    "enGuide": "This remains available after the Elk/Poco story segment."
+  },
+  {
+    "simpleJp": "ラウス平野で邪竜ギアを討伐する",
+    "jpGuide1": "邪竜ギア　ラウス平野　ドラゴンクロー落",
+    "jpGuide2": "邪竜ギア　キメラ研究所本部攻略後～",
+    "enGuide": "Clear the late Palencia-region dragon bounty."
+  },
+  {
+    "simpleJp": "フェルス高原でバルグリを討伐する",
+    "jpGuide1": "バルグリ　フェルス高原",
+    "jpGuide2": "バルグリ　フォーレス",
+    "enGuide": "Sweep the Fores wanted list."
+  },
+  {
+    "simpleJp": "カルミオの丘でデリンガーを討伐する",
+    "jpGuide1": "デリンガー　カルミオの丘",
+    "jpGuide2": "デリンガー　フォーレス",
+    "enGuide": "Sweep the second Fores free-area target."
+  },
+  {
+    "simpleJp": "アゼンダ高地でガウクロウを討伐する",
+    "jpGuide1": "ガウクロウ　アゼンダ高地",
+    "jpGuide2": "ガウクロウ　アゼンダ高地",
+    "enGuide": "Clear this Fores-posting target before world access closes."
+  },
+  {
+    "simpleJp": "無人の館でドラロシュを討伐する",
+    "jpGuide1": "ドラロシュ　無人の館",
+    "jpGuide2": "ドラロシュ　無人の館",
+    "enGuide": "Return to the Crenia mansion for the remaining Scrap Town bounty."
+  },
+  {
+    "simpleJp": "グレイシーヌFBAでキドウを討伐する",
+    "jpGuide1": "キドウ　グレイシーヌFBA",
+    "jpGuide2": "キドウ　ノヤム原野・アナン台地・ルタール平野",
+    "enGuide": "Check the posting first; Kido and Bishamon do not appear together, so make separate encounters."
+  },
+  {
+    "simpleJp": "グレイシーヌFBAでビシャモンを討伐する",
+    "jpGuide1": "ビシャモン　グレイシーヌFBA　旋風落",
+    "jpGuide2": "ビシャモン　ノヤム原野・アナン台地・ルタール平野",
+    "enGuide": "After Kido is cleared, revisit a Greycine FBA for Bishamon."
+  },
+  {
+    "simpleJp": "ミスロ闘技場控え室で怪しい人物に10回話してジグムントを討伐する",
+    "jpGuide1": "ジグムント　ミスロ闘技場",
+    "jpGuide2": "ジグムント　ニーデル闘技場控え室",
+    "enGuide": "The disguise breaks after repeated questioning; confirm the wanted posting first."
+  },
+  {
+    "simpleJp": "遺跡ダンジョンB1でクェーガーを討伐する",
+    "jpGuide1": "クェーガー　遺跡ダンジョンB1　スティクス落",
+    "jpGuide2": "クェーガー　遺跡ダンジョン1F",
+    "enGuide": "This target appears probabilistically on the first Ruins Dungeon floor; repeat if needed."
+  },
+  {
+    "simpleJp": "イシュマの岩場でタスマンを討伐する",
+    "jpGuide1": "タスマン　アリバーシャFBA",
+    "jpGuide2": "タスマン　イシュマの岩場",
+    "enGuide": "Clear one of the remaining Alibarsha bounties."
+  },
+  {
+    "simpleJp": "サラ砂漠でシュヴァイデルを討伐する",
+    "jpGuide1": "シュヴァイデル　アリバーシャFBA　メタルパッド落",
+    "jpGuide2": "シュヴァイデル　サラ砂漠",
+    "enGuide": "Clear the other regular Alibarsha FBA target. Maios is deferred to the sealed-ruin chain later."
+  },
+  {
+    "simpleJp": "未清算の期限付きギルド仕事をここで一括確認する",
+    "jpGuide1": "全てのギルド仕事は大成功させる。",
+    "jpGuide2": "紋次編が急展開を迎えると…殆どの仕事ができなくなる",
+    "enGuide": "Use this as a conservative audit point before the Monji/Palencia sequence. Set B records a broad job lockout once that arc accelerates."
+  }
+]

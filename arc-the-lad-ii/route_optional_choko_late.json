@@ -1,0 +1,14 @@
+[
+  {
+    "simpleJp": "北・南の塔クリア後、時の森から廃墟のトココへ行く",
+    "jpGuide1": "北極・南極をクリアするぐらいまでストーリーを進めると、村に帰ることができる。",
+    "jpGuide2": "アンデルを倒してから再び村へ行く。",
+    "enGuide": "Return to Tokoko after the polar-tower/Andel sequence; the village is now ruined."
+  },
+  {
+    "simpleJp": "廃墟のトココのイベントと戦闘を最後まで終える",
+    "jpGuide1": "ちょこの家から出ると、イベント後にコープスと戦闘",
+    "jpGuide2": "イベントと戦闘をクリアしたら",
+    "enGuide": "Complete the ruined-village event and Corpse battle. Set A then moves the party automatically to the Crenia inn; converted files can continue into the awakening route."
+  }
+]

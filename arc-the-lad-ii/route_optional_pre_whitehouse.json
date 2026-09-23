@@ -1,0 +1,74 @@
+[
+  {
+    "simpleJp": "G#04「地下から怪しげな歌声が…」を完了する",
+    "jpGuide1": "地下から怪しげな歌声が…",
+    "jpGuide2": "G#04　地下から怪しげな歌声が…",
+    "enGuide": "Complete this now as part of the conservative pre-White-House sweep."
+  },
+  {
+    "simpleJp": "G#05「廃屋の人形師」を完了する",
+    "jpGuide1": "廃屋の人形師",
+    "jpGuide2": "G#05　廃屋の人形師",
+    "enGuide": "Continue directly with G#05 in the same sweep."
+  },
+  {
+    "simpleJp": "G#06「廃墟の謎の集団」を完了する",
+    "jpGuide1": "廃墟の謎の集団",
+    "jpGuide2": "G#06　廃墟の謎の集団",
+    "enGuide": "Continue directly with G#06; this also preserves the result used by later completion routing."
+  },
+  {
+    "simpleJp": "G#08「無人の酒場で毎夜ピアノの音が…」を完了する",
+    "jpGuide1": "無人の酒場で毎夜ピアノの音が…",
+    "jpGuide2": "G#08　無人の酒場で毎夜ピアノの音が…",
+    "enGuide": "Do this now in the same pre-White-House sweep."
+  },
+  {
+    "simpleJp": "G#11「インディゴウィスキー運び」を完了する",
+    "jpGuide1": "インディゴウイスキー運び",
+    "jpGuide2": "G#11　インディゴウィスキー運び",
+    "enGuide": "Complete this in the current sweep before resuming the main route."
+  },
+  {
+    "simpleJp": "G#12「迷子の子供捜し」を完了する",
+    "jpGuide1": "迷子の子供捜し",
+    "jpGuide2": "G#12　迷子の子供捜し",
+    "enGuide": "Complete this in the current sweep before resuming the main route."
+  },
+  {
+    "simpleJp": "G#14「空き屋敷のモンスター退治」を完了する",
+    "jpGuide1": "空き屋敷のモンスター退治",
+    "jpGuide2": "G#14　空き屋敷のモンスター退治",
+    "enGuide": "Start the three-job Prodius sequence here."
+  },
+  {
+    "simpleJp": "G#15「大泥棒から財産を守って欲しい」を完了する",
+    "jpGuide1": "大泥棒から財産を守ってほしい",
+    "jpGuide2": "G#15　大泥棒から財産を守って欲しい",
+    "enGuide": "Continue the Prodius sequence immediately."
+  },
+  {
+    "simpleJp": "G#16「リベンジ・オブ・ザ・女泥棒」を完了する",
+    "jpGuide1": "リベンジ・オブ・ザ・女泥棒",
+    "jpGuide2": "G#16　リベンジ・オブ・ザ・女泥棒",
+    "enGuide": "Finish the Prodius sequence now; the Empty House becomes useful afterward."
+  },
+  {
+    "simpleJp": "空き家でティアヌスから「うににゃんそーど」を盗んで討伐する",
+    "jpGuide1": "ティアヌス　2025　3　空き家　うににゃんそーど盗（初回遭遇時のみ）",
+    "jpGuide2": "うににゃんそーど　ティアヌスから盗む",
+    "enGuide": "Bring Shu and steal on the first encounter. Do not enter this encounter without him."
+  },
+  {
+    "simpleJp": "ヤゴス島遺跡B1Fでメナンを討伐する",
+    "jpGuide1": "メナン　1125　2　ヤゴス島遺跡B1",
+    "jpGuide2": "メナン　グレーターマミィ　ヤゴス島封印の遺跡Ｂ１Ｆ",
+    "enGuide": "Clean up the Yagos bounty while free travel is available."
+  },
+  {
+    "simpleJp": "帰らずの森のバルザックはまだ倒さない",
+    "jpGuide1": "バルザックを先に倒すとグロヴィスの「フェイト」は入手できない",
+    "jpGuide2": "バルザック撃破済みだとグロヴィスの「フェイト」は入手不可",
+    "enGuide": "Postpone Balzac until after the later Grovis/Fate opportunity; Returnless Forest remains available afterward."
+  }
+]

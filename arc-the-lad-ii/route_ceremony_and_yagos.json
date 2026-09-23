@@ -1,0 +1,44 @@
+[
+  {
+    "simpleJp": "酒場の夜イベントを終える",
+    "jpGuide1": "1500G稼いだら酒場へ行ってマスターに話し掛ける。",
+    "jpGuide2": "酒場のマスターに話す→アパートへ移動→酒場へ移動",
+    "enGuide": "Earn the required money and finish the closed-bar night event."
+  },
+  {
+    "simpleJp": "プロディアスへ行く",
+    "jpGuide1": "ひとまずプロディアスへ行く。",
+    "jpGuide2": "プロディアス",
+    "enGuide": "Return to Prodius after the night event."
+  },
+  {
+    "simpleJp": "ヒエン置き場でビビガから「チケット」を受け取る",
+    "jpGuide1": "改めてビビガに話し掛けて「チケット」をもらう。",
+    "jpGuide2": "ビビガに話しかけて「チケット」回収",
+    "enGuide": "Get the ceremony ticket from Bibiga at the Hien storage area."
+  },
+  {
+    "simpleJp": "式典会場へ入り、ヤゴス島へ進む",
+    "jpGuide1": "イベントでヤゴス島へ。",
+    "jpGuide2": "ヤゴス島不時着",
+    "enGuide": "Entering the ceremony permanently closes the first guild-job window."
+  },
+  {
+    "simpleJp": "ヤゴス島の封印の遺跡をB2Fまで進む",
+    "jpGuide1": "B2Fまで進めばひとまずクリア。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This is the first Ruins visit."
+  },
+  {
+    "simpleJp": "再び封印の遺跡へ入り、最深部でパワーユニットを取る",
+    "jpGuide1": "最深部でパワーユニットを入手",
+    "jpGuide2": "パワーユニット入手",
+    "enGuide": "Return from the deepest floor to B2F to finish the objective."
+  },
+  {
+    "simpleJp": "ユドの村で休み、最後の戦闘を終える",
+    "jpGuide1": "この後からリーザがラヴィッシュを修得可能になる。",
+    "jpGuide2": "ヤゴス島出発",
+    "enGuide": "After the beach/village sequence, Lieza can begin learning Ravish and the party returns to East Aldia."
+  }
+]

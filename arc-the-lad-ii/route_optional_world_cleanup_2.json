@@ -1,0 +1,74 @@
+[
+  {
+    "simpleJp": "G#31「ベリンガル笑劇場を警護して欲しい」を完了する",
+    "jpGuide1": "ベリンガル笑劇場を警護して欲しい",
+    "jpGuide2": "G#31　ベリンガル笑劇場を警護して欲しい",
+    "enGuide": "Requires the earlier G#29 result."
+  },
+  {
+    "simpleJp": "G#32「ホルンの村に食料を届けて欲しい」を完了する",
+    "jpGuide1": "ホルンの村に食料を届けて欲しい",
+    "jpGuide2": "G#32　ホルンの村に食料を届けて欲しい",
+    "enGuide": "Finish this before the Monji escalation."
+  },
+  {
+    "simpleJp": "G#52「線路の上の岩石取り除き作業」を完了して清算する",
+    "jpGuide1": "線路の上の岩石取り除き作業",
+    "jpGuide2": "G#52　線路の上の岩石取り除き作業",
+    "enGuide": "Push every rock into a hole, not merely off the track. Settling this opens G#56."
+  },
+  {
+    "simpleJp": "G#53「落とした鉱石の収拾」で鉱石20個を集めて大成功にする",
+    "jpGuide1": "落とした鉱石の収拾",
+    "jpGuide2": "大成功　4000G　8GP　鉱石を20個全て収集",
+    "enGuide": "Collect all 20 before ending the job; then settle it to open G#54."
+  },
+  {
+    "simpleJp": "G#54「病気を治す草を取ってくる」を大成功で完了して清算する",
+    "jpGuide1": "病気を治す草を取ってくる",
+    "jpGuide2": "大成功　3000G　7GP　目的の草を入手し、依頼人に渡す",
+    "enGuide": "This exact result is required for G#58."
+  },
+  {
+    "simpleJp": "G#55「ふとっちょのために肉を取ってくる」を完了する",
+    "jpGuide1": "ふとっちょのために肉を取ってくる",
+    "jpGuide2": "G#55　ふとっちょのために肉を取ってくる",
+    "enGuide": "Finish and settle it before attempting the egg chain."
+  },
+  {
+    "simpleJp": "G#56「トロッコ占領のモンスター退治」を完了する",
+    "jpGuide1": "トロッコ占領のモンスター退治",
+    "jpGuide2": "G#56　トロッコ占領のモンスター退治",
+    "enGuide": "Requires settled G#52."
+  },
+  {
+    "simpleJp": "G#57「モンスターの卵を取ってくる」を完了して清算する",
+    "jpGuide1": "モンスターの卵をとってくる",
+    "jpGuide2": "G#57　モンスターの卵を取ってくる",
+    "enGuide": "Requires G#55 plus settled G#56."
+  },
+  {
+    "simpleJp": "G#58「子供達がモンスターに！」を完了する",
+    "jpGuide1": "子供達がモンスターに！",
+    "jpGuide2": "G#54を大成功で終了＆清算していなければ攻略不可",
+    "enGuide": "Requires settled G#57 and the great-success G#54 result."
+  },
+  {
+    "simpleJp": "G#43「おじいさんを捜してください」を完了する",
+    "jpGuide1": "おじいさんを捜してください",
+    "jpGuide2": "G#43　おじいさんを捜してください",
+    "enGuide": "Begin the Misro cleanup while your levels are appropriate."
+  },
+  {
+    "simpleJp": "G#44「謎のモンスター闘技場占拠」を完了する",
+    "jpGuide1": "謎のモンスター闘技場占拠",
+    "jpGuide2": "G#44　謎のモンスター闘技場占拠",
+    "enGuide": "Finish before the Monji escalation."
+  },
+  {
+    "simpleJp": "G#45「闘技場モンスター反乱」を完了する",
+    "jpGuide1": "闘技場モンスター反乱",
+    "jpGuide2": "G#45　闘技場モンスター反乱",
+    "enGuide": "Requires G#44; clear every enemy in the arena."
+  }
+]

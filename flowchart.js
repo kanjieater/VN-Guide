@@ -117,6 +117,17 @@
       });
       addEdge(previousNodeId, node.id, step.badEndPath ? "detour" : "normal");
       previousNodeId = node.id;
+
+      // Structural rules also allow a documented ending that must be replayed
+      // from the beginning when no usable save exists. In that shape there is
+      // no isLoad marker, so treat a non-final END as terminal and start the
+      // following walkthrough pass from the route root instead of drawing an
+      // impossible END -> next-choice edge.
+      const nextStep = steps[i + 1];
+      if (kind === "end" && nextStep && nextStep.isLoad !== true) {
+        previousNodeId = start.id;
+        currentDepth = 0;
+      }
     }
 
     return { nodes, edges, maxDepth };

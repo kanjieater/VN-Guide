@@ -1,17 +1,18 @@
-# Generic Agent Entry Point
+# Agent entry point
 
-This repository supports local coding agents, browser/repository agents, connected-app agents, and other environments.
+VN Guide is maintained primarily by repository/browser agents working directly with files, web sources, pull requests, comments, and issues.
 
-Start with the committed canonical rules:
+Read these in order:
 
-- `.claude/guide-standards.md` — source requirements, guide shape, review gates, invalidation, and completion rules.
-- `.claude/agents/guide-author.md` — author/generation/correction role.
-- `.claude/agents/guide-reviewer-structural.md` — structural review role.
-- `.claude/agents/guide-reviewer.md` — Japanese-source accuracy review role.
-- `.claude/workflows/guide-review.md` — orchestration/lifecycle reference.
+1. [agents/guide-standards.md](agents/guide-standards.md) — canonical source, schema, review, invalidation, and completion rules.
+2. [agents/guide-author.md](agents/guide-author.md) — research, authoring, and correction role.
+3. [agents/authoring-contracts.md](agents/authoring-contracts.md) — concrete research/route JSON shapes and phase/output boundaries.
+4. [agents/guide-reviewer-structural.md](agents/guide-reviewer-structural.md) — independent route-flow review.
+5. [agents/guide-reviewer-accuracy.md](agents/guide-reviewer-accuracy.md) — independent Japanese-source accuracy review.
+6. [agents/guide-review.md](agents/guide-review.md) — orchestration and handoff rules.
 
-Use the capabilities available in the current environment; shell and `gh` examples are not requirements.
+Use the capabilities available in the current environment. Shell commands are conveniences, not workflow requirements.
 
-If the caller/orchestrator explicitly specifies where review state or findings must be recorded, that transport instruction takes precedence over the default direct-agent PR workflow.
+Keep author, structural-review, and accuracy-review work in separate contexts. Do not self-approve.
 
-Do not combine author and reviewer roles in one session.
+When `games.json` or shared templates change, run `bun run generate` (or make exactly equivalent deterministic updates if Bun is unavailable). The Bun repository-contract tests ensure tracked generated artifacts are synchronized.

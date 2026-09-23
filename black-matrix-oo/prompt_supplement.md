@@ -2,7 +2,7 @@
 
 **NON-VN LINEAR WALKTHROUGH**
 
-This title is an ordinary SRPG, not a visual novel. Apply the explicitly scoped non-VN linear-walkthrough rules in `.claude/guide-standards.md`. Do not change the repository schema.
+This title is an ordinary SRPG, not a visual novel. Apply the explicitly scoped non-VN linear-walkthrough rules in `agents/guide-standards.md`. Do not change the repository schema.
 
 ## Structure
 

@@ -1,0 +1,16 @@
+{
+  "name": "vn-guide",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.2",
+  "scripts": {
+    "generate": "bun -e 'import { main } from \"./tools/generate-cli.mjs\"; process.exitCode = await main([])'",
+    "generate:check": "bun -e 'import { main } from \"./tools/generate-cli.mjs\"; process.exitCode = await main([\"--check\"])'",
+    "test": "bun test --parallel --concurrent --max-concurrency=20",
+    "test:coverage": "bun test --coverage --parallel --concurrent --max-concurrency=20",
+    "coverage:diff": "bun tools/check-diff-coverage.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

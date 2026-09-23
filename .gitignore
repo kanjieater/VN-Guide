@@ -1,8 +1,5 @@
-__pycache__/
-*.py[cod]
+node_modules/
+coverage/
 image.png
-prompt.md
-*_session.txt
 .env
 .env.*
-!.env.example

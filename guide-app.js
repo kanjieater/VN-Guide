@@ -1024,6 +1024,24 @@ document.addEventListener("visibilitychange", () => {
   }
 });
 
+// Explicitly publish the browser handlers that the HTML shell calls. In a
+// classic script these function declarations are globals already; making the
+// contract explicit also lets the same production file run as a module in tests.
+Object.assign(window, {
+  startRoute,
+  nextStep,
+  prevStep,
+  goHome,
+  showJump,
+  jumpTo,
+  resumeSlide,
+  showSettings,
+  toggleSetting,
+  toggleDetails,
+  showFlowchart,
+  jumpFromFlowchart,
+});
+
 mountAppShell();
 scheduleViewportSync();
 init();

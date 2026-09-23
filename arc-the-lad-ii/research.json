@@ -61,7 +61,8 @@
     "Palencia Tower 77F is optional but contains unique/rare treasure accessed by repeatedly toggling the 99F elevator switch.",
     "To obtain both the unique Fate and the full bounty clear, postpone Balzac until after Grovis: Returnless Forest remains available as an FBA after White House, while Grovis appears only during the timed Sea Oil Field escape. Steal Fate from Grovis with Shu first; then return to Returnless Forest and hunt Balzac.",
     "Conversion chronology correction: the Secret Research Lab event belongs before the ceremony/Yagos transition, while the Ark-versus-Andel conversion event occurs after White House. They must be separate sections.",
-    "The Shu/Tosh story section is split at Tosh recruitment so G#24-26, especially short-window G#26, are completed before tunnel/hideout progression can invalidate the job."
+    "The Shu/Tosh story section is split at Tosh recruitment so G#24-26, especially short-window G#26, are completed before tunnel/hideout progression can invalidate the job.",
+    "Amigue is split at the elder's tower permission: G#39-42 are authored before God's Tower, because G#42 expires when the Amigue arc ends."
   ],
   "route_plan": [
     {
@@ -169,12 +170,16 @@
       "title": "【任意】ミルマーナ後：仕事・海底油田手配"
     },
     {
-      "id": "amigue",
-      "title": "アミーグ"
+      "id": "amigue_to_permission",
+      "title": "アミーグ：神の塔許可まで"
     },
     {
       "id": "optional_amigue_guild",
       "title": "【任意】神の塔前：アミーグ期限付き仕事"
+    },
+    {
+      "id": "amigue_gods_tower",
+      "title": "アミーグ：神の塔"
     },
     {
       "id": "barbarad",
@@ -305,5 +310,5 @@
       "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
     }
   ],
-  "generated_at": "2026-09-23T04:20:00+00:00"
+  "generated_at": "2026-09-23T04:38:00+00:00"
 }

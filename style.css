@@ -689,6 +689,15 @@ button#toggle-details {
   font-weight: 700;
 }
 
+.flow-node-neutral .flow-node-shape {
+  opacity: 0.78;
+  stroke-dasharray: 4 3;
+}
+
+.flow-node-neutral .flow-node-text {
+  fill: #aaa;
+}
+
 .flow-node-unseen .flow-node-shape {
   opacity: 0.55;
 }

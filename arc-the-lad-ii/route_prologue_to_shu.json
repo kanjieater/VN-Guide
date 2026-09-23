@@ -1,0 +1,44 @@
+[
+  {
+    "simpleJp": "プロディアスのハンターズギルドへ行く",
+    "jpGuide1": "すぐにハンターズギルドへ。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Start at Elk's house, then report to the guild before leaving Prodius."
+  },
+  {
+    "simpleJp": "アルディア空港でアルフレッドを倒す",
+    "jpGuide1": "アルフレッドと戦闘。",
+    "jpGuide2": "アルフレッド撃破",
+    "enGuide": "Clear the opening airport fight."
+  },
+  {
+    "simpleJp": "人質に話して「しっぷうのバンダナ」を受け取る",
+    "jpGuide1": "「しっぷうのバンダナ」をもらえる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Talk to the rescued hostage after the fight; this is an easy one-time pickup."
+  },
+  {
+    "simpleJp": "リーザとパンディットを加えて追跡する",
+    "jpGuide1": "リーザとパンディットが仲間に。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Continue the pursuit through the remaining airport sequence."
+  },
+  {
+    "simpleJp": "インディゴスでギルド→酒場→廃墟の町へ進む",
+    "jpGuide1": "まずはギルドで話を聞き、その後酒場へ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Follow the leads to the ruined town."
+  },
+  {
+    "simpleJp": "リーランド戦を終えてシュウの家へ戻る",
+    "jpGuide1": "リーランドと戦闘。瀕死にすれば勝ち。",
+    "jpGuide2": "路地裏終了",
+    "enGuide": "Complete the early ruined-town/Indigos sequence and return to Shu's apartment."
+  },
+  {
+    "simpleJp": "シュウを仲間にして一泊する",
+    "jpGuide1": "シュウの家に戻るとシュウが仲間になる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Sleeping once after Shu joins opens the first batch of guild jobs. Do those before advancing the ceremony."
+  }
+]

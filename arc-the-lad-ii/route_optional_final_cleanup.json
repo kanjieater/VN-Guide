@@ -32,14 +32,14 @@
   {
     "simpleJp": "封印の遺跡をグレイシーヌ→アララトス→ブラキア→アミーグ→バルバラードの順に攻略する",
     "jpGuide1": "前の遺跡のパワーユニットを入手していないと、次の遺跡には入れない",
-    "jpGuide2": "アミーグ→バルバラード→アリバーシャという順",
-    "enGuide": "Collect both power units in each ruin so the next country unlocks. If you already did part of this chain, resume from the first unopened ruin."
+    "jpGuide2": "グレイシーヌ→アララトス→ブラキア→アミーグ→バルバラード→アリバーシャ",
+    "enGuide": "Collect both power units in each ruin and continue through the countries in this order; each stage opens the next sealed-ruin continuation."
   },
   {
     "simpleJp": "バルバラード封印の遺跡B4Fで「風の剣」を取る",
     "jpGuide1": "風の剣",
-    "jpGuide2": "バルバラード封印の遺跡B4Fの宝箱",
-    "enGuide": "Required for the normal-game Light Sword synthesis."
+    "jpGuide2": "地の剣+氷の剣＋炎の剣＋風の剣",
+    "enGuide": "Take the Wind Sword here; it is one of the four ingredients for Light Sword."
   },
   {
     "simpleJp": "アリバーシャ封印の遺跡を開放し、B2Fでマイオスを討伐する",

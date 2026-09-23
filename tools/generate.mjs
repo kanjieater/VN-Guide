@@ -14,18 +14,8 @@ export function landingGames(games) {
   }));
 }
 
-function inlineJson(value) {
-  if (Array.isArray(value)) return `[${value.map(inlineJson).join(", ")}]`;
-  if (value && typeof value === "object") {
-    return `{${Object.entries(value)
-      .map(([key, item]) => `${JSON.stringify(key)}: ${inlineJson(item)}`)
-      .join(", ")}}`;
-  }
-  return JSON.stringify(value);
-}
-
 export function renderLanding(template, games) {
-  return template.replace("/* GAMES_DATA */", inlineJson(landingGames(games)));
+  return template.replace("/* GAMES_DATA */", JSON.stringify(landingGames(games)));
 }
 
 export function buildManifest(title) {

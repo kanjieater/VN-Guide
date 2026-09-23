@@ -54,7 +54,7 @@ class SharedGuideUiTests(unittest.TestCase):
         flowchart = (ROOT / "flowchart.js").read_text(encoding="utf-8")
         self.assertIn("function createZoomGroup(container)", flowchart)
         self.assertIn("const zoomGroup = createZoomGroup(container);", flowchart)
-        self.assertIn("renderRoute(route, onNavigate, progressState, zoomGroup)", flowchart)
+        self.assertIn("renderRoute(route, index, onNavigate, progressState, zoomGroup)", flowchart)
         self.assertIn("zoomGroup.zoomBy(factor, zoomController, event.clientX)", flowchart)
 
     def test_flowchart_vertical_scroll_is_not_trapped_by_horizontal_canvas(self):

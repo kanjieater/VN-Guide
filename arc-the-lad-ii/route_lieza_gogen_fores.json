@@ -8,13 +8,13 @@
   {
     "simpleJp": "ホルンの岩を調べてラムールへ行く",
     "jpGuide1": "岩を調べてからラムールへ。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "戦闘後、大岩を調べてホルンを出る",
     "enGuide": "This opens the next story trigger."
   },
   {
     "simpleJp": "ラムールで5人以上に話してゴーゲンを仲間にする",
     "jpGuide1": "5人以上に話した後、外に出ようとするとイベント発生。ゴーゲンが仲間に。",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "NPC5人に話しかけ、街から出ようとするとイベント発生",
     "enGuide": "Recruit Gogen, then return to Horn."
   },
   {

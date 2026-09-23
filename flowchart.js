@@ -337,6 +337,10 @@
     requestAnimationFrame(fitToWidth);
     if (window.ResizeObserver) {
       const resizeObserver = new ResizeObserver(() => {
+        if (!scroller.isConnected) {
+          resizeObserver.disconnect();
+          return;
+        }
         if (fitMode) fitToWidth();
       });
       resizeObserver.observe(scroller);

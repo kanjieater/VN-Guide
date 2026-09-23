@@ -18,6 +18,7 @@ test("agent docs contain no provider-specific model references", async () => {
     "README.md",
     "agents/guide-standards.md",
     "agents/guide-author.md",
+    "agents/authoring-contracts.md",
     "agents/guide-reviewer-structural.md",
     "agents/guide-reviewer-accuracy.md",
     "agents/guide-review.md",

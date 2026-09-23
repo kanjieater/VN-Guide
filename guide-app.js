@@ -66,7 +66,7 @@ function mountAppShell() {
 
     <div id="view-settings" class="view">
       <div class="view-header">
-        <button onclick="goHome()">◀ 戻る</button>
+        <button onclick="closeSettings()">◀ 戻る</button>
         <h3>設定</h3>
         <div style="width:50px"></div>
       </div>
@@ -98,6 +98,137 @@ function loadSettings() {
 function saveSettings() {
   try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)); } catch {}
 }
+
+
+// ── Browser navigation ─────────────────────────────────────────────────────────
+const NAV_STATE_KEY = "vng";
+
+function baseGuideUrl() {
+  return location.pathname + location.search;
+}
+
+function navigationUrl(nav) {
+  if (!nav || nav.view === "home") return baseGuideUrl();
+
+  const params = new URLSearchParams();
+  params.set("view", nav.view);
+  if (nav.routeId) params.set("route", nav.routeId);
+  if (Number.isInteger(nav.step)) params.set("step", String(nav.step));
+  if (nav.fromRouteId) params.set("from", nav.fromRouteId);
+  if (nav.toRouteId) params.set("to", nav.toRouteId);
+  if (nav.origin) params.set("origin", nav.origin);
+  return baseGuideUrl() + "#" + params.toString();
+}
+
+function navigationFromLocation() {
+  if (!location.hash) return { view: "home" };
+  const params = new URLSearchParams(location.hash.slice(1));
+  const view = params.get("view") || "home";
+  const stepValue = Number.parseInt(params.get("step") || "", 10);
+  return {
+    view,
+    routeId: params.get("route") || null,
+    step: Number.isInteger(stepValue) ? stepValue : null,
+    fromRouteId: params.get("from") || null,
+    toRouteId: params.get("to") || null,
+    origin: params.get("origin") || null,
+  };
+}
+
+function writeNavigation(nav, mode = "push") {
+  const payload = { [NAV_STATE_KEY]: true, ...nav };
+  const url = navigationUrl(nav);
+  if (mode === "replace") history.replaceState(payload, "", url);
+  else history.pushState(payload, "", url);
+}
+
+function currentNavigation() {
+  return history.state && history.state[NAV_STATE_KEY]
+    ? history.state
+    : navigationFromLocation();
+}
+
+async function ensureRouteLoaded(id) {
+  const route = guideData.routes.find(r => r.id === id);
+  if (!route) return null;
+  if (!route.steps) {
+    try {
+      const v = guideData.generated_at ? encodeURIComponent(guideData.generated_at) : Date.now();
+      const res = await fetch(`./route_${id}.json?v=${v}`);
+      if (!res.ok) return null;
+      route.steps = await res.json();
+    } catch {
+      return null;
+    }
+  }
+  return route;
+}
+
+async function applyNavigation(nav) {
+  const view = nav && nav.view ? nav.view : "home";
+
+  if (view === "home") {
+    pendingNextRoute = null;
+    transitionFromRoute = null;
+    state.currentRoute = null;
+    saveState();
+    renderHome();
+    return;
+  }
+
+  if (view === "route" && nav.routeId) {
+    const route = await ensureRouteLoaded(nav.routeId);
+    if (!route || !route.steps || !route.steps.length) {
+      renderHome();
+      return;
+    }
+    state.currentRoute = route.id;
+    const requestedStep = Number.isInteger(nav.step) ? nav.step : (state.progress[route.id] || 0);
+    state.progress[route.id] = Math.max(0, Math.min(requestedStep, route.steps.length - 1));
+    saveState();
+    renderSlide();
+    return;
+  }
+
+  if (view === "transition" && nav.fromRouteId && nav.toRouteId) {
+    const fromRoute = guideData.routes.find(r => r.id === nav.fromRouteId);
+    const toRoute = guideData.routes.find(r => r.id === nav.toRouteId);
+    if (!fromRoute || !toRoute) {
+      renderHome();
+      return;
+    }
+    state.currentRoute = fromRoute.id;
+    saveState();
+    renderRouteTransition(toRoute, fromRoute, nav.origin || "forward");
+    return;
+  }
+
+  if (view === "jump" && nav.routeId) {
+    const route = await ensureRouteLoaded(nav.routeId);
+    if (!route) {
+      renderHome();
+      return;
+    }
+    state.currentRoute = route.id;
+    saveState();
+    renderJump();
+    return;
+  }
+
+  if (view === "settings") {
+    renderSettings();
+    return;
+  }
+
+  renderHome();
+}
+
+window.addEventListener("popstate", event => {
+  const nav = event.state && event.state[NAV_STATE_KEY]
+    ? event.state
+    : navigationFromLocation();
+  applyNavigation(nav);
+});
 
 
 // ── Viewport sizing ───────────────────────────────────────────────────────────
@@ -139,6 +270,8 @@ function showView(id) {
 async function init() {
   loadSettings();
   loadState();
+  const requestedNavigation = navigationFromLocation();
+
   try {
     const res = await fetch("./guide.json?v=" + Date.now());
     if (res.ok) {
@@ -146,7 +279,16 @@ async function init() {
       if (guideData.title) document.title = guideData.title + " ガイド";
     }
   } catch {}
+
+  // Make the game home the stable parent entry for every in-guide screen.
+  writeNavigation({ view: "home" }, "replace");
   renderHome();
+
+  if (requestedNavigation.view !== "home") {
+    writeNavigation(requestedNavigation, "push");
+    await applyNavigation(requestedNavigation);
+  }
+
   requestWakeLock();
 }
 
@@ -224,28 +366,32 @@ function renderHome() {
   showView("view-home");
 }
 
-async function startRoute(id) {
-  const route = guideData.routes.find(r => r.id === id);
-  if (route && !route.steps) {
-    try {
-      const v = guideData.generated_at ? encodeURIComponent(guideData.generated_at) : Date.now();
-      const res = await fetch(`./route_${id}.json?v=${v}`);
-      if (res.ok) {
-        route.steps = await res.json();
-      } else {
-        const statusEl = document.getElementById("home-status");
-        statusEl.textContent = `${route ? route.title : id} のガイドは生成中です…`;
-        statusEl.style.display = "";
-        showView("view-home");
-        return;
-      }
-    } catch { renderHome(); return; }
+async function startRoute(id, options = {}) {
+  const route = await ensureRouteLoaded(id);
+  if (!route || !route.steps || !route.steps.length) {
+    const statusEl = document.getElementById("home-status");
+    statusEl.textContent = `${route ? route.title : id} のガイドは生成中です…`;
+    statusEl.style.display = "";
+    showView("view-home");
+    return;
   }
-  // Only update state after route loads successfully
+
   state.currentRoute = id;
   if (!(id in state.progress)) state.progress[id] = 0;
+  if (Number.isInteger(options.step)) {
+    state.progress[id] = Math.max(0, Math.min(options.step, route.steps.length - 1));
+  }
   saveState();
   renderSlide();
+
+  if (options.historyMode !== "none") {
+    writeNavigation({
+      view: "route",
+      routeId: id,
+      step: state.progress[id],
+      fromView: options.fromView || currentNavigation().view || "home",
+    }, options.historyMode || "push");
+  }
 }
 
 // ── Slide ─────────────────────────────────────────────────────────────────────
@@ -288,7 +434,7 @@ function overallProgressPercent() {
   return maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
 }
 
-function renderRouteTransition(route, fromRoute = currentRoute()) {
+function renderRouteTransition(route, fromRoute = currentRoute(), origin = "forward") {
   pendingNextRoute = route;
   transitionFromRoute = fromRoute;
 
@@ -382,7 +528,7 @@ async function nextStep() {
   if (pendingNextRoute) {
     const route = pendingNextRoute;
     pendingNextRoute = null;
-    await startRoute(route.id);
+    await startRoute(route.id, { fromView: "transition" });
     return;
   }
 
@@ -393,21 +539,40 @@ async function nextStep() {
     state.progress[route.id] = idx + 1;
     saveState();
     renderSlide();
+    writeNavigation({
+      view: "route",
+      routeId: route.id,
+      step: state.progress[route.id],
+    }, "replace");
     return;
   }
 
   const followingRoute = nextRoute();
-  if (followingRoute) renderRouteTransition(followingRoute);
+  if (followingRoute) {
+    renderRouteTransition(followingRoute, route, "forward");
+    writeNavigation({
+      view: "transition",
+      fromRouteId: route.id,
+      toRouteId: followingRoute.id,
+      origin: "forward",
+    });
+  }
 }
 
 async function prevStep() {
   if (pendingNextRoute) {
+    const nav = currentNavigation();
     const fromRoute = transitionFromRoute;
+
+    if (nav.view === "transition" && nav.origin === "forward") {
+      history.back();
+      return;
+    }
+
     pendingNextRoute = null;
     transitionFromRoute = null;
-
-    if (fromRoute && fromRoute.id !== state.currentRoute) {
-      await startRoute(fromRoute.id);
+    if (fromRoute) {
+      await startRoute(fromRoute.id, { fromView: "transition" });
     } else {
       renderSlide();
     }
@@ -421,12 +586,27 @@ async function prevStep() {
     state.progress[route.id] = idx - 1;
     saveState();
     renderSlide();
+    writeNavigation({
+      view: "route",
+      routeId: route.id,
+      step: state.progress[route.id],
+    }, "replace");
     return;
   }
 
   const priorRoute = previousRoute();
   if (priorRoute) {
-    renderRouteTransition(route, priorRoute);
+    if (currentNavigation().fromView === "transition") {
+      history.back();
+      return;
+    }
+    renderRouteTransition(route, priorRoute, "backward");
+    writeNavigation({
+      view: "transition",
+      fromRouteId: priorRoute.id,
+      toRouteId: route.id,
+      origin: "backward",
+    });
   }
 }
 
@@ -442,10 +622,11 @@ function goHome() {
   state.currentRoute = null;
   saveState();
   renderHome();
+  writeNavigation({ view: "home" });
 }
 
 // ── Jump list ─────────────────────────────────────────────────────────────────
-function showJump() {
+function renderJump() {
   const route = currentRoute();
   if (!route || !route.steps) return;
   document.getElementById("jump-route-title").textContent = route.title;
@@ -466,23 +647,47 @@ function showJump() {
   showView("view-jump");
 }
 
+function showJump() {
+  const route = currentRoute();
+  if (!route || !route.steps) return;
+  renderJump();
+  writeNavigation({ view: "jump", routeId: route.id });
+}
+
 function jumpTo(idx) {
   const route = currentRoute();
   if (!route) return;
   state.progress[route.id] = idx;
   saveState();
   renderSlide();
+  writeNavigation({
+    view: "route",
+    routeId: route.id,
+    step: idx,
+    fromView: "jump",
+  });
 }
 
-function resumeSlide() { renderSlide(); }
+function resumeSlide() {
+  history.back();
+}
 
 // ── Settings ──────────────────────────────────────────────────────────────────
-function showSettings() {
+function renderSettings() {
   for (const [k, v] of Object.entries(settings)) {
     const el = document.getElementById(`toggle-${k}`);
     if (el) el.classList.toggle("on", !!v);
   }
   showView("view-settings");
+}
+
+function showSettings() {
+  renderSettings();
+  writeNavigation({ view: "settings" });
+}
+
+function closeSettings() {
+  history.back();
 }
 
 function toggleSetting(key) {

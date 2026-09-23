@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "エルクの夢で「炎の剣」を入手するまで粘る",
+    "jpGuide1": "「光の剣」の材料になる「炎の剣」",
+    "jpGuide2": "本編ではエルクの夢での戦闘一回きりしか獲得チャンスがない",
+    "enGuide": "This is the normal-game one-time chance for the Flame Sword, later used to synthesize the Light Sword. Retry the dream battle if needed."
+  },
+  {
+    "simpleJp": "パレンシア城跡を地下バイオ研究所まで進む",
+    "jpGuide1": "ポコが仲間に。",
+    "jpGuide2": "パレンシア城地下脱出",
+    "enGuide": "Poco joins during the castle-ruins sequence; use the Leaf Orb after the underground event."
+  },
+  {
+    "simpleJp": "パレンシア到着直後の露店を確認する",
+    "jpGuide1": "ここに来た時点のみ、「ローブ」などを売っている露店が開店。",
+    "jpGuide2": "エルク・ポコ編中で酒場から出入りすることで開店する",
+    "enGuide": "This shop is temporary. Buy anything you want now before changing maps."
+  },
+  {
+    "simpleJp": "パレンシアタワー地下を突破する",
+    "jpGuide1": "右下のほうから地下へ。扉をスイッチで開きながら進む。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Progress through the underground tower and finish Elk/Poco's segment."
+  }
+]

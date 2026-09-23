@@ -91,7 +91,7 @@ async function bootApp({
   window.clearTimeout = () => {};
 
   const fetchCalls = [];
-  window.fetch = async inpu() => {
+  window.fetch = async input => {
     const url = String(input);
     fetchCalls.push(url);
 

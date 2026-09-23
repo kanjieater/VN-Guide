@@ -47,19 +47,31 @@ The unresolved research task is therefore **Japanese corroboration, not gameplay
 
 **Approved by the repository owner on 2026-09-22. This exception is title-scoped to BLACK/MATRIX OO and must not be generalized to other guides.**
 
-The research gate may proceed without further video/archive recovery for exactly four residual bonus-scenario evidence gaps: BS2/3, grouped BS5/6, BS10, and the remaining BS14 prerequisite/trigger chain.
+The owner explicitly approved moving forward with the Japanese and Chinese sources already recovered instead of continuing indefinite archive/video recovery, and explicitly approved rendering Chinese-source operational material as concise natural English in `enGuide`. For this title, that approval applies to the remaining documented single-lane gaps in the authored 100% route, not only the original four bonus-trigger gaps.
 
-For those four gaps only:
+The normal two-independent-Japanese-source rule still governs facts that have two usable Japanese lanes. Where the research records a residual gap and the owner exception is invoked, use the strongest available combination of:
 
-- retain the already verified Japanese Set-A chronology and all directly inspected Japanese Set-B evidence;
-- permit the directly inspected Japanese TSST bonus memo as derivative corroboration;
-- permit the directly inspected original Chinese FFSKY walkthrough to supply operational trigger/action detail and practical hints. **Render those facts as concise natural English in `enGuide`; `enGuide` is a translation/summary field and does not need to match the Chinese source wording.**
-- where TSST is incomplete but FFSKY is explicit, use FFSKY's fuller operational sequence while documenting that provenance;
-- specifically, BS6 includes the young Cipher Punk member in addition to the woman/man, and BS10 includes the waitress after シリア;
-- BS14's セングラー requirement remains backed by direct Japanese Set-B evidence; the exception covers only BS4+BS7+BS10 and 雑記帳「カイン様」→ウェイター;
-- never copy Chinese text into `jpGuide1` or `jpGuide2`. Use Japanese source text where available and the normal omission placeholder when the exception leaves one Japanese source field undocumented.
+- Set A contemporary Japanese diary for chronology, observed outcomes, and directly recorded choices;
+- directly inspectable or previously directly inspected Japanese Set-B material (FC2, CRADLE, Wazap/5ch, ending sources);
+- derivative Japanese TSST only as corroboration, never as an independent Set-B source;
+- original Chinese FFSKY for exact operational trigger, reward, or battle-condition detail, translated into concise natural English in `enGuide`.
 
-This owner-approved exception closes the research gate for BLACK/MATRIX OO. Do not resume generic mirror hunting or require gameplay-video verification before authoring. This approval also permits FFSKY to supply concise English `enGuide` wording for residual low-level operational details (for example the chapter-6 optional branch/reward conditions) when the Japanese chronology/section placement is already established. This does not turn FFSKY into a Japanese verification set: keep `jpGuide1`/`jpGuide2` Japanese-only, using directly inspected Japanese text or the normal omission placeholder.
+The approved exception specifically includes the currently identified residual facts needed by the authored route:
+
+- BS2/3 trigger/timing;
+- grouped BS5/6 triggers;
+- BS10 trigger/timing;
+- BS14 prerequisite/trigger chain;
+- the chapter-6 optional branch/reward conditions;
+- BS11's full two-choice sequence where Set A directly establishes `頑張る` for the Yohane/Dana path and TSST/FFSKY establish the later `もうちょっと` transition into ダーナの試練;
+- the six literal NG+ answers leading to `それぞれの明日`, accepted from the existing Japanese ending lane together with Set A's observed best-ending run/outcome even though Set A does not print all six literals;
+- the listed one-time/unique reward conditions used by the 100% route when the Japanese chronology/battle context is established but the exact reward trigger survives only in FFSKY: `過酷な抱擁` / `募る思いの告白` at 4-2, `破滅の降罪` at 5-1, `盟約の協定` at 5-3, `ファニーナイフ` in chapter 8, `火霊のピアス` after 8-3, and the 10-2 `拷責の神音` / `覇道を叫ぶ雷光` / `神をも滅する剱` rewards.
+
+Do not fabricate Japanese source support to make an exception look like a normal two-set pass. When one Japanese lane does not contain the literal/action, keep the normal omission placeholder in that `jpGuide` field. Chinese text must never be copied into `jpGuide1` or `jpGuide2`.
+
+For BS11, preserve both choices in order: `頑張る` first to remain on the Yohane/Dana sequence, then the later `もうちょっと` choice immediately before ダーナの試練.
+
+This exception closes the BLACK/MATRIX OO research gate and supersedes narrower earlier wording that limited the owner exception to four bonus-scenario gaps. Do not resume generic mirror hunting or require gameplay-video verification before authoring/review.
 
 ## Supplemental English-reference lane
 

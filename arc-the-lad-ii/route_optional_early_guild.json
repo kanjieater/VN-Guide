@@ -1,0 +1,44 @@
+[
+  {
+    "simpleJp": "G#01「インディゴス下水道調べ」を完了する",
+    "jpGuide1": "インディゴス下水道調べ",
+    "jpGuide2": "G#01　インディゴス下水道調べ",
+    "enGuide": "Complete this first; G#07 depends on it and G#01 expires when the ceremony begins."
+  },
+  {
+    "simpleJp": "G#02「廃墟の幽霊屋敷」を完了する",
+    "jpGuide1": "廃墟の幽霊屋敷",
+    "jpGuide2": "G#02　廃墟の幽霊屋敷",
+    "enGuide": "This also expires when the ceremony begins."
+  },
+  {
+    "simpleJp": "ドクスンの手配書を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "＋ドクスン確認",
+    "enGuide": "Required before G#03 can be completed cleanly."
+  },
+  {
+    "simpleJp": "G#03「インディゴス宝石強盗団」を中成功以上で完了する",
+    "jpGuide1": "インディゴス宝石強盗団",
+    "jpGuide2": "G#03　インディゴス宝石強盗団",
+    "enGuide": "Aim for at least medium success; it is a prerequisite for the later continuation job."
+  },
+  {
+    "simpleJp": "G#07「バーンズさんの犬捜し」を完了する",
+    "jpGuide1": "バーンズさんの犬捜し",
+    "jpGuide2": "G#07　バーンズさんの犬捜し",
+    "enGuide": "Do this now. Its window is even shorter than the ceremony cutoff."
+  },
+  {
+    "simpleJp": "インディゴス下水道でシャムスから「グランドナイフ」を盗んで討伐する",
+    "jpGuide1": "シャムス　450　1　インディゴス下水道　グランドナイフ盗（初回遭遇時のみ）",
+    "jpGuide2": "シャムス：アジュを狩った足で入り直すだけで鉢合わせることがある",
+    "enGuide": "Bring Shu. The Grand Knife steal is first-encounter-sensitive, so take it before killing Shamus."
+  },
+  {
+    "simpleJp": "廃屋でゴルザを討伐する",
+    "jpGuide1": "ゴルザ　540　1　廃屋",
+    "jpGuide2": "ゴルザ　スケルトン　廃墟の町―廃屋",
+    "enGuide": "Clear the early Prodius bounty while the area is already relevant."
+  }
+]

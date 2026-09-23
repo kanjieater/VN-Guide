@@ -1,0 +1,74 @@
+[
+  {
+    "simpleJp": "G#04「地下から怪しげな歌声が…」を完了する",
+    "jpGuide1": "地下から怪しげな歌声が…",
+    "jpGuide2": "G#04　地下から怪しげな歌声が…",
+    "enGuide": "Start the chained Indigos jobs; this entire block expires when White House ends."
+  },
+  {
+    "simpleJp": "G#05「廃屋の人形師」を完了する",
+    "jpGuide1": "廃屋の人形師",
+    "jpGuide2": "G#05　廃屋の人形師",
+    "enGuide": "Requires G#04."
+  },
+  {
+    "simpleJp": "G#06「廃墟の謎の集団」を完了する",
+    "jpGuide1": "廃墟の謎の集団",
+    "jpGuide2": "G#06　廃墟の謎の集団",
+    "enGuide": "Requires G#05; clearing it is also part of the later G#10 requirement."
+  },
+  {
+    "simpleJp": "G#08「無人の酒場で毎夜ピアノの音が…」を完了する",
+    "jpGuide1": "無人の酒場で毎夜ピアノの音が…",
+    "jpGuide2": "G#08　無人の酒場で毎夜ピアノの音が…",
+    "enGuide": "Available after Garuano's mansion and lost after White House."
+  },
+  {
+    "simpleJp": "G#11「インディゴウィスキー運び」を完了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "G#11　インディゴウィスキー運び",
+    "enGuide": "Complete before White House ends."
+  },
+  {
+    "simpleJp": "G#12「迷子の子供捜し」を完了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "G#12　迷子の子供捜し",
+    "enGuide": "Complete before White House ends."
+  },
+  {
+    "simpleJp": "G#14「空き屋敷のモンスター退治」を完了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "G#14　空き屋敷のモンスター退治",
+    "enGuide": "Starts the Prodius three-job chain."
+  },
+  {
+    "simpleJp": "G#15「大泥棒から財産を守って欲しい」を完了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "G#15　大泥棒から財産を守って欲しい",
+    "enGuide": "Requires G#14."
+  },
+  {
+    "simpleJp": "G#16「リベンジ・オブ・ザ・女泥棒」を完了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "G#16　リベンジ・オブ・ザ・女泥棒",
+    "enGuide": "Requires G#15; finishing it also makes the Empty House usable as an FBA."
+  },
+  {
+    "simpleJp": "空き家でティアヌスから「うににゃんそーど」を盗んで討伐する",
+    "jpGuide1": "ティアヌス　2025　3　空き家　うににゃんそーど盗（初回遭遇時のみ）",
+    "jpGuide2": "ティアヌス　ウィザード　ガルアーノの屋敷 空き家",
+    "enGuide": "Bring Shu and steal on the first encounter. Do not enter this encounter without him."
+  },
+  {
+    "simpleJp": "ヤゴス島遺跡B1Fでメナンを討伐する",
+    "jpGuide1": "メナン　1125　2　ヤゴス島遺跡B1",
+    "jpGuide2": "メナン　グレーターマミィ　ヤゴス島封印の遺跡Ｂ１Ｆ",
+    "enGuide": "Clean up the Yagos bounty while free travel is available."
+  },
+  {
+    "simpleJp": "帰らずの森のバルザックはまだ倒さない",
+    "jpGuide1": "バルザック　1755　2　帰らずの森",
+    "jpGuide2": "白い家に潜入後～",
+    "enGuide": "Deliberately postpone Balzac. A later unique Fate steal from Grovis becomes unavailable if Balzac is already hunted."
+  }
+]

@@ -141,17 +141,17 @@ test("detailed sidecars can group real steps, add annotations, and retain naviga
   );
 
   assert.deepEqual(
-    runtime.api.nodeProgressState(group, {
+    JSON.parse(JSON.stringify(runtime.api.nodeProgressState(group, {
       seen: { a: 1 },
       current: { a: 1 },
-    }),
+    }))),
     { seen: true, current: true, known: true }
   );
   assert.deepEqual(
-    runtime.api.nodeProgressState(note, {
+    JSON.parse(JSON.stringify(runtime.api.nodeProgressState(note, {
       seen: { a: 2 },
       current: { a: 2 },
-    }),
+    }))),
     { seen: false, current: false, known: false }
   );
 });
@@ -173,7 +173,7 @@ test("sidecar validation fails closed on ambiguous or unsupported topology", t =
 
   assert.throws(
     () => runtime.api.validateSidecar(guide, { version: 2 }),
-    /version/
+    /Unsupported flowchart sidecar/
   );
   assert.throws(
     () => runtime.api.validateSidecar(guide, { version: 1, mystery: true }),

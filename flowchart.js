@@ -169,7 +169,29 @@
     svg.appendChild(path);
   }
 
-  function renderNode(svg, node, onNavigate) {
+  function progressValue(progressMap, routeId) {
+    if (!progressMap || !routeId) return null;
+    const value = progressMap[routeId];
+    return Number.isInteger(value) ? value : null;
+  }
+
+  function nodeProgressState(node, progressState) {
+    const seenProgress = progressValue(progressState && progressState.seen, node.routeId);
+    const currentProgress = progressValue(progressState && progressState.current, node.routeId);
+    const seenTarget = Number.isInteger(node.seenStepIndex)
+      ? node.seenStepIndex
+      : node.stepIndex;
+
+    const seen = Number.isInteger(seenTarget)
+      ? (seenTarget < 0 ? seenProgress != null : seenProgress != null && seenProgress >= seenTarget)
+      : false;
+    const current = Number.isInteger(node.stepIndex) && node.stepIndex >= 0 &&
+      currentProgress === node.stepIndex;
+
+    return { seen, current };
+  }
+
+  function renderNode(svg, node, onNavigate, progressState) {
     const height = nodeHeight(node);
     const center = nodeCenter(node);
     const x = center.x - NODE_WIDTH / 2;
@@ -178,8 +200,14 @@
       typeof onNavigate === "function" &&
       node.routeId &&
       Number.isInteger(node.stepIndex);
+    const progress = nodeProgressState(node, progressState);
+    const progressClass = progress.current
+      ? " flow-node-current"
+      : progress.seen
+        ? " flow-node-seen"
+        : " flow-node-unseen";
     const group = el("g", {
-      class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}`,
+      class: `flow-node flow-node-${node.kind}${navigable ? " flow-node-link" : ""}${progressClass}`,
       transform: `translate(${x} ${y})`,
       ...(navigable ? {
         role: "link",
@@ -561,6 +589,9 @@
         row: Math.min(...members.map(node => node.row)),
         depth: Math.min(...members.map(node => node.depth)),
         stepIndex: Number.isInteger(navigationTarget.stepIndex) ? navigationTarget.stepIndex : null,
+        seenStepIndex: Math.max(...members.map(node =>
+          Number.isInteger(node.stepIndex) ? node.stepIndex : -1
+        )),
         synthetic: true,
       };
       graph.nodes.push(groupNode);
@@ -610,7 +641,7 @@
     return graph;
   }
 
-  function renderGraphSection(titleText, graph, onNavigate, ariaLabel) {
+  function renderGraphSection(titleText, graph, onNavigate, ariaLabel, progressState) {
     const section = document.createElement("section");
     section.className = "flowchart-route";
 
@@ -669,6 +700,16 @@
       zoomReadout.textContent = `${Math.round(scale * 100)}%`;
     }
 
+    function zoomAt(nextScale, clientX) {
+      const rect = scroller.getBoundingClientRect();
+      const localX = Number.isFinite(clientX)
+        ? clientX - rect.left
+        : scroller.clientWidth / 2;
+      const contentX = (scroller.scrollLeft + localX) / scale;
+      applyScale(nextScale);
+      scroller.scrollLeft = Math.max(0, contentX * scale - localX);
+    }
+
     function fitToWidth() {
       const availableWidth = Math.max(1, scroller.clientWidth - 2);
       applyScale(Math.min(1, availableWidth / width));
@@ -677,16 +718,59 @@
 
     zoomOut.addEventListener("click", () => {
       fitMode = false;
-      applyScale(scale / 1.25);
+      zoomAt(scale / 1.25);
     });
     zoomIn.addEventListener("click", () => {
       fitMode = false;
-      applyScale(scale * 1.25);
+      zoomAt(scale * 1.25);
     });
     fit.addEventListener("click", () => {
       fitMode = true;
       fitToWidth();
     });
+
+    scroller.addEventListener("wheel", event => {
+      event.preventDefault();
+      fitMode = false;
+      const factor = Math.exp(-event.deltaY * 0.0015);
+      zoomAt(scale * factor, event.clientX);
+    }, { passive: false });
+
+    let pinchDistance = null;
+
+    function touchDistance(touches) {
+      const dx = touches[0].clientX - touches[1].clientX;
+      const dy = touches[0].clientY - touches[1].clientY;
+      return Math.hypot(dx, dy);
+    }
+
+    function touchMidpointX(touches) {
+      return (touches[0].clientX + touches[1].clientX) / 2;
+    }
+
+    scroller.addEventListener("touchstart", event => {
+      if (event.touches.length !== 2) return;
+      event.preventDefault();
+      fitMode = false;
+      pinchDistance = touchDistance(event.touches);
+    }, { passive: false });
+
+    scroller.addEventListener("touchmove", event => {
+      if (event.touches.length !== 2 || !pinchDistance) return;
+      event.preventDefault();
+      const nextDistance = touchDistance(event.touches);
+      if (nextDistance <= 0) return;
+      zoomAt(scale * (nextDistance / pinchDistance), touchMidpointX(event.touches));
+      pinchDistance = nextDistance;
+    }, { passive: false });
+
+    scroller.addEventListener("touchend", event => {
+      if (event.touches.length < 2) pinchDistance = null;
+    }, { passive: true });
+
+    scroller.addEventListener("touchcancel", () => {
+      pinchDistance = null;
+    }, { passive: true });
 
     const defs = el("defs");
     const marker = el("marker", {
@@ -708,7 +792,7 @@
       const to = byId.get(edge.to);
       if (from && to) renderEdge(svg, from, to, edge.kind);
     });
-    graph.nodes.forEach(node => renderNode(svg, node, onNavigate));
+    graph.nodes.forEach(node => renderNode(svg, node, onNavigate, progressState));
 
     scroller.appendChild(svg);
     section.appendChild(zoomBar);
@@ -729,18 +813,19 @@
     return section;
   }
 
-  function renderRoute(route, onNavigate) {
+  function renderRoute(route, onNavigate, progressState) {
     const graph = buildRouteGraph(route);
     graph.maxRow = graph.nodes.reduce((max, node) => Math.max(max, node.row), 0);
     return renderGraphSection(
       route.title || route.id,
       graph,
       onNavigate,
-      `${route.title || route.id} の自動生成分岐図`
+      `${route.title || route.id} の自動生成分岐図`,
+      progressState
     );
   }
 
-  function render(container, guideData, onNavigate, sidecar) {
+  function render(container, guideData, onNavigate, sidecar, progressState) {
     container.replaceChildren();
 
     let enhancedGraph = null;
@@ -762,6 +847,9 @@
     const legend = document.createElement("div");
     legend.className = "flowchart-legend";
     legend.innerHTML =
+      '<span><i class="flowchart-legend-seen"></i> 既読</span>' +
+      '<span><i class="flowchart-legend-current"></i> 現在位置</span>' +
+      '<span><i class="flowchart-legend-unseen"></i> 未読</span>' +
       '<span><i class="flowchart-legend-branch">?</i> 分岐</span>' +
       '<span><i class="flowchart-legend-end"></i> END</span>' +
       (enhancedGraph
@@ -775,13 +863,14 @@
         sidecar.title || guideData.title || "詳細分岐図",
         enhancedGraph,
         onNavigate,
-        `${guideData.title || "ゲーム"} の詳細分岐図`
+        `${guideData.title || "ゲーム"} の詳細分岐図`,
+        progressState
       ));
       return;
     }
 
     routes.forEach((route, index) => {
-      container.appendChild(renderRoute(route, onNavigate));
+      container.appendChild(renderRoute(route, onNavigate, progressState));
       if (index < routes.length - 1) {
         const next = document.createElement("div");
         next.className = "flowchart-next";

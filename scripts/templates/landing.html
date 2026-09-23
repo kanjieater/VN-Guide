@@ -76,8 +76,12 @@
     color: #fff;
   }
 
-  .filter-tabs {
-    margin-top: 8px;
+  .control-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
   }
 
   main {
@@ -203,14 +207,15 @@
 <body>
 <header>
   <h1>VN Guide</h1>
-  <div class="sort-tabs">
-    <button id="btn-recent" class="active" onclick="setSort('recent')">最近</button>
-    <button id="btn-alpha" onclick="setSort('alpha')">あいうえお</button>
-  </div>
-  <br>
-  <div class="sort-tabs filter-tabs">
-    <button id="btn-all" class="active" onclick="setFilter('all')">すべて</button>
-    <button id="btn-playing" onclick="setFilter('playing')">プレイ中</button>
+  <div class="control-row">
+    <div class="sort-tabs">
+      <button id="btn-recent" class="active" onclick="setSort('recent')">最近</button>
+      <button id="btn-alpha" onclick="setSort('alpha')">あいうえお</button>
+    </div>
+    <div class="sort-tabs">
+      <button id="btn-all" class="active" onclick="setFilter('all')">すべて</button>
+      <button id="btn-playing" onclick="setFilter('playing')">プレイ中</button>
+    </div>
   </div>
   <br>
   <input id="search" class="search-input" type="search" placeholder="ゲームを検索…" oninput="render()" autocomplete="off">
@@ -312,8 +317,8 @@ async function isPlaying(g) {
   if (!guide || !Array.isArray(guide.routes) || guide.routes.length === 0) return false;
 
   const routeIds = new Set(guide.routes.map(route => route.id));
-  const hasActiveProgress = Object.keys(saved.progress).some(id => routeIds.has(id));
-  if (!hasActiveProgress) return false;
+  const hasSavedRoute = Object.keys(saved.progress).some(id => routeIds.has(id));
+  if (!hasSavedRoute) return false;
 
   const maxProgress = guide.routes.reduce((sum, route) => {
     const count = route.stepCount || (route.steps ? route.steps.length : 0);
@@ -327,7 +332,8 @@ async function isPlaying(g) {
     return sum + Math.max(0, Math.min(progress, count - 1));
   }, 0);
 
-  return maxProgress > 0 && doneSteps < maxProgress;
+  const pct = maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
+  return pct > 0 && pct < 100;
 }
 
 async function render() {

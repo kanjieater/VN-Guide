@@ -8,6 +8,81 @@ let settings = { blurPortraits: true };
 let pendingNextRoute = null;
 let transitionFromRoute = null;
 
+function mountAppShell() {
+  const app = document.getElementById("app");
+  if (!app) return;
+
+  app.innerHTML = `
+    <div id="view-home" class="view active">
+      <div class="view-header">
+        <a href="../">← 戻る</a>
+        <h3 id="game-title"></h3>
+        <button onclick="showSettings()">⚙</button>
+      </div>
+      <div class="home-content">
+        <p id="home-status">ガイド作成中…<br>しばらくお待ちください</p>
+        <p id="total-progress"></p>
+        <ul id="route-list"></ul>
+        <div class="guide-meta">
+          <p id="guide-updated"></p>
+          <p id="guide-target"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="view-slide" class="view">
+      <div class="view-header">
+        <button onclick="goHome()">🏠</button>
+        <h3 id="slide-route-title"></h3>
+        <button onclick="showSettings()">⚙</button>
+        <button onclick="showJump()">一覧</button>
+      </div>
+      <div class="step-container">
+        <div id="step-counter"></div>
+        <div id="simple-instruction"></div>
+        <button id="toggle-details" onclick="toggleDetails()">詳細を表示</button>
+        <div id="details-section">
+          <div class="detail-block" id="detail-jp1"></div>
+          <div class="detail-block" id="detail-jp2"></div>
+          <div class="detail-block" id="detail-en"></div>
+          <div class="detail-block bad-end-block" id="detail-bad-end" style="display:none"></div>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <button id="btn-prev" onclick="prevStep()">◀ 前へ</button>
+        <button id="btn-next" onclick="nextStep()" class="primary">次へ ▶</button>
+      </div>
+    </div>
+
+    <div id="view-jump" class="view">
+      <div class="view-header">
+        <button onclick="resumeSlide()">◀ 戻る</button>
+        <h3 id="jump-route-title"></h3>
+      </div>
+      <div id="jump-list-container">
+        <ul id="jump-list"></ul>
+      </div>
+    </div>
+
+    <div id="view-settings" class="view">
+      <div class="view-header">
+        <button onclick="goHome()">◀ 戻る</button>
+        <h3>設定</h3>
+        <div style="width:50px"></div>
+      </div>
+      <div class="settings-body">
+        <div class="setting-row" onclick="toggleSetting('blurPortraits')">
+          <div>
+            <div class="setting-label">キャラクター画像をぼかす</div>
+            <div class="setting-desc">未開始のルートの画像を隠す（ネタバレ防止）</div>
+          </div>
+          <div id="toggle-blurPortraits" class="toggle-pill"></div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 function loadState() {
   try { const s = localStorage.getItem(STORAGE_KEY); if (s) state = JSON.parse(s); } catch {}
 }
@@ -81,15 +156,8 @@ function renderHome() {
   const titleEl = document.getElementById("game-title");
   if (titleEl && guideData.title) titleEl.textContent = guideData.title;
 
-  let targetEl = document.getElementById("guide-target");
-  if (!targetEl) {
-    targetEl = document.createElement("p");
-    targetEl.id = "guide-target";
-  }
+  const targetEl = document.getElementById("guide-target");
   const updatedEl = document.getElementById("guide-updated");
-  if (updatedEl && targetEl.previousElementSibling !== updatedEl) {
-    updatedEl.after(targetEl);
-  }
   const target = guideData.guide_target;
   if (targetEl && target && target.label && target.platform && target.url) {
     const display = target.label + " · " + target.platform;
@@ -141,14 +209,11 @@ function renderHome() {
     </button></li>`;
   }).join("");
   const totalPct = overallProgressPercent();
-  let totalEl = document.getElementById("total-progress");
-  if (!totalEl) {
-    totalEl = document.createElement("p");
-    totalEl.id = "total-progress";
-    list.before(totalEl);
+  const totalEl = document.getElementById("total-progress");
+  if (totalEl) {
+    totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
+    totalEl.textContent = `全体進行度: ${totalPct}%`;
   }
-  totalEl.style.cssText = "margin:0;font-size:13px;color:#888;";
-  totalEl.textContent = `全体進行度: ${totalPct}%`;
 
   if (updatedEl && guideData.generated_at) {
     const d = new Date(guideData.generated_at);
@@ -206,13 +271,6 @@ function previousRoute() {
 
 function routeStepCount(route) {
   return route.steps ? route.steps.length : (route.stepCount || 0);
-}
-
-function isRouteComplete(route) {
-  if (!route || !(route.id in state.progress)) return false;
-  const count = routeStepCount(route);
-  if (count <= 1) return count === 1;
-  return state.progress[route.id] >= count - 1;
 }
 
 function overallProgressPercent() {
@@ -310,8 +368,7 @@ function renderSlide() {
   }
 
   const priorRoute = previousRoute();
-  document.getElementById("btn-prev").disabled =
-    idx === 0 && !isRouteComplete(priorRoute);
+  document.getElementById("btn-prev").disabled = idx === 0 && !priorRoute;
   const nextBtn = document.getElementById("btn-next");
   const followingRoute = nextRoute();
   const atSectionEnd = idx === total - 1;
@@ -351,12 +408,6 @@ async function prevStep() {
 
     if (fromRoute && fromRoute.id !== state.currentRoute) {
       await startRoute(fromRoute.id);
-      const loaded = currentRoute();
-      if (loaded && loaded.steps && loaded.steps.length) {
-        state.progress[loaded.id] = loaded.steps.length - 1;
-        saveState();
-        renderSlide();
-      }
     } else {
       renderSlide();
     }
@@ -374,7 +425,7 @@ async function prevStep() {
   }
 
   const priorRoute = previousRoute();
-  if (isRouteComplete(priorRoute)) {
+  if (priorRoute) {
     renderRouteTransition(route, priorRoute);
   }
 }
@@ -457,5 +508,6 @@ document.addEventListener("visibilitychange", () => {
   }
 });
 
+mountAppShell();
 scheduleViewportSync();
 init();

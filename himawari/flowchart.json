@@ -7,38 +7,86 @@
       "route": "aries",
       "kind": "step",
       "label": "明香の家だ！",
-      "near": { "route": "aries", "step": { "simpleJp": "公園だ！" } },
+      "near": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "公園だ！"
+        }
+      },
       "rowOffset": 0,
       "laneOffset": 1,
-      "jumpTo": { "route": "aries", "save": "9" }
+      "jumpTo": {
+        "route": "aries",
+        "save": "9"
+      }
     }
   ],
   "addEdges": [
     {
-      "from": { "route": "aries", "save": "9" },
-      "to": { "synthetic": "aries-smoke-rain-asuka-house" },
+      "from": {
+        "route": "aries",
+        "save": "9"
+      },
+      "to": {
+        "synthetic": "aries-smoke-rain-asuka-house"
+      },
       "kind": "detour"
     },
     {
-      "from": { "synthetic": "aries-smoke-rain-asuka-house" },
-      "to": { "route": "aries", "step": { "simpleJp": "【煙雨】END" } },
+      "from": {
+        "synthetic": "aries-smoke-rain-asuka-house"
+      },
+      "to": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "【煙雨】END"
+        }
+      },
       "kind": "detour"
     },
     {
-      "from": { "route": "completion", "step": { "simpleJp": "STORY" } },
-      "to": { "route": "completion", "step": { "simpleJp": "2048-2050" } },
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "STORY"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      },
       "kind": "unlock",
       "label": "4周目クリアで追加"
     },
     {
-      "from": { "route": "completion", "step": { "simpleJp": "こもれび" } },
-      "to": { "route": "completion", "step": { "simpleJp": "かげろう" } },
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "こもれび"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "かげろう"
+        }
+      },
       "kind": "unlock",
       "label": "こもれびクリア後"
     },
     {
-      "from": { "route": "completion", "start": true },
-      "to": { "route": "completion", "step": { "simpleJp": "Tips" } },
+      "from": {
+        "route": "completion",
+        "start": true
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
       "kind": "normal",
       "label": "クリア進行に応じて確認"
     }
@@ -49,46 +97,113 @@
       "route": "asuka",
       "label": "3か所すべて（順不同）",
       "members": [
-        { "route": "asuka", "step": { "simpleJp": "アリエスとアクアの様子を見てみる" } },
-        { "route": "asuka", "step": { "simpleJp": "明香と明の所に行く" } },
-        { "route": "asuka", "step": { "simpleJp": "部長とジョニーが心配だ" } }
+        {
+          "route": "asuka",
+          "step": {
+            "simpleJp": "アリエスとアクアの様子を見てみる"
+          }
+        },
+        {
+          "route": "asuka",
+          "step": {
+            "simpleJp": "明香と明の所に行く"
+          }
+        },
+        {
+          "route": "asuka",
+          "step": {
+            "simpleJp": "部長とジョニーが心配だ"
+          }
+        }
       ]
     }
   ],
   "routeLinks": [
     {
-      "from": { "route": "aries", "step": { "simpleJp": "【アリエス】END" } },
-      "to": { "route": "akari", "start": true },
+      "from": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "【アリエス】END"
+        }
+      },
+      "to": {
+        "route": "akari",
+        "start": true
+      },
       "kind": "unlock",
       "label": "Restart 解禁"
     },
     {
-      "from": { "route": "akari", "step": { "simpleJp": "【星乃 明香里】END" } },
-      "to": { "route": "aqua", "start": true },
+      "from": {
+        "route": "akari",
+        "step": {
+          "simpleJp": "【星乃 明香里】END"
+        }
+      },
+      "to": {
+        "route": "aqua",
+        "start": true
+      },
       "kind": "unlock",
       "label": "アクア 解禁"
     },
     {
-      "from": { "route": "aqua", "step": { "simpleJp": "【アクア】END" } },
-      "to": { "route": "asuka", "start": true },
+      "from": {
+        "route": "aqua",
+        "step": {
+          "simpleJp": "【アクア】END"
+        }
+      },
+      "to": {
+        "route": "asuka",
+        "start": true
+      },
       "kind": "unlock",
       "label": "西園寺明香 解禁"
     },
     {
-      "from": { "route": "asuka", "step": { "simpleJp": "【西園寺明香】END" } },
-      "to": { "route": "completion", "start": true },
+      "from": {
+        "route": "asuka",
+        "step": {
+          "simpleJp": "【西園寺明香】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "start": true
+      },
       "kind": "unlock",
       "label": "クリア後 解禁"
     }
   ],
   "removeEdges": [
     {
-      "from": { "route": "completion", "step": { "simpleJp": "かげろう" } },
-      "to": { "route": "completion", "step": { "simpleJp": "2048-2050" } }
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "かげろう"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      }
     },
     {
-      "from": { "route": "completion", "step": { "simpleJp": "2048-2050" } },
-      "to": { "route": "completion", "step": { "simpleJp": "Tips" } }
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      }
     }
   ]
 }

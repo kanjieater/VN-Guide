@@ -434,7 +434,7 @@
       if (!isPlainObject(node)) throw new Error(`${context} must be an object`);
       requireAllowedKeys(
         node,
-        new Set(["id", "route", "kind", "label", "near", "rowOffset", "laneOffset", "jumpTo"]),
+        new Set(["id", "route", "kind", "label", "near", "rowOffset", "laneOffset", "jumpTo", "navigable"]),
         context
       );
       requireNonEmptyString(node.id, `${context}.id`);
@@ -462,6 +462,9 @@
       }
       validateOffset(node.rowOffset, `${context}.rowOffset`);
       validateOffset(node.laneOffset, `${context}.laneOffset`);
+      if (own(node, "navigable") && typeof node.navigable !== "boolean") {
+        throw new Error(`${context}.navigable must be a boolean`);
+      }
       validateRefShape(node.near, routeIds, sidecarIds, `${context}.near`);
       if (node.jumpTo != null) {
         validateRefShape(node.jumpTo, routeIds, sidecarIds, `${context}.jumpTo`);
@@ -624,7 +627,9 @@
         routeId: jump.routeId,
         row: near.row + (synthetic.rowOffset || 0),
         depth: Math.max(0, near.depth + (synthetic.laneOffset == null ? 1 : synthetic.laneOffset)),
-        stepIndex: Number.isInteger(jump.stepIndex) ? jump.stepIndex : null,
+        stepIndex: synthetic.navigable === false
+          ? null
+          : (Number.isInteger(jump.stepIndex) ? jump.stepIndex : null),
         synthetic: true,
       });
     }

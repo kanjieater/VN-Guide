@@ -1,0 +1,44 @@
+[
+  {
+    "simpleJp": "空中城へ突入する",
+    "jpGuide1": "一度突入するともとの世界には帰れなくなる",
+    "jpGuide2": "空中城突入",
+    "enGuide": "Final point of no return. Enter only after the completion cleanup is finished."
+  },
+  {
+    "simpleJp": "入口付近の敵を倒し、シルバーノアの設備を使えるようにする",
+    "jpGuide1": "入口近くの敵を倒すとシルバーノアに戻れるようになる",
+    "jpGuide2": "ブラックスカル戦",
+    "enGuide": "Inside Air Castle only, Silver Noah provides recovery, save, shop, smith, synthesis, Mother Claire and other services."
+  },
+  {
+    "simpleJp": "赤い丸のワープで進み、中間セーブポイントでセーブする",
+    "jpGuide1": "途中に回復・セーブポイントがある",
+    "jpGuide2": "空中城6部屋",
+    "enGuide": "This save is also the Arc III conversion checkpoint, so make a durable final save here."
+  },
+  {
+    "simpleJp": "6つの個人部屋を1人ずつ攻略する",
+    "jpGuide1": "6つの部屋があり、それぞれ1人ずつが入れる",
+    "jpGuide2": "空中城6部屋",
+    "enGuide": "Choose a suitable character for each room; all six must be cleared."
+  },
+  {
+    "simpleJp": "4つの試練部屋を勝ち、中央の水晶を調べる",
+    "jpGuide1": "4つの部屋の試練",
+    "jpGuide2": "左上アークデーモン戦",
+    "enGuide": "Defeat the enemies in all four surrounding rooms, then inspect the central crystal to open the route onward."
+  },
+  {
+    "simpleJp": "ザルバドを倒す",
+    "jpGuide1": "その奥でザルバド戦",
+    "jpGuide2": "ザルバド戦開始",
+    "enGuide": "This is the last major boss before the final encounter."
+  },
+  {
+    "simpleJp": "上側のワープへ入り、闇黒の支配者を2戦とも倒す",
+    "jpGuide1": "上のほうのワープポイントに入ると最終ボス戦",
+    "jpGuide2": "闇黒の支配者2撃破",
+    "enGuide": "Win both final-boss phases to reach Arc the Lad II's ending. This is the terminal step of the guide."
+  }
+]

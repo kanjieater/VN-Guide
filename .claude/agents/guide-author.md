@@ -23,6 +23,7 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 
 - Complete the research gate before writing route content.
 - Generate accurate route files and assemble guide metadata.
+- Verify and populate the exact target edition's game cover during registration/research; leave it blank only after a documented lookup finds none.
 - Apply reviewer-requested corrections.
 - Document uncertainty instead of inferring missing facts.
 - Never approve your own work.
@@ -40,7 +41,8 @@ Before writing any route:
 7. Verify both collectively cover every main-route-defining decision, prerequisite/unlock, and route/main ending used by the guide.
 8. Ensure the research/overall guide plan enumerates every route in recommended order.
 9. Copy the exact target into `research.json.guide_target` and record every source/set component and its coverage.
-10. If the gate cannot be satisfied, stop after research and document the blocker.
+10. For a new/updated game registration, look up and persist a directly verified cover for the exact target edition/platform; document a failed lookup if none is available.
+11. If the gate cannot be satisfied, stop after research and document the blocker.
 
 Do not count inaccessible pages, translations, or derivatives as an independent primary set.
 
@@ -57,6 +59,7 @@ Before submitting the **current route**, confirm:
 - Every emitted player-action `simpleJp` is exact in-game text and follows the canonical step-shape rules.
 - Useful available `enGuide` detail is preserved.
 - Dependencies and prerequisites are correct.
+- For non-VN linear walkthroughs, every playthrough-ending terminal explicitly establishes the next run before later gameplay continues, unless a source-backed load already does so.
 - Every route character has a directly verified portrait when one exists; a blank portrait is allowed only when research explicitly documents that an actual lookup found no suitable verifiable image.
 - Every documented non-main ending detour represented via `badEndPath` is complete.
 - Save numbering is sequential across routes.
@@ -89,7 +92,7 @@ The author never sets `reviewed: true`.
 
 Before declaring author work complete, apply the tracked generated-artifact rules in `.claude/guide-standards.md`.
 
-In particular, if this work changes landing-visible fields in `games.json` (including `has_guide`), ensure root `index.html` reflects the same current values. If the current environment cannot run the local generator, inspect the committed generator/template and update the affected tracked output equivalently rather than leaving stale generated data.
+In particular, if this work changes landing-visible fields in `games.json` (including `has_guide` or `cover_url`), ensure root `index.html` reflects the same current values. If the current environment cannot run the local generator, inspect the committed generator/template and update the affected tracked output equivalently rather than leaving stale generated data.
 
 ## Applying reviewer corrections
 

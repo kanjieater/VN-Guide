@@ -59,7 +59,8 @@
     "The one-time Palencia street vendor appears only on initial arrival during Elk's split segment.",
     "Elk's dream has the rare Flame Sword drop; it is a synthesis input and retrying is inconvenient.",
     "Palencia Tower 77F is optional but contains unique/rare treasure accessed by repeatedly toggling the 99F elevator switch.",
-    "To obtain both the unique Fate and the full bounty clear, postpone Balzac until after Grovis: Returnless Forest remains available as an FBA after White House, while Grovis appears only during the timed Sea Oil Field escape. Steal Fate from Grovis with Shu first; then return to Returnless Forest and hunt Balzac."
+    "To obtain both the unique Fate and the full bounty clear, postpone Balzac until after Grovis: Returnless Forest remains available as an FBA after White House, while Grovis appears only during the timed Sea Oil Field escape. Steal Fate from Grovis with Shu first; then return to Returnless Forest and hunt Balzac.",
+    "Conversion chronology correction: the Secret Research Lab event belongs before the ceremony/Yagos transition, while the Ark-versus-Andel conversion event occurs after White House. They must be separate sections."
   ],
   "route_plan": [
     {
@@ -69,6 +70,10 @@
     {
       "id": "optional_early_guild",
       "title": "【任意】式典前：初期ギルド仕事・手配"
+    },
+    {
+      "id": "optional_convert_secret_lab",
+      "title": "【任意・コンバート】秘密研究所"
     },
     {
       "id": "ceremony_and_yagos",
@@ -87,8 +92,8 @@
       "title": "白い家"
     },
     {
-      "id": "optional_convert_early",
-      "title": "【任意・コンバート】序盤追加イベント"
+      "id": "optional_convert_whitehouse",
+      "title": "【任意・コンバート】白い家後：アーク対アンデル"
     },
     {
       "id": "shu_shante_smelia",
@@ -295,5 +300,5 @@
       "notes": "Independent verification that Returnless Forest remains usable as an FBA after White House and that Balzac can be fought after the area is cleared, supporting postponement until after the Grovis/Fate window."
     }
   ],
-  "generated_at": "2026-09-23T04:05:00+00:00"
+  "generated_at": "2026-09-23T04:12:00+00:00"
 }

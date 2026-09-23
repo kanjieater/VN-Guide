@@ -12,10 +12,22 @@
     "enGuide": "On a clear where you completed BS11 and still have the opposing ring, defeat Abel instead of retreating to obtain 「旅立ち」."
   },
   {
+    "simpleJp": "クリアデータを引き継いで次のNG+を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "習得済みのスキル、習得中のスキルの経験値が引き継がれる。\nサーカスのミニゲームの結果が引き継がれる。\nクリアボーナスのペインリングが最初から使える。",
+    "enGuide": "After 「旅立ち」, start another New Game+ from clear data before beginning the no-opposing-ring ending runs."
+  },
+  {
     "simpleJp": "BS11を取らない周回でアベルを倒して「彼女は微笑む」を見る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ラストバトルでリングを持ってない場合\n　アベル倒す：『彼女は微笑む』",
     "enGuide": "On a later clear, skip the BS11/Dana Trial ring so you reach the finale without the opposing ring; defeat Abel to obtain 「彼女は微笑む」."
+  },
+  {
+    "simpleJp": "クリアデータを引き継いで次のNG+を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "習得済みのスキル、習得中のスキルの経験値が引き継がれる。\nサーカスのミニゲームの結果が引き継がれる。\nクリアボーナスのペインリングが最初から使える。",
+    "enGuide": "After 「彼女は微笑む」, start another New Game+ from clear data for the no-ring retreat ending."
   },
   {
     "simpleJp": "対リングなしで撤退して「キミといつまでも」を見る",
@@ -70,6 +82,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "2週目選択肢正解+対リングを持ってない状態で撤退する：『それぞれの明日』",
     "enGuide": "Retreat from Abel after making all six correct NG+ choices to obtain 「それぞれの明日」."
+  },
+  {
+    "simpleJp": "クリアデータを引き継いで次のNG+を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "習得済みのスキル、習得中のスキルの経験値が引き継がれる。\nサーカスのミニゲームの結果が引き継がれる。\nクリアボーナスのペインリングが最初から使える。",
+    "enGuide": "After 「それぞれの明日」, start another New Game+ from clear data before continuing the circus-ending cleanup."
   },
   {
     "simpleJp": "サーカスのミニゲームを全てマスターする",

@@ -496,6 +496,30 @@ button#toggle-details {
   border-top: 2px dashed #6f8fae;
 }
 
+.flowchart-legend-seen,
+.flowchart-legend-current,
+.flowchart-legend-unseen {
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.flowchart-legend-seen {
+  background: #1d3026;
+  border-color: #5b9f76;
+}
+
+.flowchart-legend-current {
+  background: #243249;
+  border-color: #78aee8;
+  box-shadow: 0 0 0 1px #78aee8;
+}
+
+.flowchart-legend-unseen {
+  background: #181818;
+  border-color: #4a4a4a;
+  opacity: 0.58;
+}
+
 .flowchart-route {
   margin: 0 0 14px;
 }
@@ -507,23 +531,35 @@ button#toggle-details {
 }
 
 .flowchart-zoom {
+  position: fixed;
+  right: max(12px, calc((100vw - 600px) / 2 + 12px));
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 14px);
+  z-index: 40;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 6px;
-  margin: 0 0 6px;
+  margin: 0;
+  padding: 7px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(30, 30, 30, 0.94);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(8px);
 }
 
 .flowchart-zoom button {
-  min-width: 38px;
-  min-height: 32px;
-  padding: 4px 10px;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 0;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 9px;
   background: var(--surface);
   color: var(--text);
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
   touch-action: manipulation;
 }
@@ -533,10 +569,11 @@ button#toggle-details {
 }
 
 .flowchart-zoom-readout {
-  min-width: 46px;
-  color: #888;
+  min-width: 48px;
+  color: #aaa;
   font-size: 12px;
-  text-align: right;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
 }
 
 .flowchart-canvas {
@@ -544,6 +581,8 @@ button#toggle-details {
   overflow-x: auto;
   overflow-y: hidden;
   background: var(--surface);
+  touch-action: pan-x pan-y;
+  overscroll-behavior: contain;
   border: 1px solid var(--border);
   border-radius: 9px;
   -webkit-overflow-scrolling: touch;
@@ -648,6 +687,43 @@ button#toggle-details {
   fill: var(--accent);
   font-size: 15px;
   font-weight: 700;
+}
+
+.flow-node-neutral .flow-node-shape {
+  opacity: 0.78;
+  stroke-dasharray: 4 3;
+}
+
+.flow-node-neutral .flow-node-text {
+  fill: #aaa;
+}
+
+.flow-node-unseen .flow-node-shape {
+  opacity: 0.55;
+}
+
+.flow-node-unseen .flow-node-text {
+  fill: #777;
+}
+
+.flow-node-seen .flow-node-shape {
+  fill: #1d3026;
+  stroke: #5b9f76;
+}
+
+.flow-node-seen .flow-node-text {
+  fill: #d5eadc;
+}
+
+.flow-node-current .flow-node-shape {
+  fill: #243249;
+  stroke: #78aee8;
+  stroke-width: 3;
+  filter: drop-shadow(0 0 4px rgba(120, 174, 232, 0.45));
+}
+
+.flow-node-current .flow-node-text {
+  fill: #f0f6ff;
 }
 
 .flowchart-next {

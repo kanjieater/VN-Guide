@@ -43,6 +43,102 @@
         }
       },
       "kind": "detour"
+    },
+    {
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "STORY"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      },
+      "kind": "unlock",
+      "label": "4周目クリアで追加"
+    },
+    {
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "こもれび"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "かげろう"
+        }
+      },
+      "kind": "unlock",
+      "label": "こもれびクリア後"
+    },
+    {
+      "from": {
+        "route": "aries",
+        "step": {
+          "simpleJp": "【アリエス】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "unlock",
+      "label": "1周目クリアでTips追加"
+    },
+    {
+      "from": {
+        "route": "akari",
+        "step": {
+          "simpleJp": "【星乃 明香里】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "unlock",
+      "label": "2周目クリアでTips更新"
+    },
+    {
+      "from": {
+        "route": "aqua",
+        "step": {
+          "simpleJp": "【アクア】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "unlock",
+      "label": "3周目クリアでTips更新"
+    },
+    {
+      "from": {
+        "route": "asuka",
+        "step": {
+          "simpleJp": "【西園寺明香】END"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      },
+      "kind": "unlock",
+      "label": "4周目クリアでTips更新"
     }
   ],
   "groups": [
@@ -128,6 +224,36 @@
       },
       "kind": "unlock",
       "label": "クリア後 解禁"
+    }
+  ],
+  "removeEdges": [
+    {
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "かげろう"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      }
+    },
+    {
+      "from": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "2048-2050"
+        }
+      },
+      "to": {
+        "route": "completion",
+        "step": {
+          "simpleJp": "Tips"
+        }
+      }
     }
   ]
 }

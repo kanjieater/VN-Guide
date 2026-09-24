@@ -44,25 +44,25 @@
   {
     "simpleJp": "外に出て父を捜す",
     "jpGuide1": "外に出て父を捜す",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "大人しくしている",
     "enGuide": ""
   },
   {
     "simpleJp": "様子を見る",
     "jpGuide1": "様子を見る",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "なぜ、私なんですか",
     "enGuide": ""
   },
   {
     "simpleJp": "二階に行く",
     "jpGuide1": "二階に行く",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "山崎さんが行くべき",
     "enGuide": ""
   },
   {
     "simpleJp": "捕まえる",
     "jpGuide1": "捕まえる",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "池田屋に向かう",
     "enGuide": ""
   },
   {
@@ -391,7 +391,8 @@
     "simpleJp": "薬を与える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "薬を与える",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "【華ノ章】BADエンド（スタッフロールなし②）"
   },
   {
     "simpleJp": "みんなを追う",
@@ -415,8 +416,7 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "我慢させる",
     "jpGuide2": "我慢させる",
-    "enGuide": "",
-    "badEndPath": "【華ノ章】BADエンド（スタッフロールなし②）"
+    "enGuide": ""
   },
   {
     "simpleJp": "二人をよろしくお願いします",

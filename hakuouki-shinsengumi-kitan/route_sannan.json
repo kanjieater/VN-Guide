@@ -268,8 +268,7 @@
     "simpleJp": "理由を尋ねる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "理由を尋ねる　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ96にロード",
@@ -359,27 +358,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "それでも手伝いたい",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "留守番をする",
+    "jpGuide1": "留守番をする",
     "jpGuide2": "それでも手伝いたい",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "何でもします",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "何でもします",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "この場に残る",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "この場に残る",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "山南さんに任せる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "山南さんに任せる",
     "enGuide": ""
   },
   {
@@ -407,7 +388,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "羅刹を人間に戻すことができる",
+    "simpleJp": "羅刹を人に戻すことができる",
     "jpGuide1": "羅刹を人に戻すことができる（好感度UP✨）",
     "jpGuide2": "羅刹を人間に戻すことができる",
     "enGuide": ""
@@ -487,7 +468,7 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "薬を与える",
     "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "後ろへ下がる",
@@ -511,8 +492,7 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "我慢させる",
     "jpGuide2": "我慢させる",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "父の側についたんですか？",
@@ -566,7 +546,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "待って下さい！",
+    "simpleJp": "待ってください！",
     "jpGuide1": "待ってください！（好感度UP✨）",
     "jpGuide2": "待って下さい！",
     "enGuide": ""

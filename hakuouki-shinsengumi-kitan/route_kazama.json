@@ -1,74 +1,38 @@
 [
   {
-    "simpleJp": "何とかして逃げる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "何とかして逃げる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "逃げ出す",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "逃げ出す",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "屯所を探索する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "屯所を探索する",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "やっぱり駄目です",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "やっぱり駄目です",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "大人しく部屋に戻る",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "大人しく部屋に戻る",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "土方の小姓",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "土方の小姓",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "事情を説明する",
     "jpGuide1": "事情を説明する",
-    "jpGuide2": "事情を説明する",
+    "jpGuide2": "何とかして逃げる",
     "enGuide": ""
   },
   {
     "simpleJp": "京に来た理由を話す",
     "jpGuide1": "京に来た理由を話す",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "逃げ出す",
     "enGuide": ""
   },
   {
     "simpleJp": "部屋で大人しくする",
     "jpGuide1": "部屋で大人しくする",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "屯所を探索する",
     "enGuide": ""
   },
   {
     "simpleJp": "意外です",
     "jpGuide1": "意外です",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "やっぱり駄目です",
     "enGuide": ""
   },
   {
     "simpleJp": "大人しく部屋に戻る",
     "jpGuide1": "大人しく部屋に戻る",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "大人しく部屋に戻る",
     "enGuide": ""
   },
   {
     "simpleJp": "留守番をする",
     "jpGuide1": "留守番をする",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "土方の小姓",
     "enGuide": ""
   },
   {
@@ -96,12 +60,6 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "患者さんだったんですか？",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "患者さんだったんですか？",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "参加してみたい",
     "jpGuide1": "参加してみたい",
     "jpGuide2": "参加してみたい",
@@ -126,7 +84,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "出過ぎたことを言いました",
+    "simpleJp": "留守を預かるものとして……",
     "jpGuide1": "留守を預かるものとして……",
     "jpGuide2": "出過ぎたことを言いました",
     "enGuide": ""
@@ -134,36 +92,18 @@
   {
     "simpleJp": "素直に部屋へ戻る",
     "jpGuide1": "素直に部屋へ戻る",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "薬について調べる",
     "enGuide": ""
   },
   {
     "simpleJp": "自室に戻る",
     "jpGuide1": "自室に戻る",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "八木邸を調べる",
     "enGuide": ""
   },
   {
     "simpleJp": "永倉さんも辛いんですね",
     "jpGuide1": "永倉さんも辛いんですね",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "薬について調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "薬について調べる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "八木邸を調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "八木邸を調べる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "山南さんを説得",
-    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "山南さんを説得",
     "enGuide": ""
   },
@@ -200,19 +140,7 @@
   {
     "simpleJp": "私を狙う理由",
     "jpGuide1": "私を狙う理由",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "鬼に作り替える事",
-    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "鬼に作り替える事",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "聞かない",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "聞かない",
     "enGuide": ""
   },
   {
@@ -236,19 +164,7 @@
   {
     "simpleJp": "偉い人",
     "jpGuide1": "偉い人",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "伊東さんを知っている人",
-    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "伊東さんを知っている人",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "そうでしょうか",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "そうでしょうか",
     "enGuide": ""
   },
   {
@@ -382,15 +298,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "雪村の家の事が知りたい",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "雪村の家の事が知りたい",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "なぜ新選組と敵対したのか",
     "jpGuide1": "なぜ新選組と敵対したのか",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "雪村の家の事が知りたい",
     "enGuide": ""
   },
   {
@@ -421,7 +331,8 @@
     "simpleJp": "それでも憎めない",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "それでも憎めない",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "もう迷惑はかけられない",
@@ -442,11 +353,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "最後まで一緒に居てくれますか",
+    "simpleJp": "最後まで一緒にいてくれますか",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "最後まで一緒に居てくれますか",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ155にロード",

@@ -114,27 +114,21 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "屯所に戻る",
+    "simpleJp": "この場に残る",
     "jpGuide1": "屯所に戻る",
     "jpGuide2": "この場に残る",
     "enGuide": ""
   },
   {
-    "simpleJp": "でも……",
+    "simpleJp": "動かない",
     "jpGuide1": "でも……",
     "jpGuide2": "動かない",
     "enGuide": ""
   },
   {
-    "simpleJp": "沖田さん",
+    "simpleJp": "このままじゃ……",
     "jpGuide1": "沖田さん",
     "jpGuide2": "このままじゃ……",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "でも……",
-    "jpGuide1": "でも……",
-    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -280,8 +274,7 @@
     "simpleJp": "まだこれからです",
     "jpGuide1": "まだこれからです　→　悲恋エンド",
     "jpGuide2": "まだこれからです　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ70にロード",
@@ -531,7 +524,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "父のことを斬る",
+    "simpleJp": "父のことを謝る",
     "jpGuide1": "父のことを斬る（好感度UP✨）",
     "jpGuide2": "父の事を謝る",
     "enGuide": ""
@@ -561,7 +554,7 @@
     "jpGuide1": "近藤さんの話題",
     "jpGuide2": "薬を与える",
     "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "近藤さんもわかっているはず",
@@ -585,8 +578,7 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "我慢させる　→　BADエンド（スタッフロールなし②）",
     "jpGuide2": "我慢させる",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "駄目です",

@@ -1,18 +1,18 @@
 [
   {
-    "simpleJp": "最初にピラミッドの砂嵐を確認してからムハドへ行く",
+    "simpleJp": "ピラミッドへ行く",
     "jpGuide1": "まずはピラミッドへ行って砂嵐を見てからムハドへ。",
     "jpGuide2": "バルバラード編開始",
     "enGuide": "Visit the Pyramid first even though you cannot enter. Watching the sandstorm event is what advances the story and makes the Muhad investigation relevant."
   },
   {
-    "simpleJp": "ムハドでギルド→酒場の順に話す",
+    "simpleJp": "ムハドのギルドへ行く",
     "jpGuide1": "ギルドにいるラタと話した後…今度は酒場へ",
     "jpGuide2": "ギルド…マスターに話した後→酒場…NPC(ラタ)に話しかける",
     "enGuide": "Use the jointly supported location order: guild first, tavern second. The sources disagree about whether Rata is the guild contact or tavern contact, so simply exhaust the guild conversation, then speak to Rata in the tavern."
   },
   {
-    "simpleJp": "カナラ砂漠でレイブンを倒して「見逃す」を選ぶ",
+    "simpleJp": "「見逃す」を選ぶ",
     "jpGuide1": "「見逃す」を選ぶと「エメラルド」をもらえる。",
     "jpGuide2": "レイブンイベントで「見逃す」を選ぶと「エメラルド」を入手",
     "enGuide": "Win the Raven battle, then choose the exact option 「見逃す」. That choice gives the Emerald reward."

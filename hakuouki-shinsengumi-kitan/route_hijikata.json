@@ -341,7 +341,7 @@
     "simpleJp": "仇をとる",
     "jpGuide1": "逃げる",
     "jpGuide2": "仇をとる",
-    "enGuide": "Source A lists 逃げる; Source B lists 仇をとる. Sources contradict — this guide follows Source B (Fuukaden Switch-specific)."
+    "enGuide": "Source A lists 逃げる; Source B lists 仇をとる. Independent exact-target ruRi also lists 仇をとる, so the player-facing path follows the two-source agreement."
   },
   {
     "simpleJp": "私にできることはありますか",
@@ -379,7 +379,7 @@
     "simpleJp": "血を与える",
     "jpGuide1": "薬を与える",
     "jpGuide2": "血を与える",
-    "enGuide": "Source A lists 薬を与える; Source B lists 血を与える. Sources contradict — this guide follows Source B (Fuukaden Switch-specific)."
+    "enGuide": "Source A lists 薬を与える while Source B lists 血を与える. This guide retains Source B's documented recovery branch here because the following Save3 cleanup is sourced from the same branch; the choice is not justified by target-version specificity."
   },
   {
     "simpleJp": "ここに残ります",
@@ -573,7 +573,8 @@
     "simpleJp": "血を与える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "血を与える",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "傍から離れません",
@@ -594,17 +595,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "無くても構わないもの",
-    "jpGuide1": "無くても構わないもの（好感度UP✨）",
-    "jpGuide2": "無くても構わないもの",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "受け取らない",
-    "jpGuide1": "受け取らない",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "受け取らない",
-    "enGuide": "Set A and the independent exact-target ruRi guide use this low-affection Chapter 5 branch for the 悲恋 ending; Source B also branches here before its Save6 cleanup.",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ6",
@@ -614,29 +608,9 @@
   },
   {
     "simpleJp": "我慢させる",
-    "jpGuide1": "我慢させる",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "我慢させる",
     "enGuide": ""
-  },
-  {
-    "simpleJp": "できる限りのことはします",
-    "jpGuide1": "できる限りのことはします",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Independent exact-target ruRi corroborates Source A for this low-affection 悲恋 path."
-  },
-  {
-    "simpleJp": "セーブ6にロード",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "Save6より",
-    "enGuide": "",
-    "isLoad": true
-  },
-  {
-    "simpleJp": "我慢させる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "我慢させる",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "任せられても困ります",
@@ -672,28 +646,30 @@
     "isLoad": true
   },
   {
-    "simpleJp": "血を与える",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "血を与える",
+    "simpleJp": "受け取らない",
+    "jpGuide1": "※行軍録の「華ノ章 土方歳三篇 第五章」から始める／※設定は「好感度：低」「羅刹度：低」／受け取らない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Independent exact-target ruRi corroborates this Set-A low-affection 悲恋 branch.",
+    "badEndPath": "悲恋エンド"
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
-    "simpleJp": "傍から離れません",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "傍から離れません",
-    "enGuide": ""
+    "simpleJp": "できる限りのことはします",
+    "jpGuide1": "できる限りのことはします",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Independent exact-target ruRi corroborates this Set-A low-affection 悲恋 branch."
   },
   {
-    "simpleJp": "土方さんが心配なんです",
+    "simpleJp": "セーブ5にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "土方さんが心配なんです",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "土方さんのそばにある",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "土方さんのそばにある",
-    "enGuide": ""
+    "jpGuide2": "Save5より",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "無くても構わないもの",
@@ -723,13 +699,13 @@
     "simpleJp": "任せられても困ります",
     "jpGuide1": "任せられても困ります",
     "jpGuide2": "できる限りのことはします",
-    "enGuide": "Source B differs here, but independent exact-target ruRi corroborates Source A's GOOD-ending sequence, so the player-facing path follows the two-source agreement."
+    "enGuide": "Source B differs here; independent exact-target ruRi agrees with Source A, so the player-facing GOOD path follows the corroborated sequence."
   },
   {
     "simpleJp": "信じたい",
     "jpGuide1": "信じたい（好感度UP✨）",
     "jpGuide2": "信じない",
-    "enGuide": "Source B differs here, but independent exact-target ruRi corroborates Source A's GOOD-ending sequence, so the player-facing path follows the two-source agreement."
+    "enGuide": "Source B differs here; independent exact-target ruRi agrees with Source A, so the player-facing GOOD path follows the corroborated sequence."
   },
   {
     "simpleJp": "グッドエンド",

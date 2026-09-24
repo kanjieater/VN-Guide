@@ -33,7 +33,7 @@ This title is an ordinary SRPG, not a visual novel. Apply the explicitly scoped 
 To avoid repeatedly rediscovering the same dead ends, keep these source roles fixed unless a newly discovered source is directly inspectable and materially stronger:
 
 - **Set A is fixed:** Fragments Of Memories (derith) is the independent contemporary Japanese play diary and chronology lane.
-- **Set B is a composite, not one missing magic walkthrough:** use the directly inspectable Japanese FC2 child pages, CRADLE battle ordering, Japanese ending/NG+ sources, Wazap/5ch corroboration, and other directly inspectable Japanese components already enumerated in `research.json`. Extend Set B only with a directly inspected Japanese source that closes a specific remaining progression-critical gap.
+- **Set B is a composite, not one missing magic walkthrough:** use currently directly inspectable Japanese material such as CRADLE, Wazap/5ch, RPG大辞典, and other components enumerated in `research.json`. FC2 pages that were historically inspected but currently return HTTP 403 remain provenance only for a fresh accuracy pass unless their exact fact is already covered by the enumerated 2026-09-22 owner exception.
 - **TSST is derivative supplemental Japanese evidence only.** Its author explicitly says the bonus-scenario notes were preserved from an older vanished site. It is useful for trigger text and as a search lead, but it cannot establish independent Set-B verification.
 - **FFSKY/SquareCN is a detailed original Chinese walkthrough, not the vanished Japanese archive.** Its author says the guide was written from his own month of work/play. It already supplies practical trigger chains, battle consequences, and useful hints for the unresolved scenarios. Preserve those facts for translated `enGuide` use, but it cannot satisfy the Japanese Set-A/Set-B gate.
 - **Blocked FC2 search snippets are leads only.** Do not treat snippets as inspected evidence.
@@ -53,14 +53,7 @@ The normal two-independent-Japanese-source rule still governs facts that have tw
 - derivative Japanese TSST only as corroboration, never as an independent Set-B source;
 - original Chinese FFSKY for exact operational trigger, reward, or battle-condition detail, translated into concise natural English in `enGuide`.
 
-**Operational-detail extension approved 2026-09-23 in the repository-owner/caller request for the BLACK/MATRIX execution-detail pass.** The owner explicitly asked to fill unintuitive trigger instructions, missing dialogue choices, missable pickups, and other places where a player would otherwise need another walkthrough. This does not become a general source waiver. It extends the title exception only to the following newly identified residual execution facts:
-
-- BS8's exact waiter → Fry → Exal → clown → old man → couple man → couple woman → Exal conversation order, where Japanese Set B establishes the town/circus conversation trigger but FFSKY preserves the exact order;
-- BS12's exact notebook 「花嫁姿」 → couple → Lilith → Daria order, where Japanese Set B independently establishes the wedding-conversation/Daria trigger and FFSKY preserves the fuller execution order;
-- the post-5-2 repeat-talk pickup `構成員女×2 → 巡礼する精霊`, where Japanese Wazap independently establishes the one-repeat-talk-item-per-free-action mechanic and FFSKY preserves the exact NPC/item pair;
-- repeating the already-approved six `それぞれの明日` literal answers at their first-playthrough chronological positions so visible story choices are never left unspecified. Their ending-critical meaning still applies only on the qualifying later NG+ run.
-
-For these enumerated BS8/BS12 operational orders, concise author-written Japanese `simpleJp` may express the FFSKY-preserved order while `jpGuide1`/`jpGuide2` remain honest quotations/placeholders from the Japanese lanes. FFSKY-specific low-level tactics and counts (for example the approximate 40-talk hidden-shop count) remain explanatory `enGuide` detail unless independently Japanese-supported.
+**The 2026-09-23 request to make the walkthrough more operational is an authoring request, not a new source-gate waiver.** It must not be used to expand this exception. Exact FFSKY-only details outside the enumerated 2026-09-22 exception—such as BS8/BS12 fuller NPC order, the post-5-2 構成員女 / 巡礼する精霊 pairing, or BS13's extra pre-notebook conversations / ordinal choice—may remain supplemental `enGuide` context but must not become required `simpleJp` actions without independent Japanese support or a separate explicit owner approval.
 
 The approved exception specifically includes the currently identified residual facts needed by the authored route:
 

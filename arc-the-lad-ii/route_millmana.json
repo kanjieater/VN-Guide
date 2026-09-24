@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "アジャール酒場でサニアを表示してロアンに話す",
+    "simpleJp": "アジャール酒場でサニアを表示する",
     "jpGuide1": "酒場にいるロアンにサニアを表示して（R2で切り替え）話す。",
     "jpGuide2": "サニアにキャラ変更し、ロエンに話しイベント",
     "enGuide": "In the Ajaar tavern, switch the displayed character to Sania with R2 and talk to Roan. This opens the Sea Oil Field lead; visit the field once, then return to Roan when directed."
@@ -24,7 +24,7 @@
     "enGuide": "Use the train's switches to redirect or disable the red sensor routes, advance car by car, and defeat the enemy group at the deepest section."
   },
   {
-    "simpleJp": "アジャールでロアンに話して海底油田へ戻る",
+    "simpleJp": "アジャールでロアンに話す",
     "jpGuide1": "ロアンに話すとイベント。",
     "jpGuide2": "もう一度ロエンに話し",
     "enGuide": "Return to Ajaar and talk to Roan again to advance the plot. Before going back to the Sea Oil Field, make sure Shu is equipped for the timed escape and Fate steal."
@@ -48,7 +48,7 @@
     "enGuide": "During the escape timer, detour into the room that was previously blocked. Move Shu adjacent, steal Fate from Grovis, then defeat him before continuing toward the submarine."
   },
   {
-    "simpleJp": "寄り道部屋の宝箱を回収して潜水艦で脱出する",
+    "simpleJp": "寄り道部屋の宝箱を回収する",
     "jpGuide1": "脱出するとミルマーナはクリア。海底油田は消滅する。",
     "jpGuide2": "海底油田脱出",
     "enGuide": "Grab the timing-sensitive treasure in the detour room, then stop exploring and return to the submarine before the timer expires. The Sea Oil Field disappears after escape."

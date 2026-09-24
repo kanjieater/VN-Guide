@@ -98,19 +98,19 @@
   {
     "simpleJp": "サーカスの7つのミニゲームを全て「クリア」ではなく「マスター」する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ミニゲームを全部マスター",
-    "enGuide": "Master all seven circus minigames; simply clearing them is not enough. A Japanese supporting source specifically calls out knife throwing, flyer distribution, and the light game as especially difficult. Minigame mastery carries across NG+."
+    "jpGuide2": "サーカスの7つのミニゲームを全てマスターした後に買えるDJを購入する。というのが発生条件。",
+    "enGuide": "Master all seven circus minigames; simply clearing them is not enough. The directly inspectable Japanese RPG dictionary specifically calls out knife throwing, flyer distribution, and the light game as especially difficult. Minigame mastery carries across NG+."
   },
   {
-    "simpleJp": "「達人ノ書～完～」と「D・J」を購入する",
+    "simpleJp": "ミニゲーム7種を全てマスター後、「D・J」を購入する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
-    "enGuide": "After all seven minigames are mastered, buy 「達人ノ書～完～」 and then 「D・J」 as required by the Japanese ending guide."
+    "jpGuide2": "サーカスの7つのミニゲームを全てマスターした後に買えるDJを購入する。というのが発生条件。",
+    "enGuide": "After all seven minigames are mastered, buy 「D・J」. This is the currently directly inspectable Japanese condition; the prior `達人ノ書～完～` requirement depended on the now-403 FC2 page and is no longer presented as required."
   },
   {
     "simpleJp": "「D・J」購入直後に始まる「サーカスED」を見る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
-    "enGuide": "A Japanese supporting source says buying 「D・J」 after all seven minigames are mastered immediately triggers the Circus Ending regardless of main-story progress; FC2 additionally lists 「達人ノ書～完～」 among the required purchases."
+    "jpGuide2": "本編の進行状況に関係なく、DJ購入後すぐにEDに突入する",
+    "enGuide": "Buying 「D・J」 after mastering all seven minigames immediately triggers the Circus Ending regardless of main-story progress."
   }
 ]

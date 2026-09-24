@@ -12,6 +12,12 @@
     "enGuide": "Defeat Terios."
   },
   {
+    "simpleJp": "選択肢「許すよ」",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "8-3  | 許すよ",
+    "enGuide": "Choose 「許すよ」 here so the walkthrough never leaves a visible story choice unspecified. On this first clear it does not override the ring/final-battle ending split; this answer becomes part of the later 「それぞれの明日」 condition on the qualifying NG+ run."
+  },
+  {
     "simpleJp": "自由行動でピエロに2回話しかけて「火霊のピアス」を入手する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",

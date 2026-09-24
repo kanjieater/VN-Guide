@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "ホルンのリーザの家で戦闘を終える",
+    "simpleJp": "ホルンのリーザの家へ入る",
     "jpGuide1": "リーザの家へ行くと戦闘。",
     "jpGuide2": "ホルン　戦闘",
     "enGuide": "Return to Horn and enter Lieza's house. Win the battle inside before committing to the Lamour overnight event."
@@ -18,7 +18,7 @@
     "enGuide": "Use the outer temple routes first. At the altar, examine it to reveal and press the hidden switch; that opens the central route inward."
   },
   {
-    "simpleJp": "特殊能力禁止区間を直接攻撃中心で突破する",
+    "simpleJp": "特殊能力禁止区間では通常攻撃を使う",
     "jpGuide1": "しばらく特殊能力が使えなくなる",
     "jpGuide2": "特殊能力が使えなくなる",
     "enGuide": "Your special abilities are disabled for this stretch, so rely on normal attacks, positioning, and durable frontliners until abilities return."

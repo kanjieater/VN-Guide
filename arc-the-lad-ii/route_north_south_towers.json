@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "アークを北の塔、エルクを南の塔に入れて2パーティーを作る",
+    "simpleJp": "アークを北の塔に入れる",
     "jpGuide1": "アークが北の塔、エルクが南の塔のパーティーに強制参加",
     "jpGuide2": "キャラ選出(北極：アーク側)／キャラ選出(南極：エルク側)",
     "enGuide": "Form two parties with Ark forced north and Elk forced south. Progress alternates between them; touching an orb in one tower removes an ice obstruction in the other."
@@ -12,7 +12,7 @@
     "enGuide": "Do not leave South Tower 4F without Ice Sword. The towers close permanently after Andel, and this sword is required for normal-game Light Sword synthesis."
   },
   {
-    "simpleJp": "両塔の球体とスイッチを使いながら最上階へ進む",
+    "simpleJp": "片方の塔で球体を調べる",
     "jpGuide1": "ふわふわしている球体を調べると、反対側の塔の氷の塊が消え",
     "jpGuide2": "オブジェを調べ／オブジェに触れる",
     "enGuide": "The towers are a paired puzzle. Touch an orb, switch to the other party, use the newly opened route, then repeat. Check side paths beneath low ceilings for treasure before climbing."

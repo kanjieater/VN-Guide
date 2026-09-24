@@ -16,5 +16,11 @@
     "jpGuide1": "少女はカインにお礼を言ってペインリングを渡し、力尽きた",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Defeat the Incest girl during 4-2 to receive 「過酷な抱擁」 and 「募る思いの告白」. The latter is an important ring skill for strong Pain Ring attacks later."
+  },
+  {
+    "simpleJp": "【任意】自由行動で階段に座る青年に話し続け、「ボンジュール」後に隠しショップへ行く",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "一定回数青年（自由行動時階段に座っている人）に話しかけると会話終了後にボンジュールという。その後ショップへ行くと青年が定員をしている隠しショップになっている（一回のみ）再び訪れるにはまた青年に話しかけ続ければよい",
+    "enGuide": "Wazap confirms the repeat-talk → 「ボンジュール」 hidden-shop trigger. FFSKY gives the practical count as about 40 conversations and notes that the shop sells unusually strong but expensive gear; after using it once, repeat the youth conversations to reopen it."
   }
 ]

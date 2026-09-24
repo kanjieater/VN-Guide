@@ -1,26 +1,26 @@
 [
   {
-    "simpleJp": "ロマリアキメラ研究所へ入る前にセーブする",
+    "simpleJp": "ロマリアキメラ研究所へ入る前に回復・装備・セーブを済ませる",
     "jpGuide1": "ここに乗り込むと長時間セーブできないので注意。",
     "jpGuide2": "キメラ研究所本部",
-    "enGuide": "Prepare before entry; the game cycles through all split parties for an extended sequence."
+    "enGuide": "Do all preparation before entering. The game then cycles through several split parties and does not give you a normal save opportunity for a long stretch."
   },
   {
-    "simpleJp": "各分断パーティの戦闘を進めて全員合流する",
+    "simpleJp": "各分断パーティーの戦闘を順番に終え、全員が合流するまで進める",
     "jpGuide1": "これまでの各パーティーを操作することになる。",
     "jpGuide2": "分断されている一行",
-    "enGuide": "Clear each group's events until the full party reunites."
+    "enGuide": "The game switches you through the previously separated groups. Finish each group's forced battles/events in order; keep going until control returns to the reunited full party."
   },
   {
-    "simpleJp": "合流後、4つの階段の部屋で回復して奥へ進む",
+    "simpleJp": "合流後の4階段部屋で左上のベッドで回復し、戻って右上の階段へ進む",
     "jpGuide1": "左上は回復ポイント",
     "jpGuide2": "左上の部屋に入り、ベッドで回復→戻って右上の部屋に入る",
-    "enGuide": "Use the upper-left recovery room, then take the upper-right path deeper."
+    "enGuide": "In the four-stair room after reunion, take the upper-left route first and use the bed to heal. Return to the hub, then take the upper-right route to continue deeper."
   },
   {
-    "simpleJp": "最深部でガルアーノ本体を倒す",
+    "simpleJp": "最深部では再出現する雑魚を無視し、中央最奥の顔部分を集中攻撃する",
     "jpGuide1": "本体を倒せば勝利。",
     "jpGuide2": "中央一番奥にある顔部分が本体",
-    "enGuide": "Ignore endlessly reappearing support enemies as needed and focus the central rear body to finish the Chimera Lab arc."
+    "enGuide": "The surrounding enemies can reappear. Prioritize the central rear face/body—the actual Galuano core—because destroying it ends the battle."
   }
 ]

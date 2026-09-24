@@ -1,56 +1,56 @@
 [
   {
-    "simpleJp": "空中城へ突入する",
+    "simpleJp": "最終準備後に空中城へ入り、以後の世界帰還不可を確定する",
     "jpGuide1": "一度突入するともとの世界には帰れなくなる",
     "jpGuide2": "空中城突入",
-    "enGuide": "Final point of no return. Enter only after the completion cleanup is finished."
+    "enGuide": "Entering Air Castle is the final world lockout. Only go in after every optional job, bounty, item, and synthesis goal you care about is complete."
   },
   {
-    "simpleJp": "入口付近の敵を倒し、シルバーノアの設備を使えるようにする",
+    "simpleJp": "入口周辺の敵を全滅させ、シルバーノアへ戻れる状態にする",
     "jpGuide1": "入口近くの敵を倒すとシルバーノアに戻れるようになる",
     "jpGuide2": "作戦室が魔改造され、ショップ、鍛冶屋、合成屋、マザークレアなどが駆けつけてくれ",
-    "enGuide": "Inside Air Castle only, Silver Noah provides recovery, save, shop, smith, synthesis, Mother Claire and other services."
+    "enGuide": "Clear the enemies around the entrance first. Doing so restores access to Silver Noah within Air Castle, where you can heal, save, shop, forge, synthesize, and use Mother Claire."
   },
   {
-    "simpleJp": "赤い丸のワープで進み、中間セーブポイントでセーブする",
+    "simpleJp": "赤い丸ワープを順に進み、中間の回復・セーブ地点で必ずセーブする",
     "jpGuide1": "途中に回復・セーブポイントがある",
     "jpGuide2": "空中城6部屋",
-    "enGuide": "This save is also the Arc III conversion checkpoint, so make a durable final save here."
+    "enGuide": "Follow the red circular warps through the early castle. At the mid-castle recovery/save point, make a durable save; this is also the important Arc III conversion checkpoint."
   },
   {
-    "simpleJp": "6つの個人部屋を1人ずつ攻略する",
+    "simpleJp": "6つの個人部屋へ1人ずつ送り、各部屋の戦闘をすべて勝つ",
     "jpGuide1": "6つの部屋があり、それぞれ1人ずつが入れる",
     "jpGuide2": "空中城6部屋",
-    "enGuide": "Choose a suitable character for each room; all six must be cleared."
+    "enGuide": "There are six solo rooms. Choose one suitable character for each and clear the room's fight; all six must be completed before the route opens onward."
   },
   {
-    "simpleJp": "4つの試練部屋を勝ち、中央の水晶を調べる",
+    "simpleJp": "周囲4部屋の試練をすべて勝ち、中央へ戻って石を調べて上の部屋を開く",
     "jpGuide1": "4つの部屋の試練",
     "jpGuide2": "4つの試練は、4つの部屋で戦闘するだけ。／中央の石を調べ、上の部屋に入り戦闘",
-    "enGuide": "Clear all four surrounding trial rooms, then inspect the center crystal to open the route onward."
+    "enGuide": "Clear each of the four surrounding trial rooms. Return to the center only after all four are done, inspect the central stone/crystal, then enter the newly opened upper room."
   },
   {
-    "simpleJp": "ザルバドを倒す",
+    "simpleJp": "試練後の奥へ進み、ザルバドを倒す",
     "jpGuide1": "その奥でザルバド戦",
     "jpGuide2": "ザルバド戦開始",
-    "enGuide": "This is the last major boss before the final encounter."
+    "enGuide": "Continue through the route opened by the central stone and defeat Zalbad. This is the last major boss before the three-battle final sequence."
   },
   {
-    "simpleJp": "ククル1人で不完全な闇黒の支配者と戦う",
+    "simpleJp": "最終戦1：ククル1人で不完全な闇黒の支配者とのイベント戦を終える",
     "jpGuide1": "ラスボス３連戦が始まる。ククル一人で挑む",
     "jpGuide2": "まずはククル一人で、復活したてで不完全な闇黒の支配者と戦うイベント戦",
-    "enGuide": "The final sequence starts with the mandatory Kukuru-only event battle."
+    "enGuide": "The finale starts with Kukuru alone against the freshly revived, incomplete Dark Ruler. Complete this mandatory event battle to hand control back to the party."
   },
   {
-    "simpleJp": "パーティーで闇黒の支配者の第1形態を倒す",
+    "simpleJp": "最終戦2：ククル以外のパーティーで卵型の闇黒の支配者を倒す",
     "jpGuide1": "闇黒の支配者一戦目。卵型。倒すと２戦目に移行。",
     "jpGuide2": "その後イベントを挟み、次はククル以外のパーティメンバーで戦う",
-    "enGuide": "After the Kukuru event, defeat the first party-fought form."
+    "enGuide": "After the Kukuru event, use the party to defeat the first full boss form—the egg-shaped Dark Ruler. The battle transitions directly into the final form."
   },
   {
-    "simpleJp": "続けて闇黒の支配者の第2形態を倒す",
+    "simpleJp": "最終戦3：続けて闇黒の支配者最終形態を倒し、エンディングまで進める",
     "jpGuide1": "闇黒の支配者２戦目。このゲームのラスボス。",
     "jpGuide2": "闇黒の支配者戦3",
-    "enGuide": "Defeat the final form to reach Arc the Lad II's ending. This is the terminal step of the guide."
+    "enGuide": "There is no world return between phases. Defeat the second/final Dark Ruler form and continue through the ending; this is the guide's terminal step."
   }
 ]

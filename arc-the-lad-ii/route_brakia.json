@@ -1,27 +1,27 @@
 [
   {
-    "simpleJp": "ルワガの戦闘後、左側の家のイベントを進める",
+    "simpleJp": "ルワガ入口戦に勝った後、町左側の家へ入りジンバに話す",
     "jpGuide1": "戦闘後、左側の家にいるジンバと話す。",
     "jpGuide2": "ルワガ　戦闘後、左の家",
-    "enGuide": "Advance the left-house event after the Luwaga battle; Set A identifies the NPC as Jinba."
+    "enGuide": "After the opening Luwaga battle, enter the house on the left side of town and speak to Jinba to advance the local story."
   },
   {
-    "simpleJp": "領主の館を最深部まで進む",
+    "simpleJp": "領主の館は寄り道せず最深部へ進み、奥のイベントを終える",
     "jpGuide1": "目的は最深部に行くことのみ。",
     "jpGuide2": "領主の館",
-    "enGuide": "Clear the manor sequence, then return to Luwaga."
+    "enGuide": "The objective here is simply to reach the deepest room. Clear the mandatory encounters on the way, finish the event at the back, then return to Luwaga."
   },
   {
-    "simpleJp": "グルガの家で話した後、宿屋を経てもう一度グルガの家へ行く",
+    "simpleJp": "グルガの家→宿屋→もう一度グルガの家の順に入り、バンザ山を出現させる",
     "jpGuide1": "もう一度グルガの家に行く。",
     "jpGuide2": "グルガの家→宿屋→グルガの家",
-    "enGuide": "This opens the route to Banza Mountain."
+    "enGuide": "Visit Gurga's house, then the inn, then Gurga's house again. Completing that three-stop sequence opens Banza Mountain."
   },
   {
-    "simpleJp": "バンザ山をトロッコとレバーで登る",
+    "simpleJp": "バンザ山ではレバーで分岐を切り替え、トロッコを乗り継いで上層へ進む",
     "jpGuide1": "レバーはポイント切り替えができ、切り替えるとトロッコのルートが変わる。",
     "jpGuide2": "バンザ山　トロッコ／レバー",
-    "enGuide": "Check alternate mine-cart routes as you progress."
+    "enGuide": "Levers change the mine-cart track points. Toggle them as needed and ride the carts to reach new sections; check alternate cart routes when you want side treasure."
   },
   {
     "simpleJp": "山頂手前でレイガルを倒す",

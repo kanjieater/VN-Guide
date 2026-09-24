@@ -1,75 +1,75 @@
 [
   {
-    "simpleJp": "G#31「ベリンガル笑劇場を警護して欲しい」を完了する",
+    "simpleJp": "G#31：ラムールのギルド隣のベリンガル笑劇場へ行き、発生する戦闘に勝つ",
     "jpGuide1": "ベリンガル笑劇場を警護して欲しい",
     "jpGuide2": "G#31　ベリンガル笑劇場を警護して欲しい",
-    "enGuide": "Complete G#31 here immediately after the earlier Lieza-side work."
+    "enGuide": "Enter Beringal Comedy Theater next to the Lamour guild. Win the battle inside to clear the theater-guard job."
   },
   {
-    "simpleJp": "G#32「ホルンの村に食料を届けて欲しい」を完了する",
+    "simpleJp": "G#32：ラムール酒場のマスターに話し、ホルン入口の戦闘に勝つ",
     "jpGuide1": "ホルンの村に食料を届けて欲しい",
     "jpGuide2": "G#32　ホルンの村に食料を届けて欲しい",
-    "enGuide": "Complete this during the current conservative pre-Monji sweep."
+    "enGuide": "Speak to the Lamour tavern master to take the food delivery, then travel to Horn. Win the battle at the village entrance to complete the delivery."
   },
   {
-    "simpleJp": "G#52「線路の上の岩石取り除き作業」を完了して清算する",
+    "simpleJp": "G#52：バンザ山入口左の線路で岩をすべて押し、穴へ落とす",
     "jpGuide1": "線路の上の岩石取り除き作業",
     "jpGuide2": "G#52　線路の上の岩石取り除き作業",
-    "enGuide": "Push every rock into a hole, not merely off the track; settle the result before continuing the Banza job sequence."
+    "enGuide": "From the Banza Mountain entrance, go left to the railway. Push every rock completely into a hole; merely moving rocks off the track is not enough for full completion. Settle the job afterward."
   },
   {
-    "simpleJp": "G#53「落とした鉱石の収拾」で鉱石20個を集めて大成功にする",
+    "simpleJp": "G#53：バンザ山の全エリアを回って鉱石20個を集め、依頼人へ渡す",
     "jpGuide1": "落とした鉱石の収拾",
     "jpGuide2": "大成功　4000G　8GP　鉱石を20個全て収集",
-    "enGuide": "Collect all 20 before ending the job; settle it before continuing."
+    "enGuide": "Speak to the requester at Banza Mountain, then search every floor and side area for all 20 ore pieces. Return all 20 to the requester for the great-success result."
   },
   {
-    "simpleJp": "G#54「病気を治す草を取ってくる」を大成功で完了して清算する",
+    "simpleJp": "G#54：グーズ酒場の依頼人→バンザ山山頂付近の薬草→依頼人と進める",
     "jpGuide1": "病気を治す草を取ってくる",
     "jpGuide2": "大成功　3000G　7GP　目的の草を入手し、依頼人に渡す",
-    "enGuide": "Get the great-success result and settle it; keep that result for the later child-monster job."
+    "enGuide": "Talk to the requester in the Goose tavern, climb near the top of Banza Mountain and collect the medicinal herb, then bring it back. Preserve the great-success result for later completion routing."
   },
   {
-    "simpleJp": "G#55「ふとっちょのために肉を取ってくる」を完了する",
+    "simpleJp": "G#55：グーズ宿屋右室の依頼人に話し、領主の館最奥左上の肉を取って渡す",
     "jpGuide1": "ふとっちょのために肉を取ってくる",
     "jpGuide2": "G#55　ふとっちょのために肉を取ってくる",
-    "enGuide": "Finish and settle it before attempting the egg chain."
+    "enGuide": "Speak to the requester in the right-hand room of the Goose inn. Go to the deepest room of the Lord's Manor, take the meat from the upper-left, and return it."
   },
   {
-    "simpleJp": "G#56「トロッコ占領のモンスター退治」を完了する",
+    "simpleJp": "G#56：バンザ山左奥へ行き、トロッコを占領しているモンスターを倒す",
     "jpGuide1": "トロッコ占領のモンスター退治",
     "jpGuide2": "G#56　トロッコ占領のモンスター退治",
-    "enGuide": "Complete and settle G#56 before the egg job."
+    "enGuide": "Go to the far-left/deep section of Banza Mountain and defeat the monsters occupying the mine carts. Settle the job before continuing the chain."
   },
   {
-    "simpleJp": "G#57「モンスターの卵を取ってくる」を完了して清算する",
+    "simpleJp": "G#57：宿屋右室の依頼人に話し、バンザ山左奥のモンスターの卵を取って渡す",
     "jpGuide1": "モンスターの卵をとってくる",
     "jpGuide2": "G#57　モンスターの卵を取ってくる",
-    "enGuide": "Complete and settle the egg job immediately after the preceding Banza jobs."
+    "enGuide": "Speak to the requester in the right room of the Goose inn, collect the monster egg from the far-left section of Banza Mountain, and bring it back. Settle the job afterward."
   },
   {
-    "simpleJp": "G#58「子供達がモンスターに！」を完了する",
+    "simpleJp": "G#58：宿屋右室の依頼人→酒場の医者→依頼人と進め、治療薬を渡す",
     "jpGuide1": "子供達がモンスターに！",
     "jpGuide2": "G#54を大成功で終了＆清算していなければ攻略不可",
-    "enGuide": "Finish this at the end of the Banza chain after preserving the earlier G#54 great-success result."
+    "enGuide": "Speak to the requester in the right room of the inn, then talk to the doctor in the tavern to obtain the medicine. Return the medicine to the requester to cure the children and finish the chain."
   },
   {
-    "simpleJp": "G#43「おじいさんを捜してください」を完了する",
+    "simpleJp": "G#43：ミスロ東側の依頼人→南西の老人→依頼人→老人→依頼人の順に話す",
     "jpGuide1": "おじいさんを捜してください",
     "jpGuide2": "G#43　おじいさんを捜してください",
-    "enGuide": "Begin the Misro cleanup while your levels are appropriate."
+    "enGuide": "Start at the requester's house on the east side of Misro. Talk to the old man in the southwest house, return to the requester, go back to the old man, then report to the requester one final time."
   },
   {
-    "simpleJp": "G#44「謎のモンスター闘技場占拠」を完了する",
+    "simpleJp": "G#44：ミスロ闘技場入口の受付に話し、8体のネクダスから本物を倒す",
     "jpGuide1": "謎のモンスター闘技場占拠",
     "jpGuide2": "G#44　謎のモンスター闘技場占拠",
-    "enGuide": "Complete this during the current conservative pre-Monji sweep."
+    "enGuide": "Talk to the arena receptionist to begin the fight. Eight Nekudas appear at once; the battle only ends when the real one is defeated, so keep eliminating copies until you hit the genuine target."
   },
   {
-    "simpleJp": "G#45「闘技場モンスター反乱」を完了する",
+    "simpleJp": "G#45：ミスロ闘技場入口の受付に話し、上へ進みながら出現する敵を全滅させる",
     "jpGuide1": "闘技場モンスター反乱",
     "jpGuide2": "G#45　闘技場モンスター反乱",
-    "enGuide": "Clear the follow-up arena job immediately after G#44."
+    "enGuide": "Speak to the arena receptionist, then advance upward through the arena as new enemies appear. Defeat every monster to clear the rebellion."
   },
   {
     "simpleJp": "バンザ山西側でギャロップから「マッドビルダー」を盗んで討伐する",

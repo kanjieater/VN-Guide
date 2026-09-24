@@ -1,21 +1,21 @@
 [
   {
-    "simpleJp": "遺跡ダンジョンB50の大きな玉座を調べる",
+    "simpleJp": "【コンバート】遺跡ダンジョンB50で大きな玉座を調べ、出現した階段を降りる",
     "jpGuide1": "B50にある大きな玉座を調べると、階段が出現",
     "jpGuide2": "50Fの玉座の下に隠された深層",
-    "enGuide": "Converted Arc I Choko data only. If the stairway does not appear, this continuation is unavailable on the current save."
+    "enGuide": "This only works on a converted file with the required Choko state. Inspect the large throne on B50; if the hidden stairway appears beneath it, descend to the conversion-only deep floors."
   },
   {
-    "simpleJp": "遺跡ダンジョンB51からB71まで進む",
+    "simpleJp": "B51以降を降り続け、B71まで到達する",
     "jpGuide1": "遺跡ダンジョンのB51以降に進む",
     "jpGuide2": "B71Fまでという更なる深層",
-    "enGuide": "Use Choko's shortcut to reach B50 quickly, then descend through the conversion-only floors."
+    "enGuide": "Use Choko's Ruins shortcut to return to B50 when available, then descend through the hidden B51–B71 section. Prepare for a forced split battle at the bottom."
   },
   {
-    "simpleJp": "B71でちょこ対アクラと別働隊戦を進める",
+    "simpleJp": "B71でちょこはアクラと一騎討ちし、別働隊で周囲の敵を倒して合流する",
     "jpGuide1": "ちょこは強制参加で、アクラとの一騎討ち",
     "jpGuide2": "ちょこは強制参加でアクラとの一騎討ち",
-    "enGuide": "The rest of the party fights the adds. Once they are defeated, everyone can reunite against Akura."
+    "enGuide": "Choko is forced into the duel with Akura while the rest of the party fights the surrounding enemies separately. Clear the adds so the groups can reunite, then finish Akura."
   },
   {
     "simpleJp": "アクラを倒し「かくせい」「ヴァニッシュ」を修得する",

@@ -6,16 +6,16 @@
     "enGuide": "Do this immediately; it is an easy one-time pickup."
   },
   {
-    "simpleJp": "酒場でシャンテに話し、ジーン襲撃戦を終える",
+    "simpleJp": "酒場でシャンテに話し、続くジーン戦でジーンを倒す",
     "jpGuide1": "ジーンを倒すと勝ち。",
     "jpGuide2": "ジーン戦1戦目",
-    "enGuide": "Advance the Shante/Jean story after returning from Yagos."
+    "enGuide": "Talk to Shante in the tavern to trigger Jean's attack. Focus Jean; defeating him ends the battle."
   },
   {
-    "simpleJp": "ガルアーノの屋敷で右端の部屋から鍵を取る",
+    "simpleJp": "ガルアーノの屋敷で最初の分岐を右へ進み、右端の部屋で鍵を取る",
     "jpGuide1": "最初から右端の部屋にある。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Ignore the misleading left-room hint and take the key from the rightmost room."
+    "enGuide": "Inside Galuano's mansion, ignore the misleading left-room hint. The key is in the rightmost room from the first accessible branch; take it before pushing deeper."
   },
   {
     "simpleJp": "大講堂でガルアーノを倒す",
@@ -24,9 +24,9 @@
     "enGuide": "Finish the mansion sequence."
   },
   {
-    "simpleJp": "ユドの村のヴィルマー宅でヂークベックを仲間にする",
+    "simpleJp": "ユドの村のヴィルマー宅へ行き、イベントを進めてヂークベックを仲間にする",
     "jpGuide1": "ヂークベックが仲間になる。",
     "jpGuide2": "仲間にできるのは西アルディアに行けるようになってから。",
-    "enGuide": "This optional permanent recruit is now available; visit Vilmer's house in Yudo Village."
+    "enGuide": "Return to Yudo Village and enter Vilmer's house. After the conversation/event there, Diekbeck becomes a permanent recruit."
   }
 ]

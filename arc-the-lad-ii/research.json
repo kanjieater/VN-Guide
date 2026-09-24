@@ -14,7 +14,7 @@
       "Set A is the directly inspectable Japanese ちょこた/みどりすたいる walkthrough family.",
       "Set B is the independent Japanese アークザラッド２ データまとめ Wiki* family, using timing, region, boss, bounty, character, item, and guild-job pages as a composite verification set.",
       "Sony's Japanese PlayStation Blog is authoritative for the 2018 domestic PlayStation Classic target. A directly inspected Japanese PlayStation Classic hands-on report confirms Arc I and Arc II share virtual memory-card data and conversion works.",
-      "The PlayStation Classic title has no standalone retail package; cover_url uses Sony's Arc II image from the exact PlayStation Classic announcement page rather than substituting a different retail edition cover."
+      "The PlayStation Classic build has no standalone package. For presentation, cover_url uses the original Japanese Arc the Lad II retail front cover (SCPS-10026); guide_target remains the 2018 domestic PlayStation Classic release."
     ]
   },
   "completion_scope": {
@@ -305,6 +305,12 @@
       "title": "sayaのゲーム日記（仮） — ロマリア市街の宝箱・お守り",
       "language": "ja",
       "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for the Romalia-city completion window. Records collecting the fixed city treasure and delivering G#23's amulet to the resistance son during the city assault before taking the underground route."
+    },
+    {
+      "url": "https://psxdatacenter.com/games/J/A/SCPS-10026.html",
+      "title": "PSX DataCenter — ARC THE LAD II (SCPS-10026)",
+      "language": "en",
+      "notes": "Presentation-art source for the original Japanese Arc the Lad II retail front cover. This does not change the PlayStation Classic guide target."
     }
   ],
   "generated_at": "2026-09-23T16:16:00+00:00"

@@ -1,21 +1,21 @@
 [
   {
-    "simpleJp": "最初にピラミッドの砂嵐を確認してからムハドへ行く",
+    "simpleJp": "最初にピラミッドへ行って砂嵐イベントを見てからムハドへ移動する",
     "jpGuide1": "まずはピラミッドへ行って砂嵐を見てからムハドへ。",
     "jpGuide2": "バルバラード編開始",
-    "enGuide": "The sandstorm is the story trigger for Muhad."
+    "enGuide": "Visit the Pyramid first even though you cannot enter. Watching the sandstorm event is what advances the story and makes the Muhad investigation relevant."
   },
   {
-    "simpleJp": "ムハドでギルド→酒場の順に話す",
+    "simpleJp": "ムハドでギルド関係者に話し、その後酒場へ行ってラタに話す",
     "jpGuide1": "ギルドにいるラタと話した後…今度は酒場へ",
     "jpGuide2": "ギルド…マスターに話した後→酒場…NPC(ラタ)に話しかける",
-    "enGuide": "Follow the jointly supported guild → tavern sequence; the sources differ on whether Rata is the guild contact or the tavern contact."
+    "enGuide": "Use the jointly supported location order: guild first, tavern second. The sources disagree about whether Rata is the guild contact or tavern contact, so simply exhaust the guild conversation, then speak to Rata in the tavern."
   },
   {
-    "simpleJp": "カナラ砂漠でレイブンを倒して「見逃す」を選ぶ",
+    "simpleJp": "カナラ砂漠でレイブンを倒し、戦後の選択肢で必ず「見逃す」を選ぶ",
     "jpGuide1": "「見逃す」を選ぶと「エメラルド」をもらえる。",
     "jpGuide2": "レイブンイベントで「見逃す」を選ぶと「エメラルド」を入手",
-    "enGuide": "Use the exact choice 見逃す for the Emerald reward."
+    "enGuide": "Win the Raven battle, then choose the exact option 「見逃す」. That choice gives the Emerald reward."
   },
   {
     "simpleJp": "G#46「指輪探し」を受けておく",
@@ -24,16 +24,16 @@
     "enGuide": "It is now available; taking it before further desert travel is efficient."
   },
   {
-    "simpleJp": "テュケの洞窟でグァルデから「エンジェルクライム」を盗んで討伐する",
+    "simpleJp": "テュケの洞窟でグァルデ戦に入ったらシュウで「エンジェルクライム」を盗み、その後倒す",
     "jpGuide1": "手配モンスター「グァルデ」を倒して奥へ進む",
     "jpGuide2": "グァルデ　エンジェルクライム",
-    "enGuide": "Bring Shu. This story encounter is easy to miss as a unique steal because there is no party reselect at contact."
+    "enGuide": "There is no convenient party reselect at contact, so bring Shu before entering the encounter. Steal Angel Crime from Gualde first, then finish the fight."
   },
   {
-    "simpleJp": "サリュ族のキャンプでナムのテントへ行く",
+    "simpleJp": "サリュ族のキャンプ右上のテントへ入り、ナムのイベントを終える",
     "jpGuide1": "ナムのテントでイベント発生。",
     "jpGuide2": "マップ右上のテントに入りイベント進行",
-    "enGuide": "Ark temporarily leaves the party."
+    "enGuide": "Enter the tent at the upper-right of the Saryu camp to trigger Nam's event. Ark temporarily leaves during the following sequence."
   },
   {
     "simpleJp": "ピラミッド外観のイベント戦を終える",

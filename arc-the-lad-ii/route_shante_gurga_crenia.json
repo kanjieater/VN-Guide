@@ -6,22 +6,22 @@
     "enGuide": "Equip Gurga before the fight; he initially lacks armor."
   },
   {
-    "simpleJp": "クレニアで闘技場イベントを決勝まで進める",
+    "simpleJp": "クレニアで宿屋と闘技場を往復し、決勝戦まで勝ち進む",
     "jpGuide1": "闘技場と宿屋を往復することになる。",
     "jpGuide2": "宿屋→闘技場",
-    "enGuide": "Alternate between the inn and arena until the finals are complete."
+    "enGuide": "Return to the inn between arena rounds as the story directs, then re-enter the arena. Repeat this loop until the finals are complete."
   },
   {
-    "simpleJp": "決勝後、宿屋でイベントを進める",
+    "simpleJp": "決勝後に宿屋へ戻り、部屋でひらひら動く紙を調べる",
     "jpGuide1": "ひらひらと動いている紙を調べるとイベントが進行する。",
     "jpGuide2": "宿屋に戻ってイベント",
-    "enGuide": "Advance the post-finals inn event; Set A identifies the moving paper as the interaction."
+    "enGuide": "After the final, return to the inn room. Examine the visibly fluttering sheet of paper to trigger the next event."
   },
   {
-    "simpleJp": "無人の館を右側の部屋経由で突破する",
+    "simpleJp": "無人の館は2部屋分岐で右へ進み、出口を塞ぐ戦闘に勝つ",
     "jpGuide1": "２つの部屋があるところでは右に進む。",
     "jpGuide2": "無人の館　右上の部屋に入りイベント",
-    "enGuide": "Clear the blocked-exit battle and return to Crenia."
+    "enGuide": "The mansion is mostly linear. At the room with two choices, take the right-hand route; later, win the battle that blocks the exit, watching the Night Master's high attack."
   },
   {
     "simpleJp": "クレニアの宿を出て編を終える",

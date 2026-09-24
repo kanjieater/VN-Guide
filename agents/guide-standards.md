@@ -133,6 +133,9 @@ For an opted-in non-VN walkthrough only, `simpleJp` is the short Japanese instru
 - When the game presents literal choice/menu/action text, preserve that exact in-game text.
 - For navigation, battles, conversations, pickups, preparation, or other actions that have no single on-screen command string, a concise author-written Japanese instruction is allowed.
 - Keep one actionable instruction per step. Do not add a new step schema or `stepType` field.
+- A walkthrough instruction must be **executable**, not merely name an objective. `G#17を完了する`, `ダンジョンを攻略する`, or similar labels are insufficient when the source provides concrete actions.
+- For a multi-stage job/quest, either split the route into actionable steps or put a concise ordered procedure in `enGuide`. Include the practical start point, required NPC/object interaction, battle/puzzle condition, and completion/report-back action when the source documents them.
+- Guild/job titles are context labels, not walkthrough directions. Preserve the title if useful, but also tell the player **how to clear it**.
 - This exception does not relax normal VN `simpleJp` rules.
 
 ### Game-walkthrough source coverage

@@ -1,57 +1,57 @@
 [
   {
-    "simpleJp": "G#04「地下から怪しげな歌声が…」を完了する",
+    "simpleJp": "G#04：インディゴス北西のマンホールから下水道へ入り、奥の戦闘に勝つ",
     "jpGuide1": "地下から怪しげな歌声が…",
     "jpGuide2": "G#04　地下から怪しげな歌声が…",
-    "enGuide": "Complete this now as part of the conservative pre-White-House sweep."
+    "enGuide": "Use the northwest Indigos manhole again. Enter the sewer and win the battle inside; the job clears after the fight."
   },
   {
-    "simpleJp": "G#05「廃屋の人形師」を完了する",
+    "simpleJp": "G#05：廃墟の町の廃屋で人形を押して道を作り、2Fでピエール・ベロニカを守って敵を倒す",
     "jpGuide1": "廃屋の人形師",
     "jpGuide2": "G#05　廃屋の人形師",
-    "enGuide": "Continue directly with G#05 in the same sweep."
+    "enGuide": "Go to the abandoned house in Ruined Town. Push the dolls out of the way to make a path; if you block yourself, use the reset command. On 2F, protect Pierre and Veronica while defeating the enemies."
   },
   {
-    "simpleJp": "G#06「廃墟の謎の集団」を完了する",
+    "simpleJp": "G#06：廃墟の町へ行き、戦闘でピエール・ベロニカを倒す",
     "jpGuide1": "廃墟の謎の集団",
     "jpGuide2": "G#06　廃墟の謎の集団",
-    "enGuide": "Continue directly with G#06; this also preserves the result used by later completion routing."
+    "enGuide": "Return to Ruined Town and trigger the battle. Defeat Pierre and Veronica to finish the job."
   },
   {
-    "simpleJp": "G#08「無人の酒場で毎夜ピアノの音が…」を完了する",
+    "simpleJp": "G#08：インディゴス酒場のマスターに話し、夜の戦闘に勝つ",
     "jpGuide1": "無人の酒場で毎夜ピアノの音が…",
     "jpGuide2": "G#08　無人の酒場で毎夜ピアノの音が…",
-    "enGuide": "Do this now in the same pre-White-House sweep."
+    "enGuide": "Talk to the Indigos tavern master. The event advances to night and a battle starts; win it to clear the job. Afterward, showing Shante to the master and re-entering the tavern gives an optional Rapier."
   },
   {
-    "simpleJp": "G#11「インディゴウィスキー運び」を完了する",
+    "simpleJp": "G#11：プロディアス酒場→インディゴス酒場の順にマスターへ話し、外で起きる戦闘に勝つ",
     "jpGuide1": "インディゴウイスキー運び",
     "jpGuide2": "G#11　インディゴウィスキー運び",
-    "enGuide": "Complete this in the current sweep before resuming the main route."
+    "enGuide": "Speak to the Prodius tavern master, then go to the Indigos tavern and get the whiskey from its master. Leave the tavern and win the battle outside to finish the delivery."
   },
   {
-    "simpleJp": "G#12「迷子の子供捜し」を完了する",
+    "simpleJp": "G#12：プロディアス酒場の老人から特徴を聞き、エルクのアパートにいる子供を見つける",
     "jpGuide1": "迷子の子供捜し",
     "jpGuide2": "G#12　迷子の子供捜し",
-    "enGuide": "Complete this in the current sweep before resuming the main route."
+    "enGuide": "Talk to the old man in the Prodius tavern to learn what the missing child looks like. Several children resemble the description, but the correct child is inside Elk's apartment."
   },
   {
-    "simpleJp": "G#14「空き屋敷のモンスター退治」を完了する",
+    "simpleJp": "G#14：プロディアスの空き家6区画にいる敵を全滅させ、ミスター・デックスへ報告する",
     "jpGuide1": "空き屋敷のモンスター退治",
     "jpGuide2": "G#14　空き屋敷のモンスター退治",
-    "enGuide": "Start the three-job Prodius sequence here."
+    "enGuide": "Enter the empty house and clear every enemy group: the four small rooms, the center, and the back room. Report to Mr. Dex after all six areas are cleared."
   },
   {
-    "simpleJp": "G#15「大泥棒から財産を守って欲しい」を完了する",
+    "simpleJp": "G#15：空き家奥から4つの小部屋を回り、宝を盗まれる前に敵を倒す",
     "jpGuide1": "大泥棒から財産を守ってほしい",
     "jpGuide2": "G#15　大泥棒から財産を守って欲しい",
-    "enGuide": "Continue the Prodius sequence immediately."
+    "enGuide": "Start in the rear room of the empty house, then visit all four small rooms. Defeat the thieves before they can steal the treasure; the source notes roughly the first three turns are safely within the limit."
   },
   {
-    "simpleJp": "G#16「リベンジ・オブ・ザ・女泥棒」を完了する",
+    "simpleJp": "G#16：ミスター・デックスの館の奥へ行き、発生する戦闘に勝つ",
     "jpGuide1": "リベンジ・オブ・ザ・女泥棒",
     "jpGuide2": "G#16　リベンジ・オブ・ザ・女泥棒",
-    "enGuide": "Finish the Prodius sequence now; the Empty House becomes useful afterward."
+    "enGuide": "Go to the back room of Mr. Dex's mansion. The revenge encounter starts there; win the battle to clear the job."
   },
   {
     "simpleJp": "空き家でティアヌスから「うににゃんそーど」を盗んで討伐する",

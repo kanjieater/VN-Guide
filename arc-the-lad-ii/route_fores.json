@@ -1,27 +1,27 @@
 [
   {
-    "simpleJp": "ホルンのリーザの家で戦闘を終える",
+    "simpleJp": "ホルンのリーザの家へ行き、家の中で発生する戦闘に勝つ",
     "jpGuide1": "リーザの家へ行くと戦闘。",
     "jpGuide2": "ホルン　戦闘",
-    "enGuide": "Finish all desired free-world cleanup before the next step."
+    "enGuide": "Return to Horn and enter Lieza's house. Win the battle inside before committing to the Lamour overnight event."
   },
   {
-    "simpleJp": "ラムール宿屋で「勝手に泊まる」を選ぶ",
+    "simpleJp": "ラムール宿屋で「勝手に泊まる」を選び、フォーレス固定区間を開始する",
     "jpGuide1": "「勝手に泊まる」を選ぶとイベント開始。",
     "jpGuide2": "宿屋で夜にするとクリアまで出国できない",
-    "enGuide": "This commits you to Fores until Ghia Temple is cleared."
+    "enGuide": "At the Lamour inn choose 「勝手に泊まる」. This starts the locked Fores segment; you cannot leave the country normally until Ghia Temple is cleared."
   },
   {
-    "simpleJp": "ギーア寺院で祭壇の隠しスイッチを押す",
+    "simpleJp": "ギーア寺院外周を回り、祭壇を調べて隠しスイッチを押して中央ルートを開く",
     "jpGuide1": "祭壇を調べ、、隠しスイッチを押すと中に入れる。",
     "jpGuide2": "ギーア寺院　隠しスイッチ",
-    "enGuide": "Use the outer routes first, then open the central path."
+    "enGuide": "Use the outer temple routes first. At the altar, examine it to reveal and press the hidden switch; that opens the central route inward."
   },
   {
-    "simpleJp": "特殊能力禁止区間を直接攻撃中心で突破する",
+    "simpleJp": "特殊能力が封じられた区間は通常攻撃中心で進み、解除地点まで突破する",
     "jpGuide1": "しばらく特殊能力が使えなくなる",
     "jpGuide2": "特殊能力が使えなくなる",
-    "enGuide": "Bring strong physical attackers for this section."
+    "enGuide": "Your special abilities are disabled for this stretch, so rely on normal attacks, positioning, and durable frontliners until abilities return."
   },
   {
     "simpleJp": "最上部で教皇を倒す",

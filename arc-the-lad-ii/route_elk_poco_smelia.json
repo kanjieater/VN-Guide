@@ -1,15 +1,15 @@
 [
   {
-    "simpleJp": "エルクの夢で「炎の剣」を入手するまで粘る",
+    "simpleJp": "エルクの夢の戦闘で「炎の剣」が出るまでやり直して入手する",
     "jpGuide1": "「光の剣」の材料になる「炎の剣」",
     "jpGuide2": "本編ではエルクの夢での戦闘一回きりしか獲得チャンスがない",
-    "enGuide": "This is the normal-game one-time chance for the Flame Sword, later used to synthesize the Light Sword. Retry the dream battle if needed."
+    "enGuide": "The dream battle is the normal-game one-time chance for Flame Sword. If it does not drop, reload/retry the dream encounter before continuing."
   },
   {
-    "simpleJp": "パレンシア城跡を地下バイオ研究所まで進む",
+    "simpleJp": "パレンシア城跡を下へ進み、地下バイオ研究所のイベント後にリーフオーブで脱出する",
     "jpGuide1": "ポコが仲間に。",
     "jpGuide2": "パレンシア城地下脱出",
-    "enGuide": "Poco joins during the castle-ruins sequence; use the Leaf Orb after the underground event."
+    "enGuide": "Work through the castle ruins until the underground bio lab event. Poco joins during this sequence; after the underground event, use the Leaf Orb to exit cleanly."
   },
   {
     "simpleJp": "パレンシア到着後、早めに露店を確認する",
@@ -18,9 +18,9 @@
     "enGuide": "Check the robe stall immediately. Set A says it is initial-arrival-only; Set B says it can reopen when leaving the bar during this segment, so the exact availability is disputed."
   },
   {
-    "simpleJp": "パレンシアタワー地下を突破する",
+    "simpleJp": "パレンシアタワー右下から地下へ入り、スイッチで扉を開けながら最奥まで進む",
     "jpGuide1": "右下のほうから地下へ。扉をスイッチで開きながら進む。",
     "jpGuide2": "すぐ右の通路を通って地下へ",
-    "enGuide": "Progress through the underground tower and finish Elk/Poco's segment."
+    "enGuide": "Use the lower-right route to enter the tower basement. Open each blocked door with its nearby switch and continue until the Elk/Poco segment ends."
   }
 ]

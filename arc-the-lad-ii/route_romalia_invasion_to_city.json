@@ -1,26 +1,26 @@
 [
   {
-    "simpleJp": "クズ鉄の町で2回の戦闘を終え、酒場でダニーにトッシュかシュウを表示して話す",
+    "simpleJp": "クズ鉄の町で2戦を終え、酒場でトッシュかシュウを表示してダニーに話す",
     "jpGuide1": "ダニーにトッシュかシュウを表示して話しかける",
     "jpGuide2": "操作キャラをトッシュにする、その後ダニーに話しかけイベント",
-    "enGuide": "Follow Danny to the resistance hideout and clear the fight there."
+    "enGuide": "Clear the two Scrap Town fights, then enter the tavern. Display Tosh or Shu before talking to Danny; follow him to the resistance hideout and clear the fight there."
   },
   {
-    "simpleJp": "ロマリアトンネルで10ターン耐える",
+    "simpleJp": "ロマリアトンネル防衛戦で10ターン生存し、その後2Fへ進んでTYPE-Aを倒す",
     "jpGuide1": "10ターン持ちこたえる戦闘",
     "jpGuide2": "ロマリアトンネル10ターン耐久戦",
-    "enGuide": "Enemies respawn during the defense. Afterward, continue through 2F and defeat the TYPE-A clones."
+    "enGuide": "The first objective is survival, not extermination: enemies respawn, so hold out for 10 turns. After the defense ends, continue through 2F and defeat the TYPE-A clones."
   },
   {
-    "simpleJp": "ロマリア市街でレジスタンスと合流し、城壁攻略を開始する",
+    "simpleJp": "ロマリア市街を進んでレジスタンスと合流し、最初の防御壁攻略まで進める",
     "jpGuide1": "少し進むとレジスタンスと合流",
     "jpGuide2": "ロマリア",
-    "enGuide": "Once the city-wall assault begins, pause the main route for the G#23 cleanup block before finishing Romalia."
+    "enGuide": "Enter the city and advance until the resistance joins you and the wall-assault phase begins. Stop at that point so you can take G#23 before finishing the city."
   },
   {
-    "simpleJp": "クズ鉄の町ギルドへ戻りG#23「息子にお守りを届けておくれ」を受ける",
+    "simpleJp": "クズ鉄の町ギルドへ戻ってG#23を受け、ショップの赤髪依頼人からお守りを取る",
     "jpGuide1": "息子にお守りを届けておくれ",
     "jpGuide2": "ロマリア城壁攻略開始",
-    "enGuide": "Take G#23 now, then return to the city assault and deliver the amulet before moving on."
+    "enGuide": "Return to the Scrap Town guild and accept G#23. Before going back to Romalia, visit the shop and speak to the red-haired requester to receive the amulet."
   }
 ]

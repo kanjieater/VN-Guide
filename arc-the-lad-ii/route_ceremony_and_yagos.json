@@ -1,9 +1,9 @@
 [
   {
-    "simpleJp": "酒場の夜イベントを終える",
+    "simpleJp": "1500G用意して酒場のマスターに話し、シュウの家で閉店まで休んで夜の酒場戦に勝つ",
     "jpGuide1": "1500G稼いだら酒場へ行ってマスターに話し掛ける。",
     "jpGuide2": "酒場のマスターに話す→アパートへ移動→酒場へ移動",
-    "enGuide": "Earn the required money and finish the closed-bar night event."
+    "enGuide": "Have 1500G, talk to the tavern master, rest in Shu's bed until the tavern closes, then return to the tavern and win the night battle."
   },
   {
     "simpleJp": "プロディアスへ行く",
@@ -24,21 +24,21 @@
     "enGuide": "Entering the ceremony permanently closes the first guild-job window."
   },
   {
-    "simpleJp": "ヤゴス島の封印の遺跡をB2Fまで進む",
+    "simpleJp": "ヤゴス島の封印の遺跡へ入り、B2Fまで進んで一度戻る",
     "jpGuide1": "B2Fまで進めばひとまずクリア。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "This is the first Ruins visit."
+    "enGuide": "On the first Ruins visit, descend only to B2F; reaching B2F completes this pass. The deeper sealed route is handled on the second visit."
   },
   {
-    "simpleJp": "再び封印の遺跡へ入り、最深部でパワーユニットを取る",
+    "simpleJp": "封印の遺跡へ再入場し、監視者の像を向け直しながら最深部のパワーユニットを取りB2Fへ戻る",
     "jpGuide1": "最深部でパワーユニットを入手",
     "jpGuide2": "パワーユニット入手",
-    "enGuide": "Return from the deepest floor to B2F to finish the objective."
+    "enGuide": "On the second visit, descend to the bottom. Gargoyle watcher statues can be rotated; taking watched treasure without turning them triggers battles. Collect the Power Unit at the deepest floor, then return to B2F to finish the objective."
   },
   {
-    "simpleJp": "ユドの村で休み、最後の戦闘を終える",
+    "simpleJp": "ユドの村でベッドに休み、イベント後のニンジャ戦を終える",
     "jpGuide1": "この後からリーザがラヴィッシュを修得可能になる。",
     "jpGuide2": "ヤゴス島出発",
-    "enGuide": "After the beach/village sequence, Lieza can begin learning Ravish and the party returns to East Aldia."
+    "enGuide": "Rest in the bed when prompted to trigger the next event. Afterward, win the ninja battle; from this point Lieza can begin learning Ravish."
   }
 ]

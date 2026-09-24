@@ -1,15 +1,15 @@
 [
   {
-    "simpleJp": "シュウとシャンテでトウヴィルからパレンシアへ向かう",
+    "simpleJp": "トウヴィル西の岸壁でチョピンに話し、神殿のククルに話してパレンシアへ移動する",
     "jpGuide1": "操作するキャラがシュウとシャンテになる。",
     "jpGuide2": "神殿に戻りククルに話しかけパレンシアへ移動",
-    "enGuide": "Begin the first split-party arc and move through Touvil to Palencia."
+    "enGuide": "With Shu and Shante, go to the western dock where Silver Noah is moored and talk to Chopin. Then enter the temple and talk to Kukuru to move the story to Palencia."
   },
   {
-    "simpleJp": "ダウンタウンでペペに依頼する",
+    "simpleJp": "ダウンタウン酒場前の男に話し、酒場のペペに酒をおごって依頼する",
     "jpGuide1": "そのペペに話し、酒をおごって依頼をする。",
     "jpGuide2": "酒場の前の男に話す／酒場に入り、ペペと会話",
-    "enGuide": "Get Pepe's help before heading to Quina Hill."
+    "enGuide": "Talk to the man outside the Downtown tavern to learn about Pepe. Inside, speak to Pepe and buy him a drink so he agrees to help."
   },
   {
     "simpleJp": "クイナの丘で「微かに光る石」を4個集める",
@@ -18,9 +18,9 @@
     "enGuide": "One wyvern in each fight guarantees the stone; collect all four."
   },
   {
-    "simpleJp": "ロマリア戦艦を最深部まで攻略する",
+    "simpleJp": "ロマリア戦艦で各階のスイッチを使って扉を開け、最深部で飛行船を上げて右スイッチを切り替える",
     "jpGuide1": "最深部で飛行船を上げたら、右のスイッチを切り替える。",
     "jpGuide2": "ロマリア戦艦終了",
-    "enGuide": "Use the local switches to open doors and finish the battleship sequence."
+    "enGuide": "Closed doors are controlled by switches on the same floor. In the dark sleeping-soldier room, the left switch opens the door while the right turns on the light and starts a fight. At the deepest area, raise the airship and flip the right-hand switch to finish the sequence."
   }
 ]

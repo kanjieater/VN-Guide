@@ -1,30 +1,30 @@
 [
   {
-    "simpleJp": "G#46：カナラ砂漠で光る指輪の1歩手前に立って調べ、入手後の戦闘に勝つ",
+    "simpleJp": "G#46「指輪探し」を完了する",
     "jpGuide1": "カナラ砂漠へ行き…戦闘に勝てばクリア。",
     "jpGuide2": "G#46　指輪探し",
     "enGuide": "In Kanara Desert, look for the sparkling ring. Stand one tile away facing it and examine forward to pick it up, then win the battle that follows."
   },
   {
-    "simpleJp": "G#47：ムハド宿屋の少女→プロディアスのエルク宅右隣の部屋→少女の順に進み、戦闘に勝つ",
+    "simpleJp": "G#47「迷子の少女」を完了する",
     "jpGuide1": "迷子の少女",
     "jpGuide2": "G#47　迷子の少女",
     "enGuide": "Meet the girl at the Muhad inn, travel to Prodius and enter the room immediately to the right of Elk's apartment, then return to Muhad. Win the resulting battle to clear the job."
   },
   {
-    "simpleJp": "G#48：G#46後にカナラ砂漠へ戻り、発生する戦闘に勝つ",
+    "simpleJp": "G#48「砂漠の神隠し」を完了する",
     "jpGuide1": "「指輪探し」をクリアすると出現。",
     "jpGuide2": "G#48　砂漠の神隠し　＋G#46終了",
     "enGuide": "After Ring Search is complete, return to Kanara Desert. The disappearance event triggers there; win the battle to finish the job."
   },
   {
-    "simpleJp": "G#49：テュケの洞窟右側の部屋へ行き、リヴァイアサンを倒す",
+    "simpleJp": "G#49「あぶない薬」を完了する",
     "jpGuide1": "ピラミッド攻略後、ギルドの仕事「あぶない薬」が発生しているので忘れずに。",
     "jpGuide2": "G#49　あぶない薬　ピラミッド外観戦終了で発生",
     "enGuide": "Go to Tuke Cave and enter the room on the right. Defeat the ordinary Leviathan inside to complete Dangerous Medicine."
   },
   {
-    "simpleJp": "G#10：アルディア橋で「そうでもねえよ」→テュケの洞窟のピエール・ベロニカ→アルディア橋の順に進める",
+    "simpleJp": "G#10「面接試験有、山賊お断り」で「そうでもねえよ」を選ぶ",
     "jpGuide1": "テュケの洞窟にいるピエール・ベロニカに話し、アルディア橋に戻って報告するとクリア。",
     "jpGuide2": "G#10　面接試験有、山賊お断り",
     "enGuide": "At Aldia Bridge, answer the ninja-shaped man with 「そうでもねえよ」. Much later, speak to Pierre and Veronica in Tuke Cave, then return to Aldia Bridge and report to finish the long-running job."

@@ -1,24 +1,24 @@
 [
   {
-    "simpleJp": "スフィンクス6問を「人間→用心棒ジェフリー→ゴッズ→地→鳥→イービルアイ」で答える",
+    "simpleJp": "スフィンクス問題で「人間」→「用心棒ジェフリー」→「ゴッズ」→「地」→「鳥」→「イービルアイ」と答える",
     "jpGuide1": "問題の答えは「人間」「用心棒ジェフリー」「ゴッズ」「地」「鳥」「イービルアイ」",
     "jpGuide2": "スフィンクスのなぞなぞ",
     "enGuide": "Use those answers in order as you move through the Sphinx rooms. Answering correctly opens the route deeper into the Pyramid."
   },
   {
-    "simpleJp": "1F中央の穴は正面右側のマスから落ち、B1の宝箱エリアへ行く",
+    "simpleJp": "1F中央の穴からB1の宝を回収する",
     "jpGuide1": "B1にある宝は、1F中央の穴に落ちると取れる。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "For the optional B1 treasure, approach the central hole from below and step onto the front-right fall tile. Loot the basement area before returning to the main route."
   },
   {
-    "simpleJp": "3F右側の石を押してスイッチをONにし、流砂の向きを変えて最上階へ進む",
+    "simpleJp": "3Fのスイッチで流砂を変えて最上階へ行く",
     "jpGuide1": "3FではスイッチをONにすると流砂の流れを変えて最上階へ行く。",
     "jpGuide2": "3Fの右側の石を押してスイッチをON→流砂の流れを変える",
     "enGuide": "Push the stone on the right side of 3F onto/into the switch position. Turning the switch ON changes the quicksand flow so you can reach the upper floors."
   },
   {
-    "simpleJp": "最上階のカサドール戦前に取り残しを回収し、その後カサドールを倒す",
+    "simpleJp": "最上階でカサドールを倒す",
     "jpGuide1": "倒すとバルバラードはクリア。ピラミッドには入れなくなる。",
     "jpGuide2": "バルバラード編終了",
     "enGuide": "The Pyramid becomes inaccessible after the boss. Use Gogen's Teleport for lower treasure if desired, verify the unique loot, then defeat Casador to end the Barbarad arc."

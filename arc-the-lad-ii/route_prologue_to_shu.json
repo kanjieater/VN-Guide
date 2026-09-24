@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "エルクの家を出てプロディアスのハンターズギルド受付へ行く",
+    "simpleJp": "プロディアスのハンターズギルドへ行く",
     "jpGuide1": "すぐにハンターズギルドへ。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Leave Elk's house and go straight to the Prodius Hunters Guild. Speak at the counter before heading to the airport."
@@ -18,7 +18,7 @@
     "enGuide": "Talk to the rescued hostage after the fight and take the Gale Bandana."
   },
   {
-    "simpleJp": "リーザとパンディット加入後、そのまま飛行船内を追って甲板へ進む",
+    "simpleJp": "リーザとパンディットを加えて追跡する",
     "jpGuide1": "リーザとパンディットが仲間に。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "After Lieza and Paundit join, keep following Alfred through the aircraft. The sequence ends on the deck with the second Alfred fight."
@@ -30,13 +30,13 @@
     "enGuide": "Clear the mandatory second Alfred battle on the aircraft deck before reaching Indigos."
   },
   {
-    "simpleJp": "インディゴスでギルド受付→隣のハンター→酒場マスターの順に話す",
+    "simpleJp": "インディゴスでギルド→酒場の順に話す",
     "jpGuide1": "まずはギルドで話を聞き、その後酒場へ",
     "jpGuide2": "ギルド受付→受付隣のハンター→酒場のマスターの順で会話",
     "enGuide": "At the Indigos guild, speak to the receptionist and then the hunter beside the counter. Go to the tavern and talk to the master to open the ruined-town lead."
   },
   {
-    "simpleJp": "廃墟の町へ行き、リーランドを瀕死にするまで攻撃する",
+    "simpleJp": "廃墟の町でリーランドを倒す",
     "jpGuide1": "リーランドと戦闘。瀕死にすれば勝ち。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Travel to Ruined Town and trigger the Leland battle. You do not need to kill him; reduce him to critical HP to end the fight."
@@ -54,7 +54,7 @@
     "enGuide": "Return to the guild with Lieza's group and speak to the guild master."
   },
   {
-    "simpleJp": "路地裏で増援を倒し続け、イベントが起きるまで耐える",
+    "simpleJp": "路地裏の戦闘を終える",
     "jpGuide1": "敵がどんどん出てくる戦闘に入る。ある程度倒したらイベントが発生する。",
     "jpGuide2": "戦闘処理(路地裏)",
     "enGuide": "In the alley battle, enemies keep appearing. Continue defeating them until the scripted event triggers and ends the encounter."

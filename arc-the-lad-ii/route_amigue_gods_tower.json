@@ -1,9 +1,9 @@
 [
   {
     "simpleJp": "神の塔の6つの三角ワープは左から2番目を選ぶ",
-    "jpGuide1": "6つ並んだ三角ワープは、左から2番目が正解。",
+    "jpGuide1": "6つ並んだ三角ワープは、左から2番目が正解。10Fにある三角ワープに入ると、なぜか入り口に戻される。",
     "jpGuide2": "神の塔",
-    "enGuide": "At the six-triangle warp puzzle, use the second warp from the left. Avoid the wrong triangle that returns you to the entrance."
+    "enGuide": "Use the second of the six aligned triangular warps. Separately, avoid the triangular warp on 10F; that one returns you to the entrance."
   },
   {
     "simpleJp": "11Fは左のスイッチを使う",

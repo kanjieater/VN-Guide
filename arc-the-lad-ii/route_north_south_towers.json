@@ -1,18 +1,18 @@
 [
   {
-    "simpleJp": "アークを北の塔、エルクを南の塔に固定し、残りメンバーを2隊へ分ける",
+    "simpleJp": "アークを北の塔、エルクを南の塔に入れて2パーティーを作る",
     "jpGuide1": "アークが北の塔、エルクが南の塔のパーティーに強制参加",
     "jpGuide2": "キャラ選出(北極：アーク側)／キャラ選出(南極：エルク側)",
     "enGuide": "Form two parties with Ark forced north and Elk forced south. Progress alternates between them; touching an orb in one tower removes an ice obstruction in the other."
   },
   {
-    "simpleJp": "南の塔4Fへ着いたら寄り道して宝箱の「氷の剣」を必ず取る",
+    "simpleJp": "南の塔4Fの宝箱から「氷の剣」を必ず取る",
     "jpGuide1": "南の塔の宝箱から「アイスファング」「氷の剣」",
     "jpGuide2": "南の塔4Fの宝箱／攻略後は再入場不可／光の剣の合成素材",
     "enGuide": "Do not leave South Tower 4F without Ice Sword. The towers close permanently after Andel, and this sword is required for normal-game Light Sword synthesis."
   },
   {
-    "simpleJp": "片方の塔で球体を調べたら反対側へ切り替え、消えた氷壁の先へ進むのを繰り返す",
+    "simpleJp": "両塔の球体とスイッチを使いながら最上階へ進む",
     "jpGuide1": "ふわふわしている球体を調べると、反対側の塔の氷の塊が消え",
     "jpGuide2": "オブジェを調べ／オブジェに触れる",
     "enGuide": "The towers are a paired puzzle. Touch an orb, switch to the other party, use the newly opened route, then repeat. Check side paths beneath low ceilings for treasure before climbing."

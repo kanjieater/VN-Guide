@@ -12,7 +12,7 @@
     "enGuide": "Do not hunt Balzac yet; simply use the keeper/route to reach White House."
   },
   {
-    "simpleJp": "白い家下水道を突破する",
+    "simpleJp": "白い家下水道のスイッチを押す",
     "jpGuide1": "スイッチで扉を開いて進む。",
     "jpGuide2": "白い家到着",
     "enGuide": "Open the sewer doors with the local switches. The ladder surrounded by water is reached during battle by jumping across; use it to continue into White House."
@@ -24,7 +24,7 @@
     "enGuide": "Defeat the central body."
   },
   {
-    "simpleJp": "ミリル救出後の戦闘とエルクの一騎討ちを終える",
+    "simpleJp": "ミリル救出後の次の部屋へ入る",
     "jpGuide1": "その後エルクとボスで一騎討ちになる。",
     "jpGuide2": "実験室戦終了",
     "enGuide": "After rescuing Miril, entering the next room starts another battle. Then Elk fights the boss alone; ranged spear attacks or Charge help avoid dangerous counterattacks."

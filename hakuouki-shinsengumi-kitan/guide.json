@@ -10,14 +10,14 @@
     {
       "id": "hijikata",
       "title": "土方歳三ルート",
-      "stepCount": 112,
+      "stepCount": 117,
       "portrait": "https://t.vndb.org/ch/61/198061.jpg",
       "reviewed": false
     },
     {
       "id": "okita",
       "title": "沖田総司ルート",
-      "stepCount": 103,
+      "stepCount": 102,
       "portrait": "https://t.vndb.org/ch/62/198062.jpg",
       "reviewed": true
     },
@@ -45,28 +45,28 @@
     {
       "id": "nagakura",
       "title": "永倉新八ルート",
-      "stepCount": 120,
+      "stepCount": 119,
       "portrait": "https://t.vndb.org/ch/71/198071.jpg",
       "reviewed": false
     },
     {
       "id": "yamazaki",
       "title": "山崎烝ルート",
-      "stepCount": 104,
+      "stepCount": 99,
       "portrait": "https://t.vndb.org/ch/74/198074.jpg",
       "reviewed": false
     },
     {
       "id": "sannan",
       "title": "山南敬助ルート",
-      "stepCount": 105,
+      "stepCount": 102,
       "portrait": "https://t.vndb.org/ch/72/198072.jpg",
       "reviewed": false
     },
     {
       "id": "iba",
       "title": "伊庭八郎ルート",
-      "stepCount": 99,
+      "stepCount": 98,
       "portrait": "https://t.vndb.org/ch/76/198076.jpg",
       "reviewed": false
     },
@@ -87,7 +87,7 @@
     {
       "id": "kazama",
       "title": "風間千景ルート",
-      "stepCount": 82,
+      "stepCount": 67,
       "portrait": "https://t.vndb.org/ch/67/198067.jpg",
       "reviewed": false
     },

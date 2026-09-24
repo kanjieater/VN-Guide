@@ -1,30 +1,30 @@
 [
   {
-    "simpleJp": "GP250以上を確認してプロディアスギルド奥で「ゴッドハンターの証」を取る",
+    "simpleJp": "プロディアスギルド奥へ行く",
     "jpGuide1": "この依頼を発生させるには、まずGPを250稼いでプロディアスギルドの奥にある「ゴッドハンターの証」を取らなくてはならない。",
     "jpGuide2": "GP250という実績、そしてその証が必要",
     "enGuide": "Check your Guild Points first. Once you have at least 250 GP, enter the back of the Prodius guild and collect the God Hunter proof needed for the final job."
   },
   {
-    "simpleJp": "インディゴスギルド奥で情報を聞き、ミルマーナでG#37「海竜の卵返却」を受ける",
+    "simpleJp": "インディゴスギルド奥の人物に話す",
     "jpGuide1": "「ゴッドハンターの証」を持っていて、かつストーリーがかなり進んでいると、インディゴスギルドの奥の人から情報を得られる。情報通りミルマーナのギルドへ行くとこの依頼を請けられる。",
     "jpGuide2": "南北の塔編終了　空中城突入",
     "enGuide": "Talk to the information contact in the back of the Indigos guild, then travel to Millmana's guild. The Sea Dragon Egg Return job is available there; accept it before Air Castle."
   },
   {
-    "simpleJp": "依頼人→ヴィルマー博士の順に話し、ヤゴス島を出入りして潜水艦を出す",
+    "simpleJp": "ミルマーナ宿屋の依頼人に話す",
     "jpGuide1": "宿屋にいる依頼人に話し、その後ユドの村にいるヴィルマー博士と話す。一度島を出てから戻ってくるとヤゴス島マップに「潜水艦」が出現する。",
     "jpGuide2": "一旦ヤゴス島から飛び立ち、再び訪れるとマップに潜水艦が出現",
     "enGuide": "Take the egg from the requester at the Millmana inn, then talk to Vilmer on Yagos Island. Leave the island once and return; the submarine then appears on the island map."
   },
   {
-    "simpleJp": "海底神殿では卵を絶対に渡さず最深部まで守る",
+    "simpleJp": "卵を渡すよう求められたら拒否する",
     "jpGuide1": "海底神殿に入ってからは、何度か卵を渡すように言われるが、決して渡してはいけない。最深部まで卵を守りきれればクリア。",
     "jpGuide2": "戦闘は計三回。二回目はすぐに戦闘に突入する",
     "enGuide": "Never surrender the egg when a hand-over prompt appears. There are three fights total; the second encounter begins immediately without a choice. Win all three and carry the egg to the nest at the deepest point."
   },
   {
-    "simpleJp": "G#37を清算してから海底神殿東側の追加試練を終える",
+    "simpleJp": "G#37をギルドで清算する",
     "jpGuide1": "クリア後、清算してからもう一度潜水艦を動かそうとすると、神殿の東側から入れるようになるが、ヂークベックを表示しないと中には入れない。",
     "jpGuide2": "最強最後のパワーユニット、Ｐリバースを入手",
     "enGuide": "Settle G#37 first, then return by submarine with Diekbeck displayed. Take the east-side extension, clear its trials, and collect P-Reverse at the end."

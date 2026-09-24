@@ -1,18 +1,18 @@
 [
   {
-    "simpleJp": "モレア酒場の2人組に話し、依頼確認で「よろしく頼む」を選ぶ",
+    "simpleJp": "モレア酒場の2人組に話して「よろしく頼む」を選ぶ",
     "jpGuide1": "「よろしく頼む」を選ぶ。",
     "jpGuide2": "右の酒場…イベント／よろしく頼む",
     "enGuide": "Enter the Morea tavern, speak to the pair involved in the opening event, and choose 「よろしく頼む」 when prompted."
   },
   {
-    "simpleJp": "長老の家前で右側のブラザーに話し、必要ならもう1人にも話して中へ入る",
+    "simpleJp": "長老の家の前でイベントを進める",
     "jpGuide1": "長老の家の前にいる2人に話すと中に入れる。",
     "jpGuide2": "階段上の右ブラザーに話しかけイベント",
     "enGuide": "At the elder's house, speak to the right-side brother first; Set A says speaking to both people outside opens the house. Once the entrance event completes, go inside."
   },
   {
-    "simpleJp": "長老に話して10000Gを払い、神の塔へ入る許可を受ける",
+    "simpleJp": "長老に10000G払って神の塔の許可を得る",
     "jpGuide1": "10000Gを請求される。払わないと先へ進めない",
     "jpGuide2": "長老から神の塔に登る許可を得る",
     "enGuide": "Speak to the elder and pay the required 10,000G. Receiving permission unlocks God's Tower; stop before entering so you can clear the Amigue jobs first."

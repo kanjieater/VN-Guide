@@ -1,12 +1,12 @@
 [
   {
-    "simpleJp": "未コンバートなら遺跡ダンジョンをB50まで降り、ちょこを倒す",
+    "simpleJp": "未コンバートなら遺跡ダンジョンB50でちょこを倒す",
     "jpGuide1": "遺跡ダンジョンのB50へ行き、ちょこを倒す。",
     "jpGuide2": "遺跡ダンジョンをB50Fまで踏破",
     "enGuide": "On a normal Arc II file, descend all the way to Ruins Dungeon B50 and defeat Choko there. If converted Arc I data already brought Choko over, skip this fight."
   },
   {
-    "simpleJp": "時の森を「左→下→右→上→左→右→上→上」で抜けてトココの村へ行く",
+    "simpleJp": "クレニア島の時の森を抜けてトココの村へ行く",
     "jpGuide1": "左→下→右→上→左→右→上→上",
     "jpGuide2": "時の森にて正しい抜け方でトココの村に行く必要がある",
     "enGuide": "Use the forest route exactly in that order to reach Tokoko Village. On a normal file this route becomes relevant after the B50 Choko recruitment."
@@ -18,7 +18,7 @@
     "enGuide": "Complete the overnight event. Set A identifies the literal answer as 「はい」."
   },
   {
-    "simpleJp": "村ではちょこに話しかけて歩かせ、追い越さずに村→森→墓地の案内について行く",
+    "simpleJp": "ちょこを追い越さず、話しかけながら案内について行く",
     "jpGuide1": "ちょこに話し掛ければ大抵歩いていくので、それを追いかける",
     "jpGuide2": "トココの村にてイベントを完遂することで仲間にできる",
     "enGuide": "Whenever Choko stops, talk to her so she continues walking. Follow behind rather than running ahead through the village/forest/cemetery tour; finishing the guided event recruits her."

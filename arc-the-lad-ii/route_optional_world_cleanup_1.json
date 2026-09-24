@@ -24,75 +24,93 @@
     "enGuide": "Simply entering the shop after world travel opens adds Odon."
   },
   {
-    "simpleJp": "G#17「モンスターを殺してください」をすぐ大成功で完了する",
-    "jpGuide1": "モンスターを殺してください",
+    "simpleJp": "エルクのアパート隣室へ行く",
+    "jpGuide1": "エルクのアパートの隣の部屋へ行く。イベント後、ヤゴス島のヴィルマーに会った後、ヤゴス島マップ上方のジンバラの風穴でジンバラを倒す。ヴィルマーの所へ戻るとイベント完了。",
     "jpGuide2": "G#17は…大成功には速やかな解決が求められる。",
-    "enGuide": "Prioritize this before starting the next country arc; its best result depends on prompt completion."
+    "enGuide": "Go to the room beside Elk's apartment to start the event. Visit Vilmer on Yagos Island, then go to Jinbara Cave on the upper part of the island map and defeat Jinbara. Return to Vilmer to finish; do this promptly for the best result."
   },
   {
-    "simpleJp": "G#18「私をインディゴスに連れてって」を大成功で完了する",
-    "jpGuide1": "私をインディゴスに連れてって",
+    "simpleJp": "アルディア橋へ行く",
+    "jpGuide1": "アルディア橋へ行く（行かなくては通れない）と戦闘になる。「斧使い」マーグを倒すとクリア。",
     "jpGuide2": "大成功　3500G　6GP　「斧使い」マーグを撃破する",
-    "enGuide": "Aim for great success here and preserve that result for the later G#10 completion route."
+    "enGuide": "Travel toward Indigos through Aldia Bridge; the escort battle starts automatically. Defeat the axe user Maag to clear the job. Aim for the great-success result."
   },
   {
-    "simpleJp": "G#19「辻斬り御用」で「観念して法の裁きを受けるんだな」を選ぶ",
-    "jpGuide1": "辻斬り御用",
+    "simpleJp": "アルディア橋で囮を1人選ぶ",
+    "jpGuide1": "アルディア橋へ行く。エルクとシュウ以外のキャラから囮を選び、選んだキャラがLv48のブラックナイトと戦闘になる。勝った後、「観念して法の裁きを受けるんだな」を選択するとクリア。",
     "jpGuide2": "G#19　辻斬り御用",
-    "enGuide": "Appears after G#18 finishes."
+    "enGuide": "At Aldia Bridge, choose any decoy except Elk or Shu. That character duels a Lv48 Black Knight alone. Win, then choose 「観念して法の裁きを受けるんだな」 to complete the job."
   },
   {
-    "simpleJp": "G#09「続・インディゴス宝石強盗団」を完了する",
-    "jpGuide1": "続・インディゴス宝石団",
+    "simpleJp": "「観念して法の裁きを受けるんだな」を選ぶ",
+    "jpGuide1": "「観念して法の裁きを受けるんだな」を選択するとクリア。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After winning the Black Knight duel, choose this exact response to complete G#19."
+  },
+  {
+    "simpleJp": "インディゴスの宝石店へ行く",
+    "jpGuide1": "前回の「インディゴス宝石団」と要領は同じ。ただ、マップが広く敵が多いので注意。さらに敵のジャンプレベルが2になっているので、すばやく倒す必要がある。",
     "jpGuide2": "G#09　続・インディゴス宝石強盗団",
-    "enGuide": "Complete this sequel job now while the earlier G#03 result is still available to the chain."
+    "enGuide": "This sequel uses the same setup as G#03 but on a larger map with more mobile enemies. Return to the Indigos jewelry shop, let the night battle start, block the escape route, and defeat the robbers before they flee."
   },
   {
-    "simpleJp": "G#13「武器ドロボウ退治」を完了する",
-    "jpGuide1": "武器ドロボウ退治",
+    "simpleJp": "プロディアスの鍛冶屋店主に話す",
+    "jpGuide1": "鍛冶屋の店主に話す。夜になったら戦闘になり、勝つとクリア。",
     "jpGuide2": "G#13　武器ドロボウ退治",
-    "enGuide": "This also opens the Prodius blacksmith's members-only shop."
+    "enGuide": "Talk to the Prodius blacksmith. The event advances to night and a battle begins; win it to clear the job. The members-only shop in the back of the smithy opens afterward."
   },
   {
-    "simpleJp": "G#20「先祖の宝捜しを手伝って！」を完了する",
-    "jpGuide1": "先祖の宝捜しを手伝って！",
+    "simpleJp": "パレンシア酒場左下の依頼人に話す",
+    "jpGuide1": "酒場の左下の人に話し、パレンシア城跡へ。マップの右の方で上向きに調べると「先祖の手紙」を入手。入手したら酒場の依頼人に渡してクリア。",
     "jpGuide2": "G#20　先祖の宝捜しを手伝って！",
-    "enGuide": "Start the Palencia chain."
+    "enGuide": "Speak to the requester at the lower-left of the Palencia tavern. In Palencia Castle Ruins, go to the right side and examine upward to find the Ancestor's Letter. Return it to the requester."
   },
   {
-    "simpleJp": "G#21「先祖の宝捜し　その後」を完了する",
-    "jpGuide1": "先祖の宝捜し　その後",
+    "simpleJp": "パレンシア酒場左下の依頼人に話す",
+    "jpGuide1": "酒場の左下の依頼人に会い、クイナの丘へ。マップ右下にあるカラスの骸を調べれば宝を発見できる。入手したら酒場の依頼人に渡してクリア。",
     "jpGuide2": "G#21　先祖の宝捜し　その後",
-    "enGuide": "Continue directly with the second Palencia treasure job."
+    "enGuide": "Talk to the same requester again, then go to Quina Hill. Examine the crow corpse at the lower-right to find the treasure and return it to the tavern requester. Afterward, the requester can sell Robe +1."
   },
   {
-    "simpleJp": "G#22「父さんの仇討ちの助太刀をして」を完了する",
-    "jpGuide1": "父さんの仇討ちの助太刀をして",
+    "simpleJp": "パレンシア宿屋中央室の依頼人に話す",
+    "jpGuide1": "宿の真中の部屋にいる依頼人に話し、パレンシア城跡へ。戦闘になり、ブルーファントムを瀕死に追い込めばクリア。",
     "jpGuide2": "G#22　父さんの仇討ちの助太刀をして",
-    "enGuide": "Finish the Palencia treasure-job sequence now."
+    "enGuide": "Speak to the requester in the middle room of the Palencia inn, then go to the castle ruins. A battle starts; reduce Blue Phantom to critical HP to clear the revenge job."
   },
   {
-    "simpleJp": "G#33「家を探してます」を完了する",
-    "jpGuide1": "家を探してます",
+    "simpleJp": "ペイサス酒場の依頼人に話す",
+    "jpGuide1": "酒場にいる依頼人に会う。アリバーシャ・エルザークへ行き、家の買い手を探している人に会い、依頼人に報告するとクリア。",
     "jpGuide2": "G#33　家を探してます",
-    "enGuide": "Now that world travel is open, its out-of-country objective is practical to finish."
+    "enGuide": "Speak to the requester in the Peisas tavern. Travel to Elzark in Alibarsha, find the person looking to buy a house, then return to Peisas and report back."
   },
   {
-    "simpleJp": "G#34「愛の告白、僕に勇気を下さい！」で「請ける」を選ぶ",
-    "jpGuide1": "愛の告白、僕に勇気を下さい！",
+    "simpleJp": "ペイサス宿屋2Fの依頼人に話す",
+    "jpGuide1": "宿屋2Fの依頼人に話した後、レジの人に話して、また依頼人のところへ戻る。選択肢は「請ける」を選ぶ。アナン台地へ行き、手配「ヨミの使い」を倒すと条件の宝石を入手できる。依頼人のところへ戻るとクリア。",
     "jpGuide2": "G#34　愛の告白、僕に勇気を下さい！",
-    "enGuide": "Choose to accept the request and defeat Yomi's Messenger at Anan Plateau; this clears that bounty too."
+    "enGuide": "Speak to the requester on the second floor of the Peisas inn, talk to the front-desk clerk, then return to the requester and choose 「請ける」. Go to Anan Plateau, defeat wanted monster Yomi's Messenger to obtain the jewel, and bring it back."
   },
   {
-    "simpleJp": "G#50「砂漠の盗賊団を撃退してくれ」で「夜まで仮眠」を選ぶ",
-    "jpGuide1": "砂漠の盗賊団を撃退してくれ",
+    "simpleJp": "「請ける」を選ぶ",
+    "jpGuide1": "選択肢は「請ける」を選ぶ。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After returning to the requester from the inn desk, choose this exact option before heading to Anan Plateau."
+  },
+  {
+    "simpleJp": "エルザーク酒場で情報を聞く",
+    "jpGuide1": "酒場で情報を得た後、宿屋で「夜まで仮眠」を選択。戦闘になり、残り2体にするとクリア。",
     "jpGuide2": "G#50　砂漠の盗賊団を撃退してくれ",
-    "enGuide": "Start this Elzark chain well before the Past arc cutoff."
+    "enGuide": "Get the lead in the Elzark tavern, then choose 「夜まで仮眠」 at the inn. The bandit battle begins; reducing the enemy group to two remaining clears the job."
   },
   {
-    "simpleJp": "G#51「続・砂漠の盗賊団」を完了する",
-    "jpGuide1": "続・砂漠の盗賊団",
+    "simpleJp": "「夜まで仮眠」を選ぶ",
+    "jpGuide1": "宿屋で「夜まで仮眠」を選択。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "At the inn, choose this exact option to start the G#50 night battle."
+  },
+  {
+    "simpleJp": "レイデン遺跡へ行く",
+    "jpGuide1": "レイデン遺跡へ。手配「ザナック」を含む13体の敵を倒すとクリア。",
     "jpGuide2": "G#51　続・砂漠の盗賊団",
-    "enGuide": "Complete the second Alibarsha desert-bandit job immediately after G#50."
+    "enGuide": "Go to Rayden Ruins and defeat all 13 enemies, including wanted monster Zanack, to clear the follow-up desert-bandit job."
   }
 ]

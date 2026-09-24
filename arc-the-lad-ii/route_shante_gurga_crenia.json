@@ -1,30 +1,30 @@
 [
   {
-    "simpleJp": "シャンテで鍛錬の岩場へ行き、グルガを仲間にする",
+    "simpleJp": "鍛錬の岩場へ行く",
     "jpGuide1": "グルガを仲間にして戦闘。",
     "jpGuide2": "鍛錬の岩場",
     "enGuide": "Equip Gurga before the fight; he initially lacks armor."
   },
   {
-    "simpleJp": "クレニアで闘技場イベントを決勝まで進める",
+    "simpleJp": "クレニア闘技場へ行く",
     "jpGuide1": "闘技場と宿屋を往復することになる。",
     "jpGuide2": "宿屋→闘技場",
-    "enGuide": "Alternate between the inn and arena until the finals are complete."
+    "enGuide": "Return to the inn between arena rounds as the story directs, then re-enter the arena. Repeat this loop until the finals are complete."
   },
   {
-    "simpleJp": "決勝後、宿屋でイベントを進める",
+    "simpleJp": "宿屋へ戻る",
     "jpGuide1": "ひらひらと動いている紙を調べるとイベントが進行する。",
     "jpGuide2": "宿屋に戻ってイベント",
-    "enGuide": "Advance the post-finals inn event; Set A identifies the moving paper as the interaction."
+    "enGuide": "After the final, return to the inn room. Examine the visibly fluttering sheet of paper to trigger the next event."
   },
   {
-    "simpleJp": "無人の館を右側の部屋経由で突破する",
+    "simpleJp": "無人の館の2部屋分岐で右へ進む",
     "jpGuide1": "２つの部屋があるところでは右に進む。",
     "jpGuide2": "無人の館　右上の部屋に入りイベント",
-    "enGuide": "Clear the blocked-exit battle and return to Crenia."
+    "enGuide": "The mansion is mostly linear. At the room with two choices, take the right-hand route; later, win the battle that blocks the exit, watching the Night Master's high attack."
   },
   {
-    "simpleJp": "クレニアの宿を出て編を終える",
+    "simpleJp": "クレニアの宿を出る",
     "jpGuide1": "宿を出るとイベント終了。",
     "jpGuide2": "クレニア編終了",
     "enGuide": "This closes Shante/Gurga's split-party segment."

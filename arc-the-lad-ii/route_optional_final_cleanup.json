@@ -1,39 +1,39 @@
 [
   {
-    "simpleJp": "GP250以上を確認してプロディアスギルド奥で「ゴッドハンターの証」を取る",
-    "jpGuide1": "まずGPを250稼いでプロディアスギルドの奥にある「ゴッドハンターの証」を取る",
+    "simpleJp": "プロディアスギルド奥へ行く",
+    "jpGuide1": "この依頼を発生させるには、まずGPを250稼いでプロディアスギルドの奥にある「ゴッドハンターの証」を取らなくてはならない。",
     "jpGuide2": "GP250という実績、そしてその証が必要",
-    "enGuide": "This is the gate for the final G#37 job. If you followed the earlier guild path, the GP total should already be sufficient."
+    "enGuide": "Check your Guild Points first. Once you have at least 250 GP, enter the back of the Prodius guild and collect the God Hunter proof needed for the final job."
   },
   {
-    "simpleJp": "インディゴスギルド奥で情報を聞き、ミルマーナでG#37「海竜の卵返却」を受ける",
-    "jpGuide1": "情報通りミルマーナのギルドへ行くとこの依頼を請けられる",
+    "simpleJp": "インディゴスギルド奥の人物に話す",
+    "jpGuide1": "「ゴッドハンターの証」を持っていて、かつストーリーがかなり進んでいると、インディゴスギルドの奥の人から情報を得られる。情報通りミルマーナのギルドへ行くとこの依頼を請けられる。",
     "jpGuide2": "南北の塔編終了　空中城突入",
-    "enGuide": "Do G#37 before entering Air Castle; that is its hard expiration point."
+    "enGuide": "Talk to the information contact in the back of the Indigos guild, then travel to Millmana's guild. The Sea Dragon Egg Return job is available there; accept it before Air Castle."
   },
   {
-    "simpleJp": "依頼人→ヴィルマー博士の順に話し、ヤゴス島を出入りして潜水艦を出す",
-    "jpGuide1": "一度島を出てから戻ってくるとヤゴス島マップに「潜水艦」",
+    "simpleJp": "ミルマーナ宿屋の依頼人に話す",
+    "jpGuide1": "宿屋にいる依頼人に話し、その後ユドの村にいるヴィルマー博士と話す。一度島を出てから戻ってくるとヤゴス島マップに「潜水艦」が出現する。",
     "jpGuide2": "一旦ヤゴス島から飛び立ち、再び訪れるとマップに潜水艦が出現",
-    "enGuide": "Take the egg from the inn requester, then have Vilmer prepare the submarine."
+    "enGuide": "Take the egg from the requester at the Millmana inn, then talk to Vilmer on Yagos Island. Leave the island once and return; the submarine then appears on the island map."
   },
   {
-    "simpleJp": "海底神殿では卵を絶対に渡さず最深部まで守る",
-    "jpGuide1": "決して渡してはいけない",
-    "jpGuide2": "渡してしまえば即失敗",
-    "enGuide": "Irreversible job choice. Refuse every attempt to take the egg and win all three fights to return it to the nest."
+    "simpleJp": "卵を渡すよう求められたら拒否する",
+    "jpGuide1": "海底神殿に入ってからは、何度か卵を渡すように言われるが、決して渡してはいけない。最深部まで卵を守りきれればクリア。",
+    "jpGuide2": "戦闘は計三回。二回目はすぐに戦闘に突入する",
+    "enGuide": "Never surrender the egg when a hand-over prompt appears. There are three fights total; the second encounter begins immediately without a choice. Win all three and carry the egg to the nest at the deepest point."
   },
   {
-    "simpleJp": "G#37を清算してから海底神殿東側の追加試練を終える",
-    "jpGuide1": "倒すと「Pリバース」を入手",
+    "simpleJp": "G#37をギルドで清算する",
+    "jpGuide1": "クリア後、清算してからもう一度潜水艦を動かそうとすると、神殿の東側から入れるようになるが、ヂークベックを表示しないと中には入れない。",
     "jpGuide2": "最強最後のパワーユニット、Ｐリバースを入手",
-    "enGuide": "Optional completion extension: after settling G#37, revisit by submarine with Diekbeck shown and clear the east-side trials for P-Reverse."
+    "enGuide": "Settle G#37 first, then return by submarine with Diekbeck displayed. Take the east-side extension, clear its trials, and collect P-Reverse at the end."
   },
   {
-    "simpleJp": "封印の遺跡をグレイシーヌ→アララトス→ブラキア→アミーグ→バルバラードの順に攻略する",
+    "simpleJp": "グレイシーヌ封印の遺跡へ行く",
     "jpGuide1": "前の遺跡のパワーユニットを入手していないと、次の遺跡には入れない",
     "jpGuide2": "グレイシーヌの遺跡を攻略しないと中に入れない。／アララトスの遺跡を攻略しないと中に入れない。／ブラキアの遺跡を攻略しないと中に入れない。／アミーグの遺跡を攻略しないと中に入れない。／バルバラードの遺跡を攻略しないと中に入れない。",
-    "enGuide": "Collect both power units in each ruin and continue through the countries in this order; each stage opens the next sealed-ruin continuation."
+    "enGuide": "This sealed-ruin chain unlocks sequentially. In each country, collect both Power Units before moving to the next country in the listed order; missing one prevents the following ruin from opening."
   },
   {
     "simpleJp": "バルバラード封印の遺跡B4Fで「風の剣」を取る",
@@ -42,27 +42,27 @@
     "enGuide": "Take the Wind Sword here; it is one of the four ingredients for Light Sword."
   },
   {
-    "simpleJp": "アリバーシャ封印の遺跡を開放し、B2Fでマイオスを討伐する",
+    "simpleJp": "アリバーシャ封印の遺跡へ入る",
     "jpGuide1": "マイオス　アリバーシャ遺跡B2",
     "jpGuide2": "アリバーシャ封印の遺跡Ｂ２Ｆ",
-    "enGuide": "Check the wanted posting first. This closes the remaining regular bounty target in the sealed-ruin chain."
+    "enGuide": "After the preceding ruin chain is complete, enter Alibarsha's sealed ruin. Check the wanted poster first, descend to B2F, and defeat Maios."
   },
   {
     "simpleJp": "「地の剣」が無ければヤゴス島封印の遺跡B4F以降で入手する",
     "jpGuide1": "地の剣　ヤゴス島封印の遺跡B3以降",
     "jpGuide2": "ヤゴス島封印の遺跡B4F～B7F",
-    "enGuide": "The Empty House is another source. You should already have Fire Sword and Ice Sword from the protected earlier windows."
+    "enGuide": "If Earth Sword is still missing, revisit the Yagos sealed ruin and search floors B4–B7 until you obtain it. The Empty House is an alternate source."
   },
   {
     "simpleJp": "「地の剣」「氷の剣」「炎の剣」「風の剣」を合成して「光の剣」を作る",
     "jpGuide1": "光の剣　地の剣　氷の剣　炎の剣　風の剣",
     "jpGuide2": "合成（地の剣+氷の剣＋炎の剣＋風の剣）",
-    "enGuide": "This completes the target's normal-game elemental sword synthesis without relying on Monster Game."
+    "enGuide": "At the synthesis shop, combine Earth Sword, Ice Sword, Fire Sword, and Wind Sword. This produces Light Sword without using Monster Game content."
   },
   {
     "simpleJp": "ギルド仕事と手配モンスターの未清算が無いことを確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "G#37　海竜の卵返却",
-    "enGuide": "At this point every job except the deliberately delayed G#23 should be cleared and settled, and every posted bounty except story-locked late encounters should be complete. Do not enter Air Castle yet."
+    "enGuide": "Use this as a final audit before Air Castle: clear and settle any remaining guild work or wanted monsters you still intend to complete. G#23 is intentionally handled during the Romalia city assault."
   }
 ]

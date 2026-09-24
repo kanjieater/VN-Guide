@@ -1,39 +1,39 @@
 [
   {
-    "simpleJp": "アジャール酒場でサニアを表示してロアンに話す",
+    "simpleJp": "アジャール酒場でサニアを表示する",
     "jpGuide1": "酒場にいるロアンにサニアを表示して（R2で切り替え）話す。",
     "jpGuide2": "サニアにキャラ変更し、ロエンに話しイベント",
-    "enGuide": "This reveals the Sea Oil Field lead; visit it once, then return to Roan."
+    "enGuide": "In the Ajaar tavern, switch the displayed character to Sania with R2 and talk to Roan. This opens the Sea Oil Field lead; visit the field once, then return to Roan when directed."
   },
   {
     "simpleJp": "ニエンの森を抜ける",
     "jpGuide1": "抜けたら一度準備のために戻れる。",
     "jpGuide2": "ニエンの森",
-    "enGuide": "After the first clear you can prepare before the train-gun position."
+    "enGuide": "Traverse Nien Forest to the far exit. After the first clear you can back out and prepare equipment before committing to the Train Cannon position."
   },
   {
     "simpleJp": "列車砲陣地で突入部隊とおとり部隊を編成する",
     "jpGuide1": "エルクとサニアが強制参加",
     "jpGuide2": "列車砲陣地　部隊編成",
-    "enGuide": "Split equipment carefully: Elk/Sania are forced into the train team and Ark into the decoy team."
+    "enGuide": "Elk and Sania are forced into the train-infiltration group and Ark into the decoy group. Split healing items and equipment before confirming the teams."
   },
   {
-    "simpleJp": "巨大列車を最深部まで攻略する",
+    "simpleJp": "巨大列車のスイッチを調べる",
     "jpGuide1": "最深部にいる敵を倒せばクリア。",
     "jpGuide2": "巨大列車攻略",
-    "enGuide": "Use switches to redirect/disable the red sensors and clear the deepest fight."
+    "enGuide": "Use the train's switches to redirect or disable the red sensor routes, advance car by car, and defeat the enemy group at the deepest section."
   },
   {
-    "simpleJp": "アジャールでロアンに話して海底油田へ戻る",
+    "simpleJp": "アジャールでロアンに話す",
     "jpGuide1": "ロアンに話すとイベント。",
     "jpGuide2": "もう一度ロエンに話し",
-    "enGuide": "Prepare Shu for the eventual escape party before committing to the boss."
+    "enGuide": "Return to Ajaar and talk to Roan again to advance the plot. Before going back to the Sea Oil Field, make sure Shu is equipped for the timed escape and Fate steal."
   },
   {
     "simpleJp": "海底油田でヤグンを倒す",
     "jpGuide1": "最深部でヤグンと戦闘。",
     "jpGuide2": "ヤグン撃破",
-    "enGuide": "Remember the nearby escape submarine before starting this battle."
+    "enGuide": "Push to the deepest room, note where the escape submarine is, then defeat Yagun. The timed evacuation begins afterward."
   },
   {
     "simpleJp": "脱出メンバーにシュウを入れる",
@@ -45,12 +45,12 @@
     "simpleJp": "脱出中の寄り道部屋でグロヴィスから「フェイト」を盗んで討伐する",
     "jpGuide1": "グロヴィス　盗：フェイト",
     "jpGuide2": "バルザックを先に倒しているとフェイトは入手不可",
-    "enGuide": "During the timed escape, enter the formerly blocked room, steal Fate from Grovis, then finish the bounty."
+    "enGuide": "During the escape timer, detour into the room that was previously blocked. Move Shu adjacent, steal Fate from Grovis, then defeat him before continuing toward the submarine."
   },
   {
-    "simpleJp": "寄り道部屋の宝箱を回収して潜水艦で脱出する",
+    "simpleJp": "寄り道部屋の宝箱を回収する",
     "jpGuide1": "脱出するとミルマーナはクリア。海底油田は消滅する。",
     "jpGuide2": "海底油田脱出",
-    "enGuide": "This area disappears permanently after escape, so take the unique/timing-sensitive loot now."
+    "enGuide": "Grab the timing-sensitive treasure in the detour room, then stop exploring and return to the submarine before the timer expires. The Sea Oil Field disappears after escape."
   }
 ]

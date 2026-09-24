@@ -1,14 +1,14 @@
 [
   {
-    "simpleJp": "G#29「旅から帰らない息子を捜して欲しい」を完了する",
-    "jpGuide1": "旅から帰らない息子を捜して欲しい",
+    "simpleJp": "ラムールの笑劇場へ行く",
+    "jpGuide1": "ギルドの隣にある笑劇場へ行った後、フォーレスマップに出現する「森外れ」へ行くとクリア。",
     "jpGuide2": "G#29　旅から帰らない息子を捜して欲しい",
-    "enGuide": "Complete this during the Lieza/Gogen split before returning to the main route."
+    "enGuide": "Visit the comedy theater next to the Lamour guild first. This makes Forest Outskirts appear on the Fores map; travel there to find the missing son and clear the job."
   },
   {
-    "simpleJp": "G#30「いたずら息子を捕まえて欲しい」を完了する",
-    "jpGuide1": "いたずら息子を捕まえて欲しい",
+    "simpleJp": "ラムールのギルドから外へ出る",
+    "jpGuide1": "ギルドから出るとイベント発生。逃げる子供の隠れた場所をひたすら探し出して何度も話し掛ける。子供は木の裏や屋根の陰、店の入り口などにいて、建物の中には入らない。",
     "jpGuide2": "G#30　いたずら息子を捕まえて欲しい",
-    "enGuide": "Complete this during the same temporary Lieza/Gogen block."
+    "enGuide": "Leaving the guild starts the chase. Find the child repeatedly around Lamour—behind trees, roof shadows, and shop entrances—and talk to him each time. He never hides inside buildings. Finish before the time limit expires."
   }
 ]

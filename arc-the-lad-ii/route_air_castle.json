@@ -3,54 +3,90 @@
     "simpleJp": "空中城へ突入する",
     "jpGuide1": "一度突入するともとの世界には帰れなくなる",
     "jpGuide2": "空中城突入",
-    "enGuide": "Final point of no return. Enter only after the completion cleanup is finished."
+    "enGuide": "Final point of no return. Enter only after every optional job, bounty, item, and synthesis goal you care about is complete."
   },
   {
-    "simpleJp": "入口付近の敵を倒し、シルバーノアの設備を使えるようにする",
+    "simpleJp": "入口付近の敵を倒す",
     "jpGuide1": "入口近くの敵を倒すとシルバーノアに戻れるようになる",
     "jpGuide2": "作戦室が魔改造され、ショップ、鍛冶屋、合成屋、マザークレアなどが駆けつけてくれ",
-    "enGuide": "Inside Air Castle only, Silver Noah provides recovery, save, shop, smith, synthesis, Mother Claire and other services."
+    "enGuide": "Clear the entrance battle first. Afterward, Silver Noah is accessible inside Air Castle for recovery, save, shop, smith, synthesis, Mother Claire, and other services."
   },
   {
-    "simpleJp": "赤い丸のワープで進み、中間セーブポイントでセーブする",
+    "simpleJp": "BATTLE7で最後の敵を倒す前に「グラブアックス」を取る",
+    "jpGuide1": "敵を全滅させてしまうと二度と回収できなくなる",
+    "jpGuide2": "戦闘中にジャンプ・飛行モンスター・テレポートのいずれかで取りに行くしかない",
+    "enGuide": "One chance only. During BATTLE7, use a jumping/flying unit or Teleport to reach the lower-right chest and take Grabb Axe before defeating the final enemy."
+  },
+  {
+    "simpleJp": "赤い丸ワープへ入る",
     "jpGuide1": "途中に回復・セーブポイントがある",
     "jpGuide2": "空中城6部屋",
-    "enGuide": "This save is also the Arc III conversion checkpoint, so make a durable final save here."
+    "enGuide": "Follow the red circular warps to the mid-castle recovery/save point and make a durable save there. This save is also usable for Arc III conversion."
   },
   {
-    "simpleJp": "6つの個人部屋を1人ずつ攻略する",
-    "jpGuide1": "6つの部屋があり、それぞれ1人ずつが入れる",
-    "jpGuide2": "空中城6部屋",
-    "enGuide": "Choose a suitable character for each room; all six must be cleared."
+    "simpleJp": "アークの部屋で「いいえ」を選ぶ",
+    "jpGuide1": "アーク：いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Send Ark into one solo room, choose 「いいえ」, then win the room battle."
   },
   {
-    "simpleJp": "4つの試練部屋を勝ち、中央の水晶を調べる",
+    "simpleJp": "ポコの部屋で「助ける」を選ばない",
+    "jpGuide1": "ポコ：（助ける→いいえ）以外",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "For Poco, avoid the specific combination 「助ける」→「いいえ」, then win the room battle."
+  },
+  {
+    "simpleJp": "ゴーゲンの部屋で「いいえ」を選ぶ",
+    "jpGuide1": "ゴーゲン：いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Send Gogen into his solo room, choose 「いいえ」, then win the battle."
+  },
+  {
+    "simpleJp": "リーザの部屋で「いいえ」を選ぶ",
+    "jpGuide1": "リーザ：いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Send Lieza into her solo room, choose 「いいえ」, then win the battle."
+  },
+  {
+    "simpleJp": "シャンテの部屋で「いいえ」を選ぶ",
+    "jpGuide1": "シャンテ：いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Send Shante into her solo room, choose 「いいえ」, then win the battle."
+  },
+  {
+    "simpleJp": "グルガの部屋で「抵抗しない」を3回選ぶ",
+    "jpGuide1": "グルガ：3回戦闘した後、抵抗しないを3連続で選択",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gurga first fights three battles. After them, choose 「抵抗しない」 three times in a row; another choice sends you back through the three fights."
+  },
+  {
+    "simpleJp": "4つの試練部屋の敵を倒す",
     "jpGuide1": "4つの部屋の試練",
     "jpGuide2": "4つの試練は、4つの部屋で戦闘するだけ。／中央の石を調べ、上の部屋に入り戦闘",
-    "enGuide": "Clear all four surrounding trial rooms, then inspect the center crystal to open the route onward."
+    "enGuide": "Clear all four surrounding trial rooms, then return to the center and inspect the crystal/stone to open the route onward."
   },
   {
     "simpleJp": "ザルバドを倒す",
     "jpGuide1": "その奥でザルバド戦",
     "jpGuide2": "ザルバド戦開始",
-    "enGuide": "This is the last major boss before the final encounter."
+    "enGuide": "Continue through the route opened by the central stone and defeat Zalbad. This is the last major boss before the final three-battle sequence."
   },
   {
     "simpleJp": "ククル1人で不完全な闇黒の支配者と戦う",
     "jpGuide1": "ラスボス３連戦が始まる。ククル一人で挑む",
     "jpGuide2": "まずはククル一人で、復活したてで不完全な闇黒の支配者と戦うイベント戦",
-    "enGuide": "The final sequence starts with the mandatory Kukuru-only event battle."
+    "enGuide": "The finale starts with the mandatory Kukuru-only event battle against the incomplete Dark Ruler."
   },
   {
     "simpleJp": "パーティーで闇黒の支配者の第1形態を倒す",
     "jpGuide1": "闇黒の支配者一戦目。卵型。倒すと２戦目に移行。",
     "jpGuide2": "その後イベントを挟み、次はククル以外のパーティメンバーで戦う",
-    "enGuide": "After the Kukuru event, defeat the first party-fought form."
+    "enGuide": "After Kukuru's event battle, use the party to defeat the egg-shaped first full form."
   },
   {
     "simpleJp": "続けて闇黒の支配者の第2形態を倒す",
     "jpGuide1": "闇黒の支配者２戦目。このゲームのラスボス。",
     "jpGuide2": "闇黒の支配者戦3",
-    "enGuide": "Defeat the final form to reach Arc the Lad II's ending. This is the terminal step of the guide."
+    "enGuide": "Defeat the second/final Dark Ruler form and continue through the ending; this is the guide's terminal step."
   }
 ]

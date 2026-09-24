@@ -6,22 +6,22 @@
     "enGuide": "Now that Grovis/Fate is secured, return for Balzac and the Claymore drop."
   },
   {
-    "simpleJp": "G#36「石版調査の護衛」を完了する",
-    "jpGuide1": "石版調査の護衛",
+    "simpleJp": "アジャール酒場のロンウィッド・タリスマンに話す",
+    "jpGuide1": "酒場にいるロンウィッド・タリスマンに話す。戦闘になり、敵を中心エリアに指定されたターン数入れないようにする。全部で3回戦闘することになり、1回目は5ターン、2回目は7ターン、3回目は5ターン守る必要がある。",
     "jpGuide2": "G#36　石板調査の護衛",
-    "enGuide": "Complete this now as part of the conservative post-Millmana guild sweep."
+    "enGuide": "Talk to Lonwid Talisman in the Ajaar tavern. You will fight three defense battles; keep enemies out of the center area for 5 turns, then 7 turns, then 5 turns. Wiping the enemies out is the easiest way to guarantee success."
   },
   {
-    "simpleJp": "G#38「炭坑の落盤事故の炭坑夫救出作業」を完了する",
-    "jpGuide1": "炭坑の落盤事故の炭坑夫救出作業",
+    "simpleJp": "ギルドのウィンドウを閉じる",
+    "jpGuide1": "ウィンドウを閉じるとすぐに始まる。広いマップの中にいる10人の炭鉱夫を1人ずつ救出すればクリア。岩は調べると「マトック」で壊せるが、壊しすぎると救出可能時間が減るので注意。",
     "jpGuide2": "G#38　炭坑の落盤事故の炭坑夫救出作業",
-    "enGuide": "Complete this now in the same conservative sweep and rescue all ten miners."
+    "enGuide": "Closing the job window starts the mine rescue immediately. Locate all ten miners and rescue them one by one. Rocks can be broken with the Mattock, but breaking too many reduces the available rescue time."
   },
   {
-    "simpleJp": "G#35「ラマダ山に、モンスターが！」を完了する",
+    "simpleJp": "ラマダ山へ行く",
     "jpGuide1": "ラマダ山へ行き、手配「妖火3兄弟」を含む敵を倒せばクリア。",
     "jpGuide2": "G#35　ラマダ山に、モンスターが！",
-    "enGuide": "This simultaneously clears the Yoka Three Brothers bounty."
+    "enGuide": "Return to Ramada Mountain and defeat the entire enemy group, including wanted targets the Yoka Three Brothers. Clearing the battle completes both the job and their bounty."
   },
   {
     "simpleJp": "ラゼンの沼でダルシオスを討伐する",

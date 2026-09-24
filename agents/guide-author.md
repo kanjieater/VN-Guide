@@ -50,6 +50,7 @@ Before submitting the **current route**, confirm:
 - If sources disagree on save position, the earlier documented position is used.
 - For normal VNs, every emitted player-action `simpleJp` is exact in-game text and save/load are the only normal non-choice steps. For an explicitly opted-in non-VN walkthrough, use the canonical game-walkthrough `simpleJp` rules: literal choices/menu labels remain exact, while navigation, battle, talk, pickup, preparation, and similar non-choice actions may use concise author-written Japanese.
 - Useful available `enGuide` detail is preserved.
+- For non-VN linear walkthroughs, reject objective-only steps during authoring: if the source says how to complete a job, dungeon, or event, carry that execution detail into the route (where to go, who/what to interact with, what battle/puzzle condition matters, and how the task finishes). A job name plus “complete it” is not sufficient player guidance.
 - Dependencies and prerequisites are correct.
 - For opted-in non-VN guides, every material progression fact defined by the canonical game-walkthrough source-coverage rules has the required source support; one-source coverage is reserved for genuinely low-level non-branching execution details unless an exact fact is covered by a valid owner exception.
 - For non-VN linear walkthroughs, every playthrough-ending terminal explicitly establishes the next run before later gameplay continues, unless a source-backed load already does so.

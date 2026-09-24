@@ -1,27 +1,27 @@
 [
   {
-    "simpleJp": "G#39「酒場のゴロつき退治」を完了する",
-    "jpGuide1": "酒場のゴロつき退治",
+    "simpleJp": "モレア酒場の地下へ行く",
+    "jpGuide1": "酒場へ行き、地下に行って人と話し、また地上に戻ってくるとゴロつきが出現。シュウとゴロつきで決闘になる。5数え終わった後、シュウが振り向いた瞬間にR1ボタンを押せば勝ってクリア。",
     "jpGuide2": "G#39　酒場のゴロつき退治",
-    "enGuide": "Win Shu's quick-draw duel after the five-count. Watch Shu's turn animation rather than relying only on the count."
+    "enGuide": "Enter the Morea tavern, go downstairs and speak to the person there, then return upstairs. In Shu's quick-draw duel, wait through the five-count and press R1 the instant Shu turns around. Losing fails the job."
   },
   {
-    "simpleJp": "G#40「迷子のロバ探し」を完了する",
-    "jpGuide1": "迷子のロバ探し",
+    "simpleJp": "モレア東側の依頼人に話す",
+    "jpGuide1": "街の東側にいる依頼人に2回話し、次に2人組みの街の人から街の外に出て行ったという情報を得る。その後マデータの丘に行くとロバを発見し戦闘となり、勝利後にあらためて街で依頼人に話し掛ければクリア。",
     "jpGuide2": "G#40　迷子のロバ探し",
-    "enGuide": "Talk twice to the owner, get the town clue, find the donkey at Madeta Hill, then report back."
+    "enGuide": "Talk to the requester on the east side of Morea twice, then speak to the pair of townspeople who say the donkey left town. Go to Madeta Hill, win the battle after finding the donkey, and return to the requester."
   },
   {
-    "simpleJp": "G#41「アミーグロックの羽根を探せ」を完了する",
-    "jpGuide1": "アミーグロックの羽根を探せ",
+    "simpleJp": "モレア酒場の依頼人に話す",
+    "jpGuide1": "酒場にいる依頼人に話す。その後アミーグ内のフリーバトルエリアに高確率で出現するアミーグロックを倒すと羽根を入手できる。5枚入手して依頼人に渡せばクリア。",
     "jpGuide2": "G#41　アミーグロックの羽を探せ",
-    "enGuide": "Complete G#41 immediately after G#40 in this same Amigue guild block. Collect five feathers from Amigue Rocks and return them."
+    "enGuide": "Speak to the requester in the Morea tavern. Hunt Amigue Rocks in the country's free-battle areas until you have five feathers, then return all five to the requester."
   },
   {
-    "simpleJp": "G#42「長老館の紛失事件」を完了する",
-    "jpGuide1": "神の塔をクリアすると消滅するので注意。",
-    "jpGuide2": "G#42　長老館の紛失事件　アミーグ編終了で消滅",
-    "enGuide": "Critical short window. Follow the dialogue chain, then light seven of the ordinary lamps before lighting the special upper-right-left lamp; do not light all nine."
+    "simpleJp": "長老に話す",
+    "jpGuide1": "長老と話した後、ギルド地下にいるじいさんに話し、1Fの本棚を調べて情報を得る。長老館では、まず門番の話を聞く。",
+    "jpGuide2": "点灯可能な灯り８つから、６つを選択して点し、最後に行き止まりの灯りを点せばいい",
+    "enGuide": "Talk to the elder, then the old man in the guild basement, inspect the 1F bookshelf, and hear the gatekeeper's clue. In the mansion, light any 6 of the 8 ordinary usable lamps, then light the special left lamp at the far end last (7 lit total). Go up the revealed stairs, speak to the child, then report to the elder."
   },
   {
     "simpleJp": "アミーグFBAでドルゴンを討伐する",

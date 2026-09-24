@@ -3,7 +3,7 @@
     "simpleJp": "リーザでホルンへ行く",
     "jpGuide1": "飛行船に乗ってホルンへ。",
     "jpGuide2": "ホルン1戦目終了",
-    "enGuide": "Kerak and Mofly join at the start of this segment; converted Hemojii data may also carry over."
+    "enGuide": "Fly to Horn and clear the battle at the village entrance. Kerak and Mofly join during this segment; converted Hemojii data may already be present."
   },
   {
     "simpleJp": "ホルンの岩を調べてラムールへ行く",
@@ -12,21 +12,21 @@
     "enGuide": "This opens the next story trigger."
   },
   {
-    "simpleJp": "ラムールで5人以上に話してゴーゲンを仲間にする",
+    "simpleJp": "ラムールで住民に話す",
     "jpGuide1": "5人以上に話した後、外に出ようとするとイベント発生。ゴーゲンが仲間に。",
     "jpGuide2": "NPC5人に話しかけ、街から出ようとするとイベント発生",
     "enGuide": "Recruit Gogen, then return to Horn."
   },
   {
-    "simpleJp": "ホルンのつり橋とリーザの家の戦闘を終える",
+    "simpleJp": "ホルンのつり橋へ行く",
     "jpGuide1": "つり橋と、村の一番奥にあるリーザの家でそれぞれ戦闘。",
     "jpGuide2": "ホルン2戦目終了",
-    "enGuide": "Defeat the Beast Master in Lieza's house to continue."
+    "enGuide": "First win the battle at the suspension bridge. Then go to Lieza's house at the back of the village and defeat the Beast Master there."
   },
   {
-    "simpleJp": "ホルン支部キメラ研究所を攻略する",
+    "simpleJp": "右から3番目のスイッチをONにする",
     "jpGuide1": "右から３番目、６番目、８番目をONにする右の部屋（先へ進める）",
     "jpGuide2": "キメラ研究所（ホルン支部）",
-    "enGuide": "Use the switch patterns to open the route. Pick up Smart Capture and Leila's Mirror while here."
+    "enGuide": "In the Chimera Research Lab branch, use the switch puzzle to open the route: the source gives the useful pattern as the 3rd, 6th, and 8th switches from the right. Pick up Smart Capture and Leila's Mirror while passing through."
   }
 ]

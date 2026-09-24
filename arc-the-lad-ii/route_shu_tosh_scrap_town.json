@@ -1,15 +1,15 @@
 [
   {
-    "simpleJp": "クズ鉄の町で酒場→宿屋→酒場のトッシュへ進む",
+    "simpleJp": "クズ鉄の町の酒場マスターに話す",
     "jpGuide1": "まずは酒場のマスターに話を聞く。",
     "jpGuide2": "酒場に入りマスターに話しかける→宿屋に入り店主に話しかける→酒場に入り左にいるトッシュに話しかける",
-    "enGuide": "Follow the jointly documented bar → inn → Tosh sequence. Set A additionally routes through Maurice."
+    "enGuide": "Follow the exact information chain: tavern master, innkeeper, then Tosh on the left side of the tavern. Set A also mentions Maurice, but this three-stop sequence is independently supported."
   },
   {
     "simpleJp": "鉄クズ置き場でトッシュと戦う",
     "jpGuide1": "クズ鉄置き場でトッシュと一騎討ち。勝っても負けてもいい。",
     "jpGuide2": "トッシュ戦はわざと負ける",
-    "enGuide": "The result does not block progression."
+    "enGuide": "Go to the Scrap Yard and trigger Tosh's duel. Winning or losing does not block progress, so do not reset purely for the result."
   },
   {
     "simpleJp": "レジスタンスアジトでトッシュを仲間にする",

@@ -1,45 +1,45 @@
 [
   {
-    "simpleJp": "過去のトウヴィルでククルに話し、3連戦を勝つ",
+    "simpleJp": "過去のトウヴィルでククルに話す",
     "jpGuide1": "ククルを仲間にして3連戦",
     "jpGuide2": "トウヴィル(過去)　ククルに話しかけイベント→3戦",
-    "enGuide": "After the three fights, travel to Palencia."
+    "enGuide": "Speak to Kukuru in past Touvil to start the sequence, then clear all three consecutive battles before leaving for Palencia."
   },
   {
     "simpleJp": "パレンシア城跡最深部で火の精霊に会う",
     "jpGuide1": "最深部で火の精霊に会う",
     "jpGuide2": "パレンシア城跡→ラマダ",
-    "enGuide": "The castle ruins are one-way progression; continue through the battles."
+    "enGuide": "The castle-ruins segment is one-way story progression. Keep moving through the forced battles until you reach the deepest room and meet the Fire Spirit."
   },
   {
-    "simpleJp": "グレイシーヌへ行き、ラマダ山で地の精霊に会う",
+    "simpleJp": "グレイシーヌへ行く",
     "jpGuide1": "戦闘2回の後、地の精霊に会う",
     "jpGuide2": "ラマダ山　イベント進行",
-    "enGuide": "Clear Ramada Temple and both mountain battles."
+    "enGuide": "Travel to Greycine, pass through Ramada Temple, then climb Ramada Mountain. Clear the two required battles and continue to the Earth Spirit event."
   },
   {
-    "simpleJp": "ミスロで石像を正しい位置へ動かし「スーパーブーツ」を取る",
+    "simpleJp": "ミスロで石像を動かす",
     "jpGuide1": "宝箱から「スーパーブーツ」を入手できる",
     "jpGuide2": "ミスロ（過去）の鍵付き宝箱",
-    "enGuide": "Optional unique puzzle reward. Also collect the partially hidden Dark Mask on the west side."
+    "enGuide": "Push the statues into the required arrangement so the locked treasure opens, then take Super Boots. Also check the west side for the partially hidden Dark Mask if completing unique loot."
   },
   {
-    "simpleJp": "ミスロ闘技場の連戦を終えて風の精霊に会う",
+    "simpleJp": "ミスロ闘技場へ入る",
     "jpGuide1": "戦闘後、ウォーロックと2人で戦闘。風の精霊に会う",
     "jpGuide2": "ミスロ闘技場",
-    "enGuide": "Kukuru fights the arena sequence before the Wind Spirit appears."
+    "enGuide": "Clear the arena sequence as Kukuru's side progresses. The final phase includes a fight involving the Warlock; afterward the Wind Spirit event triggers."
   },
   {
-    "simpleJp": "アゼンダ高地のゴーレムを確認してガザルアへ戻る",
+    "simpleJp": "アゼンダ高地奥のゴーレムを調べる",
     "jpGuide1": "ゴーレムをどけることはできないので一度引き返す",
     "jpGuide2": "アゼンダ高地→一度引き返す",
-    "enGuide": "The blocked path is intentional; it starts the Gazalua errand chain."
+    "enGuide": "Go all the way to the blocked Azenda route and inspect/approach the Golem. You cannot pass yet; backing out is the intended trigger for the Gazalua errand chain."
   },
   {
-    "simpleJp": "ガザルアで町人→宿屋→酒場→医者→1000Gのネックレスの順に進める",
+    "simpleJp": "ガザルアの宿屋へ行く",
     "jpGuide1": "ネックレスを1000Gで購入して宿に届ける",
     "jpGuide2": "ガザルア　宿屋→酒場→医者→ショップ",
-    "enGuide": "Complete the local errands, then return to Azenda."
+    "enGuide": "Follow the local information chain through the inn, tavern, doctor, and shop. Buy the necklace for 1000G and deliver it back to the inn to resolve the blockage."
   },
   {
     "simpleJp": "アゼンダ高地奥で光の精霊に会う",
@@ -48,15 +48,15 @@
     "enGuide": "Then fly from Alaratos to Alibarsha."
   },
   {
-    "simpleJp": "エルザーク→サリュ族の村跡→水の神殿と進み、水の精霊に会う",
+    "simpleJp": "エルザークへ行く",
     "jpGuide1": "戦闘後、水の精霊に会う",
     "jpGuide2": "エルザーク→サリュ族の村跡→水の神殿",
-    "enGuide": "After the Water Spirit, fly back to Smelia."
+    "enGuide": "Travel through Elzark and the ruined Saryu village to Water Temple. Win the required battle there and continue to the Water Spirit event."
   },
   {
     "simpleJp": "パレンシアの帰還確認で「準備がいい」を選ぶ",
     "jpGuide1": "準備がいいと答えればトウヴィルへ",
     "jpGuide2": "水の神殿→パレンシア",
-    "enGuide": "Finish the return-to-present event and the Touvil Temple battle. Set A identifies the literal return choice as 「準備がいい」."
+    "enGuide": "When asked if you are ready, choose 「準備がいい」. The story returns you to Touvil; finish the temple battle to close the past-world segment."
   }
 ]

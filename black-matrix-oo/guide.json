@@ -154,7 +154,7 @@
     {
       "id": "chapter05_free1_to_free3",
       "title": "第5章 自由行動1後〜3",
-      "stepCount": 5,
+      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -172,7 +172,7 @@
     {
       "id": "chapter05_after_free3",
       "title": "第5章 自由行動3後",
-      "stepCount": 3,
+      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -199,7 +199,7 @@
     {
       "id": "chapter06_after_free1",
       "title": "第6章 自由行動1後",
-      "stepCount": 7,
+      "stepCount": 6,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -226,7 +226,7 @@
     {
       "id": "chapter07_free2_to_free3",
       "title": "第7章 自由行動2後〜3",
-      "stepCount": 2,
+      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -274,7 +274,7 @@
     {
       "id": "chapter08_free2_to_free4",
       "title": "第8章 自由行動2後〜4",
-      "stepCount": 4,
+      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -396,13 +396,13 @@
       "url": "https://www.ffsky.com/article/bc5739_a14172.aspx",
       "title": "PS～Black/Matrix00徹底攻略+極道研究",
       "language": "zh",
-      "notes": "SUPPLEMENTAL CHINESE / ENGLISH-REFERENCE LANE ONLY. Directly inspectable original Chinese walkthrough by DARKGUARD, written from the author's own play/work over roughly one month. It provides chronological battle-stage order, free-action windows, bonus-trigger chains, hidden-shop/key-item notes, conditional battle rewards, ending-affecting conditions, and first-clear/NG+ information. It does not become Japanese Set A or Set B. Under the repository owner's BLACK/MATRIX-only exception approved 2026-09-22 and operational-detail extension approved by explicit caller request on 2026-09-23, FFSKY may supply exact operational detail only for the enumerated residual gaps in `prompt_supplement.md`, while Japanese source fields remain honest. Newly audited operational details include: the hidden shop's approximate 40-talk count; BS7's fuller conversation order; post-5-2 `構成員女×2 → 巡礼する精霊`; BS8's exact eight-NPC conversation order; the 5-3 Luka-vs-Aragi reward/tactic; BS12's notebook/couple/Lilith/Daria order; 4-4 and 6-4 practical boss tactics; and the specific 10-2 Paska spawn-tile blocking trick. Chinese text must never be copied into `jpGuide1` or `jpGuide2`."
+      "notes": "SUPPLEMENTAL CHINESE / ENGLISH-REFERENCE LANE ONLY. Directly inspectable original Chinese walkthrough by DARKGUARD. It remains usable for concise `enGuide` tactics and detail, and for facts explicitly enumerated in the 2026-09-22 BLACK/MATRIX owner exception. The 2026-09-23 request for more operational detail is NOT a new source-gate waiver. Therefore BS8/BS12 fuller NPC orders, the post-5-2 `構成員女×2 → 巡礼する精霊` pairing, and BS13's extra pre-notebook conversations / first-option detail remain supplemental only and are not promoted to required actions by this PR. FFSKY also disagrees with TSST on BS7 ordering: TSST gives Siria → notebook → Fry → one-winged angel (+ another Siria conversation somewhere), while FFSKY gives notebook → one-winged angel → Fry → Siria → one-winged angel. Required route text prefers the Japanese order."
     },
     {
       "url": "https://bm00.wiki.fc2.com/",
       "title": "BLACK/MATRIX OO 攻略Wiki",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B hub. Some child pages are directly inspectable (chapter 2, chapter 5, chapter 8, ending), while chapters 3/4/6/7/9 still intermittently return HTTP 403. Search indexing exposes useful exact-looking lines for some blocked pages (notably chapter 4, chapter 7, and chapter 9), but those snippets are NOT counted as a clean primary source because the pages cannot be directly inspected. Use them only to target corroborating research.",
+      "notes": "PRIMARY JAPANESE SET B hub. Some child pages are directly inspectable (chapter 2, chapter 5, chapter 8, ending), while chapters 3/4/6/7/9 still intermittently return HTTP 403. Search indexing exposes useful exact-looking lines for some blocked pages (notably chapter 4, chapter 7, and chapter 9), but those snippets are NOT counted as a clean primary source because the pages cannot be directly inspected. Use them only to target corroborating research. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception.",
       "set": "B"
     },
     {
@@ -416,28 +416,28 @@
       "url": "https://bm00.wiki.fc2.com/wiki/第2章　大陸にて",
       "title": "BLACK/MATRIX OO 攻略Wiki — 第2章 大陸にて",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Places bonus scenario 1 おつかい at 第2章 自由行動2, gives its trigger (雑記帳→プラン→「いいよ」), and documents the surrounding mandatory battles/progression. This independently corrects the earlier research scaffold."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Places bonus scenario 1 おつかい at 第2章 自由行動2, gives its trigger (雑記帳→プラン→「いいよ」), and documents the surrounding mandatory battles/progression. This independently corrects the earlier research scaffold. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
       "url": "https://bm00.wiki.fc2.com/wiki/第5章　砕ける心",
       "title": "BLACK/MATRIX OO 攻略Wiki — 第5章 砕ける心",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 7 and 8 in their free-action windows, their trigger chains, mandatory battles, and ending-relevant dialogue choices."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 7 and 8 in their free-action windows, their trigger chains, mandatory battles, and ending-relevant dialogue choices. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
       "url": "https://bm00.wiki.fc2.com/wiki/第8章　裏切りの刃",
       "title": "BLACK/MATRIX OO 攻略Wiki — 第8章 裏切りの刃",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 12 and 13 at 自由行動2/4 with trigger chains plus mandatory chapter progression and an ending-relevant choice."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 12 and 13 at 自由行動2/4 with trigger chains plus mandatory chapter progression and an ending-relevant choice. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
       "url": "https://bm00.wiki.fc2.com/wiki/エンディング",
       "title": "BLACK/MATRIX OO 攻略Wiki — エンディング",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Enumerates all six endings; documents the bonus-scenario-11 ring split, the exact six story choices relevant to the second-playthrough best ending, and the サーカスED requirement (master all minigames, buy 達人ノ書～完～ and D・J)."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Enumerates all six endings; documents the bonus-scenario-11 ring split, the exact six story choices relevant to the second-playthrough best ending, and the サーカスED requirement (master all minigames, buy 達人ノ書～完～ and D・J). CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
@@ -489,8 +489,9 @@
       "url": "https://rpgdic5.at-ninja.jp/koumoku/sonota2.html",
       "title": "RPG大辞典倉庫Lv5 — BLACK/MATRIX 00 サーカスED記述",
       "language": "ja",
-      "notes": "SUPPLEMENTAL JAPANESE SUPPORT. Directly inspected during the 2026-09-23 operational-detail pass. Corroborates the Circus Ending execution detail: all seven circus minigames must be mastered rather than merely cleared, and purchasing D・J after mastery triggers the special ending; it specifically calls out knife throwing, flyer distribution, and the light game as difficult. FC2 remains the primary Japanese ending source and additionally lists 達人ノ書～完～."
+      "notes": "PRIMARY JAPANESE SET B supplementary component, directly inspectable in the current accuracy pass. Independently states that Circus ED requires mastering all seven circus minigames (not merely clearing them), then buying D・J; buying D・J immediately triggers the ending regardless of main-story progress. It specifically calls out knife throwing, flyer distribution, and the light game as difficult. The route now uses this live condition and no longer requires the FC2-only `達人ノ書～完～` claim.",
+      "set": "B"
     }
   ],
-  "generated_at": "2026-09-24T04:12:00+00:00"
+  "generated_at": "2026-09-24T13:20:00+00:00"
 }

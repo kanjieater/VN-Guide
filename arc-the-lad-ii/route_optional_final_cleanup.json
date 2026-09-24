@@ -30,7 +30,7 @@
     "enGuide": "Settle G#37 first, then return by submarine with Diekbeck displayed. Take the east-side extension, clear its trials, and collect P-Reverse at the end."
   },
   {
-    "simpleJp": "封印の遺跡をグレイシーヌ→アララトス→ブラキア→アミーグ→バルバラードの順に攻略する",
+    "simpleJp": "グレイシーヌ封印の遺跡へ行く",
     "jpGuide1": "前の遺跡のパワーユニットを入手していないと、次の遺跡には入れない",
     "jpGuide2": "グレイシーヌの遺跡を攻略しないと中に入れない。／アララトスの遺跡を攻略しないと中に入れない。／ブラキアの遺跡を攻略しないと中に入れない。／アミーグの遺跡を攻略しないと中に入れない。／バルバラードの遺跡を攻略しないと中に入れない。",
     "enGuide": "This sealed-ruin chain unlocks sequentially. In each country, collect both Power Units before moving to the next country in the listed order; missing one prevents the following ruin from opening."
@@ -42,7 +42,7 @@
     "enGuide": "Take the Wind Sword here; it is one of the four ingredients for Light Sword."
   },
   {
-    "simpleJp": "アリバーシャ封印の遺跡を開放し、B2Fでマイオスを討伐する",
+    "simpleJp": "アリバーシャ封印の遺跡へ入る",
     "jpGuide1": "マイオス　アリバーシャ遺跡B2",
     "jpGuide2": "アリバーシャ封印の遺跡Ｂ２Ｆ",
     "enGuide": "After the preceding ruin chain is complete, enter Alibarsha's sealed ruin. Check the wanted poster first, descend to B2F, and defeat Maios."

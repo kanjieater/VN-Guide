@@ -1,13 +1,13 @@
 [
   {
     "simpleJp": "クズ鉄の町ショップの赤い髪の依頼人からお守りを受け取る",
-    "jpGuide1": "ショップにいる赤い髪の依頼人に話す",
+    "jpGuide1": "ショップにいる赤い髪の依頼人に話す。",
     "jpGuide2": "依頼人はショップにいる",
     "enGuide": "If you did not already collect it when accepting the job, speak to the red-haired requester in the Scrap Town shop and take the amulet."
   },
   {
     "simpleJp": "ロマリア市街の第3・第4防御壁の間にいる息子へお守りを渡す",
-    "jpGuide1": "ロマリア市街の中央にある大通りにいるレジスタンスの息子",
+    "jpGuide1": "ロマリア市街の中央にある大通りにいるレジスタンスの息子に話すとクリア。",
     "jpGuide2": "第３防御壁と第４防御壁の間",
     "enGuide": "Lower either the third or fourth wall so the central avenue becomes reachable. Find the resistance member between walls 3 and 4 and speak to him while holding the amulet to complete G#23."
   },

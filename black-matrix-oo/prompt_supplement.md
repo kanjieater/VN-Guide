@@ -53,6 +53,15 @@ The normal two-independent-Japanese-source rule still governs facts that have tw
 - derivative Japanese TSST only as corroboration, never as an independent Set-B source;
 - original Chinese FFSKY for exact operational trigger, reward, or battle-condition detail, translated into concise natural English in `enGuide`.
 
+**Operational-detail extension approved 2026-09-23 in the repository-owner/caller request for the BLACK/MATRIX execution-detail pass.** The owner explicitly asked to fill unintuitive trigger instructions, missing dialogue choices, missable pickups, and other places where a player would otherwise need another walkthrough. This does not become a general source waiver. It extends the title exception only to the following newly identified residual execution facts:
+
+- BS8's exact waiter → Fry → Exal → clown → old man → couple man → couple woman → Exal conversation order, where Japanese Set B establishes the town/circus conversation trigger but FFSKY preserves the exact order;
+- BS12's exact notebook 「花嫁姿」 → couple → Lilith → Daria order, where Japanese Set B independently establishes the wedding-conversation/Daria trigger and FFSKY preserves the fuller execution order;
+- the post-5-2 repeat-talk pickup `構成員女×2 → 巡礼する精霊`, where Japanese Wazap independently establishes the one-repeat-talk-item-per-free-action mechanic and FFSKY preserves the exact NPC/item pair;
+- repeating the already-approved six `それぞれの明日` literal answers at their first-playthrough chronological positions so visible story choices are never left unspecified. Their ending-critical meaning still applies only on the qualifying later NG+ run.
+
+For these enumerated BS8/BS12 operational orders, concise author-written Japanese `simpleJp` may express the FFSKY-preserved order while `jpGuide1`/`jpGuide2` remain honest quotations/placeholders from the Japanese lanes. FFSKY-specific low-level tactics and counts (for example the approximate 40-talk hidden-shop count) remain explanatory `enGuide` detail unless independently Japanese-supported.
+
 The approved exception specifically includes the currently identified residual facts needed by the authored route:
 
 - BS2/3 trigger/timing;
@@ -91,4 +100,4 @@ Do not turn repeatable grinding, max-stat optimization, or arbitrary farming int
 
 ## Source discipline
 
-The normal two-independent-Japanese-source gate still applies. Non-Japanese walkthroughs may be useful supplementary research but do not satisfy either primary Japanese verification set. Do not generate route files while `research.json` documents an unresolved primary-source blocker.
+The normal two-independent-Japanese-source gate still applies to every fact outside the explicitly enumerated owner-approved exceptions above. Non-Japanese walkthroughs do not become Japanese Set A or Set B. Do not generate route files while `research.json` documents an unresolved primary-source blocker for an unexcepted material fact.

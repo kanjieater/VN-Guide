@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "過去のトウヴィルでククルに話し、3連戦を勝つ",
+    "simpleJp": "過去のトウヴィルでククルに話す",
     "jpGuide1": "ククルを仲間にして3連戦",
     "jpGuide2": "トウヴィル(過去)　ククルに話しかけイベント→3戦",
     "enGuide": "Speak to Kukuru in past Touvil to start the sequence, then clear all three consecutive battles before leaving for Palencia."
@@ -12,7 +12,7 @@
     "enGuide": "The castle-ruins segment is one-way story progression. Keep moving through the forced battles until you reach the deepest room and meet the Fire Spirit."
   },
   {
-    "simpleJp": "グレイシーヌへ行き、ラマダ山で地の精霊に会う",
+    "simpleJp": "グレイシーヌへ行く",
     "jpGuide1": "戦闘2回の後、地の精霊に会う",
     "jpGuide2": "ラマダ山　イベント進行",
     "enGuide": "Travel to Greycine, pass through Ramada Temple, then climb Ramada Mountain. Clear the two required battles and continue to the Earth Spirit event."
@@ -30,13 +30,13 @@
     "enGuide": "Clear the arena sequence as Kukuru's side progresses. The final phase includes a fight involving the Warlock; afterward the Wind Spirit event triggers."
   },
   {
-    "simpleJp": "アゼンダ高地のゴーレムを確認してガザルアへ戻る",
+    "simpleJp": "アゼンダ高地奥のゴーレムを調べる",
     "jpGuide1": "ゴーレムをどけることはできないので一度引き返す",
     "jpGuide2": "アゼンダ高地→一度引き返す",
     "enGuide": "Go all the way to the blocked Azenda route and inspect/approach the Golem. You cannot pass yet; backing out is the intended trigger for the Gazalua errand chain."
   },
   {
-    "simpleJp": "ガザルアで町人→宿屋→酒場→医者→1000Gのネックレスの順に進める",
+    "simpleJp": "ガザルアの宿屋へ行く",
     "jpGuide1": "ネックレスを1000Gで購入して宿に届ける",
     "jpGuide2": "ガザルア　宿屋→酒場→医者→ショップ",
     "enGuide": "Follow the local information chain through the inn, tavern, doctor, and shop. Buy the necklace for 1000G and deliver it back to the inn to resolve the blockage."
@@ -48,7 +48,7 @@
     "enGuide": "Then fly from Alaratos to Alibarsha."
   },
   {
-    "simpleJp": "エルザーク→サリュ族の村跡→水の神殿と進み、水の精霊に会う",
+    "simpleJp": "エルザークへ行く",
     "jpGuide1": "戦闘後、水の精霊に会う",
     "jpGuide2": "エルザーク→サリュ族の村跡→水の神殿",
     "enGuide": "Travel through Elzark and the ruined Saryu village to Water Temple. Win the required battle there and continue to the Water Spirit event."

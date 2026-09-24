@@ -36,6 +36,12 @@
     "enGuide": "On a no-opposing-ring clear, retreat from Abel to obtain 「キミといつまでも」. This ending is the prerequisite for 「それぞれの明日」."
   },
   {
+    "simpleJp": "クリアデータを引き継いで次のNG+を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "習得済みのスキル、習得中のスキルの経験値が引き継がれる。\nサーカスのミニゲームの結果が引き継がれる。\nクリアボーナスのペインリングが最初から使える。",
+    "enGuide": "After 「キミといつまでも」, start a fresh New Game+ from clear data before beginning the six-choice 「それぞれの明日」 run."
+  },
+  {
     "simpleJp": "次のNG+で5-2「みんなを助けたい」を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "5-2  | みんなを助けたい",
@@ -90,21 +96,21 @@
     "enGuide": "After 「それぞれの明日」, start another New Game+ from clear data before continuing the circus-ending cleanup."
   },
   {
-    "simpleJp": "サーカスのミニゲームを全てマスターする",
+    "simpleJp": "サーカスの7つのミニゲームを全て「クリア」ではなく「マスター」する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ミニゲームを全部マスター",
-    "enGuide": "For the final special ending, master every circus minigame. Minigame results carry across NG+."
+    "jpGuide2": "サーカスの7つのミニゲームを全てマスターした後に買えるDJを購入する。というのが発生条件。",
+    "enGuide": "Master all seven circus minigames; simply clearing them is not enough. The directly inspectable Japanese RPG dictionary specifically calls out knife throwing, flyer distribution, and the light game as especially difficult. Minigame mastery carries across NG+."
   },
   {
-    "simpleJp": "「達人ノ書～完～」と「D・J」を購入する",
+    "simpleJp": "ミニゲーム7種を全てマスター後、「D・J」を購入する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
-    "enGuide": "After mastering all circus minigames, buy 「達人ノ書～完～」 and 「D・J」."
+    "jpGuide2": "サーカスの7つのミニゲームを全てマスターした後に買えるDJを購入する。というのが発生条件。",
+    "enGuide": "After all seven minigames are mastered, buy 「D・J」. This is the currently directly inspectable Japanese condition; the prior `達人ノ書～完～` requirement depended on the now-403 FC2 page and is no longer presented as required."
   },
   {
-    "simpleJp": "条件を満たして「サーカスED」を見る",
+    "simpleJp": "「D・J」購入直後に始まる「サーカスED」を見る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
-    "enGuide": "Proceed with the circus-ending condition satisfied to obtain the sixth ending, 「サーカスED」."
+    "jpGuide2": "本編の進行状況に関係なく、DJ購入後すぐにEDに突入する",
+    "enGuide": "Buying 「D・J」 after mastering all seven minigames immediately triggers the Circus Ending regardless of main-story progress."
   }
 ]

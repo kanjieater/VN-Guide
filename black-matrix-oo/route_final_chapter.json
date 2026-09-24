@@ -6,16 +6,16 @@
     "enGuide": "Because this walkthrough completed the Dana Trial, you enter 10-1B 「最後に笑う者」 rather than 10-1A 「ハラカラの闇」. Defeat Abel/Aragi."
   },
   {
+    "simpleJp": "10-2の10ターン終了前に「大食」と「嫉妬」を倒して固有リングを回収する",
+    "jpGuide1": "７ヶ所の「嫉妬の核神」を倒せば復活できないので倒してく",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the 10-turn battle ends automatically, defeat the 「大食」 and 「嫉妬」 core gods to obtain 「拷責の神音」 and 「覇道を叫ぶ雷光」. Then finish surviving the ten turns; clearing 10-2 awards 「神をも滅する剱」."
+  },
+  {
     "simpleJp": "BATTLE 10-2「砕かれた希望」を10ターン耐える",
     "jpGuide1": "BATTLE〖砕かれた希望〗\n１０ターン凌げ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Survive 10 turns. Standing on an enemy spawn tile prevents that enemy from reappearing."
-  },
-  {
-    "simpleJp": "10-2で「大食」と「嫉妬」を倒して固有リングを回収する",
-    "jpGuide1": "７ヶ所の「嫉妬の核神」を倒せば復活できないので倒してく",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "For the 100% rewards, defeat the 「大食」 and 「嫉妬」 core gods during 10-2 to obtain 「拷責の神音」 and 「覇道を叫ぶ雷光」. Clearing 10-2 also awards 「神をも滅する剱」."
+    "enGuide": "Survive 10 turns. FFSKY specifically documents blocking Paska's final-form spawn tile to stop Paska from appearing again; do not assume this trick applies to every enemy spawn."
   },
   {
     "simpleJp": "BATTLE「全ての痛みを越えろ」で最終ボスを倒す",

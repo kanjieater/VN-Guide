@@ -3,7 +3,7 @@
     "simpleJp": "ヴェローナの街で情報収集してサーカスへ向かう",
     "jpGuide1": "―自由行動―\n街の人々に話し掛けると、店・サーカス・酒場など行ける場所が増えていく",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Talk to the townspeople to open locations. Check the notebook regularly; repeatedly talking to the one-winged angel also reveals a hidden basement."
+    "enGuide": "Talk to the townspeople to open locations. Check the notebook regularly; repeatedly talking to the one-winged angel also reveals a hidden basement. General free-action mechanic: after all commands are available, a Japanese Wazap source documents one repeat-talk item per free-action window by speaking to the same NPC at least twice; treat this as background guidance, not one chapter-2 action standing in for future windows. Concrete required/missable pickups are called out at their actual windows."
   },
   {
     "simpleJp": "BATTLE 2-1「前略サーカスにて」をクリア",

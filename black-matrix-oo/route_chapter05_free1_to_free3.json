@@ -1,20 +1,20 @@
 [
   {
+    "simpleJp": "5-1で力天使も倒して「破滅の降罪」を入手する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before defeating Grishina and ending 5-1, take the east-side Force Angel for the missable 100% reward. Approach with a character carrying 「守護の誓」, bait its Painkiller, activate the invulnerability barrier, survive 「テュラント」, then rush it down for 「破滅の降罪」."
+  },
+  {
     "simpleJp": "BATTLE 5-1「消えない傷痕」でグリシナを倒す",
     "jpGuide1": "BATTLE〖消えない傷跡〗",
     "jpGuide2": "5-1「消えない傷痕」",
     "enGuide": "Defeat Grishina."
   },
   {
-    "simpleJp": "5-1で力天使も倒して「破滅の降罪」を入手する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "For the missable 100% reward, also defeat the Force Angel on the east side to obtain the unique Pain Ring 「破滅の降罪」. Bait out its Painkiller and survive it with a barrier before finishing it."
-  },
-  {
     "simpleJp": "BATTLE 5-2「嘆きの赤い牙」でレッド・ムフロンを倒す",
     "jpGuide1": "BATTLE〖嘆きの赤い牙〗",
     "jpGuide2": "5-2「嘆きの赤い牙」",
-    "enGuide": "Defeat Red Mufflon. The enemy side acts first, so start from a defensive formation."
+    "enGuide": "Defeat Red Mufflon. The enemy side acts first, so start from a defensive formation. General Japanese evidence confirms one repeat-talk item can be obtained in each free-action window; supplemental FFSKY specifically reports that speaking to the female Cipher Punk member twice after 5-2 yields 「巡礼する精霊」, but that exact NPC/item pairing is not promoted to a required step pending independent Japanese corroboration."
   }
 ]

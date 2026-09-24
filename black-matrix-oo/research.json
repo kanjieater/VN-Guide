@@ -21,7 +21,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Mandatory chapter-2 progression ending at 自由行動2. Set A diary and Set B FC2 walkthrough both place bonus scenario 1 here."
+      "notes": "Operational-detail pass adds the Japanese Wazap repeat-talk item rule so the player knows free-action NPC repetition can yield one item per window."
     },
     {
       "id": "optional_ch02_free2",
@@ -101,7 +101,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Mandatory progression through the next optional window."
+      "notes": "Operational-detail pass adds the source-documented hidden shop after 4-2: repeatedly talk to the stair-sitting youth until 「ボンジュール」, then visit the shop. Wazap independently establishes the mechanic; FFSKY gives the approximate 40-talk count."
     },
     {
       "id": "optional_ch04_free4",
@@ -133,7 +133,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Bonus scenario 7 at its documented free-action window."
+      "notes": "Bonus scenario 7. Source disagreement explicitly recorded: derivative Japanese TSST says `シリア→雑記帳「よく効く薬」→フライ→片翼の天使` plus one additional Siria conversation somewhere; FFSKY instead starts from the notebook and orders one-winged angel → Fry → Siria → one-winged angel. Set A independently verifies the terminal `紅い` choice. The required route follows the Japanese TSST order and does not describe FFSKY as agreeing."
     },
     {
       "id": "chapter05_free1_to_free3",
@@ -141,7 +141,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Mandatory progression through the next optional window."
+      "notes": "Mandatory 5-1/5-2 progression plus the already-approved 5-1 unique reward. The 2026-09-23 detail request is not treated as a source waiver: first-run copies of the six later true-ending answers were removed, and the FFSKY-only `構成員女×2 → 巡礼する精霊` pairing remains supplemental `enGuide` context until independently Japanese-corroborated."
     },
     {
       "id": "optional_ch05_free3",
@@ -149,7 +149,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Bonus scenario 8 at its documented free-action window."
+      "notes": "Bonus scenario 8. Required `simpleJp` stays at the Japanese-supported level: hear the relevant Lilith conversations around the town/circus, then read `えほんをつくるの` and talk to Daria. FFSKY's exact eight-NPC order remains supplemental English guidance only."
     },
     {
       "id": "chapter05_after_free3",
@@ -157,7 +157,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Remaining mandatory progression for chapter 5."
+      "notes": "Mandatory 5-3. Winning the otherwise-losable Luka/Aragi duel yields the unique `盟約の協定`; FFSKY supplies practical barrier/counter tactics under the pre-existing reward exception. First-run copies of later true-ending dialogue answers were removed; those six literals remain only on the qualifying NG+ run covered by the 2026-09-22 owner exception."
     },
     {
       "id": "chapter06_to_free1",
@@ -181,7 +181,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Remaining mandatory progression for chapter 6. Owner-approved operational-source exception permits FFSKY to supply the exact optional branch choice and unique-reward conditions in translated `enGuide`, while Japanese chronology/battle order remains anchored by Set A/CRADLE."
+      "notes": "Mandatory chapter 6 route including the already-approved 6-3 optional branch. The first-run copy of `そうだとは思わない` was removed; the choice remains only in the qualifying NG+ ending run. FFSKY battle tactics stay explanatory `enGuide`."
     },
     {
       "id": "chapter07_to_free2",
@@ -205,7 +205,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Mandatory progression through the next optional window."
+      "notes": "Mandatory 7-2 progression. The first-run copy of `わからない` was removed; it remains only in the qualifying NG+ ending run covered by the existing owner exception."
     },
     {
       "id": "optional_ch07_free3",
@@ -240,7 +240,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Bonus scenario 12 at its documented free-action window."
+      "notes": "Restored to the pre-PR route blob. This PR no longer promotes FFSKY's exact notebook/couple/Lilith/Daria order; any fuller FFSKY sequence is supplemental only."
     },
     {
       "id": "chapter08_free2_to_free4",
@@ -248,7 +248,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Mandatory progression through the next optional window."
+      "notes": "Mandatory 8-2/8-3 progression plus the already-excepted post-8-3 fire-earring pickup. The first-run copy of `許すよ` was removed; it remains only in the qualifying NG+ ending run."
     },
     {
       "id": "optional_ch08_free4",
@@ -256,7 +256,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Bonus scenario 13 at its documented free-action window."
+      "notes": "Restored to the pre-PR route blob. The current accuracy pass cannot re-fetch the historical FC2 page, so this PR does not claim new verification for BS13 or broaden source policy around its FFSKY-only details."
     },
     {
       "id": "chapter08_after_free4",
@@ -300,7 +300,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "First-clear ending path. Ending outcome mechanics remain subject to the normal two-set gate."
+      "notes": "First-clear ending path. Operational pass corrects 10-2 guidance: FFSKY specifically documents blocking Paska's final-form spawn tile, not a universal all-enemy spawn mechanic."
     },
     {
       "id": "ngplus_completion",
@@ -310,7 +310,7 @@
         "final_chapter"
       ],
       "is_true_ending": true,
-      "notes": "Linear NG+ / ending cleanup after first clear. Completion research must account for all six endings documented by the Japanese FC2 ending page, including the second-playthrough ending and サーカスED. FC2 states サーカスED requires mastering all circus minigames, then buying 達人ノ書～完～ and D・J; practical placement/timing still needs to be integrated into the master order before route generation."
+      "notes": "Linear NG+ / ending cleanup. The six `それぞれの明日` literals remain under the explicit 2026-09-22 BLACK/MATRIX owner exception. For Circus ED, current directly inspectable Japanese support now supplies the actionable condition independently of FC2: master all seven circus minigames, then buy D・J, which immediately triggers the ending."
     }
   ],
   "recommended_order": [
@@ -398,13 +398,13 @@
       "url": "https://www.ffsky.com/article/bc5739_a14172.aspx",
       "title": "PS～Black/Matrix00徹底攻略+極道研究",
       "language": "zh",
-      "notes": "SUPPLEMENTAL CHINESE / ENGLISH-REFERENCE LANE ONLY. Directly inspectable original Chinese walkthrough by DARKGUARD, written from the author's own play/work over roughly one month. It provides chronological battle-stage order, free-action windows, bonus-trigger chains, hidden-shop/key-item notes, conditional battle rewards, ending-affecting conditions, and first-clear/NG+ information. It does not become Japanese Set A or Set B. Under the repository owner's BLACK/MATRIX-only exception approved 2026-09-22, FFSKY may supply exact operational detail for the enumerated residual authored gaps recorded in `prompt_supplement.md`, with relevant meaning translated into concise natural English in `enGuide`. Where a Japanese lane lacks the exact literal/action, keep the omission placeholder rather than fabricating Japanese support. Chinese text must never be copied into `jpGuide1` or `jpGuide2`. Key accepted exception uses include BS2/3, grouped BS5/6, BS10, BS14, the chapter-6 optional branch/rewards, the later BS11 `もうちょっと` transition, and the listed one-time/unique reward conditions."
+      "notes": "SUPPLEMENTAL CHINESE / ENGLISH-REFERENCE LANE ONLY. Directly inspectable original Chinese walkthrough by DARKGUARD. It remains usable for concise `enGuide` tactics and detail, and for facts explicitly enumerated in the 2026-09-22 BLACK/MATRIX owner exception. The 2026-09-23 request for more operational detail is NOT a new source-gate waiver. Therefore BS8/BS12 fuller NPC orders, the post-5-2 `構成員女×2 → 巡礼する精霊` pairing, and BS13's extra pre-notebook conversations / first-option detail remain supplemental only and are not promoted to required actions by this PR. FFSKY also disagrees with TSST on BS7 ordering: TSST gives Siria → notebook → Fry → one-winged angel (+ another Siria conversation somewhere), while FFSKY gives notebook → one-winged angel → Fry → Siria → one-winged angel. Required route text prefers the Japanese order."
     },
     {
       "url": "https://bm00.wiki.fc2.com/",
       "title": "BLACK/MATRIX OO 攻略Wiki",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B hub. Some child pages are directly inspectable (chapter 2, chapter 5, chapter 8, ending), while chapters 3/4/6/7/9 still intermittently return HTTP 403. Search indexing exposes useful exact-looking lines for some blocked pages (notably chapter 4, chapter 7, and chapter 9), but those snippets are NOT counted as a clean primary source because the pages cannot be directly inspected. Use them only to target corroborating research.",
+      "notes": "PRIMARY JAPANESE SET B hub. Some child pages are directly inspectable (chapter 2, chapter 5, chapter 8, ending), while chapters 3/4/6/7/9 still intermittently return HTTP 403. Search indexing exposes useful exact-looking lines for some blocked pages (notably chapter 4, chapter 7, and chapter 9), but those snippets are NOT counted as a clean primary source because the pages cannot be directly inspected. Use them only to target corroborating research. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception.",
       "set": "B"
     },
     {
@@ -418,28 +418,28 @@
       "url": "https://bm00.wiki.fc2.com/wiki/第2章　大陸にて",
       "title": "BLACK/MATRIX OO 攻略Wiki — 第2章 大陸にて",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Places bonus scenario 1 おつかい at 第2章 自由行動2, gives its trigger (雑記帳→プラン→「いいよ」), and documents the surrounding mandatory battles/progression. This independently corrects the earlier research scaffold."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Places bonus scenario 1 おつかい at 第2章 自由行動2, gives its trigger (雑記帳→プラン→「いいよ」), and documents the surrounding mandatory battles/progression. This independently corrects the earlier research scaffold. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
       "url": "https://bm00.wiki.fc2.com/wiki/第5章　砕ける心",
       "title": "BLACK/MATRIX OO 攻略Wiki — 第5章 砕ける心",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 7 and 8 in their free-action windows, their trigger chains, mandatory battles, and ending-relevant dialogue choices."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 7 and 8 in their free-action windows, their trigger chains, mandatory battles, and ending-relevant dialogue choices. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
       "url": "https://bm00.wiki.fc2.com/wiki/第8章　裏切りの刃",
       "title": "BLACK/MATRIX OO 攻略Wiki — 第8章 裏切りの刃",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 12 and 13 at 自由行動2/4 with trigger chains plus mandatory chapter progression and an ending-relevant choice."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Documents bonus scenarios 12 and 13 at 自由行動2/4 with trigger chains plus mandatory chapter progression and an ending-relevant choice. CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
       "url": "https://bm00.wiki.fc2.com/wiki/エンディング",
       "title": "BLACK/MATRIX OO 攻略Wiki — エンディング",
       "language": "ja",
-      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Enumerates all six endings; documents the bonus-scenario-11 ring split, the exact six story choices relevant to the second-playthrough best ending, and the サーカスED requirement (master all minigames, buy 達人ノ書～完～ and D・J)."
+      "notes": "PRIMARY JAPANESE SET B component. Directly inspected. Enumerates all six endings; documents the bonus-scenario-11 ring split, the exact six story choices relevant to the second-playthrough best ending, and the サーカスED requirement (master all minigames, buy 達人ノ書～完～ and D・J). CURRENT ACCESS NOTE (2026-09-24): fresh accuracy re-review receives HTTP 403, so this page is historical provenance and must not be counted as currently directly inspectable. Exact facts needing fresh verification require a live alternative or an already-valid explicit owner exception."
     },
     {
       "set": "B",
@@ -472,8 +472,29 @@
       "title": "ニコニコ動画 — 〖プレイ動画〗ブラックマトリクスOO (mylist/38903044)",
       "language": "ja",
       "notes": "HIGH-PRIORITY JAPANESE SET-B CANDIDATE / NOT YET GATE-CLOSING. Independent Japanese no-commentary play-video series `〖プレイ動画〗ブラックマトリクスOO`, playlist `mylist/38903044`, begun in 2013 by a player who states they had played BMOO repeatedly since release and intended to continue the previously incomplete video coverage to the end. Search/Nicozon metadata confirms the series spans the needed chapters and reaches chapter 10. Concrete target parts recovered for focused inspection include chapter 3 `3-4` (`sm22144281`, previous `sm22121454`), chapter 4 `4-1` (`sm22224935`) through `4-5` (`sm22313254`), chapter 7 `7-3` (`sm23977976`), `7-4` (`sm24091204`), `7-5` (`sm24189546`), and chapter 9 `9-4` (`sm24867194`). The current research environment can directly inspect the Japanese video metadata but cannot play/extract the actual gameplay frames, so DO NOT count this source as inspected Set B yet. A browser/session capable of playing NicoNico should inspect only the free-action windows around BS2/3, grouped BS5/6, BS10, and BS14; if the videos visibly perform the trigger chains, record exact observed actions/timing and promote only those directly watched parts into Set B."
+    },
+    {
+      "set": "B",
+      "url": "https://wazap.com/cheat/%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E5%85%A5%E6%89%8B/80960/",
+      "title": "ワザップ! — BLACK/MATRIX 00 アイテム入手",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B supplementary component. Directly inspected. Documents the free-action repeat-talk mechanic: after all commands are available, talking to the same NPC at least twice yields one conversation item for that free-action window; the priest has a special repeated book-dialogue variant. It supports the repeat-talk mechanic independently, but does not name the post-5-2 構成員女 / 巡礼する精霊 pair."
+    },
+    {
+      "set": "B",
+      "url": "https://wazap.com/cheat/%E3%83%9C%E3%83%B3%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/80958/",
+      "title": "ワザップ! — BLACK/MATRIX 00 ボンジュール",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B supplementary component. Directly inspected. Documents the hidden shop: repeatedly talk to the young man sitting on the stairs during free action until he says 「ボンジュール」, then visit the shop; repeat the conversation process to reopen it later. FFSKY supplies the practical approximate count of 40 talks."
+    },
+    {
+      "url": "https://rpgdic5.at-ninja.jp/koumoku/sonota2.html",
+      "title": "RPG大辞典倉庫Lv5 — BLACK/MATRIX 00 サーカスED記述",
+      "language": "ja",
+      "notes": "PRIMARY JAPANESE SET B supplementary component, directly inspectable in the current accuracy pass. Independently states that Circus ED requires mastering all seven circus minigames (not merely clearing them), then buying D・J; buying D・J immediately triggers the ending regardless of main-story progress. It specifically calls out knife throwing, flyer distribution, and the light game as difficult. The route now uses this live condition and no longer requires the FC2-only `達人ノ書～完～` claim.",
+      "set": "B"
     }
   ],
-  "disagreements": "RESEARCH GATE CLOSED UNDER OWNER-APPROVED TITLE-SCOPED SOURCE EXCEPTION (approved 2026-09-22). Normal two-independent-Japanese-source verification remains authoritative wherever usable Japanese Set A/Set B evidence exists. Set A is the independent 2005 Fragments Of Memories diary; Set B is the directly inspected Japanese composite recorded in `sources` (including FC2 material inspected during research, CRADLE battle order, Japanese ending/NG+ material, and Wazap/5ch corroboration). For specifically enumerated residual authored gaps where exhaustive Japanese recovery did not yield a second directly inspectable lane, the owner approved proceeding with the strongest recovered Japanese evidence plus derivative Japanese TSST and/or original Chinese FFSKY operational detail. The active exception scope is exactly the list in `prompt_supplement.md`: BS2/3; grouped BS5/6; BS10; BS14; chapter-6 optional branch/rewards; BS11's combined `頑張る` then later `もうちょっと` sequence; the six literal NG+ answers leading to `それぞれの明日`; and the listed single-lane one-time/unique reward conditions. BS1 remains chapter 2 / 自由行動2 despite TSST's erroneous chapter-3 label. BS14's セングラー requirement/hold-not-equipped rule remains independently Japanese-verified; FFSKY/TSST fill only the exception-scoped operational gaps. Chinese-source detail is translated into concise English in `enGuide` and never fabricated into Japanese source fields. The prior NicoNico/video, old-thread, mirror, cache, and official-guide recovery paths are retained only as historical research leads and are not active blockers for authoring or review.",
-  "generated_at": "2026-09-23T02:35:00+00:00"
+  "disagreements": "RESEARCH GATE STATUS AFTER PR #82 ACCURACY FEEDBACK: the 2026-09-23 operational-detail request is not treated as a source-policy waiver. The only owner-approved BLACK/MATRIX exception remains the explicit 2026-09-22 title-scoped exception enumerated in `prompt_supplement.md` (including the six literal NG+ answers for `それぞれの明日` and the previously listed reward/trigger gaps). FFSKY-only BS8/BS12 exact orders, post-5-2 `構成員女×2 → 巡礼する精霊`, and BS13 extra conversations / ordinal choice are supplemental-only in this PR. BS7 has a real order disagreement: TSST says Siria → notebook `よく効く薬` → Fry → one-winged angel (+ another Siria conversation somewhere), while FFSKY says notebook → one-winged angel → Fry → Siria → one-winged angel; the route selects the Japanese TSST order and Set A independently verifies the terminal `紅い` choice. FC2 chapter 5, chapter 8, and ending pages currently return HTTP 403 and are no longer claimed as currently inspectable; their historical excerpts remain provenance only. The six NG+ literals remain reviewable under the already-valid 2026-09-22 exception. Circus ED no longer depends on FC2: live Japanese RPG大辞典 support verifies seven mastered minigames + D・J purchase → immediate Circus ED. Wazap/livedoor/Set A remain live support for ordinary ending/ring structure.",
+  "generated_at": "2026-09-24T13:20:00+00:00"
 }

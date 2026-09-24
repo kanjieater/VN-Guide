@@ -1,9 +1,9 @@
 [
   {
-    "simpleJp": "シリア・フライ・片翼の天使の薬草関連会話を進める",
+    "simpleJp": "シリア→雑記帳「よく効く薬」→フライ→片翼の天使の順に進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "シリア→雑記帳（よく効く薬）→フライ→片翼の天使\n※どこかでシリアにもう1回会話",
-    "enGuide": "Exhaust the herb-related conversations with Siria, Fry, and the one-winged angel, checking the notebook as the chain updates."
+    "enGuide": "Follow the Japanese trigger memo in this order: Siria → notebook 「よく効く薬」 → Fry → one-winged angel. The memo notes one additional Siria conversation is needed somewhere in the chain; if the flower-color question does not appear, revisit Siria, then return to the one-winged angel."
   },
   {
     "simpleJp": "片翼の天使に「紅い」と答える",

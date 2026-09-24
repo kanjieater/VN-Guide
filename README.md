@@ -4,6 +4,8 @@ VN Guide turns Japanese visual-novel and explicitly opted-in linear-game walkthr
 
 **Live site:** [kanjieater.github.io/VN-Guide](https://kanjieater.github.io/VN-Guide/)
 
+![VN Guide homepage](assets/screenshots/homepage.png)
+
 ## Agent workflow
 
 Agents work directly against the repository and pull requests. There is no local autonomous model runner.

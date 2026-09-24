@@ -648,9 +648,35 @@
   {
     "simpleJp": "受け取らない",
     "jpGuide1": "※行軍録の「華ノ章 土方歳三篇 第五章」から始める／※設定は「好感度：低」「羅刹度：低」／受け取らない",
+    "jpGuide2": "⚪︎行軍録〖華ノ章・土方歳三篇：第五章〗より／〖好感度：低〗〖羅刹度：低〗でスタート／受け取らない",
+    "enGuide": "Do not continue from SAVE5 for this branch. Open 行軍録 and start 華ノ章・土方歳三篇 第五章 with 好感度：低 / 羅刹度：低, then choose 受け取らない. tama labels this ending BAD（スタッフロールあり）; ruRi labels the same state/choice path 土方悲恋END.",
+    "badEndPath": "〖華ノ章〗BADエンド（スタッフロールあり）"
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "我慢させる",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "できる限りのことはします",
+    "jpGuide1": "できる限りのことはします",
+    "jpGuide2": "できる限りのことはします",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save5より",
+    "enGuide": "Low-affection / low-羅刹度 ending complete. This load only returns to the preserved main-route SAVE5 after the 行軍録 ending; SAVE5 is not the entry state for this detour.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "受け取らない",
+    "jpGuide1": "※行軍録の「華ノ章 土方歳三篇 第五章」から始める／※設定は「好感度：低」「羅刹度：高」／受け取らない",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Independent exact-target ruRi corroborates this Set-A low-affection 悲恋 branch.",
-    "badEndPath": "悲恋エンド"
+    "enGuide": "Do not continue from SAVE5 for this branch. Open 行軍録 and start 華ノ章 土方歳三篇 第五章 with 好感度：低 / 羅刹度：高, then choose 受け取らない. This distinct state-based ending is documented by tama.",
+    "badEndPath": "〖華ノ章〗BADエンド（スタッフロールなし①）"
   },
   {
     "simpleJp": "我慢させる",
@@ -662,13 +688,51 @@
     "simpleJp": "できる限りのことはします",
     "jpGuide1": "できる限りのことはします",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Independent exact-target ruRi corroborates this Set-A low-affection 悲恋 branch."
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ5にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save5より",
-    "enGuide": "",
+    "enGuide": "Low-affection / high-羅刹度 ending complete. This load only returns to the preserved main-route SAVE5 after the 行軍録 ending; SAVE5 is not the entry state for this detour.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "受け取らない",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "⚪︎行軍録〖華ノ章・土方歳三篇：第五章〗より／〖好感度：高〗〖羅刹度：高〗でスタート／受け取らない",
+    "enGuide": "Do not continue from SAVE5 for this branch. Open 行軍録 and start 華ノ章・土方歳三篇 第五章 with 好感度：高 / 羅刹度：高, then choose 受け取らない. ruRi documents this as a distinct exact-target BAD END 5.",
+    "badEndPath": "華ノ章：土方BAD END５"
+  },
+  {
+    "simpleJp": "我慢させる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "我慢させる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何か良くないことが？",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "何か良くないことが？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "できる限りのことはします",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "できる限りのことはします",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "信じない",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "信じない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save5より",
+    "enGuide": "High-affection / high-羅刹度 BAD END 5 complete. This load only returns to the preserved main-route SAVE5 after the 行軍録 ending; SAVE5 is not the entry state for this detour.",
     "isLoad": true
   },
   {

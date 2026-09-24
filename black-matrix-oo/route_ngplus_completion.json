@@ -36,6 +36,12 @@
     "enGuide": "On a no-opposing-ring clear, retreat from Abel to obtain 「キミといつまでも」. This ending is the prerequisite for 「それぞれの明日」."
   },
   {
+    "simpleJp": "クリアデータを引き継いで次のNG+を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "習得済みのスキル、習得中のスキルの経験値が引き継がれる。\nサーカスのミニゲームの結果が引き継がれる。\nクリアボーナスのペインリングが最初から使える。",
+    "enGuide": "After 「キミといつまでも」, start a fresh New Game+ from clear data before beginning the six-choice 「それぞれの明日」 run."
+  },
+  {
     "simpleJp": "次のNG+で5-2「みんなを助けたい」を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "5-2  | みんなを助けたい",

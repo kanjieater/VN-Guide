@@ -9,7 +9,7 @@
     "simpleJp": "BATTLE 10-2「砕かれた希望」を10ターン耐える",
     "jpGuide1": "BATTLE〖砕かれた希望〗\n１０ターン凌げ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Survive 10 turns. Standing on an enemy spawn tile prevents that enemy from reappearing."
+    "enGuide": "Survive 10 turns. FFSKY specifically documents blocking Paska's final-form spawn tile to stop Paska from appearing again; do not assume this trick applies to every enemy spawn."
   },
   {
     "simpleJp": "10-2で「大食」と「嫉妬」を倒して固有リングを回収する",

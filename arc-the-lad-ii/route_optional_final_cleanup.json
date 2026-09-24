@@ -19,9 +19,9 @@
   },
   {
     "simpleJp": "海底神殿では卵を絶対に渡さず最深部まで守る",
-    "jpGuide1": "決して渡してはいけない",
-    "jpGuide2": "渡してしまえば即失敗",
-    "enGuide": "Never hand over the egg when prompted—doing so fails the job immediately. Refuse each attempt, win all three battles, and carry the egg all the way to the nest."
+    "jpGuide1": "何度か卵を渡すように言われるが、決して渡してはいけない。",
+    "jpGuide2": "戦闘は計三回。二回目はすぐに戦闘に突入する",
+    "enGuide": "Never surrender the egg when a hand-over prompt appears. There are three fights total; the second encounter begins immediately without a choice. Win all three and carry the egg to the nest at the deepest point."
   },
   {
     "simpleJp": "G#37を清算してから海底神殿東側の追加試練を終える",

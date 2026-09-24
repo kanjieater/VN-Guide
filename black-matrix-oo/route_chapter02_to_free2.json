@@ -3,13 +3,7 @@
     "simpleJp": "ヴェローナの街で情報収集してサーカスへ向かう",
     "jpGuide1": "―自由行動―\n街の人々に話し掛けると、店・サーカス・酒場など行ける場所が増えていく",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Talk to the townspeople to open locations. Check the notebook regularly; repeatedly talking to the one-winged angel also reveals a hidden basement."
-  },
-  {
-    "simpleJp": "【任意】各自由行動で同じNPCに2回以上話し、会話アイテムを1つ回収する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "一回の自由行動（全コマンド出現後）につき誰か一人必ず二回以上話しかけるとアイテムをもらえる。神父は書について話を何回か聞いて聞かないを選ぶとアイテムを入手できる",
-    "enGuide": "After all free-action commands are available, Wazap documents one repeat-talk item per free-action window: speak to the same NPC at least twice. The priest is a special case—repeat the book conversation and eventually choose not to hear it."
+    "enGuide": "Talk to the townspeople to open locations. Check the notebook regularly; repeatedly talking to the one-winged angel also reveals a hidden basement. General free-action mechanic: after all commands are available, a Japanese Wazap source documents one repeat-talk item per free-action window by speaking to the same NPC at least twice; treat this as background guidance, not one chapter-2 action standing in for future windows. Concrete required/missable pickups are called out at their actual windows."
   },
   {
     "simpleJp": "BATTLE 2-1「前略サーカスにて」をクリア",

@@ -7,13 +7,13 @@
   },
   {
     "simpleJp": "G#36「石版調査の護衛」を完了する",
-    "jpGuide1": "石版調査の護衛",
+    "jpGuide1": "酒場にいるロンウィッド・タリスマンに話す。戦闘になり、敵を中心エリアに指定されたターン数入れないようにする。全部で3回戦闘することになり、1回目は5ターン、2回目は7ターン、3回目は5ターン守る必要がある。",
     "jpGuide2": "G#36　石板調査の護衛",
     "enGuide": "Talk to Lonwid Talisman in the Ajaar tavern. You will fight three defense battles; keep enemies out of the center area for 5 turns, then 7 turns, then 5 turns. Wiping the enemies out is the easiest way to guarantee success."
   },
   {
     "simpleJp": "G#38「炭坑の落盤事故の炭坑夫救出作業」を完了する",
-    "jpGuide1": "炭坑の落盤事故の炭坑夫救出作業",
+    "jpGuide1": "ウィンドウを閉じるとすぐに始まる。広いマップの中にいる10人の炭鉱夫を1人ずつ救出すればクリア。岩は調べると「マトック」で壊せるが、壊しすぎると救出可能時間が減るので注意。",
     "jpGuide2": "G#38　炭坑の落盤事故の炭坑夫救出作業",
     "enGuide": "Closing the job window starts the mine rescue immediately. Locate all ten miners and rescue them one by one. Rocks can be broken with the Mattock, but breaking too many reduces the available rescue time."
   },

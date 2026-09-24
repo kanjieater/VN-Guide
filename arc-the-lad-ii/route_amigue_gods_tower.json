@@ -1,18 +1,18 @@
 [
   {
-    "simpleJp": "神の塔10Fの6つの三角ワープでは左から2番目へ入る",
+    "simpleJp": "神の塔の6つの三角ワープは左から2番目を選ぶ",
     "jpGuide1": "6つ並んだ三角ワープは、左から2番目が正解。",
     "jpGuide2": "神の塔",
     "enGuide": "At the six-triangle warp puzzle, use the second warp from the left. Avoid the wrong triangle that returns you to the entrance."
   },
   {
-    "simpleJp": "11Fでは左スイッチをONにして丸ワープの行き先を変え、そのワープで先へ進む",
+    "simpleJp": "11Fは左のスイッチを使う",
     "jpGuide1": "11Fは左のスイッチで丸ワープの行き先を変える。",
     "jpGuide2": "左のスイッチを入れる",
     "enGuide": "Use the left switch on 11F to redirect the circular warp, then take it onward. The right switch only triggers an unnecessary battle."
   },
   {
-    "simpleJp": "最上階で先手2回行動に耐え、グロルガルデを倒して塔をクリアする",
+    "simpleJp": "最上階でグロルガルデを倒す",
     "jpGuide1": "倒すとアミーグはクリア。神の塔には入れなくなる。",
     "jpGuide2": "アミーグ編終了",
     "enGuide": "Grolgalde acts twice before your party's first turn, so put durable characters up front and heal quickly. Defeat it to finish Amigue; God's Tower closes afterward."

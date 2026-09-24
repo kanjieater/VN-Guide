@@ -18,7 +18,7 @@
     "enGuide": "Get the ceremony ticket from Bibiga at the Hien storage area."
   },
   {
-    "simpleJp": "式典会場へ入り、ヤゴス島へ進む",
+    "simpleJp": "式典会場へ入る",
     "jpGuide1": "イベントでヤゴス島へ。",
     "jpGuide2": "ヤゴス島不時着",
     "enGuide": "Entering the ceremony permanently closes the first guild-job window."
@@ -30,13 +30,13 @@
     "enGuide": "On the first Ruins visit, descend only to B2F; reaching B2F completes this pass. The deeper sealed route is handled on the second visit."
   },
   {
-    "simpleJp": "再び封印の遺跡へ入り、最深部でパワーユニットを取る",
+    "simpleJp": "封印の遺跡へ再入場する",
     "jpGuide1": "最深部でパワーユニットを入手",
     "jpGuide2": "パワーユニット入手",
     "enGuide": "On the second visit, descend to the bottom. Gargoyle watcher statues can be rotated; taking watched treasure without turning them triggers battles. Collect the Power Unit at the deepest floor, then return to B2F to finish the objective."
   },
   {
-    "simpleJp": "ユドの村で休み、最後の戦闘を終える",
+    "simpleJp": "ユドの村でベッドに休む",
     "jpGuide1": "この後からリーザがラヴィッシュを修得可能になる。",
     "jpGuide2": "ヤゴス島出発",
     "enGuide": "Rest in the bed when prompted to trigger the next event. Afterward, win the ninja battle; from this point Lieza can begin learning Ravish."

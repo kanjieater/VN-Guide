@@ -1,24 +1,24 @@
 [
   {
-    "simpleJp": "ちょこをLv55以上にして時の森へ行く",
+    "simpleJp": "ちょこをLv55以上にする",
     "jpGuide1": "ちょこのLVが55以上で、さらにミルマーナをクリア",
     "jpGuide2": "ちょこをLv55まで上げる必要がある。",
     "enGuide": "This continuation only opens after Millmana and once Choko is at least Lv55. Put Choko in usable condition before entering because the event includes forced battles."
   },
   {
-    "simpleJp": "時の森を「上→上→上→上」で抜けて墓地へ行く",
+    "simpleJp": "時の森で上へ進む",
     "jpGuide1": "上→上→上→上の順で進むと墓地に出られる",
     "jpGuide2": "操作するキャラをちょこにして、墓地の大きい墓石を調べる",
     "enGuide": "Take four consecutive upward exits to reach the cemetery. Enter the trees from the west side and circle behind the large grave on the east; inspect it from the rear to trigger the next event."
   },
   {
-    "simpleJp": "トココの村で裏庭の鍵を取り、棒状の墓を調べる",
+    "simpleJp": "ちょこの家左下のガラクタを調べる",
     "jpGuide1": "裏庭に出る鍵は、左下のほうにあるガラクタの山",
     "jpGuide2": "ちょこの家の左下の物置を調べて鍵を取り、裏口を抜けてシルバの墓を調べる",
     "enGuide": "Inside Choko's house, search the junk pile at the lower-left to find the backyard key. Use the rear exit and inspect the stick-shaped grave behind the house."
   },
   {
-    "simpleJp": "グリーンスライムを全滅させず、南西の墓地への道から離脱する",
+    "simpleJp": "グリーンスライムを1体以上残す",
     "jpGuide1": "グリーンスライムたちを全滅させてはいけない",
     "jpGuide2": "こいつらを倒してはならないちょこ覚醒イベント",
     "enGuide": "Do not wipe out the Green Slimes. Leave at least one alive, disable or avoid the rest, and move a character onto the southwest exit leading toward the cemetery."

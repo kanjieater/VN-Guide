@@ -30,7 +30,7 @@
     "enGuide": "Clear the mandatory second Alfred battle on the aircraft deck before reaching Indigos."
   },
   {
-    "simpleJp": "インディゴスでギルド→酒場の順に話す",
+    "simpleJp": "インディゴスのギルド受付に話す",
     "jpGuide1": "まずはギルドで話を聞き、その後酒場へ",
     "jpGuide2": "ギルド受付→受付隣のハンター→酒場のマスターの順で会話",
     "enGuide": "At the Indigos guild, speak to the receptionist and then the hunter beside the counter. Go to the tavern and talk to the master to open the ruined-town lead."
@@ -60,7 +60,7 @@
     "enGuide": "In the alley battle, enemies keep appearing. Continue defeating them until the scripted event triggers and ends the encounter."
   },
   {
-    "simpleJp": "シュウの家へ戻り、シュウを仲間にする",
+    "simpleJp": "シュウの家へ戻る",
     "jpGuide1": "シュウの家に戻るとシュウが仲間になる。",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Return to Shu's apartment; Shu now joins permanently."

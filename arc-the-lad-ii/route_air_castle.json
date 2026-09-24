@@ -6,7 +6,7 @@
     "enGuide": "Final point of no return. Enter only after every optional job, bounty, item, and synthesis goal you care about is complete."
   },
   {
-    "simpleJp": "入口付近の敵を倒し、シルバーノアの設備を使えるようにする",
+    "simpleJp": "入口付近の敵を倒す",
     "jpGuide1": "入口近くの敵を倒すとシルバーノアに戻れるようになる",
     "jpGuide2": "作戦室が魔改造され、ショップ、鍛冶屋、合成屋、マザークレアなどが駆けつけてくれ",
     "enGuide": "Clear the entrance battle first. Afterward, Silver Noah is accessible inside Air Castle for recovery, save, shop, smith, synthesis, Mother Claire, and other services."
@@ -18,7 +18,7 @@
     "enGuide": "One chance only. During BATTLE7, use a jumping/flying unit or Teleport to reach the lower-right chest and take Grabb Axe before defeating the final enemy."
   },
   {
-    "simpleJp": "赤い丸のワープで進み、中間セーブポイントでセーブする",
+    "simpleJp": "赤い丸ワープへ入る",
     "jpGuide1": "途中に回復・セーブポイントがある",
     "jpGuide2": "空中城6部屋",
     "enGuide": "Follow the red circular warps to the mid-castle recovery/save point and make a durable save there. This save is also usable for Arc III conversion."
@@ -60,7 +60,7 @@
     "enGuide": "Gurga first fights three battles. After them, choose 「抵抗しない」 three times in a row; another choice sends you back through the three fights."
   },
   {
-    "simpleJp": "4つの試練部屋を勝ち、中央の水晶を調べる",
+    "simpleJp": "4つの試練部屋の敵を倒す",
     "jpGuide1": "4つの部屋の試練",
     "jpGuide2": "4つの試練は、4つの部屋で戦闘するだけ。／中央の石を調べ、上の部屋に入り戦闘",
     "enGuide": "Clear all four surrounding trial rooms, then return to the center and inspect the crystal/stone to open the route onward."

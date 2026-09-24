@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "サルバ砂漠を進み、用心棒ジェフリー戦に勝って帰らずの森へ向かう",
+    "simpleJp": "サルバ砂漠を抜ける",
     "jpGuide1": "用心棒ジェフリーと戦闘がある。",
     "jpGuide2": "サルバ砂漠",
     "enGuide": "Cross Salba Desert and win the mandatory Jeffrey battle. On the second desert map, the lower-right route also leads past a Viper Fang chest if you want it."
@@ -12,7 +12,7 @@
     "enGuide": "Do not hunt Balzac yet; simply use the keeper/route to reach White House."
   },
   {
-    "simpleJp": "白い家下水道で各スイッチを押して扉を開き、戦闘中に水路中央のはしごへ渡って先へ進む",
+    "simpleJp": "白い家下水道を突破する",
     "jpGuide1": "スイッチで扉を開いて進む。",
     "jpGuide2": "白い家到着",
     "enGuide": "Open the sewer doors with the local switches. The ladder surrounded by water is reached during battle by jumping across; use it to continue into White House."
@@ -24,13 +24,13 @@
     "enGuide": "Defeat the central body."
   },
   {
-    "simpleJp": "ミリル救出後の部屋戦を勝ち、続くエルク一騎討ちを槍やチャージで安全に終える",
+    "simpleJp": "ミリル救出後の戦闘とエルクの一騎討ちを終える",
     "jpGuide1": "その後エルクとボスで一騎討ちになる。",
     "jpGuide2": "実験室戦終了",
     "enGuide": "After rescuing Miril, entering the next room starts another battle. Then Elk fights the boss alone; ranged spear attacks or Charge help avoid dangerous counterattacks."
   },
   {
-    "simpleJp": "シルバーノア作戦室でエルクに2回話し、別室のチョピンに話して分隊編へ進む",
+    "simpleJp": "シルバーノア作戦室でエルクに2回話す",
     "jpGuide1": "エルクに２回話し掛けると進む",
     "jpGuide2": "エルクに2回話しかけた後チョピンに話しかけるとイベント進行",
     "enGuide": "Speak to Elk twice in the operations room, then go to the other room and speak to Chopin. That conversation starts the split-party arc."

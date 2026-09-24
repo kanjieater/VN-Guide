@@ -1,18 +1,18 @@
 [
   {
-    "simpleJp": "クズ鉄の町ショップの赤髪依頼人に話し、「お守り」を受け取る",
+    "simpleJp": "クズ鉄の町ショップの赤い髪の依頼人からお守りを受け取る",
     "jpGuide1": "ショップにいる赤い髪の依頼人に話す",
     "jpGuide2": "依頼人はショップにいる",
     "enGuide": "If you did not already collect it when accepting the job, speak to the red-haired requester in the Scrap Town shop and take the amulet."
   },
   {
-    "simpleJp": "ロマリア市街で第3か第4防御壁を下げ、第3・第4防御壁の間の息子へお守りを渡す",
+    "simpleJp": "ロマリア市街の第3・第4防御壁の間にいる息子へお守りを渡す",
     "jpGuide1": "ロマリア市街の中央にある大通りにいるレジスタンスの息子",
     "jpGuide2": "第３防御壁と第４防御壁の間",
     "enGuide": "Lower either the third or fourth wall so the central avenue becomes reachable. Find the resistance member between walls 3 and 4 and speak to him while holding the amulet to complete G#23."
   },
   {
-    "simpleJp": "城前広場へ入る前に市街と地下道を回り、固定宝箱を全部取る",
+    "simpleJp": "城前広場へ入る前にロマリア市街の宝箱をすべて回収する",
     "jpGuide1": "「ガーネット」「デスロザリー」「タワーガード」「クレイジーフェイス」「ちからの実」「いい爆弾」「スタッフオブフォース」「ダークカード」「パロの実」「クラヴィスの本+4」「強力果物」",
     "jpGuide2": "城前広場での戦闘を終えるとロマリア市街地には二度と入れなくなる",
     "enGuide": "This is the final city-loot window. Sweep the streets and underground route for the fixed chests—including Staff of Force and Dark Card—before entering the castle-front plaza, because the city becomes permanently inaccessible afterward."

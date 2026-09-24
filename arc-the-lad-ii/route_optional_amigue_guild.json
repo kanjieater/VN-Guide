@@ -19,9 +19,9 @@
   },
   {
     "simpleJp": "G#42「長老館の紛失事件」を完了する",
-    "jpGuide1": "神の塔をクリアすると消滅するので注意。",
-    "jpGuide2": "G#42　長老館の紛失事件　アミーグ編終了で消滅",
-    "enGuide": "Talk to the elder, then the old man in the guild basement, inspect the 1F bookshelf, and hear the gatekeeper's clue. In the elder's mansion, there are nine lamps: light any seven of the ordinary eight, then light the special left lamp near the upper-right dead end last. Do not light all nine."
+    "jpGuide1": "長老と話した後、ギルド地下にいるじいさんに話し、1Fの本棚を調べて情報を得る。",
+    "jpGuide2": "点灯可能な灯り８つから、６つを選択して点し、最後に行き止まりの灯りを点せばいい",
+    "enGuide": "Talk to the elder, then the old man in the guild basement, inspect the 1F bookshelf, and hear the gatekeeper's clue. In the mansion, light any 6 of the 8 ordinary usable lamps, then light the special left lamp at the far end last (7 lit total). Go up the revealed stairs, speak to the child, then report to the elder."
   },
   {
     "simpleJp": "アミーグFBAでドルゴンを討伐する",

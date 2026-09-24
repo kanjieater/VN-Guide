@@ -1,18 +1,18 @@
 [
   {
-    "simpleJp": "ロマリア空港でチョンガラに話してグレイシーヌへ行く",
+    "simpleJp": "ロマリア空港でチョンガラに話す",
     "jpGuide1": "チョンガラに話し掛けると、グレイシーヌへ行く",
     "jpGuide2": "チョンガラに話しかけイベント進行",
     "enGuide": "This begins the first full-party country arc."
   },
   {
-    "simpleJp": "ラマダ寺へ行き、サニアを仲間にする",
+    "simpleJp": "ラマダ寺へ行く",
     "jpGuide1": "イベントでサニアが仲間になる。",
     "jpGuide2": "加入時期　グレイシーヌ編序盤",
     "enGuide": "Go to Ramada Temple and advance the event there until Sania joins the party permanently."
   },
   {
-    "simpleJp": "ペイサスで同じ姿の男11人に話し、刑事へ報告する",
+    "simpleJp": "ペイサスで同じ姿の男に話す",
     "jpGuide1": "全部で11人。11人に話したら、刑事に話し掛ける",
     "jpGuide2": "NPC11人に話しかけるイベント",
     "enGuide": "Search outside and inside both buildings until you have spoken to all 11 identical-looking men. Then go to the detective on the library's second floor and report."
@@ -24,13 +24,13 @@
     "enGuide": "Travel to Noyam Plains. The investigation triggers a battle there; defeat the enemy group to advance."
   },
   {
-    "simpleJp": "ラマダ山を攻略してイーガにラマダ真拳を修得させる",
+    "simpleJp": "ラマダ山へ行く",
     "jpGuide1": "イーガがラマダ真拳を修得する。",
     "jpGuide2": "ラマダ山　イベント進行",
     "enGuide": "Climb Ramada Mountain through its battles/events to the top. Completing the sequence teaches Iga Ramada Shinken."
   },
   {
-    "simpleJp": "国境戦で列車砲の照準を避けながら敵を全滅させる",
+    "simpleJp": "列車砲の照準範囲から離れる",
     "jpGuide1": "列車砲の射程範囲内に入ると、敵味方関わらず次のターンにダメージ",
     "jpGuide2": "この戦闘に勝利すればグレイシーヌ編クリア",
     "enGuide": "The train cannon targets a 3×3 area and damages anyone still there on the next turn, friend or foe. Move out of the marked zone each turn while eliminating the enemy force."

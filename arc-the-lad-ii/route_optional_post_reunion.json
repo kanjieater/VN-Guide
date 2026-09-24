@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "G#27「再生品を盗む犯人を捕まえて欲しい」を完了する",
+    "simpleJp": "クズ鉄の町左下の再生品協会へ行く",
     "jpGuide1": "マップ左下の再生品協会へ。受付に話すと戦闘になり、勝てばクリア。",
     "jpGuide2": "G#27　再生品を盗む犯人を捕まえて欲しい",
     "enGuide": "Go to the Recycled Goods Association in the lower-left of Scrap Town and speak to the receptionist. A battle begins immediately; win it, then settle the job before moving to G#28."
@@ -12,7 +12,7 @@
     "enGuide": "Check Jackal's wanted poster now before starting G#28; Set B records this as part of the job's availability conditions."
   },
   {
-    "simpleJp": "G#28「夜な夜な来るモンスターを倒して」を完了する",
+    "simpleJp": "ギルドのウィンドウを閉じる",
     "jpGuide1": "ギルドのウィンドウを閉じると即戦闘。手配「ジャッカル」を含む敵を倒せばクリア。",
     "jpGuide2": "G#28　夜な夜な来るモンスターを倒して",
     "enGuide": "After the prerequisites are ready, closing the guild window immediately starts the fight. Defeat every enemy, including wanted monster Jackal, to clear the job."

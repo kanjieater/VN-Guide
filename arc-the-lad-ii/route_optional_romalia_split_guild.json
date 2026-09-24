@@ -1,19 +1,19 @@
 [
   {
     "simpleJp": "G#24「クズ鉄の大穴の恐怖のガス」を完了して清算する",
-    "jpGuide1": "クズ鉄の大穴の恐怖のガス",
+    "jpGuide1": "クズ鉄の大穴へ。クズ鉄の大穴に行くには、マップ上の鉄道高架下をくぐる。最深部にあるスイッチをONにしてガスを止めるとクリア。",
     "jpGuide2": "G#24　クズ鉄の大穴の恐怖のガス",
     "enGuide": "Reach Scrap-Iron Pit by passing under the railway overpass on the world map. Go to the deepest area and switch the gas control ON; then settle the completed job at the guild so the follow-up can appear."
   },
   {
     "simpleJp": "G#25「モンスターがあふれでてくる！？」を完了する",
-    "jpGuide1": "モンスターがあふれでてくる！？",
+    "jpGuide1": "クズ鉄の大穴へ。ガススイッチのさらに奥へ行き、最深部にある動く柱をすべて押して一番奥のモンスター出現口を塞ぐ。",
     "jpGuide2": "G#25　モンスターがあふれでてくる！？",
     "enGuide": "After settling G#24, leave the guild so this job appears. Return to the Scrap-Iron Pit, go beyond the gas switch, and push every movable pillar to seal the monster-spawn opening at the back. Stepping on patterned floor tiles spawns monsters; the success message confirms the opening is sealed."
   },
   {
     "simpleJp": "G#26「鉄クズ置き場でのクズ鉄拾いの警護」を完了する",
-    "jpGuide1": "鉄クズ置き場でのクズ鉄拾いの警護",
+    "jpGuide1": "再生品協会へ行った後にクズ鉄置き場で戦闘。5ターンの間、モンスターをボビーに近づけなければ成功。",
     "jpGuide2": "G#26　鉄クズ置き場のクズ鉄拾いの警護",
     "enGuide": "Visit the Recycled Goods Association first, then go to the Scrap Yard. During the battle, keep monsters away from Bobby for five turns; surviving the protection period clears the job."
   },

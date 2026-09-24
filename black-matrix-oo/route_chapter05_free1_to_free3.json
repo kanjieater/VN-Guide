@@ -15,18 +15,6 @@
     "simpleJp": "BATTLE 5-2「嘆きの赤い牙」でレッド・ムフロンを倒す",
     "jpGuide1": "BATTLE〖嘆きの赤い牙〗",
     "jpGuide2": "5-2「嘆きの赤い牙」",
-    "enGuide": "Defeat Red Mufflon. The enemy side acts first, so start from a defensive formation."
-  },
-  {
-    "simpleJp": "選択肢「みんなを助けたい」",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "5-2  | みんなを助けたい",
-    "enGuide": "Choose 「みんなを助けたい」 here so the walkthrough never leaves a visible story choice unspecified. On this first clear it does not override the ring/final-battle ending split; this answer becomes part of the later 「それぞれの明日」 condition on the qualifying NG+ run."
-  },
-  {
-    "simpleJp": "自由行動で構成員女に2回話しかけて「巡礼する精霊」を入手する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "一回の自由行動（全コマンド出現後）につき誰か一人必ず二回以上話しかけるとアイテムをもらえる。",
-    "enGuide": "After 5-2, FFSKY identifies the specific repeat-talk reward: speak to the female Cipher Punk member twice to receive 「巡礼する精霊」. The Japanese Wazap source independently documents the one-repeat-talk-item-per-free-action mechanic but does not name this specific NPC/item pair."
+    "enGuide": "Defeat Red Mufflon. The enemy side acts first, so start from a defensive formation. General Japanese evidence confirms one repeat-talk item can be obtained in each free-action window; supplemental FFSKY specifically reports that speaking to the female Cipher Punk member twice after 5-2 yields 「巡礼する精霊」, but that exact NPC/item pairing is not promoted to a required step pending independent Japanese corroboration."
   }
 ]

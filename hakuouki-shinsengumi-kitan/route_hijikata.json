@@ -619,10 +619,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ6にロード",
+    "simpleJp": "セーブ5にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "Save6より",
-    "enGuide": "",
+    "jpGuide2": "Save5より",
+    "enGuide": "Return to the real main-route checkpoint after completing Choro's game-over cleanup.",
     "isLoad": true
   },
   {
@@ -631,6 +631,42 @@
     "jpGuide2": "血を与える",
     "enGuide": "",
     "badEndPath": "悲恋エンド"
+  },
+  {
+    "simpleJp": "傍から離れません",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "傍から離れません",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "土方さんが心配なんです",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "土方さんが心配なんです",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "土方さんのそばにある",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "土方さんのそばにある",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "受け取らない",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "受け取らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "Save6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "血を与える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "血を与える",
+    "enGuide": "Choro presents this as Save6より after the game-over branch; the guide replays the same documented Save5→Save6 setup so this detour remains structurally independent."
   },
   {
     "simpleJp": "任せられても困ります",
@@ -642,7 +678,7 @@
     "simpleJp": "セーブ5にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save5より",
-    "enGuide": "",
+    "enGuide": "Return to the real main-route checkpoint after completing Choro's 悲恋 cleanup.",
     "isLoad": true
   },
   {

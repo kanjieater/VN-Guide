@@ -181,7 +181,7 @@
     {
       "id": "optional_world_cleanup_1",
       "title": "【任意】グレイシーヌ後：世界巡回・召喚獣・ギルド仕事",
-      "stepCount": 16,
+      "stepCount": 19,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -289,7 +289,7 @@
     {
       "id": "optional_pre_monji_cleanup",
       "title": "【任意】紋次編急展開前：全期限付き仕事の最終回収",
-      "stepCount": 25,
+      "stepCount": 26,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -298,7 +298,7 @@
     {
       "id": "barbarad_pyramid",
       "title": "バルバラード：ピラミッド",
-      "stepCount": 4,
+      "stepCount": 9,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],

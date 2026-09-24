@@ -1,24 +1,24 @@
 [
   {
-    "simpleJp": "G#39：モレア酒場地下の人物に話して地上へ戻り、5カウント後にシュウが振り向いた瞬間R1を押す",
+    "simpleJp": "G#39「酒場のゴロつき退治」を完了する",
     "jpGuide1": "酒場のゴロつき退治",
     "jpGuide2": "G#39　酒場のゴロつき退治",
     "enGuide": "Enter the Morea tavern, go downstairs and speak to the person there, then return upstairs. In Shu's quick-draw duel, wait through the five-count and press R1 the instant Shu turns around. Losing fails the job."
   },
   {
-    "simpleJp": "G#40：モレア東の依頼人に2回話し、2人組から情報を得てマデータの丘でロバを救出し報告する",
+    "simpleJp": "G#40「迷子のロバ探し」を完了する",
     "jpGuide1": "迷子のロバ探し",
     "jpGuide2": "G#40　迷子のロバ探し",
     "enGuide": "Talk to the requester on the east side of Morea twice, then speak to the pair of townspeople who say the donkey left town. Go to Madeta Hill, win the battle after finding the donkey, and return to the requester."
   },
   {
-    "simpleJp": "G#41：モレア酒場の依頼人に話し、アミーグFBAでアミーグロックを倒して羽根5枚を集めて渡す",
+    "simpleJp": "G#41「アミーグロックの羽根を探せ」を完了する",
     "jpGuide1": "アミーグロックの羽根を探せ",
     "jpGuide2": "G#41　アミーグロックの羽を探せ",
     "enGuide": "Speak to the requester in the Morea tavern. Hunt Amigue Rocks in the country's free-battle areas until you have five feathers, then return all five to the requester."
   },
   {
-    "simpleJp": "G#42：長老→ギルド地下の老人→1F本棚→門番の順に話し、長老館でランプの仕掛けを解く",
+    "simpleJp": "G#42「長老館の紛失事件」を完了する",
     "jpGuide1": "神の塔をクリアすると消滅するので注意。",
     "jpGuide2": "G#42　長老館の紛失事件　アミーグ編終了で消滅",
     "enGuide": "Talk to the elder, then the old man in the guild basement, inspect the 1F bookshelf, and hear the gatekeeper's clue. In the elder's mansion, there are nine lamps: light any seven of the ordinary eight, then light the special left lamp near the upper-right dead end last. Do not light all nine."

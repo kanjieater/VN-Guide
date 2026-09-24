@@ -1,9 +1,9 @@
 [
   {
-    "simpleJp": "雑記帳「花嫁姿」を読み、カップル男女→リリス→ダリアの順に話す",
+    "simpleJp": "結婚式・花嫁姿に関する街の会話を進める",
     "jpGuide1": "ボーナスシナリオ１２　＜リリスの疑問＞",
     "jpGuide2": "街中で結婚式の話を聞く→ダリアさん→「リリスに聞いてみるよ」",
-    "enGuide": "Read 「花嫁姿」, then follow the fuller operational order preserved by FFSKY: the couple → Lilith → Daria. The Japanese Set-B walkthrough independently confirms the wedding-conversation trigger and the Daria choice."
+    "enGuide": "Advance the wedding/bride conversations until Daria's event becomes available. Supplemental FFSKY gives the fuller sequence notebook 「花嫁姿」 → couple → Lilith → Daria, but that exact order is not promoted to a required action without independent Japanese support."
   },
   {
     "simpleJp": "ダリアとの会話で「リリスに聞いてみるよ」",

@@ -1,6 +1,6 @@
 [
   {
-    "simpleJp": "スメリア神殿でククルに話してイベントを進める",
+    "simpleJp": "スメリア神殿のククルに話す",
     "jpGuide1": "ククルに2回話し掛けてパレンシアへ",
     "jpGuide2": "上部のククルに話しかけイベント進行",
     "enGuide": "Talk to Kukuru at the upper part of the temple; Set A specifies two conversations. Continue until the event moves the party toward Palencia."
@@ -12,19 +12,19 @@
     "enGuide": "Switch the displayed character to Tosh with R2 before talking to the tavern master. After the information event, return to Silver Noah and form Ark plus three members for the pursuit."
   },
   {
-    "simpleJp": "パレンシアタワーへ入り、99F行きエレベータを解放する",
+    "simpleJp": "パレンシアタワーへ入る",
     "jpGuide1": "赤いスイッチを押すと、エレベータの行動範囲が広がる",
     "jpGuide2": "パレンシアタワー99F到着",
     "enGuide": "Progress through the tower until you find the red elevator-control switches. Activating them expands the elevator's floor range until 99F becomes reachable."
   },
   {
-    "simpleJp": "99F解放後、スイッチを何度も切り替えて77Fへ行く",
+    "simpleJp": "エレベータスイッチを切り替える",
     "jpGuide1": "さらに何度もON/OFFを繰り返すと、なぜか77階へ行ける",
     "jpGuide2": "パレンシアタワー77F･ホール(宝箱)",
     "enGuide": "Keep toggling the elevator control after 99F is unlocked. Eventually 77F appears as a destination; take the detour and loot its hidden rooms before returning to the main climb."
   },
   {
-    "simpleJp": "99Fへ行き、ククル防衛戦を勝つ",
+    "simpleJp": "99Fへ行く",
     "jpGuide1": "99階に到達した時点でイベントが発生",
     "jpGuide2": "ククル防衛戦",
     "enGuide": "At 99F control the defense party led by Elk. Protect Kukuru—her defeat is game over—while eliminating the attackers."

@@ -54,7 +54,7 @@
     "enGuide": "Return to the guild with Lieza's group and speak to the guild master."
   },
   {
-    "simpleJp": "路地裏の戦闘を終える",
+    "simpleJp": "路地裏の敵を倒す",
     "jpGuide1": "敵がどんどん出てくる戦闘に入る。ある程度倒したらイベントが発生する。",
     "jpGuide2": "戦闘処理(路地裏)",
     "enGuide": "In the alley battle, enemies keep appearing. Continue defeating them until the scripted event triggers and ends the encounter."

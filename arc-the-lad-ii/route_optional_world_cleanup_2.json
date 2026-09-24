@@ -1,73 +1,73 @@
 [
   {
     "simpleJp": "G#31「ベリンガル笑劇場を警護して欲しい」を完了する",
-    "jpGuide1": "ベリンガル笑劇場を警護して欲しい",
+    "jpGuide1": "ギルドの隣の劇場へ。戦闘に勝てばクリア。",
     "jpGuide2": "G#31　ベリンガル笑劇場を警護して欲しい",
     "enGuide": "Enter Beringal Comedy Theater next to the Lamour guild. Win the battle inside to clear the theater-guard job."
   },
   {
     "simpleJp": "G#32「ホルンの村に食料を届けて欲しい」を完了する",
-    "jpGuide1": "ホルンの村に食料を届けて欲しい",
+    "jpGuide1": "酒場へ行き、マスターに話す。その後ホルンの入り口の戦闘に勝てばクリア。",
     "jpGuide2": "G#32　ホルンの村に食料を届けて欲しい",
     "enGuide": "Speak to the Lamour tavern master to take the food delivery, then travel to Horn. Win the battle at the village entrance to complete the delivery."
   },
   {
     "simpleJp": "G#52「線路の上の岩石取り除き作業」を完了して清算する",
-    "jpGuide1": "線路の上の岩石取り除き作業",
+    "jpGuide1": "バンザ山入り口から左へ。線路上にある岩をすべて押して穴に落とせばクリア。どけるだけでは完全クリアにならないので注意。",
     "jpGuide2": "G#52　線路の上の岩石取り除き作業",
     "enGuide": "From the Banza Mountain entrance, go left to the railway. Push every rock completely into a hole; merely moving rocks off the track is not enough for full completion. Settle the job afterward."
   },
   {
     "simpleJp": "G#53「落とした鉱石の収拾」で鉱石20個を集めて大成功にする",
-    "jpGuide1": "落とした鉱石の収拾",
+    "jpGuide1": "バンザ山へ行き、依頼人と話す。山の中のあらゆるフロア・エリアにある鉱石を、全部で20個拾って依頼人に渡せばクリア。",
     "jpGuide2": "大成功　4000G　8GP　鉱石を20個全て収集",
     "enGuide": "Speak to the requester at Banza Mountain, then search every floor and side area for all 20 ore pieces. Return all 20 to the requester for the great-success result."
   },
   {
     "simpleJp": "G#54「病気を治す草を取ってくる」を大成功で完了して清算する",
-    "jpGuide1": "病気を治す草を取ってくる",
+    "jpGuide1": "酒場で依頼人と話し、バンザ山山頂近くにある草を取る。依頼人に渡せばクリア。",
     "jpGuide2": "大成功　3000G　7GP　目的の草を入手し、依頼人に渡す",
     "enGuide": "Talk to the requester in the Goose tavern, climb near the top of Banza Mountain and collect the medicinal herb, then bring it back. Preserve the great-success result for later completion routing."
   },
   {
     "simpleJp": "G#55「ふとっちょのために肉を取ってくる」を完了する",
-    "jpGuide1": "ふとっちょのために肉を取ってくる",
+    "jpGuide1": "宿屋の右の部屋にいる依頼人に話す。領主の館の一番奥の部屋の左上にある肉を入手して依頼人に渡せばクリア。",
     "jpGuide2": "G#55　ふとっちょのために肉を取ってくる",
     "enGuide": "Speak to the requester in the right-hand room of the Goose inn. Go to the deepest room of the Lord's Manor, take the meat from the upper-left, and return it."
   },
   {
     "simpleJp": "G#56「トロッコ占領のモンスター退治」を完了する",
-    "jpGuide1": "トロッコ占領のモンスター退治",
+    "jpGuide1": "バンザ山左奥へ行き、モンスターを倒せばクリア。",
     "jpGuide2": "G#56　トロッコ占領のモンスター退治",
     "enGuide": "Go to the far-left/deep section of Banza Mountain and defeat the monsters occupying the mine carts. Settle the job before continuing the chain."
   },
   {
     "simpleJp": "G#57「モンスターの卵を取ってくる」を完了して清算する",
-    "jpGuide1": "モンスターの卵をとってくる",
+    "jpGuide1": "宿屋の右の部屋の依頼人に話し、バンザ山左奥にあるモンスターの卵を取って、依頼人に渡せばクリア。",
     "jpGuide2": "G#57　モンスターの卵を取ってくる",
     "enGuide": "Speak to the requester in the right room of the Goose inn, collect the monster egg from the far-left section of Banza Mountain, and bring it back. Settle the job afterward."
   },
   {
     "simpleJp": "G#58「子供達がモンスターに！」を完了する",
-    "jpGuide1": "子供達がモンスターに！",
+    "jpGuide1": "宿屋の右の部屋にいる依頼人に話した後、酒場にいる医者から病気を治す薬をもらって依頼人に渡せばクリア。",
     "jpGuide2": "G#54を大成功で終了＆清算していなければ攻略不可",
     "enGuide": "Speak to the requester in the right room of the inn, then talk to the doctor in the tavern to obtain the medicine. Return the medicine to the requester to cure the children and finish the chain."
   },
   {
     "simpleJp": "G#43「おじいさんを捜してください」を完了する",
-    "jpGuide1": "おじいさんを捜してください",
+    "jpGuide1": "依頼人は東側の家にいる。南西の家にいる老人と話し、依頼人の家に戻り、また南西の家に戻って老人に話して依頼人に報告すればクリア。",
     "jpGuide2": "G#43　おじいさんを捜してください",
     "enGuide": "Start at the requester's house on the east side of Misro. Talk to the old man in the southwest house, return to the requester, go back to the old man, then report to the requester one final time."
   },
   {
     "simpleJp": "G#44「謎のモンスター闘技場占拠」を完了する",
-    "jpGuide1": "謎のモンスター闘技場占拠",
+    "jpGuide1": "闘技場へ行き、入り口の受付に話し掛けると戦闘になる。手配「ネクダス」と戦闘だが、8体同時に出現して、本物を倒すまでは戦闘が終わらない。",
     "jpGuide2": "G#44　謎のモンスター闘技場占拠",
     "enGuide": "Talk to the arena receptionist to begin the fight. Eight Nekudas appear at once; the battle only ends when the real one is defeated, so keep eliminating copies until you hit the genuine target."
   },
   {
     "simpleJp": "G#45「闘技場モンスター反乱」を完了する",
-    "jpGuide1": "闘技場モンスター反乱",
+    "jpGuide1": "闘技場入り口の受付に話し掛けると戦闘になる。上に進めば進むほど敵が出現する。全滅させればクリア。",
     "jpGuide2": "G#45　闘技場モンスター反乱",
     "enGuide": "Speak to the arena receptionist, then advance upward through the arena as new enemies appear. Defeat every monster to clear the rebellion."
   },

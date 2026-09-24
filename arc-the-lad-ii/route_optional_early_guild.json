@@ -1,12 +1,12 @@
 [
   {
-    "simpleJp": "G#01：インディゴス北西のマンホールへ入り、グリーンスライムを倒す",
+    "simpleJp": "G#01「インディゴス下水道調べ」を完了する",
     "jpGuide1": "インディゴス下水道調べ",
     "jpGuide2": "G#01　インディゴス下水道調べ",
     "enGuide": "Go to the manhole in northwest Indigos, enter the sewer, and win the Green Slime battle. The job clears immediately after the fight."
   },
   {
-    "simpleJp": "G#02：廃墟の町の廃屋2Fで右上の子供に話し、レッドスケルトンを瀕死にする",
+    "simpleJp": "G#02「廃墟の幽霊屋敷」を完了する",
     "jpGuide1": "廃墟の幽霊屋敷",
     "jpGuide2": "G#02　廃墟の幽霊屋敷",
     "enGuide": "Enter the abandoned house in Ruined Town, go to 2F, and talk to the child in the upper-right. The fight starts; reduce the Red Skeleton to critical HP to clear the job."
@@ -18,13 +18,13 @@
     "enGuide": "Check the newly available wanted posters before taking the jewelry-store job."
   },
   {
-    "simpleJp": "G#03：インディゴス南東の宝石店で店主に話し、北東の逃げ道を塞いで強盗を全滅させる",
+    "simpleJp": "G#03「インディゴス宝石強盗団」で敵を逃がさず完了する",
     "jpGuide1": "敵を逃がさずに倒せばクリア。",
     "jpGuide2": "G#03を中成功以上でこなす必要がある",
     "enGuide": "Talk to the jewelry-shop owner in southeast Indigos. At night the robbers attack. They try to escape through the northeast hole, so block that route and defeat every enemy without letting anyone flee."
   },
   {
-    "simpleJp": "G#07：酒場前のバーンズ→下水道の順に進み、犬を救出してバーンズへ戻る",
+    "simpleJp": "G#07「バーンズさんの犬捜し」を完了する",
     "jpGuide1": "Gバーンズさんの犬捜し",
     "jpGuide2": "G#07　バーンズさんの犬捜し",
     "enGuide": "Speak to Burns outside the tavern, then enter the sewer and win the battle to rescue the dog. Return to Burns; speak to the child beside him to finish the job and receive four Dog Foods."

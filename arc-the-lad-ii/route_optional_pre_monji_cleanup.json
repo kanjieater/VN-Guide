@@ -30,6 +30,12 @@
     "enGuide": "At Aldia Bridge, answer the ninja-shaped man with 「そうでもねえよ」. Much later, speak to Pierre and Veronica in Tuke Cave, then return to Aldia Bridge and report to finish the long-running job."
   },
   {
+    "simpleJp": "「そうでもねえよ」を選ぶ",
+    "jpGuide1": "ニンジャの形をした男に「そうでもねえよ」と答える。",
+    "jpGuide2": "そうでもねえよ",
+    "enGuide": "Choose this exact interview answer; the job then remains open until the later Tuke Cave follow-up."
+  },
+  {
     "simpleJp": "カナラ砂漠でダリウスを討伐する",
     "jpGuide1": "ダリウス　カナラ砂漠",
     "jpGuide2": "ダリウス　バルバラード",

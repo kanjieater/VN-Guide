@@ -90,21 +90,21 @@
     "enGuide": "After 「それぞれの明日」, start another New Game+ from clear data before continuing the circus-ending cleanup."
   },
   {
-    "simpleJp": "サーカスのミニゲームを全てマスターする",
+    "simpleJp": "サーカスの7つのミニゲームを全て「クリア」ではなく「マスター」する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ミニゲームを全部マスター",
-    "enGuide": "For the final special ending, master every circus minigame. Minigame results carry across NG+."
+    "enGuide": "Master all seven circus minigames; simply clearing them is not enough. A Japanese supporting source specifically calls out knife throwing, flyer distribution, and the light game as especially difficult. Minigame mastery carries across NG+."
   },
   {
     "simpleJp": "「達人ノ書～完～」と「D・J」を購入する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
-    "enGuide": "After mastering all circus minigames, buy 「達人ノ書～完～」 and 「D・J」."
+    "enGuide": "After all seven minigames are mastered, buy 「達人ノ書～完～」 and then 「D・J」 as required by the Japanese ending guide."
   },
   {
-    "simpleJp": "条件を満たして「サーカスED」を見る",
+    "simpleJp": "「D・J」購入直後に始まる「サーカスED」を見る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "達人ノ書～完～を買う、D・Jを買う：『サーカスED』",
-    "enGuide": "Proceed with the circus-ending condition satisfied to obtain the sixth ending, 「サーカスED」."
+    "enGuide": "A Japanese supporting source says buying 「D・J」 after all seven minigames are mastered immediately triggers the Circus Ending regardless of main-story progress; FC2 additionally lists 「達人ノ書～完～」 among the required purchases."
   }
 ]

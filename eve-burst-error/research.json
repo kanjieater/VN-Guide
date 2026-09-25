@@ -21,34 +21,22 @@
       "notes": "Amagi Kojiro's investigation thread (private detective hired to recover a painting, drawn into a murder case). Begins December 3rd. The 'prerequisites: [marina]' edge is soft/calendar-based, not a hard story lock: the game opens on Marina's Dec 2 content and Kojiro's Dec 3 content becomes available afterward, but from that point on the two threads interleave freely (the player is directed back and forth between them scene by scene per the flowchart's block/unlock notation) rather than one being fully completed before the other starts. A step-by-step guide must interleave marina and kojiro day-by-day rather than presenting them as fully sequential routes. Both threads run in parallel through December 8th."
     },
     {
-      "id": "terror_provisional",
-      "title": "テラー編（一度目のエンディング／暫定エンド）",
+      "id": "terror",
+      "title": "テラー編",
       "portrait": "",
       "prerequisites": [
         "marina",
         "kojiro"
       ],
       "is_true_ending": false,
-      "notes": "The two threads converge into a single shared finale chapter ('テラー編', Terror scenario) starting December 9th, after both Marina's and Kojiro's Dec 2-8 content is complete. The finale culminates in a 'culprit-guessing' (犯人当て) quiz where the player must name who killed each of 5 victims (Kou/Stollman, Nikaido, Dievu/Deep, Aqua, Ross Midou). Sources agree it is effectively impossible to answer all 5 correctly on a first blind attempt; whatever is answered, the game proceeds into a full climactic flashback/reveal sequence (this is what is being called the 'provisional'/first-time ending here — no source gives it a single fixed on-screen title, so this label is descriptive, not a verbatim source term; flag as uncertain). No portrait: this chapter is a convergence of both protagonists' threads plus the antagonist reveal, not a single character's route, so no single VNDB character portrait applies.",
+      "notes": "The two protagonist threads converge into the single shared finale ('テラー編') on December 9. The directly inspected R walkthrough gives one culprit-input sequence after optional incident recaps: 孔→ディーブ, 二階堂→真弥子, ディーブ→真弥子, アクア→真弥子, 御堂→真弥子, then 推理を確定する. Correct answers award 犯人推理成功, テラー編：12月9日クリア, and 事件解決. The prior research split this into provisional and true-ending sections, but the two primary sources do not support a separate replay/true route, so that inferred split has been removed.",
       "portrait_note": "left empty per instructions — no single character maps to this convergence chapter"
-    },
-    {
-      "id": "terror_true",
-      "title": "テラー編（トゥルーエンド）",
-      "portrait": "",
-      "prerequisites": [
-        "terror_provisional"
-      ],
-      "is_true_ending": true,
-      "notes": "After seeing the first (provisional) ending's reveal, the player is understood (per sources) to redo the same culprit-guessing quiz with the now-known correct answers to unlock the true ending (トゥルーエンド). Documented correct answers, cross-validated across sources: Kou/Stollman was killed by Dievu; Nikaido, Dievu, Aqua, and Ross Midou were all killed by Mayako (acting as the 'former King' personality inhabiting her body). IMPORTANT VERSION NOTE: this culprit-guessing mechanic and the true/provisional ending split exists in the original 1995-97 releases and was RESTORED in 'EVE burst error R' (2016 PSV/PC, 2018 Switch port, our target version). It was reportedly REMOVED in the intermediate 'EVE burst error PLUS' (2003 PS2) release, which had only one fixed ending. This is documented from a single secondary source (pro-botti.com review, and a Weblio/search-derived summary) and could not be independently double-checked against a second full Japanese source due to that site refusing connections during this research pass — flag as needing re-verification before guide writing.",
-      "portrait_note": "left empty per instructions — no single character maps to this ending screen"
     }
   ],
   "recommended_order": [
     "marina",
     "kojiro",
-    "terror_provisional",
-    "terror_true"
+    "terror"
   ],
   "sources": [
     {
@@ -72,8 +60,8 @@
       "notes": "Supplementary/tertiary Japanese source. Confirmed to organize its walkthrough by calendar date (12/2-12/9) like the other two sources, and links to companion guides for the sequels EVE rebirth terror (EVE2) / EVE ghost enemies (EVE3), confirming this site covers EVE1 (burst error) specifically. Individual date sub-pages returned server errors (503) during this research pass and were not fully read — not fully verified as complete. Should be treated as a cross-check source only, not a primary source, unless re-fetched successfully during guide writing."
     }
   ],
-  "disagreements": "1) 'Routes' are not heroine routes in this game. Confirmed across all three Japanese sources: EVE burst error is a command-based dual-protagonist adventure using a 'Multi-Site System' — the player switches at will between Kojiro's and Marina's investigation threads, with progress in one frequently gated behind a flag reached in the other (marked with block/unlock notation on flowcharts). There is effectively one linear plot, not multiple alternate-heroine branches. The routes array above represents (a) the two interleaved investigation threads and (b) the finale/ending split, not alternate story branches. 2) Marina-vs-Kojiro start order: gameline.jp and myst-site both state Marina's thread opens one day earlier (12/2) than Kojiro's (12/3); I modeled this as a soft prerequisite (kojiro depends on marina) but this should be re-verified against actual first-boot game behavior before guide writing, since the player may be able to freely pick which protagonist to start with in EVE burst error R specifically (the remake's title screen/UI may differ from the original). 3) True-ending mechanics and version differences: sources agree that current target version (EVE burst error R / Switch) restores a 5-question 'culprit-guessing' (犯人当て) quiz at the very end that gates a true ending vs. an easier-to-reach first-pass ending which still shows the full reveal/climax scene, and that this quiz was reportedly absent (single fixed ending) in the intermediate 'EVE burst error PLUS' (2003) release. This version-difference claim rests on secondary sources (pro-botti.com review content surfaced via search summaries; the actual pro-botti.com pages returned connection errors on every direct fetch attempt in this session and could not be read directly). This should be re-attempted/re-verified before finalizing guide content, since it affects whether 'is_true_ending' framing (single true ending gated by a quiz) is accurate. 4) No source in this research pass documented conventional mid-scenario 'bad end' / game-over screens of the kind described in prompt.md's Bad End Rules (immediate or multi-step wrong-choice game overs.) Search results instead describe unclear/ambiguous command flags causing players to get 'stuck' requiring trial-and-error rather than a bad-end screen, plus the end-game culprit-guessing quiz's incorrect-answer outcome (which is not a game over, but a 'provisional' ending leading back to a retry). Before writing the guide, this needs deliberate re-investigation: confirm with both primary sources whether any true game-over/bad-end screens exist (e.g. during the December 6th 'combat scenarios' referenced by myst-site's guide05.html) and document them if found, or explicitly state in the guide that this game has no traditional mid-route bad ends, only the terminal culprit-quiz branch. 5) No official/fixed Japanese on-screen title was found for the 'first-time'/incorrect-answer ending (referred to informally by fan sources as '一度目のエンディング' / a 'provisional' outcome, never a fixed proper-noun ending name like バッドエンドN). The terror_provisional route id/title in this file is descriptive rather than a verbatim source term — flagged for re-verification, and jpGuide fields in the eventual guide must not present it as a verbatim source quote unless an exact source phrase is found.",
-  "generated_at": "2026-09-07T04:02:37+00:00",
+  "disagreements": "1) 'Routes' are not heroine routes: EVE burst error is one dual-protagonist Multi-Site story. Marina and Kojiro interleave, then converge into テラー編. 2) The prior research modeled a separate 'terror_provisional' followed by 'terror_true'. Fresh author re-check on 2026-09-25 found that split was not supported by either primary source. Set B's R walkthrough (Part 22) gives a single December 9 Terror sequence: optional incident recaps, five culprit answers, 推理を確定する, then trophies 犯人推理成功 / テラー編：12月9日クリア / 事件解決. Set A likewise describes the five cases and their culprits but does not document a separate first ending followed by a replay. The unsupported split has therefore been removed; the finale is one `terror` section. 3) The Switch target is covered directly by Set B: its walkthrough is for EVE burst error R and its guide index explicitly states applicability to the Nintendo Switch release. Independent contemporary release coverage describes the 2018 Switch edition as the port of the 2016 Vita/PC R release. 4) No primary source inspected documents conventional mid-scenario bad-end/game-over branches; do not invent them. 5) This correction changes route structure/assembly, so both structural and accuracy review are invalidated for the final guide content.",
+  "generated_at": "2026-09-25T18:08:00Z",
   "guide_target": {
     "label": "EVE burst error R（Nintendo Switch ダウンロード版）",
     "platform": "Nintendo Switch",

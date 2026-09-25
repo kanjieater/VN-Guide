@@ -43,5 +43,10 @@
       "notes": "Supplementary/tertiary Japanese source. Confirmed to organize its walkthrough by calendar date (12/2-12/9) like the other two sources, and links to companion guides for the sequels EVE rebirth terror (EVE2) / EVE ghost enemies (EVE3), confirming this site covers EVE1 (burst error) specifically. Individual date sub-pages returned server errors (503) during this research pass and were not fully read — not fully verified as complete. Should be treated as a cross-check source only, not a primary source, unless re-fetched successfully during guide writing."
     }
   ],
-  "generated_at": "2026-09-07T15:12:16.060938+00:00"
+  "generated_at": "2026-09-07T15:12:16.060938+00:00",
+  "guide_target": {
+    "label": "EVE burst error R（Nintendo Switch ダウンロード版）",
+    "platform": "Nintendo Switch",
+    "url": "https://store-jp.nintendo.com/item/software/D70010000014281"
+  }
 }

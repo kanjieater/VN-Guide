@@ -47,14 +47,10 @@
       "title": "ジョーリィルート",
       "portrait": "https://t.vndb.org/ch/93/9093.jpg",
       "prerequisites": [
-        "parche",
-        "debito",
-        "luca",
-        "nova",
-        "liberta"
+        "parche"
       ],
       "is_true_ending": false,
-      "notes": "Jolly / Jolie (ジョーリィ). LOCKED: the ruRi hatenablog full walkthrough explicitly states this route is 「２周目以降ルート解放」(unlocks from the 2nd playthrough onward), i.e. it cannot be selected on a fresh save and only appears as a selectable option after at least one full playthrough has been completed. A separate review blog (momokan.chu.jp, via search snippet) independently states 「ジョーリィは最後がオススメです」(Jolly is recommended last) and describes him as the 'final boss' (ラスボス) of the character select screen. Placed here as the 6th route, immediately before Dante, since Dante's special endings additionally require Jolly's route to already be cleared (see Dante notes)."
+      "notes": "Jolly / Jolie (ジョーリィ). LOCKED: the ruRi hatenablog full walkthrough explicitly states this route is 「２周目以降ルート解放」(unlocks from the 2nd playthrough onward), so the actual mechanical requirement is at least one prior completed playthrough, not clearance of all five initially available routes. In this guide's recommended order, Parche is cleared first, so `prerequisites: [\"parche\"]` is sufficient to represent that unlock without overstating the requirement. A separate review blog (momokan.chu.jp, via search snippet) recommends Jolly last and describes him as the 'final boss' of the character select screen; that is recommendation/context, not an additional mechanical lock. Jolly remains 6th here because Dante's special endings require all other characters, including Jolly, to be cleared."
     },
     {
       "id": "dante",

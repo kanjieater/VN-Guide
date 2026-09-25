@@ -1,0 +1,72 @@
+{
+  "title": "DIVI-DEAD",
+  "vndb_id": "v119",
+  "guide_target": {
+    "label": "Millennium BOX 2000 Vol.2 DIVI-DEAD",
+    "platform": "Windows",
+    "url": "https://www.suruga-ya.jp/product/detail/145004262"
+  },
+  "routes": [
+    {
+      "id": "sachiko",
+      "title": "佐知子エンド",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "F801系7個すべてを満たす終幕。source gate未達のため未生成。portraitはこの調査では直接検証可能な人物画像を確認できず空欄。"
+    },
+    {
+      "id": "haruka",
+      "title": "遥エンド",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "F701系4個以上かつ最終選択『わかった』。source gate未達のため未生成。portraitはこの調査では直接検証可能な人物画像を確認できず空欄。"
+    },
+    {
+      "id": "azusa",
+      "title": "梓エンド",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "最終選択『いやだ』で到達する梓終幕。source gate未達のため未生成。portraitはこの調査では直接検証可能な人物画像を確認できず空欄。"
+    },
+    {
+      "id": "death",
+      "title": "死亡エンド",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "F701系4個未満かつF801系7個未満で最終選択『わかった』。source gate未達のため未生成。"
+    }
+  ],
+  "recommended_order": [
+    "haruka",
+    "azusa",
+    "death",
+    "sachiko"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/divi-dead",
+      "title": "DIVI-DEAD ディブァイデッド 攻略 - Портал Карл Великий",
+      "language": "ja",
+      "notes": "直接閲覧済み。4終幕、F701/F801の7判定、最終選択、移動手順を掲載。ただしページ自身がC's Ware『ヒントペーパー』を長文転載しており、攻略根拠は公式ヒント由来。独立Set Bとして数えられない。"
+    },
+    {
+      "url": "https://xneo.jp/divi-dead/",
+      "title": "DIVI・DEAD完全攻略 - XNEO",
+      "language": "ja",
+      "notes": "直接閲覧済み。4終幕とF701/F801分岐を掲載し、主要手順も公式ヒントと一致する。独立執筆・独立検証を示す根拠を確認できず、同じ公式ヒント由来の可能性を排除できないためSet Bには採用しない。"
+    },
+    {
+      "url": "https://www.suruga-ya.jp/product/detail/145004262",
+      "title": "Millennium BOX 2000 Vol.2 DIVI-DEAD - 駿河屋",
+      "language": "ja",
+      "notes": "exact targetの製品記録。2000-05-26発売、Windows 95、JAN 4934029200027、ゲームディスク1枚と同梱物を確認。攻略内容の版互換性を証明する資料ではない。商品画像は表示されるが、この調査環境では安定した直接画像URLを検証できなかったためcover_urlは変更しない。"
+    }
+  ],
+  "disagreements": "BLOCKED: 通常の二つの独立した日本語verification setを満たせない。lastcharlesはC's Ware公式ヒントペーパーを明示的に転載しており、XNEOの分岐条件・手順も同じ公式ヒントと整合するが独立検証の来歴を確認できない。したがって両者をA/Bとして数えるのは独立性要件を満たしたことにならない。また確認できた攻略は1998年版由来で、Millennium BOX 2000 Vol.2がシナリオ・選択肢・分岐を変更していないことを直接証明するexact-target資料も未発見。独立した日本語Set B、またはrepository ownerが承認したtitle-scoped exception（不足する独立性/版互換性の具体的範囲とprovenanceを明記）が必要。source gateが開くまでrouteファイルは生成しない。",
+  "generated_at": "2026-09-25T16:41:00+00:00"
+}

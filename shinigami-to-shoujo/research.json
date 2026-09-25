@@ -1,0 +1,140 @@
+{
+  "title": "Shinigami to Shoujo",
+  "vndb_id": "v6656",
+  "guide_target": {
+    "label": "死神と少女（Nintendo Switch版）",
+    "platform": "Nintendo Switch",
+    "url": "https://www.takuyo.co.jp/products/shinigami/switchinfo.html"
+  },
+  "routes": [
+    {
+      "id": "hinase",
+      "title": "日生光ルート",
+      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220810/20220810231943.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "日生-結末を主経路とし、両攻略が記載する日生系終幕・共通終幕も回収対象。"
+    },
+    {
+      "id": "kirishima",
+      "title": "桐島七葵ルート",
+      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812101445.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "桐島-結末／七葵エンド。千代分岐は別ルートとして扱う。"
+    },
+    {
+      "id": "chiyo",
+      "title": "千代ルート",
+      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812101504.jpg",
+      "prerequisites": [
+        "kirishima"
+      ],
+      "is_true_ending": false,
+      "notes": "桐島ルート途中から分岐する千代-結末。"
+    },
+    {
+      "id": "toya",
+      "title": "遠野十夜ルート",
+      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812113321.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "六章後に黒の章へ分岐する十夜の主経路と、両攻略が記載する終幕を回収対象。"
+    },
+    {
+      "id": "ao",
+      "title": "蒼ルート",
+      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812115543.jpg",
+      "prerequisites": [],
+      "is_true_ending": true,
+      "notes": "六章後の蒼の章。推奨攻略順の最後。"
+    }
+  ],
+  "recommended_order": [
+    "hinase",
+    "kirishima",
+    "chiyo",
+    "toya",
+    "ao"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://www.soregashi.work/entry/shinigami-limit-kouryaku",
+      "title": "死神と少女 おすすめ攻略順とルート分岐 - 某の乙女ゲーム遊戯録",
+      "language": "ja",
+      "notes": "Switch/Vita対応。分岐章、攻略制限なし、推奨順を確認。個別攻略は同サイトの日生・桐島/千代・十夜・蒼ページをSet A構成要素として直接確認。"
+    },
+    {
+      "set": "A",
+      "url": "https://www.soregashi.work/entry/shinigami-hinase-kouryaku",
+      "title": "死神と少女 日生光 攻略 - 某の乙女ゲーム遊戯録",
+      "language": "ja",
+      "notes": "Switch/Vita対応。日生の共通ルートから個別終幕、SAVE分岐を直接確認。"
+    },
+    {
+      "set": "A",
+      "url": "https://www.soregashi.work/entry/shinigami-kirishima_chiyo-kouryaku",
+      "title": "死神と少女 桐島七葵・千代 攻略 - 某の乙女ゲーム遊戯録",
+      "language": "ja",
+      "notes": "Switch/Vita対応。七葵と千代分岐、各終幕を直接確認。"
+    },
+    {
+      "set": "A",
+      "url": "https://www.soregashi.work/entry/shinigami-toya-kouryaku",
+      "title": "死神と少女 遠野十夜 攻略 - 某の乙女ゲーム遊戯録",
+      "language": "ja",
+      "notes": "Switch/Vita対応。六章・黒の章と十夜終幕を直接確認。"
+    },
+    {
+      "set": "A",
+      "url": "https://www.soregashi.work/entry/shinigami-ao-kouryaku",
+      "title": "死神と少女 蒼 攻略 - 某の乙女ゲーム遊戯録",
+      "language": "ja",
+      "notes": "Switch/Vita対応。六章・蒼の章と終幕を直接確認。"
+    },
+    {
+      "set": "B",
+      "url": "https://choro-game.com/e/shinigamitoshojo-guide",
+      "title": "死神と少女 攻略 | choro",
+      "language": "ja",
+      "notes": "Switch/Vita対応。攻略制限なし、推奨順、個別攻略への独立リンクを確認。個別の日生・七葵/千代・十夜・蒼ページをSet B構成要素として直接確認。"
+    },
+    {
+      "set": "B",
+      "url": "https://choro-game.com/blog-entry-2949.html",
+      "title": "死神と少女 日生光 攻略 | choro",
+      "language": "ja",
+      "notes": "日生ハッピー/終1/終2および共通バッド分岐を直接確認。"
+    },
+    {
+      "set": "B",
+      "url": "https://choro-game.com/blog-entry-2959.html",
+      "title": "死神と少女 桐島七葵・千代 攻略 | choro",
+      "language": "ja",
+      "notes": "七葵・千代・バッド分岐を直接確認。"
+    },
+    {
+      "set": "B",
+      "url": "https://choro-game.com/e/shinigamitoshojo-guide-toya",
+      "title": "死神と少女 遠野十夜 攻略 | choro",
+      "language": "ja",
+      "notes": "十夜・六章終・黒の章終を直接確認。"
+    },
+    {
+      "set": "B",
+      "url": "https://choro-game.com/e/shinigamitoshojo-guide-ao",
+      "title": "死神と少女 蒼 攻略 | choro",
+      "language": "ja",
+      "notes": "蒼ハッピーと蒼の章終分岐を直接確認。"
+    },
+    {
+      "url": "https://www.takuyo.co.jp/products/shinigami/switchinfo.html",
+      "title": "死神と少女 -Nintendo Switch版 特設ページ-",
+      "language": "ja",
+      "notes": "公式のexact target。Nintendo Switch版、2022-07-21発売を確認。"
+    }
+  ],
+  "disagreements": "両日本語セットはNintendo Switch/Vita対応を明記し、主なルート構造と攻略順は一致する。一方、共通部には literal choice の差（例：Set Aの『袴姿の青年を気にする／死神に関して質問する』に対しSet Bの『先程の声を気にする／目の前の人物を疑う』）や、日生・桐島系で好感度調整用の選択肢差がある。route生成では同一イベントの別選択点か単なる別の成功経路かを各章で照合し、片方の文言を他方へコピーしない。主ルート分岐・終幕は両セットで独立確認済み。Switch版は公式ページで対象を固定し、choroはSwitch版追加要素なしと記載。各portraitはSet A個別攻略ページ上でキャラクター名と並んで表示された画像URLを直接開いて照合済み。",
+  "generated_at": "2026-09-25T16:14:00+00:00"
+}

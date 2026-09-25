@@ -1,0 +1,182 @@
+[
+  {
+    "simpleJp": "入力する→人物１",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→御堂×２",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→人物１",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→御堂",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→孔",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→テラー",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→真弥子",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→人物２",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→プリン",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→シリア",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→まりな",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→俺様",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "検索を終了する",
+    "jpGuide1": "検索を終了する / １を選ぶ",
+    "jpGuide2": "検索を終了する\n1：Politics",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "１を選ぶ",
+    "jpGuide1": "検索を終了する / １を選ぶ",
+    "jpGuide2": "検索を終了する\n1：Politics",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→エルディアについて",
+    "jpGuide1": "入力する→エルディアについて→政治体制について",
+    "jpGuide2": "入力する\nエルディアについて\n政治体制について",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→政治体制について",
+    "jpGuide1": "入力する→エルディアについて→政治体制について",
+    "jpGuide2": "入力する\nエルディアについて\n政治体制について",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "検索を終了する",
+    "jpGuide1": "検索を終了する / ２を選ぶ / ３を選ぶ / ４を選ぶ",
+    "jpGuide2": "検索を終了する\n2：Law\n3：Business\n4：Arts",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "２を選ぶ",
+    "jpGuide1": "検索を終了する / ２を選ぶ / ３を選ぶ / ４を選ぶ",
+    "jpGuide2": "検索を終了する\n2：Law\n3：Business\n4：Arts",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "３を選ぶ",
+    "jpGuide1": "検索を終了する / ２を選ぶ / ３を選ぶ / ４を選ぶ",
+    "jpGuide2": "検索を終了する\n2：Law\n3：Business\n4：Arts",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "４を選ぶ",
+    "jpGuide1": "検索を終了する / ２を選ぶ / ３を選ぶ / ４を選ぶ",
+    "jpGuide2": "検索を終了する\n2：Law\n3：Business\n4：Arts",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→絵画の作者",
+    "jpGuide1": "入力する→絵画の作者→呪いについて",
+    "jpGuide2": "入力する\n絵画の作者\n呪いについて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→呪いについて",
+    "jpGuide1": "入力する→絵画の作者→呪いについて",
+    "jpGuide2": "入力する\n絵画の作者\n呪いについて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "検索を終了する",
+    "jpGuide1": "検索を終了する / ５を選ぶ",
+    "jpGuide2": "検索を終了する\n5：People",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "５を選ぶ",
+    "jpGuide1": "検索を終了する / ５を選ぶ",
+    "jpGuide2": "検索を終了する\n5：People",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→人物１",
+    "jpGuide1": "入力する→人物１→御堂",
+    "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する→御堂",
+    "jpGuide1": "入力する→人物１→御堂",
+    "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "検索を終了する",
+    "jpGuide1": "検索を終了する / 戻る",
+    "jpGuide2": "検索を終了する\n5：People",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻る",
+    "jpGuide1": "検索を終了する / 戻る",
+    "jpGuide2": "検索を終了する\n5：People",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "解除する→御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報",
+    "jpGuide2": "解除する\n御堂の個人情報×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まりな編にサイトチェンジ",
+    "jpGuide1": "(まりな編を　まで進めないと、ストーリーが進展しなくなる)",
+    "jpGuide2": "まりな編にサイトチェンジ",
+    "enGuide": ""
+  }
+]

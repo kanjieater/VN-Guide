@@ -27,11 +27,9 @@
       "id": "chiyo",
       "title": "千代ルート",
       "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812101504.jpg",
-      "prerequisites": [
-        "kirishima"
-      ],
+      "prerequisites": [],
       "is_true_ending": false,
-      "notes": "桐島ルート途中から分岐する千代-結末。"
+      "notes": "桐島ルート途中から分岐する千代-結末。両日本語セットは攻略制限なしと明記しているため、桐島クリアを機械的 prerequisite にはしない。recommended_order では分岐理解のため桐島の直後に配置する。"
     },
     {
       "id": "toya",
@@ -136,5 +134,5 @@
     }
   ],
   "disagreements": "両日本語セットはNintendo Switch/Vita対応を明記し、主なルート構造と攻略順は一致する。一方、共通部には literal choice の差（例：Set Aの『袴姿の青年を気にする／死神に関して質問する』に対しSet Bの『先程の声を気にする／目の前の人物を疑う』）や、日生・桐島系で好感度調整用の選択肢差がある。route生成では同一イベントの別選択点か単なる別の成功経路かを各章で照合し、片方の文言を他方へコピーしない。主ルート分岐・終幕は両セットで独立確認済み。Switch版は公式ページで対象を固定し、choroはSwitch版追加要素なしと記載。各portraitはSet A個別攻略ページ上でキャラクター名と並んで表示された画像URLを直接開いて照合済み。",
-  "generated_at": "2026-09-25T16:14:00+00:00"
+  "generated_at": "2026-09-25T19:35:00-05:00"
 }

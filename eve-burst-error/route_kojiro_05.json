@@ -1,12 +1,42 @@
 [
   {
-    "simpleJp": "解除する→御堂の個人情報×３",
+    "simpleJp": "解除する",
     "jpGuide1": "解除する→御堂の個人情報×３",
     "jpGuide2": "解除する\n御堂の個人情報",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→モニター×２",
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報×３",
+    "jpGuide2": "解除する\n御堂の個人情報",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報×３",
+    "jpGuide2": "解除する\n御堂の個人情報",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報×３",
+    "jpGuide2": "解除する\n御堂の個人情報",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→モニター×２",
+    "jpGuide2": "見る・調べる\nモニター",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "モニター",
+    "jpGuide1": "見る・調べる→モニター×２",
+    "jpGuide2": "見る・調べる\nモニター",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "モニター",
     "jpGuide1": "見る・調べる→モニター×２",
     "jpGuide2": "見る・調べる\nモニター",
     "enGuide": ""

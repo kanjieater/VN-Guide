@@ -1,66 +1,144 @@
 [
   {
-    "simpleJp": "移動する→船尾へ",
+    "simpleJp": "移動する",
     "jpGuide1": "移動する→船尾へ",
     "jpGuide2": "移動する\n船尾へ",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→右廊下",
+    "simpleJp": "船尾へ",
+    "jpGuide1": "移動する→船尾へ",
+    "jpGuide2": "移動する\n船尾へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
     "jpGuide1": "移動する→右廊下",
     "jpGuide2": "移動する\n右廊下へ",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→船尾へ",
+    "simpleJp": "右廊下",
+    "jpGuide1": "移動する→右廊下",
+    "jpGuide2": "移動する\n右廊下へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
     "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
     "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→左廊下へ",
+    "simpleJp": "船尾へ",
     "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
     "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→階段を下へ",
+    "simpleJp": "移動する",
     "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
     "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
     "enGuide": ""
   },
   {
-    "simpleJp": "撃つ→御堂を撃つ×２",
+    "simpleJp": "左廊下へ",
+    "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
+    "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
+    "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "階段を下へ",
+    "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
+    "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "撃つ",
     "jpGuide1": "撃つ→御堂を撃つ×２",
     "jpGuide2": "話す\n御堂\n撃つ\n御堂を撃つ×3",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→ナイフ",
+    "simpleJp": "御堂を撃つ",
+    "jpGuide1": "撃つ→御堂を撃つ×２",
+    "jpGuide2": "話す\n御堂\n撃つ\n御堂を撃つ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂を撃つ",
+    "jpGuide1": "撃つ→御堂を撃つ×２",
+    "jpGuide2": "話す\n御堂\n撃つ\n御堂を撃つ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
     "jpGuide1": "見る・調べる→ナイフ",
     "jpGuide2": "話す\n御堂\nプリシア×2\n見る・調べる\nあたりの様子×2\n御堂×3\nプリシア×4\nナイフ×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "話す→御堂×２",
+    "simpleJp": "ナイフ",
+    "jpGuide1": "見る・調べる→ナイフ",
+    "jpGuide2": "話す\n御堂\nプリシア×2\n見る・調べる\nあたりの様子×2\n御堂×3\nプリシア×4\nナイフ×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
     "jpGuide1": "話す→御堂×２",
     "jpGuide2": "話す\n御堂",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→船尾へ",
+    "simpleJp": "御堂",
+    "jpGuide1": "話す→御堂×２",
+    "jpGuide2": "話す\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "話す→御堂×２",
+    "jpGuide2": "話す\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
     "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
     "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→左廊下へ",
+    "simpleJp": "船尾へ",
     "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
     "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→階段を下へ",
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
+    "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左廊下へ",
+    "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
+    "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
+    "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "階段を下へ",
     "jpGuide1": "移動する→船尾へ→左廊下へ→階段を下へ",
     "jpGuide2": "移動する\n船尾へ\n移動する\n左廊下へ\n移動する\n階段を下へ",
     "enGuide": ""

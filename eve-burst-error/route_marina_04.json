@@ -6,19 +6,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "人物１",
-    "jpGuide1": "入力する→人物１→御堂×３",
-    "jpGuide2": "入力する\n人物1\n御堂×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "入力する",
-    "jpGuide1": "入力する→人物１→御堂×３",
-    "jpGuide2": "入力する\n人物1\n御堂×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
+    "simpleJp": "人物1",
     "jpGuide1": "入力する→人物１→御堂×３",
     "jpGuide2": "入力する\n人物1\n御堂×2",
     "enGuide": ""

@@ -1,66 +1,180 @@
 [
   {
-    "simpleJp": "話す→守衛",
+    "simpleJp": "話す",
     "jpGuide1": "話す→守衛",
     "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館\n話す\n守衛",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する→中に入る",
+    "simpleJp": "守衛",
+    "jpGuide1": "話す→守衛",
+    "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館\n話す\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
     "jpGuide1": "移動する→中に入る",
     "jpGuide2": "移動する\n中に入る",
     "enGuide": ""
   },
   {
-    "simpleJp": "話す→御堂×３",
+    "simpleJp": "中に入る",
+    "jpGuide1": "移動する→中に入る",
+    "jpGuide2": "移動する\n中に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
     "jpGuide1": "話す→御堂×３",
     "jpGuide2": "話す\n御堂×3",
     "enGuide": ""
   },
   {
-    "simpleJp": "聞く→隣の会話×５",
+    "simpleJp": "御堂",
+    "jpGuide1": "話す→御堂×３",
+    "jpGuide2": "話す\n御堂×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "話す→御堂×３",
+    "jpGuide2": "話す\n御堂×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "話す→御堂×３",
+    "jpGuide2": "話す\n御堂×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "聞く",
     "jpGuide1": "聞く→隣の会話×５",
     "jpGuide2": "聞く\n隣の会話×5",
     "enGuide": ""
   },
   {
-    "simpleJp": "話す→香川×３",
+    "simpleJp": "隣の会話",
+    "jpGuide1": "聞く→隣の会話×５",
+    "jpGuide2": "聞く\n隣の会話×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隣の会話",
+    "jpGuide1": "聞く→隣の会話×５",
+    "jpGuide2": "聞く\n隣の会話×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隣の会話",
+    "jpGuide1": "聞く→隣の会話×５",
+    "jpGuide2": "聞く\n隣の会話×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隣の会話",
+    "jpGuide1": "聞く→隣の会話×５",
+    "jpGuide2": "聞く\n隣の会話×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隣の会話",
+    "jpGuide1": "聞く→隣の会話×５",
+    "jpGuide2": "聞く\n隣の会話×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
     "jpGuide1": "話す→香川×３",
     "jpGuide2": "話す\n香川×3",
     "enGuide": ""
   },
   {
-    "simpleJp": "考える→今までの事",
+    "simpleJp": "香川",
+    "jpGuide1": "話す→香川×３",
+    "jpGuide2": "話す\n香川×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "香川",
+    "jpGuide1": "話す→香川×３",
+    "jpGuide2": "話す\n香川×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "香川",
+    "jpGuide1": "話す→香川×３",
+    "jpGuide2": "話す\n香川×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考える",
     "jpGuide1": "考える→今までの事",
     "jpGuide2": "考える\n今までの事",
     "enGuide": ""
   },
   {
-    "simpleJp": "話す→香川",
+    "simpleJp": "今までの事",
+    "jpGuide1": "考える→今までの事",
+    "jpGuide2": "考える\n今までの事",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
     "jpGuide1": "話す→香川",
     "jpGuide2": "話す\n香川×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "考える→今までの事",
+    "simpleJp": "香川",
+    "jpGuide1": "話す→香川",
+    "jpGuide2": "話す\n香川×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考える",
     "jpGuide1": "考える→今までの事",
     "jpGuide2": "考える\n今までの事",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→あたりの様子",
+    "simpleJp": "今までの事",
+    "jpGuide1": "考える→今までの事",
+    "jpGuide2": "考える\n今までの事",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
     "jpGuide1": "見る・調べる→あたりの様子→端末",
     "jpGuide2": "見る・調べる\nあたりの様子\n端末×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→端末",
+    "simpleJp": "あたりの様子",
     "jpGuide1": "見る・調べる→あたりの様子→端末",
     "jpGuide2": "見る・調べる\nあたりの様子\n端末×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→端末",
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→あたりの様子→端末",
+    "jpGuide2": "見る・調べる\nあたりの様子\n端末×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "端末",
+    "jpGuide1": "見る・調べる→あたりの様子→端末",
+    "jpGuide2": "見る・調べる\nあたりの様子\n端末×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→端末",
+    "jpGuide2": "5：People",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "端末",
     "jpGuide1": "見る・調べる→端末",
     "jpGuide2": "5：People",
     "enGuide": ""
@@ -72,13 +186,25 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→人物１",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂",
     "jpGuide2": "入力する\n人物1\n御堂\n人物1\n真弥子\n人物1\n孔\n人物1\n《テラー》\n人物2\n鈴木\n人物2\nシリア\n人物2\nまりな",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→御堂",
+    "simpleJp": "人物１",
+    "jpGuide1": "入力する→人物１→御堂",
+    "jpGuide2": "入力する\n人物1\n御堂\n人物1\n真弥子\n人物1\n孔\n人物1\n《テラー》\n人物2\n鈴木\n人物2\nシリア\n人物2\nまりな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂",
+    "jpGuide2": "入力する\n人物1\n御堂\n人物1\n真弥子\n人物1\n孔\n人物1\n《テラー》\n人物2\n鈴木\n人物2\nシリア\n人物2\nまりな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
     "jpGuide1": "入力する→人物１→御堂",
     "jpGuide2": "入力する\n人物1\n御堂\n人物1\n真弥子\n人物1\n孔\n人物1\n《テラー》\n人物2\n鈴木\n人物2\nシリア\n人物2\nまりな",
     "enGuide": ""
@@ -96,19 +222,43 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→机×２",
+    "simpleJp": "見る・調べる",
     "jpGuide1": "見る・調べる→机×２→時計→端末",
     "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→時計",
+    "simpleJp": "机",
     "jpGuide1": "見る・調べる→机×２→時計→端末",
     "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる→端末",
+    "simpleJp": "机",
+    "jpGuide1": "見る・調べる→机×２→時計→端末",
+    "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→机×２→時計→端末",
+    "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "時計",
+    "jpGuide1": "見る・調べる→机×２→時計→端末",
+    "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→机×２→時計→端末",
+    "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "端末",
     "jpGuide1": "見る・調べる→机×２→時計→端末",
     "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
     "enGuide": ""
@@ -120,13 +270,31 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→人物１",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂×２",
     "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→御堂×２",
+    "simpleJp": "人物１",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
     "jpGuide1": "入力する→人物１→御堂×２",
     "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
     "enGuide": ""

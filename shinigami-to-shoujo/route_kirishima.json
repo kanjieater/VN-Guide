@@ -1,0 +1,392 @@
+[
+  {
+    "simpleJp": "セーブ5にロード",
+    "jpGuide1": "★日生・桐島・十夜 共通SAVEから",
+    "jpGuide2": "光・七葵・十夜共通SAVEから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生の意見に乗らない",
+    "jpGuide1": "日生の意見に乗らない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "息を吹きかける",
+    "jpGuide1": "息を吹きかける",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "きっぱり断る",
+    "jpGuide1": "きっぱり断る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "宜しく頼む",
+    "jpGuide1": "宜しく頼む",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おにぎり弁当",
+    "jpGuide1": "おにぎり弁当",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水で洗う",
+    "jpGuide1": "水で洗う",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "止めておく",
+    "jpGuide1": "止めておく",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "猫の手",
+    "jpGuide1": "猫の手",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "片栗粉",
+    "jpGuide1": "片栗粉",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "遠慮する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "食べさせてもらう",
+    "jpGuide1": "食べさせてもらう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "断る",
+    "jpGuide1": "断る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "嫌いではない",
+    "jpGuide1": "嫌いではない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気にする",
+    "jpGuide1": "気にする",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "会釈する",
+    "jpGuide1": "会釈する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "声をかける",
+    "jpGuide1": "声をかける",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考え込む",
+    "jpGuide1": "考え込む",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "疑っていない",
+    "jpGuide1": "疑っていない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女性のことについて聞かない",
+    "jpGuide1": "女性のことについて聞かない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気にならない",
+    "jpGuide1": "気にならない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何のことだか分からない",
+    "jpGuide1": "何のことだか分からない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "約束しない",
+    "jpGuide1": "約束しない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "手を繋がない",
+    "jpGuide1": "手を繋がない",
+    "jpGuide2": "手を繋ぐ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "以前にもこんなことが",
+    "jpGuide1": "以前にもこんなことが",
+    "jpGuide2": "甘い物の方が好き",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "兄",
+    "jpGuide1": "兄",
+    "jpGuide2": "それ以外",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "父親のことを考える",
+    "jpGuide1": "父親のことを考える",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "兄に話す",
+    "jpGuide1": "兄に話す",
+    "jpGuide2": "日生の事を考える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生に質問する",
+    "jpGuide1": "日生に質問する",
+    "jpGuide2": "いい先輩",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夏帆のことを答える",
+    "jpGuide1": "夏帆のことを答える",
+    "jpGuide2": "兄に話さない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "好き",
+    "jpGuide1": "好き",
+    "jpGuide2": "それでは駄目だ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ8",
+    "jpGuide1": "★桐島・十夜 共通SAVE",
+    "jpGuide2": "光・七葵・十夜共通SAVE",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桐島七葵",
+    "jpGuide1": "桐島七葵",
+    "jpGuide2": "桐島七葵",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "千代",
+    "jpGuide1": "千代",
+    "jpGuide2": "桐島先輩",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "頼む",
+    "jpGuide1": "頼む",
+    "jpGuide2": "頼む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "言わない",
+    "jpGuide1": "言わない",
+    "jpGuide2": "言わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ある",
+    "jpGuide1": "ある",
+    "jpGuide2": "ある",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "落ち着くから",
+    "jpGuide1": "落ち着くから",
+    "jpGuide2": "落ち着くから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "反論しない",
+    "jpGuide1": "反論しない",
+    "jpGuide2": "反論しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戸惑う",
+    "jpGuide1": "戸惑う",
+    "jpGuide2": "拒否する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桐島先輩がいれば",
+    "jpGuide1": "桐島先輩がいれば",
+    "jpGuide2": "桐島先輩がいれば",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "訊ねない",
+    "jpGuide1": "訊ねない",
+    "jpGuide2": "もう一度訪ねる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戸惑う",
+    "jpGuide1": "戸惑う",
+    "jpGuide2": "戸惑う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "不器用なところ",
+    "jpGuide1": "不器用なところ",
+    "jpGuide2": "不器用なところ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "照れる",
+    "jpGuide1": "照れる",
+    "jpGuide2": "照れる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "好き",
+    "jpGuide1": "好き",
+    "jpGuide2": "好きではない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "怒る",
+    "jpGuide1": "怒る",
+    "jpGuide2": "怒る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "手を繋ぐ",
+    "jpGuide1": "手を繋ぐ",
+    "jpGuide2": "手を繋がない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "否定する",
+    "jpGuide1": "否定する",
+    "jpGuide2": "迷惑ではない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ9",
+    "jpGuide1": "★SAVE３",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "意識する",
+    "jpGuide1": "意識する",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "迷惑ではない",
+    "jpGuide1": "迷惑ではない",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桐島先輩の名を呼ぶ",
+    "jpGuide1": "桐島先輩の名を呼ぶ",
+    "jpGuide2": "更に名前を呼ぶ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "〖七葵エンド〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "〖七葵エンド〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "更に名前を呼ぶ",
+    "jpGuide1": "更に名前を呼ぶ",
+    "jpGuide2": "〖七葵エンド〗",
+    "enGuide": ""
+  }
+]

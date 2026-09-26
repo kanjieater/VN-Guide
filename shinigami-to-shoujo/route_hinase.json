@@ -1,0 +1,641 @@
+[
+  {
+    "simpleJp": "本を最初から読み返す",
+    "jpGuide1": "本を最初から読み返す",
+    "jpGuide2": "本を最初から読み返す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "好き",
+    "jpGuide1": "好き",
+    "jpGuide2": "好き",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "素敵だと賞賛する",
+    "jpGuide1": "素敵だと賞賛する",
+    "jpGuide2": "素敵だと賞賛する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "礼を言う",
+    "jpGuide1": "礼を言う",
+    "jpGuide2": "礼を言う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "詳しく話を聞く",
+    "jpGuide1": "詳しく話を聞く",
+    "jpGuide2": "詳しく話を聞く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "告白する",
+    "jpGuide1": "告白する",
+    "jpGuide2": "告白する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "袴姿の青年を気にする",
+    "jpGuide1": "袴姿の青年を気にする",
+    "jpGuide2": "先程の声を気にする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "死神に関して質問する",
+    "jpGuide1": "死神に関して質問する",
+    "jpGuide2": "目の前の人物を疑う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "焦る",
+    "jpGuide1": "焦る",
+    "jpGuide2": "焦る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "『貴方が心配だから』",
+    "jpGuide1": "『貴方が心配だから』",
+    "jpGuide2": "『貴方が心配だから』",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お昼に誘う",
+    "jpGuide1": "お昼に誘う",
+    "jpGuide2": "お昼に誘う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "反論する",
+    "jpGuide1": "反論する",
+    "jpGuide2": "反論する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "会いたかったから",
+    "jpGuide1": "会いたかったから",
+    "jpGuide2": "会いたかったから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "照れる",
+    "jpGuide1": "照れる",
+    "jpGuide2": "照れる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "承知する",
+    "jpGuide1": "承知する",
+    "jpGuide2": "承知する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "死神に会えた",
+    "jpGuide1": "死神に会えた",
+    "jpGuide2": "死神に会えた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話を続ける",
+    "jpGuide1": "話を続ける",
+    "jpGuide2": "話を続ける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "妬いているのかと問う",
+    "jpGuide1": "妬いているのかと問う",
+    "jpGuide2": "心配をしているのかと問う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "和服姿の男性との関係",
+    "jpGuide1": "和服姿の男性との関係",
+    "jpGuide2": "和服姿の男性との関係",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "★全員 共通SAVE",
+    "jpGuide2": "共通SAVE",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "学校に残る",
+    "jpGuide1": "学校に残る",
+    "jpGuide2": "学校に残る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "このまま歩いている",
+    "jpGuide1": "このまま歩いている",
+    "jpGuide2": "剣道場",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "声をかける",
+    "jpGuide1": "声をかける",
+    "jpGuide2": "声をかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "★SAVE１",
+    "jpGuide2": "SAVE1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "承知しない",
+    "jpGuide1": "承知しない",
+    "jpGuide2": "承知しない",
+    "enGuide": "",
+    "badEndPath": "一章-終",
+    "badEnd": "一章-終"
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "▼SAVE１から",
+    "jpGuide2": "SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "承知する",
+    "jpGuide1": "承知する",
+    "jpGuide2": "承知する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "学校に案内する",
+    "jpGuide1": "学校に案内する",
+    "jpGuide2": "学校に案内する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "港に案内する",
+    "jpGuide1": "港に案内する",
+    "jpGuide2": "港に案内する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "公園に案内する",
+    "jpGuide1": "公園に案内する",
+    "jpGuide2": "公園に案内する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "住宅街に案内する",
+    "jpGuide1": "住宅街に案内する",
+    "jpGuide2": "住宅街に案内する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "服装を指摘する",
+    "jpGuide1": "服装を指摘する",
+    "jpGuide2": "服装を指摘する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生先輩と桐島先輩の関係について",
+    "jpGuide1": "日生先輩と桐島先輩の関係について",
+    "jpGuide2": "好きな食べ物について",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "正直に言う",
+    "jpGuide1": "正直に言う",
+    "jpGuide2": "正直に言う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "★SAVE２",
+    "jpGuide2": "SAVE2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "兄に事情を話さない",
+    "jpGuide1": "兄に事情を話さない",
+    "jpGuide2": "兄に事情を話さない",
+    "enGuide": "",
+    "badEndPath": "一章-36 / バッドエンド",
+    "badEnd": "一章-36 / バッドエンド"
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "▼SAVE２から",
+    "jpGuide2": "SAVE2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "兄に事情を話す",
+    "jpGuide1": "兄に事情を話す",
+    "jpGuide2": "兄に事情を話す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "SAVE3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "この件のことを忘れることにした",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "この件のことを忘れることにした",
+    "enGuide": "",
+    "badEndPath": "バッドエンド",
+    "badEnd": "バッドエンド"
+  },
+  {
+    "simpleJp": "セーブ4にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "SAVE3より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "この件について少し調べてみることにした",
+    "jpGuide1": "この件について少し調べてみることにした",
+    "jpGuide2": "この件について少し調べてみることにした",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "礼を言う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "声をかける",
+    "jpGuide1": "声をかける",
+    "jpGuide2": "声をかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "断る",
+    "jpGuide1": "断る",
+    "jpGuide2": "承諾する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生",
+    "jpGuide1": "日生",
+    "jpGuide2": "日生",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何もしない",
+    "jpGuide1": "何もしない",
+    "jpGuide2": "何もしない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "褒める",
+    "jpGuide1": "褒める",
+    "jpGuide2": "褒める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "更に褒める",
+    "jpGuide1": "更に褒める",
+    "jpGuide2": "更に褒める",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "★日生・桐島・十夜 共通SAVE",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生の意見に乗る",
+    "jpGuide1": "日生の意見に乗る",
+    "jpGuide2": "日生の意見に乗る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "息を吹きかける",
+    "jpGuide1": "息を吹きかける",
+    "jpGuide2": "冷めるのを待つ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やんわり断る",
+    "jpGuide1": "やんわり断る",
+    "jpGuide2": "やんわり断る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "宜しく頼む",
+    "jpGuide1": "宜しく頼む",
+    "jpGuide2": "注意する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おにぎり弁当",
+    "jpGuide1": "おにぎり弁当",
+    "jpGuide2": "サンドイッチ弁当",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水で洗う",
+    "jpGuide1": "水で洗う",
+    "jpGuide2": "切る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "止めておく",
+    "jpGuide1": "止めておく",
+    "jpGuide2": "猫の手",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "猫の手",
+    "jpGuide1": "猫の手",
+    "jpGuide2": "片栗粉",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "片栗粉",
+    "jpGuide1": "片栗粉",
+    "jpGuide2": "そのまま口にする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "そのまま口にする",
+    "jpGuide1": "そのまま口にする",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "食べさせてもらう",
+    "jpGuide1": "食べさせてもらう",
+    "jpGuide2": "断る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夏帆にお弁当作りを頼む",
+    "jpGuide1": "夏帆にお弁当作りを頼む",
+    "jpGuide2": "嫌いではない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "嫌いではない",
+    "jpGuide1": "嫌いではない",
+    "jpGuide2": "気にする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気にする",
+    "jpGuide1": "気にする",
+    "jpGuide2": "会釈する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "微笑む",
+    "jpGuide1": "微笑む",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "声をかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "声をかける",
+    "jpGuide1": "声をかける",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "考え込む",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "疑っていない",
+    "jpGuide1": "疑っていない",
+    "jpGuide2": "疑っていない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女性のことについて聞く",
+    "jpGuide1": "女性のことについて聞く",
+    "jpGuide2": "女性のことについて聞く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "とぼける",
+    "jpGuide1": "とぼける",
+    "jpGuide2": "とぼける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "約束する",
+    "jpGuide1": "約束する",
+    "jpGuide2": "約束する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "手を繋ぐ",
+    "jpGuide1": "手を繋ぐ",
+    "jpGuide2": "手を繋ぐ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "甘い物の方が好き",
+    "jpGuide1": "甘い物の方が好き",
+    "jpGuide2": "甘い物の方が好き",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それ以外",
+    "jpGuide1": "それ以外",
+    "jpGuide2": "それ以外",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生のことを考える",
+    "jpGuide1": "日生のことを考える",
+    "jpGuide2": "日生の事を考える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気になる先輩",
+    "jpGuide1": "気になる先輩",
+    "jpGuide2": "気になる先輩",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "兄に話さない",
+    "jpGuide1": "兄に話さない",
+    "jpGuide2": "兄に話さない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "それでもいい",
+    "jpGuide1": "それでもいい",
+    "jpGuide2": "それでは駄目だ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お礼を言う",
+    "jpGuide1": "お礼を言う",
+    "jpGuide2": "お礼を言う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生と付き合う",
+    "jpGuide1": "日生と付き合う",
+    "jpGuide2": "日生と付き合う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お祖母様",
+    "jpGuide1": "お祖母様",
+    "jpGuide2": "お祖母様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私を連れて逃げて",
+    "jpGuide1": "私を連れて逃げて",
+    "jpGuide2": "私を連れて逃げて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "お任せする",
+    "jpGuide1": "お任せする",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "後を追いかける",
+    "jpGuide1": "後を追いかける",
+    "jpGuide2": "後を追いかける",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "★SAVE３",
+    "jpGuide2": "SAVE4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "後を追いかけない",
+    "jpGuide1": "後を追いかけない",
+    "jpGuide2": "後を追いかけない",
+    "enGuide": "",
+    "badEndPath": "日生-終2",
+    "badEnd": "日生-終2"
+  },
+  {
+    "simpleJp": "セーブ6にロード",
+    "jpGuide1": "▼SAVE３から",
+    "jpGuide2": "SAVE4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "王子様は王子様だ",
+    "jpGuide1": "王子様は王子様だ",
+    "jpGuide2": "王子様は王子様だ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行く",
+    "jpGuide1": "行く",
+    "jpGuide2": "行く",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7",
+    "jpGuide1": "★SAVE４",
+    "jpGuide2": "SAVE5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "嘘を吐かないで",
+    "jpGuide1": "嘘を吐かないで",
+    "jpGuide2": "嘘を吐かないで",
+    "enGuide": "",
+    "badEndPath": "日生-終1",
+    "badEnd": "日生-終1"
+  },
+  {
+    "simpleJp": "セーブ7にロード",
+    "jpGuide1": "▼SAVE４から",
+    "jpGuide2": "SAVE5より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "嘘を吐いて",
+    "jpGuide1": "嘘を吐いて",
+    "jpGuide2": "嘘を吐いて",
+    "enGuide": ""
+  }
+]

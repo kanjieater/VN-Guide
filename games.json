@@ -145,5 +145,18 @@
       "platform": "PlayStation Classic",
       "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/"
     }
+  },
+  "v6656": {
+    "slug": "shinigami-to-shoujo",
+    "has_guide": false,
+    "title": "Shinigami to Shoujo",
+    "alttitle": "死神と少女",
+    "cover_url": "https://image.biccamera.com/img/00000010091521_A01.jpg?sr.dh=600&sr.dw=600&sr.jqh=60&sr.mat=1",
+    "added_at": "2026-09-25T16:15:00+00:00",
+    "guide_target": {
+      "label": "死神と少女（Nintendo Switch版）",
+      "platform": "Nintendo Switch",
+      "url": "https://www.takuyo.co.jp/products/shinigami/switchinfo.html"
+    }
   }
 }

@@ -12,9 +12,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "△□△",
+    "simpleJp": "YXY",
     "jpGuide1": "[デュエロ]△□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "jpGuide2": "▶︎【デュエロ】YXY（成功）",
     "enGuide": ""
   },
   {
@@ -54,9 +54,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "△",
+    "simpleJp": "Y",
     "jpGuide1": "[デュエロ]△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "jpGuide2": "▶︎【デュエロ】Y（成功）",
     "enGuide": ""
   },
   {
@@ -558,9 +558,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×□△",
+    "simpleJp": "XAXY",
     "jpGuide1": "[デュエロ]□×□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "jpGuide2": "▶︎【デュエロ】XAXY（成功）",
     "enGuide": ""
   },
   {
@@ -882,9 +882,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×××□",
+    "simpleJp": "XAAAX",
     "jpGuide1": "[デュエロ]□×××□(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "jpGuide2": "▶︎【デュエロ】XAAAX（成功）",
     "enGuide": ""
   },
   {
@@ -1098,9 +1098,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□",
+    "simpleJp": "X",
     "jpGuide1": "[デュエロ]□",
-    "jpGuide2": "▶︎【デュエロ】□（成功）",
+    "jpGuide2": "▶︎【デュエロ】X（成功）",
     "enGuide": ""
   },
   {
@@ -1225,9 +1225,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "×□×△××",
+    "simpleJp": "AXAYAA",
     "jpGuide1": "[デュエロ]×□×△××(成功) → ダンテED2",
-    "jpGuide2": "▶︎【デュエロ】×□×△××（成功） → ダンテED2",
+    "jpGuide2": "▶︎【デュエロ】AXAYAA（成功） → ダンテED2",
     "enGuide": ""
   },
   {
@@ -1245,9 +1245,9 @@
     "badEndPath": "ノーマルED"
   },
   {
-    "simpleJp": "□□□△×□",
+    "simpleJp": "XXXYAX",
     "jpGuide1": "[デュエロ]□□□△×□(成功)",
-    "jpGuide2": "▶︎【デュエロ】□□□△×□（成功）",
+    "jpGuide2": "▶︎【デュエロ】XXXYAX（成功）",
     "enGuide": ""
   },
   {
@@ -1356,9 +1356,9 @@
     "isLoad": true
   },
   {
-    "simpleJp": "×□×△××",
+    "simpleJp": "AXAYAA",
     "jpGuide1": "[デュエロ]×□×△××(成功)",
-    "jpGuide2": "▶︎【デュエロ】×□×△××（成功）",
+    "jpGuide2": "▶︎【デュエロ】AXAYAA（成功）",
     "enGuide": "",
     "badEndPath": "ダンテED1"
   },
@@ -1414,9 +1414,9 @@
     "isLoad": true
   },
   {
-    "simpleJp": "□□□△×□",
+    "simpleJp": "XXXYAX",
     "jpGuide1": "[デュエロ]□□□△×□(成功)",
-    "jpGuide2": "▶︎【デュエロ】□□□△×□（成功）",
+    "jpGuide2": "▶︎【デュエロ】XXXYAX（成功）",
     "enGuide": ""
   },
   {

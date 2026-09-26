@@ -57,13 +57,15 @@
       "url": "https://choro-game.com/e/arcana-guide",
       "title": "アルカナ・ファミリア -La storia della Arcana Famiglia- Ancora 攻略 (choro / 乙女ゲーム攻略ブログ)",
       "language": "ja",
-      "notes": "Complete guide hub for the PS Vita 'Ancora' port (same VNDB entry v8203 as Rinato), linking to full individual choice-by-choice walkthroughs for all 7 routes: Liberta (blog-entry-1309.html), Nova (blog-entry-1367.html), Debito (blog-entry-1311.html), Parche (blog-entry-1368.html), Luca (blog-entry-1284.html), Dante (blog-entry-1364.html), Jolly (blog-entry-1334.html). Each page contains dated (4/1–6/1) choice text, SAVE1/SAVE2/SAVE3 markers, デュエロ (duel) success/fail outcomes (△/□/×), and ED1/ED2/ED3 ending labels. Confirms Dante's route restriction ('２周目以降ルート解放') and that his 3 special endings (ファミリアED/ノーマルED/敗北ED) require all other 6 characters cleared first ('全員を攻略後ED回収が可能'). Primary source for full choice-tree content and Dante/Jolly lock confirmation."
+      "notes": "Complete guide hub for the PS Vita 'Ancora' port (same VNDB entry v8203 as Rinato), linking to full individual choice-by-choice walkthroughs for all 7 routes: Liberta (blog-entry-1309.html), Nova (blog-entry-1367.html), Debito (blog-entry-1311.html), Parche (blog-entry-1368.html), Luca (blog-entry-1284.html), Dante (blog-entry-1364.html), Jolly (blog-entry-1334.html). Each page contains dated (4/1–6/1) choice text, SAVE1/SAVE2/SAVE3 markers, デュエロ (duel) success/fail outcomes (△/□/×), and ED1/ED2/ED3 ending labels. Confirms Dante's route restriction ('２周目以降ルート解放') and that his 3 special endings (ファミリアED/ノーマルED/敗北ED) require all other 6 characters cleared first ('全員を攻略後ED回収が可能'). Primary source for full choice-tree content and Dante/Jolly lock confirmation.",
+      "set": "A"
     },
     {
-      "url": "https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223541",
-      "title": "アルカナ・ファミリア - La storia della Arcana Famiglia - 攻略 本編 (ruRiの気ままにオタ活, Hatena Blog)",
+      "url": "https://ruri-ototgame.hatenablog.com/entry/2025/12/30/225051",
+      "title": "アルカナ・ファミリア Rinato 個別攻略 (ruRiの気ままにオタ活)",
       "language": "ja",
-      "notes": "Complete single-page walkthrough covering the shared common-route choices (through 4/5, before character select at 4/1 branch) and all 7 character routes in sectioned anchors (#1 Liberta through #7 Jolly) on one page. Contains verbatim choice text, SAVE1/SAVE2 markers, デュエロ success/fail notation, and 3-ending (ED1/ED2/ED3) structure per route. Independently corroborates Dante and Jolly both being locked to 2nd-playthrough-onward ('２周目以降ルート解放') and Dante's Famiglia/Normal/Defeat endings requiring all other characters cleared first ('全員を攻略後ED回収が可能'). Used as the second full walkthrough for cross-validation against choro-game.com. Landing/navigation page at https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223648 links here."
+      "notes": "Complete exact-target Nintendo Switch Rinato walkthrough covering all 7 character routes. Uses Switch button notation (for example YXY where Vita/Ancora uses △□△), dated choice text, MAP/Select/Cocoaru steps, duel success/failure paths, and ending cleanup. Adopted as Set B for target-facing reconciliation; jpGuide2 excerpts are kept verbatim to this Rinato page rather than Vita symbols.",
+      "set": "B"
     },
     {
       "url": "https://manga-daisuki.net/game/psvita-otome/arcana/",
@@ -94,7 +96,19 @@
       "title": "Nintendo Switch/Steam『アルカナ・ファミリア Rinato』公式サイト - STORY",
       "language": "ja",
       "notes": "Reference only. Official site for the Switch/Steam Rinato release. Confirms the main story premise (Arcana Duello tournament, April 1 to June 1 timeframe) and character roles (Mondo as boss/father, Sumire as his wife, Nova/Parche/Debito/Dante as department executives). No route order or bad-end information; used only to confirm this is the same base story as the PSP/Vita versions with no restructured routes."
+    },
+    {
+      "set": "target",
+      "url": "https://www.gamer.ne.jp/news/202503190016/",
+      "title": "「アルカナ・ファミリア Rinato」Switch版は7月24日に発売！ (Gamer)",
+      "language": "ja",
+      "notes": "Exact Rinato release announcement based on publisher information. Explicitly identifies Rinato as a port of the 2015 PS Vita Ancora release and enumerates the port changes as system/battle-presentation polish, higher-resolution graphics, new package art, and multilingual subtitles. It does not announce new or rewritten scenario/route content. This is strong target-applicability evidence for Ancora walkthrough structure, but it is not itself a Rinato choice-by-choice walkthrough."
     }
   ],
-  "generated_at": "2026-07-27T08:19:52.228784+00:00"
+  "generated_at": "2026-09-26T03:35:00Z",
+  "guide_target": {
+    "label": "アルカナ・ファミリア Rinato（Nintendo Switch版）",
+    "platform": "Nintendo Switch",
+    "url": "https://dramaticcreate.com/af_rinato/"
+  }
 }

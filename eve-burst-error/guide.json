@@ -5,126 +5,126 @@
     {
       "id": "marina_01",
       "title": "まりな編（区間1）",
-      "stepCount": 345,
+      "stepCount": 878,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_01",
       "title": "小次郎編（区間1）",
-      "stepCount": 372,
+      "stepCount": 945,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_02",
       "title": "まりな編（区間2）",
-      "stepCount": 123,
+      "stepCount": 295,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_02",
       "title": "小次郎編（区間2）",
-      "stepCount": 99,
+      "stepCount": 249,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_03",
       "title": "まりな編（区間3）",
-      "stepCount": 23,
+      "stepCount": 51,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_03",
       "title": "小次郎編（区間3）",
-      "stepCount": 8,
+      "stepCount": 14,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_04",
       "title": "まりな編（区間4）",
-      "stepCount": 6,
+      "stepCount": 12,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_04",
       "title": "小次郎編（区間4）",
-      "stepCount": 30,
+      "stepCount": 50,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_05",
       "title": "まりな編（区間5）",
-      "stepCount": 4,
+      "stepCount": 7,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_05",
       "title": "小次郎編（区間5）",
-      "stepCount": 3,
+      "stepCount": 8,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_06",
       "title": "まりな編（区間6）",
-      "stepCount": 84,
+      "stepCount": 206,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_06",
       "title": "小次郎編（区間6）",
-      "stepCount": 93,
+      "stepCount": 222,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_07",
       "title": "まりな編（区間7）",
-      "stepCount": 12,
+      "stepCount": 25,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_07",
       "title": "小次郎編（区間7）",
-      "stepCount": 32,
+      "stepCount": 83,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_08",
       "title": "まりな編（区間8）",
-      "stepCount": 2,
+      "stepCount": 8,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_08",
       "title": "小次郎編（区間8）",
-      "stepCount": 67,
+      "stepCount": 166,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_09",
       "title": "まりな編（区間9）",
-      "stepCount": 8,
+      "stepCount": 18,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "terror",
       "title": "テラー編",
-      "stepCount": 12,
+      "stepCount": 17,
       "reviewed": false
     }
   ],
@@ -150,7 +150,7 @@
       "notes": "Supplementary/tertiary Japanese source. Confirmed to organize its walkthrough by calendar date (12/2-12/9) like the other two sources, and links to companion guides for the sequels EVE rebirth terror (EVE2) / EVE ghost enemies (EVE3), confirming this site covers EVE1 (burst error) specifically. Individual date sub-pages returned server errors (503) during this research pass and were not fully read — not fully verified as complete. Should be treated as a cross-check source only, not a primary source, unless re-fetched successfully during guide writing."
     }
   ],
-  "generated_at": "2026-09-25T20:46:00Z",
+  "generated_at": "2026-09-26T00:45:00Z",
   "guide_target": {
     "label": "EVE burst error R（Nintendo Switch ダウンロード版）",
     "platform": "Nintendo Switch",

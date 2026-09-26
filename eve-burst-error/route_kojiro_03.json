@@ -48,6 +48,18 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "モニター",
+    "jpGuide1": "見る・調べる→モニター",
+    "jpGuide2": "見る・調べる\nモニター×2\n5：People",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "5：People",
+    "jpGuide1": "見る・調べる→モニター",
+    "jpGuide2": "見る・調べる\nモニター×2\n5：People",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "５を選ぶ",
     "jpGuide1": "５を選ぶ",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -60,13 +72,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "人物１",
-    "jpGuide1": "入力する→人物１→御堂",
-    "jpGuide2": "入力する\n人物1\n御堂",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "入力する",
+    "simpleJp": "人物1",
     "jpGuide1": "入力する→人物１→御堂",
     "jpGuide2": "入力する\n人物1\n御堂",
     "enGuide": ""

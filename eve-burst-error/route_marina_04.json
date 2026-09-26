@@ -1,12 +1,36 @@
 [
   {
-    "simpleJp": "入力する→人物１",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂×３",
     "jpGuide2": "入力する\n人物1\n御堂×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→御堂×３",
+    "simpleJp": "人物１",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
     "jpGuide1": "入力する→人物１→御堂×３",
     "jpGuide2": "入力する\n人物1\n御堂×2",
     "enGuide": ""
@@ -24,7 +48,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "解除する→御堂の個人情報×２",
+    "simpleJp": "解除する",
+    "jpGuide1": "解除する→御堂の個人情報×２",
+    "jpGuide2": "解除する\n御堂の個人情報×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報×２",
+    "jpGuide2": "解除する\n御堂の個人情報×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
     "jpGuide1": "解除する→御堂の個人情報×２",
     "jpGuide2": "解除する\n御堂の個人情報×2",
     "enGuide": ""

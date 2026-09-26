@@ -6,85 +6,109 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×３",
-    "jpGuide2": "移動する×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×３",
-    "jpGuide2": "移動する×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×３",
-    "jpGuide2": "移動する×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "叩く",
-    "jpGuide1": "叩く×４",
-    "jpGuide2": "話す×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "叩く",
-    "jpGuide1": "叩く×４",
-    "jpGuide2": "話す×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "叩く",
-    "jpGuide1": "叩く×４",
-    "jpGuide2": "話す×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "叩く",
-    "jpGuide1": "叩く×４",
-    "jpGuide2": "話す×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "移動する",
-    "jpGuide1": "移動する×４",
-    "jpGuide2": "たたく×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "移動する",
-    "jpGuide1": "移動する×４",
-    "jpGuide2": "たたく×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "移動する",
-    "jpGuide1": "移動する×４",
-    "jpGuide2": "たたく×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "移動する",
-    "jpGuide1": "移動する×４",
-    "jpGuide2": "たたく×4",
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "■ 船倉 (共通)\n見る・調べる",
+    "jpGuide2": "見る・調べる×7",
     "enGuide": ""
   },
   {
     "simpleJp": "見る・調べる",
+    "jpGuide1": "■ 船倉 (共通)\n見る・調べる",
+    "jpGuide2": "見る・調べる×7",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "■ 船倉 (共通)\n見る・調べる",
+    "jpGuide2": "見る・調べる×7",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "■ 船倉 (共通)\n見る・調べる",
+    "jpGuide2": "見る・調べる×7",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "■ 船倉 (共通)\n見る・調べる",
+    "jpGuide2": "見る・調べる×7",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "■ 船倉 (共通)\n見る・調べる",
+    "jpGuide2": "見る・調べる×7",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "話す×３",
+    "jpGuide2": "移動する×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "話す×３",
+    "jpGuide2": "移動する×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "叩く×４",
+    "jpGuide2": "話す×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "叩く×４",
+    "jpGuide2": "話す×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "叩く×４",
+    "jpGuide2": "話す×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "たたく",
+    "jpGuide1": "移動する×４",
+    "jpGuide2": "たたく×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "たたく",
+    "jpGuide1": "移動する×４",
+    "jpGuide2": "たたく×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "たたく",
+    "jpGuide1": "移動する×４",
+    "jpGuide2": "たたく×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "たたく",
+    "jpGuide1": "移動する×４",
+    "jpGuide2": "たたく×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
     "jpGuide1": "見る・調べる",
     "jpGuide2": "移動する×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×２",
-    "jpGuide2": "見る・調べる",
+    "simpleJp": "移動する",
+    "jpGuide1": "見る・調べる",
+    "jpGuide2": "移動する×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "話す",
+    "simpleJp": "見る・調べる",
     "jpGuide1": "話す×２",
     "jpGuide2": "見る・調べる",
     "enGuide": ""
@@ -96,7 +120,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる",
+    "simpleJp": "話す",
+    "jpGuide1": "見る・調べる×２",
+    "jpGuide2": "話す×3\n見る・調べる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "見る・調べる×２",
+    "jpGuide2": "話す×3\n見る・調べる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
     "jpGuide1": "見る・調べる×２",
     "jpGuide2": "話す×3\n見る・調べる",
     "enGuide": ""

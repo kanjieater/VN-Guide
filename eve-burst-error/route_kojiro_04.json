@@ -1,72 +1,150 @@
 [
   {
-    "simpleJp": "入力する→人物１",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂×２",
     "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→御堂×２",
+    "simpleJp": "人物１",
     "jpGuide1": "入力する→人物１→御堂×２",
     "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→人物１",
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "入力する→人物１→御堂×２",
+    "jpGuide2": "入力する\n人物1\n御堂\n入力する\n人物1\n御堂",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
     "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→御堂",
+    "simpleJp": "人物１",
     "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
     "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→孔",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
     "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→テラー",
+    "simpleJp": "御堂",
     "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
     "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→真弥子",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
     "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→人物２",
+    "simpleJp": "孔",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "テラー",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "真弥子",
+    "jpGuide1": "入力する→人物１→御堂→孔→テラー→真弥子",
+    "jpGuide2": "入力する\n人物1\n孔\n《テラー》\n真弥子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
     "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→プリン",
+    "simpleJp": "人物２",
     "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
     "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→シリア",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
     "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→まりな",
+    "simpleJp": "プリン",
     "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
     "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→俺様",
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "シリア",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まりな",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
+    "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "俺様",
     "jpGuide1": "入力する→人物２→プリン→シリア→まりな→俺様",
     "jpGuide2": "入力する\n人物2\nプリン\nシリア\nまりな\n俺様",
     "enGuide": ""
@@ -84,13 +162,25 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→エルディアについて",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→エルディアについて→政治体制について",
     "jpGuide2": "入力する\nエルディアについて\n政治体制について",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→政治体制について",
+    "simpleJp": "エルディアについて",
+    "jpGuide1": "入力する→エルディアについて→政治体制について",
+    "jpGuide2": "入力する\nエルディアについて\n政治体制について",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→エルディアについて→政治体制について",
+    "jpGuide2": "入力する\nエルディアについて\n政治体制について",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "政治体制について",
     "jpGuide1": "入力する→エルディアについて→政治体制について",
     "jpGuide2": "入力する\nエルディアについて\n政治体制について",
     "enGuide": ""
@@ -120,13 +210,25 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→絵画の作者",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→絵画の作者→呪いについて",
     "jpGuide2": "入力する\n絵画の作者\n呪いについて",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→呪いについて",
+    "simpleJp": "絵画の作者",
+    "jpGuide1": "入力する→絵画の作者→呪いについて",
+    "jpGuide2": "入力する\n絵画の作者\n呪いについて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→絵画の作者→呪いについて",
+    "jpGuide2": "入力する\n絵画の作者\n呪いについて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呪いについて",
     "jpGuide1": "入力する→絵画の作者→呪いについて",
     "jpGuide2": "入力する\n絵画の作者\n呪いについて",
     "enGuide": ""
@@ -144,13 +246,25 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→人物１",
+    "simpleJp": "入力する",
     "jpGuide1": "入力する→人物１→御堂",
     "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
     "enGuide": ""
   },
   {
-    "simpleJp": "入力する→御堂",
+    "simpleJp": "人物１",
+    "jpGuide1": "入力する→人物１→御堂",
+    "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂",
+    "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
     "jpGuide1": "入力する→人物１→御堂",
     "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
     "enGuide": ""
@@ -168,7 +282,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "解除する→御堂の個人情報",
+    "simpleJp": "解除する",
+    "jpGuide1": "解除する→御堂の個人情報",
+    "jpGuide2": "解除する\n御堂の個人情報×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
     "jpGuide1": "解除する→御堂の個人情報",
     "jpGuide2": "解除する\n御堂の個人情報×2",
     "enGuide": ""

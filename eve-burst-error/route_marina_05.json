@@ -1,0 +1,44 @@
+[
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "解除する→御堂の個人情報",
+    "jpGuide2": "見る・調べる\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "端末",
+    "jpGuide1": "解除する→御堂の個人情報",
+    "jpGuide2": "見る・調べる\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "解除する",
+    "jpGuide1": "見る・調べる→端末",
+    "jpGuide2": "解除する\n御堂の個人情報",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "見る・調べる→端末",
+    "jpGuide2": "解除する\n御堂の個人情報",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "解除する",
+    "jpGuide1": "解除する→御堂の個人情報",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "小次郎編にサイトチェンジ",
+    "jpGuide1": "(小次郎編を　まで進めないと、ストーリーが進展しなくなる)",
+    "jpGuide2": "小次郎編にサイトチェンジ",
+    "enGuide": ""
+  }
+]

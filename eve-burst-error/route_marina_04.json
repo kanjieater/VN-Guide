@@ -1,0 +1,62 @@
+[
+  {
+    "simpleJp": "入力する",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "人物1",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂",
+    "jpGuide1": "入力する→人物１→御堂×３",
+    "jpGuide2": "入力する\n人物1\n御堂×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "検索を終了する",
+    "jpGuide1": "検索を終了する",
+    "jpGuide2": "検索を終了する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戻る",
+    "jpGuide1": "戻る",
+    "jpGuide2": "戻る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "解除する",
+    "jpGuide1": "解除する→御堂の個人情報×２",
+    "jpGuide2": "解除する\n御堂の個人情報×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報×２",
+    "jpGuide2": "解除する\n御堂の個人情報×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "御堂の個人情報",
+    "jpGuide1": "解除する→御堂の個人情報×２",
+    "jpGuide2": "解除する\n御堂の個人情報×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "小次郎編にサイトチェンジ",
+    "jpGuide1": "(小次郎編を　まで進めないと、ストーリーが進展しなくなる)",
+    "jpGuide2": "小次郎編にサイトチェンジ",
+    "enGuide": ""
+  }
+]

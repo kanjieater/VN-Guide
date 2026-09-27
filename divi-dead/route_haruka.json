@@ -1,0 +1,56 @@
+[
+  {
+    "simpleJp": "第二校舎2F",
+    "jpGuide1": "Ｆ７０１ 「第二校舎２Ｆ」で遥に出会う。",
+    "jpGuide2": "Ｂ〖第二校舎・二階〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "のぞく",
+    "jpGuide1": "Ｆ７０１ 「のぞく」",
+    "jpGuide2": "Ｂ〖のぞく〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "第二グランド",
+    "jpGuide1": "Ｆ７０１ 「第二グランド」で優子に会う。",
+    "jpGuide2": "Ｂ〖第二グランド〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "体育館",
+    "jpGuide1": "Ｆ７０１ 途中で「体育館」によると、人の気配がする。",
+    "jpGuide2": "Ｂ〖体育館〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "美術室",
+    "jpGuide1": "Ｆ７０１ 「美術室」で遥と話す。",
+    "jpGuide2": "Ｂ〖美術室〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "体育館",
+    "jpGuide1": "Ｆ７０１ 「体育館」で優子と猫に会う。",
+    "jpGuide2": "Ｂ〖体育館〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "図書館ロビー",
+    "jpGuide1": "Ｆ７０１ 「図書館」ロビーで真由美とＨ。",
+    "jpGuide2": "Ｂ〖図書室・ロビー〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "保健室",
+    "jpGuide1": "＊先に「図書館」へ行った場合は「保健室」へ。",
+    "jpGuide2": "〖第二校舎・保健室〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "分かった",
+    "jpGuide1": "＊「わかった」 Ｆ７０１ 遥とのエンディング",
+    "jpGuide2": "Ｂを四つ以上選んでおれば「遥ＥＮＤ」",
+    "enGuide": ""
+  }
+]

@@ -30,11 +30,16 @@
   },
   "v8203": {
     "slug": "arcana-famiglia",
-    "has_guide": true,
+    "has_guide": false,
     "title": "Arcana Famiglia",
     "alttitle": "アルカナ・ファミリア",
-    "cover_url": "https://t.vndb.org/cv/65/113965.jpg",
-    "added_at": "2026-07-07T22:51:38.476489+00:00"
+    "cover_url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000089529/768e4a578c15476feeafccbf87089ca66a7138b8a0c26c974d50c578a0a5ab03",
+    "added_at": "2026-07-07T22:51:38.476489+00:00",
+    "guide_target": {
+      "label": "アルカナ・ファミリア Rinato（Nintendo Switch版）",
+      "platform": "Nintendo Switch",
+      "url": "https://dramaticcreate.com/af_rinato/"
+    }
   },
   "v405": {
     "slug": "マブラヴ-altered-fable",

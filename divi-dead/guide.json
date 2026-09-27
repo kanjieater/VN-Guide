@@ -1,0 +1,52 @@
+{
+  "title": "DIVI-DEAD",
+  "vndb_id": "v119",
+  "guide_target": {
+    "label": "Millennium BOX 2000 Vol.2 DIVI-DEAD",
+    "platform": "Windows 95/PC",
+    "url": "https://www.suruga-ya.jp/product/detail/145004262"
+  },
+  "routes": [
+    {
+      "id": "haruka",
+      "title": "遥エンド",
+      "stepCount": 9,
+      "reviewed": false
+    },
+    {
+      "id": "azusa",
+      "title": "梓エンド",
+      "stepCount": 9,
+      "reviewed": false
+    },
+    {
+      "id": "death",
+      "title": "死亡エンド",
+      "stepCount": 9,
+      "reviewed": false
+    },
+    {
+      "id": "sachiko",
+      "title": "佐知子エンド",
+      "stepCount": 9,
+      "reviewed": false
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/divi-dead",
+      "title": "DIVI-DEAD ディブァイデッド 攻略 - Портал Карл Великий",
+      "language": "ja",
+      "notes": "Japanese walkthrough / official-hint reproduction; used for F701/F801 route-defining facts."
+    },
+    {
+      "set": "B",
+      "url": "https://xneo.jp/divi-dead/",
+      "title": "DIVI・DEAD完全攻略 | XNEO",
+      "language": "ja",
+      "notes": "Independently presented Japanese A/B route table; used for all seven route-defining decisions and ending conditions."
+    }
+  ],
+  "generated_at": "2026-09-27T20:35:00+00:00"
+}

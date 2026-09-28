@@ -3,25 +3,25 @@
     "simpleJp": "第二校舎2F",
     "jpGuide1": "Ｆ７０１ 「第二校舎２Ｆ」で遥に出会う。",
     "jpGuide2": "Ｂ〖第二校舎・二階〗",
-    "enGuide": "Day 1 noon — flag 1 of 7. This is the F701/B choice."
+    "enGuide": "Day 1 noon — flag 1 of 7. Use this location when the first A/B route split appears."
   },
   {
     "simpleJp": "のぞく",
     "jpGuide1": "Ｆ７０１ 「のぞく」",
     "jpGuide2": "Ｂ〖のぞく〗",
-    "enGuide": "Day 1 evening — flag 2 of 7. Choose 「のぞく」 for F701/B."
+    "enGuide": "Day 1 evening — flag 2 of 7, at the explicit 「のぞく」/「やめる」 choice."
   },
   {
     "simpleJp": "第二グランド",
     "jpGuide1": "Ｆ７０１ 「第二グランド」で優子に会う。",
     "jpGuide2": "Ｂ〖第二グランド〗",
-    "enGuide": "Day 1 night — flag 3 of 7. Visit 第二グランド before 本校舎1F for F701/B."
+    "enGuide": "Day 1 night — flag 3 of 7. Choose this location first when 本校舎1F and 第二グランド become the route split."
   },
   {
     "simpleJp": "体育館",
     "jpGuide1": "Ｆ７０１ 途中で「体育館」によると、人の気配がする。",
     "jpGuide2": "Ｂ〖体育館〗",
-    "enGuide": "Day 2 morning — flag 4 of 7, while carrying 梓 toward the infirmary."
+    "enGuide": "Day 2 morning — flag 4 of 7, while taking 梓 toward the infirmary."
   },
   {
     "simpleJp": "美術室",
@@ -39,13 +39,13 @@
     "simpleJp": "図書館ロビー",
     "jpGuide1": "Ｆ７０１ 「図書館」ロビーで真由美とＨ。",
     "jpGuide2": "Ｂ〖図書室・ロビー〗",
-    "enGuide": "Day 2 night — flag 7 of 7. The order of the library/infirmary visits determines this flag."
+    "enGuide": "Day 2 night — flag 7 of 7. Visit this route-setting location first."
   },
   {
     "simpleJp": "保健室",
     "jpGuide1": "＊先に「図書館」へ行った場合は「保健室」へ。",
     "jpGuide2": "〖第二校舎・保健室〗",
-    "enGuide": "Day 2 night — complete the paired visit after the flag-setting location."
+    "enGuide": "Day 2 night — then visit the paired location to continue; this second visit does not change the already-selected flag."
   },
   {
     "simpleJp": "分かった",

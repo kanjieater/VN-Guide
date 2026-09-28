@@ -2,9 +2,9 @@
   "title": "DIVI-DEAD",
   "vndb_id": "v119",
   "guide_target": {
-    "label": "Millennium BOX 2000 Vol.2 DIVI-DEAD",
+    "label": "DIVI-DEAD（1998年オリジナルCD版）",
     "platform": "Windows 95/PC",
-    "url": "https://www.suruga-ya.jp/product/detail/145004262"
+    "url": "https://www.suruga-ya.jp/product/detail/145000745"
   },
   "routes": [
     {
@@ -62,24 +62,12 @@
       "notes": "直接閲覧済み。2019年更新の独立した攻略サイト形式の完全ルート表。7判定をA/Bとして整理し、各地点と最終選択による4終幕条件を独立に掲載。LastCharlesへの参照・転載表示は確認されない。"
     },
     {
-      "url": "https://www.suruga-ya.jp/product/detail/145004262",
-      "title": "Millennium BOX 2000 Vol.2 DIVI-DEAD - 駿河屋",
+      "url": "https://www.suruga-ya.jp/product/detail/145000745",
+      "title": "DIVI-DEAD（Windows 95） - 駿河屋",
       "language": "ja",
-      "notes": "exact-target製品記録。2000-05-26、Windows 95、JAN 4934029200027。ゲームディスク1枚に原画集CD・時計・キーホルダー・マウスパッド・ポスター等を同梱する再商品化として記録。"
-    },
-    {
-      "url": "https://gamefaqs.gamespot.com/pc/578844-divi-dead/data",
-      "title": "Divi-Dead Release Information",
-      "language": "en",
-      "notes": "provenance only。1998 CD、1999 DVD-ROM、2000 Millennium Boxを同一PCタイトルのrelease dataとして列挙し、Millennium BoxのJAN 4934029200027を確認。"
-    },
-    {
-      "url": "https://www.uvlist.net/game-100631-Divi%2BDead",
-      "title": "Divi-Dead release cross-reference",
-      "language": "en",
-      "notes": "provenance only。同一Windows titleに原版/DVD/Millennium BoxのEANをcross-reference。攻略文面には使用しない。"
+      "notes": "exact-target製品記録。1998-01-23、Windows 95、型番B0E097。ゲームディスク1枚＋マニュアルのオリジナルCD版。"
     }
   ],
-  "disagreements": "Set Aの攻略本文は公式ヒントペーパー由来の部分を含むが、Set BのXNEOは別サイトの独立した完全ルート表として直接検査し、7つの判定地点と4終幕条件を同じ構造で確認した。exact target専用攻略は発見できなかったため、版適用性は製品記録で限定的に扱う。Millennium BOXは同一Windowsタイトルの2000年releaseとしてカタログされ、駿河屋ではゲームディスク1枚＋物理/原画集CD特典の構成として記録される。ルート生成では両日本語攻略が一致する7判定と終幕条件だけを使用し、版固有と確認できない追加要素・推測は加えない。",
-  "generated_at": "2026-09-27T20:35:00+00:00"
+  "disagreements": "2026-09-28 caller/owner approvalで、未証明だったMillennium BOX 2000版との互換性推定を避け、両日本語攻略が直接扱う1998年オリジナルWindows版へguide_targetを変更。Set Aは4終幕・7つのF701/F801判定・最終選択を記録し、Set Bは1998-01-23 Windows版として同じ7判定と4終幕条件を独立に掲載する。両セットが一致するルート定義のみを使用する。target変更のため全ルートはreviewed:falseのまま、fresh structural + accuracy re-reviewが必要。",
+  "generated_at": "2026-09-28T03:15:00+00:00"
 }

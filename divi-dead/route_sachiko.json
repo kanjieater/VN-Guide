@@ -3,54 +3,54 @@
     "simpleJp": "第二校舎屋上",
     "jpGuide1": "Ｆ８０１ 「第二校舎屋上」で猫と正太郎に会う。",
     "jpGuide2": "Ａ〖第二校舎・屋上〗",
-    "enGuide": ""
+    "enGuide": "Day 1 noon — flag 1 of 7. This is the F701/B choice."
   },
   {
     "simpleJp": "やめる",
     "jpGuide1": "Ｆ８０１ 「やめる」",
     "jpGuide2": "Ａ〖やめる〗",
-    "enGuide": ""
+    "enGuide": "Day 1 evening — flag 2 of 7. Choose 「のぞく」 for F701/B."
   },
   {
     "simpleJp": "本校舎1F",
     "jpGuide1": "Ｆ８０１ 「本校舎１Ｆ」で佐知子に会う。",
     "jpGuide2": "Ａ〖本校舎・一階〗",
-    "enGuide": ""
+    "enGuide": "Day 1 night — flag 3 of 7. Visit 第二グランド before 本校舎1F for F701/B."
   },
   {
     "simpleJp": "本校舎1F",
     "jpGuide1": "Ｆ８０１ 途中で「本校舎１Ｆ」によると、佐知子と会う。",
     "jpGuide2": "Ａ〖本校舎・一階〗",
-    "enGuide": ""
+    "enGuide": "Day 2 morning — flag 4 of 7, while carrying 梓 toward the infirmary."
   },
   {
     "simpleJp": "第二校舎屋上",
     "jpGuide1": "Ｆ８０１ 「第二校舎屋上」で佐知子と亜紀に会う。",
     "jpGuide2": "Ａ〖第二校舎・屋上〗",
-    "enGuide": ""
+    "enGuide": "Day 2 noon — flag 5 of 7."
   },
   {
     "simpleJp": "茶道部",
     "jpGuide1": "Ｆ８０１ 「茶道部」で佐知子と話す。",
     "jpGuide2": "Ａ〖第二校舎・茶道部〗",
-    "enGuide": ""
+    "enGuide": "Day 2 evening — flag 6 of 7."
   },
   {
     "simpleJp": "保健室",
     "jpGuide1": "Ｆ８０１ 「保健室」で亜紀とＨ。",
     "jpGuide2": "Ａ〖第二校舎・保健室〗",
-    "enGuide": ""
+    "enGuide": "Day 2 night — flag 7 of 7. The order of the library/infirmary visits determines this flag."
   },
   {
     "simpleJp": "図書館ロビー",
     "jpGuide1": "＊先に「保健室」へ行った場合は「図書館」へ。",
     "jpGuide2": "〖図書室・ロビー〗",
-    "enGuide": ""
+    "enGuide": "Day 2 night — complete the paired visit after the flag-setting location."
   },
   {
     "simpleJp": "分かった",
     "jpGuide1": "＊「わかった」 Ｆ８０１ 佐知子とのエンディング",
     "jpGuide2": "すべてＡを選んでおれば「佐知子ＥＮＤ」",
-    "enGuide": ""
+    "enGuide": "Final choice after the Day 5 showdown."
   }
 ]

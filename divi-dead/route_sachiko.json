@@ -3,25 +3,25 @@
     "simpleJp": "第二校舎屋上",
     "jpGuide1": "Ｆ８０１ 「第二校舎屋上」で猫と正太郎に会う。",
     "jpGuide2": "Ａ〖第二校舎・屋上〗",
-    "enGuide": "Day 1 noon — flag 1 of 7. This is the F701/B choice."
+    "enGuide": "Day 1 noon — flag 1 of 7. Use this location when the first A/B route split appears."
   },
   {
     "simpleJp": "やめる",
     "jpGuide1": "Ｆ８０１ 「やめる」",
     "jpGuide2": "Ａ〖やめる〗",
-    "enGuide": "Day 1 evening — flag 2 of 7. Choose 「のぞく」 for F701/B."
+    "enGuide": "Day 1 evening — flag 2 of 7, at the explicit 「のぞく」/「やめる」 choice."
   },
   {
     "simpleJp": "本校舎1F",
     "jpGuide1": "Ｆ８０１ 「本校舎１Ｆ」で佐知子に会う。",
     "jpGuide2": "Ａ〖本校舎・一階〗",
-    "enGuide": "Day 1 night — flag 3 of 7. Visit 第二グランド before 本校舎1F for F701/B."
+    "enGuide": "Day 1 night — flag 3 of 7. Choose this location first when 本校舎1F and 第二グランド become the route split."
   },
   {
     "simpleJp": "本校舎1F",
     "jpGuide1": "Ｆ８０１ 途中で「本校舎１Ｆ」によると、佐知子と会う。",
     "jpGuide2": "Ａ〖本校舎・一階〗",
-    "enGuide": "Day 2 morning — flag 4 of 7, while carrying 梓 toward the infirmary."
+    "enGuide": "Day 2 morning — flag 4 of 7, while taking 梓 toward the infirmary."
   },
   {
     "simpleJp": "第二校舎屋上",
@@ -39,13 +39,13 @@
     "simpleJp": "保健室",
     "jpGuide1": "Ｆ８０１ 「保健室」で亜紀とＨ。",
     "jpGuide2": "Ａ〖第二校舎・保健室〗",
-    "enGuide": "Day 2 night — flag 7 of 7. The order of the library/infirmary visits determines this flag."
+    "enGuide": "Day 2 night — flag 7 of 7. Visit this route-setting location first."
   },
   {
     "simpleJp": "図書館ロビー",
     "jpGuide1": "＊先に「保健室」へ行った場合は「図書館」へ。",
     "jpGuide2": "〖図書室・ロビー〗",
-    "enGuide": "Day 2 night — complete the paired visit after the flag-setting location."
+    "enGuide": "Day 2 night — then visit the paired location to continue; this second visit does not change the already-selected flag."
   },
   {
     "simpleJp": "分かった",

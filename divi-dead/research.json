@@ -10,18 +10,18 @@
     {
       "id": "haruka",
       "title": "遥エンド",
-      "portrait": "",
+      "portrait": "https://www.animecharactersdatabase.com/uploads/chars/5568-1562118432.png",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "F701/B系を4個以上選び、最終選択「分かった」。"
+      "notes": "F701/B系を4個以上選び、最終選択「分かった」。 ACDBの1998年DIVI-DEAD割当で北条遥(ID 27356)と画像を直接照合。"
     },
     {
       "id": "azusa",
       "title": "梓エンド",
-      "portrait": "",
+      "portrait": "https://www.animecharactersdatabase.com/uploads/chars/5568-1265808921.png",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "最終選択「いやだ」。本ガイドではF701/B系7個の安定手順を使用。"
+      "notes": "最終選択「いやだ」。本ガイドではF701/B系7個の安定手順を使用。 ACDBの1998年DIVI-DEAD割当で結城梓(ID 27352)と画像を直接照合。"
     },
     {
       "id": "death",
@@ -37,7 +37,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "F801/A系7個すべてを満たす。"
+      "notes": "F801/A系7個すべてを満たす。 ACDBで斎乃佐知子(ID 27355)の1998年DIVI-DEAD割当と画像存在を確認したが、非ログイン状態で安定した直接画像URLを取得できなかったためportraitは空欄を維持。"
     }
   ],
   "recommended_order": [
@@ -66,8 +66,20 @@
       "title": "DIVI-DEAD（Windows 95） - 駿河屋",
       "language": "ja",
       "notes": "exact-target製品記録。1998-01-23、Windows 95、型番B0E097。ゲームディスク1枚＋マニュアルのオリジナルCD版。"
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/pc/578844-divi-dead/faqs/22691",
+      "title": "Divi-Dead - Guide and Walkthrough by BWoodhouse",
+      "language": "en",
+      "notes": "補助検証のみ。1998 PC版の完全walkthrough。通常の校内移動は結末に影響せず、結果を変える主要判定は7箇所と最終選択であること、各判定のDay 1/Day 2時刻、最終3シナリオの分岐を照合。jpGuide1/jpGuide2には使用しない。"
+    },
+    {
+      "url": "https://www.animecharactersdatabase.com/source.php?id=100984&tab=Characters",
+      "title": "Divi-Dead character index - ACDB",
+      "language": "ja",
+      "notes": "portrait identity verification only。1998/01/23のDIVI-DEADに北条遥・結城梓・斎乃佐知子を割当。攻略事実のSet A/Bには使用しない。"
     }
   ],
-  "disagreements": "2026-09-28 caller/owner approvalで、未証明だったMillennium BOX 2000版との互換性推定を避け、両日本語攻略が直接扱う1998年オリジナルWindows版へguide_targetを変更。Set Aは4終幕・7つのF701/F801判定・最終選択を記録し、Set Bは1998-01-23 Windows版として同じ7判定と4終幕条件を独立に掲載する。両セットが一致するルート定義のみを使用する。target変更のため全ルートはreviewed:falseのまま、fresh structural + accuracy re-reviewが必要。",
-  "generated_at": "2026-09-28T03:15:00+00:00"
+  "disagreements": "2026-09-28 caller/owner approvalで、未証明だったMillennium BOX 2000版との互換性推定を避け、両日本語攻略が直接扱う1998年オリジナルWindows版へguide_targetを変更。Set Aは4終幕・7つのF701/F801判定・最終選択を記録し、Set Bは1998-01-23 Windows版として同じ7判定と4終幕条件を独立に掲載する。両セットが一致するルート定義のみを使用する。target変更のため全ルートはreviewed:falseのまま、fresh structural + accuracy re-reviewが必要。 補助の1998 PC英語walkthroughも、通常のマップ探索は結末を変えず、結果を変える判定はDay1昼/夕/夜とDay2朝/昼/夕/夜の7箇所＋最終選択だと独立に一致する。そのためroute JSONは中立な数百の移動を列挙せず、7判定を正確な時刻文脈付きで提示する。第7判定は図書館ロビー/保健室の訪問順で決まり、選んだ地点の後に反対側も訪れて進行する。",
+  "generated_at": "2026-09-28T03:25:00+00:00"
 }

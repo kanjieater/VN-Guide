@@ -52,5 +52,11 @@
     "jpGuide1": "＊「わかった」 どちらでもない場合 死亡エンディング",
     "jpGuide2": "Ｂを三つ以下しか選ばなかったら「死亡ＥＮＤ」",
     "enGuide": "Final choice after the Day 5 showdown."
+  },
+  {
+    "simpleJp": "死亡エンド",
+    "jpGuide1": "死亡エンディング",
+    "jpGuide2": "死亡ＥＮＤ",
+    "enGuide": ""
   }
 ]

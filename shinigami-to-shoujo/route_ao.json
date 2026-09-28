@@ -8,13 +8,13 @@
   {
     "simpleJp": "蒼に会いに行く",
     "jpGuide1": "蒼に会いに行く",
-    "jpGuide2": "このまま帰る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "声をかけない",
     "jpGuide1": "声をかけない",
-    "jpGuide2": "声をかける",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -44,19 +44,19 @@
   {
     "simpleJp": "容姿を指摘する",
     "jpGuide1": "容姿を指摘する",
-    "jpGuide2": "服装を指摘する",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "好きな食べ物について",
     "jpGuide1": "好きな食べ物について",
-    "jpGuide2": "趣味について",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "嘘をつく",
     "jpGuide1": "嘘をつく",
-    "jpGuide2": "正直に言う",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -80,37 +80,37 @@
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "声をかけない",
     "jpGuide1": "声をかけない",
-    "jpGuide2": "声をかける",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "承諾する",
     "jpGuide1": "承諾する",
-    "jpGuide2": "断る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "いいえ",
     "jpGuide1": "いいえ",
-    "jpGuide2": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -122,7 +122,7 @@
   {
     "simpleJp": "褒めない",
     "jpGuide1": "褒めない",
-    "jpGuide2": "褒める",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -140,13 +140,13 @@
   {
     "simpleJp": "いいえ",
     "jpGuide1": "いいえ",
-    "jpGuide2": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "きちんと断る",
     "jpGuide1": "きちんと断る",
-    "jpGuide2": "やんわり断る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -158,37 +158,37 @@
   {
     "simpleJp": "サンドイッチ弁当",
     "jpGuide1": "サンドイッチ弁当",
-    "jpGuide2": "おにぎり弁当",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "切る",
     "jpGuide1": "切る",
-    "jpGuide2": "水で洗う",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "猫の手",
     "jpGuide1": "猫の手",
-    "jpGuide2": "止めておく",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "片栗粉",
     "jpGuide1": "片栗粉",
-    "jpGuide2": "猫の手",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "遠慮する",
     "jpGuide1": "遠慮する",
-    "jpGuide2": "片栗粉",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "遠慮する",
     "jpGuide1": "遠慮する",
-    "jpGuide2": "そのまま口にする",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -260,7 +260,7 @@
   {
     "simpleJp": "何のことだか分からない",
     "jpGuide1": "何のことだか分からない",
-    "jpGuide2": "とぼける",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -290,19 +290,19 @@
   {
     "simpleJp": "本",
     "jpGuide1": "本",
-    "jpGuide2": "兄",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "兄に話さない",
     "jpGuide1": "兄に話さない",
-    "jpGuide2": "兄に話す",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "日生に質問する",
     "jpGuide1": "日生に質問する",
-    "jpGuide2": "お礼を言う",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -314,7 +314,7 @@
   {
     "simpleJp": "どちらでもない",
     "jpGuide1": "どちらでもない",
-    "jpGuide2": "好きではない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -326,55 +326,55 @@
   {
     "simpleJp": "桐島先輩",
     "jpGuide1": "桐島先輩",
-    "jpGuide2": "千代",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "頼む",
     "jpGuide1": "頼む",
-    "jpGuide2": "頼まない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "とぼける",
     "jpGuide1": "とぼける",
-    "jpGuide2": "反論する",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "ある",
     "jpGuide1": "ある",
-    "jpGuide2": "拒否する",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "蒼に会いに来た",
     "jpGuide1": "蒼に会いに来た",
-    "jpGuide2": "自ら教える",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "反論する",
     "jpGuide1": "反論する",
-    "jpGuide2": "傍にいて欲しい",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "拒否する",
     "jpGuide1": "拒否する",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "自ら教える",
     "jpGuide1": "自ら教える",
-    "jpGuide2": "もう一度訊ねる",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "傍にいて欲しい",
     "jpGuide1": "傍にいて欲しい",
-    "jpGuide2": "戸惑う",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -464,7 +464,7 @@
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -477,28 +477,28 @@
     "simpleJp": "セーブ13",
     "jpGuide1": "★SAVE１",
     "jpGuide2": "SAVE1",
-    "enGuide": "",
-    "badEndPath": "蒼の章-終",
-    "badEnd": "蒼の章-終"
+    "enGuide": ""
   },
   {
     "simpleJp": "いいえ",
     "jpGuide1": "いいえ",
     "jpGuide2": "いいえ",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "蒼の章-終",
+    "badEnd": "蒼の章-終"
   },
   {
     "simpleJp": "蒼の章-終",
     "jpGuide1": "蒼の章-終",
     "jpGuide2": "〖蒼の章-終〗",
-    "enGuide": "",
-    "isLoad": true
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ13にロード",
     "jpGuide1": "▼SAVE１から",
     "jpGuide2": "SAVE1より",
-    "enGuide": ""
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "はい",
@@ -510,28 +510,28 @@
     "simpleJp": "セーブ14",
     "jpGuide1": "★SAVE２",
     "jpGuide2": "SAVE2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "約束出来ない",
+    "jpGuide1": "約束出来ない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
     "badEndPath": "蒼の章-47(終)",
     "badEnd": "蒼の章-47(終)"
   },
   {
-    "simpleJp": "約束出来ない",
-    "jpGuide1": "約束出来ない",
-    "jpGuide2": "いいえ",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "蒼の章-47(終)",
     "jpGuide1": "蒼の章-47(終)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
-    "isLoad": true
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ14にロード",
     "jpGuide1": "▼SAVE２から",
     "jpGuide2": "SAVE2より※シーン38-2回収",
-    "enGuide": ""
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "約束出来る",

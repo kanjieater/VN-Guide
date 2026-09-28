@@ -3,54 +3,54 @@
     "simpleJp": "第二校舎2F",
     "jpGuide1": "Ｆ７０１ 「第二校舎２Ｆ」で遥に出会う。",
     "jpGuide2": "Ｂ〖第二校舎・二階〗",
-    "enGuide": ""
+    "enGuide": "Day 1 noon — flag 1 of 7. This is the F701/B choice."
   },
   {
     "simpleJp": "のぞく",
     "jpGuide1": "Ｆ７０１ 「のぞく」",
     "jpGuide2": "Ｂ〖のぞく〗",
-    "enGuide": ""
+    "enGuide": "Day 1 evening — flag 2 of 7. Choose 「のぞく」 for F701/B."
   },
   {
     "simpleJp": "第二グランド",
     "jpGuide1": "Ｆ７０１ 「第二グランド」で優子に会う。",
     "jpGuide2": "Ｂ〖第二グランド〗",
-    "enGuide": ""
+    "enGuide": "Day 1 night — flag 3 of 7. Visit 第二グランド before 本校舎1F for F701/B."
   },
   {
     "simpleJp": "体育館",
     "jpGuide1": "Ｆ７０１ 途中で「体育館」によると、人の気配がする。",
     "jpGuide2": "Ｂ〖体育館〗",
-    "enGuide": ""
+    "enGuide": "Day 2 morning — flag 4 of 7, while carrying 梓 toward the infirmary."
   },
   {
     "simpleJp": "美術室",
     "jpGuide1": "Ｆ７０１ 「美術室」で遥と話す。",
     "jpGuide2": "Ｂ〖美術室〗",
-    "enGuide": ""
+    "enGuide": "Day 2 noon — flag 5 of 7."
   },
   {
     "simpleJp": "体育館",
     "jpGuide1": "Ｆ７０１ 「体育館」で優子と猫に会う。",
     "jpGuide2": "Ｂ〖体育館〗",
-    "enGuide": ""
+    "enGuide": "Day 2 evening — flag 6 of 7."
   },
   {
     "simpleJp": "図書館ロビー",
     "jpGuide1": "Ｆ７０１ 「図書館」ロビーで真由美とＨ。",
     "jpGuide2": "Ｂ〖図書室・ロビー〗",
-    "enGuide": ""
+    "enGuide": "Day 2 night — flag 7 of 7. The order of the library/infirmary visits determines this flag."
   },
   {
     "simpleJp": "保健室",
     "jpGuide1": "＊先に「図書館」へ行った場合は「保健室」へ。",
     "jpGuide2": "〖第二校舎・保健室〗",
-    "enGuide": ""
+    "enGuide": "Day 2 night — complete the paired visit after the flag-setting location."
   },
   {
     "simpleJp": "いやだ",
     "jpGuide1": "＊「いやだ」 Ｆ７０１ 梓とのエンディング",
     "jpGuide2": "Ｂを一つでも選んでおれば「梓ＥＮＤ」",
-    "enGuide": ""
+    "enGuide": "Final choice after the Day 5 showdown."
   }
 ]

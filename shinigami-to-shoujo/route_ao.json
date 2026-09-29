@@ -513,6 +513,24 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "いいえ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ14にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "SAVE2より※シーン38-2回収",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "約束出来ない",
     "jpGuide1": "約束出来ない",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -529,7 +547,7 @@
   {
     "simpleJp": "セーブ14にロード",
     "jpGuide1": "▼SAVE２から",
-    "jpGuide2": "SAVE2より※シーン38-2回収",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
     "isLoad": true
   },

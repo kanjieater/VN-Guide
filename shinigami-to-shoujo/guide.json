@@ -2,62 +2,16 @@
   "title": "Shinigami to Shoujo",
   "vndb_id": "v6656",
   "routes": [
-    {
-      "id": "hinase",
-      "title": "日生光ルート",
-      "stepCount": 104,
-      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220810/20220810231943.jpg",
-      "reviewed": false
-    },
-    {
-      "id": "kirishima",
-      "title": "桐島七葵ルート",
-      "stepCount": 66,
-      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812101445.jpg",
-      "reviewed": false
-    },
-    {
-      "id": "chiyo",
-      "title": "千代ルート",
-      "stepCount": 11,
-      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812101504.jpg",
-      "reviewed": false
-    },
-    {
-      "id": "toya",
-      "title": "遠野十夜ルート",
-      "stepCount": 40,
-      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812113321.jpg",
-      "reviewed": false
-    },
-    {
-      "id": "ao",
-      "title": "蒼ルート",
-      "stepCount": 90,
-      "portrait": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812115543.jpg",
-      "reviewed": false
-    }
+    {"id":"hinase","title":"日生光ルート","stepCount":104,"portrait":"https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220810/20220810231943.jpg","reviewed":false},
+    {"id":"kirishima","title":"桐島七葵ルート","stepCount":66,"portrait":"https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812101445.jpg","reviewed":false},
+    {"id":"chiyo","title":"千代ルート","stepCount":11,"portrait":"https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812101504.jpg","reviewed":false},
+    {"id":"toya","title":"遠野十夜ルート","stepCount":40,"portrait":"https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812113321.jpg","reviewed":false},
+    {"id":"ao","title":"蒼ルート","stepCount":93,"portrait":"https://cdn-ak.f.st-hatena.com/images/fotolife/s/soregashix/20220812/20220812115543.jpg","reviewed":false}
   ],
   "sources": [
-    {
-      "set": "A",
-      "url": "https://www.soregashi.work/entry/shinigami-limit-kouryaku",
-      "title": "死神と少女 おすすめ攻略順とルート分岐 - 某の乙女ゲーム遊戯録",
-      "language": "ja",
-      "notes": "Switch/Vita対応。個別攻略ページを含むSet A。"
-    },
-    {
-      "set": "B",
-      "url": "https://choro-game.com/e/shinigamitoshojo-guide",
-      "title": "死神と少女 攻略 | choro",
-      "language": "ja",
-      "notes": "Switch/Vita対応。個別攻略ページを含む独立Set B。"
-    }
+    {"set":"A","url":"https://www.soregashi.work/entry/shinigami-limit-kouryaku","title":"死神と少女 おすすめ攻略順とルート分岐 - 某の乙女ゲーム遊戯録","language":"ja","notes":"Switch/Vita対応。個別攻略ページを含むSet A。"},
+    {"set":"B","url":"https://choro-game.com/e/shinigamitoshojo-guide","title":"死神と少女 攻略 | choro","language":"ja","notes":"Switch/Vita対応。個別攻略ページを含む独立Set B。"}
   ],
   "generated_at": "2026-09-28T02:30:00Z",
-  "guide_target": {
-    "label": "死神と少女（Nintendo Switch版）",
-    "platform": "Nintendo Switch",
-    "url": "https://www.takuyo.co.jp/products/shinigami/switchinfo.html"
-  }
+  "guide_target": {"label":"死神と少女（Nintendo Switch版）","platform":"Nintendo Switch","url":"https://www.takuyo.co.jp/products/shinigami/switchinfo.html"}
 }

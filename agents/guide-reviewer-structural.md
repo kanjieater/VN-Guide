@@ -20,6 +20,8 @@ Each `route_<id>.json` is a flat guide-section step array.
 
 Trace the entire section.
 
+Before issuing PASS, also perform the repository-local portrait completion check: compare the route entry in `guide.json` with current `research.json`/documented portrait evidence. If research records a verified route-character portrait, or explicitly says a suitable character image exists, `guide.json` must contain that portrait. A blank portrait is acceptable only when research explicitly documents that no suitable directly verifiable image was found. This is a metadata/completion check only: do not fetch Japanese walkthroughs or independently research portrait sources. A portrait-only correction does not invalidate route structural/accuracy content review.
+
 For every non-main-ending chain verify:
 
 - exactly one non-empty `badEndPath` start;

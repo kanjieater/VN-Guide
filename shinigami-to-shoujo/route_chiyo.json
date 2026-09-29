@@ -1,0 +1,71 @@
+[
+  {
+    "simpleJp": "セーブ9にロード",
+    "jpGuide1": "▼SAVE３から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "意識しない",
+    "jpGuide1": "意識しない",
+    "jpGuide2": "意識しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "迷惑",
+    "jpGuide1": "迷惑",
+    "jpGuide2": "迷惑",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "千代の名を呼ぶ",
+    "jpGuide1": "千代の名を呼ぶ",
+    "jpGuide2": "千代の名を呼ぶ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分から話を切り出す",
+    "jpGuide1": "自分から話を切り出す",
+    "jpGuide2": "自分から話を切り出す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ10",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "SAVE5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "はい",
+    "enGuide": "",
+    "badEndPath": "バッドエンド",
+    "badEnd": "バッドエンド"
+  },
+  {
+    "simpleJp": "セーブ10にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "SAVE5より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "千代エンド",
+    "jpGuide1": "千代-結末",
+    "jpGuide2": "〖千代エンド〗",
+    "enGuide": ""
+  }
+]

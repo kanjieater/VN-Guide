@@ -1,0 +1,62 @@
+[
+  {
+    "simpleJp": "第二校舎2F",
+    "jpGuide1": "Ｆ７０１ 「第二校舎２Ｆ」で遥に出会う。",
+    "jpGuide2": "Ｂ〖第二校舎・二階〗",
+    "enGuide": "Day 1 noon — flag 1 of 7. Use this location when the first A/B route split appears."
+  },
+  {
+    "simpleJp": "のぞく",
+    "jpGuide1": "Ｆ７０１ 「のぞく」",
+    "jpGuide2": "Ｂ〖のぞく〗",
+    "enGuide": "Day 1 evening — flag 2 of 7, at the explicit 「のぞく」/「やめる」 choice."
+  },
+  {
+    "simpleJp": "第二グランド",
+    "jpGuide1": "Ｆ７０１ 「第二グランド」で優子に会う。",
+    "jpGuide2": "Ｂ〖第二グランド〗",
+    "enGuide": "Day 1 night — flag 3 of 7. Choose this location first when 本校舎1F and 第二グランド become the route split."
+  },
+  {
+    "simpleJp": "本校舎1F",
+    "jpGuide1": "Ｆ８０１ 途中で「本校舎１Ｆ」によると、佐知子と会う。",
+    "jpGuide2": "Ａ〖本校舎・一階〗",
+    "enGuide": "Day 2 morning — flag 4 of 7, while taking 梓 toward the infirmary."
+  },
+  {
+    "simpleJp": "第二校舎屋上",
+    "jpGuide1": "Ｆ８０１ 「第二校舎屋上」で佐知子と亜紀に会う。",
+    "jpGuide2": "Ａ〖第二校舎・屋上〗",
+    "enGuide": "Day 2 noon — flag 5 of 7."
+  },
+  {
+    "simpleJp": "茶道部",
+    "jpGuide1": "Ｆ８０１ 「茶道部」で佐知子と話す。",
+    "jpGuide2": "Ａ〖第二校舎・茶道部〗",
+    "enGuide": "Day 2 evening — flag 6 of 7."
+  },
+  {
+    "simpleJp": "保健室",
+    "jpGuide1": "Ｆ８０１ 「保健室」で亜紀とＨ。",
+    "jpGuide2": "Ａ〖第二校舎・保健室〗",
+    "enGuide": "Day 2 night — flag 7 of 7. Visit this route-setting location first."
+  },
+  {
+    "simpleJp": "図書館ロビー",
+    "jpGuide1": "＊先に「保健室」へ行った場合は「図書館」へ。",
+    "jpGuide2": "〖図書室・ロビー〗",
+    "enGuide": "Day 2 night — then visit the paired location to continue; this second visit does not change the already-selected flag."
+  },
+  {
+    "simpleJp": "分かった",
+    "jpGuide1": "＊「わかった」 どちらでもない場合 死亡エンディング",
+    "jpGuide2": "Ｂを三つ以下しか選ばなかったら「死亡ＥＮＤ」",
+    "enGuide": "Final choice after the Day 5 showdown."
+  },
+  {
+    "simpleJp": "死亡エンド",
+    "jpGuide1": "死亡エンディング",
+    "jpGuide2": "死亡ＥＮＤ",
+    "enGuide": ""
+  }
+]

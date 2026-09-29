@@ -552,6 +552,12 @@
     "isLoad": true
   },
   {
+    "simpleJp": "はい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "約束出来る",
     "jpGuide1": "約束出来る",
     "jpGuide2": "約束出来る",

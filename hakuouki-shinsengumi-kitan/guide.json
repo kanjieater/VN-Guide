@@ -10,91 +10,78 @@
     {
       "id": "hijikata",
       "title": "土方歳三ルート",
-      "stepCount": 132,
       "portrait": "https://t.vndb.org/ch/61/198061.jpg",
       "reviewed": true
     },
     {
       "id": "okita",
       "title": "沖田総司ルート",
-      "stepCount": 102,
       "portrait": "https://t.vndb.org/ch/62/198062.jpg",
       "reviewed": true
     },
     {
       "id": "saito",
       "title": "斎藤一ルート",
-      "stepCount": 94,
       "portrait": "https://t.vndb.org/ch/63/198063.jpg",
       "reviewed": true
     },
     {
       "id": "toudou",
       "title": "藤堂平助ルート",
-      "stepCount": 85,
       "portrait": "https://t.vndb.org/ch/64/198064.jpg",
       "reviewed": true
     },
     {
       "id": "harada",
       "title": "原田左之助ルート",
-      "stepCount": 117,
       "portrait": "https://t.vndb.org/ch/66/198066.jpg",
       "reviewed": true
     },
     {
       "id": "nagakura",
       "title": "永倉新八ルート",
-      "stepCount": 119,
       "portrait": "https://t.vndb.org/ch/71/198071.jpg",
       "reviewed": true
     },
     {
       "id": "yamazaki",
       "title": "山崎烝ルート",
-      "stepCount": 99,
       "portrait": "https://t.vndb.org/ch/74/198074.jpg",
       "reviewed": true
     },
     {
       "id": "sannan",
       "title": "山南敬助ルート",
-      "stepCount": 102,
       "portrait": "https://t.vndb.org/ch/72/198072.jpg",
       "reviewed": true
     },
     {
       "id": "iba",
       "title": "伊庭八郎ルート",
-      "stepCount": 98,
       "portrait": "https://t.vndb.org/ch/76/198076.jpg",
       "reviewed": true
     },
     {
       "id": "sakamoto",
       "title": "坂本龍馬ルート",
-      "stepCount": 119,
       "portrait": "https://t.vndb.org/ch/80/198080.jpg",
       "reviewed": true
     },
     {
       "id": "souma",
       "title": "相馬主計ルート",
-      "stepCount": 92,
       "portrait": "https://t.vndb.org/ch/78/198078.jpg",
       "reviewed": true
     },
     {
       "id": "kazama",
       "title": "風間千景ルート",
-      "stepCount": 67,
       "portrait": "https://t.vndb.org/ch/67/198067.jpg",
       "reviewed": true
     },
     {
       "id": "yukimura",
       "title": "雪村ルート",
-      "stepCount": 35,
       "portrait": "https://t.vndb.org/ch/59/198059.jpg",
       "reviewed": true
     }

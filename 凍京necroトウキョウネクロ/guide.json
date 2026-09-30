@@ -5,35 +5,30 @@
     {
       "id": "mitsumi",
       "title": "義城蜜魅ルート",
-      "stepCount": 5,
       "reviewed": true,
       "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/22/b2/34552_crt_c85cF.jpg"
     },
     {
       "id": "kiriri",
       "title": "阿蘇霧里ルート",
-      "stepCount": 5,
       "reviewed": true,
       "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/52/cd/34553_crt_34UuC.jpg"
     },
     {
       "id": "con_su",
       "title": "コン・スールート",
-      "stepCount": 3,
       "reviewed": true,
       "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/61/5a/34554_crt_519ZN.jpg"
     },
     {
       "id": "iria",
       "title": "宝形イリアルート",
-      "stepCount": 3,
       "reviewed": true,
       "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/be/fa/34551_crt_7wO8G.jpg"
     },
     {
       "id": "true_end",
       "title": "TRUE END",
-      "stepCount": 15,
       "reviewed": true,
       "portrait": ""
     }

@@ -10,7 +10,6 @@
     {
       "id": "prologue_to_shu",
       "title": "序盤：プロディアス〜シュウ加入",
-      "stepCount": 12,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -19,7 +18,6 @@
     {
       "id": "optional_early_guild",
       "title": "【任意】式典前：初期ギルド仕事・手配",
-      "stepCount": 7,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -28,7 +26,6 @@
     {
       "id": "optional_convert_secret_lab",
       "title": "【任意・コンバート】秘密研究所",
-      "stepCount": 1,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -37,7 +34,6 @@
     {
       "id": "ceremony_and_yagos",
       "title": "式典〜ヤゴス島",
-      "stepCount": 7,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -46,7 +42,6 @@
     {
       "id": "yagos_return_to_garuano",
       "title": "ヤゴス島帰還〜ガルアーノの屋敷",
-      "stepCount": 5,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -55,7 +50,6 @@
     {
       "id": "optional_pre_whitehouse",
       "title": "【任意】白い家前：期限付きギルド仕事",
-      "stepCount": 12,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -64,7 +58,6 @@
     {
       "id": "white_house",
       "title": "白い家",
-      "stepCount": 6,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -73,7 +66,6 @@
     {
       "id": "optional_convert_whitehouse",
       "title": "【任意・コンバート】白い家後：アーク対アンデル",
-      "stepCount": 1,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -82,7 +74,6 @@
     {
       "id": "shu_shante_smelia",
       "title": "シュウ・シャンテ：スメリア〜ロマリア戦艦",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -91,7 +82,6 @@
     {
       "id": "shante_gurga_crenia",
       "title": "シャンテ・グルガ：クレニア",
-      "stepCount": 5,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -100,7 +90,6 @@
     {
       "id": "optional_lieza_guild",
       "title": "【任意】リーザ編限定：ラムールの仕事",
-      "stepCount": 2,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -109,7 +98,6 @@
     {
       "id": "lieza_gogen_fores",
       "title": "リーザ・ゴーゲン：ホルン〜キメラ研究所",
-      "stepCount": 5,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -118,7 +106,6 @@
     {
       "id": "elk_poco_smelia",
       "title": "エルク・ポコ：パレンシア城跡〜タワー",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -127,7 +114,6 @@
     {
       "id": "shu_tosh_scrap_town",
       "title": "シュウ・トッシュ：クズ鉄の町",
-      "stepCount": 3,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -136,7 +122,6 @@
     {
       "id": "optional_romalia_split_guild",
       "title": "【任意】シュウ編限定・ロマリアの仕事",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -145,7 +130,6 @@
     {
       "id": "shu_tosh_tunnel",
       "title": "シュウ・トッシュ：ロマリアトンネル",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -154,7 +138,6 @@
     {
       "id": "chimera_lab_reunion",
       "title": "ロマリアキメラ研究所〜全員合流",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -163,7 +146,6 @@
     {
       "id": "optional_post_reunion",
       "title": "【任意】合流直後：ロマリア・グレイシーヌ準備",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -172,7 +154,6 @@
     {
       "id": "greycine",
       "title": "グレイシーヌ",
-      "stepCount": 6,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -181,7 +162,6 @@
     {
       "id": "optional_world_cleanup_1",
       "title": "【任意】グレイシーヌ後：世界巡回・召喚獣・ギルド仕事",
-      "stepCount": 19,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -190,7 +170,6 @@
     {
       "id": "optional_choko_recruit",
       "title": "【任意】ちょこ加入・遺跡ダンジョンB50",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -199,7 +178,6 @@
     {
       "id": "fores",
       "title": "フォーレス",
-      "stepCount": 5,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -208,7 +186,6 @@
     {
       "id": "brakia",
       "title": "ブラキア",
-      "stepCount": 5,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -217,7 +194,6 @@
     {
       "id": "optional_world_cleanup_2",
       "title": "【任意】フォーレス・ブラキア後：期限付き仕事",
-      "stepCount": 16,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -226,7 +202,6 @@
     {
       "id": "millmana",
       "title": "ミルマーナ",
-      "stepCount": 9,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -235,7 +210,6 @@
     {
       "id": "optional_millmana_cleanup",
       "title": "【任意】ミルマーナ後：仕事・海底油田手配",
-      "stepCount": 7,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -244,7 +218,6 @@
     {
       "id": "optional_choko_mid",
       "title": "【任意】ちょこ中盤イベント・赤いくつ",
-      "stepCount": 6,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -253,7 +226,6 @@
     {
       "id": "amigue_to_permission",
       "title": "アミーグ：神の塔許可まで",
-      "stepCount": 3,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -262,7 +234,6 @@
     {
       "id": "optional_amigue_guild",
       "title": "【任意】神の塔前：アミーグ期限付き仕事",
-      "stepCount": 8,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -271,7 +242,6 @@
     {
       "id": "amigue_gods_tower",
       "title": "アミーグ：神の塔",
-      "stepCount": 3,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -280,7 +250,6 @@
     {
       "id": "barbarad_to_pyramid",
       "title": "バルバラード：ピラミッド外観まで",
-      "stepCount": 7,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -289,7 +258,6 @@
     {
       "id": "optional_pre_monji_cleanup",
       "title": "【任意】紋次編急展開前：全期限付き仕事の最終回収",
-      "stepCount": 26,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -298,7 +266,6 @@
     {
       "id": "barbarad_pyramid",
       "title": "バルバラード：ピラミッド",
-      "stepCount": 9,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -307,7 +274,6 @@
     {
       "id": "palencia_tower_and_past",
       "title": "パレンシアタワー〜過去編",
-      "stepCount": 7,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -316,7 +282,6 @@
     {
       "id": "past_world",
       "title": "過去世界：四精霊巡り",
-      "stepCount": 10,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -325,7 +290,6 @@
     {
       "id": "north_south_towers",
       "title": "現代帰還〜北・南の塔",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -334,7 +298,6 @@
     {
       "id": "optional_choko_late",
       "title": "【任意】ちょこ終盤イベント：廃墟のトココ",
-      "stepCount": 2,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -343,7 +306,6 @@
     {
       "id": "optional_convert_choko_awakening",
       "title": "【任意・コンバート】ちょこ覚醒：遺跡B51〜B71",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -352,7 +314,6 @@
     {
       "id": "optional_final_cleanup",
       "title": "【任意】空中城前：G#37・残仕事・最終回収",
-      "stepCount": 11,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -361,7 +322,6 @@
     {
       "id": "romalia_invasion_to_city",
       "title": "ロマリア突入〜市街侵攻",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -370,7 +330,6 @@
     {
       "id": "optional_romalia_g23",
       "title": "【任意】ロマリア市街：G#23・宝箱最終回収",
-      "stepCount": 3,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -379,7 +338,6 @@
     {
       "id": "romalia_city_finish",
       "title": "ロマリア市街・地下道決着",
-      "stepCount": 4,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -388,7 +346,6 @@
     {
       "id": "air_castle",
       "title": "空中城・最終決戦",
-      "stepCount": 15,
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],

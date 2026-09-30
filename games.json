@@ -84,7 +84,12 @@
     "title": "EVE burst error",
     "alttitle": "",
     "cover_url": "https://t.vndb.org/cv/82/103582.jpg",
-    "added_at": "2026-08-31T17:22:19.884323+00:00"
+    "added_at": "2026-08-31T17:22:19.884323+00:00",
+    "guide_target": {
+      "label": "EVE burst error R（Nintendo Switch ダウンロード版）",
+      "platform": "Nintendo Switch",
+      "url": "https://store-jp.nintendo.com/item/software/D70010000014281"
+    }
   },
   "v210": {
     "slug": "himawari",

@@ -364,11 +364,14 @@ async function init() {
     : null;
   const requestedNavigation = existingNavigation || navigationFromLocation();
 
+  let routeHydration = Promise.resolve();
   try {
     const res = await fetch("./guide.json?v=" + Date.now());
     if (res.ok) {
       guideData = await res.json();
-      await Promise.all((guideData.routes || []).map(route => ensureRouteLoaded(route.id)));
+      routeHydration = Promise.all(
+        (guideData.routes || []).map(route => ensureRouteLoaded(route.id)),
+      );
       if (guideData.title) document.title = guideData.title + " ガイド";
     }
   } catch {}
@@ -384,6 +387,27 @@ async function init() {
       await applyNavigation(requestedNavigation);
     }
   }
+
+  void routeHydration.then(() => {
+    const nav = currentNavigation();
+    if (nav.view === "home") {
+      renderHome();
+    } else if (nav.view === "route" && nav.routeId === state.currentRoute) {
+      renderSlide();
+    } else if (
+      nav.view === "transition" &&
+      pendingNextRoute &&
+      transitionFromRoute &&
+      nav.fromRouteId === transitionFromRoute.id &&
+      nav.toRouteId === pendingNextRoute.id
+    ) {
+      renderRouteTransition(
+        pendingNextRoute,
+        transitionFromRoute,
+        nav.origin || "forward",
+      );
+    }
+  }).catch(() => {});
 
   requestWakeLock();
 }

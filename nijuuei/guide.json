@@ -10,21 +10,18 @@
     {
       "id": "kikyou",
       "title": "桔梗ルート",
-      "stepCount": 27,
       "reviewed": true,
       "portrait": "https://image.kungal.iloveren.link/b9/ee/b9eec8d94ce7a67055008da49882f997d1dd1d01573d562417d70e0f61a1ab31_mini.webp"
     },
     {
       "id": "mikoto",
       "title": "命ルート",
-      "stepCount": 77,
       "reviewed": false,
       "portrait": "https://image.kungal.iloveren.link/7a/a4/7aa49802fa9ae578c0d4fba7bcc045aaed8343d746d434c2c81090377703a114_mini.webp"
     },
     {
       "id": "fuurei",
       "title": "楓玲ルート",
-      "stepCount": 15,
       "reviewed": false,
       "portrait": "https://image.kungal.iloveren.link/d4/7a/d47ad6e00e72d9e9c6cd35a6cfcd2e7de2ede96c7290032b218f987f20ad481d_mini.webp"
     }

@@ -3,13 +3,13 @@
     "simpleJp": "目覚めた直後にシュウのベッドを調べて「ククリ」を取る",
     "jpGuide1": "目覚めてすぐにベッドを調べると「ククリ」入手。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Do this immediately; it is an easy one-time pickup."
+    "enGuide": "Story progression. Continue directly from “式典〜ヤゴス島”. Do this immediately; it is an easy one-time pickup."
   },
   {
     "simpleJp": "酒場でシャンテに話す",
     "jpGuide1": "ジーンを倒すと勝ち。",
     "jpGuide2": "ジーン戦1戦目",
-    "enGuide": "Talk to Shante in the tavern to trigger Jean's attack. Focus Jean; defeating him ends the battle."
+    "enGuide": "After waking back in Indigos, go to the tavern and speak to Shante. That conversation triggers Jean's attack; focus Jean because defeating him ends the encounter and advances the mansion lead."
   },
   {
     "simpleJp": "ガルアーノの屋敷で右端の部屋から鍵を取る",
@@ -21,12 +21,12 @@
     "simpleJp": "大講堂でガルアーノを倒す",
     "jpGuide1": "ガルアーノを倒すと勝ち。",
     "jpGuide2": "偽ガルアーノ撃破",
-    "enGuide": "Finish the mansion sequence."
+    "enGuide": "After using the mansion key and pushing through the remaining rooms, reach the great hall and defeat the false Galuano. This ends the mansion objective and restores free travel for the optional Diekbeck pickup on Yagos."
   },
   {
     "simpleJp": "ユドの村のヴィルマー宅でヂークベックを仲間にする",
     "jpGuide1": "ヂークベックが仲間になる。",
     "jpGuide2": "仲間にできるのは西アルディアに行けるようになってから。",
-    "enGuide": "Return to Yudo Village and enter Vilmer's house. After the conversation/event there, Diekbeck becomes a permanent recruit."
+    "enGuide": "Return to Yudo Village and enter Vilmer's house. After the conversation/event there, Diekbeck becomes a permanent recruit. Next: “【任意】白い家前：期限付きギルド仕事”."
   }
 ]

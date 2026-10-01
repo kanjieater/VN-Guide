@@ -59,27 +59,37 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
   const { window } = dom;
   const calls = [];
   window.fetch = async url => {
-    calls.push(String(url));
-    if (String(url).includes("日本語-game")) {
+    const request = String(url);
+    calls.push(request);
+    if (request.includes("日本語-game/guide.json")) {
       return {
         ok: true,
         async json() {
           return {
             routes: [
-              { id: "route", stepCount: 4 },
-              { id: "other", stepCount: 2 },
+              { id: "route" },
+              { id: "other" },
             ],
           };
         },
       };
     }
-    if (String(url).includes("three")) {
+    if (request.includes("日本語-game/route_route.json")) {
+      return { ok: true, async json() { return [{}, {}, {}, {}]; } };
+    }
+    if (request.includes("日本語-game/route_other.json")) {
+      return { ok: true, async json() { return [{}, {}]; } };
+    }
+    if (request.includes("three/guide.json")) {
       return {
         ok: true,
         async json() {
-          return { routes: [{ id: "route", stepCount: 2 }] };
+          return { routes: [{ id: "route" }] };
         },
       };
+    }
+    if (request.includes("three/route_route.json")) {
+      return { ok: true, async json() { return [{}, {}]; } };
     }
     return { ok: false, async json() { return null; } };
   };
@@ -116,7 +126,7 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
   const encodedPath = new URL("./%E6%97%A5%E6%9C%AC%E8%AA%9E-game/", window.location.href).pathname;
   window.localStorage.setItem(
     "guide_" + encodedPath.replace(/\//g, "_"),
-    JSON.stringify({ progress: { route: 1 } })
+    JSON.stringify({ progress: { route: 0, other: 0 } })
   );
   const twoKey = "guide_" + new URL("./two/", window.location.href).pathname.replace(/\//g, "_");
   window.localStorage.setItem(twoKey, "{invalid json");
@@ -135,7 +145,11 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
   );
   window.VN_GUIDE_GAMES.find(g => g.slug === "three").has_guide = true;
   await window.render();
+  text = window.document.getElementById("game-list").textContent;
+  assert.match(text, /日本語一/);
+  assert.doesNotMatch(text, /日本語三/);
   assert.ok(calls.some(url => url.includes("guide.json")));
+  assert.ok(calls.some(url => url.includes("route_route.json")));
 
   window.setFilter("all");
   await window.render();

@@ -5,126 +5,108 @@
     {
       "id": "marina_01",
       "title": "まりな編（区間1）",
-      "stepCount": 880,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_01",
       "title": "小次郎編（区間1）",
-      "stepCount": 1234,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_02",
       "title": "まりな編（区間2）",
-      "stepCount": 363,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_02",
       "title": "小次郎編（区間2）",
-      "stepCount": 295,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_03",
       "title": "まりな編（区間3）",
-      "stepCount": 69,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_03",
       "title": "小次郎編（区間3）",
-      "stepCount": 15,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_04",
       "title": "まりな編（区間4）",
-      "stepCount": 10,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_04",
       "title": "小次郎編（区間4）",
-      "stepCount": 42,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_05",
       "title": "まりな編（区間5）",
-      "stepCount": 7,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_05",
       "title": "小次郎編（区間5）",
-      "stepCount": 5,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_06",
       "title": "まりな編（区間6）",
-      "stepCount": 250,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_06",
       "title": "小次郎編（区間6）",
-      "stepCount": 282,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_07",
       "title": "まりな編（区間7）",
-      "stepCount": 41,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_07",
       "title": "小次郎編（区間7）",
-      "stepCount": 90,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_08",
       "title": "まりな編（区間8）",
-      "stepCount": 8,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro_08",
       "title": "小次郎編（区間8）",
-      "stepCount": 203,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "marina_09",
       "title": "まりな編（区間9）",
-      "stepCount": 24,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "terror",
       "title": "テラー編",
-      "stepCount": 17,
       "reviewed": false
     }
   ],

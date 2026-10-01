@@ -5,21 +5,18 @@
     {
       "id": "marina",
       "title": "まりな編",
-      "stepCount": 344,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/39/44339.jpg"
     },
     {
       "id": "kojiro",
       "title": "小次郎編",
-      "stepCount": 408,
       "reviewed": false,
       "portrait": "https://t.vndb.org/ch/61/131761.jpg"
     },
     {
       "id": "terror_provisional",
       "title": "テラー編（一度目のエンディング／暫定エンド）",
-      "stepCount": 8,
       "reviewed": false
     }
   ],

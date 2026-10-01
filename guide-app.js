@@ -364,10 +364,14 @@ async function init() {
     : null;
   const requestedNavigation = existingNavigation || navigationFromLocation();
 
+  let routeHydration = Promise.resolve();
   try {
     const res = await fetch("./guide.json?v=" + Date.now());
     if (res.ok) {
       guideData = await res.json();
+      routeHydration = Promise.all(
+        (guideData.routes || []).map(route => ensureRouteLoaded(route.id)),
+      );
       if (guideData.title) document.title = guideData.title + " ガイド";
     }
   } catch {}
@@ -383,6 +387,27 @@ async function init() {
       await applyNavigation(requestedNavigation);
     }
   }
+
+  void routeHydration.then(() => {
+    const nav = currentNavigation();
+    if (nav.view === "home") {
+      renderHome();
+    } else if (nav.view === "route" && nav.routeId === state.currentRoute) {
+      renderSlide();
+    } else if (
+      nav.view === "transition" &&
+      pendingNextRoute &&
+      transitionFromRoute &&
+      nav.fromRouteId === transitionFromRoute.id &&
+      nav.toRouteId === pendingNextRoute.id
+    ) {
+      renderRouteTransition(
+        pendingNextRoute,
+        transitionFromRoute,
+        nav.origin || "forward",
+      );
+    }
+  }).catch(() => {});
 
   requestWakeLock();
 }
@@ -428,7 +453,7 @@ function renderHome() {
   list.innerHTML = guideData.routes.map((r, routeIdx) => {
     const started = r.id in state.progress;
     const prog = state.progress[r.id] || 0;
-    const total = r.steps ? r.steps.length : (r.stepCount || 0);
+    const total = r.steps ? r.steps.length : 0;
     const pct = (started && total > 0) ? Math.round(prog / Math.max(total - 1, 1) * 100) : 0;
     const hasProgress = started && prog > 0;
     const shouldBlur = settings.blurPortraits && !hasProgress;
@@ -628,7 +653,7 @@ function previousRoute() {
 }
 
 function routeStepCount(route) {
-  return route.steps ? route.steps.length : (route.stepCount || 0);
+  return route.steps ? route.steps.length : 0;
 }
 
 function overallProgressPercent() {

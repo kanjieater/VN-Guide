@@ -10,25 +10,21 @@
     {
       "id": "haruka",
       "title": "遥エンド",
-      "stepCount": 10,
       "reviewed": true
     },
     {
       "id": "azusa",
       "title": "梓エンド",
-      "stepCount": 10,
       "reviewed": true
     },
     {
       "id": "death",
       "title": "死亡エンド",
-      "stepCount": 10,
       "reviewed": true
     },
     {
       "id": "sachiko",
       "title": "佐知子エンド",
-      "stepCount": 10,
       "reviewed": true
     }
   ],

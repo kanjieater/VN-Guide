@@ -5,34 +5,29 @@
     {
       "id": "aries",
       "title": "アリエス",
-      "stepCount": 55,
       "reviewed": true,
       "portrait": "https://t.vndb.org/ch/25/46525.jpg"
     },
     {
       "id": "akari",
       "title": "Restart",
-      "stepCount": 7,
       "reviewed": true
     },
     {
       "id": "aqua",
       "title": "アクア",
-      "stepCount": 49,
       "reviewed": true,
       "portrait": "https://t.vndb.org/ch/24/46524.jpg"
     },
     {
       "id": "asuka",
       "title": "西園寺明香",
-      "stepCount": 31,
       "reviewed": true,
       "portrait": "https://t.vndb.org/ch/27/46527.jpg"
     },
     {
       "id": "completion",
       "title": "クリア後",
-      "stepCount": 8,
       "reviewed": true
     }
   ],

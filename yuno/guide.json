@@ -5,42 +5,36 @@
     {
       "id": "mitsuki",
       "title": "美月ルート",
-      "stepCount": 294,
       "reviewed": true,
       "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/ichijomitsuki_image.png"
     },
     {
       "id": "ayumi",
       "title": "亜由美ルート",
-      "stepCount": 218,
       "reviewed": true,
       "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/arimaayumi_image.png"
     },
     {
       "id": "kaori",
       "title": "香織ルート",
-      "stepCount": 174,
       "reviewed": true,
       "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/asakurakaori_image.png"
     },
     {
       "id": "mio",
       "title": "澪ルート",
-      "stepCount": 158,
       "reviewed": true,
       "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/shimazumio_image.png"
     },
     {
       "id": "kanna",
       "title": "神奈ルート",
-      "stepCount": 56,
       "reviewed": true,
       "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/hatanokanna_image.png"
     },
     {
       "id": "new_world",
       "title": "異世界ルート",
-      "stepCount": 19,
       "reviewed": true,
       "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/yuno_image2.png"
     }

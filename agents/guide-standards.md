@@ -220,8 +220,8 @@ For each documented non-main ending detour:
 Direct/browser agents must assemble `guide.json` equivalently to the deterministic generator:
 
 - entries follow `research.json` / recommended order for every completed guide section;
-- each entry includes `id`, `title`, `stepCount`, and `reviewed`;
-- `stepCount` equals the actual length of `route_<id>.json`;
+- each entry includes `id`, `title`, and `reviewed`;
+- do not store a static step count in `guide.json`; route length is derived from the actual `route_<id>.json` array at runtime;
 - preserve an existing route's `reviewed` value when reassembling; new routes default to `false`;
 - require the verified portrait from current research whenever a verifiable route-character image exists; fall back to an existing verified portrait only when research has none, and permit an empty portrait only when research explicitly documents that no suitable verifiable image was found;
 - copy current research `sources` into `guide.json`;

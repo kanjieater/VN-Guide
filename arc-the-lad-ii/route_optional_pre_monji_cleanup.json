@@ -3,7 +3,7 @@
     "simpleJp": "カナラ砂漠へ行く",
     "jpGuide1": "カナラ砂漠へ行き、マップ上でキラリと光る指輪を1歩下がって調べると発見できる（○ボタンは、キャラクターの「前」を調べる）。その後戦闘に勝てばクリア。",
     "jpGuide2": "G#46　指輪探し",
-    "enGuide": "In Kanara Desert, look for the sparkling ring. Stand one tile away facing it and examine forward to pick it up, then win the battle that follows."
+    "enGuide": "Optional final pre-Monji sweep. Start in Barbarad immediately after the Pyramid exterior fight, because G#49 has just appeared. Finish the Barbarad jobs/bounties first, then make one East Aldia return for G#10 reporting and local bounties, followed by the remaining regional sweep. This order is meant to avoid the old back-and-forth."
   },
   {
     "simpleJp": "ムハド宿屋の少女に話す",
@@ -24,135 +24,129 @@
     "enGuide": "Go to Tuke Cave and enter the room on the right. Defeat the ordinary Leviathan inside to complete Dangerous Medicine."
   },
   {
-    "simpleJp": "アルディア橋のニンジャ姿の男に話す",
-    "jpGuide1": "アルディア橋へ行き、ニンジャの形をした男に「そうでもねえよ」と答える。竜を探すことになるが、見つけられるのは随分先のバルバラード・テュケの洞窟になる。テュケの洞窟にいるピエール・ベロニカに話し、アルディア橋に戻って報告するとクリア。",
+    "simpleJp": "テュケの洞窟でピエール・ベロニカに話す",
+    "jpGuide1": "テュケの洞窟にいるピエール・ベロニカに話し、アルディア橋に戻って報告するとクリア。",
     "jpGuide2": "G#10　面接試験有、山賊お断り",
-    "enGuide": "At Aldia Bridge, answer the ninja-shaped man with 「そうでもねえよ」. Much later, speak to Pierre and Veronica in Tuke Cave, then return to Aldia Bridge and report to finish the long-running job."
-  },
-  {
-    "simpleJp": "「そうでもねえよ」を選ぶ",
-    "jpGuide1": "ニンジャの形をした男に「そうでもねえよ」と答える。",
-    "jpGuide2": "そうでもねえよ",
-    "enGuide": "Choose this exact interview answer; the job then remains open until the later Tuke Cave follow-up."
+    "enGuide": "This is the payoff for G#10, which the guide started earlier at Aldia Bridge. Talk to Pierre and Veronica while you are already in Tuke Cave for G#49; this avoids making a separate return trip to Barbarad."
   },
   {
     "simpleJp": "カナラ砂漠でダリウスを討伐する",
     "jpGuide1": "ダリウス　カナラ砂漠",
     "jpGuide2": "ダリウス　バルバラード",
-    "enGuide": "Clear this regional bounty before story lockouts begin."
+    "enGuide": "Optional Barbarad bounty; not required for story progression. Confirm Darius's wanted poster at the Muhad guild first, then hunt him in Kanara Desert while you are already handling the Barbarad job chain. Poster confirmation is required for the reward."
   },
   {
     "simpleJp": "バルバラード封印の遺跡B1でガウディラスを討伐する",
     "jpGuide1": "ガウディラス　バルバラード遺跡B1",
     "jpGuide2": "ガウディラス　バルバラード封印の遺跡",
-    "enGuide": "Finish the Barbarad regional bounty while free travel remains."
+    "enGuide": "Optional Barbarad bounty; not required for story progression. Confirm Gaudilas's wanted poster at the Muhad guild, then hunt it on B1 of the Barbarad Sealed Ruins. The poster is required; do this before leaving Barbarad for the East Aldia leg."
+  },
+  {
+    "simpleJp": "アルディア橋でG#10を報告する",
+    "jpGuide1": "アルディア橋に戻って報告するとクリア。",
+    "jpGuide2": "G#10　面接試験有、山賊お断り",
+    "enGuide": "Now leave Barbarad for East Aldia and report the dragon's safety to the requester at Aldia Bridge. This closes the long-running G#10 before the Monji lockout, and you can continue directly into the remaining East Aldia bounty sweep."
   },
   {
     "simpleJp": "ウィルの岩場でブーシーを討伐する",
     "jpGuide1": "ブーシー　ウィルの岩場　スティンガー落",
     "jpGuide2": "ブーシー　ウィルの岩場",
-    "enGuide": "Finish this East Aldia bounty before the global lockout."
-  },
-  {
-    "simpleJp": "インディゴス下水道でアジュを討伐する",
-    "jpGuide1": "アジュ　インディゴス下水道",
-    "jpGuide2": "アジュ　インディゴス下水道",
-    "enGuide": "Clear the other sewer bounty if it was not already taken during the early jobs."
+    "enGuide": "Optional East Aldia bounty; not required for story progression. Confirm Boosie's wanted poster at the Prodius guild, then hunt it at Will's Rock. Poster confirmation is required, and this guide groups it with the G#10 reporting trip to avoid another East Aldia return."
   },
   {
     "simpleJp": "サルバ砂漠でホイスラーを討伐する",
     "jpGuide1": "ホイスラー　サルバ砂漠マップ3",
     "jpGuide2": "ホイスラー　サルバ砂漠",
-    "enGuide": "Clear the remaining East Aldia free-area bounty."
+    "enGuide": "Optional East Aldia bounty; not required for story progression. Confirm Whistler's wanted poster at the Indigos guild, then hunt it in Salba Desert after that area has opened. Poster confirmation is required; clear it on this same East Aldia sweep."
   },
   {
     "simpleJp": "クイナの丘でラギを討伐する",
     "jpGuide1": "ラギ　クイナの丘　ミランダ落",
     "jpGuide2": "ラギ　クイナの丘",
-    "enGuide": "Sweep the Palencia-region wanted list."
+    "enGuide": "Optional Palencia bounty; not required for story progression. Confirm Ragi's wanted poster at the Palencia guild, then hunt it at Quina Hill, Raus Plains, or Corbo Plains. The poster is required; this guide uses the Palencia sweep before the Monji lockout."
   },
   {
     "simpleJp": "クイナの丘でキバを討伐する",
     "jpGuide1": "キバ　クイナの丘　ウィングドスピア落",
     "jpGuide2": "キバ　クイナの丘",
-    "enGuide": "Keep revisiting until Kiba appears if needed."
+    "enGuide": "Optional Palencia bounty; not required for story progression. Kiba does **not** require poster confirmation and becomes available after the Greycine arc. Hunt it at Quina Hill during this same Palencia sweep; do not detour to the guild solely to register it."
   },
   {
     "simpleJp": "パレンシア城地下倉庫跡でシャコウを討伐する",
     "jpGuide1": "シャコウ　パレンシア城跡",
     "jpGuide2": "シャコウ　パレンシア城地下倉庫跡",
-    "enGuide": "This remains available after the Elk/Poco story segment."
+    "enGuide": "Optional Palencia bounty; not required for story progression. Confirm Shakou's wanted poster at the Palencia guild, then hunt it in the Palencia Castle underground warehouse remains. Poster confirmation is required."
   },
   {
     "simpleJp": "ラウス平野で邪竜ギアを討伐する",
     "jpGuide1": "邪竜ギア　ラウス平野　ドラゴンクロー落",
     "jpGuide2": "邪竜ギア　キメラ研究所本部攻略後～",
-    "enGuide": "Clear the late Palencia-region dragon bounty."
+    "enGuide": "Optional Palencia bounty; not required for story progression. Confirm Evil Dragon Gia's wanted poster at the Palencia guild, then hunt it on Raus Plains. Poster confirmation is required; it is available after the Greycine arc and is being cleared now to avoid a later return."
   },
   {
     "simpleJp": "フェルス高原でバルグリを討伐する",
     "jpGuide1": "バルグリ　フェルス高原",
     "jpGuide2": "バルグリ　フォーレス",
-    "enGuide": "Sweep the Fores wanted list."
+    "enGuide": "Optional Fores bounty; not required for story progression. Confirm Balgri's wanted poster at the Lamour guild, then hunt it at Fels Plateau. Poster confirmation is required, so register it before entering the battle area."
   },
   {
     "simpleJp": "カルミオの丘でデリンガーを討伐する",
     "jpGuide1": "デリンガー　カルミオの丘",
     "jpGuide2": "デリンガー　フォーレス",
-    "enGuide": "Sweep the second Fores free-area target."
+    "enGuide": "Optional Fores bounty; not required for story progression. Confirm Derringer's wanted poster at the Lamour guild, then hunt it at Kalmio Hill. Poster confirmation is required; pair it with Balgri and Gaucrow in one Fores/Alaratos sweep."
   },
   {
     "simpleJp": "アゼンダ高地でガウクロウを討伐する",
     "jpGuide1": "ガウクロウ　アゼンダ高地",
     "jpGuide2": "ガウクロウ　アゼンダ高地",
-    "enGuide": "Clear this Fores-posting target before world access closes."
+    "enGuide": "Optional Fores/Alaratos bounty; not required for story progression. Confirm Gaucrow's wanted poster at the Lamour guild, then hunt it at Azenda Highlands. Poster confirmation is required and the target is available after Greycine."
   },
   {
     "simpleJp": "無人の館でドラロシュを討伐する",
     "jpGuide1": "ドラロシュ　無人の館",
     "jpGuide2": "ドラロシュ　無人の館",
-    "enGuide": "Return to the Crenia mansion for the remaining Scrap Town bounty."
+    "enGuide": "Optional Crenia bounty; not required for story progression. Confirm Drarosh's wanted poster at the Scrap Town guild, then return to the Abandoned Mansion on Crenia Island. Poster confirmation is required; this is a cleanup revisit, not story progression."
   },
   {
     "simpleJp": "グレイシーヌFBAでキドウを討伐する",
     "jpGuide1": "キドウ　グレイシーヌFBA",
     "jpGuide2": "キドウ　ノヤム原野・アナン台地・ルタール平野",
-    "enGuide": "Check the posting first; Kido and Bishamon do not appear together, so make separate encounters."
+    "enGuide": "Optional Greycine bounty; not required for story progression. Confirm Kido's wanted poster at the Peisas guild, then hunt it in Noyam Plains, Anan Plateau, or Lutar Plains. Poster confirmation is required; Kido and Bishamon share the same areas, so clear them as one regional pair."
   },
   {
     "simpleJp": "グレイシーヌFBAでビシャモンを討伐する",
     "jpGuide1": "ビシャモン　グレイシーヌFBA　旋風落",
     "jpGuide2": "ビシャモン　ノヤム原野・アナン台地・ルタール平野",
-    "enGuide": "After Kido is cleared, revisit a Greycine FBA for Bishamon."
+    "enGuide": "Optional Greycine bounty; not required for story progression. Confirm Bishamon's wanted poster at the Peisas guild, then revisit a Greycine free-battle area after Kido is cleared. Poster confirmation is required; its unique Senpu drop is an additional reason to finish the target now."
   },
   {
     "simpleJp": "ミスロ闘技場控え室で怪しい人物に10回話してジグムントを討伐する",
     "jpGuide1": "ジグムント　ミスロ闘技場",
     "jpGuide2": "ジグムント　ニーデル闘技場控え室",
-    "enGuide": "The disguise breaks after repeated questioning; confirm the wanted posting first."
+    "enGuide": "Optional Nieder bounty; not required for story progression. Confirm Sigmund's wanted poster at the Misro guild first, then go to the Nieder arena waiting room and question the suspicious person ten times to reveal the target. Poster confirmation is required."
   },
   {
     "simpleJp": "遺跡ダンジョンB1でクェーガーを討伐する",
     "jpGuide1": "クェーガー　遺跡ダンジョンB1　スティクス落",
     "jpGuide2": "クェーガー　遺跡ダンジョン1F",
-    "enGuide": "This target appears probabilistically on the first Ruins Dungeon floor; repeat if needed."
+    "enGuide": "Optional Ruins Dungeon bounty; not required for story progression. Confirm Quager's wanted poster at the Misro guild, then enter Ruins Dungeon 1F. Poster confirmation is required and the target is probabilistic, so repeat the floor if it does not appear immediately."
   },
   {
     "simpleJp": "イシュマの岩場でタスマンを討伐する",
     "jpGuide1": "タスマン　アリバーシャFBA",
     "jpGuide2": "タスマン　イシュマの岩場",
-    "enGuide": "Clear one of the remaining Alibarsha bounties."
+    "enGuide": "Optional Alibarsha bounty; not required for story progression. Confirm Tasman's wanted poster at the Elzark guild, then hunt it at Ishma Rock. Poster confirmation is required; it appears there reliably, so this is a straightforward regional cleanup stop."
   },
   {
     "simpleJp": "サラ砂漠でシュヴァイデルを討伐する",
     "jpGuide1": "シュヴァイデル　アリバーシャFBA　メタルパッド落",
     "jpGuide2": "シュヴァイデル　サラ砂漠",
-    "enGuide": "Clear the other regular Alibarsha FBA target. Maios is deferred to the sealed-ruin chain later."
+    "enGuide": "Optional Alibarsha bounty; not required for story progression. Confirm Schweidel's wanted poster at the Elzark guild, then hunt it in Sara Desert. Poster confirmation is required; clear it before leaving the final pre-Monji sweep."
   },
   {
     "simpleJp": "未清算の期限付きギルド仕事をここで一括確認する",
     "jpGuide1": "全てのギルド仕事は大成功させる。",
     "jpGuide2": "紋次編が急展開を迎えると…殆どの仕事ができなくなる",
-    "enGuide": "Use this as a conservative audit point before the Monji/Palencia sequence. Set B records a broad job lockout once that arc accelerates."
+    "enGuide": "Use this as a conservative audit point before the Monji/Palencia sequence. Set B records a broad job lockout once that arc accelerates. Next: “バルバラード：ピラミッド”."
   }
 ]

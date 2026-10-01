@@ -3,7 +3,7 @@
     "simpleJp": "鍛錬の岩場へ行く",
     "jpGuide1": "グルガを仲間にして戦闘。",
     "jpGuide2": "鍛錬の岩場",
-    "enGuide": "Equip Gurga before the fight; he initially lacks armor."
+    "enGuide": "Story progression. Continue directly from “シュウ・シャンテ：スメリア〜ロマリア戦艦”. Equip Gurga before the fight; he initially lacks armor."
   },
   {
     "simpleJp": "クレニア闘技場へ行く",
@@ -27,6 +27,6 @@
     "simpleJp": "クレニアの宿を出る",
     "jpGuide1": "宿を出るとイベント終了。",
     "jpGuide2": "クレニア編終了",
-    "enGuide": "This closes Shante/Gurga's split-party segment."
+    "enGuide": "After the mansion sequence, leave the Crenia inn to close Shante/Gurga's split-party segment. Control then moves on to the Lieza/Gogen side; before advancing that story, the next section is the optional Lamour job window that exists only during Lieza's split. Next: “【任意】リーザ編限定：ラムールの仕事”."
   }
 ]

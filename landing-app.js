@@ -105,9 +105,10 @@ async function isPlaying(g) {
   const guide = await guideMeta(g.slug);
   if (!guide || !Array.isArray(guide.routes) || guide.routes.length === 0) return false;
 
-  const startedRoutes = guide.routes.filter(route =>
-    Object.prototype.hasOwnProperty.call(saved.progress, route.id)
-  );
+  const startedRoutes = guide.routes.filter(route => {
+    const progress = saved.progress[route.id];
+    return Number.isInteger(progress) && progress >= 0;
+  });
   if (startedRoutes.length === 0) return false;
 
   // Any valid started route means the game is currently playing, even when the
@@ -121,11 +122,9 @@ async function isPlaying(g) {
   );
   if (lengths.some(length => !Number.isInteger(length) || length < 1)) return true;
 
-  return guide.routes.some((route, index) => {
-    const progress = saved.progress[route.id];
-    if (!Number.isInteger(progress) || progress < 0) return true;
-    return progress < lengths[index] - 1;
-  });
+  return guide.routes.some((route, index) =>
+    saved.progress[route.id] < lengths[index] - 1
+  );
 }
 
 async function render() {

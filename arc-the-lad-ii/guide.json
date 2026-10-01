@@ -17,7 +17,7 @@
     },
     {
       "id": "optional_early_guild",
-      "title": "【任意】式典前：初期ギルド仕事・手配",
+      "title": "【任意】インディゴス序盤：期限付き仕事・手配モンスター",
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -161,7 +161,7 @@
     },
     {
       "id": "optional_world_cleanup_1",
-      "title": "【任意】グレイシーヌ後：世界巡回・召喚獣・ギルド仕事",
+      "title": "【任意】グレイシーヌ後：依頼チェーン・世界巡回",
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -193,7 +193,7 @@
     },
     {
       "id": "optional_world_cleanup_2",
-      "title": "【任意】フォーレス・ブラキア後：期限付き仕事",
+      "title": "【任意】フォーレス→ブラキア→ニーデル期限付き回収",
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],
@@ -257,7 +257,7 @@
     },
     {
       "id": "optional_pre_monji_cleanup",
-      "title": "【任意】紋次編急展開前：全期限付き仕事の最終回収",
+      "title": "【任意】紋次編前：バルバラード→各地最終回収",
       "reviewed": true,
       "portrait": "",
       "prerequisites": [],

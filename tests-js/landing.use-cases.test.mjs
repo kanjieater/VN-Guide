@@ -124,9 +124,10 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
   assert.match(window.document.getElementById("game-list").textContent, /該当するゲームがありません/);
 
   const encodedPath = new URL("./%E6%97%A5%E6%9C%AC%E8%AA%9E-game/", window.location.href).pathname;
+  const encodedKey = "guide_" + encodedPath.replace(/\//g, "_");
   window.localStorage.setItem(
-    "guide_" + encodedPath.replace(/\//g, "_"),
-    JSON.stringify({ progress: { route: 0, other: 0 } })
+    encodedKey,
+    JSON.stringify({ progress: { route: null } })
   );
   const twoKey = "guide_" + new URL("./two/", window.location.href).pathname.replace(/\//g, "_");
   window.localStorage.setItem(twoKey, "{invalid json");
@@ -134,6 +135,15 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
   window.document.getElementById("search").value = "";
   window.setFilter("playing");
   await new Promise(resolve => setTimeout(resolve, 0));
+  text = window.document.getElementById("game-list").textContent;
+  assert.doesNotMatch(text, /日本語一/);
+  assert.doesNotMatch(text, /Roman Two/);
+
+  window.localStorage.setItem(
+    encodedKey,
+    JSON.stringify({ progress: { route: 0 } })
+  );
+  await window.render();
   text = window.document.getElementById("game-list").textContent;
   assert.match(text, /日本語一/);
   assert.doesNotMatch(text, /Roman Two/);

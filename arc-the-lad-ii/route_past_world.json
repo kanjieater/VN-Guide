@@ -3,7 +3,7 @@
     "simpleJp": "過去のトウヴィルでククルに話す",
     "jpGuide1": "ククルを仲間にして3連戦",
     "jpGuide2": "トウヴィル(過去)　ククルに話しかけイベント→3戦",
-    "enGuide": "Speak to Kukuru in past Touvil to start the sequence, then clear all three consecutive battles before leaving for Palencia."
+    "enGuide": "Story progression. Continue directly from “パレンシアタワー〜過去編”. Speak to Kukuru in past Touvil to start the sequence, then clear all three consecutive battles before leaving for Palencia."
   },
   {
     "simpleJp": "パレンシア城跡最深部で火の精霊に会う",
@@ -45,7 +45,7 @@
     "simpleJp": "アゼンダ高地奥で光の精霊に会う",
     "jpGuide1": "奥へ行き、光の精霊に会う",
     "jpGuide2": "アゼンダ高地　イベント進行",
-    "enGuide": "Then fly from Alaratos to Alibarsha."
+    "enGuide": "After resolving the Gazalua blockage, return to the far end of Azenda Highlands and complete the Light Spirit event. That finishes the Alaratos portion of the past-world circuit; leave Alaratos and fly to Alibarsha, where the next objective begins at Elzark and leads to Water Temple."
   },
   {
     "simpleJp": "エルザークへ行く",
@@ -57,6 +57,6 @@
     "simpleJp": "パレンシアの帰還確認で「準備がいい」を選ぶ",
     "jpGuide1": "準備がいいと答えればトウヴィルへ",
     "jpGuide2": "水の神殿→パレンシア",
-    "enGuide": "When asked if you are ready, choose 「準備がいい」. The story returns you to Touvil; finish the temple battle to close the past-world segment."
+    "enGuide": "When asked if you are ready, choose 「準備がいい」. The story returns you to Touvil; finish the temple battle to close the past-world segment. Next: “現代帰還〜北・南の塔”."
   }
 ]

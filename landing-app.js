@@ -3,6 +3,7 @@ const GAMES = window.VN_GUIDE_GAMES || [];
 
 const VISITED_KEY = "vn-guide-visited";
 const GUIDE_META_CACHE = new Map();
+const ROUTE_LENGTH_CACHE = new Map();
 const root = document.documentElement;
 let sortMode = root.dataset.vngSort || localStorage.getItem("vn-guide-sort") || "recent";
 let filterMode = root.dataset.vngFilter || localStorage.getItem("vn-guide-filter") || "all";
@@ -84,6 +85,19 @@ async function guideMeta(slug) {
   return GUIDE_META_CACHE.get(slug);
 }
 
+async function routeLength(slug, route) {
+  if (Array.isArray(route.steps)) return route.steps.length;
+
+  const key = `${slug}:${route.id}`;
+  if (!ROUTE_LENGTH_CACHE.has(key)) {
+    ROUTE_LENGTH_CACHE.set(key, fetch(`./${slug}/route_${route.id}.json`, { cache: "no-store" })
+      .then(res => res.ok ? res.json() : null)
+      .then(steps => Array.isArray(steps) ? steps.length : null)
+      .catch(() => null));
+  }
+  return ROUTE_LENGTH_CACHE.get(key);
+}
+
 async function isPlaying(g) {
   const saved = savedGuideState(g.slug);
   if (!saved || !saved.progress || Object.keys(saved.progress).length === 0) return false;
@@ -91,23 +105,26 @@ async function isPlaying(g) {
   const guide = await guideMeta(g.slug);
   if (!guide || !Array.isArray(guide.routes) || guide.routes.length === 0) return false;
 
-  const routeIds = new Set(guide.routes.map(route => route.id));
-  const hasSavedRoute = Object.keys(saved.progress).some(id => routeIds.has(id));
-  if (!hasSavedRoute) return false;
+  const startedRoutes = guide.routes.filter(route => {
+    const progress = saved.progress[route.id];
+    return Number.isInteger(progress) && progress >= 0;
+  });
+  if (startedRoutes.length === 0) return false;
 
-  const maxProgress = guide.routes.reduce((sum, route) => {
-    const count = route.stepCount || (route.steps ? route.steps.length : 0);
-    return sum + Math.max(count - 1, 1);
-  }, 0);
-  const doneSteps = guide.routes.reduce((sum, route) => {
-    const count = route.stepCount || (route.steps ? route.steps.length : 0);
-    if (saved.progress[route.id] === undefined) return sum;
-    if (count === 1) return sum + 1;
-    return sum + Math.max(0, Math.min(saved.progress[route.id], count - 1));
-  }, 0);
+  // Any valid started route means the game is currently playing, even when the
+  // current step is 0 and the displayed overall percentage still rounds to 0%.
+  if (startedRoutes.length < guide.routes.length) return true;
 
-  const pct = maxProgress ? Math.round(doneSteps / maxProgress * 100) : 0;
-  return pct > 0 && pct < 100;
+  // Every route has been started, so load the authoritative route arrays to
+  // distinguish an in-progress game from one that is actually complete.
+  const lengths = await Promise.all(
+    guide.routes.map(route => routeLength(g.slug, route))
+  );
+  if (lengths.some(length => !Number.isInteger(length) || length < 1)) return true;
+
+  return guide.routes.some((route, index) =>
+    saved.progress[route.id] < lengths[index] - 1
+  );
 }
 
 async function render() {

@@ -3,7 +3,7 @@
     "simpleJp": "スメリア神殿のククルに話す",
     "jpGuide1": "ククルに2回話し掛けてパレンシアへ",
     "jpGuide2": "上部のククルに話しかけイベント進行",
-    "enGuide": "Talk to Kukuru at the upper part of the temple; Set A specifies two conversations. Continue until the event moves the party toward Palencia."
+    "enGuide": "Story progression. Continue directly from “バルバラード：ピラミッド”. Talk to Kukuru at the upper part of the temple; Set A specifies two conversations. Continue until the event moves the party toward Palencia."
   },
   {
     "simpleJp": "ダウンタウンでトッシュを表示して酒場のマスターに話す",
@@ -39,6 +39,6 @@
     "simpleJp": "過去へ送る仲間を選ぶ",
     "jpGuide1": "過去に行けるのは人間キャラ1人だけ",
     "jpGuide2": "過去に送り込むのはイーガ",
-    "enGuide": "Choose the companion for Ark's trip to the past. Set A specifies the one-human restriction; Set B directly demonstrates selecting Iga."
+    "enGuide": "Choose the companion for Ark's trip to the past. Set A specifies the one-human restriction; Set B directly demonstrates selecting Iga. Next: “過去世界：四精霊巡り”."
   }
 ]

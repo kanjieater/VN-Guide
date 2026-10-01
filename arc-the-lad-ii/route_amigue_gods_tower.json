@@ -3,7 +3,7 @@
     "simpleJp": "神の塔の6つの三角ワープは左から2番目を選ぶ",
     "jpGuide1": "6つ並んだ三角ワープは、左から2番目が正解。10Fにある三角ワープに入ると、なぜか入り口に戻される。",
     "jpGuide2": "神の塔",
-    "enGuide": "Use the second of the six aligned triangular warps. Separately, avoid the triangular warp on 10F; that one returns you to the entrance."
+    "enGuide": "Story progression. Continue directly from “【任意】神の塔前：アミーグ期限付き仕事”. Use the second of the six aligned triangular warps. Separately, avoid the triangular warp on 10F; that one returns you to the entrance."
   },
   {
     "simpleJp": "11Fは左のスイッチを使う",
@@ -15,6 +15,6 @@
     "simpleJp": "最上階でグロルガルデを倒す",
     "jpGuide1": "倒すとアミーグはクリア。神の塔には入れなくなる。",
     "jpGuide2": "アミーグ編終了",
-    "enGuide": "Grolgalde acts twice before your party's first turn, so put durable characters up front and heal quickly. Defeat it to finish Amigue; God's Tower closes afterward."
+    "enGuide": "Grolgalde acts twice before your party's first turn, so put durable characters up front and heal quickly. Defeat it to finish Amigue; God's Tower closes afterward. Next: “バルバラード：ピラミッド外観まで”."
   }
 ]

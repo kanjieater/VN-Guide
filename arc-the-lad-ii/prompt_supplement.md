@@ -29,6 +29,18 @@ The guide must remain fully usable from a non-converted Arc II start. Conversion
 - Keep one actionable instruction per step.
 - Do not add `stepType` or any new route/guide fields.
 
+## Player continuity and routing contract
+
+This guide must be usable while playing without outside inference.
+
+- Treat the 43 stored sections as one continuous itinerary, not isolated checklists. Re-evaluate the whole `recommended_order` whenever chronology or optional-window routing changes.
+- At every section boundary, state where the player should be now, what city/country to travel to next, and what story event or optional window makes that the correct next move.
+- For optional work, say **why it is here**: expiring guild window, bounty availability, unique reward, first-encounter steal, recruit, synthesis dependency, or convenience-only cleanup.
+- For wanted monsters, explicitly distinguish poster-required vs poster-not-required targets, any spawn prerequisite, and whether the listed steal/drop is unique or first-encounter-only. Do not send the player to a guild solely to inspect a poster when the target does not require it.
+- If an item steal is not needed for story completion, label it as optional completion/unique-item collection before telling the player to steal it.
+- Within each safe timing window, minimize unnecessary travel and group actions by city/area. If the safest source-supported chronology requires backtracking, explain the dependency before the player leaves the current area.
+- A step like “go to Prodius”, “hunt X”, or “complete G#NN” is insufficient when the player could reasonably ask *where from, why now, what unlocks it, or what do I do afterward?*
+
 ## Practical 100% scope
 
 The finished linear guide should cover, when supported by the research gate:

@@ -3,7 +3,7 @@
     "simpleJp": "遺跡ダンジョンB50の大きな玉座を調べる",
     "jpGuide1": "B50にある大きな玉座を調べると、階段が出現",
     "jpGuide2": "50Fの玉座の下に隠された深層",
-    "enGuide": "This only works on a converted file with the required Choko state. Inspect the large throne on B50; if the hidden stairway appears beneath it, descend to the conversion-only deep floors."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “【任意】ちょこ終盤イベント：廃墟のトココ”. This only works on a converted file with the required Choko state. Inspect the large throne on B50; if the hidden stairway appears beneath it, descend to the conversion-only deep floors."
   },
   {
     "simpleJp": "遺跡ダンジョンB51からB71まで進む",
@@ -21,6 +21,6 @@
     "simpleJp": "アクラを倒し「かくせい」「ヴァニッシュ」を修得する",
     "jpGuide1": "「かくせい」「ヴァニッシュ」の特殊能力を修得",
     "jpGuide2": "「ヴァニッシュ」　『ちょこ覚醒イベント』終了時に習得",
-    "enGuide": "This completes Choko's full conversion-only awakening route."
+    "enGuide": "Defeat Akura to finish the conversion-only Choko awakening and obtain 「かくせい」 / Vanish. This optional conversion branch is now complete; return to the normal master route and begin the final pre-Air-Castle cleanup rather than continuing deeper in the Ruins. Next: “【任意】空中城前：G#37・残仕事・最終回収”."
   }
 ]

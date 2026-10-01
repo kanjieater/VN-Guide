@@ -3,13 +3,13 @@
     "simpleJp": "ロマリア空港でチョンガラに話す",
     "jpGuide1": "チョンガラに話し掛けると、グレイシーヌへ行く",
     "jpGuide2": "チョンガラに話しかけイベント進行",
-    "enGuide": "This begins the first full-party country arc."
+    "enGuide": "Story progression. Continue directly from “【任意】合流直後：ロマリア・グレイシーヌ準備”. This begins the first full-party country arc."
   },
   {
     "simpleJp": "ラマダ寺へ行く",
     "jpGuide1": "イベントでサニアが仲間になる。",
     "jpGuide2": "加入時期　グレイシーヌ編序盤",
-    "enGuide": "Go to Ramada Temple and advance the event there until Sania joins the party permanently."
+    "enGuide": "From the Romalia-airport arrival, travel to Ramada Temple and complete the temple event until Sania joins permanently. Her recruitment is part of the mandatory Greycine story arc, so do not treat the temple as optional side content."
   },
   {
     "simpleJp": "ペイサスで同じ姿の男に話す",
@@ -21,18 +21,18 @@
     "simpleJp": "ノヤム原野へ行く",
     "jpGuide1": "イベントが発生し戦闘。",
     "jpGuide2": "ノヤム原野",
-    "enGuide": "Travel to Noyam Plains. The investigation triggers a battle there; defeat the enemy group to advance."
+    "enGuide": "After the Peisas investigation, travel to Noyam Plains. Entering the area triggers the next mandatory battle; defeat the enemy group there, then continue to Ramada Mountain rather than returning to the world-cleanup route yet."
   },
   {
     "simpleJp": "ラマダ山へ行く",
     "jpGuide1": "イーガがラマダ真拳を修得する。",
     "jpGuide2": "ラマダ山　イベント進行",
-    "enGuide": "Climb Ramada Mountain through its battles/events to the top. Completing the sequence teaches Iga Ramada Shinken."
+    "enGuide": "From Noyam Plains, go to Ramada Mountain and climb through the required battles/events to the summit. Finishing this sequence advances the Greycine story and teaches Iga Ramada Shinken."
   },
   {
     "simpleJp": "列車砲の照準範囲から離れる",
     "jpGuide1": "列車砲の射程範囲内に入ると、敵味方関わらず次のターンにダメージ",
     "jpGuide2": "この戦闘に勝利すればグレイシーヌ編クリア",
-    "enGuide": "The train cannon targets a 3×3 area and damages anyone still there on the next turn, friend or foe. Move out of the marked zone each turn while eliminating the enemy force."
+    "enGuide": "The train cannon targets a 3×3 area and damages anyone still there on the next turn, friend or foe. Move out of the marked zone each turn while eliminating the enemy force. Next: “【任意】グレイシーヌ後：依頼チェーン・世界巡回”."
   }
 ]

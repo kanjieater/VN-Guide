@@ -3,7 +3,7 @@
     "simpleJp": "ロマリアキメラ研究所へ入る前にセーブする",
     "jpGuide1": "ここに乗り込むと長時間セーブできないので注意。",
     "jpGuide2": "キメラ研究所本部",
-    "enGuide": "Do all preparation before entering. The game then cycles through several split parties and does not give you a normal save opportunity for a long stretch."
+    "enGuide": "Story progression. Continue directly from “シュウ・トッシュ：ロマリアトンネル”. Do all preparation before entering. The game then cycles through several split parties and does not give you a normal save opportunity for a long stretch."
   },
   {
     "simpleJp": "各分断パーティの戦闘を進めて全員合流する",
@@ -21,6 +21,6 @@
     "simpleJp": "最深部でガルアーノ本体を倒す",
     "jpGuide1": "本体を倒せば勝利。",
     "jpGuide2": "中央一番奥にある顔部分が本体",
-    "enGuide": "The surrounding enemies can reappear. Prioritize the central rear face/body—the actual Galuano core—because destroying it ends the battle."
+    "enGuide": "The surrounding enemies can reappear. Prioritize the central rear face/body—the actual Galuano core—because destroying it ends the battle. Next: “【任意】合流直後：ロマリア・グレイシーヌ準備”."
   }
 ]

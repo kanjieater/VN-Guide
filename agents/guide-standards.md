@@ -136,6 +136,10 @@ For an opted-in non-VN walkthrough only, `simpleJp` is the short Japanese instru
 - A walkthrough instruction must be **executable**, not merely name an objective. `G#17を完了する`, `ダンジョンを攻略する`, or similar labels are insufficient when the source provides concrete actions.
 - For a multi-stage job/quest, either split the route into actionable steps or put a concise ordered procedure in `enGuide`. Include the practical start point, required NPC/object interaction, battle/puzzle condition, and completion/report-back action when the source documents them.
 - Guild/job titles are context labels, not walkthrough directions. Preserve the title if useful, but also tell the player **how to clear it**.
+- Preserve **player continuity** across every section boundary. The first actionable step after a route/section change must make the player's current location/state and immediate destination unambiguous; the final step or its `enGuide` must make the next destination/objective clear when the game does not force it automatically.
+- Do not make the player infer why an optional completion action exists. For a bounty, steal, unique pickup, recruit, or side job, `enGuide` must state whether it is optional, why the guide recommends doing it now, and any missable/first-encounter/lockout consequence that justifies the timing.
+- When a bounty has hidden state, distinguish **poster confirmation**, **spawn prerequisites**, and **turn-in/reporting**. Never tell the player merely to 'check posters' when the target does not require poster confirmation, and never omit a prerequisite kill/event that controls whether the target can appear.
+- Avoid gratuitous city/country bouncing. Within a safe timing window, order optional actions into an executable travel path unless the sources require a different order; when backtracking is necessary, explain the dependency that makes it necessary.
 - This exception does not relax normal VN `simpleJp` rules.
 
 ### Game-walkthrough source coverage

@@ -3,7 +3,7 @@
     "simpleJp": "5つの防御壁を下げて城前へ進む",
     "jpGuide1": "5つの防衛壁はスイッチで消える",
     "jpGuide2": "５つの防壁を突破し城を目指すことになる。",
-    "enGuide": "Use the wall switches as you advance through Romalia city. Lower all five defensive barriers in sequence; optional prisoner-rescue interactions can be done while moving through the wall zones."
+    "enGuide": "Story progression. Continue directly from “【任意】ロマリア市街：G#23・宝箱最終回収”. Use the wall switches as you advance through Romalia city. Lower all five defensive barriers in sequence; optional prisoner-rescue interactions can be done while moving through the wall zones."
   },
   {
     "simpleJp": "地下道へ入る",
@@ -21,6 +21,6 @@
     "simpleJp": "空中城へ入る前に一度戻って最終準備する",
     "jpGuide1": "一度は戻って準備するといい",
     "jpGuide2": "空中城突入",
-    "enGuide": "Use this last return window for final preparation: heal, equip the party, synthesize anything outstanding, and verify G#37/G#23 and all desired cleanup are settled before the point of no return."
+    "enGuide": "Use this last return window for final preparation: heal, equip the party, synthesize anything outstanding, and verify G#37/G#23 and all desired cleanup are settled before the point of no return. Next: “空中城・最終決戦”."
   }
 ]

@@ -3,7 +3,7 @@
     "simpleJp": "未コンバートなら遺跡ダンジョンB50でちょこを倒す",
     "jpGuide1": "遺跡ダンジョンのB50へ行き、ちょこを倒す。",
     "jpGuide2": "遺跡ダンジョンをB50Fまで踏破",
-    "enGuide": "On a normal Arc II file, descend all the way to Ruins Dungeon B50 and defeat Choko there. If converted Arc I data already brought Choko over, skip this fight."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “【任意】グレイシーヌ後：依頼チェーン・世界巡回”. On a normal Arc II file, descend all the way to Ruins Dungeon B50 and defeat Choko there. If converted Arc I data already brought Choko over, skip this fight."
   },
   {
     "simpleJp": "クレニア島の時の森を抜けてトココの村へ行く",
@@ -15,12 +15,12 @@
     "simpleJp": "ちょこの家の宿泊確認で「はい」を選ぶ",
     "jpGuide1": "泊まりますか？という質問に「はい」と答えた",
     "jpGuide2": "時の森でのお泊りイベントをクリアする",
-    "enGuide": "Complete the overnight event. Set A identifies the literal answer as 「はい」."
+    "enGuide": "At Choko's house in Tokoko, choose the literal response 「はい」 when asked about staying overnight. This continues the optional Choko recruitment event; if you decline, you have not finished the sequence yet."
   },
   {
     "simpleJp": "ちょこが止まったら話しかける",
     "jpGuide1": "ちょこに話し掛ければ大抵歩いていくので、それを追いかける",
     "jpGuide2": "トココの村にてイベントを完遂することで仲間にできる",
-    "enGuide": "Whenever Choko stops, talk to her so she continues walking. Follow behind rather than running ahead through the village/forest/cemetery tour; finishing the guided event recruits her."
+    "enGuide": "Whenever Choko stops, talk to her so she continues walking. Follow behind rather than running ahead through the village/forest/cemetery tour; finishing the guided event recruits her. Next: “フォーレス”."
   }
 ]

@@ -3,7 +3,7 @@
     "simpleJp": "クズ鉄の大穴へ行く",
     "jpGuide1": "クズ鉄の大穴へ。クズ鉄の大穴に行くには、マップ上の鉄道高架下をくぐる。最深部にあるスイッチをONにしてガスを止めるとクリア。",
     "jpGuide2": "G#24　クズ鉄の大穴の恐怖のガス",
-    "enGuide": "Reach Scrap-Iron Pit by passing under the railway overpass on the world map. Go to the deepest area and switch the gas control ON; then settle the completed job at the guild so the follow-up can appear."
+    "enGuide": "Optional Shu/Tosh split-party guild block. Start in Scrap Town before entering Romalia Tunnel. Clear and settle these jobs now because their window is tied to this split; do not leave the country just to inspect SA-200SP's poster—SA-200SP is a story-forced target and its poster is not required."
   },
   {
     "simpleJp": "クズ鉄の大穴へ戻る",
@@ -15,12 +15,6 @@
     "simpleJp": "再生品協会へ行く",
     "jpGuide1": "再生品協会へ行った後にクズ鉄置き場で戦闘。5ターンの間、モンスターをボビーに近づけなければ成功。",
     "jpGuide2": "G#26　鉄クズ置き場のクズ鉄拾いの警護",
-    "enGuide": "Visit the Recycled Goods Association first, then go to the Scrap Yard. During the battle, keep monsters away from Bobby for five turns; surviving the protection period clears the job."
-  },
-  {
-    "simpleJp": "SA-200SPの手配書を念のため確認する",
-    "jpGuide1": "手配モンスターSA-200SPなどと戦闘。",
-    "jpGuide2": "手配書確認　不要",
-    "enGuide": "Conservative prep only: Set B is internally inconsistent about whether the poster is required for the reward, so checking it is harmless but not treated as a verified prerequisite."
+    "enGuide": "Visit the Recycled Goods Association first, then go to the Scrap Yard. During the battle, keep monsters away from Bobby for five turns; surviving the protection period clears the job. After settling the split-party jobs, the next mandatory destination is Romalia Tunnel. Next: “シュウ・トッシュ：ロマリアトンネル”."
   }
 ]

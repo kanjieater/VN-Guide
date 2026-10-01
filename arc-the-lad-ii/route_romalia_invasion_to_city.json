@@ -3,7 +3,7 @@
     "simpleJp": "クズ鉄の町の最初の戦闘に入る",
     "jpGuide1": "ダニーにトッシュかシュウを表示して話しかける",
     "jpGuide2": "操作キャラをトッシュにする、その後ダニーに話しかけイベント",
-    "enGuide": "Clear the two Scrap Town fights, then enter the tavern. Display Tosh or Shu before talking to Danny; follow him to the resistance hideout and clear the fight there."
+    "enGuide": "Story progression. Continue directly from “【任意】空中城前：G#37・残仕事・最終回収”. Clear the two Scrap Town fights, then enter the tavern. Display Tosh or Shu before talking to Danny; follow him to the resistance hideout and clear the fight there."
   },
   {
     "simpleJp": "ロマリアトンネルで10ターン耐える",
@@ -21,6 +21,6 @@
     "simpleJp": "クズ鉄の町ギルドでG#23「息子にお守りを届けておくれ」を受ける",
     "jpGuide1": "ギルド仕事「息子にお守りを届けておくれ」を受け、ショップにいる赤い髪の依頼人に話す",
     "jpGuide2": "ロマリア城壁攻略開始",
-    "enGuide": "Return to the Scrap Town guild and accept G#23. Then visit the shop and speak to the red-haired requester to receive the amulet before returning to Romalia."
+    "enGuide": "Return to the Scrap Town guild and accept G#23. Then visit the shop and speak to the red-haired requester to receive the amulet before returning to Romalia. Next: “【任意】ロマリア市街：G#23・宝箱最終回収”."
   }
 ]

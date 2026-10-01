@@ -3,7 +3,7 @@
     "simpleJp": "インディゴス北西のマンホールを調べる",
     "jpGuide1": "インディゴス北西にあるマンホールを調べる。中で戦闘に勝てばクリア。",
     "jpGuide2": "G#04　地下から怪しげな歌声が…",
-    "enGuide": "Use the northwest Indigos manhole again. Enter the sewer and win the battle inside; the job clears after the fight."
+    "enGuide": "Optional 100% block after the Yagos/Galuano return. These jobs should be cleared before White House because several have limited windows. Start in Indigos and work the Indigos jobs first before moving to Prodius and Yagos; settle each guild job before taking its follow-up."
   },
   {
     "simpleJp": "廃墟の町の廃屋へ行く",
@@ -15,7 +15,7 @@
     "simpleJp": "廃墟の町へ行く",
     "jpGuide1": "廃墟の町へ行き、敵と戦闘。ピエール・ベロニカを倒せばクリア。",
     "jpGuide2": "G#06　廃墟の謎の集団",
-    "enGuide": "Return to Ruined Town and trigger the battle. Defeat Pierre and Veronica to finish the job."
+    "enGuide": "After settling the preceding doll-maker job, accept G#06 and return to Ruined Town while you are already working this area. Trigger the battle there and defeat Pierre and Veronica; settle the job afterward before moving the route back to Indigos."
   },
   {
     "simpleJp": "インディゴス酒場のマスターに話す",
@@ -57,18 +57,18 @@
     "simpleJp": "空き家でティアヌスから「うににゃんそーど」を盗んで討伐する",
     "jpGuide1": "ティアヌス　2025　3　空き家　うににゃんそーど盗（初回遭遇時のみ）",
     "jpGuide2": "うににゃんそーど　ティアヌスから盗む",
-    "enGuide": "Bring Shu and steal on the first encounter. Do not enter this encounter without him."
+    "enGuide": "Optional unique-item collection; not required for the story. Bring Shu before entering the empty-house encounter and steal Uninyan Sword on the first encounter before defeating Tianus; the first-encounter steal is the reason this bounty is called out."
   },
   {
     "simpleJp": "ヤゴス島遺跡B1Fでメナンを討伐する",
     "jpGuide1": "メナン　1125　2　ヤゴス島遺跡B1",
     "jpGuide2": "メナン　グレーターマミィ　ヤゴス島封印の遺跡Ｂ１Ｆ",
-    "enGuide": "Clean up the Yagos bounty while free travel is available."
+    "enGuide": "Optional Yagos bounty; not required for story progression. Menan does **not** require poster confirmation. Hunt it on B1 of the Yagos Sealed Ruins during this free-travel window so the guide does not need a separate later island trip."
   },
   {
     "simpleJp": "帰らずの森のバルザックはまだ倒さない",
     "jpGuide1": "バルザックを先に倒すとグロヴィスの「フェイト」は入手できない",
     "jpGuide2": "バルザック撃破済みだとグロヴィスの「フェイト」は入手不可",
-    "enGuide": "Postpone Balzac until after the later Grovis/Fate opportunity; Returnless Forest remains available afterward."
+    "enGuide": "Do not encounter Balzac yet if following this guide's default item path. Claymore from Balzac and Fate from the later Grovis encounter are mutually exclusive: seeing Grovis first blocks Claymore, while seeing Balzac first blocks Fate. This guide chooses Fate, because it is tied to the one-time timed Sea Oil Field detour; after Fate is secured you can still hunt Balzac, but he will no longer drop Claymore. If you prefer Claymore instead, hunt Balzac after White House and skip the later Fate steal. Next: “白い家”."
   }
 ]

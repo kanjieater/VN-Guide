@@ -3,13 +3,13 @@
     "simpleJp": "サルバ砂漠を抜ける",
     "jpGuide1": "用心棒ジェフリーと戦闘がある。",
     "jpGuide2": "サルバ砂漠",
-    "enGuide": "Cross Salba Desert and win the mandatory Jeffrey battle. On the second desert map, the lower-right route also leads past a Viper Fang chest if you want it."
+    "enGuide": "Story progression. Continue directly from “【任意】白い家前：期限付きギルド仕事”. Cross Salba Desert and win the mandatory Jeffrey battle. On the second desert map, the lower-right route also leads past a Viper Fang chest if you want it."
   },
   {
     "simpleJp": "帰らずの森を出口まで抜ける",
     "jpGuide1": "正しいルートは、入り口から、→、→、↑、↑、→、↑、↑、←、↑。",
     "jpGuide2": "迷いの森脱出",
-    "enGuide": "Do not hunt Balzac yet; simply use the keeper/route to reach White House."
+    "enGuide": "After Salba Desert, continue through Returnless Forest only to reach White House. Do not engage Balzac on this pass: the guide is preserving the later Grovis/Fate option, and encountering Balzac first would change that reward path."
   },
   {
     "simpleJp": "白い家下水道のスイッチを押す",
@@ -21,7 +21,7 @@
     "simpleJp": "白い家でガルムヘッドを倒す",
     "jpGuide1": "中央部を倒せば勝ち。",
     "jpGuide2": "ガルムヘッド撃破",
-    "enGuide": "Defeat the central body."
+    "enGuide": "Inside White House, continue until the Garm Head battle and attack the central body; destroying that core ends the fight. This is mandatory story progression, not an optional cleanup encounter."
   },
   {
     "simpleJp": "ミリル救出後の次の部屋へ入る",
@@ -33,6 +33,6 @@
     "simpleJp": "シルバーノア作戦室でエルクに2回話す",
     "jpGuide1": "エルクに２回話し掛けると進む",
     "jpGuide2": "エルクに2回話しかけた後チョピンに話しかけるとイベント進行",
-    "enGuide": "Speak to Elk twice in the operations room, then go to the other room and speak to Chopin. That conversation starts the split-party arc."
+    "enGuide": "Speak to Elk twice in the operations room, then go to the other room and speak to Chopin. That conversation starts the split-party arc. Next: “【任意・コンバート】白い家後：アーク対アンデル”."
   }
 ]

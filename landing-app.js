@@ -111,8 +111,12 @@ async function isPlaying(g) {
   });
   if (startedRoutes.length === 0) return false;
 
-  // Any valid started route means the game is currently playing, even when the
-  // current step is 0 and the displayed overall percentage still rounds to 0%.
+  // Merely opening a guide can persist route progress at step 0. Treat that as
+  // valid saved state, but not as evidence that the game is currently playing.
+  if (!startedRoutes.some(route => saved.progress[route.id] > 0)) return false;
+
+  // Real progress can still display as 0% overall when the guide is large, so
+  // use the saved step index rather than the rounded percentage.
   if (startedRoutes.length < guide.routes.length) return true;
 
   // Every route has been started, so load the authoritative route arrays to

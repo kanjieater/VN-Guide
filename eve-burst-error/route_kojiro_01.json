@@ -1,25 +1,25 @@
 [
   {
     "simpleJp": "見る・調べる",
-    "jpGuide1": "話す→茜×５",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
     "enGuide": ""
   },
   {
     "simpleJp": "あたりの様子",
-    "jpGuide1": "話す→茜×５",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
     "enGuide": ""
   },
   {
     "simpleJp": "茜",
-    "jpGuide1": "話す→茜×５",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
     "enGuide": ""
   },
   {
     "simpleJp": "カメラ",
-    "jpGuide1": "話す→茜×５",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
     "enGuide": ""
   },
@@ -91,7 +91,7 @@
   },
   {
     "simpleJp": "依頼のこと",
-    "jpGuide1": "聞く→依頼の事×４",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "聞く\n依頼のこと×5",
     "enGuide": ""
   },

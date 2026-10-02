@@ -75,7 +75,7 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
       };
     }
     if (request.includes("日本語-game/route_route.json")) {
-      return { ok: true, async json() { return [{}, {}, {}, {}]; } };
+      return { ok: true, async json() { return Array.from({ length: 1001 }, () => ({})); } };
     }
     if (request.includes("日本語-game/route_other.json")) {
       return { ok: true, async json() { return [{}, {}]; } };
@@ -141,7 +141,16 @@ test("landing app covers search, sorting, visits, guide state, filters, and card
 
   window.localStorage.setItem(
     encodedKey,
-    JSON.stringify({ progress: { route: 0 } })
+    JSON.stringify({ progress: { route: 0, other: 0 } })
+  );
+  await window.render();
+  text = window.document.getElementById("game-list").textContent;
+  assert.doesNotMatch(text, /日本語一/);
+  assert.doesNotMatch(text, /Roman Two/);
+
+  window.localStorage.setItem(
+    encodedKey,
+    JSON.stringify({ progress: { route: 1, other: 0 } })
   );
   await window.render();
   text = window.document.getElementById("game-list").textContent;

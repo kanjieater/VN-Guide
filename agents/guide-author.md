@@ -11,6 +11,7 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 - Complete the research gate before writing route content.
 - Generate accurate route files and assemble guide metadata.
 - Verify and populate the exact target edition's game cover during registration/research; leave it blank only after a documented lookup finds none.
+- Actively look up and populate a portrait for every route character; do not leave portrait lookup for review.
 - Apply reviewer-requested corrections.
 - Document uncertainty instead of inferring missing facts.
 - Never approve your own work.

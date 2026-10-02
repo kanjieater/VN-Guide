@@ -55,7 +55,7 @@ For the guide section under review, verify:
 - for an explicitly opted-in non-VN walkthrough, apply the canonical game-walkthrough `simpleJp` rules instead: literal choices/menu labels remain exact, while concise author-written Japanese is allowed for navigation, battles, talks, pickups, preparation, and similar non-choice actions;
 - useful available `enGuide` detail has not been silently dropped;
 - no contradictions across guide sections;
-- every route character has a directly verified portrait when a verifiable character image exists; a blank portrait is a finding unless research explicitly documents that an actual lookup found no suitable verifiable image;
+- every route character was actively checked for a portrait and has one when a verifiable character image exists; a blank portrait is a finding unless research explicitly documents that an actual lookup found no suitable verifiable image;
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
 - each present source excerpt is verbatim;
 - `（第一ガイドに記載なし）` is used only where the canonical omission rules permit it, including an exact fact whose valid owner-approved exception explicitly permits a missing Japanese lane;

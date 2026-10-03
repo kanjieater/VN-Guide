@@ -11,13 +11,13 @@
     {
       "id": "tsuzura",
       "title": "若杉葛ルート",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/09/12209.jpg"
     },
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     },
     {
@@ -29,7 +29,7 @@
     {
       "id": "nozomi",
       "title": "ノゾミルート",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/45/12245.jpg"
     }
   ],

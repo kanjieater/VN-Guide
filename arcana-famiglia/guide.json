@@ -3,12 +3,6 @@
   "vndb_id": "v8203",
   "routes": [
     {
-      "id": "liberta",
-      "title": "リベルタルート",
-      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
-      "reviewed": false
-    },
-    {
       "id": "parche",
       "title": "パーチェルート",
       "portrait": "https://t.vndb.org/ch/89/9089.jpg",
@@ -30,6 +24,12 @@
       "id": "nova",
       "title": "ノヴァルート",
       "portrait": "https://t.vndb.org/ch/90/9090.jpg",
+      "reviewed": false
+    },
+    {
+      "id": "liberta",
+      "title": "リベルタルート",
+      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
       "reviewed": false
     },
     {
@@ -98,7 +98,7 @@
       "notes": "Exact Rinato release announcement based on publisher information. Explicitly identifies Rinato as a port of the 2015 PS Vita Ancora release and enumerates the port changes as system/battle-presentation polish, higher-resolution graphics, new package art, and multilingual subtitles. It does not announce new or rewritten scenario/route content. This is strong target-applicability evidence for Ancora walkthrough structure, but it is not itself a Rinato choice-by-choice walkthrough."
     }
   ],
-  "generated_at": "2026-09-26T03:35:00Z",
+  "generated_at": "2026-10-08T06:52:08Z",
   "guide_target": {
     "label": "アルカナ・ファミリア Rinato（Nintendo Switch版）",
     "platform": "Nintendo Switch",

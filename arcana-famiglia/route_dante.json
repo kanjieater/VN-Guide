@@ -1231,6 +1231,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "ダンテED2",
+    "jpGuide1": "ダンテED2",
+    "jpGuide2": "ダンテED2",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ19にロード",
     "jpGuide1": "Save2より",
     "jpGuide2": "▶️SAVE2より",
@@ -1260,6 +1266,12 @@
     "simpleJp": "第１０のカード『ルオータ・デラ・フォルトゥナ』",
     "jpGuide1": "第１０のカード『ルオータ・デラ・フォルトゥナ』 → ノーマルED",
     "jpGuide2": "・第１０のカード『ルオータ・デラ・フォルトゥナ』 → ノーマルED",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノーマルED",
+    "jpGuide1": "ノーマルED",
+    "jpGuide2": "ノーマルED",
     "enGuide": ""
   },
   {
@@ -1349,6 +1361,12 @@
     "badEndPath": "ダンテED3"
   },
   {
+    "simpleJp": "ダンテED3",
+    "jpGuide1": "ダンテED3",
+    "jpGuide2": "ダンテED3",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ20にロード",
     "jpGuide1": "Save3より",
     "jpGuide2": "▶️SAVE3より",
@@ -1366,6 +1384,12 @@
     "simpleJp": "これからは２人の航海日誌を書こう！",
     "jpGuide1": "これからは２人の航海日誌を書こう！ → ダンテED1",
     "jpGuide2": "・これからは２人の航海日誌を書こう！ → ダンテED1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ダンテED1",
+    "jpGuide1": "ダンテED1",
+    "jpGuide2": "ダンテED1",
     "enGuide": ""
   },
   {
@@ -1405,6 +1429,12 @@
     "jpGuide2": "▶︎【デュエロ】失敗 → 敗北ED",
     "enGuide": "",
     "badEndPath": "敗北ED"
+  },
+  {
+    "simpleJp": "敗北ED",
+    "jpGuide1": "敗北ED",
+    "jpGuide2": "敗北ED",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ21にロード",

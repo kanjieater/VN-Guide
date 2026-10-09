@@ -972,6 +972,92 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "ダンテ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗ダンテ",
+    "enGuide": "",
+    "badEndPath": "デビトED2"
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私にもなにか......",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "デビト",
+    "jpGuide2": "▶︎【Select】デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "AAXYX",
+    "jpGuide1": "[デュエロ]××□△□(成功)",
+    "jpGuide2": "▶︎【デュエロ】AAXYX（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトED2",
+    "jpGuide1": "デビトED2",
+    "jpGuide2": "デビトED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
     "jpGuide2": "▶︎【MAP】デビト",
@@ -1049,6 +1135,12 @@
     "jpGuide2": "▶︎【デュエロ】失敗",
     "enGuide": "",
     "badEndPath": "デビトED3"
+  },
+  {
+    "simpleJp": "デビトED3",
+    "jpGuide1": "デビトED3",
+    "jpGuide2": "デビトED3",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ7にロード",

@@ -1092,6 +1092,86 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "誰かじゃなくて、みんなが大事......",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・誰かじゃなくて、みんなが大事......",
+    "enGuide": "",
+    "badEndPath": "ルカED2"
+  },
+  {
+    "simpleJp": "……パーパ",
+    "jpGuide1": "……パーパ",
+    "jpGuide2": "・......パーパ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパは......？",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・パーパは......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗ノヴァ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ",
+    "jpGuide1": "[MAP]訓練場(ルカ)",
+    "jpGuide2": "▶︎【MAP】ルカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "布は欲しいけど、ルカはどうかと思う",
+    "jpGuide1": "布は欲しいけどルカはどうかと思う",
+    "jpGuide2": "・布は欲しいけど、ルカはどうかと思う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんで怒るの？",
+    "jpGuide1": "なんで怒るの？",
+    "jpGuide2": "・なんで怒るの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ",
+    "jpGuide1": "ルカ",
+    "jpGuide2": "▶︎【Select】ルカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "AYAAXA",
+    "jpGuide1": "[デュエロ]×△××□×(成功)",
+    "jpGuide2": "▶︎【デュエロ】AYAAXA（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も、ルカが好き......",
+    "jpGuide1": "私も……ルカが好き",
+    "jpGuide2": "・私も、ルカが好き......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカED2",
+    "jpGuide1": "ルカED2",
+    "jpGuide2": "ルカED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ9にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "助けるために犠牲を出すのは嫌……",
     "jpGuide1": "助けるために犠牲を出すのは嫌……",
     "jpGuide2": "・助けるために犠牲を出すのは嫌......",
@@ -1162,6 +1242,12 @@
     "simpleJp": "息子さんは必ず幸せにします",
     "jpGuide1": "息子さんは必ず幸せにします → ルカED3",
     "jpGuide2": "・息子さんは必ず幸せにします → ルカED3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカED3",
+    "jpGuide1": "ルカED3",
+    "jpGuide2": "ルカED3",
     "enGuide": ""
   },
   {

@@ -1020,6 +1020,92 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "自分でつける......",
+    "jpGuide1": "自分でつける……",
+    "jpGuide2": "・自分でつける......",
+    "enGuide": "",
+    "badEndPath": "パーチェED2"
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私にもなにか......",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェ",
+    "jpGuide1": "パーチェ",
+    "jpGuide2": "▶︎【Select】パーチェ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "AXAAAY",
+    "jpGuide1": "[デュエロ]×□×××△(成功)",
+    "jpGuide2": "▶︎【デュエロ】AXAAAY（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェED2",
+    "jpGuide1": "パーチェED2",
+    "jpGuide2": "パーチェED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "イヤ……",
     "jpGuide1": "イヤ……",
     "jpGuide2": "・イヤ......",
@@ -1097,6 +1183,12 @@
     "jpGuide2": "▶︎【デュエロ】失敗",
     "enGuide": "",
     "badEndPath": "パーチェED3"
+  },
+  {
+    "simpleJp": "パーチェED3",
+    "jpGuide1": "パーチェED3",
+    "jpGuide2": "パーチェED3",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ4にロード",

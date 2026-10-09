@@ -1080,6 +1080,98 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "本がいっぱい......",
+    "jpGuide1": "本がいっぱい……",
+    "jpGuide2": "・本がいっぱい......",
+    "enGuide": "",
+    "badEndPath": "ノヴァED2"
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私にもなにか......",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァ",
+    "jpGuide1": "ノヴァ",
+    "jpGuide2": "▶︎【Select】ノヴァ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "AAAXXX",
+    "jpGuide1": "[デュエロ]×××□□□(成功)",
+    "jpGuide2": "▶︎【デュエロ】AAAXXX（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァのことが好き。ノヴァも私を好きでしょう？",
+    "jpGuide1": "ノヴァのことが好き。ノヴァも私を好きでしょう？",
+    "jpGuide2": "・ノヴァのことが好き。ノヴァも私を好きでしょう？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァED2",
+    "jpGuide1": "ノヴァED2",
+    "jpGuide2": "ノヴァED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "あのピアノは……？",
     "jpGuide1": "あのピアノは……？",
     "jpGuide2": "・あのピアノは......？",
@@ -1157,6 +1249,12 @@
     "jpGuide2": "▶︎【デュエロ】失敗",
     "enGuide": "",
     "badEndPath": "ノヴァED3"
+  },
+  {
+    "simpleJp": "ノヴァED3",
+    "jpGuide1": "ノヴァED3",
+    "jpGuide2": "ノヴァED3",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ13にロード",

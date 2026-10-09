@@ -1062,6 +1062,92 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "２人は相変わらず仲が良い",
+    "jpGuide1": "２人は相変わらず仲が良い",
+    "jpGuide2": "・２人は相変わらず仲が良い",
+    "enGuide": "",
+    "badEndPath": "リベルタED2"
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私にもなにか......",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "リベルタ",
+    "jpGuide2": "▶︎【Select】リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "AAAYYA",
+    "jpGuide1": "[デュエロ]×××△△×(成功)",
+    "jpGuide2": "▶︎【デュエロ】AAAYYA（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタED2",
+    "jpGuide1": "リベルタED2",
+    "jpGuide2": "リベルタED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "ダンテと約束って？",
     "jpGuide1": "ダンテと約束って？",
     "jpGuide2": "・ダンテと約束って？",
@@ -1132,6 +1218,26 @@
     "jpGuide1": "Save2",
     "jpGuide2": "🔽SAVE2",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "失敗",
+    "jpGuide1": "[デュエロ](失敗)",
+    "jpGuide2": "▶︎〖デュエロ〗失敗",
+    "enGuide": "",
+    "badEndPath": "リベルタED3"
+  },
+  {
+    "simpleJp": "リベルタED3",
+    "jpGuide1": "リベルタED3",
+    "jpGuide2": "リベルタED3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "Save2より",
+    "jpGuide2": "▶️SAVE2より",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "AAAYYA",

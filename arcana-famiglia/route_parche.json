@@ -1014,7 +1014,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ3",
+    "simpleJp": "セーブ1",
     "jpGuide1": "Save1",
     "jpGuide2": "▼SAVE1",
     "enGuide": ""
@@ -1099,7 +1099,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ3にロード",
+    "simpleJp": "セーブ1にロード",
     "jpGuide1": "Save1より",
     "jpGuide2": "▶️SAVE1より",
     "enGuide": "",
@@ -1172,7 +1172,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ4",
+    "simpleJp": "セーブ2",
     "jpGuide1": "Save2",
     "jpGuide2": "▼SAVE2",
     "enGuide": ""
@@ -1191,7 +1191,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ4にロード",
+    "simpleJp": "セーブ2にロード",
     "jpGuide1": "Save2より",
     "jpGuide2": "▶️SAVE2より",
     "enGuide": "",

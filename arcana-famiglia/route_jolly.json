@@ -978,6 +978,38 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "意外とよく食べる人なんだ......",
+    "jpGuide1": "意外とよく食べる人なんだ……",
+    "jpGuide2": "・意外とよく食べる人なんだ......",
+    "enGuide": "",
+    "badEndPath": "ジョーリィED2"
+  },
+  {
+    "simpleJp": "AAYAAX",
+    "jpGuide1": "[デュエロ]××△××□(成功)",
+    "jpGuide2": "▶︎〖デュエロ〗AAYAAX（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呼んでほしいな",
+    "jpGuide1": "呼んでほしいな",
+    "jpGuide2": "・呼んでほしいな",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジョーリィED2",
+    "jpGuide1": "ジョーリィED2",
+    "jpGuide2": "ジョーリィED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ15にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
     "simpleJp": "２人で食べるとおいしい！",
     "jpGuide1": "２人で食べるとおいしい！",
     "jpGuide2": "・２人で食べるとおいしい！",
@@ -995,6 +1027,12 @@
     "jpGuide2": "▶︎【デュエロ】失敗 → ジョーリィED3",
     "enGuide": "",
     "badEndPath": "ジョーリィED3"
+  },
+  {
+    "simpleJp": "ジョーリィED3",
+    "jpGuide1": "ジョーリィED3",
+    "jpGuide2": "ジョーリィED3",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ16にロード",

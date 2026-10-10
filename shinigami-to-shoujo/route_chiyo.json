@@ -50,6 +50,12 @@
     "badEnd": "バッドエンド"
   },
   {
+    "simpleJp": "バッドエンド",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "〖バッドエンド〗",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ10にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "SAVE5より",

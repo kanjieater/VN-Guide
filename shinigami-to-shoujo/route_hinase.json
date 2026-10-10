@@ -158,6 +158,12 @@
     "badEnd": "一章-終"
   },
   {
+    "simpleJp": "一章-終",
+    "jpGuide1": "一章-終",
+    "jpGuide2": "〖一章-終〗",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ2にロード",
     "jpGuide1": "▼SAVE１から",
     "jpGuide2": "SAVE1より",
@@ -227,6 +233,12 @@
     "badEnd": "一章-36 / バッドエンド"
   },
   {
+    "simpleJp": "一章-36",
+    "jpGuide1": "一章-36",
+    "jpGuide2": "〖バッドエンド〗",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ3にロード",
     "jpGuide1": "▼SAVE２から",
     "jpGuide2": "SAVE2より",
@@ -252,6 +264,12 @@
     "enGuide": "",
     "badEndPath": "バッドエンド",
     "badEnd": "バッドエンド"
+  },
+  {
+    "simpleJp": "バッドエンド",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "〖バッドエンド〗",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ4にロード",
@@ -587,6 +605,12 @@
     "badEnd": "日生-終2"
   },
   {
+    "simpleJp": "日生-終2",
+    "jpGuide1": "日生-終2",
+    "jpGuide2": "〖終２〗",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ6にロード",
     "jpGuide1": "▼SAVE３から",
     "jpGuide2": "SAVE4より",
@@ -626,6 +650,12 @@
     "badEnd": "日生-終1"
   },
   {
+    "simpleJp": "日生-終1",
+    "jpGuide1": "日生-終1(スチル有)",
+    "jpGuide2": "〖終１〗",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ7にロード",
     "jpGuide1": "▼SAVE４から",
     "jpGuide2": "SAVE5より",
@@ -636,6 +666,12 @@
     "simpleJp": "嘘を吐いて",
     "jpGuide1": "嘘を吐いて",
     "jpGuide2": "嘘を吐いて",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "日生エンド",
+    "jpGuide1": "日生-結末",
+    "jpGuide2": "〖ハッピーエンド〗",
     "enGuide": ""
   }
 ]

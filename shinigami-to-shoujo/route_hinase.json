@@ -38,13 +38,13 @@
   {
     "simpleJp": "袴姿の青年を気にする",
     "jpGuide1": "袴姿の青年を気にする",
-    "jpGuide2": "先程の声を気にする",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "死神に関して質問する",
     "jpGuide1": "死神に関して質問する",
-    "jpGuide2": "目の前の人物を疑う",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -104,7 +104,7 @@
   {
     "simpleJp": "妬いているのかと問う",
     "jpGuide1": "妬いているのかと問う",
-    "jpGuide2": "心配をしているのかと問う",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -128,7 +128,7 @@
   {
     "simpleJp": "このまま歩いている",
     "jpGuide1": "このまま歩いている",
-    "jpGuide2": "剣道場",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -209,7 +209,7 @@
   {
     "simpleJp": "日生先輩と桐島先輩の関係について",
     "jpGuide1": "日生先輩と桐島先輩の関係について",
-    "jpGuide2": "好きな食べ物について",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -287,7 +287,7 @@
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "礼を言う",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -305,13 +305,13 @@
   {
     "simpleJp": "断る",
     "jpGuide1": "断る",
-    "jpGuide2": "承諾する",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -365,7 +365,7 @@
   {
     "simpleJp": "息を吹きかける",
     "jpGuide1": "息を吹きかける",
-    "jpGuide2": "冷めるのを待つ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -383,91 +383,91 @@
   {
     "simpleJp": "宜しく頼む",
     "jpGuide1": "宜しく頼む",
-    "jpGuide2": "注意する",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "おにぎり弁当",
     "jpGuide1": "おにぎり弁当",
-    "jpGuide2": "サンドイッチ弁当",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "水で洗う",
     "jpGuide1": "水で洗う",
-    "jpGuide2": "切る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "止めておく",
     "jpGuide1": "止めておく",
-    "jpGuide2": "猫の手",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "猫の手",
     "jpGuide1": "猫の手",
-    "jpGuide2": "片栗粉",
+    "jpGuide2": "猫の手",
     "enGuide": ""
   },
   {
     "simpleJp": "片栗粉",
     "jpGuide1": "片栗粉",
-    "jpGuide2": "そのまま口にする",
+    "jpGuide2": "片栗粉",
     "enGuide": ""
   },
   {
     "simpleJp": "そのまま口にする",
     "jpGuide1": "そのまま口にする",
-    "jpGuide2": "遠慮する",
+    "jpGuide2": "そのまま口にする",
     "enGuide": ""
   },
   {
     "simpleJp": "食べさせてもらう",
     "jpGuide1": "食べさせてもらう",
-    "jpGuide2": "断る",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "夏帆にお弁当作りを頼む",
     "jpGuide1": "夏帆にお弁当作りを頼む",
-    "jpGuide2": "嫌いではない",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "嫌いではない",
     "jpGuide1": "嫌いではない",
-    "jpGuide2": "気にする",
+    "jpGuide2": "嫌いではない",
     "enGuide": ""
   },
   {
     "simpleJp": "気にする",
     "jpGuide1": "気にする",
-    "jpGuide2": "会釈する",
+    "jpGuide2": "気にする",
     "enGuide": ""
   },
   {
     "simpleJp": "微笑む",
     "jpGuide1": "微笑む",
-    "jpGuide2": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "いいえ",
     "jpGuide1": "いいえ",
-    "jpGuide2": "声をかける",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "声をかける",
     "jpGuide1": "声をかける",
-    "jpGuide2": "はい",
+    "jpGuide2": "声をかける",
     "enGuide": ""
   },
   {
     "simpleJp": "いいえ",
     "jpGuide1": "いいえ",
-    "jpGuide2": "考え込む",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -545,7 +545,7 @@
   {
     "simpleJp": "それでもいい",
     "jpGuide1": "それでもいい",
-    "jpGuide2": "それでは駄目だ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -575,13 +575,13 @@
   {
     "simpleJp": "お任せする",
     "jpGuide1": "お任せする",
-    "jpGuide2": "はい",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
@@ -620,7 +620,7 @@
   {
     "simpleJp": "はい",
     "jpGuide1": "はい",
-    "jpGuide2": "いいえ",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {

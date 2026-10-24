@@ -76,7 +76,7 @@
     "simpleJp": "Bad End『雫』（ED4）",
     "jpGuide1": "エンディングNo.4\nBad End\n『雫』",
     "jpGuide2": "No.4 雫",
-    "enGuide": ""
+    "enGuide": "After ED4, return to the title screen and begin a fresh New Game. This is the end of the separate ED4 playthrough; do not continue from the ending or invent a save/load. Follow the new opening choices below for the main Sakuya run."
   },
   {
     "simpleJp": "下調べもしたし大丈夫",
@@ -240,8 +240,8 @@
   {
     "simpleJp": "飛び出していた",
     "jpGuide1": "「飛び出していた」",
-    "jpGuide2": "飛び出していた",
-    "enGuide": ""
+    "jpGuide2": "・飛び出していた",
+    "enGuide": "A separate Japanese HD Remaster ED23 walkthrough (Lastcharles) prints 飛び出していた after 各個撃破は愚の骨頂, but takes 待てーっ！ → 止めない immediately before that sequence. This guide instead takes やめておく → 止める before Save16. Foxtail and XNEO omit the intermediate prompt from their ED23 paths. If this prompt appears, choose it; otherwise continue to いいよ……. Its appearance from this guide's exact Save16 state is unverified."
   },
   {
     "simpleJp": "いいよ……",
@@ -283,7 +283,7 @@
   },
   {
     "simpleJp": "Normal End『月へ向かう蝶』（ED26）",
-    "jpGuide1": "Normal End『月へ向かう蝶』（ED26）",
+    "jpGuide1": "エンディングNo.26\nBad End\n『月へ向かう蝶』",
     "jpGuide2": "No.26 月へ向かう蝶",
     "enGuide": ""
   },

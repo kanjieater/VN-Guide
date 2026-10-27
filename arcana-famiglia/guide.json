@@ -76,7 +76,7 @@
       "url": "https://vndb.org/v8203",
       "title": "Arcana Famiglia - VNDB entry v8203",
       "language": "en",
-      "notes": "Reference only. Confirms v8203 covers the original October 2011 PSP release (アルカナ・ファミリア -La storia della Arcana Famiglia-), the December 2015 PS Vita 'Ancora' port, and the July 2025 Nintendo Switch / 2026 Steam 'Rinato' re-release, all as the same title/entry — meaning Japanese guides for the PSP/Vita versions are valid sources for the Switch Rinato route structure and choice content."
+      "notes": "Reference only. VNDB v8203 groups the October 2011 PSP original, December 2015 PS Vita Ancora port, and July 2025 Nintendo Switch / 2026 Steam Rinato releases under one work. Sharing a VNDB work id does NOT prove identical route choices, exact prompt appearance, saved-state behavior, or release-specific walkthrough applicability. The Ancora/Vita guides are Set A comparators only; each material claim must be reconciled against the exact-target Rinato/Switch Set B and unresolved differences remain blocked as documented above."
     },
     {
       "url": "https://vndb.org/v8203/chars",
@@ -96,6 +96,54 @@
       "title": "「アルカナ・ファミリア Rinato」Switch版は7月24日に発売！ (Gamer)",
       "language": "ja",
       "notes": "Exact Rinato release announcement based on publisher information. Explicitly identifies Rinato as a port of the 2015 PS Vita Ancora release and enumerates the port changes as system/battle-presentation polish, higher-resolution graphics, new package art, and multilingual subtitles. It does not announce new or rewritten scenario/route content. This is strong target-applicability evidence for Ancora walkthrough structure, but it is not itself a Rinato choice-by-choice walkthrough."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2697.html",
+      "title": "アルカナ・ファミリア 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Independent supplemental index explicitly covering Rinato/Switch and Ancora/Vita; links all seven route walkthroughs. Not a replacement for primary Set A or Set B."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2739.html",
+      "title": "アルカナファミリア パーチェ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental complete Parche ED1–3 path: 4/3 proceeds directly to Luca MAP after 4/2 choices; 4/6 includes ちょっとおもしろそう, while 4/7 lists only the Parche MAP. The initial 4/1 choices differ from the current guide, so this is not an identical saved-state test."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2719.html",
+      "title": "アルカナファミリア デビト 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Debito ED1–3 path: 4/3 goes directly to Luca MAP, without an intervening second 何かあるの？. Earlier 4/1 choices differ from the guide, so exact same-state prompt absence is not proven."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2746.html",
+      "title": "アルカナファミリア ルカ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Luca ED1–3 path: 4/3 goes directly to Luca MAP, without a second 何かあるの？. Initial 4/1 choices differ; not identical-state proof."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2707.html",
+      "title": "アルカナファミリア ノヴァ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Nova ED1–3 path: 5/22 lists Nova MAP followed by ten choices, with no separate ……答えられない. Its early 4/1–4/3 decisions differ materially from the current guide, so not same-state proof."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2696.html",
+      "title": "アルカナファミリア リベルタ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Liberta ED1–3 path: 4/3 proceeds to Luca MAP without second 何かあるの？. On 4/12 it selects a Liberta chance encounter, not the guide's Luca-map state, so cannot adjudicate the omitted コンフェットゥーラ prompt."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2761.html",
+      "title": "アルカナファミリア ジョーリィ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Jolly ED1–3 and Famiglia ED path: 4/3 goes directly to Luca MAP without second 何かあるの？. 4/1 mostly aligns but 4/2 closing answer differs from the guide, preventing same-state inference."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2754.html",
+      "title": "アルカナファミリア ダンテ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Dante ED1–3 and Normal ED path: 4/3 goes directly to Luca MAP. Normal ED (Switch版) explicitly starts from the author's Save1 (5/26), changes the 5/27–5/31 MAP visits, then prints 6/1 duel XXXYAX(Switch版) → 何も失いたくない。でも、パーパも失えない → 第10のカード. A separate Vita Normal ED section also prints the prompt. This directly contradicts an assertion of universal Switch omission, but the preceding Save1 path is not equivalent to this guide's Save14 / ruRi Save2 skip state; same-state appearance remains unverified."
     }
   ],
   "generated_at": "2026-10-08T06:52:08Z",

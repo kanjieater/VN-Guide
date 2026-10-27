@@ -1,0 +1,344 @@
+[
+  {
+    "simpleJp": "START",
+    "jpGuide1": "《START》から開始",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Choose START (new game) on the title screen. This first playthrough is always 【Silent sky】."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●スク水＋メガネだよね！\nYES",
+    "jpGuide2": "スク水+メガネだよね！：YES",
+    "enGuide": "Statement 「スク水＋メガネだよね！」 (Swimsuit plus glasses, right?): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●胸に名札が付いていなきゃスク水じゃない！\nYES",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 「胸に名札が付いていなきゃスク水じゃない！」 (It isn't a school swimsuit without a name tag on the chest!): answer YES."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●白スク水はあり得ない。スク水と行ったら紺色だろ！\nNO",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 「白スク水はあり得ない。スク水と行ったら紺色だろ！」 (A white one is out of the question. School swimsuit means navy blue!): answer NO."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１(すっかり盛り上がっている)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー1：翠明学園(教室)【三住】\nポジティブ：なし\nネガティブ：なし\n妄想しない：CG、その目だれの目",
+    "enGuide": "Delusion trigger 1 (the text starts 「すっかり盛り上がっている」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２(コーラしかないじゃーん。)\n※トリガーの終了が早いので注意\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー2：ベース【七海】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 2 (the text starts 「コーラしかないじゃーん。」): press LT (Z key) for positive delusion (green). The trigger window ends quickly, so press right away."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３(……！)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー3：渋谷(交差点)【優愛】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 3 (the text starts 「……！」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー４(………)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー4：ベース【優愛】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 4 (the text starts 「………」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー５(ちょっと、)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー5：松濤公園【優愛】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 5 (the text starts 「ちょっと、」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー６(僕の最初の担当医は、)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー6：AH東京総合病院(待合室)\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 6 (the text starts 「僕の最初の担当医は、」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー７(タッキー、外出嫌いなのに)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー7：AH東京総合病院(診察室)【高科、葉月】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 7 (the text starts 「タッキー、外出嫌いなのに」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "チェックシート",
+    "jpGuide1": "●チェックシ－ト\n全てチェック無しでＯＫを押す。",
+    "jpGuide2": "全て選択せずに提出、クリア後に追加されるTIPS142を見るとトロフィー/実績「リア充」獲得",
+    "enGuide": "Check sheet (チェックシート): leave EVERY box unticked, then press OK."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー８(僕を、見た。)\nLTボタン(ポジティブ妄想)緑\n※2章その目だれの目フラグ① 累計１",
+    "jpGuide2": "■妄想トリガー8：ライブハウス(GIGANTES内)【三住、あやせ】\nポジティブ：CG、その目だれの目\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 8 (the text starts 「僕を、見た。」): press LT (Z key) for positive delusion (green). Gives a 「その目だれの目」 flag (Set A running total 1); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー９(ねえ、ナイトハルト、)\n※トリガーの終了が早いので注意\nLTボタン(ポジティブ妄想)緑\n※2章その目だれの目フラグ② 累計2",
+    "jpGuide2": "■妄想トリガー9：ベース\nポジティブ：その目だれの目\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 9 (the text starts 「ねえ、ナイトハルト、」): press LT (Z key) for positive delusion (green). The trigger window ends quickly, so press right away. Gives a 「その目だれの目」 flag (Set A running total 2); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１０(ホントに剣を振り回した！)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー10：渋谷センター街【セナ】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 10 (the text starts 「ホントに剣を振り回した！」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１１(FESは、)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー11：翠明学園(廊下)【三住、あやせ】\nポジティブ：なし\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 11 (the text starts 「FESは、」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１２(──その目だれの目？くそ、ウザイ……。)\nLTボタン(ポジティブ妄想)緑\n※3章その目だれの目フラグ① 累計3",
+    "jpGuide2": "■妄想トリガー12：ベース【梨深】\nポジティブ：CG、その目だれの目\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 12 (the text starts 「──その目だれの目？くそ、ウザイ……。」): press LT (Z key) for positive delusion (green). Gives a 「その目だれの目」 flag (Set A running total 3); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１２Ａ(すると確かにそこにいた。)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー13：翠明学園(教室)【三住、梨深、梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 12A (the text starts 「すると確かにそこにいた。」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１３(履歴にはわずか５つ)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー14：翠明学園(屋上)\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 13 (the text starts 「履歴にはわずか５つ」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１４(──だれも、いなかった。)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー15：コンビニ(LANSOW)\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 14 (the text starts 「──だれも、いなかった。」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１５(…………)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー16：翠明学園(教室)【三住、梨深、梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 15 (the text starts 「…………」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１６(その剣の代わりに、)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー17：渋谷駅前(スクランブル交差点)【セナ】\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 16 (the text starts 「その剣の代わりに、」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１７(狭い個室内。)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー18：＠カフェ【優愛】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 17 (the text starts 「狭い個室内。」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１８(警察……)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー19：宮下公園\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 18 (the text starts 「警察……」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー１９(僕はなおも荒い呼吸を)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー20：地下道【あやせ】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 19 (the text starts 「僕はなおも荒い呼吸を」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２０(例えば、)\nLTボタン(ポジティブ妄想)緑\n※5章その目だれの目フラグ① 累計4",
+    "jpGuide2": "■妄想トリガー21：翠明学園(教室)【梨深】\nポジティブ：CG、その目だれの目\nネガティブ：なし\n妄想しない：CG",
+    "enGuide": "Delusion trigger 20 (the text starts 「例えば、」): press LT (Z key) for positive delusion (green). Gives a 「その目だれの目」 flag (Set A running total 4); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２１(僕の肩に手を)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー22：CDショップ(MHV)【梨深】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 21 (the text starts 「僕の肩に手を」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２２(いやいやいや。)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー23：ベース【梨深】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 22 (the text starts 「いやいやいや。」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２３(フ、フ、フラグキタァ)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー24：ベース【梨深】\nポジティブ：CG\nネガティブ：CG\n妄想しない：CG",
+    "enGuide": "Delusion trigger 23 (the text starts 「フ、フ、フラグキタァ」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２４(……っ)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー25：翠明学園(昇降口)【梢、梨深】\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 24 (the text starts 「……っ」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２５(落胆して、)\nLTボタン(ポジティブ妄想)緑\n※6章その目だれの目フラグ① 累計5",
+    "jpGuide2": "■妄想トリガー26：ベース\nポジティブ：その目だれの目\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 25 (the text starts 「落胆して、」): press LT (Z key) for positive delusion (green). Gives a 「その目だれの目」 flag (Set A running total 5); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２６(お前だな？)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー27：松濤公園【セナ】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 26 (the text starts 「お前だな？」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２７(誰の、ケータイが、)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー28：ベース\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 27 (the text starts 「誰の、ケータイが、」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２８(なんで僕なんかに)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー29：O-FRONT(屋上)【将軍、星来】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 28 (the text starts 「なんで僕なんかに」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "※選択ミスをするとBADEND\n●剣が見えた\nYES",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Di-Sword quiz, statement 1 of 5 (the first statement is worded the same in every set): 「剣が見えた」 (\"I saw a sword\"). A wrong answer ends the game, and the game shows one of three statement sets, so read the wording first. Answers by set: set Z (the Steam chart; later statements はっきりと剣が見えた / なんとなく剣に見えただけ) = YES; set Y (はっきりと剣が見えた / ここから動けるなら取りに行ける) = YES; set X (剣っぽいものは見えた / 幻覚としては見えた) = NO. Set X is printed by gameline.jp (Set B); set Y by fllayg (PSP port), the Trivial Achievements wiki (Xbox 360 era), the Gorilla wiki chapter-6 page (no platform stated) and a PSP play log; set Z only by Set A, the Steam chart. This step follows set Z, the Steam-specific chart; which set the Steam build actually shows is unconfirmed."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●はっきりと剣が見えた\nNO",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 2 of 5. Set Z/Y: 「はっきりと剣が見えた」 (\"I clearly saw a sword\"): set Z = NO, set Y = YES. Set X: 「剣っぽいものは見えた」 (\"I saw something sword-like\") = NO. This step follows set Z."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●なんとなく剣に見えただけ\nYES",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 3 of 5. Set Z: 「なんとなく剣に見えただけ」 (\"It only vaguely looked like a sword\") = YES. Set Y: 「ここから動けるなら取りに行ける」 (\"If I could move from here I could go and get it\") = NO. Set X: 「幻覚としては見えた」 (\"I saw it as a hallucination\") = YES. This step follows set Z."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●ここ以外の場所でもその剣は見える\nNO",
+    "jpGuide2": "ここ以外の場所でもその剣は見える：NO",
+    "enGuide": "Statement 4 of 5: 「ここ以外の場所でもその剣は見える」 (\"I can see that sword from other places too\") = NO in all three sets."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●実際にはそれは剣じゃない\nYES",
+    "jpGuide2": "実際にはそれは剣じゃない：YES",
+    "enGuide": "Statement 5 of 5: 「実際にはそれは剣じゃない」 (\"It is not actually a sword\") = YES in all three sets. The nanami section is the only one that skips this quiz."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー２９(…………)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー30：O-FRONT(屋上)【将軍、星来】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 29 (the text starts 「…………」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３０(それにしても)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー31：大学病院(病室)【葉月】\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 30 (the text starts 「それにしても」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３１(もう、学校に来る理由)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー32：翠明学園(教室)【三住、梢】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 31 (the text starts 「もう、学校に来る理由」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３２(5分くらいなのら)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー33：渋谷(交差点)【梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 32 (the text starts 「5分くらいなのら」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３３(セナやあやせが持っていたものと)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー34：総合雑貨店(Roft)【梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 33 (the text starts 「セナやあやせが持っていたものと」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３４(あ、あの……)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー35：渋谷(交番前)【梢、セナ】\nポジティブ：CG\nネガティブ：CG、その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 34 (the text starts 「あ、あの……」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３５(ソファに座って)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー36：ベース【梨深】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 35 (the text starts 「ソファに座って」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３６(その病室は六畳ほど)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー37：AH東京総合病院(あやせの病室)\nポジティブ：CG\nネガティブ：なし\n妄想しない：CG、その目だれの目",
+    "enGuide": "Delusion trigger 36 (the text starts 「その病室は六畳ほど」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３７(グラジオール)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー38：AH東京総合病院(あやせの病室)【三住、あやせ】\nポジティブ：CG\nネガティブ：CG、その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 37 (the text starts 「グラジオール」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３８(たはは。なんだ、)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー39：AH東京総合病院(待合室)【梨深、三住】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 38 (the text starts 「たはは。なんだ、」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー３９(あ、の……)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー40：ベース(屋上)【梨深、セナ、梢】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 39 (the text starts 「あ、の……」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー４０(少なくともあのとき、)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー41：下北沢(実家前)【梨深】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 40 (the text starts 「少なくともあのとき、」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー４１(僕は死んだ方が)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー42：山手通り\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 41 (the text starts 「僕は死んだ方が」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー４２(それでも今の僕には)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー43：ベース\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 42 (the text starts 「それでも今の僕には」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "◆セーブ08",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Save slot 1 (Set A ◆セーブ08): chapter 9, just before delusion trigger 43. Optional: this save is only used by the negative-delusion collection run, which this guide does not include. Do not make the other saves on this run; first-run saves cannot be used on the second run on PC."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー４３(この声……)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー44：ベース【七海】\nポジティブ：CG、その目だれの目\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 43 (the text starts 「この声……」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー４４(リベンジってこと)\nLTボタン(ポジティブ妄想)緑",
+    "jpGuide2": "■妄想トリガー45：渋谷駅前(スクランブル交差点)【星来、拓巳、葉月】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 44 (the text starts 「リベンジってこと」): press LT (Z key) for positive delusion (green)."
+  },
+  {
+    "simpleJp": "ノーマルEND【Silent sky】",
+    "jpGuide1": "ノーマルEND【Silent sky】",
+    "jpGuide2": "エンディングA",
+    "enGuide": "Ending A (normal END). It unlocks the heroine routes and 【crying sky】. The next section starts again from the title screen."
+  }
+]

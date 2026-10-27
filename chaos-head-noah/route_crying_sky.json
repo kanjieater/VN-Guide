@@ -1,0 +1,104 @@
+[
+  {
+    "simpleJp": "セーブ8にロード",
+    "jpGuide1": "◆セーブ07から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Load slot 8 (Set A ◆セーブ07): start of chapter 7, before delusion trigger 30."
+  },
+  {
+    "simpleJp": "ネガティブ妄想",
+    "jpGuide1": "☆妄想トリガー３０(それにしても)\nRTボタン(ネガティブ妄想)赤\n※7章その目だれの目フラグ① 累計6",
+    "jpGuide2": "■妄想トリガー31：大学病院(病室)【葉月】\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 30 (the text starts 「それにしても」): press RT (C key) for negative delusion (red). Gives a 「その目だれの目」 flag (Set A running total 6); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３１(もう、学校に来る理由)\n妄想しない",
+    "jpGuide2": "■妄想トリガー32：翠明学園(教室)【三住、梢】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 31 (the text starts 「もう、学校に来る理由」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３２(5分くらいなのら)\n妄想しない",
+    "jpGuide2": "■妄想トリガー33：渋谷(交差点)【梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 32 (the text starts 「5分くらいなのら」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３３セナやあやせが)\n妄想しない",
+    "jpGuide2": "■妄想トリガー34：総合雑貨店(Roft)【梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 33 (the text starts 「セナやあやせが」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "ネガティブ妄想",
+    "jpGuide1": "☆妄想トリガー３４(あ、あの……)\nRTボタン(ネガティブ妄想)赤\n※7章その目だれの目フラグ② 累計7",
+    "jpGuide2": "■妄想トリガー35：渋谷(交番前)【梢、セナ】\nポジティブ：CG\nネガティブ：CG、その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 34 (the text starts 「あ、あの……」): press RT (C key) for negative delusion (red). Gives a 「その目だれの目」 flag (Set A running total 7); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３５(ソファに座って)\n妄想しない",
+    "jpGuide2": "■妄想トリガー36：ベース【梨深】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 35 (the text starts 「ソファに座って」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３６(その病室は六畳ほど)\n妄想しない\n※8章その目だれの目フラグ① 累計8",
+    "jpGuide2": "■妄想トリガー37：AH東京総合病院(あやせの病室)\nポジティブ：CG\nネガティブ：なし\n妄想しない：CG、その目だれの目",
+    "enGuide": "Delusion trigger 36 (the text starts 「その病室は六畳ほど」): press neither LT nor RT (no delusion). Gives a 「その目だれの目」 flag (Set A running total 8); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "ネガティブ妄想",
+    "jpGuide1": "☆妄想トリガー３７(グラジオール)\nRTボタン(ネガティブ妄想)赤\n※8章その目だれの目フラグ② 累計9",
+    "jpGuide2": "■妄想トリガー38：AH東京総合病院(あやせの病室)【三住、あやせ】\nポジティブ：CG\nネガティブ：CG、その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 37 (the text starts 「グラジオール」): press RT (C key) for negative delusion (red). Gives a 「その目だれの目」 flag (Set A running total 9); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３８(たはは。なんだ、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー39：AH東京総合病院(待合室)【梨深、三住】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 38 (the text starts 「たはは。なんだ、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３９(あ、の……)\n妄想しない",
+    "jpGuide2": "■妄想トリガー40：ベース(屋上)【梨深、セナ、梢】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 39 (the text starts 「あ、の……」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "ネガティブ妄想",
+    "jpGuide1": "☆妄想トリガー４０(少なくともあのとき、)\nRTボタン(ネガティブ妄想)赤",
+    "jpGuide2": "■妄想トリガー41：下北沢(実家前)【梨深】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 40 (the text starts 「少なくともあのとき、」): press RT (C key) for negative delusion (red)."
+  },
+  {
+    "simpleJp": "ネガティブ妄想",
+    "jpGuide1": "☆妄想トリガー４１(僕は死んだ方が)\nRTボタン(ネガティブ妄想)赤",
+    "jpGuide2": "■妄想トリガー42：山手通り\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 41 (the text starts 「僕は死んだ方が」): press RT (C key) for negative delusion (red)."
+  },
+  {
+    "simpleJp": "ネガティブ妄想",
+    "jpGuide1": "☆妄想トリガー４２(それでも今の僕には)\nRTボタン(ネガティブ妄想)赤",
+    "jpGuide2": "■妄想トリガー43：ベース\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 42 (the text starts 「それでも今の僕には」): press RT (C key) for negative delusion (red)."
+  },
+  {
+    "simpleJp": "ポジティブ妄想",
+    "jpGuide1": "☆妄想トリガー４３(この声……)\nLTボタン(ポジティブ妄想)緑\n※9章その目だれの目フラグ① 累計10",
+    "jpGuide2": "■妄想トリガー44：ベース【七海】\nポジティブ：CG、その目だれの目\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 43 (the text starts 「この声……」): press LT (Z key) for positive delusion (green). Gives a 「その目だれの目」 flag (Set A running total 10); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー４４(リベンジってこと)\n妄想しない\n※9章その目だれの目フラグ② 累計11\n※その目だれの目フラグ一定数必須",
+    "jpGuide2": "■妄想トリガー45：渋谷駅前(スクランブル交差点)【星来、拓巳、葉月】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 44 (the text starts 「リベンジってこと」): press neither LT nor RT (no delusion). Gives a 「その目だれの目」 flag (Set A running total 11); 【crying sky】 needs at least 10 by the end of chapter 9. Gives a 「その目だれの目」 flag (Set A running total ?); 【crying sky】 needs at least 10 by the end of chapter 9."
+  },
+  {
+    "simpleJp": "GOOD END【crying sky】",
+    "jpGuide1": "GOOD END【crying sky】",
+    "jpGuide2": "エンディングB",
+    "enGuide": "GOOD END 【crying sky】 (Ending B). It needs at least 10 「その目だれの目」 flags in total (Set B); this chart collects 11. The atwiki Q&A puts the requirement at roughly 70% or more of the 18 flag triggers (about 13), so if the ending does not appear, repeat the run collecting every flag."
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "simpleJp": "blue sky",
+    "jpGuide1": "他の全END後に\nタイトル画面より　【blue sky】を開始",
+    "jpGuide2": "【blue sky】以外の全エンディング(各ヒロインルート含む)を見ると、タイトル画面から新たに選択可能。",
+    "enGuide": "After every other ending has been seen, choose 【blue sky】 on the title screen. If any answer below is wrong the game returns to 【Silent sky】 (Set B)."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●きみはぼく\nYES",
+    "jpGuide2": "“きみはぼく。”：YES",
+    "enGuide": "Statement 「きみはぼく」 (You are me): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●ぼくはきみ\nYES",
+    "jpGuide2": "“ぼくはきみ。”：YES",
+    "enGuide": "Statement 「ぼくはきみ」 (I am you): answer YES."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●ぼくなんて、いない\nNO",
+    "jpGuide2": "“ぼくなんて、いない。”：NO",
+    "enGuide": "Statement 「ぼくなんて、いない」 (There is no me): answer NO."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●きみなんて、いない\nNO",
+    "jpGuide2": "“きみなんて、いない。”：NO",
+    "enGuide": "Statement 「きみなんて、いない」 (There is no you): answer NO."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●ぼくはぼくじゃない\nNO",
+    "jpGuide2": "“ぼくはぼくじゃない。”：NO",
+    "enGuide": "Statement 「ぼくはぼくじゃない」 (I am not me): answer NO."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●あなたは、おにぃ\nYES",
+    "jpGuide2": "“あなたは、おにぃ”：YES",
+    "enGuide": "Statement 「あなたは、おにぃ」 (You are big brother): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●あなたは、にしじょうくん\nYES",
+    "jpGuide2": "“あなたは、にしじょうくん”：YES",
+    "enGuide": "Statement 「あなたは、にしじょうくん」 (You are Nishijou-kun): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●きみは、たくみ\nYES",
+    "jpGuide2": "“きみは、たくみ”：YES",
+    "enGuide": "Statement 「きみは、たくみ」 (You are Takumi): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●あなたは、たくみしゃん\nYES",
+    "jpGuide2": "“あなたは、たくみしゃん”：YES",
+    "enGuide": "Statement 「あなたは、たくみしゃん」 (You are Takumi-shan): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●おまえは、にしじょう\nYES",
+    "jpGuide2": "“おまえは、にしじょう”：YES",
+    "enGuide": "Statement 「おまえは、にしじょう」 (You are Nishijou): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●あなたは、たく\nYES",
+    "jpGuide2": "“あなたは、たく”：YES",
+    "enGuide": "Statement 「あなたは、たく」 (You are Taku): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●ぼくはぼく。\nYES",
+    "jpGuide2": "“ぼくはぼく。”：YES",
+    "enGuide": "Statement 「ぼくはぼく。」 (I am me): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●ぼくは、妄想のそんざい。\nYES",
+    "jpGuide2": "“ぼくは、妄想のそんざい。”：YES",
+    "enGuide": "Statement 「ぼくは、妄想のそんざい。」 (I am a being of delusion): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●僕は、存在する。\nYES",
+    "jpGuide2": "“僕は、存在する。”：YES",
+    "enGuide": "Statement 「僕は、存在する。」 (I exist): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●僕は、西條拓巳。\nYES",
+    "jpGuide2": "“僕は、西條拓巳。”：YES",
+    "enGuide": "Statement 「僕は、西條拓巳。」 (I am Nishijou Takumi): answer YES."
+  },
+  {
+    "simpleJp": "TRUE END【blue sky】",
+    "jpGuide1": "TRUE END【blue sky】　※この時点でCG回収率99％",
+    "jpGuide2": "エンディングC",
+    "enGuide": "TRUE END 【blue sky】 (Ending C). Set A: CG completion is at 99% at this point."
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "◆セーブ01から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Load slot 2 (Set A ◆セーブ01): start of chapter 1, before the first statement."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●スク水＋メガネだよね！\nNO",
+    "jpGuide2": "スク水+メガネだよね！：NO",
+    "enGuide": "Statement 「スク水＋メガネだよね！」 (Swimsuit plus glasses, right?): answer NO."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●スク水より競泳水着だろ！\nYES",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 「スク水より競泳水着だろ！」 (A racing swimsuit beats a school swimsuit!): answer YES."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●スイミングキャップはもちろん装備！\nNO",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 「スイミングキャップはもちろん装備！」 (A swim cap, of course!): answer NO."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１(すっかり盛り上がっている)\n妄想しない",
+    "jpGuide2": "■妄想トリガー1：翠明学園(教室)【三住】\n【妄想しない】(2周目以降) → 優愛ルートへ",
+    "enGuide": "Delusion trigger 1 (the text starts 「すっかり盛り上がっている」): press neither LT nor RT (no delusion). This is the route-defining trigger for this section."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●こんなのただの偶然だ\nNO",
+    "jpGuide2": "こんなのただの偶然だ：NO",
+    "enGuide": "Statement 「こんなのただの偶然だ」 (This is just a coincidence): answer NO."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●これはきっと目の錯覚だ\nNO",
+    "jpGuide2": "これはきっと目の錯覚だ：NO",
+    "enGuide": "Statement 「これはきっと目の錯覚だ」 (This must be an optical illusion): answer NO."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●犯人はこの学園内にいる\nYES",
+    "jpGuide2": "犯人はこの学園内にいる：YES",
+    "enGuide": "Statement 「犯人はこの学園内にいる」 (The culprit is inside this school): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●僕を挑発しているんだ\nYES",
+    "jpGuide2": "僕を挑発しているんだ：YES",
+    "enGuide": "Statement 「僕を挑発しているんだ」 (It is provoking me): answer YES."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●今すぐあれを消したい\nYES",
+    "jpGuide2": "今すぐあれを消したい：YES",
+    "enGuide": "Statement 「今すぐあれを消したい」 (I want to erase that right now): answer YES. This answer locks the route (Set A: ※優愛ルート確定)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２(コーラしかないじゃーん。)\n妄想しない",
+    "jpGuide2": "■妄想トリガー2：ベース【七海】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 2 (the text starts 「コーラしかないじゃーん。」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３(……！)\n妄想しない",
+    "jpGuide2": "■妄想トリガー3：渋谷(交差点)【優愛】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 3 (the text starts 「……！」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー４(………)\n妄想しない",
+    "jpGuide2": "■妄想トリガー4：ベース【優愛】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 4 (the text starts 「………」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "ネガティブ妄想",
+    "jpGuide1": "☆妄想トリガー５(ちょっと、)\nRTボタン(ネガティブ妄想)赤",
+    "jpGuide2": "■妄想トリガー5：松濤公園【優愛】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 5 (the text starts 「ちょっと、」): press RT (C key) for negative delusion (red). From here on skip every delusion trigger (no delusion). Tip: switching off the setting that stops skipping at delusion triggers makes read-skip easier (Set A)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー６(僕の最初の担当医は、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー6：AH東京総合病院(待合室)\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 6 (the text starts 「僕の最初の担当医は、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー７(タッキー)\n妄想しない",
+    "jpGuide2": "■妄想トリガー7：AH東京総合病院(診察室)【高科、葉月】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 7 (the text starts 「タッキー」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "チェックシート",
+    "jpGuide1": "●チェックシ－ト\nチェック無しでＯＫを押す。",
+    "jpGuide2": "全て選択せずに提出、クリア後に追加されるTIPS142を見るとトロフィー/実績「リア充」獲得",
+    "enGuide": "Check sheet (チェックシート): leave EVERY box unticked, then press OK."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー８(僕を、見た。)\n妄想しない",
+    "jpGuide2": "■妄想トリガー8：ライブハウス(GIGANTES内)【三住、あやせ】\nポジティブ：CG、その目だれの目\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 8 (the text starts 「僕を、見た。」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー９(ねえ、ナイトハルト、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー9：ベース\nポジティブ：その目だれの目\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 9 (the text starts 「ねえ、ナイトハルト、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１０(ホントに剣を振り回した！)\n妄想しない",
+    "jpGuide2": "■妄想トリガー10：渋谷センター街【セナ】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 10 (the text starts 「ホントに剣を振り回した！」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１１(FESは、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー11：翠明学園(廊下)【三住、あやせ】\nポジティブ：なし\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 11 (the text starts 「FESは、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１２(──その目だれの目？くそ、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー12：ベース【梨深】\nポジティブ：CG、その目だれの目\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 12 (the text starts 「──その目だれの目？くそ、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１２Ａ(すると確かにそこにいた。)\n妄想しない",
+    "jpGuide2": "■妄想トリガー13：翠明学園(教室)【三住、梨深、梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 12A (the text starts 「すると確かにそこにいた。」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１３(履歴にはわずか５つ)\n妄想しない",
+    "jpGuide2": "■妄想トリガー14：翠明学園(屋上)\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 13 (the text starts 「履歴にはわずか５つ」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１４(──だれも、いなかった。)\n妄想しない",
+    "jpGuide2": "■妄想トリガー15：コンビニ(LANSOW)\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 14 (the text starts 「──だれも、いなかった。」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１５(…………)\n妄想しない",
+    "jpGuide2": "■妄想トリガー16：翠明学園(教室)【三住、梨深、梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 15 (the text starts 「…………」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１６(その剣の代わりに、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー17：渋谷駅前(スクランブル交差点)【セナ】\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 16 (the text starts 「その剣の代わりに、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１７(狭い個室内。)\n妄想しない",
+    "jpGuide2": "■妄想トリガー18：＠カフェ【優愛】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 17 (the text starts 「狭い個室内。」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１８(警察……)\n妄想しない",
+    "jpGuide2": "■妄想トリガー19：宮下公園\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 18 (the text starts 「警察……」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー１９(僕はなおも荒い呼吸を)\n妄想しない",
+    "jpGuide2": "■妄想トリガー20：地下道【あやせ】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 19 (the text starts 「僕はなおも荒い呼吸を」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２０(例えば、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー21：翠明学園(教室)【梨深】\nポジティブ：CG、その目だれの目\nネガティブ：なし\n妄想しない：CG",
+    "enGuide": "Delusion trigger 20 (the text starts 「例えば、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２１(僕の肩に手を)\n妄想しない",
+    "jpGuide2": "■妄想トリガー22：CDショップ(MHV)【梨深】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 21 (the text starts 「僕の肩に手を」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２２(いやいやいや。)\n妄想しない",
+    "jpGuide2": "■妄想トリガー23：ベース【梨深】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 22 (the text starts 「いやいやいや。」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２３(フ、フ、フラグキタァ)\n妄想しない",
+    "jpGuide2": "■妄想トリガー24：ベース【梨深】\nポジティブ：CG\nネガティブ：CG\n妄想しない：CG",
+    "enGuide": "Delusion trigger 23 (the text starts 「フ、フ、フラグキタァ」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２４(……っ)\n妄想しない",
+    "jpGuide2": "■妄想トリガー25：翠明学園(昇降口)【梢、梨深】\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 24 (the text starts 「……っ」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２５(落胆して、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー26：ベース\nポジティブ：その目だれの目\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 25 (the text starts 「落胆して、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２６(お前だな？)\n妄想しない",
+    "jpGuide2": "■妄想トリガー27：松濤公園【セナ】\nポジティブ：CG\nネガティブ：CG\n妄想しない：なし",
+    "enGuide": "Delusion trigger 26 (the text starts 「お前だな？」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２７(誰の、ケータイが、)\n妄想しない",
+    "jpGuide2": "■妄想トリガー28：ベース\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 27 (the text starts 「誰の、ケータイが、」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２８(なんで僕なんかに)\n妄想しない",
+    "jpGuide2": "■妄想トリガー29：O-FRONT(屋上)【将軍、星来】\nポジティブ：なし\nネガティブ：なし\n妄想しない：その目だれの目",
+    "enGuide": "Delusion trigger 28 (the text starts 「なんで僕なんかに」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "※選択ミスをするとBADEND\n●剣が見えた\nYES",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Di-Sword quiz, statement 1 of 5 (the first statement is worded the same in every set): 「剣が見えた」 (\"I saw a sword\"). A wrong answer ends the game, and the game shows one of three statement sets, so read the wording first. Answers by set: set Z (the Steam chart; later statements はっきりと剣が見えた / なんとなく剣に見えただけ) = YES; set Y (はっきりと剣が見えた / ここから動けるなら取りに行ける) = YES; set X (剣っぽいものは見えた / 幻覚としては見えた) = NO. Set X is printed by gameline.jp (Set B); set Y by fllayg (PSP port), the Trivial Achievements wiki (Xbox 360 era), the Gorilla wiki chapter-6 page (no platform stated) and a PSP play log; set Z only by Set A, the Steam chart. This step follows set Z, the Steam-specific chart; which set the Steam build actually shows is unconfirmed."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●はっきりと剣が見えた\nNO",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 2 of 5. Set Z/Y: 「はっきりと剣が見えた」 (\"I clearly saw a sword\"): set Z = NO, set Y = YES. Set X: 「剣っぽいものは見えた」 (\"I saw something sword-like\") = NO. This step follows set Z."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●なんとなく剣に見えただけ\nYES",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Statement 3 of 5. Set Z: 「なんとなく剣に見えただけ」 (\"It only vaguely looked like a sword\") = YES. Set Y: 「ここから動けるなら取りに行ける」 (\"If I could move from here I could go and get it\") = NO. Set X: 「幻覚としては見えた」 (\"I saw it as a hallucination\") = YES. This step follows set Z."
+  },
+  {
+    "simpleJp": "NO",
+    "jpGuide1": "●ここ以外の場所でもその剣は見える\nNO",
+    "jpGuide2": "ここ以外の場所でもその剣は見える：NO",
+    "enGuide": "Statement 4 of 5: 「ここ以外の場所でもその剣は見える」 (\"I can see that sword from other places too\") = NO in all three sets."
+  },
+  {
+    "simpleJp": "YES",
+    "jpGuide1": "●実際にはそれは剣じゃない\nYES",
+    "jpGuide2": "実際にはそれは剣じゃない：YES",
+    "enGuide": "Statement 5 of 5: 「実際にはそれは剣じゃない」 (\"It is not actually a sword\") = YES in all three sets. The nanami section is the only one that skips this quiz."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー２９(…………)\n妄想しない",
+    "jpGuide2": "■妄想トリガー30：O-FRONT(屋上)【将軍、星来】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 29 (the text starts 「…………」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３０(それにしても)\n妄想しない",
+    "jpGuide2": "■妄想トリガー31：大学病院(病室)【葉月】\nポジティブ：なし\nネガティブ：その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 30 (the text starts 「それにしても」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３１(もう、学校に来る理由)\n妄想しない",
+    "jpGuide2": "■妄想トリガー32：翠明学園(教室)【三住、梢】\nポジティブ：CG\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 31 (the text starts 「もう、学校に来る理由」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３２(5分くらいなのら)\n妄想しない",
+    "jpGuide2": "■妄想トリガー33：渋谷(交差点)【梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 32 (the text starts 「5分くらいなのら」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３３(セナやあやせが)\n妄想しない",
+    "jpGuide2": "■妄想トリガー34：総合雑貨店(Roft)【梢】\nポジティブ：なし\nネガティブ：なし\n妄想しない：なし",
+    "enGuide": "Delusion trigger 33 (the text starts 「セナやあやせが」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "妄想しない",
+    "jpGuide1": "☆妄想トリガー３４(あ、あの……)\n妄想しない",
+    "jpGuide2": "■妄想トリガー35：渋谷(交番前)【梢、セナ】\nポジティブ：CG\nネガティブ：CG、その目だれの目\n妄想しない：なし",
+    "enGuide": "Delusion trigger 34 (the text starts 「あ、あの……」): press neither LT nor RT (no delusion)."
+  },
+  {
+    "simpleJp": "優愛END【月と太陽】",
+    "jpGuide1": "優愛END【月と太陽】",
+    "jpGuide2": "第八章【月と太陽】\n優愛エンディングへ",
+    "enGuide": "楠 優愛 ending 【月と太陽】."
+  }
+]

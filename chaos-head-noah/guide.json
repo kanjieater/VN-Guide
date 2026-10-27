@@ -1,0 +1,114 @@
+{
+  "title": "CHAOS;HEAD NOAH",
+  "vndb_id": "v22505",
+  "routes": [
+    {
+      "id": "silent_sky",
+      "title": "【Silent sky】（1周目）",
+      "reviewed": false
+    },
+    {
+      "id": "rimi",
+      "title": "咲畑 梨深",
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/15/4715.jpg"
+    },
+    {
+      "id": "crying_sky",
+      "title": "【crying sky】",
+      "reviewed": false
+    },
+    {
+      "id": "yua",
+      "title": "楠 優愛",
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/18/4718.jpg"
+    },
+    {
+      "id": "nanami",
+      "title": "西條 七海",
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/16/4716.jpg"
+    },
+    {
+      "id": "ayase",
+      "title": "岸本 あやせ",
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/17/4717.jpg"
+    },
+    {
+      "id": "sena",
+      "title": "蒼井 セナ",
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/19/4719.jpg"
+    },
+    {
+      "id": "kozue",
+      "title": "折原 梢",
+      "reviewed": false,
+      "portrait": "https://t.vndb.org/ch/20/4720.jpg"
+    },
+    {
+      "id": "blue_sky",
+      "title": "【blue sky】",
+      "reviewed": false
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://galge.seiya-saiga.com/game/5pb/chaos_head_pc.html",
+      "title": "誠也の部屋：別館【CHAOS;HEAD NOAH PC版(Steam版) 攻略】",
+      "language": "ja",
+      "notes": "Set A; written for the Steam release (修正パッチ：無し, updated 22/10/08, 48 save slots, DL専売) and checked against the Vita/Switch versions. Directly fetched (Shift_JIS). Complete trigger-by-trigger and statement-by-statement chart for the first run, all six heroine routes, 【crying sky】 and 【blue sky】, with saves ◆01–◆08. Use for exact Steam wording, trigger order and saves. Tells the player that on PC/Switch first-run saves cannot be used in the second run."
+    },
+    {
+      "set": "B",
+      "url": "https://gameline.jp/chaos-head/kouryaku/",
+      "title": "【カオスヘッド】攻略チャート - ゲームライン（chart1, chapter2–9, chapter10-a/b/c, rimi, nanami, ayase, sena, kozue, yua）",
+      "language": "ja",
+      "notes": "Set B; independent Japanese chart (MAGES., last updated 2021-03-21, 攻略チャート with per-chapter and per-route subpages under https://gameline.jp/chaos-head/kouryaku/). Components fetched directly: chart1 (chapter 1), chapter2–chapter9, chapter10-a (silent sky), chapter10-b (crying sky), chapter10-c (blue sky), and rimi, nanami, ayase, sena, kozue, yua. Written before the 2022 Steam/Switch releases (it speaks of トロフィー/実績 and has no platform label), so it is cross-platform evidence of the route structure and decisions, not the exact Steam text. Lists all 45 triggers with the outcome (CG / その目だれの目) of positive, negative and none, every route-defining statement set and its answers, the crying sky unlock and the blue sky unlock. Contains no save information at all, so every save step is Set-A-only."
+    },
+    {
+      "set": "B",
+      "url": "http://fllayg.com/db/2010/07/30/chaoshead-noar%E6%94%BB%E7%95%A5/",
+      "title": "CHAOS;HEAD NOAR攻略 | フレイグ",
+      "language": "ja",
+      "notes": "Supplementary Set B component; independent Japanese walkthrough post (2010-07-30, last updated 2022-10-14) written for the PSP port of NOAH (the title spells it NOAR). Directly fetched (UTF-8). Gives, per heroine, the entry trigger and the five YES/NO answers (梨深 ポジティブ YES NO YES NO YES; 優愛 妄想無し NO NO YES YES YES; 七海 ポジティブ NO YES NO YES YES; あやせ ネガティブ YES NO YES YES YES; セナ 妄想無し YES YES YES YES NO; 梢 ポジティブ YES YES YES YES NO), the blue sky answers, the 「その目だれの目」 trigger list for the crying sky route, and the chapter-6 sword quiz answers. Used only for corroboration and tie-breaking: it is cross-platform evidence, contains no saves, and describes a different way of reaching blue sky than the Steam build (see disagreements). It does not supply jpGuide2 text where gameline.jp covers the step."
+    },
+    {
+      "set": "B",
+      "url": "https://ameblo.jp/uchinokura/entry-12369752372.html",
+      "title": "6章-Noah | カオスヘッドノア（PSP版）の考察とネタバレ",
+      "language": "ja",
+      "notes": "Supplementary Set B component; first-hand Japanese play log of the PSP version's chapter 6 with the sword quiz statement sets and the answers tried on each attempt. Directly fetched (UTF-8). Evidence for the three quiz variants only; a personal blog, so it is not counted toward the independent-source gate and supplies no jpGuide2 text."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/chaoshead/pages/13.html",
+      "title": "Q&A・攻略 - Chaos;HEAd/カオスヘッド(ゲーム) @ ウィキ (atwiki)",
+      "language": "ja",
+      "notes": "Supplementary Set B component; fan wiki Q&A page for the Xbox 360-era NOAH (page timestamp 2010-04-20), so cross-platform evidence. The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and its 攻略 section is saved verbatim in the project sources. It states that every heroine route's trigger other than the listed entry trigger can be pulled any way (「各ヒロイン√の妄想トリガーは下に書かれている物以外はどれを引いても無問題。」), that entering a heroine route closes the other routes, lists each heroine's entry trigger and the five YES/NO answers (same as Set A and Set B), the blue sky answers, and 18 「その目だれの目」 trigger locations, all of which are among Set B's flag cells (Set B marks 19 cells; the one this page and fllayg do not list is Set B trigger 17, 渋谷駅前, ネガティブ). It puts the 【crying sky】 requirement at roughly 70% or more of those 18 (Set B: 10 or more). Used for corroboration and to settle the earlier-trigger question; it supplies no jpGuide2 text."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/trivialachievements/pages/17.html",
+      "title": "【CHAOS;HEAD NOAH】 かんたん攻略 - Trivial Achievements@wiki (atwiki)",
+      "language": "ja",
+      "notes": "Supplementary Set B component; achievement-oriented walkthrough for the Xbox 360-era NOAH (page timestamp 2009-04-22; timings measured on an Xbox 360 Elite), so cross-platform evidence. The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and the relevant lines are saved verbatim in the project sources. It states that the chapter-6 sword quiz answer is YES, YES, NO, NO, YES (set Y); that for each route it is quickest to start from the save at the route's entry delusion trigger and that such saves should be made on the first run (「各ルートとも、ルートの入り口となる妄想トリガーのセーブデータがあれば、そこから始めるのが速いです」); the 0% / 100% check-sheet achievements, that there are 18 「その目だれの目」 triggers (per the page; Set B marks 19 cells) and that 【crying sky】 needs 一定数以上. Its advice to make the entry-trigger saves on the first run does not apply to the Steam build (Set A: first-run saves cannot be used in the second run). Used for corroboration only; it supplies no jpGuide2 text."
+    },
+    {
+      "set": "B",
+      "url": "https://chaoshead.gorillawiki.jp/entry/32",
+      "title": "【CHAOS;HEAD NOAH】第6章【Noah】 - CHAOS;HEAD NOAH攻略wiki (ゴリラwiki)",
+      "language": "ja",
+      "notes": "Supplementary Set B component; chapter-6 page of a NOAH fan wiki (page timestamp 2019-08-23; platform not stated). The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and its table is saved verbatim in the project sources. Its table prints, in a single answer column (the header names routes A and B but the saved copy shows one column), the five sword-quiz statements 剣が見えた / はっきりと剣が見えた / ここから動けるなら取りに行ける / ここ以外の場所でもその剣は見える / 実際にそれは剣じゃない with the answers YES / YES / NO / NO / YES (set Y), and lists five optional delusion triggers around it (its trigger texts differ from Set A's, so it may describe a different release). Used for corroboration only; it supplies no jpGuide2 text."
+    }
+  ],
+  "generated_at": "2026-10-28T00:40:00+00:00",
+  "guide_target": {
+    "label": "CHAOS;HEAD NOAH（Steam版）",
+    "platform": "Windows",
+    "url": "https://vndb.org/r93152"
+  }
+}

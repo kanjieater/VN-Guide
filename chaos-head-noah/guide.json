@@ -5,12 +5,12 @@
     {
       "id": "silent_sky",
       "title": "【Silent sky】（1周目）",
-      "reviewed": true
+      "reviewed": false
     },
     {
       "id": "rimi",
       "title": "咲畑 梨深",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/15/4715.jpg"
     },
     {
@@ -21,7 +21,7 @@
     {
       "id": "yua",
       "title": "楠 優愛",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/18/4718.jpg"
     },
     {
@@ -33,19 +33,19 @@
     {
       "id": "ayase",
       "title": "岸本 あやせ",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/17/4717.jpg"
     },
     {
       "id": "sena",
       "title": "蒼井 セナ",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/19/4719.jpg"
     },
     {
       "id": "kozue",
       "title": "折原 梢",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/20/4720.jpg"
     },
     {

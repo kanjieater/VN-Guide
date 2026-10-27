@@ -163,5 +163,18 @@
       "platform": "Windows 95/PC",
       "url": "https://www.suruga-ya.jp/product/detail/145000745"
     }
+  },
+  "v7238": {
+    "slug": "midori-no-umi",
+    "has_guide": true,
+    "title": "Midori no Umi",
+    "alttitle": "翠の海",
+    "cover_url": "https://t.vndb.org/cv/99/81699.jpg",
+    "added_at": "2026-10-27T21:15:00+00:00",
+    "guide_target": {
+      "label": "翠の海 -midori no umi- ダウンロード版",
+      "platform": "Windows",
+      "url": "https://vndb.org/r18372"
+    }
   }
 }

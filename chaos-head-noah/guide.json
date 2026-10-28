@@ -16,7 +16,7 @@
     {
       "id": "crying_sky",
       "title": "【crying sky】",
-      "reviewed": true
+      "reviewed": false
     },
     {
       "id": "yua",
@@ -27,7 +27,7 @@
     {
       "id": "nanami",
       "title": "西條 七海",
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/16/4716.jpg"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "blue_sky",
       "title": "【blue sky】",
-      "reviewed": true
+      "reviewed": false
     }
   ],
   "sources": [
@@ -81,7 +81,7 @@
       "url": "https://ameblo.jp/uchinokura/entry-12369752372.html",
       "title": "6章-Noah | カオスヘッドノア（PSP版）の考察とネタバレ",
       "language": "ja",
-      "notes": "Supplementary Set B component; first-hand Japanese play log of the PSP version's chapter 6 with the sword quiz statement sets and the answers tried on each attempt. Directly fetched (UTF-8). Evidence for the three quiz variants only; a personal blog, so it is not counted toward the independent-source gate and supplies no jpGuide2 text."
+      "notes": "Supplementary Set B component; first-hand Japanese play log of the PSP version's chapter 6 with the sword quiz statement sets and the answers tried on each attempt. Directly fetched (UTF-8). Evidence for the chapter-6 quiz statements and answers only; a personal blog, so it is not counted toward the independent-source gate and supplies no jpGuide2 text."
     },
     {
       "set": "B",
@@ -95,17 +95,17 @@
       "url": "https://w.atwiki.jp/trivialachievements/pages/17.html",
       "title": "【CHAOS;HEAD NOAH】 かんたん攻略 - Trivial Achievements@wiki (atwiki)",
       "language": "ja",
-      "notes": "Supplementary Set B component; achievement-oriented walkthrough for the Xbox 360-era NOAH (page timestamp 2009-04-22; timings measured on an Xbox 360 Elite), so cross-platform evidence. The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and the relevant lines are saved verbatim in the project sources. It states that the chapter-6 sword quiz answer is YES, YES, NO, NO, YES (set Y); that for each route it is quickest to start from the save at the route's entry delusion trigger and that such saves should be made on the first run (「各ルートとも、ルートの入り口となる妄想トリガーのセーブデータがあれば、そこから始めるのが速いです」); the 0% / 100% check-sheet achievements, that there are 18 「その目だれの目」 triggers (per the page; Set B marks 19 cells) and that 【crying sky】 needs 一定数以上. Its advice to make the entry-trigger saves on the first run does not apply to the Steam build (Set A: first-run saves cannot be used in the second run). Used for corroboration only; it supplies no jpGuide2 text."
+      "notes": "Supplementary Set B component; achievement-oriented walkthrough for the Xbox 360-era NOAH (page timestamp 2009-04-22; timings measured on an Xbox 360 Elite), so cross-platform evidence. The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and the relevant lines are saved verbatim in the project sources. It states that the chapter-6 sword quiz answer is YES, YES, NO, NO, YES (the YES, YES, NO, NO, YES path); that for each route it is quickest to start from the save at the route's entry delusion trigger and that such saves should be made on the first run (「各ルートとも、ルートの入り口となる妄想トリガーのセーブデータがあれば、そこから始めるのが速いです」); the 0% / 100% check-sheet achievements, that there are 18 「その目だれの目」 triggers (per the page; Set B marks 19 cells) and that 【crying sky】 needs 一定数以上. Its advice to make the entry-trigger saves on the first run does not apply to the Steam build (Set A: first-run saves cannot be used in the second run). Used for corroboration only; it supplies no jpGuide2 text."
     },
     {
       "set": "B",
       "url": "https://chaoshead.gorillawiki.jp/entry/32",
       "title": "【CHAOS;HEAD NOAH】第6章【Noah】 - CHAOS;HEAD NOAH攻略wiki (ゴリラwiki)",
       "language": "ja",
-      "notes": "Supplementary Set B component; chapter-6 page of a NOAH fan wiki (page timestamp 2019-08-23; platform not stated). The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and its table is saved verbatim in the project sources. Its table prints, in a single answer column (the header names routes A and B but the saved copy shows one column), the five sword-quiz statements 剣が見えた / はっきりと剣が見えた / ここから動けるなら取りに行ける / ここ以外の場所でもその剣は見える / 実際にそれは剣じゃない with the answers YES / YES / NO / NO / YES (set Y), and lists five optional delusion triggers around it (its trigger texts differ from Set A's, so it may describe a different release). Used for corroboration only; it supplies no jpGuide2 text."
+      "notes": "Supplementary Set B component; chapter-6 page of a NOAH fan wiki (page timestamp 2019-08-23; platform not stated). The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and its table is saved verbatim in the project sources. Its table prints, in a single answer column (the header names routes A and B but the saved copy shows one column), the five sword-quiz statements 剣が見えた / はっきりと剣が見えた / ここから動けるなら取りに行ける / ここ以外の場所でもその剣は見える / 実際にそれは剣じゃない with the answers YES / YES / NO / NO / YES (the YES, YES, NO, NO, YES path), and lists five optional delusion triggers around it (its trigger texts differ from Set A's, so it may describe a different release). Used for corroboration only; it supplies no jpGuide2 text."
     }
   ],
-  "generated_at": "2026-10-28T00:40:00+00:00",
+  "generated_at": "2026-10-28T20:50:00+00:00",
   "guide_target": {
     "label": "CHAOS;HEAD NOAH（Steam版）",
     "platform": "Windows",

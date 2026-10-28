@@ -159,31 +159,31 @@
     "simpleJp": "YES",
     "jpGuide1": "※選択ミスをするとBADEND\n●剣が見えた\nYES",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Di-Sword quiz, statement 1 of 5 (the first statement is worded the same in every set): 「剣が見えた」 (\"I saw a sword\"). A wrong answer ends the game, and the game shows one of three statement sets, so read the wording first. Answers by set: set Z (the Steam chart; later statements はっきりと剣が見えた / なんとなく剣に見えただけ) = YES; set Y (はっきりと剣が見えた / ここから動けるなら取りに行ける) = YES; set X (剣っぽいものは見えた / 幻覚としては見えた) = NO. Set X is printed by gameline.jp (Set B); set Y by fllayg (PSP port), the Trivial Achievements wiki (Xbox 360 era), the Gorilla wiki chapter-6 page (no platform stated) and a PSP play log; set Z only by Set A, the Steam chart. This step follows set Z, the Steam-specific chart; which set the Steam build actually shows is unconfirmed."
+    "enGuide": "Di-Sword quiz, statement 1 of 5: 「剣が見えた」 (\"I saw a sword\"). The statements come one at a time, each with a YES door and a NO door, and the next statement depends on your previous answer. Checked in-game on the stock Steam build (build 9206428) and with Overhaul Patch 1.1.3: YES here leads to 「はっきりと剣が見えた」, NO leads to 「剣っぽいものは見えた」. This step follows the Steam chart (Set A): YES. Two other answer paths were also played through and continued the game: YES, YES, NO, NO, YES and NO, NO, YES, NO, YES (see the next steps). Other combinations were not tried, and the guides say that a wrong answer ends the game, so stay on one of these three paths."
   },
   {
     "simpleJp": "NO",
     "jpGuide1": "●はっきりと剣が見えた\nNO",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Statement 2 of 5. Set Z/Y: 「はっきりと剣が見えた」 (\"I clearly saw a sword\"): set Z = NO, set Y = YES. Set X: 「剣っぽいものは見えた」 (\"I saw something sword-like\") = NO. This step follows set Z."
+    "enGuide": "Statement 2 of 5. After YES at the first statement the game shows 「はっきりと剣が見えた」 (\"I clearly saw a sword\"): NO leads to 「なんとなく剣に見えただけ」 (this chart), YES leads to 「ここから動けるなら取りに行ける」 (played path YES, YES, NO, NO, YES). After NO at the first statement it shows 「剣っぽいものは見えた」 (\"I saw something sword-like\"): NO leads to 「幻覚としては見えた」 (played path NO, NO, YES, NO, YES). Answer NO here."
   },
   {
     "simpleJp": "YES",
     "jpGuide1": "●なんとなく剣に見えただけ\nYES",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Statement 3 of 5. Set Z: 「なんとなく剣に見えただけ」 (\"It only vaguely looked like a sword\") = YES. Set Y: 「ここから動けるなら取りに行ける」 (\"If I could move from here I could go and get it\") = NO. Set X: 「幻覚としては見えた」 (\"I saw it as a hallucination\") = YES. This step follows set Z."
+    "enGuide": "Statement 3 of 5. 「なんとなく剣に見えただけ」 (\"It only vaguely looked like a sword\"): YES (this chart). On the other played paths: 「ここから動けるなら取りに行ける」 (\"If I could move from here I could go and get it\") = NO; 「幻覚としては見えた」 (\"I saw it as a hallucination\") = YES."
   },
   {
     "simpleJp": "NO",
     "jpGuide1": "●ここ意外の場所でもその剣は見える\nNO",
     "jpGuide2": "ここ以外の場所でもその剣は見える：NO",
-    "enGuide": "Statement 4 of 5: 「ここ以外の場所でもその剣は見える」 (\"I can see that sword from other places too\") = NO in all three sets."
+    "enGuide": "Statement 4 of 5: 「ここ以外の場所でもその剣は見える」 (\"I can see that sword from other places too\") = NO on all three played paths."
   },
   {
     "simpleJp": "YES",
     "jpGuide1": "●実際にはそれは剣じゃない\nYES",
     "jpGuide2": "実際にはそれは剣じゃない：YES",
-    "enGuide": "Statement 5 of 5: 「実際にはそれは剣じゃない」 (\"It is not actually a sword\") = YES in all three sets. The nanami section is the only one that skips this quiz."
+    "enGuide": "Statement 5 of 5: 「実際にはそれは剣じゃない」 (\"It is not actually a sword\") = YES on all three played paths. After it the next delusion trigger (「…………」) follows. The 七海 section is the only one without this quiz."
   },
   {
     "simpleJp": "妄想しない",

@@ -171,7 +171,7 @@
     "simpleJp": "YES",
     "jpGuide1": "※選択ミスをするとBADEND\n●剣が見えた\nYES",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Di-Sword quiz, statement 1 of 5: 「剣が見えた」 (\"I saw a sword\"). The statements come one at a time, each with a YES door and a NO door, and the next statement depends on your previous answer. Checked in-game on the stock Steam build (build 9206428) and with Overhaul Patch 1.1.3: YES here leads to 「はっきりと剣が見えた」, NO leads to 「剣っぽいものは見えた」. This step follows the Steam chart (Set A): YES. Two other answer paths were also played through and continued the game: YES, YES, NO, NO, YES and NO, NO, YES, NO, YES (see the next steps). Other combinations were not tried, and the guides say that a wrong answer ends the game, so stay on one of these three paths."
+    "enGuide": "Di-Sword quiz, statement 1 of 5: 「剣が見えた」 (\"I saw a sword\"). The statements come one at a time, each with a YES door and a NO door, and the next statement depends on your previous answer. Checked in-game on the stock Steam build (build 9206428); screenshots with Overhaul Patch 1.1.3 installed show the same statements. YES here leads to 「はっきりと剣が見えた」, NO leads to 「剣っぽいものは見えた」. This step follows the Steam chart (Set A): YES. Two other answer paths were also played through and continued the game: YES, YES, NO, NO, YES and NO, NO, YES, NO, YES (see the next steps). Other combinations were not tried, and the guides say that a wrong answer ends the game, so stay on one of these three paths."
   },
   {
     "simpleJp": "NO",

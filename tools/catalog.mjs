@@ -23,7 +23,7 @@ export async function loadCatalog(root) {
     if (!metadata || typeof metadata !== "object" || Array.isArray(metadata))
       throw new Error(`Invalid ${slug}/catalog.json: expected object`);
     const id = metadata.vndb_id;
-    if (typeof id !== "string" || !/^v[0-9]+$/.test(id))
+    if (typeof id !== "string" || !/^(?:v[0-9]+|game:[a-z0-9]+(?:-[a-z0-9]+)*)$/.test(id))
       throw new Error(`Invalid ${slug}/catalog.json: vndb_id required`);
     if (metadata.slug && metadata.slug !== slug)
       throw new Error(`Invalid ${slug}/catalog.json: slug must equal directory name`);

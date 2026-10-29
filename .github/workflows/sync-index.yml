@@ -1,0 +1,51 @@
+name: Sync landing index
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-landing-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.4.2"
+      - run: bun install --no-save --ignore-scripts
+      - name: Generate and commit only the root index
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout -B index-sync origin/main
+            bun tools/sync-landing-index.mjs
+            if git diff --quiet -- index.html; then
+              echo "Index already current; no commit necessary"
+              exit 0
+            fi
+            git add -- index.html
+            git commit -m "chore: sync generated landing index [skip ci]"
+            if git push origin HEAD:main; then
+              echo "Published updated index"
+              exit 0
+            fi
+            echo "Concurrent main update; retrying generation ($attempt/3)"
+          done
+          echo "Could not publish index after three attempts" >&2
+          exit 1

@@ -76,3 +76,21 @@ test("invalid JSON and non-object catalog are rejected", async () => {
     }
   }
 });
+
+test("discovers existing non-VN game identifiers through per-game catalogs", async () => {
+  const root = await fixture();
+  try {
+    for (const [slug, id] of [
+      ["black-matrix-oo", "game:black-matrix-oo"],
+      ["arc-the-lad-ii", "game:arc-the-lad-ii"],
+    ]) {
+      await game(root, slug, { vndb_id: id, title: slug },
+        { vndb_id: id, routes: [{ reviewed: true }] });
+    }
+    const entries = await loadCatalog(root);
+    assert.equal(entries["game:black-matrix-oo"].has_guide, true);
+    assert.equal(entries["game:arc-the-lad-ii"].slug, "arc-the-lad-ii");
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

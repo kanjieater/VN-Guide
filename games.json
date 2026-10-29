@@ -151,6 +151,19 @@
       "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/"
     }
   },
+  "v17909": {
+    "slug": "tsukihime-remake",
+    "has_guide": true,
+    "title": "Tsukihime -A piece of blue glass moon-",
+    "alttitle": "月姫 -A piece of blue glass moon-",
+    "cover_url": "https://t.vndb.org/cv/86/86686.jpg",
+    "added_at": "2026-10-27T19:06:39Z",
+    "guide_target": {
+      "label": "Tsukihime -A piece of blue glass moon- Download Edition (2021, Japanese)",
+      "platform": "Nintendo Switch",
+      "url": "https://vndb.org/r82483"
+    }
+  },
   "v119": {
     "slug": "divi-dead",
     "has_guide": true,

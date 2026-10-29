@@ -1,0 +1,66 @@
+name: Sync generated site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: sync-generated-site-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.4.2"
+      - run: bun install --no-save --ignore-scripts
+      - name: Generate and commit generated site files
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          request_pages_build() {
+            curl --fail-with-body --silent --show-error --request POST \
+              --header "Accept: application/vnd.github+json" \
+              --header "Authorization: Bearer ${GH_TOKEN}" \
+              --header "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds"
+          }
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout -B site-sync origin/main
+            bun run generate
+            git add -A -- index.html ':(glob)*/index.html' ':(glob)*/manifest.json'
+            if git diff --cached --quiet; then
+              echo "Generated site already current; no commit necessary"
+              if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" || "${GITHUB_RUN_ATTEMPT}" -gt 1 ]]; then
+                echo "Explicit/retry run: requesting Pages build even without a new commit"
+                request_pages_build
+              fi
+              exit 0
+            fi
+            git commit -m "chore: sync generated site files"
+            if git push origin HEAD:main; then
+              echo "Committed updated site files; explicitly requesting branch-based Pages build"
+              request_pages_build
+              exit 0
+            fi
+            echo "Concurrent main update; retrying generation ($attempt/3)"
+          done
+          echo "Could not publish generated site files after three attempts" >&2
+          exit 1

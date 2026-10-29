@@ -88,6 +88,30 @@ test("generator check fails on drift, write mode fixes it, and the next check is
 });
 
 
+test("CI builds a new game's HTML and manifest without author-owned generated files", async () => {
+  const root = await fixture();
+  try {
+    await mkdir(join(root, "new-game"));
+    const catalog = JSON.stringify({ vndb_id: "v2", title: "New Game" });
+    const guide = JSON.stringify({ vndb_id: "v2", routes: [{ reviewed: true }] });
+    await writeFile(join(root, "new-game", "catalog.json"), catalog);
+    await writeFile(join(root, "new-game", "guide.json"), guide);
+    await assert.rejects(readFile(join(root, "new-game", "index.html"), "utf8"), { code: "ENOENT" });
+    const changed = await syncGeneratedFiles(root);
+    assert.ok(changed.includes("index.html"));
+    assert.ok(changed.includes("new-game/index.html"));
+    assert.ok(changed.includes("new-game/manifest.json"));
+    assert.match(await readFile(join(root, "index.html"), "utf8"), /New Game/);
+    assert.equal(await readFile(join(root, "new-game", "index.html"), "utf8"), '<div id="app"></div>');
+    assert.match(await readFile(join(root, "new-game", "manifest.json"), "utf8"), /New Game ガイド/);
+    assert.equal(await readFile(join(root, "new-game", "catalog.json"), "utf8"), catalog);
+    assert.equal(await readFile(join(root, "new-game", "guide.json"), "utf8"), guide);
+    assert.deepEqual(await syncGeneratedFiles(root), []);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
 test("generator CLI handles check, write, no-op, and failure modes", async () => {
   const messages = [];
   const errors = [];

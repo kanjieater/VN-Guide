@@ -15,4 +15,4 @@ Use the capabilities available in the current environment. Shell commands are co
 
 Keep author, structural-review, and accuracy-review work in separate contexts. Do not self-approve.
 
-For new games, create `<slug>/catalog.json` beside `guide.json` (see README). Do not edit `games.json`, the root `index.html`, or generated per-game HTML/manifests in guide PRs. CI generates these at build/deployment time. `games.json` remains a compatibility catalog for existing entries. Run `bun run generate` locally to preview, but generated artifacts are not PR-owned.
+For new games, create `<slug>/catalog.json` beside `guide.json` (see README). Do not edit shared `games.json` or root `index.html` in guide PRs; keep the per-game bootstrap HTML and manifest synchronized inside the game's own directory. CI owns root index updates. `games.json` remains a compatibility catalog for existing entries. Run `bun run generate` locally to preview, but generated artifacts are not PR-owned.

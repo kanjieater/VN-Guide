@@ -35,7 +35,7 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git checkout -B index-sync origin/main
-            bun tools/sync-landing-index.mjs
+            bun -e 'import { syncLandingIndex } from "./tools/sync-landing-index.mjs"; await syncLandingIndex()'
             if git diff --quiet -- index.html; then
               echo "Index already current; no commit necessary"
               exit 0

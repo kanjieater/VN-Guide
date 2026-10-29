@@ -29,9 +29,6 @@ jobs:
       - name: Install test dependency
         run: bun install --no-save --ignore-scripts
 
-      - name: Generate derived website artifacts (not PR-owned)
-        run: bun run generate
-
       - name: Run tests in parallel with coverage
         run: bun run test:coverage
 

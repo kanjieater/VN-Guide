@@ -1,0 +1,48 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.4.2"
+      - run: bun install --frozen-lockfile --ignore-scripts
+      - name: Generate website from game directories
+        run: bun run generate
+      - name: Verify generated website
+        run: bun run generate:check
+      - name: Stage static site without repository internals
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='.git/' --exclude='.github/' --exclude='node_modules/' \
+            --exclude='coverage/' --exclude='_site/' --exclude='tests/' \
+            --exclude='tools/' --exclude='agents/' --exclude='docs/' \
+            --exclude='templates/' --exclude='.agent-feedback/' \
+            ./ _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

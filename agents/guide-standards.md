@@ -39,13 +39,13 @@ Before research begins, resolve:
 
 Rules:
 
-- `games.json.guide_target` is the normal repository source of truth.
-- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to `games.json` before research so later agents see the same target.
+- For legacy titles, `games.json.guide_target` is the source of truth. For new or migrated titles, `<slug>/catalog.json.guide_target` is the source of truth. Never edit shared `games.json` for a new guide.
+- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to the title's `<slug>/catalog.json` before research so later agents see the same target.
 - If neither the repository nor caller supplies a target, default to the **newest official complete release that includes native Japanese in-game text**, using release-specific metadata such as VNDB releases rather than guessing from the broad work entry. This keeps `simpleJp` valid for the target while preferring the newest applicable edition/platform.
 - If the newest applicable Japanese release is ambiguous (for example multiple distinct releases on the same newest date, a multi-platform release that cannot be made platform-specific, or insufficient release metadata), stop and request an explicit target instead of choosing arbitrarily.
 - `label`, `platform`, and `url` are all required and non-empty.
 - The URL should identify the **specific intended release/edition**, not merely the broad work. **Prefer the exact VNDB `https://vndb.org/r...` release page whenever available; use another release-specific source only when VNDB cannot provide a suitable exact-target link.**
-- Once a default target is resolved, persist it to `games.json` before research exactly like a caller-supplied target.
+- Once a default target is resolved, persist it to the title's `<slug>/catalog.json` before research exactly like a caller-supplied target.
 - Copy the exact target into `research.json.guide_target` and later into `guide.json.guide_target`.
 - Verify every Set A/B component applies to that exact target, or document version differences and why they do not affect the guide.
 - If the requested target cannot be verified or available walkthroughs apply to a materially different release, stop and document the blocker rather than silently switching targets.
@@ -80,7 +80,7 @@ Every game registration should have a cover image for the exact intended release
 - Do not use a different edition, limited edition, remake, port, or localization cover merely because it is easier to find.
 - A blank `cover_url` is permitted only after an actual lookup finds no suitable verifiable image; document that outcome in research notes so “unavailable” is distinguishable from “not checked”.
 - Cover-only corrections are display metadata and do not invalidate structural or accuracy route review.
-- Because `games.json.cover_url` is landing-visible metadata, synchronize the tracked root `index.html` whenever it changes.
+- For new or migrated titles, store the cover in `<slug>/catalog.json`; CI derives the landing page. Do not edit root `index.html` in a guide PR.
 
 ## Character portraits
 

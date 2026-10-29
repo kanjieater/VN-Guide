@@ -3,25 +3,25 @@
     "simpleJp": "酒場のマスターに話す",
     "jpGuide1": "1500G稼いだら酒場へ行ってマスターに話し掛ける。",
     "jpGuide2": "酒場のマスターに話す→アパートへ移動→酒場へ移動",
-    "enGuide": "Have 1500G, talk to the tavern master, rest in Shu's bed until the tavern closes, then return to the tavern and win the night battle."
+    "enGuide": "Mandatory story resumes in Indigos immediately after the early optional block. Have 1500G, talk to the Indigos tavern master, rest in Shu's bed until the tavern closes, then return to the tavern and win the night battle. Only after this event should you travel back to Prodius."
   },
   {
     "simpleJp": "プロディアスへ行く",
     "jpGuide1": "ひとまずプロディアスへ行く。",
     "jpGuide2": "プロディアス",
-    "enGuide": "Return to Prodius after the night event."
+    "enGuide": "Now travel from Indigos to Prodius. This is the next mandatory story destination after the night battle; you are not returning for optional cleanup."
   },
   {
     "simpleJp": "ヒエン置き場でビビガから「チケット」を受け取る",
     "jpGuide1": "改めてビビガに話し掛けて「チケット」をもらう。",
     "jpGuide2": "ビビガに話しかけて「チケット」回収",
-    "enGuide": "Get the ceremony ticket from Bibiga at the Hien storage area."
+    "enGuide": "After the night battle, travel to Prodius and go to the Hien storage area. Speak to Bibiga there and take the ceremony Ticket; this is the item that lets the mandatory ceremony sequence continue."
   },
   {
     "simpleJp": "式典会場へ入る",
     "jpGuide1": "イベントでヤゴス島へ。",
     "jpGuide2": "ヤゴス島不時着",
-    "enGuide": "Entering the ceremony permanently closes the first guild-job window."
+    "enGuide": "With the Ticket in hand, enter the ceremony venue in Prodius. This is a real progression lock: entering closes the first early guild-job window and sends the story to Yagos Island, so finish anything in the preceding optional block first."
   },
   {
     "simpleJp": "ヤゴス島の封印の遺跡をB2Fまで進む",
@@ -37,8 +37,8 @@
   },
   {
     "simpleJp": "ユドの村でベッドに休む",
-    "jpGuide1": "この後からリーザがラヴィッシュを修得可能になる。",
-    "jpGuide2": "ヤゴス島出発",
-    "enGuide": "Rest in the bed when prompted to trigger the next event. Afterward, win the ninja battle; from this point Lieza can begin learning Ravish."
+    "jpGuide1": "促される通りにベッドで休むとイベント発生。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Rest in the bed when prompted to trigger the next event. Afterward, win the ninja battle; from this point Lieza can begin learning Ravish. After Yagos ends, follow the next section “ヤゴス島帰還〜ガルアーノの屋敷”; do not jump ahead to the White House jobs yet."
   }
 ]

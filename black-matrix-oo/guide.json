@@ -10,7 +10,6 @@
     {
       "id": "chapter01",
       "title": "第1章",
-      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -19,7 +18,6 @@
     {
       "id": "chapter02_to_free2",
       "title": "第2章 前半（自由行動2まで）",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -28,7 +26,6 @@
     {
       "id": "optional_ch02_free2",
       "title": "【任意】第2章 自由行動2：おつかい",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -37,7 +34,6 @@
     {
       "id": "chapter02_after_free2",
       "title": "第2章 自由行動2後",
-      "stepCount": 4,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -46,7 +42,6 @@
     {
       "id": "chapter03_to_free3",
       "title": "第3章 前半（自由行動3まで）",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -55,7 +50,6 @@
     {
       "id": "optional_ch03_free3",
       "title": "【任意】第3章 自由行動3：うちの子",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -64,7 +58,6 @@
     {
       "id": "chapter03_free3_to_free4",
       "title": "第3章 自由行動3後〜4",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -73,7 +66,6 @@
     {
       "id": "optional_ch03_free4",
       "title": "【任意】第3章 自由行動4：アベル",
-      "stepCount": 5,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -82,7 +74,6 @@
     {
       "id": "chapter03_after_free4",
       "title": "第3章 自由行動4後",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -91,7 +82,6 @@
     {
       "id": "chapter04_to_free2",
       "title": "第4章 前半（自由行動2まで）",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -100,7 +90,6 @@
     {
       "id": "optional_ch04_free2",
       "title": "【任意】第4章 自由行動2：エクサルの小刀",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -109,7 +98,6 @@
     {
       "id": "chapter04_free2_to_free4",
       "title": "第4章 自由行動2後〜4",
-      "stepCount": 4,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -118,7 +106,6 @@
     {
       "id": "optional_ch04_free4",
       "title": "【任意】第4章 自由行動4：うちの子2・手合わせ",
-      "stepCount": 5,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -127,7 +114,6 @@
     {
       "id": "chapter04_after_free4",
       "title": "第4章 自由行動4後",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -136,7 +122,6 @@
     {
       "id": "chapter05_to_free1",
       "title": "第5章 前半（自由行動1まで）",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -145,7 +130,6 @@
     {
       "id": "optional_ch05_free1",
       "title": "【任意】第5章 自由行動1：神秘の薬草",
-      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -154,7 +138,6 @@
     {
       "id": "chapter05_free1_to_free3",
       "title": "第5章 自由行動1後〜3",
-      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -163,7 +146,6 @@
     {
       "id": "optional_ch05_free3",
       "title": "【任意】第5章 自由行動3：リリスの絵本",
-      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -172,7 +154,6 @@
     {
       "id": "chapter05_after_free3",
       "title": "第5章 自由行動3後",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -181,7 +162,6 @@
     {
       "id": "chapter06_to_free1",
       "title": "第6章 前半（自由行動1まで）",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -190,7 +170,6 @@
     {
       "id": "optional_ch06_free1",
       "title": "【任意】第6章 自由行動1：灰色の翼",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -199,7 +178,6 @@
     {
       "id": "chapter06_after_free1",
       "title": "第6章 自由行動1後",
-      "stepCount": 6,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -208,7 +186,6 @@
     {
       "id": "chapter07_to_free2",
       "title": "第7章 前半（自由行動2まで）",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -217,7 +194,6 @@
     {
       "id": "optional_ch07_free2",
       "title": "【任意】第7章 自由行動2：僕らの撲殺寸前事件・温泉編",
-      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -226,7 +202,6 @@
     {
       "id": "chapter07_free2_to_free3",
       "title": "第7章 自由行動2後〜3",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -235,7 +210,6 @@
     {
       "id": "optional_ch07_free3",
       "title": "【任意】第7章 自由行動3：介在する影",
-      "stepCount": 4,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [
@@ -247,7 +221,6 @@
     {
       "id": "chapter07_after_free3",
       "title": "第7章 自由行動3後",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -256,7 +229,6 @@
     {
       "id": "chapter08_to_free2",
       "title": "第8章 前半（自由行動2まで）",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -265,7 +237,6 @@
     {
       "id": "optional_ch08_free2",
       "title": "【任意】第8章 自由行動2：リリスの疑問",
-      "stepCount": 2,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -274,7 +245,6 @@
     {
       "id": "chapter08_free2_to_free4",
       "title": "第8章 自由行動2後〜4",
-      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -283,7 +253,6 @@
     {
       "id": "optional_ch08_free4",
       "title": "【任意】第8章 自由行動4：秘密の特訓",
-      "stepCount": 3,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -292,7 +261,6 @@
     {
       "id": "chapter08_after_free4",
       "title": "第8章 自由行動4後",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -301,7 +269,6 @@
     {
       "id": "chapter09_to_free1",
       "title": "第9章 前半（自由行動1まで）",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -310,7 +277,6 @@
     {
       "id": "optional_ch09_free1",
       "title": "【任意】第9章 自由行動1：血塗られたラブレター",
-      "stepCount": 4,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [
@@ -323,7 +289,6 @@
     {
       "id": "chapter09_after_free1",
       "title": "第9章 自由行動1後",
-      "stepCount": 1,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -332,7 +297,6 @@
     {
       "id": "final_chapter",
       "title": "最終章",
-      "stepCount": 6,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [],
@@ -341,7 +305,6 @@
     {
       "id": "ngplus_completion",
       "title": "2周目以降・エンディング回収",
-      "stepCount": 19,
       "reviewed": false,
       "portrait": "",
       "prerequisites": [

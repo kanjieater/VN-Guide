@@ -1,0 +1,3086 @@
+[
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "瞳",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "髪の毛",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "髪の毛",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\nプリン×2\n瞳\n髪の毛×2\n話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "食べる",
+    "jpGuide1": "食べる→料理×２",
+    "jpGuide2": "食べる\n料理×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "料理",
+    "jpGuide1": "食べる→料理×２",
+    "jpGuide2": "食べる\n料理×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "料理",
+    "jpGuide1": "食べる→料理×２",
+    "jpGuide2": "食べる\n料理×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "料理",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "食べる\n料理×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→プリン×２",
+    "jpGuide2": "話す\nプリン×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×２",
+    "jpGuide2": "話す\nプリン×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×２",
+    "jpGuide2": "話す\nプリン×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "食べる",
+    "jpGuide1": "食べる→料理",
+    "jpGuide2": "食べる\n料理",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "料理",
+    "jpGuide1": "食べる→料理",
+    "jpGuide2": "食べる\n料理",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→プリン×２",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×２",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×２",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→プリン×１",
+    "jpGuide2": "見る・調べる\nプリン\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×１",
+    "jpGuide2": "見る・調べる\nプリン\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "茜",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "カメラ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→茜×５",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "茜",
+    "jpGuide1": "話す→茜×５",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "茜",
+    "jpGuide1": "話す→茜×５",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "茜",
+    "jpGuide1": "話す→茜×５",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "茜",
+    "jpGuide1": "話す→茜×５",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "茜",
+    "jpGuide1": "話す→茜×５",
+    "jpGuide2": "見る・調べる\nあたりの様子\n茜\nカメラ\n話す\n茜×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→プリン×１",
+    "jpGuide2": "話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×１",
+    "jpGuide2": "話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→倉庫街→外国人学校",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→倉庫街→外国人学校",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外国人学校",
+    "jpGuide1": "移動する→倉庫街→外国人学校",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→図書館",
+    "jpGuide2": "移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "図書館",
+    "jpGuide1": "移動する→図書館",
+    "jpGuide2": "移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本\n話す\n松乃×3\n見る・調べる\n本×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→松乃×１ / 見る・調べる→本×３",
+    "jpGuide2": "話す\n松乃×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "話す→松乃×１ / 見る・調べる→本×３",
+    "jpGuide2": "話す\n松乃×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n松乃×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×１",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×１",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "松乃",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×１",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×１",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "話す→松乃×２ / 見る・調べる→本×１",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n松乃\n本×2\n話す\n松乃×2\n見る・調べる\n本×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "話す→松乃×２ / 移動する→図書館を出る",
+    "jpGuide2": "移動する\n図書館を出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "図書館を出る",
+    "jpGuide1": "話す→松乃×２ / 移動する→図書館を出る",
+    "jpGuide2": "移動する\n図書館を出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事務所内",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "使う",
+    "jpGuide1": "使う→端末",
+    "jpGuide2": "使う\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "端末",
+    "jpGuide1": "使う→端末",
+    "jpGuide2": "使う\n端末",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考える",
+    "jpGuide1": "考える→絵画×２→孔×１→舌の噛みそうな作者×３",
+    "jpGuide2": "考える\n絵画×2\n孔\n舌を噛みそうな作者×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "絵画",
+    "jpGuide1": "考える→絵画×２→孔×１→舌の噛みそうな作者×３",
+    "jpGuide2": "考える\n絵画×2\n孔\n舌を噛みそうな作者×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "絵画",
+    "jpGuide1": "考える→絵画×２→孔×１→舌の噛みそうな作者×３",
+    "jpGuide2": "考える\n絵画×2\n孔\n舌を噛みそうな作者×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "考える→絵画×２→孔×１→舌の噛みそうな作者×３",
+    "jpGuide2": "考える\n絵画×2\n孔\n舌を噛みそうな作者×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "舌を噛みそうな作者",
+    "jpGuide1": "考える→絵画×２→孔×１→舌の噛みそうな作者×３",
+    "jpGuide2": "考える\n絵画×2\n孔\n舌を噛みそうな作者×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "舌を噛みそうな作者",
+    "jpGuide1": "考える→絵画×２→孔×１→舌の噛みそうな作者×３",
+    "jpGuide2": "考える\n絵画×2\n孔\n舌を噛みそうな作者×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "舌を噛みそうな作者",
+    "jpGuide1": "考える→絵画×２→孔×１→舌の噛みそうな作者×３",
+    "jpGuide2": "考える\n絵画×2\n孔\n舌を噛みそうな作者×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→端末を離れる→外に出る→孔の家",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "端末を離れる",
+    "jpGuide1": "移動する→端末を離れる→外に出る→孔の家",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→端末を離れる→外に出る→孔の家",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→端末を離れる→外に出る→孔の家",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "移動する→端末を離れる→外に出る→孔の家",
+    "jpGuide2": "移動する\n端末を離れる\n話す\nプリン\n移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "押す",
+    "jpGuide1": "押す→呼び鈴 / 移動する→家に入る",
+    "jpGuide2": "押す\n呼び鈴\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呼び鈴",
+    "jpGuide1": "押す→呼び鈴 / 移動する→家に入る",
+    "jpGuide2": "押す\n呼び鈴\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "押す→呼び鈴 / 移動する→家に入る",
+    "jpGuide2": "押す\n呼び鈴\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家に入る",
+    "jpGuide1": "押す→呼び鈴 / 移動する→家に入る",
+    "jpGuide2": "押す\n呼び鈴\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→孔×３",
+    "jpGuide2": "話す\n孔×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "話す→孔×３",
+    "jpGuide2": "話す\n孔×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "話す→孔×３",
+    "jpGuide2": "話す\n孔×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "話す→孔×３",
+    "jpGuide2": "話す\n孔×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→戸棚→下段真ん中",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戸棚",
+    "jpGuide1": "見る・調べる→戸棚→下段真ん中",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "上段左",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "上段真ん中",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "上段右",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "下段左",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "下段真ん中",
+    "jpGuide1": "見る・調べる→戸棚→下段真ん中",
+    "jpGuide2": "見る・調べる\nあたりの様子\n戸棚\n上段左\n上段真ん中\n上段右\n下段左\n下段真ん中",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→孔×２",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "話す→孔×２",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階堂",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "話す→孔×２",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考える",
+    "jpGuide1": "考える→戸棚の事×４",
+    "jpGuide2": "考える\n戸棚の事×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戸棚の事",
+    "jpGuide1": "考える→戸棚の事×４",
+    "jpGuide2": "考える\n戸棚の事×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戸棚の事",
+    "jpGuide1": "考える→戸棚の事×４",
+    "jpGuide2": "考える\n戸棚の事×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戸棚の事",
+    "jpGuide1": "考える→戸棚の事×４",
+    "jpGuide2": "考える\n戸棚の事×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "戸棚の事",
+    "jpGuide1": "考える→戸棚の事×４",
+    "jpGuide2": "考える\n戸棚の事×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→二階堂×１→孔×１",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階堂",
+    "jpGuide1": "話す→二階堂×１→孔×１",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔",
+    "jpGuide1": "話す→二階堂×１→孔×１",
+    "jpGuide2": "話す\n孔\n二階堂\n孔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る",
+    "jpGuide2": "移動する\n外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る",
+    "jpGuide2": "移動する\n外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事務所内",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "買う",
+    "jpGuide1": "買う→何か×４",
+    "jpGuide2": "買う\n何か×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何か",
+    "jpGuide1": "買う→何か×４",
+    "jpGuide2": "買う\n何か×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何か",
+    "jpGuide1": "買う→何か×４",
+    "jpGuide2": "買う\n何か×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何か",
+    "jpGuide1": "買う→何か×４",
+    "jpGuide2": "買う\n何か×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何か",
+    "jpGuide1": "買う→何か×４",
+    "jpGuide2": "買う\n何か×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→桂木探偵事務所→桂木探偵事務所",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桂木探偵事務所",
+    "jpGuide1": "移動する→桂木探偵事務所→桂木探偵事務所",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桂木探偵事務所",
+    "jpGuide1": "移動する→桂木探偵事務所→桂木探偵事務所",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリンセス・ホテル",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ショットバー",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ホテルのロビー",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル\n移動する\nショットバー\n移動する\nホテルのロビー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n二階堂×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階堂",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n二階堂×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階堂",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n二階堂×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階堂",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n二階堂×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階堂",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n二階堂×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桂木探偵事務所",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桂木探偵事務所",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n机に向かう男\nコピー機の男\n景子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "机に向かう男",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n机に向かう男\nコピー機の男\n景子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "コピー機の男",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n机に向かう男\nコピー機の男\n景子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "景子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n机に向かう男\nコピー機の男\n景子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事務所内",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\nもちもの\nチケット×2\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\nもちもの\nチケット×2\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もちもの",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\nもちもの\nチケット×2\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "チケット",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\nもちもの\nチケット×2\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "チケット",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\nもちもの\nチケット×2\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\nもちもの\nチケット×2\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\nもちもの\nチケット×2\n話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\n店員\nプリン\n店員",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\n店員\nプリン\n店員",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "店員",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\n店員\nプリン\n店員",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\n店員\nプリン\n店員",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "店員",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン\n店員\nプリン\n店員",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水着",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "店員",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水着",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水着",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン\n水着\n店員\nあたりの様子\nプリン\n水着×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→プリン",
+    "jpGuide2": "話す\nプリン×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン",
+    "jpGuide2": "話す\nプリン×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "待つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "待つ\n出前\nプリン×2\n出前×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "出前",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "待つ\n出前\nプリン×2\n出前×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "待つ\n出前\nプリン×2\n出前×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "待つ\n出前\nプリン×2\n出前×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "出前",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "待つ\n出前\nプリン×2\n出前×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "出前",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "待つ\n出前\nプリン×2\n出前×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→あたりの様子→プール→観葉植物",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプール\n観葉植物",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子→プール→観葉植物",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプール\n観葉植物",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プール",
+    "jpGuide1": "見る・調べる→あたりの様子→プール→観葉植物",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプール\n観葉植物",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "観葉植物",
+    "jpGuide1": "見る・調べる→あたりの様子→プール→観葉植物",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプール\n観葉植物",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "待つ",
+    "jpGuide1": "待つ→プリン×２",
+    "jpGuide2": "待つ\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "待つ→プリン×２",
+    "jpGuide2": "待つ\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\n水着\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水着",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\n水着\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\n水着\nプリン",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "話す→プリン×３",
+    "jpGuide2": "話す\nプリン×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\nプリン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプリン\nプール",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプリン\nプール",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプリン\nプール",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プール",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\nプリン\nプール",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "プリン×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "プリン×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "プリン×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "プリン×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→あたりの様子×３",
+    "jpGuide2": "見る・調べる\nあたりの様子\n弥生\n弥生の水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×３",
+    "jpGuide2": "見る・調べる\nあたりの様子\n弥生\n弥生の水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n弥生\n弥生の水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生の水着",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n弥生\n弥生の水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→弥生×３",
+    "jpGuide2": "話す\n弥生×4\nまりな×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "話す→弥生×３",
+    "jpGuide2": "話す\n弥生×4\nまりな×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "話す→弥生×３",
+    "jpGuide2": "話す\n弥生×4\nまりな×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "話す→弥生×３",
+    "jpGuide2": "話す\n弥生×4\nまりな×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n弥生×4\nまりな×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まりな",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n弥生×4\nまりな×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まりな",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n弥生×4\nまりな×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→プール場をでる",
+    "jpGuide2": "移動する\nプール場を出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プール場を出る",
+    "jpGuide1": "移動する→プール場をでる",
+    "jpGuide2": "移動する\nプール場を出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→脇道",
+    "jpGuide2": "見る・調べる\nあたりの様子\n脇道",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n脇道",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "脇道",
+    "jpGuide1": "見る・調べる→脇道",
+    "jpGuide2": "見る・調べる\nあたりの様子\n脇道",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→女の子×２→野郎ども×４",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の子",
+    "jpGuide1": "話す→女の子×２→野郎ども×４",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の子",
+    "jpGuide1": "話す→女の子×２→野郎ども×４",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "話す→女の子×２→野郎ども×４",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "話す→女の子×２→野郎ども×４",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→女の子→野郎ども",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の子",
+    "jpGuide1": "見る・調べる→女の子→野郎ども",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "見る・調べる→女の子→野郎ども",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n女の子×2\n野郎ども×2\n見る・調べる\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n野郎ども×2\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n野郎ども×2\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n野郎ども×2\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n野郎ども×2\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n野郎ども×2\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "野郎ども",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n野郎ども×2\n女の子\n野郎ども×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "助ける",
+    "jpGuide1": "助ける→女の子 / 話す→2人×３",
+    "jpGuide2": "助ける\n女の子\n見る・調べる\n水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の子",
+    "jpGuide1": "助ける→女の子 / 話す→2人×３",
+    "jpGuide2": "助ける\n女の子\n見る・調べる\n水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "助ける\n女の子\n見る・調べる\n水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "水着",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "助ける\n女の子\n見る・調べる\n水着",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "助ける→女の子 / 話す→2人×３",
+    "jpGuide2": "話す\n2人×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "2人",
+    "jpGuide1": "助ける→女の子 / 話す→2人×３",
+    "jpGuide2": "話す\n2人×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "2人",
+    "jpGuide1": "助ける→女の子 / 話す→2人×３",
+    "jpGuide2": "話す\n2人×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "2人",
+    "jpGuide1": "助ける→女の子 / 話す→2人×３",
+    "jpGuide2": "話す\n2人×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る",
+    "jpGuide2": "移動する\n外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る",
+    "jpGuide2": "移動する\n外に出る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→セントラル・アベニュー→プリンセス・ホテル",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "移動する→セントラル・アベニュー→プリンセス・ホテル",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "プリンセス・ホテル",
+    "jpGuide1": "移動する→セントラル・アベニュー→プリンセス・ホテル",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\nプリンセス・ホテル",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→ショットバー",
+    "jpGuide2": "移動する\nショットバー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ショットバー",
+    "jpGuide1": "移動する→ショットバー",
+    "jpGuide2": "移動する\nショットバー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→グレン×４",
+    "jpGuide2": "話す\nグレン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "グレン",
+    "jpGuide1": "話す→グレン×４",
+    "jpGuide2": "話す\nグレン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "グレン",
+    "jpGuide1": "話す→グレン×４",
+    "jpGuide2": "話す\nグレン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "グレン",
+    "jpGuide1": "話す→グレン×４",
+    "jpGuide2": "話す\nグレン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "グレン",
+    "jpGuide1": "話す→グレン×４",
+    "jpGuide2": "話す\nグレン×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→外に出る→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事務所内",
+    "jpGuide1": "移動する→外に出る→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→倉庫街→外国人学校→図書館",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校\n移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→倉庫街→外国人学校→図書館",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校\n移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校\n移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外国人学校",
+    "jpGuide1": "移動する→倉庫街→外国人学校→図書館",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校\n移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校\n移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "図書館",
+    "jpGuide1": "移動する→倉庫街→外国人学校→図書館",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n外国人学校\n移動する\n図書館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "色々",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "色々",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→あたりの様子×２",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×２",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "受付",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "館内の人々",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×２",
+    "jpGuide2": "読む\n色々×2\n見る・調べる\nあたりの様子\n本\n受付\n館内の人々\nあたりの様子",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→図書館を出る",
+    "jpGuide2": "移動する\n図書館を出る\n倒れる\n女の子の上",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "図書館を出る",
+    "jpGuide1": "移動する→図書館を出る",
+    "jpGuide2": "移動する\n図書館を出る\n倒れる\n女の子の上",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倒れる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n図書館を出る\n倒れる\n女の子の上",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "女の子の上",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n図書館を出る\n倒れる\n女の子の上",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→制服の女の子×５",
+    "jpGuide2": "話す\n制服の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "制服の女の子",
+    "jpGuide1": "話す→制服の女の子×５",
+    "jpGuide2": "話す\n制服の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "制服の女の子",
+    "jpGuide1": "話す→制服の女の子×５",
+    "jpGuide2": "話す\n制服の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "制服の女の子",
+    "jpGuide1": "話す→制服の女の子×５",
+    "jpGuide2": "話す\n制服の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "制服の女の子",
+    "jpGuide1": "話す→制服の女の子×５",
+    "jpGuide2": "話す\n制服の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "制服の女の子",
+    "jpGuide1": "話す→制服の女の子×５",
+    "jpGuide2": "話す\n制服の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→倉庫街→セントラル・アベニュー→弥生のマンション",
+    "jpGuide2": "移動する\n倉庫街\n移動する\nセントラル・アベニュー\n移動する\n弥生のマンション",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→倉庫街→セントラル・アベニュー→弥生のマンション",
+    "jpGuide2": "移動する\n倉庫街\n移動する\nセントラル・アベニュー\n移動する\n弥生のマンション",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\nセントラル・アベニュー\n移動する\n弥生のマンション",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "移動する→倉庫街→セントラル・アベニュー→弥生のマンション",
+    "jpGuide2": "移動する\n倉庫街\n移動する\nセントラル・アベニュー\n移動する\n弥生のマンション",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\nセントラル・アベニュー\n移動する\n弥生のマンション",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生のマンション",
+    "jpGuide1": "移動する→倉庫街→セントラル・アベニュー→弥生のマンション",
+    "jpGuide2": "移動する\n倉庫街\n移動する\nセントラル・アベニュー\n移動する\n弥生のマンション",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→真弥子×３",
+    "jpGuide2": "話す\n真弥子×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "真弥子",
+    "jpGuide1": "話す→真弥子×３",
+    "jpGuide2": "話す\n真弥子×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "真弥子",
+    "jpGuide1": "話す→真弥子×３",
+    "jpGuide2": "話す\n真弥子×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "真弥子",
+    "jpGuide1": "話す→真弥子×３",
+    "jpGuide2": "話す\n真弥子×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "移動する→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事務所内",
+    "jpGuide1": "移動する→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→大使館のこと",
+    "jpGuide2": "見る・調べる\n大使館のこと×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大使館のこと",
+    "jpGuide1": "見る・調べる→大使館のこと",
+    "jpGuide2": "見る・調べる\n大使館のこと×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大使館のこと",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\n大使館のこと×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る→外国人学校→大使館",
+    "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る→外国人学校→大使館",
+    "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外国人学校",
+    "jpGuide1": "移動する→外に出る→外国人学校→大使館",
+    "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大使館",
+    "jpGuide1": "移動する→外に出る→外国人学校→大使館",
+    "jpGuide2": "移動する\n外に出る\n移動する\n外国人学校\n移動する\n大使館",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→守衛×３",
+    "jpGuide2": "話す\n守衛×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "守衛",
+    "jpGuide1": "話す→守衛×３",
+    "jpGuide2": "話す\n守衛×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "守衛",
+    "jpGuide1": "話す→守衛×３",
+    "jpGuide2": "話す\n守衛×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "守衛",
+    "jpGuide1": "話す→守衛×３",
+    "jpGuide2": "話す\n守衛×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "守衛",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n守衛×4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→大使館×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大使館",
+    "jpGuide1": "見る・調べる→大使館×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "門",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "守衛",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大使館",
+    "jpGuide1": "見る・調べる→大使館×２",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大使館",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "門",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "守衛",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n大使館\n門\n守衛\nあたりの様子\n大使館×2\n門\n守衛",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外国人学校へ戻る→倉庫街→セントラル・アベニュー",
+    "jpGuide2": "移動する\n外国人学校へ戻る\n移動する\n倉庫街\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外国人学校へ戻る",
+    "jpGuide1": "移動する→外国人学校へ戻る→倉庫街→セントラル・アベニュー",
+    "jpGuide2": "移動する\n外国人学校へ戻る\n移動する\n倉庫街\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外国人学校へ戻る\n移動する\n倉庫街\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→外国人学校へ戻る→倉庫街→セントラル・アベニュー",
+    "jpGuide2": "移動する\n外国人学校へ戻る\n移動する\n倉庫街\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外国人学校へ戻る\n移動する\n倉庫街\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "移動する→外国人学校へ戻る→倉庫街→セントラル・アベニュー",
+    "jpGuide2": "移動する\n外国人学校へ戻る\n移動する\n倉庫街\n移動する\nセントラル・アベニュー",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→桂木探偵事務所→桂木探偵事務所",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桂木探偵事務所",
+    "jpGuide1": "移動する→桂木探偵事務所→桂木探偵事務所",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "桂木探偵事務所",
+    "jpGuide1": "移動する→桂木探偵事務所→桂木探偵事務所",
+    "jpGuide2": "移動する\n桂木探偵事務所\n移動する\n桂木探偵事務所",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→天井のエアコン→観葉植物→丸テーブル→あたりの様子×２",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→天井のエアコン→観葉植物→丸テーブル→あたりの様子×２",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "天井のエアコン",
+    "jpGuide1": "見る・調べる→天井のエアコン→観葉植物→丸テーブル→あたりの様子×２",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "天井のエアコン",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "丸テーブル",
+    "jpGuide1": "見る・調べる→天井のエアコン→観葉植物→丸テーブル→あたりの様子×２",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "丸テーブル",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "観葉植物",
+    "jpGuide1": "見る・調べる→天井のエアコン→観葉植物→丸テーブル→あたりの様子×２",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "観葉植物",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×2\n天井のエアコン×2\n丸テーブル×2\n観葉植物×2\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→奥",
+    "jpGuide2": "移動する\n奥",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "奥",
+    "jpGuide1": "移動する→奥",
+    "jpGuide2": "移動する\n奥",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "襲う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→あたりの様子×２",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×２",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×２",
+    "jpGuide2": "襲う\n弥生\n話す\n弥生×2\n見る・調べる\nあたりの様子×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→弥生×３",
+    "jpGuide2": "話す\n弥生×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "話す→弥生×３",
+    "jpGuide2": "話す\n弥生×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "弥生",
+    "jpGuide1": "話す→弥生×３",
+    "jpGuide2": "話す\n弥生×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セントラル・アベニュー",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事務所内",
+    "jpGuide1": "移動する→外に出る→セントラル・アベニュー→倉庫街→事務所内",
+    "jpGuide2": "移動する\n外に出る\n移動する\nセントラル・アベニュー\n移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出る",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "移動する→外に出る→孔の家",
+    "jpGuide2": "移動する\n外に出る\n移動する\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "押す",
+    "jpGuide1": "押す→呼び鈴",
+    "jpGuide2": "押す\n呼び鈴×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呼び鈴",
+    "jpGuide1": "押す→呼び鈴",
+    "jpGuide2": "押す\n呼び鈴×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呼び鈴",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "押す\n呼び鈴×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→家に入る",
+    "jpGuide2": "移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家に入る",
+    "jpGuide1": "移動する→家に入る",
+    "jpGuide2": "移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→道路→あたりの様子→孔の家×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→道路→あたりの様子→孔の家×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "見る・調べる→道路→あたりの様子→孔の家×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "見る・調べる→道路→あたりの様子→孔の家×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "見る・調べる→道路→あたりの様子→孔の家×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "植え込み",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "植え込み",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "道路",
+    "jpGuide1": "見る・調べる→道路→あたりの様子→孔の家×３",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "道路",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の家",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n孔の家×3\n植え込み×2\n道路×2\n孔の家",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→家に入る×２",
+    "jpGuide2": "移動する\n家に入る\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家に入る",
+    "jpGuide1": "移動する→家に入る×２",
+    "jpGuide2": "移動する\n家に入る\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n家に入る\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家に入る",
+    "jpGuide1": "移動する→家に入る×２",
+    "jpGuide2": "移動する\n家に入る\n移動する\n家に入る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジャケット",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジャケット",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "さわる",
+    "jpGuide1": "さわる→男の身体→傷口→ジャケッと",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男の身体",
+    "jpGuide1": "さわる→男の身体→傷口→ジャケッと",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男の身体",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジャケット",
+    "jpGuide1": "さわる→男の身体→傷口→ジャケッと",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジャケット",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "さわる→男の身体→傷口→ジャケッと",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子×3\n男×4\n傷口×3\nジャケット×2\nさわる\n男の身体×2\nジャケット×2\n傷口×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見る・調べる",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "男",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジャケット",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ジャケット",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→傷口×３→男×４→ジャケッと×２→あたりの様子×４",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "傷口",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見る・調べる\nあたりの様子\n男×2\n傷口×3\nジャケット×2\nあたりの様子×2\n傷口",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×４→ナイフ×４",
+    "jpGuide2": "あたりの様子×3\nナイフ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×４→ナイフ×４",
+    "jpGuide2": "あたりの様子×3\nナイフ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "あたりの様子",
+    "jpGuide1": "見る・調べる→あたりの様子×４→ナイフ×４",
+    "jpGuide2": "あたりの様子×3\nナイフ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ナイフ",
+    "jpGuide1": "見る・調べる→あたりの様子×４→ナイフ×４",
+    "jpGuide2": "あたりの様子×3\nナイフ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ナイフ",
+    "jpGuide1": "見る・調べる→あたりの様子×４→ナイフ×４",
+    "jpGuide2": "あたりの様子×3\nナイフ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ナイフ",
+    "jpGuide1": "見る・調べる→あたりの様子×４→ナイフ×４",
+    "jpGuide2": "あたりの様子×3\nナイフ×3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "隠れる",
+    "jpGuide1": "隠れる→カーテンの陰",
+    "jpGuide2": "隠れる\nカーテンの陰",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "カーテンの陰",
+    "jpGuide1": "隠れる→カーテンの陰",
+    "jpGuide2": "隠れる\nカーテンの陰",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→目の前の女の子×５",
+    "jpGuide2": "話す\n目の前の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目の前の女の子",
+    "jpGuide1": "話す→目の前の女の子×５",
+    "jpGuide2": "話す\n目の前の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目の前の女の子",
+    "jpGuide1": "話す→目の前の女の子×５",
+    "jpGuide2": "話す\n目の前の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目の前の女の子",
+    "jpGuide1": "話す→目の前の女の子×５",
+    "jpGuide2": "話す\n目の前の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目の前の女の子",
+    "jpGuide1": "話す→目の前の女の子×５",
+    "jpGuide2": "話す\n目の前の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目の前の女の子",
+    "jpGuide1": "話す→目の前の女の子×５",
+    "jpGuide2": "話す\n目の前の女の子×5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "話す",
+    "jpGuide1": "話す→恭子×５→",
+    "jpGuide2": "話す\n恭子×6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恭子",
+    "jpGuide1": "話す→恭子×５→",
+    "jpGuide2": "話す\n恭子×6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恭子",
+    "jpGuide1": "話す→恭子×５→",
+    "jpGuide2": "話す\n恭子×6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恭子",
+    "jpGuide1": "話す→恭子×５→",
+    "jpGuide2": "話す\n恭子×6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恭子",
+    "jpGuide1": "話す→恭子×５→",
+    "jpGuide2": "話す\n恭子×6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恭子",
+    "jpGuide1": "話す→恭子×５→",
+    "jpGuide2": "話す\n恭子×6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "恭子",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "話す\n恭子×6",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "倉庫街",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "移動する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "事務所内",
+    "jpGuide1": "移動する→倉庫街→事務所内",
+    "jpGuide2": "移動する\n倉庫街\n移動する\n事務所内",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考える",
+    "jpGuide1": "考える→殺人の事→孔の事",
+    "jpGuide2": "考える\n殺人の事\n孔の事\n聴く\n電話のテープ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "殺人の事",
+    "jpGuide1": "考える→殺人の事→孔の事",
+    "jpGuide2": "考える\n殺人の事\n孔の事\n聴く\n電話のテープ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の事",
+    "jpGuide1": "考える→殺人の事→孔の事",
+    "jpGuide2": "考える\n殺人の事\n孔の事\n聴く\n電話のテープ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "聴く",
+    "jpGuide1": "聴く→電話のテープ",
+    "jpGuide2": "考える\n殺人の事\n孔の事\n聴く\n電話のテープ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "電話のテープ",
+    "jpGuide1": "聴く→電話のテープ",
+    "jpGuide2": "考える\n殺人の事\n孔の事\n聴く\n電話のテープ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "考える",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "孔の事",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呪いの事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呪いの事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "呪いの事",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "氷室恭子の事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "氷室恭子の事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "二階堂の事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "これからの事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "これからの事",
+    "jpGuide1": "考える→孔の事×２→呪いの事×２→氷室恭子の事×２→二階堂の事→これからの事×２",
+    "jpGuide2": "考える\n孔の事×3\n呪いの事×3\n氷室恭子の事×2\n二階堂の事\nこれからの事×2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "寝る",
+    "jpGuide1": "寝る→ベッドで→ソファで",
+    "jpGuide2": "寝る\nベッドで\nソファで",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ベッドで",
+    "jpGuide1": "寝る→ベッドで→ソファで",
+    "jpGuide2": "寝る\nベッドで\nソファで",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ソファで",
+    "jpGuide1": "寝る→ベッドで→ソファで",
+    "jpGuide2": "寝る\nベッドで\nソファで",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "まりな編にサイトチェンジ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "まりな編にサイトチェンジ",
+    "enGuide": "R part 4 switches to Marina after the bedtime scene."
+  }
+]

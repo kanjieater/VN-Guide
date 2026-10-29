@@ -11,6 +11,7 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 - Complete the research gate before writing route content.
 - Generate accurate route files and assemble guide metadata.
 - Verify and populate the exact target edition's game cover during registration/research; leave it blank only after a documented lookup finds none.
+- Actively look up and populate a portrait for every route character; do not leave portrait lookup for review.
 - Apply reviewer-requested corrections.
 - Document uncertainty instead of inferring missing facts.
 - Never approve your own work.
@@ -23,10 +24,10 @@ Follow `agents/authoring-contracts.md` for the exact `research.json` shape, one-
 
 Before writing any route:
 
-1. Read the `guide_target` supplied by `games.json` or the caller.
+1. Read the `guide_target` supplied by `<slug>/catalog.json` (legacy: `games.json`) or the caller.
 2. If neither supplies one, resolve the newest unambiguous official complete release with native Japanese in-game text using release-specific metadata; do not choose from the broad VNDB work entry alone. If that newest applicable release is ambiguous, stop and request an explicit target.
 3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id. Never reuse a caller target for another pending game.
-4. Persist the resolved target—repository, caller, or default—to `games.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
+4. Persist the resolved target—repository, caller, or default—to `<slug>/catalog.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
 5. Identify two independent Japanese verification sets as defined in `agents/guide-standards.md`.
 6. For an explicitly opted-in non-VN walkthrough, check the game supplement **before failing the source gate**. If it contains a repository-owner-approved title-scoped exception, verify its approval provenance and exact enumerated fact scope; the author must not create or broaden that approval.
 7. Verify both Japanese sets are directly inspectable and apply to the **exact target release**; document version differences. For a valid exception-covered fact only, retain the strongest available Japanese evidence and the supplement-approved supplemental source role instead of pretending the missing Japanese lane exists.
@@ -51,6 +52,9 @@ Before submitting the **current route**, confirm:
 - For normal VNs, every emitted player-action `simpleJp` is exact in-game text and save/load are the only normal non-choice steps. For an explicitly opted-in non-VN walkthrough, use the canonical game-walkthrough `simpleJp` rules: literal choices/menu labels remain exact, while navigation, battle, talk, pickup, preparation, and similar non-choice actions may use concise author-written Japanese.
 - Useful available `enGuide` detail is preserved.
 - For non-VN linear walkthroughs, reject objective-only steps during authoring: if the source says how to complete a job, dungeon, or event, carry that execution detail into the route (where to go, who/what to interact with, what battle/puzzle condition matters, and how the task finishes). A job name plus “complete it” is not sufficient player guidance.
+- For non-VN linear walkthroughs, perform a continuity pass over the **whole recommended order**, not only each route in isolation: verify the previous route's endpoint, the current route's starting location/state, the travel needed to reach each optional task, and the next mandatory objective.
+- Every optional bounty/steal/pickup/job must explain its purpose and timing in player-facing guidance. Record whether it is optional completion content, whether a poster or other unlock is actually required, any spawn prerequisite, whether a steal is first-encounter-only, and where completion is reported when the source documents those facts.
+- Prefer a geographically coherent order inside each optional window. Do not send the player to another city merely to inspect a poster or NPC unless that interaction is actually required by the source.
 - Dependencies and prerequisites are correct.
 - For opted-in non-VN guides, every material progression fact defined by the canonical game-walkthrough source-coverage rules has the required source support; one-source coverage is reserved for genuinely low-level non-branching execution details unless an exact fact is covered by a valid owner exception.
 - For non-VN linear walkthroughs, every playthrough-ending terminal explicitly establishes the next run before later gameplay continues, unless a source-backed load already does so.
@@ -84,9 +88,9 @@ The author never sets `reviewed: true`.
 
 ## Derived-output completion check
 
-Before declaring author work complete, apply the tracked generated-artifact rules in `agents/guide-standards.md`.
+Before declaring author work complete, apply the directory-catalog rules in `agents/guide-standards.md`.
 
-In particular, if this work changes landing-visible fields in `games.json` (including `has_guide` or `cover_url`), ensure root `index.html` reflects the same current values. If the current environment cannot run the deterministic generator, inspect the committed generator/template and update the affected tracked output equivalently rather than leaving stale generated data.
+For new titles, keep landing metadata in `<slug>/catalog.json`. Do not edit shared `games.json` or root `index.html`. Do not edit per-game `index.html` or `manifest.json`; CI generates these and the root index on `main`; `has_guide` is derived from route review flags.
 
 ## Applying reviewer corrections
 

@@ -1,0 +1,52 @@
+{
+  "target": "https://vndb.org/r82483",
+  "extracted_at": "2026-10-28",
+  "kind": "Read-only extraction of the caller's installed original Japanese Switch game assets",
+  "scope": "Only the 13 disputed choice strings and their SELR references; not a full script dump or a gameplay run",
+  "decoder": {
+    "repository": "https://github.com/AuroraWright/knife",
+    "commit": "794bcc5e14be6bd4bf44716f160a280f4306ab1d",
+    "version": "0.9.0",
+    "language_slot": 0,
+    "text_parser": "knife-core/src/format/script.rs::ScriptText",
+    "scene_parser": "knife-core/src/format/script.rs::SceneArchive",
+    "instruction_parser": "knife-core/src/vm/parse.rs::Scene",
+    "reproducer": "verify-choice-text.rs"
+  },
+  "asset_identity": {
+    "detected_build": "Japanese",
+    "detection": "Unprefixed allpac/allui archives; no w_allpac.nam, following Knife's assets::detect_build",
+    "script_text.mrg": {
+      "bytes": 5124872,
+      "sha256": "53a3bafb10af046f11702f1b1a2b277b0fff410ad825de8d799f2e246f5772a2"
+    },
+    "allscr.mrg": {
+      "bytes": 9523336,
+      "sha256": "52e2cc713980ea3fa97a3a220eda470e136fa8c542b65cd2ef614dc1707cda79"
+    }
+  },
+  "provenance_limit": "These are the caller's local extracted original Japanese assets, not a Switch hardware capture or an independently preserved eShop receipt/control.nacp. Distribution packaging and installed Switch patch version are not independently identified by this bundle. No 2024 equivalence is claimed. Independent accuracy review must assess applicability; this artifact is not approval.",
+  "save_safety": "The game was not launched. The decoder and verifier only read script_text.mrg and allscr.mrg. No save was loaded, copied, unlocked, written or restored; the original save's size, modification time and SHA-256 were checked unchanged privately.",
+  "choices": [
+    {"route":"arcueid","step":7,"text_id":42688,"text":"パンを買って教室で済ませよう。","references":[{"scene":"02_01_CIEL02_1","offset":"0x104e","args":"1,$042688"}]},
+    {"route":"arcueid","step":21,"text_id":42607,"text":"……迷うのはここまでだ。残ろう。","references":[{"scene":"04_00_ARC04_6","offset":"0xcd1b","args":"1,$042607"}]},
+    {"route":"arcueid","step":54,"text_id":42639,"text":"もうすこしアルクェイドと話をする。","references":[{"scene":"07_00_ARC07_3G","offset":"0x11c43","args":"0,$042639"}]},
+    {"route":"ciel_normal","step":23,"text_id":42694,"text":"―――このまま押し切る！","references":[{"scene":"05_01_CIEL05_1_1B","offset":"0x3e8e","args":"0,$042694"}]},
+    {"route":"ciel_normal","step":26,"text_id":42695,"text":"―――限界だ、一度呼吸を……！","references":[{"scene":"05_01_CIEL05_1_1B","offset":"0x3e9f","args":"1,$042695"}]},
+    {"route":"ciel_normal","step":44,"text_id":42725,"text":"『………（いや、下手な言葉は逆効果だ）』","references":[{"scene":"09_01_CIEL09_6_1","offset":"0x5622","args":"1,$042725"}]},
+    {"route":"ciel_normal","step":55,"text_id":42724,"text":"『それ以上進んだら嫌いになるからなっ！』","references":[{"scene":"09_01_CIEL09_6_1","offset":"0x5611","args":"0,$042724"}]},
+    {"route":"ciel_normal","step":64,"text_id":42734,"text":"……大聖堂ってなに？　と訊いてみる。","references":[{"scene":"10_01_CIEL10_3_2","offset":"0x2af7","args":"1,$042734"}]},
+    {"route":"ciel_normal","step":65,"text_id":42735,"text":"黒鍵ってなに？　と訊いてみる。","references":[{"scene":"10_01_CIEL10_3_2","offset":"0x2b6d","args":"2,$042735"}]},
+    {"route":"ciel_normal","step":78,"text_id":42750,"text":"……眼鏡を外す。","references":[{"scene":"13_01_01_CIEL13_4","offset":"0xa69a","args":"0,$042750"}]},
+    {"route":"ciel_normal","step":81,"text_id":42751,"text":"……眼鏡は外さない。","references":[{"scene":"13_01_01_CIEL13_4","offset":"0xa6c4","args":"1,$042751,1"},{"scene":"13_01_01_CIEL13_4","offset":"0xa702","args":"1,$042751"}]},
+    {"route":"ciel_normal","step":88,"text_id":42754,"text":"面倒だ。殺してしまえ。","references":[{"scene":"13_01_02_CIEL13_6","offset":"0x133a1","args":"0,$042754"}]},
+    {"route":"ciel_normal","step":91,"text_id":42755,"text":"………………いや、それは。","references":[{"scene":"13_01_02_CIEL13_6","offset":"0x133b2","args":"1,$042755"}]}
+  ],
+  "unicode_notes": {
+    "questions": "The space following ？ in text IDs 42734 and 42735 is U+3000 IDEOGRAPHIC SPACE, not U+0020 or an omitted space.",
+    "bars": "Text IDs 42694 and 42695 begin with three U+2015 HORIZONTAL BAR characters.",
+    "hesitation": "Text ID 42755 begins with six U+2026 HORIZONTAL ELLIPSIS characters.",
+    "glasses": "Text ID 42751 uses は, not を.",
+    "numbering": "Knife's SELR renderer separately adds the numbered option prefix; it is not part of these original choice payload strings."
+  }
+}

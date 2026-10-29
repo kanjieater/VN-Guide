@@ -2,38 +2,38 @@
   {
     "simpleJp": "最初のスフィンクス問題で「人間」を選ぶ",
     "jpGuide1": "問題の答えは「人間」「用心棒ジェフリー」「ゴッズ」「地」「鳥」「イービルアイ」",
-    "jpGuide2": "スフィンクスのなぞなぞ",
-    "enGuide": "Use those answers in order as you move through the Sphinx rooms. Answering correctly opens the route deeper into the Pyramid."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Story progression. Continue directly from “【任意】紋次編前：バルバラード→各地最終回収”. Use those answers in order as you move through the Sphinx rooms. Answering correctly opens the route deeper into the Pyramid."
   },
   {
     "simpleJp": "「用心棒ジェフリー」を選ぶ",
     "jpGuide1": "「用心棒ジェフリー」",
-    "jpGuide2": "スフィンクスのなぞなぞ",
-    "enGuide": "Choose this exact answer for Sphinx question 2."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "At Sphinx question 2, choose the exact answer 「用心棒ジェフリー」. This is the second answer in the fixed six-question sequence; continue forward to the next Sphinx rather than leaving the Pyramid between questions."
   },
   {
     "simpleJp": "「ゴッズ」を選ぶ",
     "jpGuide1": "「ゴッズ」",
-    "jpGuide2": "スフィンクスのなぞなぞ",
-    "enGuide": "Choose this exact answer for Sphinx question 3."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "At Sphinx question 3, choose the exact answer 「ゴッズ」. Continue through the same Pyramid quiz sequence immediately afterward; this is progression, not an optional dialogue branch."
   },
   {
     "simpleJp": "「地」を選ぶ",
     "jpGuide1": "「地」",
-    "jpGuide2": "スフィンクスのなぞなぞ",
-    "enGuide": "Choose this exact answer for Sphinx question 4."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "At Sphinx question 4, choose the exact answer 「地」. Keep following the Sphinx-room sequence after the answer; the route is building toward the upper-floor quicksand puzzle."
   },
   {
     "simpleJp": "「鳥」を選ぶ",
     "jpGuide1": "「鳥」",
-    "jpGuide2": "スフィンクスのなぞなぞ",
-    "enGuide": "Choose this exact answer for Sphinx question 5."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "At Sphinx question 5, choose the exact answer 「鳥」. Continue directly to the final Sphinx question after this choice; do not detour out of the Pyramid."
   },
   {
     "simpleJp": "「イービルアイ」を選ぶ",
     "jpGuide1": "「イービルアイ」",
-    "jpGuide2": "スフィンクスのなぞなぞ",
-    "enGuide": "Choose this exact answer for Sphinx question 6."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "At Sphinx question 6, choose the exact answer 「イービルアイ」. This completes the six-answer quiz sequence and opens the route into the remaining Pyramid traversal and boss section."
   },
   {
     "simpleJp": "1F中央の穴からB1の宝を回収する",
@@ -51,6 +51,6 @@
     "simpleJp": "最上階でカサドールを倒す",
     "jpGuide1": "倒すとバルバラードはクリア。ピラミッドには入れなくなる。",
     "jpGuide2": "バルバラード編終了",
-    "enGuide": "The Pyramid becomes inaccessible after the boss. Use Gogen's Teleport for lower treasure if desired, verify the unique loot, then defeat Casador to end the Barbarad arc."
+    "enGuide": "The Pyramid becomes inaccessible after the boss. Use Gogen's Teleport for lower treasure if desired, verify the unique loot, then defeat Casador to end the Barbarad arc. Next: “パレンシアタワー〜過去編”."
   }
 ]

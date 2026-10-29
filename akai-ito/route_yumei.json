@@ -61,6 +61,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "Normal End『槐夢・夏の終わり』（ED1）",
+    "jpGuide1": "エンディングNo.1\nNormal End\n『槐夢・夏の終わり』",
+    "jpGuide2": "No.1 槐夢・夏の終わり",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ19にロード",
     "jpGuide1": "－セーブ①から－",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -361,6 +367,12 @@
     "badEndPath": "Normal End『残夢・夏の終わり』（ED5）"
   },
   {
+    "simpleJp": "Normal End『残夢・夏の終わり』（ED5）",
+    "jpGuide1": "エンディングNo.5\nNormal End\n『残夢・夏の終わり』",
+    "jpGuide2": "No.5 残夢・夏の終わり",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ22にロード",
     "jpGuide1": "－セーブ④から－",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -391,6 +403,12 @@
     "jpGuide2": "薪の調達に行く(No.16へ)",
     "enGuide": "",
     "badEndPath": "Bad End『ラクヨウ』（ED16）"
+  },
+  {
+    "simpleJp": "Bad End『ラクヨウ』（ED16）",
+    "jpGuide1": "エンディングNo.16\nBad End\n『ラクヨウ』",
+    "jpGuide2": "No.16 ラクヨウ",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ23にロード",
@@ -461,6 +479,12 @@
     "jpGuide2": "ただ見ることしかできなかった(No.19へ)",
     "enGuide": "",
     "badEndPath": "Normal End『一片の残花』（ED19）"
+  },
+  {
+    "simpleJp": "Normal End『一片の残花』（ED19）",
+    "jpGuide1": "エンディングNo.19\nNormal End\n『一片の残花』",
+    "jpGuide2": "No.19 一片の残花",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ25にロード",

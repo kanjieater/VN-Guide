@@ -3,12 +3,12 @@
     "simpleJp": "時の森へ戻る",
     "jpGuide1": "北極・南極をクリアするぐらいまでストーリーを進めると、村に帰ることができる。",
     "jpGuide2": "アンデルを倒してから再び村へ行く。",
-    "enGuide": "After defeating Andel and finishing both polar towers, return through Time Forest to Tokoko. The village has changed to its ruined state; continue into the new event."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “現代帰還〜北・南の塔”. After defeating Andel and finishing both polar towers, return through Time Forest to Tokoko. The village has changed to its ruined state; continue into the new event."
   },
   {
     "simpleJp": "廃墟のトココでちょこの家へ入る",
     "jpGuide1": "ちょこの家から出ると、イベント後にコープスと戦闘",
     "jpGuide2": "イベントと戦闘をクリアしたら",
-    "enGuide": "Enter Choko's house in ruined Tokoko, then leave it to trigger the next event and Corpse battle. Win the fight and finish the village sequence; converted files can continue into the awakening route."
+    "enGuide": "Enter Choko's house in ruined Tokoko, then leave it to trigger the next event and Corpse battle. Win the fight and finish the village sequence; converted files can continue into the awakening route. Next: “【任意・コンバート】ちょこ覚醒：遺跡B51〜B71”."
   }
 ]

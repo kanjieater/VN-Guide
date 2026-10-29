@@ -3,7 +3,7 @@
     "simpleJp": "空中城へ突入する",
     "jpGuide1": "一度突入するともとの世界には帰れなくなる",
     "jpGuide2": "空中城突入",
-    "enGuide": "Final point of no return. Enter only after every optional job, bounty, item, and synthesis goal you care about is complete."
+    "enGuide": "Story progression. Continue directly from “ロマリア市街・地下道決着”. Final point of no return. Enter only after every optional job, bounty, item, and synthesis goal you care about is complete."
   },
   {
     "simpleJp": "入口付近の敵を倒す",
@@ -27,31 +27,31 @@
     "simpleJp": "アークの部屋で「いいえ」を選ぶ",
     "jpGuide1": "アーク：いいえ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Send Ark into one solo room, choose 「いいえ」, then win the room battle."
+    "enGuide": "Send Ark into his solo room and choose the exact answer 「いいえ」 when prompted. This is the source-verified answer for his trial; finish the room battle afterward, then return to the central trial area for the next character."
   },
   {
     "simpleJp": "ポコの部屋で「助ける」を選ばない",
     "jpGuide1": "ポコ：（助ける→いいえ）以外",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "For Poco, avoid the specific combination 「助ける」→「いいえ」, then win the room battle."
+    "enGuide": "In Poco's solo trial, avoid the specific losing/incorrect sequence 「助ける」→「いいえ」. Complete the trial with a safe answer path, win the room battle, and return to the central area before sending in the next character."
   },
   {
     "simpleJp": "ゴーゲンの部屋で「いいえ」を選ぶ",
     "jpGuide1": "ゴーゲン：いいえ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Send Gogen into his solo room, choose 「いいえ」, then win the battle."
+    "enGuide": "Send Gogen into his solo room and choose the exact answer 「いいえ」. Finish the room battle after the choice, then return to the central trial area; this is one of the six character rooms needed before the route opens onward."
   },
   {
     "simpleJp": "リーザの部屋で「いいえ」を選ぶ",
     "jpGuide1": "リーザ：いいえ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Send Lieza into her solo room, choose 「いいえ」, then win the battle."
+    "enGuide": "Send Lieza into her solo room and choose the exact answer 「いいえ」. Finish the room battle, then return to the central trial area; do not skip the remaining character rooms."
   },
   {
     "simpleJp": "シャンテの部屋で「いいえ」を選ぶ",
     "jpGuide1": "シャンテ：いいえ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Send Shante into her solo room, choose 「いいえ」, then win the battle."
+    "enGuide": "Send Shante into her solo room and choose the exact answer 「いいえ」. Finish the room battle and return to the central trial area before proceeding to the remaining trial sequence."
   },
   {
     "simpleJp": "グルガの部屋で「抵抗しない」を3回選ぶ",
@@ -81,12 +81,12 @@
     "simpleJp": "パーティーで闇黒の支配者の第1形態を倒す",
     "jpGuide1": "闇黒の支配者一戦目。卵型。倒すと２戦目に移行。",
     "jpGuide2": "その後イベントを挟み、次はククル以外のパーティメンバーで戦う",
-    "enGuide": "After Kukuru's event battle, use the party to defeat the egg-shaped first full form."
+    "enGuide": "After Kukuru's solo event battle resolves, control returns to the party for the first full Dark Ruler form. Defeat the egg-shaped first form; there is another mandatory form immediately afterward, so treat this as phase one of the final party battle."
   },
   {
     "simpleJp": "続けて闇黒の支配者の第2形態を倒す",
     "jpGuide1": "闇黒の支配者２戦目。このゲームのラスボス。",
     "jpGuide2": "闇黒の支配者戦3",
-    "enGuide": "Defeat the second/final Dark Ruler form and continue through the ending; this is the guide's terminal step."
+    "enGuide": "Immediately after the first party phase, defeat the second/final Dark Ruler form. This is the terminal combat step: once it falls, continue through the ending sequence rather than looking for another route or cleanup window."
   }
 ]

@@ -3,19 +3,19 @@
     "simpleJp": "プロディアスのハンターズギルドへ行く",
     "jpGuide1": "すぐにハンターズギルドへ。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Leave Elk's house and go straight to the Prodius Hunters Guild. Speak at the counter before heading to the airport."
+    "enGuide": "Story start: Leave Elk's house and go straight to the Prodius Hunters Guild. Speak at the counter before heading to the airport."
   },
   {
     "simpleJp": "アルディア空港でアルフレッドを倒す",
     "jpGuide1": "アルフレッドと戦闘。",
     "jpGuide2": "アルフレッド撃破",
-    "enGuide": "Clear the opening airport fight."
+    "enGuide": "From Prodius, go to Aldia Airport; this is the next mandatory story stop after checking the Hunters Guild. Win the opening Alfred fight to advance into the aircraft sequence."
   },
   {
     "simpleJp": "人質に話して「しっぷうのバンダナ」を受け取る",
     "jpGuide1": "「しっぷうのバンダナ」をもらえる。",
     "jpGuide2": "人質になっていた女性と会話し、疾風のバンダナ回収",
-    "enGuide": "Talk to the rescued hostage after the fight and take the Gale Bandana."
+    "enGuide": "Before leaving the airport battle area, speak to the rescued hostage and take the Gale Bandana. It is an immediate post-battle reward, so collect it before following Alfred onward."
   },
   {
     "simpleJp": "リーザとパンディットを加えて追跡する",
@@ -27,7 +27,7 @@
     "simpleJp": "飛行船の甲板でアルフレッドたちを倒す",
     "jpGuide1": "甲板でアルフレッドたちと戦闘。",
     "jpGuide2": "戦闘処理(アルフレッド2)",
-    "enGuide": "Clear the mandatory second Alfred battle on the aircraft deck before reaching Indigos."
+    "enGuide": "Continue through the aircraft until you reach the deck, then win the mandatory second Alfred battle. The story deposits you in Indigos afterward, where the next investigation begins."
   },
   {
     "simpleJp": "インディゴスのギルド受付に話す",
@@ -45,13 +45,19 @@
     "simpleJp": "シュウの家へ戻って一晩休む",
     "jpGuide1": "シュウの家へ戻る。一晩休んだら",
     "jpGuide2": "シュウのアパートへ戻りイベント進行",
-    "enGuide": "Return to Shu's apartment and rest to advance the event."
+    "enGuide": "After the Ruined Town/Leland encounter, return to Shu's apartment in Indigos and rest for the night. This is the required story trigger before Lieza's group and the guild sequence resume."
   },
   {
     "simpleJp": "リーザたちを連れてギルドへ行く",
     "jpGuide1": "リーザたちを仲間にしてギルドへ。",
     "jpGuide2": "ギルドへ移動しマスターと話しかける",
-    "enGuide": "Return to the guild with Lieza's group and speak to the guild master."
+    "enGuide": "Return to the Indigos guild with Lieza's group. The next step is to accept the guild job that triggers the alley sequence."
+  },
+  {
+    "simpleJp": "ギルドの仕事を請ける",
+    "jpGuide1": "仕事を請けたらすぐイベント開始。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Accept the guild job before the alley event. Set A explicitly identifies accepting the job as the trigger; do not skip directly from speaking at the guild to the battle."
   },
   {
     "simpleJp": "路地裏の敵を倒す",
@@ -63,12 +69,12 @@
     "simpleJp": "シュウの家へ戻る",
     "jpGuide1": "シュウの家に戻るとシュウが仲間になる。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Return to Shu's apartment; Shu now joins permanently."
+    "enGuide": "When the alley event finishes, return to Shu's apartment in Indigos. Shu joins permanently there; stay in the apartment afterward because one more rest unlocks the first guild-job window."
   },
   {
     "simpleJp": "シュウ加入後、もう一度一泊する",
     "jpGuide1": "一泊するとギルドの仕事を請けられるようになる。",
     "jpGuide2": "G#01　発生時期　シュウ加入",
-    "enGuide": "Rest once before beginning the first guild-job block."
+    "enGuide": "Rest once after Shu joins. You are still in Indigos. The next section is the optional early completion window; stay in Indigos and clear it before advancing the tavern/night story if you want all expiring guild work and early bounties. Next: “【任意】インディゴス序盤：期限付き仕事・手配モンスター”."
   }
 ]

@@ -80,11 +80,16 @@
   },
   "v147": {
     "slug": "eve-burst-error",
-    "has_guide": false,
+    "has_guide": true,
     "title": "EVE burst error",
     "alttitle": "",
     "cover_url": "https://t.vndb.org/cv/82/103582.jpg",
-    "added_at": "2026-08-31T17:22:19.884323+00:00"
+    "added_at": "2026-08-31T17:22:19.884323+00:00",
+    "guide_target": {
+      "label": "EVE burst error R（Nintendo Switch ダウンロード版）",
+      "platform": "Nintendo Switch",
+      "url": "https://store-jp.nintendo.com/item/software/D70010000014281"
+    }
   },
   "v210": {
     "slug": "himawari",
@@ -146,17 +151,43 @@
       "url": "https://blog.ja.playstation.com/2018/10/29/20181029-psclassic-1/"
     }
   },
-  "v6656": {
-    "slug": "shinigami-to-shoujo",
-    "has_guide": false,
-    "title": "Shinigami to Shoujo",
-    "alttitle": "死神と少女",
-    "cover_url": "https://image.biccamera.com/img/00000010091521_A01.jpg?sr.dh=600&sr.dw=600&sr.jqh=60&sr.mat=1",
-    "added_at": "2026-09-25T16:15:00+00:00",
+  "v17909": {
+    "slug": "tsukihime-remake",
+    "has_guide": true,
+    "title": "Tsukihime -A piece of blue glass moon-",
+    "alttitle": "月姫 -A piece of blue glass moon-",
+    "cover_url": "https://t.vndb.org/cv/86/86686.jpg",
+    "added_at": "2026-10-27T19:06:39Z",
     "guide_target": {
-      "label": "死神と少女（Nintendo Switch版）",
+      "label": "Tsukihime -A piece of blue glass moon- Download Edition (2021, Japanese)",
       "platform": "Nintendo Switch",
-      "url": "https://www.takuyo.co.jp/products/shinigami/switchinfo.html"
+      "url": "https://vndb.org/r82483"
+    }
+  },
+  "v119": {
+    "slug": "divi-dead",
+    "has_guide": true,
+    "title": "DIVI-DEAD",
+    "alttitle": "ディヴァイ・デッド",
+    "cover_url": "https://cdn.suruga-ya.jp/database/pics_webp/game/145000745.jpg.webp",
+    "added_at": "2026-09-25T16:30:00+00:00",
+    "guide_target": {
+      "label": "DIVI-DEAD（1998年オリジナルCD版）",
+      "platform": "Windows 95/PC",
+      "url": "https://www.suruga-ya.jp/product/detail/145000745"
+    }
+  },
+  "v7238": {
+    "slug": "midori-no-umi",
+    "has_guide": true,
+    "title": "Midori no Umi",
+    "alttitle": "翠の海",
+    "cover_url": "https://t.vndb.org/cv/99/81699.jpg",
+    "added_at": "2026-10-27T21:15:00+00:00",
+    "guide_target": {
+      "label": "翠の海 -midori no umi- ダウンロード版",
+      "platform": "Windows",
+      "url": "https://vndb.org/r18372"
     }
   }
 }

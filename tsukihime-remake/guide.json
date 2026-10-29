@@ -1,0 +1,160 @@
+{
+  "title": "Tsukihime -A piece of blue glass moon-",
+  "vndb_id": "v17909",
+  "guide_target": {
+    "label": "Tsukihime -A piece of blue glass moon- Download Edition (2021, Japanese)",
+    "platform": "Nintendo Switch",
+    "url": "https://vndb.org/r82483"
+  },
+  "routes": [
+    {
+      "id": "arcueid",
+      "title": "1. アルクェイド / Arcueid + Dead Ends 01–11",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/38/116538.jpg"
+    },
+    {
+      "id": "ciel_normal",
+      "title": "2. シエル Normal / 夜の虹 + Dead Ends 12–19",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/39/116539.jpg"
+    },
+    {
+      "id": "ciel_extra",
+      "title": "3. シエル Extra / 白日の碧 + Dead Ends 20–21",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/39/116539.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://kannagi35.com/content/tsukihime-a-piece-of-blue-glass-moon-walkthrough",
+      "title": "KANNAGI — route order and unlock conditions",
+      "language": "ja",
+      "set": "A",
+      "notes": "Directly inspected overview: Arcueid then Ciel Normal then True; affection and unlock conditions. Its original 2021 remake product context is the basis for the retargeted original Switch guide, not evidence about 2024."
+    },
+    {
+      "url": "https://kannagi35.com/content/tsukihime-a-piece-of-blue-glass-moon-route-common",
+      "title": "KANNAGI — common opening checkpoint",
+      "language": "ja",
+      "set": "A",
+      "notes": "Directly inspected common opening and source-backed save before the first choice. Component of the original 2021 remake walkthrough set."
+    },
+    {
+      "url": "https://kannagi35.com/content/tsukihime-a-piece-of-blue-glass-moon-route-arcueid-brunestud",
+      "title": "KANNAGI — Arcueid choices",
+      "language": "ja",
+      "set": "A",
+      "notes": "Directly inspected complete Arcueid day-by-day path and optional choices. Selected continuous path follows this original-remake component. Preserve transcription differences verbatim; the 13-literal owner provenance waiver and independent asset evidence are documented in prompt_supplement.md."
+    },
+    {
+      "url": "https://kannagi35.com/content/tsukihime-a-piece-of-blue-glass-moon-route-ciel",
+      "title": "KANNAGI — Ciel choices",
+      "language": "ja",
+      "set": "A",
+      "notes": "Directly inspected Ciel day-by-day path through Normal and True. Original-remake route evidence remains required. Literal differences are preserved; only the enumerated payloads use the independently reproduced remake evidence under the owner's narrow provenance waiver."
+    },
+    {
+      "url": "https://kannagi35.com/content/tsukihime-a-piece-of-blue-glass-moon-route-bad-end",
+      "title": "KANNAGI — complete dead-end paths, including delayed 15",
+      "language": "ja",
+      "set": "A",
+      "notes": "Directly inspected all 21 endings, the complete delayed No.15 chain and both No.14 entrances. Do not concatenate alternative paths. Component of the original 2021 remake walkthrough set."
+    },
+    {
+      "url": "https://xneo.jp/tsukihime/",
+      "title": "XNEO — independent Japanese routes and dead ends",
+      "language": "ja",
+      "set": "B",
+      "notes": "Directly inspected independent full heroine paths and dead-end choices. Supplies the default second evidence lane. Different optional choices and transcriptions are retained as evidence, not assumed to be target-exact."
+    },
+    {
+      "url": "https://asobigokoro.work/Game-strategy-site/tsukihime-alucard-story-walkthrough-flowchart-a-piece-of-blue-glass-moon/",
+      "title": "Asobigokoro — Arcueid save checkpoints",
+      "language": "ja",
+      "set": "B",
+      "notes": "Directly inspected numbered checkpoints and endings. Local saves 1–10 map to global 2–11. Original remake routing corroboration; later page update dates are not used as evidence for another edition."
+    },
+    {
+      "url": "https://asobigokoro.work/Game-strategy-site/tsukihime-a-piece-of-blue-glass-moon-ciel-story-strategy-flowchart/",
+      "title": "Asobigokoro — Ciel save checkpoints and additional choices",
+      "language": "ja",
+      "set": "B",
+      "notes": "Directly inspected local saves 3–13 (global 12–22), Normal-to-True reload and supplementary choices. Includes a distinct No.15 chain not mixed into KANNAGI's selected chain. Preserve its literal quotations; the enumerated discrepancies use reproduced remake payloads under the narrow owner provenance waiver, not assumed A/B agreement."
+    },
+    {
+      "url": "https://www.nookgaming.com/tsukihime-a-piece-of-blue-glass-moon-walkthrough-guide/",
+      "title": "NookGaming — English reference and completion instructions",
+      "language": "en",
+      "notes": "Supplementary English reference only, not a Japanese verification lane or proof of 2021/2024 equivalence. English hints are explanatory translations, not guaranteed official localization strings."
+    },
+    {
+      "url": "https://game-firstimpression.com/game-capture/tsukihime-flowchart/",
+      "title": "Game × First Impression — common-route flowchart and Ciel entry conditions",
+      "language": "ja",
+      "notes": "Supplementary independent check: Day 3 俺の wording and Day 5 route commitment."
+    },
+    {
+      "url": "https://ponkotugamer.com/2021/tsukihimer2/",
+      "title": "Ponkotu Gamer — trophies, delayed endings, and affection-dependent flowchart variants",
+      "language": "ja",
+      "notes": "Supplementary independent check: Day 3 wording, delayed Dead End 15, and distinction between Extra access and high-affection scene completion."
+    },
+    {
+      "url": "https://api.vndb.org/kana/character",
+      "title": "VNDB character API — v17909 character images",
+      "language": "en",
+      "notes": "Nested vn filter verified c94783 Arcueid and c94784 Ciel with the portrait URLs used in this manifest."
+    },
+    {
+      "url": "https://vndb.org/r82483",
+      "title": "VNDB — 2021 Japanese Switch Download Edition",
+      "language": "en",
+      "notes": "Release metadata directly verified through VNDB Kana release endpoint: v17909, Switch, 2021-08-26, Japanese only, and digital cover https://t.vndb.org/cv/86/86686.jpg. Metadata only; not an independent Japanese walkthrough."
+    },
+    {
+      "url": "https://twitter.com/TM_TSUKIHIME/status/1432992458451812354",
+      "title": "Official Tsukihime — 2021 choices tip (5)",
+      "language": "ja",
+      "notes": "Supplemental literal reconciliation only, not a replacement Set A/B. Official post metadata directly inspected at https://cdn.syndication.twimg.com/tweet-result?id=1432992458451812354&lang=ja&token=0: account 【公式】月姫 / TM_TSUKIHIME, timestamp 2021-09-01T09:03:20Z, one 1920x1080 photo E-MB_x8VgAIvqJy. The date establishes original-release context, not the capture hardware."
+    },
+    {
+      "url": "https://pbs.twimg.com/media/E-MB_x8VgAIvqJy.jpg?name=orig",
+      "title": "Official 2021 menu still — Day 3 reality choice",
+      "language": "ja",
+      "notes": "Actual public image pixels show option 2: ……いや、俺の起こした現実だ。 Independent accuracy re-review accepted this limited original-product literal reconciliation at PR98 issuecomment-6457378314. Neither primary quotation was changed. Hardware/build/download SKU remain unidentified; this is not a hardware capture or proof of other literals."
+    },
+    {
+      "url": "https://typemoon.com/products/tsukihime/",
+      "title": "TYPE-MOON — original console product context",
+      "language": "ja",
+      "notes": "Directly inspected official product table identifies 発売日 2021年8月26日 and 対象機種 PlayStation®4／Nintendo Switch™, with download editions. Establishes the original two-platform product context of the official 2021 tip, not the hardware used for its screenshot. No PS4-to-Switch or 2021-to-2024 equivalence is inferred from publication date alone."
+    },
+    {
+      "url": "./menu-text-evidence.json",
+      "title": "Original Japanese assets — 13 extracted SELR choice payloads",
+      "language": "ja",
+      "notes": "Supplemental direct-text reconciliation, not a replacement Set A/B. Independent r3 reproduced all 13 menu payloads and 14 SELR references after rehashing the inputs and freshly compiling the verifier (PR98 issuecomment-6461638207). Owner kanjieater accepted these literals on 2026-10-28 conditional on remake attribution, waiving only exact storefront/patch provenance (issuecomment-6476454232; prompt_supplement.md). Pinned Knife and remake-specific scenes support that condition. No exact package/patch identity, gameplay execution or broader equivalence is claimed."
+    },
+    {
+      "url": "https://github.com/kanjieater/VN-Guide/pull/98#issuecomment-6476454232",
+      "title": "Repository owner — 13-literal provenance waiver (2026-10-28)",
+      "language": "en",
+      "notes": "Explicit owner authorization, not a walkthrough or whole-guide approval. Applies only to the exact 3 Arcueid and 10 Ciel Normal payloads enumerated in prompt_supplement.md. Remake attribution is mandatory; exact storefront/download packaging and patch provenance are waived for those literals only. Two Japanese sets, verbatim lanes and all other review requirements remain in force."
+    },
+    {
+      "url": "https://github.com/kanjieater/VN-Guide/pull/98#issuecomment-6461638207",
+      "title": "Independent accuracy r3 — direct remake asset reproduction",
+      "language": "en",
+      "notes": "Independent rehashing, fresh verifier compilation, separate KDU reads and all 13 payload/14 SELR checks; not a new Japanese walkthrough lane. Establishes reproducibility and remake evidence, not exact storefront/patch identity. The owner's subsequent narrow provenance decision governs these 13 literals; revised content still requires fresh accuracy review."
+    },
+    {
+      "url": "https://github.com/AuroraWright/knife/tree/794bcc5e14be6bd4bf44716f160a280f4306ab1d",
+      "title": "Knife 0.9.0 pinned original Switch-data parsers",
+      "language": "en",
+      "notes": "Public decoder implementation and build selector, not a Japanese walkthrough. Relevant local parser/source files were checked byte-identical to this commit. ScriptText reads string payloads; SceneArchive plus vm::parse cross-reference SELR instructions. The supplied read-only verify-choice-text.rs reproduces the 13-string check on a user's own assets."
+    }
+  ],
+  "generated_at": "2026-10-28T19:25:11Z"
+}

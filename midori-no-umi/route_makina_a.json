@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "セーブ8にロード",
+    "jpGuide1": "共通NORMAL後にセーブポイント⑧から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "知紗の提案を断る",
+    "jpGuide1": "知紗の提案を断る",
+    "jpGuide2": "知紗の提案を断る",
+    "enGuide": "The ★ choice 気のせいだ。疲れているんだろう only appears after a Makina ending. If no choice appears here on this run, continue; if it does appear, pick it for this ending."
+  },
+  {
+    "simpleJp": "ED：Ⅻ 幸せのため",
+    "jpGuide1": "ED：Ⅻ 幸せのため",
+    "jpGuide2": "ＥＮＤ１２：幸せのため",
+    "enGuide": ""
+  }
+]

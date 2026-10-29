@@ -3,25 +3,25 @@
     "simpleJp": "未加入ならラマダ寺の修行でヘモジーを仲間にする",
     "jpGuide1": "ハイスコアを出すと、アーク1で「ヘモジー」を仲間にしていない又はコンバートしていない場合は「ヘモジー」が仲間になる。",
     "jpGuide2": "ラマダ寺の「修行」で好成績を収める",
-    "enGuide": "Skip this if Hemojii already carried over through conversion."
+    "enGuide": "Optional completion block after Greycine. This is a chained world-cleanup window, not random sightseeing: resolve each guild prerequisite before moving on, and use the explicitly noted cross-country trips only when a job requires them. Start in Greycine with the newly available recruit/job content."
   },
   {
     "simpleJp": "水の神殿でフウジンを仲間にする",
     "jpGuide1": "「フウジン」：水の神殿",
     "jpGuide2": "初訪問時に水の精霊との謁見イベントがあり、フウジンが加入する。",
-    "enGuide": "Clear the battle and meet the Water Spirit."
+    "enGuide": "Optional permanent-recruit cleanup after Greycine. Visit the Water Temple, clear its battle/event, and meet the Water Spirit to add Fujin; this is not required for the main story, but this world-travel window is a convenient safe time to collect him."
   },
   {
     "simpleJp": "アゼンダ高地でライジンを仲間にする",
     "jpGuide1": "「ライジン」：アゼンダ高地",
     "jpGuide2": "アゼンダ高地の奥へ行くと仲間にできる。",
-    "enGuide": "Clear the area and meet the Light Spirit."
+    "enGuide": "Optional permanent-recruit cleanup. Travel to Azenda Highlands, clear the encounter at the far end, and meet the Light Spirit to add Raijin; do it during this world-travel block so you do not need a separate later trip."
   },
   {
     "simpleJp": "チョンガラの店でオドンを仲間にする",
     "jpGuide1": "「オドン」：チョンガラの店",
     "jpGuide2": "アララトスにある「チョンガラの店」に入る",
-    "enGuide": "Simply entering the shop after world travel opens adds Odon."
+    "enGuide": "Optional permanent-recruit cleanup. While world travel is open, enter Chongara's shop in Alaratos; Odon joins just by triggering the shop event, so collect him now before moving on to the chained guild work."
   },
   {
     "simpleJp": "エルクのアパート隣室へ行く",
@@ -45,7 +45,19 @@
     "simpleJp": "「観念して法の裁きを受けるんだな」を選ぶ",
     "jpGuide1": "「観念して法の裁きを受けるんだな」を選択するとクリア。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "After winning the Black Knight duel, choose this exact response to complete G#19."
+    "enGuide": "After the Black Knight duel, choose the exact line 「観念して法の裁きを受けるんだな」 to finish G#19. Settle the job before leaving the Aldia/Indigos leg so the next guild state is clean."
+  },
+  {
+    "simpleJp": "アルディア橋のニンジャ姿の男に話す",
+    "jpGuide1": "アルディア橋へ行き、ニンジャの形をした男に「そうでもねえよ」と答える。竜を探すことになるが、見つけられるのは随分先のバルバラード・テュケの洞窟になる。テュケの洞窟にいるピエール・ベロニカに話し、アルディア橋に戻って報告するとクリア。",
+    "jpGuide2": "G#10　面接試験有、山賊お断り",
+    "enGuide": "G#10 is now available because the earlier G#06 and G#18 requirements have been satisfied. You are already at Aldia Bridge for G#19, so settle G#19, accept G#10 in Indigos, then return/re-enter Aldia Bridge instead of saving this trip for much later. The target dragon cannot be found until Barbarad, so this job intentionally remains open."
+  },
+  {
+    "simpleJp": "「そうでもねえよ」を選ぶ",
+    "jpGuide1": "ニンジャの形をした男に「そうでもねえよ」と答える。",
+    "jpGuide2": "そうでもねえよ",
+    "enGuide": "Choose this exact answer to begin G#10. Do not search the world yet: the dragon is not reachable until the later Barbarad/Tuke Cave sequence. Leave G#10 open and continue the current completion window."
   },
   {
     "simpleJp": "インディゴスの宝石店へ行く",
@@ -105,12 +117,12 @@
     "simpleJp": "「夜まで仮眠」を選ぶ",
     "jpGuide1": "宿屋で「夜まで仮眠」を選択。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "At the inn, choose this exact option to start the G#50 night battle."
+    "enGuide": "At the Elzark inn, choose the exact option 「夜まで仮眠」. That is the trigger for G#50's night battle; finish the battle before continuing to the immediate G#51 follow-up at Rayden Ruins."
   },
   {
     "simpleJp": "レイデン遺跡へ行く",
     "jpGuide1": "レイデン遺跡へ。手配「ザナック」を含む13体の敵を倒すとクリア。",
     "jpGuide2": "G#51　続・砂漠の盗賊団",
-    "enGuide": "Go to Rayden Ruins and defeat all 13 enemies, including wanted monster Zanack, to clear the follow-up desert-bandit job."
+    "enGuide": "Go to Rayden Ruins and defeat all 13 enemies, including wanted monster Zanack, to clear the follow-up desert-bandit job. Next: “【任意】ちょこ加入・遺跡ダンジョンB50”."
   }
 ]

@@ -18,9 +18,9 @@ You may update only the route's `reviewed` flag as the final approval action whe
 
 ## Source loading
 
-Read the game's `games.json` entry, `research.json`, and `guide.json`.
+Read the game's `<slug>/catalog.json` when present (otherwise its legacy `games.json` entry), `research.json`, and `guide.json`.
 
-First verify that `games.json.guide_target`, `research.json.guide_target`, and `guide.json.guide_target` are identical and contain a specific label, platform, and linked release URL. Do not treat the broader VNDB `v...` work id as a substitute for the target release.
+First verify that the selected catalog's `guide_target`, `research.json.guide_target`, and `guide.json.guide_target` are identical and contain a specific label, platform, and linked release URL. Do not treat the broader VNDB `v...` work id as a substitute for the target release.
 
 Then identify Japanese verification Set A and Set B and fetch the actual source material directly. If a set has multiple pages, inspect the components relevant to the route.
 
@@ -55,7 +55,7 @@ For the guide section under review, verify:
 - for an explicitly opted-in non-VN walkthrough, apply the canonical game-walkthrough `simpleJp` rules instead: literal choices/menu labels remain exact, while concise author-written Japanese is allowed for navigation, battles, talks, pickups, preparation, and similar non-choice actions;
 - useful available `enGuide` detail has not been silently dropped;
 - no contradictions across guide sections;
-- every route character has a directly verified portrait when a verifiable character image exists; a blank portrait is a finding unless research explicitly documents that an actual lookup found no suitable verifiable image;
+- every route character was actively checked for a portrait and has one when a verifiable character image exists; a blank portrait is a finding unless research explicitly documents that an actual lookup found no suitable verifiable image;
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
 - each present source excerpt is verbatim;
 - `（第一ガイドに記載なし）` is used only where the canonical omission rules permit it, including an exact fact whose valid owner-approved exception explicitly permits a missing Japanese lane;

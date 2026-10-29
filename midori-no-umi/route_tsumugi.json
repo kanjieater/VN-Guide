@@ -1,0 +1,52 @@
+[
+  {
+    "simpleJp": "セーブ6にロード",
+    "jpGuide1": "陸乃＆空音ED後にセーブポイント⑥から",
+    "jpGuide2": "シナリオ２のいずれかのＥＮＤ後にセーブ４から",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夢の内容を現実と受け入れる",
+    "jpGuide1": "夢の内容を現実と受け入れる",
+    "jpGuide2": "夢の内容を現実と受け入れる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12",
+    "jpGuide1": "セーブポイント⑫作成",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "紡を無視する",
+    "jpGuide1": "紡を無視する",
+    "jpGuide2": "◆紡を無視する",
+    "enGuide": "",
+    "badEndPath": "ED：Ⅰ 青い鳥のため"
+  },
+  {
+    "simpleJp": "ED：Ⅰ 青い鳥のため",
+    "jpGuide1": "ED：Ⅰ 青い鳥のため",
+    "jpGuide2": "ＥＮＤ１：青い鳥のため",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12にロード",
+    "jpGuide1": "セーブポイント⑫から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "扉を開けてやる",
+    "jpGuide1": "扉を開けてやる",
+    "jpGuide2": "扉を開けてやる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ED：Ⅸ 幸せの茨道",
+    "jpGuide1": "ED：Ⅸ 幸せの茨道",
+    "jpGuide2": "ＥＮＤ９：幸せの茨道",
+    "enGuide": ""
+  }
+]

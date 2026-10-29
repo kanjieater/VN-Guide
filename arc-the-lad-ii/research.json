@@ -39,7 +39,13 @@
     ]
   },
   "critical_findings": [
-    "Early guild work is placed immediately after Shu joins and an explicit post-join rest. Set B supplies exact early disappearance windows; the promoted Ari no Su completion route independently corroborates clearing G#01, G#02, G#07, and G#03 in this same early block. Player guidance uses conservative ordering rather than unsupported causal wording.",
+    "A second whole-guide author rigor audit was completed over all 43 sections / 290 steps after the chronology rebuild. Every step was checked for executable player context rather than objective labels: current/next location where needed, trigger or prerequisite state, why optional work is timed here, poster-required versus poster-not-required bounty state, first-encounter/mutually-exclusive item consequences, and return/report handoffs. Thin story transitions, Pyramid trial answers, Air Castle trial rooms, and late regional bounty sweeps were expanded rather than exempted.",
+    "Whole-guide author continuity was re-evaluated after player testing exposed route-order ambiguity. The 43 stored sections are treated as one itinerary: section handoffs now state the next section, optional blocks state why they are timed there, and unnecessary poster/city detours are removed.",
+    "Early Indigos completion routing is now explicit and source-state-aware: G#01 is settled before G#07; Aju requires poster confirmation for the bounty reward; Shamus needs no poster but only becomes available after Aju is hunted, and Grand Knife is a first-encounter-only optional steal; Golza needs no poster and is grouped with the Ruined Town G#02 trip; the route returns to Indigos for the mandatory tavern/night event rather than sending the player to Prodius early.",
+    "G#10 is started when it actually becomes available after the Greycine-era prerequisite chain, immediately after the G#18/G#19 Aldia Bridge work. It remains open until Barbarad, where Pierre/Veronica are checked during the Tuke Cave visit, then is reported on the subsequent East Aldia sweep. This replaces the previous out-of-order late start that forced avoidable backtracking.",
+    "Brakia cleanup now binds Gallop to the actual G#52/G#53 active-job window that opens Banza Mountain's west side. Gallop/Mad Builder is handled before that window is settled, and the other Brakia bounties are grouped into the same Banza visit before moving to Nieder.",
+    "Balzac/Claymore and Grovis/Fate are mutually exclusive item rewards. The default guide path chooses Fate during the one-time Sea Oil Field escape, then hunts Balzac later only for bounty completion with an explicit warning that Claymore will no longer drop. Players who prefer Claymore must encounter/hunt Balzac first and skip Fate; the guide never claims both can be obtained.",
+    "SA-200SP is a story-forced wanted encounter and does not require poster confirmation. The prior precautionary poster detour is removed; stealing Paralyzer is clearly labeled optional completion-item collection rather than story progression.",
     "The pre-White-House guild block is deliberately cleared as a conservative sweep. Set B records the exact prerequisite chains and White-House cutoffs; Chokota/Ari no Su independently document the jobs and safe early completion order. The route no longer presents one-lane causal prerequisites as two-lane facts.",
     "G#29 and G#30 are completed during the Lieza/Gogen split. Set B records their exact expiry; an independent Japanese play diary also performs both jobs during that split, so the guide uses the shared safe placement without overstating unlock causality.",
     "During Shu/Tosh's Romalia segment, the guide clears G#24-G#26 before the tunnel as conservative routing. Set B records G#26's short window; the route avoids presenting disputed or one-lane prerequisite claims as settled facts.",
@@ -58,7 +64,6 @@
     "Palencia stall availability is disputed: Chokota says the stall is available only on initial arrival and disappears after a map change, while the Arc II Data Wiki Robe page says it opens when leaving the bar during the Elk/Poco segment. The guide therefore tells the player to check it immediately without asserting the disputed exact window.",
     "Elk's dream has the normal-game Flame Sword opportunity; South Tower contains the missable Ice Sword; Barbarad sealed ruins contain Wind Sword; Earth Sword is available in the Yagos sealed ruin/alternate source. These feed the normal-game Light Sword synthesis.",
     "Palencia Tower 77F is optional completion content reached by repeated 99F elevator-switch toggling.",
-    "To obtain Fate and still clear Balzac, postpone Balzac until after Grovis: independent Japanese wanted-monster sources document the conflict, and Returnless Forest remains available afterward.",
     "The Secret Research Lab conversion event belongs before the ceremony/Yagos transition; the Ark-versus-Andel conversion event occurs after White House. They remain separate optional conversion sections.",
     "The sealed-ruin power-unit route is completed before final lockout in the conservative order Greycine → Alaratos → Brakia → Amigue → Barbarad → Alibarsha, then Wind Sword and remaining Alibarsha bounty cleanup are completed.",
     "Romalia city treasure must be taken before the final plaza lockout; Chokota lists the fixed city/underground loot and Set B independently documents the permanent city access loss.",
@@ -235,7 +240,7 @@
       "url": "https://tekeremu.zatunen.com/ArcTheLad1-2/arc2_tehai.htm",
       "title": "Arc The Lad 2 — 手配モンスター",
       "language": "ja",
-      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for wanted-monster handling where Chokota is silent. It instructs checking wanted posters on reaching a new town and independently documents first-encounter-only stealing plus Shamus's Grand Knife."
+      "notes": "PROMOTED INDEPENDENT SET-A COMPONENT for wanted-monster handling where Chokota is silent. Documents first-encounter stealing, Aju→Shamus availability, poster/reward caveats, and the Balzac/Claymore versus Grovis/Fate mutual-exclusion behavior."
     },
     {
       "set": "B",
@@ -328,5 +333,5 @@
       "notes": "Supplemental independent 2005 Japanese corroboration resolving the G#42 lamp-count conflict: light any 6 of the ordinary A–H lamps, then the special I lamp last."
     }
   ],
-  "generated_at": "2026-09-23T16:16:00+00:00"
+  "generated_at": "2026-09-27T04:28:00+00:00"
 }

@@ -1,9 +1,9 @@
 [
   {
     "simpleJp": "トウヴィル西の岸壁へ行く",
-    "jpGuide1": "操作するキャラがシュウとシャンテになる。",
-    "jpGuide2": "神殿に戻りククルに話しかけパレンシアへ移動",
-    "enGuide": "With Shu and Shante, go to the western dock where Silver Noah is moored and talk to Chopin. Then enter the temple and talk to Kukuru to move the story to Palencia."
+    "jpGuide1": "村の西のほうにある、シルバーノアの停泊している岸壁へ行ってチョピンに話し掛けた後、神殿にいるククルに話し掛ける。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Story progression. Continue directly from “【任意・コンバート】白い家後：アーク対アンデル”. With Shu and Shante, go to the western dock where Silver Noah is moored and talk to Chopin. Then enter the temple and talk to Kukuru to move the story to Palencia."
   },
   {
     "simpleJp": "ダウンタウンでペペに依頼する",
@@ -15,12 +15,12 @@
     "simpleJp": "クイナの丘で「微かに光る石」を4個集める",
     "jpGuide1": "「微かに光る石」を４回戦って４つ入手する。",
     "jpGuide2": "微かに光る石4つ入手",
-    "enGuide": "One wyvern in each fight guarantees the stone; collect all four."
+    "enGuide": "After Pepe agrees to help in Downtown, go to Quina Hill and fight until you have four Faintly Glowing Stones. One wyvern in each encounter guarantees one stone; all four are required before the Romalia warship step can proceed."
   },
   {
     "simpleJp": "ロマリア戦艦へ入る",
     "jpGuide1": "最深部で飛行船を上げたら、右のスイッチを切り替える。",
     "jpGuide2": "ロマリア戦艦終了",
-    "enGuide": "Closed doors are controlled by switches on the same floor. In the dark sleeping-soldier room, the left switch opens the door while the right turns on the light and starts a fight. At the deepest area, raise the airship and flip the right-hand switch to finish the sequence."
+    "enGuide": "Closed doors are controlled by switches on the same floor. In the dark sleeping-soldier room, the left switch opens the door while the right turns on the light and starts a fight. At the deepest area, raise the airship and flip the right-hand switch to finish the sequence. Next: “シャンテ・グルガ：クレニア”."
   }
 ]

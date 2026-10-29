@@ -32,3 +32,18 @@ test("index-only sync discovers directories, is deterministic and never writes o
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test("index sync creates a missing root index without changing game files", async () => {
+  const root = await mkdtemp(join(tmpdir(), "vn-index-missing-"));
+  try {
+    await mkdir(join(root, "templates"));
+    await writeFile(join(root, "games.json"), JSON.stringify({}));
+    await writeFile(join(root, "templates", "landing.html"), "/* GAMES_DATA */");
+    await writeFile(join(root, "templates", "guide.html"), "shell");
+    assert.equal(await syncLandingIndex(root), true);
+    assert.equal(await readFile(join(root, "index.html"), "utf8"), "[]");
+    assert.equal(await syncLandingIndex(root), false);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

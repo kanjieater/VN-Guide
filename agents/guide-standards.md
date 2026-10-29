@@ -232,7 +232,7 @@ Direct/browser agents must assemble `guide.json` equivalently to the determinist
 - copy `research.json.guide_target` into `guide.json.guide_target` unchanged;
 - keep `title` and `vndb_id` synchronized with the game/research record;
 - update `generated_at` only when the assembled guide content actually changes;
-- when every planned route is generated and the guide is made available, update `games.json.has_guide` and then synchronize tracked generated artifacts such as root `index.html`.
+- when every planned route is generated, maintain the title's `<slug>/catalog.json` for new/migrated guides; `has_guide` is derived from `reviewed` route flags and CI updates root `index.html` on `main` (legacy entries remain supported through `games.json`).
 
 Do not mark routes reviewed merely as part of assembly.
 
@@ -316,9 +316,9 @@ Do **not** modify local automated orchestration merely to make a browser or repo
 
 Known dependency in this repo:
 
-- `games.json` → root `index.html` via `tools/generate.mjs::renderLanding()` and `templates/landing.html`.
-- Therefore changes to landing-visible fields such as `slug`, `title`, `alttitle`, `cover_url`, or `has_guide` must also be reflected in the tracked root `index.html`.
-- A browser/repository agent that cannot run `bun run generate` must still update the affected landing data equivalently and verify it matches current `games.json`.
+- Root `index.html` is CI-owned: on `main`, its landing data is generated from legacy `games.json` and per-game `<slug>/catalog.json` (with `has_guide` derived from route review flags). Guide PRs do not edit the root index.
+- Per-game `<slug>/index.html` and `<slug>/manifest.json` remain tracked, game-directory-owned bootstrap artifacts; keep them synchronized with the committed template/generator.
+- An infrequent shared bootstrap-template change may require updates across game directories; keep those infrastructure changes separate from routine guide PRs.
 
 This consistency check is separate from structural/accuracy review. It does not invalidate a route review when only a derived presentation artifact is synchronized to already-approved source data.
 

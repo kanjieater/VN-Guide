@@ -15,7 +15,3 @@ export async function syncLandingIndex(root = REPO_ROOT, { check = false } = {})
   return true;
 }
 
-if (import.meta.main) {
-  const changed = await syncLandingIndex(REPO_ROOT, { check: process.argv.includes("--check") });
-  console.log(changed ? "Updated root index.html" : "Root index.html already current");
-}

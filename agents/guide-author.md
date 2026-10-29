@@ -24,10 +24,10 @@ Follow `agents/authoring-contracts.md` for the exact `research.json` shape, one-
 
 Before writing any route:
 
-1. Read the `guide_target` supplied by `games.json` or the caller.
+1. Read the `guide_target` supplied by `<slug>/catalog.json` (legacy: `games.json`) or the caller.
 2. If neither supplies one, resolve the newest unambiguous official complete release with native Japanese in-game text using release-specific metadata; do not choose from the broad VNDB work entry alone. If that newest applicable release is ambiguous, stop and request an explicit target.
 3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id. Never reuse a caller target for another pending game.
-4. Persist the resolved target—repository, caller, or default—to `games.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
+4. Persist the resolved target—repository, caller, or default—to `<slug>/catalog.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
 5. Identify two independent Japanese verification sets as defined in `agents/guide-standards.md`.
 6. For an explicitly opted-in non-VN walkthrough, check the game supplement **before failing the source gate**. If it contains a repository-owner-approved title-scoped exception, verify its approval provenance and exact enumerated fact scope; the author must not create or broaden that approval.
 7. Verify both Japanese sets are directly inspectable and apply to the **exact target release**; document version differences. For a valid exception-covered fact only, retain the strongest available Japanese evidence and the supplement-approved supplemental source role instead of pretending the missing Japanese lane exists.
@@ -88,9 +88,9 @@ The author never sets `reviewed: true`.
 
 ## Derived-output completion check
 
-Before declaring author work complete, apply the tracked generated-artifact rules in `agents/guide-standards.md`.
+Before declaring author work complete, apply the directory-catalog rules in `agents/guide-standards.md`.
 
-In particular, if this work changes landing-visible fields in `games.json` (including `has_guide` or `cover_url`), ensure root `index.html` reflects the same current values. If the current environment cannot run the deterministic generator, inspect the committed generator/template and update the affected tracked output equivalently rather than leaving stale generated data.
+For new titles, keep landing metadata in `<slug>/catalog.json`. Do not edit `games.json` or generated root/per-game HTML. CI regenerates the site from directories; `has_guide` is derived from route review flags.
 
 ## Applying reviewer corrections
 

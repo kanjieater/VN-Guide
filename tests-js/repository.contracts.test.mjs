@@ -9,8 +9,9 @@ import { findGeneratedDrift } from "../tools/generate.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-test("committed generated artifacts are synchronized", async () => {
-  assert.deepEqual(await findGeneratedDrift(ROOT), []);
+test("committed per-game bootstrap artifacts are synchronized; CI owns root index", async () => {
+  const drift = await findGeneratedDrift(ROOT);
+  assert.deepEqual(drift.filter(item => item.relativePath !== "index.html"), []);
 });
 
 test("agent docs contain no provider-specific model references", async () => {

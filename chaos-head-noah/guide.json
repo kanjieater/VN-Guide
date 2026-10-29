@@ -105,7 +105,7 @@
       "notes": "Supplementary Set B component; chapter-6 page of a NOAH fan wiki (page timestamp 2019-08-23; platform not stated). The page returned HTTP 403 to non-browser access; the user opened it in their own browser and pasted the page source into the session on 2026-10-27, and its table is saved verbatim in the project sources. Its table prints, in a single answer column (the header names routes A and B but the saved copy shows one column), the five sword-quiz statements 剣が見えた / はっきりと剣が見えた / ここから動けるなら取りに行ける / ここ以外の場所でもその剣は見える / 実際にそれは剣じゃない with the answers YES / YES / NO / NO / YES (the YES, YES, NO, NO, YES path), and lists five optional delusion triggers around it (its trigger texts differ from Set A's, so it may describe a different release). Used for corroboration only; it supplies no jpGuide2 text."
     }
   ],
-  "generated_at": "2026-10-28T22:10:00+00:00",
+  "generated_at": "2026-10-29T08:30:00+00:00",
   "guide_target": {
     "label": "CHAOS;HEAD NOAH（Steam版）",
     "platform": "Windows",

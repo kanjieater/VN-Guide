@@ -302,7 +302,7 @@ An automated runner may keep its existing transport/persistence mechanism. It mu
 
 ## Tracked generated-artifact consistency
 
-A change is not complete if a tracked generated file is left inconsistent with the source data that produces it.
+For derived files other than the CI-owned root/per-game HTML and manifests, a change is not complete if a tracked generated file is left inconsistent with its source. Guide PRs must not modify those CI-owned files; CI synchronizes them on `main`.
 
 Before finishing author work:
 

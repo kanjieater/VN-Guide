@@ -80,7 +80,7 @@ Every game registration should have a cover image for the exact intended release
 - Do not use a different edition, limited edition, remake, port, or localization cover merely because it is easier to find.
 - A blank `cover_url` is permitted only after an actual lookup finds no suitable verifiable image; document that outcome in research notes so “unavailable” is distinguishable from “not checked”.
 - Cover-only corrections are display metadata and do not invalidate structural or accuracy route review.
-- For new or migrated titles, store the cover in `<slug>/catalog.json`; CI derives the landing page. Do not edit root `index.html` in a guide PR.
+- For new or migrated titles, store the cover in `<slug>/catalog.json`; CI updates the landing page on `main`. Do not edit root `index.html` in a guide PR.
 
 ## Character portraits
 

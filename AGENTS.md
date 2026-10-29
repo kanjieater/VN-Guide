@@ -15,4 +15,4 @@ Use the capabilities available in the current environment. Shell commands are co
 
 Keep author, structural-review, and accuracy-review work in separate contexts. Do not self-approve.
 
-When `games.json` or shared templates change, run `bun run generate` (or make exactly equivalent deterministic updates if Bun is unavailable). The Bun repository-contract tests ensure tracked generated artifacts are synchronized.
+For new games, create `<slug>/catalog.json` beside `guide.json` (see README). Do not edit `games.json`, the root `index.html`, or generated per-game HTML/manifests in guide PRs. CI generates these at build/deployment time. `games.json` remains a compatibility catalog for existing entries. Run `bun run generate` locally to preview, but generated artifacts are not PR-owned.

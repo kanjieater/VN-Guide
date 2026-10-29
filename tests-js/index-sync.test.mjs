@@ -47,3 +47,17 @@ test("index sync creates a missing root index without changing game files", asyn
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test("index sync propagates unexpected read errors", async () => {
+  const root = await mkdtemp(join(tmpdir(), "vn-index-read-error-"));
+  try {
+    await mkdir(join(root, "index.html"));
+    await mkdir(join(root, "templates"));
+    await writeFile(join(root, "games.json"), JSON.stringify({}));
+    await writeFile(join(root, "templates", "landing.html"), "/* GAMES_DATA */");
+    await writeFile(join(root, "templates", "guide.html"), "shell");
+    await assert.rejects(syncLandingIndex(root), error => error.code === "EISDIR");
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

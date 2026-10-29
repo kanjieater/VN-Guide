@@ -90,7 +90,7 @@ The author never sets `reviewed: true`.
 
 Before declaring author work complete, apply the directory-catalog rules in `agents/guide-standards.md`.
 
-For new titles, keep landing metadata in `<slug>/catalog.json`. Do not edit `games.json` or generated root/per-game HTML. CI regenerates the site from directories; `has_guide` is derived from route review flags.
+For new titles, keep landing metadata in `<slug>/catalog.json`. Do not edit shared `games.json` or root `index.html`. Keep per-game bootstrap HTML and manifest synchronized in the game's directory. CI owns the root index; `has_guide` is derived from route review flags.
 
 ## Applying reviewer corrections
 

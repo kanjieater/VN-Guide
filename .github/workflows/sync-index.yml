@@ -1,4 +1,4 @@
-name: Sync landing index
+name: Sync generated site
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: sync-landing-main
+  group: sync-generated-site-main
   cancel-in-progress: false
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
         with:
           bun-version: "1.4.2"
       - run: bun install --no-save --ignore-scripts
-      - name: Generate and commit only the root index
+      - name: Generate and commit generated site files
         shell: bash
         run: |
           set -euo pipefail
@@ -34,19 +34,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for attempt in 1 2 3; do
             git fetch origin main
-            git checkout -B index-sync origin/main
-            bun -e 'import { syncLandingIndex } from "./tools/sync-landing-index.mjs"; await syncLandingIndex()'
-            if git diff --quiet -- index.html; then
-              echo "Index already current; no commit necessary"
+            git checkout -B site-sync origin/main
+            bun run generate
+            git add -A -- index.html ':(glob)*/index.html' ':(glob)*/manifest.json'
+            if git diff --cached --quiet; then
+              echo "Generated site already current; no commit necessary"
               exit 0
             fi
-            git add -- index.html
-            git commit -m "chore: sync generated landing index"
+            git commit -m "chore: sync generated site files"
             if git push origin HEAD:main; then
-              echo "Published updated index"
+              echo "Published updated site files"
               exit 0
             fi
             echo "Concurrent main update; retrying generation ($attempt/3)"
           done
-          echo "Could not publish index after three attempts" >&2
+          echo "Could not publish generated site files after three attempts" >&2
           exit 1

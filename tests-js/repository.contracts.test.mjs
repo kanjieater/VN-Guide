@@ -5,14 +5,9 @@ import { fileURLToPath } from "node:url";
 import { test } from "bun:test";
 import { JSDOM } from "jsdom";
 
-import { findGeneratedDrift } from "../tools/generate.mjs";
+import { expectedGeneratedFiles } from "../tools/generate.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-
-test("committed per-game bootstrap artifacts are synchronized; CI owns root index", async () => {
-  const drift = await findGeneratedDrift(ROOT);
-  assert.deepEqual(drift.filter(item => item.relativePath !== "index.html"), []);
-});
 
 test("agent docs contain no provider-specific model references", async () => {
   const files = [
@@ -33,11 +28,11 @@ test("agent docs contain no provider-specific model references", async () => {
   }
 });
 
-test("all guide directories use the shared bootstrap shell", async () => {
+test("every game has deterministic CI-generated HTML and manifest outputs", async () => {
   const shell = await readFile(join(ROOT, "templates", "guide.html"), "utf8");
+  const expected = await expectedGeneratedFiles(ROOT);
   const entries = await readdir(ROOT, { withFileTypes: true });
   const guides = [];
-
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
     try {
@@ -45,10 +40,12 @@ test("all guide directories use the shared bootstrap shell", async () => {
       guides.push(entry.name);
     } catch {}
   }
-
   assert.ok(guides.length > 0);
   for (const slug of guides) {
-    assert.equal(await readFile(join(ROOT, slug, "index.html"), "utf8"), shell, slug);
+    assert.equal(expected.get(`${slug}/index.html`), shell, slug);
+    const manifest = JSON.parse(expected.get(`${slug}/manifest.json`));
+    assert.equal(manifest.start_url, "./");
+    assert.equal(manifest.scope, "./");
   }
 });
 

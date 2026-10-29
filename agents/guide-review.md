@@ -105,7 +105,7 @@ Do not rerun structural review merely because source metadata changed if no rout
 
 ## Pre-merge consistency check
 
-Before a guide change is considered complete, verify per-game metadata and route review flags; CI owns the root index; per-game bootstrap files remain checked.
+Before a guide change is considered complete, verify per-game metadata and route review flags; CI owns the root index and per-game bootstrap/manifest files.
 
-For new or migrated titles, use `<slug>/catalog.json` and never edit shared `games.json` or root `index.html` in guide PRs. CI updates only root `index.html` on `main`; guide PRs must keep per-game HTML and manifests synchronized. The published `has_guide` value is derived from all routes being reviewed.
+For new or migrated titles, use `<slug>/catalog.json` and never edit shared `games.json` or root `index.html` in guide PRs. CI generates root `index.html` and per-game HTML/manifests on `main`; guide PRs must not edit generated outputs. The published `has_guide` value is derived from all routes being reviewed.
 

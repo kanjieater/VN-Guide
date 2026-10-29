@@ -317,8 +317,8 @@ Do **not** modify local automated orchestration merely to make a browser or repo
 Known dependency in this repo:
 
 - Root `index.html` is CI-owned: on `main`, its landing data is generated from legacy `games.json` and per-game `<slug>/catalog.json` (with `has_guide` derived from route review flags). Guide PRs do not edit the root index.
-- Per-game `<slug>/index.html` and `<slug>/manifest.json` remain tracked, game-directory-owned bootstrap artifacts; keep them synchronized with the committed template/generator.
-- An infrequent shared bootstrap-template change may require updates across game directories; keep those infrastructure changes separate from routine guide PRs.
+- CI generates and commits root `index.html` and per-game `<slug>/index.html` and `<slug>/manifest.json` on `main`; guide PRs must not edit these generated outputs.
+- Shared bootstrap-template changes stay in infrastructure PRs; CI propagates those changes to game directories on `main`.
 
 This consistency check is separate from structural/accuracy review. It does not invalidate a route review when only a derived presentation artifact is synchronized to already-approved source data.
 

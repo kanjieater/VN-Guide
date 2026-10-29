@@ -20,7 +20,14 @@ test("index-only sync discovers directories, is deterministic and never writes o
     assert.match(html, /New/);
     assert.match(html, /"has_guide":false/);
     assert.equal(await syncLandingIndex(root), false);
-    await assert.rejects(syncLandingIndex(root, { check: true }), /out of sync/).catch(error => { throw error; });
+    assert.equal(await syncLandingIndex(root, { check: true }), false);
+    await writeFile(join(root, "new-game", "guide.json"), JSON.stringify({ vndb_id: "v2", routes: [{ reviewed: true }] }));
+    await assert.rejects(syncLandingIndex(root, { check: true }), /out of sync/);
+    assert.equal(await syncLandingIndex(root), true);
+    html = await readFile(join(root, "index.html"), "utf8");
+    assert.match(html, /"has_guide":true/);
+    await assert.rejects(readFile(join(root, "new-game", "index.html"), "utf8"), { code: "ENOENT" });
+    await assert.rejects(readFile(join(root, "new-game", "manifest.json"), "utf8"), { code: "ENOENT" });
   } finally {
     await rm(root, { recursive: true, force: true });
   }

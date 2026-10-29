@@ -3,13 +3,13 @@
     "simpleJp": "ロマリアトンネルへ入る",
     "jpGuide1": "戦闘のみ。",
     "jpGuide2": "ロマリアトンネル　戦闘",
-    "enGuide": "Enter Romalia Tunnel and clear the opening battle. Continue until the split objective with Tosh and Shu begins."
+    "enGuide": "Story progression. Continue directly from “【任意】シュウ編限定・ロマリアの仕事”. Enter Romalia Tunnel and clear the opening battle. Continue until the split objective with Tosh and Shu begins."
   },
   {
     "simpleJp": "SA-200SPから「パラライザー」を盗んで倒す",
     "jpGuide1": "手配モンスターから「パラライザー」を盗んでおくと後が楽になる。",
     "jpGuide2": "ＳＡ－２００ＳＰ　パラライザー",
-    "enGuide": "Keep Shu in range of SA-200SP and use Steal before killing it. Once Paralyzer is secured, finish the target and continue."
+    "enGuide": "Optional unique-item pickup during a story-forced encounter; Paralyzer is not required to advance the plot. SA-200SP does not require poster confirmation. Keep Shu in range and steal Paralyzer on the first encounter before defeating it, then continue the tunnel objective."
   },
   {
     "simpleJp": "6ターン目に「うつせみの玉」を使う",
@@ -21,6 +21,6 @@
     "simpleJp": "シュウで2か所の爆薬を起動する",
     "jpGuide1": "カバーを開け、タイマーをセットし、スイッチを入れる",
     "jpGuide2": "爆弾を調べて",
-    "enGuide": "Each charge takes three interactions in order: open the cover, set the timer, then turn on the switch. Complete both before Tosh's time expires."
+    "enGuide": "Each charge takes three interactions in order: open the cover, set the timer, then turn on the switch. Complete both before Tosh's time expires. Next: “ロマリアキメラ研究所〜全員合流”."
   }
 ]

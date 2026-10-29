@@ -3,7 +3,7 @@
     "simpleJp": "ちょこをLv55以上にする",
     "jpGuide1": "ちょこのLVが55以上で、さらにミルマーナをクリア",
     "jpGuide2": "ちょこをLv55まで上げる必要がある。",
-    "enGuide": "This continuation only opens after Millmana and once Choko is at least Lv55. Put Choko in usable condition before entering because the event includes forced battles."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “【任意】ミルマーナ後：仕事・海底油田手配”. This continuation only opens after Millmana and once Choko is at least Lv55. Put Choko in usable condition before entering because the event includes forced battles."
   },
   {
     "simpleJp": "時の森で上へ進む",
@@ -33,6 +33,6 @@
     "simpleJp": "墓地では大きな墓だけを通常攻撃で破壊する",
     "jpGuide1": "勝利条件は以前に調べた一つだけ大きな墓を倒す",
     "jpGuide2": "墓地ではまたバトルになるが、光る墓石を破壊して、村を出る",
-    "enGuide": "The objective is the single large/marked grave you inspected earlier. Destroy that grave with normal attacks; once it falls, the event continues and this mid-Choko stage is complete."
+    "enGuide": "The objective is the single large/marked grave you inspected earlier. Destroy that grave with normal attacks; once it falls, the event continues and this mid-Choko stage is complete. Next: “アミーグ：神の塔許可まで”."
   }
 ]

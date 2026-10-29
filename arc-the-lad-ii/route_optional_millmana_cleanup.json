@@ -1,9 +1,9 @@
 [
   {
-    "simpleJp": "帰らずの森でバルザックを討伐して「クレイモア」を入手する",
-    "jpGuide1": "バルザック　帰らずの森　クレイモア落",
-    "jpGuide2": "バルザックを先に倒しているとグロヴィスのフェイトは入手不可",
-    "enGuide": "Now that Grovis/Fate is secured, return for Balzac and the Claymore drop."
+    "simpleJp": "プロディアスでバルザックの手配書を確認してから帰らずの森で討伐する",
+    "jpGuide1": "グロヴィスに遭遇していると何も落とさない。",
+    "jpGuide2": "既にグロヴィスと遭遇（ハント）済みの場合入手不可",
+    "enGuide": "Optional bounty cleanup after the Fate route. Confirm Balzac's poster at the Prodius guild, then return to Returnless Forest and choose the battle option. Because this guide encountered Grovis first, Balzac will NOT drop Claymore; that reward was sacrificed when Fate was chosen. This step is only to finish the bounty, not to promise both mutually exclusive items."
   },
   {
     "simpleJp": "アジャール酒場のロンウィッド・タリスマンに話す",
@@ -27,18 +27,18 @@
     "simpleJp": "ラゼンの沼でダルシオスを討伐する",
     "jpGuide1": "ダルシオス　ラゼンの沼",
     "jpGuide2": "ダルシオス　ミルマーナ",
-    "enGuide": "Collect the bounty while free travel is open."
+    "enGuide": "Optional Millmana bounty cleanup; not required for story progression. Confirm Dalsios's wanted poster at the Ajaar guild first, then hunt him at Razen Swamp. The poster is required for the bounty reward, and this post-Millmana window keeps the cleanup in one regional visit."
   },
   {
     "simpleJp": "ニカラス・ルワジ周辺でゴーガスを討伐する",
     "jpGuide1": "ゴーガス　ミルマーナFBA",
     "jpGuide2": "ゴーガス　ミルマーナ",
-    "enGuide": "Another Millmana bounty cleanup."
+    "enGuide": "Optional Millmana bounty cleanup; not required for story progression. Confirm Gogas's wanted poster at the Ajaar guild first, then hunt him in Nikaras Forest or Ruwaji Forest. Poster confirmation is required for the reward, so register it before entering the battle area."
   },
   {
     "simpleJp": "ニエンの森最深部でキッシュから「ピティ」を盗んで討伐する",
     "jpGuide1": "キッシュ　ニエンの森最深部　ピティ盗",
     "jpGuide2": "キッシュ　盗：ピティ",
-    "enGuide": "Bring Shu and steal Pity before finishing Kish."
+    "enGuide": "Optional item collection; not required for story progression. Bring Shu and steal Pity before finishing Kish. Next: “【任意】ちょこ中盤イベント・赤いくつ”."
   }
 ]

@@ -1,14 +1,98 @@
 [
   {
     "simpleJp": "下調べもしたし大丈夫",
+    "jpGuide1": "〖下調べもしたし大丈夫〗",
+    "jpGuide2": "・下調べもしたし大丈夫",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "〖わたしは首を横に振る〗",
+    "jpGuide2": "・わたしは首を横に振る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "大丈夫だよ",
+    "jpGuide1": "〖大丈夫だよ〗",
+    "jpGuide2": "・大丈夫だよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "夜食は美容の敵かも",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・夜食は美容の敵かも",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "葛ちゃんを探しにいこう",
+    "jpGuide1": "「葛ちゃんを探しにいこう」",
+    "jpGuide2": "・葛ちゃんを探しにいこう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何とかしたいけど",
+    "jpGuide1": "〖何とかしたいけど〗",
+    "jpGuide2": "・何とかしたいけど",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "尾花ちゃんゴー！",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・尾花ちゃんゴー！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ん～？",
+    "jpGuide1": "〖ん～？〗",
+    "jpGuide2": "・ん～？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気になる",
+    "jpGuide1": "〖気になる〗",
+    "jpGuide2": "・気になる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "別にそこまでしなくても",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・別にそこまでしなくても",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "葛ちゃんと一緒に帰る",
+    "jpGuide1": "「葛ちゃんと一緒に帰る」",
+    "jpGuide2": "・葛ちゃんと一緒に帰る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "行ってきます",
+    "jpGuide1": "〖行ってきます〗",
+    "jpGuide2": "・行ってきます",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でもひとりは嫌なんでしょ？",
+    "jpGuide1": "〖でもひとりは嫌なんでしょ？〗",
+    "jpGuide2": "・でもひとりは嫌なんでしょう？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "Bad End『蛇の神の使い』（ED8）",
+    "jpGuide1": "エンディングNo.8\nBad End\n『蛇の神の使い』",
+    "jpGuide2": "蛇の神の使い",
+    "enGuide": "After this ending, restart the game from the beginning and follow the repeated Day 1 opening below. No usable save is documented before this ED8 route branch."
+  },
+  {
+    "simpleJp": "下調べもしたし大丈夫",
     "jpGuide1": "「下調べもしたし大丈夫」",
     "jpGuide2": "下調べもしたし大丈夫",
     "enGuide": ""
   },
   {
-    "simpleJp": "わたしはこくりと頷いた",
-    "jpGuide1": "「わたしはこくりと頷いた」",
-    "jpGuide2": "わたしはこくりと頷いた",
+    "simpleJp": "わたしは首を横に振る",
+    "jpGuide1": "〖わたしは首を横に振る〗",
+    "jpGuide2": "・わたしは首を横に振る",
     "enGuide": ""
   },
   {
@@ -28,80 +112,6 @@
     "jpGuide1": "－セーブ①－",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
-  },
-  {
-    "simpleJp": "負けてたまるか",
-    "jpGuide1": "「負けてたまるか」",
-    "jpGuide2": "負けてたまるか(No.8を迎える一条件)",
-    "enGuide": "",
-    "badEndPath": "Bad End『蛇の神の使い』（ED8）"
-  },
-  {
-    "simpleJp": "葛ちゃんを探しにいこう",
-    "jpGuide1": "「葛ちゃんを探しにいこう」",
-    "jpGuide2": "葛ちゃんを探しにいこう",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "何とかしたいけど",
-    "jpGuide1": "「何とかしたいけど」",
-    "jpGuide2": "なんとかしたいけど",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "自分が出る",
-    "jpGuide1": "「自分が出る」",
-    "jpGuide2": "自分が出る",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ん～？",
-    "jpGuide1": "「ん～？」",
-    "jpGuide2": "ん～？",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "気になる",
-    "jpGuide1": "「気になる」",
-    "jpGuide2": "気になる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "じゃあ行こうか",
-    "jpGuide1": "「じゃあ行こうか」",
-    "jpGuide2": "じゃあ行こうか",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "何を話しているんだろう？",
-    "jpGuide1": "「何を話しているんだろう？」",
-    "jpGuide2": "何を話しているんだろう？",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "保護者同伴なら",
-    "jpGuide1": "「保護者同伴なら」",
-    "jpGuide2": "保護者同伴なら",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "でもひとりは嫌なんでしょ？",
-    "jpGuide1": "「でもひとりは嫌なんでしょ？」",
-    "jpGuide2": "でもひとりは嫌なんでしょ？",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "Bad End『蛇の神の使い』（ED8）",
-    "jpGuide1": "エンディングNo.8\nBad End\n『蛇の神の使い』",
-    "jpGuide2": "No.8 蛇の神の使い",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "セーブ7にロード",
-    "jpGuide1": "－セーブ①から－",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
-    "isLoad": true
   },
   {
     "simpleJp": "素直に謝る",
@@ -235,27 +245,45 @@
   },
   {
     "simpleJp": "これは夢だし",
-    "jpGuide1": "「これは夢だし」",
-    "jpGuide2": "これは夢だし(No.10を迎える一条件)",
+    "jpGuide1": "〖これは夢だし〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
     "badEndPath": "Bad End『言霊の継承（２）』（ED10）"
   },
   {
     "simpleJp": "別にそんなことは",
-    "jpGuide1": "「別にそんなことは」",
-    "jpGuide2": "別にそんなことは(No.10を迎える一条件)",
+    "jpGuide1": "〖別にそんなことは〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "サクヤさんに付き合う",
-    "jpGuide1": "「サクヤさんに付き合う」",
-    "jpGuide2": "サクヤさんに付き合う(No.10を迎える一条件)",
+    "jpGuide1": "〖サクヤさんに付き合う〗",
+    "jpGuide2": "・サクヤさんに付き合う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "保護者同伴なら",
+    "jpGuide1": "〖保護者同伴なら〗",
+    "jpGuide2": "・保護者同伴なら",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "でもひとりは嫌なんでしょ？",
+    "jpGuide1": "〖でもひとりは嫌なんでしょ？〗",
+    "jpGuide2": "・でもひとりは嫌なんでしょう？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "抵抗しない",
+    "jpGuide1": "〖抵抗しない〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "Bad End『言霊の継承（２）』（ED10）",
-    "jpGuide1": "エンディングNo.10\nBad End\n『言霊の継承(2)』",
-    "jpGuide2": "No.10 言霊の継承(2)",
+    "jpGuide1": "Bad End『言霊の継承（２）』（ED10）",
+    "jpGuide2": "言霊の継承（２）",
     "enGuide": ""
   },
   {
@@ -290,9 +318,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "保護者同伴なら",
-    "jpGuide1": "「保護者同伴なら」",
-    "jpGuide2": "保護者同伴なら",
+    "simpleJp": "行ってきます",
+    "jpGuide1": "〖行ってきます〗",
+    "jpGuide2": "・行ってきます",
     "enGuide": ""
   },
   {
@@ -366,6 +394,26 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "封じを強化する",
+    "jpGuide1": "「封じを強化する」",
+    "jpGuide2": "・封じを強化する",
+    "enGuide": "",
+    "badEndPath": "Normal End『此岸と彼岸』（ED11）"
+  },
+  {
+    "simpleJp": "Normal End『此岸と彼岸』（ED11）",
+    "jpGuide1": "エンディングNo.11\nNormal End\n『此岸と彼岸』",
+    "jpGuide2": "此岸と彼岸",
+    "enGuide": "First completion: the last choice is sealed and does not appear. Clear ED11 to unlock it, then load Save 13."
+  },
+  {
+    "simpleJp": "セーブ13にロード",
+    "jpGuide1": "－セーブ⑦から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Reload the pre-seal Save 13 after the first ED11 unlock.",
+    "isLoad": true
+  },
+  {
     "simpleJp": "鏡を探してみる",
     "jpGuide1": "「鏡を探してみる」",
     "jpGuide2": "鏡を探してみる(No.11へ)",
@@ -394,13 +442,39 @@
   {
     "simpleJp": "封じを強化する",
     "jpGuide1": "「封じを強化する」",
-    "jpGuide2": "封じを強化する",
+    "jpGuide2": "・封じを強化する",
+    "enGuide": "",
+    "badEndPath": "Normal End『此岸と彼岸』（ED11）"
+  },
+  {
+    "simpleJp": "意識が―もう――",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・意識が―もう――",
     "enGuide": ""
   },
   {
-    "simpleJp": "忘れたくない",
-    "jpGuide1": "「忘れたくない」",
-    "jpGuide2": "忘れたくない",
+    "simpleJp": "Normal End『此岸と彼岸』（ED11）",
+    "jpGuide1": "エンディングNo.11\nNormal End\n『此岸と彼岸』",
+    "jpGuide2": "此岸と彼岸",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ13にロード",
+    "jpGuide1": "－セーブ⑦から－",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "封じを強化する",
+    "jpGuide1": "「封じを強化する」",
+    "jpGuide2": "・封じを強化する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "忘れたくない！",
+    "jpGuide1": "〖忘れたくない！〗",
+    "jpGuide2": "・忘れたくない！",
     "enGuide": ""
   },
   {

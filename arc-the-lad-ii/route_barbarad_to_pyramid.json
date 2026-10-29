@@ -3,7 +3,7 @@
     "simpleJp": "ピラミッドへ行く",
     "jpGuide1": "まずはピラミッドへ行って砂嵐を見てからムハドへ。",
     "jpGuide2": "バルバラード編開始",
-    "enGuide": "Visit the Pyramid first even though you cannot enter. Watching the sandstorm event is what advances the story and makes the Muhad investigation relevant."
+    "enGuide": "Story progression. Continue directly from “アミーグ：神の塔”. Visit the Pyramid first even though you cannot enter. Watching the sandstorm event is what advances the story and makes the Muhad investigation relevant."
   },
   {
     "simpleJp": "ムハドのギルドへ行く",
@@ -21,13 +21,13 @@
     "simpleJp": "G#46「指輪探し」を受けておく",
     "jpGuide1": "指輪探し",
     "jpGuide2": "G#46　指輪探し",
-    "enGuide": "It is now available; taking it before further desert travel is efficient."
+    "enGuide": "Accept G#46 at the Muhad guild now. The next optional-cleanup section begins in Kanara Desert, where this job is actually performed; taking it before leaving Muhad prevents an unnecessary return trip and makes the Barbarad job chain read in chronological order."
   },
   {
     "simpleJp": "テュケの洞窟でグァルデから「エンジェルクライム」を盗んで討伐する",
     "jpGuide1": "手配モンスター「グァルデ」を倒して奥へ進む",
     "jpGuide2": "グァルデ　エンジェルクライム",
-    "enGuide": "There is no convenient party reselect at contact, so bring Shu before entering the encounter. Steal Angel Crime from Gualde first, then finish the fight."
+    "enGuide": "Optional item collection; not required for story progression. There is no convenient party reselect at contact, so bring Shu before entering the encounter. Steal Angel Crime from Gualde first, then finish the fight."
   },
   {
     "simpleJp": "サリュ族のキャンプでナムのテントへ行く",
@@ -39,6 +39,6 @@
     "simpleJp": "ピラミッド外観の敵を倒す",
     "jpGuide1": "イベント後、アークが復帰して戦闘。",
     "jpGuide2": "ピラミッド外観戦終了",
-    "enGuide": "Stop after this battle: G#49 has just appeared, so perform the final pre-Monji guild sweep before going deeper."
+    "enGuide": "Stop after this battle: G#49 has just appeared, so perform the final pre-Monji guild sweep before going deeper. Next: “【任意】紋次編前：バルバラード→各地最終回収”."
   }
 ]

@@ -3,30 +3,30 @@
     "simpleJp": "プロディアスギルド奥へ行く",
     "jpGuide1": "この依頼を発生させるには、まずGPを250稼いでプロディアスギルドの奥にある「ゴッドハンターの証」を取らなくてはならない。",
     "jpGuide2": "GP250という実績、そしてその証が必要",
-    "enGuide": "Check your Guild Points first. Once you have at least 250 GP, enter the back of the Prodius guild and collect the God Hunter proof needed for the final job."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “【任意】南北の塔後：ちょこ後半イベント”. If converted Arc I data is in use and you completed “【任意・コンバート】ちょこ覚醒：遺跡B51〜B71”, return here after that detour; otherwise continue here directly from the normal Choko late-event section. Check your Guild Points first. Once you have at least 250 GP, enter the back of the Prodius guild and collect the God Hunter proof needed for the final job."
   },
   {
     "simpleJp": "インディゴスギルド奥の人物に話す",
     "jpGuide1": "「ゴッドハンターの証」を持っていて、かつストーリーがかなり進んでいると、インディゴスギルドの奥の人から情報を得られる。情報通りミルマーナのギルドへ行くとこの依頼を請けられる。",
-    "jpGuide2": "南北の塔編終了　空中城突入",
-    "enGuide": "Talk to the information contact in the back of the Indigos guild, then travel to Millmana's guild. The Sea Dragon Egg Return job is available there; accept it before Air Castle."
+    "jpGuide2": "条件を満たしたうえで担当者に話しかけると、ミルマーナのギルドでこの依頼が発生するのだ。",
+    "enGuide": "With the God Hunter proof in hand, go to the back of the Indigos guild and speak to the information contact. Then travel to the Millmana guild and accept G#37 before Air Castle; this is the final major guild-job chain and should be completed before the world lockout."
   },
   {
     "simpleJp": "ミルマーナ宿屋の依頼人に話す",
     "jpGuide1": "宿屋にいる依頼人に話し、その後ユドの村にいるヴィルマー博士と話す。一度島を出てから戻ってくるとヤゴス島マップに「潜水艦」が出現する。",
-    "jpGuide2": "一旦ヤゴス島から飛び立ち、再び訪れるとマップに潜水艦が出現",
+    "jpGuide2": "依頼人は宿屋にいる。話しかけると、卵を託されると同時に不穏な情報も教えてくれる。",
     "enGuide": "Take the egg from the requester at the Millmana inn, then talk to Vilmer on Yagos Island. Leave the island once and return; the submarine then appears on the island map."
   },
   {
     "simpleJp": "卵を渡すよう求められたら拒否する",
     "jpGuide1": "海底神殿に入ってからは、何度か卵を渡すように言われるが、決して渡してはいけない。最深部まで卵を守りきれればクリア。",
-    "jpGuide2": "戦闘は計三回。二回目はすぐに戦闘に突入する",
+    "jpGuide2": "一回目の遭遇ではいきなり「その卵をこちらに渡してもらおうか！」と吹っかけてくる。もちろん渡してしまえば即失敗となる。正しい回答をすると戦闘に突入する。",
     "enGuide": "Never surrender the egg when a hand-over prompt appears. There are three fights total; the second encounter begins immediately without a choice. Win all three and carry the egg to the nest at the deepest point."
   },
   {
     "simpleJp": "G#37をギルドで清算する",
     "jpGuide1": "クリア後、清算してからもう一度潜水艦を動かそうとすると、神殿の東側から入れるようになるが、ヂークベックを表示しないと中には入れない。",
-    "jpGuide2": "最強最後のパワーユニット、Ｐリバースを入手",
+    "jpGuide2": "仕事を終え、報酬の清算を済ませると潜水艦からの行き先を選択できるようになっている。",
     "enGuide": "Settle G#37 first, then return by submarine with Diekbeck displayed. Take the east-side extension, clear its trials, and collect P-Reverse at the end."
   },
   {
@@ -39,7 +39,7 @@
     "simpleJp": "バルバラード封印の遺跡B4Fで「風の剣」を取る",
     "jpGuide1": "風の剣",
     "jpGuide2": "地の剣+氷の剣＋炎の剣＋風の剣",
-    "enGuide": "Take the Wind Sword here; it is one of the four ingredients for Light Sword."
+    "enGuide": "During the sequential sealed-ruin chain, take the Wind Sword from Barbarad Sealed Ruins B4. It is optional for story completion but required for the guide's normal-game Light Sword synthesis, so do not leave this ruin without it if you are following the completion path."
   },
   {
     "simpleJp": "アリバーシャ封印の遺跡へ入る",
@@ -63,6 +63,6 @@
     "simpleJp": "ギルド仕事と手配モンスターの未清算が無いことを確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "G#37　海竜の卵返却",
-    "enGuide": "Use this as a final audit before Air Castle: clear and settle any remaining guild work or wanted monsters you still intend to complete. G#23 is intentionally handled during the Romalia city assault."
+    "enGuide": "Final completion audit before the Romalia invasion: settle every guild job and wanted monster you still intend to count, verify the Light Sword/synthesis cleanup is done, and confirm G#37 is closed. G#23 is deliberately excluded here because its valid window is inside the upcoming Romalia city assault. Next: “ロマリア突入〜市街侵攻”."
   }
 ]

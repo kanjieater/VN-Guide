@@ -3,42 +3,54 @@
     "simpleJp": "インディゴス北西のマンホールを調べる",
     "jpGuide1": "インディゴス北西にあるマンホールを調べる。中でグリーンスライムと戦闘になる。勝てばクリア。",
     "jpGuide2": "G#01　インディゴス下水道調べ",
-    "enGuide": "Go to the manhole in northwest Indigos, enter the sewer, and win the Green Slime battle. The job clears immediately after the fight."
+    "enGuide": "Optional 100% block; the main story can continue without it, but these early jobs expire. Start in Indigos after Shu joins. Accept G#01 at the Indigos guild, then use the northwest manhole and win the Green Slime fight. Return to the guild and settle G#01 before taking the next job; G#07 depends on this clear."
   },
   {
     "simpleJp": "廃墟の町の廃屋2Fへ行く",
     "jpGuide1": "廃墟の町へ行き、廃屋の2Fへ行く。右上にいる子どもに話し掛けるとエレメンタル・レッドスケルトンと戦闘になる。レッドスケルトンを瀕死に追い込めばクリア。",
     "jpGuide2": "G#02　廃墟の幽霊屋敷",
-    "enGuide": "Enter the abandoned house in Ruined Town, go to 2F, and talk to the child in the upper-right. The fight starts; reduce the Red Skeleton to critical HP to clear the job."
-  },
-  {
-    "simpleJp": "ギルドで新しい手配書を確認する",
-    "jpGuide1": "新しい町に着いたらまず手配書を確認すること。",
-    "jpGuide2": "＋ドクスン確認",
-    "enGuide": "Check the newly available wanted posters before taking the jewelry-store job."
-  },
-  {
-    "simpleJp": "インディゴス南東の宝石店の店主に話す",
-    "jpGuide1": "インディゴス南東の宝石店の店主に話す。夜になるとスタンゴーレム・手配モンスター「ドクスン」と戦闘になる。敵は北東の穴から逃げようとするので、穴を塞いで戦うといい。敵を逃がさずに倒せばクリア。",
-    "jpGuide2": "G#03を中成功以上でこなす必要がある",
-    "enGuide": "Talk to the jewelry-shop owner in southeast Indigos. At night the robbers attack. They try to escape through the northeast hole, so block that route and defeat every enemy without letting anyone flee."
-  },
-  {
-    "simpleJp": "酒場前のバーンズに話す",
-    "jpGuide1": "酒場の前にいるバーンズさんから話を聞いた後にマンホールへ行く。敵と戦闘になり、倒すと犬を救出できる。バーンズさんの所に戻ると子どもがいて、話すとクリア。",
-    "jpGuide2": "G#07　バーンズさんの犬捜し",
-    "enGuide": "Speak to Burns outside the tavern, then enter the sewer and win the battle to rescue the dog. Return to Burns; speak to the child beside him to finish the job and receive four Dog Foods."
-  },
-  {
-    "simpleJp": "インディゴス下水道でシャムスから「グランドナイフ」を盗んで討伐する",
-    "jpGuide1": "シャムス　450　1　インディゴス下水道　グランドナイフ盗（初回遭遇時のみ）",
-    "jpGuide2": "グランドナイフ　初回遭遇時のみ入手可能",
-    "enGuide": "Bring Shu and steal the Grand Knife on the first encounter before killing Shamus."
+    "enGuide": "Back at the Indigos guild, accept G#02, then travel to Ruined Town and enter the abandoned house. Go to 2F, talk to the child in the upper-right, and reduce the Red Skeleton to critical HP. Do not leave Ruined Town yet: Golza is in this same house and does not require poster confirmation."
   },
   {
     "simpleJp": "廃屋でゴルザを討伐する",
     "jpGuide1": "ゴルザ　540　1　廃屋",
     "jpGuide2": "ゴルザ　スケルトン　廃墟の町―廃屋",
-    "enGuide": "Clear the early Prodius bounty while the area is already relevant."
+    "enGuide": "Optional bounty, not story progression. Hunt Golza while you are already in the Ruined Town abandoned house. No wanted-poster confirmation is required for Golza, and there is no unique first-encounter steal this route is preserving. Then return to Indigos and settle G#02."
+  },
+  {
+    "simpleJp": "酒場前のバーンズに話す",
+    "jpGuide1": "酒場の前にいるバーンズさんから話を聞いた後にマンホールへ行く。敵と戦闘になり、倒すと犬を救出できる。バーンズさんの所に戻ると子どもがいて、話すとクリア。",
+    "jpGuide2": "G#07　バーンズさんの犬捜し",
+    "enGuide": "After G#01 has been settled, accept G#07 at the Indigos guild. Before leaving the guild, inspect Aju's wanted poster because Aju's bounty payout requires poster confirmation. Talk to Burns outside the tavern, then enter the sewer for the dog-rescue job; use this same sewer trip for Aju and Shamus instead of making a separate city loop."
+  },
+  {
+    "simpleJp": "インディゴス下水道でアジュを討伐する",
+    "jpGuide1": "アジュ　－　東アルディア／インディゴス下水道",
+    "jpGuide2": "アジュ　インディゴス下水道",
+    "enGuide": "Optional bounty. Aju is in the Indigos sewer; the poster is required for its bounty reward. Hunt Aju before looking for Shamus, because Shamus does not become available until Aju has been hunted."
+  },
+  {
+    "simpleJp": "インディゴス下水道でシャムスから「グランドナイフ」を盗んで討伐する",
+    "jpGuide1": "シャムス　450　1　インディゴス下水道　グランドナイフ盗（初回遭遇時のみ）",
+    "jpGuide2": "グランドナイフ　初回遭遇時のみ入手可能",
+    "enGuide": "Optional unique-item collection; not required for the story. Shamus needs no poster, but only appears after Aju is hunted. Exit/re-enter the sewer if needed, bring Shu, and steal Grand Knife on the first encounter before defeating Shamus; the steal opportunity is lost after the first encounter."
+  },
+  {
+    "simpleJp": "バーンズの所へ戻って子どもに話す",
+    "jpGuide1": "酒場の前にいるバーンズさんから話を聞いた後にマンホールへ行く。敵と戦闘になり、倒すと犬を救出できる。バーンズさんの所に戻ると子どもがいて、話すとクリア。",
+    "jpGuide2": "G#07　バーンズさんの犬捜し",
+    "enGuide": "Finish G#07 on this same sewer visit: win the dog-rescue battle, return to Burns, and speak to the child beside him. Then settle the job at the Indigos guild. This closes the sewer loop before the jewelry-store job."
+  },
+  {
+    "simpleJp": "インディゴス南東の宝石店の店主に話す",
+    "jpGuide1": "インディゴス南東の宝石店の店主に話す。夜になるとスタンゴーレム・手配モンスター「ドクスン」と戦闘になる。敵は北東の穴から逃げようとするので、穴を塞いで戦うといい。敵を逃がさずに倒せばクリア。",
+    "jpGuide2": "G#03を中成功以上でこなす必要がある",
+    "enGuide": "Back at the Indigos guild, check the wanted posters and accept G#03. Go to the jewelry shop in southeast Indigos; at night, block the northeast escape route and defeat every robber without letting one flee. Settle the job afterward."
+  },
+  {
+    "simpleJp": "インディゴス酒場へ戻ってメインストーリーを進める",
+    "jpGuide1": "1500G稼いだら酒場へ行ってマスターに話し掛ける。",
+    "jpGuide2": "酒場のマスターに話す→アパートへ移動→酒場へ移動",
+    "enGuide": "Early optional cleanup is finished. Stay in Indigos; the next mandatory objective is the tavern/night event in “式典〜ヤゴス島”. Do not detour to Prodius yet—the story sends you there immediately after the night event. Next: “【任意・コンバート】秘密研究所”."
   }
 ]

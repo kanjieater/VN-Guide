@@ -3,7 +3,7 @@
     "simpleJp": "ラムールのベリンガル笑劇場へ行く",
     "jpGuide1": "ギルドの隣の劇場へ。戦闘に勝てばクリア。",
     "jpGuide2": "G#31　ベリンガル笑劇場を警護して欲しい",
-    "enGuide": "Enter Beringal Comedy Theater next to the Lamour guild. Win the battle inside to clear the theater-guard job."
+    "enGuide": "Optional completion block after Fores/Brakia. Clear the two Fores jobs first, then stay in Brakia for one coherent Banza Mountain job/bounty chain before traveling to Nieder. The old route incorrectly deferred Gallop until after the job window that makes it appear; this ordering fixes that."
   },
   {
     "simpleJp": "ラムール酒場のマスターに話す",
@@ -12,16 +12,40 @@
     "enGuide": "Speak to the Lamour tavern master to take the food delivery, then travel to Horn. Win the battle at the village entrance to complete the delivery."
   },
   {
-    "simpleJp": "バンザ山入口から左へ進む",
+    "simpleJp": "グーズギルドでG#52を受けてバンザ山西側へ入る",
     "jpGuide1": "バンザ山入り口から左へ。線路上にある岩をすべて押して穴に落とせばクリア。どけるだけでは完全クリアにならないので注意。",
     "jpGuide2": "G#52　線路の上の岩石取り除き作業",
-    "enGuide": "From the Banza Mountain entrance, go left to the railway. Push every rock completely into a hole; merely moving rocks off the track is not enough for full completion. Settle the job afterward."
+    "enGuide": "Back in Goose, confirm the wanted posters for Gallop, Gigas, Dabano, and Draper, then accept G#52. G#52 (or G#53) is what opens Banza Mountain's west side. Do not settle the job before handling Gallop; its availability depends on this job window."
+  },
+  {
+    "simpleJp": "バンザ山西側でギャロップから「マッドビルダー」を盗んで討伐する",
+    "jpGuide1": "ギャロップ　3060　4　バンザ山左側　マッドビルダー盗",
+    "jpGuide2": "ギャロップ　サンダーバード　バンザ山西側",
+    "enGuide": "Optional unique-item collection and a timing-critical bounty. Gallop requires poster confirmation and only appears once G#52 or G#53 is active. Bring Shu and steal Mad Builder on the first encounter before killing Gallop; do this now, while the west side is definitely open."
+  },
+  {
+    "simpleJp": "バンザ山西側の線路の岩をすべて穴へ落とす",
+    "jpGuide1": "バンザ山入り口から左へ。線路上にある岩をすべて押して穴に落とせばクリア。どけるだけでは完全クリアにならないので注意。",
+    "jpGuide2": "G#52　線路の上の岩石取り除き作業",
+    "enGuide": "Finish G#52 by pushing every track rock completely into a hole; simply moving rocks aside is not full completion. Once Gallop is handled and all rocks are down, return to Goose and settle G#52."
   },
   {
     "simpleJp": "バンザ山の依頼人に話す",
     "jpGuide1": "バンザ山へ行き、依頼人と話す。山の中のあらゆるフロア・エリアにある鉱石を、全部で20個拾って依頼人に渡せばクリア。",
     "jpGuide2": "大成功　4000G　8GP　鉱石を20個全て収集",
     "enGuide": "Speak to the requester at Banza Mountain, then search every floor and side area for all 20 ore pieces. Return all 20 to the requester for the great-success result."
+  },
+  {
+    "simpleJp": "バンザ山1Fでダバノを討伐する",
+    "jpGuide1": "ダバノ　2970　5　バンザ山1F",
+    "jpGuide2": "ダバノ　バンザ山1F",
+    "enGuide": "Optional Brakia bounty; not required for story progression. Confirm Dabano's wanted poster at the Goose guild, then hunt it on Banza Mountain 1F. Poster confirmation is required; its Dark Stream drop makes this cleanup especially worth doing while you are already here."
+  },
+  {
+    "simpleJp": "バンザ山でギガスを討伐する",
+    "jpGuide1": "ギガス　2925　4　バンザ山回復ポイントの後",
+    "jpGuide2": "ギガス　バンザ山",
+    "enGuide": "Optional Brakia bounty; not required for story progression. Confirm Gigas's wanted poster at the Goose guild, then hunt it on Banza Mountain 4F during the same mountain sweep. Poster confirmation is required, so register it before entering the mountain."
   },
   {
     "simpleJp": "グーズ酒場の依頼人に話す",
@@ -40,6 +64,12 @@
     "jpGuide1": "バンザ山左奥へ行き、モンスターを倒せばクリア。",
     "jpGuide2": "G#56　トロッコ占領のモンスター退治",
     "enGuide": "Go to the far-left/deep section of Banza Mountain and defeat the monsters occupying the mine carts. Settle the job before continuing the chain."
+  },
+  {
+    "simpleJp": "バンザ山左奥でドレイパーを討伐する",
+    "jpGuide1": "ドレイパー　3060　4　バンザ山左奥",
+    "jpGuide2": "ドレイパー　バンザ山西側",
+    "enGuide": "Optional Brakia bounty; not required for story progression. Confirm Draper's wanted poster at the Goose guild, then hunt it on Banza Mountain's west side once G#56 is available. The poster is required and this target's availability is tied to the same late Brakia job state."
   },
   {
     "simpleJp": "グーズ宿屋右室の依頼人に話す",
@@ -63,36 +93,12 @@
     "simpleJp": "ミスロ闘技場入口の受付に話す",
     "jpGuide1": "闘技場へ行き、入り口の受付に話し掛けると戦闘になる。手配「ネクダス」と戦闘だが、8体同時に出現して、本物を倒すまでは戦闘が終わらない。",
     "jpGuide2": "G#44　謎のモンスター闘技場占拠",
-    "enGuide": "Talk to the arena receptionist to begin the fight. Eight Nekudas appear at once; the battle only ends when the real one is defeated, so keep eliminating copies until you hit the genuine target."
+    "enGuide": "For G#44 in Nieder, speak to the Misro arena receptionist to start the battle. Wanted monster Nekudas is encountered as part of this job and does not require separate poster confirmation; eight copies appear, and the battle ends only when the real one is defeated."
   },
   {
     "simpleJp": "ミスロ闘技場入口の受付に話す",
     "jpGuide1": "闘技場入り口の受付に話し掛けると戦闘になる。上に進めば進むほど敵が出現する。全滅させればクリア。",
     "jpGuide2": "G#45　闘技場モンスター反乱",
-    "enGuide": "Speak to the arena receptionist, then advance upward through the arena as new enemies appear. Defeat every monster to clear the rebellion."
-  },
-  {
-    "simpleJp": "バンザ山西側でギャロップから「マッドビルダー」を盗んで討伐する",
-    "jpGuide1": "ギャロップ　3060　4　バンザ山左側　マッドビルダー盗",
-    "jpGuide2": "ギャロップ　サンダーバード　バンザ山西側",
-    "enGuide": "Bring Shu. Gallop appears while the Banza guild work is active; steal Mad Builder before the kill."
-  },
-  {
-    "simpleJp": "バンザ山でギガスを討伐する",
-    "jpGuide1": "ギガス　2925　4　バンザ山回復ポイントの後",
-    "jpGuide2": "ギガス　バンザ山",
-    "enGuide": "Clear this bounty during the same Banza return trip."
-  },
-  {
-    "simpleJp": "バンザ山1Fでダバノを討伐する",
-    "jpGuide1": "ダバノ　2970　5　バンザ山1F",
-    "jpGuide2": "ダバノ　バンザ山1F",
-    "enGuide": "Dabano can drop Dark Stream."
-  },
-  {
-    "simpleJp": "バンザ山左奥でドレイパーを討伐する",
-    "jpGuide1": "ドレイパー　3060　4　バンザ山左奥",
-    "jpGuide2": "ドレイパー　バンザ山西側",
-    "enGuide": "Draper becomes available once the relevant Banza progression/job state is open."
+    "enGuide": "Speak to the arena receptionist, then advance upward through the arena as new enemies appear. Defeat every monster to clear the rebellion. Next: “ミルマーナ”."
   }
 ]

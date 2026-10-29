@@ -3,7 +3,7 @@
     "simpleJp": "モレア酒場の地下へ行く",
     "jpGuide1": "酒場へ行き、地下に行って人と話し、また地上に戻ってくるとゴロつきが出現。シュウとゴロつきで決闘になる。5数え終わった後、シュウが振り向いた瞬間にR1ボタンを押せば勝ってクリア。",
     "jpGuide2": "G#39　酒場のゴロつき退治",
-    "enGuide": "Enter the Morea tavern, go downstairs and speak to the person there, then return upstairs. In Shu's quick-draw duel, wait through the five-count and press R1 the instant Shu turns around. Losing fails the job."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “アミーグ：神の塔許可まで”. Enter the Morea tavern, go downstairs and speak to the person there, then return upstairs. In Shu's quick-draw duel, wait through the five-count and press R1 the instant Shu turns around. Losing fails the job."
   },
   {
     "simpleJp": "モレア東側の依頼人に話す",
@@ -27,24 +27,24 @@
     "simpleJp": "アミーグFBAでドルゴンを討伐する",
     "jpGuide1": "ドルゴン　アミーグFBA",
     "jpGuide2": "ドルゴン　アミーグ",
-    "enGuide": "Clear the local bounty while the country is open."
+    "enGuide": "Optional Amigue bounty; not required for story progression. Confirm Dolgon's wanted poster at the Morea guild first, then hunt him in Madeta Hill or Altrapass Wastes. Poster confirmation is required, and clearing Dolgon is also the prerequisite for Gorgon to appear."
   },
   {
     "simpleJp": "アミーグFBAでゴルゴンを討伐する",
     "jpGuide1": "ゴルゴン　アミーグFBA",
     "jpGuide2": "ゴルゴン　アミーグ",
-    "enGuide": "Clear the second overworld bounty."
+    "enGuide": "Optional Amigue bounty; not required for story progression. After Dolgon is hunted, confirm Gorgon's wanted poster at the Morea guild, then revisit Madeta Hill or Altrapass Wastes. The poster is required and Gorgon does not appear before Dolgon is cleared."
   },
   {
     "simpleJp": "アミーグ封印の遺跡B1でベラドンナを討伐する",
     "jpGuide1": "ベラドンナ　アミーグ遺跡B1",
     "jpGuide2": "ベラドンナ　アミーグ封印の遺跡",
-    "enGuide": "Take the bounty while visiting the sealed ruin."
+    "enGuide": "Optional Amigue bounty; not required for story progression. Confirm Belladonna's wanted poster at the Morea guild, then enter the Amigue Sealed Ruins and hunt it on B1. Poster confirmation is required, so register it before making the ruin trip."
   },
   {
     "simpleJp": "アミーグ封印の遺跡B3でダリーを討伐する",
     "jpGuide1": "ダリー　アミーグ遺跡B3",
     "jpGuide2": "ダリー　アミーグ封印の遺跡",
-    "enGuide": "Finish the local sealed-ruin bounty set."
+    "enGuide": "Optional Amigue bounty; not required for story progression. Confirm Dally's wanted poster at the Morea guild, then continue in the Amigue Sealed Ruins to B3. Poster confirmation is required; group this with Belladonna so the ruin only needs one cleanup visit."
   }
 ]

@@ -1,0 +1,16 @@
+[
+  {"simpleJp":"セーブ20にロード","jpGuide1":"（第一ガイドに記載なし）","jpGuide2":"セーブ⑪をロード","enGuide":"ONLY after completing Ciel Normal and retaining clear data: load Save 20 at the Day 14 choice. Manually advance this load step. Do not start a new game."},
+  {"simpleJp":"……アルクェイドを、嫌いにはなれない。","jpGuide1":"……アルクェイドを、嫌いにはなれない。","jpGuide2":"……アルクェイドを、嫌いにはなれない。","enGuide":"Day 14 — Cannot bring yourself to dislike Arcueid. Requires Ciel Normal clear AND the affection state prepared in the previous route."},
+  {"simpleJp":"それがどうした、黙ってろ。","jpGuide1":"それがどうした、黙ってろ。","jpGuide2":"それがどうした、黙ってろ。","enGuide":"Day 14 — So what? Be quiet. KANNAGI and XNEO both use this valid choice; NookGaming uses the other response."},
+  {"simpleJp":"セーブ21","jpGuide1":"（第一ガイドに記載なし）","jpGuide2":"逃げるしかない。(セーブ⑫)","enGuide":"Day 14 — Save before deciding to keep fighting or flee."},
+  {"simpleJp":"諦めない。","jpGuide1":"諦めない。","jpGuide2":"諦めない。","enGuide":"Dead End 20 — Do not give up.","badEndPath":"BAD END No.20"},
+  {"simpleJp":"BAD END No.20","jpGuide1":"BAD END No.20","jpGuide2":"BAD END No.20","enGuide":"Watch the ending and Ciel lesson; manually advance."},
+  {"simpleJp":"セーブ21にロード","jpGuide1":"（第一ガイドに記載なし）","jpGuide2":"BAD END No.20 セーブ⑫","enGuide":"Load Save 21; manually advance.","isLoad":true},
+  {"simpleJp":"逃げるしかない。","jpGuide1":"逃げるしかない。","jpGuide2":"逃げるしかない。","enGuide":"Day 14 — Have to run."},
+  {"simpleJp":"セーブ22","jpGuide1":"（第一ガイドに記載なし）","jpGuide2":"体力は残り少ない。まずは隠れよう。(セーブ⑬)","enGuide":"Day 14 — Save before choosing to hide or go back up."},
+  {"simpleJp":"もう一度上へ。何か見落としがある筈だ。","jpGuide1":"もう一度上へ。何か見落としがある筈だ。","jpGuide2":"もう一度上へ。何か見落としがある筈だ。","enGuide":"Dead End 21 — Go back up.","badEndPath":"BAD END No.21"},
+  {"simpleJp":"BAD END No.21","jpGuide1":"BAD END No.21","jpGuide2":"BAD END No.21","enGuide":"Watch the ending and Ciel lesson; manually advance."},
+  {"simpleJp":"セーブ22にロード","jpGuide1":"（第一ガイドに記載なし）","jpGuide2":"BAD END No.21 セーブ⑬","enGuide":"Load Save 22; manually advance.","isLoad":true},
+  {"simpleJp":"体力は残り少ない。まずは隠れよう。","jpGuide1":"体力は残り少ない。まずは隠れよう。","jpGuide2":"体力は残り少ない。まずは隠れよう。","enGuide":"Day 14 — Low on strength; hide first."},
+  {"simpleJp":"白日の碧","jpGuide1":"トゥルーエンディング","jpGuide2":"シエルルート トゥルーエンド(トロフィー「白日の碧」)","enGuide":"Finish Ciel Extra/True and retain clear data. With all 21 dead ends and their lessons watched, open GALLERY → Ending List → bottom-right icon for the final Teach Me, Miss Ciel. Manually complete this terminal step."}
+]

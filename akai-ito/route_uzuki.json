@@ -128,6 +128,12 @@
     "badEndPath": "Normal End『挫北・夏の終わり』（ED3）"
   },
   {
+    "simpleJp": "Normal End『挫北・夏の終わり』（ED3）",
+    "jpGuide1": "エンディングNo.3\nNormal End\n『挫北・夏の終わり』",
+    "jpGuide2": "No.3 挫北・夏の終わり",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ1にロード",
     "jpGuide1": "－セーブ①から－",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -190,6 +196,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "Bad End『シマイ』（ED28）",
+    "jpGuide1": "エンディングNo.28\nBad End\n『シマイ』",
+    "jpGuide2": "No.28 シマイ",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ3にロード",
     "jpGuide1": "－セーブ③－から",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -220,6 +232,12 @@
     "jpGuide2": "一面の赤ー赤い世界ー(No.29へ)",
     "enGuide": "",
     "badEndPath": "Bad End『血海』（ED29）"
+  },
+  {
+    "simpleJp": "Bad End『血海』（ED29）",
+    "jpGuide1": "エンディングNo.29\nBad End\n『血海』",
+    "jpGuide2": "No.29 血海",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ4にロード",
@@ -254,6 +272,12 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "Bad End『赤い維斗』（ED31）",
+    "jpGuide1": "エンディングNo.31\nBad End\n『赤い維斗』",
+    "jpGuide2": "No.31 赤い維斗",
+    "enGuide": ""
+  },
+  {
     "simpleJp": "セーブ5にロード",
     "jpGuide1": "－セーブ⑤から－",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -278,6 +302,12 @@
     "jpGuide2": "逃げる(No.30へ)",
     "enGuide": "",
     "badEndPath": "Normal End『途切れた糸・夏の終わりまで』（ED30）"
+  },
+  {
+    "simpleJp": "Normal End『途切れた糸・夏の終わりまで』（ED30）",
+    "jpGuide1": "エンディングNo.30\nNormal End\n『途切れた糸・夏の終わりまで』",
+    "jpGuide2": "No.30 途切れた糸・夏の終わりまで",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ6にロード",

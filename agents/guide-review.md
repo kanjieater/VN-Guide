@@ -18,10 +18,10 @@ If none is specified:
 
 Before generation/research:
 
-1. Read `games.json.guide_target` or an explicit caller-supplied target.
+1. Read `<slug>/catalog.json.guide_target` (legacy: `games.json.guide_target`) or an explicit caller-supplied target.
 2. Require `label`, `platform`, and a specific release/edition `url`.
 3. Require caller-supplied targets to be scoped to the exact VN work id; never carry that target into another pending game.
-4. Persist accepted caller-supplied targets to `games.json` before research.
+4. Persist accepted caller-supplied targets to `<slug>/catalog.json` before research.
 5. Copy the exact same object into `research.json` and `guide.json`.
 6. Stop rather than infer when no target is supplied.
 
@@ -105,7 +105,7 @@ Do not rerun structural review merely because source metadata changed if no rout
 
 ## Pre-merge consistency check
 
-Before a guide change is considered complete, verify tracked generated artifacts are synchronized with their source data.
+Before a guide change is considered complete, verify per-game metadata and route review flags; CI owns the root index and per-game bootstrap/manifest files.
 
-For example, if `games.json` changes `has_guide` or other landing-visible metadata, root `index.html` must be regenerated or equivalently synchronized according to `tools/generate.mjs` and the landing template. Run `bun run generate` after changing landing-visible repository metadata. The Bun repository-contract tests reject stale generated artifacts.
+For new or migrated titles, use `<slug>/catalog.json` and never edit shared `games.json` or root `index.html` in guide PRs. CI generates root `index.html` and per-game HTML/manifests on `main`; guide PRs must not edit generated outputs. The published `has_guide` value is derived from all routes being reviewed.
 

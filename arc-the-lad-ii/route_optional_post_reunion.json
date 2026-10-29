@@ -3,7 +3,7 @@
     "simpleJp": "クズ鉄の町左下の再生品協会へ行く",
     "jpGuide1": "マップ左下の再生品協会へ。受付に話すと戦闘になり、勝てばクリア。",
     "jpGuide2": "G#27　再生品を盗む犯人を捕まえて欲しい",
-    "enGuide": "Go to the Recycled Goods Association in the lower-left of Scrap Town and speak to the receptionist. A battle begins immediately; win it, then settle the job before moving to G#28."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “ロマリアキメラ研究所〜全員合流”. Go to the Recycled Goods Association in the lower-left of Scrap Town and speak to the receptionist. A battle begins immediately; win it, then settle the job before moving to G#28."
   },
   {
     "simpleJp": "ジャッカルの手配書を確認する",
@@ -21,6 +21,6 @@
     "simpleJp": "鉄クズ置き場でグラヴィスを討伐する",
     "jpGuide1": "グラヴィス　ロマリア／鉄クズ置き場",
     "jpGuide2": "グラヴィス　鉄クズ置き場",
-    "enGuide": "Clean up the newly available Scrap Yard bounty while you are already back in Romalia."
+    "enGuide": "Optional bounty completion. Clean up the newly available Scrap Yard bounty while you are already back in Romalia. Next: “グレイシーヌ”."
   }
 ]

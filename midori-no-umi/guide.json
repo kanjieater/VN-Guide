@@ -1,0 +1,81 @@
+{
+  "title": "Midori no Umi",
+  "vndb_id": "v7238",
+  "guide_target": {
+    "label": "翠の海 -midori no umi- ダウンロード版",
+    "platform": "Windows",
+    "url": "https://vndb.org/r18372"
+  },
+  "routes": [
+    {
+      "id": "common",
+      "title": "共通",
+      "reviewed": true
+    },
+    {
+      "id": "makina_a",
+      "title": "真希奈 A",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/09/2909.jpg"
+    },
+    {
+      "id": "makina_b",
+      "title": "真希奈 B",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/09/2909.jpg"
+    },
+    {
+      "id": "rikuno_sorane",
+      "title": "陸乃＆空音",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/16/27216.jpg"
+    },
+    {
+      "id": "sara",
+      "title": "沙羅",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/08/2908.jpg"
+    },
+    {
+      "id": "haina",
+      "title": "灰奈",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/20/27220.jpg"
+    },
+    {
+      "id": "tsumugi",
+      "title": "紡",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/18/27218.jpg"
+    },
+    {
+      "id": "chisa",
+      "title": "知紗",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/17/27217.jpg"
+    },
+    {
+      "id": "michiru",
+      "title": "みちる",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/15/27215.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://mono-iki.com/midori-guide/",
+      "title": "翠の海-midori no umi-攻略チャート【ゲーム完全攻略】",
+      "language": "ja",
+      "notes": "Set A; complete Japanese chart for the Cabbit Windows release (no patch: 修正パッチ：なし), covering all 16 endings with 13 numbered save points ①–⑬ and the recommended order 共通BAD→みちるNORMAL→真希奈→陸乃＆空音→沙羅→灰奈→紡→知紗→みちるTRUE. Directly fetched as HTML. Exact step, save, load and ending text (ED：Ⅰ–XVI labels) are quoted from this page. Note that the load text for save 10 uses ➉ (U+2789) rather than ⑩ in the source."
+    },
+    {
+      "set": "B",
+      "url": "http://sagaoz.net/foolmaker/game/m/midorinoumi.html",
+      "title": "翠の海 攻略 by 愚者の館（アーカイブ）",
+      "language": "ja",
+      "notes": "Set B; independent Japanese walkthrough by mon, checked against the unpatched Cabbit release (確認バージョン：修正なし, last updated 2011/11/07, CG・回想１００％). Organised as シナリオ１–４ unlock tiers with nine saves and all sixteen endings (ＥＮＤ１–１６). Directly fetched (Shift_JIS). Independently supports every route-defining choice, unlock tier and ending in the guide. Uses ◆ for choices that only appear after specific endings."
+    }
+  ],
+  "generated_at": "2026-10-27T21:15:00+00:00"
+}

@@ -3,7 +3,7 @@
     "simpleJp": "クズ鉄の町ショップの赤い髪の依頼人からお守りを受け取る",
     "jpGuide1": "ショップにいる赤い髪の依頼人に話す。",
     "jpGuide2": "依頼人はショップにいる",
-    "enGuide": "If you did not already collect it when accepting the job, speak to the red-haired requester in the Scrap Town shop and take the amulet."
+    "enGuide": "Optional completion block; not required for story progression. Continue from “ロマリア突入〜市街侵攻”. If you did not already collect it when accepting the job, speak to the red-haired requester in the Scrap Town shop and take the amulet."
   },
   {
     "simpleJp": "ロマリア市街の第3・第4防御壁の間にいる息子へお守りを渡す",
@@ -15,6 +15,6 @@
     "simpleJp": "城前広場へ入る前にロマリア市街の宝箱をすべて回収する",
     "jpGuide1": "「ガーネット」「デスロザリー」「タワーガード」「クレイジーフェイス」「ちからの実」「いい爆弾」「スタッフオブフォース」「ダークカード」「パロの実」「クラヴィスの本+4」「強力果物」",
     "jpGuide2": "城前広場での戦闘を終えるとロマリア市街地には二度と入れなくなる",
-    "enGuide": "This is the final city-loot window. Sweep the streets and underground route for the fixed chests—including Staff of Force and Dark Card—before entering the castle-front plaza, because the city becomes permanently inaccessible afterward."
+    "enGuide": "This is the final city-loot window. Sweep the streets and underground route for the fixed chests—including Staff of Force and Dark Card—before entering the castle-front plaza, because the city becomes permanently inaccessible afterward. Next: “ロマリア市街・地下道決着”."
   }
 ]

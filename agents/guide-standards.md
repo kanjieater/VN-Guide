@@ -39,13 +39,13 @@ Before research begins, resolve:
 
 Rules:
 
-- `games.json.guide_target` is the normal repository source of truth.
-- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to `games.json` before research so later agents see the same target.
+- For legacy titles, `games.json.guide_target` is the source of truth. For new or migrated titles, `<slug>/catalog.json.guide_target` is the source of truth. Never edit shared `games.json` for a new guide.
+- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to the title's `<slug>/catalog.json` before research so later agents see the same target.
 - If neither the repository nor caller supplies a target, default to the **newest official complete release that includes native Japanese in-game text**, using release-specific metadata such as VNDB releases rather than guessing from the broad work entry. This keeps `simpleJp` valid for the target while preferring the newest applicable edition/platform.
 - If the newest applicable Japanese release is ambiguous (for example multiple distinct releases on the same newest date, a multi-platform release that cannot be made platform-specific, or insufficient release metadata), stop and request an explicit target instead of choosing arbitrarily.
 - `label`, `platform`, and `url` are all required and non-empty.
-- The URL should identify the **specific intended release/edition**, not merely the broad work. When VNDB contains the exact target release, prefer its `https://vndb.org/r...` release page over the broader `v...` work page.
-- Once a default target is resolved, persist it to `games.json` before research exactly like a caller-supplied target.
+- The URL should identify the **specific intended release/edition**, not merely the broad work. **Prefer the exact VNDB `https://vndb.org/r...` release page whenever available; use another release-specific source only when VNDB cannot provide a suitable exact-target link.**
+- Once a default target is resolved, persist it to the title's `<slug>/catalog.json` before research exactly like a caller-supplied target.
 - Copy the exact target into `research.json.guide_target` and later into `guide.json.guide_target`.
 - Verify every Set A/B component applies to that exact target, or document version differences and why they do not affect the guide.
 - If the requested target cannot be verified or available walkthroughs apply to a materially different release, stop and document the blocker rather than silently switching targets.
@@ -80,7 +80,7 @@ Every game registration should have a cover image for the exact intended release
 - Do not use a different edition, limited edition, remake, port, or localization cover merely because it is easier to find.
 - A blank `cover_url` is permitted only after an actual lookup finds no suitable verifiable image; document that outcome in research notes so “unavailable” is distinguishable from “not checked”.
 - Cover-only corrections are display metadata and do not invalidate structural or accuracy route review.
-- Because `games.json.cover_url` is landing-visible metadata, synchronize the tracked root `index.html` whenever it changes.
+- For new or migrated titles, store the cover in `<slug>/catalog.json`; CI updates the landing page on `main`. Do not edit root `index.html` in a guide PR.
 
 ## Character portraits
 
@@ -136,6 +136,10 @@ For an opted-in non-VN walkthrough only, `simpleJp` is the short Japanese instru
 - A walkthrough instruction must be **executable**, not merely name an objective. `G#17を完了する`, `ダンジョンを攻略する`, or similar labels are insufficient when the source provides concrete actions.
 - For a multi-stage job/quest, either split the route into actionable steps or put a concise ordered procedure in `enGuide`. Include the practical start point, required NPC/object interaction, battle/puzzle condition, and completion/report-back action when the source documents them.
 - Guild/job titles are context labels, not walkthrough directions. Preserve the title if useful, but also tell the player **how to clear it**.
+- Preserve **player continuity** across every section boundary. The first actionable step after a route/section change must make the player's current location/state and immediate destination unambiguous; the final step or its `enGuide` must make the next destination/objective clear when the game does not force it automatically.
+- Do not make the player infer why an optional completion action exists. For a bounty, steal, unique pickup, recruit, or side job, `enGuide` must state whether it is optional, why the guide recommends doing it now, and any missable/first-encounter/lockout consequence that justifies the timing.
+- When a bounty has hidden state, distinguish **poster confirmation**, **spawn prerequisites**, and **turn-in/reporting**. Never tell the player merely to 'check posters' when the target does not require poster confirmation, and never omit a prerequisite kill/event that controls whether the target can appear.
+- Avoid gratuitous city/country bouncing. Within a safe timing window, order optional actions into an executable travel path unless the sources require a different order; when backtracking is necessary, explain the dependency that makes it necessary.
 - This exception does not relax normal VN `simpleJp` rules.
 
 ### Game-walkthrough source coverage
@@ -220,15 +224,15 @@ For each documented non-main ending detour:
 Direct/browser agents must assemble `guide.json` equivalently to the deterministic generator:
 
 - entries follow `research.json` / recommended order for every completed guide section;
-- each entry includes `id`, `title`, `stepCount`, and `reviewed`;
-- `stepCount` equals the actual length of `route_<id>.json`;
+- each entry includes `id`, `title`, and `reviewed`;
+- do not store a static step count in `guide.json`; route length is derived from the actual `route_<id>.json` array at runtime;
 - preserve an existing route's `reviewed` value when reassembling; new routes default to `false`;
 - require the verified portrait from current research whenever a verifiable route-character image exists; fall back to an existing verified portrait only when research has none, and permit an empty portrait only when research explicitly documents that no suitable verifiable image was found;
 - copy current research `sources` into `guide.json`;
 - copy `research.json.guide_target` into `guide.json.guide_target` unchanged;
 - keep `title` and `vndb_id` synchronized with the game/research record;
 - update `generated_at` only when the assembled guide content actually changes;
-- when every planned route is generated and the guide is made available, update `games.json.has_guide` and then synchronize tracked generated artifacts such as root `index.html`.
+- when every planned route is generated, maintain the title's `<slug>/catalog.json` for new/migrated guides; `has_guide` is derived from `reviewed` route flags and CI updates root `index.html` on `main` (legacy entries remain supported through `games.json`).
 
 Do not mark routes reviewed merely as part of assembly.
 
@@ -298,7 +302,7 @@ An automated runner may keep its existing transport/persistence mechanism. It mu
 
 ## Tracked generated-artifact consistency
 
-A change is not complete if a tracked generated file is left inconsistent with the source data that produces it.
+For derived files other than the CI-owned root/per-game HTML and manifests, a change is not complete if a tracked generated file is left inconsistent with its source. Guide PRs must not modify those CI-owned files; CI synchronizes them on `main`.
 
 Before finishing author work:
 
@@ -312,9 +316,9 @@ Do **not** modify local automated orchestration merely to make a browser or repo
 
 Known dependency in this repo:
 
-- `games.json` → root `index.html` via `tools/generate.mjs::renderLanding()` and `templates/landing.html`.
-- Therefore changes to landing-visible fields such as `slug`, `title`, `alttitle`, `cover_url`, or `has_guide` must also be reflected in the tracked root `index.html`.
-- A browser/repository agent that cannot run `bun run generate` must still update the affected landing data equivalently and verify it matches current `games.json`.
+- Root `index.html` is CI-owned: on `main`, its landing data is generated from legacy `games.json` and per-game `<slug>/catalog.json` (with `has_guide` derived from route review flags). Guide PRs do not edit the root index.
+- CI generates and commits root `index.html` and per-game `<slug>/index.html` and `<slug>/manifest.json` on `main`; guide PRs must not edit these generated outputs.
+- Shared bootstrap-template changes stay in infrastructure PRs; CI propagates those changes to game directories on `main`.
 
 This consistency check is separate from structural/accuracy review. It does not invalidate a route review when only a derived presentation artifact is synchronized to already-approved source data.
 

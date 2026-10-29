@@ -5,36 +5,31 @@
     {
       "id": "uzuki",
       "title": "千羽烏月ルート",
-      "stepCount": 48,
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/83/11683.jpg"
     },
     {
       "id": "tsuzura",
       "title": "若杉葛ルート",
-      "stepCount": 66,
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/09/12209.jpg"
     },
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
-      "stepCount": 59,
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/82/11682.jpg"
     },
     {
       "id": "yumei",
       "title": "ユメイルート",
-      "stepCount": 78,
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/10/12210.jpg"
     },
     {
       "id": "nozomi",
       "title": "ノゾミルート",
-      "stepCount": 18,
-      "reviewed": true,
+      "reviewed": false,
       "portrait": "https://t.vndb.org/ch/45/12245.jpg"
     }
   ],
@@ -134,10 +129,17 @@
       "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/akaiito-hd-remaster-hd-remaster",
       "title": "AKAIITO HD REMASTER 攻略",
       "language": "ja",
-      "notes": "Supplementary Japanese walkthrough, not counted as Set A or Set B. Used only to reconcile branch-state disputes: it corroborates the earlier no-chase requirement for Uzuki ED13, documents multiple valid Sakuya ED4 routes, and explicitly describes two alternative Sakuya ED22 paths (direct『見ているしかなかった』or『飛び出していた → 月は蝕まれる運命なんだ』). Its HD label is not treated as evidence that the underlying route system changed."
+      "notes": "Japanese Set B component for Tsuzura on AKAIITO HD REMASTER. Independently directly inspected: complete Day 1–3 ED11/ED12 path and ED11-first hidden-final-choice unlock; full alternative ED8 no-sweets/well-marker branch; full independent ED10 low-affinity alternative, ED7/ED9 and mirror ED11. Also supplementary for Uzuki ED13 and Sakuya ED4/22. The exact guide target is Nintendo Switch HD Remaster; no source documents route branching differences against the same HD Remaster release on PC.",
+      "set": "B"
+    },
+    {
+      "url": "https://toppoi.blog.fc2.com/blog-entry-38.html",
+      "title": "アカイイト レビュー・感想 (Toppoi)",
+      "language": "ja",
+      "notes": "Supplementary original-game first-run Tsuzura play notes, directly inspected 2026-10-11. Explicitly records no final choice on first clear ('一度目は選択肢が出ない') after the seal-strengthening choice. Not a substitute for the two complete Japanese Set A/B route guides."
     }
   ],
-  "generated_at": "2026-09-20T00:15:00.000Z",
+  "generated_at": "2026-10-11T17:30:37.587Z",
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",

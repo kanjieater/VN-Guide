@@ -3,7 +3,7 @@
     "simpleJp": "アジャール酒場でサニアを表示する",
     "jpGuide1": "酒場にいるロアンにサニアを表示して（R2で切り替え）話す。",
     "jpGuide2": "サニアにキャラ変更し、ロエンに話しイベント",
-    "enGuide": "In the Ajaar tavern, switch the displayed character to Sania with R2 and talk to Roan. This opens the Sea Oil Field lead; visit the field once, then return to Roan when directed."
+    "enGuide": "Story progression. Continue directly from “【任意】フォーレス→ブラキア→ニーデル期限付き回収”. In the Ajaar tavern, switch the displayed character to Sania with R2 and talk to Roan. This opens the Sea Oil Field lead; visit the field once, then return to Roan when directed."
   },
   {
     "simpleJp": "ニエンの森を抜ける",
@@ -19,15 +19,15 @@
   },
   {
     "simpleJp": "巨大列車のスイッチを調べる",
-    "jpGuide1": "最深部にいる敵を倒せばクリア。",
-    "jpGuide2": "巨大列車攻略",
+    "jpGuide1": "マップ内に見える赤い線はセンサーで、触れると部屋の入り口に戻されたり、戦闘になったりする。あちこちにあるスイッチで消したり、向きを変えたりできる。",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Use the train's switches to redirect or disable the red sensor routes, advance car by car, and defeat the enemy group at the deepest section."
   },
   {
     "simpleJp": "アジャールでロアンに話す",
     "jpGuide1": "ロアンに話すとイベント。",
     "jpGuide2": "もう一度ロエンに話し",
-    "enGuide": "Return to Ajaar and talk to Roan again to advance the plot. Before going back to the Sea Oil Field, make sure Shu is equipped for the timed escape and Fate steal."
+    "enGuide": "Return to Ajaar and talk to Roan again. Before re-entering the Sea Oil Field, decide the Balzac/Grovis reward choice: this guide is on the Fate path, so Balzac must not have been encountered. Equip Shu now because the escape party is chosen before the timed sequence."
   },
   {
     "simpleJp": "海底油田でヤグンを倒す",
@@ -37,20 +37,20 @@
   },
   {
     "simpleJp": "脱出メンバーにシュウを入れる",
-    "jpGuide1": "グロヴィス　盗：フェイト",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "脱出メンバーにシュウを入れていないと盗めない",
-    "enGuide": "Put Shu in the escape party so the unique Fate steal is possible."
+    "enGuide": "Optional unique-item route; not required for story completion. Put Shu in the escape party only if you are choosing Fate over Balzac's Claymore. The two rewards cannot both be obtained on a normal run."
   },
   {
     "simpleJp": "脱出中の寄り道部屋でグロヴィスから「フェイト」を盗んで討伐する",
     "jpGuide1": "グロヴィス　盗：フェイト",
     "jpGuide2": "バルザックを先に倒しているとフェイトは入手不可",
-    "enGuide": "During the escape timer, detour into the room that was previously blocked. Move Shu adjacent, steal Fate from Grovis, then defeat him before continuing toward the submarine."
+    "enGuide": "During the timed escape, take the otherwise blocked side room. This guide chooses Fate: move Shu adjacent, steal Fate from Grovis on this encounter, then defeat him. Encountering Grovis first makes Balzac's Claymore unavailable, so this is an irreversible item-choice step rather than a mandatory story requirement."
   },
   {
     "simpleJp": "寄り道部屋の宝箱を回収する",
-    "jpGuide1": "脱出するとミルマーナはクリア。海底油田は消滅する。",
-    "jpGuide2": "海底油田脱出",
-    "enGuide": "Grab the timing-sensitive treasure in the detour room, then stop exploring and return to the submarine before the timer expires. The Sea Oil Field disappears after escape."
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "登場部屋にはシャインファングの宝箱などもある",
+    "enGuide": "Grab the timing-sensitive treasure in the detour room, then stop exploring and return to the submarine before the timer expires. The Sea Oil Field disappears after escape. Next: “【任意】ミルマーナ後：仕事・海底油田手配”."
   }
 ]

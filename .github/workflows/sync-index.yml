@@ -21,6 +21,7 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
+          token: ${{ secrets.INDEX_SYNC_TOKEN }}
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: "1.4.2"
@@ -40,7 +41,7 @@ jobs:
               exit 0
             fi
             git add -- index.html
-            git commit -m "chore: sync generated landing index [skip ci]"
+            git commit -m "chore: sync generated landing index"
             if git push origin HEAD:main; then
               echo "Published updated index"
               exit 0

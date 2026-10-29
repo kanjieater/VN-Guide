@@ -1,0 +1,230 @@
+[
+  {
+    "simpleJp": "最初からはじめる",
+    "jpGuide1": "タイトル画面から「最初からはじめる」を選択",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "セーブポイント①作成",
+    "jpGuide2": "【セーブ１】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "こんな事実はおかしい。追求する。",
+    "jpGuide1": "こんな事実はおかしい。追求する。",
+    "jpGuide2": "こんな事実はおかしい。追求する。",
+    "enGuide": "",
+    "badEndPath": "ED：Ⅱ 生かされ"
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "セーブポイント②作成",
+    "jpGuide2": "【セーブ２】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もっと近くに寄る",
+    "jpGuide1": "もっと近くに寄る",
+    "jpGuide2": "もっと近くに寄る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ED：Ⅱ 生かされ",
+    "jpGuide1": "ED：Ⅱ 生かされ",
+    "jpGuide2": "ＥＮＤ２：生かされ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "セーブポイント②から",
+    "jpGuide2": "セーブ２から",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "一旦引いてみる",
+    "jpGuide1": "一旦引いてみる",
+    "jpGuide2": "一旦引いてみる",
+    "enGuide": "",
+    "badEndPath": "ED：Ⅳ 逃走"
+  },
+  {
+    "simpleJp": "ED：Ⅳ 逃走",
+    "jpGuide1": "ED：Ⅳ 逃走",
+    "jpGuide2": "ＥＮＤ４：逃走",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "セーブポイント①から",
+    "jpGuide2": "セーブ１から",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "命が大事だ。今は受け入れる。",
+    "jpGuide1": "命が大事だ。今は受け入れる。",
+    "jpGuide2": "命が大事だ。今は受け入れる。",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "セーブポイント③作成",
+    "jpGuide2": "【セーブ３】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "拓真を探す",
+    "jpGuide1": "拓真を探す",
+    "jpGuide2": "拓真を探す",
+    "enGuide": "",
+    "badEndPath": "ED：Ⅲ 殺人者"
+  },
+  {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "セーブポイント④作成",
+    "jpGuide2": "【セーブ６】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "灰奈と会話をする",
+    "jpGuide1": "灰奈と会話をする",
+    "jpGuide2": "灰奈と会話をする",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "セーブポイント⑤作成",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気のせいだ……、落ち着け……",
+    "jpGuide1": "気のせいだ……、落ち着け……",
+    "jpGuide2": "◆気のせいだ……、落ち着け……",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ED：Ⅲ 殺人者",
+    "jpGuide1": "ED：Ⅲ 殺人者",
+    "jpGuide2": "ＥＮＤ３：殺人者",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5にロード",
+    "jpGuide1": "セーブポイント⑤から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "気のせいじゃない……。俺も……",
+    "jpGuide1": "気のせいじゃない……。俺も……",
+    "jpGuide2": "気のせいじゃない……。俺も……",
+    "enGuide": "",
+    "badEndPath": "ED：Ⅴ 狂気の中で"
+  },
+  {
+    "simpleJp": "ED：Ⅴ 狂気の中で",
+    "jpGuide1": "ED：Ⅴ 狂気の中で",
+    "jpGuide2": "ＥＮＤ５：狂気の中で",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "セーブポイント③から",
+    "jpGuide2": "セーブ３から",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "拓真を探さない",
+    "jpGuide1": "拓真を探さない",
+    "jpGuide2": "拓真を探さない",
+    "enGuide": "Chapter 4 has a ★ choice (「平気」だと言って灰奈を安心させる) that only appears after Tsumugi's ending; it does not appear on this run, so no action is needed."
+  },
+  {
+    "simpleJp": "セーブ6",
+    "jpGuide1": "セーブポイント⑥作成",
+    "jpGuide2": "【セーブ４】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "みちるの言うことを受け入れる",
+    "jpGuide1": "みちるの言うことを受け入れる",
+    "jpGuide2": "みちるの言うことを受け入れる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7",
+    "jpGuide1": "セーブポイント⑦作成",
+    "jpGuide2": "【セーブ５】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "知紗を手伝う",
+    "jpGuide1": "知紗を手伝う",
+    "jpGuide2": "知紗を手伝う",
+    "enGuide": "",
+    "badEndPath": "ED：Ⅺ 赤い塔"
+  },
+  {
+    "simpleJp": "ED：Ⅺ 赤い塔",
+    "jpGuide1": "ED：Ⅺ 赤い塔",
+    "jpGuide2": "ＥＮＤ１１：赤い塔",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7にロード",
+    "jpGuide1": "セーブポイント⑦から",
+    "jpGuide2": "セーブ５から",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "みちるを手伝う",
+    "jpGuide1": "みちるを手伝う",
+    "jpGuide2": "みちるを手伝う",
+    "enGuide": "",
+    "badEndPath": "ED：Ⅹ 永遠の楽園"
+  },
+  {
+    "simpleJp": "ED：Ⅹ 永遠の楽園",
+    "jpGuide1": "ED：Ⅹ 永遠の楽園",
+    "jpGuide2": "ＥＮＤ１０：永遠の楽園",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ7にロード",
+    "jpGuide1": "セーブポイント⑦から",
+    "jpGuide2": "セーブ５から",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "他に出来ることを探す",
+    "jpGuide1": "他に出来ることを探す",
+    "jpGuide2": "他に出来ることを探す",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ8",
+    "jpGuide1": "セーブポイント⑧作成",
+    "jpGuide2": "【セーブ８】",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "知紗と勉強する",
+    "jpGuide1": "知紗と勉強する",
+    "jpGuide2": "◆知紗と勉強する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ED：XIV 必要な人間",
+    "jpGuide1": "ED：XIV 必要な人間",
+    "jpGuide2": "ＥＮＤ１４：必要な人間",
+    "enGuide": ""
+  }
+]

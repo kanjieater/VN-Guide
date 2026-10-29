@@ -32,7 +32,7 @@ This synchronizes the landing page and per-game bootstrap/manifest files from th
 
 To register a new title, create `<slug>/catalog.json` with `vndb_id`, `title`, `alttitle`, `cover_url`, `added_at`, and `guide_target` (the latter three as applicable), alongside `guide.json`, `research.json`, and routes; CI generates its HTML and manifest. The directory name is the slug. `has_guide` is derived from all routes having `reviewed: true`; do not set it manually. Existing `games.json` entries remain supported and can be migrated one title at a time.
 
-To ensure the bot's index commit triggers the existing branch-based GitHub Pages build, configure the repository Actions secret `INDEX_SYNC_TOKEN` with a fine-grained token permitted to write repository contents. The default `GITHUB_TOKEN` does not trigger a Pages build on its own commit. No Pages publishing-source change is needed.
+The post-merge workflow uses the built-in `GITHUB_TOKEN` to commit generated files and explicitly request a Pages rebuild through GitHub's API (`contents: write` and `pages: write`). Workflow-generated commits do not trigger branch-based Pages builds by themselves. No personal token, repository secret, or Pages publishing-source change is needed; verify the first post-merge rebuild succeeds.
 
 Research, guide authoring, corrections, and reviews are agent work, not generator-script work.
 

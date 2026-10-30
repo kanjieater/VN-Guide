@@ -1,0 +1,248 @@
+[
+  {
+    "simpleJp": "セーブ8にロード",
+    "jpGuide1": "★桐島・十夜 共通SAVE",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "兄さん",
+    "jpGuide1": "兄さん",
+    "jpGuide2": "兄さん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "千代",
+    "jpGuide1": "千代",
+    "jpGuide2": "千代",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "頼まない",
+    "jpGuide1": "頼まない",
+    "jpGuide2": "頼まない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "反論しない",
+    "jpGuide1": "反論しない",
+    "jpGuide2": "反論しない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "拒否する",
+    "jpGuide1": "拒否する",
+    "jpGuide2": "拒否する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自ら教える",
+    "jpGuide1": "自ら教える",
+    "jpGuide2": "自ら教える",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "もう一度訊ねる",
+    "jpGuide1": "もう一度訊ねる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "兄さんが好きだから",
+    "jpGuide1": "兄さんが好きだから",
+    "jpGuide2": "兄さんが好きだから",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "喜んで",
+    "jpGuide1": "喜んで",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "礼を言う",
+    "jpGuide1": "礼を言う",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "好き",
+    "jpGuide1": "好き",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "笑う",
+    "jpGuide1": "笑う",
+    "jpGuide2": "笑う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "外に出かけない",
+    "jpGuide1": "外に出かけない",
+    "jpGuide2": "外に出かけない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "好きな人の傍にいられること",
+    "jpGuide1": "好きな人の傍にいられること",
+    "jpGuide2": "好きな人の傍にいられること",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ11",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "SAVE4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "口を噤む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "口を噤む",
+    "enGuide": "",
+    "badEndPath": "六章-終",
+    "badEnd": "六章-終"
+  },
+  {
+    "simpleJp": "蒼の名前を呼ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "蒼の名前を呼ぶ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "新聞配達",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "新聞配達",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "コンビニ店員",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "コンビニ店員",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ウェイター",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ウェイター",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "諦める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "諦める(表示されなければ無視して構いません)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "六章-終",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "〖六章-終〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ11にロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "SAVE4より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "兄を愛している",
+    "jpGuide1": "兄を愛している",
+    "jpGuide2": "兄を愛している",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "兄を見上げる",
+    "jpGuide1": "兄を見上げる。",
+    "jpGuide2": "兄を見上げる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ウェイター",
+    "jpGuide1": "ウェイター",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "家庭教師",
+    "jpGuide1": "家庭教師",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "猫さん",
+    "jpGuide1": "猫さん",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12",
+    "jpGuide1": "★SAVE３",
+    "jpGuide2": "SAVE5",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "受け入れる",
+    "jpGuide1": "受け入れる",
+    "jpGuide2": "受け入れる",
+    "enGuide": "",
+    "badEndPath": "黒の章-終",
+    "badEnd": "黒の章-終"
+  },
+  {
+    "simpleJp": "黒の章-終",
+    "jpGuide1": "黒の章-終",
+    "jpGuide2": "〖黒の章-終〗",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ12にロード",
+    "jpGuide1": "▼SAVE３から",
+    "jpGuide2": "SAVE5より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "拒絶する",
+    "jpGuide1": "拒絶する",
+    "jpGuide2": "拒絶する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "十夜エンド",
+    "jpGuide1": "黒の章-結末",
+    "jpGuide2": "〖十夜エンド〗",
+    "enGuide": ""
+  }
+]

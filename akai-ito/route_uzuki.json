@@ -1,25 +1,25 @@
 [
   {
     "simpleJp": "駅員さんに聞きたいことが",
-    "jpGuide1": "【駅員さんに聞きたいことが】",
+    "jpGuide1": "〖駅員さんに聞きたいことが〗",
     "jpGuide2": "駅員さんに聞きたいことが",
     "enGuide": ""
   },
   {
     "simpleJp": "旅館を紹介してもらうことにした",
-    "jpGuide1": "【旅館を紹介してもらうことにした】",
+    "jpGuide1": "〖旅館を紹介してもらうことにした〗",
     "jpGuide2": "旅館を紹介してもらうことにした",
     "enGuide": ""
   },
   {
     "simpleJp": "勇気を出して自分でフォロー",
-    "jpGuide1": "【勇気を出して自分でフォロー】",
+    "jpGuide1": "〖勇気を出して自分でフォロー〗",
     "jpGuide2": "勇気を出して自分でフォロー",
     "enGuide": ""
   },
   {
     "simpleJp": "ウヅキってどんな字？",
-    "jpGuide1": "【ウヅキってどんな字？】",
+    "jpGuide1": "〖ウヅキってどんな字？〗",
     "jpGuide2": "ウヅキってどんな字？",
     "enGuide": ""
   },
@@ -31,13 +31,13 @@
   },
   {
     "simpleJp": "確かめてみる",
-    "jpGuide1": "【確かめてみる】",
+    "jpGuide1": "〖確かめてみる〗",
     "jpGuide2": "確かめてみる",
     "enGuide": ""
   },
   {
     "simpleJp": "会ったことを話してみる",
-    "jpGuide1": "【会ったことを話してみる】",
+    "jpGuide1": "〖会ったことを話してみる〗",
     "jpGuide2": "会ったことを話してみる",
     "enGuide": ""
   },
@@ -50,13 +50,13 @@
   },
   {
     "simpleJp": "納得できない",
-    "jpGuide1": "【納得できない】",
+    "jpGuide1": "〖納得できない〗",
     "jpGuide2": "納得できない",
     "enGuide": ""
   },
   {
     "simpleJp": "別に",
-    "jpGuide1": "〖別に……〗",
+    "jpGuide1": "「別に」",
     "jpGuide2": "別に(No.13へ)",
     "enGuide": ""
   },
@@ -64,29 +64,29 @@
     "simpleJp": "Bad End『赤い縛め』（ED13）",
     "jpGuide1": "Bad End『赤い縛め』（ED13）",
     "jpGuide2": "No.13 赤い縛め",
-    "enGuide": ""
+    "enGuide": "After ED13, return to the title screen and begin a fresh New Game. Do not continue from this ending or load a checkpoint: no usable pre-ED13 save is documented. Follow the repeated opening choices below for the main Uzuki run."
   },
   {
     "simpleJp": "駅員さんに聞きたいことが",
-    "jpGuide1": "【駅員さんに聞きたいことが】",
+    "jpGuide1": "〖駅員さんに聞きたいことが〗",
     "jpGuide2": "駅員さんに聞きたいことが",
     "enGuide": ""
   },
   {
     "simpleJp": "旅館を紹介してもらうことにした",
-    "jpGuide1": "【旅館を紹介してもらうことにした】",
+    "jpGuide1": "〖旅館を紹介してもらうことにした〗",
     "jpGuide2": "旅館を紹介してもらうことにした",
     "enGuide": ""
   },
   {
     "simpleJp": "勇気を出して自分でフォロー",
-    "jpGuide1": "【勇気を出して自分でフォロー】",
+    "jpGuide1": "〖勇気を出して自分でフォロー〗",
     "jpGuide2": "勇気を出して自分でフォロー",
     "enGuide": ""
   },
   {
     "simpleJp": "ウヅキってどんな字？",
-    "jpGuide1": "【ウヅキってどんな字？】",
+    "jpGuide1": "〖ウヅキってどんな字？〗",
     "jpGuide2": "ウヅキってどんな字？",
     "enGuide": ""
   },
@@ -98,19 +98,19 @@
   },
   {
     "simpleJp": "確かめてみる",
-    "jpGuide1": "【確かめてみる】",
+    "jpGuide1": "〖確かめてみる〗",
     "jpGuide2": "確かめてみる",
     "enGuide": ""
   },
   {
     "simpleJp": "会ったことを話してみる",
-    "jpGuide1": "【会ったことを話してみる】",
+    "jpGuide1": "〖会ったことを話してみる〗",
     "jpGuide2": "会ったことを話してみる",
     "enGuide": ""
   },
   {
     "simpleJp": "追いかける",
-    "jpGuide1": "【追いかける】",
+    "jpGuide1": "〖追いかける〗",
     "jpGuide2": "追いかける",
     "enGuide": ""
   },
@@ -122,7 +122,7 @@
   },
   {
     "simpleJp": "帰る",
-    "jpGuide1": "【帰る】 → Normal End『挫北・夏の終わり』（ED3）",
+    "jpGuide1": "→〖帰る〗でNormal End『挫北・夏の終わり』（ED3）",
     "jpGuide2": "帰る(No.3へ)",
     "enGuide": "",
     "badEndPath": "Normal End『挫北・夏の終わり』（ED3）"
@@ -142,7 +142,7 @@
   },
   {
     "simpleJp": "納得できない",
-    "jpGuide1": "【納得できない】",
+    "jpGuide1": "〖納得できない〗",
     "jpGuide2": "納得できない",
     "enGuide": ""
   },
@@ -154,13 +154,13 @@
   },
   {
     "simpleJp": "烏月が気になる",
-    "jpGuide1": "【烏月が気になる】",
+    "jpGuide1": "〖烏月が気になる〗",
     "jpGuide2": "烏月が気になる",
     "enGuide": ""
   },
   {
     "simpleJp": "追いかける",
-    "jpGuide1": "【追いかける】",
+    "jpGuide1": "〖追いかける〗",
     "jpGuide2": "追いかける",
     "enGuide": ""
   },
@@ -210,13 +210,13 @@
   },
   {
     "simpleJp": "陽子ちゃんに電話しよう",
-    "jpGuide1": "【陽子ちゃんに電話しよう】",
+    "jpGuide1": "〖陽子ちゃんに電話しよう〗",
     "jpGuide2": "陽子ちゃんに電話しよう",
     "enGuide": ""
   },
   {
     "simpleJp": "提案取り下げ",
-    "jpGuide1": "【提案取り下げ】",
+    "jpGuide1": "〖提案取り下げ〗",
     "jpGuide2": "提案取り下げ",
     "enGuide": ""
   },
@@ -228,7 +228,7 @@
   },
   {
     "simpleJp": "一面の赤―赤い世界―",
-    "jpGuide1": "【一面の赤―赤い世界―】 → Bad End『血海』（ED29）",
+    "jpGuide1": "→〖一面の赤―赤い世界―〗でBad End『血海』（ED29）",
     "jpGuide2": "一面の赤ー赤い世界ー(No.29へ)",
     "enGuide": "",
     "badEndPath": "Bad End『血海』（ED29）"
@@ -248,7 +248,7 @@
   },
   {
     "simpleJp": "世界が白く―あの花の白に―",
-    "jpGuide1": "【世界が白く―あの花の白に―】",
+    "jpGuide1": "〖世界が白く―あの花の白に―〗",
     "jpGuide2": "世界が白くーあの花の白に",
     "enGuide": ""
   },
@@ -260,14 +260,14 @@
   },
   {
     "simpleJp": "ケイくんの邪魔をした",
-    "jpGuide1": "【ケイくんの邪魔をした】",
+    "jpGuide1": "〖ケイくんの邪魔をした〗",
     "jpGuide2": "ケイくんの邪魔をした(No.31へ)",
     "enGuide": "",
     "badEndPath": "Bad End『赤い維斗』（ED31）"
   },
   {
     "simpleJp": "烏月を守る",
-    "jpGuide1": "【烏月を守る】 → Bad End『赤い維斗』（ED31）",
+    "jpGuide1": "〖烏月を守る〗",
     "jpGuide2": "烏月を守る",
     "enGuide": ""
   },
@@ -286,7 +286,7 @@
   },
   {
     "simpleJp": "信じると約束した",
-    "jpGuide1": "【信じると約束した】",
+    "jpGuide1": "〖信じると約束した〗",
     "jpGuide2": "信じると約束した",
     "enGuide": ""
   },
@@ -298,7 +298,7 @@
   },
   {
     "simpleJp": "逃げる",
-    "jpGuide1": "【逃げる】 → Normal End『途切れた糸・夏の終わりまで』（ED30）",
+    "jpGuide1": "→〖逃げる〗でNormal End『途切れた糸・夏の終わりまで』（ED30）",
     "jpGuide2": "逃げる(No.30へ)",
     "enGuide": "",
     "badEndPath": "Normal End『途切れた糸・夏の終わりまで』（ED30）"
@@ -318,13 +318,13 @@
   },
   {
     "simpleJp": "烏月を守る",
-    "jpGuide1": "【烏月を守る】",
+    "jpGuide1": "〖烏月を守る〗",
     "jpGuide2": "烏月を守る",
     "enGuide": ""
   },
   {
     "simpleJp": "True End『爽やかな立ち風』（ED32）",
-    "jpGuide1": "True End『爽やかな立ち風』（ED32）",
+    "jpGuide1": "True End\n『爽やかな立ち風』\n（ED32）",
     "jpGuide2": "No.32 爽やかな立ち風",
     "enGuide": ""
   }

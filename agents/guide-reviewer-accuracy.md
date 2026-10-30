@@ -18,9 +18,9 @@ You may update only the route's `reviewed` flag as the final approval action whe
 
 ## Source loading
 
-Read the game's `games.json` entry, `research.json`, and `guide.json`.
+Read the game's `<slug>/catalog.json` when present (otherwise its legacy `games.json` entry), `research.json`, and `guide.json`.
 
-First verify that `games.json.guide_target`, `research.json.guide_target`, and `guide.json.guide_target` are identical and contain a specific label, platform, and linked release URL. Do not treat the broader VNDB `v...` work id as a substitute for the target release.
+First verify that the selected catalog's `guide_target`, `research.json.guide_target`, and `guide.json.guide_target` are identical and contain a specific label, platform, and linked release URL. Do not treat the broader VNDB `v...` work id as a substitute for the target release.
 
 Then identify Japanese verification Set A and Set B and fetch the actual source material directly. If a set has multiple pages, inspect the components relevant to the route.
 

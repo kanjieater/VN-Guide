@@ -1,6 +1,7 @@
 import { existsSync } from "node:fs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
+import { loadCatalog } from "./catalog.mjs";
 
 export const REPO_ROOT = resolve(import.meta.dir, "..");
 
@@ -35,12 +36,11 @@ export function buildManifest(title) {
 }
 
 export async function expectedGeneratedFiles(root = REPO_ROOT) {
-  const [gamesText, landingTemplate, guideTemplate] = await Promise.all([
-    readFile(join(root, "games.json"), "utf8"),
+  const [games, landingTemplate, guideTemplate] = await Promise.all([
+    loadCatalog(root),
     readFile(join(root, "templates", "landing.html"), "utf8"),
     readFile(join(root, "templates", "guide.html"), "utf8"),
   ]);
-  const games = JSON.parse(gamesText);
   const expected = new Map([["index.html", renderLanding(landingTemplate, games)]]);
 
   for (const entry of Object.values(games)) {

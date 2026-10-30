@@ -39,13 +39,13 @@ Before research begins, resolve:
 
 Rules:
 
-- `games.json.guide_target` is the normal repository source of truth.
-- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to `games.json` before research so later agents see the same target.
+- For legacy titles, `games.json.guide_target` is the source of truth. For new or migrated titles, `<slug>/catalog.json.guide_target` is the source of truth. Never edit shared `games.json` for a new guide.
+- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to the title's `<slug>/catalog.json` before research so later agents see the same target.
 - If neither the repository nor caller supplies a target, default to the **newest official complete release that includes native Japanese in-game text**, using release-specific metadata such as VNDB releases rather than guessing from the broad work entry. This keeps `simpleJp` valid for the target while preferring the newest applicable edition/platform.
 - If the newest applicable Japanese release is ambiguous (for example multiple distinct releases on the same newest date, a multi-platform release that cannot be made platform-specific, or insufficient release metadata), stop and request an explicit target instead of choosing arbitrarily.
 - `label`, `platform`, and `url` are all required and non-empty.
 - The URL should identify the **specific intended release/edition**, not merely the broad work. **Prefer the exact VNDB `https://vndb.org/r...` release page whenever available; use another release-specific source only when VNDB cannot provide a suitable exact-target link.**
-- Once a default target is resolved, persist it to `games.json` before research exactly like a caller-supplied target.
+- Once a default target is resolved, persist it to the title's `<slug>/catalog.json` before research exactly like a caller-supplied target.
 - Copy the exact target into `research.json.guide_target` and later into `guide.json.guide_target`.
 - Verify every Set A/B component applies to that exact target, or document version differences and why they do not affect the guide.
 - If the requested target cannot be verified or available walkthroughs apply to a materially different release, stop and document the blocker rather than silently switching targets.
@@ -80,7 +80,7 @@ Every game registration should have a cover image for the exact intended release
 - Do not use a different edition, limited edition, remake, port, or localization cover merely because it is easier to find.
 - A blank `cover_url` is permitted only after an actual lookup finds no suitable verifiable image; document that outcome in research notes so “unavailable” is distinguishable from “not checked”.
 - Cover-only corrections are display metadata and do not invalidate structural or accuracy route review.
-- Because `games.json.cover_url` is landing-visible metadata, synchronize the tracked root `index.html` whenever it changes.
+- For new or migrated titles, store the cover in `<slug>/catalog.json`; CI updates the landing page on `main`. Do not edit root `index.html` in a guide PR.
 
 ## Character portraits
 
@@ -232,7 +232,7 @@ Direct/browser agents must assemble `guide.json` equivalently to the determinist
 - copy `research.json.guide_target` into `guide.json.guide_target` unchanged;
 - keep `title` and `vndb_id` synchronized with the game/research record;
 - update `generated_at` only when the assembled guide content actually changes;
-- when every planned route is generated and the guide is made available, update `games.json.has_guide` and then synchronize tracked generated artifacts such as root `index.html`.
+- when every planned route is generated, maintain the title's `<slug>/catalog.json` for new/migrated guides; `has_guide` is derived from `reviewed` route flags and CI updates root `index.html` on `main` (legacy entries remain supported through `games.json`).
 
 Do not mark routes reviewed merely as part of assembly.
 
@@ -302,7 +302,7 @@ An automated runner may keep its existing transport/persistence mechanism. It mu
 
 ## Tracked generated-artifact consistency
 
-A change is not complete if a tracked generated file is left inconsistent with the source data that produces it.
+For derived files other than the CI-owned root/per-game HTML and manifests, a change is not complete if a tracked generated file is left inconsistent with its source. Guide PRs must not modify those CI-owned files; CI synchronizes them on `main`.
 
 Before finishing author work:
 
@@ -316,9 +316,9 @@ Do **not** modify local automated orchestration merely to make a browser or repo
 
 Known dependency in this repo:
 
-- `games.json` → root `index.html` via `tools/generate.mjs::renderLanding()` and `templates/landing.html`.
-- Therefore changes to landing-visible fields such as `slug`, `title`, `alttitle`, `cover_url`, or `has_guide` must also be reflected in the tracked root `index.html`.
-- A browser/repository agent that cannot run `bun run generate` must still update the affected landing data equivalently and verify it matches current `games.json`.
+- Root `index.html` is CI-owned: on `main`, its landing data is generated from legacy `games.json` and per-game `<slug>/catalog.json` (with `has_guide` derived from route review flags). Guide PRs do not edit the root index.
+- CI generates and commits root `index.html` and per-game `<slug>/index.html` and `<slug>/manifest.json` on `main`; guide PRs must not edit these generated outputs.
+- Shared bootstrap-template changes stay in infrastructure PRs; CI propagates those changes to game directories on `main`.
 
 This consistency check is separate from structural/accuracy review. It does not invalidate a route review when only a derived presentation artifact is synchronized to already-approved source data.
 

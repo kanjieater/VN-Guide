@@ -3,14 +3,6 @@
   "vndb_id": "v8203",
   "routes": [
     {
-      "id": "liberta",
-      "title": "リベルタルート",
-      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
-      "prerequisites": [],
-      "is_true_ending": false,
-      "notes": "Libertà (リベルタ). Available from the very first playthrough, no unlock conditions. Recommended as the 5th route (last of the 5 always-open routes) by manga-daisuki.net's suggested order."
-    },
-    {
       "id": "parche",
       "title": "パーチェルート",
       "portrait": "https://t.vndb.org/ch/89/9089.jpg",
@@ -43,33 +35,32 @@
       "notes": "Nova (ノヴァ), Holy Chalice department executive. Available from the very first playthrough, no unlock conditions. Recommended as the 4th route by manga-daisuki.net's suggested order."
     },
     {
+      "id": "liberta",
+      "title": "リベルタルート",
+      "portrait": "https://t.vndb.org/ch/85/9085.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Libertà (リベルタ). Available from the very first playthrough, no unlock conditions. Recommended as the 5th route (last of the 5 always-open routes) by manga-daisuki.net's suggested order."
+    },
+    {
       "id": "jolly",
       "title": "ジョーリィルート",
       "portrait": "https://t.vndb.org/ch/93/9093.jpg",
       "prerequisites": [
-        "parche",
-        "debito",
-        "luca",
-        "nova",
-        "liberta"
+        "初期5人のうち誰か1人のルートをクリアし、2周目以降に進む"
       ],
       "is_true_ending": false,
-      "notes": "Jolly / Jolie (ジョーリィ). LOCKED: the ruRi hatenablog full walkthrough explicitly states this route is 「２周目以降ルート解放」(unlocks from the 2nd playthrough onward), i.e. it cannot be selected on a fresh save and only appears as a selectable option after at least one full playthrough has been completed. A separate review blog (momokan.chu.jp, via search snippet) independently states 「ジョーリィは最後がオススメです」(Jolly is recommended last) and describes him as the 'final boss' (ラスボス) of the character select screen. Placed here as the 6th route, immediately before Dante, since Dante's special endings additionally require Jolly's route to already be cleared (see Dante notes)."
+      "notes": "Jolly ordinary route unlocks on the second playthrough after any one completed run. Parche is only the first recommended route, not a required character clear. Jolly is placed before Dante to support later special-ending collection."
     },
     {
       "id": "dante",
       "title": "ダンテルート",
       "portrait": "https://t.vndb.org/ch/92/9092.jpg",
       "prerequisites": [
-        "parche",
-        "debito",
-        "luca",
-        "nova",
-        "liberta",
-        "jolly"
+        "初期5人のうち誰か1人のルートをクリアし、2周目以降に進む"
       ],
       "is_true_ending": true,
-      "notes": "Dante (ダンテ), chief of the Intelligence division. LOCKED: both full walkthroughs (choro-game.com and ruRi hatenablog) explicitly state 「２周目以降ルート解放」(unlocks from the 2nd playthrough onward). Additionally, both sources state that this route's three main endings — 【ファミリアED】(Famiglia End, also called 第１０のカード『ルオータ・デラ・フォルトゥナ』/ 'Wheel of Fortune' the 10th card), 【ノーマルED】(Normal End), and 【敗北ED】(Defeat End) — are gated: 「全員を攻略後ED回収が可能になります」(these can only be obtained after clearing everyone/all other characters). The Famiglia End is treated as the game's true/best ending and is only reachable once all 6 other character routes (Liberta, Nova, Debito, Parche, Luca, Jolly) have been cleared, making Dante the mandatory final route despite one lower-confidence review blog (manga-daisuki.net) suggesting Dante before Jolly. Marked is_true_ending because the Famiglia ED / Wheel of Fortune ending is gated behind clearing every other route, matching the 'true end' pattern (see disagreements)."
+      "notes": "Dante ordinary route unlocks on the second playthrough after any one completed run; all six character clears are not needed for Dante ED1/ED2/ED3. The distinct Famiglia, Normal, and Defeat special endings unlock only after clearing all other characters. Dante is recommended last for this ending-collection condition, not as a route-entry lock."
     }
   ],
   "recommended_order": [
@@ -86,13 +77,15 @@
       "url": "https://choro-game.com/e/arcana-guide",
       "title": "アルカナ・ファミリア -La storia della Arcana Famiglia- Ancora 攻略 (choro / 乙女ゲーム攻略ブログ)",
       "language": "ja",
-      "notes": "Complete guide hub for the PS Vita 'Ancora' port (same VNDB entry v8203 as Rinato), linking to full individual choice-by-choice walkthroughs for all 7 routes: Liberta (blog-entry-1309.html), Nova (blog-entry-1367.html), Debito (blog-entry-1311.html), Parche (blog-entry-1368.html), Luca (blog-entry-1284.html), Dante (blog-entry-1364.html), Jolly (blog-entry-1334.html). Each page contains dated (4/1–6/1) choice text, SAVE1/SAVE2/SAVE3 markers, デュエロ (duel) success/fail outcomes (△/□/×), and ED1/ED2/ED3 ending labels. Confirms Dante's route restriction ('２周目以降ルート解放') and that his 3 special endings (ファミリアED/ノーマルED/敗北ED) require all other 6 characters cleared first ('全員を攻略後ED回収が可能'). Primary source for full choice-tree content and Dante/Jolly lock confirmation."
+      "notes": "Complete guide hub for the PS Vita 'Ancora' port (same VNDB entry v8203 as Rinato), linking to full individual choice-by-choice walkthroughs for all 7 routes: Liberta (blog-entry-1309.html), Nova (blog-entry-1367.html), Debito (blog-entry-1311.html), Parche (blog-entry-1368.html), Luca (blog-entry-1284.html), Dante (blog-entry-1364.html), Jolly (blog-entry-1334.html). Each page contains dated (4/1–6/1) choice text, SAVE1/SAVE2/SAVE3 markers, デュエロ (duel) success/fail outcomes (△/□/×), and ED1/ED2/ED3 ending labels. Confirms Dante's route restriction ('２周目以降ルート解放') and that his 3 special endings (ファミリアED/ノーマルED/敗北ED) require all other 6 characters cleared first ('全員を攻略後ED回収が可能'). Primary source for full choice-tree content and Dante/Jolly lock confirmation.",
+      "set": "A"
     },
     {
-      "url": "https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223541",
-      "title": "アルカナ・ファミリア - La storia della Arcana Famiglia - 攻略 本編 (ruRiの気ままにオタ活, Hatena Blog)",
+      "url": "https://ruri-ototgame.hatenablog.com/entry/2025/12/30/225051",
+      "title": "アルカナ・ファミリア Rinato 個別攻略 (ruRiの気ままにオタ活)",
       "language": "ja",
-      "notes": "Complete single-page walkthrough covering the shared common-route choices (through 4/5, before character select at 4/1 branch) and all 7 character routes in sectioned anchors (#1 Liberta through #7 Jolly) on one page. Contains verbatim choice text, SAVE1/SAVE2 markers, デュエロ success/fail notation, and 3-ending (ED1/ED2/ED3) structure per route. Independently corroborates Dante and Jolly both being locked to 2nd-playthrough-onward ('２周目以降ルート解放') and Dante's Famiglia/Normal/Defeat endings requiring all other characters cleared first ('全員を攻略後ED回収が可能'). Used as the second full walkthrough for cross-validation against choro-game.com. Landing/navigation page at https://ruri-ototgame.hatenablog.com/entry/2025/12/30/223648 links here."
+      "notes": "Complete exact-target Nintendo Switch Rinato walkthrough covering all 7 character routes. Uses Switch button notation (for example YXY where Vita/Ancora uses △□△), dated choice text, MAP/Select/Cocoaru steps, duel success/failure paths, and ending cleanup. Adopted as Set B for target-facing reconciliation; jpGuide2 excerpts are kept verbatim to this Rinato page rather than Vita symbols.",
+      "set": "B"
     },
     {
       "url": "https://manga-daisuki.net/game/psvita-otome/arcana/",
@@ -110,7 +103,7 @@
       "url": "https://vndb.org/v8203",
       "title": "Arcana Famiglia - VNDB entry v8203",
       "language": "en",
-      "notes": "Reference only. Confirms v8203 covers the original October 2011 PSP release (アルカナ・ファミリア -La storia della Arcana Famiglia-), the December 2015 PS Vita 'Ancora' port, and the July 2025 Nintendo Switch / 2026 Steam 'Rinato' re-release, all as the same title/entry — meaning Japanese guides for the PSP/Vita versions are valid sources for the Switch Rinato route structure and choice content."
+      "notes": "Reference only. VNDB v8203 groups the October 2011 PSP original, December 2015 PS Vita Ancora port, and July 2025 Nintendo Switch / 2026 Steam Rinato releases under one work. Sharing a VNDB work id does NOT prove identical route choices, exact prompt appearance, saved-state behavior, or release-specific walkthrough applicability. The Ancora/Vita guides are Set A comparators only; each material claim must be reconciled against the exact-target Rinato/Switch Set B and unresolved differences remain blocked as documented above."
     },
     {
       "url": "https://vndb.org/v8203/chars",
@@ -123,8 +116,116 @@
       "title": "Nintendo Switch/Steam『アルカナ・ファミリア Rinato』公式サイト - STORY",
       "language": "ja",
       "notes": "Reference only. Official site for the Switch/Steam Rinato release. Confirms the main story premise (Arcana Duello tournament, April 1 to June 1 timeframe) and character roles (Mondo as boss/father, Sumire as his wife, Nova/Parche/Debito/Dante as department executives). No route order or bad-end information; used only to confirm this is the same base story as the PSP/Vita versions with no restructured routes."
+    },
+    {
+      "set": "target",
+      "url": "https://www.gamer.ne.jp/news/202503190016/",
+      "title": "「アルカナ・ファミリア Rinato」Switch版は7月24日に発売！ (Gamer)",
+      "language": "ja",
+      "notes": "Exact Rinato release announcement based on publisher information. Explicitly identifies Rinato as a port of the 2015 PS Vita Ancora release and enumerates the port changes as system/battle-presentation polish, higher-resolution graphics, new package art, and multilingual subtitles. It does not announce new or rewritten scenario/route content. This is strong target-applicability evidence for Ancora walkthrough structure, but it is not itself a Rinato choice-by-choice walkthrough."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2697.html",
+      "title": "アルカナ・ファミリア 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Independent supplemental index explicitly covering Rinato/Switch and Ancora/Vita; links all seven route walkthroughs. Not a replacement for primary Set A or Set B."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2739.html",
+      "title": "アルカナファミリア パーチェ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental complete Parche ED1–3 path: 4/3 proceeds directly to Luca MAP after 4/2 choices; 4/6 includes ちょっとおもしろそう, while 4/7 lists only the Parche MAP. The initial 4/1 choices differ from the current guide, so this is not an identical saved-state test."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2719.html",
+      "title": "アルカナファミリア デビト 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Debito ED1–3 path: 4/3 goes directly to Luca MAP, without an intervening second 何かあるの？. Earlier 4/1 choices differ from the guide, so exact same-state prompt absence is not proven."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2746.html",
+      "title": "アルカナファミリア ルカ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Luca ED1–3 path: 4/3 goes directly to Luca MAP, without a second 何かあるの？. Initial 4/1 choices differ; not identical-state proof."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2707.html",
+      "title": "アルカナファミリア ノヴァ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Nova ED1–3 path: 5/22 lists Nova MAP followed by ten choices, with no separate ……答えられない. Its early 4/1–4/3 decisions differ materially from the current guide, so not same-state proof."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2696.html",
+      "title": "アルカナファミリア リベルタ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Liberta ED1–3 path: 4/3 proceeds to Luca MAP without second 何かあるの？. On 4/12 it selects a Liberta chance encounter, not the guide's Luca-map state, so cannot adjudicate the omitted コンフェットゥーラ prompt."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2761.html",
+      "title": "アルカナファミリア ジョーリィ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Jolly ED1–3 and Famiglia ED path: 4/3 goes directly to Luca MAP without second 何かあるの？. 4/1 mostly aligns but 4/2 closing answer differs from the guide, preventing same-state inference."
+    },
+    {
+      "url": "https://maistar.blog.fc2.com/blog-entry-2754.html",
+      "title": "アルカナファミリア ダンテ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
+      "language": "ja",
+      "notes": "Supplemental Dante ED1–3 and Normal ED path: 4/3 goes directly to Luca MAP. Normal ED (Switch版) explicitly starts from the author's Save1 (5/26), changes the 5/27–5/31 MAP visits, then prints 6/1 duel XXXYAX(Switch版) → 何も失いたくない。でも、パーパも失えない → 第10のカード. A separate Vita Normal ED section also prints the prompt. This directly contradicts an assertion of universal Switch omission, but the preceding Save1 path is not equivalent to this guide's Save14 / ruRi Save2 skip state; same-state appearance remains unverified."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-332.html",
+      "title": "アルカナ・ファミリア Ancora 攻略 index (王子とか勇者とか（仮）)",
+      "language": "ja",
+      "notes": "Supplemental independent Japanese PS Vita Ancora index linking all seven character guides; directly inspected. Its separate all-clears Normal ED instruction starts from 5/31 night scenario skip to 6/1 duel and tenth card without printing choro's post-duel extra choice. This is not Switch or same-state proof."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-325.html",
+      "title": "アルカナ・ファミリア Ancora リベルタ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Liberta path: 4/2 has 何かあるの？; 4/3 proceeds directly to 剣待機室 MAP and the Luca choices, without a second 何かあるの？. This supports the Rinato Set-B operational sequence but does not establish identical hidden playthrough flags."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-326.html",
+      "title": "アルカナ・ファミリア Ancora ノヴァ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Nova route: 5/22 main event offers ずっと心配だった, and 5/23 ビヴァーチェ広場 event offers 子どもは好き？, matching Rinato Set B's dated positions; choro Set A instead prints 子どもは好き？ on 5/22 and ……答えられない on 5/23. Also omits choro's duplicate 4/3 何かあるの？; no Switch same-state capture is claimed."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-327.html",
+      "title": "アルカナ・ファミリア Ancora デビト 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Debito path; 4/3 advances from the 剣待機室 MAP to the Luca choices without a second 何かあるの？. Separate Vita source, not Switch gameplay proof."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-328.html",
+      "title": "アルカナ・ファミリア Ancora パーチェ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Parche path: 4/3 directly enters 剣待機室; 4/6 has ちょっとおもしろそう during the Parche 玄関ホール event and 4/7 only the MAP. Supports the Rinato Set-B date placement, but different earlier decisions cannot certify all prompt conditions."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-329.html",
+      "title": "アルカナ・ファミリア Ancora ルカ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Luca route; 4/3 has 剣待機室 MAP followed by choices, no second 何かあるの？. This is independent Ancora corroboration, not exact Switch play-state verification."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-330.html",
+      "title": "アルカナ・ファミリア Ancora ダンテ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Dante route: 4/3 goes directly to 剣待機室 MAP, without duplicate 何かあるの？. For Normal ED the same author's index has a 5/31 skip followed by 6/1 duel/tenth-card action and does not print the optional post-duel prompt; this cannot establish exact Switch Save14 conditions."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-331.html",
+      "title": "アルカナ・ファミリア Ancora ジョーリィ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Jolly route: 4/3 directly proceeds to 剣待機室 MAP and choices, without duplicate 何かあるの？. No claim that this guide reproduces the Rinato route's entire previous-playthrough state."
     }
   ],
-  "disagreements": "1) Dante vs. Jolly final order: manga-daisuki.net (a review/impressions blog, not a full choice-tree walkthrough) lists its personal recommended order as ...リベルタ→ダンテ→ジョーリィ (Dante 6th, Jolly last/7th). However, both of the two full choice-by-choice walkthroughs used as primary sources (choro-game.com and ruRi hatenablog) independently state that Dante's three notable endings (ファミリアED / ノーマルED / 敗北ED, including the Famiglia End '第10のカード ルオータ・デラ・フォルトゥナ') can only be obtained '全員を攻略後' (after clearing everyone/all other characters) — which necessarily includes Jolly, since Jolly is one of the 7 routes. This guide follows the two full-walkthrough primary sources and places Jolly before Dante, with Dante last, since otherwise Dante's true/Famiglia ending would be unreachable at the point the guide reaches it. 2) Whether Dante's Famiglia ED constitutes a distinct 'true end' separate from a normal character route: no source uses the exact phrase 真エンド (true end), but the gating of the Famiglia ED behind clearing all other 6 routes, plus its explicit '第10のカード' (10th/final tarot card) framing distinguishing it from the other 6 characters' single-route endings, matches the standard 'true end' pattern used elsewhere in this repository's guides; it is flagged is_true_ending on the dante route on that basis. 3) The first 5 routes (Parche, Debito, Luca, Nova, Liberta) have no documented mechanical locks or prerequisites in either full walkthrough — the order used here follows manga-daisuki.net's suggested order for lack of any conflicting source, and could be freely reordered among themselves without affecting route access. 4) momokan.chu.jp and the PSP-era wiki at arcana.stgtk.com could not be directly fetched (DNS resolution failures for both domains during this session) despite appearing in search results; their content is treated as unverified/supplementary and was not used as a primary source. No English guide was located or used; per the brief, Japanese sources take full precedence and none was needed as even a supplementary reference given two solid full Japanese walkthroughs were found.",
-  "generated_at": "2026-07-18T13:33:19.071749+00:00"
+  "disagreements": "1) Dante vs. Jolly final order: manga-daisuki.net (a review/impressions blog, not a full choice-tree walkthrough) lists its personal recommended order as ...リベルタ→ダンテ→ジョーリィ (Dante 6th, Jolly last/7th). However, both of the two full choice-by-choice walkthroughs used as primary sources (choro-game.com and ruRi hatenablog) independently state that Dante's three notable endings (ファミリアED / ノーマルED / 敗北ED, including the Famiglia End '第10のカード ルオータ・デラ・フォルトゥナ') can only be obtained '全員を攻略後' (after clearing everyone/all other characters) — which includes Jolly. This condition gates Dante's special endings only, not ordinary Dante route access. Both Dante and Jolly become selectable on a second playthrough after any first clear. We recommend Dante last so the special endings can be collected without another replay. 2) Whether Dante's Famiglia ED constitutes a distinct 'true end' separate from a normal character route: no source uses the exact phrase 真エンド (true end), but the gating of the Famiglia ED behind clearing all other 6 routes, plus its explicit '第10のカード' (10th/final tarot card) framing distinguishing it from the other 6 characters' single-route endings, matches the standard 'true end' pattern used elsewhere in this repository's guides; it is flagged is_true_ending on the dante route on that basis. 3) The first 5 routes (Parche, Debito, Luca, Nova, Liberta) have no documented mechanical locks or prerequisites in either full walkthrough — the order used here follows manga-daisuki.net's suggested order for lack of any conflicting source, and could be freely reordered among themselves without affecting route access. 4) momokan.chu.jp and the PSP-era wiki at arcana.stgtk.com could not be directly fetched (DNS resolution failures for both domains during this session) despite appearing in search results; their content is treated as unverified/supplementary and was not used as a primary source. No English guide was located or used; per the brief, Japanese sources take full precedence and none was needed as even a supplementary reference given two solid full Japanese walkthroughs were found. 5) Revalidation note (2026-09-25): Set A remains the directly inspected Ancora/Vita walkthrough at choro-game.com, while Set B is now a directly inspected exact-target Rinato/Nintendo Switch walkthrough at ruRi. Rinato release documentation identifies the Switch title as a port of Ancora and the exact-target Set B provides target-platform choice/duel text. Exact-target disagreements, including the Jolly ordinary-choice difference documented above, are preserved rather than silently normalized. 6) ED2 version differences (2026-10-09): Debito ED2 MAP differs: Set A (Ancora) selects リベルタ; exact-target Set B (Rinato) selects ダンテ. Target-facing route follows Set B and uses the Set-A omission marker. Luca ED2 Save1 is later in Set A than in Set B; use the earlier Set-B checkpoint and do not fabricate matching Set-A evidence. The missing ED2 and explicit ED3 ending terminals were restored in all affected route files. All modified routes require independent structural and accuracy re-review. 7) Dante Normal ED intermediate prompt (2026-10-23): Set A (Ancora/Vita choro) includes `何も失いたくない。でも、パーパも失えない` between the successful June 1 duel and tenth-card choice on its Save2 replay. The directly inspected exact-target Rinato/Switch Set B (ruRi) documents `SAVE2 → 6/1までシナリオスキップ → デュエロ XXXYAX 成功 → 第１０のカード → ノーマルED` without that intermediate prompt. Its appearance in the identical Switch Save2/skip state is NOT independently established, so the guide no longer makes it a mandatory step; if the player encounters it, the Set-A answer is supplied as an optional contingency in `enGuide`. Do not claim the prompt never exists in Rinato. Fresh independent Dante structural and accuracy review is required for this route-topology change. 8) Consolidated Rinato/Switch source-literal audit (2026-10-23): Reviewed all 51 A2 choice-literal discrepancies across Parche (5), Debito (9), Luca (11), Nova (5), Liberta (9), Jolly (4), and Dante (8) against the existing Set-B ruRi transcription and directly inspected ruRi Rinato/Switch walkthrough (https://ruri-ototgame.hatenablog.com/entry/2025/12/30/225051). Target-facing simpleJp now preserves the Set-B wording, including leading/trailing ellipses, commas, and punctuation; Ancora/Vita source text remains intact in jpGuide1. Also fixed Luca's Set-B-confirmed 5/3 spacing in 「ルカ！肉！！」 (former step 115). All unchanged choice/action source lanes were retained. 9) Unverified Set-A-only main-path prompts (2026-10-23): On 4/3, the older Ancora/Vita Set A includes a second 「何かあるの？」 immediately before the Luca MAP action in Parche, Debito, Luca, Liberta, and Jolly. The exact-target ruRi Set B documents 4/3 MAP→next choices directly and does not show that intermediate prompt. Other disputed Set-A-only choices include Parche's 「ちょっとおもしろそう」 and Liberta's 「……コンフェットゥーラ……私も好きだよ？」. Nova is a distinct, confirmed date/choice alignment defect rather than an omitted intermediate prompt before 5/22: direct inspection of Set A (https://choro-game.com/e/arcana-ancora-guide-nova) shows 5/22 「子どもは好き？」 followed on 5/23, after the MAP, by 「……答えられない」; exact-target Set B (https://ruri-ototgame.hatenablog.com/entry/2025/12/30/225051) instead shows 5/22 「ずっと心配だった」 and 5/23 「子どもは好き？」 after its MAP. Corrected Nova to follow Set-B's player-facing action on each date (5/22 now 「ずっと心配だった」, with the older Set-A text retained in jpGuide1; 5/23 now includes 「子どもは好き？」, retaining Set A's different 5/23 text in jpGuide1). Removed the inaccurate 5/22 claim that 「……答えられない」 might precede 「無理ならいい……」; the date-specific difference is explained at the 5/23 step. This establishes what the inspected walkthroughs actually print, NOT identical playthrough state or universal Switch prompt conditions. Remaining Set-A-only prompts are not presented as unconditional Rinato actions; conditional hints are retained only when attached to the right dated action. These omissions do NOT establish that the prompt is absent on every Switch save/branch state. Exact same-state Switch occurrence/conditions are still unverified, so retain this source-state blocker and request independent structural + accuracy re-review of affected route/research pairs; do not assert PASS or reviewed:true. 10) Additional directly inspected Japanese supplemental route corpus (2026-10-23): maistar.blog.fc2.com/blog-entry-2697.html explicitly covers Rinato/Switch and Ancora/Vita, with separate route pages for all seven characters (URLs in sources). Parche/Debito/Luca/Liberta/Jolly all show a 4/3 Luca MAP directly after their 4/2 sequence, without the extra Ancora Set-A 4/3 何かあるの？. Parche 4/6 documents ちょっとおもしろそう, but 4/7 lists only the Parche MAP; Nova is not simply omitting a 5/22 prompt: Set A places 「……答えられない」 at the 5/23 map, and Set B uses a different 5/22 choice followed by 「子どもは好き？」 on 5/23 (see item 9); Dante's supplemental maistar Switch-labeled Normal ED path explicitly lists the extra post-duel prompt after duel XXXYAX, whereas the designated exact-target ruRi Set B Save2/skip sequence omits it; maistar resumes from its earlier Save1 and selects different 5/27–5/31 MAPs, so the two paths do not establish identical preceding state or the prompt condition for this guide's Save14. The early-route maistar omissions corroborate the Set-B-first presentation for those paths, while its Switch Normal ED explicitly shows Dante's additional prompt can occur on a different Switch route state. Neither source comparison is direct gameplay/capture or proof of the precise prompt conditions for this guide's preceding state: some maistar 4/1/4/2 choices differ, Liberta 4/12 uses a different MAP destination, and Dante's Save1 Normal ED is not the guide's Save14/ruRi Save2 skip. Keep A3 and Dante same-state applicability explicitly unresolved. These are supplemental evidence, not substitutes for Set A/B, and do not authorize unconditional deletion/restoration or PASS. 11) Additional independent directly inspected Vita corpus (2026-10-30): https://pandaihuku.blog.fc2.com/blog-entry-332.html and its seven character pages (sources above) supply a third independently authored Japanese walkthrough. In Parche, Debito, Luca, Liberta, Jolly (and also Nova/Dante), 4/2 shows 「何かあるの？」 but 4/3 starts at the 剣待機室 MAP without choro's second identical question. This corroborates the exact-target ruRi Rinato Set B presentation and makes a choro-specific duplication/choice-state issue more plausible than a categorical Vita-to-Switch text change, but it is not a directly observed Rinato same-state test. More decisively for Nova, this Vita author independently places 「ずっと心配だった」 on 5/22 and 「子どもは好き？」 on 5/23, matching exact Rinato Set B and disagreeing with choro's dated placements. The current Nova route now uses the directly supported Rinato dates and the older choro quotes remain lane-specific; its 5/22 misplaced optional hint was removed. The pandaihuku Ancora index's all-character Normal ED skips from 5/31 to 6/1 without printing choro's post-duel prompt, but a separate Switch-labeled maistar path does print it from its Save1; neither substitutes for Switch capture/fully matched hidden state from this guide's Save14. Evidence strengthens the source reconciliation but does not constitute an independent accuracy PASS or owner-approved exception for remaining exact-state blockers.",
+  "generated_at": "2026-09-25T22:02:53Z",
+  "guide_target": {
+    "label": "アルカナ・ファミリア Rinato（Nintendo Switch版）",
+    "platform": "Nintendo Switch",
+    "url": "https://dramaticcreate.com/af_rinato/"
+  }
 }

@@ -12,9 +12,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "△□△",
+    "simpleJp": "YXY",
     "jpGuide1": "[デュエロ]△□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗YXY（成功）",
     "enGuide": ""
   },
   {
@@ -26,7 +26,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "リベルタ",
-    "jpGuide2": "▶︎【Select】リベルタ",
+    "jpGuide2": "▶︎〖Select〗リベルタ",
     "enGuide": ""
   },
   {
@@ -42,7 +42,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "お祝い？",
+    "simpleJp": "......お祝い？",
     "jpGuide1": "お祝い？",
     "jpGuide2": "・......お祝い？",
     "enGuide": ""
@@ -50,13 +50,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]港(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "△",
+    "simpleJp": "Y",
     "jpGuide1": "[デュエロ]△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗Y（成功）",
     "enGuide": ""
   },
   {
@@ -66,16 +66,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "何かあるの？",
-    "jpGuide1": "何かあるの？",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]剣待機室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
-    "enGuide": ""
+    "jpGuide2": "▶︎〖MAP〗ルカ",
+    "enGuide": "Rinato/Switch Set B proceeds to this step without documenting the preceding Ancora/Vita Set-A prompt 「何かあるの？」. Do not wait for that prompt; if it actually appears in your playthrough, choose the Set-A answer shown here. Its exact same-state Switch appearance remains unverified."
   },
   {
     "simpleJp": "ありがとう……でも急にどうしたの？",
@@ -104,7 +98,7 @@
   {
     "simpleJp": "ジョーリィ",
     "jpGuide1": "[MAP]相談役執務室(ジョーリィ)",
-    "jpGuide2": "▶︎【MAP】ジョーリィ",
+    "jpGuide2": "▶︎〖MAP〗ジョーリィ",
     "enGuide": ""
   },
   {
@@ -150,7 +144,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "ありがとう",
+    "simpleJp": "ありがとう......",
     "jpGuide1": "ありがとう",
     "jpGuide2": "・ありがとう......",
     "enGuide": ""
@@ -158,7 +152,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]訓練場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -182,13 +176,13 @@
   {
     "simpleJp": "ダンテ",
     "jpGuide1": "[MAP]ダンテ",
-    "jpGuide2": "▶︎【MAP】ダンテ",
+    "jpGuide2": "▶︎〖MAP〗ダンテ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]港(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -224,7 +218,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]寝室(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -248,7 +242,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]フィオーレ通り(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -260,20 +254,14 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "……コンフェットゥーラ……私も好きだよ？",
-    "jpGuide1": "……コンフェットゥーラ……私も好きだよ？",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]市場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
-    "enGuide": ""
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
+    "enGuide": "Rinato/Switch Set B proceeds to this step without documenting the preceding Ancora/Vita Set-A prompt 「……コンフェットゥーラ……私も好きだよ？」. Do not wait for that prompt; if it actually appears in your playthrough, choose the Set-A answer shown here. Its exact same-state Switch appearance remains unverified."
   },
   {
     "simpleJp": "お腹いっぱいご飯が食べたい",
@@ -296,7 +284,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -308,11 +296,11 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]訓練場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "何だかんだで仲がいい",
+    "simpleJp": "何だかんだで仲が良い",
     "jpGuide1": "何だかんだで仲がいい",
     "jpGuide2": "・何だかんだで仲が良い",
     "enGuide": ""
@@ -320,17 +308,17 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "確かにいつも以上のはしゃぎ方",
+    "simpleJp": "確かにいつも以上のはしゃぎ方......",
     "jpGuide1": "確かにいつも以上のはしゃぎ方",
     "jpGuide2": "・確かにいつも以上のはしゃぎ方......",
     "enGuide": ""
@@ -362,7 +350,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]聖杯待機室(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -374,13 +362,13 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]市場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -390,7 +378,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "本当にダンテと仲がいいね",
+    "simpleJp": "本当にダンテと仲が良いね",
     "jpGuide1": "本当にダンテと仲がいいね",
     "jpGuide2": "・本当にダンテと仲が良いね",
     "enGuide": ""
@@ -402,7 +390,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "リベルタの方が心配",
+    "simpleJp": "......リベルタの方が心配",
     "jpGuide1": "リベルタの方が心配",
     "jpGuide2": "・......リベルタの方が心配",
     "enGuide": ""
@@ -428,7 +416,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]廊下(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -440,23 +428,23 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "……大丈夫？",
+    "simpleJp": "大丈夫......？",
     "jpGuide1": "……大丈夫？",
     "jpGuide2": "・大丈夫......？",
     "enGuide": ""
   },
   {
-    "simpleJp": "リベルタも私も一緒に行く",
+    "simpleJp": "リベルタも私も一緒に行く......",
     "jpGuide1": "リベルタも私も一緒に行く",
     "jpGuide2": "・リベルタも私も一緒に行く......",
     "enGuide": ""
@@ -474,15 +462,15 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×□△",
+    "simpleJp": "XAXY",
     "jpGuide1": "[デュエロ]□×□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAXY（成功）",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]市場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -498,7 +486,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "話す気がないなら……",
+    "simpleJp": "話す気が無いなら......",
     "jpGuide1": "話す気がないなら……",
     "jpGuide2": "・話す気が無いなら......",
     "enGuide": ""
@@ -524,11 +512,11 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]港(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "リベルタを追いかけよう",
+    "simpleJp": "リベルタを追いかけよう！",
     "jpGuide1": "リベルタを追いかけよう",
     "jpGuide2": "・リベルタを追いかけよう！",
     "enGuide": ""
@@ -542,7 +530,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -552,7 +540,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "……いいの？",
+    "simpleJp": "いいの......？",
     "jpGuide1": "……いいの？",
     "jpGuide2": "・いいの......？",
     "enGuide": ""
@@ -566,31 +554,31 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]食堂(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -662,13 +650,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]厨房(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -680,25 +668,25 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]庭(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -710,13 +698,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]寝室(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -726,7 +714,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "私と……ダンテが戦うことを望んでいる",
+    "simpleJp": "私と......ダンテが戦う事を望んでいる",
     "jpGuide1": "私と……ダンテが戦うことを望んでいる",
     "jpGuide2": "・私と......ダンテが戦う事を望んでいる",
     "enGuide": ""
@@ -738,9 +726,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×××□",
+    "simpleJp": "XAAAX",
     "jpGuide1": "[デュエロ]□×××□(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAAAX（成功）",
     "enGuide": ""
   },
   {
@@ -752,7 +740,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -794,7 +782,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -824,13 +812,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]船長室(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -848,13 +836,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]ピアーチェ広場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -870,13 +858,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマの住んでいた国……",
+    "simpleJp": "マンマの住んでた国......",
     "jpGuide1": "マンマの住んでいた国……",
     "jpGuide2": "・マンマの住んでた国......",
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマも凄いと思う",
+    "simpleJp": "マンマもすごいと思う",
     "jpGuide1": "マンマも凄いと思う",
     "jpGuide2": "・マンマもすごいと思う",
     "enGuide": ""
@@ -888,7 +876,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "……何で私はは２つなの？",
+    "simpleJp": "......何で私は２つなの？",
     "jpGuide1": "……何で私はは２つなの？",
     "jpGuide2": "・......何で私は２つなの？",
     "enGuide": ""
@@ -908,13 +896,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]港(リベルタ)",
-    "jpGuide2": "▶︎【MAP】 リベルタ",
+    "jpGuide2": "▶︎〖MAP〗 リベルタ",
     "enGuide": ""
   },
   {
@@ -942,13 +930,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "力をもっと強めたい",
+    "simpleJp": "力をもっと高めたい",
     "jpGuide1": "力をもっと強めたい",
     "jpGuide2": "・力をもっと高めたい",
     "enGuide": ""
   },
   {
-    "simpleJp": "うれしい",
+    "simpleJp": "うれしい......",
     "jpGuide1": "うれしい",
     "jpGuide2": "・うれしい......",
     "enGuide": ""
@@ -956,7 +944,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]市場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -968,7 +956,7 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]アルカナ号(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -980,13 +968,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]廊下(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -1008,7 +996,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "港？",
+    "simpleJp": "港......？",
     "jpGuide1": "港？",
     "jpGuide2": "・港......？",
     "enGuide": ""
@@ -1022,13 +1010,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]屋敷内(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
@@ -1040,32 +1028,33 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]リベルタ",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]訓練場(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ1",
+    "simpleJp": "セーブ9",
     "jpGuide1": "Save1",
     "jpGuide2": "🔽SAVE1",
     "enGuide": ""
   },
   {
-    "simpleJp": "ダンテと約束って？",
-    "jpGuide1": "ダンテと約束って？",
-    "jpGuide2": "・ダンテと約束って？",
-    "enGuide": ""
+    "simpleJp": "２人は相変わらず仲が良い",
+    "jpGuide1": "２人は相変わらず仲が良い",
+    "jpGuide2": "・２人は相変わらず仲が良い",
+    "enGuide": "",
+    "badEndPath": "リベルタED2"
   },
   {
     "simpleJp": "パーパの部屋へ……！",
@@ -1080,7 +1069,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマ、私もなにか……",
+    "simpleJp": "マンマ、私にもなにか......",
     "jpGuide1": "マンマ、私もなにか……",
     "jpGuide2": "・マンマ、私にもなにか......",
     "enGuide": ""
@@ -1124,23 +1113,128 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "リベルタ",
-    "jpGuide2": "▶︎【Select】リベルタ",
+    "jpGuide2": "▶︎〖Select〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ2",
+    "simpleJp": "AAAYYA",
+    "jpGuide1": "[デュエロ]×××△△×(成功)",
+    "jpGuide2": "▶︎〖デュエロ〗AAAYYA（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタED2",
+    "jpGuide1": "リベルタED2",
+    "jpGuide2": "リベルタED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ9にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "ダンテと約束って？",
+    "jpGuide1": "ダンテと約束って？",
+    "jpGuide2": "・ダンテと約束って？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私にもなにか......",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "リベルタ",
+    "jpGuide2": "▶︎〖Select〗リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ10",
     "jpGuide1": "Save2",
     "jpGuide2": "🔽SAVE2",
     "enGuide": ""
   },
   {
-    "simpleJp": "×××△△×",
-    "jpGuide1": "[デュエロ]×××△△×(成功)",
-    "jpGuide2": "▶︎【デュエロ】×××△△×（成功）",
+    "simpleJp": "失敗",
+    "jpGuide1": "[デュエロ](失敗)",
+    "jpGuide2": "▶︎〖デュエロ〗失敗",
+    "enGuide": "",
+    "badEndPath": "リベルタED3"
+  },
+  {
+    "simpleJp": "リベルタED3",
+    "jpGuide1": "リベルタED3",
+    "jpGuide2": "リベルタED3",
     "enGuide": ""
   },
   {
-    "simpleJp": "私もリベルタのそばにいたい",
+    "simpleJp": "セーブ10にロード",
+    "jpGuide1": "Save2より",
+    "jpGuide2": "▶️SAVE2より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "AAAYYA",
+    "jpGuide1": "[デュエロ]×××△△×(成功)",
+    "jpGuide2": "▶︎〖デュエロ〗AAAYYA（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私もリベルタの側にいたい",
     "jpGuide1": "私もリベルタのそばにいたい",
     "jpGuide2": "・私もリベルタの側にいたい",
     "enGuide": ""

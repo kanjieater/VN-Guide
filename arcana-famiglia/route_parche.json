@@ -12,9 +12,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "△□△",
+    "simpleJp": "YXY",
     "jpGuide1": "[デュエロ]△□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗YXY（成功）",
     "enGuide": ""
   },
   {
@@ -26,7 +26,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "パーチェ",
-    "jpGuide2": "▶︎【Select】パーチェ",
+    "jpGuide2": "▶︎〖Select〗パーチェ",
     "enGuide": ""
   },
   {
@@ -42,7 +42,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "お祝い？",
+    "simpleJp": "......お祝い？",
     "jpGuide1": "お祝い？",
     "jpGuide2": "・......お祝い？",
     "enGuide": ""
@@ -50,13 +50,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]港(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "△",
+    "simpleJp": "Y",
     "jpGuide1": "[デュエロ]△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗Y（成功）",
     "enGuide": ""
   },
   {
@@ -66,16 +66,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "何かあるの？",
-    "jpGuide1": "何かあるの？",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]剣待機室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
-    "enGuide": ""
+    "jpGuide2": "▶︎〖MAP〗ルカ",
+    "enGuide": "Rinato/Switch Set B proceeds to this step without documenting the preceding Ancora/Vita Set-A prompt 「何かあるの？」. Do not wait for that prompt; if it actually appears in your playthrough, choose the Set-A answer shown here. Its exact same-state Switch appearance remains unverified."
   },
   {
     "simpleJp": "ありがとう……でも急にどうしたの？",
@@ -104,7 +98,7 @@
   {
     "simpleJp": "ジョーリィ",
     "jpGuide1": "[MAP]相談役執務室(ジョーリィ)",
-    "jpGuide2": "▶︎【MAP】ジョーリィ",
+    "jpGuide2": "▶︎〖MAP〗ジョーリィ",
     "enGuide": ""
   },
   {
@@ -158,7 +152,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]玄関ホール(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -194,7 +188,7 @@
   {
     "simpleJp": "言ってもわからないなら……",
     "jpGuide1": "言ってもわからないなら……",
-    "jpGuide2": "・言ってもわからないなら......？",
+    "jpGuide2": "・言ってもわからないなら......",
     "enGuide": ""
   },
   {
@@ -206,20 +200,14 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]玄関ホール(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ちょっとおもしろそう",
-    "jpGuide1": "ちょっとおもしろそう",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]棍棒待機室(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
-    "enGuide": ""
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
+    "enGuide": "Rinato/Switch Set B proceeds to this step without documenting the preceding Ancora/Vita Set-A prompt 「ちょっとおもしろそう」. Do not wait for that prompt; if it actually appears in your playthrough, choose the Set-A answer shown here. Its exact same-state Switch appearance remains unverified."
   },
   {
     "simpleJp": "音楽集会？",
@@ -230,13 +218,13 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]庭(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -248,7 +236,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]廊下(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -260,17 +248,17 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]訓練場(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
-    "simpleJp": "特製のトルテ",
+    "simpleJp": "特製のトルテ......",
     "jpGuide1": "特製のトルテ",
     "jpGuide2": "・特製のトルテ......",
     "enGuide": ""
@@ -290,7 +278,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP港(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -306,7 +294,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "……何か出て来た……",
+    "simpleJp": "......何か出てきた......",
     "jpGuide1": "……何か出て来た……",
     "jpGuide2": "・......何か出てきた......",
     "enGuide": ""
@@ -332,7 +320,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]港(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -344,7 +332,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]廊下(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -356,11 +344,11 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
-    "simpleJp": "確かにいつも以上のはしゃぎ方",
+    "simpleJp": "確かにいつも以上のはしゃぎ方......",
     "jpGuide1": "確かにいつも以上のはしゃぎ方",
     "jpGuide2": "・確かにいつも以上のはしゃぎ方......",
     "enGuide": ""
@@ -392,19 +380,19 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -422,7 +410,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]庭(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -462,7 +450,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "でも、パーチェも貴族じゃ……",
+    "simpleJp": "でも、パーチェも貴族じゃ......？",
     "jpGuide1": "でも、パーチェも貴族じゃ……",
     "jpGuide2": "・でも、パーチェも貴族じゃ......？",
     "enGuide": ""
@@ -470,13 +458,13 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]ビヴァーチェ広場(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -486,13 +474,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "……助けに行かない？",
+    "simpleJp": "......助けに、行かない？",
     "jpGuide1": "……助けに行かない？",
     "jpGuide2": "・......助けに、行かない？",
     "enGuide": ""
   },
   {
-    "simpleJp": "３人なら夜の内に行って帰って来れる",
+    "simpleJp": "３人なら、夜のうちに行って帰ってこれる",
     "jpGuide1": "３人なら夜の内に行って帰って来れる",
     "jpGuide2": "・３人なら、夜のうちに行って帰ってこれる",
     "enGuide": ""
@@ -510,27 +498,27 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×□△",
+    "simpleJp": "XAXY",
     "jpGuide1": "[デュエロ]□×□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAXY（成功）",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]庭(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -546,7 +534,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "……いいの？",
+    "simpleJp": "いいの......？",
     "jpGuide1": "……いいの？",
     "jpGuide2": "・いいの......？",
     "enGuide": ""
@@ -560,7 +548,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]廊下(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -572,7 +560,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]領主の館(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -602,7 +590,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]教会(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -614,25 +602,25 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]訓練場(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -644,7 +632,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]寝室(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -656,7 +644,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]フィオーレ通り(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -668,7 +656,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]リストランテ(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -698,7 +686,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]バール(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -728,11 +716,11 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
-    "simpleJp": "私と……ダンテが戦うことを望んでいる",
+    "simpleJp": "私と......ダンテが戦う事を望んでいる",
     "jpGuide1": "私と……ダンテが戦うことを望んでいる",
     "jpGuide2": "・私と......ダンテが戦う事を望んでいる",
     "enGuide": ""
@@ -744,9 +732,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×××□",
+    "simpleJp": "XAAAX",
     "jpGuide1": "[デュエロ]□×××□(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAAAX（成功）",
     "enGuide": ""
   },
   {
@@ -758,25 +746,25 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]フィオーレ通り(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -824,19 +812,19 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -852,7 +840,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマも凄いと思う",
+    "simpleJp": "マンマもすごいと思う",
     "jpGuide1": "マンマも凄いと思う",
     "jpGuide2": "・マンマもすごいと思う",
     "enGuide": ""
@@ -860,7 +848,7 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -878,13 +866,13 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]寝室(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -920,13 +908,13 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]廊下(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -938,25 +926,25 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]教会(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
@@ -978,7 +966,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "私の分……",
+    "simpleJp": "私の分......！",
     "jpGuide1": "私の分……",
     "jpGuide2": "・私の分......！",
     "enGuide": ""
@@ -992,17 +980,17 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]パーチェ",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]庭(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
-    "simpleJp": "私も仲間に入りたいけどいい？？",
+    "simpleJp": "私も仲間に入りたいけど......いい？",
     "jpGuide1": "私も仲間に入りたいけどいい？？",
     "jpGuide2": "・私も仲間に入りたいけど......いい？",
     "enGuide": ""
@@ -1010,20 +998,21 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "[MAP]寝室(パーチェ)",
-    "jpGuide2": "▶︎【MAP】パーチェ",
+    "jpGuide2": "▶︎〖MAP〗パーチェ",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ3",
+    "simpleJp": "セーブ1",
     "jpGuide1": "Save1",
     "jpGuide2": "▼SAVE1",
     "enGuide": ""
   },
   {
-    "simpleJp": "イヤ……",
-    "jpGuide1": "イヤ……",
-    "jpGuide2": "・イヤ......",
-    "enGuide": ""
+    "simpleJp": "自分でつける......",
+    "jpGuide1": "自分でつける……",
+    "jpGuide2": "・自分でつける......",
+    "enGuide": "",
+    "badEndPath": "パーチェED2"
   },
   {
     "simpleJp": "パーパの部屋へ……！",
@@ -1038,7 +1027,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマ、私もなにか……",
+    "simpleJp": "マンマ、私にもなにか......",
     "jpGuide1": "マンマ、私もなにか……",
     "jpGuide2": "・マンマ、私にもなにか......",
     "enGuide": ""
@@ -1082,11 +1071,96 @@
   {
     "simpleJp": "パーチェ",
     "jpGuide1": "パーチェ",
-    "jpGuide2": "▶︎【Select】パーチェ",
+    "jpGuide2": "▶︎〖Select〗パーチェ",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ4",
+    "simpleJp": "AXAAAY",
+    "jpGuide1": "[デュエロ]×□×××△(成功)",
+    "jpGuide2": "▶︎〖デュエロ〗AXAAAY（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェED2",
+    "jpGuide1": "パーチェED2",
+    "jpGuide2": "パーチェED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "イヤ……",
+    "jpGuide1": "イヤ……",
+    "jpGuide2": "・イヤ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私にもなにか......",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーチェ",
+    "jpGuide1": "パーチェ",
+    "jpGuide2": "▶︎〖Select〗パーチェ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
     "jpGuide1": "Save2",
     "jpGuide2": "▼SAVE2",
     "enGuide": ""
@@ -1094,21 +1168,27 @@
   {
     "simpleJp": "失敗",
     "jpGuide1": "[デュエロ](失敗)",
-    "jpGuide2": "▶︎【デュエロ】失敗",
+    "jpGuide2": "▶︎〖デュエロ〗失敗",
     "enGuide": "",
     "badEndPath": "パーチェED3"
   },
   {
-    "simpleJp": "セーブ4にロード",
+    "simpleJp": "パーチェED3",
+    "jpGuide1": "パーチェED3",
+    "jpGuide2": "パーチェED3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2にロード",
     "jpGuide1": "Save2より",
     "jpGuide2": "▶️SAVE2より",
     "enGuide": "",
     "isLoad": true
   },
   {
-    "simpleJp": "×□×××△",
+    "simpleJp": "AXAAAY",
     "jpGuide1": "[デュエロ]×□×××△(成功)",
-    "jpGuide2": "▶︎【デュエロ】×□×××△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗AXAAAY（成功）",
     "enGuide": ""
   },
   {

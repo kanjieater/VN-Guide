@@ -12,9 +12,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "△□△",
+    "simpleJp": "YXY",
     "jpGuide1": "[デュエロ]△□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗YXY（成功）",
     "enGuide": ""
   },
   {
@@ -26,7 +26,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "デビト",
-    "jpGuide2": "▶︎【Select】デビト",
+    "jpGuide2": "▶︎〖Select〗デビト",
     "enGuide": ""
   },
   {
@@ -42,7 +42,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "お祝い？",
+    "simpleJp": "......お祝い？",
     "jpGuide1": "お祝い？",
     "jpGuide2": "・......お祝い？",
     "enGuide": ""
@@ -50,13 +50,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]港(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "△",
+    "simpleJp": "Y",
     "jpGuide1": "[デュエロ]△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗Y（成功）",
     "enGuide": ""
   },
   {
@@ -66,16 +66,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "何かあるの？",
-    "jpGuide1": "何かあるの？",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]剣待機室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
-    "enGuide": ""
+    "jpGuide2": "▶︎〖MAP〗ルカ",
+    "enGuide": "Rinato/Switch Set B proceeds to this step without documenting the preceding Ancora/Vita Set-A prompt 「何かあるの？」. Do not wait for that prompt; if it actually appears in your playthrough, choose the Set-A answer shown here. Its exact same-state Switch appearance remains unverified."
   },
   {
     "simpleJp": "ありがとう……でも急にどうしたの？",
@@ -104,7 +98,7 @@
   {
     "simpleJp": "ジョーリィ",
     "jpGuide1": "[MAP]相談役執務室(ジョーリィ)",
-    "jpGuide2": "▶︎【MAP】ジョーリィ",
+    "jpGuide2": "▶︎〖MAP〗ジョーリィ",
     "enGuide": ""
   },
   {
@@ -150,7 +144,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "ありがとう",
+    "simpleJp": "ありがとう......",
     "jpGuide1": "ありがとう",
     "jpGuide2": "・ありがとう......",
     "enGuide": ""
@@ -158,7 +152,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -186,9 +180,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "△",
+    "simpleJp": "Y",
     "jpGuide1": "[デュエロ]△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗Y（成功）",
     "enGuide": ""
   },
   {
@@ -206,7 +200,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]フィオーレ通り(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -218,7 +212,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]剣待機室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -230,7 +224,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]フィオーレ通り(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -242,11 +236,11 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]ピヴァーチェ広場(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "私も弾いてみたい",
+    "simpleJp": "私も弾いてみたい......",
     "jpGuide1": "私も弾いてみたい",
     "jpGuide2": "・私も弾いてみたい......",
     "enGuide": ""
@@ -254,7 +248,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]ピヴァーチェ広場(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -272,7 +266,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -290,7 +284,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -308,7 +302,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -320,13 +314,13 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]玄関ホール(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -338,11 +332,11 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "確かにいつも以上のはしゃぎ方",
+    "simpleJp": "確かにいつも以上のはしゃぎ方......",
     "jpGuide1": "確かにいつも以上のはしゃぎ方",
     "jpGuide2": "・確かにいつも以上のはしゃぎ方......",
     "enGuide": ""
@@ -374,19 +368,19 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -404,7 +398,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]食堂(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -414,7 +408,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "デビトをデートに誘えばいいのかな？",
+    "simpleJp": "デビトをデートに誘えばいいのかな",
     "jpGuide1": "デビトをデートに誘えばいいのかな？",
     "jpGuide2": "・デビトをデートに誘えばいいのかな",
     "enGuide": ""
@@ -438,7 +432,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "いろいろと考えているんだ……",
+    "simpleJp": "いろいろ考えているんだ......",
     "jpGuide1": "いろいろと考えているんだ……",
     "jpGuide2": "・いろいろ考えているんだ......",
     "enGuide": ""
@@ -446,7 +440,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]ポポラリタ通り(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -458,7 +452,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -486,19 +480,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×□△",
+    "simpleJp": "XAXY",
     "jpGuide1": "[デュエロ]□×□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAXY（成功）",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]玄関ホール(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "女の人ならマンマもいるけど……",
+    "simpleJp": "女の人ならマンマもいるけど",
     "jpGuide1": "女の人ならマンマもいるけど……",
     "jpGuide2": "・女の人ならマンマもいるけど",
     "enGuide": ""
@@ -506,13 +500,13 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]ポポラリタ通り(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -528,7 +522,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "……いいの？",
+    "simpleJp": "いいの......？",
     "jpGuide1": "……いいの？",
     "jpGuide2": "・いいの......？",
     "enGuide": ""
@@ -542,13 +536,13 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]廊下(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -566,23 +560,23 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]裏路地(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "何をしようとしてるの？",
+    "simpleJp": "何をしようとしているの？",
     "jpGuide1": "何をしようとしてるの？",
     "jpGuide2": "・何をしようとしているの？",
     "enGuide": ""
   },
   {
-    "simpleJp": "嬉しそう",
+    "simpleJp": "嬉しそう......",
     "jpGuide1": "嬉しそう",
     "jpGuide2": "・嬉しそう......",
     "enGuide": ""
   },
   {
-    "simpleJp": "忘れられるはずない",
+    "simpleJp": "忘れられるはずがない",
     "jpGuide1": "忘れられるはずない",
     "jpGuide2": "・忘れられるはずがない",
     "enGuide": ""
@@ -590,29 +584,29 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]廊下(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "巡航型",
+    "simpleJp": "......巡航型",
     "jpGuide1": "巡航型",
     "jpGuide2": "・......巡航型",
     "enGuide": ""
@@ -620,13 +614,13 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]厨房(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -638,7 +632,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]研究室(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -654,7 +648,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "どんなことして遊んだの？",
+    "simpleJp": "どんな事して遊んだの？",
     "jpGuide1": "どんなことして遊んだの？",
     "jpGuide2": "・どんな事して遊んだの？",
     "enGuide": ""
@@ -668,7 +662,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -690,7 +684,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "本当は嫌なくせに",
+    "simpleJp": "本当はイヤなくせに......",
     "jpGuide1": "本当は嫌なくせに",
     "jpGuide2": "・本当はイヤなくせに......",
     "enGuide": ""
@@ -698,11 +692,11 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "私と……ダンテが戦うことを望んでいる",
+    "simpleJp": "私と......ダンテが戦う事を望んでいる",
     "jpGuide1": "私と……ダンテが戦うことを望んでいる",
     "jpGuide2": "・私と......ダンテが戦う事を望んでいる",
     "enGuide": ""
@@ -714,9 +708,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×××□",
+    "simpleJp": "XAAAX",
     "jpGuide1": "[デュエロ]□×××□(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAAAX（成功）",
     "enGuide": ""
   },
   {
@@ -728,11 +722,11 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]裏路地(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "仕事をしているなら問題はない",
+    "simpleJp": "仕事をしてるなら問題ない",
     "jpGuide1": "仕事をしているなら問題はない",
     "jpGuide2": "・仕事をしてるなら問題ない",
     "enGuide": ""
@@ -740,7 +734,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]食堂(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -752,13 +746,13 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]玄関ホール(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -794,19 +788,19 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -816,13 +810,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマの住んでいた国……",
+    "simpleJp": "マンマの住んでた国......",
     "jpGuide1": "マンマの住んでいた国……",
     "jpGuide2": "・マンマの住んでた国......",
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマも凄いと思う",
+    "simpleJp": "マンマもすごいと思う",
     "jpGuide1": "マンマも凄いと思う",
     "jpGuide2": "・マンマもすごいと思う",
     "enGuide": ""
@@ -830,7 +824,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -848,31 +842,31 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -882,7 +876,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "みんな心配している",
+    "simpleJp": "みんな心配している......",
     "jpGuide1": "みんな心配している",
     "jpGuide2": "・みんな心配している......",
     "enGuide": ""
@@ -896,7 +890,7 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]森(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -908,13 +902,13 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]イシス・レガーロ(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -950,13 +944,13 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
     "simpleJp": "デビト",
     "jpGuide1": "[MAP]バール(デビト)",
-    "jpGuide2": "▶︎【MAP】デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
     "enGuide": ""
   },
   {
@@ -966,16 +960,17 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ6",
+    "simpleJp": "セーブ3",
     "jpGuide1": "Save1",
     "jpGuide2": "▼SAVE1",
     "enGuide": ""
   },
   {
-    "simpleJp": "デビト",
-    "jpGuide1": "[MAP]デビト",
-    "jpGuide2": "▶︎【MAP】デビト",
-    "enGuide": ""
+    "simpleJp": "ダンテ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗ダンテ",
+    "enGuide": "",
+    "badEndPath": "デビトED2"
   },
   {
     "simpleJp": "パーパの部屋へ……！",
@@ -990,7 +985,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマ、私もなにか……",
+    "simpleJp": "マンマ、私にもなにか......",
     "jpGuide1": "マンマ、私もなにか……",
     "jpGuide2": "・マンマ、私にもなにか......",
     "enGuide": ""
@@ -1034,11 +1029,96 @@
   {
     "simpleJp": "デビト",
     "jpGuide1": "デビト",
-    "jpGuide2": "▶︎【Select】デビト",
+    "jpGuide2": "▶︎〖Select〗デビト",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ7",
+    "simpleJp": "AAXYX",
+    "jpGuide1": "[デュエロ]××□△□(成功)",
+    "jpGuide2": "▶︎〖デュエロ〗AAXYX（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビトED2",
+    "jpGuide1": "デビトED2",
+    "jpGuide2": "デビトED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "[MAP]デビト",
+    "jpGuide2": "▶︎〖MAP〗デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパの部屋へ……！",
+    "jpGuide1": "パーパの部屋へ……！",
+    "jpGuide2": "・パーパの部屋へ......！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ！",
+    "jpGuide1": "パーパ！",
+    "jpGuide2": "・パーパ！",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "マンマ、私にもなにか......",
+    "jpGuide1": "マンマ、私もなにか……",
+    "jpGuide2": "・マンマ、私にもなにか......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……うん",
+    "jpGuide1": "……うん",
+    "jpGuide2": "・......うん",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リ・アマンティ、力を貸して",
+    "jpGuide1": "リ・アマンティ、力を貸して",
+    "jpGuide2": "・リ・アマンティ、力を貸して",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……タロッコの夢をみた",
+    "jpGuide1": "……タロッコの夢をみた",
+    "jpGuide2": "・......タロッコの夢をみた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパは……",
+    "jpGuide1": "……パーパは……",
+    "jpGuide2": "・......パーパは......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……パーパ……",
+    "jpGuide1": "……パーパ……",
+    "jpGuide2": "・......パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパ……",
+    "jpGuide1": "パーパ……",
+    "jpGuide2": "・パーパ......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "デビト",
+    "jpGuide1": "デビト",
+    "jpGuide2": "▶︎〖Select〗デビト",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4",
     "jpGuide1": "Save2",
     "jpGuide2": "▼SAVE2",
     "enGuide": ""
@@ -1046,21 +1126,27 @@
   {
     "simpleJp": "失敗",
     "jpGuide1": "[デュエロ](失敗)",
-    "jpGuide2": "▶︎【デュエロ】失敗",
+    "jpGuide2": "▶︎〖デュエロ〗失敗",
     "enGuide": "",
     "badEndPath": "デビトED3"
   },
   {
-    "simpleJp": "セーブ7にロード",
+    "simpleJp": "デビトED3",
+    "jpGuide1": "デビトED3",
+    "jpGuide2": "デビトED3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ4にロード",
     "jpGuide1": "Save2より",
     "jpGuide2": "▶️SAVE2より",
     "enGuide": "",
     "isLoad": true
   },
   {
-    "simpleJp": "××□△□",
+    "simpleJp": "AAXYX",
     "jpGuide1": "[デュエロ]××□△□(成功)",
-    "jpGuide2": "▶︎【デュエロ】××□△□（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗AAXYX（成功）",
     "enGuide": ""
   },
   {

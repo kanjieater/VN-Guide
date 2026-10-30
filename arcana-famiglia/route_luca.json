@@ -12,9 +12,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "△□△",
+    "simpleJp": "YXY",
     "jpGuide1": "[デュエロ]△□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗YXY（成功）",
     "enGuide": ""
   },
   {
@@ -26,7 +26,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "ルカ",
-    "jpGuide2": "▶︎【Select】ルカ",
+    "jpGuide2": "▶︎〖Select〗ルカ",
     "enGuide": ""
   },
   {
@@ -42,7 +42,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "お祝い？",
+    "simpleJp": "......お祝い？",
     "jpGuide1": "お祝い？",
     "jpGuide2": "・......お祝い？",
     "enGuide": ""
@@ -50,13 +50,13 @@
   {
     "simpleJp": "リベルタ",
     "jpGuide1": "[MAP]港(リベルタ)",
-    "jpGuide2": "▶︎【MAP】リベルタ",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
     "enGuide": ""
   },
   {
-    "simpleJp": "△",
+    "simpleJp": "Y",
     "jpGuide1": "[デュエロ]△(成功)",
-    "jpGuide2": "▶︎【デュエロ】△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗Y（成功）",
     "enGuide": ""
   },
   {
@@ -66,16 +66,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "何かあるの？",
-    "jpGuide1": "何かあるの？",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]剣待機室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
-    "enGuide": ""
+    "jpGuide2": "▶︎〖MAP〗ルカ",
+    "enGuide": "Rinato/Switch Set B proceeds to this step without documenting the preceding Ancora/Vita Set-A prompt 「何かあるの？」. Do not wait for that prompt; if it actually appears in your playthrough, choose the Set-A answer shown here. Its exact same-state Switch appearance remains unverified."
   },
   {
     "simpleJp": "ありがとう……でも急にどうしたの？",
@@ -104,7 +98,7 @@
   {
     "simpleJp": "ジョーリィ",
     "jpGuide1": "[MAP]相談役執務室(ジョーリィ)",
-    "jpGuide2": "▶︎【MAP】ジョーリィ",
+    "jpGuide2": "▶︎〖MAP〗ジョーリィ",
     "enGuide": ""
   },
   {
@@ -132,7 +126,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "可愛い",
+    "simpleJp": "可愛い......",
     "jpGuide1": "可愛い",
     "jpGuide2": "・可愛い......",
     "enGuide": ""
@@ -150,7 +144,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "ありがとう",
+    "simpleJp": "ありがとう......",
     "jpGuide1": "ありがとう",
     "jpGuide2": "・ありがとう......",
     "enGuide": ""
@@ -158,11 +152,11 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]厨房(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "おいしい……けどあともう一味欲しい",
+    "simpleJp": "おいしい......けど、あともう一味欲しい",
     "jpGuide1": "おいしい……けどあともう一味欲しい",
     "jpGuide2": "・おいしい......けど、あともう一味欲しい",
     "enGuide": ""
@@ -192,7 +186,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "私も参加する！皆でルカに挑戦しよう",
+    "simpleJp": "私も参加する！みんなでルカに挑戦しよう！！",
     "jpGuide1": "私も参加する！皆でルカに挑戦しよう",
     "jpGuide2": "・私も参加する！みんなでルカに挑戦しよう！！",
     "enGuide": ""
@@ -224,13 +218,13 @@
   {
     "simpleJp": "ダンテ",
     "jpGuide1": "[MAP]ダンテ",
-    "jpGuide2": "▶︎【MAP】ダンテ",
+    "jpGuide2": "▶︎〖MAP〗ダンテ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]剣待機室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -242,23 +236,23 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]訓練場(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "一緒に訓練しよう！",
+    "simpleJp": "……あんまり悔しそうじゃない",
     "jpGuide1": "一緒に訓練しよう！",
     "jpGuide2": "・......あんまり悔しそうじゃない",
     "enGuide": ""
@@ -266,7 +260,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]厨房(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -278,7 +272,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -296,7 +290,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -308,11 +302,11 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]厨房(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "これを丸めればいいの？",
+    "simpleJp": "すごく固く作ってみたい……",
     "jpGuide1": "これを丸めればいいの？",
     "jpGuide2": "・すごく固く作ってみたい......",
     "enGuide": ""
@@ -320,17 +314,17 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "確かにいつも以上のはしゃぎ方",
+    "simpleJp": "確かにいつも以上のはしゃぎ方......",
     "jpGuide1": "確かにいつも以上のはしゃぎ方",
     "jpGuide2": "・確かにいつも以上のはしゃぎ方......",
     "enGuide": ""
@@ -362,11 +356,11 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]研究室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "普通に会ってたと思うけど？",
+    "simpleJp": "しばらく会わない予告のつもり？",
     "jpGuide1": "普通に会ってたと思うけど？",
     "jpGuide2": "・しばらく会わない予告のつもり？",
     "enGuide": ""
@@ -374,7 +368,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]廊下(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -420,7 +414,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "私のことはもう心配しなくていい",
+    "simpleJp": "私のことはもう気にしなくていい",
     "jpGuide1": "私のことはもう心配しなくていい",
     "jpGuide2": "・私のことはもう気にしなくていい",
     "enGuide": ""
@@ -434,11 +428,11 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]厨房(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "キレイだね",
+    "simpleJp": "きれいだね......",
     "jpGuide1": "キレイだね",
     "jpGuide2": "・きれいだね......",
     "enGuide": ""
@@ -458,17 +452,17 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]フィオーレ通り(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "何か起きる前に声を掛けよう",
+    "simpleJp": "何か起きる前に声をかけよう",
     "jpGuide1": "何か起きる前に声を掛けよう",
     "jpGuide2": "・何か起きる前に声をかけよう",
     "enGuide": ""
   },
   {
-    "simpleJp": "ラファエロ、声を掛けて",
+    "simpleJp": "ラファエロ、声をかけて",
     "jpGuide1": "ラファエロ、声を掛けて",
     "jpGuide2": "・ラファエロ、声をかけて",
     "enGuide": ""
@@ -492,13 +486,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "おじいさん、レガーロを嫌いにならないでね",
+    "simpleJp": "おじいさんに宿と帰り道の手配を",
     "jpGuide1": "おじいさん、レガーロを嫌いにならないでね",
     "jpGuide2": "・おじいさんに宿と帰り道の手配を",
     "enGuide": ""
   },
   {
-    "simpleJp": "成長……したい",
+    "simpleJp": "敵にはならない",
     "jpGuide1": "成長……したい",
     "jpGuide2": "・敵にはならない",
     "enGuide": ""
@@ -524,23 +518,23 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "……大丈夫？",
+    "simpleJp": "大丈夫......？",
     "jpGuide1": "……大丈夫？",
     "jpGuide2": "・大丈夫......？",
     "enGuide": ""
   },
   {
-    "simpleJp": "リベルタも私も一緒に行く",
+    "simpleJp": "リベルタも私も一緒に行く......",
     "jpGuide1": "リベルタも私も一緒に行く",
     "jpGuide2": "・リベルタも私も一緒に行く......",
     "enGuide": ""
@@ -558,21 +552,21 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×□△",
+    "simpleJp": "XAXY",
     "jpGuide1": "[デュエロ]□×□△(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×□△（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAXY（成功）",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]研究室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -584,7 +578,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -594,7 +588,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "……いいの？",
+    "simpleJp": "いいの......？",
     "jpGuide1": "……いいの？",
     "jpGuide2": "・いいの......？",
     "enGuide": ""
@@ -608,7 +602,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]庭(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -620,13 +614,13 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]研究室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -654,7 +648,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "休暇中なんだから旅行でもしたら？",
+    "simpleJp": "休暇中なんだから旅行とかしたら？",
     "jpGuide1": "休暇中なんだから旅行でもしたら？",
     "jpGuide2": "・休暇中なんだから旅行とかしたら？",
     "enGuide": ""
@@ -680,11 +674,11 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]市場(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "ルカ！　肉！！",
+    "simpleJp": "ルカ！肉！！",
     "jpGuide1": "ルカ！　肉！！",
     "jpGuide2": "・ルカ！肉！！",
     "enGuide": ""
@@ -698,13 +692,13 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]厨房(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -716,25 +710,25 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]フィオーレ通り(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -770,7 +764,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]研究室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -792,7 +786,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "リモーネパイ、一緒に食べよう？",
+    "simpleJp": "コーヒー１杯分、一緒に話をしよう？",
     "jpGuide1": "リモーネパイ、一緒に食べよう？",
     "jpGuide2": "・コーヒー１杯分、一緒に話をしよう？",
     "enGuide": ""
@@ -812,7 +806,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]庭(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -822,7 +816,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "私と……ダンテが戦うことを望んでいる",
+    "simpleJp": "私と……ダンテが戦う事を望んでいる",
     "jpGuide1": "私と……ダンテが戦うことを望んでいる",
     "jpGuide2": "・私と......ダンテが戦う事を望んでいる",
     "enGuide": ""
@@ -834,9 +828,9 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "□×××□",
+    "simpleJp": "XAAAX",
     "jpGuide1": "[デュエロ]□×××□(成功)",
-    "jpGuide2": "▶︎【デュエロ】□×××□（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗XAAAX（成功）",
     "enGuide": ""
   },
   {
@@ -848,11 +842,11 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]研究室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "ルカとの約束があるからここで聞く",
+    "simpleJp": "ルカとの約束があるから、ここで聞く",
     "jpGuide1": "ルカとの約束があるからここで聞く",
     "jpGuide2": "・ルカとの約束があるから、ここで聞く",
     "enGuide": ""
@@ -872,23 +866,23 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]研究室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "ダンテ、聞きたいことが！",
+    "simpleJp": "ダンテ、聞きたい事が！",
     "jpGuide1": "ダンテ、聞きたいことが！",
     "jpGuide2": "・ダンテ、聞きたい事が！",
     "enGuide": ""
@@ -920,19 +914,19 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -948,7 +942,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "マンマも凄いと思う",
+    "simpleJp": "マンマもすごいと思う",
     "jpGuide1": "マンマも凄いと思う",
     "jpGuide2": "・マンマもすごいと思う",
     "enGuide": ""
@@ -956,7 +950,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -974,17 +968,17 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]廊下(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "さっきジョーリィに聞いたんだけど",
+    "simpleJp": "さっきジョーリィに聞いたんだけど......",
     "jpGuide1": "さっきジョーリィに聞いたんだけど",
     "jpGuide2": "・さっきジョーリィに聞いたんだけど......",
     "enGuide": ""
@@ -992,7 +986,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]剣待機室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -1028,25 +1022,25 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]研究室(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -1058,7 +1052,7 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]訓練場(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -1074,7 +1068,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "なんでそんな事がわかるの",
+    "simpleJp": "なんでそんな事がわかるの！？",
     "jpGuide1": "なんでそんな事がわかるの",
     "jpGuide2": "・なんでそんな事がわかるの！？",
     "enGuide": ""
@@ -1086,10 +1080,90 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ9",
+    "simpleJp": "セーブ5",
     "jpGuide1": "Save1",
     "jpGuide2": "▼SAVE1",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "誰かじゃなくて、みんなが大事......",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・誰かじゃなくて、みんなが大事......",
+    "enGuide": "",
+    "badEndPath": "ルカED2"
+  },
+  {
+    "simpleJp": "……パーパ",
+    "jpGuide1": "……パーパ",
+    "jpGuide2": "・......パーパ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パーパは......？",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "・パーパは......？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "リベルタ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗リベルタ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ノヴァ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "▶︎〖MAP〗ノヴァ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ",
+    "jpGuide1": "[MAP]訓練場(ルカ)",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "布は欲しいけど、ルカはどうかと思う",
+    "jpGuide1": "布は欲しいけどルカはどうかと思う",
+    "jpGuide2": "・布は欲しいけど、ルカはどうかと思う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんで怒るの？",
+    "jpGuide1": "なんで怒るの？",
+    "jpGuide2": "・なんで怒るの？",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカ",
+    "jpGuide1": "ルカ",
+    "jpGuide2": "▶︎〖Select〗ルカ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "AYAAXA",
+    "jpGuide1": "[デュエロ]×△××□×(成功)",
+    "jpGuide2": "▶︎〖デュエロ〗AYAAXA（成功）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "私も、ルカが好き......",
+    "jpGuide1": "私も……ルカが好き",
+    "jpGuide2": "・私も、ルカが好き......",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ルカED2",
+    "jpGuide1": "ルカED2",
+    "jpGuide2": "ルカED2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ5にロード",
+    "jpGuide1": "Save1より",
+    "jpGuide2": "▶️SAVE1より",
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "助けるために犠牲を出すのは嫌……",
@@ -1112,19 +1186,19 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]ルカ",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
     "simpleJp": "ルカ",
     "jpGuide1": "[MAP]訓練場(ルカ)",
-    "jpGuide2": "▶︎【MAP】ルカ",
+    "jpGuide2": "▶︎〖MAP〗ルカ",
     "enGuide": ""
   },
   {
@@ -1134,7 +1208,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "パーパーを助けたかった",
+    "simpleJp": "パーパを助けたかった",
     "jpGuide1": "パーパーを助けたかった",
     "jpGuide2": "・パーパを助けたかった",
     "enGuide": ""
@@ -1142,11 +1216,11 @@
   {
     "simpleJp": "ルカ",
     "jpGuide1": "ルカ",
-    "jpGuide2": "▶︎【Select】ルカ",
+    "jpGuide2": "▶︎〖Select〗ルカ",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ10",
+    "simpleJp": "セーブ6",
     "jpGuide1": "Save2",
     "jpGuide2": "▼SAVE2",
     "enGuide": ""
@@ -1154,7 +1228,7 @@
   {
     "simpleJp": "失敗",
     "jpGuide1": "[デュエロ](失敗)",
-    "jpGuide2": "▶︎【デュエロ】失敗",
+    "jpGuide2": "▶︎〖デュエロ〗失敗",
     "enGuide": "",
     "badEndPath": "ルカED3"
   },
@@ -1165,20 +1239,26 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ10にロード",
+    "simpleJp": "ルカED3",
+    "jpGuide1": "ルカED3",
+    "jpGuide2": "ルカED3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ6にロード",
     "jpGuide1": "Save2より",
     "jpGuide2": "▶️SAVE2より",
     "enGuide": "",
     "isLoad": true
   },
   {
-    "simpleJp": "×△××□×",
+    "simpleJp": "AYAAXA",
     "jpGuide1": "[デュエロ]×△××□×(成功)",
-    "jpGuide2": "▶︎【デュエロ】×△××□×（成功）",
+    "jpGuide2": "▶︎〖デュエロ〗AYAAXA（成功）",
     "enGuide": ""
   },
   {
-    "simpleJp": "このおしゃべりな口をふさぐには",
+    "simpleJp": "このおしゃべりな口をふさぐには......",
     "jpGuide1": "このおしゃべりな口をふさぐには",
     "jpGuide2": "・このおしゃべりな口をふさぐには......",
     "enGuide": ""

@@ -906,16 +906,16 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "子どもは好き？",
+    "simpleJp": "ずっと心配だった",
     "jpGuide1": "子どもは好き？",
-    "jpGuide2": "・子どもは好き？",
-    "enGuide": ""
+    "jpGuide2": "・ずっと心配だった",
+    "enGuide": "Rinato/Switch Set B gives this as the 5/22 answer. Ancora/Vita Set A instead lists 「子どもは好き？」 on 5/22; that wording belongs only to the Set-A evidence lane. Follow the Switch wording here."
   },
   {
     "simpleJp": "無理ならいい……",
     "jpGuide1": "無理ならいい……",
     "jpGuide2": "・無理ならいい......",
-    "enGuide": "Rinato/Switch Set B proceeds to this step without documenting the preceding Ancora/Vita Set-A prompt 「……答えられない」. Do not wait for that prompt; if it actually appears in your playthrough, choose the Set-A answer shown here. Its exact same-state Switch appearance remains unverified."
+    "enGuide": ""
   },
   {
     "simpleJp": "ファミリーのみんなが家族",
@@ -970,6 +970,12 @@
     "jpGuide1": "[MAP]ビヴァーチェ広場(ノヴァ)",
     "jpGuide2": "▶︎〖MAP〗ノヴァ",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "子どもは好き？",
+    "jpGuide1": "……答えられない",
+    "jpGuide2": "・子どもは好き？",
+    "enGuide": "5/23 Rinato/Switch Set B chooses 「子どもは好き？」 after the Nova MAP; Ancora/Vita Set A instead chooses 「……答えられない」 on 5/23. These are source-specific, dated alternatives, not a prompt missing before the 5/22 「無理ならいい……」 action. Follow the Switch text; same-state appearance of the older choice is not independently verified."
   },
   {
     "simpleJp": "ノヴァ",

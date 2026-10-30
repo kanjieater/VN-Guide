@@ -144,6 +144,54 @@
       "title": "アルカナファミリア ダンテ 攻略 〖Switch PS VITA〗 — 乙女ゲー攻略帳",
       "language": "ja",
       "notes": "Supplemental Dante ED1–3 and Normal ED path: 4/3 goes directly to Luca MAP. Normal ED (Switch版) explicitly starts from the author's Save1 (5/26), changes the 5/27–5/31 MAP visits, then prints 6/1 duel XXXYAX(Switch版) → 何も失いたくない。でも、パーパも失えない → 第10のカード. A separate Vita Normal ED section also prints the prompt. This directly contradicts an assertion of universal Switch omission, but the preceding Save1 path is not equivalent to this guide's Save14 / ruRi Save2 skip state; same-state appearance remains unverified."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-332.html",
+      "title": "アルカナ・ファミリア Ancora 攻略 index (王子とか勇者とか（仮）)",
+      "language": "ja",
+      "notes": "Supplemental independent Japanese PS Vita Ancora index linking all seven character guides; directly inspected. Its separate all-clears Normal ED instruction starts from 5/31 night scenario skip to 6/1 duel and tenth card without printing choro's post-duel extra choice. This is not Switch or same-state proof."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-325.html",
+      "title": "アルカナ・ファミリア Ancora リベルタ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Liberta path: 4/2 has 何かあるの？; 4/3 proceeds directly to 剣待機室 MAP and the Luca choices, without a second 何かあるの？. This supports the Rinato Set-B operational sequence but does not establish identical hidden playthrough flags."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-326.html",
+      "title": "アルカナ・ファミリア Ancora ノヴァ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Nova route: 5/22 main event offers ずっと心配だった, and 5/23 ビヴァーチェ広場 event offers 子どもは好き？, matching Rinato Set B's dated positions; choro Set A instead prints 子どもは好き？ on 5/22 and ……答えられない on 5/23. Also omits choro's duplicate 4/3 何かあるの？; no Switch same-state capture is claimed."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-327.html",
+      "title": "アルカナ・ファミリア Ancora デビト 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Debito path; 4/3 advances from the 剣待機室 MAP to the Luca choices without a second 何かあるの？. Separate Vita source, not Switch gameplay proof."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-328.html",
+      "title": "アルカナ・ファミリア Ancora パーチェ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Parche path: 4/3 directly enters 剣待機室; 4/6 has ちょっとおもしろそう during the Parche 玄関ホール event and 4/7 only the MAP. Supports the Rinato Set-B date placement, but different earlier decisions cannot certify all prompt conditions."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-329.html",
+      "title": "アルカナ・ファミリア Ancora ルカ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Luca route; 4/3 has 剣待機室 MAP followed by choices, no second 何かあるの？. This is independent Ancora corroboration, not exact Switch play-state verification."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-330.html",
+      "title": "アルカナ・ファミリア Ancora ダンテ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Dante route: 4/3 goes directly to 剣待機室 MAP, without duplicate 何かあるの？. For Normal ED the same author's index has a 5/31 skip followed by 6/1 duel/tenth-card action and does not print the optional post-duel prompt; this cannot establish exact Switch Save14 conditions."
+    },
+    {
+      "url": "https://pandaihuku.blog.fc2.com/blog-entry-331.html",
+      "title": "アルカナ・ファミリア Ancora ジョーリィ 攻略 (pandaihuku)",
+      "language": "ja",
+      "notes": "Supplemental directly inspected Vita Jolly route: 4/3 directly proceeds to 剣待機室 MAP and choices, without duplicate 何かあるの？. No claim that this guide reproduces the Rinato route's entire previous-playthrough state."
     }
   ],
   "generated_at": "2026-10-08T06:52:08Z",

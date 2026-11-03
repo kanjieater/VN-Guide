@@ -1,0 +1,275 @@
+[
+  {
+    "simpleJp": "……",
+    "jpGuide1": "「……」",
+    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
+    "enGuide": "Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ひどい顔だぞ",
+    "jpGuide1": "「ひどい顔だぞ」",
+    "jpGuide2": "ひどい顔だぞ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…戻ってくるかも知れないだろ",
+    "jpGuide1": "「…戻ってくるかも知れないだろ」",
+    "jpGuide2": "…戻ってくるかも知れないだろ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "耐えられなくなって叫ぶ",
+    "jpGuide1": "※「耐えられなくなって叫ぶ」ケイスケBAD END1",
+    "jpGuide2": "耐える　／耐えられなくなって叫ぶ　→bad1",
+    "enGuide": "Keisuke BAD END 1. This is a terminal ending, not a recoverable choice.",
+    "badEndPath": "ケイスケ BAD END 1"
+  },
+  {
+    "simpleJp": "ケイスケ BAD END1",
+    "jpGuide1": "ケイスケBAD END1",
+    "jpGuide2": "bad1",
+    "enGuide": "End of this playthrough."
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "「……」",
+    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ひどい顔だぞ",
+    "jpGuide1": "「ひどい顔だぞ」",
+    "jpGuide2": "ひどい顔だぞ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…戻ってくるかも知れないだろ",
+    "jpGuide1": "「…戻ってくるかも知れないだろ」",
+    "jpGuide2": "…戻ってくるかも知れないだろ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "耐える",
+    "jpGuide1": "「耐える」",
+    "jpGuide2": "耐える　／耐えられなくなって叫ぶ　→bad1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パンを手に取る",
+    "jpGuide1": "「パンを手に取る」アルビトロBAD END",
+    "jpGuide2": "パンを手に取らない　／パンを手に取る　→bad2",
+    "enGuide": "Arbitro BAD END (third non-romance bad ending).",
+    "badEndPath": "アルビトロ BAD END"
+  },
+  {
+    "simpleJp": "アルビトロ BAD END",
+    "jpGuide1": "アルビトロBAD END",
+    "jpGuide2": "bad2",
+    "enGuide": "End of this playthrough."
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "「……」",
+    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ひどい顔だぞ",
+    "jpGuide1": "「ひどい顔だぞ」",
+    "jpGuide2": "ひどい顔だぞ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…戻ってくるかも知れないだろ",
+    "jpGuide1": "「…戻ってくるかも知れないだろ」",
+    "jpGuide2": "…戻ってくるかも知れないだろ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "耐える",
+    "jpGuide1": "「耐える」",
+    "jpGuide2": "耐える　／耐えられなくなって叫ぶ　→bad1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パンを手に取らない",
+    "jpGuide1": "「パンを手に取らない」",
+    "jpGuide2": "パンを手に取らない　／パンを手に取る　→bad2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "判らない",
+    "jpGuide1": "※「判らない」ケイスケBAD END2",
+    "jpGuide2": "・・・・・　／判らない　→bad3",
+    "enGuide": "Keisuke BAD END 2.",
+    "badEndPath": "ケイスケ BAD END 2"
+  },
+  {
+    "simpleJp": "ケイスケ BAD END2",
+    "jpGuide1": "ケイスケBAD END2",
+    "jpGuide2": "bad3",
+    "enGuide": "End of this playthrough."
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "「……」",
+    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ひどい顔だぞ",
+    "jpGuide1": "「ひどい顔だぞ」",
+    "jpGuide2": "ひどい顔だぞ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…戻ってくるかも知れないだろ",
+    "jpGuide1": "「…戻ってくるかも知れないだろ」",
+    "jpGuide2": "…戻ってくるかも知れないだろ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "耐える",
+    "jpGuide1": "「耐える」",
+    "jpGuide2": "耐える　／耐えられなくなって叫ぶ　→bad1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "パンを手に取らない",
+    "jpGuide1": "「パンを手に取らない」",
+    "jpGuide2": "パンを手に取らない　／パンを手に取る　→bad2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……",
+    "jpGuide1": "「……」ケイスケEND",
+    "jpGuide2": "・・・・・　／判らない　→bad3",
+    "enGuide": "This ending completes Keisuke's GOOD-clear flag, needed for Nano."
+  },
+  {
+    "simpleJp": "ケイスケ GOOD END",
+    "jpGuide1": "ケイスケEND",
+    "jpGuide2": "GOODEND",
+    "enGuide": "Keisuke's only good ending; complete. Any missing Keisuke CG is obtained in Nano's final route."
+  }
+]

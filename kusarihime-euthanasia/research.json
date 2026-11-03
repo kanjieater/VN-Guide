@@ -1,0 +1,115 @@
+{
+  "title": "Kusarihime ~Euthanasia~",
+  "vndb_id": "v37",
+  "guide_target": {
+    "label": "Liar-soft Selection 01 腐り姫 ～euthanasia～ (2015-11-27, LIRS-001)",
+    "platform": "Windows (DVD)",
+    "url": "https://www.prop.gr.jp/id107359_2.html"
+  },
+  "routes": [
+    {
+      "id": "true_end",
+      "title": "１周目・TRUE END",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": true,
+      "notes": "This is one continuous playthrough through multiple 4-day story loops (the repeated title-menu 本編からはじめる transitions are NOT interchangeable with replay-from-beginning/記憶を失う). Source A supplies the full run and three consecutive CG-cleanup phases. Independent Japanese Set-B source (rarin) supplies an alternative TRUE END path but materially diverges at multiple choice texts/positions. Do not assert that the alternate path is equivalent until both are reconciled for the target edition. This is an ending section rather than a romance-character route; no route portrait needed. The first playthrough ending is documented to unlock the five-part 狐の嫁入り bonus; verify target-edition behavior before writing steps."
+    },
+    {
+      "id": "end_1",
+      "title": "２周目・END1",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Second fresh overall playthrough after the in-game 既視感→記憶を失う reset. Source A has a complete choice list, source-documented saves 2 and 3 with alternative-scene/CG retrieval, successive 本編からはじめる transitions, END1 terminal, and later CG cleanup. Existing independent Japanese B sources confirm the existence of the alternate ending and resets but NOT every main-route-defining choice/ending condition, so the source gate is blocked for this section. No artificial prerequisite to TRUE END is asserted; the listed order is a proven walkthrough ordering, not a claimed game unlock."
+    },
+    {
+      "id": "end_2",
+      "title": "３周目・END2",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Third fresh overall playthrough following a second 既視感→記憶を失う reset. Source A has a complete choice list through END2, using no further new saves. Independent Japanese B sources corroborate the third named ending and the reset mechanic, but not the route's full choice sequence or main ending condition. Not safe to generate route steps yet. Neither END1 nor END2 is a named heroine-route unlock."
+    }
+  ],
+  "recommended_order": [
+    "true_end",
+    "end_1",
+    "end_2"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://sagaoz.net/foolmaker/game/k/euthanasia.html",
+      "title": "腐り姫 攻略 by 愚者の館（アーカイブ）",
+      "language": "ja",
+      "notes": "Directly inspected entire page, authored Fool, last updated 2004-02-12. Tested version labelled 不明（修正後） (patched original, NOT 2015 Selection edition). Three separate complete choice sequences (TRUE END, END1, END2), in-game 本編からはじめる continuation between loops, explicit 既視感→記憶を失う run resets, saves 1-3 with branches for scene/CG completion, and post-terminal CG cleanup. Says TRUE END (possibly all endings) unlocks 狐の嫁入り 5 episodes. Does not establish exact 2015 edition choice compatibility."
+    },
+    {
+      "set": "B",
+      "url": "https://www5a.biglobe.ne.jp/~rarin/ra/euthanasia.html",
+      "title": "腐り姫 True End への道",
+      "language": "ja",
+      "notes": "Independent Japanese choice-by-choice TRUE END walkthrough, directly inspected. Lists chapters 第一殻–第四殻 and numerous concrete choices. Does NOT cover END1/END2 or all CG-recovery steps. Its TRUE END path differs materially from Set A at early telephone, town-policy, mother-identification, and other choices; whether these are equivalent valid alternatives, branching scene variants, or source-version changes is UNRESOLVED. Applicable release also unlabelled, not confirmed to 2015 Selection."
+    },
+    {
+      "set": "B",
+      "url": "https://aon-kabocya.hatenablog.com/entry/2021/05/17/093110",
+      "title": "〖腐り姫 ～euthanasia～〗感想 - ひっそりと群生",
+      "language": "ja",
+      "notes": "Independently inspected Japanese full-play account confirms three named endings and TRUE END→END1→END2 completion order plus replay with 盲点. Does not give END1/END2's full route-defining choices. B supporting context only, not a complete END1/END2 verification set."
+    },
+    {
+      "set": "B",
+      "url": "https://www.netlaputa.ne.jp/~gk-home/kansou-kusarihime.html",
+      "title": "腐り姫（ライアーソフト） - プレイ感想",
+      "language": "ja",
+      "notes": "Independent early Japanese first-hand technical report: ending completion makes normal 本編からはじめる unable to advance, 既視感→記憶を失う resets saves/progression, loaded saves may be reinterpreted by flags, and CG/story completion requires multiple runs. Does not independently provide precise ending routes."
+    },
+    {
+      "set": "B",
+      "url": "https://honjo-zo.hatenablog.com/entry/20030401/1049122800",
+      "title": "Liar-Soft 「腐り姫」 - 本条蔵",
+      "language": "ja",
+      "notes": "Independent Japanese player advice: 盲点 must be enabled for CG completion in the original patched game; early edition could block at 第二殻 without official patch, and read-skip survives reset only after patch. Not a complete choice-route source."
+    },
+    {
+      "url": "https://www.liar.co.jp/selection.html",
+      "title": "Liar-soft Selection official series page",
+      "language": "ja",
+      "notes": "Directly inspected official publisher page labels Selection No.01 腐り姫 and frames the Selection line as newly packaged legacy games. This helps justify targeting Selection 01, but does not explicitly guarantee byte-for-byte story/choice equivalence to the 2002 patched walkthrough."
+    },
+    {
+      "url": "https://www.prop.gr.jp/id107359_2.html",
+      "title": "Liar-soft Selection 01 腐り姫 product listing (2015-11-27)",
+      "language": "ja",
+      "notes": "Directly inspected release-specific merchant listing; identifies Windows DVD 2015-11-27 and supplies the exact Selection edition cover via https://www.prop.gr.jp/image/pcimage/107359.jpg (opened and visually checked). Chosen as exact guide_target URL because a suitable VNDB r... URL was not directly obtainable/verified."
+    },
+    {
+      "url": "https://www.suruga-ya.jp/product/detail/145052380",
+      "title": "駿河屋 Liar-soft Selection 01 product LIRS-001",
+      "language": "ja",
+      "notes": "Independent Japanese release listing confirms publisher, 2015-11-27 date, and product model LIRS-001."
+    },
+    {
+      "url": "https://www.liar.co.jp/kusari.html",
+      "title": "腐り姫修正差分ファイル - Liar-soft official",
+      "language": "ja",
+      "notes": "Directly inspected official 2002 original patch notices. March 2002 patch fixes 盲点 behavior and preserves read-state across 記憶を失う, but previous saves are incompatible. This is original-release patch context and DOES NOT establish 2015 Selection route equivalence."
+    },
+    {
+      "url": "https://www.gtaku.net/vngameinfo/48576",
+      "title": "Kusarihime release list (VNDB-derived metadata)",
+      "language": "en",
+      "notes": "Public release aggregation lists native Japanese official Windows editions 2002-02-08, 2007-09-14, 2015-11-27, with no later official complete Japanese edition listed; supports newest Japanese release policy but is not a substitute for an exact VNDB release page. Exact r-ID not verified."
+    },
+    {
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/kusarihime-euthanasia-euthanasia",
+      "title": "Repost of 愚者の館 walkthrough",
+      "language": "ja",
+      "notes": "Directly inspected exact-sequence mirror of Fool's Set A; explicitly EXCLUDED as independent Set B. It reproduces the same list and ending structure."
+    }
+  ],
+  "disagreements": "RESEARCH GATE BLOCKED — do not generate route_*.json or assemble guide.json. Exact selected target is the 2015 Liar-soft Selection 01 Windows DVD release, the latest official complete Japanese release identified. Set A was tested on a patched original 2002 Windows build; no directly inspected independent comparison establishes the 2015 repackage uses identical literal in-game choices, flag progression, save/replay behavior and CG collection. The independent Japanese TRUE END guide (rarin) has different early and middle choices from Fool; their alternate-path equivalence is unresolved. For END1 and END2, no independent Japanese source inspected reproduces all route-defining choices and ending conditions, so Set B coverage is incomplete. The apparent additional lastcharles walkthrough is a copy of Set A, not independent. Do not invent non-main endings or badEndPath: sources give only three main terminals and source-backed CG branches, not a verified fourth bad ending path. The proposed routes are ending-centric (not heroine romance routes); recurring 本編からはじめる transitions during each complete run are story continuation, whereas 既視感→記憶を失う AFTER an ending is a destructive new-run boundary. Preserve the distinction: ordinary save/load is unreliable across route flags/resets, and a guide should never suggest loading from a previous run after 記憶を失う. The guide must preserve CG-cleanup and 盲点 advice without presenting the optional comedy content as a true-route prerequisite. The exact 2015 cover is verified from the release-specific retailer and populated. Portrait lookup: these three sections represent ending types rather than character routes; a character portrait is not relevant and is intentionally blank. catalog.json alone is a draft/incomplete registration: current tools/catalog.mjs requires matching guide.json, so this research PR is not mergeable until the authoring source gate and route generation are completed.",
+  "generated_at": "2026-11-03T22:45:00Z"
+}

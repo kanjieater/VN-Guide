@@ -39,6 +39,8 @@ Before writing any route:
 
 Do not count inaccessible pages, translations, or derivatives as an independent primary set.
 
+**Use written Japanese sources only for walkthrough verification.** Never use gameplay videos, streams, footage, video frames, captions/transcripts or upload descriptions as Set A/B evidence. Do not send research into a video-investigation workflow when the written-source gate fails; document the blocker instead.
+
 ## Route-generation rules
 
 Before submitting the **current route**, confirm:

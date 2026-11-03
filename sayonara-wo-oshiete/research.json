@@ -1,0 +1,114 @@
+{
+  "title": "Sayonara o Oshiete ~Comment te Dire Adieu~",
+  "vndb_id": "v1200",
+  "guide_target": {
+    "label": "さよならを教えて ～comment te dire adieu～ ダウンロード版 (DLsite VJ009745, 2016-01-29)",
+    "platform": "Windows",
+    "url": "https://www.dlsite.com/pro/work/=/product_id/VJ009745.html"
+  },
+  "routes": [
+    {
+      "id": "mutsuki",
+      "title": "巣鴨睦月ルート",
+      "portrait": "https://cdn.ymgal.games/archive/main/0f/0f89d56708da4cb0b14f97cd68208da9.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts from day-4 save 1, places day-9 save 2, and ends on day 11. Its save 2 is reused by Mahiru. Portrait inspected on YMGal character record ca87306. Not yet confirmed for the 2016 target."
+    },
+    {
+      "id": "mahiru",
+      "title": "田町まひるルート",
+      "portrait": "https://cdn.ymgal.games/archive/main/73/73bd744d30354ba58f06ee0a3c80db60.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 2 on day 9 and ends on day 11. Source-backed save dependency is an efficient walkthrough checkpoint, not a heroine unlock requirement. Portrait inspected on YMGal character record ca98709. Not yet confirmed for the 2016 target."
+    },
+    {
+      "id": "nozomi",
+      "title": "高田望美ルート",
+      "portrait": "https://store.ymgal.games/archive/main/aa/aabe82db2e58454d93b18e9018d8c383.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 1 on day 4 and ends on day 11. Portrait inspected on YMGal character record ca87304. Not yet confirmed for the 2016 target."
+    },
+    {
+      "id": "miyuki",
+      "title": "目黒御幸ルート",
+      "portrait": "https://cdn.ymgal.games/archive/main/e9/e95a8515cffa4487a92315461bf4ab0a.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 1 on day 4, makes save 3 on day 9, and ends on day 11. Save 3 is reused by Koyori. Portrait inspected on YMGal character record ca98713. Not yet confirmed for the 2016 target."
+    },
+    {
+      "id": "koyori",
+      "title": "上野こよりルート",
+      "portrait": "https://cdn.ymgal.games/archive/main/c4/c49c48f6b3b54b75b4fbb10613f52934.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 3 on day 9 and ends on day 11. Portrait inspected on YMGal character record ca98715. Not yet confirmed for the 2016 target."
+    }
+  ],
+  "recommended_order": [
+    "mutsuki",
+    "mahiru",
+    "nozomi",
+    "miyuki",
+    "koyori"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://shisnap.iza-yoi.net/game/pc/sayonara.htm",
+      "title": "さよならを教えて 攻略 (shisnap)",
+      "language": "ja",
+      "notes": "Directly inspected detailed Japanese PC walkthrough: common days 1-3, day-4 save, all five heroine routes and day-9 branch choices, day-11 endings, three save positions and one CG variant note. The walkthrough does not name its edition explicitly and appears to reflect the original Windows PC game; direct applicability of its literal choices and all ending behavior to the 2016 DLsite download edition remains UNVERIFIED."
+    },
+    {
+      "set": "B",
+      "url": "https://note.com/kksk/n/nc4029dec3472",
+      "title": "『さよならを教えて』（2001）プレイ感想 (kqck)",
+      "language": "ja",
+      "notes": "Independent Japanese first-hand play log, directly inspected. Corroborates heroine-specific branching and a failed/normal bad-end experience, but DOES NOT reproduce all route-defining choices, prerequisites, or five ending sequences. CANDIDATE ONLY: DOES NOT SATISFY SET-B RESEARCH GATE."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/gcmatome/pages/932.html",
+      "title": "さよならを教えて ～comment te dire adieu～ (ゲームカタログ@Wiki)",
+      "language": "ja",
+      "notes": "Independent Japanese structural/release context, including five target girls and differences between 2001/2011/2016 releases. Does not include all exact route choices or endings. Supplementary B component only, not a qualifying Set B."
+    },
+    {
+      "set": "B",
+      "url": "https://ameblo.jp/ram1ko/entry-12762015780.html",
+      "title": "さよならを教えて | みこりすと",
+      "language": "ja",
+      "notes": "Independent Japanese completed-playthrough report lists five heroine routes and a personal completion order, but not a full actionable choice-by-choice guide. Cannot fill the Set-B gate."
+    },
+    {
+      "url": "https://www.dlsite.com/pro/work/=/product_id/VJ009745.html",
+      "title": "DLsite VJ009745 (Windows download edition)",
+      "language": "ja",
+      "notes": "Exact-edition product identifier/URL. Direct page inspection blocked by browsing, but multiple independently inspected Japanese pages reproduce and link this exact product number. The 2016 edition uses a rewritten Windows 10 compatible engine and changes some presentation effects; its exact choice sequences and CG equivalence to the original PC edition still need verification."
+    },
+    {
+      "url": "https://w.atwiki.jp/freegameworld/pages/118.html",
+      "title": "さよならを教えて (ゲームなんでも評価wiki)",
+      "language": "ja",
+      "notes": "Japanese release/platform reference confirms the original Windows package (2001), BD-PG (2011), and Windows DLsite edition (2016-01-29). Does not supply route steps."
+    },
+    {
+      "url": "https://www.ymgal.games/ja/ga10623",
+      "title": "YMGal game/release/character listing",
+      "language": "ja",
+      "notes": "Structured game database used to check the newest native-Japanese official complete Windows release and identify route characters. Portraits verified by opening the respective YMGal character records and image links: ca87306, ca98709, ca87304, ca98713, ca98715."
+    },
+    {
+      "url": "https://programmingfestival.jp/vj009745/",
+      "title": "DLsite product mirror/description VJ009745",
+      "language": "ja",
+      "notes": "Directly inspected Japanese summary quoting the download edition's Windows 10 engine rewrite, presentation changes, and added message-back/load behavior. Product art lookup attempted here and on image search, but no reliably attributable exact-edition cover could be verified."
+    }
+  ],
+  "disagreements": "RESEARCH GATE BLOCKED. Set A is a complete Japanese walkthrough for the older Windows PC version, but edition-specific confirmation of the 2016 DLsite Windows download edition's exact choices and endings is not available. The independent Japanese B components are player impressions/structural context, not an exhaustive actionable walkthrough: they do not independently verify every main-route-defining choice, prerequisite, and main ending. Therefore do not generate route_*.json, do not assemble a player-facing guide.json, and do not mark this game reviewed until an independently inspectable complete Japanese Set B and exact edition equivalence are established. Set A documents five route terminals but no reproducible non-main bad-ending detours; other Japanese reports mention bad endings without enough choice-level information, so do not invent detours. Proposed order mirrors Set A solely to reuse its documented saves 1-3; no source-established mandatory heroine unlock order. Exact 2016-edition cover lookup attempted via DLsite-linked pages and image search; only work-level/original-era artwork found, no directly verified 2016-edition cover, so catalog.cover_url intentionally remains empty. Because catalog.json is new, its research-only draft PR is NOT merge-ready: tools/catalog.mjs currently requires the matching guide.json, which should only be assembled after the source gate passes.",
+  "generated_at": "2026-11-03T22:37:20.927Z"
+}

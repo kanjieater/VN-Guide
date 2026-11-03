@@ -1,0 +1,232 @@
+[
+  {
+    "simpleJp": "やっぱりダメだ",
+    "jpGuide1": "「やっぱりダメだ」",
+    "jpGuide2": "やっぱりダメだ",
+    "enGuide": "Requires a prior Rin GOOD clear; Shiki's branching choices otherwise will not appear."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何も言わない",
+    "jpGuide1": "「何も言わない」",
+    "jpGuide2": "何も言わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一体何者だろう",
+    "jpGuide1": "「一体何者だろう」",
+    "jpGuide2": "一体何者だろう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目を逸らさない",
+    "jpGuide1": "「目を逸らさない」",
+    "jpGuide2": "目を逸らさない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…ほっとけよ",
+    "jpGuide1": "「…ほっとけよ」",
+    "jpGuide2": "…ほっとけよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "叫ぶ",
+    "jpGuide1": "※「叫ぶ」シキBAD END1",
+    "jpGuide2": "声を飲みこむ　／叫ぶ → end1",
+    "enGuide": "Shiki BAD END 1.",
+    "badEndPath": "シキ BAD END 1"
+  },
+  {
+    "simpleJp": "シキ BAD END1",
+    "jpGuide1": "シキBAD END1",
+    "jpGuide2": "end1",
+    "enGuide": "End of this playthrough."
+  },
+  {
+    "simpleJp": "やっぱりダメだ",
+    "jpGuide1": "「やっぱりダメだ」",
+    "jpGuide2": "やっぱりダメだ",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何も言わない",
+    "jpGuide1": "「何も言わない」",
+    "jpGuide2": "何も言わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一体何者だろう",
+    "jpGuide1": "「一体何者だろう」",
+    "jpGuide2": "一体何者だろう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目を逸らさない",
+    "jpGuide1": "「目を逸らさない」",
+    "jpGuide2": "目を逸らさない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…ほっとけよ",
+    "jpGuide1": "「…ほっとけよ」",
+    "jpGuide2": "…ほっとけよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "声を飲みこむ",
+    "jpGuide1": "「声を飲みこむ」",
+    "jpGuide2": "声を飲みこむ　／叫ぶ → end1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "見ている事ができない",
+    "jpGuide1": "※「見ている事ができない」シキBAD END2",
+    "jpGuide2": "見ている事ができない　／違う → end2",
+    "enGuide": "Shiki BAD END 2.",
+    "badEndPath": "シキ BAD END 2"
+  },
+  {
+    "simpleJp": "シキ BAD END2",
+    "jpGuide1": "シキBAD END2",
+    "jpGuide2": "end2",
+    "enGuide": "End of this playthrough."
+  },
+  {
+    "simpleJp": "やっぱりダメだ",
+    "jpGuide1": "「やっぱりダメだ」",
+    "jpGuide2": "やっぱりダメだ",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何も言わない",
+    "jpGuide1": "「何も言わない」",
+    "jpGuide2": "何も言わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "一体何者だろう",
+    "jpGuide1": "「一体何者だろう」",
+    "jpGuide2": "一体何者だろう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目を逸らさない",
+    "jpGuide1": "「目を逸らさない」",
+    "jpGuide2": "目を逸らさない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…ほっとけよ",
+    "jpGuide1": "「…ほっとけよ」",
+    "jpGuide2": "…ほっとけよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "声を飲みこむ",
+    "jpGuide1": "「声を飲みこむ」",
+    "jpGuide2": "声を飲みこむ　／叫ぶ → end1",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "違う",
+    "jpGuide1": "「違う」",
+    "jpGuide2": "見ている事ができない　／違う → end2",
+    "enGuide": "Shiki GOOD END. This is the third Shiki ending reported by HalfAdder; required for Nano."
+  },
+  {
+    "simpleJp": "シキ GOOD END",
+    "jpGuide1": "シキEND",
+    "jpGuide2": "end3",
+    "enGuide": "Shiki's GOOD-clear condition is now satisfied."
+  }
+]

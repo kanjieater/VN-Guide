@@ -3,13 +3,13 @@
     "simpleJp": "既視感",
     "jpGuide1": "「既視感」から「記憶を失う」後、開始",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "After the previous full ending AND its optional CG epilogue, use the title screen's 「既視感」 menu. WARNING: this starts a destructive replay reset, not another four-day loop."
+    "enGuide": "The previous full story ending has completed. After the (source-documented) no-choice CG epilogue, select title-menu 「既視感」 to begin another complete playthrough. This is an actual replay boundary, NOT a normal four-day continuation. Set A prints this before the second/third complete run. If you are here as a fallback because the TRUE option did not appear, follow this sequence from a fresh run after the ending you could select; don't pretend that TRUE has been cleared."
   },
   {
     "simpleJp": "記憶を失う",
     "jpGuide1": "「既視感」から「記憶を失う」後、開始",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Confirm memory reset. Old per-run saves/flags are not safe to load after this. Gallery completion remains recorded according to the official 2002 patched edition; verify the 2015 Selection behavior."
+    "enGuide": "Choose 「記憶を失う」 to wipe current run progression/saves and begin from the opening; the official patched-2002 notice says gallery/scene records survive, but 2015 Selection-specific parity remains untested. Do not use a save made before this reset. For eventual 100% CG, keep Config 「盲点」 ON through any full repeat run if it was OFF previously."
   },
   {
     "simpleJp": "ラジオを止めないと……",

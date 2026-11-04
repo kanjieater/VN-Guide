@@ -1,0 +1,272 @@
+[
+  {
+    "simpleJp": "既視感",
+    "jpGuide1": "「既視感」から「記憶を失う」後、開始",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After the previous full ending AND its optional CG epilogue, use the title screen's 「既視感」 menu. WARNING: this starts a destructive replay reset, not another four-day loop."
+  },
+  {
+    "simpleJp": "記憶を失う",
+    "jpGuide1": "「既視感」から「記憶を失う」後、開始",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Confirm memory reset. Old per-run saves/flags are not safe to load after this. Gallery completion remains recorded according to the official 2002 patched edition; verify the 2015 Selection behavior."
+  },
+  {
+    "simpleJp": "ラジオを止めないと……",
+    "jpGuide1": "ラジオを止めないと……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "…………",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "………………",
+    "jpGuide1": "………………",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……潤に連れ帰ってもらおう。",
+    "jpGuide1": "……潤に連れ帰ってもらおう。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり、旅館まで送っていこう。",
+    "jpGuide1": "やっぱり、旅館まで送っていこう。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "樹里のことを話す。",
+    "jpGuide1": "樹里のことを話す。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "母さんに目が釘付け",
+    "jpGuide1": "母さんに目が釘付け",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "開けて注意する",
+    "jpGuide1": "開けて注意する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "…………",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………も、もう少し……",
+    "jpGuide1": "…………も、もう少し……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "伊勢に謝らないと……",
+    "jpGuide1": "伊勢に謝らないと……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…伊勢ッ！",
+    "jpGuide1": "…伊勢ッ！",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おもむろにスイッチオン",
+    "jpGuide1": "おもむろにスイッチオン",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "米軍誘致でしょう",
+    "jpGuide1": "米軍誘致でしょう",
+    "jpGuide2": "米軍誘致でしょう",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "待って。今、電気灯ける。",
+    "jpGuide1": "待って。今、電気灯ける。",
+    "jpGuide2": "待って。今、電気灯ける。",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分に素直になるのは難しいさ。",
+    "jpGuide1": "自分に素直になるのは難しいさ。",
+    "jpGuide2": "自分に素直になるのは難しいさ。",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気持ちだけでいっぱいだよ。",
+    "jpGuide1": "気持ちだけでいっぱいだよ。",
+    "jpGuide2": "気持ちだけでいっぱいだよ。",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here. This loop has no dialogue choices; continue until the next title/menu transition."
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "芳野さんだ",
+    "jpGuide1": "芳野さんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "自分の暗い過去を感じた",
+    "jpGuide1": "自分の暗い過去を感じた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつだって姉さんを許すよ",
+    "jpGuide1": "いつだって姉さんを許すよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "心地よい幸せを感じた",
+    "jpGuide1": "心地よい幸せを感じた",
+    "jpGuide2": "心地よい幸せを感じた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ためらうことはない",
+    "jpGuide1": "ためらうことはない",
+    "jpGuide2": "ためらうことはない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "「会う」",
+    "jpGuide1": "「会う」",
+    "jpGuide2": "「会う」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「肯定する」",
+    "jpGuide1": "「肯定する」",
+    "jpGuide2": "「肯定する」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「僕は樹里を信じる」",
+    "jpGuide1": "「僕は樹里を信じる」",
+    "jpGuide2": "「僕は樹里を信じる」",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "青磁との絆を感じた",
+    "jpGuide1": "青磁との絆を感じた",
+    "jpGuide2": "青磁との絆を感じた",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「する」",
+    "jpGuide1": "「する」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「自分から彼女をむさぼる」",
+    "jpGuide1": "「自分から彼女をむさぼる」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "このまま夢に身を任す。",
+    "jpGuide1": "このまま夢に身を任す。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「さらに樹里の体をむさぼる」",
+    "jpGuide1": "「さらに樹里の体をむさぼる」",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here. This loop has no dialogue choices; continue until the next title/menu transition."
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "潤にキスをした",
+    "jpGuide1": "潤にキスをした",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "どうなるか分からないから面白い",
+    "jpGuide1": "どうなるか分からないから面白い",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here. This loop has no dialogue choices; continue until the next title/menu transition."
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "お開きにしよう。",
+    "jpGuide1": "お開きにしよう。",
+    "jpGuide2": "『在ることを終える』",
+    "enGuide": "Main-story ending: END2. B reports the ending outcome independently, but its quoted wording is a paraphrase, NOT the literal in-game menu string. Independent 2025 Japanese source describes the decision to stop existing together; source B does NOT document END2's literal choice text."
+  }
+]

@@ -23,7 +23,7 @@ For these exact **missing-independent-Set-B** facts, a genuinely undocumented `j
 - Do not use videos, recordings, captions or non-Japanese derivative walkthroughs as Japanese verification evidence.
 - Independent structural and accuracy reviews remain required. Only the accuracy stage/orchestrator may set `reviewed:true` following legitimate matching PASS records.
 
-**Standards compatibility:** The repository-wide rules currently word title-scoped single-source exceptions only for opted-in non-VN guides. The owner-approved VN-specific exception therefore also needs a narrowly scoped standards compatibility amendment before a formal accuracy PASS may rely on it. Keep the amendment in a **separate shared-infrastructure PR** rather than changing common prompts in #102.
+**Standards compatibility (resolved):** Shared-infrastructure PR #106, [merged 2026-11-04](https://github.com/kanjieater/VN-Guide/pull/106), amended the canonical source rules to honor owner-approved title-scoped exceptions for VNs. This supplement now records the already-authorized one-source exception under the merged policy. Missing Set B for the enumerated main-route facts is **not** an open authoring blocker. The explicit factual, game-version, structural and independent-review requirements above still apply.
 
 ## Current authoring caveats
 

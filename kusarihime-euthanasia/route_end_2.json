@@ -267,6 +267,6 @@
     "simpleJp": "お開きにしよう。",
     "jpGuide1": "お開きにしよう。",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Main-story ending: END2. B reports the ending outcome independently, but its quoted wording is a paraphrase, NOT the literal in-game menu string. Independent 2025 Japanese source describes the decision to stop existing together; source B does NOT document END2's literal choice text. Independent Set B supplies an interpretive outcome description only, not this exact Japanese menu option; the literal terminal currently has Set A evidence alone."
+    "enGuide": "Main-story ending: END2. The complete literal 「お開きにしよう。」 is documented by Fool's patched-original walkthrough, NOT independently quoted for the 2015 Selection DVD; jpGuide2 is correctly omitted. Independent 2025 Japanese commentary describes the ending semantically as choosing to cease existing together. Independent 2023 Japanese play commentary calls this outcome 「お開き」 and separately confirms three endings, but does NOT print the complete final in-game menu label, establish its availability or state which edition was played. If you took an alternative ending instead of TRUE at the start, after clearing this END2 route use 「既視感」→「記憶を失う」 for another complete run and retry the TRUE section. Do not attempt to load saves from before the reset; this fallback is not a proven 2015 unlock policy."
   }
 ]

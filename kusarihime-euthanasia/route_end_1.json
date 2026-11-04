@@ -73,7 +73,7 @@
   },
   {
     "simpleJp": "セーブ2",
-    "jpGuide1": "〖セーブ2〗",
+    "jpGuide1": "〖セーブ２〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Save in slot 2 before the next scene-choice variant. This is NOT a bad ending branch."
   },
@@ -85,7 +85,7 @@
   },
   {
     "simpleJp": "セーブ2にロード",
-    "jpGuide1": "セーブ2から",
+    "jpGuide1": "セーブ２から",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Return to Save 2 to see the other branch and then continue. Normal scene-variation reload; NOT an ending-detour isLoad."
   },
@@ -211,7 +211,7 @@
   },
   {
     "simpleJp": "セーブ3",
-    "jpGuide1": "〖セーブ3〗",
+    "jpGuide1": "〖セーブ３〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Save in slot 3 before the next scene-choice variant. This is NOT a bad ending branch."
   },
@@ -223,7 +223,7 @@
   },
   {
     "simpleJp": "セーブ3にロード",
-    "jpGuide1": "セーブ3から",
+    "jpGuide1": "セーブ３から",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Return to Save 3 to see the other branch and then continue. Normal scene-variation reload; NOT an ending-detour isLoad."
   },

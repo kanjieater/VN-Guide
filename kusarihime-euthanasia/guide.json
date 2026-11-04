@@ -169,7 +169,35 @@
       "title": "腐り姫～euthanasia～感想（右肩下がりのドクターイエロー）",
       "language": "ja",
       "notes": "Independent Japanese first-person completion report, read via indexed search excerpt; describes three endings and reset, and the successive four-day loops. Direct open redirects in this environment, therefore indexed-only provenance, NOT a directly inspectable required Set B component."
+    },
+    {
+      "set": "B",
+      "url": "https://backyard9.hatenablog.com/entry/kusarihime",
+      "title": "腐り姫 ～euthanasia～ (Antipyretic, 2016-02-19)",
+      "language": "ja",
+      "notes": "Directly inspected 2016 original Japanese first-hand report of the official Windows DL edition, NOT identified as 2015 Selection DVD. Explicitly says 「システムは DL 版を買ったのでバグはない」, confirms 4-day in-game loop continuation, the 記憶を失う-system style and configurable 盲点, and refers to リフレーン/腐爛 story endings. This is independent *modern-release mechanics and ending-structure* corroboration, but not literal Japanese END1/END2 choices and not direct proof of 2015 Selection's script/saves."
+    },
+    {
+      "set": "B",
+      "url": "https://sideofflyer.blog.jp/archives/6569707.html",
+      "title": "降り積もる赤い雪と繰り返される真夏の4日間 (2016 Japanese review)",
+      "language": "ja",
+      "notes": "Japanese original first-hand report indexed and directly available as a search result. Says 「盲点」 ON reveals interstitial comedy, recommends OFF on the first reading for atmosphere, and notes postclear content and laborious CG collection. No full choice walkthrough. Do not assert it grants source coverage for END1/END2."
+    },
+    {
+      "set": "B",
+      "url": "https://yokunajimukamo.blog130.fc2.com/blog-entry-1567.html",
+      "title": "腐り姫 プレイ感想１ (2013 first-run menu timing)",
+      "language": "ja",
+      "notes": "Japanese firsthand play report located by indexed excerpt, but the direct site fetch is a redirect loop, therefore NOT an inspectable verification set. Says after the FIRST FOUR-DAY loop, title-screen 既視感 and the 「盲点」 toggle become available. Used for cautious practical timing note, not the route-source gate."
+    },
+    {
+      "set": "B",
+      "url": "https://yokunajimukamo.blog130.fc2.com/blog-entry-1618.html",
+      "title": "腐り姫 プレイ感想４ (2013 post-story 盲点 cleanup)",
+      "language": "ja",
+      "notes": "Indexed 2013 personal run report (direct URL redirect-looped), says after first full story conclusion the author resets using 記憶を消す and enables 盲点 to collect remaining choices/CGs over ~4-day ×10 internal loops; confirms a full replay may be required if it was OFF. Not directly inspectable; NOT a Set B gate component."
     }
   ],
-  "generated_at": "2026-11-04T03:52:18.896Z"
+  "generated_at": "2026-11-04T03:53:43.378Z"
 }

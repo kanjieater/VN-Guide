@@ -3,7 +3,7 @@
     "simpleJp": "僕も降りるか。",
     "jpGuide1": "僕も降りるか。",
     "jpGuide2": "僕も降りるか。",
-    "enGuide": ""
+    "enGuide": "Start a fresh playthrough (do not trigger 記憶を失う during internal story-loop continuations). For 100% CG, the independent Honjo-zo guide confirms that the Config option 「盲点」 must eventually be ON. For a less disruptive first reading, enable it during later CG cleanup; its exact 2015 Selection presentation is not independently verified."
   },
   {
     "simpleJp": "自分で連れていく。",
@@ -201,12 +201,12 @@
     "simpleJp": "……終わりじゃない。",
     "jpGuide1": "……終わりじゃない。",
     "jpGuide2": "……終わりじゃない。",
-    "enGuide": "Main-story ending: TRUE END. B reports the ending outcome independently and separately prints this exact menu choice. Other Japanese first-hand accounts disagree on whether this option is available before the two other endings. If absent, finish END1/END2 first and retry after a new memory reset. The section order in this draft follows Set A, not a verified hard unlock order."
+    "enGuide": "Main-story ending: TRUE END. B reports the ending outcome independently and separately prints this exact menu choice. Other Japanese first-hand accounts disagree on whether this option is available before the two other endings. If absent, finish END1/END2 first and retry after a new memory reset. The section order in this draft follows Set A, not a verified hard unlock order. In the patched original, finishing TRUE END may unlock title-menu bonus 「狐の嫁入り」 (five stories). The Set A author notes it might instead require all main endings; check after finishing all three, then read the five bonus stories."
   },
   {
     "simpleJp": "本編からはじめる",
     "jpGuide1": "本編からはじめる",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "After the just-completed ending returns to the title, select 「本編からはじめる」 ONE MORE TIME for the source-documented CG-recovery epilogue. No dialogue choices occur. Stop this section once the gallery scene finishes; only then reset memory for the next full playthrough."
+    "enGuide": "After the just-completed ending returns to the title, select 「本編からはじめる」 ONE MORE TIME for the source-documented CG-recovery epilogue. No dialogue choices occur. Stop this section once the gallery scene finishes; only then reset memory for the next full playthrough. Once all endings are complete, read all five 「狐の嫁入り」 bonus stories if they have appeared; independent gallery-100% report advises setting 「盲点」 ON."
   }
 ]

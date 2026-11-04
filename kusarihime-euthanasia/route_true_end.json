@@ -145,7 +145,7 @@
   },
   {
     "simpleJp": "セーブ1",
-    "jpGuide1": "〖セーブ1〗",
+    "jpGuide1": "〖セーブ１〗",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Save in slot 1 before the next scene-choice variant. This is NOT a bad ending branch."
   },
@@ -157,7 +157,7 @@
   },
   {
     "simpleJp": "セーブ1にロード",
-    "jpGuide1": "セーブ1から",
+    "jpGuide1": "セーブ１から",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Return to Save 1 to see the other branch and then continue. Normal scene-variation reload; NOT an ending-detour isLoad."
   },

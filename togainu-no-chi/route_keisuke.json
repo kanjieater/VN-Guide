@@ -2,8 +2,8 @@
   {
     "simpleJp": "……",
     "jpGuide1": "「……」",
-    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
-    "enGuide": "Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+    "jpGuide2": "「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」",
+    "enGuide": "Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01). Direct original 1.00 corroboration in independent Set B blog: 『「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」』, which also documents Keisuke GOOD plus two BADs. HalfAdder's 1.01 rewrite changes only this opening choice to やっぱりダメだ."
   },
   {
     "simpleJp": "振り返らない",
@@ -63,8 +63,8 @@
   {
     "simpleJp": "……",
     "jpGuide1": "「……」",
-    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
-    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+    "jpGuide2": "「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01). Direct original 1.00 corroboration in independent Set B blog: 『「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」』, which also documents Keisuke GOOD plus two BADs. HalfAdder's 1.01 rewrite changes only this opening choice to やっぱりダメだ."
   },
   {
     "simpleJp": "振り返らない",
@@ -130,8 +130,8 @@
   {
     "simpleJp": "……",
     "jpGuide1": "「……」",
-    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
-    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+    "jpGuide2": "「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01). Direct original 1.00 corroboration in independent Set B blog: 『「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」』, which also documents Keisuke GOOD plus two BADs. HalfAdder's 1.01 rewrite changes only this opening choice to やっぱりダメだ."
   },
   {
     "simpleJp": "振り返らない",
@@ -203,8 +203,8 @@
   {
     "simpleJp": "……",
     "jpGuide1": "「……」",
-    "jpGuide2": "ScriptVersion1.01ではケイスケルート最初の選択が「・・・・・」だとbad選択が出ないため変更、他は同様です。",
-    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01)."
+    "jpGuide2": "「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」",
+    "enGuide": "Start a new playthrough from the beginning after the preceding ending. Neither inspected Japanese source gives a verified usable save checkpoint for this earlier branch. Original, unpatched Japanese PC ScriptVersion 1.00: select 「……」 here. The separate official 1.01 difficulty patch changes how this first choice affects the availability of later bad endings (HalfAdder uses 「やっぱりダメだ」 for patched 1.01). Direct original 1.00 corroboration in independent Set B blog: 『「……」・「ひどい顔だぞ」・「…戻ってくるかもしれないだろ」』, which also documents Keisuke GOOD plus two BADs. HalfAdder's 1.01 rewrite changes only this opening choice to やっぱりダメだ."
   },
   {
     "simpleJp": "振り返らない",

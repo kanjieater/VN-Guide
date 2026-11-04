@@ -141,8 +141,17 @@ jobs:
                 }
                 const researchRoute = research?.routes?.find(r => r.id === route.id);
                 if (researchRoute) researchRoute.portrait = ch.image.url;
-              } else if (route.portrait && !isVndbImage(route.portrait)) {
-                unresolved.push(slug + "/" + route.id + " portrait (fallback retained)");
+              } else {
+                // Reuse a previously verified research portrait when the guide has
+                // no portrait and VNDB cannot provide a unique character match.
+                const fallback = research?.routes?.find(r => r.id === route.id)?.portrait;
+                if (!route.portrait && fallback && /^https:\/\//.test(fallback)) {
+                  route.portrait = fallback;
+                  console.log(slug + "/" + route.id + ": research fallback " + fallback);
+                }
+                if (route.portrait && !isVndbImage(route.portrait)) {
+                  unresolved.push(slug + "/" + route.id + " portrait (fallback retained)");
+                }
               }
             }
             changed.set(gp, guide);

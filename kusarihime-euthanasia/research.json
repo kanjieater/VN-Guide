@@ -9,7 +9,7 @@
   "routes": [
     {
       "id": "true_end",
-      "title": "１周目・TRUE END",
+      "title": "１周目・TRUE END（選択肢出現時）",
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": true,

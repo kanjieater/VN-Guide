@@ -66,10 +66,16 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "殴る",
+    "jpGuide1": "殴る",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "The primary Japanese walkthrough lists this as the next choice in the day-5 archery-club encounter. The scene has three more source-listed explicit choices that are not transcribed here; this draft is not a complete runnable path."
+  },
+  {
     "simpleJp": "帰る",
     "jpGuide1": "帰る",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Source includes additional explicit choices at the archery club; omitted here pending safe, source-accurate completion."
+    "enGuide": ""
   },
   {
     "simpleJp": "屋上",

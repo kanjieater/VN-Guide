@@ -1,0 +1,95 @@
+{
+  "title": "Kishin Hishou Demonbane",
+  "vndb_id": "v234",
+  "guide_target": {
+    "label": "機神飛翔デモンベイン 通常版（2006年PC DVD-ROM版）",
+    "platform": "Windows PC",
+    "url": "https://www.demonbane.com/game/g_060526_t.html"
+  },
+  "routes": [
+    {
+      "id": "normal",
+      "title": "通常END（初回クリア）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Linear/no-choice first run; normal ending unlocks both later endings. No verifiable character-specific route portrait applies to this ending section."
+    },
+    {
+      "id": "west",
+      "title": "ドクター・ウェストEND（クリア後）",
+      "portrait": "",
+      "prerequisites": [
+        "normal"
+      ],
+      "is_true_ending": false,
+      "notes": "Start a fresh post-clear run. Winning the BATTLE:02 破壊ロボ vs デモンベイン・ブラッド battle ends that run immediately. Ending section, not a character route: no character-specific portrait."
+    },
+    {
+      "id": "true",
+      "title": "TRUE END（クリア後）",
+      "portrait": "",
+      "prerequisites": [
+        "normal"
+      ],
+      "is_true_ending": true,
+      "notes": "Start a fresh post-clear run, deliberately do not win West's early battle, then enter the special command during the final boss's finishing-move input window. Ending section: no character-route portrait."
+    }
+  ],
+  "recommended_order": [
+    "normal",
+    "west",
+    "true"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://nayutam.exblog.jp/3738908/",
+      "title": "機神飛翔デモンベイン — ながながブログ (2006-06-14)",
+      "language": "ja",
+      "notes": "Directly inspected contemporaneous Japanese first-hand ending guide. Covers linear/no-choice structure; first-clear unlocking both hidden endings; the optional 破壊ロボ vs デモンベイン・ブラッド win for West END with combat tips; and final-battle 必滅奥義 input for TRUE END. Applies to the original May 2006 PC game."
+    },
+    {
+      "set": "B",
+      "url": "https://blog.livedoor.jp/shibachi1/archives/50598379.html",
+      "title": "機神飛翔デモンベイン クリア — シバッチの世間話 (2006-06-11)",
+      "language": "ja",
+      "notes": "Independent contemporaneous Japanese first-hand play report with specific first-clear and TRUE END instructions, final-boss tactics, and tested rebinding 上=S, 下=D, 攻=A followed by SDSA. Direct article text available via search inspection; later direct open timed out. This component supports normal/true ending steps, not West END."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/srwux/pages/30.html",
+      "title": "機神咆吼デモンベイン — スーパーロボット大戦UX攻略＆まとめwiki",
+      "language": "ja",
+      "notes": "Independent Japanese reference specifically describes the 機神飛翔 sequel's normally unwinnable Doctor West battle and ending caused by winning it. It is not a choice guide for the separate 機神咆吼 predecessor. Combined with B's contemporaneous battle/ending sources to verify West END."
+    },
+    {
+      "set": "B",
+      "url": "https://srw.wiki.cre.jp/wiki/破壊ロボ",
+      "title": "破壊ロボ — スーパーロボット大戦Wiki",
+      "language": "ja",
+      "notes": "Directly inspected Japanese mechanical/series reference. The 余談 section explicitly identifies 機神飛翔's '2周目以降' unlock for 『～皇帝の紋章～』 and explains that winning the normally scripted-loss battle creates a special ending. Supports West second-run prerequisite and West ending outcome, independent of Set A."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/memotyors/pages/54.html",
+      "title": "サブタイトル — 我がメモ帳 @ ウィキ",
+      "language": "ja",
+      "notes": "Directly inspected Japanese BATTLE episode index for 機神飛翔, identifying BATTLE:02 アイム・ロックンロール！ as スーパーウェスト無敵ロボ28號 vs デモンベイン・ブラッド. Placement/label evidence; not independent ending-conditions evidence."
+    },
+    {
+      "url": "https://qposo.blog.fc2.com/blog-entry-124.html",
+      "title": "機神飛翔デモンベイン その３ — ぼっちだけど、なんとか生きてます。 (2006-05-27)",
+      "language": "ja",
+      "notes": "Search-indexed first-hand Japanese report explicitly prints the Normal END screen's '↑↓↑攻' code. The original FC2 URL currently returns a redirect loop on direct fetch. RESEARCH LEAD / PROVENANCE ONLY: NOT counted as directly inspectable A or B and NOT a source-gate resolution. The command remains supported as executed by the independent Set B Shibachi account and the Set A generic command requirement."
+    },
+    {
+      "url": "https://trinityabsolute.blog24.fc2.com/blog-entry-94.html",
+      "title": "機神飛翔デモンベイン 攻略 + 感想 — あっとりぇ鳥煮茶 (2006-06-02)",
+      "language": "ja",
+      "notes": "Search-indexed independent first-hand Japanese account explicitly prints '上下上攻' in the final Clockwork Phantom battle and documents the post-clear West win. The original FC2 URL currently returns a redirect loop on direct fetch. RESEARCH LEAD / PROVENANCE ONLY: NOT counted as a directly inspected verification set, and it does not resolve the exact-command two-Japanese-lane source gate."
+    }
+  ],
+  "disagreements": "Target explicitly restricted to the Nitroplus original 2006 Japanese Windows PC 通常版, not 斬魔大聖 or 機神咆吼. DX and regular share original-game progression; Set B's blogger owned DX, so his ending observations apply to the shared in-game content, not DX-only pack-in material. Set A is a contemporaneous first-hand ending walkthrough. Set B is composite: Shibachi's indexed 2006 Japanese first-hand text documents the normal/true ending and actual SDSA input (direct original open times out); directly inspectable SRW Wiki specifically verifies West's 2周目以降 unlock/win consequence, and atwiki documents the BATTLE:02 position/title. The original Shibachi page itself is not presently directly fetchable, so the source accessibility gap remains noted. Exact four-input TRUE code is documented in Shibachi's Japanese search-indexed text, with keyboard bindings up=S, down=D, attack=A and SDSA, while directly inspected Set A confirms only that a different command is displayed after Normal END. Two separate 2006 Japanese first-hand FC2 articles also print the code (qposo: ↑↓↑攻 shown at the end of the initial clear; trinityabsolute: 上下上攻 during the final Clockwork Phantom battle), but both original URLs currently redirect-loop when directly opened. Those FC2 sources are provenance/leads only, not an active verification lane. No second directly inspectable Japanese page printing the literal command has been recovered; the narrow missing-verification gap is covered only by the explicit 2026-11-04 owner-approved title-scoped exception, recorded in prompt_supplement.md and https://github.com/kanjieater/VN-Guide/pull/108#issuecomment-6635414789, without treating inaccessible pages as inspected. No fabricated verbatim Set-A command is inserted. Both post-clear routes are presented as full fresh runs because no explicit primary-source save/load point was located. No invented saves are used. This is an ending-completion guide for a linear hybrid novel/action game, not a full battle guide. No route characters exist; no route-character portraits are applicable. Cover verified: Nitroplus official 2006 game page labels its displayed image 〖ジャケット画像〗; image link directly resolves to https://www.nitroplus.co.jp/game/images/05_demon_hisyo.jpg and is used in catalog.json. The 2026-11-04 title-specific owner source-evidence exception applies solely to route_true.json step 3's exact literal input, with Set A as the directly inspected timing/mechanism source, indexed B Shibachi SDSA as the recovered command source, and indexed FC2 accounts as corroborating inaccessible provenance. On the same date the owner explicitly directed approval and merge for this PR despite the prior review independence limitation; any reviewed flags are manual owner-directed publication rather than a claim of independent reviewer PASS.",
+  "generated_at": "2026-11-04T14:08:00Z"
+}

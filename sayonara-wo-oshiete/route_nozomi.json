@@ -3,19 +3,19 @@
     "simpleJp": "セーブ1にロード",
     "jpGuide1": "（セーブ・１）からスタート",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Load the indicated existing save."
+    "enGuide": "Day 4. Load the indicated existing save."
   },
   {
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Visit this location in the source's listed order."
+    "enGuide": "Recollection: 望美「ヒナ」. Visit this location in the source's listed order."
   },
   {
     "simpleJp": "教室",
     "jpGuide1": "教室",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Visit this location in the source's listed order."
+    "enGuide": "Recollection: 睦月「ヘヴンズドア～」. Visit this location in the source's listed order."
   },
   {
     "simpleJp": "弓道場",
@@ -33,7 +33,7 @@
     "simpleJp": "彼女は天使であって天使ではない",
     "jpGuide1": "彼女は天使であって…",
     "jpGuide2": "彼女は天使であって天使ではない",
-    "enGuide": "Full original-era Japanese choice text independently quoted in the 2013 written completion report; Set A abbreviates the choice. Equivalence to 2016 VJ009745 remains unverified."
+    "enGuide": "Day 5. Full original-era Japanese choice text independently quoted in the 2013 written completion report; Set A abbreviates the choice. Equivalence to 2016 VJ009745 remains unverified."
   },
   {
     "simpleJp": "屋上",
@@ -63,7 +63,7 @@
     "simpleJp": "もしかして、友だちいないの？",
     "jpGuide1": "もしかして、友だちいないの？",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Recollection: 御幸「福は内、鬼は外」."
   },
   {
     "simpleJp": "帰る",
@@ -75,7 +75,7 @@
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Visit this location in the source's listed order."
+    "enGuide": "Day 7. Recollection: 望美「階段１３」. Visit this location in the source's listed order."
   },
   {
     "simpleJp": "弓道場",
@@ -99,7 +99,7 @@
     "simpleJp": "教室",
     "jpGuide1": "教室",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Visit this location in the source's listed order."
+    "enGuide": "Recollection: 睦月「ノウズイノハナ」. Visit this location in the source's listed order."
   },
   {
     "simpleJp": "帰る",
@@ -111,7 +111,7 @@
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Visit this location in the source's listed order."
+    "enGuide": "Day 8. Visit this location in the source's listed order."
   },
   {
     "simpleJp": "ウンチの出る…",
@@ -129,7 +129,7 @@
     "simpleJp": "弓道場",
     "jpGuide1": "弓道場",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Visit this location in the source's listed order."
+    "enGuide": "Recollection: こより「マドラ～とグラスと」. Visit this location in the source's listed order."
   },
   {
     "simpleJp": "教室",
@@ -153,7 +153,7 @@
     "simpleJp": "そういう問題じゃない",
     "jpGuide1": "そういう問題じゃない",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "Day 9."
   },
   {
     "simpleJp": "屋上の少女",

@@ -26,8 +26,8 @@
   {
     "simpleJp": "腕を振り払わない",
     "jpGuide1": "「腕を振り払わない」",
-    "jpGuide2": "腕を振り払わない",
-    "enGuide": ""
+    "jpGuide2": "腕を振り払わない　★",
+    "enGuide": "In unpatched ScriptVersion1.00, HalfAdder marks this normal Rin GOOD choice with ★. Taking 腕を振り払う instead is the executioner BAD detour (Kiriwar/Gunji), not part of Rin's GOOD path."
   },
   {
     "simpleJp": "無言でやり過ごす",

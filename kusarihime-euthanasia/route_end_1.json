@@ -8,7 +8,7 @@
   {
     "simpleJp": "記憶を失う",
     "jpGuide1": "「既視感」から「記憶を失う」後、開始",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "初めからやり直すにはコンフィグで「記憶を失う」を選ぶ必要があります。",
     "enGuide": "Choose 「記憶を失う」 to wipe current run progression/saves and begin from the opening; the official patched-2002 notice says gallery/scene records survive, but 2015 Selection-specific parity remains untested. Do not use a save made before this reset. For eventual 100% CG, keep Config 「盲点」 ON through any full repeat run if it was OFF previously."
   },
   {
@@ -254,8 +254,8 @@
   {
     "simpleJp": "蔵女と共に、生き続けよう。",
     "jpGuide1": "蔵女と共に、生き続けよう。",
-    "jpGuide2": "『共に在り続ける』",
-    "enGuide": "Main-story ending: END1. B reports the ending outcome independently, but its quoted wording is a paraphrase, NOT the literal in-game menu string. Independent 2025 Japanese player identifies the continuation-together decision as this outcome, not literal menu wording."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Main-story ending: END1. B reports the ending outcome independently, but its quoted wording is a paraphrase, NOT the literal in-game menu string. Independent 2025 Japanese player identifies the continuation-together decision as this outcome, not literal menu wording. Independent Set B supplies an interpretive outcome description only, not this exact Japanese menu option; the literal terminal currently has Set A evidence alone."
   },
   {
     "simpleJp": "本編からはじめる",

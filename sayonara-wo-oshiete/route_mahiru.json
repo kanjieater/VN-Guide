@@ -1,0 +1,50 @@
+[
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "（セーブ・２）からスタート",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Day 9. Load the indicated existing save."
+  },
+  {
+    "simpleJp": "魅力的だと思う",
+    "jpGuide1": "魅力的だと思う",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "校庭の少女",
+    "jpGuide1": "校庭の少女",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "中庭",
+    "jpGuide1": "中庭",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recollection: まひる「さかがきの…」. Visit this location in the source's listed order."
+  },
+  {
+    "simpleJp": "やっぱり虐める",
+    "jpGuide1": "やっぱり虐める",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "教室",
+    "jpGuide1": "教室",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Visit this location in the source's listed order."
+  },
+  {
+    "simpleJp": "屋上",
+    "jpGuide1": "屋上",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Visit this location in the source's listed order."
+  },
+  {
+    "simpleJp": "本当になんにも覚えていない",
+    "jpGuide1": "本当になんにも覚えていない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After the final day-9 choice, advance through the day-10 Mahiru scene (光の庭) and the day-11 門 / パンケーキとメープルシロップ scenes to 田町まひるＥＮＤ. No further menu choice is specified by Set A."
+  }
+]

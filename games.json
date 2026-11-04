@@ -20,7 +20,7 @@
     "has_guide": true,
     "title": "Hakuouki ~Shinsengumi Kitan~",
     "alttitle": "薄桜鬼 新選組奇譚",
-    "cover_url": "https://t.vndb.org/cv/60/76060.jpg",
+    "cover_url": "https://t.vndb.org/cv/52/76052.jpg",
     "added_at": "2026-07-07T22:51:38.476454+00:00",
     "guide_target": {
       "label": "薄桜鬼 真改 風華伝",
@@ -70,12 +70,12 @@
     "has_guide": true,
     "title": "Akai Ito",
     "alttitle": "アカイイト",
-    "cover_url": "https://t.vndb.org/cv/85/89085.jpg",
+    "cover_url": "https://t.vndb.org/cv/48/84948.jpg",
     "added_at": "2026-08-31T17:22:19.884258+00:00",
     "guide_target": {
       "label": "アカイイト HD REMASTER",
       "platform": "Nintendo Switch",
-      "url": "https://store-jp.nintendo.com/item/software/D70010000062832"
+      "url": "https://vndb.org/r95904"
     }
   },
   "v147": {
@@ -83,12 +83,12 @@
     "has_guide": true,
     "title": "EVE burst error",
     "alttitle": "",
-    "cover_url": "https://t.vndb.org/cv/82/103582.jpg",
+    "cover_url": "https://t.vndb.org/cv/87/105887.jpg",
     "added_at": "2026-08-31T17:22:19.884323+00:00",
     "guide_target": {
       "label": "EVE burst error R（Nintendo Switch ダウンロード版）",
       "platform": "Nintendo Switch",
-      "url": "https://store-jp.nintendo.com/item/software/D70010000014281"
+      "url": "https://vndb.org/r59851"
     }
   },
   "v210": {

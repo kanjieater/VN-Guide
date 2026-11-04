@@ -19,7 +19,9 @@
       "id": "makina_a",
       "title": "真希奈 A",
       "portrait": "https://t.vndb.org/ch/09/2909.jpg",
-      "prerequisites": ["common"],
+      "prerequisites": [
+        "common"
+      ],
       "is_true_ending": false,
       "notes": "Set A: 共通NORMAL後にセーブポイント⑧から → 知紗の提案を断る → ED Ⅻ 幸せのため (真希奈A). Set B: after any シナリオ１ ending, load セーブ５ (= guide save 7) → 他に出来ることを探す →【セーブ８】→ 知紗の提案を断る → ◆気のせいだ。疲れているんだろう → ＥＮＤ１２. Set A says the ★ choice 気のせいだ。疲れているんだろう only appears after a 真希奈 ending, so on this first visit there is normally no second choice. Both sets agree on the ending. Portrait: VNDB c2844 真希奈, image.url https://t.vndb.org/ch/09/2909.jpg."
     },
@@ -27,7 +29,10 @@
       "id": "makina_b",
       "title": "真希奈 B",
       "portrait": "https://t.vndb.org/ch/09/2909.jpg",
-      "prerequisites": ["common", "makina_a"],
+      "prerequisites": [
+        "common",
+        "makina_a"
+      ],
       "is_true_ending": false,
       "notes": "Both sets: reload the save before 知紗の提案を断る after ED Ⅻ, then choose ……そうだ、真希奈は…… for ED XIII 永遠の幸せ. Set B states the explicit unlock: ＥＮＤ１２ plus any シナリオ２ ending (ED Ⅴ/Ⅺ from the common section qualify). Set A: 真希奈A ED後にセーブポイント⑧から. Split from makina_a because the deciding choice is not offered until ED Ⅻ has been seen."
     },
@@ -35,7 +40,10 @@
       "id": "rikuno_sorane",
       "title": "陸乃＆空音",
       "portrait": "https://t.vndb.org/ch/16/27216.jpg",
-      "prerequisites": ["common", "makina_a"],
+      "prerequisites": [
+        "common",
+        "makina_a"
+      ],
       "is_true_ending": false,
       "notes": "Set A: 真希奈ED後にセーブポイント④から → 灰奈と会話をしない → ⑨ → 双子に尋ねる → ⑩ → 空音を選ぶ → ED Ⅵ 瞬く星の下; optional: reload ⑩ and pick 陸乃を選ぶ for a scene variant (シーン差分回収). Set B シナリオ２: セーブ６ (= guide save 4) → 灰奈と会話をしない → ◆双子に尋ねる →【セーブ７】→ 空音を選ぶ → ＥＮＤ６; セーブ７から 陸乃を選ぶ = シーン回収. Set B marks the route-defining 双子に尋ねる with ◆ (appears only after a specific ending, unnamed in Set B); Set A names the requirement as 真希奈ED (Set A also states 一部シナリオに攻略制限がかかっている), so makina_a (ED Ⅻ, the first 真希奈 ending) is a prerequisite. The 陸乃を選ぶ scene collection has no ending terminal in either source, so it is described in enGuide rather than as steps after the terminal. Portrait: one portrait per section; VNDB c684 空音 image.url https://t.vndb.org/ch/16/27216.jpg (陸乃 is c685, https://t.vndb.org/ch/19/27219.jpg)."
     },
@@ -43,7 +51,9 @@
       "id": "sara",
       "title": "沙羅",
       "portrait": "https://t.vndb.org/ch/08/2908.jpg",
-      "prerequisites": ["rikuno_sorane"],
+      "prerequisites": [
+        "rikuno_sorane"
+      ],
       "is_true_ending": false,
       "notes": "Set A: 陸乃＆空音ED後にセーブポイント⑨から → 沙羅に尋ねる → ED Ⅶ 護るべき者の隣で. Set B シナリオ３ (after any シナリオ２ ending): セーブ６から → 灰奈と会話をしない → 沙羅に尋ねる → ＥＮＤ７. Guide save 9 sits directly after 灰奈と会話をしない, so loading it is equivalent. Portrait: VNDB c2843 沙羅."
     },
@@ -51,7 +61,9 @@
       "id": "haina",
       "title": "灰奈",
       "portrait": "https://t.vndb.org/ch/20/27220.jpg",
-      "prerequisites": ["rikuno_sorane"],
+      "prerequisites": [
+        "rikuno_sorane"
+      ],
       "is_true_ending": false,
       "notes": "Set A: 陸乃＆空音ED後にセーブポイント⑥から → 自分の記憶と憎悪を受け入れる → ⑪ → 全てを受け入れて、ここで生きる → ED Ⅷ 解けない魔法. Set B シナリオ３: セーブ４から (same position as guide save 6) → 自分の記憶と憎悪を受け入れる → ◆全てを受け入れて、ここで生きる → ＥＮＤ８. Save 11 is Set A only and is reused by the 知紗 section. Portrait: VNDB c686 灰奈."
     },
@@ -59,7 +71,9 @@
       "id": "tsumugi",
       "title": "紡",
       "portrait": "https://t.vndb.org/ch/18/27218.jpg",
-      "prerequisites": ["rikuno_sorane"],
+      "prerequisites": [
+        "rikuno_sorane"
+      ],
       "is_true_ending": false,
       "notes": "Set A: 陸乃＆空音ED後にセーブポイント⑥から → 夢の内容を現実と受け入れる → ⑫ → 紡を無視する = ED Ⅰ 青い鳥のため (共通みちるBAD); reload ⑫ → 扉を開けてやる → ED Ⅸ 幸せの茨道. Set B: ＥＮＤ１ via ◆紡を無視する in シナリオ１ and ＥＮＤ９ via 扉を開けてやる in シナリオ３, both from セーブ４ (= guide save 6). Set A places ED Ⅰ here instead of in the first run; Set B's ◆ marker means it may not be offered on a first run, so Set A's later placement is safe. Save 12 is Set A only. Portrait: VNDB c687 紡."
     },
@@ -67,7 +81,10 @@
       "id": "chisa",
       "title": "知紗",
       "portrait": "https://t.vndb.org/ch/17/27217.jpg",
-      "prerequisites": ["haina", "tsumugi"],
+      "prerequisites": [
+        "haina",
+        "tsumugi"
+      ],
       "is_true_ending": false,
       "notes": "Set A: 紡ED後にセーブポイント⑪から → これ以上を望んで、別な道を探す → ⑬ → 知紗に全てを話す → ED XV 踏み出した道. Set B シナリオ４ (after any シナリオ３ ending): セーブ４から → 自分の記憶と憎悪を受け入れる → これ以上を望んで、別な道を探す →【セーブ９】→ 知紗に全てを話す → ＥＮＤ１５. Requires save 11 from the 灰奈 section; Set A requires 紡's ending first. Portrait: VNDB c683 知紗."
     },
@@ -75,12 +92,24 @@
       "id": "michiru",
       "title": "みちる",
       "portrait": "https://t.vndb.org/ch/15/27215.jpg",
-      "prerequisites": ["chisa"],
+      "prerequisites": [
+        "chisa"
+      ],
       "is_true_ending": true,
       "notes": "Final ending. Set A: 紡ED後にセーブポイント⑬から → 知紗に何も話さない → ED XVI 翼広げて (みちるTRUE). Set B: セーブ９から → 知紗に何も話さない → ＥＮＤ１６. Requires guide save 13 from the 知紗 section. Portrait: VNDB c682 来栖みちる."
     }
   ],
-  "recommended_order": ["common", "makina_a", "makina_b", "rikuno_sorane", "sara", "haina", "tsumugi", "chisa", "michiru"],
+  "recommended_order": [
+    "common",
+    "makina_a",
+    "makina_b",
+    "rikuno_sorane",
+    "sara",
+    "haina",
+    "tsumugi",
+    "chisa",
+    "michiru"
+  ],
   "sources": [
     {
       "set": "A",

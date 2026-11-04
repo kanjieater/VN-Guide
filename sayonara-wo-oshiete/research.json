@@ -4,13 +4,13 @@
   "guide_target": {
     "label": "さよならを教えて ～comment te dire adieu～ ダウンロード版 (DLsite VJ009745, 2016-01-29)",
     "platform": "Windows",
-    "url": "https://www.dlsite.com/pro/work/=/product_id/VJ009745.html"
+    "url": "https://vndb.org/r44749"
   },
   "routes": [
     {
       "id": "mutsuki",
       "title": "巣鴨睦月ルート",
-      "portrait": "https://cdn.ymgal.games/archive/main/0f/0f89d56708da4cb0b14f97cd68208da9.jpg",
+      "portrait": "https://t.vndb.org/ch/86/149486.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Set A starts from day-4 save 1, places day-9 save 2, and reaches its heroine-specific day-11 path through the shared main ending sequence. Its save 2 is reused by Mahiru. Portrait inspected on YMGal character record ca87306. Not yet confirmed for the 2016 target."
@@ -18,7 +18,7 @@
     {
       "id": "mahiru",
       "title": "田町まひるルート",
-      "portrait": "https://cdn.ymgal.games/archive/main/73/73bd744d30354ba58f06ee0a3c80db60.jpg",
+      "portrait": "https://t.vndb.org/ch/84/149484.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Set A starts at save 2 on day 9 and reaches its heroine-specific day-11 path through the shared main ending sequence. Source-backed save dependency is an efficient walkthrough checkpoint, not a heroine unlock requirement. Portrait inspected on YMGal character record ca98709. Not yet confirmed for the 2016 target."
@@ -26,7 +26,7 @@
     {
       "id": "nozomi",
       "title": "高田望美ルート",
-      "portrait": "https://cdn.ymgal.games/archive/main/aa/aabe82db2e58454d93b18e9018d8c383.jpg",
+      "portrait": "https://t.vndb.org/ch/85/149485.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Set A starts at save 1 on day 4 and reaches its heroine-specific day-11 path through the shared main ending sequence. Portrait confirmed on YMGal character record ca87304; use the page's cdn.ymgal.games image URL instead of the prior store.ymgal.games link. Not yet confirmed for the 2016 target."
@@ -34,7 +34,7 @@
     {
       "id": "miyuki",
       "title": "目黒御幸ルート",
-      "portrait": "https://cdn.ymgal.games/archive/main/e9/e95a8515cffa4487a92315461bf4ab0a.jpg",
+      "portrait": "https://t.vndb.org/ch/87/149487.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Set A starts at save 1 on day 4, makes save 3 on day 9, and reaches its heroine-specific day-11 path through the shared main ending sequence. Save 3 is reused by Koyori. Portrait inspected on YMGal character record ca98713. Not yet confirmed for the 2016 target."
@@ -42,7 +42,7 @@
     {
       "id": "koyori",
       "title": "上野こよりルート",
-      "portrait": "https://cdn.ymgal.games/archive/main/c4/c49c48f6b3b54b75b4fbb10613f52934.jpg",
+      "portrait": "https://t.vndb.org/ch/83/149483.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Set A starts at save 3 on day 9 and reaches its heroine-specific day-11 path through the shared main ending sequence. Portrait inspected on YMGal character record ca98715. Not yet confirmed for the 2016 target."

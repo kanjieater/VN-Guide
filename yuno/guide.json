@@ -6,19 +6,19 @@
       "id": "mitsuki",
       "title": "美月ルート",
       "reviewed": true,
-      "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/ichijomitsuki_image.png"
+      "portrait": "https://t.vndb.org/ch/50/4350.jpg"
     },
     {
       "id": "ayumi",
       "title": "亜由美ルート",
       "reviewed": true,
-      "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/arimaayumi_image.png"
+      "portrait": "https://t.vndb.org/ch/47/4347.jpg"
     },
     {
       "id": "kaori",
       "title": "香織ルート",
       "reviewed": true,
-      "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/asakurakaori_image.png"
+      "portrait": "https://t.vndb.org/ch/48/4348.jpg"
     },
     {
       "id": "mio",
@@ -30,7 +30,7 @@
       "id": "kanna",
       "title": "神奈ルート",
       "reviewed": true,
-      "portrait": "https://www.spike-chunsoft.com/YU-NO/common/img/character/hatanokanna_image.png"
+      "portrait": "https://t.vndb.org/ch/49/4349.jpg"
     },
     {
       "id": "new_world",

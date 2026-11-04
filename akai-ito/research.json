@@ -5,7 +5,7 @@
     {
       "id": "uzuki",
       "title": "千羽烏月ルート",
-      "portrait": "https://t.vndb.org/ch/83/11683.jpg",
+      "portrait": "https://t.vndb.org/ch/18/209218.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Senba Uzuki (千羽烏月, VNDB c10500). Reachable from the start; True End is『爽やかな立ち風』（ED32）, with ED3/13/28/29/30/31 as alternate endings. The original PS2 release and HD Remaster are treated as the same route system absent concrete behavioral-change evidence. The guide's main opening uses the Livedoor/Foxtail-supported『わたしはこくりと頷いた』path; XNEO's early-choice variants are treated as alternate valid routing, not a release difference. ED13『赤い縛め』requires an earlier no-chase state. Because no usable source-documented checkpoint exists before that required branch, ED13 is represented as a complete replay-from-beginning failed-play prefix using『追いかけない → 納得できない → 別に』, then the main Uzuki run begins fresh. Foxtail explicitly says the later night choice is absent when Uzuki was not met, so Livedoor's Save②『別に → 歯磨きはオッケー？』recovery combines incompatible branch states and is treated as a walkthrough error. XNEO/Lastcharles list an extra phone choice after the no-chase branch; because Foxtail marks『別に』itself as No.13 and says the later prompt is suppressed in that state, the guide treats that trailing phone entry as over-specified recovery shorthand rather than a required action. All six documented Uzuki save checkpoints remain on the main run."
@@ -13,7 +13,7 @@
     {
       "id": "tsuzura",
       "title": "若杉葛ルート",
-      "portrait": "https://t.vndb.org/ch/09/12209.jpg",
+      "portrait": "https://t.vndb.org/ch/15/209215.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Wakasugi Tsuzura (若杉葛, VNDB c10498). Nintendo Switch アカイイト HD REMASTER target. True End ED12 requires first clearing Normal End ED11『此岸と彼岸』. The corrected, cross-checked primary path chooses Day 1『わたしは首を横に振る』and Day 3『行ってきます』(XNEO + HD Remaster Lastcharles). Create the source-backed Save⑦/operational Save13 after『抵抗しない』BEFORE choosing『封じを強化する』; on the first ED11 pass the final『忘れたくない！』/『意識が―もう――』choice is still sealed and does not appear (independent Toppoi first-clear play note), so pass directly from『封じを強化する』to ED11. Then load Save13, use『鏡を探してみる → 割るのは忍びない』for a second ED11 needed for the Tsuzura-side Nozomi seal; reload for the unlocked『封じを強化する → 意識が―もう――』ED11 and finally『封じを強化する → 忘れたくない！』ED12. Livedoor's immediate mirror-first Save⑦ segment assumes a post-clear state; its double-listed mirror alternatives are a transcription error. ED8『蛇の神の使い』is shown as an explicit failed-run prefix using the fully enumerated HD Remaster no-sweets/well-marker route. That branch occurs before the first documented save, so the guide must restart Day 1 for the main run, not load a made-up checkpoint. XNEO/Livedoor document an alternative ED8 path with『負けてたまるか』after sweets; these are separate paths, not concatenated. ED10『言霊の継承(2)』uses XNEO's complete『これは夢だし → 別にそんなことは → サクヤさんに付き合う → 保護者同伴なら → でもひとりは嫌なんでしょ？ → 抵抗しない』low-affinity branch and Save④/operational Save10; the independent HD Remaster walkthrough lists a distinct sufficient low-affinity ED10 sequence『ん～？ → 気になる → 別にそこまでしなくても → サクヤさんに付き合う → 保護者同伴なら → でもひとりは嫌なんでしょう？』. Both lead ED10, but the guide emits one complete XNEO path. PS2 and HD Remaster remain treated as the same route system absent evidence of behavior changes; exact choices are source-reconciled, not executable-playtested. All seven source-documented Tsuzura saves are retained, numbered 7–13, without creating a new save before ED8."
@@ -21,7 +21,7 @@
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
-      "portrait": "https://t.vndb.org/ch/82/11682.jpg",
+      "portrait": "https://t.vndb.org/ch/14/209214.jpg",
       "prerequisites": [
         "uzuki",
         "tsuzura"
@@ -32,7 +32,7 @@
     {
       "id": "yumei",
       "title": "ユメイルート",
-      "portrait": "https://t.vndb.org/ch/10/12210.jpg",
+      "portrait": "https://t.vndb.org/ch/12/209212.jpg",
       "prerequisites": [
         "uzuki",
         "tsuzura"
@@ -43,7 +43,7 @@
     {
       "id": "nozomi",
       "title": "ノゾミルート",
-      "portrait": "https://t.vndb.org/ch/45/12245.jpg",
+      "portrait": "https://t.vndb.org/ch/13/209213.jpg",
       "prerequisites": [
         "tsuzura",
         "yumei"
@@ -170,6 +170,6 @@
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",
-    "url": "https://store-jp.nintendo.com/item/software/D70010000062832"
+    "url": "https://vndb.org/r95904"
   }
 }

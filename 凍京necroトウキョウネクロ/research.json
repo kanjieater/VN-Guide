@@ -5,7 +5,7 @@
     {
       "id": "mitsumi",
       "title": "義城蜜魅ルート",
-      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/22/b2/34552_crt_c85cF.jpg",
+      "portrait": "https://t.vndb.org/ch/27/41627.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Recommended first route in the primary Japanese ordering source. Route condition is エチカ=上/屋上 (screen-right in source 1), then 早雲=イリア (screen-left in source 1), producing 蜜魅END."
@@ -13,7 +13,7 @@
     {
       "id": "kiriri",
       "title": "阿蘇霧里ルート",
-      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/52/cd/34553_crt_34UuC.jpg",
+      "portrait": "https://t.vndb.org/ch/28/41628.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Recommended second route. Route condition is エチカ=下/地下 (screen-left in source 1), then 早雲=ミルグラム (screen-right in source 1), producing 霧里END."
@@ -21,7 +21,7 @@
     {
       "id": "con_su",
       "title": "コン・スールート",
-      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/61/5a/34554_crt_519ZN.jpg",
+      "portrait": "https://t.vndb.org/ch/29/41629.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Recommended third route. Route condition is エチカ=上/屋上 (screen-right in source 1), then 早雲=ミルグラム (screen-right in source 1), producing コン・スーEND."
@@ -29,7 +29,7 @@
     {
       "id": "iria",
       "title": "宝形イリアルート",
-      "portrait": "https://lain.bgm.tv/r/200/pic/crt/l/be/fa/34551_crt_7wO8G.jpg",
+      "portrait": "https://t.vndb.org/ch/26/41626.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Recommended fourth heroine route. Route condition is エチカ=下/地下 (screen-left in source 1), then 早雲=イリア (screen-left in source 1), producing イリアEND. Multiple Japanese sources recommend leaving Iria until last among the four heroine routes because it connects most naturally into the final route."

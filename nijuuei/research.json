@@ -10,7 +10,7 @@
     {
       "id": "kikyou",
       "title": "桔梗ルート",
-      "portrait": "https://image.kungal.iloveren.link/b9/ee/b9eec8d94ce7a67055008da49882f997d1dd1d01573d562417d70e0f61a1ab31_mini.webp",
+      "portrait": "https://t.vndb.org/ch/85/20785.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Main heroine ending labeled 桔梗 END by the directly inspected SagaoZ walkthrough. The same walkthrough also documents a 桔梗 BAD END detour near the final-day heroine choice. This route is the source walkthrough's first full playthrough and establishes shared save points used to shorten later heroine clears."
@@ -26,7 +26,7 @@
     {
       "id": "fuurei",
       "title": "楓玲ルート",
-      "portrait": "https://image.kungal.iloveren.link/d4/7a/d47ad6e00e72d9e9c6cd35a6cfcd2e7de2ede96c7290032b218f987f20ad481d_mini.webp",
+      "portrait": "https://t.vndb.org/ch/89/20789.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Main heroine ending labeled 楓玲 END by SagaoZ. The optimized walkthrough branches from セーブ5 created during the 命 path via 何もいわない and documents a 楓玲 BAD END before the main 楓玲 END. BIGLOBE independently establishes the highest-affinity heroine ending structure and explicitly states that すまん is presented only on the 命 route, corroborating the split without printing SagaoZ's opposite branch wording."

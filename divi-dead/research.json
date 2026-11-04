@@ -34,7 +34,7 @@
     {
       "id": "sachiko",
       "title": "佐知子エンド",
-      "portrait": "",
+      "portrait": "https://t.vndb.org/ch/93/147693.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "F801/A系7個すべてを満たす。 ACDBで斎乃佐知子(ID 27355)の1998年DIVI-DEAD割当と画像存在を確認したが、非ログイン状態で安定した直接画像URLを取得できなかったためportraitは空欄を維持。"

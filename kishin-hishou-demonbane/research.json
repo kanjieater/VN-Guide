@@ -1,0 +1,76 @@
+{
+  "title": "Kishin Hishou Demonbane",
+  "vndb_id": "v234",
+  "guide_target": {
+    "label": "機神飛翔デモンベイン 通常版（2006年PC DVD-ROM版）",
+    "platform": "Windows PC",
+    "url": "https://www.demonbane.com/game/g_060526_t.html"
+  },
+  "routes": [
+    {
+      "id": "normal",
+      "title": "通常END（初回クリア）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Linear/no-choice first run; normal ending unlocks both later endings. No verifiable character-specific route portrait applies to this ending section."
+    },
+    {
+      "id": "west",
+      "title": "ドクター・ウェストEND（クリア後）",
+      "portrait": "",
+      "prerequisites": [
+        "normal"
+      ],
+      "is_true_ending": false,
+      "notes": "Start a fresh post-clear run. Winning the BATTLE:02 破壊ロボ vs デモンベイン・ブラッド battle ends that run immediately. Ending section, not a character route: no character-specific portrait."
+    },
+    {
+      "id": "true",
+      "title": "TRUE END（クリア後）",
+      "portrait": "",
+      "prerequisites": [
+        "normal"
+      ],
+      "is_true_ending": true,
+      "notes": "Start a fresh post-clear run, deliberately do not win West's early battle, then enter the special command during the final boss's finishing-move input window. Ending section: no character-route portrait."
+    }
+  ],
+  "recommended_order": [
+    "normal",
+    "west",
+    "true"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://nayutam.exblog.jp/3738908/",
+      "title": "機神飛翔デモンベイン — ながながブログ (2006-06-14)",
+      "language": "ja",
+      "notes": "Directly inspected contemporaneous Japanese first-hand ending guide. Covers linear/no-choice structure; first-clear unlocking both hidden endings; the optional 破壊ロボ vs デモンベイン・ブラッド win for West END with combat tips; and final-battle 必滅奥義 input for TRUE END. Applies to the original May 2006 PC game."
+    },
+    {
+      "set": "B",
+      "url": "https://blog.livedoor.jp/shibachi1/archives/50598379.html",
+      "title": "機神飛翔デモンベイン クリア — シバッチの世間話 (2006-06-11)",
+      "language": "ja",
+      "notes": "Independent contemporaneous Japanese first-hand play report with specific first-clear and TRUE END instructions, final-boss tactics, and tested rebinding 上=S, 下=D, 攻=A followed by SDSA. Direct article text available via search inspection; later direct open timed out. This component supports normal/true ending steps, not West END."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/srwux/pages/30.html",
+      "title": "機神咆吼デモンベイン — スーパーロボット大戦UX攻略＆まとめwiki",
+      "language": "ja",
+      "notes": "Independent Japanese reference specifically describes the 機神飛翔 sequel's normally unwinnable Doctor West battle and ending caused by winning it. It is not a choice guide for the separate 機神咆吼 predecessor. Combined with B's contemporaneous battle/ending sources to verify West END."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/memotyors/pages/54.html",
+      "title": "サブタイトル — 我がメモ帳 @ ウィキ",
+      "language": "ja",
+      "notes": "Directly inspected Japanese BATTLE episode index for 機神飛翔, identifying BATTLE:02 アイム・ロックンロール！ as スーパーウェスト無敵ロボ28號 vs デモンベイン・ブラッド. Placement/label evidence; not independent ending-conditions evidence."
+    }
+  ],
+  "disagreements": "Target explicitly restricted to the Nitroplus original 2006 Japanese Windows PC 通常版, not 斬魔大聖 or 機神咆吼. DX and regular share original-game progression; Set B's blogger owned DX, so his ending observations apply to the shared in-game content, not DX-only pack-in material. Set A is a contemporaneous first-hand ending walkthrough. Set B is composite: Shibachi independently verifies normal/true ending mechanics, and Japanese reference pages independently verify West's early battle, win consequence, and battle number. The SDSA keyboard trick is described in B, while A confirms the input is shown after Normal END; no fabricated verbatim Set-A command is inserted. Both post-clear routes are presented as full fresh runs because no explicit primary-source save/load point was located. No invented saves are used. This is an ending-completion guide for a linear hybrid novel/action game, not a full battle guide. No route characters exist; no route-character portraits are applicable. Cover search: the Nitroplus official game page visibly displays jacket art, but its direct original-release image URL could not be inspected/verified in this environment; unrelated/reissue art was rejected and cover_url deliberately left empty pending direct verification. No owner-specific source-gate exception is requested or invoked.",
+  "generated_at": "2026-11-04T14:08:00Z"
+}

@@ -3,7 +3,7 @@
     "simpleJp": "僕も降りるか。",
     "jpGuide1": "僕も降りるか。",
     "jpGuide2": "僕も降りるか。",
-    "enGuide": "Start from a new game and follow the exact Japanese selections. IMPORTANT: 「盲点」 is not necessarily available BEFORE the game starts; a Japanese first-play report says title/config features including Blind Spot unlock after the first four-day loop returns to the title. For 100% CG, enable 「盲点」 as soon as its toggle actually becomes available, and keep it ON through subsequent story loops. For an atmosphere-first reading, leave it OFF and plan extra full memory-reset replay(s) with it ON for the bonus scenes. Merely turning it ON at the very last post-ending CG epilogue is not confirmed to backfill earlier days."
+    "enGuide": "Start a new playthrough and follow the source-backed literal choices. Independent Japanese firsthand accounts describe the story as one fixed sequence of arcs rather than heroine-ending branches, with the main ending choice near the end. Many earlier choices affect optional scenes/CG; this particular sequence is Set A's CG-completion path on a patched original PC build, not a verified Selection 01 script dump. For 100% CG, enable 「盲点」 when the game offers it (possibly after the first four-day loop); if you prefer an atmosphere-first run with it OFF, a full extra memory-reset replay with it ON may be needed. Never reset memory between ordinary 「本編からはじめる」 loops."
   },
   {
     "simpleJp": "自分で連れていく。",
@@ -33,7 +33,7 @@
     "simpleJp": "本編からはじめる",
     "jpGuide1": "本編からはじめる",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "FIRST 4-DAY LOOP COMPLETED — title screen: now select 「本編からはじめる」 to advance the SAME full story run. Independent Japanese firsthand play notes that the title menu's 「既視感」 area (including 「盲点」) appears at this first title return. For 100% CG, check whether 「盲点」 is available now and switch it ON before continuing; this does not call for a separate invented player-action step since Set A does not explicitly print a toggle here. DO NOT choose 「記憶を失う」 between these internal loops."
+    "enGuide": "After the first four-day loop returns you to the title, choose 「本編からはじめる」 to CONTINUE the same story state. For CG completion, check whether the 「既視感」/「盲点」 setting is available at this menu and turn 盲点 ON when offered; a Japanese player report describes availability at the first return, but that report could not be fully opened and availability on the target 2015 Selection DVD has not been directly tested. If absent, keep continuing and enable it when available. Do not select 「記憶を失う」 at these internal continuations."
   },
   {
     "simpleJp": "本編からはじめる",

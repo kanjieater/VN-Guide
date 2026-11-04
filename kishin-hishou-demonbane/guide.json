@@ -13,7 +13,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "west",
@@ -23,7 +23,7 @@
         "normal"
       ],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "true",
@@ -33,7 +33,7 @@
         "normal"
       ],
       "is_true_ending": true,
-      "reviewed": false
+      "reviewed": true
     }
   ],
   "sources": [

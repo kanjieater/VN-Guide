@@ -3,7 +3,7 @@
     "simpleJp": "僕も降りるか。",
     "jpGuide1": "僕も降りるか。",
     "jpGuide2": "僕も降りるか。",
-    "enGuide": "START / 100% CG PREPARATION: From the new-game opening, follow the exact Japanese choices below. For CG/scene 100%, turn Config 「盲点」 ON *before starting the first story run*; Japanese first-hand completion guidance says keeping it OFF requires additional full replay(s) with it ON to collect those scenes. If you prefer an uninterrupted serious first reading, leave it OFF and plan that EXTRA replay after the three endings — merely switching it ON at the final one-click CG cleanup is NOT sufficient. Do not choose 「記憶を失う」 between the ordinary in-story 「本編からはじめる」 loops."
+    "enGuide": "Start from a new game and follow the exact Japanese selections. IMPORTANT: 「盲点」 is not necessarily available BEFORE the game starts; a Japanese first-play report says title/config features including Blind Spot unlock after the first four-day loop returns to the title. For 100% CG, enable 「盲点」 as soon as its toggle actually becomes available, and keep it ON through subsequent story loops. For an atmosphere-first reading, leave it OFF and plan extra full memory-reset replay(s) with it ON for the bonus scenes. Merely turning it ON at the very last post-ending CG epilogue is not confirmed to backfill earlier days."
   },
   {
     "simpleJp": "自分で連れていく。",
@@ -33,7 +33,7 @@
     "simpleJp": "本編からはじめる",
     "jpGuide1": "本編からはじめる",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here. This loop has no dialogue choices; continue until the next title/menu transition."
+    "enGuide": "FIRST 4-DAY LOOP COMPLETED — title screen: now select 「本編からはじめる」 to advance the SAME full story run. Independent Japanese firsthand play notes that the title menu's 「既視感」 area (including 「盲点」) appears at this first title return. For 100% CG, check whether 「盲点」 is available now and switch it ON before continuing; this does not call for a separate invented player-action step since Set A does not explicitly print a toggle here. DO NOT choose 「記憶を失う」 between these internal loops."
   },
   {
     "simpleJp": "本編からはじめる",

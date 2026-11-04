@@ -13,7 +13,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": true,
-      "notes": "This is one continuous playthrough through multiple 4-day story loops (the repeated title-menu 本編からはじめる transitions are NOT interchangeable with replay-from-beginning/記憶を失う). Source A supplies the full run and three consecutive CG-cleanup phases. Independent Japanese Set-B source (rarin) supplies an alternative TRUE END path but materially diverges at multiple choice texts/positions. Do not assert that the alternate path is equivalent until both are reconciled for the target edition. This is an ending section rather than a romance-character route; no route portrait needed. The first playthrough ending is documented to unlock the five-part 狐の嫁入り bonus; verify target-edition behavior before writing steps."
+      "notes": "This is one continuous playthrough through multiple 4-day story loops (the repeated title-menu 本編からはじめる transitions are NOT interchangeable with replay-from-beginning/記憶を失う). Source A supplies the full run and three consecutive CG-cleanup phases. Independent Japanese Set-B source (rarin) supplies an alternative TRUE END path but materially diverges at multiple choice texts/positions. Do not assert that the alternate path is equivalent until both are reconciled for the target edition. This is an ending section rather than a romance-character route; no route portrait needed. The first playthrough ending is documented to unlock the five-part 狐の嫁入り bonus; verify target-edition behavior before writing steps. SOURCE UPDATE: Both A and independent rarin end in exact 「……終わりじゃない。」 despite several differing prior (likely scene) decisions. A 2018 independent player says the option appeared only after playing the other two, potentially contradicting A's order. Do not claim no unlock before verifying."
     },
     {
       "id": "end_1",
@@ -21,7 +21,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Second fresh overall playthrough after the in-game 既視感→記憶を失う reset. Source A has a complete choice list, source-documented saves 2 and 3 with alternative-scene/CG retrieval, successive 本編からはじめる transitions, END1 terminal, and later CG cleanup. Existing independent Japanese B sources confirm the existence of the alternate ending and resets but NOT every main-route-defining choice/ending condition, so the source gate is blocked for this section. No artificial prerequisite to TRUE END is asserted; the listed order is a proven walkthrough ordering, not a claimed game unlock."
+      "notes": "Second fresh overall playthrough after the in-game 既視感→記憶を失う reset. Source A has a complete choice list, source-documented saves 2 and 3 with alternative-scene/CG retrieval, successive 本編からはじめる transitions, END1 terminal, and later CG cleanup. Existing independent Japanese B sources confirm the existence of the alternate ending and resets but NOT every main-route-defining choice/ending condition, so the source gate is blocked for this section. No artificial prerequisite to TRUE END is asserted; the listed order is a proven walkthrough ordering, not a claimed game unlock. SOURCE UPDATE: Independent 2025 Japanese player explains final choice semantically as 「共に在り続ける」; this independently supports END1 outcome but is not a literal END1 choice/complete actionable sequence, so a route pass is not yet justified."
     },
     {
       "id": "end_2",
@@ -29,7 +29,7 @@
       "portrait": "",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "Third fresh overall playthrough following a second 既視感→記憶を失う reset. Source A has a complete choice list through END2, using no further new saves. Independent Japanese B sources corroborate the third named ending and the reset mechanic, but not the route's full choice sequence or main ending condition. Not safe to generate route steps yet. Neither END1 nor END2 is a named heroine-route unlock."
+      "notes": "Third fresh overall playthrough following a second 既視感→記憶を失う reset. Source A has a complete choice list through END2, using no further new saves. Independent Japanese B sources corroborate the third named ending and the reset mechanic, but not the route's full choice sequence or main ending condition. Not safe to generate route steps yet. Neither END1 nor END2 is a named heroine-route unlock. SOURCE UPDATE: Independent 2025 Japanese player explains final choice semantically as 「在ることを終える」; this supports END2 outcome semantically but not exact menu text/complete actionable sequence. 2018 player labels equivalent ending 「腐爛」."
     }
   ],
   "recommended_order": [
@@ -50,14 +50,13 @@
       "url": "https://www5a.biglobe.ne.jp/~rarin/ra/euthanasia.html",
       "title": "腐り姫 True End への道",
       "language": "ja",
-      "notes": "Independent Japanese choice-by-choice TRUE END walkthrough, directly inspected. Lists chapters 第一殻–第四殻 and numerous concrete choices. Does NOT cover END1/END2 or all CG-recovery steps. Its TRUE END path differs materially from Set A at early telephone, town-policy, mother-identification, and other choices; whether these are equivalent valid alternatives, branching scene variants, or source-version changes is UNRESOLVED. Applicable release also unlabelled, not confirmed to 2015 Selection."
+      "notes": "Independent original-era Japanese TRUE END guide, directly inspected. First-to-fourth shell choice path ends with exact 「……終わりじゃない。」, same terminal as Set A. Earlier choice substitutions are: (1) 「……どうかしたかい？」 vs A 「うん。電話の相手はね…」, (2) 「米軍誘致でしょう」 vs A 「ただ酒の呑める町」, (3) 「母さんだ」 vs A 「芳野さんだ」, (4) 「それでも僕は…迷い続ける」 vs A 「自分の暗い過去を感じた」; it also chooses 「潤にキスをした」/「かなえてこそ、夢」 within a later shell where A instead has the post-save branch. Both explicitly reach TRUE END, so these are likely alternative scene paths, not mutually exclusive mandatory route-defining choices; however a full same-state/2015 parity proof is still missing. Does not cover END1, END2, or CG cleanup."
     },
     {
-      "set": "B",
       "url": "https://aon-kabocya.hatenablog.com/entry/2021/05/17/093110",
       "title": "〖腐り姫 ～euthanasia～〗感想 - ひっそりと群生",
       "language": "ja",
-      "notes": "Independently inspected Japanese full-play account confirms three named endings and TRUE END→END1→END2 completion order plus replay with 盲点. Does not give END1/END2's full route-defining choices. B supporting context only, not a complete END1/END2 verification set."
+      "notes": "Read directly. CORRECTION: this author explicitly credits the 愚者の館 walkthrough (Set A) at the foot of the article. The report's TRUE END → END1 → END2 order, advice and completion cannot be treated as INDEPENDENT Set B confirmation. Kept only as derivative usage evidence. Other personal impressions may be original, but this is not verification-lane support."
     },
     {
       "set": "B",
@@ -108,8 +107,62 @@
       "title": "Repost of 愚者の館 walkthrough",
       "language": "ja",
       "notes": "Directly inspected exact-sequence mirror of Fool's Set A; explicitly EXCLUDED as independent Set B. It reproduces the same list and ending structure."
+    },
+    {
+      "set": "B",
+      "url": "https://note.com/clever_swan1954/n/nf8b3a67e7520",
+      "title": "個人的な『腐り姫』感想メモ - マイマイゾンビ",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese 2025 play report. Describes the final THREE outcome choices semantically: 「共に在り続ける」 (= Set A END1 terminal 「蔵女と共に、生き続けよう。」), 「在ることを終える」 (= Set A END2 「お開きにしよう。」), and 「二人で全てを忘れて生きていく」 (= Set A TRUE END 「……終わりじゃない。」). No visible attribution to Fool; original first-hand commentary. Confirms decision/outcome semantics, NOT literal in-game Japanese choice texts for END1/END2, nor intermediate run/CG/saves or precise 2015 Selection parity."
+    },
+    {
+      "set": "B",
+      "url": "https://pukkura.hatenablog.com/entry/2018/01/04/192008",
+      "title": "腐り姫~euthanasia~ 感想 - 最果てバイブル",
+      "language": "ja",
+      "notes": "Directly inspected independent player report labels three outcomes 落果 (endless coexistence), 腐爛 (mutual cessation), and リフレーン (memory/power reset, called TRUE elsewhere). Reader says they played 落果 → 腐爛 then reset and saw a third option leading リフレーン: 「上2つのエンドを見てから、記憶を消して再度プレイし出現させた第三の選択肢」. This potentially signals an unlock/flag dependency; Set A instead lists TRUE as its first complete run. We have NOT proved whether third choice strictly requires prior two endings, appears as result of particular branch flags, or whether both pathways are valid. This is a MATERIAL unresolved research uncertainty; do not suppress it."
+    },
+    {
+      "set": "B",
+      "url": "https://cuguf54uity.blog.jp/archives/29915477.html",
+      "title": "腐り姫〜euthanasia〜 感想 - よろずブログ (2026 DMM download play)",
+      "language": "ja",
+      "notes": "Directly inspected 2026-06-22 first-hand play on a RECENT DMM download release; author explicitly identifies their release as D◯MのDL版. Reports no heroine-specific end routes (キャラクタールートエンディングというものは無い), three story endings (ストーリーエンディングは三種類), nonrandom 4-day loops, and a terminal choice after these loops. This is strong post-2015 Japanese evidence that narrative structure persists in modern downloads, but it is NOT the selected 2015 Windows DVD Selection edition and it does not print exact choices."
+    },
+    {
+      "set": "B",
+      "url": "https://yokunajimukamo.blog130.fc2.com/blog-entry-1576.html",
+      "title": "「腐り姫」プレイ感想3 - よくなじむブログ (2013 MegaStore edition)",
+      "language": "ja",
+      "notes": "Directly indexed Japanese first-hand report of MegaStore 2013 included edition. Explicitly observes 「各所に選択肢がありますが、どれを選んでもストーリーは進行します」 and warns that some choices skip certain character subplots. Supports treating many intermediate choices as non-main-ending scene variations, but not necessarily CG-irrelevant; no full END1/END2 choice path. Separate part 4 of same report identifies edition and the long loop progression. Verify if a reviewer wants to use this component as formal B."
+    },
+    {
+      "set": "B",
+      "url": "https://tales6395.blog.2nt.com/blog-entry-75.html",
+      "title": "『腐り姫～euthanasia～』レビュー - マダツボミの観察日記",
+      "language": "ja",
+      "notes": "Japanese independent first-hand analysis in indexed excerpt: no conventional BADEND, most choices change local scenes but not major forward story; ending is determined by main-story ending selection, reporter reached TRUE after two resets. Direct page fetch currently redirect-loops; DO NOT COUNT AS directly inspected qualifying B until reachable (indexed excerpts only)."
+    },
+    {
+      "set": "B",
+      "url": "https://kanakazu.blog94.fc2.com/blog-entry-638.html",
+      "title": "腐り姫～euthanasia～ 攻略＆レビュー (2010)",
+      "language": "ja",
+      "notes": "Japanese play report indexed, but direct page fetch redirect-loops. Its indexed excerpt explicitly warns that the three complete runs conceal more than 20 separate four-day 本編からはじめる continuations and that save state cannot be carried between them. Not a full choice guide and NOT directly inspectable; do not count as required B evidence."
+    },
+    {
+      "url": "https://nesiakis.iaigiri.com/1511.html",
+      "title": "2015 Japanese Selection first impressions",
+      "language": "ja",
+      "notes": "Directly inspected contemporary 2015 release discussion calls Selection an inexpensive packaging-only return of Liar-soft back-catalogue titles; author already owns original. Supports it being a reprint, but not direct original-versus-Selection test of gameplay, choices, or save states."
+    },
+    {
+      "url": "https://www.yjgalgame.com/gal/kusarihime-euthanasia",
+      "title": "Chinese independent all-end walkthrough (supplementary/non-Japanese)",
+      "language": "zh",
+      "notes": "Inspected Chinese walkthrough which independently groups a final THREE-way ending choice and run-specific scene branches. It uses localized translated text and cannot be used as Japanese Set B, nor as evidence of literal JP option text. It also uses different completion-order terminology, so do not substitute its text into simpleJp."
     }
   ],
-  "disagreements": "RESEARCH GATE BLOCKED — do not generate route_*.json or assemble guide.json. Exact selected target is the 2015 Liar-soft Selection 01 Windows DVD release, the latest official complete Japanese release identified. Set A was tested on a patched original 2002 Windows build; no directly inspected independent comparison establishes the 2015 repackage uses identical literal in-game choices, flag progression, save/replay behavior and CG collection. The independent Japanese TRUE END guide (rarin) has different early and middle choices from Fool; their alternate-path equivalence is unresolved. For END1 and END2, no independent Japanese source inspected reproduces all route-defining choices and ending conditions, so Set B coverage is incomplete. The apparent additional lastcharles walkthrough is a copy of Set A, not independent. Do not invent non-main endings or badEndPath: sources give only three main terminals and source-backed CG branches, not a verified fourth bad ending path. The proposed routes are ending-centric (not heroine romance routes); recurring 本編からはじめる transitions during each complete run are story continuation, whereas 既視感→記憶を失う AFTER an ending is a destructive new-run boundary. Preserve the distinction: ordinary save/load is unreliable across route flags/resets, and a guide should never suggest loading from a previous run after 記憶を失う. The guide must preserve CG-cleanup and 盲点 advice without presenting the optional comedy content as a true-route prerequisite. The exact 2015 cover is verified from the release-specific retailer and populated. Portrait lookup: these three sections represent ending types rather than character routes; a character portrait is not relevant and is intentionally blank. catalog.json alone is a draft/incomplete registration: current tools/catalog.mjs requires matching guide.json, so this research PR is not mergeable until the authoring source gate and route generation are completed.",
-  "generated_at": "2026-11-03T22:45:00Z"
+  "disagreements": "RESEARCH GATE STILL BLOCKED (rechecked 2026-11-03), but several former unknowns are now bounded by independent Japanese evidence.\n\nA. What IS verified: Japanese A/Fool lists three complete runs, their literal final menu selections and save positions (save1 before a scene variation in TRUE; save2 before an Ise-scene variation in END1; save3 before a Jun-scene variation in END1). Independent Rarin B reaches the same exact TRUE terminal with different earlier optional choices. Independent 2025 Japanese play report names the three final outcomes semantically, and 2026 independent DMM player explicitly reports exactly 3 story endings and no heroine endings. 2013 MegaStore player states other choices ordinarily allow story progress but can skip side scenes, which means source-A-only choice text might be acceptable on non-route-defining choices, but their CG consequences still need separate scrutiny. Source A's standard loops from title-screen 本編からはじめる are CONTINUATIONS in the same multi-loop playthrough. At a full ending, 既視感→記憶を失う resets saves/progression; do not use cross-run loads, and preserve 盲点/CG cleanup. The 2015 Selection official release is explicitly a repackaged back-catalogue title, and a 2026 independently played DMM download still has the same three-ending core. Exact target 2015 cover verified.\n\nB. Outstanding MATERIAL blockers under canonical two-Japanese-set rule:\n(1) No directly inspected second Japanese source prints END1 and END2's exact route-defining choice wording and complete, target-applicable choice-to-ending path; the 2025 Japanese B source gives the semantic ending choice alternatives, not their literal labels. A stricter route accuracy review must not equate that with independent exact choice evidence without justification.\n(2) The TRUE route order/unlock is NOT proved: A/Fool presents TRUE as the FIRST complete run, Rarin's true-only page lacks unlock notes, but Pukkura's independent 2018 play reports that after two other endings plus reset a THIRD option appeared to reach the TRUE/リフレーン outcome. Do not infer a hard prerequisite without a version-specific test, but do not assert unconditional first-run TRUE availability either.\n(3) A and Rarin have numerous differing earlier Japanese choices; although both reach TRUE, whether each variant presents the same branch options and comparable CG states in the 2015 Selection build remains unproven.\n(4) The exact 2015 Selection Windows DVD edition is documented by its publisher as a 新装パッケージ re-release, not a remake. That strongly suggests unchanged narrative content, but a direct side-by-side verification of script, save/loop flags, and CG details with Set A's 不明（修正後） 2002 build is still missing. No reliable 2015 Selection-specific playthrough located.\n\nC. Source independence correction: AON_KABOCYA explicitly says it USED/REFERENCED 愚者の館. It and lastcharles are derivative of A and MUST NOT be counted as independent B. Pukkura, 2025 note, 2026 DMM report, Rarin, netlaputa, and honjo-zo provide independent varying levels of evidence. Chinese translations and videos cannot serve as Japanese source sets.\n\nD. Non-main-ending guidance: Neither qualifying Japanese source documents a separate BAD END. Saves 1–3 document optional scenes/CG collection, NOT ending detours: don't attach badEndPath unless an independent verified ending is established. Source A has two post-ending 本編からはじめる no-choice CG-recovery phases (after TRUE and END1), not a fourth main story ending. 盲点 needs ON for full CG set per independent Honjo-zo, but don't claim an unverified Selection-specific toggle order. Three planned guide sections are ending-centric, no character portraits; no genuine heroine unlock dependencies proven.\n\nBecause (B1)–(B4) are unresolved, continue to STOP BEFORE route-file generation per guide-author.md. A complete/mergeable guide requires these facts to be resolved; report the actual gap rather than self-approving. catalog.json alone cannot build via tools/catalog.mjs without the finished guide.json.",
+  "generated_at": "2026-11-04T01:27:18.795Z"
 }

@@ -45,7 +45,7 @@
       "url": "https://blog.livedoor.jp/k_o_blog/archives/38098129.html",
       "title": "アカイイト/アカイイトHD REMASTER　攻略まとめ",
       "language": "ja",
-      "notes": "Set A component. Directly inspected Japanese walkthrough explicitly covering both the original PS2 game and アカイイト HD REMASTER. It is especially useful for numbered save/checkpoint positions and compact ending-recovery sequences, but its HD label does not give it automatic priority over XNEO/Foxtail. Under the same-route-system premise, its disagreements are reconciled as branch-state shorthand or source errors where the state tables disagree. Known examples: the Uzuki ED13 Save② shortcut combines incompatible state (and incorrectly emits the later night choice), Tsuzura ED11 double-lists two alternatives, and its ED20/ED26 classifications are outliers.",
+      "notes": "Set A component. Directly inspected Japanese walkthrough explicitly covering both the original PS2 game and アカイイト HD REMASTER. It is especially useful for numbered save/checkpoint positions and compact ending-recovery sequences, but its HD label does not give it automatic priority over XNEO/Foxtail. Under the same-route-system premise, its disagreements are reconciled as branch-state shorthand or source errors where the state tables disagree. Known examples: the Uzuki ED13 Save② shortcut combines incompatible state (and incorrectly emits the later night choice), Tsuzura ED11 presents sequential mirror-search and mirror-handling decisions, and its ED20/ED26 classifications are outliers.",
       "set": "A"
     },
     {
@@ -95,7 +95,7 @@
       "url": "https://foxtail.okitsune.com/kitchen/capture/red2.htm",
       "title": "アカイイト攻略 - 若杉葛分岐表 (Foxtail)",
       "language": "ja",
-      "notes": "Set B component for Tsuzura. Directly inspectable Japanese branch-state table covering the full route and ED2/6-12. It shows the ED11 mirror options as alternatives, which is used to reject Livedoor's accidental sequential double-listing. It does not document save checkpoints.",
+      "notes": "Set B component for Tsuzura. Directly inspectable Japanese branch-state table covering the full route and ED2/6-12. It documents two distinct, sequential ED11 mirror decisions:『鏡を探してみる』at『鏡の鬼』, followed conditionally by『割るのは忍びない』at『積極攻勢』if mirror-search was chosen. XNEO corroborates this order; these are not mutually exclusive options. It does not document save checkpoints. For ED10, Foxtail explicitly prints『これは夢だし(No.10を迎える一条件)』『別にそんなことは(No.10を迎える一条件)』and『抵抗しない』at separate decision events; these are valid literal Set-B excerpts, not proof that Foxtail documents XNEO's complete emitted Save10-to-ED10 path in the same prior state.",
       "set": "B"
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/akaiito-hd-remaster-hd-remaster",
       "title": "AKAIITO HD REMASTER 攻略",
       "language": "ja",
-      "notes": "Japanese Set B component for Tsuzura on AKAIITO HD REMASTER. Independently directly inspected: complete Day 1–3 ED11/ED12 path and ED11-first hidden-final-choice unlock; full alternative ED8 no-sweets/well-marker branch; full independent ED10 low-affinity alternative, ED7/ED9 and mirror ED11. Also supplementary for Uzuki ED13 and Sakuya ED4/22. The exact guide target is Nintendo Switch HD Remaster; no source documents route branching differences against the same HD Remaster release on PC.",
+      "notes": "Japanese Set B component for Tsuzura on AKAIITO HD REMASTER. Independently directly inspected: complete Day 1–3 ED11/ED12 path and ED11-first hidden-final-choice unlock; full alternative ED8 no-sweets/well-marker branch; full independent ED10 low-affinity alternative, ED7/ED9 and mirror ED11. Also supplementary for Uzuki ED13 and Sakuya ED4/22/23. For Sakuya ED23, its directly inspected HD Remaster route prints『各個撃破は愚の骨頂 → 飛び出していた → いいよ』, but its ED23 path explicitly selects『待てーっ！ → 止めない』immediately before『各個撃破は愚の骨頂』, while the guide's Save16 ED23 path selects『やめておく → 止める』. This is an opposite immediate branch, not just different earlier Day 1–4 history; it supports the literal prompt on Lastcharles's distinct route only, not same-state applicability. The exact guide target is Nintendo Switch HD Remaster; no source documents route branching differences against the same HD Remaster release on PC.",
       "set": "B"
     },
     {

@@ -21,7 +21,8 @@
     "simpleJp": "夜食は美容の敵かも",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "・夜食は美容の敵かも",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "Bad End『蛇の神の使い』（ED8）"
   },
   {
     "simpleJp": "葛ちゃんを探しにいこう",
@@ -246,14 +247,14 @@
   {
     "simpleJp": "これは夢だし",
     "jpGuide1": "〖これは夢だし〗",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "これは夢だし(No.10を迎える一条件)",
     "enGuide": "",
     "badEndPath": "Bad End『言霊の継承（２）』（ED10）"
   },
   {
     "simpleJp": "別にそんなことは",
     "jpGuide1": "〖別にそんなことは〗",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "別にそんなことは(No.10を迎える一条件)",
     "enGuide": ""
   },
   {
@@ -277,7 +278,7 @@
   {
     "simpleJp": "抵抗しない",
     "jpGuide1": "〖抵抗しない〗",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "抵抗しない",
     "enGuide": ""
   },
   {
@@ -402,7 +403,7 @@
   },
   {
     "simpleJp": "Normal End『此岸と彼岸』（ED11）",
-    "jpGuide1": "エンディングNo.11\nNormal End\n『此岸と彼岸』",
+    "jpGuide1": "エンディングNo.11\nNormal End\n『牝岸と彼岸』",
     "jpGuide2": "此岸と彼岸",
     "enGuide": "First completion: the last choice is sealed and does not appear. Clear ED11 to unlock it, then load Save 13."
   },
@@ -428,7 +429,7 @@
   },
   {
     "simpleJp": "Normal End『此岸と彼岸』（ED11）",
-    "jpGuide1": "Normal End『此岸と彼岸』（ED11）",
+    "jpGuide1": "エンディングNo.11\nNormal End\n『牝岸と彼岸』",
     "jpGuide2": "No.11 此岸と彼岸",
     "enGuide": ""
   },
@@ -454,7 +455,7 @@
   },
   {
     "simpleJp": "Normal End『此岸と彼岸』（ED11）",
-    "jpGuide1": "エンディングNo.11\nNormal End\n『此岸と彼岸』",
+    "jpGuide1": "エンディングNo.11\nNormal End\n『牝岸と彼岸』",
     "jpGuide2": "此岸と彼岸",
     "enGuide": ""
   },

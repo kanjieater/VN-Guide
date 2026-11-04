@@ -119,21 +119,18 @@
       "notes": "Directly inspected 2026-06-22 first-hand play on a RECENT DMM download release; author explicitly identifies their release as D◯MのDL版. Reports no heroine-specific end routes (キャラクタールートエンディングというものは無い), three story endings (ストーリーエンディングは三種類), nonrandom 4-day loops, and a terminal choice after these loops. This is strong post-2015 Japanese evidence that narrative structure persists in modern downloads, but it is NOT the selected 2015 Windows DVD Selection edition and it does not print exact choices."
     },
     {
-      "set": "B",
       "url": "https://yokunajimukamo.blog130.fc2.com/blog-entry-1576.html",
       "title": "「腐り姫」プレイ感想3 - よくなじむブログ (2013 MegaStore edition)",
       "language": "ja",
       "notes": "Directly indexed Japanese first-hand report of MegaStore 2013 included edition. Explicitly observes 「各所に選択肢がありますが、どれを選んでもストーリーは進行します」 and warns that some choices skip certain character subplots. Supports treating many intermediate choices as non-main-ending scene variations, but not necessarily CG-irrelevant; no full END1/END2 choice path. Separate part 4 of same report identifies edition and the long loop progression. Verify if a reviewer wants to use this component as formal B."
     },
     {
-      "set": "B",
       "url": "https://tales6395.blog.2nt.com/blog-entry-75.html",
       "title": "『腐り姫～euthanasia～』レビュー - マダツボミの観察日記",
       "language": "ja",
       "notes": "Japanese independent first-hand analysis in indexed excerpt: no conventional BADEND, most choices change local scenes but not major forward story; ending is determined by main-story ending selection, reporter reached TRUE after two resets. Direct page fetch currently redirect-loops; DO NOT COUNT AS directly inspected qualifying B until reachable (indexed excerpts only)."
     },
     {
-      "set": "B",
       "url": "https://kanakazu.blog94.fc2.com/blog-entry-638.html",
       "title": "腐り姫～euthanasia～ 攻略＆レビュー (2010)",
       "language": "ja",
@@ -185,19 +182,30 @@
       "notes": "Japanese original first-hand report indexed and directly available as a search result. Says 「盲点」 ON reveals interstitial comedy, recommends OFF on the first reading for atmosphere, and notes postclear content and laborious CG collection. No full choice walkthrough. Do not assert it grants source coverage for END1/END2."
     },
     {
-      "set": "B",
       "url": "https://yokunajimukamo.blog130.fc2.com/blog-entry-1567.html",
       "title": "腐り姫 プレイ感想１ (2013 first-run menu timing)",
       "language": "ja",
       "notes": "Japanese firsthand play report located by indexed excerpt, but the direct site fetch is a redirect loop, therefore NOT an inspectable verification set. Says after the FIRST FOUR-DAY loop, title-screen 既視感 and the 「盲点」 toggle become available. Used for cautious practical timing note, not the route-source gate."
     },
     {
-      "set": "B",
       "url": "https://yokunajimukamo.blog130.fc2.com/blog-entry-1618.html",
       "title": "腐り姫 プレイ感想４ (2013 post-story 盲点 cleanup)",
       "language": "ja",
       "notes": "Indexed 2013 personal run report (direct URL redirect-looped), says after first full story conclusion the author resets using 記憶を消す and enables 盲点 to collect remaining choices/CGs over ~4-day ×10 internal loops; confirms a full replay may be required if it was OFF. Not directly inspectable; NOT a Set B gate component."
+    },
+    {
+      "url": "https://liar.co.jp/directdl.html",
+      "title": "Liar-soft official download-edition technical specification",
+      "language": "ja",
+      "notes": "DIRECT publisher technical evidence: original 2002 package is 640×480/high-color, but official 2007 Download edition was converted to 800×600/full-color, plus Windows XP/Vista support. This proves a real engineering/asset difference across editions; cannot assume untouched code/scripts/flags in 2015 Selection. It does NOT say exact 2015 DVD uses the 2007 DL code or preserves 2002 patch logic; not a route-evidence Set B."
+    },
+    {
+      "set": "B",
+      "url": "https://phoebe.bbspink.com/test/read.cgi/hgame/1501949720/",
+      "title": "2017 Japanese Liar-soft support thread: Selection 01 compared with download edition",
+      "language": "ja",
+      "notes": "DIRECTLY INSPECTED 2017/10/31 posts #233–235. User specifically asks whether 2015 Selection 01 腐り姫 window resolution is same as downloadable edition's 800×600; another user replies 「そうです」 and the asker acknowledges. This is release-target-specific Japanese player evidence for 800×600 display parity with the 2007+ DL edition, rather than original 640×480. It is a short, anonymous forum answer and does NOT establish that scenario choices, endings, patches, reset flags, or CGs are identical. Counts only toward release/technical presentation, not choice-step coverage."
     }
   ],
-  "generated_at": "2026-11-04T03:53:43.378Z"
+  "generated_at": "2026-11-04T14:00:00Z"
 }

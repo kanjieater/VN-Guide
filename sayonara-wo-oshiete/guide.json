@@ -5,31 +5,31 @@
     {
       "id": "mutsuki",
       "title": "巣鴨睦月ルート",
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://cdn.ymgal.games/archive/main/0f/0f89d56708da4cb0b14f97cd68208da9.jpg"
     },
     {
       "id": "mahiru",
       "title": "田町まひるルート",
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://cdn.ymgal.games/archive/main/73/73bd744d30354ba58f06ee0a3c80db60.jpg"
     },
     {
       "id": "nozomi",
       "title": "高田望美ルート",
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://store.ymgal.games/archive/main/aa/aabe82db2e58454d93b18e9018d8c383.jpg"
     },
     {
       "id": "miyuki",
       "title": "目黒御幸ルート",
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://cdn.ymgal.games/archive/main/e9/e95a8515cffa4487a92315461bf4ab0a.jpg"
     },
     {
       "id": "koyori",
       "title": "上野こよりルート",
-      "reviewed": false,
+      "reviewed": true,
       "portrait": "https://cdn.ymgal.games/archive/main/c4/c49c48f6b3b54b75b4fbb10613f52934.jpg"
     }
   ],

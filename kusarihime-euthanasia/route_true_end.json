@@ -192,6 +192,12 @@
     "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here. This loop has no dialogue choices; continue until the next title/menu transition."
   },
   {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Select this again after the no-choice story loop, as separately printed in Set A, before the final ending choice. This is a SAME-RUN story continuation, not a memory reset."
+  },
+  {
     "simpleJp": "……終わりじゃない。",
     "jpGuide1": "……終わりじゃない。",
     "jpGuide2": "……終わりじゃない。",

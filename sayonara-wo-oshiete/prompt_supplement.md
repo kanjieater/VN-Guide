@@ -27,6 +27,6 @@ For these exact **missing-independent-Set-B** facts, a genuinely undocumented `j
 
 ## Current authoring caveats
 
-Miyuki's archery-club sequence still contains untranscribed actions and is **not** fully executable in the current route file. Three other choices quoted in the primary source with an ellipsis still lack independently verified exact full menu text. Research records what is known about the download edition's engine/save changes and the absence of a complete reproducible BAD END sequence.
+All five route files now reproduce the **entire source-A selectable sequence** (127 total player/save/load steps in the assembled order), including Miyuki's four day-5 archery-club choices without skipping the three repeated commands. The original Japanese source uses ellipses in three other options; these are reproduced verbatim but have not been positively verified as the exact full in-game labels of VJ009745. No complete choice-by-choice comparison with the 2016 download edition is yet available, and the reported optional BAD END has no reproducible written path. Those are **accuracy verification caveats**, not missing transcribed Set-A actions. The route author must still obtain independent matching review records and cannot self-approve.
 
 This supplement is **not** an independent verification report and does not override those factual defects.

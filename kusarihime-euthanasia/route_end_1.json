@@ -3,7 +3,7 @@
     "simpleJp": "既視感",
     "jpGuide1": "「既視感」から「記憶を失う」後、開始",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "The previous full story ending has completed. After the (source-documented) no-choice CG epilogue, select title-menu 「既視感」 to begin another complete playthrough. This is an actual replay boundary, NOT a normal four-day continuation. Set A prints this before the second/third complete run. If you are here as a fallback because the TRUE option did not appear, follow this sequence from a fresh run after the ending you could select; don't pretend that TRUE has been cleared."
+    "enGuide": "Fresh full-run boundary after the last completed story ending. On the title menu choose 「既視感」, then the separately listed 「記憶を失う」. Normally you just saw the TRUE no-choice CG epilogue. If this is the recovery path because TRUE was absent on your first run, the ending you could actually select may be END1 or END2 instead: complete any documented post-END1 no-choice CG scene if offered, but do not assume a post-END2 epilogue exists. Then reset from the title as above. Keep this END1 replay, including Save 2 and Save 3 scene variants, even if END1 was already seen in the conditional fallback; it is included here for the primary 100%-CG route. The alternate-first recovery has NOT been reproduced on the selected 2015 Selection DVD."
   },
   {
     "simpleJp": "記憶を失う",

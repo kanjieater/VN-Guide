@@ -6,31 +6,31 @@
       "id": "uzuki",
       "title": "千羽烏月ルート",
       "reviewed": false,
-      "portrait": "https://t.vndb.org/ch/83/11683.jpg"
+      "portrait": "https://t.vndb.org/ch/18/209218.jpg"
     },
     {
       "id": "tsuzura",
       "title": "若杉葛ルート",
       "reviewed": false,
-      "portrait": "https://t.vndb.org/ch/09/12209.jpg"
+      "portrait": "https://t.vndb.org/ch/15/209215.jpg"
     },
     {
       "id": "sakuya",
       "title": "浅間サクヤルート",
       "reviewed": false,
-      "portrait": "https://t.vndb.org/ch/82/11682.jpg"
+      "portrait": "https://t.vndb.org/ch/14/209214.jpg"
     },
     {
       "id": "yumei",
       "title": "ユメイルート",
       "reviewed": false,
-      "portrait": "https://t.vndb.org/ch/10/12210.jpg"
+      "portrait": "https://t.vndb.org/ch/12/209212.jpg"
     },
     {
       "id": "nozomi",
       "title": "ノゾミルート",
       "reviewed": false,
-      "portrait": "https://t.vndb.org/ch/45/12245.jpg"
+      "portrait": "https://t.vndb.org/ch/13/209213.jpg"
     }
   ],
   "sources": [
@@ -143,6 +143,6 @@
   "guide_target": {
     "label": "アカイイト HD REMASTER",
     "platform": "Nintendo Switch",
-    "url": "https://store-jp.nintendo.com/item/software/D70010000062832"
+    "url": "https://vndb.org/r95904"
   }
 }

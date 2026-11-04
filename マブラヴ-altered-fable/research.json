@@ -5,7 +5,7 @@
     {
       "id": "sumika",
       "title": "純夏ルート",
-      "portrait": "https://t.vndb.org/ch/40/140.jpg",
+      "portrait": "https://t.vndb.org/ch/00/207900.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Kagami Sumika (鑑純夏). Reached from the shared common route by choosing 「いや、一度部屋に戻ってくる」 at the SAVE1 branch (sagaoz.net numbering) and later giving up (ギブアップ) the beach volleyball match. Both sagaoz.net and gamerssquare.kanpaku.jp place Sumika and Kasumi as the first pair of endings reachable from the same late save point (セーブ３／セーブ４ depending on source's numbering), with no prerequisite routes. This is a fandisc (かがやく時空が消えぬ間に) where each 'route' is a short branch-off arc during a beach/summer-island free-roam section, not a full separate scenario; there is no locked/true-route structure."
@@ -21,7 +21,7 @@
     {
       "id": "meiya",
       "title": "冥夜ルート",
-      "portrait": "https://t.vndb.org/ch/38/138.jpg",
+      "portrait": "https://t.vndb.org/ch/15/207915.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mitsurugi Meiya (御剣冥夜). Branches from SAVE1 (common route) by choosing 「いや、一度部屋に戻ってくる」-equivalent path toward Meiya instead of Yuuhi at the twins' room scene, includes a watermelon-splitting (スイカ割り) minigame that must be made to FAIL before the volleyball match per gamerssquare. No prerequisites; freely reachable alongside Yuuhi's route from the same save."
@@ -29,7 +29,7 @@
     {
       "id": "yuuhi",
       "title": "悠陽ルート",
-      "portrait": "https://t.vndb.org/ch/11/211.jpg",
+      "portrait": "https://t.vndb.org/ch/11/207911.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Mitsurugi Yuuhi (御剣悠陽), Meiya's twin sister. Branches from SAVE1 by choosing to comfort/side with Yuuhi. Has two variant scenes documented by both full guides (labelled 悠陽A/悠陽B or 悠陽エンド + 悠陽回収 'recollection'): the second is an additional H-scene reachable via a slightly different dialogue choice from the same branch (「一度チャラにしようぜ？」 vs 「わかった、お前に頼むよ」 per alteredfable.wikidb.info), not a separate ending. No prerequisites."
@@ -37,7 +37,7 @@
     {
       "id": "chizuru",
       "title": "千鶴ルート",
-      "portrait": "https://t.vndb.org/ch/47/147.jpg",
+      "portrait": "https://t.vndb.org/ch/40/207940.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Sakaki Chizuru (榊千鶴), the class president. Branches from the common island free-roam save (セーブ３ in sagaoz.net / セーブ５ in gamerssquare) by visiting the pool and choosing 「その勝負、受けよう！」 to accept her challenge, then losing the volleyball match. No prerequisites."
@@ -45,7 +45,7 @@
     {
       "id": "kei",
       "title": "彩峰慧ルート",
-      "portrait": "https://t.vndb.org/ch/57/157.jpg",
+      "portrait": "https://t.vndb.org/ch/80/207980.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Ayamine Kei (彩峰慧). Branches from SAVE2 (sagaoz.net numbering) by choosing the snowboarding minigame (スノボ、やってみようかな) then following her through the Altair Beach segment before losing the volleyball match. No prerequisites."
@@ -53,7 +53,7 @@
     {
       "id": "miki",
       "title": "壬姫ルート",
-      "portrait": "https://t.vndb.org/ch/64/164.jpg",
+      "portrait": "https://t.vndb.org/ch/48/207948.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Tamase Miki (珠瀬壬姫), the archery-club 'class mascot'. Branches from the same island save as Mikoto/Chizuru (セーブ３ sagaoz.net numbering) via the souvenir-shop (お土産屋) detour on the beach. No prerequisites."
@@ -61,7 +61,7 @@
     {
       "id": "mikoto",
       "title": "美琴ルート",
-      "portrait": "https://t.vndb.org/ch/07/307.jpg",
+      "portrait": "https://t.vndb.org/ch/53/207953.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Yoroi Mikoto (鎧衣美琴) — one of the 4 heroines added in Altered Fable. Branches from the same island save point as Miki/Chizuru via the sand-dune (砂浜) scenes. No prerequisites."
@@ -69,7 +69,7 @@
     {
       "id": "haruko",
       "title": "柏木晴子ルート",
-      "portrait": "https://t.vndb.org/ch/07/207.jpg",
+      "portrait": "https://t.vndb.org/ch/23/207923.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Kashiwagi Haruko (柏木晴子) — one of the 4 heroines added in Altered Fable. Both full guides note the volleyball match here requires deliberately NOT fielding Takeru on either team (武は試合に出さない方がいい) since he is not paired with Haruko as a teammate; branches from the snowboard/Altair Beach save shared with Kei's route. No prerequisites."
@@ -77,7 +77,7 @@
     {
       "id": "marimo",
       "title": "まりもルート",
-      "portrait": "https://t.vndb.org/ch/42/142.jpg",
+      "portrait": "https://t.vndb.org/ch/18/207918.jpg",
       "prerequisites": [],
       "is_true_ending": false,
       "notes": "Jinguuji Marimo (神宮司まりも), the homeroom/English teacher — one of the 4 heroines added in Altered Fable. Branches from the island save via the 'hide and seek'-style bridge/road detour; both guides also treat this branch as the vehicle for recollection-only content involving side characters Isumi Michiru (水月) and Suzumiya Haruka (遙). No prerequisites."

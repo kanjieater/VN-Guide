@@ -1,0 +1,188 @@
+name: Refresh VNDB-first guide metadata
+on:
+  push:
+    branches: [chore/vndb-first-metadata-20261104]
+    paths: [.github/workflows/vndb-first-metadata.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.4.2"
+      - name: Sync exact-target VNDB images and version links, preserving fallbacks
+        shell: bash
+        run: |
+          set -euo pipefail
+          bun - <<'JS'
+          import { readdir, readFile, writeFile } from "node:fs/promises";
+          import { join } from "node:path";
+          const legacy = JSON.parse(await readFile("games.json", "utf8"));
+          const changed = new Map();
+          const original = new Map([["games.json", JSON.stringify(legacy)]]);
+          const unresolved = [];
+          const norm = x => String(x || "").normalize("NFKC").toLowerCase()
+            .replace(/[\s\u3000・･~～‐‑–—:：,，.'’"'“”【】（）()「」『』]/gu, "");
+          const urlKey = x => {
+            try {
+              const u = new URL(x);
+              return u.hostname.toLowerCase().replace(/^www\./, "") + u.pathname.replace(/\/+$/, "").toLowerCase();
+            } catch { return ""; }
+          };
+          const isVndbImage = x => {
+            try {
+              const u = new URL(x);
+              return u.protocol === "https:" && (u.hostname === "vndb.org" || u.hostname.endsWith(".vndb.org"));
+            } catch { return false; }
+          };
+          async function load(path) {
+            try {
+              const obj = JSON.parse(await readFile(path, "utf8"));
+              original.set(path, JSON.stringify(obj));
+              return obj;
+            }
+            catch (e) { if (e.code === "ENOENT") return null; throw e; }
+          }
+          async function api(type, id, fields) {
+            const records = [];
+            for (let page = 1; page <= 30; page++) {
+              const response = await fetch("https://api.vndb.org/kana/" + type, {
+                method: "POST",
+                headers: { "Content-Type": "application/json", "User-Agent": "VN-Guide/metadata-sync" },
+                body: JSON.stringify({ filters: ["vn", "=", ["id", "=", id]], fields, results: 100, page }),
+              });
+              if (!response.ok) throw new Error("VNDB " + type + " / " + id + ": HTTP " + response.status);
+              const json = await response.json();
+              if (!Array.isArray(json.results)) throw new Error("Invalid VNDB response");
+              records.push(...json.results);
+              if (!json.more) return records;
+            }
+            throw new Error("VNDB result pagination exceeded for " + id);
+          }
+          function matchRelease(target, releases, id) {
+            const url = target?.url || "";
+            const explicit = /^https:\/\/(?:www\.)?vndb\.org\/(r\d+)\/?$/i.exec(url)?.[1];
+            const valid = r => r.official && !r.patch && r.vns?.some(v => v.id === id && v.rtype === "complete");
+            if (explicit) return releases.find(r => r.id === explicit && valid(r)) || null;
+            const key = urlKey(url);
+            const matches = releases.filter(r => valid(r) && key && r.extlinks?.some(l => urlKey(l.url) === key));
+            return matches.length === 1 ? matches[0] : null;
+          }
+          function coverFor(release, id) {
+            const images = (release?.images || []).filter(i =>
+              isVndbImage(i.url) && (!i.vn || i.vn === id) && (!i.languages || i.languages.includes("ja")));
+            for (const type of ["pkgfront", "dig"]) {
+              const urls = [...new Set(images.filter(i => i.type === type).map(i => i.url))];
+              if (urls.length === 1) return urls[0];
+              if (urls.length > 1) return null;
+            }
+            return null;
+          }
+          function findCharacter(route, chars) {
+            const name = String(route.title || "").replace(/(?:ルート|編|エンド|END)$/iu, "");
+            const key = norm(name);
+            if (key.length < 2 || !/[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u.test(name)) return null;
+            const names = c => [c.original, c.name, ...(c.aliases || [])].map(norm).filter(Boolean);
+            const valid = chars.filter(c => isVndbImage(c.image?.url));
+            const exact = valid.filter(c => names(c).includes(key));
+            if (exact.length === 1) return exact[0];
+            if (exact.length > 1) return null;
+            const suffix = valid.filter(c => names(c).some(n => n.length > key.length && n.endsWith(key)));
+            return suffix.length === 1 ? suffix[0] : null;
+          }
+          const dirs = (await readdir(".", { withFileTypes: true }))
+            .filter(d => d.isDirectory() && !d.name.startsWith(".")).map(d => d.name).sort();
+          for (const slug of dirs) {
+            const gp = join(slug, "guide.json");
+            const guide = await load(gp);
+            if (!guide || !/^v\d+$/.test(guide.vndb_id)) continue;
+            const id = guide.vndb_id;
+            const cp = join(slug, "catalog.json"), rp = join(slug, "research.json");
+            const catalog = await load(cp), research = await load(rp);
+            const meta = catalog || legacy[id];
+            const target = meta?.guide_target || guide.guide_target || research?.guide_target;
+            const [chars, releases] = await Promise.all([
+              api("character", id, "id,name,original,aliases,image.url"),
+              api("release", id, "id,title,alttitle,released,platforms,official,patch,vns.id,vns.rtype,extlinks.url,images.url,images.type,images.vn,images.languages"),
+            ]);
+            if (!target?.url) unresolved.push(slug + " release (no explicit edition target; not guessing)");
+            const release = matchRelease(target, releases, id);
+            if (release) {
+              const link = "https://vndb.org/" + release.id;
+              for (const obj of [meta, guide, research]) {
+                if (obj?.guide_target && obj.guide_target.url !== link) {
+                  obj.guide_target.url = link;
+                  console.log(slug + ": " + link);
+                }
+              }
+              const cover = coverFor(release, id);
+              if (meta && cover && meta.cover_url !== cover) {
+                meta.cover_url = cover;
+                console.log(slug + ": release cover " + cover);
+              }
+            } else if (target?.url && !/^https:\/\/(?:www\.)?vndb\.org\/r\d+/i.test(target.url)) {
+              unresolved.push(slug + " release (retained " + target.url + ")");
+              const candidates = releases.filter(r => r.official && !r.patch && r.vns?.some(v => v.id === id && v.rtype === "complete"));
+              console.log("Release candidates for " + slug + ": " + JSON.stringify(candidates.map(r => ({id:r.id,title:r.title,date:r.released,platforms:r.platforms,extlinks:r.extlinks?.map(l => l.url)}))));
+            }
+            for (const route of guide.routes) {
+              const ch = findCharacter(route, chars);
+              if (ch) {
+                if (route.portrait !== ch.image.url) {
+                  route.portrait = ch.image.url;
+                  console.log(slug + "/" + route.id + ": " + ch.id + " " + ch.image.url);
+                }
+                const researchRoute = research?.routes?.find(r => r.id === route.id);
+                if (researchRoute) researchRoute.portrait = ch.image.url;
+              } else {
+                // Reuse a previously verified research portrait when the guide has
+                // no portrait and VNDB cannot provide a unique character match.
+                const fallback = research?.routes?.find(r => r.id === route.id)?.portrait;
+                if (!route.portrait && fallback && /^https:\/\//.test(fallback)) {
+                  route.portrait = fallback;
+                  console.log(slug + "/" + route.id + ": research fallback " + fallback);
+                }
+                if (route.portrait && !isVndbImage(route.portrait)) {
+                  unresolved.push(slug + "/" + route.id + " portrait (fallback retained)");
+                }
+              }
+            }
+            changed.set(gp, guide);
+            if (catalog) changed.set(cp, catalog);
+            if (research) changed.set(rp, research);
+          }
+          changed.set("games.json", legacy);
+          let count = 0;
+          for (const [path, obj] of changed) {
+            const old = await readFile(path, "utf8");
+            const next = JSON.stringify(obj, null, 2) + "\n";
+            if (JSON.stringify(obj) !== original.get(path)) {
+              await writeFile(path, next);
+              count++;
+              console.log("Updated " + path);
+            }
+          }
+          console.log("VNDB metadata changed in " + count + " files");
+          console.log("Unresolved exact matches/fallbacks (" + unresolved.length + "):");
+          for (const problem of unresolved) console.log(" - " + problem);
+          JS
+      - name: Commit metadata-only changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- games.json ':(glob)*/catalog.json' ':(glob)*/guide.json' ':(glob)*/research.json'
+          if git diff --cached --quiet; then
+            echo "No metadata changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: use verified VNDB images and release links"
+          git push origin "HEAD:$GITHUB_REF_NAME"

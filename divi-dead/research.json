@@ -4,7 +4,7 @@
   "guide_target": {
     "label": "DIVI-DEAD（1998年オリジナルCD版）",
     "platform": "Windows 95/PC",
-    "url": "https://www.suruga-ya.jp/product/detail/145000745"
+    "url": "https://vndb.org/r107"
   },
   "routes": [
     {
@@ -34,10 +34,10 @@
     {
       "id": "sachiko",
       "title": "佐知子エンド",
-      "portrait": "",
+      "portrait": "https://t.vndb.org/ch/93/147693.jpg",
       "prerequisites": [],
       "is_true_ending": false,
-      "notes": "F801/A系7個すべてを満たす。 ACDBで斎乃佐知子(ID 27355)の1998年DIVI-DEAD割当と画像存在を確認したが、非ログイン状態で安定した直接画像URLを取得できなかったためportraitは空欄を維持。"
+      "notes": "F801/A系7個すべてを満たす。 VNDB Kana character c27965（斎乃佐知子）の image.url を取得してportraitに採用。ACDBは旧来の人物特定資料として保持。"
     }
   ],
   "recommended_order": [

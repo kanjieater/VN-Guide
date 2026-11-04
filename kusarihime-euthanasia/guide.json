@@ -1,0 +1,156 @@
+{
+  "title": "Kusarihime ~Euthanasia~",
+  "vndb_id": "v37",
+  "guide_target": {
+    "label": "Liar-soft Selection 01 腐り姫 ～euthanasia～ (2015-11-27, LIRS-001)",
+    "platform": "Windows (DVD)",
+    "url": "https://www.prop.gr.jp/id107359_2.html"
+  },
+  "routes": [
+    {
+      "id": "true_end",
+      "title": "１周目・TRUE END",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "end_1",
+      "title": "２周目・END1",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "end_2",
+      "title": "３周目・END2",
+      "portrait": "",
+      "reviewed": false
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://sagaoz.net/foolmaker/game/k/euthanasia.html",
+      "title": "腐り姫 攻略 by 愚者の館（アーカイブ）",
+      "language": "ja",
+      "notes": "Directly inspected entire page, authored Fool, last updated 2004-02-12. Tested version labelled 不明（修正後） (patched original, NOT 2015 Selection edition). Three separate complete choice sequences (TRUE END, END1, END2), in-game 本編からはじめる continuation between loops, explicit 既視感→記憶を失う run resets, saves 1-3 with branches for scene/CG completion, and post-terminal CG cleanup. Says TRUE END (possibly all endings) unlocks 狐の嫁入り 5 episodes. Does not establish exact 2015 edition choice compatibility."
+    },
+    {
+      "set": "B",
+      "url": "https://www5a.biglobe.ne.jp/~rarin/ra/euthanasia.html",
+      "title": "腐り姫 True End への道",
+      "language": "ja",
+      "notes": "Independent original-era Japanese TRUE END guide, directly inspected. First-to-fourth shell choice path ends with exact 「……終わりじゃない。」, same terminal as Set A. Earlier choice substitutions are: (1) 「……どうかしたかい？」 vs A 「うん。電話の相手はね…」, (2) 「米軍誘致でしょう」 vs A 「ただ酒の呑める町」, (3) 「母さんだ」 vs A 「芳野さんだ」, (4) 「それでも僕は…迷い続ける」 vs A 「自分の暗い過去を感じた」; it also chooses 「潤にキスをした」/「かなえてこそ、夢」 within a later shell where A instead has the post-save branch. Both explicitly reach TRUE END, so these are likely alternative scene paths, not mutually exclusive mandatory route-defining choices; however a full same-state/2015 parity proof is still missing. Does not cover END1, END2, or CG cleanup."
+    },
+    {
+      "url": "https://aon-kabocya.hatenablog.com/entry/2021/05/17/093110",
+      "title": "〖腐り姫 ～euthanasia～〗感想 - ひっそりと群生",
+      "language": "ja",
+      "notes": "Read directly. CORRECTION: this author explicitly credits the 愚者の館 walkthrough (Set A) at the foot of the article. The report's TRUE END → END1 → END2 order, advice and completion cannot be treated as INDEPENDENT Set B confirmation. Kept only as derivative usage evidence. Other personal impressions may be original, but this is not verification-lane support."
+    },
+    {
+      "set": "B",
+      "url": "https://www.netlaputa.ne.jp/~gk-home/kansou-kusarihime.html",
+      "title": "腐り姫（ライアーソフト） - プレイ感想",
+      "language": "ja",
+      "notes": "Independent early Japanese first-hand technical report: ending completion makes normal 本編からはじめる unable to advance, 既視感→記憶を失う resets saves/progression, loaded saves may be reinterpreted by flags, and CG/story completion requires multiple runs. Does not independently provide precise ending routes."
+    },
+    {
+      "set": "B",
+      "url": "https://honjo-zo.hatenablog.com/entry/20030401/1049122800",
+      "title": "Liar-Soft 「腐り姫」 - 本条蔵",
+      "language": "ja",
+      "notes": "Independent Japanese player advice: 盲点 must be enabled for CG completion in the original patched game; early edition could block at 第二殻 without official patch, and read-skip survives reset only after patch. Not a complete choice-route source."
+    },
+    {
+      "url": "https://www.liar.co.jp/selection.html",
+      "title": "Liar-soft Selection official series page",
+      "language": "ja",
+      "notes": "Directly inspected official publisher page labels Selection No.01 腐り姫 and frames the Selection line as newly packaged legacy games. This helps justify targeting Selection 01, but does not explicitly guarantee byte-for-byte story/choice equivalence to the 2002 patched walkthrough."
+    },
+    {
+      "url": "https://www.prop.gr.jp/id107359_2.html",
+      "title": "Liar-soft Selection 01 腐り姫 product listing (2015-11-27)",
+      "language": "ja",
+      "notes": "Directly inspected release-specific merchant listing; identifies Windows DVD 2015-11-27 and supplies the exact Selection edition cover via https://www.prop.gr.jp/image/pcimage/107359.jpg (opened and visually checked). Chosen as exact guide_target URL because a suitable VNDB r... URL was not directly obtainable/verified."
+    },
+    {
+      "url": "https://www.suruga-ya.jp/product/detail/145052380",
+      "title": "駿河屋 Liar-soft Selection 01 product LIRS-001",
+      "language": "ja",
+      "notes": "Independent Japanese release listing confirms publisher, 2015-11-27 date, and product model LIRS-001."
+    },
+    {
+      "url": "https://www.liar.co.jp/kusari.html",
+      "title": "腐り姫修正差分ファイル - Liar-soft official",
+      "language": "ja",
+      "notes": "Directly inspected official 2002 original patch notices. March 2002 patch fixes 盲点 behavior and preserves read-state across 記憶を失う, but previous saves are incompatible. This is original-release patch context and DOES NOT establish 2015 Selection route equivalence."
+    },
+    {
+      "url": "https://www.gtaku.net/vngameinfo/48576",
+      "title": "Kusarihime release list (VNDB-derived metadata)",
+      "language": "en",
+      "notes": "Public release aggregation lists native Japanese official Windows editions 2002-02-08, 2007-09-14, 2015-11-27, with no later official complete Japanese edition listed; supports newest Japanese release policy but is not a substitute for an exact VNDB release page. Exact r-ID not verified."
+    },
+    {
+      "url": "https://lastcharles.com/pc-18/walkthrough/pc-18/kusarihime-euthanasia-euthanasia",
+      "title": "Repost of 愚者の館 walkthrough",
+      "language": "ja",
+      "notes": "Directly inspected exact-sequence mirror of Fool's Set A; explicitly EXCLUDED as independent Set B. It reproduces the same list and ending structure."
+    },
+    {
+      "set": "B",
+      "url": "https://note.com/clever_swan1954/n/nf8b3a67e7520",
+      "title": "個人的な『腐り姫』感想メモ - マイマイゾンビ",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese 2025 play report. Describes the final THREE outcome choices semantically: 「共に在り続ける」 (= Set A END1 terminal 「蔵女と共に、生き続けよう。」), 「在ることを終える」 (= Set A END2 「お開きにしよう。」), and 「二人で全てを忘れて生きていく」 (= Set A TRUE END 「……終わりじゃない。」). No visible attribution to Fool; original first-hand commentary. Confirms decision/outcome semantics, NOT literal in-game Japanese choice texts for END1/END2, nor intermediate run/CG/saves or precise 2015 Selection parity."
+    },
+    {
+      "set": "B",
+      "url": "https://pukkura.hatenablog.com/entry/2018/01/04/192008",
+      "title": "腐り姫~euthanasia~ 感想 - 最果てバイブル",
+      "language": "ja",
+      "notes": "Directly inspected independent player report labels three outcomes 落果 (endless coexistence), 腐爛 (mutual cessation), and リフレーン (memory/power reset, called TRUE elsewhere). Reader says they played 落果 → 腐爛 then reset and saw a third option leading リフレーン: 「上2つのエンドを見てから、記憶を消して再度プレイし出現させた第三の選択肢」. This potentially signals an unlock/flag dependency; Set A instead lists TRUE as its first complete run. We have NOT proved whether third choice strictly requires prior two endings, appears as result of particular branch flags, or whether both pathways are valid. This is a MATERIAL unresolved research uncertainty; do not suppress it."
+    },
+    {
+      "set": "B",
+      "url": "https://cuguf54uity.blog.jp/archives/29915477.html",
+      "title": "腐り姫〜euthanasia〜 感想 - よろずブログ (2026 DMM download play)",
+      "language": "ja",
+      "notes": "Directly inspected 2026-06-22 first-hand play on a RECENT DMM download release; author explicitly identifies their release as D◯MのDL版. Reports no heroine-specific end routes (キャラクタールートエンディングというものは無い), three story endings (ストーリーエンディングは三種類), nonrandom 4-day loops, and a terminal choice after these loops. This is strong post-2015 Japanese evidence that narrative structure persists in modern downloads, but it is NOT the selected 2015 Windows DVD Selection edition and it does not print exact choices."
+    },
+    {
+      "set": "B",
+      "url": "https://yokunajimukamo.blog130.fc2.com/blog-entry-1576.html",
+      "title": "「腐り姫」プレイ感想3 - よくなじむブログ (2013 MegaStore edition)",
+      "language": "ja",
+      "notes": "Directly indexed Japanese first-hand report of MegaStore 2013 included edition. Explicitly observes 「各所に選択肢がありますが、どれを選んでもストーリーは進行します」 and warns that some choices skip certain character subplots. Supports treating many intermediate choices as non-main-ending scene variations, but not necessarily CG-irrelevant; no full END1/END2 choice path. Separate part 4 of same report identifies edition and the long loop progression. Verify if a reviewer wants to use this component as formal B."
+    },
+    {
+      "set": "B",
+      "url": "https://tales6395.blog.2nt.com/blog-entry-75.html",
+      "title": "『腐り姫～euthanasia～』レビュー - マダツボミの観察日記",
+      "language": "ja",
+      "notes": "Japanese independent first-hand analysis in indexed excerpt: no conventional BADEND, most choices change local scenes but not major forward story; ending is determined by main-story ending selection, reporter reached TRUE after two resets. Direct page fetch currently redirect-loops; DO NOT COUNT AS directly inspected qualifying B until reachable (indexed excerpts only)."
+    },
+    {
+      "set": "B",
+      "url": "https://kanakazu.blog94.fc2.com/blog-entry-638.html",
+      "title": "腐り姫～euthanasia～ 攻略＆レビュー (2010)",
+      "language": "ja",
+      "notes": "Japanese play report indexed, but direct page fetch redirect-loops. Its indexed excerpt explicitly warns that the three complete runs conceal more than 20 separate four-day 本編からはじめる continuations and that save state cannot be carried between them. Not a full choice guide and NOT directly inspectable; do not count as required B evidence."
+    },
+    {
+      "url": "https://nesiakis.iaigiri.com/1511.html",
+      "title": "2015 Japanese Selection first impressions",
+      "language": "ja",
+      "notes": "Directly inspected contemporary 2015 release discussion calls Selection an inexpensive packaging-only return of Liar-soft back-catalogue titles; author already owns original. Supports it being a reprint, but not direct original-versus-Selection test of gameplay, choices, or save states."
+    },
+    {
+      "url": "https://www.yjgalgame.com/gal/kusarihime-euthanasia",
+      "title": "Chinese independent all-end walkthrough (supplementary/non-Japanese)",
+      "language": "zh",
+      "notes": "Inspected Chinese walkthrough which independently groups a final THREE-way ending choice and run-specific scene branches. It uses localized translated text and cannot be used as Japanese Set B, nor as evidence of literal JP option text. It also uses different completion-order terminology, so do not substitute its text into simpleJp."
+    }
+  ],
+  "generated_at": "2026-11-04T03:13:07.781Z"
+}

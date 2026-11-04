@@ -46,7 +46,7 @@
       "url": "https://note.com/kksk/n/nc4029dec3472",
       "title": "『さよならを教えて』（2001）プレイ感想 (kqck, DLsite purchase)",
       "language": "ja",
-      "notes": "Directly inspected detailed first-hand Japanese 2026 play log: author says the copy was purchased on DLsite and explicitly recounts the day-9 five-way heroine-selection prompt, selection of 御幸 and movement to 図書室, heroine-specific episodes and ending, plus a failed 望美 attempt that reached the bad ending and required replay from day 3. Important partial independent evidence for the Windows DL distribution, but product ID and all literal route-defining choices, affinity requirements, and endings are not verified; DOES NOT QUALIFY AS COMPLETE SET B."
+      "notes": "Directly inspected detailed first-hand Japanese 2026 play log: author says the copy was purchased on DLsite and explicitly recounts the day-9 five-way heroine-selection prompt, selection of 御幸 and movement to 図書室, heroine-specific episodes and ending, plus a failed 望美 attempt that reached the bad ending and required replay from day 3. Important partial independent evidence for the Windows DL distribution, but product ID and all literal route-defining choices, affinity requirements, and endings are not verified; DOES NOT QUALIFY AS COMPLETE SET B. Day-5 rooftop three-choice interaction quotes the full 「それだけの情報ではわからない」 (source A abbreviates to 「それだけの情報では」) and records an unfavorable reaction followed by a reload; this does not prove the option blocks the ending. Full text is now directly attributed to this Set-B lane for Nozomi step 7, but the affinity outcome is disputed."
     },
     {
       "set": "B",
@@ -176,7 +176,7 @@
       "notes": "Independent 2013 written Japanese completion report predates the 2016 target. Reports BAD then heroine-branch clears and quotes all three options of the recurring angel-dream response including 彼女は天使であって天使ではない and 絶対に違う！ that appear in abbreviated form in Set A. Partial literal-choice corroboration for an older build only; cannot establish 2016 VJ009745 parity or cover the five route paths. Supplementary B, not a full independent route walkthrough."
     }
   ],
-  "generated_at": "2026-11-04T03:15:00.000Z",
+  "generated_at": "2026-11-04T04:21:00.000Z",
   "guide_target": {
     "label": "さよならを教えて ～comment te dire adieu～ ダウンロード版 (DLsite VJ009745, 2016-01-29)",
     "platform": "Windows",

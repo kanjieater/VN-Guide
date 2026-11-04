@@ -10,7 +10,7 @@
     {
       "id": "keisuke",
       "title": "ケイスケ（GOOD／BAD×2／アルビトロBAD）",
-      "portrait": "https://www.togainu.com/windows/assets/images/keisuke.webp",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/keisuke.png",
       "prerequisites": [],
       "is_true_ending": false,
       "reviewed": false
@@ -26,7 +26,7 @@
     {
       "id": "motomi",
       "title": "源泉（GOOD）",
-      "portrait": "https://www.togainu.com/windows/assets/images/motomi.webp",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/motomi.png",
       "prerequisites": [],
       "is_true_ending": false,
       "reviewed": false
@@ -84,13 +84,14 @@
       "url": "https://half-a.net/games1/togainu.html",
       "title": "咎狗の血 PC版攻略（HalfAdder）",
       "language": "ja",
-      "notes": "Directly inspected independent Japanese PC-only walkthrough with complete character paths, all main endings and optional BAD alternatives, plus conditional-choice and difficulty-patch 1.01 notes. Keisuke initial 「やっぱりダメだ」 is explicitly patched-version guidance; for launch 1.00 use Set A original 「……」."
+      "notes": "Independently directly inspected complete Japanese PC walkthrough with all main outcomes, normal choices and conditional-choice markers. This page was updated to accommodate ScriptVersion1.01 difficulty patch: its Keisuke opening uses やっぱりダメだ; crucially its note explicitly says first choice ・・・・・ in 1.01 suppresses BAD alternatives, and says other choices are unchanged. For unpatched 1.00 target opening the separate B component blgame.hatenablog.com confirms 「……」 alongside primary unpatched Set A. The B source set thus uses both pages for 1.00."
     },
     {
       "url": "https://blgame.hatenablog.com/entry/togainu-k",
       "title": "攻略◆咎狗の血（オリジナルPC攻略復刻）",
       "language": "ja",
-      "notes": "Independent contemporaneous-era secondary Japanese cross-check. Confirms good-end/unlock flags (Shiki after Rin; n after four main GOODs), Nano affection-neutral requirements, and optional Arbitro/executioner BAD endings."
+      "notes": "Independently inspectable original-era Japanese PC-route/affinity notes, restored in 2017 from the author's 2000s-era site. Explicitly says difficulty adjustment patch is unnecessary and gives original unpatched Keisuke opening 「……」 and his two BAD outcomes alongside GOOD; reconfirms first-run Shiki unlock after Rin, n unlock after other four GOODs, Kiriwar/Gunji executioner split and all other character entries. B is a composite independent verification set (HalfAdder full PC steps + this independent original unpatched witness). Neither is a translation/derivative of Set A.",
+      "set": "B"
     },
     {
       "url": "https://www.suruga-ya.jp/product/detail/145012620",
@@ -115,6 +116,18 @@
       "title": "Nitro+ original difficulty patch support",
       "language": "ja",
       "notes": "Reference for original game ScriptVersion 1.01 difficulty adjustment, not an independent choice walkthrough."
+    },
+    {
+      "url": "https://www.nitrochiral.com/pc/togainu/old-version",
+      "title": "ニトロキラル 『咎狗の血』旧版・発売日と各版の区別",
+      "language": "ja",
+      "notes": "Official 2005 first-run edition metadata: 2005-02-25 18+ Windows first press, distinct from 2005-03-25 regular, later Vista/Vista7, Windows 10 compatibility, and separate True Blood routes. Source about edition, not route choice."
+    },
+    {
+      "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/",
+      "title": "Nitroplus original/Vista/Win10 PC edition support",
+      "language": "ja",
+      "notes": "Publisher explicitly confirms original/Vista/Win10 Windows 18+ editions have identical GAME CONTENT (not to be confused with the separately adapted console True Blood). Not evidence that optional 1.01 difficulty patch leaves opening choice mechanics intact; patch deviation handled separately."
     }
   ],
   "generated_at": "2026-11-03T22:30:00Z"

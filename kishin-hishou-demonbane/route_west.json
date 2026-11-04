@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "初回クリア後、最初から再プレイする",
+    "jpGuide1": "一度エンディングを見るとドクターウエストENDとTRUE ENDが解禁。",
+    "jpGuide2": "シナリオ上勝てるはずのない戦闘で西博士が勝ってしまったために、想定外として打ち切りになるエンドがある。",
+    "enGuide": "After Normal END, begin a fresh playthrough. The West outcome is not available before the first completion."
+  },
+  {
+    "simpleJp": "BATTLE:02「アイム・ロックンロール！」まで進める",
+    "jpGuide1": "初回ではなかった、破壊ロボＶＳデモンベインブラッド戦で勝利するとウエストEND。",
+    "jpGuide2": "BATTLE:02 | アイム・ロックンロール！ | スーパーウェスト無敵ロボ28號 v.s. デモンベイン・ブラッド",
+    "enGuide": "Reach the early battle in which Dr. West's Destroyer Robot fights Demonbane Blood. This is BATTLE:02, not the final fight."
+  },
+  {
+    "simpleJp": "破壊ロボでデモンベイン・ブラッドに勝利する",
+    "jpGuide1": "破壊ロボはジャンプのスペックが高いので飛びで確実に避けつつ相手の隙にパンチコンボ\n回避不可能の時にバリア防御。",
+    "jpGuide2": "続編の『機神飛翔』では、シナリオ上勝てるはずのない戦闘で西博士が勝ってしまったために、想定外として打ち切りになるエンドがある。",
+    "enGuide": "Win with the Destroyer Robot instead of taking the expected scripted loss. Jump to dodge, punish openings with punch combos, and use barrier guard when escape is impossible. Winning immediately triggers Dr. West END and ends this run."
+  }
+]

@@ -64,16 +64,19 @@ Then apply these source roles:
 - **Set A** should be the detailed primary walkthrough used for exact step/save text.
 - **Set B** must independently cover the full **main-route structure**: every route-defining decision, route prerequisite/unlock, and route/main ending used by the guide. Optional non-main ending detours (bad, normal, alternate, or similarly labeled endings) are handled separately below and may be documented by only one primary set when the other is silent and non-contradictory.
 - A verification set may be one page or multiple Japanese pages. If multiple pages are needed, document every component in `research.json` and explain what each component covers.
+- **No video evidence.** Set A and Set B must use directly inspectable written Japanese sources. Do not count or propose videos, livestreams, gameplay recordings, clips, their frames, descriptions, or transcripts as route/source-gate evidence or as a substitute for a missing written walkthrough. If qualifying written sources cannot verify the exact target, preserve the blocker; do not bypass it by researching recordings.
 - A translation, derivative guide, or page that merely cites Set A does not count as an independent Set B.
 - A source that cannot be directly inspected does not count toward the gate. It may be listed for provenance only.
-- If the two-set gate cannot be satisfied, stop after research and document the blocker **unless** an explicitly opted-in non-VN guide has a valid repository-owner-approved title-scoped exception covering the exact residual fact as defined below. Facts outside that enumerated exception still fail the normal gate. Do not invent or infer missing guide content.
+- If the two-set gate cannot be satisfied, stop after research and document the blocker **unless** this title has a valid repository-owner-approved title-scoped exception covering the exact residual fact as defined below. Facts outside that enumerated exception still fail the normal gate. Do not invent or infer missing guide content.
 - Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
-"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets **unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for an explicitly opted-in non-VN guide**. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. For an exception-covered fact, use only the source roles and omission behavior explicitly permitted by the supplement. If the other set contradicts the step/outcome, resolve the conflict before generation.
+"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets **unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for this title**. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. For an exception-covered fact, use only the source roles and omission behavior explicitly permitted by the supplement. If the other set contradicts the step/outcome, resolve the conflict before generation.
 
 ## Game covers
 
 Every game registration should have a cover image for the exact intended release/edition when one can be directly verified.
+
+**Lookup priority:** First inspect **VNDB's release-specific cover images** for the intended `guide_target` (use the correct `r...` release, not just the VN-level `v...` image). If VNDB exposes a suitable directly verifiable image URL for that exact edition, use it. If not, check the publisher/store's official artwork, then other structured databases such as YMGal. Document the reason for any non-VNDB fallback; an inaccessible API, missing image, unverified edition match, or unusable URL is a valid reason, but an omitted lookup is not. Do not guess image CDN paths or substitute a different edition's physical package cover.
 
 - During initial registration/research, actively look up a cover for the exact `guide_target` edition/platform; do not leave `cover_url` blank merely because cover lookup was deferred.
 - Prefer a stable direct image URL from an authoritative, structured, or otherwise reliable source that clearly matches the target edition.
@@ -85,6 +88,8 @@ Every game registration should have a cover image for the exact intended release
 ## Character portraits
 
 Portrait URLs must be directly verified against a character record or another authoritative/structured source.
+
+**Lookup priority:** First check **VNDB character records** and their returned `image.url` for every heroine/route character, confirming the character by name. Prefer directly verifiable VNDB `image.url` values over alternate character databases. Only fall back to an official character source or YMGal (or another structured source) when VNDB has no suitable image or the returned image cannot be inspected/used; document that reason and the alternative source. A VNDB character page or image ID alone is not a verified image URL. Do not compose a VNDB CDN path from a character ID or an image ID.
 
 - **A route character must have a portrait whenever a directly verifiable character image exists.** Leaving `portrait` blank because the lookup was skipped, inconvenient, or deferred is an authoring defect.
 - Match the route character by name, not by numeric coincidence.
@@ -100,7 +105,7 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
 - `jpGuide1`: exact verbatim Set-A text when Set A prints that step.
 - `jpGuide2`: exact verbatim Set-B text when Set B prints that step.
-- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for an explicitly opted-in non-VN guide. If an unlisted fact lacks support, the research gate is insufficient and the route cannot pass.
+- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for this title. If an unlisted fact lacks support, the research gate is insufficient and the route cannot pass.
 - For a **non-route-defining save, load, repeated UI action, or optional non-main-ending-only step** that is explicitly documented by only one primary set while the other is silent/non-contradictory, keep the useful step and use the symmetric omission placeholder for the other field:
   - Set A missing → exactly `（第一ガイドに記載なし）`
   - Set B missing → exactly `（第二ガイドに記載なし）`
@@ -152,7 +157,7 @@ Low-level execution details such as ordinary travel, talking to an NPC, a routin
 
 ### Owner-approved title-scoped source exceptions
 
-The normal two-independent-Japanese-source gate remains the default. A game may depart from it only through an explicit repository-owner-approved exception recorded in that game's `prompt_supplement.md`.
+The normal two-independent-Japanese-source gate remains the default for **VNs and non-VNs**. A game may depart from it only through an explicit repository-owner-approved exception recorded in that game's `prompt_supplement.md`. A VN exception may waive an otherwise unavailable independent Japanese source **only for specifically enumerated facts**; it never waives complete executable choices, exact in-game text, target-edition applicability, or independent review.
 
 Such an exception must:
 

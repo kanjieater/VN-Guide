@@ -1,0 +1,20 @@
+[
+  {
+    "simpleJp": "最初から本編を進める",
+    "jpGuide1": "ルートは一本道で分岐、選択肢なし。",
+    "jpGuide2": "この作品は一度クリアすると真のエンディングに行くための方法が出るんですが、",
+    "enGuide": "Start a new game. The main story is linear, with no dialogue choices. Progress through its scripted novel and action sections."
+  },
+  {
+    "simpleJp": "最終決戦でラスボスを倒す",
+    "jpGuide1": "TRUE ENDは最終決戦の必滅奥義入力時間内にノーマルEND最後に表示されたコマンドを入れることで分岐。",
+    "jpGuide2": "必殺技って最後のトドメにしか入力できないんで、つまりラスボス戦で勝たなければならないのですな。",
+    "enGuide": "Win the final battle; the decisive finishing-move input appears only after defeating the boss."
+  },
+  {
+    "simpleJp": "通常の必滅奥義でノーマルENDを見る",
+    "jpGuide1": "一度エンディングを見るとドクターウエストENDとTRUE ENDが解禁。",
+    "jpGuide2": "この作品は一度クリアすると真のエンディングに行くための方法が出るんですが、それが「ラスボス戦で通常の必殺技コマンドと違うのを入力する」というものなんですよ。",
+    "enGuide": "Complete the ordinary ending on the first run, without the extra command. Note the hidden command revealed at the end; this first clear unlocks West END and TRUE END for later runs."
+  }
+]

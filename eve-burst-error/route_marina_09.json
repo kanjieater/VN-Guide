@@ -1,109 +1,31 @@
 [
   {
-    "simpleJp": "見る・調べる",
-    "jpGuide1": "見る・調べる",
+    "simpleJp": "見る・調べる ×7",
+    "jpGuide1": "見る・調べる\n（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる×7",
     "enGuide": ""
   },
   {
-    "simpleJp": "見る・調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "見る・調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "見る・調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "見る・調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "見る・調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "見る・調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "移動する",
+    "simpleJp": "移動する ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "移動する×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "移動する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "移動する×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "話す",
+    "simpleJp": "話す ×3",
     "jpGuide1": "話す×３",
     "jpGuide2": "話す×3",
     "enGuide": ""
   },
   {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×３",
-    "jpGuide2": "話す×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×３",
-    "jpGuide2": "話す×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "たたく",
+    "simpleJp": "たたく ×4",
     "jpGuide1": "叩く×４",
     "jpGuide2": "たたく×4",
     "enGuide": ""
   },
   {
-    "simpleJp": "たたく",
-    "jpGuide1": "叩く×４",
-    "jpGuide2": "たたく×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "たたく",
-    "jpGuide1": "叩く×４",
-    "jpGuide2": "たたく×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "たたく",
-    "jpGuide1": "叩く×４",
-    "jpGuide2": "たたく×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "移動する",
-    "jpGuide1": "移動する×４",
-    "jpGuide2": "移動する×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "移動する",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "移動する ×2",
+    "jpGuide1": "移動する×４\n（第一ガイドに記載なし）",
     "jpGuide2": "移動する×2",
     "enGuide": ""
   },
@@ -120,20 +42,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×２",
-    "jpGuide2": "話す×3\n見る・調べる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "話す",
-    "jpGuide1": "話す×２",
-    "jpGuide2": "話す×3\n見る・調べる",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "話す",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "話す ×3",
+    "jpGuide1": "話す×２\n（第一ガイドに記載なし）",
     "jpGuide2": "話す×3\n見る・調べる",
     "enGuide": ""
   },

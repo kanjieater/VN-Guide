@@ -29,7 +29,7 @@ Before writing any route:
 3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id. Never reuse a caller target for another pending game.
 4. Persist the resolved target—repository, caller, or default—to `<slug>/catalog.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
 5. Identify two independent Japanese verification sets as defined in `agents/guide-standards.md`.
-6. For an explicitly opted-in non-VN walkthrough, check the game supplement **before failing the source gate**. If it contains a repository-owner-approved title-scoped exception, verify its approval provenance and exact enumerated fact scope; the author must not create or broaden that approval.
+6. For any VN or opted-in non-VN walkthrough, check the game supplement **before failing the source gate**. If it contains a repository-owner-approved title-scoped exception, verify its approval provenance and exact enumerated fact scope; the author must not create or broaden that approval.
 7. Verify both Japanese sets are directly inspectable and apply to the **exact target release**; document version differences. For a valid exception-covered fact only, retain the strongest available Japanese evidence and the supplement-approved supplemental source role instead of pretending the missing Japanese lane exists.
 8. Verify both sets collectively cover every normally gated main-route/material fact. For opted-in non-VN guides this includes section/order progression, required story progression, irreversible choices, prerequisites/unlocks, endings, timing-critical optional content, and missable/limited or unique-reward conditions presented as required for completion. Only exact facts enumerated by a valid owner exception may depart from two-set coverage.
 9. Ensure the research/overall guide plan enumerates every route in recommended order.
@@ -38,6 +38,8 @@ Before writing any route:
 12. If the gate cannot be satisfied for any non-exception fact, stop after research and document the blocker.
 
 Do not count inaccessible pages, translations, or derivatives as an independent primary set.
+
+**Use written Japanese sources only for walkthrough verification.** Never use gameplay videos, streams, footage, video frames, captions/transcripts or upload descriptions as Set A/B evidence. Do not send research into a video-investigation workflow when the written-source gate fails; document the blocker instead.
 
 ## Route-generation rules
 

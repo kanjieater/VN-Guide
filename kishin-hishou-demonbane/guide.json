@@ -1,0 +1,89 @@
+{
+  "title": "Kishin Hishou Demonbane",
+  "vndb_id": "v234",
+  "guide_target": {
+    "label": "機神飛翔デモンベイン 通常版（2006年PC DVD-ROM版）",
+    "platform": "Windows PC",
+    "url": "https://vndb.org/r600"
+  },
+  "routes": [
+    {
+      "id": "normal",
+      "title": "通常END（初回クリア）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "west",
+      "title": "ドクター・ウェストEND（クリア後）",
+      "portrait": "",
+      "prerequisites": [
+        "normal"
+      ],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "true",
+      "title": "TRUE END（クリア後）",
+      "portrait": "",
+      "prerequisites": [
+        "normal"
+      ],
+      "is_true_ending": true,
+      "reviewed": true
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://nayutam.exblog.jp/3738908/",
+      "title": "機神飛翔デモンベイン — ながながブログ (2006-06-14)",
+      "language": "ja",
+      "notes": "Directly inspected contemporaneous Japanese first-hand ending guide. Covers linear/no-choice structure; first-clear unlocking both hidden endings; the optional 破壊ロボ vs デモンベイン・ブラッド win for West END with combat tips; and final-battle 必滅奥義 input for TRUE END. Applies to the original May 2006 PC game."
+    },
+    {
+      "set": "B",
+      "url": "https://blog.livedoor.jp/shibachi1/archives/50598379.html",
+      "title": "機神飛翔デモンベイン クリア — シバッチの世間話 (2006-06-11)",
+      "language": "ja",
+      "notes": "Independent contemporaneous Japanese first-hand play report with specific first-clear and TRUE END instructions, final-boss tactics, and tested rebinding 上=S, 下=D, 攻=A followed by SDSA. Direct article text available via search inspection; later direct open timed out. This component supports normal/true ending steps, not West END."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/srwux/pages/30.html",
+      "title": "機神咆吼デモンベイン — スーパーロボット大戦UX攻略＆まとめwiki",
+      "language": "ja",
+      "notes": "Independent Japanese reference specifically describes the 機神飛翔 sequel's normally unwinnable Doctor West battle and ending caused by winning it. It is not a choice guide for the separate 機神咆吼 predecessor. Combined with B's contemporaneous battle/ending sources to verify West END."
+    },
+    {
+      "set": "B",
+      "url": "https://srw.wiki.cre.jp/wiki/破壊ロボ",
+      "title": "破壊ロボ — スーパーロボット大戦Wiki",
+      "language": "ja",
+      "notes": "Directly inspected Japanese mechanical/series reference. The 余談 section explicitly identifies 機神飛翔's '2周目以降' unlock for 『～皇帝の紋章～』 and explains that winning the normally scripted-loss battle creates a special ending. Supports West second-run prerequisite and West ending outcome, independent of Set A."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/memotyors/pages/54.html",
+      "title": "サブタイトル — 我がメモ帳 @ ウィキ",
+      "language": "ja",
+      "notes": "Directly inspected Japanese BATTLE episode index for 機神飛翔, identifying BATTLE:02 アイム・ロックンロール！ as スーパーウェスト無敵ロボ28號 vs デモンベイン・ブラッド. Placement/label evidence; not independent ending-conditions evidence."
+    },
+    {
+      "url": "https://qposo.blog.fc2.com/blog-entry-124.html",
+      "title": "機神飛翔デモンベイン その３ — ぼっちだけど、なんとか生きてます。 (2006-05-27)",
+      "language": "ja",
+      "notes": "Search-indexed first-hand Japanese report explicitly prints the Normal END screen's '↑↓↑攻' code. The original FC2 URL currently returns a redirect loop on direct fetch. RESEARCH LEAD / PROVENANCE ONLY: NOT counted as directly inspectable A or B and NOT a source-gate resolution. The command remains supported as executed by the independent Set B Shibachi account and the Set A generic command requirement."
+    },
+    {
+      "url": "https://trinityabsolute.blog24.fc2.com/blog-entry-94.html",
+      "title": "機神飛翔デモンベイン 攻略 + 感想 — あっとりぇ鳥煮茶 (2006-06-02)",
+      "language": "ja",
+      "notes": "Search-indexed independent first-hand Japanese account explicitly prints '上下上攻' in the final Clockwork Phantom battle and documents the post-clear West win. The original FC2 URL currently returns a redirect loop on direct fetch. RESEARCH LEAD / PROVENANCE ONLY: NOT counted as a directly inspected verification set, and it does not resolve the exact-command two-Japanese-lane source gate."
+    }
+  ],
+  "generated_at": "2026-11-04T14:08:00Z"
+}

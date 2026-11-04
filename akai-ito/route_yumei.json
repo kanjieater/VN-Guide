@@ -1,19 +1,19 @@
 [
   {
     "simpleJp": "駅員さんに聞きたいことが",
-    "jpGuide1": "【駅員さんに聞きたいことが】",
+    "jpGuide1": "〖駅員さんに聞きたいことが〗",
     "jpGuide2": "駅員さんに聞きたいことが",
     "enGuide": ""
   },
   {
     "simpleJp": "バスがなくても何とか……",
-    "jpGuide1": "【バスがなくても何とか……】",
+    "jpGuide1": "〖バスがなくても何とか……〗",
     "jpGuide2": "バスがなくても何とか……",
     "enGuide": ""
   },
   {
     "simpleJp": "やっぱり戻してください",
-    "jpGuide1": "【やっぱり戻してください】",
+    "jpGuide1": "〖やっぱり戻してください〗",
     "jpGuide2": "やっぱり戻してください",
     "enGuide": ""
   },
@@ -37,7 +37,7 @@
   },
   {
     "simpleJp": "こわくないこわくない",
-    "jpGuide1": "【こわくないこわくない】",
+    "jpGuide1": "〖こわくないこわくない〗",
     "jpGuide2": "こわくないこわくない",
     "enGuide": ""
   },
@@ -50,7 +50,7 @@
   },
   {
     "simpleJp": "かける",
-    "jpGuide1": "【かける】",
+    "jpGuide1": "〖かける〗",
     "jpGuide2": "かける",
     "enGuide": ""
   },
@@ -75,7 +75,7 @@
   },
   {
     "simpleJp": "こわくないこわくない",
-    "jpGuide1": "【こわくないこわくない】",
+    "jpGuide1": "〖こわくないこわくない〗",
     "jpGuide2": "こわくないこわくない",
     "enGuide": ""
   },
@@ -87,20 +87,20 @@
   },
   {
     "simpleJp": "「あ、いえ、別に」とその場を立ち去る",
-    "jpGuide1": "→【「あ、いえ、別に」とその場を立ち去る】、以降True Endと同じ選択肢でBad End『くらやみのまゆ』（ED18）",
+    "jpGuide1": "→〖「あ、いえ、別に」とその場を立ち去る〗、以降True Endと同じ選択肢でBad End『くらやみのまゆ』（ED18）",
     "jpGuide2": "「あ、いえ、別に」とその場を立ち去る",
     "enGuide": "",
     "badEndPath": "Bad End『くらやみのまゆ』（ED18）"
   },
   {
     "simpleJp": "かける",
-    "jpGuide1": "【かける】",
+    "jpGuide1": "〖かける〗",
     "jpGuide2": "かける",
     "enGuide": ""
   },
   {
     "simpleJp": "せっかくだからもう少し",
-    "jpGuide1": "【せっかくだからもう少し】",
+    "jpGuide1": "〖せっかくだからもう少し〗",
     "jpGuide2": "せっかくだからもう少し",
     "enGuide": ""
   },
@@ -117,14 +117,14 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "・・・・・・・・・・・・",
-    "jpGuide1": "「・・・・・・・・・・・・」",
+    "simpleJp": "…………",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "…………",
     "enGuide": ""
   },
   {
     "simpleJp": "夢のことを話してみる",
-    "jpGuide1": "【夢のことを話してみる】",
+    "jpGuide1": "〖夢のことを話してみる〗",
     "jpGuide2": "夢のことを話してみる",
     "enGuide": ""
   },
@@ -136,19 +136,19 @@
   },
   {
     "simpleJp": "仕方なしに我慢",
-    "jpGuide1": "【仕方なしに我慢】",
+    "jpGuide1": "〖仕方なしに我慢〗",
     "jpGuide2": "仕方なしに我慢",
     "enGuide": ""
   },
   {
-    "simpleJp": "・・・・・・・・・・・・",
-    "jpGuide1": "「・・・・・・・・・・・・」",
+    "simpleJp": "…………",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "…………",
     "enGuide": ""
   },
   {
     "simpleJp": "帰らない",
-    "jpGuide1": "【帰らない】",
+    "jpGuide1": "〖帰らない〗",
     "jpGuide2": "帰らない",
     "enGuide": ""
   },
@@ -160,25 +160,25 @@
   },
   {
     "simpleJp": "家の掃除をする",
-    "jpGuide1": "【家の掃除をする】",
+    "jpGuide1": "〖家の掃除をする〗",
     "jpGuide2": "家の掃除をする",
     "enGuide": ""
   },
   {
     "simpleJp": "おかしいと思った",
-    "jpGuide1": "【おかしいと思った】",
+    "jpGuide1": "〖おかしいと思った〗",
     "jpGuide2": "おかしいと思った",
     "enGuide": ""
   },
   {
     "simpleJp": "だけど彼女たちだって可哀相",
-    "jpGuide1": "【だけど彼女たちだって可哀相】",
+    "jpGuide1": "〖だけど彼女たちだって可哀相〗",
     "jpGuide2": "だけど彼女たちだって可哀相",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲んでもらう",
-    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide1": "〖血を飲んでもらう〗",
     "jpGuide2": "血を飲んでもらう",
     "enGuide": ""
   },
@@ -197,19 +197,19 @@
   },
   {
     "simpleJp": "「大きな木ですね？」と話をかえる",
-    "jpGuide1": "【「大きな木ですね？」と話をかえる】",
+    "jpGuide1": "〖「大きな木ですね？」と話をかえる〗",
     "jpGuide2": "「大きな木ですね？」と話をかえる",
     "enGuide": ""
   },
   {
     "simpleJp": "かける",
-    "jpGuide1": "【かける】",
+    "jpGuide1": "〖かける〗",
     "jpGuide2": "かける",
     "enGuide": ""
   },
   {
     "simpleJp": "せっかくだからもう少し",
-    "jpGuide1": "【せっかくだからもう少し】",
+    "jpGuide1": "〖せっかくだからもう少し〗",
     "jpGuide2": "せっかくだからもう少し",
     "enGuide": ""
   },
@@ -233,14 +233,14 @@
     "badEndPath": "Bad End『赤い絆』（ED20）"
   },
   {
-    "simpleJp": "・・・・・・・・・・・・",
-    "jpGuide1": "「・・・・・・・・・・・・」",
+    "simpleJp": "…………",
+    "jpGuide1": "→〖…………〗、以降True Endと同じ選択肢で、4日目の選択肢〖たしなめないと〗でBad End『赤い絆』（ED20）",
     "jpGuide2": "…………",
     "enGuide": ""
   },
   {
     "simpleJp": "夢のことを話してみる",
-    "jpGuide1": "【夢のことを話してみる】",
+    "jpGuide1": "〖夢のことを話してみる〗",
     "jpGuide2": "夢のことを話してみる",
     "enGuide": ""
   },
@@ -252,31 +252,31 @@
   },
   {
     "simpleJp": "仕方なしに我慢",
-    "jpGuide1": "【仕方なしに我慢】",
+    "jpGuide1": "〖仕方なしに我慢〗",
     "jpGuide2": "仕方なしに我慢",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲んでもらう",
-    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide1": "〖血を飲んでもらう〗",
     "jpGuide2": "血を飲んでもらう",
     "enGuide": ""
   },
   {
     "simpleJp": "帰らない",
-    "jpGuide1": "【帰らない】",
+    "jpGuide1": "〖帰らない〗",
     "jpGuide2": "帰らない",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲ませる",
-    "jpGuide1": "【血を飲ませる】",
+    "jpGuide1": "〖血を飲ませる〗",
     "jpGuide2": "血を飲ませる",
     "enGuide": ""
   },
   {
     "simpleJp": "家の掃除をする",
-    "jpGuide1": "【家の掃除をする】",
+    "jpGuide1": "〖家の掃除をする〗",
     "jpGuide2": "家の掃除をする",
     "enGuide": ""
   },
@@ -288,19 +288,19 @@
   },
   {
     "simpleJp": "だけど彼女たちだって可哀相",
-    "jpGuide1": "【だけど彼女たちだって可哀相】",
+    "jpGuide1": "〖だけど彼女たちだって可哀相〗",
     "jpGuide2": "だけど彼女たちだって可哀相",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲んでもらう",
-    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide1": "〖血を飲んでもらう〗",
     "jpGuide2": "血を飲んでもらう",
     "enGuide": ""
   },
   {
     "simpleJp": "絶対にお姉ちゃんを助ける",
-    "jpGuide1": "【絶対にお姉ちゃんを助ける】",
+    "jpGuide1": "〖絶対にお姉ちゃんを助ける〗",
     "jpGuide2": "絶対にお姉ちゃんを助ける",
     "enGuide": ""
   },
@@ -325,13 +325,13 @@
   },
   {
     "simpleJp": "血を飲んでもらう",
-    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide1": "〖血を飲んでもらう〗",
     "jpGuide2": "血を飲んでもらう",
     "enGuide": ""
   },
   {
     "simpleJp": "夢のことを話してみる",
-    "jpGuide1": "【夢のことを話してみる】",
+    "jpGuide1": "〖夢のことを話してみる〗",
     "jpGuide2": "夢のことを話してみる",
     "enGuide": ""
   },
@@ -343,13 +343,13 @@
   },
   {
     "simpleJp": "仕方なしに我慢",
-    "jpGuide1": "【仕方なしに我慢】",
+    "jpGuide1": "〖仕方なしに我慢〗",
     "jpGuide2": "仕方なしに我慢",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲んでもらう",
-    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide1": "〖血を飲んでもらう〗",
     "jpGuide2": "血を飲んでもらう",
     "enGuide": ""
   },
@@ -361,7 +361,7 @@
   },
   {
     "simpleJp": "帰る",
-    "jpGuide1": "→【帰る】でNormal End『残夢・夏の終わり』（ED5）",
+    "jpGuide1": "→〖帰る〗でNormal End『残夢・夏の終わり』（ED5）",
     "jpGuide2": "帰る(No.5へ)",
     "enGuide": "",
     "badEndPath": "Normal End『残夢・夏の終わり』（ED5）"
@@ -381,13 +381,13 @@
   },
   {
     "simpleJp": "帰らない",
-    "jpGuide1": "【帰らない】",
+    "jpGuide1": "〖帰らない〗",
     "jpGuide2": "帰らない",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲ませる",
-    "jpGuide1": "【血を飲ませる】",
+    "jpGuide1": "〖血を飲ませる〗",
     "jpGuide2": "血を飲ませる",
     "enGuide": ""
   },
@@ -399,7 +399,7 @@
   },
   {
     "simpleJp": "薪の調達に行く",
-    "jpGuide1": "→【薪の調達に行く】でBad End『ラクヨウ』（ED16）",
+    "jpGuide1": "→〖薪の調達に行く〗でBad End『ラクヨウ』（ED16）",
     "jpGuide2": "薪の調達に行く(No.16へ)",
     "enGuide": "",
     "badEndPath": "Bad End『ラクヨウ』（ED16）"
@@ -419,7 +419,7 @@
   },
   {
     "simpleJp": "家の掃除をする",
-    "jpGuide1": "【家の掃除をする】",
+    "jpGuide1": "〖家の掃除をする〗",
     "jpGuide2": "家の掃除をする",
     "enGuide": ""
   },
@@ -451,19 +451,19 @@
   },
   {
     "simpleJp": "おかしいと思った",
-    "jpGuide1": "【おかしいと思った】",
+    "jpGuide1": "〖おかしいと思った〗",
     "jpGuide2": "おかしいと思った",
     "enGuide": ""
   },
   {
     "simpleJp": "だけど彼女たちだって可哀相",
-    "jpGuide1": "【だけど彼女たちだって可哀相】",
+    "jpGuide1": "〖だけど彼女たちだって可哀相〗",
     "jpGuide2": "だけど彼女たちだって可哀相",
     "enGuide": ""
   },
   {
     "simpleJp": "血を飲んでもらう",
-    "jpGuide1": "【血を飲んでもらう】",
+    "jpGuide1": "〖血を飲んでもらう〗",
     "jpGuide2": "血を飲んでもらう",
     "enGuide": ""
   },
@@ -475,7 +475,7 @@
   },
   {
     "simpleJp": "ただ見ることしかできなかった",
-    "jpGuide1": "→【ただ見ることしかできなかった】でNormal End『一片の残花』（ED19）",
+    "jpGuide1": "→〖ただ見ることしかできなかった〗でNormal End『一片の残花』（ED19）",
     "jpGuide2": "ただ見ることしかできなかった(No.19へ)",
     "enGuide": "",
     "badEndPath": "Normal End『一片の残花』（ED19）"
@@ -495,13 +495,13 @@
   },
   {
     "simpleJp": "絶対にお姉ちゃんを助ける",
-    "jpGuide1": "【絶対にお姉ちゃんを助ける】",
+    "jpGuide1": "〖絶対にお姉ちゃんを助ける〗",
     "jpGuide2": "絶対にお姉ちゃんを助ける",
     "enGuide": ""
   },
   {
     "simpleJp": "True End『白花の咲く頃に』（ED21）",
-    "jpGuide1": "True End『白花の咲く頃に』（ED21）",
+    "jpGuide1": "True End\n『白花の咲く頃に』\n（ED21）",
     "jpGuide2": "No.21 白花の咲く頃に",
     "enGuide": ""
   }

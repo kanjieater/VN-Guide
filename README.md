@@ -36,6 +36,12 @@ The post-merge workflow uses the built-in `GITHUB_TOKEN` to commit generated fil
 
 Research, guide authoring, corrections, and reviews are agent work, not generator-script work.
 
+## VNDB-first image and release metadata
+
+VNDB is the preferred source for directly verified route-character portraits and exact-edition release covers and links. This policy is defined in [guide standards](agents/guide-standards.md); never construct CDN image URLs from character IDs or replace a specific release link with a broad VN work page.
+
+To refresh **existing** registrations, run **Refresh VNDB-first guide metadata** in GitHub Actions using **Run workflow** (`workflow_dispatch`). The job reads the VNDB Kana character and release API, updates only unambiguously matched image URLs and `guide_target.url` fields, retains a verified existing source when VNDB has no suitable match, and logs unresolved editions or images for manual research. It does not change route steps, choice text, ending logic, or review flags.
+
 ## Tests and coverage
 
 The repository uses Bun for dependency installation, test execution, and coverage:

@@ -1,0 +1,203 @@
+{
+  "title": "Sayonara o Oshiete ~Comment te Dire Adieu~",
+  "vndb_id": "v1200",
+  "guide_target": {
+    "label": "さよならを教えて ～comment te dire adieu～ ダウンロード版 (DLsite VJ009745, 2016-01-29)",
+    "platform": "Windows",
+    "url": "https://vndb.org/r44749"
+  },
+  "routes": [
+    {
+      "id": "mutsuki",
+      "title": "巣鴨睦月ルート",
+      "portrait": "https://t.vndb.org/ch/86/149486.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts from day-4 save 1, places day-9 save 2, and reaches its heroine-specific day-11 path through the shared main ending sequence. Its save 2 is reused by Mahiru. Portrait image sourced from VNDB Kana character c65215 image.url. Former YMGal record is retained as historical character-identification provenance; route choice compatibility with the 2016 edition is independently evaluated above."
+    },
+    {
+      "id": "mahiru",
+      "title": "田町まひるルート",
+      "portrait": "https://t.vndb.org/ch/84/149484.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 2 on day 9 and reaches its heroine-specific day-11 path through the shared main ending sequence. Source-backed save dependency is an efficient walkthrough checkpoint, not a heroine unlock requirement. Portrait image sourced from VNDB Kana character c76915 image.url. Former YMGal record is retained as historical character-identification provenance; route choice compatibility with the 2016 edition is independently evaluated above."
+    },
+    {
+      "id": "nozomi",
+      "title": "高田望美ルート",
+      "portrait": "https://t.vndb.org/ch/85/149485.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 1 on day 4 and reaches its heroine-specific day-11 path through the shared main ending sequence. Portrait image sourced from VNDB Kana character c65216 image.url. Former YMGal record is retained as historical character-identification provenance; route choice compatibility with the 2016 edition is independently evaluated above."
+    },
+    {
+      "id": "miyuki",
+      "title": "目黒御幸ルート",
+      "portrait": "https://t.vndb.org/ch/87/149487.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 1 on day 4, makes save 3 on day 9, and reaches its heroine-specific day-11 path through the shared main ending sequence. Save 3 is reused by Koyori. Portrait image sourced from VNDB Kana character c76917 image.url. Former YMGal record is retained as historical character-identification provenance; route choice compatibility with the 2016 edition is independently evaluated above."
+    },
+    {
+      "id": "koyori",
+      "title": "上野こよりルート",
+      "portrait": "https://t.vndb.org/ch/83/149483.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Set A starts at save 3 on day 9 and reaches its heroine-specific day-11 path through the shared main ending sequence. Portrait image sourced from VNDB Kana character c76918 image.url. Former YMGal record is retained as historical character-identification provenance; route choice compatibility with the 2016 edition is independently evaluated above."
+    }
+  ],
+  "recommended_order": [
+    "mutsuki",
+    "mahiru",
+    "nozomi",
+    "miyuki",
+    "koyori"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://shisnap.iza-yoi.net/game/pc/sayonara.htm",
+      "title": "さよならを教えて 攻略 (shisnap)",
+      "language": "ja",
+      "notes": "Directly inspected detailed Japanese PC walkthrough: common days 1-3, day-4 save, all five heroine routes and day-9 branch choices, day-11 endings, three save positions and one CG variant note. The walkthrough does not name its edition explicitly and appears to reflect the original Windows PC game; direct applicability of its literal choices and all ending behavior to the 2016 DLsite download edition remains UNVERIFIED."
+    },
+    {
+      "set": "B",
+      "url": "https://note.com/kksk/n/nc4029dec3472",
+      "title": "『さよならを教えて』（2001）プレイ感想 (kqck, DLsite purchase)",
+      "language": "ja",
+      "notes": "Directly inspected detailed first-hand Japanese 2026 play log: author says the copy was purchased on DLsite and explicitly recounts the day-9 five-way heroine-selection prompt, selection of 御幸 and movement to 図書室, heroine-specific episodes and ending, plus a failed 望美 attempt that reached the bad ending and required replay from day 3. Important partial independent evidence for the Windows DL distribution, but product ID and all literal route-defining choices, affinity requirements, and endings are not verified; DOES NOT QUALIFY AS COMPLETE SET B. Day-5 rooftop three-choice interaction quotes the full 「それだけの情報ではわからない」 (source A abbreviates to 「それだけの情報では」) and records an unfavorable reaction followed by a reload; this does not prove the option blocks the ending. Full text is now directly attributed to this Set-B lane for Nozomi step 7, but the affinity outcome is disputed."
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/gcmatome/pages/932.html",
+      "title": "さよならを教えて ～comment te dire adieu～ (ゲームカタログ@Wiki)",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese release/system source: original 2001 PC, 2011 BD, 2016 Windows DL release; five heroine locations; up to three heroine progress tracks before day 9; the normal route ending requires choosing the heroine with whom the player is most familiar at the late branching decision. Prints a day-5 three-choice example and confirms choices may not match what the protagonist actually says. Supports gate-relevant preselection affinity behavior but NOT all exact choices, save states, or individual endings."
+    },
+    {
+      "set": "B",
+      "url": "https://ameblo.jp/ram1ko/entry-12762015780.html",
+      "title": "さよならを教えて | みこりすと",
+      "language": "ja",
+      "notes": "Independent Japanese completed-playthrough report lists five heroine routes and a personal completion order, but not a full actionable choice-by-choice guide. Cannot fill the Set-B gate."
+    },
+    {
+      "url": "https://www.dlsite.com/pro/work/=/product_id/VJ009745.html",
+      "title": "DLsite VJ009745 (Windows download edition)",
+      "language": "ja",
+      "notes": "Exact-edition product identifier/URL. Direct page inspection blocked by browsing, but multiple independently inspected Japanese pages reproduce and link this exact product number. The 2016 edition uses a rewritten Windows 10 compatible engine and changes some presentation effects; its exact choice sequences and CG equivalence to the original PC edition still need verification."
+    },
+    {
+      "url": "https://w.atwiki.jp/freegameworld/pages/118.html",
+      "title": "さよならを教えて (ゲームなんでも評価wiki)",
+      "language": "ja",
+      "notes": "Japanese release/platform reference confirms the original Windows package (2001), BD-PG (2011), and Windows DLsite edition (2016-01-29). Does not supply route steps."
+    },
+    {
+      "url": "https://www.ymgal.games/ja/ga10623",
+      "title": "YMGal game/release/character listing",
+      "language": "ja",
+      "notes": "Structured game database used to check the newest native-Japanese official complete Windows release and identify route characters. Portraits verified by opening the respective YMGal character records and image links: ca87306, ca98709, ca87304, ca98713, ca98715."
+    },
+    {
+      "url": "https://programmingfestival.jp/vj009745/",
+      "title": "DLsite product mirror/description VJ009745",
+      "language": "ja",
+      "notes": "Directly inspected Japanese summary quoting the download edition's Windows 10 engine rewrite, presentation changes, and added message-back/load behavior. Product art lookup attempted here and on image search, but no reliably attributable exact-edition cover could be verified."
+    },
+    {
+      "set": "B",
+      "url": "https://ameblo.jp/amagumoxxx/entry-12680165894.html",
+      "title": "〖ギャルゲー〗さよならを教えて | 雨雲レーダー",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese completed-play report explicitly says Windows 10, download purchase, five endings, no patch, and provides actual heroine play order. This materially supports target-era gameplay and five main endings but does not print exact route-defining decisions, so remains supplementary Set B, not qualifying alone."
+    },
+    {
+      "set": "B",
+      "url": "https://olympia-38.hatenablog.com/entry/2020/03/04/001853",
+      "title": "さよならを教えて 感想 - こんこんちきな日記",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese ending-structure analysis distinguishing the no-heroine bad ending from heroine-selected endings; recommends bad ending then four non-Mutsuki heroines then Mutsuki. Does not show reproducible choices for either path and is not independently tied to VJ009745; supplementary only."
+    },
+    {
+      "set": "B",
+      "url": "https://note.com/hazukiika/n/ne104c3f7a437",
+      "title": "ゲーム「さよならを教えて」感想｜はずき",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese first-hand play report: five heroine route segments, shared normal/bad-ending structure, and bad-ending trigger hypothesized (not verified) as inadequate affinity before day-9 heroine selection. Does not independently establish exact choices; supplementary only."
+    },
+    {
+      "url": "https://spoiler-alert.seesaa.net/article/463131708.html",
+      "title": "さよならを教えて — 腕がビリビリ (2016 DL edition review)",
+      "language": "ja",
+      "notes": "Directly inspected contemporary Japanese DL-edition review. Confirms saving is possible at choice menus, unlike 2001 PC. Supports system behavior only; does not verify route choices or uniquely prove edition."
+    },
+    {
+      "set": "B",
+      "url": "https://aqlkreuz.hatenablog.com/entry/2016/07/25/120549",
+      "title": "『さよならを教えて』全CGタイトル一覧 — AQL日記 (2016-07-25)",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese catalog of all CG titles and in-game scene recollection titles, including each of the five heroine routes. Corroborates scene titles appearing in Set A (which abbreviates some names using ～) and the shared 門 recollection; this does NOT identify all choices, confirm their ordering, or demonstrate target DL-edition route equivalence. Scene names are not player choices."
+    },
+    {
+      "set": "B",
+      "url": "https://blue-442385.hateblo.jp/entry/2024/07/02/002612",
+      "title": "20240701（『さよならを教えて』感想①） — 壁打ち",
+      "language": "ja",
+      "notes": "Independent Japanese first-hand completed-CG account indexed in search: author notes that combinations of heroine affection ranks yield different intermediary conversations, even with all CG collected. Readily visible excerpt is partial; NOT a full Set B and cannot establish exact branch states. Follow up only if this affects proposed 100% scope."
+    },
+    {
+      "url": "https://erogenikki.livedoor.blog/entry/erogekansoushoukaikousatu/sayonarawoosiete/",
+      "title": "『さよならを教えて ～comment te dire adieu～』感想、考察 — エロゲ日記（仮） (2022)",
+      "language": "ja",
+      "notes": "Directly inspected Japanese owner play report: purchased in April 2020, describes small DL edition differences and reports a creator statement about one deleted CG, but says that same CG still appeared in this author's copy. Contradictory/unclear change report; no exact choice-by-choice comparison, no definitive claim a CG was actually removed. This is version-difference context only, NOT Set B."
+    },
+    {
+      "set": "B",
+      "url": "https://note.com/alura_p/n/n868ccb2d863b",
+      "title": "四文字のおまじない — れうる・ぞあ・あるら (2026-03-12)",
+      "language": "ja",
+      "notes": "Independent written Japanese full-route completion report, directly inspected. Identifies five heroine paths and a bad-ending result, but is a commentary with screenshots and no complete actionable day-4–9 choices, save-state transitions or exact-edition identifier. Supplementary B only; not qualifying for source gate."
+    },
+    {
+      "set": "B",
+      "url": "https://ameblo.jp/exitanz0727/entry-12648181697.html",
+      "title": "〖エロゲ〗さよならを教えて 感想 — 徳田 杏",
+      "language": "ja",
+      "notes": "Independent written Japanese retrospective describing five heroine locations and the repeated school-day visit loop; no exact route choices or edition equivalence. Supplementary structural corroboration only, not qualifying Set B."
+    },
+    {
+      "set": "B",
+      "url": "https://mt-ss.hatenablog.com/entry/2023/01/14/030535",
+      "title": "さよならを教えて ～comment te dire adieu～の感想・考察 — えす山の日記 (2023)",
+      "language": "ja",
+      "notes": "Directly inspected Japanese written day-by-day play report (common days 1–11, day-9 late branching, heroine-specific Mutsuki reflections and route ending); independent evidence for overall day progression and a main ending. The author explicitly says routes other than Mutsuki were skimmed. It does not list literal choice texts, save states, affinity flags, or every heroine's executable path, and does not establish exact VJ009745 release. Supplementary Set B only; cannot independently validate route files."
+    },
+    {
+      "set": "B",
+      "url": "https://nekojumpoo.blog.fc2.com/blog-entry-1629.html",
+      "title": "〖さよならを教えて〗巣鴨睦月ルート〖終〗 — 私だ (2018, five-route written play diary)",
+      "language": "ja",
+      "notes": "Directly inspected first-hand Japanese written article (and links to author's five-route 2018 diary series). Author initially hit BADEND after attempting 睦月, explicitly says heroine favor was insufficient, restarted from the beginning and then completed 睦月's route. Independent supporting evidence that choosing the day-9 girl alone may fail; NOT a choice-by-choice route guide, does not show exact actions needed to repair the affinity, and does not prove the exact 2016 VJ009745 edition. Supplementary B only."
+    },
+    {
+      "set": "B",
+      "url": "https://perfectalone.blog.fc2.com/blog-entry-116.html",
+      "title": "さよなら… 今、全ての人に贈る最期の言葉。— 孤高の在り処 (written five-route review)",
+      "language": "ja",
+      "notes": "Directly inspected Japanese written all-character review: author says saves made after entering a heroine route display that heroine's name, and the heroine paths reuse the same ending and epilogue with individual route-text variations. Mentions actual in-game selectable phrase フェラチオさせる also present in Set A's Koyori-related day-5 subscene, without specifying all preceding state/sequence. No complete route choices or exact 2016-edition identification; supplementary B only. Do not infer a save-slot label before branch selection."
+    },
+    {
+      "set": "B",
+      "url": "https://sakurakameo.blog.fc2.com/blog-entry-126.html",
+      "title": "さよならを教えて — 積まないためのゲーム日記 (2013 completion review)",
+      "language": "ja",
+      "notes": "Independent 2013 written Japanese completion report predates the 2016 target. Reports BAD then heroine-branch clears and quotes all three options of the recurring angel-dream response including 彼女は天使であって天使ではない and 絶対に違う！ that appear in abbreviated form in Set A. Partial literal-choice corroboration for an older build only; cannot establish 2016 VJ009745 parity or cover the five route paths. Supplementary B, not a full independent route walkthrough."
+    }
+  ],
+  "disagreements": "AUTHOR SOURCE TRANSCRIPTION COMPLETE / REVIEW GATE (2026-11-04): Following the owner's explicit one-source approval, the five route files now transcribe the full ordered player-action sequences in the directly supplied written Japanese Shisnap walkthrough: 45 Mutsuki, 8 Mahiru, 33 Nozomi, 33 Miyuki, and 8 Koyori (127 total). Miyuki day-5 includes all four documented archery-club choices in order, including the source's three repeated identical selections before 帰る. No menu choice or documented save in Set A is intentionally omitted. The common first three days precede save 1; save 2 and save 3 are preserved at the source's day-9 checkpoints; ending continuations are described in the final enGuide rather than fake menu steps. All five routes remain reviewed:false and require independent current-blob structural and accuracy review. The remaining exact-label/2016-edition caveats below are verification limitations, not missing transcribed source actions. Do not treat conversion completeness or CI success as a clean accuracy PASS.\n\nVERIFICATION SETS AND OWNER EXCEPTION: The repository owner approved proceeding with a single written Japanese source for this title on 2026-11-03 (America/Chicago), with prior authorization documented at PR #102 comment https://github.com/kanjieater/VN-Guide/pull/102#issuecomment-6620496785 and reaffirmed in the user's task conversation. The exact title-scoped fact/limitation scope is in sayonara-wo-oshiete/prompt_supplement.md. Shisnap is the directly inspectable Japanese Set A and supplies the common opening, save checkpoints, main heroine selection sequences and named endings. Independent written Japanese reports corroborate partial structure and some choices but NONE supplies a complete parallel decision-to-ending chart. Missing Set B for those listed facts is therefore an acknowledged **owner-accepted one-source authoring limitation**, not a requirement to continue searching before drafting. Preserve authentic source attribution: omission placeholders mean missing second testimony, not independent verification. Shared-infrastructure PR #106 merged into main on 2026-11-04, so the canonical standards now permit title-scoped, provenance-backed one-source exceptions for VNs. This title's explicitly approved Set-B omission is therefore no longer a source-gate blocker for the enumerated facts. The exception is not evidence that a second source exists and does not waive missing choices, exact menu wording, 2016-edition applicability or independent reviews. The exception does not excuse incomplete route steps, inexact choice labels or unverified VJ009745 edition parity.\n\nTARGET VERSION: All catalog/research/guide metadata targets the specific 2016-01-29 Windows DLsite VJ009745 release. The DLsite VJ009745 product description explicitly describes the 2016 Windows 10-compatible engine replacement, altered presentation effects, and newly supported message-back/load facilities; it does not explicitly claim to change main-story choices or route scripts (https://www.dlsite.com/pro/work/=/product_id/VJ009745.html; quoted in Japanese at https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12297473812). A 2016 Japanese written player report confirms that DL edition permits saving at choice screens (https://spoiler-alert.seesaa.net/article/463131708.html). Written reports of DL-purchased copies independently corroborate the basic five-heroine structure and ending behavior, but no direct written route comparison proves Set A's precise choices, affinity states and endings behave identically in VJ009745. A2 (exact-edition choice equivalence) remains blocking. A 2022 Japanese report mentions an uncertain CG difference; do not assume a specific removal.\n\nNOZOMI DAY-5 SOURCE RECONCILIATION (2026-11-04): The Japanese DLsite purchaser's firsthand diary (https://note.com/kksk/n/nc4029dec3472, 「5日目」) independently reproduces the full option 「それだけの情報ではわからない」. Detailed source A prints only the prefix 「それだけの情報では」 for Nozomi's day-5 rooftop step. Nozomi route step 7 now uses the full written-Japanese option, retains source A's verbatim prefix in jpGuide1 and attributes the full text to Set B in jpGuide2. The diarist says selecting this answer caused an unfavorable reaction and then replayed to pick another response, but this observation does NOT establish that the response irrevocably prevents her ending; the author's initial playthrough and later Nozomi completion are separate. Shisnap nonetheless recommends that option on the presumed Nozomi path. Exact 2016 VJ009745 affinity effects remain unresolved. Do not silently replace with an unknown supposed better choice or assert a permanent softlock. This is a real source discrepancy, not a missing-second-source gate.\n\nPARTIAL LITERAL CHOICE CORROBORATION: The independent 2013 written Japanese completion report (https://sakurakameo.blog.fc2.com/blog-entry-126.html) quotes the full option 彼女は天使であって天使ではない, while Set A abbreviates it to 彼女は天使であって…. Draft Mutsuki and Nozomi day-5 steps use the full quoted wording and identify its original-era provenance in enGuide. This does not establish that the 2016 edition displays the identical full text, and it does not fill the missing Set B for the remainder of either route. Other abbreviated choices likewise require exact-target verification.\n\nCHECKPOINTS, ROUTE ORDER, ENDINGS: Set A explicitly documents save 1 at the start of day 4, save 2 at day 9 (Mutsuki/Mahiru branch), and save 3 at day 9 (Miyuki/Koyori branch). Proposed order is checkpoint-efficient, not a proven mandatory heroine unlock order or a universal spoiler-minimizing order. Day-10/11 continuation and each named ending are documented by Set A; because these are not player choices, current draft routes describe them only in the terminal enGuide rather than inventing an END selection in simpleJp. Separate Japanese reports describe the shared overall ending/epilogue despite heroine-specific route branches. Re-review the structure with this source-backed interpretation.\n\nNON-MAIN ENDING AND OPTIONAL CONTENT: Japanese written reports describe a no-heroine/failed-affinity BAD END, but do not give a reproducible full prefix/checkpoint and terminal under the exact target. No badEndPath is invented. Reports indicate affinity can depend on early visits and choices; choosing the heroine at day 9 without a suitable prefix is not reliably sufficient. CG/recollection scene labels are not selectable choices and must not be emitted as simpleJp instructions.\n\nIMAGES AND EVIDENCE POLICY: Character portraits have individually inspected YMGal character-source links. The exact-edition cover was actively searched without reliable VJ009745 attribution; cover_url deliberately remains empty rather than using a 2001 package photo. Chinese walkthroughs and gameplay videos, screenshots, streams, recording captions/transcripts or video descriptions do not count as a Japanese written verification lane; none is used as Set A/B evidence. No shared infrastructure/generated site files are edited in this title PR.\nMEDIA REPAIR (2026-11-04): The previously empty cover_url now uses the canonical title-level promotional artwork linked from YMGal game record https://www.ymgal.games/ja/ga10623 (direct image https://cdn.ymgal.games/archive/main/2c/2c7f5ae1b0464c63b099ca6b62005837.webp). This is identifiable title artwork, not a claim that a distinct 2016-specific store cover was found. The Nozomi portrait in guide.json and research.json now uses the canonical cdn.ymgal.games image URL linked by YMGal character record https://www.ymgal.games/ca87304, rather than the old store.ymgal.games hostname. An exact URL for VNDB's image fields could not be independently retrieved in the present review, so no VNDB CDN path was guessed. All five route choice arrays and reviewed flags remain untouched.\nVNDB MEDIA SYNC (2026-11-04): The exact 2016 Windows download version was matched to VNDB release https://vndb.org/r44749 and its release-specific package art https://t.vndb.org/cv/33/76933.jpg. Every route portrait now uses its directly returned VNDB Kana character image.url (Mutsuki c65215, Mahiru c76915, Nozomi c65216, Miyuki c76917, Koyori c76918). Earlier YMGal fallback research notes describe the previous state, not the current preferred asset. No guide choice text or review flag was modified.",
+  "generated_at": "2026-11-04T13:57:53.182Z"
+}

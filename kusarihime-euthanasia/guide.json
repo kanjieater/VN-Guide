@@ -150,7 +150,26 @@
       "title": "Chinese independent all-end walkthrough (supplementary/non-Japanese)",
       "language": "zh",
       "notes": "Inspected Chinese walkthrough which independently groups a final THREE-way ending choice and run-specific scene branches. It uses localized translated text and cannot be used as Japanese Set B, nor as evidence of literal JP option text. It also uses different completion-order terminology, so do not substitute its text into simpleJp."
+    },
+    {
+      "url": "https://www.ymgal.games/ga10022",
+      "title": "YMGal game release list (edition metadata only)",
+      "language": "ja",
+      "notes": "Public game database directly inspected: separate native-Japanese Windows releases 2002 original, 2007 download, and 2015-11-27 Selection 01. Confirms the Selection edition as an official Japanese release, NOT gameplay/choice parity."
+    },
+    {
+      "set": "B",
+      "url": "https://bellwood.iza-yoi.net/review/review/kusari.html",
+      "title": "腐り姫 ～euthanasia～（bellwood independent Japanese first-person review）",
+      "language": "ja",
+      "notes": "Directly inspected original Japanese firsthand narrative review, independent of Fool; it explicitly describes the TRUE/リフレーン outcome by referring to the selected menu text 「終わりじゃない」 without leading/trailing punctuation. Corroborates the existence/semantics of the TRUE-choice outcome, NOT its exact typography, optional scene choices, END1/END2 choices, or 2015 Selection applicability. This is supplementary B only, not a full walkthrough."
+    },
+    {
+      "url": "https://hatonocco.blog106.fc2.com/blog-entry-34.html",
+      "title": "腐り姫～euthanasia～感想（右肩下がりのドクターイエロー）",
+      "language": "ja",
+      "notes": "Independent Japanese first-person completion report, read via indexed search excerpt; describes three endings and reset, and the successive four-day loops. Direct open redirects in this environment, therefore indexed-only provenance, NOT a directly inspectable required Set B component."
     }
   ],
-  "generated_at": "2026-11-04T03:13:07.781Z"
+  "generated_at": "2026-11-04T03:52:18.896Z"
 }

@@ -76,6 +76,8 @@ Then apply these source roles:
 
 Every game registration should have a cover image for the exact intended release/edition when one can be directly verified.
 
+**Lookup priority:** First inspect **VNDB's release-specific cover images** for the intended `guide_target` (use the correct `r...` release, not just the VN-level `v...` image). If VNDB exposes a suitable directly verifiable image URL for that exact edition, use it. If not, check the publisher/store's official artwork, then other structured databases such as YMGal. Document the reason for any non-VNDB fallback; an inaccessible API, missing image, unverified edition match, or unusable URL is a valid reason, but an omitted lookup is not. Do not guess image CDN paths or substitute a different edition's physical package cover.
+
 - During initial registration/research, actively look up a cover for the exact `guide_target` edition/platform; do not leave `cover_url` blank merely because cover lookup was deferred.
 - Prefer a stable direct image URL from an authoritative, structured, or otherwise reliable source that clearly matches the target edition.
 - Do not use a different edition, limited edition, remake, port, or localization cover merely because it is easier to find.
@@ -86,6 +88,8 @@ Every game registration should have a cover image for the exact intended release
 ## Character portraits
 
 Portrait URLs must be directly verified against a character record or another authoritative/structured source.
+
+**Lookup priority:** First check **VNDB character records** and their returned `image.url` for every heroine/route character, confirming the character by name. Prefer directly verifiable VNDB `image.url` values over alternate character databases. Only fall back to an official character source or YMGal (or another structured source) when VNDB has no suitable image or the returned image cannot be inspected/used; document that reason and the alternative source. A VNDB character page or image ID alone is not a verified image URL. Do not compose a VNDB CDN path from a character ID or an image ID.
 
 - **A route character must have a portrait whenever a directly verifiable character image exists.** Leaving `portrait` blank because the lookup was skipped, inconvenient, or deferred is an authoring defect.
 - Match the route character by name, not by numeric coincidence.

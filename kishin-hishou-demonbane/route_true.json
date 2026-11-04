@@ -1,0 +1,26 @@
+[
+  {
+    "simpleJp": "初回クリア後、最初から再プレイする",
+    "jpGuide1": "一度エンディングを見るとドクターウエストENDとTRUE ENDが解禁。",
+    "jpGuide2": "この作品は一度クリアすると真のエンディングに行くための方法が出るんですが、",
+    "enGuide": "Start a fresh post-clear run after viewing Normal END (and West END if following the recommended order)."
+  },
+  {
+    "simpleJp": "破壊ロボ戦では勝利せず本編を進める",
+    "jpGuide1": "初回ではなかった、破壊ロボＶＳデモンベインブラッド戦で勝利するとウエストEND。",
+    "jpGuide2": "続編の『機神飛翔』では、シナリオ上勝てるはずのない戦闘で西博士が勝ってしまったために、想定外として打ち切りになるエンドがある。",
+    "enGuide": "At the early BATTLE:02 Destroyer Robot vs Demonbane Blood, do not win as West: winning would terminate the run with West END. Continue the linear story."
+  },
+  {
+    "simpleJp": "最終決戦でラスボスを倒し、必滅奥義入力へ進む",
+    "jpGuide1": "TRUE ENDは最終決戦の必滅奥義入力時間内にノーマルEND最後に表示されたコマンドを入れることで分岐。",
+    "jpGuide2": "必殺技って最後のトドメにしか入力できないんで、つまりラスボス戦で勝たなければならないのですな。",
+    "enGuide": "Reach and win the final battle again. Wait for the final finishing-move command-input window."
+  },
+  {
+    "simpleJp": "必滅奥義入力時間内に「上→下→上→攻」を入力する",
+    "jpGuide1": "TRUE ENDは最終決戦の必滅奥義入力時間内にノーマルEND最後に表示されたコマンドを入れることで分岐。",
+    "jpGuide2": "「上」を「Ｓ」\n「下」を「Ｄ」\n「攻」を「Ａ」\nに設定して、「ＳＤＳＡ」を若本さんの台詞が終了する辺りから順に連打。",
+    "enGuide": "Enter the secret command shown at the end of Normal END: Up, Down, Up, Attack, during the final 必滅奥義 input window. A first-hand Japanese player succeeded by rebinding Up=S, Down=D, Attack=A and entering SDSA around the end of the voiced boss line. If successful, a different finishing attack plays and TRUE END follows."
+  }
+]

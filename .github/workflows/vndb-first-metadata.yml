@@ -112,6 +112,7 @@ jobs:
               api("character", id, "id,name,original,aliases,image.url"),
               api("release", id, "id,title,alttitle,released,platforms,official,patch,vns.id,vns.rtype,extlinks.url,images.url,images.type,images.vn,images.languages"),
             ]);
+            if (!target?.url) unresolved.push(slug + " release (no explicit edition target; not guessing)");
             const release = matchRelease(target, releases, id);
             if (release) {
               const link = "https://vndb.org/" + release.id;

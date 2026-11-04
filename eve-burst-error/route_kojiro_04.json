@@ -198,14 +198,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "御堂",
-    "jpGuide1": "入力する→人物１→御堂",
-    "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "御堂 ×2",
+    "jpGuide1": "入力する→人物１→御堂\n（第一ガイドに記載なし）",
     "jpGuide2": "入力する\n人物1\n御堂×2\n孔",
     "enGuide": ""
   },
@@ -234,14 +228,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "御堂の個人情報",
-    "jpGuide1": "解除する→御堂の個人情報",
-    "jpGuide2": "解除する\n御堂の個人情報×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂の個人情報",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "御堂の個人情報 ×2",
+    "jpGuide1": "解除する→御堂の個人情報\n（第一ガイドに記載なし）",
     "jpGuide2": "解除する\n御堂の個人情報×2",
     "enGuide": ""
   },

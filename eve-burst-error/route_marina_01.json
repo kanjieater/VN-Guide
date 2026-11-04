@@ -48,38 +48,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×５",
-    "jpGuide2": "話す\n本部長×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×５",
-    "jpGuide2": "話す\n本部長×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×５",
-    "jpGuide2": "話す\n本部長×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×５",
-    "jpGuide2": "話す\n本部長×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×５",
-    "jpGuide2": "話す\n本部長×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "本部長 ×6",
+    "jpGuide1": "話す→本部長×５\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n本部長×6",
     "enGuide": ""
   },
@@ -270,25 +240,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
+    "simpleJp": "本部長 ×4",
     "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
     "jpGuide2": "話す\n本部長×4",
     "enGuide": ""
@@ -324,43 +276,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n御堂×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n御堂×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n御堂×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n御堂×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n御堂×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n御堂×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
+    "simpleJp": "御堂 ×7",
     "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
     "jpGuide2": "話す\n御堂×7",
     "enGuide": ""
@@ -372,50 +288,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７",
-    "jpGuide2": "話す\n本部長×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "本部長 ×8",
+    "jpGuide1": "話す→本部長×４→御堂×７→本部長×７\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n本部長×8",
     "enGuide": ""
   },
@@ -474,25 +348,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "資料",
-    "jpGuide1": "見る・調べる→資料×４",
-    "jpGuide2": "見る・調べる\n資料×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "資料",
-    "jpGuide1": "見る・調べる→資料×４",
-    "jpGuide2": "見る・調べる\n資料×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "資料",
-    "jpGuide1": "見る・調べる→資料×４",
-    "jpGuide2": "見る・調べる\n資料×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "資料",
+    "simpleJp": "資料 ×4",
     "jpGuide1": "見る・調べる→資料×４",
     "jpGuide2": "見る・調べる\n資料×4",
     "enGuide": ""
@@ -786,19 +642,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "ディレクター",
-    "jpGuide1": "待つ→デォレクター×３",
-    "jpGuide2": "待つ\nディレクター×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ディレクター",
-    "jpGuide1": "待つ→デォレクター×３",
-    "jpGuide2": "待つ\nディレクター×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ディレクター",
+    "simpleJp": "ディレクター ×3",
     "jpGuide1": "待つ→デォレクター×３",
     "jpGuide2": "待つ\nディレクター×3",
     "enGuide": ""
@@ -828,25 +672,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "ディレクター",
-    "jpGuide1": "待つ→ディレクター×４",
-    "jpGuide2": "待つ\nディレクター×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ディレクター",
-    "jpGuide1": "待つ→ディレクター×４",
-    "jpGuide2": "待つ\nディレクター×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ディレクター",
-    "jpGuide1": "待つ→ディレクター×４",
-    "jpGuide2": "待つ\nディレクター×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "ディレクター",
+    "simpleJp": "ディレクター ×4",
     "jpGuide1": "待つ→ディレクター×４",
     "jpGuide2": "待つ\nディレクター×4",
     "enGuide": ""
@@ -870,50 +696,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×７",
-    "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×７",
-    "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×７",
-    "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×７",
-    "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×７",
-    "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×７",
-    "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×７",
-    "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "松乃 ×8",
+    "jpGuide1": "話す→松乃×７\n（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\n松乃・髪の毛\n話す\n松乃×8",
     "enGuide": ""
   },
@@ -1194,13 +978,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "あたりの様子",
-    "jpGuide1": "見る・調べる→あたりの様子×２",
-    "jpGuide2": "見る・調べる\nあたりの様子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "あたりの様子",
+    "simpleJp": "あたりの様子 ×2",
     "jpGuide1": "見る・調べる→あたりの様子×２",
     "jpGuide2": "見る・調べる\nあたりの様子×2",
     "enGuide": ""
@@ -1242,43 +1020,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "飛び降りる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "移動する\n飛び降りる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "飛び降りる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "移動する\n飛び降りる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "飛び降りる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "移動する\n飛び降りる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "飛び降りる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "移動する\n飛び降りる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "飛び降りる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "移動する\n飛び降りる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "飛び降りる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "移動する\n飛び降りる×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "飛び降りる",
+    "simpleJp": "飛び降りる ×7",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "移動する\n飛び降りる×7",
     "enGuide": ""
@@ -1518,37 +1260,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "鈴木",
-    "jpGuide1": "話す→鈴木×６",
-    "jpGuide2": "話す\n鈴木×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "鈴木",
-    "jpGuide1": "話す→鈴木×６",
-    "jpGuide2": "話す\n鈴木×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "鈴木",
-    "jpGuide1": "話す→鈴木×６",
-    "jpGuide2": "話す\n鈴木×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "鈴木",
-    "jpGuide1": "話す→鈴木×６",
-    "jpGuide2": "話す\n鈴木×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "鈴木",
-    "jpGuide1": "話す→鈴木×６",
-    "jpGuide2": "話す\n鈴木×6",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "鈴木",
+    "simpleJp": "鈴木 ×6",
     "jpGuide1": "話す→鈴木×６",
     "jpGuide2": "話す\n鈴木×6",
     "enGuide": ""
@@ -1620,19 +1332,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×３",
-    "jpGuide2": "話す\n松乃×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×３",
-    "jpGuide2": "話す\n松乃×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
+    "simpleJp": "松乃 ×3",
     "jpGuide1": "話す→松乃×３",
     "jpGuide2": "話す\n松乃×3",
     "enGuide": ""
@@ -1656,14 +1356,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃",
-    "jpGuide2": "話す\n松乃×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "松乃 ×2",
+    "jpGuide1": "話す→松乃\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n松乃×2",
     "enGuide": ""
   },
@@ -1674,14 +1368,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "色々と",
-    "jpGuide1": "食べる→色々と",
-    "jpGuide2": "食べる\n色々と×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "色々と",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "色々と ×2",
+    "jpGuide1": "食べる→色々と\n（第一ガイドに記載なし）",
     "jpGuide2": "食べる\n色々と×2",
     "enGuide": ""
   },
@@ -1692,19 +1380,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×４",
-    "jpGuide2": "話す\n松乃×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
-    "jpGuide1": "話す→松乃×４",
-    "jpGuide2": "話す\n松乃×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "松乃",
+    "simpleJp": "松乃 ×3",
     "jpGuide1": "話す→松乃×４",
     "jpGuide2": "話す\n松乃×3",
     "enGuide": ""
@@ -1860,43 +1536,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×７",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×７",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×７",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×７",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×７",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×７",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×7",
     "jpGuide1": "話す→真弥子×７",
     "jpGuide2": "話す\n真弥子×7",
     "enGuide": ""
@@ -1956,25 +1596,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４",
-    "jpGuide2": "話す\n本部長×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４",
-    "jpGuide2": "話す\n本部長×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×４",
-    "jpGuide2": "話す\n本部長×4",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
+    "simpleJp": "本部長 ×4",
     "jpGuide1": "話す→本部長×４",
     "jpGuide2": "話す\n本部長×4",
     "enGuide": ""
@@ -2046,32 +1668,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→御堂×４",
-    "jpGuide2": "話す\n御堂×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→御堂×４",
-    "jpGuide2": "話す\n御堂×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→御堂×４",
-    "jpGuide2": "話す\n御堂×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→御堂×４",
-    "jpGuide2": "話す\n御堂×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "御堂 ×5",
+    "jpGuide1": "話す→御堂×４\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n御堂×5",
     "enGuide": ""
   },
@@ -2130,26 +1728,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "あたりの様子",
-    "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３",
-    "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "あたりの様子",
-    "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３",
-    "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "あたりの様子",
-    "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３",
-    "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "あたりの様子",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "あたりの様子 ×4",
+    "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３\n（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
     "enGuide": ""
   },
@@ -2166,25 +1746,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "テレビ",
-    "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３",
+    "simpleJp": "テレビ ×2",
+    "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３\n（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "テレビ",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "机",
-    "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３",
-    "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "机",
+    "simpleJp": "机 ×2",
     "jpGuide1": "見る・調べる→あたりの様子×３→ぬいぐるみ→テレビ→机×３",
     "jpGuide2": "見る・調べる\nあたりの様子×4\n机\nぬいぐるみ\nテレビ×2\n机×2",
     "enGuide": ""
@@ -2304,13 +1872,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×２",
-    "jpGuide2": "話す\n真弥子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "話す→真弥子×２",
     "jpGuide2": "話す\n真弥子×2",
     "enGuide": ""
@@ -2328,13 +1890,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子\n真弥子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子\n真弥子×2",
     "enGuide": ""
@@ -2364,44 +1920,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×６",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×６",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×６",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×６",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×６",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×６",
-    "jpGuide2": "話す\n真弥子×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "真弥子 ×7",
+    "jpGuide1": "話す→真弥子×６\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n真弥子×7",
     "enGuide": ""
   },
@@ -2496,13 +2016,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "洋服ダンス",
-    "jpGuide1": "見る・調べる→洋服ダンス×３→机×２",
-    "jpGuide2": "見る・調べる\n洋服ダンス×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "洋服ダンス",
+    "simpleJp": "洋服ダンス ×2",
     "jpGuide1": "見る・調べる→洋服ダンス×３→机×２",
     "jpGuide2": "見る・調べる\n洋服ダンス×2",
     "enGuide": ""
@@ -2562,20 +2076,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×２",
-    "jpGuide2": "話す\n本部長×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "話す→本部長×２",
-    "jpGuide2": "話す\n本部長×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "本部長",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "本部長 ×3",
+    "jpGuide1": "話す→本部長×２\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n本部長×3",
     "enGuide": ""
   },
@@ -2646,25 +2148,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
+    "simpleJp": "弥生 ×2",
     "jpGuide1": "話す→弥生×２→真弥子×２",
     "jpGuide2": "話す\n弥生×2\n真弥子×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→弥生×２→真弥子×２",
-    "jpGuide2": "話す\n弥生×2\n真弥子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→弥生×２→真弥子×２",
-    "jpGuide2": "話す\n弥生×2\n真弥子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "話す→弥生×２→真弥子×２",
     "jpGuide2": "話す\n弥生×2\n真弥子×2",
     "enGuide": ""
@@ -2676,19 +2166,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "酒",
-    "jpGuide1": "飲む→酒×３",
-    "jpGuide2": "飲む\n酒×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "酒",
-    "jpGuide1": "飲む→酒×３",
-    "jpGuide2": "飲む\n酒×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "酒",
+    "simpleJp": "酒 ×3",
     "jpGuide1": "飲む→酒×３",
     "jpGuide2": "飲む\n酒×3",
     "enGuide": ""
@@ -2730,37 +2208,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→弥生→真弥子→弥生×２",
+    "simpleJp": "弥生 ×2",
+    "jpGuide1": "話す→弥生→真弥子→弥生×２\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n弥生×2\n真弥子×2\n弥生×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "真弥子 ×2",
+    "jpGuide1": "話す→弥生→真弥子→弥生×２\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n弥生×2\n真弥子×2\n弥生×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→弥生→真弥子→弥生×２",
-    "jpGuide2": "話す\n弥生×2\n真弥子×2\n弥生×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "話す\n弥生×2\n真弥子×2\n弥生×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→弥生→真弥子→弥生×２",
-    "jpGuide2": "話す\n弥生×2\n真弥子×2\n弥生×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
+    "simpleJp": "弥生 ×2",
     "jpGuide1": "話す→弥生→真弥子→弥生×２",
     "jpGuide2": "話す\n弥生×2\n真弥子×2\n弥生×2",
     "enGuide": ""
@@ -2772,14 +2232,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "酒",
-    "jpGuide1": "飲む→酒",
-    "jpGuide2": "飲む\n酒×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "酒",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "酒 ×2",
+    "jpGuide1": "飲む→酒\n（第一ガイドに記載なし）",
     "jpGuide2": "飲む\n酒×2",
     "enGuide": ""
   },
@@ -2790,43 +2244,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "あたりの様子",
+    "simpleJp": "あたりの様子 ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
     "enGuide": ""
   },
   {
-    "simpleJp": "あたりの様子",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
+    "simpleJp": "弥生 ×3",
     "jpGuide1": "見る・調べる→弥生×３",
     "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "見る・調べる→弥生×３",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "見る・調べる→弥生×３",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
     "enGuide": ""
@@ -2844,13 +2274,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "酒",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "飲む\n酒×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "酒",
+    "simpleJp": "酒 ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "飲む\n酒×2",
     "enGuide": ""
@@ -2862,43 +2286,19 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "あたりの様子",
+    "simpleJp": "あたりの様子 ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
     "enGuide": ""
   },
   {
-    "simpleJp": "あたりの様子",
+    "simpleJp": "弥生 ×3",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見る・調べる\nあたりの様子×2\n弥生×3\n真弥子×2\n酒",
     "enGuide": ""
@@ -2916,20 +2316,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→弥生",
-    "jpGuide2": "話す\n弥生×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "話す\n弥生×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "弥生 ×3",
+    "jpGuide1": "話す→弥生\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n弥生×3",
     "enGuide": ""
   },
@@ -2940,13 +2328,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
-    "jpGuide1": "見る・調べる→真弥子×３",
-    "jpGuide2": "見る・調べる\n真弥子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "見る・調べる→真弥子×３",
     "jpGuide2": "見る・調べる\n真弥子×2",
     "enGuide": ""
@@ -2958,25 +2340,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→弥生",
+    "simpleJp": "弥生 ×2",
+    "jpGuide1": "話す→弥生\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n弥生×2\n真弥子×2",
     "enGuide": ""
   },
   {
-    "simpleJp": "弥生",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "話す\n弥生×2\n真弥子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "話す\n弥生×2\n真弥子×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "話す\n弥生×2\n真弥子×2",
     "enGuide": ""
@@ -3000,55 +2370,13 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
+    "simpleJp": "真弥子 ×2",
     "jpGuide1": "話す→真弥子×２→弥生×７",
     "jpGuide2": "話す\n真弥子×2\n弥生×7",
     "enGuide": ""
   },
   {
-    "simpleJp": "真弥子",
-    "jpGuide1": "話す→真弥子×２→弥生×７",
-    "jpGuide2": "話す\n真弥子×2\n弥生×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→真弥子×２→弥生×７",
-    "jpGuide2": "話す\n真弥子×2\n弥生×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→真弥子×２→弥生×７",
-    "jpGuide2": "話す\n真弥子×2\n弥生×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→真弥子×２→弥生×７",
-    "jpGuide2": "話す\n真弥子×2\n弥生×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→真弥子×２→弥生×７",
-    "jpGuide2": "話す\n真弥子×2\n弥生×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→真弥子×２→弥生×７",
-    "jpGuide2": "話す\n真弥子×2\n弥生×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
-    "jpGuide1": "話す→真弥子×２→弥生×７",
-    "jpGuide2": "話す\n真弥子×2\n弥生×7",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "弥生",
+    "simpleJp": "弥生 ×7",
     "jpGuide1": "話す→真弥子×２→弥生×７",
     "jpGuide2": "話す\n真弥子×2\n弥生×7",
     "enGuide": ""
@@ -3072,13 +2400,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "書類",
-    "jpGuide1": "見る・調べる→書類×２",
-    "jpGuide2": "見る・調べる\nあたりの様子\n真弥子\n書類×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "書類",
+    "simpleJp": "書類 ×2",
     "jpGuide1": "見る・調べる→書類×２",
     "jpGuide2": "見る・調べる\nあたりの様子\n真弥子\n書類×2",
     "enGuide": ""

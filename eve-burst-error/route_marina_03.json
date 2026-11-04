@@ -66,19 +66,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→御堂×３",
-    "jpGuide2": "話す\n御堂×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
-    "jpGuide1": "話す→御堂×３",
-    "jpGuide2": "話す\n御堂×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "御堂",
+    "simpleJp": "御堂 ×3",
     "jpGuide1": "話す→御堂×３",
     "jpGuide2": "話す\n御堂×3",
     "enGuide": ""
@@ -90,31 +78,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "隣の会話",
-    "jpGuide1": "聞く→隣の会話×５",
-    "jpGuide2": "聞く\n隣の会話×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "隣の会話",
-    "jpGuide1": "聞く→隣の会話×５",
-    "jpGuide2": "聞く\n隣の会話×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "隣の会話",
-    "jpGuide1": "聞く→隣の会話×５",
-    "jpGuide2": "聞く\n隣の会話×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "隣の会話",
-    "jpGuide1": "聞く→隣の会話×５",
-    "jpGuide2": "聞く\n隣の会話×5",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "隣の会話",
+    "simpleJp": "隣の会話 ×5",
     "jpGuide1": "聞く→隣の会話×５",
     "jpGuide2": "聞く\n隣の会話×5",
     "enGuide": ""
@@ -126,19 +90,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "香川",
-    "jpGuide1": "話す→香川×３",
-    "jpGuide2": "話す\n香川×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "香川",
-    "jpGuide1": "話す→香川×３",
-    "jpGuide2": "話す\n香川×3",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "香川",
+    "simpleJp": "香川 ×3",
     "jpGuide1": "話す→香川×３",
     "jpGuide2": "話す\n香川×3",
     "enGuide": ""
@@ -162,14 +114,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "香川",
-    "jpGuide1": "話す→香川",
-    "jpGuide2": "話す\n香川×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "香川",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "香川 ×2",
+    "jpGuide1": "話す→香川\n（第一ガイドに記載なし）",
     "jpGuide2": "話す\n香川×2",
     "enGuide": ""
   },
@@ -198,14 +144,8 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "端末",
-    "jpGuide1": "見る・調べる→あたりの様子→端末",
-    "jpGuide2": "見る・調べる\nあたりの様子\n端末×2",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "端末",
-    "jpGuide1": "見る・調べる→端末",
+    "simpleJp": "端末 ×2",
+    "jpGuide1": "見る・調べる→あたりの様子→端末\n見る・調べる→端末",
     "jpGuide2": "見る・調べる\nあたりの様子\n端末×2",
     "enGuide": ""
   },
@@ -330,13 +270,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "机",
-    "jpGuide1": "見る・調べる→机×２→時計→端末",
-    "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "机",
+    "simpleJp": "机 ×2",
     "jpGuide1": "見る・調べる→机×２→時計→端末",
     "jpGuide2": "4：Arts\n見る・調べる\nあたりの様子\n机×2\n時計\n端末",
     "enGuide": ""

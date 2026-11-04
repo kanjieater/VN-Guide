@@ -1,200 +1,200 @@
 [
   {
     "simpleJp": "セーブ1にロード",
-    "jpGuide1": "（セーブ1にロード）",
-    "jpGuide2": "not documented",
+    "jpGuide1": "（セーブ・１）からスタート",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Load the indicated existing save."
   },
   {
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "教室",
     "jpGuide1": "教室",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "弓道場",
     "jpGuide1": "弓道場",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "帰る",
     "jpGuide1": "帰る",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "彼女は天使であって…",
     "jpGuide1": "彼女は天使であって…",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "それだけの情報では",
     "jpGuide1": "それだけの情報では",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "中庭",
     "jpGuide1": "中庭",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "図書館",
     "jpGuide1": "図書館",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "もしかして、友だちいないの？",
     "jpGuide1": "もしかして、友だちいないの？",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "帰る",
     "jpGuide1": "帰る",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "弓道場",
     "jpGuide1": "弓道場",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "図書館",
     "jpGuide1": "図書館",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "中庭",
     "jpGuide1": "中庭",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "教室",
     "jpGuide1": "教室",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "帰る",
     "jpGuide1": "帰る",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "ウンチの出る…",
     "jpGuide1": "ウンチの出る…",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "断る",
     "jpGuide1": "断る",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "弓道場",
     "jpGuide1": "弓道場",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "教室",
     "jpGuide1": "教室",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "キミを殺してあげよう",
     "jpGuide1": "キミを殺してあげよう",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "帰る",
     "jpGuide1": "帰る",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "そういう問題じゃない",
     "jpGuide1": "そういう問題じゃない",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "屋上の少女",
     "jpGuide1": "屋上の少女",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "屋上",
     "jpGuide1": "屋上",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "許さない",
     "jpGuide1": "許さない",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "殴る",
     "jpGuide1": "殴る",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
   },
   {
     "simpleJp": "教室",
     "jpGuide1": "教室",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "中庭",
     "jpGuide1": "中庭",
-    "jpGuide2": "not documented",
+    "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Visit this location in the source's listed order."
   },
   {
     "simpleJp": "本当になんにも覚えていない",
     "jpGuide1": "本当になんにも覚えていない",
-    "jpGuide2": "not documented",
-    "enGuide": ""
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After the final day-9 choice, advance through the day-10 Nozomi scene (エアプレ～ン) and day-11 門 scene to 高田望美ＥＮＤ. No further menu choice is specified by Set A."
   }
 ]

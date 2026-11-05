@@ -21,7 +21,7 @@ Do not combine author and reviewer roles in one session.
 
 Do not generate route content until the research gate passes.
 
-A game requires an **explicit linked guide target** plus two independent Japanese verification sets that apply to that exact target.
+A game requires an **explicit linked guide target**, a directly inspectable complete Japanese primary walkthrough (Set A), and the applicable VN evidence tier described below. Independent Japanese sources must be sought and reconciled; they need not duplicate every exact in-game menu string for a VN when the corroborated-primary tier is justified. Non-VN walkthroughs retain their stricter material-progression rules.
 
 ### Guide target
 
@@ -40,37 +40,46 @@ Before research begins, resolve:
 Rules:
 
 - For legacy titles, `games.json.guide_target` is the source of truth. For new or migrated titles, `<slug>/catalog.json.guide_target` is the source of truth. Never edit shared `games.json` for a new guide.
-- A caller may explicitly supply the same three target fields for a new guide, but the override must also be scoped to the exact VN work id. A caller target for one VN must never be reused for another pending game. Persist the accepted target to the title's `<slug>/catalog.json` before research so later agents see the same target.
-- If neither the repository nor caller supplies a target, default to the **newest official complete release that includes native Japanese in-game text**, using release-specific metadata such as VNDB releases rather than guessing from the broad work entry. This keeps `simpleJp` valid for the target while preferring the newest applicable edition/platform.
-- If the newest applicable Japanese release is ambiguous (for example multiple distinct releases on the same newest date, a multi-platform release that cannot be made platform-specific, or insufficient release metadata), stop and request an explicit target instead of choosing arbitrarily.
+- A caller may explicitly specify a version by edition name, platform, release date, original/remake/port distinction, or other unambiguous constraint **even without supplying all three JSON fields**. Resolve its exact label/platform/URL for that same VN work, then persist it to `<slug>/catalog.json`. An explicit caller version is **immutable** until that same caller explicitly authorizes a different version. Never substitute a remake, later port, edition, platform, or "better documented" release when the requested one is difficult to verify. This applies equally to original-PC requests such as Togainu no Chi versus its later TRUE BLOOD release. Caller targets are scoped to the exact VN work id and never inherited by another guide.
+- Persist target provenance in `<slug>/catalog.json.guide_target_origin`: `"caller_explicit"` or `"automatic"`. For existing guides with no provenance field, treat the current persisted target as **pinned**, never as safely auto-retargetable. Set `"automatic"` only when the target was actually chosen without a caller version request; never backfill that designation merely to escape a source blocker. `research.json` must explain any legitimate automatic retarget and why there was no explicit caller version.
+- If there is **no caller-selected or pinned repository target**, choose an official native-Japanese release for which the primary Japanese choice walkthrough is demonstrably applicable. When multiple releases have equally sound source applicability, prefer the newest complete official Japanese edition. Do not choose a newer release whose choice/script/save applicability is unverified over a source-supported older release. Use release-specific VNDB/official/store metadata, not a broad work entry. A previous *documented automatic* choice may be retargeted to a better-evidenced release with an explicit audit note; a caller-explicit or provenance-unknown persisted target may not.
+- If no release can be precisely identified, or equally supported releases remain indistinguishable, stop rather than inventing a release/version identity. Do not reduce an explicitly requested older edition to a different newer edition to clear this ambiguity.
 - `label`, `platform`, and `url` are all required and non-empty.
 - The URL should identify the **specific intended release/edition**, not merely the broad work. **Prefer the exact VNDB `https://vndb.org/r...` release page whenever available; use another release-specific source only when VNDB cannot provide a suitable exact-target link.**
 - Once a default target is resolved, persist it to the title's `<slug>/catalog.json` before research exactly like a caller-supplied target.
 - Copy the exact target into `research.json.guide_target` and later into `guide.json.guide_target`.
 - Verify every Set A/B component applies to that exact target, or document version differences and why they do not affect the guide.
-- If the requested target cannot be verified or available walkthroughs apply to a materially different release, stop and document the blocker rather than silently switching targets.
+- If an **explicitly requested or pinned** target cannot be verified, or walkthroughs only fit a materially different version, **keep that target and record the blocker**. Never silently switch it. Only a documented automatic target may be changed, and only to a precisely identified evidence-compatible Japanese release with matching cover/provenance and fresh reviews.
 
 ### Legacy target migration
 
 For existing guides that predate `guide_target`, use the same target resolution policy instead of preserving ambiguity indefinitely.
 
 - Existing reviewed flags are not invalidated **solely** because this field was absent historically.
-- Before any new source-dependent generation, correction, or accuracy re-review, the guide must receive a persisted target. If no explicit target exists, resolve the newest unambiguous official complete Japanese release as above.
+- Before new source-dependent generation, correction, or accuracy re-review, use the persisted caller-selected/pinned target or, where genuinely absent, resolve a source-compatible official Japanese release as above. Never treat missing provenance on an existing target as permission to change it.
 - If the target backfill merely formalizes the exact release already unambiguously documented in the existing research/sources, the backfill itself is metadata-only and does not invalidate route review.
 - If the old research is ambiguous, or the target changes to a different release/platform/edition, redo research for the new target and invalidate all affected route reviews.
 
 Then apply these source roles:
 
 - **Set A** should be the detailed primary walkthrough used for exact step/save text.
-- **Set B** must independently cover the full **main-route structure**: every route-defining decision, route prerequisite/unlock, and route/main ending used by the guide. Optional non-main ending detours (bad, normal, alternate, or similarly labeled endings) are handled separately below and may be documented by only one primary set when the other is silent and non-contradictory.
+- **Independent Japanese corroboration (Set B):** seek independent firsthand Japanese written guide(s), playlogs or outcome discussions confirming the game's material story structure, number/meaning of endings, and any known unlock/replay behavior. Record exactly which facts are and are not corroborated. For **VNs**, a second complete literal menu transcription is preferred but not mandatory under the corroborated-primary tier below. For opted-in **non-VN** walkthroughs, retain the stricter full material-progression verification requirement.
 - A verification set may be one page or multiple Japanese pages. If multiple pages are needed, document every component in `research.json` and explain what each component covers.
 - **No video evidence.** Set A and Set B must use directly inspectable written Japanese sources. Do not count or propose videos, livestreams, gameplay recordings, clips, their frames, descriptions, or transcripts as route/source-gate evidence or as a substitute for a missing written walkthrough. If qualifying written sources cannot verify the exact target, preserve the blocker; do not bypass it by researching recordings.
 - A translation, derivative guide, or page that merely cites Set A does not count as an independent Set B.
 - A source that cannot be directly inspected does not count toward the gate. It may be listed for provenance only.
-- If the two-set gate cannot be satisfied, stop after research and document the blocker **unless** this title has a valid repository-owner-approved title-scoped exception covering the exact residual fact as defined below. Facts outside that enumerated exception still fail the normal gate. Do not invent or infer missing guide content.
+- If neither VN evidence tier can be satisfied, stop after research and document the blocker unless the title has a valid owner-approved scoped exception covering the exact residual corroboration deficiency. A single incomplete guide, unsupported main-ending selection, unresolved material contradiction, or wrong requested version never qualifies for automatic approval. Do not invent game content.
 - Legacy `research.json` files may predate explicit `set: "A"` / `set: "B"` fields. For those, use the documented primary-source ordering/notes to identify the two independent Japanese source sets; when the research file is next edited, make the set assignment explicit.
 
-"Cross-validate" means reconcile the two sets, not require identical coverage of every formatting detail. Every **main-route-defining** choice, prerequisite/unlock, and route/main ending must be independently supported by both sets **unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for this title**. A save point, repeated UI action, or optional non-main ending detour may appear in only one primary set; include it when explicitly documented and the other set is silent/non-contradictory, and mark the other source field as not documented rather than fabricating text. For an exception-covered fact, use only the source roles and omission behavior explicitly permitted by the supplement. If the other set contradicts the step/outcome, resolve the conflict before generation.
+### VN evidence tiers (automatic; never a version override)
+
+1. **`dual_verified`** — two independent directly inspected Japanese written verification sets substantiate every material route decision, unlock/prerequisite and main ending for the *selected* release. Keep their exact printed text separately in `jpGuide1` and `jpGuide2`.
+2. **`corroborated_primary`** — Set A is a directly inspected **complete, executable Japanese walkthrough** for the *selected* release: full exact selectable choice text, route order/ending labels, material reset/continuation behavior and source-backed save/load points. Directly inspected **independent** Japanese B material corroborates the broad route/endings structure and outcome meanings, and raises no **unresolved material contradiction**. Set B may paraphrase endings and omit literal option wording; never present a paraphrase as verbatim game UI. Document each A-only literal terminal and the B outcome/source separately. Use `（第二ガイドに記載なし）` in `jpGuide2` where B does not print the exact step. This tier is valid for VNs without per-title permission, but is **not** a claim of two verbatim sources or proof of edition equivalence.
+3. **`blocked`** — no complete trustworthy Japanese Set A, no independent Japanese corroboration of main structure/outcomes, materially conflicting prerequisite/route/ending claims without a verifiable executable resolution, wrong target version, or uncertain applicability of Set A to a **caller-pinned target**. Stop rather than claim an accuracy PASS. A genuinely ambiguous unlock may be explained by a **complete source-grounded conditional fallback** only if the documented alternative choices, completed-ending boundary and replay steps make the path executable in every known supported state; never invent flags, prerequisites or availability.
+
+Record `research.json.verification_tier` as one of these three values and summarize the direct evidence for each main ending, its scope/limitations, and any conditional fallback in `disagreements`. Accuracy reviewers independently validate the chosen tier, literal Set-A transcript, corroborating Japanese sources, source independence and target origin. **Missing duplicate Japanese quotation is not itself a failure under `corroborated_primary`; contradictions, unusable paths and version mismatches still are.** Do not elevate provenance-only snippets, videos, translated/derivative material, or an inaccessible page to B.
+
+A save point, repeated menu operation or optional detour may be supported by Set A alone when B is silent/non-contradictory. For any tier, preserve source-specific quotations and use exact omission placeholders where the other source does not directly print a step. Scope title exceptions only to residual facts not already handled by these tiers.
 
 ## Game covers
 
@@ -105,8 +114,8 @@ Every route step must have **non-empty** `jpGuide1` and `jpGuide2`.
 
 - `jpGuide1`: exact verbatim Set-A text when Set A prints that step.
 - `jpGuide2`: exact verbatim Set-B text when Set B prints that step.
-- For a **main-route-defining choice, prerequisite/unlock, or route/main ending**, both verification sets must independently support the fact unless that exact fact is covered by a valid repository-owner-approved title-scoped exception for this title. If an unlisted fact lacks support, the research gate is insufficient and the route cannot pass.
-- For a **non-route-defining save, load, repeated UI action, or optional non-main-ending-only step** that is explicitly documented by only one primary set while the other is silent/non-contradictory, keep the useful step and use the symmetric omission placeholder for the other field:
+- For VN main-route choices/prerequisites/endings, apply `research.json.verification_tier`: `dual_verified` requires independent literal/main-fact evidence, while `corroborated_primary` permits Set-A-only exact actionable UI text when independent Japanese B substantiates the relevant structure/outcome and no material contradiction remains. An A-only main-choice `jpGuide2` MUST be `（第二ガイドに記載なし）`, with the independent B outcome attributed separately in the research/`enGuide`. `blocked` cannot pass. Opted-in non-VN walkthroughs retain the stricter two-set material-progression gate unless a valid owner exception applies.
+- For a **source-A-only step permitted by the VN tier** (including a complete main-ending literal under `corroborated_primary`), or a non-route-defining save/load/repeated menu/optional non-main ending step that is explicitly documented by one set while the other is silent/non-contradictory, keep the step and use the symmetric omission placeholder for the other field:
   - Set A missing → exactly `（第一ガイドに記載なし）`
   - Set B missing → exactly `（第二ガイドに記載なし）`
 - Those two exact strings are the only permitted missing-source placeholders.
@@ -157,7 +166,7 @@ Low-level execution details such as ordinary travel, talking to an NPC, a routin
 
 ### Owner-approved title-scoped source exceptions
 
-The normal two-independent-Japanese-source gate remains the default for **VNs and non-VNs**. A game may depart from it only through an explicit repository-owner-approved exception recorded in that game's `prompt_supplement.md`. A VN exception may waive an otherwise unavailable independent Japanese source **only for specifically enumerated facts**; it never waives complete executable choices, exact in-game text, target-edition applicability, or independent review.
+The VN `dual_verified` and `corroborated_primary` tiers above are normal policy; neither requires a per-title owner exception. **Non-VNs** still require independent confirmation of material progression by default. A game may depart from the applicable normal tier only through an explicit owner-approved exception recorded in its `prompt_supplement.md`. A VN exception may waive otherwise unavailable **independent corroboration** for enumerated residual facts; it never waives a complete executable Set A, exact Japanese in-game text, target-edition applicability, or independent review.
 
 Such an exception must:
 
@@ -333,7 +342,7 @@ For each unreviewed route:
 
 1. Structural reviewer performs a fresh structural review.
 2. If structural findings exist, the author fixes them and the structural reviewer independently re-verifies.
-3. Accuracy reviewer independently verifies both Japanese verification sets.
+3. Accuracy reviewer independently verifies the Japanese primary walkthrough, independent corroboration, chosen VN evidence tier (or non-VN dual set), and exact locked target.
 4. If accuracy findings exist, the author fixes them and the accuracy reviewer re-fetches sources and independently re-verifies.
 5. **If any accuracy-stage fix changes route structure** (step order, saves/loads, replay-from-beginning prefixes, `badEndPath`, `isLoad`, or another structural-flow element), the prior structural pass is stale. Rerun structural review, then rerun accuracy review against the structurally final route.
 6. Repeat until both gates are clean for the same route content.
@@ -363,7 +372,7 @@ If uncertain whether a route-content change is structural, rerun structural revi
 
 A guide section is complete only when:
 
-- `guide_target` is explicit, linked, and matches the release/platform against which research was performed;
+- `guide_target` is explicit, linked, and matches the source-compatible release/platform; caller-selected and pinned targets were never substituted for ease of research;
 - every route character has a verified portrait when a verifiable image exists, or research explicitly documents that no suitable image was found;
 - its structural review is clean,
 - its accuracy review is clean against both Japanese verification sets,

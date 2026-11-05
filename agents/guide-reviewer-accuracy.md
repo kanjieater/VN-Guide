@@ -22,7 +22,7 @@ Read the game's `<slug>/catalog.json` when present (otherwise its legacy `games.
 
 First verify that the selected catalog's `guide_target`, `research.json.guide_target`, and `guide.json.guide_target` are identical and contain a specific label, platform, and linked release URL. Do not treat the broader VNDB `v...` work id as a substitute for the target release.
 
-Then identify Japanese verification Set A and Set B and fetch the actual source material directly. If a set has multiple pages, inspect the components relevant to the route.
+Then fetch the actual directly inspectable Japanese Set A walkthrough and independent Japanese Set B corroboration; inspect every component relevant to the route. For VNs, validate `research.json.verification_tier` (`dual_verified`, `corroborated_primary`, or `blocked`) instead of treating a missing second verbatim menu transcript as automatic failure. For non-VNs the stricter dual-source rule still applies.
 
 Before declaring a missing second Japanese lane to be a blocker, check whether the game's supplement contains an explicit owner-approved title-scoped source exception covering that exact fact. Verify the recorded approval provenance (date plus PR/comment, issue/comment, or explicit caller-approval context) so an author cannot self-grant the waiver. Honor a valid exception exactly as written: do not reopen it and do not extend it to unlisted facts. Verify that `research.json` describes the same exception scope without contradictory stale gate wording.
 
@@ -31,7 +31,7 @@ Do not:
 - count an inaccessible source as verified;
 - treat a translation/derivative of Set A as independent Set B.
 
-If either verification set fails the completeness/independence gate for a normally gated fact, the route cannot pass. The only exception is an exact fact covered by a valid, provenance-backed owner-approved title-scoped exception; all unlisted facts still require the normal gate.
+A VN at `corroborated_primary` may pass with one complete Set-A literal executable walkthrough and directly inspected independent Japanese B structure/outcome corroboration, even when B omits the exact END1/END2 menu words. Check that the target is source-compatible, no caller version was overridden, and any disputed unlock has a documented executable conditional path. A `blocked` tier cannot pass. For `dual_verified` and opted-in non-VNs, apply their stricter evidence rules; a valid title exception can cover only approved residual facts.
 
 ## Review checklist
 
@@ -59,10 +59,10 @@ For the guide section under review, verify:
 - both `jpGuide1` and `jpGuide2` are non-empty on **every step**;
 - each present source excerpt is verbatim;
 - `（第一ガイドに記載なし）` is used only where the canonical omission rules permit it, including an exact fact whose valid owner-approved exception explicitly permits a missing Japanese lane;
-- `（第二ガイドに記載なし）` is used only where the canonical omission rules permit it, including an exact fact whose valid owner-approved exception explicitly permits a missing Japanese lane;
-- main-route-defining choices/prerequisites/route endings are independently supported by both sets unless that exact fact is covered by a valid owner-approved exception; an omission placeholder must never stand in for missing support outside the exception;
+- `（第二ガイドに記載なし）` is used only where the canonical omission rules permit it, including Set-A-only complete main-choice literals under VN `corroborated_primary` and valid narrow owner exceptions;
+- main route-defining choices/prerequisites/endings meet the stated VN tier: dual corroboration for `dual_verified`, or Set-A verbatim executable choices + independent Japanese outcome/structure corroboration for `corroborated_primary`, with documented Set-B omissions; no placeholder can excuse an incomplete Set A, contradictory source, incorrect target or an unresolved required unlock;
 - optional non-main ending detours documented by one primary set are included when the other set is silent/non-contradictory, with the correct omission placeholder on detour-only steps; conflicting ending evidence is reconciled rather than guessed;
-- the explicit linked `guide_target` matches repo/research/guide metadata and both verification sets actually apply to that exact release/platform.
+- the explicit linked `guide_target` matches catalog/research/guide; Set A is applicable to that release, and Set B independently corroborates the supported facts without being misrepresented as exact release-script proof. Caller-explicit and provenance-unknown persisted targets MUST NOT have been switched for source convenience; an automatic retarget needs recorded provenance and a source-supported rationale.
 - for newly registered/updated games, the game has an exact-target `cover_url` when a directly verifiable cover exists, or research documents that the lookup found none.
 
 For a full review, check the route completely.

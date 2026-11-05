@@ -1,0 +1,80 @@
+[
+  {
+    "simpleJp": "やっぱりダメだ",
+    "jpGuide1": "「やっぱりダメだ」",
+    "jpGuide2": "やっぱりダメだ",
+    "enGuide": "Requires all four main characters' GOOD clears. Keep all prior affinities neutral to unlock the late common-route 「近付いてみる／近付かない」 choice. Exclude the added Yukihito route from True Blood."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何も言わない",
+    "jpGuide1": "「何も言わない」",
+    "jpGuide2": "何も言わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんとも思わない",
+    "jpGuide1": "「なんとも思わない」",
+    "jpGuide2": "（なんとも思わない）",
+    "enGuide": "Conditional option appears only after Rin GOOD is cleared (see Set A: ※リンクリア後発生 and Set B parentheses). The guide's Rin section was cleared earlier. Choose this exact text when it appears; the route's ending can be entered earlier, but these particular screens cannot be forced before the flag."
+  },
+  {
+    "simpleJp": "腕を振り払わない",
+    "jpGuide1": "「腕を振り払わない」",
+    "jpGuide2": "腕を振り払わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "目を逸らす",
+    "jpGuide1": "「目を逸らす」",
+    "jpGuide2": "（目を逸らす）",
+    "enGuide": "Conditional option appears only after Rin GOOD is cleared (see Set A: ※リンクリア後発生 and Set B parentheses). The guide's Rin section was cleared earlier. Choose this exact text when it appears; the route's ending can be entered earlier, but these particular screens cannot be forced before the flag."
+  },
+  {
+    "simpleJp": "無言でやり過ごす",
+    "jpGuide1": "「無言でやり過ごす」",
+    "jpGuide2": "無言でやり過ごす",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…ほっとけよ",
+    "jpGuide1": "「…ほっとけよ」",
+    "jpGuide2": "…ほっとけよ",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮しておく",
+    "jpGuide1": "「遠慮しておく」",
+    "jpGuide2": "遠慮しておく",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "近付いてみる",
+    "jpGuide1": "「近付いてみる」",
+    "jpGuide2": "近付いてみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "真似てみる",
+    "jpGuide1": "「真似てみる」",
+    "jpGuide2": "真似てみる",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ｎ GOOD END",
+    "jpGuide1": "謎の男",
+    "jpGuide2": "ｎ",
+    "enGuide": "Original PC final/true route. The Keisuke CG remaining after his route also unlocks here."
+  }
+]

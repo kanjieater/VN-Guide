@@ -1,0 +1,50 @@
+[
+  {
+    "simpleJp": "やっぱりダメだ",
+    "jpGuide1": "「やっぱりダメだ」",
+    "jpGuide2": "やっぱりダメだ",
+    "enGuide": "Start a new run; choose the same executioner arm-grab branch as Kiriwar, but take LEFT at the final split."
+  },
+  {
+    "simpleJp": "振り返らない",
+    "jpGuide1": "「振り返らない」",
+    "jpGuide2": "振り返らない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "遠慮する",
+    "jpGuide1": "「遠慮する」",
+    "jpGuide2": "遠慮する",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "何も言わない",
+    "jpGuide1": "「何も言わない」",
+    "jpGuide2": "何も言わない",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "なんとも思わない",
+    "jpGuide1": "「なんとも思わない」",
+    "jpGuide2": "（なんとも思わない）",
+    "enGuide": "Conditional option appears only after Rin GOOD is cleared (see Set A: ※リンクリア後発生 and Set B parentheses). The guide's Rin section was cleared earlier. Choose this exact text when it appears; the route's ending can be entered earlier, but these particular screens cannot be forced before the flag."
+  },
+  {
+    "simpleJp": "腕を振り払う",
+    "jpGuide1": "「腕を振り払う」",
+    "jpGuide2": "腕を振り払う",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "左へ進む",
+    "jpGuide1": "「左へ進む」グンジBAD END",
+    "jpGuide2": "左へ → グンジEND",
+    "enGuide": "Gunji bad ending. LEFT is Gunji."
+  },
+  {
+    "simpleJp": "グンジ BAD END",
+    "jpGuide1": "グンジBAD END",
+    "jpGuide2": "グンジEND",
+    "enGuide": "Executioner bad ending completed."
+  }
+]

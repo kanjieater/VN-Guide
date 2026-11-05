@@ -1,0 +1,144 @@
+{
+  "title": "咎狗の血",
+  "vndb_id": "v434",
+  "guide_target": {
+    "label": "咎狗の血（2005年2月25日・初回限定版／オリジナル18禁PC版・ScriptVersion 1.00）",
+    "platform": "Windows 98SE/Me/2000/XP",
+    "url": "https://www.suruga-ya.jp/product/detail/145012620"
+  },
+  "routes": [
+    {
+      "id": "keisuke",
+      "title": "ケイスケ（GOOD／BAD×2／アルビトロBAD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/keisuke.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Start with Keisuke. Original unpatched ScriptVersion1.00 first answer is 「……」 (shown by otomenotomo); HalfAdder's 「やっぱりダメだ」 is the adjusted opening for 1.01 to keep bad-end choices available. Three Keisuke-relative bad branches: first scream, take Arbitro's bread, or answer 判らない. Keisuke's additional CG appears via Nano later. Independent unpatched original-era Set B component blgame explicitly uses first choice 「……」; HalfAdder's alternative やっぱりダメだ is patch 1.01 accommodation. Do not substitute it in launch 1.00."
+    },
+    {
+      "id": "rin",
+      "title": "リン（GOOD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/rin.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "One ending, no bad branch; must clear this route to unlock Shiki. Route's optional post-clear choice markers must not be emitted prematurely. HalfAdder's original ScriptVersion1.00 ★ marks normal option 腕を振り払わない at the executioner diversion; A table's Rin-column 腕を振り払う is the separate executioner BAD detour, not the GOOD path."
+    },
+    {
+      "id": "motomi",
+      "title": "源泉（GOOD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/motomi.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "One good ending; no bad ending. Conditional なんとも思わない and 目を逸らす appear after Rin clear. This guide's conditional options (「なんとも思わない」, and for this route also 「目を逸らす」) are displayed after Rin GOOD. Current recommended order has Rin already cleared before this section. These are conditional choice dependencies, not a claim that the character route itself is locked before Rin."
+    },
+    {
+      "id": "shiki",
+      "title": "シキ（GOOD／BAD×2）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/shiki.png",
+      "prerequisites": [
+        "rin"
+      ],
+      "is_true_ending": false,
+      "notes": "Requires completed Rin route. Two independent BAD branches: 叫ぶ, and 見ている事ができない after 声を飲みこむ; GOOD uses 声を飲みこむ→違う."
+    },
+    {
+      "id": "kiriwar",
+      "title": "キリヲ（BAD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/kiriwar.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Executioner BAD ending from 腕を振り払う→右へ進む. Does not count as an ordinary romance-route good clear. This guide's conditional options (「なんとも思わない」, and for other later routes 「目を逸らす」) are displayed after Rin GOOD. Current recommended order has Rin already cleared before this section. These are conditional choice dependencies, not a claim that the character route itself is locked before Rin."
+    },
+    {
+      "id": "gunji",
+      "title": "グンジ（BAD）",
+      "portrait": "https://cdn.wikimg.net/strategywiki/images/a/a6/Togainu_no_Chi_character_Gunji.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Executioner BAD ending from 腕を振り払う→左へ進む. Does not count as an ordinary romance-route good clear. This guide's conditional options (「なんとも思わない」, and for other later routes 「目を逸らす」) are displayed after Rin GOOD. Current recommended order has Rin already cleared before this section. These are conditional choice dependencies, not a claim that the character route itself is locked before Rin."
+    },
+    {
+      "id": "nano",
+      "title": "ｎ／謎の男（最終ルート）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/unknown.png",
+      "prerequisites": [
+        "keisuke",
+        "rin",
+        "motomi",
+        "shiki"
+      ],
+      "is_true_ending": true,
+      "notes": "Available after completing Keisuke, Rin, Motomi and Shiki GOOD endings; neutral choices suppress all four affinities until late common-route 近付いてみる, then 真似てみる. Recommended last. A previously made save before the late choice may be used, per HalfAdder, but no documented save slot/position is included. This guide's conditional options (「なんとも思わない」, and for this route also 「目を逸らす」) are displayed after Rin GOOD. Current recommended order has Rin already cleared before this section. These are conditional choice dependencies, not a claim that the character route itself is locked before Rin."
+    }
+  ],
+  "recommended_order": [
+    "keisuke",
+    "rin",
+    "motomi",
+    "shiki",
+    "kiriwar",
+    "gunji",
+    "nano"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://otomenotomo.tyonmage.com/kouryaku/togainu.html",
+      "title": "「咎狗の血」攻略（乙女の友）",
+      "language": "ja",
+      "notes": "Directly inspected Japanese 18+ PC walkthrough explicitly made WITHOUT the difficulty patch. Choice-by-choice columns for Keisuke/Rin/Motomi/Shiki/Nano, specific BAD alternatives and post-clear unlocks, correct ScriptVersion1.00 Keisuke opening."
+    },
+    {
+      "set": "B",
+      "url": "https://half-a.net/games1/togainu.html",
+      "title": "咎狗の血 PC版攻略（HalfAdder）",
+      "language": "ja",
+      "notes": "Independently directly inspected complete Japanese PC walkthrough with all main outcomes, normal choices and conditional-choice markers. This page was updated to accommodate ScriptVersion1.01 difficulty patch: its Keisuke opening uses やっぱりダメだ; crucially its note explicitly says first choice ・・・・・ in 1.01 suppresses BAD alternatives, and says other choices are unchanged. For unpatched 1.00 target opening the separate B component blgame.hatenablog.com confirms 「……」 alongside primary unpatched Set A. The B source set thus uses both pages for 1.00."
+    },
+    {
+      "url": "https://blgame.hatenablog.com/entry/togainu-k",
+      "title": "攻略◆咎狗の血（オリジナルPC攻略復刻）",
+      "language": "ja",
+      "notes": "Independently inspectable original-era Japanese PC-route/affinity notes, restored in 2017 from the author's 2000s-era site. Explicitly says difficulty adjustment patch is unnecessary and gives original unpatched Keisuke opening 「……」 and his two BAD outcomes alongside GOOD; reconfirms first-run Shiki unlock after Rin, n unlock after other four GOODs, Kiriwar/Gunji executioner split and all other character entries. B is a composite independent verification set (HalfAdder full PC steps + this independent original unpatched witness). Neither is a translation/derivative of Set A.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.suruga-ya.jp/product/detail/145012620",
+      "title": "咎狗の血[初回限定版]：2005年2月25日 Windows CD (SKR-037)",
+      "language": "ja",
+      "notes": "Exact initial-release edition identification and date, not a route walkthrough. Exact original first-press cover image is directly verifiable at https://cdn.suruga-ya.jp/database/pics_webp/game/145012620.jpg.webp. VNDB release-specific image lookup was inaccessible; this is the source-matched fallback."
+    },
+    {
+      "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/2443.php",
+      "title": "Nitro+ 旧版・新版の内容相違確認",
+      "language": "ja",
+      "notes": "Publisher confirms original Windows/updated Windows editions have identical story content; the separate True Blood PS2/PSP/2025 PC rework is NOT in scope."
+    },
+    {
+      "url": "https://www.nitrochiral.com/pc/togainu/",
+      "title": "Nitro+CHiRAL 旧作の Windows 10 対応版の公式キャラクター画像",
+      "language": "ja",
+      "notes": "Character portraits for same original PC game storyline, not True Blood. Some visual portraits from identified StrategyWiki or Zerochan character records where needed. Directly inspected official original-story Shiki portrait shiki.png and anonymous character ？？？ (Nano) portrait unknown.png. VNDB character image fields were inaccessible, so use these official files as verified fallback instead of older StrategyWiki/Zerochan art."
+    },
+    {
+      "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/sp01a/",
+      "title": "Nitro+ original difficulty patch support",
+      "language": "ja",
+      "notes": "Reference for original game ScriptVersion 1.01 difficulty adjustment, not an independent choice walkthrough."
+    },
+    {
+      "url": "https://www.nitrochiral.com/pc/togainu/old-version",
+      "title": "ニトロキラル 『咎狗の血』旧版・発売日と各版の区別",
+      "language": "ja",
+      "notes": "Official 2005 first-run edition metadata: 2005-02-25 18+ Windows first press, distinct from 2005-03-25 regular, later Vista/Vista7, Windows 10 compatibility, and separate True Blood routes. Source about edition, not route choice."
+    },
+    {
+      "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/",
+      "title": "Nitroplus original/Vista/Win10 PC edition support",
+      "language": "ja",
+      "notes": "Publisher explicitly confirms original/Vista/Win10 Windows 18+ editions have identical GAME CONTENT (not to be confused with the separately adapted console True Blood). Not evidence that optional 1.01 difficulty patch leaves opening choice mechanics intact; patch deviation handled separately."
+    }
+  ],
+  "disagreements": "Exact target is the Japanese 2005-02-25 original first-press Windows 18+ CD (launch ScriptVersion1.00). Exclude PS2/PSP『True Blood』, its 2025 PC NITRO ARCHIVE, and Yukihito's later route. Otomenotomo is unpatched and correctly uses 「……」 at the first choice for Keisuke. HalfAdder explicitly adjusts that first choice to 「やっぱりダメだ」 under ScriptVersion1.01 because choosing the ellipsis hides some BAD options after patch. The original guide must use the launch/original choice; keep patch incompatibility in route notes. HalfAdder parenthesized choices occur only after specific ending flags; do not show them prematurely: Rin clear enables なんとも思わない, 目を逸らす and Shiki-related choices; 近付いてみる after all four GOODs unlocks n. Otomenotomo's HTML table combines nested executioner divergence alongside the Rin column; interpreted as a separate 腕を振り払う action, not the Rin-good-path arm response. Good/Bad counts: Keisuke GOOD and two personal BADs, plus Arbitro BAD; Rin GOOD; Motomi GOOD; Shiki GOOD plus two BADs; Kiriwar BAD; Gunji BAD; n TRUE = 12 endings. Source sets do not provide exact save-slot positions. Consequently no invented save or load commands; alternate bad endings are replayed from the opening (full documented choice prefixes) prior to the GOOD path. Character portraits are verified by publisher character identifiers and indexed character illustrations; n is represented by a tagged art image. Cover of exact first-press Windows CD-ROM (2005-02-25, model SKR-037) is linked directly from the matching Suruga-ya retailer listing and is now catalog.cover_url; the obsolete unattributed Imgur image is excluded.\n\n2026-11-03 AUTHOR A2 RECONCILIATION: Set A otomenotomo directly states 修正パッチ使用なし and shows Keisuke's first choice 「……」 with Keisuke GOOD and his two named BAD endings. Independent original-era Japanese blog blgame.hatenablog.com/entry/togainu-k says no difficulty patch needed and explicitly names 「……」 as Keisuke-affinity choice, together with 2 BAD + GOOD after route entry; this component is promoted to Set B alongside HalfAdder. HalfAdder openly states its Keisuke guide was altered for ScriptVersion1.01 because the original first-choice literal ・・・・・ suppresses bad options after the patch and that all other choices are unchanged. Accordingly, the original 1.00 walkthrough uses the Set A and independent B-blog 「……」; its jpGuide2 field quotes the exact B-blog line for this step, NOT a patched-only instruction. For other Keisuke steps, HalfAdder's direct PC walkthrough remains B detailed evidence. Do not claim these versions use literally identical first choices.\n\n2026-11-03 AUTHOR A3 STATE RECONCILIATION: HalfAdder marks conditional choices in parentheses; Set A explicitly marks 「なんとも思わない」 and 「目を逸らす」 ※リンクリア後発生. The canonical order is Keisuke → Rin GOOD → Motomi → Shiki → Kiriwar → Gunji → n: Rin GOOD occurs before all conditional steps in Motomi/Kiriwar/Gunji/n, so the exact screens/choices are unlocked. Motomi is not globally locked behind Rin (no misleading prerequisite is added); this is an operational dependency of the emitted choice-by-choice run. Kiriwar and Gunji BAD endings themselves are available before Rin, but the selected instructions assume post-Rin conditional-choice availability. n is available only after four GOOD clears, which also entails prior Rin GOOD. The route files now explain this at the conditional choice itself. If playing out of order, conditional steps may be absent; resume from the guide's ordered clear state rather than choosing text not on screen.\n\n2026-11-03 AUTHOR SOURCE DETAIL: Set A's visually multi-column presentation includes the executioner side BAD choices inside the Rin area of the table, but this does NOT mean the main Rin good path chooses 腕を振り払う. HalfAdder explicitly gives Rin normal 腕を振り払わない ★ at ScriptVersion1.00; the different choice 腕を振り払う diverts to Kiriwar or Gunji BAD. Do not concatenate the executioner diversion into Rin's GOOD run.\n\nPortrait evidence improvement: the original-art character images for Keisuke and Motomi were directly displayed at https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/keisuke.png and /motomi.png on the official Windows 10 compatibility presentation; Nitroplus confirms no base story changes from 2005. An official Rin image and an official Kiriwar image were also directly inspected at their matching character filenames. Original first-press cover was positively matched against the 2005 SKU-specific Suruga-ya listing; release-specific image URL is https://cdn.suruga-ya.jp/database/pics_webp/game/145012620.jpg.webp. Official Nitro+CHiRAL character art now supplies both Shiki and the previously masked ？？？ character (Nano); VNDB exact image fields could not be opened in this environment, so verified official artwork is preferred over third-party fallback.",
+  "generated_at": "2026-11-03T22:30:00Z"
+}

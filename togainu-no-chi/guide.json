@@ -1,0 +1,134 @@
+{
+  "title": "咎狗の血",
+  "vndb_id": "v434",
+  "guide_target": {
+    "label": "咎狗の血（2005年2月25日・初回限定版／オリジナル18禁PC版・ScriptVersion 1.00）",
+    "platform": "Windows 98SE/Me/2000/XP",
+    "url": "https://www.suruga-ya.jp/product/detail/145012620"
+  },
+  "routes": [
+    {
+      "id": "keisuke",
+      "title": "ケイスケ（GOOD／BAD×2／アルビトロBAD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/keisuke.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "rin",
+      "title": "リン（GOOD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/rin.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "motomi",
+      "title": "源泉（GOOD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/motomi.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "shiki",
+      "title": "シキ（GOOD／BAD×2）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/shiki.png",
+      "prerequisites": [
+        "rin"
+      ],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "kiriwar",
+      "title": "キリヲ（BAD）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/kiriwar.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "gunji",
+      "title": "グンジ（BAD）",
+      "portrait": "https://cdn.wikimg.net/strategywiki/images/a/a6/Togainu_no_Chi_character_Gunji.png",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "reviewed": true
+    },
+    {
+      "id": "nano",
+      "title": "ｎ／謎の男（最終ルート）",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/unknown.png",
+      "prerequisites": [
+        "keisuke",
+        "rin",
+        "motomi",
+        "shiki"
+      ],
+      "is_true_ending": true,
+      "reviewed": true
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://otomenotomo.tyonmage.com/kouryaku/togainu.html",
+      "title": "「咎狗の血」攻略（乙女の友）",
+      "language": "ja",
+      "notes": "Directly inspected Japanese 18+ PC walkthrough explicitly made WITHOUT the difficulty patch. Choice-by-choice columns for Keisuke/Rin/Motomi/Shiki/Nano, specific BAD alternatives and post-clear unlocks, correct ScriptVersion1.00 Keisuke opening."
+    },
+    {
+      "set": "B",
+      "url": "https://half-a.net/games1/togainu.html",
+      "title": "咎狗の血 PC版攻略（HalfAdder）",
+      "language": "ja",
+      "notes": "Independently directly inspected complete Japanese PC walkthrough with all main outcomes, normal choices and conditional-choice markers. This page was updated to accommodate ScriptVersion1.01 difficulty patch: its Keisuke opening uses やっぱりダメだ; crucially its note explicitly says first choice ・・・・・ in 1.01 suppresses BAD alternatives, and says other choices are unchanged. For unpatched 1.00 target opening the separate B component blgame.hatenablog.com confirms 「……」 alongside primary unpatched Set A. The B source set thus uses both pages for 1.00."
+    },
+    {
+      "url": "https://blgame.hatenablog.com/entry/togainu-k",
+      "title": "攻略◆咎狗の血（オリジナルPC攻略復刻）",
+      "language": "ja",
+      "notes": "Independently inspectable original-era Japanese PC-route/affinity notes, restored in 2017 from the author's 2000s-era site. Explicitly says difficulty adjustment patch is unnecessary and gives original unpatched Keisuke opening 「……」 and his two BAD outcomes alongside GOOD; reconfirms first-run Shiki unlock after Rin, n unlock after other four GOODs, Kiriwar/Gunji executioner split and all other character entries. B is a composite independent verification set (HalfAdder full PC steps + this independent original unpatched witness). Neither is a translation/derivative of Set A.",
+      "set": "B"
+    },
+    {
+      "url": "https://www.suruga-ya.jp/product/detail/145012620",
+      "title": "咎狗の血[初回限定版]：2005年2月25日 Windows CD (SKR-037)",
+      "language": "ja",
+      "notes": "Exact initial-release edition identification and date, not a route walkthrough. Exact original first-press cover image is directly verifiable at https://cdn.suruga-ya.jp/database/pics_webp/game/145012620.jpg.webp. VNDB release-specific image lookup was inaccessible; this is the source-matched fallback."
+    },
+    {
+      "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/2443.php",
+      "title": "Nitro+ 旧版・新版の内容相違確認",
+      "language": "ja",
+      "notes": "Publisher confirms original Windows/updated Windows editions have identical story content; the separate True Blood PS2/PSP/2025 PC rework is NOT in scope."
+    },
+    {
+      "url": "https://www.nitrochiral.com/pc/togainu/",
+      "title": "Nitro+CHiRAL 旧作の Windows 10 対応版の公式キャラクター画像",
+      "language": "ja",
+      "notes": "Character portraits for same original PC game storyline, not True Blood. Some visual portraits from identified StrategyWiki or Zerochan character records where needed. Directly inspected official original-story Shiki portrait shiki.png and anonymous character ？？？ (Nano) portrait unknown.png. VNDB character image fields were inaccessible, so use these official files as verified fallback instead of older StrategyWiki/Zerochan art."
+    },
+    {
+      "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/sp01a/",
+      "title": "Nitro+ original difficulty patch support",
+      "language": "ja",
+      "notes": "Reference for original game ScriptVersion 1.01 difficulty adjustment, not an independent choice walkthrough."
+    },
+    {
+      "url": "https://www.nitrochiral.com/pc/togainu/old-version",
+      "title": "ニトロキラル 『咎狗の血』旧版・発売日と各版の区別",
+      "language": "ja",
+      "notes": "Official 2005 first-run edition metadata: 2005-02-25 18+ Windows first press, distinct from 2005-03-25 regular, later Vista/Vista7, Windows 10 compatibility, and separate True Blood routes. Source about edition, not route choice."
+    },
+    {
+      "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/",
+      "title": "Nitroplus original/Vista/Win10 PC edition support",
+      "language": "ja",
+      "notes": "Publisher explicitly confirms original/Vista/Win10 Windows 18+ editions have identical GAME CONTENT (not to be confused with the separately adapted console True Blood). Not evidence that optional 1.01 difficulty patch leaves opening choice mechanics intact; patch deviation handled separately."
+    }
+  ],
+  "generated_at": "2026-11-05T03:45:00Z"
+}

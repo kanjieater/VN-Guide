@@ -97,7 +97,7 @@
       "url": "https://www.suruga-ya.jp/product/detail/145012620",
       "title": "咎狗の血[初回限定版]：2005年2月25日 Windows CD (SKR-037)",
       "language": "ja",
-      "notes": "Exact initial-release edition identification and date, not a route walkthrough."
+      "notes": "Exact initial-release edition identification and date, not a route walkthrough. Exact original first-press cover image is directly verifiable at https://cdn.suruga-ya.jp/database/pics_webp/game/145012620.jpg.webp. VNDB release-specific image lookup was inaccessible; this is the source-matched fallback."
     },
     {
       "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/2443.php",
@@ -109,7 +109,7 @@
       "url": "https://www.nitrochiral.com/pc/togainu/",
       "title": "Nitro+CHiRAL 旧作の Windows 10 対応版の公式キャラクター画像",
       "language": "ja",
-      "notes": "Character portraits for same original PC game storyline, not True Blood. Some visual portraits from identified StrategyWiki or Zerochan character records where needed."
+      "notes": "Character portraits for same original PC game storyline, not True Blood. Some visual portraits from identified StrategyWiki or Zerochan character records where needed. Directly inspected official original-story Shiki portrait shiki.png and anonymous character ？？？ (Nano) portrait unknown.png. VNDB character image fields were inaccessible, so use these official files as verified fallback instead of older StrategyWiki/Zerochan art."
     },
     {
       "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/sp01a/",
@@ -130,5 +130,5 @@
       "notes": "Publisher explicitly confirms original/Vista/Win10 Windows 18+ editions have identical GAME CONTENT (not to be confused with the separately adapted console True Blood). Not evidence that optional 1.01 difficulty patch leaves opening choice mechanics intact; patch deviation handled separately."
     }
   ],
-  "generated_at": "2026-11-04T21:20:00-06:00"
+  "generated_at": "2026-11-05T03:45:00Z"
 }

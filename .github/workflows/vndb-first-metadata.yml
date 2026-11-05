@@ -78,10 +78,17 @@ jobs:
           function coverFor(release, id) {
             const images = (release?.images || []).filter(i =>
               isVndbImage(i.url) && (!i.vn || i.vn === id) && (!i.languages || i.languages.includes("ja")));
-            for (const type of ["pkgfront", "dig"]) {
-              const urls = [...new Set(images.filter(i => i.type === type).map(i => i.url))];
-              if (urls.length === 1) return urls[0];
-              if (urls.length > 1) return null;
+            const isPortrait = i => Array.isArray(i.dims) && i.dims.length === 2 &&
+              i.dims[0] > 0 && i.dims[1] / i.dims[0] >= 1.25;
+            // Prefer a uniquely identifiable portrait within the exact release,
+            // then fall back to its original non-portrait package/digital art.
+            for (const onlyPortrait of [true, false]) {
+              for (const type of ["pkgfront", "dig"]) {
+                const candidates = images.filter(i => i.type === type && (!onlyPortrait || isPortrait(i)));
+                const urls = [...new Set(candidates.map(i => i.url))];
+                if (urls.length === 1) return { url: urls[0], portrait: isPortrait(candidates[0]) };
+                if (urls.length > 1) return null; // Ambiguous exact-release art; no guessing.
+              }
             }
             return null;
           }
@@ -110,7 +117,7 @@ jobs:
             const target = meta?.guide_target || guide.guide_target || research?.guide_target;
             const [chars, releases] = await Promise.all([
               api("character", id, "id,name,original,aliases,image.url"),
-              api("release", id, "id,title,alttitle,released,platforms,official,patch,vns.id,vns.rtype,extlinks.url,images.url,images.type,images.vn,images.languages"),
+              api("release", id, "id,title,alttitle,released,platforms,official,patch,vns.id,vns.rtype,extlinks.url,images.url,images.dims,images.type,images.vn,images.languages"),
             ]);
             if (!target?.url) unresolved.push(slug + " release (no explicit edition target; not guessing)");
             const release = matchRelease(target, releases, id);
@@ -123,9 +130,17 @@ jobs:
                 }
               }
               const cover = coverFor(release, id);
-              if (meta && cover && meta.cover_url !== cover) {
-                meta.cover_url = cover;
-                console.log(slug + ": release cover " + cover);
+              if (meta && cover && meta.cover_url !== cover.url) {
+                // An explicitly verified publisher portrait beats an exact-release
+                // VNDB square until a VNDB portrait for that release is available.
+                const keepPortrait = meta.cover_selection?.aspect === "portrait" && !cover.portrait;
+                if (keepPortrait) {
+                  console.log(slug + ": kept verified portrait; VNDB art is not portrait");
+                } else {
+                  meta.cover_url = cover.url;
+                  delete meta.cover_selection; // Curated fallback is no longer needed.
+                  console.log(slug + ": release cover " + cover.url);
+                }
               }
             } else if (target?.url && !/^https:\/\/(?:www\.)?vndb\.org\/r\d+/i.test(target.url)) {
               unresolved.push(slug + " release (retained " + target.url + ")");

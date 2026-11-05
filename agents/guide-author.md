@@ -11,6 +11,7 @@ If the caller/orchestrator explicitly specifies where review findings/fixes must
 - Complete the research gate before writing route content.
 - Generate accurate route files and assemble guide metadata.
 - Verify and populate the exact target edition's game cover during registration/research; leave it blank only after a documented lookup finds none.
+- For cover art, check the image dimensions and favor a complete tall/portrait composition over a square thumbnail when the same edition is represented. Prefer VNDB's exact-release portrait; if VNDB only has square art, check the publisher's same-edition portrait and document a verified fallback in `cover_selection`. Never replace edition-correct square art with artwork from an unrelated release, or crop faces/title just to fit the portrait slot; the landing page must contain the full image.
 - Actively look up and populate a portrait for every route character; do not leave portrait lookup for review.
 - Apply reviewer-requested corrections.
 - Document uncertainty instead of inferring missing facts.

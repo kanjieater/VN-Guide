@@ -70,12 +70,18 @@
     "has_guide": true,
     "title": "Akai Ito",
     "alttitle": "アカイイト",
-    "cover_url": "https://t.vndb.org/cv/48/84948.jpg",
+    "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2097740/library_600x900.jpg",
     "added_at": "2026-08-31T17:22:19.884258+00:00",
     "guide_target": {
       "label": "アカイイト HD REMASTER",
       "platform": "Nintendo Switch",
       "url": "https://vndb.org/r95904"
+    },
+    "cover_selection": {
+      "aspect": "portrait",
+      "source": "SUCCESS official 600x900 Steam library art for AKAIITO HD REMASTER (2023), the same remaster artwork as the Switch target",
+      "reference_url": "https://steamdb.info/app/2097740/info/",
+      "reason": "Portrait artwork avoids cutting off the square VNDB image in the landing-page cover slot; preserve until an exact-release VNDB portrait is available."
     }
   },
   "v147": {

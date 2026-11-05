@@ -2,11 +2,12 @@
   "vndb_id": "v37",
   "title": "Kusarihime ~Euthanasia~",
   "alttitle": "腐り姫 ～euthanasia～",
-  "cover_url": "https://www.prop.gr.jp/image/pcimage/107359.jpg",
+  "cover_url": "https://cdn.suruga-ya.jp/pics_webp/boxart_m/145006135m.jpg.webp",
   "added_at": "2026-11-03",
   "guide_target": {
-    "label": "Liar-soft Selection 01 腐り姫 ～euthanasia～ (2015-11-27, LIRS-001)",
-    "platform": "Windows (DVD)",
-    "url": "https://www.prop.gr.jp/id107359_2.html"
-  }
+    "label": "腐り姫 ～euthanasia～ (original Windows CD LIAR-006, 2002-02-08; official correction patch applied)",
+    "platform": "Windows (original CD-ROM; patched)",
+    "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/145006135"
+  },
+  "guide_target_origin": "automatic"
 }

@@ -11,19 +11,19 @@
       "id": "true_end",
       "title": "１周目・TRUE END（選択肢出現時）",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "end_1",
       "title": "２周目・END1",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "end_2",
       "title": "３周目・END2",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     }
   ],
   "sources": [

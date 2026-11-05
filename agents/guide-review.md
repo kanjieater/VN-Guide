@@ -25,7 +25,11 @@ Before generation/research:
 5. Copy the exact same object into `research.json` and `guide.json`.
 6. Only when no caller/pinned target exists, choose a source-compatible official native-Japanese edition. Prefer newest only among equally verified releases; stop on an unresolvable edition ambiguity rather than inventing a target.
 
-When VNDB represents multiple releases under one `v...` work, use the specific intended `r...` release link when verifiable. Any authorized automatic target change invalidates the existing research basis and ALL route reviews. No caller-explicit version may be changed by this policy. VN accuracy may use the `corroborated_primary` evidence tier without a per-title source exception; non-VN material progression still requires its stricter gate.
+When VNDB represents multiple releases under one `v...` work, use the specific intended `r...` release link when verifiable. Any authorized automatic target change invalidates the existing research basis and ALL route reviews. No caller-explicit version may be changed by this policy. VN accuracy may use `corroborated_primary` or searched-last-resort `single_primary` without a per-title source exception; non-VN material progression still requires its stricter gate.
+
+## Automated source-search order (VN only)
+
+For author/research and accuracy re-review, first try to obtain **two independent Japanese written walkthroughs plus one independently authored English written walkthrough** for the locked or source-supported automatic release. Even when both JP guides exist, search English as an additional check. If a second JP walkthrough cannot be found, try English explicitly before permitting the fallback. If English is also unavailable after a documented search, one complete and executable Japanese walkthrough may suffice under `single_primary`, without requiring manual user gameplay. `research.json.source_search` must list the queries, sites, inspected candidate links, and reasons for rejecting derivatives, missing guides or version-mismatched guides. The reviewer independently verifies these attempts and rejects a fallthrough with no genuine English search. English corroboration must never be copied into Japanese quote fields. No source-count preference can override the caller's explicit edition.
 
 ## Per-route lifecycle
 

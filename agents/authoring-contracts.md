@@ -11,7 +11,7 @@ When the assigned task is the research phase:
 3. Write `research.json` in the shape below.
 4. **Stop. Do not generate route files in the same phase.**
 
-If neither applicable VN evidence tier can pass (or the stricter non-VN gate fails), write the best research record, set `verification_tier: "blocked"` for a VN, explain the unresolved material blocker, and stop. Do not change any caller-explicit or pinned version just to find a better guide.
+If no applicable VN evidence tier passes (or the stricter non-VN gate fails), write the best research record, set `verification_tier: "blocked"` for a VN, explain the blocker, and stop. **Before treating one Japanese walkthrough as the last resort, record actual unsuccessful searches for both a second Japanese guide and an independent English guide.** Do not change a caller-explicit or pinned edition just to find a better guide.
 
 ### `research.json` shape
 
@@ -24,6 +24,7 @@ If neither applicable VN evidence tier can pass (or the stricter non-VN gate fai
     "platform": "specific platform",
     "url": "https://authoritative.example/specific-release"
   },
+  "verification_tier": "dual_verified | corroborated_primary | single_primary | blocked",
   "routes": [
     {
       "id": "ascii_route_key",
@@ -48,9 +49,31 @@ If neither applicable VN evidence tier can pass (or the stricter non-VN gate fai
       "url": "https://example.jp/guide",
       "title": "Independent Japanese source",
       "language": "ja",
-      "notes": "What this component covers and whether additional B components are needed"
+      "notes": "Describe exact Japanese choices or narrower story/outcome corroboration"
+    },
+    {
+      "set": "E",
+      "url": "https://example.com/english-walkthrough",
+      "title": "Independent English written walkthrough, if found",
+      "language": "en",
+      "notes": "Specific route coverage, target edition and proof it is not translated/copied from A"
     }
   ],
+  "source_search": {
+    "checked_at": "ISO-8601 timestamp",
+    "secondary_japanese": {
+      "status": "found | not_found_after_search",
+      "queries": ["Japanese title + 攻略", "Japanese title + ending/route", "second Japanese archive/site query"],
+      "sites_checked": ["Japanese walkthrough archive"],
+      "candidates": [{"url": "https://example.jp/candidate", "assessment": "independent/derivative/inaccessible/wrong edition and what is covered"}]
+    },
+    "english_walkthrough": {
+      "status": "found | not_found_after_search",
+      "queries": ["Romanized title + walkthrough", "translated title + ending guide", "title + GameFAQs"],
+      "sites_checked": ["GameFAQs", "other relevant written guide source"],
+      "candidates": [{"url": "https://example.com/candidate", "assessment": "independent complete guide, derivative translation, review only, empty listing or wrong edition"}]
+    }
+  },
   "disagreements": "Document source conflicts, omissions, exception scope, and how they are handled",
   "generated_at": "ISO-8601 timestamp"
 }
@@ -63,8 +86,8 @@ Contract details:
 - `recommended_order` contains every route/section id in canonical play order; a true/final route is last when applicable.
 - For an opted-in linear walkthrough, `routes` is the one sequential walkthrough plan, with optional sections placed exactly where the player should do them.
 - `prerequisites` contains only real source-documented unlock/dependency requirements, never simple previous/next sequencing.
-- Every primary source component is labeled `set: "A"` or `set: "B"`, and its `notes` state what it covers and whether it is directly inspectable. For `corroborated_primary`, the B lane may corroborate ending structure and outcome without printing the final UI; preserve the omission placeholder instead of inventing verbatim text.
-- Record VN `verification_tier` (`dual_verified`, `corroborated_primary`, `blocked`), source disagreements, independent outcome corroboration, A-only literal omissions, conditional unlock recovery, target-version caveats, and any owner exception provenance/scope in `disagreements` or source notes.
+- Label Japanese primary sources `set: "A"` or `set: "B"`, independent English written walkthroughs `set: "E"`. Mark English written reviews/nonwalkthroughs in notes as *supplementary* rather than full E corroboration. A translated/derivative English copy of A cannot qualify as independent E; preserve it as provenance with an explicit rejection reason. All source notes must state which facts are actually covered, whether directly inspectable, and target-edition applicability. Under `corroborated_primary`, B may corroborate ending meaning without quoting final UI; preserve honest missing-Japanese-field placeholders. Under `single_primary`, no second Japanese or English guide is falsely attributed.
+- Record VN `verification_tier` (`dual_verified`, `corroborated_primary`, `single_primary`, `blocked`), `source_search`, independent Japanese and English guide findings, source disagreements, A-only literal omissions, conditional unlock recovery, version caveats and any owner exception provenance/scope. `source_search` is REQUIRED for any fallback below `dual_verified`, and English must also be searched even for `dual_verified` (its absence alone does not block the two-Japanese-guide tier). Preserve the schema keys and use real queries/URLs/rejection explanations, not empty boilerplate.
 - Portrait and cover lookup follow the verification requirements in `agents/guide-standards.md`.
 
 ## Phase boundary: one route/section only

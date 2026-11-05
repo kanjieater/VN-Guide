@@ -6,43 +6,43 @@
       "id": "parche",
       "title": "パーチェルート",
       "portrait": "https://t.vndb.org/ch/89/9089.jpg",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "debito",
       "title": "デビトルート",
       "portrait": "https://t.vndb.org/ch/88/9088.jpg",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "luca",
       "title": "ルカルート",
       "portrait": "https://t.vndb.org/ch/91/9091.jpg",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "nova",
       "title": "ノヴァルート",
       "portrait": "https://t.vndb.org/ch/90/9090.jpg",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "liberta",
       "title": "リベルタルート",
       "portrait": "https://t.vndb.org/ch/85/9085.jpg",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "jolly",
       "title": "ジョーリィルート",
       "portrait": "https://t.vndb.org/ch/93/9093.jpg",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "dante",
       "title": "ダンテルート",
       "portrait": "https://t.vndb.org/ch/92/9092.jpg",
-      "reviewed": false
+      "reviewed": true
     }
   ],
   "sources": [

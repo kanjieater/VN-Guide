@@ -25,17 +25,17 @@ Follow `agents/authoring-contracts.md` for the exact `research.json` shape, one-
 Before writing any route:
 
 1. Read the `guide_target` supplied by `<slug>/catalog.json` (legacy: `games.json`) or the caller.
-2. If neither supplies one, resolve the newest unambiguous official complete release with native Japanese in-game text using release-specific metadata; do not choose from the broad VNDB work entry alone. If that newest applicable release is ambiguous, stop and request an explicit target.
-3. If the caller supplied a new target, verify it is explicitly scoped to this exact VN work id. Never reuse a caller target for another pending game.
+2. Treat any caller-stated original/remake/platform/edition/version as a **locked target**, even without structured JSON. Never substitute another release for a requested one (e.g. original PC Togainu no Chi is not TRUE BLOOD). Existing persisted targets without recorded automatic provenance are also pinned. Only for a genuinely unspecified/unpinned target, choose a source-compatible official Japanese release, preferring newer releases **only when equally verifiable**.
+3. If the caller selected a target, resolve its linked specific release metadata for this VN work id and persist it with `guide_target_origin: "caller_explicit"`; never reuse it for another game. Automatic targets must record `guide_target_origin: "automatic"`, and only previously documented automatic targets may be evidence-retargeted with a logged reason.
 4. Persist the resolved target—repository, caller, or default—to `<slug>/catalog.json` before research, and require non-empty `label`, `platform`, and release-specific `url`.
-5. Identify two independent Japanese verification sets as defined in `agents/guide-standards.md`.
+5. Identify a directly inspectable complete Japanese Set A and seek independent Japanese Set B corroboration; assign the VN `dual_verified`, `corroborated_primary`, or `blocked` tier per the standards. For opted-in non-VNs keep the normal stricter full material-progression requirement.
 6. For any VN or opted-in non-VN walkthrough, check the game supplement **before failing the source gate**. If it contains a repository-owner-approved title-scoped exception, verify its approval provenance and exact enumerated fact scope; the author must not create or broaden that approval.
-7. Verify both Japanese sets are directly inspectable and apply to the **exact target release**; document version differences. For a valid exception-covered fact only, retain the strongest available Japanese evidence and the supplement-approved supplemental source role instead of pretending the missing Japanese lane exists.
-8. Verify both sets collectively cover every normally gated main-route/material fact. For opted-in non-VN guides this includes section/order progression, required story progression, irreversible choices, prerequisites/unlocks, endings, timing-critical optional content, and missable/limited or unique-reward conditions presented as required for completion. Only exact facts enumerated by a valid owner exception may depart from two-set coverage.
+7. Verify Set A applies to the exact selected release and Set B corroboration really is independent and directly inspectable. Document any version differences; do not treat broader story similarity as exact script parity for a caller-selected/pinned edition. Under VN `corroborated_primary`, a B paraphrase may support the story outcome but not the literal option text. An exception must have approved, narrow provenance.
+8. Verify the applicable VN tier: a complete literal executable Set A, independent Japanese B story structure/outcome corroboration, and no unresolved material route conflict (or stronger dual independent support). Ensure any unlock uncertainty has a source-grounded complete conditional fallback, not a guessed hard prerequisite. For non-VNs keep the stricter material-source requirements; only valid exceptions may relax them.
 9. Ensure the research/overall guide plan enumerates every route in recommended order.
 10. Copy the exact target into `research.json.guide_target` and record every source/set component and its coverage; when an exception exists, also record its approval provenance and exact scope in the supplement/research notes.
 11. For a new/updated game registration, look up and persist a directly verified cover for the exact target edition/platform; document a failed lookup if none is available.
-12. If the gate cannot be satisfied for any non-exception fact, stop after research and document the blocker.
+12. If the selected evidence tier is `blocked`, stop after research and document the blocker; do not swap an explicitly requested version or invent missing Japanese choices.
 
 Do not count inaccessible pages, translations, or derivatives as an independent primary set.
 
@@ -47,7 +47,7 @@ Before submitting the **current route**, confirm:
 
 - The current route is complete from its entry through every in-scope documented non-main ending detour and its route/main ending.
 - Every ending represented in the current route is reachable following the guide.
-- Main-route-defining decisions, prerequisites/unlocks, and route/main ending conditions are independently supported by both Japanese verification sets, except an exact fact explicitly covered by a valid owner-approved title-scoped exception.
+- For VNs, main-route choices and endings meet `dual_verified` or `corroborated_primary` as defined by the standards, including Set-A-exact literal choices and independently supported outcome/structure. A conditional unlock path must be executable and source-grounded. No source tier permits changing the explicit target. Non-VNs retain full material dual verification.
 - Optional non-main ending detours (bad, normal, alternate, or similarly labeled endings) documented by one primary set are retained when the other set is silent/non-contradictory; contradictory ending evidence is reconciled before generation.
 - Every save is explicitly documented by at least one primary set.
 - If sources disagree on save position, the earlier documented position is used.
@@ -58,7 +58,7 @@ Before submitting the **current route**, confirm:
 - Every optional bounty/steal/pickup/job must explain its purpose and timing in player-facing guidance. Record whether it is optional completion content, whether a poster or other unlock is actually required, any spawn prerequisite, whether a steal is first-encounter-only, and where completion is reported when the source documents those facts.
 - Prefer a geographically coherent order inside each optional window. Do not send the player to another city merely to inspect a poster or NPC unless that interaction is actually required by the source.
 - Dependencies and prerequisites are correct.
-- For opted-in non-VN guides, every material progression fact defined by the canonical game-walkthrough source-coverage rules has the required source support; one-source coverage is reserved for genuinely low-level non-branching execution details unless an exact fact is covered by a valid owner exception.
+- For opted-in non-VN guides, every material progression fact defined by the canonical game-walkthrough source-coverage rules has the required independent source support; the VN `corroborated_primary` relaxation does not apply unless an exact owner exception covers the specific fact.
 - For non-VN linear walkthroughs, every playthrough-ending terminal explicitly establishes the next run before later gameplay continues, unless a source-backed load already does so.
 - Every route character has a directly verified portrait when one exists; a blank portrait is allowed only when research explicitly documents that an actual lookup found no suitable verifiable image.
 - Every documented non-main ending detour represented via `badEndPath` is complete.

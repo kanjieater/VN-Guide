@@ -2,9 +2,9 @@
   "title": "Kusarihime ~Euthanasia~",
   "vndb_id": "v37",
   "guide_target": {
-    "label": "Liar-soft Selection 01 腐り姫 ～euthanasia～ (2015-11-27, LIRS-001)",
-    "platform": "Windows (DVD)",
-    "url": "https://www.prop.gr.jp/id107359_2.html"
+    "label": "腐り姫 ～euthanasia～ (original Windows CD LIAR-006, 2002-02-08; official correction patch applied)",
+    "platform": "Windows (original CD-ROM; patched)",
+    "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/145006135"
   },
   "routes": [
     {
@@ -32,7 +32,7 @@
       "url": "https://sagaoz.net/foolmaker/game/k/euthanasia.html",
       "title": "腐り姫 攻略 by 愚者の館（アーカイブ）",
       "language": "ja",
-      "notes": "Directly inspected entire page, authored Fool, last updated 2004-02-12. Tested version labelled 不明（修正後） (patched original, NOT 2015 Selection edition). Three separate complete choice sequences (TRUE END, END1, END2), in-game 本編からはじめる continuation between loops, explicit 既視感→記憶を失う run resets, saves 1-3 with branches for scene/CG completion, and post-terminal CG cleanup. Says TRUE END (possibly all endings) unlocks 狐の嫁入り 5 episodes. Does not establish exact 2015 edition choice compatibility."
+      "notes": "Directly inspected complete 124-step Japanese walkthrough by Fool, dated 2004-02-12. The author identifies tested version as 「不明（修正後）」, i.e. the corrected original PC release family, rather than the 2015 Selection DVD. Full TRUE 35, END1 44, END2 45 sequence; exact menu labels for three endings, 3 CG save/load pairs, same-run 本編からはじめる and new-playthrough 既視感→記憶を失う, post-ending bonus CG guidance. The precise installer/update revision isn't specified; independently compare patch-specific features in original publisher correction notice. Set A is not claimed independently duplicated verbatim by B."
     },
     {
       "set": "B",
@@ -65,13 +65,13 @@
       "url": "https://www.liar.co.jp/selection.html",
       "title": "Liar-soft Selection official series page",
       "language": "ja",
-      "notes": "Directly inspected official publisher page labels Selection No.01 腐り姫 and frames the Selection line as newly packaged legacy games. This helps justify targeting Selection 01, but does not explicitly guarantee byte-for-byte story/choice equivalence to the 2002 patched walkthrough."
+      "notes": "Official listing of later Selection 01 reissue, not the selected patched-original LIAR-006 CD. No Selection gameplay/script parity assumed."
     },
     {
       "url": "https://www.prop.gr.jp/id107359_2.html",
       "title": "Liar-soft Selection 01 腐り姫 product listing (2015-11-27)",
       "language": "ja",
-      "notes": "Directly inspected release-specific merchant listing; identifies Windows DVD 2015-11-27 and supplies the exact Selection edition cover via https://www.prop.gr.jp/image/pcimage/107359.jpg (opened and visually checked). Chosen as exact guide_target URL because a suitable VNDB r... URL was not directly obtainable/verified."
+      "notes": "Release listing for the *later* 2015 Liar-soft Selection 01 Windows DVD. Previously automatically chosen before source-applicability screening. This is NOT the current 2002 patched-original target, and its Selection cover must not be used for this guide."
     },
     {
       "url": "https://www.suruga-ya.jp/product/detail/145052380",
@@ -83,7 +83,7 @@
       "url": "https://www.liar.co.jp/kusari.html",
       "title": "腐り姫修正差分ファイル - Liar-soft official",
       "language": "ja",
-      "notes": "Directly inspected official 2002 original patch notices. March 2002 patch fixes 盲点 behavior and preserves read-state across 記憶を失う, but previous saves are incompatible. This is original-release patch context and DOES NOT establish 2015 Selection route equivalence."
+      "notes": "Official publisher's corrected-original patch notice, 2002-03-14: fixes 盲点 and permits read state to survive 記憶を失う; early saves may be incompatible. Supports selecting the original LIAR-006 Japanese Windows CD release WITH the official post-release patch (this guide's target), not an unpatched first-launch install. It doesn't identify Fool's exact tested patch revision."
     },
     {
       "url": "https://www.gtaku.net/vngameinfo/48576",
@@ -226,6 +226,12 @@
       "title": "MEMENTO [腐り姫] ロッカー禁止（2015-03-18 firsthand play diary）",
       "language": "ja",
       "notes": "Directly inspected Japanese firsthand 2015-03-18 play diary. Author notes 「タイトル画面に発生するアイテムが見たエンディングごとに違う」 and that indiscriminately checking every scene choice caused a stalled progression until focusing on a particular thread of choices. Related March entry identifies play through MegaStore supplemental edition, BEFORE the 2015-11-27 Selection DVD. Supports earlier-release state-dependent menus and choice-path caution only; does not provide exact final ending-choice texts, a universal TRUE unlock sequence, or Selection 01 parity. This is independent firsthand reporting, not a second full route transcript."
+    },
+    {
+      "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/145006135",
+      "title": "駿河屋 腐り姫～euthanasia～ original Windows CD LIAR-006 (2002-02-08)",
+      "language": "ja",
+      "notes": "Directly checked release-specific Japanese storefront/archive identifies first Japanese Windows CD package 2002-02-08, LIAR-006, JAN 4560103850033, with bundled correction floppy. This is the guide target after the automatic source-compatibility retarget. The direct cover https://cdn.suruga-ya.jp/pics_webp/boxart_m/145006135m.jpg.webp was opened from this exact release listing and verified. Publisher's later online correction patch applies to the original product family; original retail listing alone does not verify any individual patched-game executable string."
     }
   ],
   "generated_at": "2026-11-04T14:00:00Z"

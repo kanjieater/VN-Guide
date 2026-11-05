@@ -11,7 +11,7 @@ When the assigned task is the research phase:
 3. Write `research.json` in the shape below.
 4. **Stop. Do not generate route files in the same phase.**
 
-If the normal A/B source gate cannot be satisfied for a non-exception fact, still write the best research record possible, explain the blocker in `disagreements`, and stop.
+If neither applicable VN evidence tier can pass (or the stricter non-VN gate fails), write the best research record, set `verification_tier: "blocked"` for a VN, explain the unresolved material blocker, and stop. Do not change any caller-explicit or pinned version just to find a better guide.
 
 ### `research.json` shape
 
@@ -58,13 +58,13 @@ If the normal A/B source gate cannot be satisfied for a non-exception fact, stil
 
 Contract details:
 
-- Copy `guide_target` exactly from the accepted repository/caller/default resolution. Never silently broaden or replace it during research.
+- Copy `guide_target` exactly from the accepted caller/pinned/source-supported automatic resolution. Never silently broaden or replace an explicit/pinned version, including an original versus later remake/port distinction; provenance lives in `catalog.json.guide_target_origin` (`caller_explicit`/`automatic`), and absent provenance means pinned. Only a previously documented automatic target may be re-resolved with evidence/reason recorded in research.
 - Route `id` values are ASCII-only romanized keys.
 - `recommended_order` contains every route/section id in canonical play order; a true/final route is last when applicable.
 - For an opted-in linear walkthrough, `routes` is the one sequential walkthrough plan, with optional sections placed exactly where the player should do them.
 - `prerequisites` contains only real source-documented unlock/dependency requirements, never simple previous/next sequencing.
-- Every primary source component is labeled `set: "A"` or `set: "B"`, and its `notes` state what it covers and whether it is directly inspectable.
-- Record source disagreements, omissions, target-version caveats, and any owner-approved exception provenance/scope explicitly in `disagreements` or source notes.
+- Every primary source component is labeled `set: "A"` or `set: "B"`, and its `notes` state what it covers and whether it is directly inspectable. For `corroborated_primary`, the B lane may corroborate ending structure and outcome without printing the final UI; preserve the omission placeholder instead of inventing verbatim text.
+- Record VN `verification_tier` (`dual_verified`, `corroborated_primary`, `blocked`), source disagreements, independent outcome corroboration, A-only literal omissions, conditional unlock recovery, target-version caveats, and any owner exception provenance/scope in `disagreements` or source notes.
 - Portrait and cover lookup follow the verification requirements in `agents/guide-standards.md`.
 
 ## Phase boundary: one route/section only

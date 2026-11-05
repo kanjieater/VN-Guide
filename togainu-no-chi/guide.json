@@ -34,7 +34,7 @@
     {
       "id": "shiki",
       "title": "シキ（GOOD／BAD×2）",
-      "portrait": "https://cdn.wikimg.net/en/strategywiki/images/a/a9/Togainu_no_Chi_character_Shiki.png",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/shiki.png",
       "prerequisites": [
         "rin"
       ],
@@ -60,7 +60,7 @@
     {
       "id": "nano",
       "title": "ｎ／謎の男（最終ルート）",
-      "portrait": "https://static.zerochan.net/Nano.%28TNC%29.full.220680.jpg",
+      "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/unknown.png",
       "prerequisites": [
         "keisuke",
         "rin",
@@ -109,7 +109,7 @@
       "url": "https://www.nitrochiral.com/pc/togainu/",
       "title": "Nitro+CHiRAL 旧作の Windows 10 対応版の公式キャラクター画像",
       "language": "ja",
-      "notes": "Character portraits for same original PC game storyline, not True Blood. Some visual portraits from identified StrategyWiki or Zerochan character records where needed."
+      "notes": "Publisher-labelled original-story character portraits from the Windows 10 compatibility page; image content is unchanged from the original 2005 Windows game. Verified direct Shiki and ？？？ (Nano) portrait URLs, also Keisuke/Motomi/Rin/Kiriwar. VNDB character image.url lookup was attempted first but inaccessible; Gunji official gunzi.png could not be directly opened, so no unverified URL substituted."
     },
     {
       "url": "https://www.nitroplus.co.jp/support/product_chiral/sp01/sp01a/",
@@ -130,5 +130,5 @@
       "notes": "Publisher explicitly confirms original/Vista/Win10 Windows 18+ editions have identical GAME CONTENT (not to be confused with the separately adapted console True Blood). Not evidence that optional 1.01 difficulty patch leaves opening choice mechanics intact; patch deviation handled separately."
     }
   ],
-  "generated_at": "2026-11-05T00:32:38Z"
+  "generated_at": "2026-11-05T03:40:00Z"
 }

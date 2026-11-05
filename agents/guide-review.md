@@ -18,14 +18,14 @@ If none is specified:
 
 Before generation/research:
 
-1. Read `<slug>/catalog.json.guide_target` (legacy: `games.json.guide_target`) or an explicit caller-supplied target.
+1. Read the caller's exact version/edition/platform constraints and `<slug>/catalog.json.guide_target` (legacy: `games.json.guide_target`). A caller-requested original/remake distinction is a lock, even without three structured target fields. Existing persisted targets without explicit automatic provenance are pinned.
 2. Require `label`, `platform`, and a specific release/edition `url`.
 3. Require caller-supplied targets to be scoped to the exact VN work id; never carry that target into another pending game.
-4. Persist accepted caller-supplied targets to `<slug>/catalog.json` before research.
+4. Resolve the caller's exact target metadata and persist it with `guide_target_origin: "caller_explicit"`. Persist automatic choices with `"automatic"`. Never silently replace a caller-explicit or unmarked existing target; a documented automatic target may be switched to a source-compatible Japanese release with an explicit research justification and new reviews.
 5. Copy the exact same object into `research.json` and `guide.json`.
-6. Stop rather than infer when no target is supplied.
+6. Only when no caller/pinned target exists, choose a source-compatible official native-Japanese edition. Prefer newest only among equally verified releases; stop on an unresolvable edition ambiguity rather than inventing a target.
 
-When VNDB represents multiple releases under one `v...` work, use the specific intended `r...` release link when available. A change to the guide target invalidates the existing research basis and all route reviews.
+When VNDB represents multiple releases under one `v...` work, use the specific intended `r...` release link when verifiable. Any authorized automatic target change invalidates the existing research basis and ALL route reviews. No caller-explicit version may be changed by this policy. VN accuracy may use the `corroborated_primary` evidence tier without a per-title source exception; non-VN material progression still requires its stricter gate.
 
 ## Per-route lifecycle
 

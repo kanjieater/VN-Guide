@@ -1,0 +1,266 @@
+[
+  {
+    "simpleJp": "既視感",
+    "jpGuide1": "「既視感」から「記憶を失う」後、開始",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Fresh full-run boundary after the last completed story ending. On the title menu choose 「既視感」, then the separately listed 「記憶を失う」. Normally you just saw the TRUE no-choice CG epilogue. If this is the recovery path because TRUE was absent on your first run, the ending you could actually select may be END1 or END2 instead: complete any documented post-END1 no-choice CG scene if offered, but do not assume a post-END2 epilogue exists. Then reset from the title as above. Keep this END1 replay, including Save 2 and Save 3 scene variants, even if END1 was already seen in the conditional fallback; it is included here for the primary 100%-CG route. The alternate-first recovery is source-supported but has not been reproduced for every corrected-original game state."
+  },
+  {
+    "simpleJp": "記憶を失う",
+    "jpGuide1": "「既視感」から「記憶を失う」後、開始",
+    "jpGuide2": "初めからやり直すにはコンフィグで「記憶を失う」を選ぶ必要があります。",
+    "enGuide": "Choose 「記憶を失う」 to wipe current run progression/saves and begin from the opening; the official patched-2002 notice says gallery/scene records survive, and this guide specifically targets that publisher-corrected original PC release. Do not use a save made before this reset. For eventual 100% CG, keep Config 「盲点」 ON through any full repeat run if it was OFF previously."
+  },
+  {
+    "simpleJp": "ラジオを止めないと……",
+    "jpGuide1": "ラジオを止めないと……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "This is the first choice of the fresh-run path copied exactly from the detailed original-patched Japanese Set A guide. Independent Japanese firsthand sources document that the story's main arc order is fixed and the three MAIN endings are decided by the final outcome choice rather than separate heroine routes. Intermediate choices here are used for side scenes and CG cleanup, but independent B corroborates story structure/outcomes rather than all literal intermediate menu texts; do not treat those steps as separately transcribed by B."
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "…………",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "………………",
+    "jpGuide1": "………………",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "……潤に連れ帰ってもらおう。",
+    "jpGuide1": "……潤に連れ帰ってもらおう。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "やっぱり、旅館まで送っていこう。",
+    "jpGuide1": "やっぱり、旅館まで送っていこう。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "樹里のことを話す。",
+    "jpGuide1": "樹里のことを話す。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "潤のフリをする",
+    "jpGuide1": "潤のフリをする",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "開けて注意する",
+    "jpGuide1": "開けて注意する",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………",
+    "jpGuide1": "…………",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "…………も、もう少し……",
+    "jpGuide1": "…………も、もう少し……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "〖セーブ２〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Save in slot 2 before the next scene-choice variant. This is NOT a bad ending branch."
+  },
+  {
+    "simpleJp": "……逢いたい。伊勢に。",
+    "jpGuide1": "……逢いたい。伊勢に。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "View the alternate Ise scene before reloading; the source does not label it an ending."
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "セーブ２から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Return to Save 2 to see the other branch and then continue. Normal scene-variation reload; NOT an ending-detour isLoad."
+  },
+  {
+    "simpleJp": "伊勢に謝らないと……",
+    "jpGuide1": "伊勢に謝らないと……",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "記憶の断片をたぐりよせる",
+    "jpGuide1": "記憶の断片をたぐりよせる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "おもむろにスイッチオン",
+    "jpGuide1": "おもむろにスイッチオン",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here. This loop has no dialogue choices; continue until the next title/menu transition."
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "ゴミ処理場にしましょう",
+    "jpGuide1": "ゴミ処理場にしましょう",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "下で熱いコーヒーでも飲もう。",
+    "jpGuide1": "下で熱いコーヒーでも飲もう。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "きみは僕の恋人じゃないか。",
+    "jpGuide1": "きみは僕の恋人じゃないか。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "気持ちだけでいっぱいだよ。",
+    "jpGuide1": "気持ちだけでいっぱいだよ。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "芳野さんだ",
+    "jpGuide1": "芳野さんだ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "自分の暗い過去を感じた",
+    "jpGuide1": "自分の暗い過去を感じた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "いつだって姉さんを許すよ",
+    "jpGuide1": "いつだって姉さんを許すよ",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "限りない不安を感じた",
+    "jpGuide1": "限りない不安を感じた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "自分の暗い過去を感じた",
+    "jpGuide1": "自分の暗い過去を感じた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "「守る」と決意した",
+    "jpGuide1": "「守る」と決意した",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "ためらうことはない",
+    "jpGuide1": "ためらうことはない",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "〖セーブ３〗",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Save in slot 3 before the next scene-choice variant. This is NOT a bad ending branch."
+  },
+  {
+    "simpleJp": "潤を妹として受け入れた",
+    "jpGuide1": "潤を妹として受け入れた",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Collect alternate Jun scene, then return to Save 3 to use the main path."
+  },
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "セーブ３から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Return to Save 3 to see the other branch and then continue. Normal scene-variation reload; NOT an ending-detour isLoad."
+  },
+  {
+    "simpleJp": "潤にキスをした",
+    "jpGuide1": "潤にキスをした",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "かなえてこそ、夢",
+    "jpGuide1": "かなえてこそ、夢",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here. This loop has no dialogue choices; continue until the next title/menu transition."
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In-game menu action. Multiple successive 「本編からはじめる」 selections advance consecutive story loops in the SAME playthrough; do not choose 「記憶を失う」 here."
+  },
+  {
+    "simpleJp": "蔵女と共に、生き続けよう。",
+    "jpGuide1": "蔵女と共に、生き続けよう。",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Main-story ending: END1. B reports the ending outcome independently, but its quoted wording is a paraphrase, NOT the literal in-game menu string. Independent 2025 Japanese player identifies the continuation-together decision as this outcome, not literal menu wording. Independent Set B supplies an interpretive outcome description only, not this exact Japanese menu option; the literal terminal currently has Set A evidence alone."
+  },
+  {
+    "simpleJp": "本編からはじめる",
+    "jpGuide1": "本編からはじめる",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After the just-completed ending returns to the title, select 「本編からはじめる」 ONE MORE TIME for the source-documented CG-recovery epilogue. No dialogue choices occur. Stop this section once the gallery scene finishes; only then reset memory for the next full playthrough."
+  }
+]

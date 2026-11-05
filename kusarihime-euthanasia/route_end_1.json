@@ -3,19 +3,19 @@
     "simpleJp": "既視感",
     "jpGuide1": "「既視感」から「記憶を失う」後、開始",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Fresh full-run boundary after the last completed story ending. On the title menu choose 「既視感」, then the separately listed 「記憶を失う」. Normally you just saw the TRUE no-choice CG epilogue. If this is the recovery path because TRUE was absent on your first run, the ending you could actually select may be END1 or END2 instead: complete any documented post-END1 no-choice CG scene if offered, but do not assume a post-END2 epilogue exists. Then reset from the title as above. Keep this END1 replay, including Save 2 and Save 3 scene variants, even if END1 was already seen in the conditional fallback; it is included here for the primary 100%-CG route. The alternate-first recovery has NOT been reproduced on the selected 2015 Selection DVD."
+    "enGuide": "Fresh full-run boundary after the last completed story ending. On the title menu choose 「既視感」, then the separately listed 「記憶を失う」. Normally you just saw the TRUE no-choice CG epilogue. If this is the recovery path because TRUE was absent on your first run, the ending you could actually select may be END1 or END2 instead: complete any documented post-END1 no-choice CG scene if offered, but do not assume a post-END2 epilogue exists. Then reset from the title as above. Keep this END1 replay, including Save 2 and Save 3 scene variants, even if END1 was already seen in the conditional fallback; it is included here for the primary 100%-CG route. The alternate-first recovery is source-supported but has not been reproduced for every corrected-original game state."
   },
   {
     "simpleJp": "記憶を失う",
     "jpGuide1": "「既視感」から「記憶を失う」後、開始",
     "jpGuide2": "初めからやり直すにはコンフィグで「記憶を失う」を選ぶ必要があります。",
-    "enGuide": "Choose 「記憶を失う」 to wipe current run progression/saves and begin from the opening; the official patched-2002 notice says gallery/scene records survive, but 2015 Selection-specific parity remains untested. Do not use a save made before this reset. For eventual 100% CG, keep Config 「盲点」 ON through any full repeat run if it was OFF previously."
+    "enGuide": "Choose 「記憶を失う」 to wipe current run progression/saves and begin from the opening; the official patched-2002 notice says gallery/scene records survive, and this guide specifically targets that publisher-corrected original PC release. Do not use a save made before this reset. For eventual 100% CG, keep Config 「盲点」 ON through any full repeat run if it was OFF previously."
   },
   {
     "simpleJp": "ラジオを止めないと……",
     "jpGuide1": "ラジオを止めないと……",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "This is the first choice of the fresh-run path copied exactly from the detailed original-patched Japanese Set A guide. Independent Japanese firsthand sources document that the story's main arc order is fixed and the three MAIN endings are decided by the final outcome choice rather than separate heroine routes. Intermediate choices here are used for side scenes and CG cleanup, but exact 2015 Selection-DVD script/flag parity remains to be checked; do not treat this as a second-source-verification claim."
+    "enGuide": "This is the first choice of the fresh-run path copied exactly from the detailed original-patched Japanese Set A guide. Independent Japanese firsthand sources document that the story's main arc order is fixed and the three MAIN endings are decided by the final outcome choice rather than separate heroine routes. Intermediate choices here are used for side scenes and CG cleanup, but independent B corroborates story structure/outcomes rather than all literal intermediate menu texts; do not treat those steps as separately transcribed by B."
   },
   {
     "simpleJp": "…………",

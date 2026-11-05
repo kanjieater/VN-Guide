@@ -13,7 +13,7 @@
       "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/keisuke.png",
       "prerequisites": [],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "rin",
@@ -21,7 +21,7 @@
       "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/rin.png",
       "prerequisites": [],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "motomi",
@@ -29,7 +29,7 @@
       "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/motomi.png",
       "prerequisites": [],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "shiki",
@@ -39,7 +39,7 @@
         "rin"
       ],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "kiriwar",
@@ -47,7 +47,7 @@
       "portrait": "https://www.nitrochiral.com/pc/togainu/themes/win10/img/character/kiriwar.png",
       "prerequisites": [],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "gunji",
@@ -55,7 +55,7 @@
       "portrait": "https://cdn.wikimg.net/strategywiki/images/a/a6/Togainu_no_Chi_character_Gunji.png",
       "prerequisites": [],
       "is_true_ending": false,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "nano",
@@ -68,7 +68,7 @@
         "shiki"
       ],
       "is_true_ending": true,
-      "reviewed": false
+      "reviewed": true
     }
   ],
   "sources": [
@@ -130,5 +130,5 @@
       "notes": "Publisher explicitly confirms original/Vista/Win10 Windows 18+ editions have identical GAME CONTENT (not to be confused with the separately adapted console True Blood). Not evidence that optional 1.01 difficulty patch leaves opening choice mechanics intact; patch deviation handled separately."
     }
   ],
-  "generated_at": "2026-11-03T22:30:00Z"
+  "generated_at": "2026-11-05T00:32:38Z"
 }

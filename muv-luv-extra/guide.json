@@ -1,0 +1,134 @@
+{
+  "title": "Muv-Luv EXTRA",
+  "vndb_id": "v93",
+  "routes": [
+    {
+      "id": "sumika",
+      "title": "鑑 純夏（＋日常エンド１・２）",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/02/207902.jpg"
+    },
+    {
+      "id": "meiya",
+      "title": "御剣 冥夜",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/13/207913.jpg"
+    },
+    {
+      "id": "miki",
+      "title": "珠瀬 壬姫",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/49/207949.jpg"
+    },
+    {
+      "id": "kei",
+      "title": "彩峰 慧",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/79/207979.jpg"
+    },
+    {
+      "id": "chizuru",
+      "title": "榊 千鶴",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/41/207941.jpg"
+    },
+    {
+      "id": "marimo",
+      "title": "神宮司 まりも（バッドエンド）",
+      "reviewed": true,
+      "portrait": "https://t.vndb.org/ch/18/207918.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://sagaoz.net/foolmaker/game/m/muvluv.html",
+      "title": "愚者の館（Fool）— マブラヴ 攻略",
+      "language": "ja",
+      "notes": "Directly inspected complete Japanese choice-by-choice chart, credited to Fool, checked without a patch; expressly covers both CD and DVD versions and identifies its only DVD-only recovery branch outside EXTRA. Supplies the intact six-section EXTRA sequence, both daily-life detours, exact ending labels and numbered saves 1–5. The route text follows this complete sequence; independently evidenced transcription corrections are listed in disagreements. No Unlimited content is emitted."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_00.html",
+      "title": "ガルバスラ — マブラヴ攻略（index）",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese walkthrough by 紅堂幹人; the index explicitly identifies the walkthrough as his own and dates the original work to 2003/02/27–2003/03/06. Links all component pages. Confirms 8 EXTRA endings; combat-minigame options may vary without changing route access."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_07.html",
+      "title": "ガルバスラ — エクストラ・オールエンド",
+      "language": "ja",
+      "notes": "Directly inspected complete independent eight-ending chart. Explicitly targets scenario 1.00E.1030, the 2003/02/28 release without updates. Confirms five heroine outcomes, both daily endings and Marimo, as well as saves before the daily-ending branches. Different early affection-balancing prefix from A; used for route-defining decisions, ending names and corresponding literal menu evidence, not represented as the identical A playthrough."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_01.html",
+      "title": "ガルバスラ — 鑑 純夏 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_02.html",
+      "title": "ガルバスラ — 御剣 冥夜 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_03.html",
+      "title": "ガルバスラ — 珠瀬 壬姫 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_04.html",
+      "title": "ガルバスラ — 榊 千鶴 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_05.html",
+      "title": "ガルバスラ — 彩峰 慧 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_06.html",
+      "title": "ガルバスラ — 神宮寺 まりも 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+      "title": "FlirtingNavi — マブラヴ（Extra編・Unlimited編）攻略",
+      "language": "ja",
+      "notes": "Directly inspected additional contemporary Japanese route-by-route walkthrough explicitly dated to the 2003/2/28 release. Distinct prefixes and explanatory footnotes provide third-source corroboration, including both daily-ending conditions, conditional 12/23 selector, and the fact that the original game has only a Marimo bad ending. Supplies exact corresponding choice literals when the Galle variant differs. It is not used as a copy of Fool or as English evidence."
+    },
+    {
+      "set": "E",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=818971240",
+      "title": "gialzirou — Yet Another Muv-Luv Extra/Unlimited Walkthrough",
+      "language": "en",
+      "notes": "Directly inspected independent written English walkthrough. Author records personal play, experiments, updates and a distinct all-in-one EXTRA route rather than translation of A/B. Its explicit target is all-ages Steam, so it corroborates only unchanged route structure and the five heroine/two common outcomes. It expressly says the Marimo scene continues rather than ending there. This difference is reconciled as edition-specific; it does not override the original-CD Japanese terminal or supply Japanese quotes."
+    },
+    {
+      "set": "E",
+      "url": "https://oblaarg.wordpress.com/2011/06/30/muv-luv-review-and-spoilerific-mechanics-guide/",
+      "title": "oblaarg — Muv-Luv review and Spoilerific Mechanics Guide",
+      "language": "en",
+      "notes": "Directly inspected supplementary firsthand written mechanics report from 2011 after the author’s completed playthrough. Not a full choice-by-choice E walkthrough. Independently discusses the two daily-ending conditions, heroine routing, and original-version Marimo bad ending, distinguishing its own experiments from the translation-bundled walkthrough. Used only for this narrower corroboration."
+    }
+  ],
+  "guide_target": {
+    "label": "マブラヴ（2003年日本語CD-ROM版・EXTRA編）",
+    "platform": "Windows",
+    "url": "https://vndb.org/r8"
+  },
+  "generated_at": "2026-11-07T06:37:03.306Z"
+}

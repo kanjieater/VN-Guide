@@ -1,0 +1,23 @@
+{
+  "vndb_id": "v93",
+  "title": "Muv-Luv EXTRA",
+  "alttitle": "マブラヴ EXTRA",
+  "cover_url": "https://t.vndb.org/cv/78/90578.jpg",
+  "added_at": "2026-11-07T06:24:38+00:00",
+  "guide_target": {
+    "label": "マブラヴ（2003年日本語CD-ROM版・EXTRA編）",
+    "platform": "Windows",
+    "url": "https://vndb.org/r8"
+  },
+  "guide_target_origin": "automatic",
+  "cover_selection": {
+    "source": "VNDB Kana exact-release image",
+    "release_url": "https://vndb.org/r8",
+    "image_type": "pkgfront",
+    "dimensions": [
+      692,
+      996
+    ],
+    "rationale": "The exact original Japanese CD-ROM release has a complete portrait package front. Returned directly by the VNDB release API; no alternate edition or cropped thumbnail used."
+  }
+}

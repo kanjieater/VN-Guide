@@ -1,0 +1,218 @@
+[
+  {
+    "simpleJp": "楽しかったかな",
+    "jpGuide1": "楽しかったかな",
+    "jpGuide2": "楽しかったかな",
+    "enGuide": "Start a new EXTRA playthrough. 10/21 — Say it was fun."
+  },
+  {
+    "simpleJp": "満漢全席1人前プリーズ！",
+    "jpGuide1": "満干全席１人前プリーズ！",
+    "jpGuide2": "満漢全席1人前プリーズ！",
+    "enGuide": "10/22 — Ask for the full banquet."
+  },
+  {
+    "simpleJp": "冥夜",
+    "jpGuide1": "冥夜",
+    "jpGuide2": "冥夜",
+    "enGuide": "10/23 — Meiya."
+  },
+  {
+    "simpleJp": "掃除をする",
+    "jpGuide1": "掃除をする",
+    "jpGuide2": "掃除をする",
+    "enGuide": "10/23 — Clean up."
+  },
+  {
+    "simpleJp": "冥夜の弁当を食べる",
+    "jpGuide1": "冥夜の弁当を食べる",
+    "jpGuide2": "冥夜の弁当を食べる",
+    "enGuide": "10/24 — Eat Meiya’s lunch."
+  },
+  {
+    "simpleJp": "帰る",
+    "jpGuide1": "帰る",
+    "jpGuide2": "帰る",
+    "enGuide": "10/24 — Go home."
+  },
+  {
+    "simpleJp": "前進",
+    "jpGuide1": "前進",
+    "jpGuide2": "前進",
+    "enGuide": "10/24 — Advance."
+  },
+  {
+    "simpleJp": "移動を続ける",
+    "jpGuide1": "移動を続ける",
+    "jpGuide2": "移動を続ける",
+    "enGuide": "10/24 — Keep moving."
+  },
+  {
+    "simpleJp": "この距離を保ち続ける",
+    "jpGuide1": "この距離を保ち続ける",
+    "jpGuide2": "この距離を保ち続ける",
+    "enGuide": "10/24 — Maintain this distance."
+  },
+  {
+    "simpleJp": "冥夜頼む",
+    "jpGuide1": "冥夜頼む",
+    "jpGuide2": "冥夜頼む",
+    "enGuide": "10/25 — Ask Meiya."
+  },
+  {
+    "simpleJp": "冥夜の弁当を食べる",
+    "jpGuide1": "冥夜の弁当を食べる",
+    "jpGuide2": "冥夜の弁当を食べる",
+    "enGuide": "10/25 — Eat Meiya’s lunch."
+  },
+  {
+    "simpleJp": "運動場に行く",
+    "jpGuide1": "運動場に行く",
+    "jpGuide2": "運動場に行く",
+    "enGuide": "10/25 — Go to the sports field."
+  },
+  {
+    "simpleJp": "冥夜の弁当を食べる",
+    "jpGuide1": "冥夜の弁当を食べる",
+    "jpGuide2": "冥夜の弁当を食べる",
+    "enGuide": "10/26 — Eat Meiya’s lunch."
+  },
+  {
+    "simpleJp": "冥夜だな",
+    "jpGuide1": "冥夜だな",
+    "jpGuide2": "冥夜だな",
+    "enGuide": "10/27 — Choose Meiya."
+  },
+  {
+    "simpleJp": "冥夜",
+    "jpGuide1": "冥夜",
+    "jpGuide2": "冥夜",
+    "enGuide": "10/27 — Meiya."
+  },
+  {
+    "simpleJp": "それはできない",
+    "jpGuide1": "それはできない",
+    "jpGuide2": "それはできない",
+    "enGuide": "10/29 — Decline."
+  },
+  {
+    "simpleJp": "考えさせてもらう",
+    "jpGuide1": "考えさせてもらう",
+    "jpGuide2": "考えさせてもらう",
+    "enGuide": "10/30 — Ask for time to think."
+  },
+  {
+    "simpleJp": "ひとりで考えたいことがある",
+    "jpGuide1": "ひとりで考えたいことがある",
+    "jpGuide2": "ひとりで考えたいことがある",
+    "enGuide": "10/30 — Say you need to think alone."
+  },
+  {
+    "simpleJp": "はい",
+    "jpGuide1": "はい",
+    "jpGuide2": "はい",
+    "enGuide": "10/30 — Yes."
+  },
+  {
+    "simpleJp": "引き受けない",
+    "jpGuide1": "引き受けない",
+    "jpGuide2": "引き受けない",
+    "enGuide": "10/31 — Decline the request."
+  },
+  {
+    "simpleJp": "接近戦だ",
+    "jpGuide1": "接近戦だ",
+    "jpGuide2": "接近戦だ",
+    "enGuide": "10/31 — Choose close combat."
+  },
+  {
+    "simpleJp": "屋上に行く",
+    "jpGuide1": "屋上に行く",
+    "jpGuide2": "屋上に行く",
+    "enGuide": "11/01 — Go to the rooftop."
+  },
+  {
+    "simpleJp": "純夏達に付き合う",
+    "jpGuide1": "純夏達に付き合う",
+    "jpGuide2": "純夏達に付き合う",
+    "enGuide": "11/02 — Stay with Sumika and Meiya."
+  },
+  {
+    "simpleJp": "冥夜",
+    "jpGuide1": "冥夜",
+    "jpGuide2": "冥夜",
+    "enGuide": "11/03 — Meiya."
+  },
+  {
+    "simpleJp": "冥夜だな",
+    "jpGuide1": "冥夜だな",
+    "jpGuide2": "冥夜だな",
+    "enGuide": "11/04 — Choose Meiya."
+  },
+  {
+    "simpleJp": "車に乗る",
+    "jpGuide1": "車に乗る",
+    "jpGuide2": "車に乗る",
+    "enGuide": "11/07 — Get into the car."
+  },
+  {
+    "simpleJp": "放課後まで待つ",
+    "jpGuide1": "放課後まで待つ",
+    "jpGuide2": "放課後まで待つ",
+    "enGuide": "11/08 — Wait until school is over."
+  },
+  {
+    "simpleJp": "対策を考える",
+    "jpGuide1": "対策を考える",
+    "jpGuide2": "対策を考える",
+    "enGuide": "11/09 — Prepare a strategy."
+  },
+  {
+    "simpleJp": "冥夜の言う通り、自分でやるかぁ……",
+    "jpGuide1": "冥夜の言う通り、自分でやるかあ……",
+    "jpGuide2": "冥夜の言う通り、自分でやるかぁ……",
+    "enGuide": "11/26 — Follow Meiya’s advice and do it yourself."
+  },
+  {
+    "simpleJp": "車に乗ろう",
+    "jpGuide1": "車に乗ろう",
+    "jpGuide2": "車に乗ろう",
+    "enGuide": "11/30 — Take the car."
+  },
+  {
+    "simpleJp": "中身以外は綺麗だな",
+    "jpGuide1": "中身以外は綺麗だな",
+    "jpGuide2": "中身以外は綺麗だな",
+    "enGuide": "12/07 — Compliment the outfit."
+  },
+  {
+    "simpleJp": "ぬいぐるみ",
+    "jpGuide1": "ぬいぐるみ",
+    "jpGuide2": "ぬいぐるみ",
+    "enGuide": "12/15 — Choose the stuffed toy."
+  },
+  {
+    "simpleJp": "冥夜の隣",
+    "jpGuide1": "冥夜の隣",
+    "jpGuide2": "冥夜の隣",
+    "enGuide": "12/19 — Sit beside Meiya."
+  },
+  {
+    "simpleJp": "聞きたい",
+    "jpGuide1": "聞きたい",
+    "jpGuide2": "聞きたい",
+    "enGuide": "12/21 — Ask to hear more."
+  },
+  {
+    "simpleJp": "冥夜",
+    "jpGuide1": "冥夜",
+    "jpGuide2": "冥夜",
+    "enGuide": "12/23 — Meiya."
+  },
+  {
+    "simpleJp": "エクストラ 冥夜エンド",
+    "jpGuide1": "エクストラ 冥夜エンド",
+    "jpGuide2": "冥夜エンド",
+    "enGuide": "Continue reading until this ending finishes."
+  }
+]

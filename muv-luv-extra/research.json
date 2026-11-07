@@ -1,0 +1,768 @@
+{
+  "title": "Muv-Luv EXTRA",
+  "vndb_id": "v93",
+  "guide_target": {
+    "label": "マブラヴ（2003年日本語CD-ROM版・EXTRA編）",
+    "platform": "Windows",
+    "url": "https://vndb.org/r8"
+  },
+  "verification_tier": "dual_verified",
+  "routes": [
+    {
+      "id": "sumika",
+      "title": "鑑 純夏（＋日常エンド１・２）",
+      "portrait": "https://t.vndb.org/ch/02/207902.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Begin a new EXTRA game. Both daily-life endings are complete save-backed detours inside this route: save 1 before the 11/2 companion choice; save 2 before the 11/9 strategy choice. The primary Sumika sequence ends without a 12/23 selector because its Meiya affinity is insufficient; do not insert a nonexistent compulsory choice.",
+      "portrait_source": {
+        "url": "https://vndb.org/c108",
+        "api": "https://api.vndb.org/kana/character",
+        "character_id": "c108",
+        "dimensions": [
+          256,
+          300
+        ],
+        "verification": "Matched original Japanese name and the EXTRA-world classmate/teacher description; image.url returned directly by Kana. Parallel-world character records were excluded."
+      }
+    },
+    {
+      "id": "meiya",
+      "title": "御剣 冥夜",
+      "portrait": "https://t.vndb.org/ch/13/207913.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Begin a new EXTRA game. The 12/23 Meiya choice belongs to the original adult CD version and is retained. This is a heroine ending, not a true ending. Common endings and Sumika are already covered separately; their alternative entries from this route are not new endings.",
+      "portrait_source": {
+        "url": "https://vndb.org/c104",
+        "api": "https://api.vndb.org/kana/character",
+        "character_id": "c104",
+        "dimensions": [
+          256,
+          300
+        ],
+        "verification": "Matched original Japanese name and the EXTRA-world classmate/teacher description; image.url returned directly by Kana. Parallel-world character records were excluded."
+      }
+    },
+    {
+      "id": "miki",
+      "title": "珠瀬 壬姫",
+      "portrait": "https://t.vndb.org/ch/49/207949.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Begin a new EXTRA game after the first two sections, explicitly selecting EXTRA if the mode menu now appears. Create save 3 immediately after 大ダッシュ！ and before the cafeteria/roof choice, save 4 before cleaning/running away, and save 5 before the after-school destination. Preserve these for the later sections. Fool places this route after Sumika and Meiya as its play order; Galle demonstrates all eight endings from one initial run, so prior heroine clears are not modeled as intrinsic EXTRA route locks.",
+      "portrait_source": {
+        "url": "https://vndb.org/c130",
+        "api": "https://api.vndb.org/kana/character",
+        "character_id": "c130",
+        "dimensions": [
+          256,
+          300
+        ],
+        "verification": "Matched original Japanese name and the EXTRA-world classmate/teacher description; image.url returned directly by Kana. Parallel-world character records were excluded."
+      }
+    },
+    {
+      "id": "kei",
+      "title": "彩峰 慧",
+      "portrait": "https://t.vndb.org/ch/79/207979.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Load save 3 made in the Miki section. The load is an ordinary section entry, not a structural bad-ending return. The route-defining chain follows Kei on 11/2, chooses her on 11/3, prioritizes Chizuru and Kei on 11/4, catches Kei on 11/7, looks for her on 11/8, and does nothing on 11/9.",
+      "portrait_source": {
+        "url": "https://vndb.org/c123",
+        "api": "https://api.vndb.org/kana/character",
+        "character_id": "c123",
+        "dimensions": [
+          256,
+          300
+        ],
+        "verification": "Matched original Japanese name and the EXTRA-world classmate/teacher description; image.url returned directly by Kana. Parallel-world character records were excluded."
+      }
+    },
+    {
+      "id": "chizuru",
+      "title": "榊 千鶴",
+      "portrait": "https://t.vndb.org/ch/41/207941.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Load save 4 made in the Miki section. Accept Chizuru’s request on 10/30, return with her on 11/2, select her on 11/3, prioritize Chizuru and Kei on 11/4, escort her on 11/7, call her on 11/8, and do nothing on 11/9. The route terminal is the same Chizuru ending that Fool calls 榊エンド.",
+      "portrait_source": {
+        "url": "https://vndb.org/c115",
+        "api": "https://api.vndb.org/kana/character",
+        "character_id": "c115",
+        "dimensions": [
+          256,
+          300
+        ],
+        "verification": "Matched original Japanese name and the EXTRA-world classmate/teacher description; image.url returned directly by Kana. Parallel-world character records were excluded."
+      }
+    },
+    {
+      "id": "marimo",
+      "title": "神宮司 まりも（バッドエンド）",
+      "portrait": "https://t.vndb.org/ch/18/207918.jpg",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Load save 5 made in the Miki section. This section intentionally ends at the original CD edition’s Marimo bad ending. It is the section terminal, not an unterminated detour, and has no invented load-back. The all-ages Steam guide continues beyond this scene; that behavior must not be imported into this target.",
+      "portrait_source": {
+        "url": "https://vndb.org/c111",
+        "api": "https://api.vndb.org/kana/character",
+        "character_id": "c111",
+        "dimensions": [
+          256,
+          300
+        ],
+        "verification": "Matched original Japanese name and the EXTRA-world classmate/teacher description; image.url returned directly by Kana. Parallel-world character records were excluded."
+      }
+    }
+  ],
+  "recommended_order": [
+    "sumika",
+    "meiya",
+    "miki",
+    "kei",
+    "chizuru",
+    "marimo"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://sagaoz.net/foolmaker/game/m/muvluv.html",
+      "title": "愚者の館（Fool）— マブラヴ 攻略",
+      "language": "ja",
+      "notes": "Directly inspected complete Japanese choice-by-choice chart, credited to Fool, checked without a patch; expressly covers both CD and DVD versions and identifies its only DVD-only recovery branch outside EXTRA. Supplies the intact six-section EXTRA sequence, both daily-life detours, exact ending labels and numbered saves 1–5. The route text follows this complete sequence; independently evidenced transcription corrections are listed in disagreements. No Unlimited content is emitted."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_00.html",
+      "title": "ガルバスラ — マブラヴ攻略（index）",
+      "language": "ja",
+      "notes": "Directly inspected independent Japanese walkthrough by 紅堂幹人; the index explicitly identifies the walkthrough as his own and dates the original work to 2003/02/27–2003/03/06. Links all component pages. Confirms 8 EXTRA endings; combat-minigame options may vary without changing route access."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_07.html",
+      "title": "ガルバスラ — エクストラ・オールエンド",
+      "language": "ja",
+      "notes": "Directly inspected complete independent eight-ending chart. Explicitly targets scenario 1.00E.1030, the 2003/02/28 release without updates. Confirms five heroine outcomes, both daily endings and Marimo, as well as saves before the daily-ending branches. Different early affection-balancing prefix from A; used for route-defining decisions, ending names and corresponding literal menu evidence, not represented as the identical A playthrough."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_01.html",
+      "title": "ガルバスラ — 鑑 純夏 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_02.html",
+      "title": "ガルバスラ — 御剣 冥夜 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_03.html",
+      "title": "ガルバスラ — 珠瀬 壬姫 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_04.html",
+      "title": "ガルバスラ — 榊 千鶴 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_05.html",
+      "title": "ガルバスラ — 彩峰 慧 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://galle.oe-p.com/review_02_29_06.html",
+      "title": "ガルバスラ — 神宮寺 まりも 攻略",
+      "language": "ja",
+      "notes": "Directly inspected individual original-PC Japanese route chart, independent of Fool. Supports the same intended ending and material route chain with a different valid early prefix. Choice numbers, spelling and some optional early decisions differ from A; quotations preserve this source’s text. These component pages and the all-end chart are one author/source, not counted as separate independent guides."
+    },
+    {
+      "set": "B",
+      "url": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+      "title": "FlirtingNavi — マブラヴ（Extra編・Unlimited編）攻略",
+      "language": "ja",
+      "notes": "Directly inspected additional contemporary Japanese route-by-route walkthrough explicitly dated to the 2003/2/28 release. Distinct prefixes and explanatory footnotes provide third-source corroboration, including both daily-ending conditions, conditional 12/23 selector, and the fact that the original game has only a Marimo bad ending. Supplies exact corresponding choice literals when the Galle variant differs. It is not used as a copy of Fool or as English evidence."
+    },
+    {
+      "set": "E",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=818971240",
+      "title": "gialzirou — Yet Another Muv-Luv Extra/Unlimited Walkthrough",
+      "language": "en",
+      "notes": "Directly inspected independent written English walkthrough. Author records personal play, experiments, updates and a distinct all-in-one EXTRA route rather than translation of A/B. Its explicit target is all-ages Steam, so it corroborates only unchanged route structure and the five heroine/two common outcomes. It expressly says the Marimo scene continues rather than ending there. This difference is reconciled as edition-specific; it does not override the original-CD Japanese terminal or supply Japanese quotes."
+    },
+    {
+      "set": "E",
+      "url": "https://oblaarg.wordpress.com/2011/06/30/muv-luv-review-and-spoilerific-mechanics-guide/",
+      "title": "oblaarg — Muv-Luv review and Spoilerific Mechanics Guide",
+      "language": "en",
+      "notes": "Directly inspected supplementary firsthand written mechanics report from 2011 after the author’s completed playthrough. Not a full choice-by-choice E walkthrough. Independently discusses the two daily-ending conditions, heroine routing, and original-version Marimo bad ending, distinguishing its own experiments from the translation-bundled walkthrough. Used only for this narrower corroboration."
+    }
+  ],
+  "source_search": {
+    "checked_at": "2026-11-07T06:24:38+00:00",
+    "secondary_japanese": {
+      "status": "found",
+      "queries": [
+        "マブラヴ EXTRA 攻略 2003 PC 純夏 冥夜",
+        "マブラヴ 攻略 全年齢版",
+        "マブラヴ 満漢全席１人前プリーズ",
+        "マブラヴ やるかぁ 攻略"
+      ],
+      "sites_checked": [
+        "愚者の館 / sagaoz archive",
+        "ガルバスラ",
+        "FlirtingNavi",
+        "誠也の部屋",
+        "PSP＆PCあれこれ atwiki"
+      ],
+      "candidates": [
+        {
+          "url": "https://galle.oe-p.com/review_02_29_00.html",
+          "assessment": "Accepted independent original-PC full walkthrough; author states original authorship. All six individual routes plus the eight-end chart directly inspected."
+        },
+        {
+          "url": "https://galle.oe-p.com/review_02_29_09.html",
+          "assessment": "Directly inspected combined EXTRA/Unlimited chart independently confirms exact original scenario identity; EXTRA is duplicate content of _07, so not counted twice."
+        },
+        {
+          "url": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+          "assessment": "Accepted additional contemporary written Japanese route chart and ending-condition evidence, explicitly identifies 2003/2/28 release."
+        },
+        {
+          "url": "https://seiya-saiga.com/game/age/muvluv_7.html",
+          "assessment": "Directly inspected EUC-JP page; Windows 7 edition and 2006 all-ages compatibility are explicit. Not primary proof of original-CD applicability; not used to overwrite exact target or add later-edition steps."
+        },
+        {
+          "url": "https://seiya-saiga.com/game/age/muvluv.html",
+          "assessment": "Direct fetch also presents Windows7 edition metadata. Not treated as a separate original-CD guide."
+        },
+        {
+          "url": "https://w.atwiki.jp/waito/pages/64.html",
+          "assessment": "Inspected index/candidate; historical summary and route links, not needed as independent complete primary evidence."
+        }
+      ]
+    },
+    "english_walkthrough": {
+      "status": "found",
+      "queries": [
+        "Muv Luv Extra walkthrough Marimo gamefaqs",
+        "Muv-Luv walkthrough GameFAQs Extra 2003",
+        "Muv-Luv walkthrough Fool",
+        "Muv-Luv Extra walkthrough Marimo 2011"
+      ],
+      "sites_checked": [
+        "Steam Community",
+        "GameFAQs",
+        "Otaku Lair",
+        "Fuwanovel-linked guides",
+        "oblaarg WordPress",
+        "TrueAchievements"
+      ],
+      "candidates": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=818971240",
+          "assessment": "Accepted independent gialzirou written full EXTRA route, but all-ages Steam edition: corroborates seven shared endings and stable branch logic only. Marimo continuation is an edition difference."
+        },
+        {
+          "url": "https://www.otakulair.com/english-visual-novel-walkthroughs/muv-luv-walkthrough-degica-age/",
+          "assessment": "Directly inspected; explicitly translated/adjusted from Seiya-Saiga, so rejected as independent English corroboration."
+        },
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=724473016",
+          "assessment": "Directly inspected Jinguuji guide; credits Visualnoveler and Ryoji/Fuwanovel and admits adaptation from older guides. Kept out of independent E count because original upstream authorship chain is not established; also all-ages Steam target."
+        },
+        {
+          "url": "https://forums.fuwanovel.net/topic/796-muv-luv-extraunlimited/",
+          "assessment": "Located through Jinguuji credits; not used as independent evidence because the actual original content/authorship was not established in this research."
+        },
+        {
+          "url": "https://oblaarg.wordpress.com/2011/06/30/muv-luv-review-and-spoilerific-mechanics-guide/",
+          "assessment": "Accepted narrow firsthand mechanics/outcome corroboration for original adult game, including Marimo terminal; not mislabeled a full choice walkthrough."
+        },
+        {
+          "url": "https://www.trueachievements.com/game/muv-luv/walkthrough",
+          "assessment": "Located written console walkthrough; later all-ages Xbox target, not needed as exact original-CD authority."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/boards/2000121-anime-and-manga-other-titles/64050765",
+          "assessment": "Search found discussion rather than a full authored original-CD walkthrough; not gate evidence."
+        }
+      ]
+    }
+  },
+  "guide_target_resolution": {
+    "origin": "automatic",
+    "persisted_before_route_research": true,
+    "release_date": "2003-02-28",
+    "release_id": "r8",
+    "scenario_version": "1.00E.1030 (unpatched)",
+    "evidence": "VNDB Kana release record r8 identifies official Japanese Windows release; Galle _07/_09 explicitly identifies this exact release and scenario version, while Fool explicitly supports CD. No caller edition/platform was specified. This original-CD scenario has the strongest exact version-bound independent evidence. Later all-ages/Steam/console editions change the Marimo outcome and some selectors; DVD/renewal and Windows7 editions are not assumed to be the same executable merely because their work id is v93. The newer releases were inspected in VNDB metadata but are not equally specifically verified by the scenario-pinned primary pair. No retarget was performed."
+  },
+  "cover_selection": {
+    "source": "VNDB Kana exact-release image",
+    "release_url": "https://vndb.org/r8",
+    "image_type": "pkgfront",
+    "dimensions": [
+      692,
+      996
+    ],
+    "rationale": "The exact original Japanese CD-ROM release has a complete portrait package front. Returned directly by the VNDB release API; no alternate edition or cropped thumbnail used."
+  },
+  "ending_coverage": {
+    "count": 8,
+    "main_sections": [
+      "エクストラ 純夏エンド",
+      "エクストラ 冥夜エンド",
+      "エクストラ 壬姫エンド",
+      "エクストラ 彩峰エンド",
+      "エクストラ 榊エンド",
+      "エクストラ まりもバッドエンド"
+    ],
+    "sumika_detours": [
+      "エクストラ 日常エンド２",
+      "エクストラ 日常エンド１"
+    ],
+    "scope": "All eight distinct documented EXTRA endings. Unlimited and Alternative, their unlock-completion requirements and their CG recovery are outside this guide. The routes are ending-complete; this is not a claim to show every alternate line, scene variation or all-series gallery achievement."
+  },
+  "disagreements": "The complete executable path and save/load sequence is Fool A; B independently verifies all route-defining decisions and eight outcomes, but its early affection choices often form other valid prefixes. The field quotes are source-specific: they do not assert that B prints the identical A prefix. Where B prints the same menu option in another EXTRA heroine chart, it corroborates that literal at the corresponding dated menu; exact A path executability remains grounded in the full A sequence. Four transcription differences are resolved for simpleJp using B while leaving A quotes untouched: Fool 大ダッシュ lacks the ! shown in Galle/Flirting; Fool 満干全席１人前プリーズ！ is rendered as Galle’s 満漢全席1人前プリーズ！; Fool’s Meiya 11/26 large あ is rendered with the small ぁ printed by Galle and A’s own Marimo sequence; Fool Marimo 11/4 lacks the ! printed by both independent Japanese charts. Other spelling variants (Galle 事/こと, たまの家に/へ行く, 思いきって/思い切って, 物理準備室へ/に行く) remain verbatim in their source fields; simpleJp uses the complete A sequence. A’s 11/2 and 11/9 saves occur before the branch choices and B explicitly documents the same dates; saves 3–5 and their load-entry text are A-only and use honest B omissions. Common2 is caused by pursuing Tama late without adequate earlier affinity; Common1 follows doing nothing on 11/9 outside Kei/Chizuru routing. Both are executed before resuming Sumika. Galle’s duplicate ways to reach these same outcomes and its Meiya-to-Sumika final alternate are not extra distinct endings; each is already included. Marimo has only a bad ending in the original CD edition (Japanese sources agree); Steam E’s continuation is inapplicable. Fool orders Miki after the two leads but Galle’s full original-CD graph has no clear prerequisite for EXTRA side heroines, so the order is operational and prerequisites are empty. Side-route load entries require the actual earlier saved states, described in notes and the first-step hint. No invented saves, affinity numbers, true ending, or user gameplay checks are required.",
+  "generated_at": "2026-11-07T06:24:38+00:00",
+  "step_source_alignment": {
+    "sumika": [
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "all-end chart/date",
+        "steps": [
+          0,
+          11,
+          21,
+          23,
+          35,
+          42
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same route/date",
+        "steps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          29,
+          30,
+          31,
+          32,
+          33,
+          38,
+          39,
+          40,
+          41,
+          43,
+          44
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_01.html",
+        "coverage": "same route/date",
+        "steps": [
+          18,
+          20,
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          19
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_01.html",
+        "coverage": "save",
+        "steps": [
+          22,
+          34
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_01.html",
+        "coverage": "ending",
+        "steps": [
+          27
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "ending",
+        "steps": [
+          36,
+          45
+        ]
+      }
+    ],
+    "meiya": [
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same route/date",
+        "steps": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_02.html",
+        "coverage": "same route/date",
+        "steps": [
+          1,
+          11,
+          18,
+          28,
+          29
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          8
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "all-end chart/date",
+        "steps": [
+          20,
+          21
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "ending",
+        "steps": [
+          35
+        ]
+      }
+    ],
+    "miki": [
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same route/date",
+        "steps": [
+          0,
+          1,
+          6,
+          8,
+          9,
+          10,
+          11,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "all-end chart/date",
+        "steps": [
+          2
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_04.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          4
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_03.html",
+        "coverage": "same route/date",
+        "steps": [
+          12,
+          13,
+          27
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          14
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "ending",
+        "steps": [
+          34
+        ]
+      }
+    ],
+    "kei": [
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same route/date",
+        "steps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          15,
+          16,
+          17,
+          19,
+          20,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          7
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_05.html",
+        "coverage": "same route/date",
+        "steps": [
+          10,
+          18,
+          21
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "all-end chart/date",
+        "steps": [
+          13,
+          14,
+          22
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_05.html",
+        "coverage": "ending",
+        "steps": [
+          32
+        ]
+      }
+    ],
+    "chizuru": [
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same route/date",
+        "steps": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_04.html",
+        "coverage": "same route/date",
+        "steps": [
+          5,
+          6,
+          28
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          7
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_05.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          8
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_04.html",
+        "coverage": "ending",
+        "steps": [
+          29
+        ]
+      }
+    ],
+    "marimo": [
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          1,
+          7,
+          13,
+          14
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "same route/date",
+        "steps": [
+          2,
+          3,
+          4,
+          9,
+          10,
+          12,
+          15,
+          17,
+          18,
+          20,
+          21,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_06.html",
+        "coverage": "same route/date",
+        "steps": [
+          5,
+          6,
+          19,
+          22
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_05.html",
+        "coverage": "same dated menu; alternate heroine prefix",
+        "steps": [
+          8
+        ]
+      },
+      {
+        "jpGuide2_source": "https://galle.oe-p.com/review_02_29_07.html",
+        "coverage": "all-end chart/date",
+        "steps": [
+          11,
+          16,
+          23,
+          28
+        ]
+      },
+      {
+        "jpGuide2_source": "https://flirtingnavi.net/webdata/Muvluv/index.html",
+        "coverage": "ending",
+        "steps": [
+          34
+        ]
+      }
+    ]
+  },
+  "step_source_alignment_notes": "Indices are zero-based. jpGuide1 always quotes Fool A; load/save text is not fabricated from B. B entries labeled same dated menu/alternate heroine prefix corroborate the literal option only; complete path validation uses A plus independently agreeing route-defining chains/outcomes, not an assertion that different prefixes are identical. All route choices were checked against actual printed options at the corresponding date. Exact source spelling variants remain available in the source pages and the documented reconciliation."
+}

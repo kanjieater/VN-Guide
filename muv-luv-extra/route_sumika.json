@@ -1,0 +1,282 @@
+[
+  {
+    "simpleJp": "あのクソ犬許すまじ！",
+    "jpGuide1": "あのクソ犬許すまじ！",
+    "jpGuide2": "あのクソ犬許すまじ！",
+    "enGuide": "Start a new EXTRA playthrough. 10/21 — Hold a grudge against the dog."
+  },
+  {
+    "simpleJp": "ってそうじゃなくて！",
+    "jpGuide1": "ってそうじゃなくて！",
+    "jpGuide2": "ってそうじゃなくて！",
+    "enGuide": "10/22 — Reject that change of subject."
+  },
+  {
+    "simpleJp": "純夏",
+    "jpGuide1": "純夏",
+    "jpGuide2": "純夏",
+    "enGuide": "10/23 — Sumika."
+  },
+  {
+    "simpleJp": "掃除をする",
+    "jpGuide1": "掃除をする",
+    "jpGuide2": "掃除をする",
+    "enGuide": "10/23 — Clean up."
+  },
+  {
+    "simpleJp": "純夏の弁当を食べる",
+    "jpGuide1": "純夏の弁当を食べる",
+    "jpGuide2": "純夏の弁当を食べる",
+    "enGuide": "10/24 — Eat Sumika’s lunch."
+  },
+  {
+    "simpleJp": "帰る",
+    "jpGuide1": "帰る",
+    "jpGuide2": "帰る",
+    "enGuide": "10/24 — Go home."
+  },
+  {
+    "simpleJp": "前進",
+    "jpGuide1": "前進",
+    "jpGuide2": "前進",
+    "enGuide": "10/24 — Advance."
+  },
+  {
+    "simpleJp": "移動を続ける",
+    "jpGuide1": "移動を続ける",
+    "jpGuide2": "移動を続ける",
+    "enGuide": "10/24 — Keep moving."
+  },
+  {
+    "simpleJp": "この距離を保ち続ける",
+    "jpGuide1": "この距離を保ち続ける",
+    "jpGuide2": "この距離を保ち続ける",
+    "enGuide": "10/24 — Maintain this distance."
+  },
+  {
+    "simpleJp": "純夏！",
+    "jpGuide1": "純夏！",
+    "jpGuide2": "純夏！",
+    "enGuide": "10/25 — Call on Sumika."
+  },
+  {
+    "simpleJp": "純夏の弁当を食べる",
+    "jpGuide1": "純夏の弁当を食べる",
+    "jpGuide2": "純夏の弁当を食べる",
+    "enGuide": "10/25 — Eat Sumika’s lunch."
+  },
+  {
+    "simpleJp": "弓道場に行く",
+    "jpGuide1": "弓道場に行く",
+    "jpGuide2": "弓道場に行く",
+    "enGuide": "10/25 — Go to the archery range."
+  },
+  {
+    "simpleJp": "純夏の弁当を食べる",
+    "jpGuide1": "純夏の弁当を食べる",
+    "jpGuide2": "純夏の弁当を食べる",
+    "enGuide": "10/26 — Eat Sumika’s lunch."
+  },
+  {
+    "simpleJp": "純夏だな",
+    "jpGuide1": "純夏だな",
+    "jpGuide2": "純夏だな",
+    "enGuide": "10/27 — Choose Sumika."
+  },
+  {
+    "simpleJp": "純夏",
+    "jpGuide1": "純夏",
+    "jpGuide2": "純夏",
+    "enGuide": "10/27 — Sumika."
+  },
+  {
+    "simpleJp": "付き合う",
+    "jpGuide1": "付き合う",
+    "jpGuide2": "付き合う",
+    "enGuide": "10/29 — Accompany her."
+  },
+  {
+    "simpleJp": "考えさせてもらう",
+    "jpGuide1": "考えさせてもらう",
+    "jpGuide2": "考えさせてもらう",
+    "enGuide": "10/30 — Ask for time to think."
+  },
+  {
+    "simpleJp": "一緒に帰る",
+    "jpGuide1": "一緒に帰る",
+    "jpGuide2": "一緒に帰る",
+    "enGuide": "10/30 — Go home together."
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": "10/30 — No."
+  },
+  {
+    "simpleJp": "引き受けない",
+    "jpGuide1": "引き受けない",
+    "jpGuide2": "引き受けない",
+    "enGuide": "10/31 — Decline the request."
+  },
+  {
+    "simpleJp": "純夏頑張れよ",
+    "jpGuide1": "純夏頑張れよ",
+    "jpGuide2": "純夏頑張れよ",
+    "enGuide": "10/31 — Encourage Sumika."
+  },
+  {
+    "simpleJp": "屋上に行く",
+    "jpGuide1": "屋上に行く",
+    "jpGuide2": "屋上に行く",
+    "enGuide": "11/01 — Go to the rooftop."
+  },
+  {
+    "simpleJp": "セーブ1",
+    "jpGuide1": "【セーブ１】",
+    "jpGuide2": "分岐・セーブ",
+    "enGuide": "11/02 — Save before selecting the next choice. This protects the daily-ending detour."
+  },
+  {
+    "simpleJp": "たまと帰る",
+    "jpGuide1": "たまと帰る",
+    "jpGuide2": "たまと帰る",
+    "enGuide": "11/02 — Go home with Tama. Follow this late Tama branch to collect Daily Ending 2, then reload.",
+    "badEndPath": "エクストラ 日常エンド２"
+  },
+  {
+    "simpleJp": "壬姫",
+    "jpGuide1": "壬姫",
+    "jpGuide2": "壬姫",
+    "enGuide": "11/03 — Miki."
+  },
+  {
+    "simpleJp": "たまが心配だ",
+    "jpGuide1": "たまが心配だ",
+    "jpGuide2": "たまが心配だ",
+    "enGuide": "11/04 — Express concern for Tama."
+  },
+  {
+    "simpleJp": "たまの家へ行く",
+    "jpGuide1": "たまの家へ行く",
+    "jpGuide2": "たまの家へ行く",
+    "enGuide": "11/04 — Visit Tama’s home."
+  },
+  {
+    "simpleJp": "エクストラ 日常エンド２",
+    "jpGuide1": "エクストラ 日常エンド２",
+    "jpGuide2": "日常エンド2",
+    "enGuide": "Continue reading until this ending finishes."
+  },
+  {
+    "simpleJp": "セーブ1にロード",
+    "jpGuide1": "セーブ１から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Load save 1. Return to the protected choice after the ending.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "純夏達に付き合う",
+    "jpGuide1": "純夏達に付き合う",
+    "jpGuide2": "純夏達に付き合う",
+    "enGuide": "11/02 — Stay with Sumika and Meiya."
+  },
+  {
+    "simpleJp": "純夏",
+    "jpGuide1": "純夏",
+    "jpGuide2": "純夏",
+    "enGuide": "11/03 — Sumika."
+  },
+  {
+    "simpleJp": "やっぱ純夏だろ",
+    "jpGuide1": "やっぱ純夏だろ",
+    "jpGuide2": "やっぱ純夏だろ",
+    "enGuide": "11/04 — Choose Sumika."
+  },
+  {
+    "simpleJp": "車に乗る",
+    "jpGuide1": "車に乗る",
+    "jpGuide2": "車に乗る",
+    "enGuide": "11/07 — Get into the car."
+  },
+  {
+    "simpleJp": "放課後まで待つ",
+    "jpGuide1": "放課後まで待つ",
+    "jpGuide2": "放課後まで待つ",
+    "enGuide": "11/08 — Wait until school is over."
+  },
+  {
+    "simpleJp": "セーブ2",
+    "jpGuide1": "【セーブ２】",
+    "jpGuide2": "分岐・セーブ",
+    "enGuide": "11/09 — Save before selecting the next choice. This protects the daily-ending detour."
+  },
+  {
+    "simpleJp": "何もしない",
+    "jpGuide1": "何もしない",
+    "jpGuide2": "何もしない",
+    "enGuide": "11/09 — Do nothing. This reaches Daily Ending 1 on the current Sumika-focused playthrough.",
+    "badEndPath": "エクストラ 日常エンド１"
+  },
+  {
+    "simpleJp": "エクストラ 日常エンド１",
+    "jpGuide1": "エクストラ 日常エンド１",
+    "jpGuide2": "日常エンド1",
+    "enGuide": "Continue reading until this ending finishes."
+  },
+  {
+    "simpleJp": "セーブ2にロード",
+    "jpGuide1": "セーブ２から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Load save 2. Return to the protected choice after the ending.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "対策を考える",
+    "jpGuide1": "対策を考える",
+    "jpGuide2": "対策を考える",
+    "enGuide": "11/09 — Prepare a strategy."
+  },
+  {
+    "simpleJp": "純夏のでもいいか……",
+    "jpGuide1": "純夏のでもいいか……",
+    "jpGuide2": "純夏のでもいいか……",
+    "enGuide": "11/26 — Accept Sumika’s help."
+  },
+  {
+    "simpleJp": "歩いて帰ろう",
+    "jpGuide1": "歩いて帰ろう",
+    "jpGuide2": "歩いて帰ろう",
+    "enGuide": "11/30 — Walk home."
+  },
+  {
+    "simpleJp": "似合って……んじゃねーかな？",
+    "jpGuide1": "似合って……んじゃねーかな？",
+    "jpGuide2": "似合って……んじゃねーかな？",
+    "enGuide": "12/07 — Compliment how it looks on her."
+  },
+  {
+    "simpleJp": "ゲーム",
+    "jpGuide1": "ゲーム",
+    "jpGuide2": "ゲーム",
+    "enGuide": "12/15 — Choose the game."
+  },
+  {
+    "simpleJp": "純夏の隣",
+    "jpGuide1": "純夏の隣",
+    "jpGuide2": "純夏の隣",
+    "enGuide": "12/19 — Sit beside Sumika."
+  },
+  {
+    "simpleJp": "いや、いい",
+    "jpGuide1": "いや、いい",
+    "jpGuide2": "いや、いい",
+    "enGuide": "12/21 — Decline to hear more. The primary path proceeds directly to Sumika’s ending; it does not require a 12/23 selector."
+  },
+  {
+    "simpleJp": "エクストラ 純夏エンド",
+    "jpGuide1": "エクストラ 純夏エンド",
+    "jpGuide2": "純夏エンド",
+    "enGuide": "Continue reading until this ending finishes."
+  }
+]

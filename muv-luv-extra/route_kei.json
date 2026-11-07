@@ -1,0 +1,200 @@
+[
+  {
+    "simpleJp": "セーブ3にロード",
+    "jpGuide1": "セーブ３から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Load save 3. Use the checkpoint created in the Miki section."
+  },
+  {
+    "simpleJp": "屋上でも行くか？",
+    "jpGuide1": "屋上でも行くか？",
+    "jpGuide2": "屋上でも行くか？",
+    "enGuide": "10/23 — Try the rooftop."
+  },
+  {
+    "simpleJp": "逃げる",
+    "jpGuide1": "逃げる",
+    "jpGuide2": "逃げる",
+    "enGuide": "10/23 — Run away."
+  },
+  {
+    "simpleJp": "帰る",
+    "jpGuide1": "帰る",
+    "jpGuide2": "帰る",
+    "enGuide": "10/23 — Go home."
+  },
+  {
+    "simpleJp": "逃亡する",
+    "jpGuide1": "逃亡する",
+    "jpGuide2": "逃亡する",
+    "enGuide": "10/24 — Flee."
+  },
+  {
+    "simpleJp": "屋上",
+    "jpGuide1": "屋上",
+    "jpGuide2": "屋上",
+    "enGuide": "10/24 — Choose the rooftop."
+  },
+  {
+    "simpleJp": "帰る",
+    "jpGuide1": "帰る",
+    "jpGuide2": "帰る",
+    "enGuide": "10/24 — Go home."
+  },
+  {
+    "simpleJp": "前進",
+    "jpGuide1": "前進",
+    "jpGuide2": "前進",
+    "enGuide": "10/24 — Advance."
+  },
+  {
+    "simpleJp": "移動を続ける",
+    "jpGuide1": "移動を続ける",
+    "jpGuide2": "移動を続ける",
+    "enGuide": "10/24 — Keep moving."
+  },
+  {
+    "simpleJp": "この距離を保ち続ける",
+    "jpGuide1": "この距離を保ち続ける",
+    "jpGuide2": "この距離を保ち続ける",
+    "enGuide": "10/24 — Maintain this distance."
+  },
+  {
+    "simpleJp": "ここは一発彩峰に……",
+    "jpGuide1": "ここは一発彩峰に……",
+    "jpGuide2": "ここは一発彩峰に……",
+    "enGuide": "10/25 — Ask Ayamine."
+  },
+  {
+    "simpleJp": "両方食べる",
+    "jpGuide1": "両方食べる",
+    "jpGuide2": "両方食べる",
+    "enGuide": "10/25 — Eat both lunches."
+  },
+  {
+    "simpleJp": "屋上",
+    "jpGuide1": "屋上",
+    "jpGuide2": "屋上",
+    "enGuide": "10/25 — Choose the rooftop."
+  },
+  {
+    "simpleJp": "弓道場に行く",
+    "jpGuide1": "弓道場に行く",
+    "jpGuide2": "弓道場に行く",
+    "enGuide": "10/25 — Go to the archery range."
+  },
+  {
+    "simpleJp": "冥夜の弁当を食べる",
+    "jpGuide1": "冥夜の弁当を食べる",
+    "jpGuide2": "冥夜の弁当を食べる",
+    "enGuide": "10/26 — Eat Meiya’s lunch."
+  },
+  {
+    "simpleJp": "彩峰だな",
+    "jpGuide1": "彩峰だな",
+    "jpGuide2": "彩峰だな",
+    "enGuide": "10/27 — Choose Ayamine."
+  },
+  {
+    "simpleJp": "彩峰",
+    "jpGuide1": "彩峰",
+    "jpGuide2": "彩峰",
+    "enGuide": "10/27 — Ayamine."
+  },
+  {
+    "simpleJp": "それはできない",
+    "jpGuide1": "それはできない",
+    "jpGuide2": "それはできない",
+    "enGuide": "10/29 — Decline."
+  },
+  {
+    "simpleJp": "考えさせてもらう",
+    "jpGuide1": "考えさせてもらう",
+    "jpGuide2": "考えさせてもらう",
+    "enGuide": "10/30 — Ask for time to think."
+  },
+  {
+    "simpleJp": "ひとりで考えたいことがある",
+    "jpGuide1": "ひとりで考えたいことがある",
+    "jpGuide2": "ひとりで考えたいことがある",
+    "enGuide": "10/30 — Say you need to think alone."
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": "10/30 — No."
+  },
+  {
+    "simpleJp": "引き受ける",
+    "jpGuide1": "引き受ける",
+    "jpGuide2": "引き受ける",
+    "enGuide": "10/31 — Accept the request."
+  },
+  {
+    "simpleJp": "遠距離戦だ",
+    "jpGuide1": "遠距離戦だ",
+    "jpGuide2": "遠距離戦だ",
+    "enGuide": "10/31 — Choose ranged combat."
+  },
+  {
+    "simpleJp": "屋上に行く",
+    "jpGuide1": "屋上に行く",
+    "jpGuide2": "屋上に行く",
+    "enGuide": "11/01 — Go to the rooftop."
+  },
+  {
+    "simpleJp": "先に帰ってていいぞ",
+    "jpGuide1": "先に帰ってていいぞ",
+    "jpGuide2": "先に帰ってていいぞ",
+    "enGuide": "11/01 — Tell them to go home ahead."
+  },
+  {
+    "simpleJp": "彩峰の後を追いかける",
+    "jpGuide1": "彩峰の後を追いかける",
+    "jpGuide2": "彩峰の後を追いかける",
+    "enGuide": "11/02 — Follow Ayamine."
+  },
+  {
+    "simpleJp": "彩峰",
+    "jpGuide1": "彩峰",
+    "jpGuide2": "彩峰",
+    "enGuide": "11/03 — Ayamine."
+  },
+  {
+    "simpleJp": "委員長と彩峰に決まってる！",
+    "jpGuide1": "委員長と彩峰に決まってる！",
+    "jpGuide2": "委員長と彩峰に決まってる！",
+    "enGuide": "11/04 — Choose the class representative and Ayamine."
+  },
+  {
+    "simpleJp": "彩峰に追いつく",
+    "jpGuide1": "彩峰に追いつく",
+    "jpGuide2": "彩峰に追いつく",
+    "enGuide": "11/07 — Catch up with Ayamine."
+  },
+  {
+    "simpleJp": "彩峰を探しに行く",
+    "jpGuide1": "彩峰を探しに行く",
+    "jpGuide2": "彩峰を探しに行く",
+    "enGuide": "11/08 — Look for Ayamine."
+  },
+  {
+    "simpleJp": "何もしない",
+    "jpGuide1": "何もしない",
+    "jpGuide2": "何もしない",
+    "enGuide": "11/09 — Do nothing."
+  },
+  {
+    "simpleJp": "やる",
+    "jpGuide1": "やる",
+    "jpGuide2": "やる",
+    "enGuide": "11/12 — Go ahead."
+  },
+  {
+    "simpleJp": "エクストラ 彩峰エンド",
+    "jpGuide1": "エクストラ 彩峰エンド",
+    "jpGuide2": "慧エンド",
+    "enGuide": "Continue reading until this ending finishes."
+  }
+]

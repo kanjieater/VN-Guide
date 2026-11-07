@@ -1,0 +1,182 @@
+[
+  {
+    "simpleJp": "セーブ4にロード",
+    "jpGuide1": "セーブ４から",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Load save 4. Use the checkpoint created in the Miki section."
+  },
+  {
+    "simpleJp": "掃除をする",
+    "jpGuide1": "掃除をする",
+    "jpGuide2": "掃除をする",
+    "enGuide": "10/23 — Clean up."
+  },
+  {
+    "simpleJp": "逃亡する",
+    "jpGuide1": "逃亡する",
+    "jpGuide2": "逃亡する",
+    "enGuide": "10/24 — Flee."
+  },
+  {
+    "simpleJp": "中庭",
+    "jpGuide1": "中庭",
+    "jpGuide2": "中庭",
+    "enGuide": "10/24 — Choose the courtyard."
+  },
+  {
+    "simpleJp": "ブラブラする",
+    "jpGuide1": "ブラブラする",
+    "jpGuide2": "ブラブラする",
+    "enGuide": "10/24 — Wander around."
+  },
+  {
+    "simpleJp": "前進",
+    "jpGuide1": "前進",
+    "jpGuide2": "前進",
+    "enGuide": "10/24 — Advance."
+  },
+  {
+    "simpleJp": "移動を続ける",
+    "jpGuide1": "移動を続ける",
+    "jpGuide2": "移動を続ける",
+    "enGuide": "10/24 — Keep moving."
+  },
+  {
+    "simpleJp": "この距離を保ち続ける",
+    "jpGuide1": "この距離を保ち続ける",
+    "jpGuide2": "この距離を保ち続ける",
+    "enGuide": "10/24 — Maintain this distance."
+  },
+  {
+    "simpleJp": "ここは一発彩峰に……",
+    "jpGuide1": "ここは一発彩峰に……",
+    "jpGuide2": "ここは一発彩峰に……",
+    "enGuide": "10/25 — Ask Ayamine."
+  },
+  {
+    "simpleJp": "両方食べる",
+    "jpGuide1": "両方食べる",
+    "jpGuide2": "両方食べる",
+    "enGuide": "10/25 — Eat both lunches."
+  },
+  {
+    "simpleJp": "中庭",
+    "jpGuide1": "中庭",
+    "jpGuide2": "中庭",
+    "enGuide": "10/25 — Choose the courtyard."
+  },
+  {
+    "simpleJp": "運動場に行く",
+    "jpGuide1": "運動場に行く",
+    "jpGuide2": "運動場に行く",
+    "enGuide": "10/25 — Go to the sports field."
+  },
+  {
+    "simpleJp": "冥夜の弁当を食べる",
+    "jpGuide1": "冥夜の弁当を食べる",
+    "jpGuide2": "冥夜の弁当を食べる",
+    "enGuide": "10/26 — Eat Meiya’s lunch."
+  },
+  {
+    "simpleJp": "委員長だな",
+    "jpGuide1": "委員長だな",
+    "jpGuide2": "委員長だな",
+    "enGuide": "10/27 — Choose the class representative."
+  },
+  {
+    "simpleJp": "委員長",
+    "jpGuide1": "委員長",
+    "jpGuide2": "委員長",
+    "enGuide": "10/27 — Class representative."
+  },
+  {
+    "simpleJp": "それはできない",
+    "jpGuide1": "それはできない",
+    "jpGuide2": "それはできない",
+    "enGuide": "10/29 — Decline."
+  },
+  {
+    "simpleJp": "引き受ける",
+    "jpGuide1": "引き受ける",
+    "jpGuide2": "引き受ける",
+    "enGuide": "10/30 — Accept the request."
+  },
+  {
+    "simpleJp": "ひとりで考えたいことがある",
+    "jpGuide1": "ひとりで考えたいことがある",
+    "jpGuide2": "ひとりで考えたいことがある",
+    "enGuide": "10/30 — Say you need to think alone."
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": "10/30 — No."
+  },
+  {
+    "simpleJp": "純夏頑張れよ",
+    "jpGuide1": "純夏頑張れよ",
+    "jpGuide2": "純夏頑張れよ",
+    "enGuide": "10/31 — Encourage Sumika."
+  },
+  {
+    "simpleJp": "物理準備室に行く",
+    "jpGuide1": "物理準備室に行く",
+    "jpGuide2": "物理準備室に行く",
+    "enGuide": "11/01 — Go to the physics preparation room."
+  },
+  {
+    "simpleJp": "先に帰ってていいぞ",
+    "jpGuide1": "先に帰ってていいぞ",
+    "jpGuide2": "先に帰ってていいぞ",
+    "enGuide": "11/01 — Tell them to go home ahead."
+  },
+  {
+    "simpleJp": "委員長と帰る",
+    "jpGuide1": "委員長と帰る",
+    "jpGuide2": "委員長と帰る",
+    "enGuide": "11/02 — Go home with the class representative."
+  },
+  {
+    "simpleJp": "千鶴",
+    "jpGuide1": "千鶴",
+    "jpGuide2": "千鶴",
+    "enGuide": "11/03 — Chizuru."
+  },
+  {
+    "simpleJp": "委員長と彩峰に決まってる！",
+    "jpGuide1": "委員長と彩峰に決まってる！",
+    "jpGuide2": "委員長と彩峰に決まってる！",
+    "enGuide": "11/04 — Choose the class representative and Ayamine."
+  },
+  {
+    "simpleJp": "榊を送る",
+    "jpGuide1": "榊を送る",
+    "jpGuide2": "榊を送る",
+    "enGuide": "11/07 — Walk Sakaki home."
+  },
+  {
+    "simpleJp": "委員長を呼ぶ",
+    "jpGuide1": "委員長を呼ぶ",
+    "jpGuide2": "委員長を呼ぶ",
+    "enGuide": "11/08 — Call for the class representative."
+  },
+  {
+    "simpleJp": "何もしない",
+    "jpGuide1": "何もしない",
+    "jpGuide2": "何もしない",
+    "enGuide": "11/09 — Do nothing."
+  },
+  {
+    "simpleJp": "言えない",
+    "jpGuide1": "言えない",
+    "jpGuide2": "言えない",
+    "enGuide": "11/13 — Keep it to yourself."
+  },
+  {
+    "simpleJp": "エクストラ 榊エンド",
+    "jpGuide1": "エクストラ 榊エンド",
+    "jpGuide2": "千鶴エンド",
+    "enGuide": "Continue reading until this ending finishes."
+  }
+]

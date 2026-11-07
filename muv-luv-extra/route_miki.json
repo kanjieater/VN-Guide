@@ -1,0 +1,212 @@
+[
+  {
+    "simpleJp": "楽しかったかな",
+    "jpGuide1": "楽しかったかな",
+    "jpGuide2": "楽しかったかな",
+    "enGuide": "Start a new playthrough and choose EXTRA if the mode selector appears. 10/21 — Say it was fun."
+  },
+  {
+    "simpleJp": "ってそうじゃなくて！",
+    "jpGuide1": "ってそうじゃなくて！",
+    "jpGuide2": "ってそうじゃなくて！",
+    "enGuide": "10/22 — Reject that change of subject."
+  },
+  {
+    "simpleJp": "大ダッシュ！",
+    "jpGuide1": "大ダッシュ",
+    "jpGuide2": "大ダッシュ！",
+    "enGuide": "10/23 — Make a dash for the exit."
+  },
+  {
+    "simpleJp": "セーブ3",
+    "jpGuide1": "【セーブ３】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "10/23 — Save before selecting the next choice. Keep this checkpoint for a later route."
+  },
+  {
+    "simpleJp": "一応学食行ってみる？",
+    "jpGuide1": "一応学食行ってみる？",
+    "jpGuide2": "一応学食行ってみる？",
+    "enGuide": "10/23 — Try the cafeteria."
+  },
+  {
+    "simpleJp": "セーブ4",
+    "jpGuide1": "【セーブ４】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "10/23 — Save before selecting the next choice. Keep this checkpoint for a later route."
+  },
+  {
+    "simpleJp": "逃げる",
+    "jpGuide1": "逃げる",
+    "jpGuide2": "逃げる",
+    "enGuide": "10/23 — Run away."
+  },
+  {
+    "simpleJp": "セーブ5",
+    "jpGuide1": "【セーブ５】",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "10/23 — Save before selecting the next choice. Keep this checkpoint for a later route."
+  },
+  {
+    "simpleJp": "学校裏手",
+    "jpGuide1": "学校裏手",
+    "jpGuide2": "学校裏手",
+    "enGuide": "10/23 — Choose the back of the school."
+  },
+  {
+    "simpleJp": "逃亡する",
+    "jpGuide1": "逃亡する",
+    "jpGuide2": "逃亡する",
+    "enGuide": "10/24 — Flee."
+  },
+  {
+    "simpleJp": "物理準備室",
+    "jpGuide1": "物理準備室",
+    "jpGuide2": "物理準備室",
+    "enGuide": "10/24 — Choose the physics preparation room."
+  },
+  {
+    "simpleJp": "学校裏手に行く",
+    "jpGuide1": "学校裏手に行く",
+    "jpGuide2": "学校裏手に行く",
+    "enGuide": "10/24 — Go behind the school."
+  },
+  {
+    "simpleJp": "前進",
+    "jpGuide1": "前進",
+    "jpGuide2": "前進",
+    "enGuide": "10/24 — Advance."
+  },
+  {
+    "simpleJp": "移動を続ける",
+    "jpGuide1": "移動を続ける",
+    "jpGuide2": "移動を続ける",
+    "enGuide": "10/24 — Keep moving."
+  },
+  {
+    "simpleJp": "この距離を保ち続ける",
+    "jpGuide1": "この距離を保ち続ける",
+    "jpGuide2": "この距離を保ち続ける",
+    "enGuide": "10/24 — Maintain this distance."
+  },
+  {
+    "simpleJp": "たまでも何とか……",
+    "jpGuide1": "たまでも何とか……",
+    "jpGuide2": "たまでも何とか……",
+    "enGuide": "10/25 — Ask Tama for help."
+  },
+  {
+    "simpleJp": "たまを追いかける",
+    "jpGuide1": "たまを追いかける",
+    "jpGuide2": "たまを追いかける",
+    "enGuide": "10/25 — Follow Tama."
+  },
+  {
+    "simpleJp": "弓道場に行く",
+    "jpGuide1": "弓道場に行く",
+    "jpGuide2": "弓道場に行く",
+    "enGuide": "10/25 — Go to the archery range."
+  },
+  {
+    "simpleJp": "たまの弁当を食べる",
+    "jpGuide1": "たまの弁当を食べる",
+    "jpGuide2": "たまの弁当を食べる",
+    "enGuide": "10/26 — Eat Tama’s lunch."
+  },
+  {
+    "simpleJp": "たまだな",
+    "jpGuide1": "たまだな",
+    "jpGuide2": "たまだな",
+    "enGuide": "10/27 — Choose Tama."
+  },
+  {
+    "simpleJp": "たま",
+    "jpGuide1": "たま",
+    "jpGuide2": "たま",
+    "enGuide": "10/27 — Tama."
+  },
+  {
+    "simpleJp": "それはできない",
+    "jpGuide1": "それはできない",
+    "jpGuide2": "それはできない",
+    "enGuide": "10/29 — Decline."
+  },
+  {
+    "simpleJp": "考えさせてもらう",
+    "jpGuide1": "考えさせてもらう",
+    "jpGuide2": "考えさせてもらう",
+    "enGuide": "10/30 — Ask for time to think."
+  },
+  {
+    "simpleJp": "ひとりで考えたいことがある",
+    "jpGuide1": "ひとりで考えたいことがある",
+    "jpGuide2": "ひとりで考えたいことがある",
+    "enGuide": "10/30 — Say you need to think alone."
+  },
+  {
+    "simpleJp": "いいえ",
+    "jpGuide1": "いいえ",
+    "jpGuide2": "いいえ",
+    "enGuide": "10/30 — No."
+  },
+  {
+    "simpleJp": "引き受けない",
+    "jpGuide1": "引き受けない",
+    "jpGuide2": "引き受けない",
+    "enGuide": "10/31 — Decline the request."
+  },
+  {
+    "simpleJp": "遠距離戦だ",
+    "jpGuide1": "遠距離戦だ",
+    "jpGuide2": "遠距離戦だ",
+    "enGuide": "10/31 — Choose ranged combat."
+  },
+  {
+    "simpleJp": "屋上に行く",
+    "jpGuide1": "屋上に行く",
+    "jpGuide2": "屋上に行く",
+    "enGuide": "11/01 — Go to the rooftop."
+  },
+  {
+    "simpleJp": "たまと帰る",
+    "jpGuide1": "たまと帰る",
+    "jpGuide2": "たまと帰る",
+    "enGuide": "11/02 — Go home with Tama."
+  },
+  {
+    "simpleJp": "壬姫",
+    "jpGuide1": "壬姫",
+    "jpGuide2": "壬姫",
+    "enGuide": "11/03 — Miki."
+  },
+  {
+    "simpleJp": "たまが心配だ",
+    "jpGuide1": "たまが心配だ",
+    "jpGuide2": "たまが心配だ",
+    "enGuide": "11/04 — Express concern for Tama."
+  },
+  {
+    "simpleJp": "たまの家へ行く",
+    "jpGuide1": "たまの家へ行く",
+    "jpGuide2": "たまの家へ行く",
+    "enGuide": "11/04 — Visit Tama’s home."
+  },
+  {
+    "simpleJp": "一緒に頑張ろうぜ！",
+    "jpGuide1": "一緒に頑張ろうぜ！",
+    "jpGuide2": "一緒に頑張ろうぜ！",
+    "enGuide": "11/06 — Offer to work together."
+  },
+  {
+    "simpleJp": "思い切って声をかけよう",
+    "jpGuide1": "思い切って声をかけよう",
+    "jpGuide2": "思い切って声をかけよう",
+    "enGuide": "11/09 — Speak up and encourage her."
+  },
+  {
+    "simpleJp": "エクストラ 壬姫エンド",
+    "jpGuide1": "エクストラ 壬姫エンド",
+    "jpGuide2": "壬姫エンド",
+    "enGuide": "Continue reading until this ending finishes."
+  }
+]

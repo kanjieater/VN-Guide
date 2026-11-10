@@ -1,0 +1,237 @@
+{
+  "title": "Amagami",
+  "vndb_id": "v1281",
+  "guide_target": {
+    "label": "エビコレ＋ アマガミ（2014年1月30日・PS Vita日本語版）",
+    "platform": "PlayStation Vita",
+    "url": "https://www.kadokawa.co.jp/product/game1531/"
+  },
+  "verification_tier": "blocked",
+  "routes": [
+    {
+      "id": "ayatsuji",
+      "title": "絢辻詞ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "6人の本編。スキBEST/GOOD/BAD、ナカヨシ、ソエン、その他文書化された終幕を対象とする。"
+    },
+    {
+      "id": "sakurai",
+      "title": "桜井梨穂子ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "6人の本編。スキBEST/GOOD/BAD、ナカヨシ、ソエン、その他文書化された終幕を対象とする。"
+    },
+    {
+      "id": "tanamachi",
+      "title": "棚町薫ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "6人の本編。スキBEST/GOOD/BAD、ナカヨシ、ソエン、その他文書化された終幕を対象とする。"
+    },
+    {
+      "id": "nakata",
+      "title": "中多紗江ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "6人の本編。スキBEST/GOOD/BAD、ナカヨシ、ソエン2種の差分を明示する必要がある。"
+    },
+    {
+      "id": "nanasaki",
+      "title": "七咲逢ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "6人の本編。スキBEST/GOOD/BAD、ナカヨシ、ソエン、その他文書化された終幕を対象とする。"
+    },
+    {
+      "id": "morishima",
+      "title": "森島はるかルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "6人の本編。スキBEST/GOOD/BAD、ナカヨシ、ソエン、その他文書化された終幕を対象とする。"
+    },
+    {
+      "id": "kamizaki",
+      "title": "上崎裡沙ルート",
+      "portrait": "",
+      "prerequisites": [
+        "メイン6人全員のスキENDまたはナカヨシENDをクリア"
+      ],
+      "is_true_ending": false,
+      "notes": "隠しルート。BEST、文書化されたBADと分岐を調査。既存のスキ状態/嫉妬イベントとの相互作用がある。"
+    },
+    {
+      "id": "miya",
+      "title": "橘美也ルート",
+      "portrait": "",
+      "prerequisites": [
+        "上崎ルートの所定分岐で「他に好きな子がいる」を選んでクリア"
+      ],
+      "is_true_ending": false,
+      "notes": "隠しルート。攻略対象のエンディングとカーテンコール/全エピローグ解放の判定を区別する。"
+    }
+  ],
+  "recommended_order": [
+    "ayatsuji",
+    "sakurai",
+    "tanamachi",
+    "nakata",
+    "nanasaki",
+    "morishima",
+    "kamizaki",
+    "miya"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/",
+      "title": "アマガミ 攻略情報センター（各キャラ・LEVEL別総合索引）",
+      "language": "ja",
+      "notes": "直接閲覧。2009原版、2011エビコレ＋、2014 Vita版を明記。6人のキャラ別デアイ/アコガレ/シリアイ/スキ/ナカヨシ/ソエン、隠しキャラ、エンディング分岐と各座標のページを用意。キャラクターごとの一周全時刻を確定する単一の完全実行チャートではないため、未照合のルートstepには使用不可。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/ending.html",
+      "title": "エンディングまとめ",
+      "language": "ja",
+      "notes": "直接閲覧。Vitaカーテンコール、6人のBEST/GOOD/BAD/ナカヨシ/ソエンと上崎・美也の分岐を説明。序盤全手順を示す資料ではない。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/chart_ayatuji_suki.html",
+      "title": "絢辻詞（スキ）",
+      "language": "ja",
+      "notes": "直接閲覧。26～39日目のイベント座標/時間帯と星取得条件を記載。ほかの段階、会話成功条件などを補完せずには全ルートにならない。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/chart_sonota.html",
+      "title": "隠しキャラ",
+      "language": "ja",
+      "notes": "直接閲覧。上崎・美也の隠しルートページ。全ルート解放/個別実行条件の再照合が必要。"
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/amagami/pages/98.html",
+      "title": "アマガミ*Amagami @wiki — 基本システム",
+      "language": "ja",
+      "notes": "直接閲覧、game-kouryaku.infoとは別サイト・コミュニティ編集。同時スキ2人、BEST/GOOD/BAD、各クラス/ソエンを補強。ただし本ページは通しの独立Vita選択肢攻略ではなく構造資料。"
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/amagami/pages/41.html",
+      "title": "@wiki — クリア後追加一覧",
+      "language": "ja",
+      "notes": "直接閲覧。隠しルートとカーテンコール/フルコンプリート解禁。Vitaでの一周全イベント選択列ではない。"
+    },
+    {
+      "set": "B",
+      "url": "https://w.atwiki.jp/amagami/pages/24.html",
+      "title": "@wiki — ？？？（隠しルート）",
+      "language": "ja",
+      "notes": "直接閲覧。上崎イベントの座標/発生日/条件、エビコレ改変に言及。版別条件差の再照合が必要。"
+    },
+    {
+      "url": "https://note.com/heikin_fan_club/n/ne80b505878c5",
+      "title": "ゲーム版アマガミの全エピローグルート — 0xwas",
+      "language": "ja",
+      "notes": "2025年著者独自の全エピローグ最適化記録、全文を直接閲覧。エビコレ版なら機種を問わず適用と明記し、日にち/座標/セーブ/戻り手順を提供。選択肢は番号指定で日本語のゲーム内原文を載せないことが多い。著者はwiki等を参照したと明記しており、元サイトと完全独立の逐語Set Bとは認定しない。併載動画は根拠に使用しない。"
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/faq",
+      "title": "Amagami Guide and Walkthrough — HansyToadsworth",
+      "language": "en",
+      "notes": "別著者による英文のゲームシステム/キャラ/攻略ガイドを検索結果で直接検討。見出しはPS2 Guide; Vitaエビコレの差分未全面確認と本人が明言。Vita完全実行経路の独立英文Eとしては不適格。一般説明の補足資料としてのみ使用し、和文choicesには使わない。"
+    },
+    {
+      "url": "https://www.kadokawa.co.jp/product/game1531/",
+      "title": "KADOKAWA PS Vita版公式製品情報",
+      "language": "ja",
+      "notes": "直接閲覧。2014-01-30、日本語PS Vitaの正確な公式版を特定。PS2/PSPとは異なるリリース。"
+    },
+    {
+      "url": "https://www.ebay.com/p/200856203",
+      "title": "PS Vita商品パッケージ写真",
+      "language": "en",
+      "notes": "表紙の直接画像を閲覧。Vitaロゴ/絢辻詞/CERO Dの縦長版ジャケットが2014 Vita商品と一致。VNDBの直接画像は取得不能のため暫定表紙。"
+    }
+  ],
+  "source_search": {
+    "checked_at": "2026-11-09T21:31:00-06:00",
+    "secondary_japanese": {
+      "status": "found",
+      "queries": [
+        "エビコレ+ アマガミ PS Vita 攻略 森島 はるか 絢辻 詞 棚町 薫 中多 紗江 七咲 逢 桜井 梨穂子",
+        "アマガミ vita 攻略 全ルート 完全 スキ ベスト ナカヨシ エンディング",
+        "アマガミ Vita 攻略 キャラ別 BEST ナカヨシ 攻略サイト 独立",
+        "アマガミ PSVita 攻略 全キャラ 40日 チャート site:atwiki.jp",
+        "アマガミ エビコレ Vita 攻略 34 エンディング すべて 攻略手順 2つ",
+        "エビコレ+アマガミ Vita 攻略チャート 全イベント 全ヒロイン 2014"
+      ],
+      "sites_checked": [
+        "game-kouryaku.info/amagami",
+        "w.atwiki.jp/amagami",
+        "note.com/heikin_fan_club",
+        "buruheku-gameplaydiary.com"
+      ],
+      "candidates": [
+        {
+          "url": "https://game-kouryaku.info/amagami/",
+          "assessment": "Japanese Set A candidate. Explicitly lists PS Vita and route/ending pages; source components need assembly into uninterrupted state-validated 2014 Vita choices and map events."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/98.html",
+          "assessment": "Independent JP wiki B candidate; directly inspected system and ending conditions, but not a complete authored PS Vita step-by-step guide."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/24.html",
+          "assessment": "Independent wiki B component for hidden-route choices/conditions; Ebi changes discussed, not complete across all characters."
+        },
+        {
+          "url": "https://note.com/heikin_fan_club/n/ne80b505878c5",
+          "assessment": "2015? No: published 2025-12-15. Explicitly Ebi any-platform. Complete ending-coordinate speedrun chart; many choices as ordinal numbers, not verbatim Japanese; author acknowledges using wiki, derivative risk for second independent literal source."
+        },
+        {
+          "url": "https://buruheku-gameplaydiary.com/psvita-amagami-playdiary-ayatsuji-1",
+          "assessment": "2015 firsthand Vita written play diary, directly inspected first week of Ayatsuji. Not a complete independently inspectable multi-route 2014 Vita walkthrough."
+        }
+      ]
+    },
+    "english_walkthrough": {
+      "status": "not_found_after_search",
+      "queries": [
+        "Amagami Ebikore Plus Vita walkthrough English all routes guide",
+        "Amagami complete English walkthrough Vita route translation guide GameFAQs",
+        "Amagami PSVita攻略 English GameFAQs all endings",
+        "site:gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246 Walkthrough Day",
+        "Amagami Vita guide English routes endings choice by choice"
+      ],
+      "sites_checked": [
+        "GameFAQs (Vita listing, HansyToadsworth guide and individual indexed sections)",
+        "General English-written walkthrough search"
+      ],
+      "candidates": [
+        {
+          "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/faq",
+          "assessment": "Independently written English source. Guide itself titled (PS2); author explicitly says Vita Ebi changes not entirely known. Gameplay commentary and outcome structure useful, but not a verified complete Vita-compatible route-by-route E."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/day-1-day-11",
+          "assessment": "Original English day-guide section inspected by search excerpt; generic strategic advice rather than a fixed Vita-compatible exact-choice route."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/data",
+          "assessment": "Vita release metadata (VLJM-35087 / PCSG-00291), not a walkthrough."
+        }
+      ]
+    }
+  },
+  "disagreements": "GATE BLOCKED: Caller explicitly selected 2014 Vita エビコレ＋ (VLJM-35087/PCSG-00291); do not switch to 2009 PS2 or 2011 PSP. Written Japanese A includes route/event coordinates, exact choice fragments and ending conditions and acknowledges Vita; independent JP wiki supplies mechanics/partial routes, while 0xwas supplies a complete Ebi-edition all-epilogue schedule explicitly compatible with Vita. However, no single independently inspected Japanese A corpus yet establishes every exact in-game choice, map/time interaction, conversation/Attack success state, source-backed save and reload step for all main-six and hidden ending paths as a consistent executable run. The 0xwas chart abbreviates most choices to 1/2/3 and states wiki dependency; cannot fabricate Japanese text or treat it as independent literal Set B. English GameFAQs principally targets original PS2 and expressly leaves Vita differences uncertain; do not treat as exact-Vita E. Normal VN-Guide simpleJp requires literal menu text, whereas critical Amagami gameplay depends on selecting map coordinates, timetables and conversations; an appropriate repo-approved representation must be established without mislabelling invented prose as exact choice text. An independent edition-specific, full state-path reconciliation and verified portraits are required before route generation. No owner exception identified. Cover: directly viewed exact Vita box image fallback after VNDB direct access was blocked; portraits: official character catalog verified at https://www.amagami.info/chara.html, but individual original image URLs have not been validated, so blank rather than guessed paths. Note: main 6×(SUKI BEST/GOOD/BAD, NAKAYOSHI, SOEN), Sae's second SOEN, Kamizaki and Miya are all planned; this is not a finished guide.",
+  "generated_at": "2026-11-09T21:31:00-06:00"
+}

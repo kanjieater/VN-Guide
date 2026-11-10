@@ -369,7 +369,7 @@
     "simpleJp": "桐島先輩の名を呼ぶ",
     "jpGuide1": "桐島先輩の名を呼ぶ",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Set A includes this intermediate prompt before いいえ → はい → 更に名前を呼ぶ. Set B omits this prompt on its successful path; the preceding state may differ. Follow it if shown; exact same-state applicability remains unverified."
+    "enGuide": "Source-backed conditional handling: if 桐島先輩の名を呼ぶ appears following 迷惑ではない, choose it, as Set A documents. Otherwise skip this nonexistent prompt and continue with the common いいえ → はい → 更に名前を呼ぶ sequence; Set B, maistar and HalfAdder independently describe that successful shorter path. Do not guess a substitute option. Independent structural and accuracy re-review required."
   },
   {
     "simpleJp": "いいえ",

@@ -27,7 +27,7 @@
     "simpleJp": "いいえ",
     "jpGuide1": "いいえ",
     "jpGuide2": "はい",
-    "enGuide": "Set A says いいえ here; Set B says はい. Both lead to the Chiyo ending along their own walkthrough. Exact branch-state dependence is not verified."
+    "enGuide": "Third-source reconciliation: follow the complete Set-A Save9 branch 意識しない → 迷惑 → 千代の名を呼ぶ → いいえ → 自分から話を切り出す. Independent HalfAdder documents the same local successful sequence (Vita-only mizukinoko also selects いいえ); Set B and maistar use はい with different earlier decisions. Both source lanes preserved. Independent accuracy re-review required."
   },
   {
     "simpleJp": "自分から話を切り出す",

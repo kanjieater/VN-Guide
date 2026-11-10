@@ -81,31 +81,29 @@
       "notes": "直接閲覧。上崎・美也の隠しルートページ。全ルート解放/個別実行条件の再照合が必要。"
     },
     {
-      "set": "B",
       "url": "https://w.atwiki.jp/amagami/pages/98.html",
       "title": "アマガミ*Amagami @wiki — 基本システム",
       "language": "ja",
-      "notes": "直接閲覧、game-kouryaku.infoとは別サイト・コミュニティ編集。同時スキ2人、BEST/GOOD/BAD、各クラス/ソエンを補強。ただし本ページは通しの独立Vita選択肢攻略ではなく構造資料。"
+      "notes": "補助的な独立サイト証拠（元は2009年フルプライスPS2準拠。エビコレ＋差分は別紙で確認が必要）。同時スキ2人、BEST/GOOD/BAD、各クラス/ソエンを補強。ただし本ページは通しの独立Vita選択肢攻略ではなく構造資料。"
     },
     {
-      "set": "B",
       "url": "https://w.atwiki.jp/amagami/pages/41.html",
       "title": "@wiki — クリア後追加一覧",
       "language": "ja",
-      "notes": "直接閲覧。隠しルートとカーテンコール/フルコンプリート解禁。Vitaでの一周全イベント選択列ではない。"
+      "notes": "補助的な独立サイト証拠（元は2009年フルプライスPS2準拠。エビコレ＋差分は別紙で確認が必要）。直接閲覧。隠しルートとカーテンコール/フルコンプリート解禁。Vitaでの一周全イベント選択列ではない。"
     },
     {
-      "set": "B",
       "url": "https://w.atwiki.jp/amagami/pages/24.html",
       "title": "@wiki — ？？？（隠しルート）",
       "language": "ja",
-      "notes": "直接閲覧。上崎イベントの座標/発生日/条件、エビコレ改変に言及。版別条件差の再照合が必要。"
+      "notes": "補助的な独立サイト証拠（元は2009年フルプライスPS2準拠。エビコレ＋差分は別紙で確認が必要）。直接閲覧。上崎イベントの座標/発生日/条件、エビコレ改変に言及。版別条件差の再照合が必要。"
     },
     {
       "url": "https://note.com/heikin_fan_club/n/ne80b505878c5",
       "title": "ゲーム版アマガミの全エピローグルート — 0xwas",
       "language": "ja",
-      "notes": "2025年著者独自の全エピローグ最適化記録、全文を直接閲覧。エビコレ版なら機種を問わず適用と明記し、日にち/座標/セーブ/戻り手順を提供。選択肢は番号指定で日本語のゲーム内原文を載せないことが多い。著者はwiki等を参照したと明記しており、元サイトと完全独立の逐語Set Bとは認定しない。併載動画は根拠に使用しない。"
+      "notes": "2025-12-15執筆者の独自エビコレ全エピローグ・日別行動マップ／保存分岐順序（Vita適用を本文明示）。コミュニティwikiなどを参照して自分で経路を構築したと説明し、サイトAを翻訳・転載したものではない。ソースAとは独立した経路設計として扱うが、会話文言を1/2/3で省略するため全literal choiceの検証には使用できない。リンク先動画は根拠から除外。",
+      "set": "B"
     },
     {
       "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/faq",
@@ -124,6 +122,43 @@
       "title": "PS Vita商品パッケージ写真",
       "language": "en",
       "notes": "表紙の直接画像を閲覧。Vitaロゴ/絢辻詞/CERO Dの縦長版ジャケットが2014 Vita商品と一致。VNDBの直接画像は取得不能のため暫定表紙。"
+    },
+    {
+      "set": "B",
+      "url": "https://game-kouryaku.info/amagami/hukusuu_suki.html",
+      "title": "LEVEL3スキ絢辻＆棚町同時攻略",
+      "language": "ja",
+      "notes": "独立の同時攻略日付・マップ・★/涙イベント、41日目分岐。Vita版エビコレに言及。日別全ヒロイン用の照合セット部品として直接確認。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/91.html",
+      "title": "エビコレ＋版 イベント変更点",
+      "language": "ja",
+      "notes": "独立したPS2フルプライスとの差分リスト。信頼関係イベント、上崎妨害回避・追加イベントとVita版の適用注意。完全攻略ではなく相違監査。"
+    },
+    {
+      "url": "https://lm8.hatenablog.com/entry/2026/05/31/230051",
+      "title": "アマガミ 配信・視聴者用 よくある誤解と全体像",
+      "language": "ja",
+      "notes": "独立した2026年日本語書面の結末・システム解説。正式な全エピローグ34シナリオと6ヒロイン＋追加中多ソエン/上崎BEST/BAD/美也を整理。具体的な通しルートではない。"
+    },
+    {
+      "url": "https://www.amagami.info/intro03.html",
+      "title": "アマガミ公式 ゲームの流れ",
+      "language": "ja",
+      "notes": "4つの時間帯行動マップを公式が説明。Vita仕様の全部を保証する独立攻略ソースではない。"
+    },
+    {
+      "url": "https://game-kouryaku.info/amagami/chart_nakata_soen.html",
+      "title": "中多紗江 ソエン",
+      "language": "ja",
+      "notes": "分岐選択で変わる別CGと再クリア条件、各地図座標が書かれている。ソエン2 variantsの照合根拠。"
+    },
+    {
+      "url": "https://game-kouryaku.info/amagami/hukusuu_deai.html",
+      "title": "複数キャラ攻略 LEVEL1",
+      "language": "ja",
+      "notes": "同時攻略の最初の11日の行動/チェックポイント。個別の第三者確認を要する版別箇所が残る。"
     }
   ],
   "generated_at": "2026-11-09T21:31:00-06:00",

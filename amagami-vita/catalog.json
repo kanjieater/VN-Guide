@@ -1,0 +1,18 @@
+{
+  "vndb_id": "v1281",
+  "title": "Amagami",
+  "alttitle": "エビコレ＋ アマガミ",
+  "cover_url": "https://i.ebayimg.com/images/g/cPQAAOSwI~VTzjcB/s-l1600.jpg",
+  "cover_selection": {
+    "source": "Verified physical PS Vita packaging image (secondary marketplace fallback)",
+    "verification_url": "https://www.ebay.com/p/200856203",
+    "reason": "Vita package front explicitly shows PS VITA, CERO D, and the 2014 KADOKAWA jacket. Exact-release VNDB image/CDN could not be directly inspected (site blocked); this is not a PS2/PSP cover. Prefer verified VNDB release portrait or publisher direct image if later available."
+  },
+  "added_at": "2026-11-09T21:31:00-06:00",
+  "guide_target": {
+    "label": "エビコレ＋ アマガミ（2014年1月30日・PS Vita日本語版）",
+    "platform": "PlayStation Vita",
+    "url": "https://www.kadokawa.co.jp/product/game1531/"
+  },
+  "guide_target_origin": "caller_explicit"
+}

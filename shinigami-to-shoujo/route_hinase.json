@@ -621,7 +621,7 @@
     "simpleJp": "はい",
     "jpGuide1": "はい",
     "jpGuide2": "いいえ",
-    "enGuide": "Set A chooses はい here; Set B chooses いいえ at the corresponding post-chase choice. Both walkthroughs reach Hinase's ending, but the branch-state dependence is unresolved; this is not a verified exact-target choice."
+    "enGuide": "Third-source reconciliation: follow the COMPLETE Set-A saved-state route, including 後を追いかける → はい, through 日生-結末. Independent older Japanese ちま full-ED chart also records a successful はい path. Set B, maistar and HalfAdder record いいえ on other preceding choice sequences; do not splice an isolated answer from a different route state into this Set-A path. Source differences remain quoted faithfully; independent accuracy re-review required."
   },
   {
     "simpleJp": "王子様は王子様だ",

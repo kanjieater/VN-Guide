@@ -2,6 +2,12 @@
 
 > **Status: RESEARCH / NOT YET A PLAYER-EXECUTABLE ROUTE GUIDE.** This is an author-owned source-checked completion plan, not a substitute for the required `route_*.json` arrays. It targets the **2014 Japanese PS Vita edition only**. Every route remains unreviewed.
 
+## Scope: ending-complete, NOT CG/event-complete
+
+**Owner requirement (2026-11-10):** deliver every distinct ending/epilogue for the exact 2014 Japanese PS Vita EbiColle release. Exclude optional CG-gallery completion, scene/event-map 100%, conversation/attack variations that do not change ending access, and arbitrary all-event unlocks. Include only conversation/attack or map events **required to reach an ending**. Treat the 0xwas written all-epilogue itinerary as the principal EbiColle-compatible execution schedule, then corroborate material branches and Japanese choice text against independent written sources. Its author explicitly says the gallery remains mostly incomplete, which is acceptable for this project.
+
+**Completion accounting:** 30 main-heroine standard outcomes (6×5), plus 紗江's second ソエン, 上崎's BEST and two distinct BAD outcomes, and 美也 = **35 distinct ending outcomes** to cover in the player guide; **34 formal epilogues** in the separate 2026 taxonomy. Do not drop the additional 上崎 BAD just because it is not counted among 34 formal epilogues. Mark formal-versus-supplemental clearly; avoid claiming CG 100%.
+
 ## What “complete” means
 
 The primary `オールエピローグコンプリート` condition covers the formal ending families below. The separate all-characters / Vita `カーテンコール` milestone requires all six main heroines' `スキ BEST` *and* `ナカヨシ` clear records, plus 上崎 and 美也. Clearing an ending alone does **not** guarantee a 100%-unlocked scene gallery; optional `アタック` variations and certain missed events require additional runs.
@@ -17,7 +23,7 @@ The primary `オールエピローグコンプリート` condition covers the fo
 | 上崎裡沙 | BEST and a formal BAD epilogue | A separate earlier failure/BAD is documented by a speedrun chart; check whether it is a formal epilogue or an incidental ending |
 | 橘美也 | hidden epilogue | Requires the post-上崎 unlock choice and avoidance of main-heroine Christmas commitments |
 
-This is **34 formal epilogues** as enumerated by a separate 2026 Japanese-written overview: 6×5 = 30, one extra 紗江 ソエン = 31, 上崎 BEST/BAD = 33, 美也 = 34. The 2025 optimized written itinerary instead groups **three** 上崎 endings in its cleanup; that additional failure path must be preserved as **supplemental**, not silently counted as a second mandatory formal BAD. Resolve exact gallery-count semantics against game/achievement evidence before marking 100% complete.
+This is **34 formal epilogues** as enumerated by a separate 2026 Japanese-written overview: 6×5 = 30, one extra 紗江 ソエン = 31, 上崎 BEST/BAD = 33, 美也 = 34. The 2025 optimized written itinerary instead groups **three** 上崎 endings in its cleanup; that additional failure path must be preserved as **supplemental**, not silently counted as a second mandatory formal BAD. For ending-complete scope, include the supplemental 上崎 BAD as a separate path. Formal-versus-supplemental classification must not block documenting a source-confirmed distinct ending.
 
 ## Core gameplay rules to turn into route steps
 

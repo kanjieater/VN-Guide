@@ -1,9 +1,9 @@
 [
   {
-    "simpleJp": "After recording all six ナカヨシ clear records, ロード A1 at D5. System clear data must persist.",
+    "simpleJp": "セーブ1をロードし、6人のナカヨシENDのシステムクリア記録を保持した状態で5日目から再開する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "jpGuide2": "絢辻＋中多＋上崎　セーブ(1)から",
+    "enGuide": "The hidden-character option appears only after all six prior friend/BEST clear records are persisted."
   },
   {
     "simpleJp": "D05：イベントを選ばず進める",
@@ -18,10 +18,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D05：マップ座標 31,39(絢) [休3=1] を選ぶ",
+    "simpleJp": "D05：マップ(31,39)の絢辻イベントを実行する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "31,39",
+    "jpGuide2": "31,39(絢)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D05：休3強制イベントで「彼女と二人でクリスマス…なんて事が」（上から1番目）を選ぶ",
+    "jpGuide1": "彼女と二人でクリスマス…なんて事が",
+    "jpGuide2": "休3選択肢は1",
+    "enGuide": "Enter Kamizaki's hidden route without changing the pinned edition."
   },
   {
     "simpleJp": "D06：マップ座標 28,28(中) を選ぶ",
@@ -510,9 +516,9 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：強制イベント(1)",
+    "simpleJp": "D40：休3の強制イベントで上から1番目を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "強制",
+    "jpGuide2": "強制(1、その後以下の手順で上崎エピローグ3つ全部見る)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
@@ -612,7 +618,7 @@
     "jpGuide1": "二人で過ごそう",
     "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
     "enGuide": "This is the formal BAD epilogue required for all-epilogue completion.",
-    "badEndPath": "上崎・正式BADエピローグ"
+    "badEnd": "正式BADエピローグ（全エピローグ対象）"
   },
   {
     "simpleJp": "D41：上崎の正式BAD ENDを最後まで確認しシステムセーブする",
@@ -621,17 +627,16 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ8をロードして美也解禁用の40日目強制イベントへ戻る",
+    "simpleJp": "上崎の2つの正式エピローグを記録したら、行動マップの「今朝に戻る」で40日目の朝に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "BESTBAD両方終わったらマップから今朝に戻る。",
-    "enGuide": "Reset before the hidden unlock decision.",
-    "isLoad": true
+    "enGuide": "This is the source-documented morning return; do not instead reload day 39."
   },
   {
-    "simpleJp": "D39：セーブ8から、残りの時間を進めて40日目の上崎強制イベントに進む",
+    "simpleJp": "D40：イベントを選ばず2回進めてから休3の強制イベントへ進む",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "セーブ(2)ロード",
-    "enGuide": ""
+    "jpGuide2": "40　なし*2→強制(1→2)",
+    "enGuide": "Keep the Ayatsuji/Nakata dual-star preparation intact."
   },
   {
     "simpleJp": "D40：上崎の強制イベントで「こうしちゃいられない。急いで行かなくちゃ」を選ぶ",
@@ -646,7 +651,7 @@
     "enGuide": "This unlocks Miya's added day-five option after saving completion data."
   },
   {
-    "simpleJp": "D40：クリアを最後まで確認して、システムセーブする",
+    "simpleJp": "D40：上崎の恋愛ルートが終了したことを確認し、中多・絢辻の分岐イベントへ進む。クリアデータは各END後にシステムセーブする",
     "jpGuide1": "美也ルート出現条件",
     "jpGuide2": "この後の選択肢で美也ルート解禁。",
     "enGuide": ""

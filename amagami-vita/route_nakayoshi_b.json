@@ -522,10 +522,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D37：中多の(05,09)では「好きにしろよ」（上から1番目）を選ぶ。次の(03,09)イベントを実行する",
+    "simpleJp": "D37：中多の(05,09)では「好きにしろよ」（上から1番目）を選ぶ",
+    "jpGuide1": "「好きにしろよ」を選んだ場合のみ",
+    "jpGuide2": "05,09(中、選択肢以下を参照)",
+    "enGuide": "Set A confirms the exact option; this is the first branch before the separate (03,09) map event."
+  },
+  {
+    "simpleJp": "D37：続いて中多のマップイベント(03,09)を選ぶ",
     "jpGuide1": "「好きにしろよ」を選んだ場合のみ",
     "jpGuide2": "(1) 37　03,09(中)",
-    "enGuide": "Exact option wording is corroborated by Set A chart_nakata_soen; the (03,09) event only appears for this answer."
+    "enGuide": "This map action is available only after the first answer; omit it on the alternate Save7 branch."
   },
   {
     "simpleJp": "D38：イベントを選ばず進める×2",

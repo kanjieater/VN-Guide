@@ -393,13 +393,15 @@
     "simpleJp": "D42：告白する相手として棚町薫を選び、棚町薫のスキBAD ENDを見てシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
-    "enGuide": "Confess to the person stood up for BAD."
+    "enGuide": "Confess to the person stood up for BAD.",
+    "badEndPath": "棚町薫・スキBAD"
   },
   {
     "simpleJp": "セーブ15をロードし、41日目の2人が★の状態のデート選択へ戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(4)をロードしてもう片方を見る",
-    "enGuide": "This is a save reload to change the dated heroine, not 今朝に戻る."
+    "enGuide": "This is a save reload to change the dated heroine, not 今朝に戻る.",
+    "isLoad": true
   },
   {
     "simpleJp": "D41：★の付いた「棚町薫」のクリスマスデートイベントを選ぶ",
@@ -423,13 +425,15 @@
     "simpleJp": "D42：告白する相手として桜井梨穂子を選び、桜井梨穂子のスキBAD ENDを見てシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
-    "enGuide": "Confess to the person stood up for BAD."
+    "enGuide": "Confess to the person stood up for BAD.",
+    "badEndPath": "桜井梨穂子・スキBAD"
   },
   {
     "simpleJp": "セーブ14をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact.",
+    "isLoad": true
   },
   {
     "simpleJp": "D40：なし×2",

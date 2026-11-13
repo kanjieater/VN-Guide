@@ -531,7 +531,7 @@
     "simpleJp": "D40：マップ座標 02,33(⚠ source heroine annotation garbled, 任意) を選ぶ",
     "jpGuide1": "原典の記載：02,33(⚠ source heroine annotation garbled, 任意)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D40：choose each documented next option in separate replays to see 上崎 BEST and formal BAD",
@@ -597,7 +597,7 @@
     "simpleJp": "ロード D41; choose other D41 date and alternate D42 confession target for 絢辻 GOOD and 中多 BAD",
     "jpGuide1": "原典の記載：LOAD D41; choose other D41 date and alternate D42 confession target for 絢辻 GOOD and 中多 BAD",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Save before day-41 date selection; date heroine A/B, then day-42 confession to dated heroine = GOOD, other = BAD. Return to morning for other confession; load checkpoint for alternate date."
   },
   {
     "simpleJp": "ロード D40S",
@@ -606,7 +606,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D40 なし",
+    "simpleJp": "D40：なし",
     "jpGuide1": "原典の記載：D40 なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -618,7 +618,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D41 54,54 = 絢辻 BEST",
+    "simpleJp": "D41：54,54 = 絢辻 BEST",
     "jpGuide1": "原典の記載：D41 54,54 = 絢辻 BEST",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -630,13 +630,13 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D39 なし×2",
+    "simpleJp": "D39：なし×2",
     "jpGuide1": "原典の記載：D39 なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D40 なし",
+    "simpleJp": "D40：なし",
     "jpGuide1": "原典の記載：D40 なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -660,7 +660,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D41 11,12 = 中多 BEST",
+    "simpleJp": "D41：11,12 = 中多 BEST",
     "jpGuide1": "原典の記載：D41 11,12 = 中多 BEST",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

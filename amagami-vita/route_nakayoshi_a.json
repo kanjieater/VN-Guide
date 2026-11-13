@@ -315,7 +315,7 @@
     "simpleJp": "D33：⚠ source prints “*2” without the action it repeats",
     "jpGuide1": "原典の記載：⚠ source prints “*2” without the action it repeats",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D33：マップ座標 21,10(桜) を選ぶ",
@@ -528,7 +528,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：completion/map: 今朝に戻る twice to view all three ソエン",
+    "simpleJp": "D41：行動が実行されました画面で「今朝に戻る」を2回選び、ソエン3人を回収",
     "jpGuide1": "原典の記載：completion/map: 今朝に戻る twice to view all three ソエン",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

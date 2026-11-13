@@ -1,8 +1,8 @@
 [
   {
-    "simpleJp": "ロード E19:",
+    "simpleJp": "セーブ12をロードして19日目の七咲・森島スキ分岐を開始する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "七咲＋森島　セーブ1から",
     "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
@@ -258,10 +258,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D37：座標14,42の会話イベントを選び、話題を 世間話 → 娯楽 → 娯楽 → 食べ物 → アタック の順に選ぶ",
+    "simpleJp": "D37：会話(14,42)では通常「世間話 → 娯楽 → 娯楽 → 食べ物 → アタック」の順に選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "世娯娯食ア",
+    "jpGuide2": "14,42(世娯娯食ア)",
     "enGuide": "Verified compact conversation-topic sequence from the written EbiColle itinerary; topic names match the game's official conversation-menu list. This is not corrupted text."
+  },
+  {
+    "simpleJp": "D37：開始テンションがMidの場合のみ最初の2話題は「運動 → 娯楽」に切り替える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "最初midの場合は運娯、Low,Hiはそのまま",
+    "enGuide": "Conditional variation printed in 0xwas; Low/Hi keep normal sequence."
   },
   {
     "simpleJp": "D38：イベントを選ばず進める×4",

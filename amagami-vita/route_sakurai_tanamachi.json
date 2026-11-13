@@ -81,7 +81,7 @@
     "simpleJp": "D25：マップ座標 52,22(⚠ garbled annotation) を選ぶ",
     "jpGuide1": "原典の記載：52,22(⚠ garbled annotation)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D25：イベントを選ばず進める",
@@ -237,7 +237,7 @@
     "simpleJp": "D37：マップ座標 55,19(棚,⚠ garbled annotation) を選ぶ",
     "jpGuide1": "原典の記載：55,19(棚,⚠ garbled annotation)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D37：マップ座標 31,11(桜,1) を選ぶ",
@@ -318,7 +318,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D40 なし×2",
+    "simpleJp": "D40：なし×2",
     "jpGuide1": "原典の記載：D40 なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -330,7 +330,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D41 36,05 = 桜井 BEST",
+    "simpleJp": "D41：36,05 = 桜井 BEST",
     "jpGuide1": "原典の記載：D41 36,05 = 桜井 BEST",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -342,13 +342,13 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D39 なし",
+    "simpleJp": "D39：なし",
     "jpGuide1": "原典の記載：D39 なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D40 58,18(棚)",
+    "simpleJp": "D40：58,18(棚)",
     "jpGuide1": "原典の記載：D40 58,18(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -366,7 +366,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D41 54,14 = 棚町 BEST",
+    "simpleJp": "D41：54,14 = 棚町 BEST",
     "jpGuide1": "原典の記載：D41 54,14 = 棚町 BEST",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

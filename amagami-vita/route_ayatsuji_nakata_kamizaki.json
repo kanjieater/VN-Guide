@@ -468,10 +468,10 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "8：セーブ8",
+    "simpleJp": "D39：セーブ8（この時点の分岐データを保持）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(2)",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": ""
   },
   {
     "simpleJp": "D39：マップ座標 49,52(絢) を選ぶ",
@@ -498,16 +498,34 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：上崎 events: choose third option in each printed prompt",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "simpleJp": "D40：上崎の強制イベントで「こうしちゃいられない。急いで行かなくちゃ」を選ぶ",
+    "jpGuide1": "こうしちゃいられない。急いで行かなくちゃ",
+    "jpGuide2": "強制(1)",
+    "enGuide": ""
   },
   {
-    "simpleJp": "D40：After event セーブ9",
+    "simpleJp": "D40：上崎からの質問「いつから僕のことを」を確認する",
+    "jpGuide1": "いつから僕のことを",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D40：残りの質問「どうして僕のことを」「何時の間に手紙を」を順に確認する",
+    "jpGuide1": "どうして僕のことを",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": "Both question prompts must be exhausted; all are eventually selected."
+  },
+  {
+    "simpleJp": "D40：「上崎さん本気みたいだし付き合ってもいいかな」を選ぶ",
+    "jpGuide1": "上崎さん本気みたいだし付き合ってもいいかな",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": "Third final relationship choice."
+  },
+  {
+    "simpleJp": "D40：セーブ9（昼の上崎会話前。上書きしない）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(3)",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": ""
   },
   {
     "simpleJp": "D40：イベントを選ばず進める",
@@ -516,52 +534,104 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：上崎 sudden BAD",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "simpleJp": "D40：会話アイコン(02,33)を選ばず、時間を進める",
+    "jpGuide1": "ここで会話アイコンを実行しないとBAD ENDになる。",
+    "jpGuide2": "なし→1つ目BAD(上崎)",
+    "enGuide": "Source-backed sudden failure; distinct from the formal Christmas BAD.",
+    "badEndPath": "上崎・追加突発BAD"
   },
   {
-    "simpleJp": "ロード D40K",
+    "simpleJp": "D40〜41：上崎の突発BAD ENDを最後まで確認し、システム記録を保存する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "jpGuide2": "1つ目BAD(上崎)",
+    "enGuide": "Supplemental failure outcome."
   },
   {
-    "simpleJp": "D40：座標02,33の会話イベントを選び、話題を お → お → お → 世間話 → 世間話 の順に選ぶ",
+    "simpleJp": "セーブ9をロードして40日目の会話直前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "おおお世世",
-    "enGuide": "Verified compact conversation-topic sequence from the written EbiColle itinerary; topic names match the game's official conversation-menu list. This is not corrupted text."
+    "jpGuide2": "セーブ3ロードして",
+    "enGuide": "Save-backed detour returns here.",
+    "isLoad": true
   },
   {
-    "simpleJp": "D40：choose each documented next option in separate replays to see 上崎 BEST and formal BAD",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "simpleJp": "D40：昼の会話アイコン(02,33)を必ず選ぶ",
+    "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": "The attack occurs automatically regardless of chosen topics; completing this conversation is mandatory."
   },
   {
-    "simpleJp": "D40：After both, 今朝に戻る; next choice unlocks 美也",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "simpleJp": "D40：上崎との会話モードを完了する（アタックは自動発生）",
+    "jpGuide1": "会話モードでは話題の選択にかかわらずアタックが実行される。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": "No need to copy the source's unexpanded topic mnemonic."
   },
   {
-    "simpleJp": "D40：イベントを選ばず進める×2",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "なし",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "simpleJp": "D41：クリスマスイベントで「理由を教えてほしい。二人で一緒に解決したい」を選ぶ",
+    "jpGuide1": "理由を教えてほしい。二人で一緒に解決したい",
+    "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
+    "enGuide": ""
   },
   {
-    "simpleJp": "D40：強制イベント(1",
+    "simpleJp": "D41：上崎スキBEST ENDを確認しシステムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "強制",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "BESTBAD両エンド見る",
+    "enGuide": ""
   },
   {
-    "simpleJp": "D40：2)",
+    "simpleJp": "セーブ9をロードして上崎の会話前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "セーブ3ロードして",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D40：昼の上崎会話アイコン(02,33)を選び、会話モードを完了する",
+    "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D41：クリスマスイベントで「二人で過ごそう」を選ぶ",
+    "jpGuide1": "二人で過ごそう",
+    "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
+    "enGuide": "This is the formal BAD epilogue required for all-epilogue completion.",
+    "badEndPath": "上崎・正式BADエピローグ"
+  },
+  {
+    "simpleJp": "D41：上崎の正式BAD ENDを最後まで確認しシステムセーブする",
+    "jpGuide1": "このBAD ENDは、『オールエピローグコンプリート』の獲得条件となっている。",
+    "jpGuide2": "BESTBAD両エンド見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ8をロードして美也解禁用の40日目強制イベントへ戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "BESTBAD両方終わったらマップから今朝に戻る。",
+    "enGuide": "Reset before the hidden unlock decision.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "D39：セーブ8から、残りの時間を進めて40日目の上崎強制イベントに進む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(2)ロード",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D40：上崎の強制イベントで「こうしちゃいられない。急いで行かなくちゃ」を選ぶ",
+    "jpGuide1": "こうしちゃいられない。急いで行かなくちゃ",
+    "jpGuide2": "強制(1→2)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D40：「ごめん、他に好きな子がいるから…」を選んで上崎ルートを終了する",
+    "jpGuide1": "ごめん、他に好きな子がいるから…",
+    "jpGuide2": "強制(1→2)",
+    "enGuide": "This unlocks Miya's added day-five option after saving completion data."
+  },
+  {
+    "simpleJp": "D40：クリアを最後まで確認して、システムセーブする",
+    "jpGuide1": "美也ルート出現条件",
+    "jpGuide2": "この後の選択肢で美也ルート解禁。",
+    "enGuide": ""
   },
   {
     "simpleJp": "D40：セーブ10",
@@ -573,7 +643,7 @@
     "simpleJp": "D40：マップ座標 14,17(中,1) を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "14,17",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Required Nakata star path: choose the first displayed option at this event (source (中,1))."
   },
   {
     "simpleJp": "D40：強制イベント",
@@ -582,25 +652,71 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "11：セーブ11; choose date 10,13(中) OR 53,54(絢)",
+    "simpleJp": "D41：セーブ11（2人のスキ★が揃っている状態で保持）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(4)",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": ""
   },
   {
-    "simpleJp": "D42：if dated 中: see 中多 GOOD and 絢辻 BAD by alternating confession target/今朝に戻る",
+    "simpleJp": "D41：中多のデートマップ(10,13)を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "10,13(中)",
+    "enGuide": ""
   },
   {
-    "simpleJp": "ロード D41; choose other D41 date and alternate D42 confession target for 絢辻 GOOD and 中多 BAD",
+    "simpleJp": "D42：告白先に「中多紗江」を選び、中多スキGOOD ENDを確認してシステムセーブする",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：行動マップで「今朝に戻る」を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Save before day-41 date selection; date heroine A/B, then day-42 confession to dated heroine = GOOD, other = BAD. Return to morning for other confession; load checkpoint for alternate date. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "jpGuide2": "今朝に戻るを実行し",
+    "enGuide": ""
   },
   {
-    "simpleJp": "ロード D40S",
+    "simpleJp": "D42：告白先に「絢辻詞」を選び、絢辻スキBAD ENDを確認してシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": {
+      "badEndPath": "絢辻・スキBAD"
+    }
+  },
+  {
+    "simpleJp": "セーブ11をロードして41日目のデート選択に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)をロードし",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D41：絢辻のデートマップ(53,54)を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "53,54(絢)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：告白先に「絢辻詞」を選び、絢辻スキGOOD ENDを確認してシステムセーブする",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：行動マップで「今朝に戻る」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "今朝に戻るを実行し",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：告白先に「中多紗江」を選び、中多スキBAD ENDを確認してシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": {
+      "badEndPath": "中多・スキBAD"
+    }
+  },
+  {
+    "simpleJp": "セーブ10をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
@@ -612,19 +728,19 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：強制イベント",
+    "simpleJp": "D40：強制イベント",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "強制",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：54,54 = 絢辻 BEST",
+    "simpleJp": "D41：デートマップ(54,54)を選び絢辻スキBEST ENDを最後まで確認し、システムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "54,54",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "ロード D39",
+    "simpleJp": "セーブ8をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
@@ -642,25 +758,25 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：マップ座標 14,17(中,1) を選ぶ",
+    "simpleJp": "D40：マップ座標 14,17(中,1) を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "14,17",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Required Nakata star path: choose the first displayed option at this event (source (中,1))."
   },
   {
-    "simpleJp": "D42：イベントを選ばず進める",
+    "simpleJp": "D40：イベントを選ばず進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "なし",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：強制イベント [休3=2]",
+    "simpleJp": "D40：強制イベント [休3=2]",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "強制",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：11,12 = 中多 BEST",
+    "simpleJp": "D41：デートマップ(11,12)を選び中多スキBEST ENDを最後まで確認し、システムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "11,12",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

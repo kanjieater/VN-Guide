@@ -409,16 +409,10 @@
     "badEndPath": "棚町薫・スキBAD"
   },
   {
-    "simpleJp": "D42：棚町薫のスキBAD ENDを最後まで見る",
+    "simpleJp": "D42：棚町薫のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Explicit ending terminal reached by the preceding confession."
-  },
-  {
-    "simpleJp": "D42：棚町薫のスキBADクリア記録をシステムデータに保存する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ15をロードし、41日目の2人が★の状態のデート選択へ戻る",
@@ -465,16 +459,10 @@
     "badEndPath": "桜井梨穂子・スキBAD"
   },
   {
-    "simpleJp": "D42：桜井梨穂子のスキBAD ENDを最後まで見る",
+    "simpleJp": "D42：桜井梨穂子のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Explicit ending terminal reached by the preceding confession."
-  },
-  {
-    "simpleJp": "D42：桜井梨穂子のスキBADクリア記録をシステムデータに保存する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ14をロード",

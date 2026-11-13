@@ -228,16 +228,22 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D18：マップ座標 19,21(中,1 を選ぶ",
+    "simpleJp": "D18：マップ座標19,21の中多イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "19,21",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "19,21(中,1→1)",
+    "enGuide": "The source records one event with two consecutive first-position choices."
   },
   {
-    "simpleJp": "D18：1)",
+    "simpleJp": "D18：最初の選択肢は上から1番目を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "19,21(中,1→1)",
+    "enGuide": "First numbered on-screen choice."
+  },
+  {
+    "simpleJp": "D18：続く選択肢も上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "19,21(中,1→1)",
+    "enGuide": "Second numbered on-screen choice."
   },
   {
     "simpleJp": "D19：イベントを選ばず進める×3",
@@ -516,10 +522,10 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：休3の強制イベントで上から1番目を選ぶ",
+    "simpleJp": "D40：休3の上崎強制イベントを進め、最初の選択肢を表示させる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "強制(1、その後以下の手順で上崎エピローグ3つ全部見る)",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "The next step makes the first-option choice exactly once using Set A's verbatim text."
   },
   {
     "simpleJp": "D40：上崎の強制イベントで「こうしちゃいられない。急いで行かなくちゃ」を選ぶ",
@@ -528,22 +534,28 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "D40：上崎の質問「いつから僕のことを」が表示されたら、選択肢を上から3番目にする",
+    "simpleJp": "D40：質問メニューで「いつから僕のことを」を選ぶ",
     "jpGuide1": "いつから僕のことを",
     "jpGuide2": "上崎イベント中は選択肢全部→3",
-    "enGuide": ""
+    "enGuide": "This is one of the three question SUBJECTS, not a third-option answer to a question."
   },
   {
-    "simpleJp": "D40：続く「どうして僕のことを」「何時の間に手紙を」の各質問でも、それぞれ選択肢を上から3番目にする",
+    "simpleJp": "D40：同じ質問メニューで「どうして僕のことを」を選ぶ",
     "jpGuide1": "どうして僕のことを",
     "jpGuide2": "上崎イベント中は選択肢全部→3",
-    "enGuide": "Both question prompts must be exhausted; all are eventually selected."
+    "enGuide": "Select each subject exactly once; the menu loops through all three."
   },
   {
-    "simpleJp": "D40：続く選択肢で「上崎さん本気みたいだし付き合ってもいいかな」を選ぶ（原典の上崎イベント内『全部→3』を守る）",
+    "simpleJp": "D40：同じ質問メニューで「何時の間に手紙を」を選ぶ",
+    "jpGuide1": "何時の間に手紙を",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": "After exhausting all three subjects, the separate relationship-choice menu appears."
+  },
+  {
+    "simpleJp": "D40：質問を3つ聞き終えたら「上崎さん本気みたいだし付き合ってもいいかな」を選ぶ",
     "jpGuide1": "上崎さん本気みたいだし付き合ってもいいかな",
     "jpGuide2": "上崎イベント中は選択肢全部→3",
-    "enGuide": "Third final relationship choice."
+    "enGuide": "This is the final third-option relationship answer, distinct from the three question subjects."
   },
   {
     "simpleJp": "D40：セーブ9（昼の上崎会話前。上書きしない）",
@@ -617,8 +629,9 @@
     "simpleJp": "D41：クリスマスイベントで「二人で過ごそう」を選ぶ",
     "jpGuide1": "二人で過ごそう",
     "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
-    "enGuide": "This is the formal BAD epilogue required for all-epilogue completion.",
-    "badEnd": "正式BADエピローグ（全エピローグ対象）"
+    "enGuide": "The documented alternate Christmas answer yields the formal Kamizaki BAD epilogue, distinct from the earlier sudden BAD.",
+    "badEnd": "正式BADエピローグ（全エピローグ対象）",
+    "badEndPath": "上崎・正式BADエピローグ"
   },
   {
     "simpleJp": "D41：上崎の正式BAD ENDを最後まで確認しシステムセーブする",
@@ -627,10 +640,23 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "上崎の2つの正式エピローグを記録したら、行動マップの「今朝に戻る」で40日目の朝に戻る",
+    "simpleJp": "セーブ8をロードし、39日目の上崎分岐前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "BESTBAD両方終わったらマップから今朝に戻る。",
-    "enGuide": "This is the source-documented morning return; do not instead reload day 39."
+    "jpGuide2": "セーブ(2)ロード",
+    "enGuide": "Reuse the documented D39 checkpoint to replay the distinct D40 Miya-unlock branch after recording formal BAD. Do not confuse this with 今朝に戻る.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "D39：マップ座標49,52の絢辻イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "49,52(絢)",
+    "enGuide": "Resume the event after D39 Save8; it precedes the D40 forced event."
+  },
+  {
+    "simpleJp": "D39：イベントを選ばず時間を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Complete the original D39 post-save schedule before D40."
   },
   {
     "simpleJp": "D40：イベントを選ばず2回進めてから休3の強制イベントへ進む",

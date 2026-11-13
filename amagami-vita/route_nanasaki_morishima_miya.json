@@ -240,10 +240,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D36：マップ座標 13,45(七,3) を選ぶ",
+    "simpleJp": "D36：マップ座標13,45(七)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "13,45",
+    "jpGuide2": "13,45(七,3)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D36：直前のイベントの選択肢は上から3番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "13,45(七,3)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D37：イベントを選ばず進める×2",

@@ -177,7 +177,7 @@
     "simpleJp": "D24：マップ座標 25,54(七,⚠ corrupted choice annotation) を選ぶ",
     "jpGuide1": "原典の記載：25,54(七,⚠ corrupted choice annotation)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D25：イベントを選ばず進める×2",
@@ -321,7 +321,7 @@
     "simpleJp": "D32：⚠ source repeats “セーブ(2)”",
     "jpGuide1": "原典の記載：⚠ source repeats “セーブ(2)”",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D32：マップ座標 53,41(森,任意×2) を選ぶ",
@@ -372,10 +372,10 @@
     "enGuide": "Check prior save-state and source itinerary."
   },
   {
-    "simpleJp": "ロード B3 (source says `セーブ(3)`; its context is ambiguous here—confirm correct checkpoint before use) for 桜井/絢辻/中多 ソエン:",
+    "simpleJp": "D31のセーブ(3)をロード（ナカヨシ(1)から分岐した中多・桜井・絢辻ソエン用）",
     "jpGuide1": "原典の分岐に基づく作業用手順",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Check prior save-state and source itinerary."
+    "enGuide": "Original source says セーブ(3) from previous section; check saved branch state before continuing."
   },
   {
     "simpleJp": "D32：イベントを選ばず進める",
@@ -582,7 +582,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：今朝に戻る twice for three endings",
+    "simpleJp": "D41：「今朝に戻る」を2回選び、3人分のソエンを見る",
     "jpGuide1": "原典の記載：今朝に戻る twice for three endings",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

@@ -87,13 +87,13 @@
     "simpleJp": "D10：マップ座標 27,42(⚠ garbled heroine annotation) を選ぶ",
     "jpGuide1": "原典の記載：27,42(⚠ garbled heroine annotation)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D10：マップ座標 28,42(⚠ garbled annotation) を選ぶ",
     "jpGuide1": "原典の記載：28,42(⚠ garbled annotation)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D10：イベントを選ばず進める",

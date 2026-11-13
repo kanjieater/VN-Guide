@@ -384,7 +384,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D36–37：イベントを選ばず進める×4 each (D37 forced only)",
+    "simpleJp": "D36〜37：各日イベントを選ばず4回進める（37日目は強制イベントのみ進める）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "なし",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -426,7 +426,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：イベントを選ばず進める×4; when 放課後 forced event appears セーブ4",
+    "simpleJp": "D40：イベントを選ばず4回進め、放課後の強制イベントが表示されたところでセーブ4",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(4)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -468,7 +468,7 @@
     "enGuide": "Record this heroine's friendship ending persistently."
   },
   {
-    "simpleJp": "セーブ3をロード for 棚町・七咲・森島 ソエン:",
+    "simpleJp": "セーブ3をロードして31日目の棚町・七咲・森島ソエン分岐へ戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ソエン3人 セーブ(3)から",
     "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
@@ -588,7 +588,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D39–40：イベントを選ばず進める×4 each",
+    "simpleJp": "D39〜40：各日イベントを選ばず4回進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "なし",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

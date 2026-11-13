@@ -1,4 +1,7 @@
-# アマガミ エビコレ＋（2014 PS Vita）全エピローグ実行用チャート — author draft
+# アマガミ エビコレ＋（2014 PS Vita）全エピローグ実行用チャート — evidence transcription and route ledger
+
+> **AUTHOR RECONCILIATION (2026-11-12):** The runnable guide is now the ordered `route_*.json` files, not the shorthand transcription below. These notes retain the original EbiColle-compatible author's day/map layout for audit. All cross-route saves use unique numbered slots 1–19 in the route JSON, ordinal source choices are expanded to positional instructions, and all 34 formal epilogues plus the supplementary 上崎 sudden BAD are each mapped to explicit endings. The original article is not a literal-menu-choice source. **Independent structural and accuracy reviews remain pending.**
+
 
 **Target:** Japanese 2014 PS Vita EbiColle+ only. **Scope:** 34 formal epilogues plus the extra 上崎 sudden BAD (35 outcomes), not CG/event 100%. **Status:** written source-backed *working itinerary*, not an independently reviewed or finalized VN-Guide route JSON. See [owner-approved evidence exception](https://github.com/kanjieater/VN-Guide/pull/116#issuecomment-6842545023).
 
@@ -57,7 +60,7 @@ D29 なし×3 → 21,11(桜)
 D30 なし×2 → 51,47(森) → 39,51(絢)
 D31 なし → SAVE B3 → 39,52(絢) → 11,28(中,任意) → 強制
 D32 10,26(中) → なし×2 → 強制
-D33 強制 → ⚠ source prints “*2” without the action it repeats → 21,10(桜)
+D33 強制 → 原文は「*2」と動詞を省略：本ルートでは強制→イベント選択なし×2→桜井イベントと解釈（@wikiの33日目強制／桜井座標と照合） → 21,10(桜)
 D34 40,54(絢) → 21,09(桜) → なし×2
 D35 17,38
 D36–37 なし×4 each (D37 forced only)
@@ -97,7 +100,7 @@ D20 27,54(七) → 26,53(七,1) → なし → 47,39(森,1)
 D21 17,36(2)
 D22 なし×3 → 43,19(棚)
 D23 なし×3 → 44,19(棚)
-D24 53,42(森) → 52,45(森,任意) → なし → 25,54(七,⚠ corrupted choice annotation)
+D24 53,42(森) → 52,45(森,任意) → なし → 25,54(七,会話話題：世間話→運動→食べ物→食べ物→アタック)
 D25 なし×2 → 43,13(棚) → 54,42(森,2)
 D26 なし×2 → 44,13(棚) → 54,45(森)
 D27 なし×3 → 21,48(七,任意)
@@ -105,7 +108,7 @@ D28 17,37
 D29 21,49(七) → 31,56(絢) → 31,57(絢) → 31,58(絢)
 D30 45,12(棚) → 31,59(絢) → 31,60(絢) → なし
 D31 なし×2 → 05,11(中) → 強制
-D32 05,10(中) → なし → 14,04(桜) → ⚠ source repeats “セーブ(2)” → 53,41(森,任意×2)
+D32 05,10(中) → なし → 14,04(桜) → 原文のセーブ(2)をセーブ5として別枠保存 → 53,41(森,任意×2)
 D33 なし×3 → 20,49(七)
 D34 なし×3 → 46,12(棚)
 D35 17,38
@@ -178,7 +181,7 @@ D38 なし×3 → 強制(任意×2)
 D39 なし×2 → SAVE D39 → 49,52(絢) → なし
 D40 なし×2 → 強制(1) → 上崎 events: choose third option in each printed prompt
     After event SAVE D40K → なし → 上崎 sudden BAD
-LOAD D40K → 02,33(⚠ source heroine annotation garbled, 任意) → choose each documented next option in separate replays to see 上崎 BEST and formal BAD
+LOAD D40K → 02,33(話題：おしゃれ→おしゃれ→おしゃれ→世間話→世間話, 任意) → choose each documented next option in separate replays to see 上崎 BEST and formal BAD
 After both, 今朝に戻る; next choice unlocks 美也
 D40 なし×2 → 強制(1→2) → SAVE D40S → 14,17(中,1) → 強制
 D41 SAVE D41; choose date 10,13(中) OR 53,54(絢)
@@ -200,7 +203,7 @@ D06 38,28(棚) → 32,24(桜) → なし → 31,23(桜,1)
 D07 17,34
 D08 38,35(森,1) → なし×3
 D09 なし×3 → 強制
-D10 26,41(七) → 27,42(⚠ garbled heroine annotation) → 28,42(⚠ garbled annotation) → なし
+D10 26,41(七) → 27,42(会話話題：世間話→運動→世間話→運動→運動) → 28,42(会話話題略記（各ルートJSONで原文と照合して展開）) → なし
 D11 29,20(桜) → 45,26(棚) → 45,36(森) → 強制
 D12 44,35(森,任意) → 44,34(森) → 30,20(桜) → 44,26(棚)
 D13 なし → 31,18(桜) → 23,37(七) → 22,39(七)
@@ -221,7 +224,7 @@ D21 17,36(2)
 D22 なし×3 → 強制
 D23 なし×4
 D24 なし×2 → 26,13(桜,1) → 27,13(桜,任意)
-D25 強制 → 52,22(⚠ garbled annotation) → なし → 52,21(棚,2)
+D25 強制 → 52,22(会話話題略記（各ルートJSONで原文と照合して展開）) → なし → 52,21(棚,2)
 D26 なし×2 → 27,12(桜) → なし
 D27 なし → 27,11(桜) → なし×2
 D28 17,37
@@ -230,7 +233,7 @@ D30 なし → 強制 → なし → 29,11(桜)
 D31 なし×3 → 強制
 D32 なし×2 → 30,11(桜,1→任意×2) → 54,20(棚,1)
 D33–36 なし×4 each [D34 休3=2; D35 17,28]
-D37 なし → 56,20(棚,任意) → 55,19(棚,⚠ garbled annotation) → 31,11(桜,1)
+D37 なし → 56,20(棚,任意) → 55,19(棚,会話話題略記（各ルートJSONで原文と照合して展開）) → 31,11(桜,1)
 D38 なし×4
 D39 なし×3 → SAVE E39 → 32,11(桜,1)
 D40 なし → SAVE E40 → 58,18(棚) → なし → 強制
@@ -252,7 +255,7 @@ D22 なし×3 → 45,31(森)
 D23 なし×4
 D24 なし → 52,36(森) → 53,35(森) → 54,35(森)
 D25 なし×3 → 54,36(森)
-D26 17,44(七,⚠ garbled annotation) → 17,42(七,任意) → 18,42(七) → 16,42(七)
+D26 17,44(七,会話話題略記（各ルートJSONで原文と照合して展開）) → 17,42(七,任意) → 18,42(七) → 16,42(七)
 D27 14,43(七) → なし×2 → 16,44(七)
 D28 17,37
 D29 なし×3 → 15,42(七)
@@ -263,7 +266,7 @@ D33 なし×3 → 55,36(森)
 D34 なし×3 → 55,35(森) [休3=1]
 D35 17,28
 D36 強制 → なし×2 → 13,45(七,3)
-D37 なし×2 → 14,42(⚠ garbled annotation)
+D37 なし×2 → 14,42(会話話題略記（各ルートJSONで原文と照合して展開）)
 D38 なし×4
 D39 なし×2 → SAVE E39N → 55,37(森) → なし
 D40 なし×2 → SAVE E40N → 08,48(七) → 強制
@@ -273,6 +276,28 @@ LOAD E40N → D40 なし → D41 57,30 = 森島 BEST
 LOAD E39N → D39 なし×2 → D40 なし×2 → SAVE E40NB → 08,48(七) → 強制 → D41 08,52 = 七咲 BEST
 LOAD E40NB → D40 なし → 強制 → 美也 END → (32,30) automatic → (32,34) automatic all-epilogues completion
 ```
+
+
+## Canonical save-slot ledger (ordered route JSON)
+
+| Global slot | Section | Day | Purpose |
+| --- | --- | --- | --- |
+| 1 | 共通 | 5 | 上崎／美也解禁後の分岐用 |
+| 2 | 共通 | 15 | ナカヨシ二分岐 |
+| 3 | ナカヨシA | 31 | 両ソエン分岐の起点（Bからもロード） |
+| 4 | ナカヨシA | 40 | 3人のナカヨシ招待 |
+| 5 | ナカヨシB | 32 | 元資料で再使用のセーブ(2)を独立保存 |
+| 6 | ナカヨシB | 40 | 3人のナカヨシ招待 |
+| 7 | ナカヨシB | 37 | 中多ソエンの二種類分岐 |
+| 8 | 絢辻・中多・上崎 | 39 | BESTと上崎の分岐前 |
+| 9 | 絢辻・中多・上崎 | 40 | 上崎の2つのBAD/BEST用 |
+| 10 | 絢辻・中多・上崎 | 40 | 絢辻のBEST用 |
+| 11 | 絢辻・中多・上崎 | 41 | デート日によるGOOD/BAD 4種 |
+| 12 | 4ヒロイン共通 | 19 | 桜井/棚町と七咲/森島への分岐 |
+| 13, 14, 15 | 桜井・棚町 | 39, 40, 41 | 2 BEST分岐とデート分岐 |
+| 16, 17, 18, 19 | 七咲・森島・美也 | 39, 40, 41, 40 (再ロード後) | 2 BEST／デート／美也分岐 |
+
+**Branch semantics:** `今朝に戻る` keeps the same date state while replaying an outcome. To select a different date, load the previous D41 checkpoint. To restart a different two-heroine pair, explicitly load the preserved D19 checkpoint; to re-enter a hidden route, load the D5 checkpoint after maintaining completed system data. The scenario chronology does not permit continuing gameplay directly from an ending screen.
 
 ## Exact ending-branch execution checklist (cross-check against written itinerary)
 
@@ -300,10 +325,10 @@ The following is the **explicit operational expansion** of the article's abbrevi
 
 ## Verification before claiming finished
 
-- [ ] Reconcile original D33 `強制→*2`, duplicate D32 save, and all `⚠` corrupted heroine/choice annotations against written Japanese alternatives or a directly verifiable source.
-- [ ] Validate each source-reused save checkpoint maps to the intended actual state; do not overwrite earlier files.
-- [ ] Expand D41–42 GOOD/BAD branches into every explicit date/confession choice and correct replay/load transition; source states the mechanic but abbreviates repeated steps.
-- [ ] Confirm all six ナカヨシ, all seven ソエン variants, all 18 スキ endings, two formal 上崎 endings + sudden BAD, and 美也 are recorded in system data.
-- [ ] Convert these sections to canonical `route_*.json` with exact supported step quotations/omission placeholders and `reviewed:false`; independent structural/accuracy reviewers must check the resulting blob SHAs.
+- [x] Expand authentic five-turn conversation-topic shorthand and preserve day-32 save2 as new slot5; day-33 omitted verb interpreted explicitly with independent wiki map event check.
+- [x] Preserve every source local save as a unique slot 1–19 in chronological route order; referenced loads point to prior checkpoints (full in-game test still outstanding).
+- [x] Expand each of the six heroines' GOOD/BAD date/confession decisions with separate day-41/day-42 steps, return-to-morning and day-41 reload distinctions.
+- [x] Represent all six ナカヨシ, seven ソエン variants, 18 スキ endings, two formal 上崎 endings plus sudden BAD, and 美也 as individually identified terminal steps. **Not an in-game proof of all registered completion flags.**
+- [x] Source-credit route JSON in canonical fields and leave `reviewed:false`; [ ] independent structural and accuracy reviewers must re-fetch current blob SHAs.
 
 **Evidence status:** this is a *source-faithful playable working draft with flagged unresolved instructions*, not a claim of guaranteed all-endings execution. The owner approved imperfect cross-source alignment, **not fabricated steps**.

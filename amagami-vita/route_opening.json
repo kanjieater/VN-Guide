@@ -264,8 +264,8 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "Source transcription fix: original article prints D08 before D07; restored chronological order. D09 and other forced events sometimes exceed four tokens; treat forced prompts as additional event text, not a fifth time slot.",
-    "jpGuide1": "原典の分岐に基づく作業用手順",
+    "simpleJp": "D07の後にD08を実行（原典はD08を先に記載）",
+    "jpGuide1": "7日め　17,34 / 8日め　なし*4",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Check prior save-state and source itinerary."
   }

@@ -558,19 +558,19 @@
     "enGuide": "This is the final third-option relationship answer, distinct from the three question subjects."
   },
   {
-    "simpleJp": "D40：セーブ9（昼の上崎会話前。上書きしない）",
+    "simpleJp": "D40：セーブ9（会話アイコン前の「なし」枠から。上書きしない）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(3)",
     "enGuide": ""
   },
   {
-    "simpleJp": "D40：イベントを選ばず進める",
+    "simpleJp": "D40：会話アイコンが出る前の枠ではイベントを選ばず、次の行動枠へ進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "なし",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "The itinerary places one なし action before the mandatory (02,33) conversation. This earlier empty slot is not the sudden BAD choice."
   },
   {
-    "simpleJp": "D40：会話アイコン(02,33)を選ばず、時間を進める",
+    "simpleJp": "D40：次の行動枠に現れる会話アイコン(02,33)を選ばず、時間を進める",
     "jpGuide1": "ここで会話アイコンを実行しないとBAD ENDになる。",
     "jpGuide2": "なし→1つ目BAD(上崎)",
     "enGuide": "Source-backed sudden failure; distinct from the formal Christmas BAD.",

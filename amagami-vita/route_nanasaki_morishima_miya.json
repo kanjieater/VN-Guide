@@ -2,7 +2,7 @@
   {
     "simpleJp": "セーブ12をロードして19日目の七咲・森島スキ分岐を開始する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "七咲＋森島　セーブ1から",
+    "jpGuide2": "セーブ1から",
     "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
@@ -375,7 +375,7 @@
   {
     "simpleJp": "セーブ18をロードし、41日目の2人が★の状態のデート選択へ戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "セーブ(4)をロードしてもう片方を見る",
+    "jpGuide2": "その後セーブ(3)ロードで別エピローグ",
     "enGuide": "This is a save reload to change the dated heroine, not 今朝に戻る.",
     "isLoad": true
   },

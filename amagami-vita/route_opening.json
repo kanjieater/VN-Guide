@@ -102,24 +102,6 @@
     "enGuide": "Optional choice."
   },
   {
-    "simpleJp": "D04：桜井・美也の強制イベントを進める",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "強制のみ",
-    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
-  },
-  {
-    "simpleJp": "D04：桜井の強制イベントでは上から2番目を選ぶ",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "桜井選択肢は2",
-    "enGuide": "Mandatory choice; source uses ordinal rather than Japanese option text."
-  },
-  {
-    "simpleJp": "D04：美也の選択肢はどちらでもよい",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "美也はどちらでも",
-    "enGuide": "Optional choice."
-  },
-  {
     "simpleJp": "D05：マップ座標 36,28（棚）を選び、表示された選択肢の上から2番目を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "36,28(棚,2)",
@@ -258,7 +240,7 @@
     "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
   },
   {
-    "simpleJp": "D13：マップ座標 22,29(中,1または2) を選ぶ",
+    "simpleJp": "D13：マップ座標 22,29(中,1または2) のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "22,29(中,1か2)",
     "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
@@ -282,13 +264,13 @@
     "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
   },
   {
-    "simpleJp": "D13：マップ座標 33,48(絢) を選ぶ",
+    "simpleJp": "D13：マップ座標 33,48(絢) のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "33,48(絢)",
     "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
   },
   {
-    "simpleJp": "D14：マップ座標 17,35(2) を選ぶ",
+    "simpleJp": "D14：マップ座標 17,35(2) のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "17,35(2)",
     "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."

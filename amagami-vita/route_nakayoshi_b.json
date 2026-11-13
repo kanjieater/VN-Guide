@@ -1,373 +1,373 @@
 [
   {
     "simpleJp": "ロード A2 (D15):",
-    "jpGuide1": "原典の分岐に基づく作業用手順",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Check prior save-state and source itinerary."
   },
   {
     "simpleJp": "D15：マップ座標 41,21(棚,2) を選ぶ",
-    "jpGuide1": "原典の記載：41,21(棚,2)",
+    "jpGuide1": "41,21(棚,2)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D15：マップ座標 43,21(棚,任意) を選ぶ",
-    "jpGuide1": "原典の記載：43,21(棚,任意)",
+    "jpGuide1": "43,21(棚,任意)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D16：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D16：マップ座標 46,41(森) を選ぶ",
-    "jpGuide1": "原典の記載：46,41(森)",
+    "jpGuide1": "46,41(森)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D16：マップ座標 28,48(七) を選ぶ",
-    "jpGuide1": "原典の記載：28,48(七)",
+    "jpGuide1": "28,48(七)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D17：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D17：マップ座標 26,49(七) を選ぶ",
-    "jpGuide1": "原典の記載：26,49(七)",
+    "jpGuide1": "26,49(七)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D17：マップ座標 43,20(棚) を選ぶ",
-    "jpGuide1": "原典の記載：43,20(棚)",
+    "jpGuide1": "43,20(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D18：マップ座標 44,20(棚,1) を選ぶ",
-    "jpGuide1": "原典の記載：44,20(棚,1)",
+    "jpGuide1": "44,20(棚,1)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D18：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D18：マップ座標 27,49(七) を選ぶ",
-    "jpGuide1": "原典の記載：27,49(七)",
+    "jpGuide1": "27,49(七)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D18：マップ座標 47,42(森) [休3=1] を選ぶ",
-    "jpGuide1": "原典の記載：47,42(森) [休3=1]",
+    "jpGuide1": "47,42(森) [休3=1]",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D19：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D19：マップ座標 28,50(七) を選ぶ",
-    "jpGuide1": "原典の記載：28,50(七)",
+    "jpGuide1": "28,50(七)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D19：マップ座標 27,51(七,1) を選ぶ",
-    "jpGuide1": "原典の記載：27,51(七,1)",
+    "jpGuide1": "27,51(七,1)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D19：マップ座標 47,40(森) [休3≠3] を選ぶ",
-    "jpGuide1": "原典の記載：47,40(森) [休3≠3]",
+    "jpGuide1": "47,40(森) [休3≠3]",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D20：マップ座標 27,54(七) を選ぶ",
-    "jpGuide1": "原典の記載：27,54(七)",
+    "jpGuide1": "27,54(七)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D20：マップ座標 26,53(七,1) を選ぶ",
-    "jpGuide1": "原典の記載：26,53(七,1)",
+    "jpGuide1": "26,53(七,1)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D20：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D20：マップ座標 47,39(森,1) を選ぶ",
-    "jpGuide1": "原典の記載：47,39(森,1)",
+    "jpGuide1": "47,39(森,1)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D21：マップ座標 17,36(2) を選ぶ",
-    "jpGuide1": "原典の記載：17,36(2)",
+    "jpGuide1": "17,36(2)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D22：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D22：マップ座標 43,19(棚) を選ぶ",
-    "jpGuide1": "原典の記載：43,19(棚)",
+    "jpGuide1": "43,19(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D23：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D23：マップ座標 44,19(棚) を選ぶ",
-    "jpGuide1": "原典の記載：44,19(棚)",
+    "jpGuide1": "44,19(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D24：マップ座標 53,42(森) を選ぶ",
-    "jpGuide1": "原典の記載：53,42(森)",
+    "jpGuide1": "53,42(森)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D24：マップ座標 52,45(森,任意) を選ぶ",
-    "jpGuide1": "原典の記載：52,45(森,任意)",
+    "jpGuide1": "52,45(森,任意)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D24：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D24：マップ座標 25,54(七,⚠ corrupted choice annotation) を選ぶ",
-    "jpGuide1": "原典の記載：25,54(七,⚠ corrupted choice annotation)",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
+    "enGuide": "BLOCKED: original source token is malformed; this is not an executable verified instruction."
   },
   {
     "simpleJp": "D25：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D25：マップ座標 43,13(棚) を選ぶ",
-    "jpGuide1": "原典の記載：43,13(棚)",
+    "jpGuide1": "43,13(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D25：マップ座標 54,42(森,2) を選ぶ",
-    "jpGuide1": "原典の記載：54,42(森,2)",
+    "jpGuide1": "54,42(森,2)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D26：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D26：マップ座標 44,13(棚) を選ぶ",
-    "jpGuide1": "原典の記載：44,13(棚)",
+    "jpGuide1": "44,13(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D26：マップ座標 54,45(森) を選ぶ",
-    "jpGuide1": "原典の記載：54,45(森)",
+    "jpGuide1": "54,45(森)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D27：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D27：マップ座標 21,48(七,任意) を選ぶ",
-    "jpGuide1": "原典の記載：21,48(七,任意)",
+    "jpGuide1": "21,48(七,任意)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D28：マップ座標 17,37 を選ぶ",
-    "jpGuide1": "原典の記載：17,37",
+    "jpGuide1": "17,37",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D29：マップ座標 21,49(七) を選ぶ",
-    "jpGuide1": "原典の記載：21,49(七)",
+    "jpGuide1": "21,49(七)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D29：マップ座標 31,56(絢) を選ぶ",
-    "jpGuide1": "原典の記載：31,56(絢)",
+    "jpGuide1": "31,56(絢)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D29：マップ座標 31,57(絢) を選ぶ",
-    "jpGuide1": "原典の記載：31,57(絢)",
+    "jpGuide1": "31,57(絢)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D29：マップ座標 31,58(絢) を選ぶ",
-    "jpGuide1": "原典の記載：31,58(絢)",
+    "jpGuide1": "31,58(絢)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D30：マップ座標 45,12(棚) を選ぶ",
-    "jpGuide1": "原典の記載：45,12(棚)",
+    "jpGuide1": "45,12(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D30：マップ座標 31,59(絢) を選ぶ",
-    "jpGuide1": "原典の記載：31,59(絢)",
+    "jpGuide1": "31,59(絢)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D30：マップ座標 31,60(絢) を選ぶ",
-    "jpGuide1": "原典の記載：31,60(絢)",
+    "jpGuide1": "31,60(絢)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D30：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D31：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D31：マップ座標 05,11(中) を選ぶ",
-    "jpGuide1": "原典の記載：05,11(中)",
+    "jpGuide1": "05,11(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D31：強制イベント",
-    "jpGuide1": "原典の記載：強制",
+    "jpGuide1": "強制",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D32：マップ座標 05,10(中) を選ぶ",
-    "jpGuide1": "原典の記載：05,10(中)",
+    "jpGuide1": "05,10(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D32：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D32：マップ座標 14,04(桜) を選ぶ",
-    "jpGuide1": "原典の記載：14,04(桜)",
+    "jpGuide1": "14,04(桜)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D32：⚠ source repeats “セーブ(2)”",
-    "jpGuide1": "原典の記載：⚠ source repeats “セーブ(2)”",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
+    "enGuide": "BLOCKED: original source token is malformed; this is not an executable verified instruction."
   },
   {
     "simpleJp": "D32：マップ座標 53,41(森,任意×2) を選ぶ",
-    "jpGuide1": "原典の記載：53,41(森,任意×2)",
+    "jpGuide1": "53,41(森,任意×2)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D33：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D33：マップ座標 20,49(七) を選ぶ",
-    "jpGuide1": "原典の記載：20,49(七)",
+    "jpGuide1": "20,49(七)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D34：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D34：マップ座標 46,12(棚) を選ぶ",
-    "jpGuide1": "原典の記載：46,12(棚)",
+    "jpGuide1": "46,12(棚)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D35：マップ座標 17,38 を選ぶ",
-    "jpGuide1": "原典の記載：17,38",
+    "jpGuide1": "17,38",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D36–40：イベントを選ばず進める only; at D40 放課後 forced event SAVE C4",
-    "jpGuide1": "原典の記載：なし only; at D40 放課後 forced event SAVE C4",
+    "jpGuide1": "なし only; at D40 放課後 forced event SAVE C4",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "At C4, view ナカヨシ 森島/七咲/棚町 by selecting each invitation and returning to morning as required.",
-    "jpGuide1": "原典の分岐に基づく作業用手順",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Check prior save-state and source itinerary."
   },
@@ -379,211 +379,211 @@
   },
   {
     "simpleJp": "D32：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D33：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D33：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D33：マップ座標 13,03(桜) を選ぶ",
-    "jpGuide1": "原典の記載：13,03(桜)",
+    "jpGuide1": "13,03(桜)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D33：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D34：マップ座標 13,04(桜) を選ぶ",
-    "jpGuide1": "原典の記載：13,04(桜)",
+    "jpGuide1": "13,04(桜)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D34：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D35：マップ座標 17,38 を選ぶ",
-    "jpGuide1": "原典の記載：17,38",
+    "jpGuide1": "17,38",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D36：イベントを選ばず進める×4",
-    "jpGuide1": "原典の記載：なし×4",
+    "jpGuide1": "なし×4",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D37：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D37：セーブ C37",
-    "jpGuide1": "原典の記載：SAVE C37",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D37：マップ座標 05,09(中,branch choice) を選ぶ",
-    "jpGuide1": "原典の記載：05,09(中,branch choice)",
+    "jpGuide1": "05,09(中,branch choice)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D37：Choice 1: 03,09(中)",
-    "jpGuide1": "原典の記載：Choice 1: 03,09(中)",
+    "jpGuide1": "Choice 1: 03,09(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D38：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D38：マップ座標 05,08(中) を選ぶ",
-    "jpGuide1": "原典の記載：05,08(中)",
+    "jpGuide1": "05,08(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D38：マップ座標 04,08(中) を選ぶ",
-    "jpGuide1": "原典の記載：04,08(中)",
+    "jpGuide1": "04,08(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D39：マップ座標 03,08(中) を選ぶ",
-    "jpGuide1": "原典の記載：03,08(中)",
+    "jpGuide1": "03,08(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D39：マップ座標 03,07(中) を選ぶ",
-    "jpGuide1": "原典の記載：03,07(中)",
+    "jpGuide1": "03,07(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D39：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D40：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D40：強制イベント",
-    "jpGuide1": "原典の記載：強制",
+    "jpGuide1": "強制",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D41：今朝に戻る once for two endings; retain system data",
-    "jpGuide1": "原典の記載：今朝に戻る once for two endings; retain system data",
+    "jpGuide1": "今朝に戻る once for two endings; retain system data",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "ロード C37; at 05,09(中) choose 2",
-    "jpGuide1": "原典の記載：LOAD C37; at 05,09(中) choose 2",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D37：マップ座標 13,02(桜) を選ぶ",
-    "jpGuide1": "原典の記載：13,02(桜)",
+    "jpGuide1": "13,02(桜)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D37：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D38：マップ座標 12,02(桜) を選ぶ",
-    "jpGuide1": "原典の記載：12,02(桜)",
+    "jpGuide1": "12,02(桜)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D38：イベントを選ばず進める",
-    "jpGuide1": "原典の記載：なし",
+    "jpGuide1": "なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D38：マップ座標 05,08(中) を選ぶ",
-    "jpGuide1": "原典の記載：05,08(中)",
+    "jpGuide1": "05,08(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D38：マップ座標 04,08(中) を選ぶ",
-    "jpGuide1": "原典の記載：04,08(中)",
+    "jpGuide1": "04,08(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D39：マップ座標 03,08(中) を選ぶ",
-    "jpGuide1": "原典の記載：03,08(中)",
+    "jpGuide1": "03,08(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D39：マップ座標 03,07(中) を選ぶ",
-    "jpGuide1": "原典の記載：03,07(中)",
+    "jpGuide1": "03,07(中)",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D39：イベントを選ばず進める×2",
-    "jpGuide1": "原典の記載：なし×2",
+    "jpGuide1": "なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D40：イベントを選ばず進める×3",
-    "jpGuide1": "原典の記載：なし×3",
+    "jpGuide1": "なし×3",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D40：強制イベント",
-    "jpGuide1": "原典の記載：強制",
+    "jpGuide1": "強制",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
     "simpleJp": "D41：「今朝に戻る」を2回選び、3人分のソエンを見る",
-    "jpGuide1": "原典の記載：今朝に戻る twice for three endings",
+    "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   }

@@ -102,10 +102,10 @@
     "enGuide": "Optional choice."
   },
   {
-    "simpleJp": "D05：マップ座標 36,28（棚）を選び、表示された選択肢の上から2番目を選ぶ",
+    "simpleJp": "D05：マップ座標36,28の棚町イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "36,28(棚,2)",
-    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+    "enGuide": "Select the event first. The next separate step handles the only second-option choice."
   },
   {
     "simpleJp": "D05：直前のマップイベントの選択肢は上から2番目を選ぶ",

@@ -313,9 +313,9 @@
   },
   {
     "simpleJp": "D33：強制イベント後、イベントを選ばず2回進めてから桜井のイベントへ",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide1": "33日目 休み1 40,53 絢辻（強制）",
     "jpGuide2": "強制→*2→21,10(桜)",
-    "enGuide": "Original omits the repeated-action verb before *2. Two no-event time advances are the consistent reading of the remaining four-slot day; cross-check the independent timed-map table before claiming proven."
+    "enGuide": "The 0xwas article omits the verb in *2; two no-event advances before 21,10 is supported by its four-slot format. Independent @wiki lists the D33 forced event, with an optional 休み2 中多 event already done on D32 by this schedule."
   },
   {
     "simpleJp": "D33：マップ座標 21,10(桜) を選ぶ",
@@ -396,15 +396,45 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "At B4 obtain the three ナカヨシ epilogues (絢辻/中多/桜井) by choosing the respective invitation/ending and using `今朝に戻る` to see the others. Source does not print the literal invitations.",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Check prior save-state and source itinerary."
+    "simpleJp": "D40：セーブ4からロードして、他のヒロインの招待は断り、絢辻詞のクリスマスパーティーへの招待を受ける",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Each invitation branch starts from the same D40 pre-invitation checkpoint."
   },
   {
-    "simpleJp": "ロード B3 for 棚町・七咲・森島 ソエン:",
+    "simpleJp": "D41：絢辻詞のナカヨシENDを最後まで見て、クリア記録をシステムセーブする",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Record this heroine's friendship ending persistently."
+  },
+  {
+    "simpleJp": "D40：セーブ4からロードして、他のヒロインの招待は断り、中多紗江のクリスマスパーティーへの招待を受ける",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Each invitation branch starts from the same D40 pre-invitation checkpoint."
+  },
+  {
+    "simpleJp": "D41：中多紗江のナカヨシENDを最後まで見て、クリア記録をシステムセーブする",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Record this heroine's friendship ending persistently."
+  },
+  {
+    "simpleJp": "D40：セーブ4からロードして、他のヒロインの招待は断り、桜井梨穂子のクリスマスパーティーへの招待を受ける",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Each invitation branch starts from the same D40 pre-invitation checkpoint."
+  },
+  {
+    "simpleJp": "D41：桜井梨穂子のナカヨシENDを最後まで見て、クリア記録をシステムセーブする",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Record this heroine's friendship ending persistently."
+  },
+  {
+    "simpleJp": "セーブ3をロード for 棚町・七咲・森島 ソエン:",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "ソエン3人 セーブ(3)から",
     "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
@@ -528,9 +558,51 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：行動が実行されました画面で「今朝に戻る」を2回選び、ソエン3人を回収",
+    "simpleJp": "D41：梅原との会話で「棚町薫」に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを2回やり全員分見る",
+    "enGuide": "Choose the heroine in the epilogue conversation; actual wording is not printed."
+  },
+  {
+    "simpleJp": "D41：棚町薫のソエンENDを最後まで見てシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "ソエン3人 セーブ(3)から",
+    "enGuide": "Keep ending clear record before replay."
+  },
+  {
+    "simpleJp": "エンディング後の行動マップで「今朝に戻る」を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "今朝に戻るを2回やり全員分見る",
+    "enGuide": "Return to this morning, not the earlier D31 checkpoint."
+  },
+  {
+    "simpleJp": "D41：梅原との会話で「七咲逢」に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを2回やり全員分見る",
+    "enGuide": "Choose the heroine in the epilogue conversation; actual wording is not printed."
+  },
+  {
+    "simpleJp": "D41：七咲逢のソエンENDを最後まで見てシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "ソエン3人 セーブ(3)から",
+    "enGuide": "Keep ending clear record before replay."
+  },
+  {
+    "simpleJp": "エンディング後の行動マップで「今朝に戻る」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "今朝に戻るを2回やり全員分見る",
+    "enGuide": "Return to this morning, not the earlier D31 checkpoint."
+  },
+  {
+    "simpleJp": "D41：梅原との会話で「森島はるか」に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを2回やり全員分見る",
+    "enGuide": "Choose the heroine in the epilogue conversation; actual wording is not printed."
+  },
+  {
+    "simpleJp": "D41：森島はるかのソエンENDを最後まで見てシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "ソエン3人 セーブ(3)から",
+    "enGuide": "Keep ending clear record before replay."
   }
 ]

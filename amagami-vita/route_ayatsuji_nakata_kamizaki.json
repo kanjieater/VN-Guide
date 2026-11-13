@@ -693,10 +693,22 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "D42：告白先に「中多紗江」を選び、中多スキGOOD ENDを確認してシステムセーブする",
+    "simpleJp": "D42：告白相手として「中多紗江」を選ぶ",
     "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
     "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：中多紗江のスキGOOD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：中多紗江のスキGOODクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "D42：行動マップで「今朝に戻る」を選ぶ",
@@ -705,11 +717,23 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "D42：告白先に「絢辻詞」を選び、絢辻スキBAD ENDを確認してシステムセーブする",
+    "simpleJp": "D42：告白相手として「絢辻詞」を選ぶ",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
     "enGuide": "",
     "badEndPath": "絢辻詞・スキBAD"
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキBAD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキBADクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ11をロードして41日目のデート選択に戻る",
@@ -725,10 +749,22 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "D42：告白先に「絢辻詞」を選び、絢辻スキGOOD ENDを確認してシステムセーブする",
+    "simpleJp": "D42：告白相手として「絢辻詞」を選ぶ",
     "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
     "jpGuide2": "もう一度2つのエピローグを見る",
     "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキGOOD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキGOODクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "D42：行動マップで「今朝に戻る」を選ぶ",
@@ -737,11 +773,23 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "D42：告白先に「中多紗江」を選び、中多スキBAD ENDを確認してシステムセーブする",
+    "simpleJp": "D42：告白相手として「中多紗江」を選ぶ",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "もう一度2つのエピローグを見る",
     "enGuide": "",
     "badEndPath": "中多紗江・スキBAD"
+  },
+  {
+    "simpleJp": "D42：中多紗江のスキBAD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：中多紗江のスキBADクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ10をロード",
@@ -763,10 +811,22 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：デートマップ(54,54)を選び絢辻スキBEST ENDを最後まで確認し、システムセーブする",
+    "simpleJp": "D41：デートマップ(54,54)の絢辻イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "54,54",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：絢辻のスキBEST ENDを最後まで見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "54,54",
+    "enGuide": "BEST epilogue terminal for the single-holiday date branch."
+  },
+  {
+    "simpleJp": "D41：絢辻のスキBESTクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Preserve completion across subsequent save reloads."
   },
   {
     "simpleJp": "セーブ8をロード",
@@ -811,9 +871,21 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：デートマップ(11,12)を選び中多スキBEST ENDを最後まで確認し、システムセーブする",
+    "simpleJp": "D41：デートマップ(11,12)の中多イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "11,12",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：中多のスキBEST ENDを最後まで見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "11,12",
+    "enGuide": "BEST epilogue terminal for the single-holiday date branch."
+  },
+  {
+    "simpleJp": "D41：中多のスキBESTクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Preserve completion across subsequent save reloads."
   }
 ]

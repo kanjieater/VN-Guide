@@ -318,7 +318,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D32：セーブ5（原典の「セーブ(2)」はここで別枠として残し、既存のセーブ2を上書きしない）",
+    "simpleJp": "D32：セーブ5（分岐用の新規スロット。以前のセーブ2は上書きしない）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(2)",
     "enGuide": "Unique guide slot 5 keeps the earlier D15 checkpoint available. The original reused its local save number."
@@ -360,9 +360,9 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D36–40：イベントを選ばず進める only; at D40 放課後 forced event セーブ6",
+    "simpleJp": "D36〜40：指示どおりイベントを選ばず進め、40日目の放課後強制イベントが表示された時点でセーブ6",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "セーブ(4)",
+    "jpGuide2": "36-40 なしのみ、40日めで放課後強制イベント！！表示されたらセーブ(4)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
@@ -474,15 +474,15 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D37：マップ座標 05,09(中,branch choice) を選ぶ",
+    "simpleJp": "D37：中多のマップイベント(05,09)を選ぶ（この後の選択でソエン分岐）",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "05,09",
+    "jpGuide2": "05,09(中、選択肢以下を参照)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D37：Choice 1: 03,09(中)",
+    "simpleJp": "D37：中多(05,09)で上から1番目を選び、イベント(03,09)を実行する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "03,09",
+    "jpGuide2": "(1) 37　03,09(中)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
@@ -534,13 +534,13 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：梅原との会話で桜井梨穂子に該当する選択肢を選ぶ",
+    "simpleJp": "D41：梅原との会話で絢辻詞に該当する選択肢を選ぶ",
     "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
     "jpGuide2": "今朝に戻るを1回やり2人分見る",
     "enGuide": "First D37 branch; Sae variant 1 follows source's (1) on (05,09)."
   },
   {
-    "simpleJp": "D41：桜井梨穂子のソエンENDを確認しシステムセーブする",
+    "simpleJp": "D41：絢辻詞のソエンENDを確認しシステムセーブする",
     "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
     "jpGuide2": "2人分見る",
     "enGuide": "Keep completed ending state."

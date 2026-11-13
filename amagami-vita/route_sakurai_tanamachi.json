@@ -306,16 +306,64 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：use day-41 date and day-42 confession alternations to see 桜井 GOOD/BAD and 棚町 GOOD/BAD; use 今朝に戻る and LOAD E41 to cover both dates",
+    "simpleJp": "D41：★の付いた「桜井梨穂子」のクリスマスデートイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
   },
   {
-    "simpleJp": "ロード E40",
+    "simpleJp": "D42：告白する相手として桜井梨穂子を選び、桜井梨穂子のスキGOOD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person you dated."
+  },
+  {
+    "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "今朝に戻る",
+    "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
+  },
+  {
+    "simpleJp": "D42：告白する相手として棚町薫を選び、棚町薫のスキBAD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person stood up for BAD."
+  },
+  {
+    "simpleJp": "セーブ15をロードし、41日目の2人が★の状態のデート選択へ戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)をロードしてもう片方を見る",
+    "enGuide": "This is a save reload to change the dated heroine, not 今朝に戻る."
+  },
+  {
+    "simpleJp": "D41：★の付いた「棚町薫」のクリスマスデートイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
+  },
+  {
+    "simpleJp": "D42：告白する相手として棚町薫を選び、棚町薫のスキGOOD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person you dated."
+  },
+  {
+    "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "今朝に戻る",
+    "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
+  },
+  {
+    "simpleJp": "D42：告白する相手として桜井梨穂子を選び、桜井梨穂子のスキBAD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person stood up for BAD."
+  },
+  {
+    "simpleJp": "セーブ14をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
     "simpleJp": "D40：なし×2",
@@ -324,22 +372,22 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：強制イベント",
+    "simpleJp": "D40：強制イベント",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "強制",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：36,05 = 桜井 BEST",
+    "simpleJp": "D41：デートマップ(36,05)を選び、桜井梨穂子のスキBEST ENDを確認してシステムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "36,05",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "ロード E39",
+    "simpleJp": "セーブ13をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
     "simpleJp": "D39：なし",
@@ -354,19 +402,19 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：イベントを選ばず進める×2",
+    "simpleJp": "D40：イベントを選ばず進める×2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "なし",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：強制イベント",
+    "simpleJp": "D40：強制イベント",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "強制",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：54,14 = 棚町 BEST",
+    "simpleJp": "D41：デートマップ(54,14)を選び、棚町薫のスキBEST ENDを確認してシステムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "54,14",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

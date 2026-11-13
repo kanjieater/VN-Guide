@@ -114,7 +114,7 @@ D36–40 なし only; at D40 放課後 forced event SAVE C4
 
 At **C4**, view ナカヨシ 森島/七咲/棚町 by selecting each invitation and returning to morning as required.
 
-**LOAD B3** (source says `セーブ(3)`; its context is ambiguous here—confirm correct checkpoint before use) for 桜井/絢辻/中多 ソエン:
+**LOAD B3** (the D31 セーブ(3) from the FIRST ナカヨシ route; this is intentional cross-section reuse, not an ambiguous new checkpoint) for 桜井/絢辻/中多 ソエン:
 
 ```text
 D32 なし
@@ -286,7 +286,17 @@ The following is the **explicit operational expansion** of the article's abbrevi
 
 **Important:** A day-42 confession after a date is not a new day-41 map selection. To collect both confessions for one date, select `今朝に戻る` on the ending's map (as 0xwas instructs). To change which heroine was dated, **load the day-41 checkpoint**, then select the other date. The original written guide prints the two map coordinates for 絢辻/中多, but abbreviates the other two pairs: **do not invent map coordinates** for 桜井/棚町 or 七咲/森島. Their two available starred date events must be identified in the current game state before selecting. This is an explicit unresolved executable detail, not a completed source-backed coordinate.
 
-**Checkpoint dependency correction:** The source reuses local save labels 1–4 in each subsection. Save A1/A2, B3/B4, C37, D39/D40S/D41, E19/E39/E40/E41 and E39N/E40N/E41N are **editorial unique names** for the article's reused numbered checkpoints, not literal UI save-slot numbers. Never overwrite a save still needed by another branch. In the second ナカヨシ subsection, the source's `セーブ(3)` reference for the ソエン branch points to the day-31 branch made in the first ナカヨシ subsection, not the day-15 common save. Verify state before loading.
+**Source-confirmed checkpoint dependency:** The source reuses local save labels 1–4 in each subsection. Save A1/A2, B3/B4, C37, D39/D40S/D41, E19/E39/E40/E41 and E39N/E40N/E41N are **editorial unique names** for the article's reused numbered checkpoints, not literal UI save-slot numbers. Never overwrite a save still needed by another branch. In the second ナカヨシ subsection, the source's `セーブ(3)` reference for the ソエン branch points to the day-31 branch made in the first ナカヨシ subsection, not the day-15 common save. This follows the source's explicit `ソエン3人 セーブ(3)から` and the only earlier `セーブ(3)` on day 31.
+
+## Corrections verified against independent ending rules (2026-11-12)
+
+1. The written primary source explicitly states `エビコレ版であれば機種は問いません` and explicitly excludes the original full-price PS2 version. It also specifies **all 35 outcomes**: six × five = 30, second 中多ソエン = 1, 上崎 three = 3, 美也 = 1. The source calls the 上崎 sudden BAD a distinct completion outcome; do not silently discard it as an irrelevant incidental GAME OVER.
+2. The first ナカヨシ section creates `セーブ(3)` at **day 31**. The later ソエン section after ナカヨシ(2) explicitly starts from `セーブ(3)` even though ナカヨシ(2) itself does not create a save 3. Therefore **reload the earlier day-31 checkpoint**. This is not a contradiction or missing save.
+3. For each two-heroine スキ pair, the independent ending guide defines **GOOD** as confessing to the heroine you actually dated on Christmas Eve, and **BAD** as confessing to the heroine whose date you skipped. The primary guide says return to the morning to view the other confession and load the day-41 save to choose the other date. Therefore the four outcomes are deterministic without needing exact text for the final confession options: date A→confess A = A GOOD; date A→confess B = B BAD; date B→confess B = B GOOD; date B→confess A = A BAD.
+4. Independent ending guide specifies 上崎 hidden unlock requires all six heroines' スキ or ナカヨシ endings, the day-5 hidden choice, a heroine in LEVEL3 スキ, and day-40 choices; 美也 unlock requires the special 上崎 day-40 branch. **Do not begin the hidden route until system clear records have been saved.**
+5. The independent ending guide distinguishes `カーテンコール` (32,30) from `オールエピローグコンプリート` (32,34); the original guide states both automatically trigger after 美也 on its complete run. They are not interchangeable achievements.
+
+**Remaining unresolved source errors**: the primary article literally contains `33 強制→*2→21,10`, corrupted characters attached to map events on days 10, 24–26, 37, and ambiguous reuse of `セーブ(2)` within the second ナカヨシ section. Some errors are only garbled character annotations next to a fully specified coordinate, but do not assume they are irrelevant where an option is required. An executable guarantee requires resolving these from independently inspectable Japanese written material or game-state verification.
 
 ## Verification before claiming finished
 

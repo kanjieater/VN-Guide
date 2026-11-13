@@ -708,13 +708,15 @@
     "simpleJp": "D42：告白先に「絢辻詞」を選び、絢辻スキBAD ENDを確認してシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "絢辻詞・スキBAD"
   },
   {
     "simpleJp": "セーブ11をロードして41日目のデート選択に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(4)をロードし",
-    "enGuide": ""
+    "enGuide": "",
+    "isLoad": true
   },
   {
     "simpleJp": "D41：絢辻のデートマップ(53,54)を選ぶ",
@@ -738,13 +740,15 @@
     "simpleJp": "D42：告白先に「中多紗江」を選び、中多スキBAD ENDを確認してシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "もう一度2つのエピローグを見る",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "中多紗江・スキBAD"
   },
   {
     "simpleJp": "セーブ10をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact.",
+    "isLoad": true
   },
   {
     "simpleJp": "D40：なし",

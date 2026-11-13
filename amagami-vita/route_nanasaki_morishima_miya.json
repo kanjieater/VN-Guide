@@ -99,7 +99,7 @@
     "simpleJp": "D26：マップ座標 17,44(七,⚠ garbled annotation) を選ぶ",
     "jpGuide1": "原典の記載：17,44(七,⚠ garbled annotation)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D26：マップ座標 17,42(七,任意) を選ぶ",
@@ -255,7 +255,7 @@
     "simpleJp": "D37：マップ座標 14,42(⚠ garbled annotation) を選ぶ",
     "jpGuide1": "原典の記載：14,42(⚠ garbled annotation)",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "SOURCE AMBIGUITY — do not assume the option text or state; cross-check before execution."
   },
   {
     "simpleJp": "D38：イベントを選ばず進める×4",
@@ -330,13 +330,13 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D40 なし",
+    "simpleJp": "D40：なし",
     "jpGuide1": "原典の記載：D40 なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D41 57,30 = 森島 BEST",
+    "simpleJp": "D41：57,30 = 森島 BEST",
     "jpGuide1": "原典の記載：D41 57,30 = 森島 BEST",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -348,13 +348,13 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D39 なし×2",
+    "simpleJp": "D39：なし×2",
     "jpGuide1": "原典の記載：D39 なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D40 なし×2",
+    "simpleJp": "D40：なし×2",
     "jpGuide1": "原典の記載：D40 なし×2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -378,7 +378,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D41 08,52 = 七咲 BEST",
+    "simpleJp": "D41：08,52 = 七咲 BEST",
     "jpGuide1": "原典の記載：D41 08,52 = 七咲 BEST",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
@@ -390,7 +390,7 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：D40 なし",
+    "simpleJp": "D40：なし",
     "jpGuide1": "原典の記載：D40 なし",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

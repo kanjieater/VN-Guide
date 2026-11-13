@@ -318,16 +318,64 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：alternate dates/confessions and 今朝に戻る/LOAD E41N to see 七咲 GOOD/BAD and 森島 GOOD/BAD",
+    "simpleJp": "D41：★の付いた「七咲逢」のクリスマスデートイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
   },
   {
-    "simpleJp": "ロード E40N",
+    "simpleJp": "D42：告白する相手として七咲逢を選び、七咲逢のスキGOOD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person you dated."
+  },
+  {
+    "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "今朝に戻る",
+    "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
+  },
+  {
+    "simpleJp": "D42：告白する相手として森島はるかを選び、森島はるかのスキBAD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person stood up for BAD."
+  },
+  {
+    "simpleJp": "セーブ18をロードし、41日目の2人が★の状態のデート選択へ戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)をロードしてもう片方を見る",
+    "enGuide": "This is a save reload to change the dated heroine, not 今朝に戻る."
+  },
+  {
+    "simpleJp": "D41：★の付いた「森島はるか」のクリスマスデートイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
+  },
+  {
+    "simpleJp": "D42：告白する相手として森島はるかを選び、森島はるかのスキGOOD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person you dated."
+  },
+  {
+    "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "今朝に戻る",
+    "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
+  },
+  {
+    "simpleJp": "D42：告白する相手として七咲逢を選び、七咲逢のスキBAD ENDを見てシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person stood up for BAD."
+  },
+  {
+    "simpleJp": "セーブ17をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
     "simpleJp": "D40：なし",
@@ -336,16 +384,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：57,30 = 森島 BEST",
+    "simpleJp": "D41：デートマップ(57,30)を選び、森島はるかのスキBEST ENDを確認してシステムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "57,30",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "ロード E39N",
+    "simpleJp": "セーブ16をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
     "simpleJp": "D39：なし×2",
@@ -360,34 +408,34 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：セーブ17B",
+    "simpleJp": "D40：セーブ19",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(2)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：マップ座標 08,48(七) を選ぶ",
+    "simpleJp": "D40：マップ座標 08,48(七) を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "08,48",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：強制イベント",
+    "simpleJp": "D40：強制イベント",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "強制",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：08,52 = 七咲 BEST",
+    "simpleJp": "D41：デートマップ(08,52)を選び、七咲逢のスキBEST ENDを確認してシステムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "08,52",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "ロード E40NB",
+    "simpleJp": "セーブ19をロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
     "simpleJp": "D40：なし",
@@ -396,25 +444,25 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：強制イベント",
+    "simpleJp": "D40：強制イベント",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "強制",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：美也 END",
+    "simpleJp": "D41：美也ENDを最後まで確認してシステムセーブする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：(32,30) automatic",
+    "simpleJp": "美也END後、(32,30)カーテンコールが自動再生される",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "32,30",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D42：(32,34) automatic all-epilogues completion",
+    "simpleJp": "全エピローグ既読なら(32,34)オールエピローグコンプリートが自動再生される",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "32,34",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

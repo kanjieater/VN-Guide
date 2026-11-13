@@ -336,10 +336,22 @@
     "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
   },
   {
-    "simpleJp": "D42：告白する相手として七咲逢を選び、七咲逢のスキGOOD ENDを見てシステムセーブする",
+    "simpleJp": "D42：告白相手として「七咲逢」を選ぶ",
     "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person you dated."
+  },
+  {
+    "simpleJp": "D42：七咲逢のスキGOOD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：七咲逢のスキGOODクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
@@ -348,11 +360,23 @@
     "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
   },
   {
-    "simpleJp": "D42：告白する相手として森島はるかを選び、森島はるかのスキBAD ENDを見てシステムセーブする",
+    "simpleJp": "D42：告白相手として「森島はるか」を選ぶ",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person stood up for BAD.",
     "badEndPath": "森島はるか・スキBAD"
+  },
+  {
+    "simpleJp": "D42：森島はるかのスキBAD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：森島はるかのスキBADクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ18をロードし、41日目の2人が★の状態のデート選択へ戻る",
@@ -368,10 +392,22 @@
     "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
   },
   {
-    "simpleJp": "D42：告白する相手として森島はるかを選び、森島はるかのスキGOOD ENDを見てシステムセーブする",
+    "simpleJp": "D42：告白相手として「森島はるか」を選ぶ",
     "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person you dated."
+  },
+  {
+    "simpleJp": "D42：森島はるかのスキGOOD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：森島はるかのスキGOODクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
@@ -380,11 +416,23 @@
     "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
   },
   {
-    "simpleJp": "D42：告白する相手として七咲逢を選び、七咲逢のスキBAD ENDを見てシステムセーブする",
+    "simpleJp": "D42：告白相手として「七咲逢」を選ぶ",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person stood up for BAD.",
     "badEndPath": "七咲逢・スキBAD"
+  },
+  {
+    "simpleJp": "D42：七咲逢のスキBAD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：七咲逢のスキBADクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ17をロード",
@@ -400,10 +448,22 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：デートマップ(57,30)を選び、森島はるかのスキBEST ENDを確認してシステムセーブする",
+    "simpleJp": "D41：デートマップ(57,30)の森島はるかイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "57,30",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：森島はるかのスキBEST ENDを最後まで見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "57,30",
+    "enGuide": "BEST epilogue terminal for the single-holiday date branch."
+  },
+  {
+    "simpleJp": "D41：森島はるかのスキBESTクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Preserve completion across subsequent save reloads."
   },
   {
     "simpleJp": "セーブ16をロード",
@@ -442,10 +502,22 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：デートマップ(08,52)を選び、七咲逢のスキBEST ENDを確認してシステムセーブする",
+    "simpleJp": "D41：デートマップ(08,52)の七咲逢イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "08,52",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：七咲逢のスキBEST ENDを最後まで見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "08,52",
+    "enGuide": "BEST epilogue terminal for the single-holiday date branch."
+  },
+  {
+    "simpleJp": "D41：七咲逢のスキBESTクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Preserve completion across subsequent save reloads."
   },
   {
     "simpleJp": "セーブ19をロード",

@@ -3,50 +3,44 @@
   "vndb_id": "v1281",
   "routes": [
     {
-      "id": "ayatsuji",
-      "title": "絢辻詞ルート",
+      "id": "opening",
+      "title": "共通ルート（1〜15日目）",
       "portrait": "",
       "reviewed": false
     },
     {
-      "id": "sakurai",
-      "title": "桜井梨穂子ルート",
+      "id": "nakayoshi_a",
+      "title": "ナカヨシ前半・ソエン分岐",
       "portrait": "",
       "reviewed": false
     },
     {
-      "id": "tanamachi",
-      "title": "棚町薫ルート",
+      "id": "nakayoshi_b",
+      "title": "ナカヨシ後半・ソエン分岐",
       "portrait": "",
       "reviewed": false
     },
     {
-      "id": "nakata",
-      "title": "中多紗江ルート",
+      "id": "ayatsuji_nakata_kamizaki",
+      "title": "絢辻・中多スキ／上崎ルート",
       "portrait": "",
       "reviewed": false
     },
     {
-      "id": "nanasaki",
-      "title": "七咲逢ルート",
+      "id": "four_heroines_opening",
+      "title": "4ヒロイン共通ルート",
       "portrait": "",
       "reviewed": false
     },
     {
-      "id": "morishima",
-      "title": "森島はるかルート",
+      "id": "sakurai_tanamachi",
+      "title": "桜井・棚町スキ",
       "portrait": "",
       "reviewed": false
     },
     {
-      "id": "kamizaki",
-      "title": "上崎裡沙ルート",
-      "portrait": "",
-      "reviewed": false
-    },
-    {
-      "id": "miya",
-      "title": "橘美也ルート",
+      "id": "nanasaki_morishima_miya",
+      "title": "七咲・森島スキ／美也",
       "portrait": "",
       "reviewed": false
     }

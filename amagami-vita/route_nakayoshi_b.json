@@ -372,10 +372,10 @@
     "enGuide": "Check prior save-state and source itinerary."
   },
   {
-    "simpleJp": "D31のセーブ(3)をロード（ナカヨシ(1)から分岐した中多・桜井・絢辻ソエン用）",
-    "jpGuide1": "原典の分岐に基づく作業用手順",
+    "simpleJp": "D31：ナカヨシ(1)で作成したセーブ(3)をロード（ソエン：絢辻・桜井・中多）",
+    "jpGuide1": "ソエン3人 セーブ(3)から",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Original source says セーブ(3) from previous section; check saved branch state before continuing."
+    "enGuide": "Confirmed source cross-section reuse: the save was created at day 31 in the first ナカヨシ branch, not the current section."
   },
   {
     "simpleJp": "D32：イベントを選ばず進める",

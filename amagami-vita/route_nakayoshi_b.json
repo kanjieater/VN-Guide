@@ -522,10 +522,10 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D37：中多(05,09)で上から1番目を選び、イベント(03,09)を実行する",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "D37：中多の(05,09)では「好きにしろよ」（上から1番目）を選ぶ。次の(03,09)イベントを実行する",
+    "jpGuide1": "「好きにしろよ」を選んだ場合のみ",
     "jpGuide2": "(1) 37　03,09(中)",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Exact option wording is corroborated by Set A chart_nakata_soen; the (03,09) event only appears for this answer."
   },
   {
     "simpleJp": "D38：イベントを選ばず進める×2",
@@ -606,10 +606,10 @@
     "enGuide": "Keep completed ending state."
   },
   {
-    "simpleJp": "セーブ7をロードし、37日目(05,09)では上から2番目を選ぶ",
+    "simpleJp": "セーブ7をロードして37日目(05,09)では上から2番目を選び、(03,09)は実行しない",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "その後システムセーブ後、セーブ(2)を読み込んで05,09実行",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "enGuide": "Alternative source-B (2) branch omits (03,09); don't reuse the first branch's choice."
   },
   {
     "simpleJp": "D37：マップ座標 13,02(桜) を選ぶ",

@@ -1,8 +1,8 @@
 [
   {
-    "simpleJp": "ロード A2 (D15):",
+    "simpleJp": "セーブ2をロード（15日目の共通ルート終端）",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "ナカヨシ(2)(森島・七咲・棚町) セーブ(2)から",
     "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
@@ -366,15 +366,45 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "At C4, view ナカヨシ 森島/七咲/棚町 by selecting each invitation and returning to morning as required.",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Check prior save-state and source itinerary."
+    "simpleJp": "D40：セーブ6からロードして、他のヒロインの招待は断り、森島はるかのクリスマスパーティーへの招待を受ける",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Each invitation branch starts from the same D40 pre-invitation checkpoint."
   },
   {
-    "simpleJp": "D31：ナカヨシ(1)で作成したセーブ(3)をロード（ソエン：絢辻・桜井・中多）",
+    "simpleJp": "D41：森島はるかのナカヨシENDを最後まで見て、クリア記録をシステムセーブする",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Record this heroine's friendship ending persistently."
+  },
+  {
+    "simpleJp": "D40：セーブ6からロードして、他のヒロインの招待は断り、七咲逢のクリスマスパーティーへの招待を受ける",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Each invitation branch starts from the same D40 pre-invitation checkpoint."
+  },
+  {
+    "simpleJp": "D41：七咲逢のナカヨシENDを最後まで見て、クリア記録をシステムセーブする",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Record this heroine's friendship ending persistently."
+  },
+  {
+    "simpleJp": "D40：セーブ6からロードして、他のヒロインの招待は断り、棚町薫のクリスマスパーティーへの招待を受ける",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Each invitation branch starts from the same D40 pre-invitation checkpoint."
+  },
+  {
+    "simpleJp": "D41：棚町薫のナカヨシENDを最後まで見て、クリア記録をシステムセーブする",
+    "jpGuide1": "40日目放課後の誘いを受けてクリスマスパーティーに参加する。",
+    "jpGuide2": "セーブ後3人をそれぞれ攻略する",
+    "enGuide": "Record this heroine's friendship ending persistently."
+  },
+  {
+    "simpleJp": "セーブ3（前セクション31日目）をロードして32日目のソエン分岐へ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "ソエン3人 セーブ(3)から",
     "enGuide": "Confirmed source cross-section reuse: the save was created at day 31 in the first ナカヨシ branch, not the current section."
   },
   {
@@ -504,15 +534,39 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：今朝に戻る once for two endings; retain system data",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "simpleJp": "D41：梅原との会話で桜井梨穂子に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを1回やり2人分見る",
+    "enGuide": "First D37 branch; Sae variant 1 follows source's (1) on (05,09)."
   },
   {
-    "simpleJp": "ロード C37; at 05,09(中) choose 2",
+    "simpleJp": "D41：桜井梨穂子のソエンENDを確認しシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "2人分見る",
+    "enGuide": "Keep completed ending state."
+  },
+  {
+    "simpleJp": "D41：行動マップで「今朝に戻る」を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
+    "jpGuide2": "今朝に戻るを1回やり2人分見る",
+    "enGuide": "One return for the second epilogue."
+  },
+  {
+    "simpleJp": "D41：梅原との会話で中多紗江（ソエン1）に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを1回やり2人分見る",
+    "enGuide": "First D37 branch; Sae variant 1 follows source's (1) on (05,09)."
+  },
+  {
+    "simpleJp": "D41：中多紗江（ソエン1）のソエンENDを確認しシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "2人分見る",
+    "enGuide": "Keep completed ending state."
+  },
+  {
+    "simpleJp": "セーブ7をロードし、37日目(05,09)では上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "その後システムセーブ後、セーブ(2)を読み込んで05,09実行",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
@@ -582,9 +636,51 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D41：「今朝に戻る」を2回選び、3人分のソエンを見る",
+    "simpleJp": "D41：梅原との会話で絢辻詞に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを2回やり3人分見る",
+    "enGuide": "Second D37 branch: preserves the distinct second Sae ending."
+  },
+  {
+    "simpleJp": "D41：絢辻詞のソエンENDを確認しシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "3人分見る",
+    "enGuide": "Persist each clear record."
+  },
+  {
+    "simpleJp": "D41：行動マップで「今朝に戻る」を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "今朝に戻るを2回やり3人分見る",
+    "enGuide": "One return for each additional heroine."
+  },
+  {
+    "simpleJp": "D41：梅原との会話で桜井梨穂子に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを2回やり3人分見る",
+    "enGuide": "Second D37 branch: preserves the distinct second Sae ending."
+  },
+  {
+    "simpleJp": "D41：桜井梨穂子のソエンENDを確認しシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "3人分見る",
+    "enGuide": "Persist each clear record."
+  },
+  {
+    "simpleJp": "D41：行動マップで「今朝に戻る」を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "今朝に戻るを2回やり3人分見る",
+    "enGuide": "One return for each additional heroine."
+  },
+  {
+    "simpleJp": "D41：梅原との会話で中多紗江（ソエン2）に該当する選択肢を選ぶ",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "今朝に戻るを2回やり3人分見る",
+    "enGuide": "Second D37 branch: preserves the distinct second Sae ending."
+  },
+  {
+    "simpleJp": "D41：中多紗江（ソエン2）のソエンENDを確認しシステムセーブする",
+    "jpGuide1": "梅原との会話中に選択肢を選ぶと、梅原からそのヒロインに関する話しを聞くことになる。",
+    "jpGuide2": "3人分見る",
+    "enGuide": "Persist each clear record."
   }
 ]

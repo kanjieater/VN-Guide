@@ -1,9 +1,21 @@
 [
   {
-    "simpleJp": "ロード A1 (D5), after hidden-route system unlock. At D5 choose 休3=3 to unlock 美也; source states her events then advance automatically without affecting heroine events.",
+    "simpleJp": "セーブ1をロードし、六人のナカヨシENDと上崎ルートの解禁条件を満たしたシステム記録を保持する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
+    "jpGuide2": "セーブ(1)ロード",
+    "enGuide": "EbiColle day-5 shared checkpoint; clear/unlock records must already be saved in the system data."
+  },
+  {
+    "simpleJp": "D05：休3の隠しキャラ選択肢で上から3番目（美也ルート）を選ぶ",
+    "jpGuide1": "美也に自慢できるクリスマスになるかも",
+    "jpGuide2": "休3選択肢3",
+    "enGuide": "The exact printed Japanese choice from the independent hidden-character chart is attached; source B uses third option."
+  },
+  {
+    "simpleJp": "D05：美也の追加イベントを進める。以後、他のヒロインの必要イベントも継続する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "美也イベントは自動で発生する",
+    "enGuide": "Miya unlock is not the immediate ending; keep main heroine schedule."
   },
   {
     "simpleJp": "D05：マップ座標 38,33(森) を選ぶ",
@@ -270,9 +282,9 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D19：after 休3 choice セーブ12",
+    "simpleJp": "D19：休3のイベント選択が終わった直後にセーブ12（後続2組のスキ分岐用）",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "セーブ(1)",
+    "jpGuide2": "休3の選択肢を選んだ後セーブ(1)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   }
 ]

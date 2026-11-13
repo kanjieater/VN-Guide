@@ -222,16 +222,22 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D32：マップ座標 30,11(桜,1 を選ぶ",
+    "simpleJp": "D32：マップ座標30,11(桜)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "30,11",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "30,11(桜,1→どれでも*2)",
+    "enGuide": ""
   },
   {
-    "simpleJp": "D32：任意×2)",
+    "simpleJp": "D32：最初の選択肢は上から1番目を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "30,11(桜,1→どれでも*2)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D32：続く2回の選択肢はいずれを選んでもよい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "30,11(桜,1→どれでも*2)",
+    "enGuide": ""
   },
   {
     "simpleJp": "D32：マップ座標54,20(棚)のイベントを選ぶ",
@@ -246,10 +252,28 @@
     "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
-    "simpleJp": "D33–36：イベントを選ばず進める×4 each [D34 休3=2; D35 17,28]",
+    "simpleJp": "D33：イベントを選ばず4回進める。休3の選択肢はどちらでもよい",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "17,28",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "33～36 なし*4",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D34：イベントを選ばず進め、休3では上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "34日め休3選択肢は2",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D35：マップ(17,28)のイベントを実行する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "35日めは17,28",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D36：イベントを選ばず4回進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "33～36 なし*4",
+    "enGuide": ""
   },
   {
     "simpleJp": "D37：イベントを選ばず進める",
@@ -438,9 +462,9 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：58,18(棚)",
+    "simpleJp": "D40：マップ(58,18)の棚町イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "58,18",
+    "jpGuide2": "58,18(棚)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {

@@ -24,10 +24,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D16：マップ座標 30,49(絢,1) を選ぶ",
+    "simpleJp": "D16：マップ座標30,49(絢)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "30,49",
+    "jpGuide2": "30,49(絢,1)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D16：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "30,49(絢,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D16：マップ座標 21,29(中) を選ぶ",
@@ -48,10 +54,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D17：マップ座標 22,28(中,1) を選ぶ",
+    "simpleJp": "D17：マップ座標22,28(中)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "22,28",
+    "jpGuide2": "22,28(中,1)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D17：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "22,28(中,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D17：マップ座標 21,28(中) を選ぶ",
@@ -72,10 +84,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D19：マップ座標 30,51(絢,1) を選ぶ",
+    "simpleJp": "D19：マップ座標30,51(絢)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "30,51",
+    "jpGuide2": "30,51(絢,1)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D19：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "30,51(絢,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D19：イベントを選ばず進める",
@@ -114,10 +132,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D21：マップ座標 17,36(2) を選ぶ",
+    "simpleJp": "D21：マップ座標17,36のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "17,36",
+    "jpGuide2": "17,36(2)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D21：直前のイベントの選択肢は上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,36(2)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D22：イベントを選ばず進める×3",
@@ -138,10 +162,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D23：マップ座標 34,51(絢,1) を選ぶ",
+    "simpleJp": "D23：マップ座標34,51(絢)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "34,51",
+    "jpGuide2": "34,51(絢,1)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D23：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "34,51(絢,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D24：イベントを選ばず進める×3",
@@ -156,10 +186,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D25：マップ座標 16,31(中,1) を選ぶ",
+    "simpleJp": "D25：マップ座標16,31(中)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "16,31",
+    "jpGuide2": "16,31(中,1)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D25：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "16,31(中,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D25：マップ座標 19,13(桜) を選ぶ",

@@ -724,16 +724,10 @@
     "badEndPath": "絢辻詞・スキBAD"
   },
   {
-    "simpleJp": "D42：絢辻詞のスキBAD ENDを最後まで見る",
+    "simpleJp": "D42：絢辻詞のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
     "enGuide": "Explicit ending terminal reached by the preceding confession."
-  },
-  {
-    "simpleJp": "D42：絢辻詞のスキBADクリア記録をシステムデータに保存する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ11をロードして41日目のデート選択に戻る",
@@ -780,16 +774,10 @@
     "badEndPath": "中多紗江・スキBAD"
   },
   {
-    "simpleJp": "D42：中多紗江のスキBAD ENDを最後まで見る",
+    "simpleJp": "D42：中多紗江のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "もう一度2つのエピローグを見る",
     "enGuide": "Explicit ending terminal reached by the preceding confession."
-  },
-  {
-    "simpleJp": "D42：中多紗江のスキBADクリア記録をシステムデータに保存する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
     "simpleJp": "セーブ10をロード",

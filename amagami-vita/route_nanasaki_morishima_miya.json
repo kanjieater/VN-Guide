@@ -532,15 +532,15 @@
     "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "美也END後、行動マップの座標(32,30)を選び、カーテンコールを確認する（自動再生とは断定しない）",
+    "simpleJp": "美也END後、クリア記録により追加される「オールキャラクリア！」(32,30)のイベントを確認し、カーテンコールを見る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "32,30",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Independent @wiki clear-after list confirms this event/icon is added after all six heroines' SUKI BEST+NAKAYOSHI and both hidden characters. Set B prints 美也END→32,30. Whether the event starts by direct map selection or automatic transition is NOT independently established; do not assume an input method."
   },
   {
-    "simpleJp": "全エピローグ既読のシステム記録を保持した状態で、行動マップの座標(32,34)を選び、オールエピローグコンプリートを確認する（自動再生とは断定しない）",
+    "simpleJp": "全エピローグ既読後に追加される「オールコンプリート！」(32,34)のイベントを確認し、コンプリート演出を見る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "32,34",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Independent @wiki clear-after list confirms this event/icon is added after all required epilogues, and both icons are added consecutively if Miya is completed last. Vita EbiColle changes the 32,34 content to Miya. Source does not independently establish click vs automatic event; check available event UI without assuming the input method."
   }
 ]

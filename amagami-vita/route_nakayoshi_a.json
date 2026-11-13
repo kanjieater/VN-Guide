@@ -120,16 +120,22 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D20：マップ座標 25,16(桜,1 を選ぶ",
+    "simpleJp": "D20：マップ座標25,16の桜井イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "25,16",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "25,16(桜,1→どちらでも)",
+    "enGuide": "Open the Sakurai D20 event after the three no-event advances."
   },
   {
-    "simpleJp": "D20：任意)",
+    "simpleJp": "D20：このイベントの最初の選択肢は上から1番目を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "jpGuide2": "25,16(桜,1→どちらでも)",
+    "enGuide": "First dialogue selection in the source token."
+  },
+  {
+    "simpleJp": "D20：続く選択肢はどちらを選んでもよい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "25,16(桜,1→どちらでも)",
+    "enGuide": "The next selection is optional; do not interpret it as a second coordinate."
   },
   {
     "simpleJp": "D21：マップ座標17,36のイベントを選ぶ",

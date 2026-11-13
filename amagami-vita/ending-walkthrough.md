@@ -274,6 +274,20 @@ LOAD E39N → D39 なし×2 → D40 なし×2 → SAVE E40NB → 08,48(七) → 
 LOAD E40NB → D40 なし → 強制 → 美也 END → (32,30) automatic → (32,34) automatic all-epilogues completion
 ```
 
+## Exact ending-branch execution checklist (cross-check against written itinerary)
+
+The following is the **explicit operational expansion** of the article's abbreviated day-41/42 GOOD/BAD procedure. For each two-heroine pair, save immediately before the day-41 date choice, and preserve the two-star state.
+
+| Pair | Day-41 date A | Confess on day 42 to A | Confess on day 42 to B | Reload day-41 checkpoint; date B | Confess to B | Confess to A |
+|---|---|---|---|---|---|---|
+| 絢辻 A / 中多 B | 53,54 絢辻 | 絢辻 GOOD | 中多 BAD | 10,13 中多 | 中多 GOOD | 絢辻 BAD |
+| 桜井 A / 棚町 B | 桜井's displayed date event | 桜井 GOOD | 棚町 BAD | 棚町's displayed date event | 棚町 GOOD | 桜井 BAD |
+| 七咲 A / 森島 B | 七咲's displayed date event | 七咲 GOOD | 森島 BAD | 森島's displayed date event | 森島 GOOD | 七咲 BAD |
+
+**Important:** A day-42 confession after a date is not a new day-41 map selection. To collect both confessions for one date, select `今朝に戻る` on the ending's map (as 0xwas instructs). To change which heroine was dated, **load the day-41 checkpoint**, then select the other date. The original written guide prints the two map coordinates for 絢辻/中多, but abbreviates the other two pairs: **do not invent map coordinates** for 桜井/棚町 or 七咲/森島. Their two available starred date events must be identified in the current game state before selecting. This is an explicit unresolved executable detail, not a completed source-backed coordinate.
+
+**Checkpoint dependency correction:** The source reuses local save labels 1–4 in each subsection. Save A1/A2, B3/B4, C37, D39/D40S/D41, E19/E39/E40/E41 and E39N/E40N/E41N are **editorial unique names** for the article's reused numbered checkpoints, not literal UI save-slot numbers. Never overwrite a save still needed by another branch. In the second ナカヨシ subsection, the source's `セーブ(3)` reference for the ソエン branch points to the day-31 branch made in the first ナカヨシ subsection, not the day-15 common save. Verify state before loading.
+
 ## Verification before claiming finished
 
 - [ ] Reconcile original D33 `強制→*2`, duplicate D32 save, and all `⚠` corrupted heroine/choice annotations against written Japanese alternatives or a directly verifiable source.

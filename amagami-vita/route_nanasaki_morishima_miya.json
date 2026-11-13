@@ -532,15 +532,15 @@
     "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "美也END後、クリア記録により追加される「オールキャラクリア！」(32,30)のイベントを確認し、カーテンコールを見る",
+    "simpleJp": "美也END後、条件達成済みの「オールキャラクリア！」(32,30)が自動再生されるのを見る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "32,30",
-    "enGuide": "Independent @wiki clear-after list confirms this event/icon is added after all six heroines' SUKI BEST+NAKAYOSHI and both hidden characters. Set B prints 美也END→32,30. Whether the event starts by direct map selection or automatic transition is NOT independently established; do not assume an input method."
+    "jpGuide2": "32,30自動再生",
+    "enGuide": "The complete 0xwas EbiColle all-epilogue itinerary explicitly says this event AUTOPLAYS after Miya. Six heroines' SUKI BEST + NAKAYOSHI and the two hidden characters' epilogues must already be recorded; do not invent a map click."
   },
   {
-    "simpleJp": "全エピローグ既読後に追加される「オールコンプリート！」(32,34)のイベントを確認し、コンプリート演出を見る",
+    "simpleJp": "全エピローグ取得済みなら、続く「オールコンプリート！」(32,34)が自動再生されるのを見る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "32,34",
-    "enGuide": "Independent @wiki clear-after list confirms this event/icon is added after all required epilogues, and both icons are added consecutively if Miya is completed last. Vita EbiColle changes the 32,34 content to Miya. Source does not independently establish click vs automatic event; check available event UI without assuming the input method."
+    "jpGuide2": "32,34自動再生(オールコンプリート！)",
+    "enGuide": "Explicit automatic playback per the written 0xwas EbiColle itinerary. The independent wiki supports consecutive addition if Miya is last; this is distinct from CG-gallery 100%."
   }
 ]

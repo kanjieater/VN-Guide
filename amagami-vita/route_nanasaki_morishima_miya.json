@@ -336,7 +336,7 @@
     "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
   },
   {
-    "simpleJp": "D42：告白相手として「七咲逢」を選ぶ",
+    "simpleJp": "D42：告白相手は七咲逢を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
     "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person you dated."
@@ -360,7 +360,7 @@
     "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
   },
   {
-    "simpleJp": "D42：告白相手として「森島はるか」を選ぶ",
+    "simpleJp": "D42：告白相手は森島はるかを選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person stood up for BAD.",
@@ -386,7 +386,7 @@
     "enGuide": "0xwas omits the two exact day-41 coordinates for this pair. Select the named starred date event only; do not invent coordinates."
   },
   {
-    "simpleJp": "D42：告白相手として「森島はるか」を選ぶ",
+    "simpleJp": "D42：告白相手は森島はるかを選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
     "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person you dated."
@@ -410,7 +410,7 @@
     "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
   },
   {
-    "simpleJp": "D42：告白相手として「七咲逢」を選ぶ",
+    "simpleJp": "D42：告白相手は七咲逢を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Confess to the person stood up for BAD.",
@@ -532,13 +532,13 @@
     "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "美也END後、(32,30)カーテンコールが自動再生される",
+    "simpleJp": "美也END後、行動マップの座標(32,30)を選び、カーテンコールを確認する（自動再生とは断定しない）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "32,30",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "全エピローグ既読なら(32,34)オールエピローグコンプリートが自動再生される",
+    "simpleJp": "全エピローグ既読のシステム記録を保持した状態で、行動マップの座標(32,34)を選び、オールエピローグコンプリートを確認する（自動再生とは断定しない）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "32,34",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."

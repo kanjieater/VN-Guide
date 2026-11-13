@@ -606,10 +606,22 @@
     "enGuide": "Keep completed ending state."
   },
   {
-    "simpleJp": "セーブ7をロードして37日目(05,09)では上から2番目を選び、(03,09)は実行しない",
+    "simpleJp": "セーブ7をロードして37日目・中多(05,09)の選択前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "その後システムセーブ後、セーブ(2)を読み込んで05,09実行",
-    "enGuide": "Alternative source-B (2) branch omits (03,09); don't reuse the first branch's choice."
+    "enGuide": "This save was made before the map event, so select the event again."
+  },
+  {
+    "simpleJp": "D37：中多のマップイベント(05,09)を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "05,09(中、選択肢以下を参照)",
+    "enGuide": "Reselect this event from the restored D37 map state."
+  },
+  {
+    "simpleJp": "D37：このイベントでは上から2番目の選択肢を選ぶ（03,09のイベントは実行しない）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "(2)",
+    "enGuide": "The second source branch does not contain the (03,09) event."
   },
   {
     "simpleJp": "D37：マップ座標 13,02(桜) を選ぶ",

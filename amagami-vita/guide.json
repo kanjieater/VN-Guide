@@ -153,9 +153,21 @@
       "title": "複数キャラ攻略 LEVEL1",
       "language": "ja",
       "notes": "同時攻略の最初の11日の行動/チェックポイント。個別の第三者確認を要する版別箇所が残る。"
+    },
+    {
+      "url": "https://www.amagami.info/intro05.html",
+      "title": "アマガミ公式 会話モード",
+      "language": "ja",
+      "notes": "会話モードの公式十話題名（世間話、勉強、運動、娯楽、食べ物、おしゃれ、恋愛、エッチ、行動、アタック）を明示。0xwasの5ターン略記の展開に使用。公式マニュアルであり独立通し攻略とは数えない。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/47.html",
+      "title": "@wiki 複数人同時攻略法",
+      "language": "ja",
+      "notes": "原版PS2を主とする独立日本語時刻別チャート。33日目絢辻強制と桜井のMAP座標を確認。エビコレの別攻略経路と1:1一致させず、欠落動詞を推測扱いとする。"
     }
   ],
-  "generated_at": "2026-11-09T21:31:00-06:00",
+  "generated_at": "2026-11-12T21:10:00-06:00",
   "guide_target": {
     "label": "エビコレ＋ アマガミ（2014年1月30日・PS Vita日本語版）",
     "platform": "PlayStation Vita",

@@ -1,0 +1,285 @@
+# アマガミ エビコレ＋（2014 PS Vita）全エピローグ実行用チャート — author draft
+
+**Target:** Japanese 2014 PS Vita EbiColle+ only. **Scope:** 34 formal epilogues plus the extra 上崎 sudden BAD (35 outcomes), not CG/event 100%. **Status:** written source-backed *working itinerary*, not an independently reviewed or finalized VN-Guide route JSON. See [owner-approved evidence exception](https://github.com/kanjieater/VN-Guide/pull/116#issuecomment-6842545023).
+
+**Primary written itinerary:** [0xwas, ゲーム版アマガミの全エピローグルート](https://note.com/heikin_fan_club/n/ne80b505878c5). Author explicitly states it works on EbiColle regardless of platform, **not** original full-price PS2. Independent ending-condition cross-checks: [攻略情報センター](https://game-kouryaku.info/amagami/ending.html), [@wiki gameplay](https://w.atwiki.jp/amagami/pages/98.html), [EbiColle differences](https://w.atwiki.jp/amagami/pages/91.html).
+
+## How to read / execute
+
+- Coordinates are the source's event-map coordinates, not dialogue text. Each day normally has four actions in order: 休1 → 休2 → 昼 → 放課後. `なし` = advance without selecting heroine event; `強制` = automatic event. `なし×N` means N such advances.
+- `(1)`, `(2)`, `(3)` on an event mean **first, second, third displayed choice from the top**, *not* Japanese choice wording. `どれでも` means the source permits any. The shorthand names 絢/七/中/棚/森/桜 refer to 絢辻/七咲/中多/棚町/森島/桜井.
+- Source's numbered saves are **local to its branches** and reused: create separately named save files/checkpoints per section to avoid overwriting. `今朝に戻る` is a game command, **not** a file reload. After endings, retain system clear data before loading an old save to unlock hidden routes.
+- This is an exact-source **map/action transcription** with editorial day ordering repaired only where obvious. Any marked `⚠` source corruption/ambiguity must be checked in another written source or in-game; do not guess. For exact choice labels, the source gives ordinal positions only.
+- Follow the sections in order; a section's `LOAD` is mandatory and is not a continuation of the previous ending.
+
+## A. New game → day 15 shared preparation
+
+```text
+D01 32,36(絢) → 34,30(棚) → 31,28(桜) → なし
+D02 34,38(絢) → 32,26(桜) → 強制 → なし
+D03 33,38(絢) → 36,33(森) → 31,25(桜) → 強制(任意)
+D04 28,37(七) → 37,33(森) → 強制のみ(桜の選択肢2、美也任意)
+D05 36,28(棚,2) → SAVE A1 → なし×3
+D06 なし×4(桜の選択肢任意)
+D07 17,34
+D08 なし×4
+D09 なし×2 → 強制 → なし → 強制
+D10 45,38(森) → 44,39(森) → 27,22(桜) → なし
+D11 26,22(桜) → 22,31(中) → 22,30(中) → 強制
+D12 45,39(森) → 42,22(棚) → 26,21(桜) → 27,47(七,任意)
+D13 22,29(中,1または2) → なし → 強制(任意) → 33,48(絢)
+D14 17,35(2)
+D15 なし×2 → SAVE A2
+```
+
+**Source transcription fix:** original article prints D08 before D07; restored chronological order. D09 and other forced events sometimes exceed four tokens; treat forced prompts as additional event text, **not** a fifth time slot.
+
+## B. ナカヨシ 絢辻・中多・桜井; other three ソエン
+
+Continue from **A2**, preserving A1.
+
+```text
+D15 26,20(桜) → 26,18(桜)
+D16 32,48(絢) → なし → 30,49(絢,1) → 21,29(中)
+D17 25,18(桜) → なし → 22,28(中,1) → 21,28(中)
+D18 なし×3 → 強制(休3任意)
+D19 30,51(絢,1) → なし → 25,17(桜) → 24,17(桜)
+D20 なし×3 → 25,16(桜,1→任意)
+D21 17,36(2)
+D22 なし×3 → 32,51(絢)
+D23 なし×3 → 34,51(絢,1)
+D24 なし×3 → 18,13(桜)
+D25 16,31(中,1) → 19,13(桜) → 15,30(中) → 強制(任意)
+D26 なし → 50,47(森) → 12,29(中) → 20,11(桜,任意)
+D27 なし×2 → 39,49(絢,任意) → 39,50(絢)
+D28 17,37
+D29 なし×3 → 21,11(桜)
+D30 なし×2 → 51,47(森) → 39,51(絢)
+D31 なし → SAVE B3 → 39,52(絢) → 11,28(中,任意) → 強制
+D32 10,26(中) → なし×2 → 強制
+D33 強制 → ⚠ source prints “*2” without the action it repeats → 21,10(桜)
+D34 40,54(絢) → 21,09(桜) → なし×2
+D35 17,38
+D36–37 なし×4 each (D37 forced only)
+D38 40,55(絢) → 41,55(絢) → 20,09(桜) → なし
+D39 21,08(桜) → なし×3
+D40 なし×4; when 放課後 forced event appears SAVE B4
+```
+
+At **B4** obtain the three ナカヨシ epilogues (絢辻/中多/桜井) by choosing the respective invitation/ending and using `今朝に戻る` to see the others. **Source does not print the literal invitations**.
+
+**LOAD B3** for 棚町・七咲・森島 ソエン:
+
+```text
+D31 なし×2 → 強制
+D32 58,08(棚) → 58,07(棚) → 58,06(棚) → 19,58(七)
+D33 なし → 19,57(七) → なし → 52,47(森)
+D34 なし×3 → 58,05(棚)
+D35 17,38
+D36 58,04(棚) → なし×3
+D37 なし×4
+D38 53,48(森) → 15,57(七) → なし×2
+D39–40 なし×4 each
+D41 completion/map: 今朝に戻る twice to view all three ソエン
+```
+
+## C. ナカヨシ 森島・七咲・棚町; other three ソエン
+
+**LOAD A2** (D15):
+
+```text
+D15 41,21(棚,2) → 43,21(棚,任意)
+D16 なし×2 → 46,41(森) → 28,48(七)
+D17 なし×2 → 26,49(七) → 43,20(棚)
+D18 44,20(棚,1) → なし → 27,49(七) → 47,42(森) [休3=1]
+D19 なし → 28,50(七) → 27,51(七,1) → 47,40(森) [休3≠3]
+D20 27,54(七) → 26,53(七,1) → なし → 47,39(森,1)
+D21 17,36(2)
+D22 なし×3 → 43,19(棚)
+D23 なし×3 → 44,19(棚)
+D24 53,42(森) → 52,45(森,任意) → なし → 25,54(七,⚠ corrupted choice annotation)
+D25 なし×2 → 43,13(棚) → 54,42(森,2)
+D26 なし×2 → 44,13(棚) → 54,45(森)
+D27 なし×3 → 21,48(七,任意)
+D28 17,37
+D29 21,49(七) → 31,56(絢) → 31,57(絢) → 31,58(絢)
+D30 45,12(棚) → 31,59(絢) → 31,60(絢) → なし
+D31 なし×2 → 05,11(中) → 強制
+D32 05,10(中) → なし → 14,04(桜) → ⚠ source repeats “セーブ(2)” → 53,41(森,任意×2)
+D33 なし×3 → 20,49(七)
+D34 なし×3 → 46,12(棚)
+D35 17,38
+D36–40 なし only; at D40 放課後 forced event SAVE C4
+```
+
+At **C4**, view ナカヨシ 森島/七咲/棚町 by selecting each invitation and returning to morning as required.
+
+**LOAD B3** (source says `セーブ(3)`; its context is ambiguous here—confirm correct checkpoint before use) for 桜井/絢辻/中多 ソエン:
+
+```text
+D32 なし
+D33 なし → なし → 13,03(桜) → なし
+D34 13,04(桜) → なし×3
+D35 17,38
+D36 なし×4
+D37 なし → SAVE C37 → 05,09(中,branch choice)
+  Choice 1: 03,09(中)
+D38 なし×2 → 05,08(中) → 04,08(中)
+D39 03,08(中) → 03,07(中) → なし×2
+D40 なし×3 → 強制
+D41 今朝に戻る once for two endings; retain system data
+LOAD C37; at 05,09(中) choose 2
+D37 13,02(桜) → なし
+D38 12,02(桜) → なし → 05,08(中) → 04,08(中)
+D39 03,08(中) → 03,07(中) → なし×2
+D40 なし×3 → 強制
+D41 今朝に戻る twice for three endings
+```
+
+This split includes **both 中多 ソエン variants**. Do not overwrite C37.
+
+## D. 絢辻＋中多 スキ and 上崎 hidden endings
+
+After recording all six ナカヨシ clear records, **LOAD A1** at D5. System clear data must persist.
+
+```text
+D05 なし → 28,29(中) → 31,39(絢) [休3=1]
+D06 28,28(中) → なし×2 → 強制(1)
+D07 17,34
+D08 26,28(中) → なし → 26,27(中,1 or 3) → なし
+D09 なし×2 → 32,42(絢,任意) → 強制
+D10 なし×4
+D11 なし×2 → 18,24(中) → なし
+D12 なし×3 → 強制
+D13 19,24(中) → 18,23(中) → なし×2
+D14 17,35(2)
+D15 37,39(絢) → なし×3
+D16 なし×3 → 39,40(絢)
+D17 なし → 38,41(絢) → 39,42(絢) → なし
+D18 強制 → なし×2 → 19,21(中,1→1)
+D19 なし×3 → 38,43(絢,任意)
+D20 39,43(絢,任意) → なし×2 → 40,43(絢)
+D21 17,36(2)
+D22–24 なし×4 each
+D25 なし×3 → 10,23(中)
+D26 なし×2 → 12,22(中) → 44,47(絢)
+D27 12,21(中) → なし → 強制 → 13,20(中)
+D28 17,37
+D29 なし×3 → 13,19(中)
+D30 45,49(絢) → なし×3
+D31 なし → 46,50(絢) → なし → 強制
+D32 なし → 14,18(中) → 12,18(中) → 45,50(絢)
+D33 なし×2 → 44,51(絢) → 強制
+D34 なし×4
+D35 17,38
+D36 なし×2 → 46,52(絢) → 47,52(絢,任意)
+D37 なし×4
+D38 なし×3 → 強制(任意×2)
+D39 なし×2 → SAVE D39 → 49,52(絢) → なし
+D40 なし×2 → 強制(1) → 上崎 events: choose third option in each printed prompt
+    After event SAVE D40K → なし → 上崎 sudden BAD
+LOAD D40K → 02,33(⚠ source heroine annotation garbled, 任意) → choose each documented next option in separate replays to see 上崎 BEST and formal BAD
+After both, 今朝に戻る; next choice unlocks 美也
+D40 なし×2 → 強制(1→2) → SAVE D40S → 14,17(中,1) → 強制
+D41 SAVE D41; choose date 10,13(中) OR 53,54(絢)
+D42 if dated 中: see 中多 GOOD and 絢辻 BAD by alternating confession target/今朝に戻る
+LOAD D41; choose other D41 date and alternate D42 confession target for 絢辻 GOOD and 中多 BAD
+LOAD D40S → D40 なし → 強制 → D41 54,54 = 絢辻 BEST
+LOAD D39 → D39 なし×2 → D40 なし → 14,17(中,1) → なし → 強制 [休3=2] → D41 11,12 = 中多 BEST
+```
+
+The date/confession principle is independently described by @wiki, but the exact prompt text remains ordinal. The source's two separate D40 blocks follow distinct loads/branches, not a single linear day.
+
+## E. 桜井・棚町・七咲・森島 スキ, plus 美也
+
+**LOAD A1** (D5), after hidden-route system unlock. At D5 choose 休3=3 to unlock 美也; source states her events then advance automatically without affecting heroine events.
+
+```text
+D05 38,33(森) → 37,28(棚,1) → 39,34(森,2) [休3=3]
+D06 38,28(棚) → 32,24(桜) → なし → 31,23(桜,1)
+D07 17,34
+D08 38,35(森,1) → なし×3
+D09 なし×3 → 強制
+D10 26,41(七) → 27,42(⚠ garbled heroine annotation) → 28,42(⚠ garbled annotation) → なし
+D11 29,20(桜) → 45,26(棚) → 45,36(森) → 強制
+D12 44,35(森,任意) → 44,34(森) → 30,20(桜) → 44,26(棚)
+D13 なし → 31,18(桜) → 23,37(七) → 22,39(七)
+D14 17,35(2)
+D15 なし → 30,17(桜) → 46,26(棚) → 47,26(棚)
+D16 なし×3 → 48,26(棚,2)
+D17 49,26(棚) → 31,17(桜) → なし → 23,39(七)
+D18 21,39(七,2) → 22,40(七) → なし → 32,17(桜)
+D19 なし×2 → after 休3 choice SAVE E19
+```
+
+### E1. 桜井＋棚町 スキ
+
+```text
+D19 34,18(桜) → 35,18(桜)
+D20 49,25(棚,1) → なし×2 → 強制
+D21 17,36(2)
+D22 なし×3 → 強制
+D23 なし×4
+D24 なし×2 → 26,13(桜,1) → 27,13(桜,任意)
+D25 強制 → 52,22(⚠ garbled annotation) → なし → 52,21(棚,2)
+D26 なし×2 → 27,12(桜) → なし
+D27 なし → 27,11(桜) → なし×2
+D28 17,37
+D29 強制 → なし×2 → 54,21(棚)
+D30 なし → 強制 → なし → 29,11(桜)
+D31 なし×3 → 強制
+D32 なし×2 → 30,11(桜,1→任意×2) → 54,20(棚,1)
+D33–36 なし×4 each [D34 休3=2; D35 17,28]
+D37 なし → 56,20(棚,任意) → 55,19(棚,⚠ garbled annotation) → 31,11(桜,1)
+D38 なし×4
+D39 なし×3 → SAVE E39 → 32,11(桜,1)
+D40 なし → SAVE E40 → 58,18(棚) → なし → 強制
+D41 SAVE E41
+D42 use day-41 date and day-42 confession alternations to see 桜井 GOOD/BAD and 棚町 GOOD/BAD; use 今朝に戻る and LOAD E41 to cover both dates
+LOAD E40 → D40 なし×2 → 強制 → D41 36,05 = 桜井 BEST
+LOAD E39 → D39 なし → D40 58,18(棚) → なし×2 → 強制 → D41 54,14 = 棚町 BEST
+```
+
+### E2. 七咲＋森島 スキ
+
+**LOAD E19**:
+
+```text
+D19 21,41(七,任意) → 44,33(森)
+D20 20,41(七) → なし×2 → 45,32(森,任意)
+D21 強制; 七咲★
+D22 なし×3 → 45,31(森)
+D23 なし×4
+D24 なし → 52,36(森) → 53,35(森) → 54,35(森)
+D25 なし×3 → 54,36(森)
+D26 17,44(七,⚠ garbled annotation) → 17,42(七,任意) → 18,42(七) → 16,42(七)
+D27 14,43(七) → なし×2 → 16,44(七)
+D28 17,37
+D29 なし×3 → 15,42(七)
+D30 なし×2 → 13,43(七) → 14,44(七)
+D31 なし×3 → 強制
+D32 なし×3 → 13,44(七)
+D33 なし×3 → 55,36(森)
+D34 なし×3 → 55,35(森) [休3=1]
+D35 17,28
+D36 強制 → なし×2 → 13,45(七,3)
+D37 なし×2 → 14,42(⚠ garbled annotation)
+D38 なし×4
+D39 なし×2 → SAVE E39N → 55,37(森) → なし
+D40 なし×2 → SAVE E40N → 08,48(七) → 強制
+D41 SAVE E41N
+D42 alternate dates/confessions and 今朝に戻る/LOAD E41N to see 七咲 GOOD/BAD and 森島 GOOD/BAD
+LOAD E40N → D40 なし → D41 57,30 = 森島 BEST
+LOAD E39N → D39 なし×2 → D40 なし×2 → SAVE E40NB → 08,48(七) → 強制 → D41 08,52 = 七咲 BEST
+LOAD E40NB → D40 なし → 強制 → 美也 END → (32,30) automatic → (32,34) automatic all-epilogues completion
+```
+
+## Verification before claiming finished
+
+- [ ] Reconcile original D33 `強制→*2`, duplicate D32 save, and all `⚠` corrupted heroine/choice annotations against written Japanese alternatives or a directly verifiable source.
+- [ ] Validate each source-reused save checkpoint maps to the intended actual state; do not overwrite earlier files.
+- [ ] Expand D41–42 GOOD/BAD branches into every explicit date/confession choice and correct replay/load transition; source states the mechanic but abbreviates repeated steps.
+- [ ] Confirm all six ナカヨシ, all seven ソエン variants, all 18 スキ endings, two formal 上崎 endings + sudden BAD, and 美也 are recorded in system data.
+- [ ] Convert these sections to canonical `route_*.json` with exact supported step quotations/omission placeholders and `reviewed:false`; independent structural/accuracy reviewers must check the resulting blob SHAs.
+
+**Evidence status:** this is a *source-faithful playable working draft with flagged unresolved instructions*, not a claim of guaranteed all-endings execution. The owner approved imperfect cross-source alignment, **not fabricated steps**.

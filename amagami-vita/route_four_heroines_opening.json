@@ -44,7 +44,7 @@
   {
     "simpleJp": "D05：美也の追加イベントを進める。以後、他のヒロインの必要イベントも継続する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "美也イベントは自動で発生する",
+    "jpGuide2": "自動進行",
     "enGuide": "Miya unlock is not the immediate ending; keep main heroine schedule."
   },
   {
@@ -326,7 +326,7 @@
   {
     "simpleJp": "D19：休3のイベント選択が終わった直後にセーブ12（後続2組のスキ分岐用）",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "休3の選択肢を選んだ後セーブ(1)",
+    "jpGuide2": "休3選択肢選択後セーブ(1)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   }
 ]

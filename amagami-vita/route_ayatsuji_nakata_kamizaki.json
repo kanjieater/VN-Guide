@@ -60,10 +60,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D08：マップ座標 26,27(中,1 or 3) を選ぶ",
+    "simpleJp": "D08：マップ座標26,27(中)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "26,27",
+    "jpGuide2": "26,27(中,1か3)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D08：直前のイベントの選択肢は上から1番目または3番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "26,27(中,1か3)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D08：イベントを選ばず進める",
@@ -144,10 +150,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D14：マップ座標 17,35(2) を選ぶ",
+    "simpleJp": "D14：マップ座標17,35のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "17,35",
+    "jpGuide2": "17,35(2)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D14：直前のイベントの選択肢は上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,35(2)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D15：マップ座標 37,39(絢) を選ぶ",
@@ -252,10 +264,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D21：マップ座標 17,36(2) を選ぶ",
+    "simpleJp": "D21：マップ座標17,36のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "17,36",
+    "jpGuide2": "17,36(2)",
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D21：直前のイベントの選択肢は上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,36(2)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D22–24：イベントを選ばず進める×4 each",
@@ -640,10 +658,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：マップ座標 14,17(中,1) を選ぶ",
+    "simpleJp": "D40：マップ座標14,17(中)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "14,17",
+    "jpGuide2": "14,17(中,1)",
     "enGuide": "Required Nakata star path: choose the first displayed option at this event (source (中,1))."
+  },
+  {
+    "simpleJp": "D40：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "14,17(中,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D40：強制イベント",
@@ -758,10 +782,16 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D40：マップ座標 14,17(中,1) を選ぶ",
+    "simpleJp": "D40：マップ座標14,17(中)のイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "14,17",
+    "jpGuide2": "14,17(中,1)",
     "enGuide": "Required Nakata star path: choose the first displayed option at this event (source (中,1))."
+  },
+  {
+    "simpleJp": "D40：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "14,17(中,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
     "simpleJp": "D40：イベントを選ばず進める",

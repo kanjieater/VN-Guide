@@ -6,18 +6,6 @@
     "enGuide": "EbiColle day-5 shared checkpoint; clear/unlock records must already be saved in the system data."
   },
   {
-    "simpleJp": "D05：休3の隠しキャラ選択肢で上から3番目（美也ルート）を選ぶ",
-    "jpGuide1": "美也に自慢できるクリスマスになるかも",
-    "jpGuide2": "休3選択肢3",
-    "enGuide": "The exact printed Japanese choice from the independent hidden-character chart is attached; source B uses third option."
-  },
-  {
-    "simpleJp": "D05：美也の追加イベントを進める。以後、他のヒロインの必要イベントも継続する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "美也イベントは自動で発生する",
-    "enGuide": "Miya unlock is not the immediate ending; keep main heroine schedule."
-  },
-  {
     "simpleJp": "D05：マップ座標 38,33(森) を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "38,33",
@@ -48,10 +36,16 @@
     "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
   },
   {
-    "simpleJp": "D05：休3の強制選択肢は上から3番目を選ぶ",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "simpleJp": "D05：休3の隠しキャラ選択肢「美也に自慢できるクリスマスになるかも」（上から3番目）を選ぶ",
+    "jpGuide1": "美也に自慢できるクリスマスになるかも",
     "jpGuide2": "休3選択肢は3",
-    "enGuide": "Mandatory after-school forced option; do not confuse with prior heroine map dialogue."
+    "enGuide": "The exact printed Japanese choice from the independent hidden-character chart is attached; source B uses third option."
+  },
+  {
+    "simpleJp": "D05：美也の追加イベントを進める。以後、他のヒロインの必要イベントも継続する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "美也イベントは自動で発生する",
+    "enGuide": "Miya unlock is not the immediate ending; keep main heroine schedule."
   },
   {
     "simpleJp": "D06：マップ座標 38,28(棚) を選ぶ",

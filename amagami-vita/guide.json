@@ -1,0 +1,188 @@
+{
+  "title": "Amagami",
+  "vndb_id": "v1281",
+  "routes": [
+    {
+      "id": "opening",
+      "title": "共通ルート（1〜15日目）",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "nakayoshi_a",
+      "title": "ナカヨシ前半・ソエン分岐",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "nakayoshi_b",
+      "title": "ナカヨシ後半・ソエン分岐",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "ayatsuji_nakata_kamizaki",
+      "title": "絢辻・中多スキ／上崎ルート",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "four_heroines_opening",
+      "title": "4ヒロイン共通ルート",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "sakurai_tanamachi",
+      "title": "桜井・棚町スキ",
+      "portrait": "",
+      "reviewed": false
+    },
+    {
+      "id": "nanasaki_morishima_miya",
+      "title": "七咲・森島スキ／美也",
+      "portrait": "",
+      "reviewed": false
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/",
+      "title": "アマガミ 攻略情報センター（各キャラ・LEVEL別総合索引）",
+      "language": "ja",
+      "notes": "直接閲覧。2009原版、2011エビコレ＋、2014 Vita版を明記。6人のキャラ別デアイ/アコガレ/シリアイ/スキ/ナカヨシ/ソエン、隠しキャラ、エンディング分岐と各座標のページを用意。キャラクターごとの一周全時刻を確定する単一の完全実行チャートではないため、未照合のルートstepには使用不可。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/ending.html",
+      "title": "エンディングまとめ",
+      "language": "ja",
+      "notes": "直接閲覧。Vitaカーテンコール、6人のBEST/GOOD/BAD/ナカヨシ/ソエンと上崎・美也の分岐を説明。序盤全手順を示す資料ではない。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/chart_ayatuji_suki.html",
+      "title": "絢辻詞（スキ）",
+      "language": "ja",
+      "notes": "直接閲覧。26～39日目のイベント座標/時間帯と星取得条件を記載。ほかの段階、会話成功条件などを補完せずには全ルートにならない。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/chart_sonota.html",
+      "title": "隠しキャラ",
+      "language": "ja",
+      "notes": "直接閲覧。上崎・美也の隠しルートページ。全ルート解放/個別実行条件の再照合が必要。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/98.html",
+      "title": "アマガミ*Amagami @wiki — 基本システム",
+      "language": "ja",
+      "notes": "補助的な独立サイト証拠（元は2009年フルプライスPS2準拠。エビコレ＋差分は別紙で確認が必要）。同時スキ2人、BEST/GOOD/BAD、各クラス/ソエンを補強。ただし本ページは通しの独立Vita選択肢攻略ではなく構造資料。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/41.html",
+      "title": "アマガミ @wiki — クリア後追加一覧（32,30 / 32,34）",
+      "language": "ja",
+      "notes": "独立日本語攻略サイト。6人のスキBESTとナカヨシ・上崎・美也クリアで「オールキャラクリア！」(32,30)、全エピローグで「オールコンプリート！」(32,34)が追加されることと、美也最後なら連続して追加されることを明記。@wiki自身は自動再生の操作方法を断言しないが、0xwasのエビコレ対応全エピローグ記述は両方を「自動再生」と明記している。@wikiはPS2原版中心なので版差分ページ91と併読。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/24.html",
+      "title": "@wiki — ？？？（隠しルート）",
+      "language": "ja",
+      "notes": "補助的な独立サイト証拠（元は2009年フルプライスPS2準拠。エビコレ＋差分は別紙で確認が必要）。直接閲覧。上崎イベントの座標/発生日/条件、エビコレ改変に言及。版別条件差の再照合が必要。"
+    },
+    {
+      "url": "https://note.com/heikin_fan_club/n/ne80b505878c5",
+      "title": "ゲーム版アマガミの全エピローグルート — 0xwas",
+      "language": "ja",
+      "notes": "2025-12-15執筆者の独自エビコレ全エピローグ・日別行動マップ／保存分岐順序（Vita適用を本文明示）。コミュニティwikiなどを参照して自分で経路を構築したと説明し、サイトAを翻訳・転載したものではない。ソースAとは独立した経路設計として扱うが、会話文言を1/2/3で省略するため全literal choiceの検証には使用できない。リンク先動画は根拠から除外。",
+      "set": "B"
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/faq",
+      "title": "Amagami Guide and Walkthrough — HansyToadsworth",
+      "language": "en",
+      "notes": "別著者による英文のゲームシステム/キャラ/攻略ガイドを検索結果で直接検討。見出しはPS2 Guide; Vitaエビコレの差分未全面確認と本人が明言。Vita完全実行経路の独立英文Eとしては不適格。一般説明の補足資料としてのみ使用し、和文choicesには使わない。"
+    },
+    {
+      "url": "https://www.kadokawa.co.jp/product/game1531/",
+      "title": "KADOKAWA PS Vita版公式製品情報",
+      "language": "ja",
+      "notes": "直接閲覧。2014-01-30、日本語PS Vitaの正確な公式版を特定。PS2/PSPとは異なるリリース。"
+    },
+    {
+      "url": "https://www.ebay.com/p/200856203",
+      "title": "PS Vita商品パッケージ写真",
+      "language": "en",
+      "notes": "表紙の直接画像を閲覧。Vitaロゴ/絢辻詞/CERO Dの縦長版ジャケットが2014 Vita商品と一致。VNDBの直接画像は取得不能のため暫定表紙。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/hukusuu_suki.html",
+      "title": "LEVEL3スキ絢辻＆棚町同時攻略",
+      "language": "ja",
+      "notes": "Set Aと同じ攻略情報センター著者系統の同時攻略日付・マップ・★/涙イベント、41日目分岐。Vita版エビコレに言及。日別全ヒロイン用の照合セット部品として直接確認。 同一サイト内のためSet Aから独立したSet Bとして数えない。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/91.html",
+      "title": "@wiki — エビコレ＋版 イベント変更点（32,34 内容変更）",
+      "language": "ja",
+      "notes": "独立した日本語のPS2原版からのイベント差分。エビコレ＋では32,34の内容が美也イベントに変更される。再生方法の直接証拠はこのページでなく、エビコレ対応0xwas記事の「32,30自動再生→32,34自動再生」。上崎イベントの信頼関係追加にも留意する。"
+    },
+    {
+      "url": "https://lm8.hatenablog.com/entry/2026/05/31/230051",
+      "title": "アマガミ 配信・視聴者用 よくある誤解と全体像",
+      "language": "ja",
+      "notes": "独立した2026年日本語書面の結末・システム解説。正式な全エピローグ34シナリオと6ヒロイン＋追加中多ソエン/上崎BEST/BAD/美也を整理。具体的な通しルートではない。"
+    },
+    {
+      "url": "https://www.amagami.info/intro03.html",
+      "title": "アマガミ公式 ゲームの流れ",
+      "language": "ja",
+      "notes": "4つの時間帯行動マップを公式が説明。Vita仕様の全部を保証する独立攻略ソースではない。"
+    },
+    {
+      "url": "https://game-kouryaku.info/amagami/chart_nakata_soen.html",
+      "title": "中多紗江 ソエン",
+      "language": "ja",
+      "notes": "分岐選択で変わる別CGと再クリア条件、各地図座標が書かれている。ソエン2 variantsの照合根拠。"
+    },
+    {
+      "url": "https://game-kouryaku.info/amagami/hukusuu_deai.html",
+      "title": "複数キャラ攻略 LEVEL1",
+      "language": "ja",
+      "notes": "同時攻略の最初の11日の行動/チェックポイント。個別の第三者確認を要する版別箇所が残る。"
+    },
+    {
+      "url": "https://www.amagami.info/intro05.html",
+      "title": "アマガミ公式 会話モード",
+      "language": "ja",
+      "notes": "会話モードの公式話題名を確認。0xwas記事の会話略記を展開するための権威資料であり独立攻略セットではない。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/47.html",
+      "title": "@wiki 複数人同時攻略法",
+      "language": "ja",
+      "notes": "PS2原版ベースの日時別複数ヒロインチャート。33日目強制イベントや桜井マップとの部分照合に使用。エビコレとの完全一致は主張しない。"
+    },
+    {
+      "url": "https://wazap.com/cheat/%E9%9A%A0%E3%81%97%E3%82%AD%E3%83%A3%E3%83%A9/461511/",
+      "title": "ワザップ — 隠しキャラ（上崎の質問選択順）",
+      "language": "ja",
+      "notes": "2009年オリジナルPS2版の独立したプレイ記録。上崎の三つの質問は「上から順番に3つ全てを選択」してから別の恋愛選択肢になると記載。エビコレ版の直接証拠としては数えず、攻略情報センター[選択２]の三質問メニュー解釈を補強する第三資料。"
+    },
+    {
+      "url": "https://buruheku-gameplaydiary.com/psvita-amagami-playdiary-ayatsuji-3",
+      "title": "ぶるへく：PS Vita アマガミ 絢辻詞プレイ日記（15〜21日目）",
+      "language": "ja",
+      "notes": "実際のPS Vita日本語版プレイ記録。15日目・20日目の行動順に『休1→休2→休3強制イベント→昼→放』を独立に列挙し、休3が4つの行動マップ枠とは別の中間イベントであることを裏付ける。0xwasの19日目『なし*2→休3選択肢選択後セーブ』を最初の2枠消費後・昼放の2枠を残すセーブとして読む傍証。別の最適化ルートの完走証拠には数えない。"
+    }
+  ],
+  "generated_at": "2026-11-12T21:10:00-06:00",
+  "guide_target": {
+    "label": "エビコレ＋ アマガミ（2014年1月30日・PS Vita日本語版）",
+    "platform": "PlayStation Vita",
+    "url": "https://www.kadokawa.co.jp/product/game1531/"
+  }
+}

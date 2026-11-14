@@ -1,0 +1,911 @@
+[
+  {
+    "simpleJp": "セーブ1をロードし、6人のナカヨシENDのシステムクリア記録を保持した状態で5日目から再開する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(1)から",
+    "enGuide": "The hidden-character option appears only after all six prior friend/BEST clear records are persisted."
+  },
+  {
+    "simpleJp": "D05：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D05：マップ座標 28,29(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "28,29",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D05：マップ(31,39)の絢辻イベントを実行する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "31,39(絢)",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D05：休3強制イベントで「彼女と二人でクリスマス…なんて事が」（上から1番目）を選ぶ",
+    "jpGuide1": "彼女と二人でクリスマス…なんて事が",
+    "jpGuide2": "休3選択肢は1",
+    "enGuide": "Enter Kamizaki's hidden route without changing the pinned edition."
+  },
+  {
+    "simpleJp": "D06：マップ座標 28,28(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "28,28",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D06：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D06：強制イベント(1)",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D07：マップ座標 17,34 を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,34",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D08：マップ座標 26,28(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "26,28",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D08：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D08：マップ座標26,27(中)のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "26,27(中,1か3)",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D08：直前のイベントの選択肢は上から1番目または3番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "26,27(中,1か3)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
+  },
+  {
+    "simpleJp": "D08：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D09：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D09：マップ座標 32,42(絢,任意) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "32,42",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D09：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D10：イベントを選ばず進める×4",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D11：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D11：マップ座標 18,24(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "18,24",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D11：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D12：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D12：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D13：マップ座標 19,24(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "19,24",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D13：マップ座標 18,23(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "18,23",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D13：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D14：マップ座標17,35のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,35(2)",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D14：直前のイベントの選択肢は上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,35(2)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
+  },
+  {
+    "simpleJp": "D15：マップ座標 37,39(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "37,39",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D15：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D16：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D16：マップ座標 39,40(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "39,40",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D17：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D17：マップ座標 38,41(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "38,41",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D17：マップ座標 39,42(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "39,42",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D17：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D18：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D18：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D18：マップ座標19,21の中多イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "19,21(中,1→1)",
+    "enGuide": "The source records one event with two consecutive first-position choices."
+  },
+  {
+    "simpleJp": "D18：最初の選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "19,21(中,1→1)",
+    "enGuide": "First numbered on-screen choice."
+  },
+  {
+    "simpleJp": "D18：続く選択肢も上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "19,21(中,1→1)",
+    "enGuide": "Second numbered on-screen choice."
+  },
+  {
+    "simpleJp": "D19：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D19：マップ座標 38,43(絢,任意) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "38,43",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D20：マップ座標 39,43(絢,任意) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "39,43",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D20：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D20：マップ座標 40,43(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "40,43",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D21：マップ座標17,36のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,36(2)",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D21：直前のイベントの選択肢は上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,36(2)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
+  },
+  {
+    "simpleJp": "D22〜24：各日イベントを選ばず4回進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D25：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D25：マップ座標 10,23(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "10,23",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D26：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D26：マップ座標 12,22(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "12,22",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D26：マップ座標 44,47(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "44,47",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D27：マップ座標 12,21(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "12,21",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D27：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D27：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D27：マップ座標 13,20(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "13,20",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D28：マップ座標 17,37 を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,37",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D29：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D29：マップ座標 13,19(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "13,19",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D30：マップ座標 45,49(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "45,49",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D30：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D31：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D31：マップ座標 46,50(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "46,50",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D31：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D31：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D32：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D32：マップ座標 14,18(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "14,18",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D32：マップ座標 12,18(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "12,18",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D32：マップ座標 45,50(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "45,50",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D33：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D33：マップ座標 44,51(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "44,51",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D33：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D34：イベントを選ばず進める×4",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D35：マップ座標 17,38 を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,38",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D36：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D36：マップ座標 46,52(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "46,52",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D36：マップ座標 47,52(絢,任意) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "47,52",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D37：イベントを選ばず進める×4",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D38：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D38：強制イベント(任意×2)",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D39：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D39：セーブ8（この時点の分岐データを保持）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(2)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D39：マップ座標 49,52(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "49,52",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D39：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D40：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D40：休3の上崎強制イベントを進め、最初の選択肢を表示させる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制(1、その後以下の手順で上崎エピローグ3つ全部見る)",
+    "enGuide": "The next step makes the first-option choice exactly once using Set A's verbatim text."
+  },
+  {
+    "simpleJp": "D40：上崎の強制イベントで「こうしちゃいられない。急いで行かなくちゃ」を選ぶ",
+    "jpGuide1": "こうしちゃいられない。急いで行かなくちゃ",
+    "jpGuide2": "強制(1)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D40：質問メニューで「いつから僕のことを」を選ぶ",
+    "jpGuide1": "いつから僕のことを",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": "This is one of the three question SUBJECTS, not a third-option answer to a question."
+  },
+  {
+    "simpleJp": "D40：同じ質問メニューで「どうして僕のことを」を選ぶ",
+    "jpGuide1": "どうして僕のことを",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": "Select each subject exactly once; the menu loops through all three."
+  },
+  {
+    "simpleJp": "D40：同じ質問メニューで「何時の間に手紙を」を選ぶ",
+    "jpGuide1": "何時の間に手紙を",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": "After exhausting all three subjects, the separate relationship-choice menu appears."
+  },
+  {
+    "simpleJp": "D40：質問を3つ聞き終えたら「上崎さん本気みたいだし付き合ってもいいかな」を選ぶ",
+    "jpGuide1": "上崎さん本気みたいだし付き合ってもいいかな",
+    "jpGuide2": "上崎イベント中は選択肢全部→3",
+    "enGuide": "This is the final third-option relationship answer, distinct from the three question subjects."
+  },
+  {
+    "simpleJp": "D40：休3の上崎強制イベント後、昼休みの会話アイコンを選ぶ直前にセーブ9（上書きしない）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(3)",
+    "enGuide": "The first two daily map slots have already been advanced as なし×2, then the 休3 interlude completes. Save9 is just before the third map slot (昼), with the conversation icon (02,33). There is no additional empty map slot before this icon: 0xwas writes Save3→なし→sudden BAD, or Save3 reload→(02,33)."
+  },
+  {
+    "simpleJp": "D40：昼休みの会話アイコン(02,33)を選ばず、時間を進める",
+    "jpGuide1": "ここで会話アイコンを実行しないとBAD ENDになる。",
+    "jpGuide2": "なし→1つ目BAD(上崎)",
+    "enGuide": "This is the first losing action, matching 0xwas's immediate Save3→なし→sudden BAD. The talk icon is in this slot; do not advance an additional blank slot first.",
+    "badEndPath": "上崎・追加突発BAD"
+  },
+  {
+    "simpleJp": "D40〜41：上崎の突発BAD ENDを最後まで確認し、システム記録を保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "1つ目BAD(上崎)",
+    "enGuide": "Supplemental failure outcome."
+  },
+  {
+    "simpleJp": "セーブ9をロードして40日目の会話直前に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ3ロードして",
+    "enGuide": "Save-backed detour returns here.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "D40：昼の会話アイコン(02,33)を必ず選ぶ",
+    "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": "The attack occurs automatically regardless of chosen topics; completing this conversation is mandatory."
+  },
+  {
+    "simpleJp": "D40：上崎との会話モードを完了する（アタックは自動発生）",
+    "jpGuide1": "会話モードでは話題の選択にかかわらずアタックが実行される。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": "No need to copy the source's unexpanded topic mnemonic."
+  },
+  {
+    "simpleJp": "D41：クリスマスイベントで「理由を教えてほしい。二人で一緒に解決したい」を選ぶ",
+    "jpGuide1": "理由を教えてほしい。二人で一緒に解決したい",
+    "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D41：上崎スキBEST ENDを確認しシステムセーブする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "BESTBAD両エンド見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ9をロードして上崎の正式BAD分岐を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ3ロードして",
+    "enGuide": "Load existing D40 Save9 directly after BEST to replay the required conversation for formal BAD; after its ending, the marked Save8 load returns to D39 for the distinct route-exit/Miya-unlock branch.",
+    "badEndPath": "上崎・正式BADエピローグ"
+  },
+  {
+    "simpleJp": "D40：昼の上崎会話アイコン(02,33)を選び、会話モードを完了する",
+    "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D41：クリスマスイベントで「二人で過ごそう」を選ぶ",
+    "jpGuide1": "二人で過ごそう",
+    "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
+    "enGuide": "The documented alternate Christmas answer yields the formal Kamizaki BAD epilogue, distinct from the earlier sudden BAD.",
+    "badEnd": "正式BADエピローグ（全エピローグ対象）"
+  },
+  {
+    "simpleJp": "D41：上崎の正式BAD ENDを最後まで確認しシステムセーブする",
+    "jpGuide1": "このBAD ENDは、『オールエピローグコンプリート』の獲得条件となっている。",
+    "jpGuide2": "BESTBAD両エンド見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "セーブ8をロードし、39日目の上崎分岐前に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(2)ロード",
+    "enGuide": "Save8 is the existing D39 checkpoint; replays the normal track after completion of formal BAD.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "D39：マップ座標49,52の絢辻イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "49,52(絢)",
+    "enGuide": "Resume the event after D39 Save8; it precedes the D40 forced event."
+  },
+  {
+    "simpleJp": "D39：イベントを選ばず時間を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Complete the original D39 post-save schedule before D40."
+  },
+  {
+    "simpleJp": "D40：イベントを選ばず2回進めてから休3の強制イベントへ進む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "40　なし*2→強制(1→2)",
+    "enGuide": "Keep the Ayatsuji/Nakata dual-star preparation intact."
+  },
+  {
+    "simpleJp": "D40：上崎の強制イベントで「こうしちゃいられない。急いで行かなくちゃ」を選ぶ",
+    "jpGuide1": "こうしちゃいられない。急いで行かなくちゃ",
+    "jpGuide2": "強制(1→2)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D40：「ごめん、他に好きな子がいるから…」を選んで上崎ルートを終了する",
+    "jpGuide1": "ごめん、他に好きな子がいるから…",
+    "jpGuide2": "強制(1→2)",
+    "enGuide": "This unlocks Miya's added day-five option after saving completion data."
+  },
+  {
+    "simpleJp": "D40：上崎の恋愛ルートが終了したことを確認し、中多・絢辻の分岐イベントへ進む。クリアデータは各END後にシステムセーブする",
+    "jpGuide1": "美也ルート出現条件",
+    "jpGuide2": "この後の選択肢で美也ルート解禁。",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D40：セーブ10",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(3)",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D40：マップ座標14,17(中)のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "14,17(中,1)",
+    "enGuide": "Required Nakata star path: choose the first displayed option at this event (source (中,1))."
+  },
+  {
+    "simpleJp": "D40：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "14,17(中,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
+  },
+  {
+    "simpleJp": "D40：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：セーブ11（2人のスキ★が揃っている状態で保持）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D41：絢辻詞スキBAD回収用に、デートマップ(10,13)の中多イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "10,13(中)",
+    "enGuide": "Optional replay from Save11: date Nakata, then confess to Ayatsuji for the stood-up heroine's BAD ending.",
+    "badEndPath": "絢辻詞・スキBAD"
+  },
+  {
+    "simpleJp": "D42：告白相手は絢辻詞を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "セーブ11をロードして41日目のデート選択に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)をロードし",
+    "enGuide": "Return to existing D41 Save11 before the main Nakata GOOD run; remains a removable detour.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "D41：中多のデートマップ(10,13)を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "10,13(中)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：告白相手は中多紗江を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：中多紗江のスキGOOD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：中多紗江のスキGOODクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
+  },
+  {
+    "simpleJp": "セーブ11をロードして41日目の2人のデート選択へ戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)をロードし",
+    "enGuide": "Ordinary D41 Save11 rewind after Nakata GOOD, independent of the preceding optional Ayatsuji BAD detour."
+  },
+  {
+    "simpleJp": "D41：中多紗江スキBAD回収用に、デートマップ(53,54)の絢辻イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "53,54(絢)",
+    "enGuide": "Optional replay from Save11: date Ayatsuji, then confess to Nakata for the stood-up heroine's BAD ending.",
+    "badEndPath": "中多紗江・スキBAD"
+  },
+  {
+    "simpleJp": "D42：告白相手は中多紗江を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：中多紗江のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "セーブ11をロードして41日目のデート選択前に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)をロードし",
+    "enGuide": "The second optional BAD detour returns to preserved D41 Save11 before the main Ayatsuji GOOD ending.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "D41：絢辻のデートマップ(53,54)を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "53,54(絢)",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：告白相手は絢辻詞を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキGOOD ENDを最後まで見る",
+    "jpGuide1": "クリスマスデートをしたヒロインＡに告白すれば、ヒロインＡのスキGOOD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキGOODクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Persist the ending record before returning or loading another branch."
+  },
+  {
+    "simpleJp": "セーブ10をロードして40日目の中多★イベント前に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(3)ロード",
+    "enGuide": "Ordinary source-backed D40 checkpoint required for Ayatsuji BEST; survives pruning of the optional Nakata BAD branch."
+  },
+  {
+    "simpleJp": "D40：なし",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D40：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：デートマップ(54,54)の絢辻イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "54,54",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：絢辻のスキBEST ENDを最後まで見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "54,54",
+    "enGuide": "BEST epilogue terminal for the single-holiday date branch."
+  },
+  {
+    "simpleJp": "D41：絢辻のスキBESTクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Preserve completion across subsequent save reloads."
+  },
+  {
+    "simpleJp": "セーブ8をロード",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact."
+  },
+  {
+    "simpleJp": "D39：なし×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D40：なし",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D40：マップ座標14,17(中)のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "14,17(中,1)",
+    "enGuide": "Required Nakata star path: choose the first displayed option at this event (source (中,1))."
+  },
+  {
+    "simpleJp": "D40：直前のイベントの選択肢は上から1番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "14,17(中,1)",
+    "enGuide": "The source prints an ordinal for this event, not the exact choice wording."
+  },
+  {
+    "simpleJp": "D40：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D40：強制イベント [休3=2]",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：デートマップ(11,12)の中多イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "11,12",
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+  },
+  {
+    "simpleJp": "D41：中多のスキBEST ENDを最後まで見る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "11,12",
+    "enGuide": "BEST epilogue terminal for the single-holiday date branch."
+  },
+  {
+    "simpleJp": "D41：中多のスキBESTクリア記録をシステムデータに保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Preserve completion across subsequent save reloads."
+  }
+]

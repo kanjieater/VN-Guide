@@ -6,43 +6,43 @@
       "id": "opening",
       "title": "共通ルート（1〜15日目）",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "nakayoshi_a",
       "title": "ナカヨシ前半・ソエン分岐",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "nakayoshi_b",
       "title": "ナカヨシ後半・ソエン分岐",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "ayatsuji_nakata_kamizaki",
       "title": "絢辻・中多スキ／上崎ルート",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "four_heroines_opening",
       "title": "4ヒロイン共通ルート",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "sakurai_tanamachi",
       "title": "桜井・棚町スキ",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "nanasaki_morishima_miya",
       "title": "七咲・森島スキ／美也",
       "portrait": "",
-      "reviewed": false
+      "reviewed": true
     }
   ],
   "sources": [

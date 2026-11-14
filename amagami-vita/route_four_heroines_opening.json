@@ -324,9 +324,15 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
-    "simpleJp": "D19：休3のイベント選択が終わった直後にセーブ12（後続2組のスキ分岐用）",
+    "simpleJp": "D19：休1・休2を進めた後、休3の強制イベントで表示される選択肢はどちらでもよい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "休3選択肢はどれでも",
+    "enGuide": "休3 is a separate forced recess dialogue, not one of the four map-action slots 休1, 休2, 昼, 放課後. The source says save after this choice and before two additional D19 map events."
+  },
+  {
+    "simpleJp": "D19：休3の選択肢が終わった直後、まだ昼休み・放課後の2つのマップ行動を残した状態でセーブ12を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "休3選択肢選択後セーブ(1)",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Shared day-19 fork from the EbiColle itinerary: なし×2 → 休3 choice → Save1 (mapped to Save12) → Sakura 34,18 and 35,18, or Nanasaki 21,41 and Morishima 44,33. Four map actions per official instructions; 休3 is separate."
   }
 ]

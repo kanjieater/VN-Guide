@@ -614,10 +614,17 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ9をロードして上崎の会話前に戻る",
+    "simpleJp": "セーブ8をロードして39日目の絢辻イベント前に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(2)ロード",
+    "enGuide": "Keep a plain D39 state rewind in the main route. The optional formal Kamizaki BAD detour itself immediately selects the existing Save9; after that BAD, its marker terminates with Save8. The original 0xwas source's 今朝に戻る is a different mechanism; this is a source-equivalent checkpoint replay, not a quotation."
+  },
+  {
+    "simpleJp": "セーブ9をロードして上崎の正式BAD分岐を開始する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ3ロードして",
-    "enGuide": ""
+    "enGuide": "First optional BAD-branch action: load the existing D40 Save9 immediately before the required conversation. After its ending, Save8 returns to the documented D39 normal continuation.",
+    "badEndPath": "上崎・正式BADエピローグ"
   },
   {
     "simpleJp": "D40：昼の上崎会話アイコン(02,33)を選び、会話モードを完了する",
@@ -630,8 +637,7 @@
     "jpGuide1": "二人で過ごそう",
     "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
     "enGuide": "The documented alternate Christmas answer yields the formal Kamizaki BAD epilogue, distinct from the earlier sudden BAD.",
-    "badEnd": "正式BADエピローグ（全エピローグ対象）",
-    "badEndPath": "上崎・正式BADエピローグ"
+    "badEnd": "正式BADエピローグ（全エピローグ対象）"
   },
   {
     "simpleJp": "D41：上崎の正式BAD ENDを最後まで確認しシステムセーブする",
@@ -643,7 +649,7 @@
     "simpleJp": "セーブ8をロードし、39日目の上崎分岐前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(2)ロード",
-    "enGuide": "Reuse the documented D39 checkpoint to replay the distinct D40 Miya-unlock branch after recording formal BAD. Do not confuse this with 今朝に戻る.",
+    "enGuide": "Save8 is the existing D39 checkpoint; replays the normal track after completion of formal BAD.",
     "isLoad": true
   },
   {
@@ -713,6 +719,32 @@
     "enGuide": ""
   },
   {
+    "simpleJp": "D41：絢辻詞スキBAD回収用に、デートマップ(10,13)の中多イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "10,13(中)",
+    "enGuide": "Optional replay from Save11: date Nakata, then confess to Ayatsuji for the stood-up heroine's BAD ending.",
+    "badEndPath": "絢辻詞・スキBAD"
+  },
+  {
+    "simpleJp": "D42：告白相手は絢辻詞を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": ""
+  },
+  {
+    "simpleJp": "D42：絢辻詞のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "セーブ11をロードして41日目のデート選択に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(4)をロードし",
+    "enGuide": "Return to existing D41 Save11 before the main Nakata GOOD run; remains a removable detour.",
+    "isLoad": true
+  },
+  {
     "simpleJp": "D41：中多のデートマップ(10,13)を選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "10,13(中)",
@@ -737,29 +769,35 @@
     "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
-    "simpleJp": "D42：行動マップで「今朝に戻る」を選ぶ",
+    "simpleJp": "セーブ11をロードして41日目の2人のデート選択へ戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻るを実行し",
+    "jpGuide2": "セーブ(4)をロードし",
+    "enGuide": "Ordinary D41 Save11 rewind after Nakata GOOD, independent of the preceding optional Ayatsuji BAD detour."
+  },
+  {
+    "simpleJp": "D41：中多紗江スキBAD回収用に、デートマップ(53,54)の絢辻イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "53,54(絢)",
+    "enGuide": "Optional replay from Save11: date Ayatsuji, then confess to Nakata for the stood-up heroine's BAD ending.",
+    "badEndPath": "中多紗江・スキBAD"
+  },
+  {
+    "simpleJp": "D42：告白相手は中多紗江を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "もう一度2つのエピローグを見る",
     "enGuide": ""
   },
   {
-    "simpleJp": "D42：告白相手は絢辻詞を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "simpleJp": "D42：中多紗江のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
-    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
-    "enGuide": "",
-    "badEndPath": "絢辻詞・スキBAD"
-  },
-  {
-    "simpleJp": "D42：絢辻詞のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
-    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
-    "jpGuide2": "中多スキGOODと絢辻スキBAD取得",
+    "jpGuide2": "もう一度2つのエピローグを見る",
     "enGuide": "Explicit ending terminal reached by the preceding confession."
   },
   {
-    "simpleJp": "セーブ11をロードして41日目のデート選択に戻る",
+    "simpleJp": "セーブ11をロードして41日目のデート選択前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(4)をロードし",
-    "enGuide": "",
+    "enGuide": "The second optional BAD detour returns to preserved D41 Save11 before the main Ayatsuji GOOD ending.",
     "isLoad": true
   },
   {
@@ -787,30 +825,10 @@
     "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
-    "simpleJp": "D42：行動マップで「今朝に戻る」を選ぶ",
+    "simpleJp": "セーブ10をロードして40日目の中多★イベント前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻るを実行し",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "D42：告白相手は中多紗江を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
-    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
-    "jpGuide2": "もう一度2つのエピローグを見る",
-    "enGuide": "",
-    "badEndPath": "中多紗江・スキBAD"
-  },
-  {
-    "simpleJp": "D42：中多紗江のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
-    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
-    "jpGuide2": "もう一度2つのエピローグを見る",
-    "enGuide": "Explicit ending terminal reached by the preceding confession."
-  },
-  {
-    "simpleJp": "セーブ10をロード",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact.",
-    "isLoad": true
+    "jpGuide2": "セーブ(3)ロード",
+    "enGuide": "Ordinary source-backed D40 checkpoint required for Ayatsuji BEST; survives pruning of the optional Nakata BAD branch."
   },
   {
     "simpleJp": "D40：なし",

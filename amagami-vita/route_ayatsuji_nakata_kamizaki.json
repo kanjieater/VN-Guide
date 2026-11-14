@@ -608,16 +608,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ8をロードして39日目の絢辻イベント前に戻る",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "セーブ(2)ロード",
-    "enGuide": "Keep a plain D39 state rewind in the main route. The optional formal Kamizaki BAD detour itself immediately selects the existing Save9; after that BAD, its marker terminates with Save8. The original 0xwas source's 今朝に戻る is a different mechanism; this is a source-equivalent checkpoint replay, not a quotation."
-  },
-  {
     "simpleJp": "セーブ9をロードして上崎の正式BAD分岐を開始する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ3ロードして",
-    "enGuide": "First optional BAD-branch action: load the existing D40 Save9 immediately before the required conversation. After its ending, Save8 returns to the documented D39 normal continuation.",
+    "enGuide": "Load existing D40 Save9 directly after BEST to replay the required conversation for formal BAD; after its ending, the marked Save8 load returns to D39 for the distinct route-exit/Miya-unlock branch.",
     "badEndPath": "上崎・正式BADエピローグ"
   },
   {

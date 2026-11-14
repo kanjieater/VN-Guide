@@ -1,0 +1,382 @@
+{
+  "title": "Amagami",
+  "vndb_id": "v1281",
+  "guide_target": {
+    "label": "エビコレ＋ アマガミ（2014年1月30日・PS Vita日本語版）",
+    "platform": "PlayStation Vita",
+    "url": "https://www.kadokawa.co.jp/product/game1531/"
+  },
+  "verification_tier": "corroborated_primary",
+  "routes": [
+    {
+      "id": "opening",
+      "title": "共通ルート（1〜15日目）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Source-backed EbiColle 2014 Vita ending-completion route section: individually identified terminal outcomes, expanded source positional choices, sequential save/replay dependencies, and source-lane provenance. Awaiting new independent structural and accuracy review; no claim of live-play validation."
+    },
+    {
+      "id": "nakayoshi_a",
+      "title": "ナカヨシ前半・ソエン分岐",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Source-backed EbiColle 2014 Vita ending-completion route section: individually identified terminal outcomes, expanded source positional choices, sequential save/replay dependencies, and source-lane provenance. Awaiting new independent structural and accuracy review; no claim of live-play validation."
+    },
+    {
+      "id": "nakayoshi_b",
+      "title": "ナカヨシ後半・ソエン分岐",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Source-backed EbiColle 2014 Vita ending-completion route section: individually identified terminal outcomes, expanded source positional choices, sequential save/replay dependencies, and source-lane provenance. Awaiting new independent structural and accuracy review; no claim of live-play validation."
+    },
+    {
+      "id": "ayatsuji_nakata_kamizaki",
+      "title": "絢辻・中多スキ／上崎ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Source-backed EbiColle 2014 Vita ending-completion route section: individually identified terminal outcomes, expanded source positional choices, sequential save/replay dependencies, and source-lane provenance. Awaiting new independent structural and accuracy review; no claim of live-play validation."
+    },
+    {
+      "id": "four_heroines_opening",
+      "title": "4ヒロイン共通ルート",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Source-backed EbiColle 2014 Vita ending-completion route section: individually identified terminal outcomes, expanded source positional choices, sequential save/replay dependencies, and source-lane provenance. Awaiting new independent structural and accuracy review; no claim of live-play validation."
+    },
+    {
+      "id": "sakurai_tanamachi",
+      "title": "桜井・棚町スキ",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Source-backed EbiColle 2014 Vita ending-completion route section: individually identified terminal outcomes, expanded source positional choices, sequential save/replay dependencies, and source-lane provenance. Awaiting new independent structural and accuracy review; no claim of live-play validation."
+    },
+    {
+      "id": "nanasaki_morishima_miya",
+      "title": "七咲・森島スキ／美也",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": true,
+      "notes": "Source-backed EbiColle 2014 Vita ending-completion route section: individually identified terminal outcomes, expanded source positional choices, sequential save/replay dependencies, and source-lane provenance. Awaiting new independent structural and accuracy review; no claim of live-play validation."
+    }
+  ],
+  "recommended_order": [
+    "opening",
+    "nakayoshi_a",
+    "nakayoshi_b",
+    "ayatsuji_nakata_kamizaki",
+    "four_heroines_opening",
+    "sakurai_tanamachi",
+    "nanasaki_morishima_miya"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/",
+      "title": "アマガミ 攻略情報センター（各キャラ・LEVEL別総合索引）",
+      "language": "ja",
+      "notes": "直接閲覧。2009原版、2011エビコレ＋、2014 Vita版を明記。6人のキャラ別デアイ/アコガレ/シリアイ/スキ/ナカヨシ/ソエン、隠しキャラ、エンディング分岐と各座標のページを用意。キャラクターごとの一周全時刻を確定する単一の完全実行チャートではないため、未照合のルートstepには使用不可。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/ending.html",
+      "title": "エンディングまとめ",
+      "language": "ja",
+      "notes": "直接閲覧。Vitaカーテンコール、6人のBEST/GOOD/BAD/ナカヨシ/ソエンと上崎・美也の分岐を説明。序盤全手順を示す資料ではない。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/chart_ayatuji_suki.html",
+      "title": "絢辻詞（スキ）",
+      "language": "ja",
+      "notes": "直接閲覧。26～39日目のイベント座標/時間帯と星取得条件を記載。ほかの段階、会話成功条件などを補完せずには全ルートにならない。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/chart_sonota.html",
+      "title": "隠しキャラ",
+      "language": "ja",
+      "notes": "直接閲覧。上崎・美也の隠しルートページ。全ルート解放/個別実行条件の再照合が必要。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/98.html",
+      "title": "アマガミ*Amagami @wiki — 基本システム",
+      "language": "ja",
+      "notes": "補助的な独立サイト証拠（元は2009年フルプライスPS2準拠。エビコレ＋差分は別紙で確認が必要）。同時スキ2人、BEST/GOOD/BAD、各クラス/ソエンを補強。ただし本ページは通しの独立Vita選択肢攻略ではなく構造資料。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/41.html",
+      "title": "アマガミ @wiki — クリア後追加一覧（32,30 / 32,34）",
+      "language": "ja",
+      "notes": "独立日本語攻略サイト。6人のスキBESTとナカヨシ・上崎・美也クリアで「オールキャラクリア！」(32,30)、全エピローグで「オールコンプリート！」(32,34)が追加されることと、美也最後なら連続して追加されることを明記。@wiki自身は自動再生の操作方法を断言しないが、0xwasのエビコレ対応全エピローグ記述は両方を「自動再生」と明記している。@wikiはPS2原版中心なので版差分ページ91と併読。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/24.html",
+      "title": "@wiki — ？？？（隠しルート）",
+      "language": "ja",
+      "notes": "補助的な独立サイト証拠（元は2009年フルプライスPS2準拠。エビコレ＋差分は別紙で確認が必要）。直接閲覧。上崎イベントの座標/発生日/条件、エビコレ改変に言及。版別条件差の再照合が必要。"
+    },
+    {
+      "url": "https://note.com/heikin_fan_club/n/ne80b505878c5",
+      "title": "ゲーム版アマガミの全エピローグルート — 0xwas",
+      "language": "ja",
+      "notes": "2025-12-15執筆者の独自エビコレ全エピローグ・日別行動マップ／保存分岐順序（Vita適用を本文明示）。コミュニティwikiなどを参照して自分で経路を構築したと説明し、サイトAを翻訳・転載したものではない。ソースAとは独立した経路設計として扱うが、会話文言を1/2/3で省略するため全literal choiceの検証には使用できない。リンク先動画は根拠から除外。",
+      "set": "B"
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/faq",
+      "title": "Amagami Guide and Walkthrough — HansyToadsworth",
+      "language": "en",
+      "notes": "別著者による英文のゲームシステム/キャラ/攻略ガイドを検索結果で直接検討。見出しはPS2 Guide; Vitaエビコレの差分未全面確認と本人が明言。Vita完全実行経路の独立英文Eとしては不適格。一般説明の補足資料としてのみ使用し、和文choicesには使わない。"
+    },
+    {
+      "url": "https://www.kadokawa.co.jp/product/game1531/",
+      "title": "KADOKAWA PS Vita版公式製品情報",
+      "language": "ja",
+      "notes": "直接閲覧。2014-01-30、日本語PS Vitaの正確な公式版を特定。PS2/PSPとは異なるリリース。"
+    },
+    {
+      "url": "https://www.ebay.com/p/200856203",
+      "title": "PS Vita商品パッケージ写真",
+      "language": "en",
+      "notes": "表紙の直接画像を閲覧。Vitaロゴ/絢辻詞/CERO Dの縦長版ジャケットが2014 Vita商品と一致。VNDBの直接画像は取得不能のため暫定表紙。"
+    },
+    {
+      "set": "A",
+      "url": "https://game-kouryaku.info/amagami/hukusuu_suki.html",
+      "title": "LEVEL3スキ絢辻＆棚町同時攻略",
+      "language": "ja",
+      "notes": "Set Aと同じ攻略情報センター著者系統の同時攻略日付・マップ・★/涙イベント、41日目分岐。Vita版エビコレに言及。日別全ヒロイン用の照合セット部品として直接確認。 同一サイト内のためSet Aから独立したSet Bとして数えない。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/91.html",
+      "title": "@wiki — エビコレ＋版 イベント変更点（32,34 内容変更）",
+      "language": "ja",
+      "notes": "独立した日本語のPS2原版からのイベント差分。エビコレ＋では32,34の内容が美也イベントに変更される。再生方法の直接証拠はこのページでなく、エビコレ対応0xwas記事の「32,30自動再生→32,34自動再生」。上崎イベントの信頼関係追加にも留意する。"
+    },
+    {
+      "url": "https://lm8.hatenablog.com/entry/2026/05/31/230051",
+      "title": "アマガミ 配信・視聴者用 よくある誤解と全体像",
+      "language": "ja",
+      "notes": "独立した2026年日本語書面の結末・システム解説。正式な全エピローグ34シナリオと6ヒロイン＋追加中多ソエン/上崎BEST/BAD/美也を整理。具体的な通しルートではない。"
+    },
+    {
+      "url": "https://www.amagami.info/intro03.html",
+      "title": "アマガミ公式 ゲームの流れ",
+      "language": "ja",
+      "notes": "4つの時間帯行動マップを公式が説明。Vita仕様の全部を保証する独立攻略ソースではない。"
+    },
+    {
+      "url": "https://game-kouryaku.info/amagami/chart_nakata_soen.html",
+      "title": "中多紗江 ソエン",
+      "language": "ja",
+      "notes": "分岐選択で変わる別CGと再クリア条件、各地図座標が書かれている。ソエン2 variantsの照合根拠。"
+    },
+    {
+      "url": "https://game-kouryaku.info/amagami/hukusuu_deai.html",
+      "title": "複数キャラ攻略 LEVEL1",
+      "language": "ja",
+      "notes": "同時攻略の最初の11日の行動/チェックポイント。個別の第三者確認を要する版別箇所が残る。"
+    },
+    {
+      "url": "https://www.amagami.info/intro05.html",
+      "title": "アマガミ公式 会話モード",
+      "language": "ja",
+      "notes": "会話モードの公式話題名を確認。0xwas記事の会話略記を展開するための権威資料であり独立攻略セットではない。"
+    },
+    {
+      "url": "https://w.atwiki.jp/amagami/pages/47.html",
+      "title": "@wiki 複数人同時攻略法",
+      "language": "ja",
+      "notes": "PS2原版ベースの日時別複数ヒロインチャート。33日目強制イベントや桜井マップとの部分照合に使用。エビコレとの完全一致は主張しない。"
+    },
+    {
+      "url": "https://wazap.com/cheat/%E9%9A%A0%E3%81%97%E3%82%AD%E3%83%A3%E3%83%A9/461511/",
+      "title": "ワザップ — 隠しキャラ（上崎の質問選択順）",
+      "language": "ja",
+      "notes": "2009年オリジナルPS2版の独立したプレイ記録。上崎の三つの質問は「上から順番に3つ全てを選択」してから別の恋愛選択肢になると記載。エビコレ版の直接証拠としては数えず、攻略情報センター[選択２]の三質問メニュー解釈を補強する第三資料。"
+    },
+    {
+      "url": "https://buruheku-gameplaydiary.com/psvita-amagami-playdiary-ayatsuji-3",
+      "title": "ぶるへく：PS Vita アマガミ 絢辻詞プレイ日記（15〜21日目）",
+      "language": "ja",
+      "notes": "実際のPS Vita日本語版プレイ記録。15日目・20日目の行動順に『休1→休2→休3強制イベント→昼→放』を独立に列挙し、休3が4つの行動マップ枠とは別の中間イベントであることを裏付ける。0xwasの19日目『なし*2→休3選択肢選択後セーブ』を最初の2枠消費後・昼放の2枠を残すセーブとして読む傍証。別の最適化ルートの完走証拠には数えない。"
+    }
+  ],
+  "source_search": {
+    "checked_at": "2026-11-12T23:44:39-06:00",
+    "secondary_japanese": {
+      "status": "not_found_after_search",
+      "queries": [
+        "エビコレ+ アマガミ PS Vita 攻略 森島 はるか 絢辻 詞 棚町 薫 中多 紗江 七咲 逢 桜井 梨穂子",
+        "アマガミ vita 攻略 全ルート 完全 スキ ベスト ナカヨシ エンディング",
+        "アマガミ Vita 攻略 キャラ別 BEST ナカヨシ 攻略サイト 独立",
+        "アマガミ PSVita 攻略 全キャラ 40日 チャート site:atwiki.jp",
+        "アマガミ エビコレ Vita 攻略 34 エンディング すべて 攻略手順 2つ",
+        "エビコレ+アマガミ Vita 攻略チャート 全イベント 全ヒロイン 2014",
+        "アマガミ 絢辻詞 スキ END チャート 一日目 二日目 40日 選択肢 セーブ ロード",
+        "アマガミ Vita 攻略 フローチャート エピローグ 100% 攻略 まとめ",
+        "アマガミ Vita 攻略 キャラ別 選択肢 語句 正解 会話 スキ ルート",
+        "アマガミ PSVita エビコレ 選択肢 文字 通し攻略 セーブ 全エンディング",
+        "アマガミ エビコレ 上崎 40日目 選択肢 彼女と二人でクリスマス",
+        "アマガミ エビコレ Vita 全エピローグ 34 上崎 BAD END 2種類 攻略",
+        "アマガミ エビコレ Vita 全エピローグ 攻略 34 日程 選択肢",
+        "アマガミ 0xwas 全エピローグ 攻略 日程 note",
+        "アマガミ エビコレ 攻略 全ルート 選択肢 日別 Vita まとめ",
+        "アマガミ 攻略 チャート 絢辻 七咲 森島 桜井 棚町 中多 エビコレ",
+        "アマガミ Vita トロフィー カーテンコール スキ GOOD BAD ソエン 不要 全エピローグ",
+        "アマガミ 美也 END 32 30 32 34 カーテンコール 行動マップ エビコレ",
+        "アマガミ オールエピローグコンプリート 32 34 発生 条件"
+      ],
+      "sites_checked": [
+        "game-kouryaku.info/amagami",
+        "w.atwiki.jp/amagami",
+        "note.com/heikin_fan_club",
+        "buruheku-gameplaydiary.com",
+        "lm8.hatenablog.com",
+        "amagami.info (official gameplay explanation)",
+        "platinumtrophies.net/games/ebikore-plus-amagami (Vita-specific firsthand trophy guide)",
+        "wazap.com/game/28823/cheats-pro/ (individual tips, not complete independent route)",
+        "w.atwiki.jp/amagami/pages/47.html (independent multi-character timed map charts, including exact selected choice strings)",
+        "w.atwiki.jp/amagami/pages/49.html (independent gallery completion and tear-event priority)"
+      ],
+      "candidates": [
+        {
+          "url": "https://game-kouryaku.info/amagami/",
+          "assessment": "Japanese Set A candidate. Explicitly lists PS Vita and route/ending pages; source components need assembly into uninterrupted state-validated 2014 Vita choices and map events."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/98.html",
+          "assessment": "Independent JP wiki B candidate; directly inspected system and ending conditions, but not a complete authored PS Vita step-by-step guide."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/24.html",
+          "assessment": "Independent wiki B component for hidden-route choices/conditions; Ebi changes discussed, not complete across all characters."
+        },
+        {
+          "url": "https://note.com/heikin_fan_club/n/ne80b505878c5",
+          "assessment": "Author's own 2025 EbiColle (including PS Vita) complete all-epilogue itinerary with timed map coordinates and save/recovery logic. States it was constructed personally using wiki among references, not merely a translation/republication of Set A; independently authored schedule, but most menu choices reported by ordinal index, so not a complete source of exact Japanese choice literals."
+        },
+        {
+          "url": "https://buruheku-gameplaydiary.com/psvita-amagami-playdiary-ayatsuji-1",
+          "assessment": "2015 firsthand Vita written play diary, directly inspected first week of Ayatsuji. Not a complete independently inspectable multi-route 2014 Vita walkthrough."
+        },
+        {
+          "url": "https://lm8.hatenablog.com/entry/2026/05/31/230051",
+          "assessment": "Independent Japanese 2026 written gameplay overview with explicit 34 formal epilogues and unlock/ending structure. Not a complete exact-event walkthrough, useful third-source discrepancy check."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/91.html",
+          "assessment": "Independent EbiColle version-change reference; confirms changed contents of 32,34. This page alone does not establish input modality, which the complete 0xwas line directly resolves as autoplay."
+        },
+        {
+          "url": "https://game-kouryaku.info/amagami/hukusuu_suki.html",
+          "assessment": "Same game-kouryaku.info Set A source family; NOT independent Japanese Set B despite earlier erroneous classification. Covers a simultaneous-heroine itinerary but does not qualify as B."
+        },
+        {
+          "url": "https://platinumtrophies.net/games/ebikore-plus-amagami",
+          "assessment": "Independent Japanese firsthand PS Vita trophy/ending account: confirms replay-from-early-save and new-run/day-5 hidden heroine branching, but no complete literal event-choice itinerary. Partial independent exact-platform corroboration, not a complete B choice guide."
+        },
+        {
+          "url": "https://game-kouryaku.info/amagami/chart_sonota.html",
+          "assessment": "Directly inspected exact Japanese written literal choices for day-5 hidden branch, day-40 Kamizaki branching and Christmas BEST/BAD, plus Ebikore trust-event exclusions. Same Set A site (not independent B). Narrows previously unresolved hidden-route literals but does not verify complete Vita multi-route calendar."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/41.html",
+          "assessment": "Independent PS2-centered written unlock/ending-availability corroboration; notes consecutive addition of 32,30/32,34 when Miya is last. Automatic PLAYBACK is explicitly demonstrated by the separate 0xwas EbiColle source, not by this wiki."
+        },
+        {
+          "url": "https://wazap.com/game/28823/cheats-pro/",
+          "assessment": "Japanese Ebikore tips directory inspected via search. Individual character event/ending snippets and clear-unlock notes, not a complete second independent Japanese choice-by-choice Vita walkthrough; some may restate same game-kouryaku facts. Supplemental only."
+        },
+        {
+          "url": "https://note.com/heikin_fan_club/n/ne80b505878c5",
+          "assessment": "Independent Japanese 2025 EbiColle-compatible written 1–41-day all-epilogue RTA itinerary (author says self-built using wiki); full day/coordinate/ordinal-choice/save plan, explicitly excludes full-price PS2 and works on all EbiColle platforms. NOT a complete exact-Japanese-literal choice walkthrough; also says the RTA leaves much gallery unfilled. Can independently corroborate calendar/ending topology, not literal choices."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/47.html",
+          "assessment": "NEW directly inspected independent JP wiki timed six-heroine early promotion chart (days 1–10), multiple four-heroine and five-friendship paths through later days, with literal Japanese choices e.g. day 6 棚町『そういうのも悪くない･･･かな』, 絢辻『僕、手伝おうか？』, day 8 森島『そんなことはないです』, 中多『好きな人などいない』/『中多さんが好き』, 桜井『特に用事もないし、買い物に付き合おう』. Strong independent B *partial* material corroboration for dates/coordinates/literals; wiki explicitly based on original 2009 PS2, with EbiColle-only caveats for certain charts. The six-person day 1–10 chart credits Famitsu 2009-04-03, so derivative of that magazine chart, not an independently originated full route. Does not constitute a complete Vita Set B."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/49.html",
+          "assessment": "NEW directly inspected independent Japanese detailed map completion guide, with save/reload patterns, tear-event priorities, conditional scenes and 100% collection strategy. Useful for optional completion and save topology; base wiki covers original PS2 and marks version differences; not full Vita literal-choice route B."
+        },
+        {
+          "url": "https://game-kouryaku.info/amagami/event.html",
+          "assessment": "Set A same-site exact Vita/PSP-tested event recovery page: says scene replay analog-stick displays per-heroine/class completion and all 100% scene rates yield no special unlock; lists tear/attack and missed Christmas date BAD coordinates. Supplemental completion scope, NOT independent B."
+        },
+        {
+          "url": "https://game-kouryaku.info/amagami/trophy.html",
+          "assessment": "Set A, not independent B. Exact Vita trophy page states カーテンコール does NOT require スキ GOOD/BAD or ソエン; this is narrower than owner-requested all-endings coverage. Confirms 上崎 BEST and BAD trophy, and 美也 hidden-route trophy. Do not confuse trophy completion with all ending coverage."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/13.html",
+          "assessment": "Independent Japanese wiki FAQ confirms 6 heroines' 5 main epilogue categories, two-heroine Christmas double-booking and day-42 GOOD/BAD confession rule, and replay-from-morning recovery. Original PS2 basis, check Ebi differences; strong independent material ending-condition corroboration but not full day-by-day Vita walkthrough."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/41.html",
+          "assessment": "Independent PS2-centered written unlock/ending-availability corroboration; notes consecutive addition of 32,30/32,34 when Miya is last. Automatic PLAYBACK is explicitly demonstrated by the separate 0xwas EbiColle source, not by this wiki."
+        },
+        {
+          "url": "https://w.atwiki.jp/amagami/pages/91.html",
+          "assessment": "Independent EbiColle version-change reference; confirms changed contents of 32,34. This page alone does not establish input modality, which the complete 0xwas line directly resolves as autoplay."
+        }
+      ]
+    },
+    "english_walkthrough": {
+      "status": "not_found_after_search",
+      "queries": [
+        "Amagami Ebikore Plus Vita walkthrough English all routes guide",
+        "Amagami complete English walkthrough Vita route translation guide GameFAQs",
+        "site:gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246 Walkthrough Day",
+        "Amagami Vita Ebikore English full walkthrough choices routes GameFAQs",
+        "Amagami Ebikore Vita complete walkthrough choices calendar Japanese"
+      ],
+      "sites_checked": [
+        "GameFAQs (Vita listing, HansyToadsworth guide and individual indexed sections)",
+        "General English-written walkthrough search"
+      ],
+      "candidates": [
+        {
+          "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/faq",
+          "assessment": "Independently written English source. Guide itself titled (PS2); author explicitly says Vita Ebi changes not entirely known. Gameplay commentary and outcome structure useful, but not a verified complete Vita-compatible route-by-route E."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/day-1-day-11",
+          "assessment": "Original English day-guide section inspected by search excerpt; generic strategic advice rather than a fixed Vita-compatible exact-choice route."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/data",
+          "assessment": "Vita release metadata (VLJM-35087 / PCSG-00291), not a walkthrough."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/ps2/954278-amagami/faqs/80246/new-choices-and-events",
+          "assessment": "Independent English written guide by HansyToadsworth, directly inspected. Explicitly distinguishes EbiColle replay/unlock features and the two formal hidden heroine endings; useful narrow structural corroboration but still PS2-centered, not full 2014 Vita executable route E."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/ps2/954278-amagami/faqs/80246/menus",
+          "assessment": "Same English author/source as existing GameFAQs candidate (not another independent E). Gives exact Japanese system-menu names and Ebikore-specific replay differences, but not all Vita route decisions."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/ps2/954278-amagami/faqs/80246/routes",
+          "assessment": "Independent English written original PS2 guide: directly inspected ending precedence, class progression, double-love limitations and EbiColle caveats. Narrow mechanical corroboration only; not a full Vita-executable independent English route E."
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/vita/737951-amagami/faqs/80246/day-1-day-11",
+          "assessment": "Same English author corpus; explicitly says this is general route advice, not a fixed day-by-day executable itinerary. Cannot be used to fill missing Vita exact choices."
+        },
+        {
+          "url": "https://amagami.fandom.com/wiki/Amagami/Obtaining_Risa_Kamizaki%27s_End",
+          "assessment": "English written hidden-route guide inspected. Explicitly attributes information to Japanese Amagami guide, so derivative of Japanese source; NOT independent English Set E. Partial Kamizaki instructions only."
+        }
+      ]
+    }
+  },
+  "disagreements": "GATE BLOCKED: Caller explicitly selected 2014 Vita エビコレ＋ (VLJM-35087/PCSG-00291); do not switch to 2009 PS2 or 2011 PSP. Written Japanese A includes route/event coordinates, exact choice fragments and ending conditions and acknowledges Vita; independent JP wiki supplies mechanics/partial routes, while 0xwas supplies a complete Ebi-edition all-epilogue schedule explicitly compatible with Vita. However, no single independently inspected Japanese A corpus yet establishes every exact in-game choice, map/time interaction, conversation/Attack success state, source-backed save and reload step for all main-six and hidden ending paths as a consistent executable run. The 0xwas chart abbreviates most choices to 1/2/3 and states wiki dependency; cannot fabricate Japanese text or treat it as independent literal Set B. English GameFAQs principally targets original PS2 and expressly leaves Vita differences uncertain; do not treat as exact-Vita E. Normal VN-Guide simpleJp requires literal menu text, whereas critical Amagami gameplay depends on selecting map coordinates, timetables and conversations; an appropriate repo-approved representation must be established without mislabelling invented prose as exact choice text. An independent edition-specific, full state-path reconciliation and verified portraits are required before route generation. No owner exception had yet been recorded during that initial 2026-11-09 research phase; the owner's later approved exception is recorded below. Cover: directly viewed exact Vita box image fallback after VNDB direct access was blocked; portraits: official character catalog verified at https://www.amagami.info/chara.html, but individual original image URLs have not been validated, so blank rather than guessed paths. Note: main 6×(SUKI BEST/GOOD/BAD, NAKAYOSHI, SOEN), Sae's second SOEN, Kamizaki and Miya are all planned; this is not a finished guide.\n\n2026-11-09 additional author research: The original game is a 4-time-slot calendar/relationship simulation; the exact 2014 Vita port must preserve EbiColle changes (https://w.atwiki.jp/amagami/pages/91.html) rather than blindly reuse full-price PS2 wiki steps. The complete 2025 EbiColle-compatible written all-epilogue run by 0xwas is independently constructed, not a direct repost of game-kouryaku.info; now logged as Set B itinerary. Set A's own multi-heroine progression pages separately corroborate some timed map actions, and @wiki supplies a third lane of mechanics and EbiColle differences. HOWEVER full Japanese verbatim in-game choice strings for every critical ordinal choice are still not proven, and two complete independent material-gameplay sets do not yet verify the entire itinerary. Keep tier BLOCKED for executable route JSON despite source-count improvement. Exact-author issue: 2026 independent written overview counts 34 formal all-epilogue outcomes (six heroines x five; Sae extra SOEN; Kamizaki formal BEST and BAD; Miya), whereas 0xwas collects three Kamizaki outcomes (one likely additional failure, not a distinct mandatory formal epilogue). Preserve all possible endings in completion plan; do not silently count 35 as mandatory. Current title-specific NON-VN LINEAR WALKTHROUGH opt-in retains stricter material-fact source requirement with no owner exception, but permits source-backed map navigation steps once gate passes.\n2026-11-10 follow-up: Corrected erroneous Set B classification of game-kouryaku.info/hukusuu_suki.html: it belongs to the SAME site/source family as Set A and is not an independent second walkthrough. Independently authored Vita-specific Japanese trophy report at platinumtrophies.net corroborates hidden-route replay/new-run sequencing but lacks literal complete choices. English GameFAQs' Ebikore-specific menus/new-choice pages corroborate narrow mechanics, not full Vita event-state continuity; these are parts of the same English author corpus, not new independent guides. The source gate remains blocked; do not create unsupported route files.\n2026-11-10 direct written-source reconciliation: game-kouryaku.info/amagami/chart_sonota.html provides literal Japanese text for Kamizaki day-5, day-40 choice tree, and Christmas BEST/BAD. It explicitly documents day-40 lunch conversation/attack and avoidance of EbiColle trust-restoration events. atwiki.jp/amagami/pages/91.html independently confirms EbiColle event changes. This clears some previously missing hidden-route literals, but does not clear the full eight-route material progression gate; tier stays blocked.\n2026-11-10 renewed source review: independent @wiki clear-after additions page explicitly requires three Kamizaki endings for its all-complete condition; 2026 overview counts 34 formal epilogues, distinguishing other sudden BAD outcomes. Preserve both requirements separately until Vita exact completion flags reconciled. GameFAQs English route section corroborates priority/relationship mechanics but its first-11-days walkthrough expressly gives advice instead of a fixed path; not an executable E. `guide.json` same-site hukusuu_suki misattribution corrected to Set A. No new full independently verified Vita itinerary; remain blocked.\n2026-11-10 focused research: source-search secondary_japanese.status corrected from misleading `found` to `not_found_after_search`: there are independent JP calendars, play diaries, wiki and trophy accounts, but no second full independent literal choice-by-choice Vita guide. Wazap Ebikore tips directory provides isolated pieces, not complete B. English Amagami Fandom Kamizaki route explicitly credits Japanese guide; derivative, not independent E. Primary all-epilogue 0xwas itinerary (2025-12-15) explicitly says EbiColle all platforms and excludes original full-price PS2; gives precise day/map/ordinal/save itinerary but not Japanese literal choices, and gallery completion is outside its scope. Clarified endings: 2026 overview's 34 *formal* epilogues excludes an additional day-39 Kamizaki snowman BAD, while 0xwas lists three Kamizaki outcomes for all-epilogue execution; Set A ending.html explicitly requires the Kamizaki `二人で過ごそう` BAD for all-epilogue completion. Preserve 34 formal endings plus supplemental required Kamizaki BAD, not a 35-formal-endings claim. The 0xwas source also contains apparent transcription/sequence anomalies (day 8 printed before day 7, `強制→*2` on day 33, garbled conversation shorthand) requiring literal-source verification before executable use. Research remains BLOCKED.\n2026-11-10 further independent source inspection: Japanese @wiki pages/47.html has detailed timed six-person and four-person/5-friendship chart sections with specific JP choices; first 6-person chart explicitly attributed to Famitsu 2009-04-03 (therefore not an independently originated second chart). It provides real independent B partial cross-check of specific early calendar/choice facts and some EbiColle-only changes; @wiki pages/49.html independently documents optional event collection, tears and save/load replay patterns. Set A event.html explicitly says Vita/PSP-tested 100% scene-replay gallery has no special reward; completion of epilogues is not same as all event gallery. Neither wiki page is a complete exact Vita all-endings choice guide, so keep blocked. Prior 0xwas ordinal choices cannot be replaced by assumed Japanese text except where independently matched to same coordinate/date/branch.\n2026-11-10 owner scope correction: END-COMPLETE only, not CG/event complete. Prior event-gallery completion and 100% map discussion is out of scope unless a map step is necessary for an ending. Primary Set A Vita trophy.html explicitly states カーテンコール does NOT require GOOD/BAD/ソエン, so trophy-only is not equivalent to all-ending user request. Independent Japanese @wiki FAQ pages/13.html confirms the double-booking day41/day42 GOOD/BAD logic and recovery via 今朝に戻る. The 2025 EbiColle 0xwas itinerary is explicitly end-complete while leaving gallery mostly empty: this is the correct source scope. New 2026 JP overview says 34 formal epilogues and identifies other incidental sudden BAD/GAME OVER outcomes; 0xwas includes a supplemental Kamizaki third outcome. Preserve these as different completion categories, not 100% CG requirements. Still need exact literal choice and cross-source executable route verification.\n\n2026-11-12 OWNER APPROVAL: PR #116 Conversation comment https://github.com/kanjieater/VN-Guide/pull/116#issuecomment-6842545023 records explicit owner approval to use best written evidence without requiring full agreement of independent guides on every day/map/save step, for ending-complete 2014 Japanese Vita EbiColle only. 0xwas is the EbiColle-compatible positional/date/save backbone; independent Japanese ending conditions and wiki corroborate outcomes. Source-printed ordinal numbers can be labeled as positional instructions, not invented literal Japanese choices. This is a narrowly scoped source-alignment exception, NOT proof of completed executable routes or blanket waiver of unresolved state conflicts. Verification remains blocked until the documented ambiguous/corrupted itinerary tokens and all ending-critical continuity are reconciled, or individually source-backed under the approved scope. Keep reviewed:false.\n2026-11-12: Created seven route_*.json calendar sections (521 atomic instructions) from the existing 0xwas-backed ending-walkthrough.md. The owner exception permits positional choices, but some source-printed corrupt tokens and abbreviated branch/save logic remain unresolved. Treat these as an author draft, not an independently executable or verified complete guide. Current research tier remains blocked pending those fixes.\n\n2026-11-12 AUTHOR ROUTE RECONCILIATION (after owner's 2026-11-12 scoped exception; supersedes obsolete early 'no owner exception' text): Seven canonical route JSON sections now carry the playable calendar and distinct epilogue actions, preserving 2014 Japanese PS Vita EbiColle as the non-substitutable target. The written all-epilogue Set B itinerary (0xwas) determines map/day/positional choice and exact save/replay ordering, with 19 unique sequential slots to avoid overwriting reused local labels; exact Set A chart_sonota.html menu wording confirms day5 hidden choice, day40 Kamizaki choice tree, daytime conversation, and Christmas endings. All six friendship endings, seven estrangement variants (two Sae), 18 main heroine SUKI endings (six BEST/six GOOD/six BAD), Kamizaki BEST/formal BAD/sudden BAD, and Miya have named terminal actions (34 formal plus supplementary sudden BAD = 35 route outcomes). The generic outcome-only branch instructions were replaced with explicit date/choice/confession, completion, clear-data, load/今朝に戻る transitions; the distinct 03,09 Sae variant is tied to exact Set A option 『好きにしろよ』. Authentic source topic shorthands 世/運/娯/行/食/恋/エ/ア are explained against official amagami.info/intro05.html; the 14,42 Nanasaki Mid-start variant is now explicitly conditional. 0xwas D33 『強制→*2→21,10』 is read as forced/no-event×2/Sakurai; independent @wiki pages/47.html establishes the forced 40,53 and Sakura 21,10 positions (but not an identical optimized timeline). Exact day41 starred date-event coordinates for the Sakurai/Tanamachi and Nanasaki/Morishima pairs are not printed by 0xwas; the operational rule tells the player to select the starred event of the named heroine, without inventing coordinates. No independent Vita live-play test or second complete independent Japanese day-by-day guide establishes full 35-outcome success, so this author cannot claim final reviewer PASS. Remain verification_tier=blocked and reviewed=false pending fresh independent structural/accuracy reviews and their findings; do not use original-PS2-only findings to override this fixed edition. The 2026-11-12 changes invalidate earlier structural/accuracy reviews of all seven sections. Portrait status: game sections intentionally combine multiple heroine routes in the same ordered calendar, so no single heroine portrait describes each section; source-image URLs must be individually validated before filling metadata.\n2026-11-13 A3 CORRECTION: The earlier truncated reading of the 0xwas EbiColle itinerary was wrong. Its complete post-Miya line explicitly reads 『美也END→32,30自動再生→32,34自動再生(オールコンプリート！)』, establishing automatic playback of both events on the version-compatible path. The independent @wiki pages/41.html corroborates consecutive event additions when Miya is last; pages/91.html documents the EbiColle change to the 32,34 event content. No player click should be invented and this interaction is no longer an accuracy blocker.\n2026-11-13 AUTHOR RESPONSE TO CURRENT REVIEW #116 (head cc9e0030): Removed the duplicate D05 棚町 option; made D20 桜井(25,16,1→どちらでも) a valid map/first-choice/optional-choice chain; reselected (05,09) after Save7 reload before 中多 second ソエン answer; repaired D18 中多(19,21,1→1) as two successive on-screen first choices; corrected 上崎 D40 [選択２] as a menu of three question subjects (いつから/どうして/何時の間に), each selected once, THEN the distinct [選択３] romantic answer. Set A chart_sonota.html and independent 2009 PS2 Wazap written account support the menu distinction, while Set B 0xwas labels all questions followed by option3. The formal 上崎 BAD has a named badEndPath, ending terminal, and save-backed isLoad return to already source-documented D39 Save8, with its day39 event restored before D40; the main romance progression remains reachable. Reassembled all sources in guide.json exactly from research.sources. These are author corrections, not self-approval. The scoped edition/source exception still applies. Pending independent structural and accuracy reviews before reviewed flags may change.\n\n2026-11-13 CURRENT GATE DISPOSITION (supersedes historical pre-exception wording): The owner-approved title-scoped exception permits the independent 0xwas EbiColle-compatible full ordinal/calendar/save itinerary as the executable backbone, without requiring an independently identical second Vita calendar. Set A game-kouryaku.info supports literal hidden choices and ending predicates; independent @wiki provides narrower ending/unlock/edition corroboration, NOT a second complete Vita literal-choice walkthrough. Independent English GameFAQs is PS2-centered and does not qualify as exact Vita E; the English derivative Fandom material is excluded. The Japanese and English candidate searches and rejection reasons are documented in source_search. No remaining unsupported final-event click/automatic-play uncertainty: 0xwas explicitly says 32,30 and 32,34 自動再生. The current `blocked` tier is NOT a demand for a nonexistent second complete Vita guide or live gameplay capture. It remains because the 2026-11-13 independent structural review identified concrete executable continuity defects: Save8/10/11 reloads are lost on detour pruning in ayatsuji_nakata_kamizaki; Save12's D19 four-slot placement is ambiguous; Save14/15 and Save17/18 reloads are lost on detour pruning in the later two heroine sections. These ending-critical state transitions are not yet repaired or independently demonstrated as executable, so the owner exception cannot authorize a passing source/route gate. The D37 Sae (03,09) separate map action and D40 Kamizaki pre-conversation empty slot have now been clarified in their respective route files; request fresh structural and accuracy review of changed blobs. When the remaining actual state transitions are repaired and reviewed, reconsider the qualifying tier on the approved exception and evidence roles without falsely asserting dual complete Japanese literal-choice guides. All reviewed flags remain false.\n2026-11-14 AUTHOR FINAL RECONSTRUCTION — qualifying 'corroborated_primary' only under the documented 2014 Japanese PS Vita title-scoped OWNER EXCEPTION #6842545023; NOT a claim of two fully independent complete Vita choice guides or verbatim text for 0xwas ordinals. The single complete, directly inspectable EbiColle all-epilogue written itinerary by 0xwas is still the day/map/save/ordinal backbone (research Set B); independent Set A 攻略情報センター documents literal hidden-choice wording, GOOD/BAD predicates, Sae split and unlock requirements; independent @wiki and a 2015 firsthand PS Vita diary document narrower edition, four-map-slot, 休3 and D19 ordering, but NOT a substitute second full route; the English GameFAQs PS2-oriented guide is excluded as exact Vita evidence. Source slots and quotes retain A/B provenance. The strict unmodified rubric's complete-literal-Set-A criterion would be stronger; this title's owner exception explicitly allows source B's ordinal itinerary as actionable positional choices and the independently corroborated ending predicates to fulfill the playable guide. The earlier structural blockers are corrected as follows: B1 separates (05,09) choice and (03,09) map event; Kamizaki D40 Source B `40 なし*2→強制` then Save3→なし (sudden BAD) vs reload→(02,33) proves Save9 is immediately BEFORE the lunch conversation, with NO extra phantom skip; Save8 ordinary D39 main rewind survives pruning formal Kamizaki BAD; Save11 ordinary D41 and Save10 ordinary D40 reloads survive pruning of Ayatsuji/Nakata BAD; Save15/14 and Save18/17 ordinary D41/D40 reloads survive pruning paired BAD. Specifically, all six paired GOOD/BAD detours are now played from the **already documented** D41 date checkpoint and the canonical Save4/3 source replays; no invented save or false equivalence between 今朝に戻る and earlier-day reload. For D19, 0xwas states `なし*2→休3選択肢選択後セーブ(1)` followed by 2 separate D19 events in EACH pair. The source's '休3' is NOT a fifth map action: official game lists four map times 休1,休2,昼,放課後 and a 2015 exact Vita play diary explicitly places the separate 休3 forced dialogue between 休2 and 昼. Therefore Save12 is after that dialogue with 昼 and 放 still available; the subsequent pair routes label them explicitly. The two dates without printed exact star event coordinates remain unambiguously selectable by their heroine names as displayed in the game state, without invented coordinates; the owner exception allows this source-backed target selection. All outcomes and system saves remain represented, 19 unique saves retained. This author-tier update is NOT a reviewer PASS: route reviewed flags remain false, independent structural and accuracy review must re-evaluate every changed blob and the exact tier/supplement compatibility. No game binary execution claimed.\n",
+  "generated_at": "2026-11-14T06:48:00-06:00"
+}

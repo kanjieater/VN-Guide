@@ -1,0 +1,296 @@
+[
+  {
+    "simpleJp": "D01：マップ座標 32,36(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "32,36(絢)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D01：マップ座標 34,30(棚) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "34,30(棚)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D01：マップ座標 31,28(桜) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "31,28(桜)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D01：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D02：マップ座標 34,38(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "34,38(絢)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D02：マップ座標 32,26(桜) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "32,26(桜)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D02：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D02：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D03：マップ座標 33,38(絢) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "33,38(絢)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D03：マップ座標 36,33(森) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "36,33(森)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D03：マップ座標 31,25(桜) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "31,25(桜)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D03：強制イベント(任意)",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制(選択肢どちらでも)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D04：マップ座標 28,37(七) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "28,37(七)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D04：マップ座標 37,33(森) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "37,33(森)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D04：桜井・美也の強制イベントを進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制のみ",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D04：桜井の強制イベントでは上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "桜井選択肢は2",
+    "enGuide": "Mandatory choice; source uses ordinal rather than Japanese option text."
+  },
+  {
+    "simpleJp": "D04：美也の選択肢はどちらでもよい",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "美也はどちらでも",
+    "enGuide": "Optional choice."
+  },
+  {
+    "simpleJp": "D05：マップ座標36,28の棚町イベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "36,28(棚,2)",
+    "enGuide": "Select the event first. The next separate step handles the only second-option choice."
+  },
+  {
+    "simpleJp": "D05：直前のマップイベントの選択肢は上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "36,28(棚,2)",
+    "enGuide": "Separate positional choice; map coordinate alone is not dialogue."
+  },
+  {
+    "simpleJp": "D05：セーブ1（以降このスロットは上書きしない）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(1)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D05：イベントを選ばず進める×3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし*3",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D06：イベントを選ばず進める×4(桜の選択肢任意)",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし*4",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D07：マップ座標 17,34 を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,34",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D08：イベントを選ばず進める×4",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし*4",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D09：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし*2",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D09：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D09：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D09：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D10：マップ座標 45,38(森) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "45,38(森)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D10：マップ座標 44,39(森) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "44,39(森)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D10：マップ座標 27,22(桜) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "27,22(桜)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D10：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D11：マップ座標 26,22(桜) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "26,22(桜)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D11：マップ座標 22,31(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "22,31(中)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D11：マップ座標 22,30(中) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "22,30(中)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D11：強制イベント",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D12：マップ座標 45,39(森) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "45,39(森)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D12：マップ座標 42,22(棚) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "42,22(棚)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D12：マップ座標 26,21(桜) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "26,21(桜)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D12：マップ座標 27,47(七,任意) を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "27,47(七,どっちでも)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D13：マップ座標 22,29(中,1または2) のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "22,29(中,1か2)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D13：直前のマップイベントの選択肢は上から1番目または上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "22,29(中,1か2)",
+    "enGuide": "Separate positional choice; map coordinate alone is not dialogue."
+  },
+  {
+    "simpleJp": "D13：イベントを選ばず進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D13：強制イベント(任意)",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "強制(どっちでも)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D13：マップ座標 33,48(絢) のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "33,48(絢)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D14：マップ座標 17,35(2) のイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,35(2)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D14：直前のマップイベントの選択肢は上から2番目を選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "17,35(2)",
+    "enGuide": "Separate positional choice; map coordinate alone is not dialogue."
+  },
+  {
+    "simpleJp": "D15：イベントを選ばず進める×2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "なし*2",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text."
+  },
+  {
+    "simpleJp": "D15：セーブ2（以降このスロットは上書きしない）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ(2)",
+    "enGuide": "0xwas EbiColle date/map itinerary; any numbered selection means on-screen order, not literal menu text. The original article prints day 8 before day 7; guide restores D07 then D08."
+  }
+]

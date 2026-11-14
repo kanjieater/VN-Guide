@@ -587,7 +587,8 @@
     "simpleJp": "D40：昼の会話アイコン(02,33)を必ず選ぶ",
     "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
     "jpGuide2": "02,33(おおお世世,どちらでも)",
-    "enGuide": "The attack occurs automatically regardless of chosen topics; completing this conversation is mandatory."
+    "enGuide": "The attack occurs automatically regardless of chosen topics; completing this conversation is mandatory.",
+    "badEndPath": "上崎・正式BADエピローグ"
   },
   {
     "simpleJp": "D40：上崎との会話モードを完了する（アタックは自動発生）",
@@ -600,8 +601,7 @@
     "jpGuide1": "二人で過ごそう",
     "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
     "enGuide": "The documented alternate Christmas answer yields the formal Kamizaki BAD epilogue, distinct from the earlier sudden BAD.",
-    "badEnd": "正式BADエピローグ（全エピローグ対象）",
-    "badEndPath": "上崎・正式BADエピローグ"
+    "badEnd": "正式BADエピローグ（全エピローグ対象）"
   },
   {
     "simpleJp": "セーブ9をロードして40日目の上崎会話直前に戻る",

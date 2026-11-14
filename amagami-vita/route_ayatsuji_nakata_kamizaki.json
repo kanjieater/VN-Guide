@@ -604,6 +604,12 @@
     "badEnd": "正式BADエピローグ（全エピローグ対象）"
   },
   {
+    "simpleJp": "D41：上崎の正式BADエピローグを最後まで見て、クリア記録をシステムセーブする",
+    "jpGuide1": "ここで選択肢「二人で過ごそう」を選ぶとBAD ENDになる。（このBAD ENDはエピローグコンプリートの対象になっている）",
+    "jpGuide2": "BESTBAD両エンド見る",
+    "enGuide": "Finish and record the formal BAD epilogue before loading Save9. This is the completion-required BAD, separate from the sudden failure ending."
+  },
+  {
     "simpleJp": "セーブ9をロードして40日目の上崎会話直前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ3ロードして",

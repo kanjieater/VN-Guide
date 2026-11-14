@@ -596,6 +596,33 @@
     "enGuide": "No need to copy the source's unexpanded topic mnemonic."
   },
   {
+    "simpleJp": "D40：昼の上崎会話アイコン(02,33)を選び、会話モードを完了する",
+    "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": "",
+    "badEndPath": "上崎・正式BADエピローグ"
+  },
+  {
+    "simpleJp": "D41：クリスマスイベントで「二人で過ごそう」を選ぶ",
+    "jpGuide1": "二人で過ごそう",
+    "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
+    "enGuide": "The documented alternate Christmas answer yields the formal Kamizaki BAD epilogue, distinct from the earlier sudden BAD.",
+    "badEnd": "正式BADエピローグ（全エピローグ対象）"
+  },
+  {
+    "simpleJp": "セーブ9をロードして40日目の上崎会話直前に戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "セーブ3ロードして",
+    "enGuide": "Return from the optional formal BAD branch to documented D40 Save9 before completing the BEST path.",
+    "isLoad": true
+  },
+  {
+    "simpleJp": "D40：昼の上崎会話アイコン(02,33)を選び、会話モードを完了する",
+    "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
+    "jpGuide2": "02,33(おおお世世,どちらでも)",
+    "enGuide": "Required conversation after Save9 before BEST."
+  },
+  {
     "simpleJp": "D41：クリスマスイベントで「理由を教えてほしい。二人で一緒に解決したい」を選ぶ",
     "jpGuide1": "理由を教えてほしい。二人で一緒に解決したい",
     "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
@@ -608,37 +635,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ9をロードして上崎の正式BAD分岐を開始する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "セーブ3ロードして",
-    "enGuide": "Load existing D40 Save9 directly after BEST to replay the required conversation for formal BAD; after its ending, the marked Save8 load returns to D39 for the distinct route-exit/Miya-unlock branch.",
-    "badEndPath": "上崎・正式BADエピローグ"
-  },
-  {
-    "simpleJp": "D40：昼の上崎会話アイコン(02,33)を選び、会話モードを完了する",
-    "jpGuide1": "40日目昼の行動で、上崎の会話アイコンを実行する。",
-    "jpGuide2": "02,33(おおお世世,どちらでも)",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "D41：クリスマスイベントで「二人で過ごそう」を選ぶ",
-    "jpGuide1": "二人で過ごそう",
-    "jpGuide2": "次の選択肢は1つづ選んでBESTBAD両エンド見る",
-    "enGuide": "The documented alternate Christmas answer yields the formal Kamizaki BAD epilogue, distinct from the earlier sudden BAD.",
-    "badEnd": "正式BADエピローグ（全エピローグ対象）"
-  },
-  {
-    "simpleJp": "D41：上崎の正式BAD ENDを最後まで確認しシステムセーブする",
-    "jpGuide1": "このBAD ENDは、『オールエピローグコンプリート』の獲得条件となっている。",
-    "jpGuide2": "BESTBAD両エンド見る",
-    "enGuide": ""
-  },
-  {
     "simpleJp": "セーブ8をロードし、39日目の上崎分岐前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "セーブ(2)ロード",
-    "enGuide": "Save8 is the existing D39 checkpoint; replays the normal track after completion of formal BAD.",
-    "isLoad": true
+    "enGuide": "Unconditional D39 Save8 reload after BEST, including when optional formal BAD is skipped."
   },
   {
     "simpleJp": "D39：マップ座標49,52の絢辻イベントを選ぶ",

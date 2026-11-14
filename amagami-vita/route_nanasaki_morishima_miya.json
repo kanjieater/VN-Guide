@@ -330,6 +330,32 @@
     "enGuide": "Position numbers indicate on-screen order, not literal choice text."
   },
   {
+    "simpleJp": "D41：森島はるかスキBAD回収用に、★付きの七咲逢デートイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Optional D41 date-Nanasaki/ignore-Morishima branch (wrong confession on D42).",
+    "badEndPath": "森島はるか・スキBAD"
+  },
+  {
+    "simpleJp": "D42：告白相手は森島はるかを選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Confess to the person stood up for BAD."
+  },
+  {
+    "simpleJp": "D42：森島はるかのスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
+    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Explicit ending terminal reached by the preceding confession."
+  },
+  {
+    "simpleJp": "セーブ18をロードし、41日目の2人が★の状態のデート選択へ戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "その後セーブ(3)ロードで別エピローグ",
+    "enGuide": "After Morishima BAD, replay the already documented local Save3 (= global Save18) at D41.",
+    "isLoad": true
+  },
+  {
     "simpleJp": "D41：★の付いた「七咲逢」のクリスマスデートイベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "スキGOODBAD取得",
@@ -354,29 +380,35 @@
     "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
-    "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
+    "simpleJp": "セーブ18をロードして41日目のデート選択前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
+    "jpGuide2": "その後セーブ(3)ロードで別エピローグ",
+    "enGuide": "Ordinary D41 save reload after Nanasaki GOOD, preserved by structural main-path pruning."
   },
   {
-    "simpleJp": "D42：告白相手は森島はるかを選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
+    "simpleJp": "D41：七咲逢スキBAD回収用に、★付きの森島はるかデートイベントを選ぶ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "スキGOODBAD取得",
+    "enGuide": "Optional D41 date-Morishima/ignore-Nanasaki branch.",
+    "badEndPath": "七咲逢・スキBAD"
+  },
+  {
+    "simpleJp": "D42：告白相手は七咲逢を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
-    "enGuide": "Confess to the person stood up for BAD.",
-    "badEndPath": "森島はるか・スキBAD"
+    "enGuide": "Confess to the person stood up for BAD."
   },
   {
-    "simpleJp": "D42：森島はるかのスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
+    "simpleJp": "D42：七咲逢のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
     "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
     "jpGuide2": "スキGOODBAD取得",
     "enGuide": "Explicit ending terminal reached by the preceding confession."
   },
   {
-    "simpleJp": "セーブ18をロードし、41日目の2人が★の状態のデート選択へ戻る",
+    "simpleJp": "セーブ18をロードして41日目のデート選択前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "その後セーブ(3)ロードで別エピローグ",
-    "enGuide": "This is a save reload to change the dated heroine, not 今朝に戻る.",
+    "enGuide": "Return to global Save18 to select Morishima's GOOD date, not global Save17 yet.",
     "isLoad": true
   },
   {
@@ -404,30 +436,10 @@
     "enGuide": "Persist the ending record before returning or loading another branch."
   },
   {
-    "simpleJp": "D42：エンディング後の行動マップで「今朝に戻る」を選ぶ",
+    "simpleJp": "セーブ17をロードして40日目の七咲イベント前に戻る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "今朝に戻る",
-    "enGuide": "Do not load the day-41 save here; retain the date choice and alternate only the confession."
-  },
-  {
-    "simpleJp": "D42：告白相手は七咲逢を選ぶ（攻略上の対象名。画面に表示される選択肢の原文ではない）",
-    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
-    "jpGuide2": "スキGOODBAD取得",
-    "enGuide": "Confess to the person stood up for BAD.",
-    "badEndPath": "七咲逢・スキBAD"
-  },
-  {
-    "simpleJp": "D42：七咲逢のスキBAD ENDを最後まで見てクリア記録をシステムセーブする",
-    "jpGuide1": "クリスマスデートをすっぽかしたヒロインＢに告白すれば、ヒロインＢのスキBAD。",
-    "jpGuide2": "スキGOODBAD取得",
-    "enGuide": "Explicit ending terminal reached by the preceding confession."
-  },
-  {
-    "simpleJp": "セーブ17をロード",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Unique persistent save slot; source uses local reused save labels. Position numbers indicate on-screen order, not literal choice text. Reload a previously documented checkpoint; keep clear-data system save intact.",
-    "isLoad": true
+    "jpGuide2": "セーブ(2)ロード",
+    "enGuide": "Ordinary D40 source local Save2 = global Save17; needed for Morishima BEST after both GOOD outcomes and removable BAD detours."
   },
   {
     "simpleJp": "D40：なし",

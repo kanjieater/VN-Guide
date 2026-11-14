@@ -6,16 +6,16 @@
     "enGuide": "Check prior save-state and source itinerary. Reload a previously documented checkpoint; keep clear-data system save intact."
   },
   {
-    "simpleJp": "D19：マップ座標 21,41(七,任意) を選ぶ",
+    "simpleJp": "D19・昼休み：マップ座標21,41の七咲イベントを選ぶ（選択肢は任意）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "21,41",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text. This is one of the two map actions remaining after the shared D19 Save12; 休3 is a separate forced recess selection between 休2 and 昼. See official 4 daily slots and independent @wiki 19-day map examples."
   },
   {
-    "simpleJp": "D19：マップ座標 44,33(森) を選ぶ",
+    "simpleJp": "D19・放課後：マップ座標44,33の森島イベントを選ぶ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "44,33",
-    "enGuide": "Position numbers indicate on-screen order, not literal choice text."
+    "enGuide": "Position numbers indicate on-screen order, not literal choice text. This is one of the two map actions remaining after the shared D19 Save12; 休3 is a separate forced recess selection between 休2 and 昼. See official 4 daily slots and independent @wiki 19-day map examples."
   },
   {
     "simpleJp": "D20：マップ座標 20,41(七) を選ぶ",

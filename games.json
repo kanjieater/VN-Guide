@@ -12,8 +12,14 @@
     "has_guide": true,
     "title": "Hiiro no Kakera",
     "alttitle": "緋色の欠片",
-    "cover_url": "https://t.vndb.org/cv/43/85243.jpg",
-    "added_at": "2026-07-07T22:51:38.476364+00:00"
+    "cover_url": "https://cdn.suruga-ya.jp/pics_webp/boxart_m/109003551m.jpg.webp",
+    "added_at": "2026-07-07T22:51:38.476364+00:00",
+    "cover_selection": {
+      "aspect": "portrait",
+      "source": "Suruga-ya 2024 Nintendo Switch standard package of Hiiro no Kakera Tamayorihime Kitan Omoi Iro no Kioku",
+      "verification_url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003551",
+      "reason": "The prior VNDB cover depicts the special edition (特装版). Select the actual normal Japanese Switch release front for the same rerelease, rather than preserving special packaging."
+    }
   },
   "v1715": {
     "slug": "hakuouki-shinsengumi-kitan",

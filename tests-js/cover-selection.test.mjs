@@ -15,7 +15,8 @@ test("classifies covers portrait, square, landscape and rejects unknown geometry
   assert.equal(coverAspect([600, 900]), "portrait");
   assert.equal(coverAspect([600, 690]), "portrait");
   assert.equal(coverAspect([700, 700]), "square");
-  assert.equal(coverAspect([800, 716]), "landscape");
+  assert.equal(coverAspect([800, 716]), "square");
+  assert.equal(coverAspect([282, 250]), "square");
   assert.equal(coverAspect([1920, 1080]), "landscape");
   for (const dims of [null, [], [800], [0, 800], [800, -2], [Infinity, 800], ["800", 900]]) {
     assert.equal(coverAspect(dims), null);

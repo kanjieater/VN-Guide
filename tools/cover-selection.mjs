@@ -6,7 +6,7 @@ export function coverAspect(dims) {
   if (!Array.isArray(dims) || dims.length !== 2 ||
       !dims.every(n => Number.isFinite(n) && n > 0)) return null;
   const ratio = dims[1] / dims[0];
-  return ratio >= 1.15 ? "portrait" : ratio >= 0.90 ? "square" : "landscape";
+  return ratio >= 1.15 ? "portrait" : ratio >= 0.88 ? "square" : "landscape";
 }
 
 export function isVndbCoverUrl(value) {

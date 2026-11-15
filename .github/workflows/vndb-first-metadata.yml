@@ -24,6 +24,7 @@ jobs:
           bun - <<'JS'
           import { readdir, readFile, writeFile } from "node:fs/promises";
           import { join } from "node:path";
+          import { bestReleaseCover, coverUpdateDecision, vndbCoverProvenance } from "./tools/cover-selection.mjs";
           const legacy = JSON.parse(await readFile("games.json", "utf8"));
           const changed = new Map();
           const original = new Map([["games.json", JSON.stringify(legacy)]]);
@@ -75,30 +76,6 @@ jobs:
             const matches = releases.filter(r => valid(r) && key && r.extlinks?.some(l => urlKey(l.url) === key));
             return matches.length === 1 ? matches[0] : null;
           }
-          // Rank shape before source type: tall portrait > square > landscape.
-          // Invalid/missing dimensions cannot win based on guesswork.
-          const shapeRank = { portrait: 0, square: 1, landscape: 2 };
-          function imageShape(dims) {
-            if (!Array.isArray(dims) || dims.length !== 2 || dims[0] <= 0 || dims[1] <= 0)
-              return null;
-            const ratio = dims[1] / dims[0];
-            return ratio >= 1.15 ? "portrait" : ratio >= 0.90 ? "square" : "landscape";
-          }
-          function coverFor(release, id) {
-            const images = (release?.images || []).filter(i =>
-              isVndbImage(i.url) && (!i.vn || i.vn === id) &&
-              (!i.languages || i.languages.includes("ja")) &&
-              ["pkgfront", "dig"].includes(i.type) && imageShape(i.dims));
-            for (const aspect of ["portrait", "square", "landscape"]) {
-              for (const type of ["pkgfront", "dig"]) {
-                const matches = images.filter(i => imageShape(i.dims) === aspect && i.type === type);
-                const urls = [...new Set(matches.map(i => i.url))];
-                if (urls.length === 1) return { url: urls[0], aspect };
-                if (urls.length > 1) return null; // Same-tier ambiguity needs manual verification.
-              }
-            }
-            return null;
-          }
           function findCharacter(route, chars) {
             const name = String(route.title || "").replace(/(?:ルート|編|エンド|END)$/iu, "");
             const key = norm(name);
@@ -136,24 +113,22 @@ jobs:
                   console.log(slug + ": " + link);
                 }
               }
-              const cover = coverFor(release, id);
-              if (meta && cover && meta.cover_url !== cover.url) {
-                const currentAspect = meta.cover_selection?.aspect;
-                const currentRank = shapeRank[currentAspect];
-                const incomingRank = shapeRank[cover.aspect];
-                // Never downgrade a researched portrait/square to a wider image.
-                const worseShape = Number.isInteger(currentRank) && incomingRank > currentRank;
-                // For an undocumented external asset, dimensions/quality are unknown:
-                // audit it before automatic replacement rather than blindly overwriting.
-                const unclassifiedExternal = meta.cover_url &&
-                  !isVndbImage(meta.cover_url) && !currentAspect;
-                if (worseShape || unclassifiedExternal) {
-                  unresolved.push(slug + " cover (retained " + meta.cover_url +
-                    ": " + (worseShape ? "better-fit verified aspect" : "external aspect unverified") + ")");
-                } else {
+              const cover = bestReleaseCover(release, id);
+              if (meta && cover) {
+                const decision = coverUpdateDecision(meta, cover, release, id);
+                if (decision.update) {
                   meta.cover_url = cover.url;
-                  delete meta.cover_selection; // VNDB version is exact-target and same/better fit.
-                  console.log(slug + ": " + cover.aspect + " release cover " + cover.url);
+                  meta.cover_selection = vndbCoverProvenance(cover, release);
+                  console.log(slug + ": " + cover.aspect + " exact-release cover " + cover.url);
+                } else if (decision.reason === "already-selected") {
+                  // Backfill geometry so a later refresh cannot silently downgrade it.
+                  meta.cover_selection = {
+                    ...(meta.cover_selection || {}),
+                    aspect: cover.aspect,
+                    dimensions: cover.dimensions,
+                  };
+                } else {
+                  unresolved.push(slug + " cover kept (" + decision.reason + "): " + meta.cover_url);
                 }
               }
             } else if (target?.url && !/^https:\/\/(?:www\.)?vndb\.org\/r\d+/i.test(target.url)) {

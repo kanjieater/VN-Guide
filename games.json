@@ -123,12 +123,22 @@
     "has_guide": true,
     "title": "Nijuuei",
     "alttitle": "二重影",
-    "cover_url": "https://www.keroq.co.jp/product/nijuu/img/top.png",
+    "cover_url": "https://www.suruga-ya.jp/database/pics/game/145007218.jpg",
     "added_at": "2026-09-19T20:52:00+00:00",
     "guide_target": {
       "label": "二重影（2000年オリジナルPC版）",
       "platform": "Windows PC",
       "url": "https://www.keroq.co.jp/product/nijuu/top.htm"
+    },
+    "cover_selection": {
+      "aspect": "portrait",
+      "source": "Suruga-ya original 2000 Windows normal-edition package front",
+      "verification_url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/145007218",
+      "dimensions": [
+        365,
+        512
+      ],
+      "reason": "Actual edition-correct tall cover replaces a horizontal publisher-site top/banner image; front title and characters survive 64×90 full-bleed crop."
     }
   },
   "game:black-matrix-oo": {
@@ -136,12 +146,18 @@
     "has_guide": true,
     "title": "BLACK/MATRIX OO",
     "alttitle": "ブラックマトリクス ダブルオー",
-    "cover_url": "https://psxdatacenter.com/images/covers/J/B/SLPS-03573/SLPS-03573-F-ALL.jpg",
+    "cover_url": "https://psxdatacenter.com/images/covers/J/B/SLPS-03573.jpg",
     "added_at": "2026-09-22T21:21:00+00:00",
     "guide_target": {
       "label": "BLACK/MATRIX OO（2004年オリジナル版）",
       "platform": "PlayStation",
       "url": "https://www.gavas.jp/products/detail.php?product_id=9492"
+    },
+    "cover_selection": {
+      "aspect": "square",
+      "source": "PSX Data Center original PlayStation release SLPS-03573 front cover",
+      "verification_url": "https://psxdatacenter.com/games/SLPS-03573.html",
+      "reason": "Original game's same square front artwork from the same product ID improves the crop versus the existing 500×443 landscape cover scan; no change of edition."
     }
   },
   "game:arc-the-lad-ii": {

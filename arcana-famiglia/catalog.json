@@ -2,11 +2,17 @@
   "vndb_id": "v8203",
   "title": "Arcana Famiglia",
   "alttitle": "アルカナ・ファミリア",
-  "cover_url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000089529/768e4a578c15476feeafccbf87089ca66a7138b8a0c26c974d50c578a0a5ab03",
+  "cover_url": "https://s.pacn.ws/1/p/1aa/la-storia-della-arcana-famiglia-rinato-multilanguage-833363.2.jpg?v=std38v",
   "added_at": "2026-07-07T22:51:38.476489+00:00",
   "guide_target": {
     "label": "アルカナ・ファミリア Rinato（Nintendo Switch版）",
     "platform": "Nintendo Switch",
     "url": "https://dramaticcreate.com/af_rinato/"
+  },
+  "cover_selection": {
+    "aspect": "portrait",
+    "source": "Play-Asia physical Japanese Nintendo Switch Rinato normal-edition original game front",
+    "verification_url": "https://www.play-asia.com/la-storia-della-arcana-famiglia-rinato-multi-language/13/70hv0z",
+    "reason": "Original tall Rinato 2025 Switch package cover supersedes the 1920x1080 Nintendo promo image; portrait fits 64x90 with centered crop."
   }
 }

@@ -39,7 +39,7 @@ def check(entry):
         im = original.convert("RGB")
         w, h = im.size
         ratio = h / w
-        aspect = "portrait" if ratio >= 1.15 else ("square" if ratio >= 0.90 else "landscape")
+        aspect = "portrait" if ratio >= 1.15 else ("square" if ratio >= 0.88 else "landscape")
         thumb = ImageOps.fit(im, (128, 180), method=Image.Resampling.LANCZOS)
     return {
         "vndb_id": key, "slug": data["slug"], "url": url,

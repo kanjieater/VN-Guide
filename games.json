@@ -12,8 +12,14 @@
     "has_guide": true,
     "title": "Hiiro no Kakera",
     "alttitle": "緋色の欠片",
-    "cover_url": "https://t.vndb.org/cv/43/85243.jpg",
-    "added_at": "2026-07-07T22:51:38.476364+00:00"
+    "cover_url": "https://cdn.suruga-ya.jp/pics_webp/boxart_m/109003551m.jpg.webp",
+    "added_at": "2026-07-07T22:51:38.476364+00:00",
+    "cover_selection": {
+      "aspect": "portrait",
+      "source": "Suruga-ya 2024 Nintendo Switch standard package of Hiiro no Kakera Tamayorihime Kitan Omoi Iro no Kioku",
+      "verification_url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003551",
+      "reason": "The prior VNDB cover depicts the special edition (特装版). Select the actual normal Japanese Switch release front for the same rerelease, rather than preserving special packaging."
+    }
   },
   "v1715": {
     "slug": "hakuouki-shinsengumi-kitan",
@@ -33,8 +39,14 @@
     "has_guide": true,
     "title": "Arcana Famiglia",
     "alttitle": "アルカナ・ファミリア",
-    "cover_url": "https://t.vndb.org/cv/65/113965.jpg",
-    "added_at": "2026-07-07T22:51:38.476489+00:00"
+    "cover_url": "https://s.pacn.ws/1/p/1aa/la-storia-della-arcana-famiglia-rinato-multilanguage-833363.2.jpg?v=std38v",
+    "added_at": "2026-07-07T22:51:38.476489+00:00",
+    "cover_selection": {
+      "aspect": "portrait",
+      "source": "Play-Asia Japanese Nintendo Switch physical normal edition game front",
+      "verification_url": "https://www.play-asia.com/la-storia-della-arcana-famiglia-rinato-multi-language/13/70hv0z",
+      "reason": "Correct Japanese 2025 Nintendo Switch Rinato package front in tall format replaces 1920x1080 promotional/banner image. Publisher confirms the 2025 release uses new package artwork."
+    }
   },
   "v405": {
     "slug": "マブラヴ-altered-fable",
@@ -123,7 +135,7 @@
     "has_guide": true,
     "title": "Nijuuei",
     "alttitle": "二重影",
-    "cover_url": "https://www.suruga-ya.jp/database/pics/game/145007218.jpg",
+    "cover_url": "https://cdn.suruga-ya.jp/pics_webp/boxart_m/145007218m.jpg.webp",
     "added_at": "2026-09-19T20:52:00+00:00",
     "guide_target": {
       "label": "二重影（2000年オリジナルPC版）",
@@ -132,13 +144,9 @@
     },
     "cover_selection": {
       "aspect": "portrait",
-      "source": "Suruga-ya original 2000 Windows normal-edition package front",
+      "source": "Suruga-ya original 二重影 regular-edition (NJK0011, 2000-11-30) game package product image",
       "verification_url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/145007218",
-      "dimensions": [
-        365,
-        512
-      ],
-      "reason": "Actual edition-correct tall cover replaces a horizontal publisher-site top/banner image; front title and characters survive 64×90 full-bleed crop."
+      "reason": "Exact 2000 Windows normal-edition front image; using Suruga-ya's product thumbnail CDN rather than its blocked raw /database/pics/game URL."
     }
   },
   "game:black-matrix-oo": {
@@ -191,12 +199,22 @@
     "has_guide": true,
     "title": "DIVI-DEAD",
     "alttitle": "ディヴァイ・デッド",
-    "cover_url": "https://t.vndb.org/cv/21/144721.jpg",
+    "cover_url": "https://images.launchbox-app.com/24c1862b-4754-4109-a1b4-ccdaef100159.jpg",
     "added_at": "2026-09-25T16:30:00+00:00",
     "guide_target": {
       "label": "DIVI-DEAD（1998年オリジナルCD版）",
       "platform": "Windows 95/PC",
       "url": "https://vndb.org/r107"
+    },
+    "cover_selection": {
+      "aspect": "square",
+      "source": "LaunchBox Games Database: original Japanese Windows CD box front, released 1998-01-23",
+      "verification_url": "https://gamesdb.launchbox-app.com/games/images/88866-divi-dead",
+      "dimensions": [
+        800,
+        716
+      ],
+      "reason": "Original Japanese 1998 PC front cover 800x716 (near square), replaces wide 570x350 VNDB image. No DVD, Dreamcast, US, or Millennium edition substitution."
     }
   },
   "v7238": {

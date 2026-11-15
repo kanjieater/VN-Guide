@@ -1,0 +1,29 @@
+name: Audit landing-page covers
+on:
+  pull_request:
+    paths:
+      - "games.json"
+      - "**/catalog.json"
+      - "tools/audit-covers.py"
+      - "tools/cover-selection.mjs"
+      - ".github/workflows/vndb-first-metadata.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install "Pillow==11.3.0"
+      - name: Audit every catalog cover and generate full-bleed crop previews
+        run: python tools/audit-covers.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cover-audit
+          path: /tmp/cover-audit/
+          if-no-files-found: error

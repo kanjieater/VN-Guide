@@ -396,6 +396,12 @@
     "enGuide": "Calendar 8/13 物語. Gallica R4: Automatically rises after the Charadrius infiltration main operation (7/23 or later). No optional meeting."
   },
   {
+    "simpleJp": "8/13 物語：8/13の物語を進め、ガリカのランク5を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 8/13 story milestone. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R5: Automatically after the 8/13 Glo(d)ell story boss. No meeting, virtue or calendar slot."
+  },
+  {
     "simpleJp": "8/14 昼・釣り：鎧戦車で釣りをして食材を回収する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "釣り",

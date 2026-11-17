@@ -1,0 +1,140 @@
+[
+  {
+    "simpleJp": "9/13以降、任意の鎧戦車移動中にバジリオと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Basilio R1: Once he becomes a permanent party member around September 13, initiate his Follower bond by talking to him during discretionary Gauntlet Runner travel in daytime. This opens Berserker. The main-story recruitment alone need not immediately grant a bond rank."
+  },
+  {
+    "simpleJp": "バジリオのランク1から2日後、昼に街で話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Basilio R2: Two days after his first Gauntlet Runner event, approach Basilio in a city/town hub during the day and take the rank-up conversation."
+  },
+  {
+    "simpleJp": "バジリオのランク2から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Basilio R3: During a discretionary daytime Gauntlet Runner journey after the two-day cooldown, approach him in the central passage. Reserve a side-trip; forced story travel may not count."
+  },
+  {
+    "simpleJp": "バジリオのランク3から2日後、昼に街で話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Basilio R4: At least two days after his travel R3, meet him in an eligible daytime town hub. The map's bond marker identifies the current city location."
+  },
+  {
+    "simpleJp": "バジリオのランク4から2日後、昼に街で話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Basilio R5: Two days after R4, talk to Basilio during a daytime town free-action slot. Begin prioritizing Imagination 5 for R6."
+  },
+  {
+    "simpleJp": "想像力5を得て昼のバジリオと話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "想像力5",
+    "enGuide": "Basilio R6: Requires the MAX Imagination (想像力) rank 5 and the normal cooldown after R5. Talk to Basilio during the day in a town hub; skipping Virtue training here blocks his chain."
+  },
+  {
+    "simpleJp": "バジリオのランク6から2日後、昼に街で話す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "ランク7",
+    "enGuide": "Basilio R7: Two days after R6, talk to him in daytime in an available town hub. R8 adds MAX Eloquence 5 plus a special brother-related battle request; prepare that before the endgame."
+  },
+  {
+    "simpleJp": "9/13以降、夜のアルタベリー蒼穹橋でキャゼリナと話す",
+    "jpGuide1": "夜のアルタベリーの蒼穹橋",
+    "jpGuide2": "蒼穹橋",
+    "enGuide": "Catherina R5: After winning her three earlier road challenges, find Catherina from September 13 onward at Altabury's Skybound Bridge (蒼穹橋) at NIGHT. If missing, ensure the Tower of Insolence Gauntlet Runner fight for her R4 happened."
+  },
+  {
+    "simpleJp": "包容力5を得て夜のキャゼリナと話す",
+    "jpGuide1": "包容力5",
+    "jpGuide2": "包容力5",
+    "enGuide": "Catherina R6: Requires Tolerance (包容力) 5 and at least two days after R5. Meet her at Altabury Skybound Bridge at night."
+  },
+  {
+    "simpleJp": "キャゼリナのランク6から2日後、夜に話す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "ランク7",
+    "enGuide": "Catherina R7: Two days after R6, meet her again at night on Altabury's Skybound Bridge. Save a further night for R8 once eligible."
+  },
+  {
+    "simpleJp": "想像力4で夜のジュナと話す",
+    "jpGuide1": "想像力4",
+    "jpGuide2": "想像力4",
+    "enGuide": "Junah R5: After Junah's R4 and a two-day cooldown, achieve Imagination 4 and talk to her in the Gauntlet Runner central passage at NIGHT."
+  },
+  {
+    "simpleJp": "ジュナのランク5から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
+  },
+  {
+    "simpleJp": "ジュナのランク6から2日後、夜の鎧戦車で話す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "ランク7",
+    "enGuide": "Junah R7: Return to the Runner central passage at night after the two-day cooldown; no separate Virtue gate is listed."
+  },
+  {
+    "simpleJp": "ジュナのランク7から2日後、夜の鎧戦車で話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Junah R8: Again at night in the Runner's central passage, two days after R7. Once completed, Masked Dancer's final bond effects unlock."
+  },
+  {
+    "simpleJp": "説得力4で昼のユーファと話す",
+    "jpGuide1": "説得力4",
+    "jpGuide2": "説得力4",
+    "enGuide": "Eupha R6: With Eloquence 4, approach Eupha during a daytime free-action slot at least two days after R5. Her next rank is not a simple two-day chat; complete the Hyperic quest and Wisdom 5 first."
+  },
+  {
+    "simpleJp": "暴走するハイペリックを止め、見識5でユーファと話す",
+    "jpGuide1": "暴走するハイペリックを止めろ",
+    "jpGuide2": "暴走するハイペリックを止めろ",
+    "enGuide": "Eupha R7: Accept and complete 'Stop the Rampaging Hyperic' (暴走するハイペリックを止めろ), available during the later story, and reach Wisdom (見識) 5. Speak with Eupha in daytime to obtain R7. If this request is not yet offered, revisit after September's story transition."
+  },
+  {
+    "simpleJp": "ユーファのランク7から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead."
+  },
+  {
+    "simpleJp": "常氷樹林の遺物を回収し夜にニューラスへ渡す",
+    "jpGuide1": "取っ手がついた岩",
+    "jpGuide2": "取っ手がついた岩",
+    "enGuide": "Neuras relic #5 of 6: Take 'The White Beast in the Frozen Forest' (凍てつく森の白き獣), travel to Everfrost Forest (常氷樹林), collect the handled rock (取っ手がついた岩) and give it to Neuras at night aboard the Runner. This advances the fifth of his six relic ranks if the earlier four were delivered."
+  },
+  {
+    "simpleJp": "勇気5で夜のアロンゾと話す",
+    "jpGuide1": "勇気5",
+    "jpGuide2": "勇気5",
+    "enGuide": "Alonzo R7: MAX Courage (勇気) 5 required. At least two days after his daytime R6, return to Brilehaven Angler's Inn Square at NIGHT and trigger his R7 story. This is a major high-level Royal Virtue gate; prioritize Courage training ahead of time."
+  },
+  {
+    "simpleJp": "2日後、夜のブライハーヴェンでダチュラムと話す",
+    "jpGuide1": "ダチュラム",
+    "jpGuide2": "ダチュラム",
+    "enGuide": "Alonzo R8: Two days after R7, do NOT hunt for the usual Alonzo icon: talk to Daturam (ダチュラム) at Brilehaven Angler's Inn Square at night and follow the conclusion of 'A Rake's Last Wish' (アロンゾの遺志を叶えろ). The alternate NPC is required to finish his Faker bond."
+  },
+  {
+    "simpleJp": "9/23の王都への帰還でガリカのランク7を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク7",
+    "enGuide": "Gallica R7: Automatic once the September 23 story return to Grand Trad resolves."
+  },
+  {
+    "simpleJp": "9/24の物語の戦闘後、ガリカのランク8を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク8",
+    "enGuide": "Gallica R8: Automatic after the September 24 main-story battle. This finishes her Mage bond without an optional activity slot."
+  },
+  {
+    "simpleJp": "9月中に足りない王の資質を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "王の資質",
+    "enGuide": "Late-game Virtue checkpoint: To avoid being blocked on October 25, work toward ALL five rank-5 Royal Virtues: Courage 5 (Alonzo R7), Wisdom 5 (Eupha R7), Tolerance 5 (Catherina R6), Eloquence 5 (Basilio R8), Imagination 5 (Basilio R6). Their lower ranks also gate several earlier bonds. Use spare day/night slots, travel books and available Virtue activities; no dialogue-answer optimisation is required."
+  }
+]

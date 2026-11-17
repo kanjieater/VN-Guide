@@ -1,0 +1,104 @@
+[
+  {
+    "simpleJp": "8/13の物語を進め、ガリカのランク5を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク5",
+    "enGuide": "Gallica R5: Automatically after the 8/13 Glo(d)ell story boss. No meeting, virtue or calendar slot."
+  },
+  {
+    "simpleJp": "8/19の物語を進め、ガリカのランク6を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク6",
+    "enGuide": "Gallica R6: Automatic on completing the Virga Island threat operation (after August 19)."
+  },
+  {
+    "simpleJp": "8/19以降、弔いを阻む蛇食い怪物の依頼を完了する",
+    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
+    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
+    "enGuide": "Junah R1: Once Junah has joined the party and the 8/19+ Virga Island request becomes available, speak to her at Dragon Statue Square, accept 'Save the Mourning Snakes' (弔いを阻む蛇食い怪物を倒せ), go to the circular marker area, defeat the mourning-serpent boss and report back. This establishes Masked Dancer; party recruitment alone is NOT her Follower R1."
+  },
+  {
+    "simpleJp": "ジュナのランク1から2日後、夜の鎧戦車中央通路で話す",
+    "jpGuide1": "夜の鎧戦車内",
+    "jpGuide2": "ランク2",
+    "enGuide": "Junah R2: At least two days after the snake quest, meet her at night in the Runner central passage. Advance another quest or virtue on cooldown days."
+  },
+  {
+    "simpleJp": "ジュナのランク2から2日後、夜に話す",
+    "jpGuide1": "夜の鎧戦車内",
+    "jpGuide2": "ランク3",
+    "enGuide": "Junah R3: At least two days after R2, return at night to the Runner's central passage. No extra virtue gate yet."
+  },
+  {
+    "simpleJp": "ジュナのランク3から2日後、夜に話す",
+    "jpGuide1": "夜の鎧戦車内",
+    "jpGuide2": "ランク4",
+    "enGuide": "Junah R4: Two days after R3, speak in the Gauntlet Runner's central passage at night; prepare Imagination 4 for R5."
+  },
+  {
+    "simpleJp": "竜宮神殿の後、儀礼の地の試練を完了する",
+    "jpGuide1": "試練に挑むユーファを助けろ",
+    "jpGuide2": "試練に挑むユーファを助けろ",
+    "enGuide": "Eupha R1: After finishing Dragon Temple and Eupha's recruitment, accept 'The Trial of Malnova' (試練に挑むユーファを助けろ), travel to Land of Ceremony, complete the trial and report back to Eupha. This unlocks her Summoner Follower bond; it also unlocks an optional Neuras relic location."
+  },
+  {
+    "simpleJp": "ユーファのランク1から2日後、昼に話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Eupha R2: Two days after her Land of Ceremony trial, approach her in the daytime on an eligible free-action day (town/Runner as marked on map)."
+  },
+  {
+    "simpleJp": "ユーファのランク2から2日後、昼に話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Eupha R3: On a daytime free slot at least two calendar days after R2, speak to Eupha wherever her bond icon indicates."
+  },
+  {
+    "simpleJp": "ユーファのランク3から2日後、昼に話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Eupha R4: Two days after R3, speak with Eupha in daytime. If no rank-up option is present, check cooldown and active story travel."
+  },
+  {
+    "simpleJp": "ユーファのランク4から2日後、昼に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Eupha R5: Two days after R4, speak to Eupha on a free daytime slot. Begin working toward Eloquence 4 and Wisdom 5 for her next two gates."
+  },
+  {
+    "simpleJp": "ならず者の根城で遺物を回収し夜にニューラスへ渡す",
+    "jpGuide1": "寄木細工の箱",
+    "jpGuide2": "寄木細工の箱",
+    "enGuide": "Neuras relic #3 of 6: Unlock Scoundrel's Hold (ならず者の根城) by accepting 'The Greater One-Eyed Scoundrel' (ならず者より危険な一つ目怪物). Pick up the marquetry box (寄木細工の箱), then hand it to Neuras in the Runner at night. The order of relics is flexible."
+  },
+  {
+    "simpleJp": "儀礼の地で遺物を回収し夜にニューラスへ渡す",
+    "jpGuide1": "苔で覆われた円柱",
+    "jpGuide2": "苔で覆われた円柱",
+    "enGuide": "Neuras relic #4 of 6: During the same journey as Eupha's 'Trial of Malnova' at Land of Ceremony (儀礼の地), collect the moss-covered pillar (苔で覆われた円柱). Report it to Neuras at night in the Runner. Do NOT make a separate trip solely for the relic if you can combine objectives."
+  },
+  {
+    "simpleJp": "ハイザメのランク6から2日後、想像力4で夜に話す",
+    "jpGuide1": "想像力4",
+    "jpGuide2": "想像力4",
+    "enGuide": "Heismay R7: Raise Imagination (想像力) to 4 and talk to him at night in the Runner's central passage two days after his sixth bond."
+  },
+  {
+    "simpleJp": "ハイザメのランク7から2日後、任意の移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Heismay R8: After two days, travel somewhere voluntarily with the Gauntlet Runner and speak to Heismay in the daytime. If you are on fixed story travel, this bonding action may not appear; take a discretionary side-quest trip."
+  },
+  {
+    "simpleJp": "マルティラでバードンの依頼の大砂蟲を倒す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "大砂蟲ホモブテラ",
+    "enGuide": "Bardon R7: Two days after R6, talk to Bardon in Martira's Thoroughfare Square in the daytime, accept his battle escalation and defeat the level-60 Great Sandworm Homo Butera (大砂蟲ホモブテラ). If underleveled, leave this step pending and revisit later; it is a Follower requirement, not mandatory for progressing the main story."
+  },
+  {
+    "simpleJp": "25種類のアーキタイプを履修してモアに報告する",
+    "jpGuide1": "25種類のアーキタイプを履修する。",
+    "jpGuide2": "25種類",
+    "enGuide": "More R7: Study at least 25 DISTINCT Archetypes (not simply rank 25 in one class) and report More's 'Determination' research task in Akademia. By now, Junah and Eupha have expanded your class availability."
+  }
+]

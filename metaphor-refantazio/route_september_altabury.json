@@ -24,6 +24,48 @@
     "enGuide": "Calendar 9/13 遺物回収. Neuras relic #5 of 6: Take 'The White Beast in the Frozen Forest' (凍てつく森の白き獣), travel to Everfrost Forest (常氷樹林), collect the handled rock (取っ手がついた岩) and give it to Neuras at night aboard the Runner. This advances the fifth of his six relic ranks if the earlier four were delivered."
   },
   {
+    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲33：アルタベリー・ルンルーモ参道南の東壁沿いを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #33 of 50 — Altabury Rurmumo road south of T junction, eastern wall. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲34：アルタベリー・ルンルーモ参道北の階段下を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #34 of 50 — Altabury Rurmumo road north of T junction, dead end downstairs on east. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲35：夜のアルタベリー白峰魔法館入口の壺を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #35 of 50 — Altabury Whitepeak Magic Shop, Skybound Bridge lower level: examine the vase at night. Non-time-consuming pickup; evening-specific store access. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲36：蒼穹橋上層の武器屋と雑貨屋の間の柱を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #36 of 50 — Altabury upper Skybound Bridge, behind pillar between weapon and general-goods shops. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲37：アルタベリー歌劇場前広場の東端で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #37 of 50 — Altabury Opera House Square eastern bridge tip. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲38：アルタベリー天空の酒場の樽の横を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #38 of 50 — Altabury Sky Tavern: beside barrel. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲40：常氷樹林の南西採集ポイントを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #40 of 50 — Everfrost Forest: southwestern gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
     "simpleJp": "9/14 昼・期間限定：ジュリアンと討論する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ジュリアンと討論",
@@ -72,6 +114,12 @@
     "enGuide": "Calendar 9/17 鎧戦車・昼. Basilio R3: During a discretionary daytime Gauntlet Runner journey after the two-day cooldown, approach him in the central passage. Reserve a side-trip; forced story travel may not count."
   },
   {
+    "simpleJp": "9/17 【収集・時間消費なし】黄金蟲41：不遜の塔2階北東を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #41 of 50 — Tower of Ascendant 2F northeastern spot. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
     "simpleJp": "9/18 昼・攻略：ウルカノ山の依頼を進め、遺物を入手する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ウルカノ火山攻略",
@@ -82,6 +130,12 @@
     "jpGuide1": "つぎはぎの球体",
     "jpGuide2": "つぎはぎの球体",
     "enGuide": "Calendar 9/18 昼・遺物. Neuras relic #6 of 6: At Mt Vulkano during the linked quest, collect the patchwork sphere and deliver to Neuras on the Runner after returning. With five other relics already handed in this makes all six and unlocks his Jin quest."
+  },
+  {
+    "simpleJp": "9/18 【収集・時間消費なし】黄金蟲39：ウルカノ山の東のはしごを上り北へ進む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #39 of 50 — Mt Vulkano: ascend eastern ladder from lower floor and search north. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "9/19 昼：バジリオのランク3から2日後、昼に街で話す",

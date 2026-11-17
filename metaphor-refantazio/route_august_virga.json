@@ -1,5 +1,17 @@
 [
   {
+    "simpleJp": "8/13 物語：8/13の物語を進め、ガリカのランク5を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 8/13 story milestone. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R5: Automatically after the 8/13 Glo(d)ell story boss. No meeting, virtue or calendar slot."
+  },
+  {
+    "simpleJp": "8/19 物語：8/19の物語を進め、ガリカのランク6を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/19 story milestone. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R6: Automatic on completing the Virga Island threat operation (after August 19)."
+  },
+  {
     "simpleJp": "8/19 昼・受注：ビルガ島の依頼をまとめて受け、枯れ薬の材料を報告する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "枯れ薬の材料を探せ",
@@ -180,6 +192,12 @@
     "enGuide": "Calendar 9/2 昼. Bardon R7: Two days after R6, talk to Bardon in Martira's Thoroughfare Square in the daytime, accept his battle escalation and defeat the level-60 Great Sandworm Homo Butera (大砂蟲ホモブテラ). If underleveled, leave this step pending and revisit later; it is a Follower requirement, not mandatory for progressing the main story."
   },
   {
+    "simpleJp": "9/2 夜：勇気4を確認し、ベルギッタの支援ランク7を上げる",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "勇気4",
+    "enGuide": "Calendar 9/2 夜. Brigitta R7: With Courage 4, meet her at night in Grand Trad on a free night after rank 6's cooldown; confirm Rank 7 before leaving this window."
+  },
+  {
     "simpleJp": "9/3 昼：ユーファのランク4から2日後、昼に話す",
     "jpGuide1": "RANK5",
     "jpGuide2": "ランク5",
@@ -274,23 +292,5 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Calendar 9/11〜9/12 物語. Plot time leading into the next mid-September request window. Do not assume both day and night are flexible; final calendar free period opens after September 26."
-  },
-  {
-    "simpleJp": "9/12 【条件調整】8/13の物語を進め、ガリカのランク5を確認する",
-    "jpGuide1": "メインストーリー進行",
-    "jpGuide2": "ランク5",
-    "enGuide": "FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R5: Automatically after the 8/13 Glo(d)ell story boss. No meeting, virtue or calendar slot."
-  },
-  {
-    "simpleJp": "9/12 【条件調整】8/19の物語を進め、ガリカのランク6を確認する",
-    "jpGuide1": "メインストーリー進行",
-    "jpGuide2": "ランク6",
-    "enGuide": "FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R6: Automatic on completing the Virga Island threat operation (after August 19)."
-  },
-  {
-    "simpleJp": "9/12 【条件調整】25種類のアーキタイプを履修してモアに報告する",
-    "jpGuide1": "25種類のアーキタイプを履修する。",
-    "jpGuide2": "25種類",
-    "enGuide": "FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. More R7: Study at least 25 DISTINCT Archetypes (not simply rank 25 in one class) and report More's 'Determination' research task in Akademia. By now, Junah and Eupha have expanded your class availability."
   }
 ]

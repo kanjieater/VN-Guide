@@ -6,6 +6,12 @@
     "enGuide": "Calendar 8/13 story milestone. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R5: Automatically after the 8/13 Glo(d)ell story boss. No meeting, virtue or calendar slot."
   },
   {
+    "simpleJp": "8/18 昼・読書：『※秘※詩集※見るな※』を読み始める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/18 昼・読書. First of three sessions after Junah joins. If plot locked, use first available Runner day."
+  },
+  {
     "simpleJp": "8/19 物語：8/19の物語を進め、ガリカのランク6を確認する",
     "jpGuide1": "メインストーリー進行",
     "jpGuide2": "ランク6",
@@ -70,6 +76,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "8/19 期限・受注. After reaching Virga and the August 19 request window, get the guided-doll material request; retrieve the listed doll materials in the accessible Dragon Temple and report no later than August 30."
+  },
+  {
+    "simpleJp": "8/19 読書・予備：『※秘※詩集※見るな※』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/19 読書・予備. Second unique Poetry Collection session, on an actually available Runner slot; don't overlap a mandatory story slot."
   },
   {
     "simpleJp": "8/20 昼・移動：儀礼の地に向かいユーファの試練を進める",
@@ -142,6 +154,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #31 of 50 — Orbwise Path / Circle Landmark 1F: glowing spot by eastern junction. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/23 読書・予備：『※秘※詩集※見るな※』を読了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/23 読書・予備. Third Poetry Collection session, move to another eligible Runner free-time slot if dungeon conflicts."
   },
   {
     "simpleJp": "8/24 昼・移動：盲信の塔へ向かいシレント村にも寄る",

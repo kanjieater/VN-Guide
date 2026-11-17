@@ -126,6 +126,12 @@
     "enGuide": "Calendar 6/13 達成時 (recommended flexible slot; satisfy game map icon and gate first). More R2: Study the Healer Archetype, raise its Archetype rank to 10, then turn in More's Prologue Trial inside Akademia. This is a quest rank-up, not a regular calendar meeting."
   },
   {
+    "simpleJp": "6/13 【受注・時間なし】王都募兵舎で『野犬を従える人食い怪物』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/13, 受注・時間なし: From any Royal Army Recruitment Center, pick up the bounty before Tradia Desert (June 14). Defeat the target in the desert and report the bounty during your next Grand Trad visit to collect Courage rewards. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "6/14 昼：賞金首を受注してトラディア砂漠へ向かう",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "トラディア砂漠攻略",
@@ -310,6 +316,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "June 29 no time cost: accept the pigeon eggs quest in MARTIRA Thoroughfare Square, buy eggs in Komero July 9, report to Martira July 10 ahead of July 11 deadline."
+  },
+  {
+    "simpleJp": "6/29 【受注・時間なし】募兵舎で『小鬼を率いる新たな王』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/29, 受注・時間なし: Pick up the Goborn/Goblin Nest bounty at Martira or another recruitment centre. Kill the ruler during June 30 cave trip, then report at a recruitment centre on July 1. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "6/30 昼・移動：小鬼の巣窟への旅を進める",

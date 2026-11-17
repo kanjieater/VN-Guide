@@ -54,6 +54,12 @@
     "enGuide": "Calendar 9/27 夜・料理. Use the camp/Runner to cook 'ふわふわ蜜菓子' for the second cook quest and read the remaining Wisdom book. Maria's Speed Cooking makes kitchen tasks flexible."
   },
   {
+    "simpleJp": "9/27 昼・読書：『よみ・かき・おてほん』を読了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 9/27 昼・読書. Third unique reading session; if inaccessible, use another genuine Runner slot."
+  },
+  {
     "simpleJp": "9/28 昼・攻略：見捨てられた道の依頼を達成する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見捨てられた道攻略",
@@ -262,6 +268,18 @@
     "jpGuide1": "25種類のアーキタイプを履修する。",
     "jpGuide2": "25種類",
     "enGuide": "Calendar 10/13 アカデメイア. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. More R7: Study at least 25 DISTINCT Archetypes (not simply rank 25 in one class) and report More's 'Determination' research task in Akademia. By now, Junah and Eupha have expanded your class availability."
+  },
+  {
+    "simpleJp": "10/13 監査・時間なし：読書7冊の読了を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 10/13 監査・時間なし. Seven books, three unique sessions each: 新世界旅行記, 頷かせる技術, 在りし日のこと, 魔法的未来 (pick up Julian by August 12), ※秘※詩集※見るな※, 島の外の歩き方, よみ・かき・おてほん. Missing sessions must use real Runner slots."
+  },
+  {
+    "simpleJp": "10/13 監査・時間なし：黄金蟲を累計46匹以上交換する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 10/13 監査・時間なし. Brilehaven Arenafront Wharf elderly beetle collector gives five cumulative rewards at 1,12,25,38,46. 50 beetles exist. Verify 46 turned in cumulative, not necessarily inventory; critical #1 June 5, #21 toothbrush report by Aug 9, #42 Sept 24."
   },
   {
     "simpleJp": "10/24 夜・最終監査：全14人の支援ランクと各収集記録を見直す",

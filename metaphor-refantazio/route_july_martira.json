@@ -120,16 +120,16 @@
     "enGuide": "Calendar 7/10 昼. Maria R4: Visit Maria again in the daytime after the ordinary rank cooldown. Her rank 4 perks include Speed Cooking; optional travel landscape pictures are not required."
   },
   {
-    "simpleJp": "7/10 夜：ハイザメのランク3から2日後、夜に中央通路で話す",
-    "jpGuide1": "RANK4",
-    "jpGuide2": "ランク4",
-    "enGuide": "Calendar 7/10 夜. Heismay R4: Talk in the central corridor at night, two days after R3. Save upcoming discretionary travel for his R5."
-  },
-  {
     "simpleJp": "7/10 昼・購入：マルティラで料理素材を補充する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "まろやか牛乳",
     "enGuide": "Calendar 7/10 昼・購入. Buy available milk/flour used for travel dishes; ordinary shopping is no-time"
+  },
+  {
+    "simpleJp": "7/10 夜：ハイザメのランク3から2日後、夜に中央通路で話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 7/10 夜. Heismay R4: Talk in the central corridor at night, two days after R3. Save upcoming discretionary travel for his R5."
   },
   {
     "simpleJp": "7/11 昼・旅行：打ち捨てられた墓へ向かう",
@@ -180,6 +180,18 @@
     "enGuide": "Calendar 7/14 夜・討論. MISSABLE Martira debate; taxation as mutual aid"
   },
   {
+    "simpleJp": "7/15 昼：昼のマリアと話してランク6にする",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 7/15 昼. Maria R6: At least two days after R5, visit Sunshade Row (日陰通り), Grand Trad, during the day. The old painting-collection suggestion is not a mandatory rank condition."
+  },
+  {
+    "simpleJp": "7/15 夜：ハイザメのランク5から2日後、夜に中央通路で話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 7/15 夜. Heismay R6: On the Gauntlet Runner's central passage at night after the usual 2-day cooldown. Raise Imagination 4 for his next gate."
+  },
+  {
     "simpleJp": "7/16 昼：ランク4から2日後、昼のマルティラでストロールと話す",
     "jpGuide1": "マルティラの街道広場",
     "jpGuide2": "ランク5",
@@ -198,22 +210,16 @@
     "enGuide": "Calendar 7/16 夜・討論. MISSABLE candidate debate; dispute claim that alcohol creates equality"
   },
   {
-    "simpleJp": "7/17 夜・読書：『在りし日のこと』を読み進める",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "在りし日のことを読む",
-    "enGuide": "Calendar 7/17 夜・読書. Keep reading for Tolerance 3 on the Gauntlet Runner"
-  },
-  {
     "simpleJp": "7/17 昼・読書：『在りし日のこと』を読む",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "在りし日のことを読む",
     "enGuide": "Calendar 7/17 昼・読書. Tolerance book on Runner, flexible schedule; do not delay an actual quest deadline"
   },
   {
-    "simpleJp": "7/18 夜・読書：『在りし日のこと』を読み進める",
+    "simpleJp": "7/17 夜・読書：『在りし日のこと』を読み進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "在りし日のことを読む",
-    "enGuide": "Calendar 7/18 夜・読書. Alternate with another unread book if already done"
+    "enGuide": "Calendar 7/17 夜・読書. Keep reading for Tolerance 3 on the Gauntlet Runner"
   },
   {
     "simpleJp": "7/18 昼・読書：『在りし日のこと』を読み進める",
@@ -222,16 +228,28 @@
     "enGuide": "Calendar 7/18 昼・読書. Book reading aiming Tolerance 3"
   },
   {
-    "simpleJp": "7/19 夜・読書：『在りし日のこと』を読み進める",
+    "simpleJp": "7/18 夜・読書：『在りし日のこと』を読み進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "在りし日のことを読む",
-    "enGuide": "Calendar 7/19 夜・読書. Finish the book and get Tolerance gains"
+    "enGuide": "Calendar 7/18 夜・読書. Alternate with another unread book if already done"
   },
   {
     "simpleJp": "7/19 昼・読書：『在りし日のこと』を読み進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "在りし日のことを読む",
     "enGuide": "Calendar 7/19 昼・読書. A supported reference itinerary travel activity"
+  },
+  {
+    "simpleJp": "7/19 夜・読書：『在りし日のこと』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "在りし日のことを読む",
+    "enGuide": "Calendar 7/19 夜・読書. Finish the book and get Tolerance gains"
+  },
+  {
+    "simpleJp": "7/20〜7/22 物語：ブライハーヴェンへの移動を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/20〜7/22 物語. Story transition; no arbitrary daytime/nighttime free slots promised"
   },
   {
     "simpleJp": "7/20 移動：7月中旬の鎧戦車移動でキャゼリナに勝つ",
@@ -244,35 +262,5 @@
     "jpGuide1": "15種類のアーキタイプを履修する。",
     "jpGuide2": "15種類",
     "enGuide": "Calendar 7/21 アカデメイア. More R5: Study at least 15 distinct Archetypes across party members and report the corresponding Akademia assignment. Count unique studied Archetypes, not levels within one class."
-  },
-  {
-    "simpleJp": "7/20〜7/22 物語：ブライハーヴェンへの移動を進める",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 7/20〜7/22 物語. Story transition; no arbitrary daytime/nighttime free slots promised"
-  },
-  {
-    "simpleJp": "7/22 予備：想像力3でストロールの遺産探しを完了する",
-    "jpGuide1": "ストロールの遺産探しを手伝え",
-    "jpGuide2": "想像力3",
-    "enGuide": "Calendar 7/22 予備. Strohl R6: With Imagination 3, accept/complete 'Help Strohl Search for His Inheritance' (ストロールの遺産探しを手伝え). Follow the quest directions in Grand Trad and report back before seeking R7; merely talking is not sufficient."
-  },
-  {
-    "simpleJp": "7/22 予備：勇気3を得て夜のベルギッタに報告する",
-    "jpGuide1": "RANK5",
-    "jpGuide2": "勇気3以上",
-    "enGuide": "Calendar 7/22 予備. Brigitta R5: Once her R4 is completed, reach Courage (勇気) 3 and talk to her at Grand Trad Sunlumeo Street at night. A missing icon usually means the courage gate/cooldown is not satisfied."
-  },
-  {
-    "simpleJp": "7/22 予備：ベルギッタのランク5から2日後、夜に話す",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "ランク6",
-    "enGuide": "Calendar 7/22 予備. Brigitta R6: Night at her Grand Trad shop area, at least two days after R5. Build Courage 4 for R7."
-  },
-  {
-    "simpleJp": "7/22 予備：勇気4を得て夜のベルギッタと話す",
-    "jpGuide1": "RANK7",
-    "jpGuide2": "勇気4",
-    "enGuide": "Calendar 7/22 予備. Brigitta R7: Raise Courage 4 and speak with her at night in Grand Trad, two days after R6. Her final R8 has a separate September 26 availability gate."
   }
 ]

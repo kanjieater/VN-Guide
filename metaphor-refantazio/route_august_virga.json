@@ -84,6 +84,24 @@
     "enGuide": "Calendar 8/19 読書・予備. Second unique Poetry Collection session, on an actually available Runner slot; don't overlap a mandatory story slot."
   },
   {
+    "simpleJp": "8/19 【受注・時間なし】宿前水汲み場で『無謀な研究者の仇を討て』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/19, 受注・時間なし: At the well outside Virga Island inn, accept the researcher revenge request after August 19; complete target in Tower of Blind Faith on August 24–26, then return to original giver for reward. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "8/19 【受注・時間なし】金鹿の酒場前で『謎の魔道器の鑑定を代行しろ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/19, 受注・時間なし: Accept the magic device appraisal request outside the Golden Deer tavern on Virga. Carry out its required appraisal dialogue/item exchange while doing Virga errands and return with result; no extra dungeon travel unless quest specifies one. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "8/19 【受注・時間なし】募兵舎で『ならず者より危険な一つ目怪物』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/19, 受注・時間なし: Accept the Scoundrel's Hold one-eyed monster bounty from any recruitment centre. Defeat target on Sept 4–5 dungeon trip, take Neuras's marquetry-box relic there, and claim bounty from recruitment centre after return. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "8/20 昼・移動：儀礼の地に向かいユーファの試練を進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "儀礼の地に向かう",
@@ -208,6 +226,12 @@
     "jpGuide1": "夜の鎧戦車内",
     "jpGuide2": "ランク2",
     "enGuide": "Calendar 8/27 夜. Junah R2: At least two days after the snake quest, meet her at night in the Runner central passage. Advance another quest or virtue on cooldown days."
+  },
+  {
+    "simpleJp": "8/27 【報告・時間なし】盲信の塔の敵討ち依頼を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/27, 報告・時間なし: After Tower of Blind Faith clear Aug 26, return to Virga well requester to close 『無謀な研究者の仇を討て』; this is a no-time conversation. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "8/28 昼・闘技場：闘技場の銀級に挑む",

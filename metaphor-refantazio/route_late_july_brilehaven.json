@@ -1,0 +1,140 @@
+[
+  {
+    "simpleJp": "7/23のカラドリウス攻略後、ガリカのランク4を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ストーリー進行",
+    "enGuide": "Gallica R4: Automatically rises after the Charadrius infiltration main operation (7/23 or later). No optional meeting."
+  },
+  {
+    "simpleJp": "ブライハーヴェンから邪見の塔へ鎧戦車で向かいキャゼリナに勝つ",
+    "jpGuide1": "邪見の塔に向かう途中のイベント戦で勝利する",
+    "jpGuide2": "邪見の塔へ移動時",
+    "enGuide": "Catherina R4: After reaching Brilehaven (July 23 or later), TAKE the Gauntlet Runner journey to Tower of Insolence (邪見の塔) and defeat her road challenge en route. This is the easily overlooked third encounter; an arbitrary side trip does not trigger it."
+  },
+  {
+    "simpleJp": "ストロールのランク6から2日後、昼に話す",
+    "jpGuide1": "ブライハーヴェン「交易市場」",
+    "jpGuide2": "ランク7",
+    "enGuide": "Strohl R7: After completing the inheritance quest and R6, wait two days and meet him during the day at an eligible town hub (Brilehaven's Merchant's Bazaar works). No additional quest required."
+  },
+  {
+    "simpleJp": "ストロールのランク7から2日後、昼に話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Strohl R8: Two days after R7, speak to Strohl in an eligible city during the day. Once available he can be maxed before September; do not wait until a printed September 'earliest' estimate."
+  },
+  {
+    "simpleJp": "任意の鎧戦車移動中、ヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "ランク6",
+    "enGuide": "Hulkenberg R6: At least two days after R5, speak with her in the Runner's central passage during a genuine discretionary daytime journey. Reserve additional travel days for her R8."
+  },
+  {
+    "simpleJp": "見識4で昼にブライハーヴェンのヒュルケンベルグと話す",
+    "jpGuide1": "見識4",
+    "jpGuide2": "見識4",
+    "enGuide": "Hulkenberg R7: With Wisdom (見識) 4, meet Hulkenberg during the day at Brilehaven's tavern 大漁亭; at least two days after R6."
+  },
+  {
+    "simpleJp": "2日後の任意移動中、ヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Hulkenberg R8: Two days after R7, speak on the Runner's deck during a discretionary daytime journey. If you only have mandatory travel, plan a side trip."
+  },
+  {
+    "simpleJp": "ハイザメのランク5から2日後、夜に中央通路で話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Heismay R6: On the Gauntlet Runner's central passage at night after the usual 2-day cooldown. Raise Imagination 4 for his next gate."
+  },
+  {
+    "simpleJp": "7/23以降、昼にマルティラのバードンと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Bardon R2: Return to Martira after the July 23 main-operation transition. Find him on Thoroughfare Square during the day and have the rank-up conversation."
+  },
+  {
+    "simpleJp": "バードンのランク2から2日後、昼にクリアンテ城前で話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Bardon R3: Two days after R2, speak with him outside Kriegante Castle in Martira during the day. Combine a Martira visit with another nearby optional objective."
+  },
+  {
+    "simpleJp": "バードンのランク3から2日後、昼にクリアンテ城前で話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Bardon R4: Two days after R3, repeat the daytime castle-front conversation in Martira. Eloquence 3 gates the next bond."
+  },
+  {
+    "simpleJp": "説得力3を得てバードンと昼に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "説得力3",
+    "enGuide": "Bardon R5: With Eloquence (説得力) 3 and an elapsed two days after R4, meet Bardon by Kriegante Castle in Martira, daytime."
+  },
+  {
+    "simpleJp": "2日後、昼にバードンと話してランク6にする",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Bardon R6: At least two days after R5, speak outside Kriegante Castle in Martira during the day. Prepare a combat-ready party for R7."
+  },
+  {
+    "simpleJp": "7/23以降、見識3で夜のアロンゾと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "見識3",
+    "enGuide": "Alonzo R2: At night in Brilehaven's Angler's Inn Square (漁師宿広場), with Wisdom 3 and after the July 23 milestone, talk to Alonzo. This is distinct from his Martira unlock quest."
+  },
+  {
+    "simpleJp": "アロンゾのランク2から2日後、夜に話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Alonzo R3: Two days after R2, return at night to Angler's Inn Square in Brilehaven and talk to him."
+  },
+  {
+    "simpleJp": "包容力3で夜のアロンゾと話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "包容力3",
+    "enGuide": "Alonzo R4: At least two days after R3, obtain Tolerance 3 and speak to Alonzo at Brilehaven's Angler's Inn Square at night."
+  },
+  {
+    "simpleJp": "アロンゾのランク4から2日後、夜に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Alonzo R5: Two days after R4, at night in Brilehaven's Angler's Inn Square; the next rank switches to daytime, so do not keep checking only at night."
+  },
+  {
+    "simpleJp": "アロンゾのランク5から2日後、昼に話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Alonzo R6: Two days after R5, meet him in Angler's Inn Square, Brilehaven, during the DAY. His next night rank requires Courage 5, so train it during spare slots."
+  },
+  {
+    "simpleJp": "昼のマリアと話してランク6にする",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Maria R6: At least two days after R5, visit Sunshade Row (日陰通り), Grand Trad, during the day. The old painting-collection suggestion is not a mandatory rank condition."
+  },
+  {
+    "simpleJp": "包容力4で昼のマリアと話す",
+    "jpGuide1": "包容力4",
+    "jpGuide2": "包容力4",
+    "enGuide": "Maria R7: With Tolerance 4, two days after R6, meet Maria at Grand Trad Sunshade Row in the daytime. Her final rank has only a cooldown."
+  },
+  {
+    "simpleJp": "マリアのランク7から2日後、昼に話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Maria R8: Two days after R7, meet Maria at Grand Trad Sunshade Row in the daytime. This completes Healer and unlocks associated final perks."
+  },
+  {
+    "simpleJp": "嘆きの墓でニューラスの遺物を回収し夜に渡す",
+    "jpGuide1": "立方体の石膏",
+    "jpGuide2": "立方体の石膏",
+    "enGuide": "Neuras relic #2 of 6: Visit the Tomb of Lament (嘆きの墓), unlocked by the 'Grieving Ghost of the Goblet' request (盃に取り憑く嘆きの亡霊). Collect the plaster cube (立方体の石膏), return it to Neuras on the Runner at night. Ranks 2–7 progress with relic turn-ins in ANY order."
+  },
+  {
+    "simpleJp": "ジェネラルをランク15まで育てモアに報告する",
+    "jpGuide1": "ジェネラルを履修しRANK15まで鍛える。",
+    "jpGuide2": "ジェネラル」をランク15",
+    "enGuide": "More R6: Study the General Archetype and level it to Archetype rank 15; submit the next assignment at Akademia. If the archetype is locked, progress its Follower prerequisite and class tree first."
+  }
+]

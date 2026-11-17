@@ -60,6 +60,36 @@
     "enGuide": "7/23 期限・受注. Obtain the specified specialty flower from a village merchant while traveling for other side quests, then report in Brilehaven by Aug 10. Check the exact quest item on the Quest screen; avoid extra trip."
   },
   {
+    "simpleJp": "7/23 【受注・時間なし】募兵舎で『盃に取り憑く嘆きの亡霊』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Take the Tomb of Lament bounty from the recruitment centre; on July 28–29 expedition defeat its ghost and collect the special cup, then report bounty while back at Brilehaven. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】漁師宿広場で『秘薬の材料を探せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Talk to the quest giver at Brilehaven Angler's Inn Square, inspect exact required ingredients in Quest menu, buy/retrieve them on the planned side-town route, and report to same giver during July 31 buffer or next visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】闘技場前波止場で『幻の酒器を探せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Talk to quest giver on Brilehaven Arenafront Wharf; obtain the requested vessel as you clear the related optional dungeons, then return to the Wharf for reward. Confirm completion before final audit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】交易市場で『邪見の塔に巣食うものを倒せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Accept at Brilehaven Merchant's Bazaar. Kill requested target on Aug 1–2 Tower of Insolence route and return to quest giver on first post-trip town visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】漁師宿広場で『権利書を取り返せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Speak to requester in Angler's Inn Square (Brilehaven); follow estate deed NPC/item dialogue described in Quest menu and report completion when back in Brilehaven. No dungeon travel slot should be added unless the game explicitly requires it. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "7/24 昼・期間限定：グローデルとの討論に勝つ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "グローテルと討論",
@@ -250,6 +280,12 @@
     "jpGuide1": "RANK3",
     "jpGuide2": "ランク3",
     "enGuide": "Calendar 8/5 夜. Alonzo R3: Two days after R2, return at night to Angler's Inn Square in Brilehaven and talk to him."
+  },
+  {
+    "simpleJp": "8/5 【報告・時間なし】邪見の塔・嘆きの墓・闘技場の未報告依頼を精算する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/5, 報告・時間なし: On a Brilehaven return day, visit recruitment centre, Merchant's Bazaar and Arenafront Wharf to report completed Tower of Insolence / Tomb of Lament / Arena monster tasks. Quest return itself is time-free and should not displace Strohl's day rank. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "8/6 昼：バードンのランク3から2日後、昼にクリアンテ城前で話す",

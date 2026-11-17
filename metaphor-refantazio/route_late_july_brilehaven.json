@@ -1,140 +1,332 @@
 [
   {
-    "simpleJp": "7/23のカラドリウス攻略後、ガリカのランク4を確認する",
-    "jpGuide1": "メインストーリー進行",
-    "jpGuide2": "ストーリー進行",
-    "enGuide": "Gallica R4: Automatically rises after the Charadrius infiltration main operation (7/23 or later). No optional meeting."
+    "simpleJp": "7/23 昼・回収：ブライハーヴェンで依頼をまとめて受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "依頼7件を受注",
+    "enGuide": "Calendar 7/23 昼・回収. New hub: collect all available timed requests/bounties, visit informant, obtain the one-copy book 『魔法的未来』 from Julian at Angler's Inn Square, and gather city Golden Beetles BEFORE story access shifts."
   },
   {
-    "simpleJp": "ブライハーヴェンから邪見の塔へ鎧戦車で向かいキャゼリナに勝つ",
-    "jpGuide1": "邪見の塔に向かう途中のイベント戦で勝利する",
-    "jpGuide2": "邪見の塔へ移動時",
-    "enGuide": "Catherina R4: After reaching Brilehaven (July 23 or later), TAKE the Gauntlet Runner journey to Tower of Insolence (邪見の塔) and defeat her road challenge en route. This is the easily overlooked third encounter; an arbitrary side trip does not trigger it."
+    "simpleJp": "7/23 昼・期間限定：ジンの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ジンと討論",
+    "enGuide": "Calendar 7/23 昼・期間限定. MISSABLE: Jin's debate at the Brilehaven podium; use an argument about helping everybody without discrimination."
   },
   {
-    "simpleJp": "ストロールのランク6から2日後、昼に話す",
-    "jpGuide1": "ブライハーヴェン「交易市場」",
-    "jpGuide2": "ランク7",
-    "enGuide": "Strohl R7: After completing the inheritance quest and R6, wait two days and meet him during the day at an eligible town hub (Brilehaven's Merchant's Bazaar works). No additional quest required."
+    "simpleJp": "7/23 夜・資質：漁師宿広場の仮面の女と話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "仮面の女と話す",
+    "enGuide": "Calendar 7/23 夜・資質. Tolerance practice; use this night rather than wasting a day slot, but prioritize a candidate debate if you have not done it."
   },
   {
-    "simpleJp": "ストロールのランク7から2日後、昼に話す",
-    "jpGuide1": "RANK8",
-    "jpGuide2": "ランク8",
-    "enGuide": "Strohl R8: Two days after R7, speak to Strohl in an eligible city during the day. Once available he can be maxed before September; do not wait until a printed September 'earliest' estimate."
+    "simpleJp": "7/24 昼・期間限定：グローデルとの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "グローテルと討論",
+    "enGuide": "Calendar 7/24 昼・期間限定. MISSABLE Brilehaven debate. Respond that his point simply repeats Louis's position."
   },
   {
-    "simpleJp": "任意の鎧戦車移動中、ヒュルケンベルグと話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "ランク6",
-    "enGuide": "Hulkenberg R6: At least two days after R5, speak with her in the Runner's central passage during a genuine discretionary daytime journey. Reserve additional travel days for her R8."
+    "simpleJp": "7/24 夜・資質：漁師宿広場の仮面の女と話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "仮面の女と話す",
+    "enGuide": "Calendar 7/24 夜・資質. Tolerance activity after the debate."
   },
   {
-    "simpleJp": "見識4で昼にブライハーヴェンのヒュルケンベルグと話す",
-    "jpGuide1": "見識4",
-    "jpGuide2": "見識4",
-    "enGuide": "Hulkenberg R7: With Wisdom (見識) 4, meet Hulkenberg during the day at Brilehaven's tavern 大漁亭; at least two days after R6."
-  },
-  {
-    "simpleJp": "2日後の任意移動中、ヒュルケンベルグと話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Hulkenberg R8: Two days after R7, speak on the Runner's deck during a discretionary daytime journey. If you only have mandatory travel, plan a side trip."
-  },
-  {
-    "simpleJp": "ハイザメのランク5から2日後、夜に中央通路で話す",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "ランク6",
-    "enGuide": "Heismay R6: On the Gauntlet Runner's central passage at night after the usual 2-day cooldown. Raise Imagination 4 for his next gate."
-  },
-  {
-    "simpleJp": "7/23以降、昼にマルティラのバードンと話す",
+    "simpleJp": "7/25 昼：7/23以降、昼にマルティラのバードンと話す",
     "jpGuide1": "RANK2",
     "jpGuide2": "ランク2",
-    "enGuide": "Bardon R2: Return to Martira after the July 23 main-operation transition. Find him on Thoroughfare Square during the day and have the rank-up conversation."
+    "enGuide": "Calendar 7/25 昼. Bardon R2: Return to Martira after the July 23 main-operation transition. Find him on Thoroughfare Square during the day and have the rank-up conversation."
   },
   {
-    "simpleJp": "バードンのランク2から2日後、昼にクリアンテ城前で話す",
-    "jpGuide1": "RANK3",
-    "jpGuide2": "ランク3",
-    "enGuide": "Bardon R3: Two days after R2, speak with him outside Kriegante Castle in Martira during the day. Combine a Martira visit with another nearby optional objective."
+    "simpleJp": "7/25 夜・資質：マルティラで血気盛んな若者と話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "血気盛んな若者",
+    "enGuide": "Calendar 7/25 夜・資質. Courage practice; flexible if your travel/location makes a comparable nearby activity more efficient."
   },
   {
-    "simpleJp": "バードンのランク3から2日後、昼にクリアンテ城前で話す",
-    "jpGuide1": "RANK4",
-    "jpGuide2": "ランク4",
-    "enGuide": "Bardon R4: Two days after R3, repeat the daytime castle-front conversation in Martira. Eloquence 3 gates the next bond."
-  },
-  {
-    "simpleJp": "説得力3を得てバードンと昼に話す",
-    "jpGuide1": "RANK5",
-    "jpGuide2": "説得力3",
-    "enGuide": "Bardon R5: With Eloquence (説得力) 3 and an elapsed two days after R4, meet Bardon by Kriegante Castle in Martira, daytime."
-  },
-  {
-    "simpleJp": "2日後、昼にバードンと話してランク6にする",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "ランク6",
-    "enGuide": "Bardon R6: At least two days after R5, speak outside Kriegante Castle in Martira during the day. Prepare a combat-ready party for R7."
-  },
-  {
-    "simpleJp": "7/23以降、見識3で夜のアロンゾと話す",
-    "jpGuide1": "RANK2",
-    "jpGuide2": "見識3",
-    "enGuide": "Alonzo R2: At night in Brilehaven's Angler's Inn Square (漁師宿広場), with Wisdom 3 and after the July 23 milestone, talk to Alonzo. This is distinct from his Martira unlock quest."
-  },
-  {
-    "simpleJp": "アロンゾのランク2から2日後、夜に話す",
-    "jpGuide1": "RANK3",
-    "jpGuide2": "ランク3",
-    "enGuide": "Alonzo R3: Two days after R2, return at night to Angler's Inn Square in Brilehaven and talk to him."
-  },
-  {
-    "simpleJp": "包容力3で夜のアロンゾと話す",
-    "jpGuide1": "RANK4",
-    "jpGuide2": "包容力3",
-    "enGuide": "Alonzo R4: At least two days after R3, obtain Tolerance 3 and speak to Alonzo at Brilehaven's Angler's Inn Square at night."
-  },
-  {
-    "simpleJp": "アロンゾのランク4から2日後、夜に話す",
-    "jpGuide1": "RANK5",
-    "jpGuide2": "ランク5",
-    "enGuide": "Alonzo R5: Two days after R4, at night in Brilehaven's Angler's Inn Square; the next rank switches to daytime, so do not keep checking only at night."
-  },
-  {
-    "simpleJp": "アロンゾのランク5から2日後、昼に話す",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "ランク6",
-    "enGuide": "Alonzo R6: Two days after R5, meet him in Angler's Inn Square, Brilehaven, during the DAY. His next night rank requires Courage 5, so train it during spare slots."
-  },
-  {
-    "simpleJp": "昼のマリアと話してランク6にする",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "ランク6",
-    "enGuide": "Maria R6: At least two days after R5, visit Sunshade Row (日陰通り), Grand Trad, during the day. The old painting-collection suggestion is not a mandatory rank condition."
-  },
-  {
-    "simpleJp": "包容力4で昼のマリアと話す",
+    "simpleJp": "7/26 昼：包容力4で昼のマリアと話す",
     "jpGuide1": "包容力4",
     "jpGuide2": "包容力4",
-    "enGuide": "Maria R7: With Tolerance 4, two days after R6, meet Maria at Grand Trad Sunshade Row in the daytime. Her final rank has only a cooldown."
+    "enGuide": "Calendar 7/26 昼. Maria R7: With Tolerance 4, two days after R6, meet Maria at Grand Trad Sunshade Row in the daytime. Her final rank has only a cooldown."
   },
   {
-    "simpleJp": "マリアのランク7から2日後、昼に話す",
-    "jpGuide1": "RANK8",
-    "jpGuide2": "ランク8",
-    "enGuide": "Maria R8: Two days after R7, meet Maria at Grand Trad Sunshade Row in the daytime. This completes Healer and unlocks associated final perks."
+    "simpleJp": "7/26 夜・期間限定：ルドルフとの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ルドルフと討論",
+    "enGuide": "Calendar 7/26 夜・期間限定. MISSABLE Brilehaven debate. Argue for cooperation among all tribes; complete before storyline removes the debates."
   },
   {
-    "simpleJp": "嘆きの墓でニューラスの遺物を回収し夜に渡す",
+    "simpleJp": "7/27 昼：バードンのランク2から2日後、昼にクリアンテ城前で話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 7/27 昼. Bardon R3: Two days after R2, speak with him outside Kriegante Castle in Martira during the day. Combine a Martira visit with another nearby optional objective."
+  },
+  {
+    "simpleJp": "7/27 夜・期間限定：ミロとの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ミロと討論",
+    "enGuide": "Calendar 7/27 夜・期間限定. MISSABLE Brilehaven debate. Address that beauty is not defined by appearance alone."
+  },
+  {
+    "simpleJp": "7/28 昼・旅行：イヌンド村を経由して嘆きの墓へ向かう",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "嘆きの墓に向かう",
+    "enGuide": "Calendar 7/28 昼・旅行. Combine the Tomb of Lament request with the village's rare toothbrush item purchase. Cook while on the Runner; reserve one daytime travel conversation if eligible."
+  },
+  {
+    "simpleJp": "7/28 鎧戦車・昼：任意の鎧戦車移動中、ヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 7/28 鎧戦車・昼. Hulkenberg R6: At least two days after R5, speak with her in the Runner's central passage during a genuine discretionary daytime journey. Reserve additional travel days for her R8."
+  },
+  {
+    "simpleJp": "7/28 夜・読書：『魔法的未来』を読み始める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 7/28 夜・読書. Read the missable book acquired from Julian on July 23. Extra reading sessions can be rearranged if travel time differs."
+  },
+  {
+    "simpleJp": "7/29 昼・攻略：嘆きの墓を攻略して遺物を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "嘆きの墓攻略",
+    "enGuide": "Calendar 7/29 昼・攻略. Clear Tomb of Lament in the same trip; collect plaster-cube relic and Golden Beetles. Report corresponding quest and relic to Neuras after returning to the Runner."
+  },
+  {
+    "simpleJp": "7/29 夜・報告：嘆きの墓でニューラスの遺物を回収し夜に渡す",
     "jpGuide1": "立方体の石膏",
     "jpGuide2": "立方体の石膏",
-    "enGuide": "Neuras relic #2 of 6: Visit the Tomb of Lament (嘆きの墓), unlocked by the 'Grieving Ghost of the Goblet' request (盃に取り憑く嘆きの亡霊). Collect the plaster cube (立方体の石膏), return it to Neuras on the Runner at night. Ranks 2–7 progress with relic turn-ins in ANY order."
+    "enGuide": "Calendar 7/29 夜・報告. Neuras relic #2 of 6: Visit the Tomb of Lament (嘆きの墓), unlocked by the 'Grieving Ghost of the Goblet' request (盃に取り憑く嘆きの亡霊). Collect the plaster cube (立方体の石膏), return it to Neuras on the Runner at night. Ranks 2–7 progress with relic turn-ins in ANY order."
   },
   {
-    "simpleJp": "ジェネラルをランク15まで育てモアに報告する",
+    "simpleJp": "7/29 夜・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/29 夜・読書. Nighttime Runner book session; this may need shifting if Neuras's rank talk uses the same slot. Prioritize Neuras or the book on an actual eligible night; do not attempt two time-consuming actions."
+  },
+  {
+    "simpleJp": "7/30 昼・攻略：グラシア密林を攻略する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "グラシア密林攻略",
+    "enGuide": "Calendar 7/30 昼・攻略. Travel to Gracia Forest while in this geographic cluster. Check unique treasures, Golden Beetles and side quest completion before leaving."
+  },
+  {
+    "simpleJp": "7/30 夜・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 7/30 夜・読書. Build Wisdom during travel and pick up bonus scenery drawings on the way."
+  },
+  {
+    "simpleJp": "7/31 調整枠：残った街の依頼を確認し次の旅の準備をする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/31 調整枠. Reference itinerary's spare buffer. Finish pending quest turn-ins and stock supplies; only spend the time slot if a genuinely eligible action exists."
+  },
+  {
+    "simpleJp": "8/1 昼・旅行：イヌンド村経由で邪見の塔へ向かう",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "邪見の塔に向かう",
+    "enGuide": "Calendar 8/1 昼・旅行. Visit Inundo en route, acquire specialty items and combine Tower of Insolence with Catherina R4 battle and side quest progress; travel may take multiple days."
+  },
+  {
+    "simpleJp": "8/1 夜・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 8/1 夜・読書. Wisdom-reading travel night; finish book when possible."
+  },
+  {
+    "simpleJp": "8/2 昼・攻略：邪見の塔の依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "邪見の塔攻略",
+    "enGuide": "Calendar 8/2 昼・攻略. Complete Tower of Insolence, collect unique treasures and Gold Beetle. Catherina's R4 encounter happens on the approach, not as an ordinary town rank."
+  },
+  {
+    "simpleJp": "8/2 鎧戦車・昼：ブライハーヴェンから邪見の塔へ鎧戦車で向かいキャゼリナに勝つ",
+    "jpGuide1": "邪見の塔に向かう途中のイベント戦で勝利する",
+    "jpGuide2": "邪見の塔へ移動時",
+    "enGuide": "Calendar 8/2 鎧戦車・昼. Catherina R4: After reaching Brilehaven (July 23 or later), TAKE the Gauntlet Runner journey to Tower of Insolence (邪見の塔) and defeat her road challenge en route. This is the easily overlooked third encounter; an arbitrary side trip does not trigger it."
+  },
+  {
+    "simpleJp": "8/2 アカデメイア・報告：ジェネラルをランク15まで育てモアに報告する",
     "jpGuide1": "ジェネラルを履修しRANK15まで鍛える。",
     "jpGuide2": "ジェネラル」をランク15",
-    "enGuide": "More R6: Study the General Archetype and level it to Archetype rank 15; submit the next assignment at Akademia. If the archetype is locked, progress its Follower prerequisite and class tree first."
+    "enGuide": "Calendar 8/2 アカデメイア・報告. More R6: Study the General Archetype and level it to Archetype rank 15; submit the next assignment at Akademia. If the archetype is locked, progress its Follower prerequisite and class tree first."
+  },
+  {
+    "simpleJp": "8/3 昼：マリアのランク7から2日後、昼に話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Calendar 8/3 昼. Maria R8: Two days after R7, meet Maria at Grand Trad Sunshade Row in the daytime. This completes Healer and unlocks associated final perks."
+  },
+  {
+    "simpleJp": "8/3 夜：7/23以降、見識3で夜のアロンゾと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "見識3",
+    "enGuide": "Calendar 8/3 夜. Alonzo R2: At night in Brilehaven's Angler's Inn Square (漁師宿広場), with Wisdom 3 and after the July 23 milestone, talk to Alonzo. This is distinct from his Martira unlock quest."
+  },
+  {
+    "simpleJp": "8/4 昼・攻略：カラドリウスの任務を一日で終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "カラドリウス攻略",
+    "enGuide": "Calendar 8/4 昼・攻略. Begin and complete the Charadrius infiltration operation, gathering accessible chests before triggering the final fight. Deadline is August 13. If extra days required, defer flexible ranks—not the deadline."
+  },
+  {
+    "simpleJp": "8/5 昼：想像力3でストロールの遺産探しを完了する",
+    "jpGuide1": "ストロールの遺産探しを手伝え",
+    "jpGuide2": "想像力3",
+    "enGuide": "Calendar 8/5 昼. Calendar 7/22 予備. Strohl R6: With Imagination 3, accept/complete 'Help Strohl Search for His Inheritance' (ストロールの遺産探しを手伝え). Follow the quest directions in Grand Trad and report back before seeking R7; merely talking is not sufficient."
+  },
+  {
+    "simpleJp": "8/5 夜：アロンゾのランク2から2日後、夜に話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 8/5 夜. Alonzo R3: Two days after R2, return at night to Angler's Inn Square in Brilehaven and talk to him."
+  },
+  {
+    "simpleJp": "8/6 昼：バードンのランク3から2日後、昼にクリアンテ城前で話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 8/6 昼. Bardon R4: Two days after R3, repeat the daytime castle-front conversation in Martira. Eloquence 3 gates the next bond."
+  },
+  {
+    "simpleJp": "8/6 夜・闘技場：バルマレーノ闘技場の認定戦に挑む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "バルマレーノ闘技場",
+    "enGuide": "Calendar 8/6 夜・闘技場. Arena progression is useful first-run optional completion. Enter the next eligible tier; it costs the evening."
+  },
+  {
+    "simpleJp": "8/7 昼：ストロールのランク6から2日後、昼に話す",
+    "jpGuide1": "ブライハーヴェン「交易市場」",
+    "jpGuide2": "ランク7",
+    "enGuide": "Calendar 8/7 昼. Strohl R7: After completing the inheritance quest and R6, wait two days and meet him during the day at an eligible town hub (Brilehaven's Merchant's Bazaar works). No additional quest required."
+  },
+  {
+    "simpleJp": "8/7 夜：包容力3で夜のアロンゾと話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "包容力3",
+    "enGuide": "Calendar 8/7 夜. Alonzo R4: At least two days after R3, obtain Tolerance 3 and speak to Alonzo at Brilehaven's Angler's Inn Square at night."
+  },
+  {
+    "simpleJp": "8/8 昼：説得力3を得てバードンと昼に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "説得力3",
+    "enGuide": "Calendar 8/8 昼. Bardon R5: With Eloquence (説得力) 3 and an elapsed two days after R4, meet Bardon by Kriegante Castle in Martira, daytime."
+  },
+  {
+    "simpleJp": "8/8 夜・闘技場：闘技場の銅級を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銅3級",
+    "enGuide": "Calendar 8/8 夜・闘技場. Advance the Bronze rank where available; defer if needing a mandatory bond night."
+  },
+  {
+    "simpleJp": "8/9 昼・闘技場：闘技場の銅級を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銅2級",
+    "enGuide": "Calendar 8/9 昼・闘技場. Advance the next Bronze arena challenge; not a story requirement."
+  },
+  {
+    "simpleJp": "8/9 夜：アロンゾのランク4から2日後、夜に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 8/9 夜. Alonzo R5: Two days after R4, at night in Brilehaven's Angler's Inn Square; the next rank switches to daytime, so do not keep checking only at night."
+  },
+  {
+    "simpleJp": "8/10 昼：ストロールのランク7から2日後、昼に話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Calendar 8/10 昼. Strohl R8: Two days after R7, speak to Strohl in an eligible city during the day. Once available he can be maxed before September; do not wait until a printed September 'earliest' estimate."
+  },
+  {
+    "simpleJp": "8/10 夜：勇気3を得て夜のベルギッタに報告する",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "勇気3以上",
+    "enGuide": "Calendar 8/10 夜. Calendar 7/22 予備. Brigitta R5: Once her R4 is completed, reach Courage (勇気) 3 and talk to her at Grand Trad Sunlumeo Street at night. A missing icon usually means the courage gate/cooldown is not satisfied."
+  },
+  {
+    "simpleJp": "8/11 昼：アロンゾのランク5から2日後、昼に話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/11 昼. Alonzo R6: Two days after R5, meet him in Angler's Inn Square, Brilehaven, during the DAY. His next night rank requires Courage 5, so train it during spare slots."
+  },
+  {
+    "simpleJp": "8/11 夜・闘技場：闘技場の銅級を仕上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銅1級",
+    "enGuide": "Calendar 8/11 夜・闘技場. Complete Bronze 1 as optional first-run arena progress; consider anti-poison gear."
+  },
+  {
+    "simpleJp": "8/12 昼：2日後、昼にバードンと話してランク6にする",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/12 昼. Bardon R6: At least two days after R5, speak outside Kriegante Castle in Martira during the day. Prepare a combat-ready party for R7."
+  },
+  {
+    "simpleJp": "8/12 夜：ベルギッタのランク5から2日後、夜に話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/12 夜. Calendar 7/22 予備. Brigitta R6: Night at her Grand Trad shop area, at least two days after R5. Build Courage 4 for R7."
+  },
+  {
+    "simpleJp": "8/13 物語：カラドリウス作戦期限を確認して先へ進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "カラドリウス",
+    "enGuide": "Calendar 8/13 物語. Do not let the August 13 deadline arrive with the main mission unfinished. Follow transition story events; social slots may be locked."
+  },
+  {
+    "simpleJp": "8/13 物語：7/23のカラドリウス攻略後、ガリカのランク4を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ストーリー進行",
+    "enGuide": "Calendar 8/13 物語. Gallica R4: Automatically rises after the Charadrius infiltration main operation (7/23 or later). No optional meeting."
+  },
+  {
+    "simpleJp": "8/14 昼・釣り：鎧戦車で釣りをして食材を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "釣り",
+    "enGuide": "Calendar 8/14 昼・釣り. On Runner, use acquired fish bait to catch unusual ingredients for all recipes; fishing rewards vary by choices, so save before a finite bait attempt if you prefer to avoid RNG waste."
+  },
+  {
+    "simpleJp": "8/14 夜・料理：新しい料理を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "料理",
+    "enGuide": "Calendar 8/14 夜・料理. Cook a previously unmade dish, using Maria's Speed Cooking perk where available to avoid losing another slot."
+  },
+  {
+    "simpleJp": "8/15 昼・釣り：鎧戦車で釣りの追加食材を手に入れる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "釣り",
+    "enGuide": "Calendar 8/15 昼・釣り. Complete another fish ingredient combination; if bait is insufficient, use the pantry/cargo opportunities."
+  },
+  {
+    "simpleJp": "8/16 夜・資質：ジュナと過ごして想像力を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ジュナと過ごす",
+    "enGuide": "Calendar 8/16 夜・資質. A virtue-increasing Junah interaction. This is not automatically her Rank 1 bond quest: that follows on Virga Island after the relevant medicine quest."
+  },
+  {
+    "simpleJp": "8/17〜8/18 物語：ビルガ島への物語を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/17〜8/18 物語. Proceed through the scheduled story transition; check for the next set of side quests, medicine dependency and Junah and Eupha bond unlock conditions."
+  },
+  {
+    "simpleJp": "8/18 【時期調整】見識4で昼にブライハーヴェンのヒュルケンベルグと話す",
+    "jpGuide1": "見識4",
+    "jpGuide2": "見識4",
+    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Hulkenberg R7: With Wisdom (見識) 4, meet Hulkenberg during the day at Brilehaven's tavern 大漁亭; at least two days after R6."
+  },
+  {
+    "simpleJp": "8/18 【時期調整】2日後の任意移動中、ヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Hulkenberg R8: Two days after R7, speak on the Runner's deck during a discretionary daytime journey. If you only have mandatory travel, plan a side trip."
+  },
+  {
+    "simpleJp": "8/18 【時期調整】ハイザメのランク5から2日後、夜に中央通路で話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Heismay R6: On the Gauntlet Runner's central passage at night after the usual 2-day cooldown. Raise Imagination 4 for his next gate."
+  },
+  {
+    "simpleJp": "8/18 【時期調整】昼のマリアと話してランク6にする",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Maria R6: At least two days after R5, visit Sunshade Row (日陰通り), Grand Trad, during the day. The old painting-collection suggestion is not a mandatory rank condition."
   }
 ]

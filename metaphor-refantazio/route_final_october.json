@@ -1,0 +1,56 @@
+[
+  {
+    "simpleJp": "9/26以降、夜の王都でベルギッタと話す",
+    "jpGuide1": "9/26～",
+    "jpGuide2": "9月26日以降",
+    "enGuide": "Brigitta R8: From the September 26 story transition onward, return to Grand Trad's Sunlumeo Street at NIGHT and speak with Brigitta. Her earlier Courage-4 R7 must already be finished. This is a hard earliest-availability gate, not a fixed September 26 appointment."
+  },
+  {
+    "simpleJp": "キャゼリナのランク7から2日後、夜のアルタベリーで話す",
+    "jpGuide1": "夜にキャゼリナと会話",
+    "jpGuide2": "ランク8",
+    "enGuide": "Catherina R8: After the ordinary two-day cooldown from R7, talk with her at NIGHT on Altabury's Skybound Bridge. If the event did not appear earlier, try again after the September 26 story transition. Her first four ranks (cathedral and three Gauntlet Runner encounters) must have been completed."
+  },
+  {
+    "simpleJp": "9/26以降、昼のマルティラでバードンと話す",
+    "jpGuide1": "9/26～",
+    "jpGuide2": "9月26日以降",
+    "enGuide": "Bardon R8: After the level-60 Great Sandworm fight at R7, return from September 26 onward to Martira's Thoroughfare Square in DAYTIME and speak to Bardon for his final Commander bond."
+  },
+  {
+    "simpleJp": "説得力5でバジリオのビンカ討伐依頼を達成する",
+    "jpGuide1": "暴走するビンカを止めろ",
+    "jpGuide2": "暴走するビンカを止めろ",
+    "enGuide": "Basilio R8: Requires MAX Eloquence (説得力) 5 and two days after R7. Talk to him during the DAY, accept 'A Brother's Mercy' (暴走するビンカを止めろ), travel to the indicated quest location, defeat Vinca WITH Basilio participating in the party, and finish the follow-up bond scene. Do not stop at R7 or skip the battle."
+  },
+  {
+    "simpleJp": "ウルカノ山の遺物を回収し夜にニューラスへ渡す",
+    "jpGuide1": "つぎはぎの球体",
+    "jpGuide2": "つぎはぎの球体",
+    "enGuide": "Neuras relic #6 of 6: From the late-story period, accept 'A Legendary Weapon' (伝説の武器を探せ) or the Hyperic request that unlocks Mt Vulkano (ウルカノ山). Pick up the patchwork sphere (つぎはぎの球体) and give it to Neuras at night in the Runner. Combined with screw-topped mineral / plaster cube / marquetry box / moss-covered pillar / handled rock, this completes six relic deliveries and raises Neuras through R7; order does not matter."
+  },
+  {
+    "simpleJp": "王都の大聖堂付近の兵士に話しかける",
+    "jpGuide1": "レガリス大聖堂前の募兵舎前にいる大聖堂の警備兵と会話",
+    "jpGuide2": "王国軍募兵舎近くにいる兵士",
+    "enGuide": "Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8."
+  },
+  {
+    "simpleJp": "鎧戦車でジンの鎧戦車へ向かい戦闘に勝つ",
+    "jpGuide1": "ジンの鎧戦車に向かう",
+    "jpGuide2": "ジンの鎧戦車",
+    "enGuide": "Neuras R8, part 2: Use the Runner to travel to Jin's Gauntlet Runner and win the Jin boss fight. Complete the dialogue/reward sequence to finish the Gunner bond."
+  },
+  {
+    "simpleJp": "最上位アーキタイプを1つランク20にしてモアに報告する",
+    "jpGuide1": "いずれかの最上位アーキタイプをRANK20にする。",
+    "jpGuide2": "最上位アーキタイプ」をランク20",
+    "enGuide": "More R8: Study any ONE Elite/highest-tier Archetype (最上位アーキタイプ) and raise its actual Archetype rank to 20, then hand in More's Final Chapter task at Akademia. Finish all prior More tasks in order: Healer R10, Gunner studied, Dealer R15, 15 Archetypes, General R15, 25 Archetypes. No regular social calendar slot or specific dialogue answer is needed."
+  },
+  {
+    "simpleJp": "10/25までに全14人の支援ランク8を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ランク8",
+    "enGuide": "FINAL AUDIT before the last ordinary free-action day, October 25. Open the Followers menu and individually verify Gallica, Strohl, Hulkenberg, Heismay, Junah, Eupha, Basilio, Neuras, Maria, Catherina, Alonzo, Bardon, Brigitta, and More ALL read Rank 8. If any rank is missing, inspect the earlier quest/virtue/travel steps: discretionary Runner travel for Strohl/Hulkenberg/Heismay/Junah/Eupha/Basilio; Alonzo's Daturam conversation; Basilio's Vinca quest; Bardon's sandworm; Eupha's Hyperic; Neuras's relics plus Jin; More's Archetype trials. Prioritize the missing links before optional side content, and clear pending main-story dungeons early to avoid deadline-adjacent Follower lockouts."
+  }
+]

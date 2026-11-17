@@ -156,16 +156,10 @@
     "enGuide": "Gold Beetle #5 of 50 — Belega Corridor B2: cross the gap in a wall to the chamber with two chests; collect by the iron bars. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "6/16 昼：ベルギッタにベレーガ回廊の討伐結果を報告する",
+    "simpleJp": "6/16 昼・報告：見識2で受注済みの『輸送路の怪物を倒せ』をベルギッタに報告し、支援ランク1を解放する",
     "jpGuide1": "輸送路の怪物を倒せ クリア",
     "jpGuide2": "依頼「輸送路の怪物を倒せ」を報告",
-    "enGuide": "6/16 昼; Return to Brigitta in Grand Trad, completing the transport-monster request and unlocking Merchant / her first bond. This hand-in is the important point, not simply winning the boss battle."
-  },
-  {
-    "simpleJp": "6/16 昼：見識2を得てベルギッタの輸送路依頼を達成する",
-    "jpGuide1": "輸送路の怪物を倒せ",
-    "jpGuide2": "輸送路の怪物を倒せ",
-    "enGuide": "Calendar 6/16 昼 (recommended flexible slot; satisfy game map icon and gate first). Brigitta R1: Raise Wisdom (見識) to 2, talk to Brigitta at Lycaon's magic shop on Sunlumeo Street in Grand Trad, accept 'A Bullish Embargo' (輸送路の怪物を倒せ), travel to Belega Corridor, defeat the boss and return to report. This unlocks Merchant."
+    "enGuide": "6/16 昼; Return to Brigitta in Grand Trad, completing the transport-monster request and unlocking Merchant / her first bond. This hand-in is the important point, not simply winning the boss battle. This is the sole hand-in after the June 15 dungeon; do not re-accept or re-clear the same request."
   },
   {
     "simpleJp": "6/16 夜：蜜蜂のささやき亭で調理を手伝う",
@@ -258,19 +252,19 @@
     "enGuide": "6/24 昼; During a Runner leg, collect free supplies from the pantry each eligible day. Read '新世界旅行記' for Imagination on the daytime travel slot. Collect scenic drawings if the trip prompts you; do not sacrifice rare debate dates to do so."
   },
   {
-    "simpleJp": "6/24 夜：野営時の焚火を調べてから本を読む",
+    "simpleJp": "6/24 昼・鎧戦車：食料庫を調べ、『新世界旅行記』を読む（1回目）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "焚火を調べる",
     "enGuide": "6/24 夜; Check the campsite fire when available and use the night to keep reading '新世界旅行記'. This is a travel/camp action, not a normal city evening."
   },
   {
-    "simpleJp": "6/25 昼：鎧戦車で本を読み切り、想像力2を目指す",
+    "simpleJp": "6/24 夜・鎧戦車：焚火を調べ、『新世界旅行記』を読む（2回目）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "想像力レベル2",
     "enGuide": "6/25 昼; Finish '新世界旅行記' and check the washroom, if available; the route aims for Imagination 2 before the Alonzo request. Do not confuse washroom exploration with a separate paid/free-time activity."
   },
   {
-    "simpleJp": "6/25 夜：『頷かせる技術』を読み始める",
+    "simpleJp": "6/25 昼・鎧戦車：『新世界旅行記』を読了する（3回目）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "頷かせる技術を読む",
     "enGuide": "6/25 夜; Begin the Eloquence book during your travel night, keeping a head start toward Heismay's later Eloquence 2 requirement."
@@ -306,16 +300,16 @@
     "enGuide": "Calendar 6/29 夜 (recommended flexible slot; satisfy game map icon and gate first). Brigitta R4: Night, Grand Trad Sunlumeo Street, two days after R3. Rank 5 will require Courage 3, so train it in spare slots."
   },
   {
+    "simpleJp": "6/29 昼・時間なし：王都で受けられる期間依頼と賞金首を確認・受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "June 29 no time cost: accept the pigeon eggs quest in MARTIRA Thoroughfare Square, buy eggs in Komero July 9, report to Martira July 10 ahead of July 11 deadline."
+  },
+  {
     "simpleJp": "6/29 昼・受注：王都で受けられる期間依頼と賞金首を確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "依頼3件を受注",
     "enGuide": "6/29 昼・受注; Before leaving Grand Trad, take the new available bounty and side requests. Do not lose an optional dungeon trip by failing to accept a required commission in advance."
-  },
-  {
-    "simpleJp": "6/29 【期限・受注】マルティラ街道広場で『伝書鳩の卵を届けろ』を受注する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "June 29 no time cost: accept the pigeon eggs quest in MARTIRA Thoroughfare Square, buy eggs in Komero July 9, report to Martira July 10 ahead of July 11 deadline."
   },
   {
     "simpleJp": "6/29 【受注・時間なし】募兵舎で『小鬼を率いる新たな王』を受注する",

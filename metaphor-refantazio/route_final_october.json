@@ -198,6 +198,18 @@
     "enGuide": "Calendar 10/13〜10/24 自由調整. Genuine spare time if you followed efficient early dungeon routing. Check all Followers R8, max Royal Virtues, completed all quest/bounty logs, read every purchased book (especially 『魔法的未来』), won all eight candidates' debates, cooked every recipe, visited scenic/unique towns, obtained all accessible Golden Beetles, and completed arena. These are flexible calendar days, NOT proof that each missing errand can be done on any one day; check day/night and travel availability."
   },
   {
+    "simpleJp": "10/13 アカデメイア：最上位アーキタイプを1つランク20にしてモアに報告する",
+    "jpGuide1": "いずれかの最上位アーキタイプをRANK20にする。",
+    "jpGuide2": "最上位アーキタイプ」をランク20",
+    "enGuide": "Calendar 10/13 after More R7 and elite Archetype rank 20. UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. More R8: Study any ONE Elite/highest-tier Archetype (最上位アーキタイプ) and raise its actual Archetype rank to 20, then hand in More's Final Chapter task at Akademia. Finish all prior More tasks in order: Healer R10, Gunner studied, Dealer R15, 15 Archetypes, General R15, 25 Archetypes. No regular social calendar slot or specific dialogue answer is needed."
+  },
+  {
+    "simpleJp": "10/13 アカデメイア：25種類のアーキタイプを履修してモアに報告する",
+    "jpGuide1": "25種類のアーキタイプを履修する。",
+    "jpGuide2": "25種類",
+    "enGuide": "Calendar 10/13 アカデメイア. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. More R7: Study at least 25 DISTINCT Archetypes (not simply rank 25 in one class) and report More's 'Determination' research task in Akademia. By now, Junah and Eupha have expanded your class availability."
+  },
+  {
     "simpleJp": "10/24 夜・最終監査：全14人の支援ランクと各収集記録を見直す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "支援者ランク8",
@@ -226,35 +238,5 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "恐王星攻略",
     "enGuide": "Calendar 10/26 物語・最終決戦. HARD FIRST-RUN TERMINAL: proceed with the final story battle only after October 25's all-content audit. NG+ (if desired) starts from a new playthrough after this first-run ending, never as an implicit continuation beyond the game ending."
-  },
-  {
-    "simpleJp": "10/24 【条件調整】王都の大聖堂付近の兵士に話しかける",
-    "jpGuide1": "レガリス大聖堂前の募兵舎前にいる大聖堂の警備兵と会話",
-    "jpGuide2": "王国軍募兵舎近くにいる兵士",
-    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8."
-  },
-  {
-    "simpleJp": "10/24 【条件調整】鎧戦車でジンの鎧戦車へ向かい戦闘に勝つ",
-    "jpGuide1": "ジンの鎧戦車に向かう",
-    "jpGuide2": "ジンの鎧戦車",
-    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 2: Use the Runner to travel to Jin's Gauntlet Runner and win the Jin boss fight. Complete the dialogue/reward sequence to finish the Gunner bond."
-  },
-  {
-    "simpleJp": "10/24 【条件調整】最上位アーキタイプを1つランク20にしてモアに報告する",
-    "jpGuide1": "いずれかの最上位アーキタイプをRANK20にする。",
-    "jpGuide2": "最上位アーキタイプ」をランク20",
-    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. More R8: Study any ONE Elite/highest-tier Archetype (最上位アーキタイプ) and raise its actual Archetype rank to 20, then hand in More's Final Chapter task at Akademia. Finish all prior More tasks in order: Healer R10, Gunner studied, Dealer R15, 15 Archetypes, General R15, 25 Archetypes. No regular social calendar slot or specific dialogue answer is needed."
-  },
-  {
-    "simpleJp": "10/24 【条件調整】想像力4で夜のジュナと話す",
-    "jpGuide1": "想像力4",
-    "jpGuide2": "想像力4",
-    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R5: After Junah's R4 and a two-day cooldown, achieve Imagination 4 and talk to her in the Gauntlet Runner central passage at NIGHT."
-  },
-  {
-    "simpleJp": "10/24 【条件調整】ジュナのランク5から2日後、任意移動中に話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
   }
 ]

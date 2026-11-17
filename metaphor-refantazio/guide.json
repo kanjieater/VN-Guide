@@ -1,0 +1,83 @@
+{
+  "title": "Metaphor: ReFantazio — All Followers",
+  "vndb_id": "game:metaphor-refantazio",
+  "guide_target": {
+    "label": "メタファー：リファンタジオ（Steam通常版・日本語対応、2024年）",
+    "platform": "Windows (Steam)",
+    "url": "https://store.steampowered.com/app/2679460/Metaphor_ReFantazio/?l=japanese"
+  },
+  "routes": [
+    {
+      "id": "june_foundations",
+      "title": "6月：王都・初期支援者（6/5〜6/30）",
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "july_martira",
+      "title": "7月前半：マルティラ・仲間解放（7/1〜7/22）",
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "late_july_brilehaven",
+      "title": "7月後半〜8月中旬：ブライハーヴェン（7/23〜8/18）",
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "august_virga",
+      "title": "8月後半〜9月前半：ビルガ島と追加支援者（8/19〜9/12）",
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "september_altabury",
+      "title": "9月中旬：アルタベリー・終盤の解放（9/13〜9/25）",
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    },
+    {
+      "id": "final_october",
+      "title": "9/26〜10/25：最終ランク・全員確認",
+      "reviewed": false,
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false
+    }
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://gamecap.jp/metaphor/follower_chart.html",
+      "title": "Gamecap メタファー 支援ランク攻略チャート",
+      "language": "ja",
+      "notes": "Directly inspectable Japanese 14-Follower rank table. Supplies dates, some location and quest wording; older page occasionally calls rank 8 RANK4 and assigns Neuras relics in an order that is not mandatory. Do not treat its earliest dates as hard schedule."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/465943",
+      "title": "GameWith 支援者のランク上げと習得アビリティ",
+      "language": "ja",
+      "notes": "Independent directly inspected detailed Japanese Rank 1–8 progression tables and archetype quests, with day/night, travel requirements and Royal Virtue gates. Priority source for operational conditions when Set A is vague or conflicts."
+    },
+    {
+      "set": "E",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3346632882",
+      "title": "HayateButler — All Followers Guide (Steam)",
+      "language": "en",
+      "notes": "Independently authored full English rank table, edition-compatible; confirms general rank cadence, MAG-only dialogue bonuses and out-of-order Neuras relic hand-ins. Supplemental verification, never copied into Japanese source quote fields."
+    }
+  ],
+  "generated_at": "2026-11-17T11:20:00-06:00"
+}

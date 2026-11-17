@@ -78,7 +78,7 @@
       "url": "https://gamewith.jp/metaphor/465943",
       "title": "GameWith 支援者のランク上げと習得アビリティ",
       "language": "ja",
-      "notes": "Independent directly inspected detailed Japanese Rank 1–8 progression tables and archetype quests, with day/night, travel requirements and Royal Virtue gates. Priority source for operational conditions when Set A is vague or conflicts."
+      "notes": "Independent directly inspected detailed Japanese Rank 1–8 progression tables and archetype quests, with day/night, travel requirements and Royal Virtue gates. Priority source for operational conditions when Set A is vague or conflicts. GameWith's dedicated snake-request page https://gamewith.jp/metaphor/468204 confirms the preceding 枯れ薬の材料を探せ prerequisite that the follower summary table omits."
     },
     {
       "set": "E",
@@ -94,11 +94,16 @@
       "status": "found",
       "queries": [
         "メタファー リファンタジオ フォロワー 全員 ランク8 攻略",
-        "メタファー 支援ランク 発生時期 条件"
+        "メタファー 支援ランク 発生時期 条件",
+        "メタファー ジュナ 枯れ薬の材料を探せ 弔いを阻む蛇食い怪物を倒せ 条件",
+        "メタファー キャゼリナ ランク2 マルティラ 大砂蟲の巣"
       ],
       "sites_checked": [
         "Gamecap",
-        "GameWith"
+        "GameWith",
+        "GameWith dedicated quest page",
+        "神ゲー攻略",
+        "ちゅこっと陽だまる"
       ],
       "candidates": [
         {
@@ -108,6 +113,18 @@
         {
           "url": "https://gamewith.jp/metaphor/465943",
           "assessment": "Independent directly inspected comprehensive Japanese rank table B."
+        },
+        {
+          "url": "https://gamewith.jp/metaphor/468204",
+          "assessment": "Directly inspected same-game Japanese GameWith quest detail; confirms the preceding 枯れ薬の材料を探せ unlock prerequisite. Same publisher as Set B, not an independent third walkthrough."
+        },
+        {
+          "url": "https://kamigame.jp/metaphor/page/339043414219722053.html",
+          "assessment": "Independent Japanese quest-specific written guide; confirms snake request unlocks only after 枯れ薬の材料を探せ. Supplementary fact corroboration, not a complete Set B replacement."
+        },
+        {
+          "url": "https://chucco.com/metaphor/tomuraiwo-habamuhebikui/",
+          "assessment": "Independent first-person Japanese written quest account, directly inspected; reports snake request became available after 枯れ薬の材料を探せ and R1 after completion; supplementary fact evidence, not complete rank walkthrough."
         }
       ]
     },
@@ -132,6 +149,6 @@
     "included": "All 14 Followers reach Rank 8 in one playthrough, with unlocks, gating quests, Royal Virtues, limited travel conversations and a completion audit.",
     "excluded": "Not a dungeon-completion or all-achievements guide; routine story dungeon execution is outside scope."
   },
-  "disagreements": "A labels several Rank 8 entries as RANK4; B+E agree these are rank 8. A implies Maria paintings are mandatory; B+E describe Maria's rank-ups through conversations and Virtue ranks; scenic paintings should be treated as optional gifts. A and E map some Neuras relics to different rank indices: E confirms any of the six relics may be turned in out of order for ranks 2–7, so the guide lists locations without a forced hand-in order. Some earliest-day indications in A conflict with B's 2-day spacing; B and E are used for cadence and quest prerequisites. Character sections are chronological windows, not fixed appointment dates. English localized and Japanese quest names are linked where directly verified.",
+  "disagreements": "A labels several Rank 8 entries as RANK4; B+E agree these are rank 8. A implies Maria paintings are mandatory; B+E describe Maria's rank-ups through conversations and Virtue ranks; scenic paintings should be treated as optional gifts. A and E map some Neuras relics to different rank indices: E confirms any of the six relics may be turned in out of order for ranks 2–7, so the guide lists locations without a forced hand-in order. Some earliest-day indications in A conflict with B's 2-day spacing; B and E are used for cadence and quest prerequisites. Character sections are chronological windows, not fixed appointment dates. English localized and Japanese quest names are linked where directly verified. Accuracy review A1 (2026-11-17): GameWith's Catherina R2 condition explicitly specifies outgoing travel from Martira to Great Sandworm's Nest; Gamecap only confirms the battle after July 2, so corrected the previously incorrect incoming-leg assertion. A2: Gamecap's Junah prerequisite 枯れ薬の材料を探せ is corroborated by GameWith's dedicated quest page and independent Japanese quest guides (Kamigame and Chucco); added the preceding request to the executable chain. GameWith's summary follower table omitted the prerequisite, but its quest-specific page states it.",
   "generated_at": "2026-11-17T11:20:00-06:00"
 }

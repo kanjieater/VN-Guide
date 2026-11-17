@@ -15,7 +15,7 @@
     "simpleJp": "6/5 取り逃し注意：山林の野営地で黄金蟲を拾う",
     "jpGuide1": "6月5日の野営地",
     "jpGuide2": "山林の野営地で黄金蟲",
-    "enGuide": "6/5 取り逃し注意; TRUE MISSABLE: while camping in the prologue forest, check by the tree for a Gold Beetle before leaving the forest. The prologue area does not remain accessible for ordinary return visits."
+    "enGuide": "Gold Beetle #1 of 50: June 5 camp tree west of fire, before sleeping; area becomes inaccessible after plot. 6/5 取り逃し注意; TRUE MISSABLE: while camping in the prologue forest, check by the tree for a Gold Beetle before leaving the forest. The prologue area does not remain accessible for ordinary return visits."
   },
   {
     "simpleJp": "6/6〜6/9 強制：ノルド廃鉱山を進み、ドラゴンを倒す",
@@ -306,10 +306,10 @@
     "enGuide": "6/29 昼・受注; Before leaving Grand Trad, take the new available bounty and side requests. Do not lose an optional dungeon trip by failing to accept a required commission in advance."
   },
   {
-    "simpleJp": "6/29 【期限・受注】『伝書鳩の卵を届けろ』を受ける",
+    "simpleJp": "6/29 【期限・受注】マルティラ街道広場で『伝書鳩の卵を届けろ』を受注する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "6/29 期限・受注. Accept from the person in Grand Trad when available. Buy the pigeon egg assortment in Komero during the July 9 Runner trip and report back by July 11."
+    "enGuide": "June 29 no time cost: accept the pigeon eggs quest in MARTIRA Thoroughfare Square, buy eggs in Komero July 9, report to Martira July 10 ahead of July 11 deadline."
   },
   {
     "simpleJp": "6/30 昼・移動：小鬼の巣窟への旅を進める",
@@ -322,12 +322,6 @@
     "jpGuide1": "鎧戦車で会話",
     "jpGuide2": "鎧戦車で移動中",
     "enGuide": "Calendar 6/30 鎧戦車・昼 (recommended flexible slot; satisfy game map icon and gate first). Hulkenberg R3: During discretionary travel in the Runner, find Hulkenberg on the deck in the daytime. Arrange a side-quest trip if you otherwise have no travel days."
-  },
-  {
-    "simpleJp": "6/30 鎧戦車・昼／別便可：6/29以降の任意移動中、鎧戦車のストロールと話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Calendar 6/30 鎧戦車・昼／別便可 (recommended flexible slot; satisfy game map icon and gate first). Strohl R4: During a genuine discretionary Gauntlet Runner journey starting around June 29, speak with Strohl on the deck in daytime. A town meeting or forced plot transit does not substitute for this travel bond."
   },
   {
     "simpleJp": "6/30 【収集・時間消費なし】黄金蟲9：小鬼の巣窟の北西側の壁沿いを調べる",

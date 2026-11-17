@@ -78,6 +78,12 @@
     "enGuide": "Calendar 9/18 昼・攻略. Travel to Mt Vulkano; complete the unlocked side-request and pick up Neuras's patchwork sphere plus the rusted greatsword for related quest turn-ins. Avoid duplicate travel later."
   },
   {
+    "simpleJp": "9/18 昼・遺物：ウルカノ山の『つぎはぎの球体』を拾う",
+    "jpGuide1": "つぎはぎの球体",
+    "jpGuide2": "つぎはぎの球体",
+    "enGuide": "Calendar 9/18 昼・遺物. Neuras relic #6 of 6: At Mt Vulkano during the linked quest, collect the patchwork sphere and deliver to Neuras on the Runner after returning. With five other relics already handed in this makes all six and unlocks his Jin quest."
+  },
+  {
     "simpleJp": "9/19 昼：バジリオのランク3から2日後、昼に街で話す",
     "jpGuide1": "RANK4",
     "jpGuide2": "ランク4",
@@ -94,6 +100,18 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ジンの鎧戦車に向かう",
     "enGuide": "Calendar 9/20 昼・依頼. Neuras final bond trigger: after six relic hand-ins talk to the soldier near the recruitment centre / Regalith Cathedral; then take the Runner to Jin's Gauntlet Runner and win the boss battle. Consider Thief Steal for an optional special weapon."
+  },
+  {
+    "simpleJp": "9/20 昼・依頼：王都の大聖堂付近の兵士に話しかける",
+    "jpGuide1": "レガリス大聖堂前の募兵舎前にいる大聖堂の警備兵と会話",
+    "jpGuide2": "王国軍募兵舎近くにいる兵士",
+    "enGuide": "Calendar 9/20 昼・依頼. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8."
+  },
+  {
+    "simpleJp": "9/20 昼・戦闘：鎧戦車でジンの鎧戦車へ向かい戦闘に勝つ",
+    "jpGuide1": "ジンの鎧戦車に向かう",
+    "jpGuide2": "ジンの鎧戦車",
+    "enGuide": "Calendar 9/20 昼・戦闘. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 2: Use the Runner to travel to Jin's Gauntlet Runner and win the Jin boss fight. Complete the dialogue/reward sequence to finish the Gunner bond."
   },
   {
     "simpleJp": "9/20 夜：包容力5を得て夜のキャゼリナと話す",
@@ -138,16 +156,16 @@
     "enGuide": "Calendar 9/23 物語. Gallica R7: Automatic once the September 23 story return to Grand Trad resolves."
   },
   {
-    "simpleJp": "9/24 取り逃し注意：エルダの古仙郷・光の広場で黄金蟲を回収する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "光の広場で黄金蟲を回収",
-    "enGuide": "Calendar 9/24 取り逃し注意. TRUE MISSABLE: during this one-day visit to Eldan Sanctum, immediately find the Gold Beetle in the Plaza of Light before leaving or triggering the next objective; ordinary return travel is not available. This should be checked BEFORE progressing the plot."
-  },
-  {
     "simpleJp": "9/24 物語：9/24の物語の戦闘後、ガリカのランク8を確認する",
     "jpGuide1": "メインストーリー進行",
     "jpGuide2": "ランク8",
     "enGuide": "Calendar 9/24 物語. Gallica R8: Automatic after the September 24 main-story battle. This finishes her Mage bond without an optional activity slot."
+  },
+  {
+    "simpleJp": "9/24 取り逃し注意：エルダの古仙郷・光の広場で黄金蟲を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "光の広場で黄金蟲を回収",
+    "enGuide": "Calendar 9/24 取り逃し注意. TRUE MISSABLE: during this one-day visit to Eldan Sanctum, immediately find the Gold Beetle in the Plaza of Light before leaving or triggering the next objective; ordinary return travel is not available. This should be checked BEFORE progressing the plot."
   },
   {
     "simpleJp": "9/25 物語：次の期限の最終自由期間に備える",

@@ -75,7 +75,7 @@
     "simpleJp": "王都のマリアと話して支援ランク3にする",
     "jpGuide1": "RANK3",
     "jpGuide2": "ランク3",
-    "enGuide": "Maria R3: Speak to Maria in Hushed Honeybee Inn during the daytime, around two days after her second bond. You do not have to collect landscape paintings for this bond."
+    "enGuide": "Maria R3: Two calendar days after R2, meet Maria in Sunshade Row (日陰通り), Grand Trad, in daytime. Scenic landscape paintings may provide additional interactions but are not required for the bond."
   },
   {
     "simpleJp": "2日後、王都のマリアと話して支援ランク4にする",
@@ -87,7 +87,7 @@
     "simpleJp": "さらに2日後、王都のマリアと話してランク5にする",
     "jpGuide1": "RANK5",
     "jpGuide2": "ランク5",
-    "enGuide": "Maria R5: Grand Trad inn, daytime, approximately two days after R4. If you are away from Grand Trad, complete it at the next available return."
+    "enGuide": "Maria R5: Two days after R4, meet Maria on Sunshade Row (日陰通り), Grand Trad, during the day. The bond marker will show her current position; visiting her inn for the R4 scene was the prior step."
   },
   {
     "simpleJp": "勇気3を得て夜のベルギッタに報告する",

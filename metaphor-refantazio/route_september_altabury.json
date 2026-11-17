@@ -72,6 +72,24 @@
     "enGuide": "Calendar 9/13 夜・読書. Basilio's book becomes available after recruitment; first reading, flex to another Runner night if story locked."
   },
   {
+    "simpleJp": "9/13 【受注・時間なし】ディア・フランコ通り下層で『防寒着の素材を届けろ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/13, 受注・時間なし: At Altabury lower Dia Franco Street accept winter-clothing material request; purchase/gather specifically listed material from relevant city/village and hand back to the giver during a return visit. No hard expiry. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "9/13 【受注・時間なし】歌劇場前広場で『不遜の塔に巣食うものを倒せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/13, 受注・時間なし: In Altabury Opera House Square pick up Tower of Ascendant bounty, defeat its target on Sept 17 trip and return to same requester for reward. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "9/13 【受注・時間なし】募兵舎で『凍てつく森の白き獣』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/13, 受注・時間なし: Take Everfrost Forest white-beast bounty from recruitment centre, kill target during Sept 13 area excursion, and report at next recruitment centre visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "9/14 昼・期間限定：ジュリアンと討論する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ジュリアンと討論",
@@ -106,6 +124,12 @@
     "jpGuide1": "夜のアルタベリーの蒼穹橋",
     "jpGuide2": "蒼穹橋",
     "enGuide": "Calendar 9/16 夜. Catherina R5: After winning her three earlier road challenges, find Catherina from September 13 onward at Altabury's Skybound Bridge (蒼穹橋) at NIGHT. If missing, ensure the Tower of Insolence Gauntlet Runner fight for her R4 happened."
+  },
+  {
+    "simpleJp": "9/16 【受注・時間なし】ユーファ6達成後『暴走するハイペリックを止めろ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/16, 受注・時間なし: After Eupha R6, speak to the quest-giver on Altabury Skybound Bridge to unlock Mt Vulkano Hyperic request. Defeat the target during Sept 18 Vulkano trip, report it and satisfy Wisdom 5 before Eupha R7 Oct 1. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "9/17 昼・攻略：不遜の塔の依頼を達成する",
@@ -160,6 +184,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ニューラス7",
     "enGuide": "Calendar 9/19 夜・遺物報告. Neuras progresses through R7 after all six relic turn-ins. If the relic sequence is incomplete, use the first eligible night to finish; don't assume the sixth relic itself magically completes R8."
+  },
+  {
+    "simpleJp": "9/19 【報告・時間なし】ハイペリック討伐と不遜の塔の依頼を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/19, 報告・時間なし: Turn in the Mt Vulkano Hyperic and Tower of Ascendant local requests to their Altabury NPCs, and the Everfrost bounty at recruitment centre. Must be marked completed for Eupha rank progression. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "9/20 昼・依頼：王都の募兵舎前で兵士に話してジンを探す",

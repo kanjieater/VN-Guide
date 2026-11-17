@@ -66,6 +66,12 @@
     "enGuide": "Gold Beetle #40 of 50 — Everfrost Forest: southwestern gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
+    "simpleJp": "9/13 夜・読書：『よみ・かき・おてほん』を読み始める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 9/13 夜・読書. Basilio's book becomes available after recruitment; first reading, flex to another Runner night if story locked."
+  },
+  {
     "simpleJp": "9/14 昼・期間限定：ジュリアンと討論する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ジュリアンと討論",
@@ -136,6 +142,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #39 of 50 — Mt Vulkano: ascend eastern ladder from lower floor and search north. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/18 夜・読書：『よみ・かき・おてほん』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 9/18 夜・読書. Second unique reading session during Mt Vulkano travel."
   },
   {
     "simpleJp": "9/19 昼：バジリオのランク3から2日後、昼に街で話す",
@@ -219,7 +231,7 @@
     "simpleJp": "9/24 取り逃し注意：エルダの古仙郷・光の広場で黄金蟲を回収する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "光の広場で黄金蟲を回収",
-    "enGuide": "Calendar 9/24 取り逃し注意. TRUE MISSABLE: during this one-day visit to Eldan Sanctum, immediately find the Gold Beetle in the Plaza of Light before leaving or triggering the next objective; ordinary return travel is not available. This should be checked BEFORE progressing the plot."
+    "enGuide": "Gold Beetle #42 of 50: one-time Sept 24 Eldan Plaza of Light behind collapsed triangular roof; collect before approaching the Prince. Calendar 9/24 取り逃し注意. TRUE MISSABLE: during this one-day visit to Eldan Sanctum, immediately find the Gold Beetle in the Plaza of Light before leaving or triggering the next objective; ordinary return travel is not available. This should be checked BEFORE progressing the plot."
   },
   {
     "simpleJp": "9/25 物語：次の期限の最終自由期間に備える",

@@ -304,29 +304,5 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Calendar 8/17〜8/18 物語. Proceed through the scheduled story transition; check for the next set of side quests, medicine dependency and Junah and Eupha bond unlock conditions."
-  },
-  {
-    "simpleJp": "8/18 【時期調整】見識4で昼にブライハーヴェンのヒュルケンベルグと話す",
-    "jpGuide1": "見識4",
-    "jpGuide2": "見識4",
-    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Hulkenberg R7: With Wisdom (見識) 4, meet Hulkenberg during the day at Brilehaven's tavern 大漁亭; at least two days after R6."
-  },
-  {
-    "simpleJp": "8/18 【時期調整】2日後の任意移動中、ヒュルケンベルグと話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Hulkenberg R8: Two days after R7, speak on the Runner's deck during a discretionary daytime journey. If you only have mandatory travel, plan a side trip."
-  },
-  {
-    "simpleJp": "8/18 【時期調整】ハイザメのランク5から2日後、夜に中央通路で話す",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "ランク6",
-    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Heismay R6: On the Gauntlet Runner's central passage at night after the usual 2-day cooldown. Raise Imagination 4 for his next gate."
-  },
-  {
-    "simpleJp": "8/18 【時期調整】昼のマリアと話してランク6にする",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "ランク6",
-    "enGuide": "UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Maria R6: At least two days after R5, visit Sunshade Row (日陰通り), Grand Trad, during the day. The old painting-collection suggestion is not a mandatory rank condition."
   }
 ]

@@ -96,22 +96,16 @@
     "enGuide": "9/26, 受注・時間なし: Accept second cooking quest in Grand Trad Sunlumeo Street, cook the requested fluffy honey confection while traveling Sept 27, and return to the requester Sept 29. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
-    "simpleJp": "9/27 昼・旅行：見捨てられた道へ向かい道中で『よみかきおてほん』を読む",
+    "simpleJp": "9/27 昼・旅行：見捨てられた道へ向かい、鎧戦車で『よみ・かき・おてほん』を読了する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見捨てられた道へ向かう",
-    "enGuide": "Calendar 9/27 昼・旅行. Travel toward Disgraced/Abandoned Path with available bounty, buy sturdy spider thread at Malva Village, cook new recipes and finish the Imagination book to approach rank 5."
+    "enGuide": "Calendar 9/27 昼・旅行. Travel toward Disgraced/Abandoned Path with available bounty, buy sturdy spider thread at Malva Village, cook new recipes and finish the Imagination book to approach rank 5. This is the sole planned 9/27 daytime book session; do not count a second daytime session after night."
   },
   {
     "simpleJp": "9/27 夜・料理：新しい料理を作って資質読書を進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ふわふわ蜜菓子",
     "enGuide": "Calendar 9/27 夜・料理. Use the camp/Runner to cook 'ふわふわ蜜菓子' for the second cook quest and read the remaining Wisdom book. Maria's Speed Cooking makes kitchen tasks flexible."
-  },
-  {
-    "simpleJp": "9/27 昼・読書：『よみ・かき・おてほん』を読了する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 9/27 昼・読書. Third unique reading session; if inaccessible, use another genuine Runner slot."
   },
   {
     "simpleJp": "9/28 昼・攻略：見捨てられた道の依頼を達成する",
@@ -228,16 +222,10 @@
     "enGuide": "Calendar 10/5 昼・旅行. Combine Milo's Gauntlet Runner encounter/travel objective with Eupha's travel-only final Follower rank, if already eligible. Do not expect a fixed story passage to count as free travel."
   },
   {
-    "simpleJp": "10/5 鎧戦車・昼：ユーファのランク7から2日後、任意移動中に話す",
+    "simpleJp": "10/5 昼・旅行：ミロの鎧戦車へ向かい、条件を満たしていれば移動中にユーファR8の会話をする",
     "jpGuide1": "鎧戦車で会話",
     "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Calendar 10/5 鎧戦車・昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead."
-  },
-  {
-    "simpleJp": "10/5 夜・闘技場：闘技場の金1級戦を終える",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "金1級",
-    "enGuide": "Calendar 10/5 夜・闘技場. Optional Coliseum Gold 1 challenge. Swap it to a free day if a remaining mandatory bond becomes available."
+    "enGuide": "Calendar 10/5 鎧戦車・昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead. Eupha R8 is the single travel-only conversation on this leg, conditional on R7 and its two-day cooldown; do not repeat it as a second activity."
   },
   {
     "simpleJp": "10/6 昼・攻略：不詳の遺跡を攻略する",
@@ -318,16 +306,16 @@
     "enGuide": "Calendar 10/13〜10/24 自由調整. Genuine spare time if you followed efficient early dungeon routing. Check all Followers R8, max Royal Virtues, completed all quest/bounty logs, read every purchased book (especially 『魔法的未来』), won all eight candidates' debates, cooked every recipe, visited scenic/unique towns, obtained all accessible Golden Beetles, and completed arena. These are flexible calendar days, NOT proof that each missing errand can be done on any one day; check day/night and travel availability."
   },
   {
-    "simpleJp": "10/13 アカデメイア：最上位アーキタイプを1つランク20にしてモアに報告する",
-    "jpGuide1": "いずれかの最上位アーキタイプをRANK20にする。",
-    "jpGuide2": "最上位アーキタイプ」をランク20",
-    "enGuide": "Calendar October 13, Akademia task report, no ordinary daytime/evening Follower slot. More R8: AFTER More R7's 25-Archetype assignment, study a highest-tier / Elite Archetype and raise that Archetype rank to 20, then report the final Akademia research task to More. The old 'UNSCHEDULED' warning was a stale transfer note and is no longer applicable; if your class leveling is behind, handle it in dungeon grinding before the Oct 25 deadline."
-  },
-  {
     "simpleJp": "10/13 アカデメイア：25種類のアーキタイプを履修してモアに報告する",
     "jpGuide1": "25種類のアーキタイプを履修する。",
     "jpGuide2": "25種類",
     "enGuide": "Calendar 10/13 アカデメイア. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. More R7: Study at least 25 DISTINCT Archetypes (not simply rank 25 in one class) and report More's 'Determination' research task in Akademia. By now, Junah and Eupha have expanded your class availability."
+  },
+  {
+    "simpleJp": "10/13 アカデメイア：最上位アーキタイプを1つランク20にしてモアに報告する",
+    "jpGuide1": "いずれかの最上位アーキタイプをRANK20にする。",
+    "jpGuide2": "最上位アーキタイプ」をランク20",
+    "enGuide": "Calendar October 13, Akademia task report, no ordinary daytime/evening Follower slot. More R8: AFTER More R7's 25-Archetype assignment, study a highest-tier / Elite Archetype and raise that Archetype rank to 20, then report the final Akademia research task to More. The old 'UNSCHEDULED' warning was a stale transfer note and is no longer applicable; if your class leveling is behind, handle it in dungeon grinding before the Oct 25 deadline."
   },
   {
     "simpleJp": "10/13 監査・時間なし：読書7冊の読了を確認する",

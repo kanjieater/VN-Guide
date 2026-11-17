@@ -3,13 +3,13 @@
     "simpleJp": "7/1 昼：地下納骨堂を攻略する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "地下納骨堂攻略",
-    "enGuide": "Calendar 7/1 昼. Grand Trad side dungeon, bounties and ring request; collect side loot and Golden Beetles"
+    "enGuide": "July 1: pick up available Grand Trad requests and clear the Catacombs. The Alonzo ring is in Abandoned Tomb, NOT here; don't report until after the 7/11–12 tomb trip."
   },
   {
-    "simpleJp": "7/1 昼：想像力2を得てアロンゾの指輪依頼を達成する",
-    "jpGuide1": "ククルスに指輪を届けろ",
-    "jpGuide2": "ククルスに指輪を届けろ",
-    "enGuide": "Calendar 7/1 昼. Flexible unslotted Follower condition, NOT a recommendation to spend a second slot on 6/30. Do at the first actually eligible free day in this section if available; do not assume a second day/night action. Alonzo R1: With Imagination (想像力) 2, meet Cuculus/Alonzo at Martira's Thoroughfare Square, take 'A Dagger, a Ring, and a Rake' (ククルスに指輪を届けろ), obtain the ring at Abandoned Tomb, and deliver it back. This unlocks Faker. R2 waits until after July 23 in Brilehaven."
+    "simpleJp": "7/1 受注・時間なし：マルティラで『ククルスに指輪を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/1 受注・時間なし. With Imagination 2, speak to Cuculus in Martira Thoroughfare Square. Ring will be collected July 11–12 in Abandoned Tomb and reported July 13; quest acceptance itself is no-time."
   },
   {
     "simpleJp": "7/2 昼・移動：マルティラから大砂蟲の巣へ向かう",
@@ -46,6 +46,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "7/2 移動前・収集. Pick up both the Visca Alba tavern fireplace beetle and guest-room jug beetle while you are in Martira, before proceeding to Sandworm's Nest."
+  },
+  {
+    "simpleJp": "7/2 昼・読書：『頷かせる技術』を2回目まで読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/2 昼・読書. Three unique reading sessions: June 25 night, July 2 day and July 2 night. If Catherina story event blocks reading, use another actual Gauntlet Runner travel slot."
   },
   {
     "simpleJp": "7/3 物語：大砂蟲の巣の物語を進める",
@@ -114,16 +120,10 @@
     "enGuide": "Calendar 7/8 昼. Heismay R3: On an eligible day, talk to him in the Runner's central corridor, daytime, two days after R2. Use a free slot on a town-stationary day when the icon appears."
   },
   {
-    "simpleJp": "7/8 【置換】旧通常手伝いは実施しない",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ささやき亭で手伝う",
-    "enGuide": "Do not consume an additional 7/8 night. Perform the Maria R2+ Fabienne co-helper missable activity on this one evening instead; it also contributes Tolerance."
-  },
-  {
     "simpleJp": "7/8 【夜・時限】マリア2以上でファビアンヌと一緒に調理を手伝う",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "7/8 夜・時限. MISSABLE ‘看板娘と裏方’ achievement: after Maria R2, help Fabienne at Honeybee Inn at NIGHT with Maria participating. Finish before Sept 26. This consumes the evening; swap out the generic Tolerance helper step already scheduled for 7/8 (not a second evening)."
+    "enGuide": "July 8 NIGHT one slot: with Maria at R2+, help Fabienne at Hushed Honeybee Inn WITH Maria to earn 看板娘と裏方 before Sept 26. Replaces usual Tolerance helper on this night, not two evening actions."
   },
   {
     "simpleJp": "7/9 昼・旅行：人喰い洞窟へ出発してコメロ村に立ち寄る",
@@ -144,6 +144,12 @@
     "enGuide": "Gold Beetle #11 of 50 — Man-Eater's Grotto deepest floor: northern stair-area gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
+    "simpleJp": "7/9 鎧戦車・昼：6/29以降の任意移動中、鎧戦車のストロールと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 7/9 鎧戦車・昼. Calendar 6/30 鎧戦車・昼／別便可 (recommended flexible slot; satisfy game map icon and gate first). Strohl R4: During a genuine discretionary Gauntlet Runner journey starting around June 29, speak with Strohl on the deck in daytime. A town meeting or forced plot transit does not substitute for this travel bond."
+  },
+  {
     "simpleJp": "7/10 昼：2日後、王都のマリアと話して支援ランク4にする",
     "jpGuide1": "RANK4",
     "jpGuide2": "ランク4",
@@ -162,10 +168,10 @@
     "enGuide": "Calendar 7/10 夜. Heismay R4: Talk in the central corridor at night, two days after R3. Save upcoming discretionary travel for his R5."
   },
   {
-    "simpleJp": "7/10 【期限・報告】『伝書鳩の卵を届けろ』を報告する",
+    "simpleJp": "7/10 【期限・報告】マルティラ街道広場で伝書鳩の卵を渡す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "7/10 期限・報告. Bring egg assortment purchased at Komero on July 9 back to the Grand Trad quest giver and hand in by July 11; teleport/shop/quest report are time-free when available. Make sure it is marked completed in Quest menu."
+    "enGuide": "July 10 NO-TIME report to request giver in MARTIRA Thoroughfare Square using Komero eggs bought July 9; deadline July 11."
   },
   {
     "simpleJp": "7/11 昼・旅行：打ち捨てられた墓へ向かう",
@@ -196,6 +202,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #10 of 50 — Abandoned Tomb: south from the room with Malveno's ring, dead end across the grating. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/13 依頼報告：マルベノの指輪をククルスに渡してアロンゾ1を解放する",
+    "jpGuide1": "ククルスに指輪を届けろ",
+    "jpGuide2": "ククルスに指輪を届けろ",
+    "enGuide": "Alonzo R1: after taking Cuculus's ring request in Martira with Imagination 2, get Malveno ring during 7/11–12 Abandoned Tomb trip and REPORT to Cuculus on July 13. The unlock is not executable on July 1 before obtaining ring."
   },
   {
     "simpleJp": "7/13 昼：さらに2日後、王都のマリアと話してランク5にする",

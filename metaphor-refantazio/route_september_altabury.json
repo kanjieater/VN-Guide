@@ -198,16 +198,10 @@
     "enGuide": "9/19, 報告・時間なし: Turn in the Mt Vulkano Hyperic and Tower of Ascendant local requests to their Altabury NPCs, and the Everfrost bounty at recruitment centre. Must be marked completed for Eupha rank progression. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
-    "simpleJp": "9/20 昼・依頼：王都の募兵舎前で兵士に話してジンを探す",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ジンの鎧戦車に向かう",
-    "enGuide": "Calendar 9/20 昼・依頼. Neuras final bond trigger: after six relic hand-ins talk to the soldier near the recruitment centre / Regalith Cathedral; then take the Runner to Jin's Gauntlet Runner and win the boss battle. Consider Thief Steal for an optional special weapon."
-  },
-  {
-    "simpleJp": "9/20 昼・依頼：王都の大聖堂付近の兵士に話しかける",
+    "simpleJp": "9/20 昼・依頼（時間なし）：レガリス大聖堂前・募兵舎付近の警備兵に一度話しかけ、ジンの鎧戦車の依頼を開放する",
     "jpGuide1": "レガリス大聖堂前の募兵舎前にいる大聖堂の警備兵と会話",
     "jpGuide2": "王国軍募兵舎近くにいる兵士",
-    "enGuide": "Calendar 9/20 昼・依頼. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8."
+    "enGuide": "Calendar 9/20 昼・依頼. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8. This is the single guard trigger; the recruitment office and cathedral vicinity describe the same NPC interaction, not two appointments."
   },
   {
     "simpleJp": "9/20 昼・戦闘：鎧戦車でジンの鎧戦車へ向かい戦闘に勝つ",

@@ -1,0 +1,128 @@
+[
+  {
+    "simpleJp": "6月上旬、モアの支援ランク1を確認する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "More R1: Automatically opens in Akademia during the opening story (around June 5–6). Follow the introductory Archetype/tutorial quest. This has no ordinary calendar bond appointment."
+  },
+  {
+    "simpleJp": "6/6の物語を進め、ストロールの支援ランク1を解放する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Strohl R1: Automatic story recruitment in Grand Trad on 6/6; Warrior lineage unlocks."
+  },
+  {
+    "simpleJp": "6/6の物語を進め、ガリカの支援ランク1を解放する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "ストーリー進行",
+    "enGuide": "Gallica R1: Automatic during the opening main story on 6/6. Her entire bond is story-driven; do not schedule meetings."
+  },
+  {
+    "simpleJp": "6月上旬、マリアの支援ランク1を確認する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Maria R1: Opens automatically through the Grand Trad/Hushed Honeybee Inn story (around 6/10–12). She is at Fabienne's inn; later meetings occur during the day."
+  },
+  {
+    "simpleJp": "6/11の物語でヒュルケンベルグの支援ランク1を解放する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Hulkenberg R1: Automatic on 6/11 with the initial Knight unlock."
+  },
+  {
+    "simpleJp": "6/11の物語でガリカの支援ランク2を確認する",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Gallica R2: Automatic after the 6/11 story boss; no time slot needed."
+  },
+  {
+    "simpleJp": "レガリス大聖堂でキャゼリナの依頼を受けて達成する",
+    "jpGuide1": "閉じ込められた友人を探せ",
+    "jpGuide2": "閉じ込められた友人を探せ",
+    "enGuide": "Catherina R1: In Regalith Grand Cathedral, accept 'Find the Trapped Friend' (閉じ込められた友人を探せ) and rescue her imprisoned friend; report completion to establish Catherina's Brawler bond. Do this on the cathedral visit before advancing past the opportunity."
+  },
+  {
+    "simpleJp": "レガリス大聖堂を攻略後、昼にストロールと話す",
+    "jpGuide1": "レガリス大聖堂のクリア後に会話",
+    "jpGuide2": "ランク2",
+    "enGuide": "Strohl R2: From June 12, after clearing Regalith Grand Cathedral, find him at Sunlumeo Street, Grand Trad, in the daytime. Clearing the main dungeon early avoids the pre-deadline bond lockout."
+  },
+  {
+    "simpleJp": "レガリス大聖堂を攻略後、昼にヒュルケンベルグと話す",
+    "jpGuide1": "レガリス大聖堂のクリア後に会話",
+    "jpGuide2": "ランク2",
+    "enGuide": "Hulkenberg R2: After the cathedral, find her during the day at the Hushed Honeybee Inn (蜜蜂のささやき亭), Grand Trad. She has travel-only later ranks."
+  },
+  {
+    "simpleJp": "ヒーラーをランク10にしてアカデメイアのモアに報告する",
+    "jpGuide1": "ヒーラーをランク10にする。",
+    "jpGuide2": "ヒーラー」をランク10にする",
+    "enGuide": "More R2: Study the Healer Archetype, raise its Archetype rank to 10, then turn in More's Prologue Trial inside Akademia. This is a quest rank-up, not a regular calendar meeting."
+  },
+  {
+    "simpleJp": "見識2を得てベルギッタの輸送路依頼を達成する",
+    "jpGuide1": "輸送路の怪物を倒せ",
+    "jpGuide2": "輸送路の怪物を倒せ",
+    "enGuide": "Brigitta R1: Raise Wisdom (見識) to 2, talk to Brigitta at Lycaon's magic shop on Sunlumeo Street in Grand Trad, accept 'A Bullish Embargo' (輸送路の怪物を倒せ), travel to Belega Corridor, defeat the boss and return to report. This unlocks Merchant."
+  },
+  {
+    "simpleJp": "2日後の夜、王都でベルギッタと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Brigitta R2: At least two calendar days after handing in the Belega Corridor quest, return at night to Sunlumeo Street in Grand Trad and talk to her; do later ranks on alternating evenings."
+  },
+  {
+    "simpleJp": "ベルギッタのランク2から2日後、夜に再度話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Brigitta R3: Night, same Grand Trad shop/street, two days after R2. If the meeting is unavailable, use the evening for Royal Virtues or another Follower."
+  },
+  {
+    "simpleJp": "ベルギッタのランク3から2日後、夜に再度話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Brigitta R4: Night, Grand Trad Sunlumeo Street, two days after R3. Rank 5 will require Courage 3, so train it in spare slots."
+  },
+  {
+    "simpleJp": "ストロールのランク2から2日後、昼に話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Strohl R3: In the daytime at Sunlumeo Street, Grand Trad; wait roughly two calendar days after his R2. This should be cleared before longer trips if possible."
+  },
+  {
+    "simpleJp": "6/26以降、コメロ村の遺物を回収してニューラスに渡す",
+    "jpGuide1": "透明な硝子の置物",
+    "jpGuide2": "伝書鳩の卵を届けろ",
+    "enGuide": "Neuras R1: Take the request 'Providing a Spark' (伝書鳩の卵を届けろ) and travel to Komero village; collect the glass ornament and inventor's journal. Return to the Gauntlet Runner and turn them in to Neuras to unlock Gunner. Do not confuse this opening quest with his six later relics."
+  },
+  {
+    "simpleJp": "ガンナーを履修しアカデメイアのモアに報告する",
+    "jpGuide1": "ガンナーを履修する。",
+    "jpGuide2": "ガンナー」を履修する",
+    "enGuide": "More R3: Once Neuras has joined, study the Gunner Archetype, then report More's next research task in Akademia."
+  },
+  {
+    "simpleJp": "6/29以降の任意移動中、鎧戦車のストロールと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Strohl R4: During a genuine discretionary Gauntlet Runner journey starting around June 29, speak with Strohl on the deck in daytime. A town meeting or forced plot transit does not substitute for this travel bond."
+  },
+  {
+    "simpleJp": "6/29以降の任意移動中、鎧戦車のヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Hulkenberg R3: During discretionary travel in the Runner, find Hulkenberg on the deck in the daytime. Arrange a side-quest trip if you otherwise have no travel days."
+  },
+  {
+    "simpleJp": "6/29以降、包容力2でファビアンヌと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "包容力2",
+    "enGuide": "Maria R2: Reach Tolerance (包容力) 2. Back at Hushed Honeybee Inn in Grand Trad, speak to Fabienne as prompted and continue Maria's daytime bond. Scenic paintings are optional bonuses, not a prerequisite for ranking."
+  },
+  {
+    "simpleJp": "想像力2を得てアロンゾの指輪依頼を達成する",
+    "jpGuide1": "ククルスに指輪を届けろ",
+    "jpGuide2": "ククルスに指輪を届けろ",
+    "enGuide": "Alonzo R1: With Imagination (想像力) 2, meet Cuculus/Alonzo at Martira's Thoroughfare Square, take 'A Dagger, a Ring, and a Rake' (ククルスに指輪を届けろ), obtain the ring at Abandoned Tomb, and deliver it back. This unlocks Faker. R2 waits until after July 23 in Brilehaven."
+  }
+]

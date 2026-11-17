@@ -96,10 +96,16 @@
     "enGuide": "Calendar 9/14 昼・期間限定. FINAL limited candidate debate: challenge Julian in Altabury and answer that immediate practical matters also count. This completes the eight debate contenders if all earlier appearances were done."
   },
   {
-    "simpleJp": "9/14 夜：9月中に足りない王の資質を鍛える",
+    "simpleJp": "9/14 【監査・時間なし】王の資質5の必要条件を確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "王の資質",
-    "enGuide": "Calendar 9/14 夜. Late-game Virtue checkpoint: To avoid being blocked on October 25, work toward ALL five rank-5 Royal Virtues: Courage 5 (Alonzo R7), Wisdom 5 (Eupha R7), Tolerance 5 (Catherina R6), Eloquence 5 (Basilio R8), Imagination 5 (Basilio R6). Their lower ranks also gate several earlier bonds. Use spare day/night slots, travel books and available Virtue activities; no dialogue-answer optimisation is required."
+    "enGuide": "September 14 no-time audit (not an additional night activity): check Courage 5 for Alonzo R7, Tolerance 5 for Catherina, Wisdom 5 for Eupha, Imagination 5 and Eloquence 5 for Basilio. Work on any missing virtue with genuinely free slots; don't claim they are all automatically maxed."
+  },
+  {
+    "simpleJp": "9/14 夜：勇気5でブライハーヴェンのアロンゾに話してランク7にする",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "勇気5",
+    "enGuide": "Calendar September 14 NIGHT (flexible; requires Courage rank 5, Alonzo R6 from Aug 11 and 2-day cooldown). Alonzo R7: talk to Alonzo in Brilehaven Angler's Inn Square to trigger the rank-7 bond. Do not proceed to Daturam/Rank8 before completing this event. If Courage 5 is not ready, defer to the FIRST eligible night before Sept 30 R8 rather than claiming an impossible 9/14 rank."
   },
   {
     "simpleJp": "9/15 昼：バジリオのランク1から2日後、昼に街で話す",

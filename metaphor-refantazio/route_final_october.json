@@ -58,5 +58,53 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Optional final-day epilogue: On October 25, after verifying every Follower is already Rank 8, visit/talk to them again wherever the game makes them available for their farewell conversations and commemorative key items. These do not replace any missed bond ranks; finish the all-14 Rank 8 requirement first."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】想像力5を得て昼のバジリオと話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "想像力5",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Basilio R6: Requires the MAX Imagination (想像力) rank 5 and the normal cooldown after R5. Talk to Basilio during the day in a town hub; skipping Virtue training here blocks his chain."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】バジリオのランク6から2日後、昼に街で話す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "ランク7",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Basilio R7: Two days after R6, talk to him in daytime in an available town hub. R8 adds MAX Eloquence 5 plus a special brother-related battle request; prepare that before the endgame."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】想像力4で夜のジュナと話す",
+    "jpGuide1": "想像力4",
+    "jpGuide2": "想像力4",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R5: After Junah's R4 and a two-day cooldown, achieve Imagination 4 and talk to her in the Gauntlet Runner central passage at NIGHT."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】ジュナのランク5から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】ジュナのランク7から2日後、夜の鎧戦車で話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R8: Again at night in the Runner's central passage, two days after R7. Once completed, Masked Dancer's final bond effects unlock."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】暴走するハイペリックを止め、見識5でユーファと話す",
+    "jpGuide1": "暴走するハイペリックを止めろ",
+    "jpGuide2": "暴走するハイペリックを止めろ",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R7: Accept and complete 'Stop the Rampaging Hyperic' (暴走するハイペリックを止めろ), available during the later story, and reach Wisdom (見識) 5. Speak with Eupha in daytime to obtain R7. If this request is not yet offered, revisit after September's story transition."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】ユーファのランク7から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead."
+  },
+  {
+    "simpleJp": "【9/26以降の予定を割り当て】2日後、夜のブライハーヴェンでダチュラムと話す",
+    "jpGuide1": "ダチュラム",
+    "jpGuide2": "ダチュラム",
+    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Alonzo R8: Two days after R7, do NOT hunt for the usual Alonzo icon: talk to Daturam (ダチュラム) at Brilehaven Angler's Inn Square at night and follow the conclusion of 'A Rake's Last Wish' (アロンゾの遺志を叶えろ). The alternate NPC is required to finish his Faker bond."
   }
 ]

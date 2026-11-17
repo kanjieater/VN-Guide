@@ -1,110 +1,260 @@
 [
   {
-    "simpleJp": "9/26以降、夜の王都でベルギッタと話す",
-    "jpGuide1": "9/26～",
-    "jpGuide2": "9月26日以降",
-    "enGuide": "Brigitta R8: From the September 26 story transition onward, return to Grand Trad's Sunlumeo Street at NIGHT and speak with Brigitta. Her earlier Courage-4 R7 must already be finished. This is a hard earliest-availability gate, not a fixed September 26 appointment."
+    "simpleJp": "9/26 昼・受注：王都に戻り終盤の依頼・賞金首をすべて受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "依頼9件を受注",
+    "enGuide": "Calendar 9/26 昼・受注. Final free-action period begins. Visit Grand Trad's notice board, quest givers and informant before leaving. Take the nine or so available new quests, including dragon trials and remaining bond-required challenges. Royal Archetypes unlock in Akademia from this period; take stock of class levels. Final story objective cannot be delayed past October 25."
   },
   {
-    "simpleJp": "キャゼリナのランク7から2日後、夜のアルタベリーで話す",
+    "simpleJp": "9/26 昼：9/26以降、昼のマルティラでバードンと話す",
+    "jpGuide1": "9/26～",
+    "jpGuide2": "9月26日以降",
+    "enGuide": "Calendar 9/26 昼. Bardon R8: After the level-60 Great Sandworm fight at R7, return from September 26 onward to Martira's Thoroughfare Square in DAYTIME and speak to Bardon for his final Commander bond."
+  },
+  {
+    "simpleJp": "9/26 夜：9/26以降、夜の王都でベルギッタと話す",
+    "jpGuide1": "9/26～",
+    "jpGuide2": "9月26日以降",
+    "enGuide": "Calendar 9/26 夜. Brigitta R8: From the September 26 story transition onward, return to Grand Trad's Sunlumeo Street at NIGHT and speak with Brigitta. Her earlier Courage-4 R7 must already be finished. This is a hard earliest-availability gate, not a fixed September 26 appointment."
+  },
+  {
+    "simpleJp": "9/27 昼・旅行：見捨てられた道へ向かい道中で『よみかきおてほん』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見捨てられた道へ向かう",
+    "enGuide": "Calendar 9/27 昼・旅行. Travel toward Disgraced/Abandoned Path with available bounty, buy sturdy spider thread at Malva Village, cook new recipes and finish the Imagination book to approach rank 5."
+  },
+  {
+    "simpleJp": "9/27 夜・料理：新しい料理を作って資質読書を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ふわふわ蜜菓子",
+    "enGuide": "Calendar 9/27 夜・料理. Use the camp/Runner to cook 'ふわふわ蜜菓子' for the second cook quest and read the remaining Wisdom book. Maria's Speed Cooking makes kitchen tasks flexible."
+  },
+  {
+    "simpleJp": "9/28 昼・攻略：見捨てられた道の依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見捨てられた道攻略",
+    "enGuide": "Calendar 9/28 昼・攻略. Clear the Abandoned Path and gather unique items/Gold Beetles. Keep required dishes and quest loot for the next hub visit."
+  },
+  {
+    "simpleJp": "9/28 夜・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 9/28 夜・読書. Use the Runner's night to raise Wisdom toward 5; defer the repeated book only if a bond-specific evening is truly open."
+  },
+  {
+    "simpleJp": "9/29 昼・報告：ふわふわ蜜菓子を料理人へ届ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "さらに料理人を唸らせる一皿",
+    "enGuide": "Calendar 9/29 昼・報告. Report the second chef-request with prepared food. Speak to Loveless at Altabury's Lower Dia Franco Street if his follow-up is ready; group all hub errands before another trip."
+  },
+  {
+    "simpleJp": "9/29 昼・攻略：天上人の邸を攻略する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "天上人の邸攻略",
+    "enGuide": "Calendar 9/29 昼・攻略. Complete the Manor of the Ascendant optional dungeon to advance first-run quest completion, gather Gold Beetles and rare materials; if a travel day is needed, use the documented spare-day buffer."
+  },
+  {
+    "simpleJp": "9/29 夜・読書：『魔法的未来』を読んで見識5を目指す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "見識レベル5",
+    "enGuide": "Calendar 9/29 夜・読書. Finish the remaining Wisdom book sessions to unlock Eupha R7's late gate."
+  },
+  {
+    "simpleJp": "9/30 昼：想像力5を得て昼のバジリオと話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "想像力5",
+    "enGuide": "Calendar 9/30 昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Basilio R6: Requires the MAX Imagination (想像力) rank 5 and the normal cooldown after R5. Talk to Basilio during the day in a town hub; skipping Virtue training here blocks his chain."
+  },
+  {
+    "simpleJp": "9/30 夜：2日後、夜のブライハーヴェンでダチュラムと話す",
+    "jpGuide1": "ダチュラム",
+    "jpGuide2": "ダチュラム",
+    "enGuide": "Calendar 9/30 夜. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Alonzo R8: Two days after R7, do NOT hunt for the usual Alonzo icon: talk to Daturam (ダチュラム) at Brilehaven Angler's Inn Square at night and follow the conclusion of 'A Rake's Last Wish' (アロンゾの遺志を叶えろ). The alternate NPC is required to finish his Faker bond."
+  },
+  {
+    "simpleJp": "10/1 昼：暴走するハイペリックを止め、見識5でユーファと話す",
+    "jpGuide1": "暴走するハイペリックを止めろ",
+    "jpGuide2": "暴走するハイペリックを止めろ",
+    "enGuide": "Calendar 10/1 昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R7: Accept and complete 'Stop the Rampaging Hyperic' (暴走するハイペリックを止めろ), available during the later story, and reach Wisdom (見識) 5. Speak with Eupha in daytime to obtain R7. If this request is not yet offered, revisit after September's story transition."
+  },
+  {
+    "simpleJp": "10/1 夜：ジュナのランク7から2日後、夜の鎧戦車で話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Calendar 10/1 夜. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R8: Again at night in the Runner's central passage, two days after R7. Once completed, Masked Dancer's final bond effects unlock."
+  },
+  {
+    "simpleJp": "10/2 昼：バジリオのランク6から2日後、昼に街で話す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "ランク7",
+    "enGuide": "Calendar 10/2 昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Basilio R7: Two days after R6, talk to him in daytime in an available town hub. R8 adds MAX Eloquence 5 plus a special brother-related battle request; prepare that before the endgame."
+  },
+  {
+    "simpleJp": "10/2 夜：キャゼリナのランク7から2日後、夜のアルタベリーで話す",
     "jpGuide1": "夜にキャゼリナと会話",
     "jpGuide2": "ランク8",
-    "enGuide": "Catherina R8: After the ordinary two-day cooldown from R7, talk with her at NIGHT on Altabury's Skybound Bridge. If the event did not appear earlier, try again after the September 26 story transition. Her first four ranks (cathedral and three Gauntlet Runner encounters) must have been completed."
+    "enGuide": "Calendar 10/2 夜. Catherina R8: After the ordinary two-day cooldown from R7, talk with her at NIGHT on Altabury's Skybound Bridge. If the event did not appear earlier, try again after the September 26 story transition. Her first four ranks (cathedral and three Gauntlet Runner encounters) must have been completed."
   },
   {
-    "simpleJp": "9/26以降、昼のマルティラでバードンと話す",
-    "jpGuide1": "9/26～",
-    "jpGuide2": "9月26日以降",
-    "enGuide": "Bardon R8: After the level-60 Great Sandworm fight at R7, return from September 26 onward to Martira's Thoroughfare Square in DAYTIME and speak to Bardon for his final Commander bond."
+    "simpleJp": "10/3 昼・闘技場：闘技場の金2級戦に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "金2級",
+    "enGuide": "Calendar 10/3 昼・闘技場. Complete this Coliseum tier for optional first-run achievement/completion; if the arena remains closed, fulfill its prior rank entry requirements."
   },
   {
-    "simpleJp": "説得力5でバジリオのビンカ討伐依頼を達成する",
+    "simpleJp": "10/3 夜・観光：アルタベリーの蒼穹橋下層の温泉に入る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "温泉に入る",
+    "enGuide": "Calendar 10/3 夜・観光. Optional scenic/hot-spring content on an otherwise free evening. Replace with overdue rank gates if needed."
+  },
+  {
+    "simpleJp": "10/4 昼・依頼：説得力5でバジリオのビンカ討伐依頼を達成する",
     "jpGuide1": "暴走するビンカを止めろ",
     "jpGuide2": "暴走するビンカを止めろ",
-    "enGuide": "Basilio R8: Requires MAX Eloquence (説得力) 5 and two days after R7. Talk to him during the DAY, accept 'A Brother's Mercy' (暴走するビンカを止めろ), travel to the indicated quest location, defeat Vinca WITH Basilio participating in the party, and finish the follow-up bond scene. Do not stop at R7 or skip the battle."
+    "enGuide": "Calendar 10/4 昼・依頼. Basilio R8: Requires MAX Eloquence (説得力) 5 and two days after R7. Talk to him during the DAY, accept 'A Brother's Mercy' (暴走するビンカを止めろ), travel to the indicated quest location, defeat Vinca WITH Basilio participating in the party, and finish the follow-up bond scene. Do not stop at R7 or skip the battle."
   },
   {
-    "simpleJp": "ウルカノ山の遺物を回収し夜にニューラスへ渡す",
-    "jpGuide1": "つぎはぎの球体",
-    "jpGuide2": "つぎはぎの球体",
-    "enGuide": "Neuras relic #6 of 6: From the late-story period, accept 'A Legendary Weapon' (伝説の武器を探せ) or the Hyperic request that unlocks Mt Vulkano (ウルカノ山). Pick up the patchwork sphere (つぎはぎの球体) and give it to Neuras at night in the Runner. Combined with screw-topped mineral / plaster cube / marquetry box / moss-covered pillar / handled rock, this completes six relic deliveries and raises Neuras through R7; order does not matter."
+    "simpleJp": "10/4 夜・資質：マルティラで勇気を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "血気盛んな若者",
+    "enGuide": "Calendar 10/4 夜・資質. If Courage is still below 5, use a town Courage activity. This is a flexible spare activity once all urgent ranks are covered."
   },
   {
-    "simpleJp": "王都の大聖堂付近の兵士に話しかける",
-    "jpGuide1": "レガリス大聖堂前の募兵舎前にいる大聖堂の警備兵と会話",
-    "jpGuide2": "王国軍募兵舎近くにいる兵士",
-    "enGuide": "Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8."
+    "simpleJp": "10/5 昼・旅行：ミロの鎧戦車へ向かいユーファと話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ミロの鎧戦車に向かう",
+    "enGuide": "Calendar 10/5 昼・旅行. Combine Milo's Gauntlet Runner encounter/travel objective with Eupha's travel-only final Follower rank, if already eligible. Do not expect a fixed story passage to count as free travel."
   },
   {
-    "simpleJp": "鎧戦車でジンの鎧戦車へ向かい戦闘に勝つ",
-    "jpGuide1": "ジンの鎧戦車に向かう",
-    "jpGuide2": "ジンの鎧戦車",
-    "enGuide": "Neuras R8, part 2: Use the Runner to travel to Jin's Gauntlet Runner and win the Jin boss fight. Complete the dialogue/reward sequence to finish the Gunner bond."
+    "simpleJp": "10/5 鎧戦車・昼：ユーファのランク7から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 10/5 鎧戦車・昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead."
   },
   {
-    "simpleJp": "最上位アーキタイプを1つランク20にしてモアに報告する",
-    "jpGuide1": "いずれかの最上位アーキタイプをRANK20にする。",
-    "jpGuide2": "最上位アーキタイプ」をランク20",
-    "enGuide": "More R8: Study any ONE Elite/highest-tier Archetype (最上位アーキタイプ) and raise its actual Archetype rank to 20, then hand in More's Final Chapter task at Akademia. Finish all prior More tasks in order: Healer R10, Gunner studied, Dealer R15, 15 Archetypes, General R15, 25 Archetypes. No regular social calendar slot or specific dialogue answer is needed."
+    "simpleJp": "10/5 夜・闘技場：闘技場の金1級戦を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "金1級",
+    "enGuide": "Calendar 10/5 夜・闘技場. Optional Coliseum Gold 1 challenge. Swap it to a free day if a remaining mandatory bond becomes available."
   },
   {
-    "simpleJp": "10/25までに全14人の支援ランク8を確認する",
+    "simpleJp": "10/6 昼・攻略：不詳の遺跡を攻略する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "不詳の遺跡攻略",
+    "enGuide": "Calendar 10/6 昼・攻略. Optional late quest dungeon. Complete its bounty, loot and Gold Beetle route in one trip and avoid wasteful backtracking."
+  },
+  {
+    "simpleJp": "10/7 昼・攻略：天の巨顔の依頼を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "天の巨顔攻略",
+    "enGuide": "Calendar 10/7 昼・攻略. Complete the Skybound Avatar/Sky Face objective as the reference route allows. Maintain pre-final-story quest progress; gather loot before leaving."
+  },
+  {
+    "simpleJp": "10/8 昼・闘技場：闘技場の王者戦を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "王者",
+    "enGuide": "Calendar 10/8 昼・闘技場. Coliseum Champion-level battle; make sure you reset your usual party setup afterward."
+  },
+  {
+    "simpleJp": "10/8 夜・闘技場：闘技場の上級連戦を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "腕試し連戦上級",
+    "enGuide": "Calendar 10/8 夜・闘技場. Finish Coliseum Advanced Gauntlet optional completion if prepared. Can be postponed into free October buffer."
+  },
+  {
+    "simpleJp": "10/9 昼・攻略：邪見の塔の竜の試練を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "邪見の塔攻略",
+    "enGuide": "Calendar 10/9 昼・攻略. Late dragon trial: prepare elemental resistances/dispels according to quest intel, clear the Tower of Insolence challenge, and report quest reward. This is a later high-level trip, different from the early tower bounty."
+  },
+  {
+    "simpleJp": "10/10 昼・依り代：ユーファの未作成依り代をまとめて作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "全ての依り代を作成",
+    "enGuide": "Calendar 10/10 昼・依り代. First-run completion: use accumulated mask/vessel materials to craft all Summoner Vessels where possible. Buy additional materials from shops on Virga Island if missing; extra drops farming isn't an obligatory story step."
+  },
+  {
+    "simpleJp": "10/10 昼・攻略：不遜の塔の竜の試練を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "不遜の塔攻略",
+    "enGuide": "Calendar 10/10 昼・攻略. Complete the late dragon trial at Tower of Ascendant/Arrogance. This is the later revisit, not the September side quest."
+  },
+  {
+    "simpleJp": "10/11 昼・攻略：盲信の塔の竜の試練を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "盲信の塔攻略",
+    "enGuide": "Calendar 10/11 昼・攻略. Finish the late dragon trial at Tower of Blind Faith. Collect any remaining objective loot on this revisit."
+  },
+  {
+    "simpleJp": "10/12 昼・攻略：竜宮神殿の終盤の依頼を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "竜宮神殿攻略",
+    "enGuide": "Calendar 10/12 昼・攻略. Revisit Dragon Temple for the last accessible late request. Report it to close relevant first-run quest chain."
+  },
+  {
+    "simpleJp": "10/13〜10/24 自由調整：不足している支援ランク・依頼・読書・料理を最優先で補完する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 10/13〜10/24 自由調整. Genuine spare time if you followed efficient early dungeon routing. Check all Followers R8, max Royal Virtues, completed all quest/bounty logs, read every purchased book (especially 『魔法的未来』), won all eight candidates' debates, cooked every recipe, visited scenic/unique towns, obtained all accessible Golden Beetles, and completed arena. These are flexible calendar days, NOT proof that each missing errand can be done on any one day; check day/night and travel availability."
+  },
+  {
+    "simpleJp": "10/24 夜・最終監査：全14人の支援ランクと各収集記録を見直す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "支援者ランク8",
+    "enGuide": "Calendar 10/24 夜・最終監査. Before the final free-action day audit every Follower R8, all remaining Gold Beetles (check all visited maps), missing recipe masks/vessels, collected books and debate records. If any item is locked by an earlier one-day event, acknowledge it cannot be recovered in current run; do not claim full 100% anyway."
+  },
+  {
+    "simpleJp": "10/25 昼・自由：最終自由日までに残りの依頼・王の資質・支援者を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "自由時間",
+    "enGuide": "Calendar 10/25 昼・自由. LAST FREE-ACTION DAY. Use remaining daytime slot only for missing activities that actually fit. Finish all remaining content before the ending sequence. A final same-day save at a functioning game save interface is recommended but is not a documented guide save checkpoint."
+  },
+  {
+    "simpleJp": "10/25 監査：全14人の支援ランク8を確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ランク8",
     "enGuide": "FINAL AUDIT before the last ordinary free-action day, October 25. Open the Followers menu and individually verify Gallica, Strohl, Hulkenberg, Heismay, Junah, Eupha, Basilio, Neuras, Maria, Catherina, Alonzo, Bardon, Brigitta, and More ALL read Rank 8. If any rank is missing, inspect the earlier quest/virtue/travel steps: discretionary Runner travel for Strohl/Hulkenberg/Heismay/Junah/Eupha/Basilio; Alonzo's Daturam conversation; Basilio's Vinca quest; Bardon's sandworm; Eupha's Hyperic; Neuras's relics plus Jin; More's Archetype trials. Prioritize the missing links before optional side content, and clear pending main-story dungeons early to avoid deadline-adjacent Follower lockouts."
   },
   {
-    "simpleJp": "10/25にランク8の支援者全員と会話する",
+    "simpleJp": "10/25 夜：支援者の別れの会話を確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Optional final-day epilogue: On October 25, after verifying every Follower is already Rank 8, visit/talk to them again wherever the game makes them available for their farewell conversations and commemorative key items. These do not replace any missed bond ranks; finish the all-14 Rank 8 requirement first."
   },
   {
-    "simpleJp": "【9/26以降の予定を割り当て】想像力5を得て昼のバジリオと話す",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "想像力5",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Basilio R6: Requires the MAX Imagination (想像力) rank 5 and the normal cooldown after R5. Talk to Basilio during the day in a town hub; skipping Virtue training here blocks his chain."
+    "simpleJp": "10/26 物語・最終決戦：最終作戦へ進んで本編をクリアする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "恐王星攻略",
+    "enGuide": "Calendar 10/26 物語・最終決戦. HARD FIRST-RUN TERMINAL: proceed with the final story battle only after October 25's all-content audit. NG+ (if desired) starts from a new playthrough after this first-run ending, never as an implicit continuation beyond the game ending."
   },
   {
-    "simpleJp": "【9/26以降の予定を割り当て】バジリオのランク6から2日後、昼に街で話す",
-    "jpGuide1": "RANK7",
-    "jpGuide2": "ランク7",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Basilio R7: Two days after R6, talk to him in daytime in an available town hub. R8 adds MAX Eloquence 5 plus a special brother-related battle request; prepare that before the endgame."
+    "simpleJp": "10/24 【条件調整】王都の大聖堂付近の兵士に話しかける",
+    "jpGuide1": "レガリス大聖堂前の募兵舎前にいる大聖堂の警備兵と会話",
+    "jpGuide2": "王国軍募兵舎近くにいる兵士",
+    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8."
   },
   {
-    "simpleJp": "【9/26以降の予定を割り当て】想像力4で夜のジュナと話す",
+    "simpleJp": "10/24 【条件調整】鎧戦車でジンの鎧戦車へ向かい戦闘に勝つ",
+    "jpGuide1": "ジンの鎧戦車に向かう",
+    "jpGuide2": "ジンの鎧戦車",
+    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 2: Use the Runner to travel to Jin's Gauntlet Runner and win the Jin boss fight. Complete the dialogue/reward sequence to finish the Gunner bond."
+  },
+  {
+    "simpleJp": "10/24 【条件調整】最上位アーキタイプを1つランク20にしてモアに報告する",
+    "jpGuide1": "いずれかの最上位アーキタイプをRANK20にする。",
+    "jpGuide2": "最上位アーキタイプ」をランク20",
+    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. More R8: Study any ONE Elite/highest-tier Archetype (最上位アーキタイプ) and raise its actual Archetype rank to 20, then hand in More's Final Chapter task at Akademia. Finish all prior More tasks in order: Healer R10, Gunner studied, Dealer R15, 15 Archetypes, General R15, 25 Archetypes. No regular social calendar slot or specific dialogue answer is needed."
+  },
+  {
+    "simpleJp": "10/24 【条件調整】想像力4で夜のジュナと話す",
     "jpGuide1": "想像力4",
     "jpGuide2": "想像力4",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R5: After Junah's R4 and a two-day cooldown, achieve Imagination 4 and talk to her in the Gauntlet Runner central passage at NIGHT."
+    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R5: After Junah's R4 and a two-day cooldown, achieve Imagination 4 and talk to her in the Gauntlet Runner central passage at NIGHT."
   },
   {
-    "simpleJp": "【9/26以降の予定を割り当て】ジュナのランク5から2日後、任意移動中に話す",
+    "simpleJp": "10/24 【条件調整】ジュナのランク5から2日後、任意移動中に話す",
     "jpGuide1": "鎧戦車で会話",
     "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
-  },
-  {
-    "simpleJp": "【9/26以降の予定を割り当て】ジュナのランク7から2日後、夜の鎧戦車で話す",
-    "jpGuide1": "RANK8",
-    "jpGuide2": "ランク8",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R8: Again at night in the Runner's central passage, two days after R7. Once completed, Masked Dancer's final bond effects unlock."
-  },
-  {
-    "simpleJp": "【9/26以降の予定を割り当て】暴走するハイペリックを止め、見識5でユーファと話す",
-    "jpGuide1": "暴走するハイペリックを止めろ",
-    "jpGuide2": "暴走するハイペリックを止めろ",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R7: Accept and complete 'Stop the Rampaging Hyperic' (暴走するハイペリックを止めろ), available during the later story, and reach Wisdom (見識) 5. Speak with Eupha in daytime to obtain R7. If this request is not yet offered, revisit after September's story transition."
-  },
-  {
-    "simpleJp": "【9/26以降の予定を割り当て】ユーファのランク7から2日後、任意移動中に話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead."
-  },
-  {
-    "simpleJp": "【9/26以降の予定を割り当て】2日後、夜のブライハーヴェンでダチュラムと話す",
-    "jpGuide1": "ダチュラム",
-    "jpGuide2": "ダチュラム",
-    "enGuide": "TRANSFERRED from September window to final month; date and free slot must be assigned before review. Alonzo R8: Two days after R7, do NOT hunt for the usual Alonzo icon: talk to Daturam (ダチュラム) at Brilehaven Angler's Inn Square at night and follow the conclusion of 'A Rake's Last Wish' (アロンゾの遺志を叶えろ). The alternate NPC is required to finish his Faker bond."
+    "enGuide": "UNSCHEDULED final-window requirement. Use actual available prior free slot, not necessarily 10/24. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
   }
 ]

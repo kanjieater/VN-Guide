@@ -9,19 +9,13 @@
     "simpleJp": "8/19 昼・受注：ビルガ島の依頼をまとめて受け、枯れ薬の材料を報告する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "枯れ薬の材料を探せ",
-    "enGuide": "Calendar 8/19 昼・受注. Finish and report the prerequisite 依頼『枯れ薬の材料を探せ』. Then speak with Junah in Dragon Statue Square for her snake-monster request. Take other Virga bounties and buy local intel before leaving the island."
+    "enGuide": "Calendar August 19 NO-TIME quest intake, separate from actual dungeon-clear daytime slot. First finish/report『枯れ薬の材料を探せ』at the Virga inn (材料 collected on the prior story run). Then accept Junah's『弔いを阻む蛇食い怪物を倒せ』at Dragon Statue Square, to be completed August 23 during the Circle Landmark journey, NOT August 19. Pick up all other available Virga bounties before leaving."
   },
   {
     "simpleJp": "8/19 昼・攻略：竜宮神殿の本作戦を攻略する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "竜宮神殿攻略",
-    "enGuide": "Calendar 8/19 昼・攻略. Clear Dragon Temple well before the September 5 story deadline. Collect Gold Beetles and one-time materials, especially White Masks where available; avoid replacing a valuable free day with repeat dungeon trips."
-  },
-  {
-    "simpleJp": "8/19 依頼・昼：8/19以降、先に「枯れ薬の材料を探せ」を完了し、ジュナの「弔いを阻む蛇食い怪物を倒せ」を達成する",
-    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
-    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
-    "enGuide": "Calendar 8/19 依頼・昼. Junah R1: First finish the Virga Island request 枯れ薬の材料を探せ (Find the Ingredients for the Secret Potion); this unlocks Junah's snake request. After August 19, speak to Junah at Dragon Statue Square, accept 弔いを阻む蛇食い怪物を倒せ, travel to 円環のしるべ, defeat the boss, and complete the request to establish the Masked Dancer Follower. Recruitment alone is not R1. Set A states the preceding quest; GameWith's dedicated quest page independently confirms it."
+    "enGuide": "Calendar August 19 SINGLE daytime story dungeon. Clear Dragon Temple main operation, collect its one-time loot and beetles, and return to Virga. Do not also attempt the Circle Landmark snake-monster quest this day; that is routed August 23. If story clearance needs a second day, use a verified spare slot and shift optional errands."
   },
   {
     "simpleJp": "8/19 【収集・時間消費なし】黄金蟲22：ビルガ島の首長の家の付近を調べる",
@@ -66,10 +60,10 @@
     "enGuide": "8/19 期限・受注. After reaching Virga and the August 19 request window, get the guided-doll material request; retrieve the listed doll materials in the accessible Dragon Temple and report no later than August 30."
   },
   {
-    "simpleJp": "8/19 読書・予備：『※秘※詩集※見るな※』を読み進める",
+    "simpleJp": "8/19 夜・読書：『※秘※詩集※見るな※』を2回目まで読む",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 8/19 読書・予備. Second unique Poetry Collection session, on an actually available Runner slot; don't overlap a mandatory story slot."
+    "enGuide": "Calendar August 19 NIGHT, only if the story releases a real Gauntlet Runner evening after Dragon Temple; otherwise use the Aug 20 travel night in place of the non-mandatory cooking slot. This is one of three unique Poetry Collection reading sessions and does not share the main dungeon daytime slot."
   },
   {
     "simpleJp": "8/19 【受注・時間なし】宿前水汲み場で『無謀な研究者の仇を討て』を受注する",
@@ -138,10 +132,16 @@
     "enGuide": "Calendar 8/22 夜・資質. Flexible Courage practice; avoid traveling solely for this if a comparable nearby action is available."
   },
   {
+    "simpleJp": "8/23 【円環のしるべ・依頼報告】蛇食い怪物を倒しジュナのランク1を解放する",
+    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
+    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
+    "enGuide": "Calendar August 23, NOT August 19. Junah R1: On Aug 19 report『枯れ薬の材料を探せ』at Virga Island inn and accept『弔いを阻む蛇食い怪物を倒せ』from Junah at Dragon Statue Square, but do NOT attempt this separate side dungeon on main Dragon Temple day. On Aug 23 travel to 円環のしるべ, defeat the snake-eating monster and REPORT back to Junah to unlock Masked Dancer R1. This shares the existing Aug 23 円環のしるべ dungeon visit. Her R2 is Aug 27 after cooldown; no extra Aug 19 dungeon."
+  },
+  {
     "simpleJp": "8/23 昼・攻略：円環のしるべの探索と依頼を完了する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "円環のしらべ攻略",
-    "enGuide": "Calendar 8/23 昼・攻略. Explore the Circle/Landmark dungeon on its available side quest, and search BOTH Golden Beetle spots before leaving. Cooking/reading may fit during Runner legs."
+    "enGuide": "Calendar August 23 SINGLE side-dungeon visit: travel to Circle Landmark (円環のしるべ), defeat quest monster requested by Junah, gather the two Golden Beetles (1F eastern junction, 2F north dead-end), return and report to Junah for her Rank 1; the quest acceptance happened Aug 19 and this does not require a second Aug 19 dungeon."
   },
   {
     "simpleJp": "8/23 夜・料理：鎧戦車で新しい料理を作る",

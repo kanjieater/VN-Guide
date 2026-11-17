@@ -30,6 +30,24 @@
     "enGuide": "Calendar 7/2 夜・読書. Read Eloquence book during travel; target Eloquence 2"
   },
   {
+    "simpleJp": "7/2 【収集・時間消費なし】黄金蟲7：マルティラ宿ビスカ・アルバの暖炉を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #7 of 50 — Martira Visca Alba inn: check the lit fireplace in the tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/2 【収集・時間消費なし】黄金蟲8：マルティラ宿ビスカ・アルバ客室の水差しを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #8 of 50 — Martira Visca Alba guest room: interact with jug; if nothing appears, retry on a later date. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/2 【移動前・収集】マルティラの宿の黄金蟲を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/2 移動前・収集. Pick up both the Visca Alba tavern fireplace beetle and guest-room jug beetle while you are in Martira, before proceeding to Sandworm's Nest."
+  },
+  {
     "simpleJp": "7/3 物語：大砂蟲の巣の物語を進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -96,10 +114,16 @@
     "enGuide": "Calendar 7/8 昼. Heismay R3: On an eligible day, talk to him in the Runner's central corridor, daytime, two days after R2. Use a free slot on a town-stationary day when the icon appears."
   },
   {
-    "simpleJp": "7/8 夜・資質：ささやき亭の料理手伝いで包容力を鍛える",
+    "simpleJp": "7/8 【置換】旧通常手伝いは実施しない",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ささやき亭で手伝う",
-    "enGuide": "Calendar 7/8 夜・資質. Flexible Tolerance slot, can swap to another Royal Virtue activity"
+    "enGuide": "Do not consume an additional 7/8 night. Perform the Maria R2+ Fabienne co-helper missable activity on this one evening instead; it also contributes Tolerance."
+  },
+  {
+    "simpleJp": "7/8 【夜・時限】マリア2以上でファビアンヌと一緒に調理を手伝う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/8 夜・時限. MISSABLE ‘看板娘と裏方’ achievement: after Maria R2, help Fabienne at Honeybee Inn at NIGHT with Maria participating. Finish before Sept 26. This consumes the evening; swap out the generic Tolerance helper step already scheduled for 7/8 (not a second evening)."
   },
   {
     "simpleJp": "7/9 昼・旅行：人喰い洞窟へ出発してコメロ村に立ち寄る",
@@ -112,6 +136,12 @@
     "jpGuide1": "ネジのついた鉱物",
     "jpGuide2": "遺物を知る人物を探せ",
     "enGuide": "Calendar 7/9 遺物. Neuras relic #1 of 6: Visit Man-Eater's Grotto, obtain the screw-topped mineral (ネジのついた鉱物) and return it to Neuras in the Gauntlet Runner at night. This advances one rank among R2–R7; the six relics can be delivered in any order."
+  },
+  {
+    "simpleJp": "7/9 【収集・時間消費なし】黄金蟲11：人喰い洞窟最下層の北側で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #11 of 50 — Man-Eater's Grotto deepest floor: northern stair-area gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "7/10 昼：2日後、王都のマリアと話して支援ランク4にする",
@@ -130,6 +160,12 @@
     "jpGuide1": "RANK4",
     "jpGuide2": "ランク4",
     "enGuide": "Calendar 7/10 夜. Heismay R4: Talk in the central corridor at night, two days after R3. Save upcoming discretionary travel for his R5."
+  },
+  {
+    "simpleJp": "7/10 【期限・報告】『伝書鳩の卵を届けろ』を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/10 期限・報告. Bring egg assortment purchased at Komero on July 9 back to the Grand Trad quest giver and hand in by July 11; teleport/shop/quest report are time-free when available. Make sure it is marked completed in Quest menu."
   },
   {
     "simpleJp": "7/11 昼・旅行：打ち捨てられた墓へ向かう",
@@ -154,6 +190,12 @@
     "jpGuide1": "RANK5",
     "jpGuide2": "鎧戦車で移動中",
     "enGuide": "Calendar 7/12 鎧戦車. Heismay R5: Two days after R4, speak with Heismay during a discretionary Gauntlet Runner journey in daytime/on the deck. Do not assume forced story travel counts."
+  },
+  {
+    "simpleJp": "7/12 【収集・時間消費なし】黄金蟲10：打ち捨てられた墓の指輪部屋南の奥で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #10 of 50 — Abandoned Tomb: south from the room with Malveno's ring, dead end across the grating. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "7/13 昼：さらに2日後、王都のマリアと話してランク5にする",

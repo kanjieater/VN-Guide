@@ -132,16 +132,16 @@
     "enGuide": "Calendar 8/22 夜・資質. Flexible Courage practice; avoid traveling solely for this if a comparable nearby action is available."
   },
   {
-    "simpleJp": "8/23 【円環のしるべ・依頼報告】蛇食い怪物を倒しジュナのランク1を解放する",
-    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
-    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
-    "enGuide": "Calendar August 23, NOT August 19. Junah R1: On Aug 19 report『枯れ薬の材料を探せ』at Virga Island inn and accept『弔いを阻む蛇食い怪物を倒せ』from Junah at Dragon Statue Square, but do NOT attempt this separate side dungeon on main Dragon Temple day. On Aug 23 travel to 円環のしるべ, defeat the snake-eating monster and REPORT back to Junah to unlock Masked Dancer R1. This shares the existing Aug 23 円環のしるべ dungeon visit. Her R2 is Aug 27 after cooldown; no extra Aug 19 dungeon."
-  },
-  {
-    "simpleJp": "8/23 昼・攻略：円環のしるべの探索と依頼を完了する",
+    "simpleJp": "8/23 昼・攻略：円環のしるべへ移動し、探索・黄金蟲回収後に蛇食い怪物を倒す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "円環のしらべ攻略",
-    "enGuide": "Calendar August 23 SINGLE side-dungeon visit: travel to Circle Landmark (円環のしるべ), defeat quest monster requested by Junah, gather the two Golden Beetles (1F eastern junction, 2F north dead-end), return and report to Junah for her Rank 1; the quest acceptance happened Aug 19 and this does not require a second Aug 19 dungeon."
+    "enGuide": "Single Circle Landmark visit on Aug 23: travel, explore, collect the two beetles, defeat the snake-eating quest boss. Report only in the next no-time step."
+  },
+  {
+    "simpleJp": "8/23 攻略後・報告（時間なし）：ジュナに『弔いを阻む蛇食い怪物を倒せ』を報告しR1を解放する",
+    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
+    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
+    "enGuide": "After the Aug 23 Circle Landmark boss, return and report to Junah for R1; do not repeat the dungeon. The request was accepted Aug 19."
   },
   {
     "simpleJp": "8/23 夜・料理：鎧戦車で新しい料理を作る",

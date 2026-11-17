@@ -1,0 +1,19 @@
+{
+  "vndb_id": "game:metaphor-refantazio",
+  "title": "Metaphor: ReFantazio",
+  "alttitle": "メタファー：リファンタジオ",
+  "cover_url": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2406/e148dc7fa4658360199188e1ed14f9d79d3adeec84c82162.png",
+  "cover_selection": {
+    "source": "Official PlayStation digital cover art; identical title artwork used in general release marketing",
+    "verification_url": "https://store.playstation.com/es-mx/concept/10001029",
+    "aspect_class": "square",
+    "reason": "Verified official square image retains full legible game title and principal ensemble after centered portrait crop; no PC-edition portrait verified in this pass."
+  },
+  "added_at": "2026-11-17",
+  "guide_target": {
+    "label": "メタファー：リファンタジオ（Steam通常版・日本語対応、2024年）",
+    "platform": "Windows (Steam)",
+    "url": "https://store.steampowered.com/app/2679460/Metaphor_ReFantazio/?l=japanese"
+  },
+  "guide_target_origin": "automatic"
+}

@@ -1,140 +1,158 @@
 [
   {
-    "simpleJp": "9/13以降、任意の鎧戦車移動中にバジリオと話す",
+    "simpleJp": "9/13 昼・受注：アルタベリーで新しい依頼と賞金首をまとめて受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "依頼3件を受注",
+    "enGuide": "Calendar 9/13 昼・受注. New city request window: take all available bounties and side quests, get the informant notes, visit local collectors/shopkeepers and prepare the Everfrost Forest trip. Keep the main plot September 22 deadline protected."
+  },
+  {
+    "simpleJp": "9/13 昼・旅行：常氷樹林へ向かい氷森の魔物を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "常氷樹林攻略",
+    "enGuide": "Calendar 9/13 昼・旅行. Combine the Everfrost Forest bounty with Neuras's handled rock relic. Search chest and Golden Beetle locations; use voluntary Runner travel to initiate Basilio's bond."
+  },
+  {
+    "simpleJp": "9/13 鎧戦車・昼：9/13以降、任意の鎧戦車移動中にバジリオと話す",
     "jpGuide1": "鎧戦車で会話",
     "jpGuide2": "初期ランク",
-    "enGuide": "Basilio R1: Once he becomes a permanent party member around September 13, initiate his Follower bond by talking to him during discretionary Gauntlet Runner travel in daytime. This opens Berserker. The main-story recruitment alone need not immediately grant a bond rank."
+    "enGuide": "Calendar 9/13 鎧戦車・昼. Basilio R1: Once he becomes a permanent party member around September 13, initiate his Follower bond by talking to him during discretionary Gauntlet Runner travel in daytime. This opens Berserker. The main-story recruitment alone need not immediately grant a bond rank."
   },
   {
-    "simpleJp": "バジリオのランク1から2日後、昼に街で話す",
-    "jpGuide1": "RANK2",
-    "jpGuide2": "ランク2",
-    "enGuide": "Basilio R2: Two days after his first Gauntlet Runner event, approach Basilio in a city/town hub during the day and take the rank-up conversation."
-  },
-  {
-    "simpleJp": "バジリオのランク2から2日後、任意移動中に話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Basilio R3: During a discretionary daytime Gauntlet Runner journey after the two-day cooldown, approach him in the central passage. Reserve a side-trip; forced story travel may not count."
-  },
-  {
-    "simpleJp": "バジリオのランク3から2日後、昼に街で話す",
-    "jpGuide1": "RANK4",
-    "jpGuide2": "ランク4",
-    "enGuide": "Basilio R4: At least two days after his travel R3, meet him in an eligible daytime town hub. The map's bond marker identifies the current city location."
-  },
-  {
-    "simpleJp": "バジリオのランク4から2日後、昼に街で話す",
-    "jpGuide1": "RANK5",
-    "jpGuide2": "ランク5",
-    "enGuide": "Basilio R5: Two days after R4, talk to Basilio during a daytime town free-action slot. Begin prioritizing Imagination 5 for R6."
-  },
-  {
-    "simpleJp": "想像力5を得て昼のバジリオと話す",
-    "jpGuide1": "RANK6",
-    "jpGuide2": "想像力5",
-    "enGuide": "Basilio R6: Requires the MAX Imagination (想像力) rank 5 and the normal cooldown after R5. Talk to Basilio during the day in a town hub; skipping Virtue training here blocks his chain."
-  },
-  {
-    "simpleJp": "バジリオのランク6から2日後、昼に街で話す",
-    "jpGuide1": "RANK7",
-    "jpGuide2": "ランク7",
-    "enGuide": "Basilio R7: Two days after R6, talk to him in daytime in an available town hub. R8 adds MAX Eloquence 5 plus a special brother-related battle request; prepare that before the endgame."
-  },
-  {
-    "simpleJp": "9/13以降、夜のアルタベリー蒼穹橋でキャゼリナと話す",
-    "jpGuide1": "夜のアルタベリーの蒼穹橋",
-    "jpGuide2": "蒼穹橋",
-    "enGuide": "Catherina R5: After winning her three earlier road challenges, find Catherina from September 13 onward at Altabury's Skybound Bridge (蒼穹橋) at NIGHT. If missing, ensure the Tower of Insolence Gauntlet Runner fight for her R4 happened."
-  },
-  {
-    "simpleJp": "包容力5を得て夜のキャゼリナと話す",
-    "jpGuide1": "包容力5",
-    "jpGuide2": "包容力5",
-    "enGuide": "Catherina R6: Requires Tolerance (包容力) 5 and at least two days after R5. Meet her at Altabury Skybound Bridge at night."
-  },
-  {
-    "simpleJp": "キャゼリナのランク6から2日後、夜に話す",
-    "jpGuide1": "RANK7",
-    "jpGuide2": "ランク7",
-    "enGuide": "Catherina R7: Two days after R6, meet her again at night on Altabury's Skybound Bridge. Save a further night for R8 once eligible."
-  },
-  {
-    "simpleJp": "想像力4で夜のジュナと話す",
-    "jpGuide1": "想像力4",
-    "jpGuide2": "想像力4",
-    "enGuide": "Junah R5: After Junah's R4 and a two-day cooldown, achieve Imagination 4 and talk to her in the Gauntlet Runner central passage at NIGHT."
-  },
-  {
-    "simpleJp": "ジュナのランク5から2日後、任意移動中に話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
-  },
-  {
-    "simpleJp": "ジュナのランク6から2日後、夜の鎧戦車で話す",
-    "jpGuide1": "RANK7",
-    "jpGuide2": "ランク7",
-    "enGuide": "Junah R7: Return to the Runner central passage at night after the two-day cooldown; no separate Virtue gate is listed."
-  },
-  {
-    "simpleJp": "ジュナのランク7から2日後、夜の鎧戦車で話す",
-    "jpGuide1": "RANK8",
-    "jpGuide2": "ランク8",
-    "enGuide": "Junah R8: Again at night in the Runner's central passage, two days after R7. Once completed, Masked Dancer's final bond effects unlock."
-  },
-  {
-    "simpleJp": "説得力4で昼のユーファと話す",
-    "jpGuide1": "説得力4",
-    "jpGuide2": "説得力4",
-    "enGuide": "Eupha R6: With Eloquence 4, approach Eupha during a daytime free-action slot at least two days after R5. Her next rank is not a simple two-day chat; complete the Hyperic quest and Wisdom 5 first."
-  },
-  {
-    "simpleJp": "暴走するハイペリックを止め、見識5でユーファと話す",
-    "jpGuide1": "暴走するハイペリックを止めろ",
-    "jpGuide2": "暴走するハイペリックを止めろ",
-    "enGuide": "Eupha R7: Accept and complete 'Stop the Rampaging Hyperic' (暴走するハイペリックを止めろ), available during the later story, and reach Wisdom (見識) 5. Speak with Eupha in daytime to obtain R7. If this request is not yet offered, revisit after September's story transition."
-  },
-  {
-    "simpleJp": "ユーファのランク7から2日後、任意移動中に話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead."
-  },
-  {
-    "simpleJp": "常氷樹林の遺物を回収し夜にニューラスへ渡す",
+    "simpleJp": "9/13 遺物回収：常氷樹林の遺物を回収し夜にニューラスへ渡す",
     "jpGuide1": "取っ手がついた岩",
     "jpGuide2": "取っ手がついた岩",
-    "enGuide": "Neuras relic #5 of 6: Take 'The White Beast in the Frozen Forest' (凍てつく森の白き獣), travel to Everfrost Forest (常氷樹林), collect the handled rock (取っ手がついた岩) and give it to Neuras at night aboard the Runner. This advances the fifth of his six relic ranks if the earlier four were delivered."
+    "enGuide": "Calendar 9/13 遺物回収. Neuras relic #5 of 6: Take 'The White Beast in the Frozen Forest' (凍てつく森の白き獣), travel to Everfrost Forest (常氷樹林), collect the handled rock (取っ手がついた岩) and give it to Neuras at night aboard the Runner. This advances the fifth of his six relic ranks if the earlier four were delivered."
   },
   {
-    "simpleJp": "勇気5で夜のアロンゾと話す",
-    "jpGuide1": "勇気5",
-    "jpGuide2": "勇気5",
-    "enGuide": "Alonzo R7: MAX Courage (勇気) 5 required. At least two days after his daytime R6, return to Brilehaven Angler's Inn Square at NIGHT and trigger his R7 story. This is a major high-level Royal Virtue gate; prioritize Courage training ahead of time."
+    "simpleJp": "9/14 昼・期間限定：ジュリアンと討論する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ジュリアンと討論",
+    "enGuide": "Calendar 9/14 昼・期間限定. FINAL limited candidate debate: challenge Julian in Altabury and answer that immediate practical matters also count. This completes the eight debate contenders if all earlier appearances were done."
   },
   {
-    "simpleJp": "2日後、夜のブライハーヴェンでダチュラムと話す",
-    "jpGuide1": "ダチュラム",
-    "jpGuide2": "ダチュラム",
-    "enGuide": "Alonzo R8: Two days after R7, do NOT hunt for the usual Alonzo icon: talk to Daturam (ダチュラム) at Brilehaven Angler's Inn Square at night and follow the conclusion of 'A Rake's Last Wish' (アロンゾの遺志を叶えろ). The alternate NPC is required to finish his Faker bond."
-  },
-  {
-    "simpleJp": "9/23の王都への帰還でガリカのランク7を確認する",
-    "jpGuide1": "メインストーリー進行",
-    "jpGuide2": "ランク7",
-    "enGuide": "Gallica R7: Automatic once the September 23 story return to Grand Trad resolves."
-  },
-  {
-    "simpleJp": "9/24の物語の戦闘後、ガリカのランク8を確認する",
-    "jpGuide1": "メインストーリー進行",
-    "jpGuide2": "ランク8",
-    "enGuide": "Gallica R8: Automatic after the September 24 main-story battle. This finishes her Mage bond without an optional activity slot."
-  },
-  {
-    "simpleJp": "9月中に足りない王の資質を鍛える",
+    "simpleJp": "9/14 夜：9月中に足りない王の資質を鍛える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "王の資質",
-    "enGuide": "Late-game Virtue checkpoint: To avoid being blocked on October 25, work toward ALL five rank-5 Royal Virtues: Courage 5 (Alonzo R7), Wisdom 5 (Eupha R7), Tolerance 5 (Catherina R6), Eloquence 5 (Basilio R8), Imagination 5 (Basilio R6). Their lower ranks also gate several earlier bonds. Use spare day/night slots, travel books and available Virtue activities; no dialogue-answer optimisation is required."
+    "enGuide": "Calendar 9/14 夜. Late-game Virtue checkpoint: To avoid being blocked on October 25, work toward ALL five rank-5 Royal Virtues: Courage 5 (Alonzo R7), Wisdom 5 (Eupha R7), Tolerance 5 (Catherina R6), Eloquence 5 (Basilio R8), Imagination 5 (Basilio R6). Their lower ranks also gate several earlier bonds. Use spare day/night slots, travel books and available Virtue activities; no dialogue-answer optimisation is required."
+  },
+  {
+    "simpleJp": "9/15 昼：バジリオのランク1から2日後、昼に街で話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Calendar 9/15 昼. Basilio R2: Two days after his first Gauntlet Runner event, approach Basilio in a city/town hub during the day and take the rank-up conversation."
+  },
+  {
+    "simpleJp": "9/15 夜・遺物報告：ニューラスに回収済み遺物を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ニューラス",
+    "enGuide": "Calendar 9/15 夜・遺物報告. Submit any still-unreported relic from Everfrost Forest. The relic order is flexible, but all six must be turned in before Neuras R8 can open."
+  },
+  {
+    "simpleJp": "9/16 昼：説得力4で昼のユーファと話す",
+    "jpGuide1": "説得力4",
+    "jpGuide2": "説得力4",
+    "enGuide": "Calendar 9/16 昼. Eupha R6: With Eloquence 4, approach Eupha during a daytime free-action slot at least two days after R5. Her next rank is not a simple two-day chat; complete the Hyperic quest and Wisdom 5 first."
+  },
+  {
+    "simpleJp": "9/16 夜：9/13以降、夜のアルタベリー蒼穹橋でキャゼリナと話す",
+    "jpGuide1": "夜のアルタベリーの蒼穹橋",
+    "jpGuide2": "蒼穹橋",
+    "enGuide": "Calendar 9/16 夜. Catherina R5: After winning her three earlier road challenges, find Catherina from September 13 onward at Altabury's Skybound Bridge (蒼穹橋) at NIGHT. If missing, ensure the Tower of Insolence Gauntlet Runner fight for her R4 happened."
+  },
+  {
+    "simpleJp": "9/17 昼・攻略：不遜の塔の依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "不遜の塔攻略",
+    "enGuide": "Calendar 9/17 昼・攻略. Optional combat dungeon; gather unique treasure and any beetle before leaving. Avoid scheduling a town day/night social action on the same dungeon's travel day unless the Runner legitimately provides it."
+  },
+  {
+    "simpleJp": "9/17 鎧戦車・昼：バジリオのランク2から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 9/17 鎧戦車・昼. Basilio R3: During a discretionary daytime Gauntlet Runner journey after the two-day cooldown, approach him in the central passage. Reserve a side-trip; forced story travel may not count."
+  },
+  {
+    "simpleJp": "9/18 昼・攻略：ウルカノ山の依頼を進め、遺物を入手する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ウルカノ火山攻略",
+    "enGuide": "Calendar 9/18 昼・攻略. Travel to Mt Vulkano; complete the unlocked side-request and pick up Neuras's patchwork sphere plus the rusted greatsword for related quest turn-ins. Avoid duplicate travel later."
+  },
+  {
+    "simpleJp": "9/19 昼：バジリオのランク3から2日後、昼に街で話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 9/19 昼. Basilio R4: At least two days after his travel R3, meet him in an eligible daytime town hub. The map's bond marker identifies the current city location."
+  },
+  {
+    "simpleJp": "9/19 夜・遺物報告：ニューラスに六つ目の遺物を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ニューラス7",
+    "enGuide": "Calendar 9/19 夜・遺物報告. Neuras progresses through R7 after all six relic turn-ins. If the relic sequence is incomplete, use the first eligible night to finish; don't assume the sixth relic itself magically completes R8."
+  },
+  {
+    "simpleJp": "9/20 昼・依頼：王都の募兵舎前で兵士に話してジンを探す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ジンの鎧戦車に向かう",
+    "enGuide": "Calendar 9/20 昼・依頼. Neuras final bond trigger: after six relic hand-ins talk to the soldier near the recruitment centre / Regalith Cathedral; then take the Runner to Jin's Gauntlet Runner and win the boss battle. Consider Thief Steal for an optional special weapon."
+  },
+  {
+    "simpleJp": "9/20 夜：包容力5を得て夜のキャゼリナと話す",
+    "jpGuide1": "包容力5",
+    "jpGuide2": "包容力5",
+    "enGuide": "Calendar 9/20 夜. Catherina R6: Requires Tolerance (包容力) 5 and at least two days after R5. Meet her at Altabury Skybound Bridge at night."
+  },
+  {
+    "simpleJp": "9/21 昼：バジリオのランク4から2日後、昼に街で話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 9/21 昼. Basilio R5: Two days after R4, talk to Basilio during a daytime town free-action slot. Begin prioritizing Imagination 5 for R6."
+  },
+  {
+    "simpleJp": "9/21 夜：ジュナのランク6から2日後、夜の鎧戦車で話す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "ランク7",
+    "enGuide": "Calendar 9/21 夜. Junah R7: Return to the Runner central passage at night after the two-day cooldown; no separate Virtue gate is listed."
+  },
+  {
+    "simpleJp": "9/22 昼・闘技場：闘技場の金級に挑む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "金3級",
+    "enGuide": "Calendar 9/22 昼・闘技場. Continue Coliseum Gold 3 (optional first-run completion); restore party composition afterward. If the story operation is still uncleared, prioritize its deadline first."
+  },
+  {
+    "simpleJp": "9/22 夜：キャゼリナのランク6から2日後、夜に話す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "ランク7",
+    "enGuide": "Calendar 9/22 夜. Catherina R7: Two days after R6, meet her again at night on Altabury's Skybound Bridge. Save a further night for R8 once eligible."
+  },
+  {
+    "simpleJp": "9/23 物語：王都への物語の展開を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 9/23 物語. Story-driven chapter transition; do not presume normal free slots. Check rank progress after the scene."
+  },
+  {
+    "simpleJp": "9/23 物語：9/23の王都への帰還でガリカのランク7を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク7",
+    "enGuide": "Calendar 9/23 物語. Gallica R7: Automatic once the September 23 story return to Grand Trad resolves."
+  },
+  {
+    "simpleJp": "9/24 取り逃し注意：エルダの古仙郷・光の広場で黄金蟲を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "光の広場で黄金蟲を回収",
+    "enGuide": "Calendar 9/24 取り逃し注意. TRUE MISSABLE: during this one-day visit to Eldan Sanctum, immediately find the Gold Beetle in the Plaza of Light before leaving or triggering the next objective; ordinary return travel is not available. This should be checked BEFORE progressing the plot."
+  },
+  {
+    "simpleJp": "9/24 物語：9/24の物語の戦闘後、ガリカのランク8を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク8",
+    "enGuide": "Calendar 9/24 物語. Gallica R8: Automatic after the September 24 main-story battle. This finishes her Mage bond without an optional activity slot."
+  },
+  {
+    "simpleJp": "9/25 物語：次の期限の最終自由期間に備える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 9/25 物語. Story transition into final September 26–October 25 free-action month. Prepare remaining quests, dragon trials, arena, first-run bonds and books in your quest log before taking the final plot mission."
   }
 ]

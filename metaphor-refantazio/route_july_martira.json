@@ -24,6 +24,24 @@
     "enGuide": "7/1, 受注・期限: After the prior Goblin King or Man-Eater Worm bounty, speak to irate noble on Grand Trad Sunlumeo Street; retrieve heirloom in the Catacombs and report by JULY 30. Combine with July 1 Catacombs sweep. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
+    "simpleJp": "7/2 出発前・時間なし：黄金蟲7・マルティラ宿ビスカ・アルバの暖炉を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #7 of 50 — Martira Visca Alba inn: check the lit fireplace in the tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/2 出発前・時間なし：黄金蟲8・マルティラ宿ビスカ・アルバ客室の水差しを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #8 of 50 — Martira Visca Alba guest room: interact with jug; if nothing appears, retry on a later date. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/2 出発前・確認：宿の黄金蟲7・8を回収済みにする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/2 移動前・収集. Pick up both the Visca Alba tavern fireplace beetle and guest-room jug beetle while you are in Martira, before proceeding to Sandworm's Nest."
+  },
+  {
     "simpleJp": "7/2 昼・移動：マルティラから大砂蟲の巣へ向かう",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "鎧戦車で移動",
@@ -36,34 +54,16 @@
     "enGuide": "Calendar 7/2 昼. Catherina R2: During the story travel leg OUT of Martira toward the Great Sandworm's Nest (July 2 or later), win her daytime Gauntlet Runner encounter. Do not look for this fight on the incoming journey to Martira or substitute a town conversation. Set B specifies the outgoing leg; Set A confirms a July 2+ event battle without naming the leg."
   },
   {
+    "simpleJp": "7/2 鎧戦車・昼（空きがある場合のみ）：『頷かせる技術』を読む。キャゼリナ戦で昼枠を使う場合はこの読書を未完了として残す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Optional ONLY if the outgoing Catherina encounter does not occupy the daytime Runner activity. Otherwise this reading remains pending; it is not a second guaranteed 7/2 daytime action."
+  },
+  {
     "simpleJp": "7/2 夜・読書：『頷かせる技術』を読む",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "頷かせる技術を読む",
     "enGuide": "Calendar 7/2 夜・読書. Read Eloquence book during travel; target Eloquence 2"
-  },
-  {
-    "simpleJp": "7/2 【収集・時間消費なし】黄金蟲7：マルティラ宿ビスカ・アルバの暖炉を調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Gold Beetle #7 of 50 — Martira Visca Alba inn: check the lit fireplace in the tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
-  },
-  {
-    "simpleJp": "7/2 【収集・時間消費なし】黄金蟲8：マルティラ宿ビスカ・アルバ客室の水差しを調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Gold Beetle #8 of 50 — Martira Visca Alba guest room: interact with jug; if nothing appears, retry on a later date. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
-  },
-  {
-    "simpleJp": "7/2 【移動前・収集】マルティラの宿の黄金蟲を回収する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "7/2 移動前・収集. Pick up both the Visca Alba tavern fireplace beetle and guest-room jug beetle while you are in Martira, before proceeding to Sandworm's Nest."
-  },
-  {
-    "simpleJp": "7/2 昼・読書：『頷かせる技術』を2回目まで読む",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 7/2 昼・読書. Three unique reading sessions: June 25 night, July 2 day and July 2 night. If Catherina story event blocks reading, use another actual Gauntlet Runner travel slot."
   },
   {
     "simpleJp": "7/3 物語：大砂蟲の巣の物語を進める",

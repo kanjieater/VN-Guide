@@ -12,6 +12,18 @@
     "enGuide": "Calendar 7/1 受注・時間なし. With Imagination 2, speak to Cuculus in Martira Thoroughfare Square. Ring will be collected July 11–12 in Abandoned Tomb and reported July 13; quest acceptance itself is no-time."
   },
   {
+    "simpleJp": "7/1 【受注・期限】『魔除けの頭蓋骨を探せ』を地下納骨堂の兵士から受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/1, 受注・期限: Once Goblin King or Man-Eater Worm bounty is completed, speak to the fidgety soldier at Grand Trad Catacombs entrance, collect the skull from the relevant dungeon route, and return to him by JULY 30; do not merely accept it. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/1 【受注・期限】『家宝の首飾りを取り返せ』を王都の貴族から受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/1, 受注・期限: After the prior Goblin King or Man-Eater Worm bounty, speak to irate noble on Grand Trad Sunlumeo Street; retrieve heirloom in the Catacombs and report by JULY 30. Combine with July 1 Catacombs sweep. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "7/2 昼・移動：マルティラから大砂蟲の巣へ向かう",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "鎧戦車で移動",
@@ -82,6 +94,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "クリアンテ城攻略",
     "enGuide": "Calendar 7/5 昼・攻略. Early single-day castle clear; gather unique chests and optional Steal equipment; before July 16 deadline"
+  },
+  {
+    "simpleJp": "7/5 【受注・時間なし】募兵舎で『鉱山を荒らす人喰い蟲』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/5, 受注・時間なし: From July 5, accept the mining Man-Eater Worm bounty at a recruitment centre. Kill the quarry target during July 9 Man-Eater's Grotto expedition and return to claim bounty + Courage. This does not consume a separate bond slot. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "7/6 昼・受注：マルティラで新たな依頼を受ける",
@@ -220,6 +238,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "料理人を唸らせる一皿",
     "enGuide": "Calendar 7/13 夜・報告. Report cooking dish and Alonzo ring quest if still outstanding"
+  },
+  {
+    "simpleJp": "7/13 【期限・報告】『魔除けの頭蓋骨を探せ』と『家宝の首飾りを取り返せ』を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/13, 期限・報告: Return to the original Catacombs entrance soldier and Grand Trad Sunlumeo Street noble after obtaining their specific objective items; verify both quest log entries marked completed BEFORE the July 30 cutoff. This hand-in uses town travel/teleport, not a second daytime action. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "7/14 昼：マルティラの主作戦を終えてバードンの支援ランク1を確認する",

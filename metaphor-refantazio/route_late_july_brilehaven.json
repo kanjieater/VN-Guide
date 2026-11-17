@@ -18,6 +18,48 @@
     "enGuide": "Calendar 7/23 夜・資質. Tolerance practice; use this night rather than wasting a day slot, but prioritize a candidate debate if you have not done it."
   },
   {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲12：ブライハーヴェン海風通りの西船着き場を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #12 of 50 — Brilehaven Sea Breeze Street: west dock, crates below the slope. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲13：ブライハーヴェン海風通り東の路地奥を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #13 of 50 — Brilehaven Sea Breeze Street: alley on the east, northern dead end. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲14：ブライハーヴェン交易市場・黒猫の爪の左の箱を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #14 of 50 — Brilehaven Merchant's Bazaar: beside the Black Cat's Claw shop, in the crate lot. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲15：ブライハーヴェン海軍募兵舎の敷地の箱を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #15 of 50 — Brilehaven Oceana navy recruitment building: interact with crates on the grounds. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲16：闘技場前波止場の北東にある木箱を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #16 of 50 — Brilehaven Arenafront Wharf: northeast crates, past the elderly beetle collector. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【期限・受注】『虫歯に効く道具を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23 期限・受注. Quest giver is the listless man at Brilehaven Sea Breeze Street. You must buy premium toothbrush in Inundo and report by August 9 for a Gold Beetle reward (#21)."
+  },
+  {
+    "simpleJp": "7/23 【期限・受注】『港町にはない花を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23 期限・受注. Obtain the specified specialty flower from a village merchant while traveling for other side quests, then report in Brilehaven by Aug 10. Check the exact quest item on the Quest screen; avoid extra trip."
+  },
+  {
     "simpleJp": "7/24 昼・期間限定：グローデルとの討論に勝つ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "グローテルと討論",
@@ -84,6 +126,12 @@
     "enGuide": "Calendar 7/28 夜・読書. Read the missable book acquired from Julian on July 23. Extra reading sessions can be rearranged if travel time differs."
   },
   {
+    "simpleJp": "7/28 【収集・時間消費なし】黄金蟲21：イヌンド村で極上歯刷子を購入する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #21 of 50 — QUEST-LOCKED GOLD BEETLE #21: buy the premium toothbrush at Inundo Village, then report the toothache-implement request to the listless man in Brilehaven by AUGUST 9. The purchase alone does not earn it. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
     "simpleJp": "7/29 昼・攻略：嘆きの墓を攻略して遺物を回収する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "嘆きの墓攻略",
@@ -102,6 +150,18 @@
     "enGuide": "Calendar 7/29 夜・読書. Nighttime Runner book session; this may need shifting if Neuras's rank talk uses the same slot. Prioritize Neuras or the book on an actual eligible night; do not attempt two time-consuming actions."
   },
   {
+    "simpleJp": "7/29 【収集・時間消費なし】黄金蟲17：嘆きの墓B1東階段の壁穴を通って採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #17 of 50 — Tomb of Lament B1: east-stair wall hole into a smaller room. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/29 【収集・時間消費なし】黄金蟲18：嘆きの墓1階プラトー付近の壁穴を探す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #18 of 50 — Tomb of Lament 1F: hidden passage near Plateau, gather at the far end. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
     "simpleJp": "7/30 昼・攻略：グラシア密林を攻略する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "グラシア密林攻略",
@@ -112,6 +172,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "魔法的未来を読む",
     "enGuide": "Calendar 7/30 夜・読書. Build Wisdom during travel and pick up bonus scenery drawings on the way."
+  },
+  {
+    "simpleJp": "7/30 【収集・時間消費なし】黄金蟲19：グラシア密林北東の細い道の行き止まりを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #19 of 50 — Gracia Forest: end of northeast narrow path. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "7/31 調整枠：残った街の依頼を確認し次の旅の準備をする",
@@ -148,6 +214,12 @@
     "jpGuide1": "ジェネラルを履修しRANK15まで鍛える。",
     "jpGuide2": "ジェネラル」をランク15",
     "enGuide": "Calendar 8/2 アカデメイア・報告. More R6: Study the General Archetype and level it to Archetype rank 15; submit the next assignment at Akademia. If the archetype is locked, progress its Follower prerequisite and class tree first."
+  },
+  {
+    "simpleJp": "8/2 【収集・時間消費なし】黄金蟲20：邪見の塔5階の手すり付近で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #20 of 50 — Tower of Insolence 5F: glowing spot close to the railing. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "8/3 昼：マリアのランク7から2日後、昼に話す",
@@ -214,6 +286,18 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "銅3級",
     "enGuide": "Calendar 8/8 夜・闘技場. Advance the Bronze rank where available; defer if needing a mandatory bond night."
+  },
+  {
+    "simpleJp": "8/8 【期限・報告】『虫歯に効く道具を届けろ』を報告して黄金蟲を受け取る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/8 期限・報告. HAND-IN DEADLINE AUGUST 9: give premium toothbrush purchased at Inundo on July 28 to the listless man on Sea Breeze Street, Brilehaven, and obtain Gold Beetle #21. Report action itself is time-free."
+  },
+  {
+    "simpleJp": "8/8 【期限・報告】『港町にはない花を届けろ』を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/8 期限・報告. Report the port-town flower request by AUGUST 10. This is time-limited even though other quests can be deferred."
   },
   {
     "simpleJp": "8/9 昼・闘技場：闘技場の銅級を進める",

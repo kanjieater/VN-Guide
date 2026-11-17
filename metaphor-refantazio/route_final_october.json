@@ -18,6 +18,30 @@
     "enGuide": "Calendar 9/26 夜. Brigitta R8: From the September 26 story transition onward, return to Grand Trad's Sunlumeo Street at NIGHT and speak with Brigitta. Her earlier Courage-4 R7 must already be finished. This is a hard earliest-availability gate, not a fixed September 26 appointment."
   },
   {
+    "simpleJp": "9/26 【収集・時間消費なし】黄金蟲27：王都あんしん薬方堂の奥のカウンターを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #27 of 50 — Grand Trad Anshin Apothecary: only after the shop decor shifts, look behind counter (different from the entrance beetle). This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/26 【収集・時間消費なし】黄金蟲43：マルティラ牛鳴き小道の牛の奥を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #43 of 50 — Martira Cow-crying Alley near man leading cow. If no sparkle, talk to Brilehaven beetle elder first and return. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/26 【収集・時間消費なし】黄金蟲44：マルティラ視る視る堂の店主前の袋を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #44 of 50 — Martira Visir shop: examine sack before shopkeeper. May require talking to beetle elder first. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/26 【収集・時間消費なし】黄金蟲45：王都レガリス大聖堂前の市場を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #45 of 50 — Grand Trad market outside Regalith Cathedral, beside stall. If unavailable, revisit after talking to beetle collector. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
     "simpleJp": "9/27 昼・旅行：見捨てられた道へ向かい道中で『よみかきおてほん』を読む",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見捨てられた道へ向かう",
@@ -42,6 +66,12 @@
     "enGuide": "Calendar 9/28 夜・読書. Use the Runner's night to raise Wisdom toward 5; defer the repeated book only if a bond-specific evening is truly open."
   },
   {
+    "simpleJp": "9/28 【収集・時間消費なし】黄金蟲50：見捨てられた道の最北端の採集を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #50 of 50 — Disgraced Path: northernmost glowing point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
     "simpleJp": "9/29 昼・報告：ふわふわ蜜菓子を料理人へ届ける",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "さらに料理人を唸らせる一皿",
@@ -58,6 +88,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見識レベル5",
     "enGuide": "Calendar 9/29 夜・読書. Finish the remaining Wisdom book sessions to unlock Eupha R7's late gate."
+  },
+  {
+    "simpleJp": "9/29 【収集・時間消費なし】黄金蟲49：天上人の邸2階の梁を渡って壁穴を探す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #49 of 50 — Manor of Ascendant 2F: cross beam over missing floor, then pass through west wall hole. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "9/30 昼：想像力5を得て昼のバジリオと話す",
@@ -108,6 +144,12 @@
     "enGuide": "Calendar 10/3 夜・観光. Optional scenic/hot-spring content on an otherwise free evening. Replace with overdue rank gates if needed."
   },
   {
+    "simpleJp": "10/3 【収集・時間消費なし】黄金蟲47：アルタベリー温泉の湯の依頼を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #47 of 50 — Golden Beetle from '温泉の湯を届けろ'; obtain the hot spring water and report to the polite merchant on Altabury upper Skybound Bridge. The beetle is awarded by quest turn-in. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
     "simpleJp": "10/4 昼・依頼：説得力5でバジリオのビンカ討伐依頼を達成する",
     "jpGuide1": "暴走するビンカを止めろ",
     "jpGuide2": "暴走するビンカを止めろ",
@@ -142,6 +184,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "不詳の遺跡攻略",
     "enGuide": "Calendar 10/6 昼・攻略. Optional late quest dungeon. Complete its bounty, loot and Gold Beetle route in one trip and avoid wasteful backtracking."
+  },
+  {
+    "simpleJp": "10/6 【収集・時間消費なし】黄金蟲46：不詳の遺跡入口最初の分岐の左端を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #46 of 50 — Unproven Ruins: left at initial fork, search at the dead end. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "10/7 昼・攻略：天の巨顔の依頼を進める",
@@ -184,6 +232,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "盲信の塔攻略",
     "enGuide": "Calendar 10/11 昼・攻略. Finish the late dragon trial at Tower of Blind Faith. Collect any remaining objective loot on this revisit."
+  },
+  {
+    "simpleJp": "10/11 【収集・時間消費なし】黄金蟲48：盲信の塔6階の北側で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #48 of 50 — Tower of Blind Faith 6F: northern glowing gathering point in the room with three tough foes. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "10/12 昼・攻略：竜宮神殿の終盤の依頼を終える",

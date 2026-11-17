@@ -6,6 +6,12 @@
     "enGuide": "Calendar 7/23 昼・回収. New hub: collect all available timed requests/bounties, visit informant, obtain the one-copy book 『魔法的未来』 from Julian at Angler's Inn Square, and gather city Golden Beetles BEFORE story access shifts. VERY IMPORTANT: collect unique book 魔法的未来 from Julian in Brilehaven Angler's Inn Square on any available daytime July 23–Aug 12 (no time cost). Picking up is distinct from later reading sessions."
   },
   {
+    "simpleJp": "7/23 昼・時間消費なし：漁師宿広場のジュリアンに話し『魔法的未来』を入手する（8/12昼まで・取り逃し注意）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Missable book pickup: speak with Julian in Brilehaven Angler's Inn Square between July 23 and August 12 daytime, before the lockout. This is acquisition, not reading or quest acceptance. Japanese written references: https://gamewith.jp/metaphor/467260 and https://kamigame.jp/metaphor/page/339341132947259610.html."
+  },
+  {
     "simpleJp": "7/23 昼・期間限定：ジンの討論に勝つ",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ジンと討論",
@@ -156,7 +162,7 @@
     "enGuide": "Calendar 7/28 夜・読書. Read the missable book acquired from Julian on July 23. Extra reading sessions can be rearranged if travel time differs."
   },
   {
-    "simpleJp": "7/28 【収集・時間消費なし】黄金蟲21：イヌンド村で極上歯刷子を購入する",
+    "simpleJp": "7/28 【収集準備・時間消費なし】黄金蟲21取得の準備：イヌンド村で極上歯刷子を購入する（蟲は8/8報告時）",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #21 of 50 — QUEST-LOCKED GOLD BEETLE #21: buy the premium toothbrush at Inundo Village, then report the toothache-implement request to the listless man in Brilehaven by AUGUST 9. The purchase alone does not earn it. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
@@ -228,16 +234,16 @@
     "enGuide": "Calendar 8/1 夜・読書. Wisdom-reading travel night; finish book when possible."
   },
   {
-    "simpleJp": "8/2 昼・攻略：邪見の塔の依頼を達成する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "邪見の塔攻略",
-    "enGuide": "Calendar 8/2 昼・攻略. Complete Tower of Insolence, collect unique treasures and Gold Beetle. Catherina's R4 encounter happens on the approach, not as an ordinary town rank."
-  },
-  {
     "simpleJp": "8/2 鎧戦車・昼：ブライハーヴェンから邪見の塔へ鎧戦車で向かいキャゼリナに勝つ",
     "jpGuide1": "邪見の塔に向かう途中のイベント戦で勝利する",
     "jpGuide2": "邪見の塔へ移動時",
     "enGuide": "Calendar 8/2 鎧戦車・昼. Catherina R4: After reaching Brilehaven (July 23 or later), TAKE the Gauntlet Runner journey to Tower of Insolence (邪見の塔) and defeat her road challenge en route. This is the easily overlooked third encounter; an arbitrary side trip does not trigger it."
+  },
+  {
+    "simpleJp": "8/2 昼・攻略：邪見の塔の依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "邪見の塔攻略",
+    "enGuide": "Calendar 8/2 昼・攻略. Complete Tower of Insolence, collect unique treasures and Gold Beetle. Catherina's R4 encounter happens on the approach, not as an ordinary town rank."
   },
   {
     "simpleJp": "8/2 アカデメイア・報告：ジェネラルをランク15まで育てモアに報告する",

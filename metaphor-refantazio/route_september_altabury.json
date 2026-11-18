@@ -252,16 +252,16 @@
     "enGuide": "Calendar 9/23 物語. Gallica R7: Automatic once the September 23 story return to Grand Trad resolves."
   },
   {
+    "simpleJp": "9/24 【最優先・取り逃し注意】エルダの古仙郷・光の広場で黄金蟲を回収してから先へ進む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "光の広場で黄金蟲を回収",
+    "enGuide": "Gold Beetle #42 of 50 — Sept 24 Eldan Sanctum, Plaza of Light (光の広場), by the collapsed triangular roof. TRUE ONE-DAY MISSABLE: after entering Eldan, collect this beetle BEFORE leaving the plaza or advancing to the later story chambers and Homo Gorleo battle. You cannot return to the plaza after the irreversible story advance. Only after collection proceed to the battle that awards Gallica R8. Written Japanese cross-checks: Game8 644747 and GameWith 467947; Gallica rank timing: GameWith 465943."
+  },
+  {
     "simpleJp": "9/24 物語：9/24の物語の戦闘後、ガリカのランク8を確認する",
     "jpGuide1": "メインストーリー進行",
     "jpGuide2": "ランク8",
-    "enGuide": "Calendar 9/24 物語. Gallica R8: Automatic after the September 24 main-story battle. This finishes her Mage bond without an optional activity slot."
-  },
-  {
-    "simpleJp": "9/24 取り逃し注意：エルダの古仙郷・光の広場で黄金蟲を回収する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "光の広場で黄金蟲を回収",
-    "enGuide": "Gold Beetle #42 of 50: one-time Sept 24 Eldan Plaza of Light behind collapsed triangular roof; collect before approaching the Prince. Calendar 9/24 取り逃し注意. TRUE MISSABLE: during this one-day visit to Eldan Sanctum, immediately find the Gold Beetle in the Plaza of Light before leaving or triggering the next objective; ordinary return travel is not available. This should be checked BEFORE progressing the plot."
+    "enGuide": "Calendar 9/24 物語. AFTER collecting the one-day Eldan Plaza of Light Gold Beetle, continue the main-story chambers and defeat Homo Gorleo. Gallica R8 is automatic after this battle, not a discretionary bond activity."
   },
   {
     "simpleJp": "9/25 物語：次の期限の最終自由期間に備える",

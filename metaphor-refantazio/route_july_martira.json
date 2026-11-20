@@ -150,6 +150,18 @@
     "enGuide": "Calendar 7/9 昼・旅行. Get egg assortment at Komero, clear cave bounty, collect Neuras relic; use real discretionary Gauntlet Runner travel"
   },
   {
+    "simpleJp": "7/9 コメロ村帰還後：透明な硝子の置物と発明家の日誌をニューラスに渡し支援ランク1・ガンナーを解放する",
+    "jpGuide1": "透明な硝子の置物",
+    "jpGuide2": "コメロ村で遺物を回収",
+    "enGuide": "After accepting the Martira pigeon-egg request and actually unlocking Komero, collect Neuras's glass ornament and inventor's journal on the July 9 Komero visit, then return to the Runner and hand both to Neuras to establish R1 and unlock Gunner. This is separate from the Man-Eater's Grotto mineral relic and egg purchase. Verify the travel/night activity schedule before treating July 9 as fully executable; no June 26 completion."
+  },
+  {
+    "simpleJp": "7/9 コメロ村の遺物報告後：ガンナーを履修しモアの支援ランク3を解放する",
+    "jpGuide1": "ガンナーを履修する。",
+    "jpGuide2": "ガンナー」を履修する",
+    "enGuide": "Only after Neuras R1 unlocks Gunner from the Komero glass ornament/journal, study Gunner in Akademia and report to More for R3. Conditional on completing the July 9 travel and Neuras hand-in; not an extra discretionary activity or a June 26 unlock."
+  },
+  {
     "simpleJp": "7/9 遺物：人喰い洞窟でニューラスの遺物を回収して渡す",
     "jpGuide1": "ネジのついた鉱物",
     "jpGuide2": "遺物を知る人物を探せ",

@@ -264,16 +264,16 @@
     "enGuide": "6/25 daytime Runner: finish 『新世界旅行記』 (third reading). Check free amenities when available; do not count them as separate time-consuming activities."
   },
   {
-    "simpleJp": "6/26 依頼・報告：6/26以降、コメロ村の遺物を回収してニューラスに渡す",
+    "simpleJp": "6/26 自動受注：ニューラスのコメロ村遺物依頼を受ける（回収・報告は後日）",
     "jpGuide1": "透明な硝子の置物",
-    "jpGuide2": "伝書鳩の卵を届けろ",
-    "enGuide": "Calendar 6/26 依頼・報告 (recommended flexible slot; satisfy game map icon and gate first). Neuras R1: Take the Neuras/Komero relic request, travel to Komero village, and collect the glass ornament and inventor's journal. Return to the Gauntlet Runner and turn them in to Neuras to unlock Gunner. This is separate from the Martira pigeon-egg request, which becomes available June 29 and is handled later in the calendar. Do not confuse this opening relic quest with his six later relics."
+    "jpGuide2": "6/26に依頼発生、コメロ村へは6/29以降",
+    "enGuide": "June 26: Neuras's Komero glass-ornament/journal quest becomes available automatically. Do NOT travel to Komero or claim Neuras R1/Gunner here: Komero must first be revealed by the Martira pigeon-egg quest (available June 29 onward) or another documented unlock. The integrated route currently plans the Komero visit for July 9; complete the relic hand-in then, after verifying actual travel and time-slot feasibility. Japanese evidence: Altema Neuras, GameWith Neuras quest, Game8 Neuras R1, Gamers High relic quest."
   },
   {
-    "simpleJp": "6/26 アカデメイア：ガンナーを履修しアカデメイアのモアに報告する",
+    "simpleJp": "7/9以降・条件達成後：ガンナーを履修しモアに報告する（6/26には不可）",
     "jpGuide1": "ガンナーを履修する。",
     "jpGuide2": "ガンナー」を履修する",
-    "enGuide": "Calendar 6/26 アカデメイア (recommended flexible slot; satisfy game map icon and gate first). More R3: Once Neuras has joined, study the Gunner Archetype, then report More's next research task in Akademia."
+    "enGuide": "More R3 is gated by Neuras R1 and Gunner unlock, NOT available on June 26. After the actual Komero glass-ornament/journal pickup and hand-in to Neuras (planned July 9), study Gunner in Akademia and report More's task when accessible. This is a prerequisite-gated instruction, not a second June 26 action; the July 9 travel/day-night calendar still needs independent feasibility reconciliation."
   },
   {
     "simpleJp": "6/27〜6/28 移動・物語：マルティラへの進行を確認し、期限のある依頼を先に片づける",

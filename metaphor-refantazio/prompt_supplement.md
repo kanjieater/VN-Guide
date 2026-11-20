@@ -1,0 +1,27 @@
+# Metaphor: ReFantazio — spoiler-light first-run 100% calendar
+
+**NON-VN LINEAR WALKTHROUGH**
+
+This is an RPG companion/social-link optimization guide, not a visual novel. Apply the repository's non-VN linear-walkthrough semantics without a new schema. The exact guide target is the official Japanese-supported 2024 Steam game shown in `catalog.json`.
+
+## Completion contract
+- Max all **14 Followers to Rank 8** in the same playthrough before the final free-action window ends on **October 25**. Story/ending details are spoilers.
+- Organize an **executable single chronological day-by-day and day/night calendar** across the existing ordered sections. For every dated action specify whether it consumes the daytime, evening, travel slot or no time; keep companion ranks, virtues and timed quests on the schedule where undertaken. Where a documented independent walkthrough uses a different equally executable sequence, mark the slot as flexible, not mandatory. Note any forced story spans explicitly; do not fabricate discretionary slots on locked dates.
+- Include each required quest, relevant travel-only rank, Royal Virtue gate, Neuras relic and More archetype assignment. Do not conflate normal calendar-day town rank-ups with Gauntlet Runner travel ranks. Some forced story travels do not permit bond ranks.
+- Cover **all significant feasible first-playthrough narrative/side content** as a combined 100% route: all Followers 8, all quests/bounties, max Royal Virtues, books, debate opponents, recipes/locations/Gold Beetles and important missables. Do not require grinding arbitrary drops or every repeatable item. Protect deadline dungeons with calendar-aware Gauntlet Runner routing. The main story may be treated as spoiler-light milestone instructions, with combat detail where needed to execute progress.
+- Each `route_<id>.json` step is an actionable dated task: a day/night activity, quest, dungeon, travel leg, irreversible missable pickup, rank-up, or required gate. Maintain uninterrupted player location and calendar continuity. Use literal Japanese choice text only if verified and concise author-written Japanese for navigation. `enGuide` gives clock cost, location, pickup/fight/report procedure, advance lockout warning and recovery/alternate slot. No decorative date-only steps.
+- Japanese Follower Set A=Gamecap and B=GameWith. Dated completion Set A additionally uses the independent Altema JP 100% chart; completion Set B uses GameWith's independent month-by-month charts and the first-person ゲーマーの備忘録 Japanese all-content calendar as separately attributed corroboration, with independent English schedules from RPG Site and PowerPyx. When quoting use the actual cited source for the field, never borrow one author's wording for the other source set. Use canonical omission placeholders when no direct Japanese quotation was inspected; never invent Japanese citations. No video evidence.
+- No title-scoped source exception is claimed. Independent Japanese corroboration is required for material dates, quest availability, irreversible content, story order, rank prerequisites, and time-cost claims. The existence of two different legitimate calendars does not prove either specific free-time choice is mandatory. Research must document verified alternatives/conflicts. New/revised sections remain `reviewed: false` until independent reviewers verify the **complete integrated calendar** end to end.
+
+## One-playthrough daily route review acceptance
+- A reader must be able to follow each dated step from the prologue through the final free-action day without checking detached guide pages. Important missables (limited debate speakers, finite collectible sites, books and one-day story pickups) receive advance warnings.
+- State where quest/bounty rewards are turned in, when the player leaves on the Runner, travel-day day/night tasks, and when a story operation needs to be cleared. Group nearby requests on the same trip. Provide an explicit first-run audit and a **separate optional NG+ appendix** for exclusive superboss/achievement work; no second run is mandatory for the normal first-run target.
+- Dated recommendations must be independently corroborated for availability. Keep reference schedule dates flexible when the story, weather, stat gain or RNG could vary; never assert a fictional forced date.
+
+## Operating rules
+- Dialogue choice does **not** control whether a Follower gains a rank; better answers award extra MAG. No romance-choice paths are required.
+- Most voluntary ranks reopen about two calendar days after the previous rank. Always check map icons and eligible talk options, then alternate other Followers or Royal Virtues while a bond is cooling down.
+- After the 9/26 story transition, use remaining days to finish gates and all ranks before 10/25. Party followers can be blocked shortly before an uncleared main-story dungeon deadline: clear it early and protect the calendar.
+- Gauntlet Runner-only events require **real discretionary travel**; forced plot travel is not interchangeable. Schedule side-quest excursions after unlocking travel bonds.
+- More progresses through archetype tasks and Gallica automatically through the story; do not waste conventional Follower slots on their ranks.
+- Due to the absence of a single character corresponding to each chronological multi-Follower section, blank section portraits are intentional; cover is verified official art.

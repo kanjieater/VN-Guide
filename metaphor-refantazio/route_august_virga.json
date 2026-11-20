@@ -1,0 +1,398 @@
+[
+  {
+    "simpleJp": "8/19 物語：8/19の物語を進め、ガリカのランク6を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/19 story milestone. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R6: Automatic on completing the Virga Island threat operation (after August 19)."
+  },
+  {
+    "simpleJp": "8/19 昼・受注：ビルガ島の依頼をまとめて受け、枯れ薬の材料を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "枯れ薬の材料を探せ",
+    "enGuide": "Calendar August 19 NO-TIME quest intake, separate from actual dungeon-clear daytime slot. First finish/report『枯れ薬の材料を探せ』at the Virga inn (材料 collected on the prior story run). Then accept Junah's『弔いを阻む蛇食い怪物を倒せ』at Dragon Statue Square, to be completed August 23 during the Circle Landmark journey, NOT August 19. Pick up all other available Virga bounties before leaving."
+  },
+  {
+    "simpleJp": "8/19 昼・攻略：竜宮神殿の本作戦を攻略する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "竜宮神殿攻略",
+    "enGuide": "Calendar August 19 SINGLE daytime story dungeon. Clear Dragon Temple main operation, collect its one-time loot and beetles, and return to Virga. Do not also attempt the Circle Landmark snake-monster quest this day; that is routed August 23. If story clearance needs a second day, use a verified spare slot and shift optional errands."
+  },
+  {
+    "simpleJp": "8/19 【収集・時間消費なし】黄金蟲22：ビルガ島の首長の家の付近を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #22 of 50 — Virga Island: outside the chieftain's house on the high ground. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/19 【収集・時間消費なし】黄金蟲23：ビルガ島の宿屋の前の北東広場を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #23 of 50 — Virga Island: plaza northeast of the inn entrance. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/19 【収集・時間消費なし】黄金蟲24：ビルガ島の酒場『金鹿』の裏側を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #24 of 50 — Virga Island: exterior behind Golden Deer tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/19 【収集・時間消費なし】黄金蟲25：ビルガ島の竜像広場で像の裏を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #25 of 50 — Virga Island Dragon Statue Square: behind the dragon statue. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/19 【収集・時間消費なし】黄金蟲26：ビルガ島の砂浜の鎧戦車近くの箱裏を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #26 of 50 — Virga Island beach: crates behind the Gauntlet Runner. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/19 【収集・時間消費なし】黄金蟲28：ビルガ島宿前の井戸にいる少年に話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #28 of 50 — After clearing Dragon Temple, speak to the clumsy boy near the well outside the Virga Island inn. This is a reward Beetle, not a normal ground sparkle. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/19 【期限・受注】『導きの人形の素材を探せ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/19 期限・受注. After reaching Virga and the August 19 request window, get the guided-doll material request; retrieve the listed doll materials in the accessible Dragon Temple and report no later than August 30."
+  },
+  {
+    "simpleJp": "8/19 夜・読書：『※秘※詩集※見るな※』を2回目まで読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar August 19 NIGHT, only if the story releases a real Gauntlet Runner evening after Dragon Temple; otherwise use the Aug 20 travel night in place of the non-mandatory cooking slot. This is one of three unique Poetry Collection reading sessions and does not share the main dungeon daytime slot."
+  },
+  {
+    "simpleJp": "8/19 【受注・時間なし】宿前水汲み場で『無謀な研究者の仇を討て』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/19, 受注・時間なし: At the well outside Virga Island inn, accept the researcher revenge request after August 19; complete target in Tower of Blind Faith on August 24–26, then return to original giver for reward. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "8/19 【受注・時間なし】金鹿の酒場前で『謎の魔道器の鑑定を代行しろ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/19, 受注・時間なし: Accept the magic device appraisal request outside the Golden Deer tavern on Virga. Carry out its required appraisal dialogue/item exchange while doing Virga errands and return with result; no extra dungeon travel unless quest specifies one. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "8/19 【受注・時間なし】募兵舎で『ならず者より危険な一つ目怪物』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/19, 受注・時間なし: Accept the Scoundrel's Hold one-eyed monster bounty from any recruitment centre. Defeat target on Sept 4–5 dungeon trip, take Neuras's marquetry-box relic there, and claim bounty from recruitment centre after return. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "8/20 昼・移動：儀礼の地に向かいユーファの試練を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "儀礼の地に向かう",
+    "enGuide": "Calendar 8/20 昼・移動. Take Eupha's Trial of Malnova and combine the Land of Ceremony dungeon with Neuras's moss-covered-cylinder relic and exploration/collectibles. Buy ingredient staples on Virga beach before departing."
+  },
+  {
+    "simpleJp": "8/20 夜・料理：鎧戦車で新しい料理を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "料理",
+    "enGuide": "Calendar 8/20 夜・料理. Use Runner time to prepare dishes for first-run recipe completion. With Maria's Speed Cooking you may cook without consuming a full slot; check pantry on each travel day."
+  },
+  {
+    "simpleJp": "8/21 昼・攻略：儀礼の地の試練を終えて宝箱の遺物を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "儀礼の地攻略",
+    "enGuide": "Calendar 8/21 昼・攻略. Complete the trial and retrieve the moss-covered pillar for Neuras. Report the quest to unlock Eupha bond; note a different travel leg may be required for her later Runner rank."
+  },
+  {
+    "simpleJp": "8/21 依頼報告：竜宮神殿の後、儀礼の地の試練を完了する",
+    "jpGuide1": "試練に挑むユーファを助けろ",
+    "jpGuide2": "試練に挑むユーファを助けろ",
+    "enGuide": "Calendar 8/21 依頼報告. Eupha R1: After finishing Dragon Temple and Eupha's recruitment, accept 'The Trial of Malnova' (試練に挑むユーファを助けろ), travel to Land of Ceremony, complete the trial and report back to Eupha. This unlocks her Summoner Follower bond; it also unlocks an optional Neuras relic location."
+  },
+  {
+    "simpleJp": "8/21 遺物・夜報告：儀礼の地で遺物を回収し夜にニューラスへ渡す",
+    "jpGuide1": "苔で覆われた円柱",
+    "jpGuide2": "苔で覆われた円柱",
+    "enGuide": "Calendar 8/21 遺物・夜報告. Neuras relic #4 of 6: During the same journey as Eupha's 'Trial of Malnova' at Land of Ceremony (儀礼の地), collect the moss-covered pillar (苔で覆われた円柱). Report it to Neuras at night in the Runner. Do NOT make a separate trip solely for the relic if you can combine objectives."
+  },
+  {
+    "simpleJp": "8/21 【収集・時間消費なし】黄金蟲29：儀礼の地のボス前北西の角を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #29 of 50 — Land of Ceremony: northwest corner of the deepest area before the boss. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/22 昼：見識4で昼にブライハーヴェンのヒュルケンベルグと話す",
+    "jpGuide1": "見識4",
+    "jpGuide2": "見識4",
+    "enGuide": "Calendar 8/22 昼. UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Hulkenberg R7: With Wisdom (見識) 4, meet Hulkenberg during the day at Brilehaven's tavern 大漁亭; at least two days after R6."
+  },
+  {
+    "simpleJp": "8/22 夜・資質：マルティラの若者と話して勇気を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "血気盛んな若者と話す",
+    "enGuide": "Calendar 8/22 夜・資質. Flexible Courage practice; avoid traveling solely for this if a comparable nearby action is available."
+  },
+  {
+    "simpleJp": "8/23 昼・攻略：円環のしるべへ移動し、探索・黄金蟲回収後に蛇食い怪物を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "円環のしらべ攻略",
+    "enGuide": "Single Circle Landmark visit on Aug 23: travel, explore, collect the two beetles, defeat the snake-eating quest boss. Report only in the next no-time step."
+  },
+  {
+    "simpleJp": "8/23 攻略後・報告（時間なし）：ジュナに『弔いを阻む蛇食い怪物を倒せ』を報告しR1を解放する",
+    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
+    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
+    "enGuide": "After the Aug 23 Circle Landmark boss, return and report to Junah for R1; do not repeat the dungeon. The request was accepted Aug 19."
+  },
+  {
+    "simpleJp": "8/23 夜・料理：鎧戦車で新しい料理を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "料理",
+    "enGuide": "Calendar 8/23 夜・料理. Make another unique recipe; collect free cooking items and note any missing rare ingredients."
+  },
+  {
+    "simpleJp": "8/23 【収集・時間消費なし】黄金蟲30：円環のしるべ2階北の突き当たりを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #30 of 50 — Orbwise Path / Circle Landmark 2F: climb from the north of 1F and search end of path. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/23 【収集・時間消費なし】黄金蟲31：円環のしるべ1階東の大交差路付近を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #31 of 50 — Orbwise Path / Circle Landmark 1F: glowing spot by eastern junction. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/23 読書・予備：『※秘※詩集※見るな※』を読了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/23 読書・予備. Third Poetry Collection session, move to another eligible Runner free-time slot if dungeon conflicts."
+  },
+  {
+    "simpleJp": "8/24 昼・移動：盲信の塔へ向かいシレント村にも寄る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "盲信の塔に向かう",
+    "enGuide": "Calendar 8/24 昼・移動. Combine Tower of Blind Faith with the village visit and any local request. Allocate a genuine discretionary Runner travel slot for Hulkenberg's final bond."
+  },
+  {
+    "simpleJp": "8/24 鎧戦車・昼：2日後の任意移動中、ヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 8/24 鎧戦車・昼. UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Hulkenberg R8: Two days after R7, speak on the Runner's deck during a discretionary daytime journey. If you only have mandatory travel, plan a side trip."
+  },
+  {
+    "simpleJp": "8/24 夜・資質：ジュナと過ごして説得力を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ジュナと過ごす",
+    "enGuide": "Calendar 8/24 夜・資質. A night Virtue activity during the journey, independent from Junah's Follower bond rank. Flex if her actual bond becomes available."
+  },
+  {
+    "simpleJp": "8/25 昼・移動：盲信の塔への旅を続け、ユーファと過ごす",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ユーファと過ごす",
+    "enGuide": "Calendar 8/25 昼・移動. Use trip time for Imagination-building chat and check pantry/washroom. Do not claim another ordinary city day slot while away."
+  },
+  {
+    "simpleJp": "8/25 夜・報告：鎧戦車でニューラスに遺物を届ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ニューラス",
+    "enGuide": "Calendar 8/25 夜・報告. If your Land of Ceremony relic was already handed in, use this evening for any other ready Neuras relic or a genuine bond/virtue evening; do not count the same relic twice."
+  },
+  {
+    "simpleJp": "8/26 昼・攻略：盲信の塔を攻略して依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "盲信の塔攻略",
+    "enGuide": "Calendar 8/26 昼・攻略. Clear Tower of Blind Faith, collect Golden Beetle and mask materials. Eupha's travel conversations build Imagination 4 over the journey."
+  },
+  {
+    "simpleJp": "8/27 昼：ユーファのランク1から2日後、昼に話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Calendar 8/27 昼. Eupha R2: Two days after her Land of Ceremony trial, approach her in the daytime on an eligible free-action day (town/Runner as marked on map)."
+  },
+  {
+    "simpleJp": "8/27 夜：ジュナのランク1から2日後、夜の鎧戦車中央通路で話す",
+    "jpGuide1": "夜の鎧戦車内",
+    "jpGuide2": "ランク2",
+    "enGuide": "Calendar 8/27 夜. Junah R2: At least two days after the snake quest, meet her at night in the Runner central passage. Advance another quest or virtue on cooldown days."
+  },
+  {
+    "simpleJp": "8/27 【報告・時間なし】盲信の塔の敵討ち依頼を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/27, 報告・時間なし: After Tower of Blind Faith clear Aug 26, return to Virga well requester to close 『無謀な研究者の仇を討て』; this is a no-time conversation. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "8/28 昼・闘技場：闘技場の銀級に挑む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銀3級",
+    "enGuide": "Calendar 8/28 昼・闘技場. Complete Silver 3 if opened; this is optional but supports arena progression. Check combat setup before entering."
+  },
+  {
+    "simpleJp": "8/28 夜・闘技場：闘技場の次の銀級に挑む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銀2級",
+    "enGuide": "Calendar 8/28 夜・闘技場. Continue the Silver arena ranks. If a time-limited Follower is eligible, the fight can be shifted to a later evening."
+  },
+  {
+    "simpleJp": "8/29 昼：ユーファのランク2から2日後、昼に話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 8/29 昼. Eupha R3: On a daytime free slot at least two calendar days after R2, speak to Eupha wherever her bond icon indicates."
+  },
+  {
+    "simpleJp": "8/29 夜：ジュナのランク2から2日後、夜に話す",
+    "jpGuide1": "夜の鎧戦車内",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 8/29 夜. Junah R3: At least two days after R2, return at night to the Runner's central passage. No extra virtue gate yet."
+  },
+  {
+    "simpleJp": "8/29 【期限・報告】『導きの人形の素材を探せ』を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/29 期限・報告. HAND-IN BY AUGUST 30: return the required doll materials to the original quest giver. Verify 'completed' in your Quest log before leaving the island."
+  },
+  {
+    "simpleJp": "8/30 昼・闘技場：闘技場の銀級を仕上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銀1級",
+    "enGuide": "Calendar 8/30 昼・闘技場. Silver 1 arena match; restore your regular party formation afterward."
+  },
+  {
+    "simpleJp": "8/30 夜：ハイザメのランク6から2日後、想像力4で夜に話す",
+    "jpGuide1": "想像力4",
+    "jpGuide2": "想像力4",
+    "enGuide": "Calendar 8/30 夜. Heismay R7: Raise Imagination (想像力) to 4 and talk to him at night in the Runner's central passage two days after his sixth bond."
+  },
+  {
+    "simpleJp": "8/31 昼夜・調整：取りこぼした依頼の報告と王の資質を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/31 昼夜・調整. Flexible buffer. If no free slot appears because the story advances, use another verified available day. Prioritize book/debate/limited quest dependencies over repeatable arena work."
+  },
+  {
+    "simpleJp": "9/1 昼：ユーファのランク3から2日後、昼に話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 9/1 昼. Eupha R4: Two days after R3, speak with Eupha in daytime. If no rank-up option is present, check cooldown and active story travel."
+  },
+  {
+    "simpleJp": "9/1 夜：ジュナのランク3から2日後、夜に話す",
+    "jpGuide1": "夜の鎧戦車内",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 9/1 夜. Junah R4: Two days after R3, speak in the Gauntlet Runner's central passage at night; prepare Imagination 4 for R5."
+  },
+  {
+    "simpleJp": "9/2 昼：マルティラでバードンの依頼の大砂蟲を倒す",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "大砂蟲ホモブテラ",
+    "enGuide": "Calendar 9/2 昼. Bardon R7: Two days after R6, talk to Bardon in Martira's Thoroughfare Square in the daytime, accept his battle escalation and defeat the level-60 Great Sandworm Homo Butera (大砂蟲ホモブテラ). If underleveled, leave this step pending and revisit later; it is a Follower requirement, not mandatory for progressing the main story."
+  },
+  {
+    "simpleJp": "9/2 夜：勇気4を確認し、ベルギッタの支援ランク7を上げる",
+    "jpGuide1": "RANK7",
+    "jpGuide2": "勇気4",
+    "enGuide": "Calendar 9/2 夜. Brigitta R7: With Courage 4, meet her at night in Grand Trad on a free night after rank 6's cooldown; confirm Rank 7 before leaving this window."
+  },
+  {
+    "simpleJp": "9/3 昼：ユーファのランク4から2日後、昼に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 9/3 昼. Eupha R5: Two days after R4, speak to Eupha on a free daytime slot. Begin working toward Eloquence 4 and Wisdom 5 for her next two gates."
+  },
+  {
+    "simpleJp": "9/3 夜：想像力4で夜のジュナと話す",
+    "jpGuide1": "想像力4",
+    "jpGuide2": "想像力4",
+    "enGuide": "Calendar 9/3 夜. Junah R5: After Junah's R4 and a two-day cooldown, achieve Imagination 4 and talk to her in the Gauntlet Runner central passage at NIGHT."
+  },
+  {
+    "simpleJp": "9/4 昼・旅行：ならず者の根城に向かい、リグノ村で準備する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ならず者の根城に向かう",
+    "enGuide": "Calendar 9/4 昼・旅行. Combine Scoundrel's Hold bounty with Neuras's marquetry-box relic and a genuine Runner bond for Heismay. Save before difficult bosses."
+  },
+  {
+    "simpleJp": "9/4 鎧戦車・昼：ハイザメのランク7から2日後、任意の移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 9/4 鎧戦車・昼. Heismay R8: After two days, travel somewhere voluntarily with the Gauntlet Runner and speak to Heismay in the daytime. If you are on fixed story travel, this bonding action may not appear; take a discretionary side-quest trip."
+  },
+  {
+    "simpleJp": "9/4 夜・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 9/4 夜・読書. Wisdom book catch-up on the Runner as available."
+  },
+  {
+    "simpleJp": "9/5 昼・攻略：ならず者の根城を攻略して遺物を拾う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ならず者の根城攻略",
+    "enGuide": "Calendar 9/5 昼・攻略. Complete the bounty and pick up the marquetry box in dungeon. Make sure the Dragon Spear story deadline has been satisfied before the September 5 cutoff."
+  },
+  {
+    "simpleJp": "9/5 鎧戦車・昼：ジュナのランク5から2日後、任意移動中に話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 9/5 鎧戦車・昼. Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
+  },
+  {
+    "simpleJp": "9/5 遺物・夜報告：ならず者の根城で遺物を回収し夜にニューラスへ渡す",
+    "jpGuide1": "寄木細工の箱",
+    "jpGuide2": "寄木細工の箱",
+    "enGuide": "Calendar 9/5 遺物・夜報告. Neuras relic #3 of 6: Unlock Scoundrel's Hold (ならず者の根城) by accepting 'The Greater One-Eyed Scoundrel' (ならず者より危険な一つ目怪物). Pick up the marquetry box (寄木細工の箱), then hand it to Neuras in the Runner at night. The order of relics is flexible."
+  },
+  {
+    "simpleJp": "9/5 【収集・時間消費なし】黄金蟲32：ならず者の根城地下南のはしごを上った先を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #32 of 50 — Scoundrel's Hold: basement south section, up ladder to the dead end. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/6 物語：次の物語へ進む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 9/6 物語. Main-story transition after the Virga deadline; no discretionary free time is assumed without checking the game state."
+  },
+  {
+    "simpleJp": "9/7 昼・読書：『島の外の歩き方』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "島の外の歩き方を読む",
+    "enGuide": "Calendar 9/7 昼・読書. Begin the Tolerance book during Runner travel. Advance high Virtue ranks needed for Catherina."
+  },
+  {
+    "simpleJp": "9/7 夜・読書：『島の外の歩き方』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "島の外の歩き方を読む",
+    "enGuide": "Calendar 9/7 夜・読書. Continue the same book for Tolerance."
+  },
+  {
+    "simpleJp": "9/8 昼・読書：『島の外の歩き方』を読み終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "包容力レベル5",
+    "enGuide": "Calendar 9/8 昼・読書. Finish travel book and aim for Tolerance 5 before Catherina's Altabury chain."
+  },
+  {
+    "simpleJp": "9/8 夜・遺物：鎧戦車のニューラスに手持ちの遺物を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ニューラス",
+    "enGuide": "Calendar 9/8 夜・遺物. Turn in one of the six remaining artifact items if available. A relic's order does not bind it to a specific bond rank."
+  },
+  {
+    "simpleJp": "9/9 昼・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 9/9 昼・読書. Wisdom progress toward Eupha's eventual rank-7 Wisdom 5 check."
+  },
+  {
+    "simpleJp": "9/10 昼・購入：アルタベリーの露店で魚の料理素材を買う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "錦紗コイ",
+    "enGuide": "Calendar 9/10 昼・購入. Buy specialty fish at Altabury's Dia Franco upper street for remaining cooking recipes. Shopping alone should not consume a free-action slot."
+  },
+  {
+    "simpleJp": "9/11〜9/12 物語：アルタベリー到着後の物語を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 9/11〜9/12 物語. Plot time leading into the next mid-September request window. Do not assume both day and night are flexible; final calendar free period opens after September 26."
+  }
+]

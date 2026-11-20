@@ -1,0 +1,356 @@
+[
+  {
+    "simpleJp": "7/1 昼：地下納骨堂を攻略する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "地下納骨堂攻略",
+    "enGuide": "July 1: pick up available Grand Trad requests and clear the Catacombs. The Alonzo ring is in Abandoned Tomb, NOT here; don't report until after the 7/11–12 tomb trip."
+  },
+  {
+    "simpleJp": "7/1 受注・時間なし：マルティラで『ククルスに指輪を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/1 受注・時間なし. With Imagination 2, speak to Cuculus in Martira Thoroughfare Square. Ring will be collected July 11–12 in Abandoned Tomb and reported July 13; quest acceptance itself is no-time."
+  },
+  {
+    "simpleJp": "7/1 【受注・期限】『魔除けの頭蓋骨を探せ』を地下納骨堂の兵士から受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/1, 受注・期限: Once Goblin King or Man-Eater Worm bounty is completed, speak to the fidgety soldier at Grand Trad Catacombs entrance, collect the skull from the relevant dungeon route, and return to him by JULY 30; do not merely accept it. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/1 【受注・期限】『家宝の首飾りを取り返せ』を王都の貴族から受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/1, 受注・期限: After the prior Goblin King or Man-Eater Worm bounty, speak to irate noble on Grand Trad Sunlumeo Street; retrieve heirloom in the Catacombs and report by JULY 30. Combine with July 1 Catacombs sweep. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/2 出発前・時間なし：黄金蟲7・マルティラ宿ビスカ・アルバの暖炉を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #7 of 50 — Martira Visca Alba inn: check the lit fireplace in the tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/2 出発前・時間なし：黄金蟲8・マルティラ宿ビスカ・アルバ客室の水差しを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #8 of 50 — Martira Visca Alba guest room: interact with jug; if nothing appears, retry on a later date. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/2 出発前・確認：宿の黄金蟲7・8を回収済みにする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/2 移動前・収集. Pick up both the Visca Alba tavern fireplace beetle and guest-room jug beetle while you are in Martira, before proceeding to Sandworm's Nest."
+  },
+  {
+    "simpleJp": "7/2 昼・移動：マルティラから大砂蟲の巣へ向かう",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "鎧戦車で移動",
+    "enGuide": "Calendar 7/2 昼・移動. Catherina R2 occurs on OUTGOING Martira to Great Sandworm's Nest leg, not on arrival"
+  },
+  {
+    "simpleJp": "7/2 昼：7/2以降、マルティラから大砂蟲の巣へ向かう鎧戦車移動中にキャゼリナに勝つ",
+    "jpGuide1": "イベント戦で勝利する",
+    "jpGuide2": "鎧戦車で古都マルティラから大砂蟲の巣へ移動時、キャゼリナとの戦闘後(昼)",
+    "enGuide": "Calendar 7/2 昼. Catherina R2: During the story travel leg OUT of Martira toward the Great Sandworm's Nest (July 2 or later), win her daytime Gauntlet Runner encounter. Do not look for this fight on the incoming journey to Martira or substitute a town conversation. Set B specifies the outgoing leg; Set A confirms a July 2+ event battle without naming the leg."
+  },
+  {
+    "simpleJp": "7/2 鎧戦車・昼（空きがある場合のみ）：『頷かせる技術』を読む。キャゼリナ戦で昼枠を使う場合はこの読書を未完了として残す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Optional ONLY if the outgoing Catherina encounter does not occupy the daytime Runner activity. Otherwise this reading remains pending; it is not a second guaranteed 7/2 daytime action."
+  },
+  {
+    "simpleJp": "7/2 夜・読書：『頷かせる技術』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "頷かせる技術を読む",
+    "enGuide": "Calendar 7/2 夜・読書. Read Eloquence book during travel; target Eloquence 2"
+  },
+  {
+    "simpleJp": "7/3 物語：大砂蟲の巣の物語を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/3 物語. Plot-locked travel/dungeon sequence; no independent city slots guaranteed"
+  },
+  {
+    "simpleJp": "7/4 物語：マルティラへ戻り次の作戦を解放する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/4 物語. Recruit Heismay in story and prepare castle task"
+  },
+  {
+    "simpleJp": "7/4 物語：7/4前後の物語でハイザメを仲間にする",
+    "jpGuide1": "メインストーリー",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Calendar 7/4 物語. Heismay R1: Progress through the Martira kidnapping/castle main-story chain and recruit him (around July 4–5); this automatically opens the Thief bond."
+  },
+  {
+    "simpleJp": "7/5 物語：7/5の主作戦を終え、ガリカのランク3を確認する",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 7/5 物語. Gallica R3: Automatic after the Martira 'True Kidnapper' story operation clears, at or after July 5."
+  },
+  {
+    "simpleJp": "7/5 昼・攻略：クリアンテ城を攻略する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "クリアンテ城攻略",
+    "enGuide": "Calendar 7/5 昼・攻略. Early single-day castle clear; gather unique chests and optional Steal equipment; before July 16 deadline"
+  },
+  {
+    "simpleJp": "7/5 【受注・時間なし】募兵舎で『鉱山を荒らす人喰い蟲』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/5, 受注・時間なし: From July 5, accept the mining Man-Eater Worm bounty at a recruitment centre. Kill the quarry target during July 9 Man-Eater's Grotto expedition and return to claim bounty + Courage. This does not consume a separate bond slot. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/6 昼・受注：マルティラで新たな依頼を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "依頼2件を受注",
+    "enGuide": "Calendar 7/6 昼・受注. Accept new Martira requests; side-dungeon travel comes later"
+  },
+  {
+    "simpleJp": "7/6 昼：王都のマリアと話して支援ランク3にする",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 7/6 昼. Maria R3: Two calendar days after R2, meet Maria in Sunshade Row (日陰通り), Grand Trad, in daytime. Scenic landscape paintings may provide additional interactions but are not required for the bond."
+  },
+  {
+    "simpleJp": "7/6 夜：説得力2を得て夜の鎧戦車でハイザメと話す",
+    "jpGuide1": "仲間のことを知りたい（説得力2）",
+    "jpGuide2": "説得力2",
+    "enGuide": "Calendar 7/6 夜. Heismay R2: After the Martira operation, get Eloquence (説得力) 2. Talk to Heismay in the Runner's central passage at night, outside a forced plot-travel lockout."
+  },
+  {
+    "simpleJp": "7/7 昼：ヒュルケンベルグのランク3から2日後、マルティラの酒場で話す",
+    "jpGuide1": "マルティラの酒場宿",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 7/7 昼. Hulkenberg R4: Daytime, Martira's Visca Alba tavern, two days after R3. Her following ranks are Gauntlet Runner travel scenes."
+  },
+  {
+    "simpleJp": "7/7 夜・討論：候補者リナと討論する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "リナと討論",
+    "enGuide": "Calendar 7/7 夜・討論. MISSABLE candidate debate in Martira; choose discrimination-and-poverty reasoning"
+  },
+  {
+    "simpleJp": "7/8 昼：ハイザメのランク2から2日後、昼に中央通路で話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 7/8 昼. Heismay R3: On an eligible day, talk to him in the Runner's central corridor, daytime, two days after R2. Use a free slot on a town-stationary day when the icon appears."
+  },
+  {
+    "simpleJp": "7/8 【夜・時限】マリア2以上でファビアンヌと一緒に調理を手伝う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "July 8 NIGHT one slot: with Maria at R2+, help Fabienne at Hushed Honeybee Inn WITH Maria to earn 看板娘と裏方 before Sept 26. Replaces usual Tolerance helper on this night, not two evening actions."
+  },
+  {
+    "simpleJp": "7/9 昼・旅行：人喰い洞窟へ出発してコメロ村に立ち寄る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "人喰い洞窟に向かう",
+    "enGuide": "Calendar 7/9 昼・旅行. Get egg assortment at Komero, clear cave bounty, collect Neuras relic; use real discretionary Gauntlet Runner travel"
+  },
+  {
+    "simpleJp": "7/9 コメロ村帰還後：透明な硝子の置物と発明家の日誌をニューラスに渡し支援ランク1・ガンナーを解放する",
+    "jpGuide1": "透明な硝子の置物",
+    "jpGuide2": "コメロ村で遺物を回収",
+    "enGuide": "After accepting the Martira pigeon-egg request and actually unlocking Komero, collect Neuras's glass ornament and inventor's journal on the July 9 Komero visit, then return to the Runner and hand both to Neuras to establish R1 and unlock Gunner. This is separate from the Man-Eater's Grotto mineral relic and egg purchase. Verify the travel/night activity schedule before treating July 9 as fully executable; no June 26 completion."
+  },
+  {
+    "simpleJp": "7/9 コメロ村の遺物報告後：ガンナーを履修しモアの支援ランク3を解放する",
+    "jpGuide1": "ガンナーを履修する。",
+    "jpGuide2": "ガンナー」を履修する",
+    "enGuide": "Only after Neuras R1 unlocks Gunner from the Komero glass ornament/journal, study Gunner in Akademia and report to More for R3. Conditional on completing the July 9 travel and Neuras hand-in; not an extra discretionary activity or a June 26 unlock."
+  },
+  {
+    "simpleJp": "7/9 遺物：人喰い洞窟でニューラスの遺物を回収して渡す",
+    "jpGuide1": "ネジのついた鉱物",
+    "jpGuide2": "遺物を知る人物を探せ",
+    "enGuide": "Calendar 7/9 遺物. Neuras relic #1 of 6: Visit Man-Eater's Grotto, obtain the screw-topped mineral (ネジのついた鉱物) and return it to Neuras in the Gauntlet Runner at night. This advances one rank among R2–R7; the six relics can be delivered in any order."
+  },
+  {
+    "simpleJp": "7/9 【収集・時間消費なし】黄金蟲11：人喰い洞窟最下層の北側で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #11 of 50 — Man-Eater's Grotto deepest floor: northern stair-area gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/9 鎧戦車・昼：6/29以降の任意移動中、鎧戦車のストロールと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 7/9 鎧戦車・昼. Calendar 6/30 鎧戦車・昼／別便可 (recommended flexible slot; satisfy game map icon and gate first). Strohl R4: During a genuine discretionary Gauntlet Runner journey starting around June 29, speak with Strohl on the deck in daytime. A town meeting or forced plot transit does not substitute for this travel bond."
+  },
+  {
+    "simpleJp": "7/10 昼：2日後、王都のマリアと話して支援ランク4にする",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 7/10 昼. Maria R4: Visit Maria again in the daytime after the ordinary rank cooldown. Her rank 4 perks include Speed Cooking; optional travel landscape pictures are not required."
+  },
+  {
+    "simpleJp": "7/10 昼・購入：マルティラで料理素材を補充する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "まろやか牛乳",
+    "enGuide": "Calendar 7/10 昼・購入. Buy available milk/flour used for travel dishes; ordinary shopping is no-time"
+  },
+  {
+    "simpleJp": "7/10 夜：ハイザメのランク3から2日後、夜に中央通路で話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 7/10 夜. Heismay R4: Talk in the central corridor at night, two days after R3. Save upcoming discretionary travel for his R5."
+  },
+  {
+    "simpleJp": "7/10 【期限・報告】マルティラ街道広場で伝書鳩の卵を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "July 10 NO-TIME report to request giver in MARTIRA Thoroughfare Square using Komero eggs bought July 9; deadline July 11."
+  },
+  {
+    "simpleJp": "7/11 昼・旅行：打ち捨てられた墓へ向かう",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "打ち捨てられた墓に向かう",
+    "enGuide": "Calendar 7/11 昼・旅行. Plan tomb dungeon and cook いやしパン while traveling"
+  },
+  {
+    "simpleJp": "7/11 鎧戦車：任意の鎧戦車移動中、ヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 7/11 鎧戦車. Hulkenberg R5: Two days after R4, approach her on the deck during free Gauntlet Runner travel in the daytime."
+  },
+  {
+    "simpleJp": "7/12 昼・攻略：打ち捨てられた墓の依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "打ち捨てられた墓攻略",
+    "enGuide": "Calendar 7/12 昼・攻略. Explore chest/relic sites, optional Steal and boss, collect Golden Beetles; one travel/dungeon day"
+  },
+  {
+    "simpleJp": "7/12 鎧戦車：任意の鎧戦車移動中、ハイザメと話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "鎧戦車で移動中",
+    "enGuide": "Calendar 7/12 鎧戦車. Heismay R5: Two days after R4, speak with Heismay during a discretionary Gauntlet Runner journey in daytime/on the deck. Do not assume forced story travel counts."
+  },
+  {
+    "simpleJp": "7/12 【収集・時間消費なし】黄金蟲10：打ち捨てられた墓の指輪部屋南の奥で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #10 of 50 — Abandoned Tomb: south from the room with Malveno's ring, dead end across the grating. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/13 依頼報告：マルベノの指輪をククルスに渡してアロンゾ1を解放する",
+    "jpGuide1": "ククルスに指輪を届けろ",
+    "jpGuide2": "ククルスに指輪を届けろ",
+    "enGuide": "Alonzo R1: after taking Cuculus's ring request in Martira with Imagination 2, get Malveno ring during 7/11–12 Abandoned Tomb trip and REPORT to Cuculus on July 13. The unlock is not executable on July 1 before obtaining ring."
+  },
+  {
+    "simpleJp": "7/13 昼：さらに2日後、王都のマリアと話してランク5にする",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 7/13 昼. Maria R5: Two days after R4, meet Maria on Sunshade Row (日陰通り), Grand Trad, during the day. The bond marker will show her current position; visiting her inn for the R4 scene was the prior step."
+  },
+  {
+    "simpleJp": "7/13 夜・報告：料理人に『いやしパン』を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "料理人を唸らせる一皿",
+    "enGuide": "Calendar 7/13 夜・報告. Report cooking dish and Alonzo ring quest if still outstanding"
+  },
+  {
+    "simpleJp": "7/13 【期限・報告】『魔除けの頭蓋骨を探せ』と『家宝の首飾りを取り返せ』を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/13, 期限・報告: Return to the original Catacombs entrance soldier and Grand Trad Sunlumeo Street noble after obtaining their specific objective items; verify both quest log entries marked completed BEFORE the July 30 cutoff. This hand-in uses town travel/teleport, not a second daytime action. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/14 昼：マルティラの主作戦を終えてバードンの支援ランク1を確認する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Calendar 7/14 昼. Bardon R1: Story-unlocked after the Martira castle/captive-children resolution. Do not seek R2 yet: his follow-up returns after the July 23 story milestone."
+  },
+  {
+    "simpleJp": "7/14 夜・討論：候補者ロジャーと討論する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ロジャーと討論",
+    "enGuide": "Calendar 7/14 夜・討論. MISSABLE Martira debate; taxation as mutual aid"
+  },
+  {
+    "simpleJp": "7/15 昼：昼のマリアと話してランク6にする",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 7/15 昼. Maria R6: At least two days after R5, visit Sunshade Row (日陰通り), Grand Trad, during the day. The old painting-collection suggestion is not a mandatory rank condition."
+  },
+  {
+    "simpleJp": "7/15 夜：ハイザメのランク5から2日後、夜に中央通路で話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 7/15 夜. Heismay R6: On the Gauntlet Runner's central passage at night after the usual 2-day cooldown. Raise Imagination 4 for his next gate."
+  },
+  {
+    "simpleJp": "7/16 昼：ランク4から2日後、昼のマルティラでストロールと話す",
+    "jpGuide1": "マルティラの街道広場",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 7/16 昼. Strohl R5: After his travel-only R4, wait two days then talk to him in a town hub in the daytime (Martira's Thoroughfare Square is an early choice). Train Imagination to 3 for R6."
+  },
+  {
+    "simpleJp": "7/16 アカデメイア：ディーラーをランク15まで育成しモアに報告する",
+    "jpGuide1": "ディーラーを履修しRANK15まで鍛える。",
+    "jpGuide2": "ディーラー」をランク15",
+    "enGuide": "Calendar 7/16 アカデメイア. More R4: Study Merchant/Dealer (ディーラー), level that Archetype to rank 15, then report More's next Akademia task. This is separate from Brigitta's bond rank."
+  },
+  {
+    "simpleJp": "7/16 夜・討論：候補者ラブレスと討論する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ラブレスと討論",
+    "enGuide": "Calendar 7/16 夜・討論. MISSABLE candidate debate; dispute claim that alcohol creates equality"
+  },
+  {
+    "simpleJp": "7/17 昼・読書：『在りし日のこと』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "在りし日のことを読む",
+    "enGuide": "Calendar 7/17 昼・読書. Tolerance book on Runner, flexible schedule; do not delay an actual quest deadline"
+  },
+  {
+    "simpleJp": "7/17 夜・読書：『在りし日のこと』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "在りし日のことを読む",
+    "enGuide": "Calendar 7/17 夜・読書. Keep reading for Tolerance 3 on the Gauntlet Runner"
+  },
+  {
+    "simpleJp": "7/18 昼・読書：『在りし日のこと』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "在りし日のことを読む",
+    "enGuide": "Calendar 7/18 昼・読書. Book reading aiming Tolerance 3"
+  },
+  {
+    "simpleJp": "7/18 夜・読書：『在りし日のこと』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "在りし日のことを読む",
+    "enGuide": "Calendar 7/18 夜・読書. Alternate with another unread book if already done"
+  },
+  {
+    "simpleJp": "7/19 昼・読書：『在りし日のこと』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "在りし日のことを読む",
+    "enGuide": "Calendar 7/19 昼・読書. A supported reference itinerary travel activity"
+  },
+  {
+    "simpleJp": "7/19 夜・読書：『在りし日のこと』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "在りし日のことを読む",
+    "enGuide": "Calendar 7/19 夜・読書. Finish the book and get Tolerance gains"
+  },
+  {
+    "simpleJp": "7/20〜7/22 物語：ブライハーヴェンへの移動を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/20〜7/22 物語. Story transition; no arbitrary daytime/nighttime free slots promised"
+  },
+  {
+    "simpleJp": "7/20 移動：7月中旬の鎧戦車移動でキャゼリナに勝つ",
+    "jpGuide1": "イベント戦で勝利する",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 7/20 移動. Catherina R3: On the relevant travel leg from Martira toward Brilehaven (after the later July story transition), defeat Catherina in her second road challenge. This is an encounter, not an optional town evening scene."
+  },
+  {
+    "simpleJp": "7/21 アカデメイア：15種類のアーキタイプを履修しモアに報告する",
+    "jpGuide1": "15種類のアーキタイプを履修する。",
+    "jpGuide2": "15種類",
+    "enGuide": "Calendar 7/21 アカデメイア. More R5: Study at least 15 distinct Archetypes across party members and report the corresponding Akademia assignment. Count unique studied Archetypes, not levels within one class."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "simpleJp": "【任意・2周目】1周目のエンディング後、クリアデータからニューゲーム＋を開始する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "2周目以降にアカデメイアで黙示録を調べると戦えます。",
+    "enGuide": "Optional separate second playthrough begins ONLY after finishing the first-run ending in the previous section. Start New Game Plus from clear data; this is NOT a requirement for the preceding all-14-Followers Rank 8 / first-run quest target. Source: GameWith's NG+ boss guide and Game8 2nd-run overview."
+  },
+  {
+    "simpleJp": "【任意・2周目】アカデメイアへ戻れるようになるまで物語を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "In NG+, advance the early opening sequence until Akademia becomes accessible. Carried-over Archetype growth/equipment can reduce grinding, but follower rank unlock prerequisites must be reestablished where applicable. Do not claim previous endgame follower ranks instantly remain unlocked."
+  },
+  {
+    "simpleJp": "【任意・2周目】難易度がSTORYTELLERでないことを確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "The New Game+ Redscale Apocalypse Dragon superboss requires Easy or harder; Storyteller mode disables this specific fight. Select a supported difficulty before attempting the achievement. This limitation is independently described by the PowerPyx/PlayStationTrophies superboss guides."
+  },
+  {
+    "simpleJp": "【任意・2周目】アカデメイアでモアの近くの赤い黙示録を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "アカデメイアにある黙示録を調べると戦えます。",
+    "enGuide": "Examine the red Book of the Apocalypse next to More in Akademia during NG+ to initiate the Lv99 Redscale Apocalypse Dragon encounter. It is inaccessible in the original first playthrough. Level and gear up first instead of assuming availability means readiness."
+  },
+  {
+    "simpleJp": "【任意・2周目】『黙示録の赤き竜』に勝利する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "黙示録の赤き竜",
+    "enGuide": "Defeat Redscale Apocalypse Dragon to obtain the 'Closing the Book' achievement (the only trophy requiring NG+ in major written trophy roadmaps). Bring high-level gear and sustain/buff/debuff skills; reflected/nullifying elements can trigger strong retaliation, so inspect the boss guide if needed. This optional route ends after that NG+ achievement."
+  }
+]

@@ -1,0 +1,340 @@
+{
+  "title": "Metaphor: ReFantazio",
+  "vndb_id": "game:metaphor-refantazio",
+  "guide_target": {
+    "label": "メタファー：リファンタジオ（Steam通常版・日本語対応、2024年）",
+    "platform": "Windows (Steam)",
+    "url": "https://store.steampowered.com/app/2679460/Metaphor_ReFantazio/?l=japanese"
+  },
+  "verification_tier": "dual_verified",
+  "routes": [
+    {
+      "id": "june_foundations",
+      "title": "6月：王都・初期支援者（6/5〜6/30）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Chronological all-Follower milestone block; no single character portrait applies. Ranks are flexible earliest-available actions, not mandatory fixed-calendar appointments."
+    },
+    {
+      "id": "july_martira",
+      "title": "7月前半：マルティラ・仲間解放（7/1〜7/22）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Chronological all-Follower milestone block; no single character portrait applies. Ranks are flexible earliest-available actions, not mandatory fixed-calendar appointments."
+    },
+    {
+      "id": "late_july_brilehaven",
+      "title": "7月後半〜8月中旬：ブライハーヴェン（7/23〜8/18）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Chronological all-Follower milestone block; no single character portrait applies. Ranks are flexible earliest-available actions, not mandatory fixed-calendar appointments."
+    },
+    {
+      "id": "august_virga",
+      "title": "8月後半〜9月前半：ビルガ島と追加支援者（8/19〜9/12）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Chronological all-Follower milestone block; no single character portrait applies. Ranks are flexible earliest-available actions, not mandatory fixed-calendar appointments."
+    },
+    {
+      "id": "september_altabury",
+      "title": "9月中旬：アルタベリー・終盤の解放（9/13〜9/25）",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Chronological all-Follower milestone block; no single character portrait applies. Ranks are flexible earliest-available actions, not mandatory fixed-calendar appointments."
+    },
+    {
+      "id": "final_october",
+      "title": "9/26〜10/25：最終ランク・全員確認",
+      "portrait": "",
+      "prerequisites": [],
+      "is_true_ending": false,
+      "notes": "Chronological all-Follower milestone block; no single character portrait applies. Ranks are flexible earliest-available actions, not mandatory fixed-calendar appointments."
+    },
+    {
+      "id": "ngplus_optional",
+      "title": "【任意・2周目】黙示録の赤き竜（NG+限定）",
+      "portrait": "",
+      "prerequisites": [
+        "final_october"
+      ],
+      "is_true_ending": false,
+      "notes": "Optional separate New Game Plus route after first ending; NOT required for first-run 14 Followers/quests/books/Gold Beetles; Storyteller difficulty does not allow NG+ superboss."
+    }
+  ],
+  "recommended_order": [
+    "june_foundations",
+    "july_martira",
+    "late_july_brilehaven",
+    "august_virga",
+    "september_altabury",
+    "final_october",
+    "ngplus_optional"
+  ],
+  "sources": [
+    {
+      "set": "A",
+      "url": "https://gamecap.jp/metaphor/follower_chart.html",
+      "title": "Gamecap メタファー 支援ランク攻略チャート",
+      "language": "ja",
+      "notes": "Directly inspectable Japanese 14-Follower rank table. Supplies dates, some location and quest wording; older page occasionally calls rank 8 RANK4 and assigns Neuras relics in an order that is not mandatory. Do not treat its earliest dates as hard schedule."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/465943",
+      "title": "GameWith 支援者のランク上げと習得アビリティ",
+      "language": "ja",
+      "notes": "Independent directly inspected detailed Japanese Rank 1–8 progression tables and archetype quests, with day/night, travel requirements and Royal Virtue gates. Priority source for operational conditions when Set A is vague or conflicts. GameWith's dedicated snake-request page https://gamewith.jp/metaphor/468204 confirms the preceding 枯れ薬の材料を探せ prerequisite that the follower summary table omits."
+    },
+    {
+      "set": "E",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3346632882",
+      "title": "HayateButler — All Followers Guide (Steam)",
+      "language": "en",
+      "notes": "Independently authored full English rank table, edition-compatible; confirms general rank cadence, MAG-only dialogue bonuses and out-of-order Neuras relic hand-ins. Supplemental verification, never copied into Japanese source quote fields."
+    },
+    {
+      "set": "A",
+      "url": "https://altema.jp/metaphor/comyumax",
+      "title": "アルテマ メタファー100％攻略チャート（2024-10-29）",
+      "language": "ja",
+      "notes": "Separately authored Japanese date-specific first-run 100% schedule. Independently inspected month tables, dungeon timings, Royal Virtues, Followers, collectibles and recovery spare days. Source A schedule component; its calendar is one feasible alternative, not a fixed required order."
+    },
+    {
+      "set": "B",
+      "url": "https://gamerbibouroku.hatenablog.com/entry/2024/10/22/225642",
+      "title": "ゲーマーの備忘録：全要素回収チャート（2024-10-22）",
+      "language": "ja",
+      "notes": "Independently authored Japanese first-person dated 100% chart; documents 6/2–10/26 route, social ranks, travel books, 8 debate dates, Royal Virtues, quests, fishing/cooking, NG+ exclusions. Serves as spine for day/night schedule; differs from Altema in interchangeable choices and dungeon placements. Does not alone establish mandatory dates."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/459157",
+      "title": "GameWith 100%日別ストーリー攻略と月別チャート",
+      "language": "ja",
+      "notes": "Directly inspected independent Japan-language month-by-month date charts with quest deadline and time-of-day actions. Links: 6月 /466190; 7月 /467260; 8月 /467718; 9月 /467947; 10月 /468209. Corroborating material windows and city resources; reconcile different suggested calendars."
+    },
+    {
+      "set": "E",
+      "url": "https://www.rpgsite.net/guide/16304-metaphor-refantazio-100-walkthrough",
+      "title": "RPG Site — 100% Walkthrough (Josh Torres, 2024-10-11)",
+      "language": "en",
+      "notes": "Independent, detailed complete day-by-day English route; cited for cross-check of full first-run feasible run, travel-only Followers, Gold Beetles, side quests, books, and day/night resource flow."
+    },
+    {
+      "set": "E",
+      "url": "https://www.powerpyx.com/metaphor-refantazio-100-walkthrough/",
+      "title": "PowerPyx — 100% Walkthrough (ObsiEez, updated 2024-11-21)",
+      "language": "en",
+      "notes": "Independently authored English full completion day-by-day itinerary with every trophy, follower, book, debate, Gold Beetle, drawing, quest. Explicitly notes Closing the Book NG+-exclusive superboss; routes and dates may differ from selected JP calendar."
+    },
+    {
+      "set": "B",
+      "url": "https://game8.jp/metaphor-re-fantazio/643113",
+      "title": "ゲームエイト 黄金蟲全50カ所・期限",
+      "language": "ja",
+      "notes": "Independent Japanese complete 50-site beetle list and locations, dated opening gates and missables. Used alongside GameWith and Gamex to check beetle placements and 46-for-all-rewards threshold."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/465929",
+      "title": "GameWith 黄金蟲一覧と交換報酬",
+      "language": "ja",
+      "notes": "Japanese independent list with 50 beetle collection requirements. Corroborates specific placements, including one-day prologue and Eldan areas, plus rewards."
+    },
+    {
+      "set": "B",
+      "url": "https://gamex.jp/metaphor-refantazio/gold-beetles",
+      "title": "GAMEX 黄金蟲全50地点と取り逃し期限・交換報酬",
+      "language": "ja",
+      "notes": "Original detailed Japanese location text for all 50, including deadlines: 6/5 prologue; 8/9 toothbrush turn-in; 9/24 Eldan village; cumulative 46 to exchange all rewards. Supplemental B component, verified against Game8/PowerPyx."
+    },
+    {
+      "set": "B",
+      "url": "https://gamex.jp/metaphor-refantazio/books-and-missables",
+      "title": "GAMEX 本7冊と時限問答・看板娘と裏方",
+      "language": "ja",
+      "notes": "Original Japanese written details for seven reading books, limited Julian book (7/23–8/12), eight debate opponent appearances, Maria R2+ pre-9/26 helper achievement. Disagreement: describes all debates as night, whereas firsthand GamerB calendar marks several Brilehaven 7/23/24 debates as daytime; verify actual in-game access in final accuracy review."
+    },
+    {
+      "set": "B",
+      "url": "https://game-shinden.com/metaphor-how-to-proceed-and-check-points-to-avoid-missing-ou/",
+      "title": "ゲーム神殿 期限付き依頼の失効と報告",
+      "language": "ja",
+      "notes": "Japanese independently written report of time-limited quest windows and reporting deadlines: 6/16 medicine, 6/19 inn task, 7/11 pigeon eggs, 8/9 toothbrush, 8/10 flower, 8/30 puppet materials. Deadline assertions are corroborated against GameWith quests and GamerB before passing."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/466154",
+      "title": "GameWith 全依頼一覧（報告・発生日・依頼人）",
+      "language": "ja",
+      "notes": "Independent Japanese quest names/unlock order. Useful cross-reference for dungeons and quest NPCs, including pigeon eggs starting in Martira (not Grand Trad), Basilio Vinca and Eupha Hyperic."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/468249",
+      "title": "GameWith クリア後NG+解説",
+      "language": "ja",
+      "notes": "Japanese independently verified New Game+ contents and Book of Apocalypse availability; distinct optional route after first ending."
+    },
+    {
+      "set": "E",
+      "url": "https://www.powerpyx.com/metaphor-refantazio-all-gold-beetle-locations/",
+      "title": "PowerPyx — 50 Gold Beetles",
+      "language": "en",
+      "notes": "Independent English 50-site written location guide and three missable beetles; corroborates 46 total needed for all exchanges."
+    },
+    {
+      "set": "E",
+      "url": "https://www.powerpyx.com/metaphor-refantazio-redscale-dragon-superboss-guide/",
+      "title": "PowerPyx — Redscale Dragon NG+ boss",
+      "language": "en",
+      "notes": "Independent English NG+ only encounter guide; Storyteller mode restriction and Book of Apocalypse interaction."
+    }
+  ],
+  "source_search": {
+    "checked_at": "2026-11-17",
+    "secondary_japanese": {
+      "status": "found",
+      "queries": [
+        "メタファー リファンタジオ フォロワー 全員 ランク8 攻略",
+        "メタファー 支援ランク 発生時期 条件",
+        "メタファー ジュナ 枯れ薬の材料を探せ 弔いを阻む蛇食い怪物を倒せ 条件",
+        "メタファー キャゼリナ ランク2 マルティラ 大砂蟲の巣",
+        "メタファー リファンタジオ 全要素回収チャート 日付 6月 7月 8月 9月 10月",
+        "メタファー 100%攻略 日付別 昼 夜 支援者 黄金蟲 闘論",
+        "メタファー 黄金蟲 50ヶ所 6/5 9/24 8/9",
+        "メタファー 魔法的未来 入手期間 ジュリアン",
+        "メタファー 看板娘と裏方 9/26 手伝い",
+        "メタファー 期限付き依頼 6/16 6/19 7/11 8/9 8/10 8/30"
+      ],
+      "sites_checked": [
+        "Gamecap",
+        "GameWith",
+        "GameWith dedicated quest page",
+        "神ゲー攻略",
+        "ちゅこっと陽だまる",
+        "アルテマ 100%チャート",
+        "ゲーマーの備忘録 2024-10-22",
+        "GameWith 100%月別スケジュール",
+        "Game8",
+        "GAMEX",
+        "ゲーム神殿",
+        "GameWith 依頼一覧"
+      ],
+      "candidates": [
+        {
+          "url": "https://gamecap.jp/metaphor/follower_chart.html",
+          "assessment": "Independent directly inspected full Japanese rank table A."
+        },
+        {
+          "url": "https://gamewith.jp/metaphor/465943",
+          "assessment": "Independent directly inspected comprehensive Japanese rank table B."
+        },
+        {
+          "url": "https://gamewith.jp/metaphor/468204",
+          "assessment": "Directly inspected same-game Japanese GameWith quest detail; confirms the preceding 枯れ薬の材料を探せ unlock prerequisite. Same publisher as Set B, not an independent third walkthrough."
+        },
+        {
+          "url": "https://kamigame.jp/metaphor/page/339043414219722053.html",
+          "assessment": "Independent Japanese quest-specific written guide; confirms snake request unlocks only after 枯れ薬の材料を探せ. Supplementary fact corroboration, not a complete Set B replacement."
+        },
+        {
+          "url": "https://chucco.com/metaphor/tomuraiwo-habamuhebikui/",
+          "assessment": "Independent first-person Japanese written quest account, directly inspected; reports snake request became available after 枯れ薬の材料を探せ and R1 after completion; supplementary fact evidence, not complete rank walkthrough."
+        },
+        {
+          "url": "https://altema.jp/metaphor/comyumax",
+          "assessment": "Full directly inspected original Japanese day-by-day complete route with distinct recommended dungeon times; supplementary Set A composite schedule."
+        },
+        {
+          "url": "https://gamerbibouroku.hatenablog.com/entry/2024/10/22/225642",
+          "assessment": "Independent original Japanese date-specific trophy/quest/Follower schedule with active-day notes and deliberate rest gaps; alternative Set B schedule spine."
+        },
+        {
+          "url": "https://gamewith.jp/metaphor/459157",
+          "assessment": "Detailed third Japanese monthly schedule, dates, quests and gold beetles; independent editorial from both Altema and GamerB; composite Set B corroboration."
+        },
+        {
+          "url": "https://game8.jp/metaphor-re-fantazio/643113",
+          "assessment": "Independent Japanese complete 50-site beetle list and locations, dated opening gates and missables. Used alongside GameWith and Gamex to check beetle placements and 46-for-all-rewards threshold."
+        },
+        {
+          "url": "https://gamewith.jp/metaphor/465929",
+          "assessment": "Japanese independent list with 50 beetle collection requirements. Corroborates specific placements, including one-day prologue and Eldan areas, plus rewards."
+        },
+        {
+          "url": "https://gamex.jp/metaphor-refantazio/gold-beetles",
+          "assessment": "Original detailed Japanese location text for all 50, including deadlines: 6/5 prologue; 8/9 toothbrush turn-in; 9/24 Eldan village; cumulative 46 to exchange all rewards. Supplemental B component, verified against Game8/PowerPyx."
+        },
+        {
+          "url": "https://gamex.jp/metaphor-refantazio/books-and-missables",
+          "assessment": "Original Japanese written details for seven reading books, limited Julian book (7/23–8/12), eight debate opponent appearances, Maria R2+ pre-9/26 helper achievement. Disagreement: describes all debates as night, whereas firsthand GamerB calendar marks several Brilehaven 7/23/24 debates as daytime; verify actual in-game access in final accuracy review."
+        },
+        {
+          "url": "https://game-shinden.com/metaphor-how-to-proceed-and-check-points-to-avoid-missing-ou/",
+          "assessment": "Japanese independently written report of time-limited quest windows and reporting deadlines: 6/16 medicine, 6/19 inn task, 7/11 pigeon eggs, 8/9 toothbrush, 8/10 flower, 8/30 puppet materials. Deadline assertions are corroborated against GameWith quests and GamerB before passing."
+        },
+        {
+          "url": "https://gamewith.jp/metaphor/466154",
+          "assessment": "Independent Japanese quest names/unlock order. Useful cross-reference for dungeons and quest NPCs, including pigeon eggs starting in Martira (not Grand Trad), Basilio Vinca and Eupha Hyperic."
+        },
+        {
+          "url": "https://gamewith.jp/metaphor/468249",
+          "assessment": "Japanese independently verified New Game+ contents and Book of Apocalypse availability; distinct optional route after first ending."
+        }
+      ]
+    },
+    "english_walkthrough": {
+      "status": "found",
+      "queries": [
+        "Metaphor ReFantazio all follower rank guide",
+        "Metaphor follower ranks steam community guide",
+        "Metaphor ReFantazio detailed 100% day night chronological full game walkthrough",
+        "metaphor refantazio day by day rpgsite powerpyx all missables",
+        "Metaphor all 50 gold beetles missable",
+        "Metaphor redscale dragon New Game Plus Storyteller"
+      ],
+      "sites_checked": [
+        "Steam Community guides",
+        "RPG Site",
+        "PowerPyx",
+        "PowerPyx collectibles and superboss"
+      ],
+      "candidates": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3346632882",
+          "assessment": "Independent English complete 14-Follower walkthrough; confirms key conditions."
+        },
+        {
+          "url": "https://www.rpgsite.net/guide/16304-metaphor-refantazio-100-walkthrough",
+          "assessment": "Independent full detailed English one-playthrough schedule, not a mirror of either Japanese source."
+        },
+        {
+          "url": "https://www.powerpyx.com/metaphor-refantazio-100-walkthrough/",
+          "assessment": "Another independent English chronological complete completion route; one NG+-only superboss excepted."
+        },
+        {
+          "url": "https://www.powerpyx.com/metaphor-refantazio-all-gold-beetle-locations/",
+          "assessment": "Independent English 50-site written location guide and three missable beetles; corroborates 46 total needed for all exchanges."
+        },
+        {
+          "url": "https://www.powerpyx.com/metaphor-refantazio-redscale-dragon-superboss-guide/",
+          "assessment": "Independent English NG+ only encounter guide; Storyteller mode restriction and Book of Apocalypse interaction."
+        }
+      ]
+    }
+  },
+  "completion_scope": {
+    "included": "One continuous first-run dated 6/2–10/26 calendar in six chronological sections, day/night, all 14 Followers R8, 50 identified Golden Beetle positions (46 required for all beetle rewards), all seven book-reading commitments, eight dated candidate debates, short-expiry requests and report deadlines, major side-quest/dungeon travel paths, trophies/cooking/arena, Royal Virtue gates and final free-action checklist. Separate NG+ optional appendix for exclusive redscale superboss.",
+    "excluded": "NG+ redscale boss from first-run contract; appendix handles it. Repetitive grinding, arbitrary loot RNG, optional item-perfect inventory and mutually exclusive outcome permutations are not mandated.",
+    "progress": "Expanded chronological draft authored through ending and optional NG+ appendix, 367 dated/operational steps. New source-backed quest/collectible/reading additions and fixes for independent reviewer A1–A3 are present. Pending independent route-wide end-to-end calendar/time-cost and Japanese literal-quote accuracy review; no claim of 100% playthrough verification or reviewer PASS."
+  },
+  "disagreements": "A labels several Rank 8 entries as RANK4; B+E agree these are rank 8. A implies Maria paintings are mandatory; B+E describe Maria's rank-ups through conversations and Virtue ranks; scenic paintings should be treated as optional gifts. A and E map some Neuras relics to different rank indices: E confirms any of the six relics may be turned in out of order for ranks 2–7, so the guide lists locations without a forced hand-in order. Some earliest-day indications in A conflict with B's 2-day spacing; B and E are used for cadence and quest prerequisites. Character sections are chronological windows, not fixed appointment dates. English localized and Japanese quest names are linked where directly verified. Accuracy review A1 (2026-11-17): GameWith's Catherina R2 condition explicitly specifies outgoing travel from Martira to Great Sandworm's Nest; Gamecap only confirms the battle after July 2, so corrected the previously incorrect incoming-leg assertion. A2: Gamecap's Junah prerequisite 枯れ薬の材料を探せ is corroborated by GameWith's dedicated quest page and independent Japanese quest guides (Kamigame and Chucco); added the preceding request to the executable chain. GameWith's summary follower table omitted the prerequisite, but its quest-specific page states it. SCOPE UPDATE 2026-11-17: Owner explicitly requested a Persona-style spoiler-light day-by-day first-run calendar in PR #120 issuecomment-6956649441. The 2024 independent JP schedules (アルテマ, ゲーマーの備忘録) choose different dungeon dates and day/night activities but share a feasible first-run max-Follower/content goal; GameWith provides another 2026-maintained monthly calendar. Different recommendations are swappable, never presented as hard quest windows without corroboration. A date-specific bond plan from the original GamerB schedule must be checked against actual rank prerequisites, calendar-time costs and early dungeon state. PowerPyx and RPG Site independently confirm most first-run content is doable with only the NG+ superboss beyond the first playthrough. This expanded new content invalidates both structural and accuracy PASS for all modified sections; keep reviewed:false. ADDITIONAL 2026-11-17 missables research: Japanese Game8/GameWith and detailed GAMEX, plus independent English PowerPyx, corroborate 50 Gold Beetles, 46 needed for all exchanges. Older Gamecap and some older sites say 49, but 50 is the newer verified inventory; verify actual target platform. Three potentially lost beetles: 6/5 camp, quest-report reward by 8/9, 9/24 one-day Eldan visit. Gamex/independent quest source distinguishes quest ACCEPT vs REPORT deadlines: medicine 6/16, inn 6/19, pigeon eggs 7/11, toothbrush 8/9, flower 8/10, puppet materials 8/30. GameWith quest directory says pigeon egg quest is accepted at Martira street square; correct old preliminary Grand Trad assumption. Book 『魔法的未来』 must be acquired from Julian 7/23–8/12, even if reading later; Maria+Fabienne special inn help must occur Maria R2+ and BEFORE 9/26. Japanese GamerB calendar shows daytime Brilehaven debates 7/23/24, while Gamex generic explanation says debates are night: document as source conflict not a hard universal night-time requirement; player should follow current map/podium and authoritative calendar slot if offered. Time-free beetle pickups should not consume a separate day/night slot. This is an author content update, not a source-independent 100% PASS. REVIEW A1–A3 RESPONSE 2026-11-17 (independent reviewer comment https://github.com/kanjieater/VN-Guide/pull/120#issuecomment-6957104506): August 19 main Dragon Temple is a single daytime dungeon; Junah's snake-monster side request is ACCEPTED after reporting dry-medicine request on August 19, but the actual Circle Landmark dungeon/boss and quest REPORT occur August 23 alongside the separately scheduled Circle Landmark trip. Junah Rank 2 remains August 27 after cooldown. On July 1 only Catacombs is an active daytime dungeon: Cuculus/Alonzo ring quest acceptance is no-time at first Martira access, the ring is retrieved during July 11–12 Abandoned Tomb trip, reported July 13 and Rank 1 unlocked thereafter; do not imply a second July 1 dungeon. September 26 new final quest intake is no-time only and must not occupy Bardon's daytime Rank 8 appointment in Martira or Brigitta's night Rank 8 in Grand Trad. If individual city travel/acceptance blocks a free-time slot, defer that ordinary non-expiring request rather than double-booking. These revisions are authored corrections and need independent accuracy and structural re-review against current blobs.",
+  "generated_at": "2026-11-17T13:10:00-06:00"
+}

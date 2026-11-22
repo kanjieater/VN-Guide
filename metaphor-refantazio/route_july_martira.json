@@ -6,12 +6,6 @@
     "enGuide": "July 1: pick up available Grand Trad requests and clear the Catacombs. The Alonzo ring is in Abandoned Tomb, NOT here; don't report until after the 7/11–12 tomb trip."
   },
   {
-    "simpleJp": "7/1 受注・時間なし：マルティラで『ククルスに指輪を届けろ』を受ける",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 7/1 受注・時間なし. With Imagination 2, speak to Cuculus in Martira Thoroughfare Square. Ring will be collected July 11–12 in Abandoned Tomb and reported July 13; quest acceptance itself is no-time."
-  },
-  {
     "simpleJp": "7/1 【受注・期限】『魔除けの頭蓋骨を探せ』を地下納骨堂の兵士から受注する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -22,6 +16,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "7/1, 受注・期限: After the prior Goblin King or Man-Eater Worm bounty, speak to irate noble on Grand Trad Sunlumeo Street; retrieve heirloom in the Catacombs and report by JULY 30. Combine with July 1 Catacombs sweep. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/2 出発前【受注・時間なし】：マルティラで『ククルスに指輪を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "July 2 BEFORE leaving Martira for Great Sandworm's Nest: with Imagination 2, speak to Cuculus in Martira Thoroughfare Square and accept the ring quest as a no-time town interaction. Collect Malveno's ring during the July 11–12 Abandoned Tomb expedition and report to Cuculus on the scheduled July 13 Martira return. This replaces the geographically unsupported July 1 Grand Trad Catacombs → Martira intake transfer; it does not assume intercity travel is free."
   },
   {
     "simpleJp": "7/2 出発前【受注・時間なし】伝書鳩の卵の依頼をマルティラ街道広場で受ける",

@@ -6,10 +6,34 @@
     "enGuide": "Calendar 9/13 昼・受注. New city request window: take all available bounties and side quests, get the informant notes, visit local collectors/shopkeepers and prepare the Everfrost Forest trip. Keep the main plot September 22 deadline protected."
   },
   {
+    "simpleJp": "9/13 【受注・時間なし】ディア・フランコ通り下層で『防寒着の素材を届けろ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/13, 受注・時間なし: At Altabury lower Dia Franco Street accept winter-clothing material request; purchase/gather specifically listed material from relevant city/village and hand back to the giver during a return visit. No hard expiry. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "9/13 【受注・時間なし】歌劇場前広場で『不遜の塔に巣食うものを倒せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/13, 受注・時間なし: In Altabury Opera House Square pick up Tower of Ascendant bounty, defeat its target on Sept 17 trip and return to same requester for reward. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "9/13 【受注・時間なし】募兵舎で『凍てつく森の白き獣』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/13, 受注・時間なし: Take Everfrost Forest white-beast bounty from recruitment centre, kill target during Sept 13 area excursion, and report at next recruitment centre visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "9/13 昼・旅行：常氷樹林へ向かい氷森の魔物を倒す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "常氷樹林攻略",
     "enGuide": "Calendar 9/13 昼・旅行. Combine the Everfrost Forest bounty with Neuras's handled rock relic. Search chest and Golden Beetle locations; use voluntary Runner travel to initiate Basilio's bond."
+  },
+  {
+    "simpleJp": "9/13 昼・鎧戦車【時短料理・時間なし】：強壮琥珀鍋を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 17/21. 錦紗コイ1・女帝蜂の蜜瓶1・紅香草3. Eupha joined; perform on Runner after intake, before Basilio event. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
   },
   {
     "simpleJp": "9/13 鎧戦車・昼：9/13以降、任意の鎧戦車移動中にバジリオと話す",
@@ -18,10 +42,10 @@
     "enGuide": "Calendar 9/13 鎧戦車・昼. Basilio R1: Once he becomes a permanent party member around September 13, initiate his Follower bond by talking to him during discretionary Gauntlet Runner travel in daytime. This opens Berserker. The main-story recruitment alone need not immediately grant a bond rank."
   },
   {
-    "simpleJp": "9/13 遺物回収：常氷樹林の遺物を回収し夜にニューラスへ渡す",
-    "jpGuide1": "取っ手がついた岩",
-    "jpGuide2": "取っ手がついた岩",
-    "enGuide": "Calendar 9/13 遺物回収. Neuras relic #5 of 6: Take 'The White Beast in the Frozen Forest' (凍てつく森の白き獣), travel to Everfrost Forest (常氷樹林), collect the handled rock (取っ手がついた岩) and give it to Neuras at night aboard the Runner. This advances the fifth of his six relic ranks if the earlier four were delivered."
+    "simpleJp": "9/13 常氷樹林内：遺物を回収する（報告は9/15夜）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Store the relic until the planned R6 hand-in on September 15. No additional evening report assumed on dungeon day."
   },
   {
     "simpleJp": "9/13 【収集・時間消費なし】黄金蟲33：アルタベリー・ルンルーモ参道南の東壁沿いを調べる",
@@ -34,12 +58,6 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #34 of 50 — Altabury Rurmumo road north of T junction, dead end downstairs on east. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
-  },
-  {
-    "simpleJp": "9/13 【収集・時間消費なし】黄金蟲35：夜のアルタベリー白峰魔法館入口の壺を調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Gold Beetle #35 of 50 — Altabury Whitepeak Magic Shop, Skybound Bridge lower level: examine the vase at night. Non-time-consuming pickup; evening-specific store access. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "9/13 【収集・時間消費なし】黄金蟲36：蒼穹橋上層の武器屋と雑貨屋の間の柱を調べる",
@@ -66,28 +84,10 @@
     "enGuide": "Gold Beetle #40 of 50 — Everfrost Forest: southwestern gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "9/13 夜・読書：『よみ・かき・おてほん』を読み始める",
+    "simpleJp": "9/13 【移動前・購入確認】釣り・料理の残り食材を確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 9/13 夜・読書. Basilio's book becomes available after recruitment; first reading, flex to another Runner night if story locked."
-  },
-  {
-    "simpleJp": "9/13 【受注・時間なし】ディア・フランコ通り下層で『防寒着の素材を届けろ』を受注する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "9/13, 受注・時間なし: At Altabury lower Dia Franco Street accept winter-clothing material request; purchase/gather specifically listed material from relevant city/village and hand back to the giver during a return visit. No hard expiry. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
-  },
-  {
-    "simpleJp": "9/13 【受注・時間なし】歌劇場前広場で『不遜の塔に巣食うものを倒せ』を受注する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "9/13, 受注・時間なし: In Altabury Opera House Square pick up Tower of Ascendant bounty, defeat its target on Sept 17 trip and return to same requester for reward. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
-  },
-  {
-    "simpleJp": "9/13 【受注・時間なし】募兵舎で『凍てつく森の白き獣』を受注する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "9/13, 受注・時間なし: Take Everfrost Forest white-beast bounty from recruitment centre, kill target during Sept 13 area excursion, and report at next recruitment centre visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+    "enGuide": "Do not schedule an extra reading after the Everfrost dungeon. The two reading sessions for よみ・かき・おてほん occur on September 18 and 20 before battle."
   },
   {
     "simpleJp": "9/14 昼・期間限定：ジュリアンと討論する",
@@ -102,10 +102,16 @@
     "enGuide": "September 14 no-time audit (not an additional night activity): check Courage 5 for Alonzo R7, Tolerance 5 for Catherina, Wisdom 5 for Eupha, Imagination 5 and Eloquence 5 for Basilio. Work on any missing virtue with genuinely free slots; don't claim they are all automatically maxed."
   },
   {
-    "simpleJp": "9/14 夜：勇気5でブライハーヴェンのアロンゾに話してランク7にする",
-    "jpGuide1": "RANK7",
-    "jpGuide2": "勇気5",
-    "enGuide": "Calendar September 14 NIGHT (flexible; requires Courage rank 5, Alonzo R6 from Aug 11 and 2-day cooldown). Alonzo R7: talk to Alonzo in Brilehaven Angler's Inn Square to trigger the rank-7 bond. Do not proceed to Daturam/Rank8 before completing this event. If Courage 5 is not ready, defer to the FIRST eligible night before Sept 30 R8 rather than claiming an impossible 9/14 rank."
+    "simpleJp": "9/14 夜・時間なし：転移でアルタベリー白峰魔法館入口の壺から黄金蟲35を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Collect at night on the town day BEFORE teleporting to Brilehaven for Alonzo; avoids assuming a free evening after the September 13 dungeon."
+  },
+  {
+    "simpleJp": "9/14 夜：白峰の黄金蟲を回収後、ブライハーヴェンへ転移しアロンゾ7",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "No-time teleport between visited cities after daytime debate and evening pickup; Courage 5."
   },
   {
     "simpleJp": "9/15 昼：バジリオのランク1から2日後、昼に街で話す",
@@ -114,10 +120,10 @@
     "enGuide": "Calendar 9/15 昼. Basilio R2: Two days after his first Gauntlet Runner event, approach Basilio in a city/town hub during the day and take the rank-up conversation."
   },
   {
-    "simpleJp": "9/15 夜・遺物報告：ニューラスに回収済み遺物を渡す",
+    "simpleJp": "9/15 夜：ニューラスに常氷樹林の遺物を渡してランク6",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ニューラス",
-    "enGuide": "Calendar 9/15 夜・遺物報告. Submit any still-unreported relic from Everfrost Forest. The relic order is flexible, but all six must be turned in before Neuras R8 can open."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "One evening activity."
   },
   {
     "simpleJp": "9/16 昼：説得力4で昼のユーファと話す",
@@ -156,10 +162,16 @@
     "enGuide": "Gold Beetle #41 of 50 — Tower of Ascendant 2F northeastern spot. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "9/18 昼・攻略：ウルカノ山の依頼を進め、遺物を入手する",
+    "simpleJp": "9/18 昼・鎧戦車：ウルカノ山に入る前に『よみ・かき・おてほん』を読む",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ウルカノ火山攻略",
-    "enGuide": "Calendar 9/18 昼・攻略. Travel to Mt Vulkano; complete the unlocked side-request and pick up Neuras's patchwork sphere plus the rusted greatsword for related quest turn-ins. Avoid duplicate travel later."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First reading on outbound travel. No guaranteed night activity after returning from dungeon."
+  },
+  {
+    "simpleJp": "9/18 昼・攻略：ウルカノ山でハイペリックを倒し、遺物と錆びついた大剣を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Read on the outbound travel before entering. Defeat Hyperic for Eupha's quest, loot the relic and rusty greatsword for September 26 weapon request. Do not reserve a second dungeon trip."
   },
   {
     "simpleJp": "9/18 昼・遺物：ウルカノ山の『つぎはぎの球体』を拾う",
@@ -174,22 +186,16 @@
     "enGuide": "Gold Beetle #39 of 50 — Mt Vulkano: ascend eastern ladder from lower floor and search north. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "9/18 夜・読書：『よみ・かき・おてほん』を読み進める",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 9/18 夜・読書. Second unique reading session during Mt Vulkano travel."
-  },
-  {
     "simpleJp": "9/19 昼：バジリオのランク3から2日後、昼に街で話す",
     "jpGuide1": "RANK4",
     "jpGuide2": "ランク4",
     "enGuide": "Calendar 9/19 昼. Basilio R4: At least two days after his travel R3, meet him in an eligible daytime town hub. The map's bond marker identifies the current city location."
   },
   {
-    "simpleJp": "9/19 夜・遺物報告：ニューラスに六つ目の遺物を渡す",
+    "simpleJp": "9/19 夜：ウルカノ山の遺物をニューラスへ渡しランク7",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ニューラス7",
-    "enGuide": "Calendar 9/19 夜・遺物報告. Neuras progresses through R7 after all six relic turn-ins. If the relic sequence is incomplete, use the first eligible night to finish; don't assume the sixth relic itself magically completes R8."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Sixth relic, after previous five have been individually delivered."
   },
   {
     "simpleJp": "9/19 【報告・時間なし】ハイペリック討伐と不遜の塔の依頼を報告する",
@@ -204,10 +210,10 @@
     "enGuide": "Calendar 9/20 昼・依頼. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 1: After six lost relic hand-ins, go to Grand Trad near the Regalith Grand Cathedral / Royal Army recruitment office and talk to the guard. This opens the 'Petty Thief' / Jin gauntlet-runner encounter; merely talking to Neuras at night will not complete R8. This is the single guard trigger; the recruitment office and cathedral vicinity describe the same NPC interaction, not two appointments."
   },
   {
-    "simpleJp": "9/20 昼・戦闘：鎧戦車でジンの鎧戦車へ向かい戦闘に勝つ",
-    "jpGuide1": "ジンの鎧戦車に向かう",
-    "jpGuide2": "ジンの鎧戦車",
-    "enGuide": "Calendar 9/20 昼・戦闘. Use actual available prior free slot, not necessarily 10/24. Neuras R8, part 2: Use the Runner to travel to Jin's Gauntlet Runner and win the Jin boss fight. Complete the dialogue/reward sequence to finish the Gunner bond."
+    "simpleJp": "9/20 昼・旅行：ジンの鎧戦車へ向かい、読書後に戦闘して盗まれた遺物を取り返す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "On the actual outbound leg read よみ・かき・おてほん second time. Beat Jin and complete the event for Neuras R8. Optional steal equipment during battle; no extra discretionary slot claimed."
   },
   {
     "simpleJp": "9/20 夜：包容力5を得て夜のキャゼリナと話す",

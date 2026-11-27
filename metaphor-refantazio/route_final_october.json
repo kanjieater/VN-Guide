@@ -48,6 +48,12 @@
     "enGuide": "9/26, 受注・時間なし: From Sept 26 Grand Trad Sunshade Row, accept this quest; follow the indicated Mt Vulkano/deposit retrieval and report to original quest giver after the related late-game dungeon visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
+    "simpleJp": "9/26 【報告・時間なし】：錆びついた大剣を王都日陰通りの重装備の男へ渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use sword obtained September 18 from Vulcano; accept weapon request first, then deliver for 宿望の大剣. Source https://metaphor.mtwildwood.net/ja/quests/the-edge-of-glory/ ."
+  },
+  {
     "simpleJp": "9/26 【受注・時間なし】ビルガ島で『英雄たちの墓場』を受注する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -96,22 +102,40 @@
     "enGuide": "9/26, 受注・時間なし: Accept second cooking quest in Grand Trad Sunlumeo Street, cook the requested fluffy honey confection while traveling Sept 27, and return to the requester Sept 29. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
+    "simpleJp": "9/26 【購入・時間なし】レガリス大聖堂前でアルタベリー麦粉4を購入する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Confirm missing base recipes before leaving: 3 legendary fish total including chef reward, 5 honey jars, 5 mushrooms. If short, reserve October recovery travel; do not repeat cooked recipes until all 21 are done."
+  },
+  {
+    "simpleJp": "9/27 昼・鎧戦車【時短料理・時間なし】：魔性華麗鍋を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 18/21. アルタベリー麦粉1・怪獣骨2・伝説のヌシ1. Eupha joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
     "simpleJp": "9/27 昼・旅行：見捨てられた道へ向かい、鎧戦車で『よみ・かき・おてほん』を読了する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "見捨てられた道へ向かう",
     "enGuide": "Calendar 9/27 昼・旅行. Travel toward Disgraced/Abandoned Path with available bounty, buy sturdy spider thread at Malva Village, cook new recipes and finish the Imagination book to approach rank 5. This is the sole planned 9/27 daytime book session; do not count a second daytime session after night."
   },
   {
-    "simpleJp": "9/27 夜・料理：新しい料理を作って資質読書を進める",
+    "simpleJp": "9/27 夜・鎧戦車【時短料理・時間なし】：ふわふわ蜜菓子を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ふわふわ蜜菓子",
-    "enGuide": "Calendar 9/27 夜・料理. Use the camp/Runner to cook 'ふわふわ蜜菓子' for the second cook quest and read the remaining Wisdom book. Maria's Speed Cooking makes kitchen tasks flexible."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 19/21: 白桃かぶ2・アルタベリー麦粉2・トウ蜜蜂2. Basilio joined. Reserve a portion for September 29 chef. Then read 魔法的未来 as the night's single consuming activity."
   },
   {
-    "simpleJp": "9/28 昼・攻略：見捨てられた道の依頼を達成する",
+    "simpleJp": "9/28 昼・鎧戦車【時短料理・時間なし】：かちこち蜜菓子を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見捨てられた道攻略",
-    "enGuide": "Calendar 9/28 昼・攻略. Clear the Abandoned Path and gather unique items/Gold Beetles. Keep required dishes and quest loot for the next hub visit."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 20/21. アルタベリー麦粉1・女帝蜂の蜜瓶1・オルゴ糖2. Basilio joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "9/28 昼・攻略：見捨てられた道で『恨み渦巻く森の化身』の賞金首を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Explore dungeon, collect beetle, kill bounty and buy 丈夫な蜘蛛糸 in Malva on the journey. Return to recruitment centre on September 29 to report. No arbitrary extra dungeon."
   },
   {
     "simpleJp": "9/28 夜・読書：『魔法的未来』を読み進める",
@@ -126,16 +150,22 @@
     "enGuide": "Gold Beetle #50 of 50 — Disgraced Path: northernmost glowing point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "9/29 昼・報告：ふわふわ蜜菓子を料理人へ届ける",
+    "simpleJp": "9/29 【報告・時間なし】：王都の料理人にふわふわ蜜菓子を渡す",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "さらに料理人を唸らせる一皿",
-    "enGuide": "Calendar 9/29 昼・報告. Report the second chef-request with prepared food. Speak to Loveless at Altabury's Lower Dia Franco Street if his follow-up is ready; group all hub errands before another trip."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Chef on Sunlumeo Street gives legendary fish; save it for final recipe. Report Forsaken Tower bounty at recruitment centre before next departure."
   },
   {
-    "simpleJp": "9/29 昼・攻略：天上人の邸を攻略する",
+    "simpleJp": "9/29 昼・鎧戦車【時短料理・時間なし】：至高のひと匙を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "天上人の邸攻略",
-    "enGuide": "Calendar 9/29 昼・攻略. Complete the Manor of the Ascendant optional dungeon to advance first-run quest completion, gather Gold Beetles and rare materials; if a travel day is needed, use the documented spare-day buffer."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 21/21. 伝説のヌシ1・女帝蜂の蜜瓶3・ガイセン茸3. Only after all 20 base recipes have been cooked; if missing use October recovery slots before final audit. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "9/29 昼・攻略：天上人の邸で『天上に住まう幻の鳥』の賞金首を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Cook and read before dungeon entry; loot beetle and defeat target. Report at recruitment centre on September 30."
   },
   {
     "simpleJp": "9/29 夜・読書：『魔法的未来』を読んで見識5を目指す",
@@ -150,6 +180,12 @@
     "enGuide": "Gold Beetle #49 of 50 — Manor of Ascendant 2F: cross beam over missing floor, then pass through west wall hole. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
+    "simpleJp": "9/30 【報告・時間なし】：蜘蛛糸をアルタベリーの依頼人へ、賞金首を募兵舎へ報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Deliver 丈夫な蜘蛛糸 bought at Malva to the winter-clothing requester on Dia Franco Street lower level; report Heavenly bird bounty. Teleport to visited towns before Basilio appointment."
+  },
+  {
     "simpleJp": "9/30 昼：想像力5を得て昼のバジリオと話す",
     "jpGuide1": "RANK6",
     "jpGuide2": "想像力5",
@@ -162,10 +198,10 @@
     "enGuide": "Calendar 9/30 夜. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Alonzo R8: Two days after R7, do NOT hunt for the usual Alonzo icon: talk to Daturam (ダチュラム) at Brilehaven Angler's Inn Square at night and follow the conclusion of 'A Rake's Last Wish' (アロンゾの遺志を叶えろ). The alternate NPC is required to finish his Faker bond."
   },
   {
-    "simpleJp": "10/1 昼：暴走するハイペリックを止め、見識5でユーファと話す",
-    "jpGuide1": "暴走するハイペリックを止めろ",
-    "jpGuide2": "暴走するハイペリックを止めろ",
-    "enGuide": "Calendar 10/1 昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R7: Accept and complete 'Stop the Rampaging Hyperic' (暴走するハイペリックを止めろ), available during the later story, and reach Wisdom (見識) 5. Speak with Eupha in daytime to obtain R7. If this request is not yet offered, revisit after September's story transition."
+    "simpleJp": "10/1 昼：ハイペリック討伐済み・見識5でユーファと話してランク7",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Hyperic was defeated September 18; don't repeat the dungeon here."
   },
   {
     "simpleJp": "10/1 夜：ジュナのランク7から2日後、夜の鎧戦車で話す",
@@ -216,28 +252,34 @@
     "enGuide": "Calendar 10/4 夜・資質. If Courage is still below 5, use a town Courage activity. This is a flexible spare activity once all urgent ranks are covered."
   },
   {
-    "simpleJp": "10/5 昼・旅行：ミロの鎧戦車へ向かいユーファと話す",
+    "simpleJp": "10/5 昼・旅行：ミロの鎧戦車へ向かう途中、ユーファと話してランク8",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ミロの鎧戦車に向かう",
-    "enGuide": "Calendar 10/5 昼・旅行. Combine Milo's Gauntlet Runner encounter/travel objective with Eupha's travel-only final Follower rank, if already eligible. Do not expect a fixed story passage to count as free travel."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "One travel-only daytime event, then complete the encounter; do not duplicate the rank."
   },
   {
-    "simpleJp": "10/5 昼・旅行：ミロの鎧戦車へ向かい、条件を満たしていれば移動中にユーファR8の会話をする",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Calendar 10/5 鎧戦車・昼. TRANSFERRED from September window to final month; date and free slot must be assigned before review. Eupha R8: Two days after R7, speak with Eupha in the central corridor during a discretionary Gauntlet Runner journey in daytime. If the Hyperic quest unlocks late in your run, complete this during October instead. Eupha R8 is the single travel-only conversation on this leg, conditional on R7 and its two-day cooldown; do not repeat it as a second activity."
+    "simpleJp": "10/5 夜：バルマレーノ闘技場の金1級戦を終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Dated reference reserves this arena event; after the Runner encounter return to Brilehaven via town teleport when available."
   },
   {
-    "simpleJp": "10/6 昼・攻略：不詳の遺跡を攻略する",
+    "simpleJp": "10/6 昼・攻略：不詳の遺跡で『終末を祈る狂信者たち』の賞金首を倒す",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "不詳の遺跡攻略",
-    "enGuide": "Calendar 10/6 昼・攻略. Optional late quest dungeon. Complete its bounty, loot and Gold Beetle route in one trip and avoid wasteful backtracking."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Defeat the bounty, collect the beetle and report at recruitment centre on October 7."
   },
   {
     "simpleJp": "10/6 【収集・時間消費なし】黄金蟲46：不詳の遺跡入口最初の分岐の左端を調べる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #46 of 50 — Unproven Ruins: left at initial fork, search at the dead end. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "10/7 【報告・時間なし】：募兵舎で不詳の遺跡の賞金首を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Finish bounty before main dungeon departure."
   },
   {
     "simpleJp": "10/7 昼・攻略：天の巨顔の依頼を進める",
@@ -288,22 +330,22 @@
     "enGuide": "Gold Beetle #48 of 50 — Tower of Blind Faith 6F: northern glowing gathering point in the room with three tough foes. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "10/12 昼・攻略：竜宮神殿の終盤の依頼を終える",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "竜宮神殿攻略",
-    "enGuide": "Calendar 10/12 昼・攻略. Revisit Dragon Temple for the last accessible late request. Report it to close relevant first-run quest chain."
-  },
-  {
-    "simpleJp": "10/12 【条件解放・依頼】三つの竜の試練後に『力の神髄』を受ける",
+    "simpleJp": "10/12 【出発前・条件解放】：竜の試練3件の達成を確認し『力の神髄』を受ける",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "10/12, 条件解放・依頼: After reporting 『英雄たちの墓場』『前世界の遺産』『狂竜の悪戯』, return to Virga Island Dragon Temple and complete 『力の神髄』 for final Dragon's Power sword. You must finish the THREE dragon trials first; don't schedule this if any of those three is still incomplete. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+    "enGuide": "Check the three trial quests complete before departing. Return for reward after boss if the quest log requires it."
   },
   {
-    "simpleJp": "10/13〜10/24 自由調整：不足している支援ランク・依頼・読書・料理を最優先で補完する",
+    "simpleJp": "10/12 昼・攻略：三つの竜の試練報告後、竜宮神殿で『力の神髄』を達成する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 10/13〜10/24 自由調整. Genuine spare time if you followed efficient early dungeon routing. Check all Followers R8, max Royal Virtues, completed all quest/bounty logs, read every purchased book (especially 『魔法的未来』), won all eight candidates' debates, cooked every recipe, visited scenic/unique towns, obtained all accessible Golden Beetles, and completed arena. These are flexible calendar days, NOT proof that each missing errand can be done on any one day; check day/night and travel availability."
+    "enGuide": "After all three trials are complete and reported, take the unlocked final trial and defeat its boss at Dragon Temple. The unlock must occur before entering this dungeon."
+  },
+  {
+    "simpleJp": "10/13〜10/24 予備日：未作成料理は実際の鎧戦車移動で1枠1種類ずつ作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use genuine optional Runner travel and available half-days for missing base dishes; if scarce fish/jars remain, fish on a water route first. Reserve one final cooking window for 至高のひと匙 AFTER all 20. Finish before 10/25. These are recovery days, not proof a missed activity is free."
   },
   {
     "simpleJp": "10/13 アカデメイア：25種類のアーキタイプを履修してモアに報告する",
@@ -334,6 +376,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "10/13, 報告・時間なし: Check all outstanding bounties at a recruitment centre and all late quest NPCs in Grand Trad, Brilehaven, Altabury and Virga Island. A quest is not completed until report dialogue when required; verify the log before final 10/25 audit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "10/13 【監査・時間なし】：料理21種類の作成済み印と『最強料理人』を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Check 20 individual base recipes and final dish, not just inventory/recipe unlock. If incomplete use reserved recovery days."
   },
   {
     "simpleJp": "10/24 夜・最終監査：全14人の支援ランクと各収集記録を見直す",

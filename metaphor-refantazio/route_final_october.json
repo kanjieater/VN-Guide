@@ -6,18 +6,6 @@
     "enGuide": "September 26 time-free QUEST INTAKE only, NOT an independent daytime action. Grand Trad quest board/new side quests can be accepted via conversations. Reserve daytime for Bardon R8 in Martira and evening for Brigitta R8 in Grand Trad; inter-city map teleport/shopping/quest intake should be done without advancing a time period. If a particular request would advance time, postpone it to the first REAL open October slot rather than double-booking Bardon's rank day. Enter final story operation before Oct 25 cutoff."
   },
   {
-    "simpleJp": "9/26 昼：9/26以降、昼のマルティラでバードンと話す",
-    "jpGuide1": "9/26～",
-    "jpGuide2": "9月26日以降",
-    "enGuide": "Calendar 9/26 昼. Bardon R8: After the level-60 Great Sandworm fight at R7, return from September 26 onward to Martira's Thoroughfare Square in DAYTIME and speak to Bardon for his final Commander bond."
-  },
-  {
-    "simpleJp": "9/26 夜：9/26以降、夜の王都でベルギッタと話す",
-    "jpGuide1": "9/26～",
-    "jpGuide2": "9月26日以降",
-    "enGuide": "Calendar 9/26 夜. Brigitta R8: From the September 26 story transition onward, return to Grand Trad's Sunlumeo Street at NIGHT and speak with Brigitta. Her earlier Courage-4 R7 must already be finished. This is a hard earliest-availability gate, not a fixed September 26 appointment."
-  },
-  {
     "simpleJp": "9/26 【収集・時間消費なし】黄金蟲27：王都あんしん薬方堂の奥のカウンターを調べる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -108,16 +96,34 @@
     "enGuide": "Confirm missing base recipes before leaving: 3 legendary fish total including chef reward, 5 honey jars, 5 mushrooms. If short, reserve October recovery travel; do not repeat cooked recipes until all 21 are done."
   },
   {
+    "simpleJp": "9/26 昼：9/26以降、昼のマルティラでバードンと話す",
+    "jpGuide1": "9/26～",
+    "jpGuide2": "9月26日以降",
+    "enGuide": "Calendar 9/26 昼. Bardon R8: After the level-60 Great Sandworm fight at R7, return from September 26 onward to Martira's Thoroughfare Square in DAYTIME and speak to Bardon for his final Commander bond."
+  },
+  {
+    "simpleJp": "9/26 夜：9/26以降、夜の王都でベルギッタと話す",
+    "jpGuide1": "9/26～",
+    "jpGuide2": "9月26日以降",
+    "enGuide": "Calendar 9/26 夜. Brigitta R8: From the September 26 story transition onward, return to Grand Trad's Sunlumeo Street at NIGHT and speak with Brigitta. Her earlier Courage-4 R7 must already be finished. This is a hard earliest-availability gate, not a fixed September 26 appointment."
+  },
+  {
+    "simpleJp": "9/27 昼・旅行：見捨てられた道へ向けて出発する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Depart on the actual Runner journey; buy the spider thread at Malva for the winter-clothing quest en route."
+  },
+  {
     "simpleJp": "9/27 昼・鎧戦車【時短料理・時間なし】：魔性華麗鍋を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Recipe 18/21. アルタベリー麦粉1・怪獣骨2・伝説のヌシ1. Eupha joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
   },
   {
-    "simpleJp": "9/27 昼・旅行：見捨てられた道へ向かい、鎧戦車で『よみ・かき・おてほん』を読了する",
+    "simpleJp": "9/27 昼・鎧戦車：『よみ・かき・おてほん』を読了する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見捨てられた道へ向かう",
-    "enGuide": "Calendar 9/27 昼・旅行. Travel toward Disgraced/Abandoned Path with available bounty, buy sturdy spider thread at Malva Village, cook new recipes and finish the Imagination book to approach rank 5. This is the sole planned 9/27 daytime book session; do not count a second daytime session after night."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use the daytime activity after free cooking."
   },
   {
     "simpleJp": "9/27 夜・鎧戦車【時短料理・時間なし】：ふわふわ蜜菓子を作る",
@@ -132,16 +138,16 @@
     "enGuide": "Recipe 20/21. アルタベリー麦粉1・女帝蜂の蜜瓶1・オルゴ糖2. Basilio joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
   },
   {
+    "simpleJp": "9/28 昼・鎧戦車：見捨てられた道に入る前に『魔法的未来』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Read on the moving Runner before the dungeon, not after returning to town."
+  },
+  {
     "simpleJp": "9/28 昼・攻略：見捨てられた道で『恨み渦巻く森の化身』の賞金首を倒す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Explore dungeon, collect beetle, kill bounty and buy 丈夫な蜘蛛糸 in Malva on the journey. Return to recruitment centre on September 29 to report. No arbitrary extra dungeon."
-  },
-  {
-    "simpleJp": "9/28 夜・読書：『魔法的未来』を読み進める",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "魔法的未来を読む",
-    "enGuide": "Calendar 9/28 夜・読書. Use the Runner's night to raise Wisdom toward 5; defer the repeated book only if a bond-specific evening is truly open."
   },
   {
     "simpleJp": "9/28 【収集・時間消費なし】黄金蟲50：見捨てられた道の最北端の採集を調べる",
@@ -156,22 +162,28 @@
     "enGuide": "Chef on Sunlumeo Street gives legendary fish; save it for final recipe. Report Forsaken Tower bounty at recruitment centre before next departure."
   },
   {
+    "simpleJp": "9/29 昼・旅行：天上人の邸へ向けて出発する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After turning in the sweets and receiving the legendary fish, depart on the Runner before making the final recipe."
+  },
+  {
     "simpleJp": "9/29 昼・鎧戦車【時短料理・時間なし】：至高のひと匙を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Recipe 21/21. 伝説のヌシ1・女帝蜂の蜜瓶3・ガイセン茸3. Only after all 20 base recipes have been cooked; if missing use October recovery slots before final audit. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
   },
   {
+    "simpleJp": "9/29 昼・鎧戦車：天上人の邸に入る前に『魔法的未来』を読み、見識5を目指す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use the daytime reading slot after free cooking and before entering the dungeon."
+  },
+  {
     "simpleJp": "9/29 昼・攻略：天上人の邸で『天上に住まう幻の鳥』の賞金首を倒す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Cook and read before dungeon entry; loot beetle and defeat target. Report at recruitment centre on September 30."
-  },
-  {
-    "simpleJp": "9/29 夜・読書：『魔法的未来』を読んで見識5を目指す",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "見識レベル5",
-    "enGuide": "Calendar 9/29 夜・読書. Finish the remaining Wisdom book sessions to unlock Eupha R7's late gate."
   },
   {
     "simpleJp": "9/29 【収集・時間消費なし】黄金蟲49：天上人の邸2階の梁を渡って壁穴を探す",
@@ -234,10 +246,10 @@
     "enGuide": "Calendar 10/3 夜・観光. Optional scenic/hot-spring content on an otherwise free evening. Replace with overdue rank gates if needed."
   },
   {
-    "simpleJp": "10/3 【収集・時間消費なし】黄金蟲47：アルタベリー温泉の湯の依頼を報告する",
+    "simpleJp": "10/4 【収集・時間消費なし】黄金蟲47：アルタベリー温泉の湯の依頼を報告する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Gold Beetle #47 of 50 — Golden Beetle from '温泉の湯を届けろ'; obtain the hot spring water and report to the polite merchant on Altabury upper Skybound Bridge. The beetle is awarded by quest turn-in. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+    "enGuide": "Gold Beetle #47 of 50 — Golden Beetle from '温泉の湯を届けろ'; obtain the hot spring water and report to the polite merchant on Altabury upper Skybound Bridge. The beetle is awarded by quest turn-in. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx. Report after the previous evening's hot spring visit, before the daytime follower event."
   },
   {
     "simpleJp": "10/4 昼・依頼：説得力5でバジリオのビンカ討伐依頼を達成する",
@@ -342,10 +354,10 @@
     "enGuide": "After all three trials are complete and reported, take the unlocked final trial and defeat its boss at Dragon Temple. The unlock must occur before entering this dungeon."
   },
   {
-    "simpleJp": "10/13〜10/24 予備日：未作成料理は実際の鎧戦車移動で1枠1種類ずつ作る",
+    "simpleJp": "10/13〜10/24 予備日：料理不足なら10/14に実際の鎧戦車旅行を組む",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Use genuine optional Runner travel and available half-days for missing base dishes; if scarce fish/jars remain, fish on a water route first. Reserve one final cooking window for 至高のひと匙 AFTER all 20. Finish before 10/25. These are recovery days, not proof a missed activity is free."
+    "enGuide": "If any recipes remain, reserve a spare date (start October 14) for genuine Runner travel with the missing ingredients. Use one free cooking per half-day; make the final recipe only after the other 20 have been made. If no cooking is needed, keep the day free for other unfinished objectives."
   },
   {
     "simpleJp": "10/13 アカデメイア：25種類のアーキタイプを履修してモアに報告する",

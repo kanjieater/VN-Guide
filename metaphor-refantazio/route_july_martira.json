@@ -18,30 +18,6 @@
     "enGuide": "Report Goblin King bounty FIRST to unlock the two requests, then accept both and enter Catacombs. Collect eight skeleton skulls, acquire the two key parts to open the boss route, defeat Cadablich and obtain black-jewel necklace. Return to the entrance soldier and irate noble at the igniter shop when the town is accessible. No discretionary night activity. Evidence: https://game8.jp/metaphor-re-fantazio/643252 ; https://chucco.com/metaphor/mausoleum-kouryaku/ ."
   },
   {
-    "simpleJp": "7/2 出発前【転移・受注・時間なし】：マルティラへ転移し『ククルスに指輪を届けろ』を受ける",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "From Grand Trad, use the June 29-unlocked teleport to visited Martira at the first available town control before the story departure. Imagination 2; accept from Cuculus in Thoroughfare Square. No new day required. July 11–12 tomb trip and July 13 report remain scheduled."
-  },
-  {
-    "simpleJp": "7/2 出発前【受注・時間なし】：マルティラ街道広場で伝書鳩の卵の依頼を受ける",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Accept before the story departure; unlocks Komero for July 9. If the July 2 story takes control immediately, take BOTH this and Cuculus on June 29 during the no-time Martira town visit instead; do not leave either until after July 9. Buy eggs in Komero; report in Martira by July 11."
-  },
-  {
-    "simpleJp": "7/2 出発前・時間なし：黄金蟲7・マルティラ宿ビスカ・アルバの暖炉を調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Gold Beetle #7 of 50 — Martira Visca Alba inn: check the lit fireplace in the tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
-  },
-  {
-    "simpleJp": "7/2 出発前・時間なし：黄金蟲8・マルティラ宿ビスカ・アルバ客室の水差しを調べる",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Gold Beetle #8 of 50 — Martira Visca Alba guest room: interact with jug; if nothing appears, retry on a later date. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
-  },
-  {
     "simpleJp": "7/2 出発前・確認：宿の黄金蟲7・8を回収済みにする",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -108,16 +84,16 @@
     "enGuide": "7/5, 受注・時間なし: From July 5, accept the mining Man-Eater Worm bounty at a recruitment centre. Kill the quarry target during July 9 Man-Eater's Grotto expedition and return to claim bounty + Courage. This does not consume a separate bond slot. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
-    "simpleJp": "7/6 【受注・時間なし】：マルティラで新規依頼を受けて王都へ転移する",
+    "simpleJp": "7/6 【受注・時間なし】：マルティラの新規依頼を確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Collect newly available Martira requests while in town, then teleport to visited Grand Trad. No Runner excursion today."
+    "enGuide": "Accept the available requests in Martira before teleporting to Grand Trad for Maria."
   },
   {
-    "simpleJp": "7/6 【受注・時間なし】：王都の料理人から『料理人を唸らせる一皿を届けろ』を受ける",
+    "simpleJp": "7/6 【受注・時間なし】：マルティラ宿ビスカ・アルバの身なりの良い女性から『料理人を唸らせる一皿を届けろ』を受注する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Accept the chef request before the July 11 bread cooking and July 13 report; the objective is いやしパン."
+    "enGuide": "Accept the chef's request from the well-dressed woman at Martira's Visca Alba inn, not Grand Trad. Return with Healing Bread on July 13. https://game8.jp/metaphor-re-fantazio/645179"
   },
   {
     "simpleJp": "7/6 昼：王都のマリアと話して支援ランク3にする",
@@ -174,6 +150,12 @@
     "enGuide": "Komero visit itself completes the introductory quest and awards the bond; no separate night slot for R1. Evidence: https://gamewith.jp/metaphor/467310 ; https://metaphor.mtwildwood.net/ja/followers/neuras/ ."
   },
   {
+    "simpleJp": "7/9 コメロ村【購入・時間なし】：伝書鳩の卵とオルゴ糖を購入する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Buy the requested pigeon egg and enough Orgo Sugar for the remaining recipes before leaving Komero. https://metaphor.mtwildwood.net/ja/items/orgo-sugar/"
+  },
+  {
     "simpleJp": "7/9 コメロ村の遺物報告後：ガンナーを履修しモアの支援ランク3を解放する",
     "jpGuide1": "ガンナーを履修する。",
     "jpGuide2": "ガンナー」を履修する",
@@ -202,6 +184,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Before daytime Maria, report eggs purchased July 9 at the Martira giver. Deadline July 11. Use no-time town teleport to Grand Trad after report."
+  },
+  {
+    "simpleJp": "7/10 【報告・時間なし】：募兵舎で人喰い洞窟の賞金首を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Report the defeated bounty before Maria's daytime rank event."
   },
   {
     "simpleJp": "7/10 昼：マルティラで買い物・卵報告後、王都へ転移してマリア4",
@@ -270,10 +258,10 @@
     "enGuide": "Calendar 7/13 昼. Maria R5: Two days after R4, meet Maria on Sunshade Row (日陰通り), Grand Trad, during the day. The bond marker will show her current position; visiting her inn for the R4 scene was the prior step."
   },
   {
-    "simpleJp": "7/13 夜・報告：王都の料理人に『いやしパン』を渡す",
+    "simpleJp": "7/13 【報告・時間なし】：マルティラ宿ビスカ・アルバの依頼人に『いやしパン』を渡す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Report to the original cooking request giver, then use town teleport to Martira for the ring hand-in. Carry bread made July 11."
+    "enGuide": "Teleport to Martira and give Healing Bread to the original quest giver before the Alonzo event. This is an item hand-in, not a second evening activity."
   },
   {
     "simpleJp": "7/13 夜・報告：マルティラでマルベノの指輪をククルスに渡してアロンゾ1",
@@ -322,6 +310,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "ラブレスと討論",
     "enGuide": "Calendar 7/16 夜・討論. MISSABLE candidate debate; dispute claim that alcohol creates equality"
+  },
+  {
+    "simpleJp": "7/17 物語・移動：鎧戦車でブライハーヴェンへの旅を開始し、読書用の本を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Begin the story voyage; the July 17–19 reading blocks are on the moving Runner, not extra city visits."
   },
   {
     "simpleJp": "7/17 昼・読書：『在りし日のこと』を読む",

@@ -108,16 +108,22 @@
     "enGuide": "6/13, no-time quest hand-in/acceptance only: report the completed Grand Trad errands after reaching Wisdom 2, and accept Brigitta's '輸送路の怪物を倒せ'. This is NOT a separate daytime activity; the one daytime dungeon slot is Regalith Grand Cathedral in the next step. Belega Corridor requires a separate later trip before the June 21 deadline."
   },
   {
-    "simpleJp": "6/13 昼・攻略：レガリス大聖堂でキャゼリナの依頼を受け、作戦を終える",
+    "simpleJp": "6/13 昼・攻略：レガリス大聖堂に入り、キャゼリナの依頼を受ける",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "One dungeon day. Free captive using the key during the same cathedral exploration, then complete the main operation. No evening activity planned. Reference dated calendar: GamerB 6/13."
+    "enGuide": "Enter the Cathedral, accept Catherina's request, rescue the prisoner in the next step, and only then finish the main operation."
   },
   {
     "simpleJp": "6/13 大聖堂内：捕らわれた仲間を解放してキャゼリナの支援ランク1を得る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "During the preceding dungeon, not a new entry or second time slot. Speak to Catherina and rescue her friend before leaving."
+  },
+  {
+    "simpleJp": "6/13 大聖堂：救出後に主作戦を完了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After rescuing the prisoner and completing Catherina's request, finish the Cathedral operation."
   },
   {
     "simpleJp": "6/13 達成時：ヒーラーをランク10にしてアカデメイアのモアに報告する",
@@ -154,6 +160,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #5 of 50 — Belega Corridor B2: cross the gap in a wall to the chamber with two chests; collect by the iron bars. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/16 【報告・時間なし】募兵舎でトラディア砂漠の賞金首を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Report the defeated bounty at the recruitment centre before the day's rank event."
   },
   {
     "simpleJp": "6/16 昼・報告：見識2で受注済みの『輸送路の怪物を倒せ』をベルギッタに報告し、支援ランク1を解放する",
@@ -282,10 +294,34 @@
     "enGuide": "6/27〜6/28 移動・物語; Advance required story travel. If any free slot exists, favor unfinished Wisdom/Tolerance/book work; a blank date in this template does not imply two discretionary actions. Ensure Martira and the Great Sandworm's Nest trip are available for Catherina R2 after arrival."
   },
   {
-    "simpleJp": "6/29 昼：転移で王都へ戻り、包容力2でファビアンヌと話してマリア2",
+    "simpleJp": "6/29 【転移・時間なし】訪問済み都市間の転移を使えることを確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Story unlocks teleportation between visited cities on June 29. With the map open, open the world map and select Grand Trad; this uses no clock time. Complete Maria's souvenir request and rank event. Teleport back to Martira before a later departure. Evidence: https://gamex.jp/metaphor-refantazio/story-calendar ; https://west-east.blog.jp/archives/43513940.html ."
+    "enGuide": "Use map → world map to transfer between previously visited towns without time cost from this date. It cannot replace first-time Runner trips or be used during active travel/story locks. All later town errands use this rule, not a new travel day. Check daytime/nighttime restrictions before entering dungeons."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・【転移・受注・時間なし】：マルティラで『ククルスに指輪を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "From Grand Trad, use the June 29-unlocked teleport to visited Martira at the first available town control before the story departure. Imagination 2; accept from Cuculus in Thoroughfare Square. No new day required. July 11–12 tomb trip and July 13 report remain scheduled."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・【受注・時間なし】：マルティラ街道広場で伝書鳩の卵の依頼を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Accept before the story departure; unlocks Komero for July 9. If the June 29 story takes control immediately, take BOTH this and Cuculus on June 29 during the no-time Martira town visit instead; do not leave either until after July 9. Buy eggs in Komero; report in Martira by July 11."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・・時間なし：黄金蟲7・マルティラ宿ビスカ・アルバの暖炉を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #7 of 50 — Martira Visca Alba inn: check the lit fireplace in the tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・・時間なし：黄金蟲8・マルティラ宿ビスカ・アルバ客室の水差しを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #8 of 50 — Martira Visca Alba guest room: interact with jug; if nothing appears, retry on a later date. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
     "simpleJp": "6/29 【受注・時間なし】王都の募兵舎で別の依頼・賞金首を確認する",
@@ -300,6 +336,12 @@
     "enGuide": "6/29, 受注・時間なし: Pick up the Goborn/Goblin Nest bounty at Martira or another recruitment centre. Kill the ruler during June 30 cave trip, then report at a recruitment centre on July 1. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
+    "simpleJp": "6/29 昼：転移で王都へ戻り、包容力2でファビアンヌと話してマリア2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Story unlocks teleportation between visited cities on June 29. With the map open, open the world map and select Grand Trad; this uses no clock time. Complete Maria's souvenir request and rank event. Teleport back to Martira before a later departure. Evidence: https://gamex.jp/metaphor-refantazio/story-calendar ; https://west-east.blog.jp/archives/43513940.html ."
+  },
+  {
     "simpleJp": "6/29 夜：ベルギッタのランク3から2日後、夜に再度話す",
     "jpGuide1": "RANK4",
     "jpGuide2": "ランク4",
@@ -312,12 +354,6 @@
     "enGuide": "No-time teleport to already-visited Martira BEFORE opening Runner route map. Travel activity is separate from the dungeon. Follow the scheduled Goblin King fight and claim the bounty next morning."
   },
   {
-    "simpleJp": "6/29 【転移・時間なし】訪問済み都市間の転移を使えることを確認する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Use map → world map to transfer between previously visited towns without time cost from this date. It cannot replace first-time Runner trips or be used during active travel/story locks. All later town errands use this rule, not a new travel day. Check daytime/nighttime restrictions before entering dungeons."
-  },
-  {
     "simpleJp": "6/30 鎧戦車・昼：移動中にヒュルケンベルグと話してランク3",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -328,5 +364,11 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #9 of 50 — Goblin Nest: gather glowing spot beside the northwest wall. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/30 昼・攻略：小鬼の巣窟でゴブリン王を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Defeat the Goblin King before leaving the dungeon; report the bounty on July 1 before accepting the two Catacombs requests."
   }
 ]

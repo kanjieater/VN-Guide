@@ -84,16 +84,46 @@
     "enGuide": "8/19, 受注・時間なし: Accept the Scoundrel's Hold one-eyed monster bounty from any recruitment centre. Defeat target on Sept 4–5 dungeon trip, take Neuras's marquetry-box relic there, and claim bounty from recruitment centre after return. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
+    "simpleJp": "8/20 【購入・時間なし】ビルガ島の砂浜・竜像広場で料理素材を購入する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Buy 怪獣骨3、フニャフナ3、白桃かぶ5、女帝蜂の蜜瓶1、ジェ鱗粉1、巨人のばら肉2 if not already obtained, and any missing worm meat. Check 錦紗コイ from fishing before departure. Preserve 5 ガイセン茸 total, and 5 honey jars total (count already used). Source https://gamecap.jp/metaphor/item_syokuzai.html ; https://gamex.jp/metaphor-refantazio/cooking-guide ."
+  },
+  {
     "simpleJp": "8/20 昼・移動：儀礼の地に向かいユーファの試練を進める",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "儀礼の地に向かう",
     "enGuide": "Calendar 8/20 昼・移動. Take Eupha's Trial of Malnova and combine the Land of Ceremony dungeon with Neuras's moss-covered-cylinder relic and exploration/collectibles. Buy ingredient staples on Virga beach before departing."
   },
   {
-    "simpleJp": "8/20 夜・料理：鎧戦車で新しい料理を作る",
+    "simpleJp": "8/20 昼・鎧戦車【時短料理・時間なし】：白身魚の薬膳皿を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "料理",
-    "enGuide": "Calendar 8/20 夜・料理. Use Runner time to prepare dishes for first-run recipe completion. With Maria's Speed Cooking you may cook without consuming a full slot; check pantry on each travel day."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 12/21. フニャフナ2・白桃かぶ2・ガイセン茸1. Initial recipe. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "8/20 昼・鎧戦車：料理後、ユーファと過ごして想像力を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Travel activity before ritual dungeon; this is a virtue activity, not a follower rank."
+  },
+  {
+    "simpleJp": "8/20 夜・鎧戦車【時短料理・時間なし】：ひっさつメンを作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 13/21: 錦紗コイ1・怪獣骨1・きれいな飲み水3. Heismay joined. Cook before spending the night on Junah's Eloquence activity."
+  },
+  {
+    "simpleJp": "8/20 夜・鎧戦車：料理後、ジュナと過ごして説得力を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Spend the sole evening activity on Junah's virtue event."
+  },
+  {
+    "simpleJp": "8/21 昼・鎧戦車【時短料理・時間なし】：毒より甘いキミ…を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 14/21. 白桃かぶ1・ガイセン茸1・トウ蜜蜂1. Junah joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
   },
   {
     "simpleJp": "8/21 昼・攻略：儀礼の地の試練を終えて宝箱の遺物を回収する",
@@ -108,10 +138,10 @@
     "enGuide": "Calendar 8/21 依頼報告. Eupha R1: After finishing Dragon Temple and Eupha's recruitment, accept 'The Trial of Malnova' (試練に挑むユーファを助けろ), travel to Land of Ceremony, complete the trial and report back to Eupha. This unlocks her Summoner Follower bond; it also unlocks an optional Neuras relic location."
   },
   {
-    "simpleJp": "8/21 遺物・夜報告：儀礼の地で遺物を回収し夜にニューラスへ渡す",
-    "jpGuide1": "苔で覆われた円柱",
-    "jpGuide2": "苔で覆われた円柱",
-    "enGuide": "Calendar 8/21 遺物・夜報告. Neuras relic #4 of 6: During the same journey as Eupha's 'Trial of Malnova' at Land of Ceremony (儀礼の地), collect the moss-covered pillar (苔で覆われた円柱). Report it to Neuras at night in the Runner. Do NOT make a separate trip solely for the relic if you can combine objectives."
+    "simpleJp": "8/21 儀礼の地：遺物を回収する（ニューラスへの報告は8/25夜）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Store the relic for the scheduled August 25 night R4; no duplicate rank-up or unsupported evening hand-in on dungeon return."
   },
   {
     "simpleJp": "8/21 【収集・時間消費なし】黄金蟲29：儀礼の地のボス前北西の角を調べる",
@@ -132,6 +162,18 @@
     "enGuide": "Calendar 8/22 夜・資質. Flexible Courage practice; avoid traveling solely for this if a comparable nearby action is available."
   },
   {
+    "simpleJp": "8/23 昼・鎧戦車【時短料理・時間なし】：全能黄金鍋を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 15/21. フニャフナ1・まろやか牛乳1・トウ蜜蜂1. Eupha joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "8/23 昼・鎧戦車：円環のしるべに入る前に詩集を読了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Take reading before dungeon entry; reach Courage 4. Do not assume a spare second daytime activity."
+  },
+  {
     "simpleJp": "8/23 昼・攻略：円環のしるべへ移動し、探索・黄金蟲回収後に蛇食い怪物を倒す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "円環のしらべ攻略",
@@ -144,10 +186,10 @@
     "enGuide": "After the Aug 23 Circle Landmark boss, return and report to Junah for R1; do not repeat the dungeon. The request was accepted Aug 19."
   },
   {
-    "simpleJp": "8/23 夜・料理：鎧戦車で新しい料理を作る",
+    "simpleJp": "8/23 夜・野営【時短料理・時間なし】：激堅黒パンを作る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "料理",
-    "enGuide": "Calendar 8/23 夜・料理. Make another unique recipe; collect free cooking items and note any missing rare ingredients."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 16/21: ジェ鱗粉1・妖花の蜜汁1・香ばし挽き粉3. After Circle Landmark choose camp/another destination; cook then spend evening with Junah for Eloquence. Initial recipe."
   },
   {
     "simpleJp": "8/23 【収集・時間消費なし】黄金蟲30：円環のしるべ2階北の突き当たりを調べる",
@@ -160,12 +202,6 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #31 of 50 — Orbwise Path / Circle Landmark 1F: glowing spot by eastern junction. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
-  },
-  {
-    "simpleJp": "8/23 読書・予備：『※秘※詩集※見るな※』を読了する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar 8/23 読書・予備. Third Poetry Collection session, move to another eligible Runner free-time slot if dungeon conflicts."
   },
   {
     "simpleJp": "8/24 昼・移動：盲信の塔へ向かいシレント村にも寄る",
@@ -192,10 +228,10 @@
     "enGuide": "Calendar 8/25 昼・移動. Use trip time for Imagination-building chat and check pantry/washroom. Do not claim another ordinary city day slot while away."
   },
   {
-    "simpleJp": "8/25 夜・報告：鎧戦車でニューラスに遺物を届ける",
+    "simpleJp": "8/25 夜・報告：鎧戦車でニューラスに儀礼の地の遺物を渡しランク4",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ニューラス",
-    "enGuide": "Calendar 8/25 夜・報告. If your Land of Ceremony relic was already handed in, use this evening for any other ready Neuras relic or a genuine bond/virtue evening; do not count the same relic twice."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Single night activity. On subsequent dungeon day do not report the same relic again."
   },
   {
     "simpleJp": "8/26 昼・攻略：盲信の塔を攻略して依頼を達成する",
@@ -246,10 +282,10 @@
     "enGuide": "Calendar 8/29 夜. Junah R3: At least two days after R2, return at night to the Runner's central passage. No extra virtue gate yet."
   },
   {
-    "simpleJp": "8/29 【期限・報告】『導きの人形の素材を探せ』を報告する",
+    "simpleJp": "8/29 【期限・報告】：ビルガ島の水汲み場の老人へアメツチ石を渡す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "8/29 期限・報告. HAND-IN BY AUGUST 30: return the required doll materials to the original quest giver. Verify 'completed' in your Quest log before leaving the island."
+    "enGuide": "Before the day's follower activities teleport to Virga, deliver stone obtained in Dragon Temple to the original giver by Aug 30. Verify log. Source https://metaphor.mtwildwood.net/ja/quests/a-guiding-gift/ ."
   },
   {
     "simpleJp": "8/30 昼・闘技場：闘技場の銀級を仕上げる",
@@ -336,10 +372,10 @@
     "enGuide": "Calendar 9/5 鎧戦車・昼. Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
   },
   {
-    "simpleJp": "9/5 遺物・夜報告：ならず者の根城で遺物を回収し夜にニューラスへ渡す",
-    "jpGuide1": "寄木細工の箱",
-    "jpGuide2": "寄木細工の箱",
-    "enGuide": "Calendar 9/5 遺物・夜報告. Neuras relic #3 of 6: Unlock Scoundrel's Hold (ならず者の根城) by accepting 'The Greater One-Eyed Scoundrel' (ならず者より危険な一つ目怪物). Pick up the marquetry box (寄木細工の箱), then hand it to Neuras in the Runner at night. The order of relics is flexible."
+    "simpleJp": "9/5 ならず者の根城内：遺物を回収する（報告は9/8夜）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Keep the relic for the scheduled September 8 Neuras R5. Do not spend a second rank on dungeon day."
   },
   {
     "simpleJp": "9/5 【収集・時間消費なし】黄金蟲32：ならず者の根城地下南のはしごを上った先を調べる",
@@ -372,10 +408,10 @@
     "enGuide": "Calendar 9/8 昼・読書. Finish travel book and aim for Tolerance 5 before Catherina's Altabury chain."
   },
   {
-    "simpleJp": "9/8 夜・遺物：鎧戦車のニューラスに手持ちの遺物を渡す",
+    "simpleJp": "9/8 夜・報告：ニューラスに根城の遺物を渡しランク5",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ニューラス",
-    "enGuide": "Calendar 9/8 夜・遺物. Turn in one of the six remaining artifact items if available. A relic's order does not bind it to a specific bond rank."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "One evening bond, at the Runner when available."
   },
   {
     "simpleJp": "9/9 昼・読書：『魔法的未来』を読み進める",

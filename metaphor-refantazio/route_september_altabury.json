@@ -24,30 +24,6 @@
     "enGuide": "9/13, 受注・時間なし: Take Everfrost Forest white-beast bounty from recruitment centre, kill target during Sept 13 area excursion, and report at next recruitment centre visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
-    "simpleJp": "9/13 昼・旅行：常氷樹林へ向かい氷森の魔物を倒す",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "常氷樹林攻略",
-    "enGuide": "Calendar 9/13 昼・旅行. Combine the Everfrost Forest bounty with Neuras's handled rock relic. Search chest and Golden Beetle locations; use voluntary Runner travel to initiate Basilio's bond."
-  },
-  {
-    "simpleJp": "9/13 昼・鎧戦車【時短料理・時間なし】：強壮琥珀鍋を作る",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Recipe 17/21. 錦紗コイ1・女帝蜂の蜜瓶1・紅香草3. Eupha joined; perform on Runner after intake, before Basilio event. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
-  },
-  {
-    "simpleJp": "9/13 鎧戦車・昼：9/13以降、任意の鎧戦車移動中にバジリオと話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "初期ランク",
-    "enGuide": "Calendar 9/13 鎧戦車・昼. Basilio R1: Once he becomes a permanent party member around September 13, initiate his Follower bond by talking to him during discretionary Gauntlet Runner travel in daytime. This opens Berserker. The main-story recruitment alone need not immediately grant a bond rank."
-  },
-  {
-    "simpleJp": "9/13 常氷樹林内：遺物を回収する（報告は9/15夜）",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Store the relic until the planned R6 hand-in on September 15. No additional evening report assumed on dungeon day."
-  },
-  {
     "simpleJp": "9/13 【収集・時間消費なし】黄金蟲33：アルタベリー・ルンルーモ参道南の東壁沿いを調べる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -78,16 +54,52 @@
     "enGuide": "Gold Beetle #38 of 50 — Altabury Sky Tavern: beside barrel. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
+    "simpleJp": "9/13 【移動前・購入確認】釣り・料理の残り食材を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Do not schedule an extra reading after the Everfrost dungeon. The two reading sessions for よみ・かき・おてほん occur on September 18 and 20 before battle."
+  },
+  {
+    "simpleJp": "9/13 昼・旅行：常氷樹林へ向かう",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Depart for Everfrost Forest before cooking and Basilio's travel rank."
+  },
+  {
+    "simpleJp": "9/13 昼・鎧戦車【時短料理・時間なし】：強壮琥珀鍋を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 17/21. 錦紗コイ1・女帝蜂の蜜瓶1・紅香草3. Eupha joined; perform on Runner after intake, before Basilio event. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "9/13 鎧戦車・昼：9/13以降、任意の鎧戦車移動中にバジリオと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Calendar 9/13 鎧戦車・昼. Basilio R1: Once he becomes a permanent party member around September 13, initiate his Follower bond by talking to him during discretionary Gauntlet Runner travel in daytime. This opens Berserker. The main-story recruitment alone need not immediately grant a bond rank."
+  },
+  {
+    "simpleJp": "9/13 昼・攻略：常氷樹林で賞金首を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After cooking and Basilio's event, enter the forest and defeat the bounty target; report on September 14."
+  },
+  {
+    "simpleJp": "9/13 常氷樹林内：遺物を回収する（報告は9/15夜）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Store the relic until the planned R6 hand-in on September 15. No additional evening report assumed on dungeon day."
+  },
+  {
     "simpleJp": "9/13 【収集・時間消費なし】黄金蟲40：常氷樹林の南西採集ポイントを調べる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #40 of 50 — Everfrost Forest: southwestern gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "9/13 【移動前・購入確認】釣り・料理の残り食材を確認する",
+    "simpleJp": "9/14 【報告・時間なし】：募兵舎で常氷樹林の賞金首を報告する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Do not schedule an extra reading after the Everfrost dungeon. The two reading sessions for よみ・かき・おてほん occur on September 18 and 20 before battle."
+    "enGuide": "Report the bounty before the debate and the evening Alonzo event."
   },
   {
     "simpleJp": "9/14 昼・期間限定：ジュリアンと討論する",
@@ -144,10 +156,10 @@
     "enGuide": "9/16, 受注・時間なし: After Eupha R6, speak to the quest-giver on Altabury Skybound Bridge to unlock Mt Vulkano Hyperic request. Defeat the target during Sept 18 Vulkano trip, report it and satisfy Wisdom 5 before Eupha R7 Oct 1. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
-    "simpleJp": "9/17 昼・攻略：不遜の塔の依頼を達成する",
+    "simpleJp": "9/17 昼・旅行：不遜の塔に向けて鎧戦車で出発する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "不遜の塔攻略",
-    "enGuide": "Calendar 9/17 昼・攻略. Optional combat dungeon; gather unique treasure and any beetle before leaving. Avoid scheduling a town day/night social action on the same dungeon's travel day unless the Runner legitimately provides it."
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Begin the actual trip before Basilio's travel rank."
   },
   {
     "simpleJp": "9/17 鎧戦車・昼：バジリオのランク2から2日後、任意移動中に話す",
@@ -156,10 +168,22 @@
     "enGuide": "Calendar 9/17 鎧戦車・昼. Basilio R3: During a discretionary daytime Gauntlet Runner journey after the two-day cooldown, approach him in the central passage. Reserve a side-trip; forced story travel may not count."
   },
   {
+    "simpleJp": "9/17 昼・攻略：不遜の塔の依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "不遜の塔攻略",
+    "enGuide": "Calendar 9/17 昼・攻略. Optional combat dungeon; gather unique treasure and any beetle before leaving. Avoid scheduling a town day/night social action on the same dungeon's travel day unless the Runner legitimately provides it."
+  },
+  {
     "simpleJp": "9/17 【収集・時間消費なし】黄金蟲41：不遜の塔2階北東を調べる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #41 of 50 — Tower of Ascendant 2F northeastern spot. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "9/18 昼・旅行：ウルカノ山へ向けて出発する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Begin the trip before the Runner reading activity."
   },
   {
     "simpleJp": "9/18 昼・鎧戦車：ウルカノ山に入る前に『よみ・かき・おてほん』を読む",
@@ -186,6 +210,12 @@
     "enGuide": "Gold Beetle #39 of 50 — Mt Vulkano: ascend eastern ladder from lower floor and search north. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
+    "simpleJp": "9/19 【報告・時間なし】ハイペリック討伐と不遜の塔の依頼を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "9/19, 報告・時間なし: Turn in the Mt Vulkano Hyperic and Tower of Ascendant local requests to their Altabury NPCs, and the Everfrost bounty at recruitment centre. Must be marked completed for Eupha rank progression. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "9/19 昼：バジリオのランク3から2日後、昼に街で話す",
     "jpGuide1": "RANK4",
     "jpGuide2": "ランク4",
@@ -196,12 +226,6 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Sixth relic, after previous five have been individually delivered."
-  },
-  {
-    "simpleJp": "9/19 【報告・時間なし】ハイペリック討伐と不遜の塔の依頼を報告する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "9/19, 報告・時間なし: Turn in the Mt Vulkano Hyperic and Tower of Ascendant local requests to their Altabury NPCs, and the Everfrost bounty at recruitment centre. Must be marked completed for Eupha rank progression. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "9/20 昼・依頼（時間なし）：レガリス大聖堂前・募兵舎付近の警備兵に一度話しかけ、ジンの鎧戦車の依頼を開放する",

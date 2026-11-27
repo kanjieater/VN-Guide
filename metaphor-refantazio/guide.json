@@ -185,6 +185,104 @@
       "title": "PowerPyx — Redscale Dragon NG+ boss",
       "language": "en",
       "notes": "Independent English NG+ only encounter guide; Storyteller mode restriction and Book of Apocalypse interaction."
+    },
+    {
+      "set": "B",
+      "url": "https://west-east.blog.jp/archives/43513940.html",
+      "title": "West-East メタファー攻略プレイ記",
+      "language": "ja",
+      "notes": "Firsthand June 29 town teleport unlock; visited cities can be reached without consuming a time slot."
+    },
+    {
+      "set": "B",
+      "url": "https://gamex.jp/metaphor-refantazio/story-calendar",
+      "title": "GAMEX ストーリーカレンダー",
+      "language": "ja",
+      "notes": "June 29 teleport unlock; corroborates dated city travel."
+    },
+    {
+      "set": "A",
+      "url": "https://gamers-high.com/metaphor-rf/data/cooking.html",
+      "title": "Gamers High 料理一覧",
+      "language": "ja",
+      "notes": "Recipe names and ingredient quantities; cross-check against Game8."
+    },
+    {
+      "set": "B",
+      "url": "https://game8.jp/metaphor-re-fantazio/646815",
+      "title": "Game8 料理一覧",
+      "language": "ja",
+      "notes": "Independent recipe and ingredient table."
+    },
+    {
+      "set": "B",
+      "url": "https://gamex.jp/metaphor-refantazio/cooking-guide",
+      "title": "GAMEX 料理攻略",
+      "language": "ja",
+      "notes": "Ingredient sourcing, cooking and fishing mechanics."
+    },
+    {
+      "set": "A",
+      "url": "https://gamecap.jp/metaphor/item_syokuzai.html",
+      "title": "Gamecap 食材一覧",
+      "language": "ja",
+      "notes": "Ingredient acquisition; prefer corroborated Game8/Gamers High quantities if conflicting."
+    },
+    {
+      "set": "B",
+      "url": "https://game8.jp/metaphor-re-fantazio/645179",
+      "title": "Game8 料理人を唸らせる一皿を届けろ",
+      "language": "ja",
+      "notes": "First chef quest is at Martira inn."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/467747",
+      "title": "GameWith 秘薬の材料を探せ",
+      "language": "ja",
+      "notes": "Gracia Forest objective and report chain."
+    },
+    {
+      "set": "B",
+      "url": "https://metaphor.mtwildwood.net/ja/quests/deeds-and-diversions/",
+      "title": "攻略データ：権利書を取り返せ",
+      "language": "ja",
+      "notes": "Noble at arena wharf and return recipient."
+    },
+    {
+      "set": "B",
+      "url": "https://metaphor.mtwildwood.net/ja/quests/a-guiding-gift/",
+      "title": "攻略データ：導きの人形の素材を探せ",
+      "language": "ja",
+      "notes": "Three stones and deadline hand-in."
+    },
+    {
+      "set": "B",
+      "url": "https://metaphor.mtwildwood.net/ja/quests/the-price-of-hope/",
+      "title": "攻略データ：謎の魔道器の鑑定を代行しろ",
+      "language": "ja",
+      "notes": "Appraisal in Grand Trad and return to Virga."
+    },
+    {
+      "set": "B",
+      "url": "https://metaphor.mtwildwood.net/ja/quests/efflorescent-youth/",
+      "title": "攻略データ：港町にはない花を届けろ",
+      "language": "ja",
+      "notes": "Church purchase and return to boy."
+    },
+    {
+      "set": "B",
+      "url": "https://metaphor.mtwildwood.net/ja/quests/warmth-in-winter/",
+      "title": "攻略データ：防寒着の素材を届けろ",
+      "language": "ja",
+      "notes": "Malva purchase and report."
+    },
+    {
+      "set": "B",
+      "url": "https://metaphor.mtwildwood.net/ja/items/orgo-sugar/",
+      "title": "攻略データ：オルゴ糖",
+      "language": "ja",
+      "notes": "Komero purchase."
     }
   ],
   "generated_at": "2026-11-17T12:40:00-06:00"

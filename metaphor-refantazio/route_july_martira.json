@@ -1,15 +1,9 @@
 [
   {
-    "simpleJp": "7/1 昼：地下納骨堂を攻略する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "地下納骨堂攻略",
-    "enGuide": "July 1: pick up available Grand Trad requests and clear the Catacombs. The Alonzo ring is in Abandoned Tomb, NOT here; don't report until after the 7/11–12 tomb trip."
-  },
-  {
-    "simpleJp": "7/1 【受注・期限】『魔除けの頭蓋骨を探せ』を地下納骨堂の兵士から受注する",
+    "simpleJp": "7/1 【攻略前・受注】小鬼の賞金首を報告し『魔除けの頭蓋骨を探せ』を受ける",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "7/1, 受注・期限: Once Goblin King or Man-Eater Worm bounty is completed, speak to the fidgety soldier at Grand Trad Catacombs entrance, collect the skull from the relevant dungeon route, and return to him by JULY 30; do not merely accept it. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+    "enGuide": "Before entering Catacombs, report the Goblin King bounty at a recruitment centre and accept the request from the soldier at the Catacombs entrance. Defeat eight skeletons inside; deadline July 30."
   },
   {
     "simpleJp": "7/1 【受注・期限】『家宝の首飾りを取り返せ』を王都の貴族から受注する",
@@ -18,16 +12,22 @@
     "enGuide": "7/1, 受注・期限: After the prior Goblin King or Man-Eater Worm bounty, speak to irate noble on Grand Trad Sunlumeo Street; retrieve heirloom in the Catacombs and report by JULY 30. Combine with July 1 Catacombs sweep. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
-    "simpleJp": "7/2 出発前【受注・時間なし】：マルティラで『ククルスに指輪を届けろ』を受ける",
+    "simpleJp": "7/1 昼・攻略：依頼2件を受注してから地下納骨堂を攻略する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "July 2 BEFORE leaving Martira for Great Sandworm's Nest: with Imagination 2, speak to Cuculus in Martira Thoroughfare Square and accept the ring quest as a no-time town interaction. Collect Malveno's ring during the July 11–12 Abandoned Tomb expedition and report to Cuculus on the scheduled July 13 Martira return. This replaces the geographically unsupported July 1 Grand Trad Catacombs → Martira intake transfer; it does not assume intercity travel is free."
+    "enGuide": "Report Goblin King bounty FIRST to unlock the two requests, then accept both and enter Catacombs. Collect eight skeleton skulls, acquire the two key parts to open the boss route, defeat Cadablich and obtain black-jewel necklace. Return to the entrance soldier and irate noble at the igniter shop when the town is accessible. No discretionary night activity. Evidence: https://game8.jp/metaphor-re-fantazio/643252 ; https://chucco.com/metaphor/mausoleum-kouryaku/ ."
   },
   {
-    "simpleJp": "7/2 出発前【受注・時間なし】伝書鳩の卵の依頼をマルティラ街道広場で受ける",
+    "simpleJp": "7/2 出発前【転移・受注・時間なし】：マルティラへ転移し『ククルスに指輪を届けろ』を受ける",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "July 2 BEFORE departing Martira for the Great Sandworm's Nest: while already in Martira for the Visca Alba beetles and the outgoing story journey, accept the pigeon-egg quest from the giver at Thoroughfare Square (街道広場). This no-time town interaction unlocks Komero for the scheduled July 9 Runner trip; purchase eggs there and return to the Martira giver by July 11 (planned July 10). Do not assume a June 29 Grand Trad↔Martira round trip. Source-supported availability/location: GameWith https://gamewith.jp/metaphor/467309 and Altema https://altema.jp/metaphor/subquest19; Komero unlock dependency: https://gamewith.jp/metaphor/467310. July 2 is the route's chosen already-in-Martira visit, not a claimed compulsory quest date."
+    "enGuide": "From Grand Trad, use the June 29-unlocked teleport to visited Martira at the first available town control before the story departure. Imagination 2; accept from Cuculus in Thoroughfare Square. No new day required. July 11–12 tomb trip and July 13 report remain scheduled."
+  },
+  {
+    "simpleJp": "7/2 出発前【受注・時間なし】：マルティラ街道広場で伝書鳩の卵の依頼を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Accept before the story departure; unlocks Komero for July 9. If the July 2 story takes control immediately, take BOTH this and Cuculus on June 29 during the no-time Martira town visit instead; do not leave either until after July 9. Buy eggs in Komero; report in Martira by July 11."
   },
   {
     "simpleJp": "7/2 出発前・時間なし：黄金蟲7・マルティラ宿ビスカ・アルバの暖炉を調べる",
@@ -54,22 +54,22 @@
     "enGuide": "Calendar 7/2 昼・移動. Catherina R2 occurs on OUTGOING Martira to Great Sandworm's Nest leg, not on arrival"
   },
   {
+    "simpleJp": "7/2 鎧戦車・昼：『頷かせる技術』を読む（2回目）、その後キャゼリナ戦",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "The June 25 reading is the first. Altema July 2 documents a Runner activity followed by the story Catherina battle; choose the reading before the encounter, not after it."
+  },
+  {
     "simpleJp": "7/2 昼：7/2以降、マルティラから大砂蟲の巣へ向かう鎧戦車移動中にキャゼリナに勝つ",
     "jpGuide1": "イベント戦で勝利する",
     "jpGuide2": "鎧戦車で古都マルティラから大砂蟲の巣へ移動時、キャゼリナとの戦闘後(昼)",
     "enGuide": "Calendar 7/2 昼. Catherina R2: During the story travel leg OUT of Martira toward the Great Sandworm's Nest (July 2 or later), win her daytime Gauntlet Runner encounter. Do not look for this fight on the incoming journey to Martira or substitute a town conversation. Set B specifies the outgoing leg; Set A confirms a July 2+ event battle without naming the leg."
   },
   {
-    "simpleJp": "7/2 鎧戦車・昼（空きがある場合のみ）：『頷かせる技術』を読む。キャゼリナ戦で昼枠を使う場合はこの読書を未完了として残す",
+    "simpleJp": "7/2 夜・鎧戦車：『頷かせる技術』を読了し説得力2",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Optional ONLY if the outgoing Catherina encounter does not occupy the daytime Runner activity. Otherwise this reading remains pending; it is not a second guaranteed 7/2 daytime action."
-  },
-  {
-    "simpleJp": "7/2 夜・読書：『頷かせる技術』を読む",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "頷かせる技術を読む",
-    "enGuide": "Calendar 7/2 夜・読書. Read Eloquence book during travel; target Eloquence 2"
+    "enGuide": "Third reading; required for Heismay R2."
   },
   {
     "simpleJp": "7/3 物語：大砂蟲の巣の物語を進める",
@@ -90,16 +90,16 @@
     "enGuide": "Calendar 7/4 物語. Heismay R1: Progress through the Martira kidnapping/castle main-story chain and recruit him (around July 4–5); this automatically opens the Thief bond."
   },
   {
-    "simpleJp": "7/5 物語：7/5の主作戦を終え、ガリカのランク3を確認する",
-    "jpGuide1": "RANK3",
-    "jpGuide2": "ランク3",
-    "enGuide": "Calendar 7/5 物語. Gallica R3: Automatic after the Martira 'True Kidnapper' story operation clears, at or after July 5."
-  },
-  {
     "simpleJp": "7/5 昼・攻略：クリアンテ城を攻略する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "クリアンテ城攻略",
     "enGuide": "Calendar 7/5 昼・攻略. Early single-day castle clear; gather unique chests and optional Steal equipment; before July 16 deadline"
+  },
+  {
+    "simpleJp": "7/5 物語：7/5の主作戦を終え、ガリカのランク3を確認する",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 7/5 物語. Gallica R3: Automatic after the Martira 'True Kidnapper' story operation clears, at or after July 5."
   },
   {
     "simpleJp": "7/5 【受注・時間なし】募兵舎で『鉱山を荒らす人喰い蟲』を受注する",
@@ -108,10 +108,16 @@
     "enGuide": "7/5, 受注・時間なし: From July 5, accept the mining Man-Eater Worm bounty at a recruitment centre. Kill the quarry target during July 9 Man-Eater's Grotto expedition and return to claim bounty + Courage. This does not consume a separate bond slot. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
-    "simpleJp": "7/6 昼・受注：マルティラで新たな依頼を受ける",
+    "simpleJp": "7/6 【受注・時間なし】：マルティラで新規依頼を受けて王都へ転移する",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "依頼2件を受注",
-    "enGuide": "Calendar 7/6 昼・受注. Accept new Martira requests; side-dungeon travel comes later"
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Collect newly available Martira requests while in town, then teleport to visited Grand Trad. No Runner excursion today."
+  },
+  {
+    "simpleJp": "7/6 【受注・時間なし】：王都の料理人から『料理人を唸らせる一皿を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Accept the chef request before the July 11 bread cooking and July 13 report; the objective is いやしパン."
   },
   {
     "simpleJp": "7/6 昼：王都のマリアと話して支援ランク3にする",
@@ -120,10 +126,10 @@
     "enGuide": "Calendar 7/6 昼. Maria R3: Two calendar days after R2, meet Maria in Sunshade Row (日陰通り), Grand Trad, in daytime. Scenic landscape paintings may provide additional interactions but are not required for the bond."
   },
   {
-    "simpleJp": "7/6 夜：説得力2を得て夜の鎧戦車でハイザメと話す",
-    "jpGuide1": "仲間のことを知りたい（説得力2）",
-    "jpGuide2": "説得力2",
-    "enGuide": "Calendar 7/6 夜. Heismay R2: After the Martira operation, get Eloquence (説得力) 2. Talk to Heismay in the Runner's central passage at night, outside a forced plot-travel lockout."
+    "simpleJp": "7/6 夜：拠点の鎧戦車中央通路でハイザメ2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After daytime Maria, enter the stationary Runner at the city base; Eloquence 2. This rank is not a travel-only rank. Return to Martira by town teleport if necessary."
   },
   {
     "simpleJp": "7/7 昼：ヒュルケンベルグのランク3から2日後、マルティラの酒場で話す",
@@ -150,16 +156,22 @@
     "enGuide": "July 8 NIGHT one slot: with Maria at R2+, help Fabienne at Hushed Honeybee Inn WITH Maria to earn 看板娘と裏方 before Sept 26. Replaces usual Tolerance helper on this night, not two evening actions."
   },
   {
-    "simpleJp": "7/9 昼・旅行：人喰い洞窟へ出発してコメロ村に立ち寄る",
+    "simpleJp": "7/9 昼・移動：マルティラから人喰い洞窟へ出発しコメロ村に立ち寄る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "人喰い洞窟に向かう",
-    "enGuide": "Calendar 7/9 昼・旅行. Get egg assortment at Komero, clear cave bounty, collect Neuras relic; use real discretionary Gauntlet Runner travel"
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before departure buy supplies; on the real Runner leg spend the daytime activity on Strohl R4, visit Komero for the inventor quest and buy the eggs AFTER the event, then clear the cave bounty and loot the relic. Return to town after the expedition. Reference: GamerB July 9."
   },
   {
-    "simpleJp": "7/9 コメロ村帰還後：透明な硝子の置物と発明家の日誌をニューラスに渡し支援ランク1・ガンナーを解放する",
-    "jpGuide1": "透明な硝子の置物",
-    "jpGuide2": "コメロ村で遺物を回収",
-    "enGuide": "After accepting the Martira pigeon-egg request and actually unlocking Komero, collect Neuras's glass ornament and inventor's journal on the July 9 Komero visit, then return to the Runner and hand both to Neuras to establish R1 and unlock Gunner. This is separate from the Man-Eater's Grotto mineral relic and egg purchase. Verify the travel/night activity schedule before treating July 9 as fully executable; no June 26 completion."
+    "simpleJp": "7/9 鎧戦車・昼：移動中、甲板でストロールと話してランク4",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Perform during the outbound Runner leg BEFORE the cave, not after dungeon entry."
+  },
+  {
+    "simpleJp": "7/9 コメロ村到着・自動イベント：遺物と日記を入手してニューラス1・ガンナー解放",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Komero visit itself completes the introductory quest and awards the bond; no separate night slot for R1. Evidence: https://gamewith.jp/metaphor/467310 ; https://metaphor.mtwildwood.net/ja/followers/neuras/ ."
   },
   {
     "simpleJp": "7/9 コメロ村の遺物報告後：ガンナーを履修しモアの支援ランク3を解放する",
@@ -168,10 +180,10 @@
     "enGuide": "Only after Neuras R1 unlocks Gunner from the Komero glass ornament/journal, study Gunner in Akademia and report to More for R3. Conditional on completing the July 9 travel and Neuras hand-in; not an extra discretionary activity or a June 26 unlock."
   },
   {
-    "simpleJp": "7/9 遺物：人喰い洞窟でニューラスの遺物を回収して渡す",
-    "jpGuide1": "ネジのついた鉱物",
-    "jpGuide2": "遺物を知る人物を探せ",
-    "enGuide": "Calendar 7/9 遺物. Neuras relic #1 of 6: Visit Man-Eater's Grotto, obtain the screw-topped mineral (ネジのついた鉱物) and return it to Neuras in the Gauntlet Runner at night. This advances one rank among R2–R7; the six relics can be delivered in any order."
+    "simpleJp": "7/9 人喰い洞窟内：ネジのついた鉱物を回収する（報告は7/11夜）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Collect relic from treasure chest and defeat the Man-Eater Worm bounty. Hold relic until July 11 NIGHT, when the dated reference reserves Neuras R2. Do not schedule a second bond on July 9."
   },
   {
     "simpleJp": "7/9 【収集・時間消費なし】黄金蟲11：人喰い洞窟最下層の北側で採集する",
@@ -180,22 +192,22 @@
     "enGuide": "Gold Beetle #11 of 50 — Man-Eater's Grotto deepest floor: northern stair-area gathering point. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "7/9 鎧戦車・昼：6/29以降の任意移動中、鎧戦車のストロールと話す",
-    "jpGuide1": "鎧戦車で会話",
-    "jpGuide2": "鎧戦車で移動中",
-    "enGuide": "Calendar 7/9 鎧戦車・昼. Calendar 6/30 鎧戦車・昼／別便可 (recommended flexible slot; satisfy game map icon and gate first). Strohl R4: During a genuine discretionary Gauntlet Runner journey starting around June 29, speak with Strohl on the deck in daytime. A town meeting or forced plot transit does not substitute for this travel bond."
-  },
-  {
-    "simpleJp": "7/10 昼：2日後、王都のマリアと話して支援ランク4にする",
-    "jpGuide1": "RANK4",
-    "jpGuide2": "ランク4",
-    "enGuide": "Calendar 7/10 昼. Maria R4: Visit Maria again in the daytime after the ordinary rank cooldown. Her rank 4 perks include Speed Cooking; optional travel landscape pictures are not required."
-  },
-  {
-    "simpleJp": "7/10 昼・購入：マルティラで料理素材を補充する",
+    "simpleJp": "7/10 【購入・時間なし】：街道広場でまろやか牛乳5、牛鳴き小道で香ばし挽き粉5を購入",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "まろやか牛乳",
-    "enGuide": "Calendar 7/10 昼・購入. Buy available milk/flour used for travel dishes; ordinary shopping is no-time"
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Buy milk and flour in Martira, and obtain Orgo Sugar for July 11 bread; buy from the village water seller if not already in inventory."
+  },
+  {
+    "simpleJp": "7/10 【期限・報告・時間なし】：マルティラ街道広場で伝書鳩の卵を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before daytime Maria, report eggs purchased July 9 at the Martira giver. Deadline July 11. Use no-time town teleport to Grand Trad after report."
+  },
+  {
+    "simpleJp": "7/10 昼：マルティラで買い物・卵報告後、王都へ転移してマリア4",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Finish the time-free egg delivery first, then teleport to visited Grand Trad; Maria R4 unlocks no-time cooking. Night Heismay remains the only evening activity."
   },
   {
     "simpleJp": "7/10 夜：ハイザメのランク3から2日後、夜に中央通路で話す",
@@ -204,16 +216,16 @@
     "enGuide": "Calendar 7/10 夜. Heismay R4: Talk in the central corridor at night, two days after R3. Save upcoming discretionary travel for his R5."
   },
   {
-    "simpleJp": "7/10 【期限・報告】マルティラ街道広場で伝書鳩の卵を渡す",
+    "simpleJp": "7/11 昼・旅行：マルティラから打ち捨てられた墓へ出発する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "July 10 NO-TIME report to request giver in MARTIRA Thoroughfare Square using Komero eggs bought July 9; deadline July 11."
+    "enGuide": "Teleport to Martira before choosing Runner destination; cook bread first on the journey after Maria R4, then use the daytime activity for Hulkenberg."
   },
   {
-    "simpleJp": "7/11 昼・旅行：打ち捨てられた墓へ向かう",
+    "simpleJp": "7/11 昼・鎧戦車【時短料理・時間なし】：いやしパンを作る",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "打ち捨てられた墓に向かう",
-    "enGuide": "Calendar 7/11 昼・旅行. Plan tomb dungeon and cook いやしパン while traveling"
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe #1: 香ばし挽き粉1・まろやか牛乳1・オルゴ糖1. Maria R4 is required. Reserve one for July 13 chef quest. Recipe references: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 ."
   },
   {
     "simpleJp": "7/11 鎧戦車：任意の鎧戦車移動中、ヒュルケンベルグと話す",
@@ -222,10 +234,10 @@
     "enGuide": "Calendar 7/11 鎧戦車. Hulkenberg R5: Two days after R4, approach her on the deck during free Gauntlet Runner travel in the daytime."
   },
   {
-    "simpleJp": "7/12 昼・攻略：打ち捨てられた墓の依頼を達成する",
+    "simpleJp": "7/11 夜・鎧戦車：回収済みの鉱物をニューラスへ渡してランク2",
     "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "打ち捨てられた墓攻略",
-    "enGuide": "Calendar 7/12 昼・攻略. Explore chest/relic sites, optional Steal and boss, collect Golden Beetles; one travel/dungeon day"
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Single night activity on the tomb trip, as in GamerB's July 11 calendar."
   },
   {
     "simpleJp": "7/12 鎧戦車：任意の鎧戦車移動中、ハイザメと話す",
@@ -234,16 +246,22 @@
     "enGuide": "Calendar 7/12 鎧戦車. Heismay R5: Two days after R4, speak with Heismay during a discretionary Gauntlet Runner journey in daytime/on the deck. Do not assume forced story travel counts."
   },
   {
+    "simpleJp": "7/12 昼・攻略：移動中のハイザメ5の後、打ち捨てられた墓で指輪を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Actual travel day: take Heismay's deck event before entering the tomb. Navigate to the ring room, defeat the boss, collect Malveno's ring and beetle. No post-dungeon evening bond assumed."
+  },
+  {
     "simpleJp": "7/12 【収集・時間消費なし】黄金蟲10：打ち捨てられた墓の指輪部屋南の奥で採集する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Gold Beetle #10 of 50 — Abandoned Tomb: south from the room with Malveno's ring, dead end across the grating. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
-    "simpleJp": "7/13 依頼報告：マルベノの指輪をククルスに渡してアロンゾ1を解放する",
-    "jpGuide1": "ククルスに指輪を届けろ",
-    "jpGuide2": "ククルスに指輪を届けろ",
-    "enGuide": "Alonzo R1: after taking Cuculus's ring request in Martira with Imagination 2, get Malveno ring during 7/11–12 Abandoned Tomb trip and REPORT to Cuculus on July 13. The unlock is not executable on July 1 before obtaining ring."
+    "simpleJp": "7/13 【期限・報告】『魔除けの頭蓋骨を探せ』と『家宝の首飾りを取り返せ』を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/13, 期限・報告: Return to the original Catacombs entrance soldier and Grand Trad Sunlumeo Street noble after obtaining their specific objective items; verify both quest log entries marked completed BEFORE the July 30 cutoff. This hand-in uses town travel/teleport, not a second daytime action. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "7/13 昼：さらに2日後、王都のマリアと話してランク5にする",
@@ -252,16 +270,16 @@
     "enGuide": "Calendar 7/13 昼. Maria R5: Two days after R4, meet Maria on Sunshade Row (日陰通り), Grand Trad, during the day. The bond marker will show her current position; visiting her inn for the R4 scene was the prior step."
   },
   {
-    "simpleJp": "7/13 夜・報告：料理人に『いやしパン』を渡す",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "料理人を唸らせる一皿",
-    "enGuide": "Calendar 7/13 夜・報告. Report cooking dish and Alonzo ring quest if still outstanding"
-  },
-  {
-    "simpleJp": "7/13 【期限・報告】『魔除けの頭蓋骨を探せ』と『家宝の首飾りを取り返せ』を報告する",
+    "simpleJp": "7/13 夜・報告：王都の料理人に『いやしパン』を渡す",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "7/13, 期限・報告: Return to the original Catacombs entrance soldier and Grand Trad Sunlumeo Street noble after obtaining their specific objective items; verify both quest log entries marked completed BEFORE the July 30 cutoff. This hand-in uses town travel/teleport, not a second daytime action. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+    "enGuide": "Report to the original cooking request giver, then use town teleport to Martira for the ring hand-in. Carry bread made July 11."
+  },
+  {
+    "simpleJp": "7/13 夜・報告：マルティラでマルベノの指輪をククルスに渡してアロンゾ1",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After Maria daytime and the bread quest, teleport to Martira (visited city) before talking to Cuculus. The dated GamerB itinerary places the Alonzo unlock here; do not treat this as a second ordinary voluntary bond."
   },
   {
     "simpleJp": "7/14 昼：マルティラの主作戦を終えてバードンの支援ランク1を確認する",

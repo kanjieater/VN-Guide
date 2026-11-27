@@ -12,12 +12,6 @@
     "enGuide": "Calendar August 19 NO-TIME quest intake, separate from actual dungeon-clear daytime slot. First finish/report『枯れ薬の材料を探せ』at the Virga inn (材料 collected on the prior story run). Then accept Junah's『弔いを阻む蛇食い怪物を倒せ』at Dragon Statue Square, to be completed August 23 during the Circle Landmark journey, NOT August 19. Pick up all other available Virga bounties before leaving."
   },
   {
-    "simpleJp": "8/19 昼・攻略：竜宮神殿の本作戦を攻略する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "竜宮神殿攻略",
-    "enGuide": "Calendar August 19 SINGLE daytime story dungeon. Clear Dragon Temple main operation, collect its one-time loot and beetles, and return to Virga. Do not also attempt the Circle Landmark snake-monster quest this day; that is routed August 23. If story clearance needs a second day, use a verified spare slot and shift optional errands."
-  },
-  {
     "simpleJp": "8/19 【収集・時間消費なし】黄金蟲22：ビルガ島の首長の家の付近を調べる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -60,12 +54,6 @@
     "enGuide": "8/19 期限・受注. After reaching Virga and the August 19 request window, get the guided-doll material request; retrieve the listed doll materials in the accessible Dragon Temple and report no later than August 30."
   },
   {
-    "simpleJp": "8/19 夜・読書：『※秘※詩集※見るな※』を2回目まで読む",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Calendar August 19 NIGHT, only if the story releases a real Gauntlet Runner evening after Dragon Temple; otherwise use the Aug 20 travel night in place of the non-mandatory cooking slot. This is one of three unique Poetry Collection reading sessions and does not share the main dungeon daytime slot."
-  },
-  {
     "simpleJp": "8/19 【受注・時間なし】宿前水汲み場で『無謀な研究者の仇を討て』を受注する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -84,10 +72,34 @@
     "enGuide": "8/19, 受注・時間なし: Accept the Scoundrel's Hold one-eyed monster bounty from any recruitment centre. Defeat target on Sept 4–5 dungeon trip, take Neuras's marquetry-box relic there, and claim bounty from recruitment centre after return. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
+    "simpleJp": "8/19 昼・鎧戦車：竜宮神殿へ向かう途中で『※秘※詩集※見るな※』を2回目まで読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Read on the Runner before entering the Dragon Temple as in the dated Japanese itinerary."
+  },
+  {
+    "simpleJp": "8/19 昼・攻略：竜宮神殿の本作戦を攻略する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "竜宮神殿攻略",
+    "enGuide": "Calendar August 19 SINGLE daytime story dungeon. Clear Dragon Temple main operation, collect its one-time loot and beetles, and return to Virga. Do not also attempt the Circle Landmark snake-monster quest this day; that is routed August 23. If story clearance needs a second day, use a verified spare slot and shift optional errands."
+  },
+  {
+    "simpleJp": "8/19 竜宮神殿内：導きの人形の依頼用にアメツチ石3個を集める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Collect all three stones during the Dragon Temple expedition. Return them to the original Virga quest giver by August 30. https://metaphor.mtwildwood.net/ja/quests/a-guiding-gift/"
+  },
+  {
     "simpleJp": "8/20 【購入・時間なし】ビルガ島の砂浜・竜像広場で料理素材を購入する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Buy 怪獣骨3、フニャフナ3、白桃かぶ5、女帝蜂の蜜瓶1、ジェ鱗粉1、巨人のばら肉2 if not already obtained, and any missing worm meat. Check 錦紗コイ from fishing before departure. Preserve 5 ガイセン茸 total, and 5 honey jars total (count already used). Source https://gamecap.jp/metaphor/item_syokuzai.html ; https://gamex.jp/metaphor-refantazio/cooking-guide ."
+  },
+  {
+    "simpleJp": "8/20 【報告・時間なし】：王都のライケン魔道器商で鑑定し、ビルガ島の依頼人へ戻る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Take the unappraised igniter to the Grand Trad igniter shop, choose to hear the explanation, then teleport back to Virga and report to the woman in front of the tavern. https://metaphor.mtwildwood.net/ja/quests/the-price-of-hope/"
   },
   {
     "simpleJp": "8/20 昼・移動：儀礼の地に向かいユーファの試練を進める",
@@ -126,6 +138,12 @@
     "enGuide": "Recipe 14/21. 白桃かぶ1・ガイセン茸1・トウ蜜蜂1. Junah joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
   },
   {
+    "simpleJp": "8/21 昼・鎧戦車：ユーファと過ごして想像力を上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Take the daytime Runner virtue activity after free cooking and before entering the trial site."
+  },
+  {
     "simpleJp": "8/21 昼・攻略：儀礼の地の試練を終えて宝箱の遺物を回収する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "儀礼の地攻略",
@@ -162,6 +180,12 @@
     "enGuide": "Calendar 8/22 夜・資質. Flexible Courage practice; avoid traveling solely for this if a comparable nearby action is available."
   },
   {
+    "simpleJp": "8/23 昼・移動：円環のしるべに向けて鎧戦車で出発する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Begin the actual journey before using the kitchen or library."
+  },
+  {
     "simpleJp": "8/23 昼・鎧戦車【時短料理・時間なし】：全能黄金鍋を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -180,18 +204,6 @@
     "enGuide": "Single Circle Landmark visit on Aug 23: travel, explore, collect the two beetles, defeat the snake-eating quest boss. Report only in the next no-time step."
   },
   {
-    "simpleJp": "8/23 攻略後・報告（時間なし）：ジュナに『弔いを阻む蛇食い怪物を倒せ』を報告しR1を解放する",
-    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
-    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
-    "enGuide": "After the Aug 23 Circle Landmark boss, return and report to Junah for R1; do not repeat the dungeon. The request was accepted Aug 19."
-  },
-  {
-    "simpleJp": "8/23 夜・野営【時短料理・時間なし】：激堅黒パンを作る",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Recipe 16/21: ジェ鱗粉1・妖花の蜜汁1・香ばし挽き粉3. After Circle Landmark choose camp/another destination; cook then spend evening with Junah for Eloquence. Initial recipe."
-  },
-  {
     "simpleJp": "8/23 【収集・時間消費なし】黄金蟲30：円環のしるべ2階北の突き当たりを調べる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -204,16 +216,46 @@
     "enGuide": "Gold Beetle #31 of 50 — Orbwise Path / Circle Landmark 1F: glowing spot by eastern junction. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
   },
   {
+    "simpleJp": "8/23 攻略後・報告（時間なし）：ジュナに『弔いを阻む蛇食い怪物を倒せ』を報告しR1を解放する",
+    "jpGuide1": "弔いを阻む蛇食い怪物を倒せ",
+    "jpGuide2": "弔いを阻む蛇食い怪物を倒せ",
+    "enGuide": "After the Aug 23 Circle Landmark boss, return and report to Junah for R1; do not repeat the dungeon. The request was accepted Aug 19."
+  },
+  {
+    "simpleJp": "8/23 夜・野営【時短料理・時間なし】：激堅黒パンを作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 16/21: ジェ鱗粉1・妖花の蜜汁1・香ばし挽き粉3. After Circle Landmark choose camp/another destination; cook then spend evening with Junah for Eloquence. Initial recipe."
+  },
+  {
+    "simpleJp": "8/23 夜・鎧戦車：ジュナと過ごして説得力を上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use the evening virtue activity after the free bread recipe if the Runner camp is available."
+  },
+  {
     "simpleJp": "8/24 昼・移動：盲信の塔へ向かいシレント村にも寄る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "盲信の塔に向かう",
     "enGuide": "Calendar 8/24 昼・移動. Combine Tower of Blind Faith with the village visit and any local request. Allocate a genuine discretionary Runner travel slot for Hulkenberg's final bond."
   },
   {
+    "simpleJp": "8/24 昼・鎧戦車【予備料理・時間なし】：未作成ならギリギリ角煮を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Only if the July 30 recipe was skipped for lack of giant ribs. Buy or obtain the missing ingredient in Virga before this trip; do not cook twice in this half-day."
+  },
+  {
     "simpleJp": "8/24 鎧戦車・昼：2日後の任意移動中、ヒュルケンベルグと話す",
     "jpGuide1": "鎧戦車で会話",
     "jpGuide2": "鎧戦車で移動中",
     "enGuide": "Calendar 8/24 鎧戦車・昼. UNSCHEDULED requirement; choose a genuine free day when eligible, not necessarily August 18. Hulkenberg R8: Two days after R7, speak on the Runner's deck during a discretionary daytime journey. If you only have mandatory travel, plan a side trip."
+  },
+  {
+    "simpleJp": "8/24 夜・鎧戦車【予備料理・時間なし】：未作成なら必中発酵ばら肉を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Only if the July 30 recipe was skipped; this is a separate half-day, with the needed giant ribs and nectar obtained before departure."
   },
   {
     "simpleJp": "8/24 夜・資質：ジュナと過ごして説得力を鍛える",
@@ -240,6 +282,12 @@
     "enGuide": "Calendar 8/26 昼・攻略. Clear Tower of Blind Faith, collect Golden Beetle and mask materials. Eupha's travel conversations build Imagination 4 over the journey."
   },
   {
+    "simpleJp": "8/27 【報告・時間なし】盲信の塔の敵討ち依頼を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/27, 報告・時間なし: After Tower of Blind Faith clear Aug 26, return to Virga well requester to close 『無謀な研究者の仇を討て』; this is a no-time conversation. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
     "simpleJp": "8/27 昼：ユーファのランク1から2日後、昼に話す",
     "jpGuide1": "RANK2",
     "jpGuide2": "ランク2",
@@ -250,12 +298,6 @@
     "jpGuide1": "夜の鎧戦車内",
     "jpGuide2": "ランク2",
     "enGuide": "Calendar 8/27 夜. Junah R2: At least two days after the snake quest, meet her at night in the Runner central passage. Advance another quest or virtue on cooldown days."
-  },
-  {
-    "simpleJp": "8/27 【報告・時間なし】盲信の塔の敵討ち依頼を報告する",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "8/27, 報告・時間なし: After Tower of Blind Faith clear Aug 26, return to Virga well requester to close 『無謀な研究者の仇を討て』; this is a no-time conversation. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
   },
   {
     "simpleJp": "8/28 昼・闘技場：闘技場の銀級に挑む",
@@ -270,6 +312,12 @@
     "enGuide": "Calendar 8/28 夜・闘技場. Continue the Silver arena ranks. If a time-limited Follower is eligible, the fight can be shifted to a later evening."
   },
   {
+    "simpleJp": "8/29 【期限・報告】：ビルガ島の水汲み場の老人へアメツチ石を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the day's follower activities teleport to Virga, deliver stone obtained in Dragon Temple to the original giver by Aug 30. Verify log. Source https://metaphor.mtwildwood.net/ja/quests/a-guiding-gift/ ."
+  },
+  {
     "simpleJp": "8/29 昼：ユーファのランク2から2日後、昼に話す",
     "jpGuide1": "RANK3",
     "jpGuide2": "ランク3",
@@ -280,12 +328,6 @@
     "jpGuide1": "夜の鎧戦車内",
     "jpGuide2": "ランク3",
     "enGuide": "Calendar 8/29 夜. Junah R3: At least two days after R2, return at night to the Runner's central passage. No extra virtue gate yet."
-  },
-  {
-    "simpleJp": "8/29 【期限・報告】：ビルガ島の水汲み場の老人へアメツチ石を渡す",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Before the day's follower activities teleport to Virga, deliver stone obtained in Dragon Temple to the original giver by Aug 30. Verify log. Source https://metaphor.mtwildwood.net/ja/quests/a-guiding-gift/ ."
   },
   {
     "simpleJp": "8/30 昼・闘技場：闘技場の銀級を仕上げる",
@@ -360,16 +402,16 @@
     "enGuide": "Calendar 9/4 夜・読書. Wisdom book catch-up on the Runner as available."
   },
   {
-    "simpleJp": "9/5 昼・攻略：ならず者の根城を攻略して遺物を拾う",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "ならず者の根城攻略",
-    "enGuide": "Calendar 9/5 昼・攻略. Complete the bounty and pick up the marquetry box in dungeon. Make sure the Dragon Spear story deadline has been satisfied before the September 5 cutoff."
-  },
-  {
     "simpleJp": "9/5 鎧戦車・昼：ジュナのランク5から2日後、任意移動中に話す",
     "jpGuide1": "鎧戦車で会話",
     "jpGuide2": "鎧戦車で移動中",
     "enGuide": "Calendar 9/5 鎧戦車・昼. Junah R6: At least two days after R5, speak with Junah during a discretionary Gauntlet Runner journey in DAYTIME. Plot-fixed transit may not permit this bond event."
+  },
+  {
+    "simpleJp": "9/5 昼・攻略：ならず者の根城を攻略して遺物を拾う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ならず者の根城攻略",
+    "enGuide": "Calendar 9/5 昼・攻略. Complete the bounty and pick up the marquetry box in dungeon. Make sure the Dragon Spear story deadline has been satisfied before the September 5 cutoff."
   },
   {
     "simpleJp": "9/5 ならず者の根城内：遺物を回収する（報告は9/8夜）",

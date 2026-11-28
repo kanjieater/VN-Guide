@@ -283,6 +283,90 @@
       "title": "攻略データ：オルゴ糖",
       "language": "ja",
       "notes": "Komero purchase."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/466164",
+      "title": "GameWith キャゼリナの支援ランク",
+      "language": "ja",
+      "notes": "Third Runner battle unlocks R4 on Brilehaven to Tower of Insolence; R5 after Sept 13 at Skybound Bridge."
+    },
+    {
+      "set": "B",
+      "url": "https://gamewith.jp/metaphor/468448",
+      "title": "GameWith 至高のひと匙の作り方",
+      "language": "ja",
+      "notes": "Pantry pre-check save/reload, growth device random harvest, fishing responses and 20-before-final recipe dependency."
+    },
+    {
+      "set": "A",
+      "url": "https://game8.jp/metaphor-re-fantazio/646807",
+      "title": "Game8 ガイセン茸の入手方法",
+      "language": "ja",
+      "notes": "Daily pantry stock rerolls on save/reload; no need to consume a new calendar slot."
+    },
+    {
+      "set": "B",
+      "url": "https://kamigame.jp/metaphor/page/339370606103374706.html",
+      "title": "神ゲー攻略 ガイセン茸",
+      "language": "ja",
+      "notes": "Independent corroboration of pre-pantry save and reload for mushrooms."
+    },
+    {
+      "set": "A",
+      "url": "https://game8.jp/metaphor-re-fantazio/644664",
+      "title": "Game8 仮面一覧",
+      "language": "ja",
+      "notes": "Mask ingredients and source-archetype unlock requirements."
+    },
+    {
+      "set": "B",
+      "url": "https://bozumemo.jp/metaphor-refantazio/mask/",
+      "title": "ボーメモ 仮面一覧",
+      "language": "ja",
+      "notes": "Independent 42-mask list, ingredient dependencies, experiment menu and both-set trophy requirement."
+    },
+    {
+      "set": "A",
+      "url": "https://game8.jp/metaphor-re-fantazio/644881",
+      "title": "Game8 白面一覧",
+      "language": "ja",
+      "notes": "Merchant prerequisites (Alonzo and Aug 19 Virga information), price and weekday stock."
+    },
+    {
+      "set": "B",
+      "url": "https://niwaka-games.com/2024/11/29/21359/",
+      "title": "NIWAKA GAMES 仮面素材リスト",
+      "language": "ja",
+      "notes": "Independent merchant unlock and per-item dungeon/drop sourcing."
+    },
+    {
+      "set": "B",
+      "url": "https://bozumemo.jp/metaphor-refantazio/yorishiro/",
+      "title": "ボーメモ 依り代一覧",
+      "language": "ja",
+      "notes": "Vessel experiment menu, material dependencies and experiment trophy."
+    },
+    {
+      "set": "A",
+      "url": "https://kamigame.jp/metaphor/page/345874317625546702.html",
+      "title": "神ゲー攻略 依り代一覧",
+      "language": "ja",
+      "notes": "Talisman sourcing and special experiment procedures."
+    },
+    {
+      "set": "A",
+      "url": "https://game8.jp/metaphor-re-fantazio/646721",
+      "title": "Game8 釣りの選択肢",
+      "language": "ja",
+      "notes": "Specific Circle Landmark/Ritual Site sea trips permit fishing after upgrade; bait and dialogue yields."
+    },
+    {
+      "set": "B",
+      "url": "https://gamers-high.com/metaphor-rf/other/fishing.html",
+      "title": "Gamers High 釣り",
+      "language": "ja",
+      "notes": "Independently corroborates island-area fishing after Virga story."
     }
   ],
   "generated_at": "2026-11-17T12:40:00-06:00"

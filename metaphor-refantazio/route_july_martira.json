@@ -210,6 +210,12 @@
     "enGuide": "Teleport to Martira before choosing Runner destination; cook bread first on the journey after Maria R4, then use the daytime activity for Hulkenberg."
   },
   {
+    "simpleJp": "7/11 昼・鎧戦車【時間なし】：食料庫前でセーブし、ガイセン茸3個目が出るまで再ロードする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the daytime action, save OUTSIDE the pantry near the war room, check supplies, and if no Gauntlet Shroom is awarded reload the same pre-check save and retry. Keep the successful result; this is a same-slot RNG retry, not a new day or a guide route branch. One pantry collection per date. Count cumulative reserved shrooms, skip reroll if already at 3 or more. Sources: Game8 https://game8.jp/metaphor-re-fantazio/646807 and Kamigame https://kamigame.jp/metaphor/page/339370606103374706.html ."
+  },
+  {
     "simpleJp": "7/11 昼・鎧戦車【時短料理・時間なし】：いやしパンを作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -226,6 +232,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Single night activity on the tomb trip, as in GamerB's July 11 calendar."
+  },
+  {
+    "simpleJp": "7/12 昼・鎧戦車【時間なし】：食料庫前でセーブし、ガイセン茸4個目が出るまで再ロードする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the daytime action, save OUTSIDE the pantry near the war room, check supplies, and if no Gauntlet Shroom is awarded reload the same pre-check save and retry. Keep the successful result; this is a same-slot RNG retry, not a new day or a guide route branch. One pantry collection per date. Count cumulative reserved shrooms, skip reroll if already at 4 or more. Sources: Game8 https://game8.jp/metaphor-re-fantazio/646807 and Kamigame https://kamigame.jp/metaphor/page/339370606103374706.html ."
   },
   {
     "simpleJp": "7/12 鎧戦車：任意の鎧戦車移動中、ハイザメと話す",

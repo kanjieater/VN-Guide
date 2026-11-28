@@ -168,10 +168,16 @@
     "enGuide": "After turning in the sweets and receiving the legendary fish, depart on the Runner before making the final recipe."
   },
   {
+    "simpleJp": "9/29 昼・鎧戦車【作成前確認・時間なし】：料理20種の作成印とガイセン茸3・女帝蜂の蜜瓶3・伝説のヌシ1を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Check the in-game recipe marks, not possession of food. If even one base recipe or ingredient is missing, skip today's final recipe and follow the dedicated October 14–16 sea trip; do not spend these reserved materials on repeat recipes. If mushrooms alone are missing, save outside today's pantry and reload until the day's one collection yields a shroom; use each remaining free town day's pantry before departure. Sources GameWith 468448 and Game8 646807."
+  },
+  {
     "simpleJp": "9/29 昼・鎧戦車【時短料理・時間なし】：至高のひと匙を作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Recipe 21/21. 伝説のヌシ1・女帝蜂の蜜瓶3・ガイセン茸3. Only after all 20 base recipes have been cooked; if missing use October recovery slots before final audit. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+    "enGuide": "Recipe 21/21. 伝説のヌシ1・女帝蜂の蜜瓶3・ガイセン茸3. Only after all 20 base recipes have been cooked; if missing use October recovery slots before final audit. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar. If this step cannot be performed, follow the dated October 14–16 recovery steps below; do not advance the achievement check as complete."
   },
   {
     "simpleJp": "9/29 昼・鎧戦車：天上人の邸に入る前に『魔法的未来』を読み、見識5を目指す",
@@ -318,10 +324,40 @@
     "enGuide": "Calendar 10/9 昼・攻略. Late dragon trial: prepare elemental resistances/dispels according to quest intel, clear the Tower of Insolence challenge, and report quest reward. This is a later high-level trip, different from the early tower bounty."
   },
   {
-    "simpleJp": "10/10 昼・依り代：ユーファの未作成依り代をまとめて作る",
+    "simpleJp": "10/10 【アカデメイア・時間なし】：特別実験で全ての依り代を作成する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "全ての依り代を作成",
-    "enGuide": "Calendar 10/10 昼・依り代. First-run completion: use accumulated mask/vessel materials to craft all Summoner Vessels where possible. Buy additional materials from shops on Virga Island if missing; extra drops farming isn't an obligatory story step."
+    "enGuide": "Speak to More and open 特別実験 → 召喚獣の特別実験. Use the crafted marks to complete every vessel; buy missing talismans from 力自慢の店主 in Virga's Dragon Statue Square (100,000 reeve each before discounts, limited stock). Unlock any prerequisite archetypes/experiments first. Collect every dungeon pickup and retain enemy drops; repeat the experiment check on Oct 24 and before the last boss. Sources: https://bozumemo.jp/metaphor-refantazio/yorishiro/ ; https://kamigame.jp/metaphor/page/345874317625546702.html ."
+  },
+  {
+    "simpleJp": "10/10 【アカデメイア・時間なし】：ジュナの仮面の特別実験で未作成の仮面を確認し、作れるものを全て作成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "More → 特別実験 → 仮面の特別実験. Check the completed mark rather than equipped or held quantity; advanced masks consume earlier masks as ingredients but do not erase the earlier crafted mark. Unlock the source Archetype if a recipe is hidden. Collect needed white masks from dungeon loot and the Brilehaven merchant unlocked Aug 19. For each advanced recipe, craft any missing precursor masks first. Start with the next checklist and finish on Oct 24/26."
+  },
+  {
+    "simpleJp": "10/10 【仮面チェック1・時間なし】：探求者・魔法探求者・魂探求者／魔術師・賢人・精霊術師・黒魔術師／戦士・剣闘士・侍の仮面を作成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "10 mask entries: Seeker family (3), Mage (4), Warrior (3). For each row read the two ingredients shown in the experiment menu; if it requires earlier masks, create those before the advanced one. Tick only the creation mark. Source lists: https://bozumemo.jp/metaphor-refantazio/mask/ and https://game8.jp/metaphor-re-fantazio/644664 ."
+  },
+  {
+    "simpleJp": "10/10 【仮面チェック2・時間なし】：騎士・魔法騎士・聖騎士・闇騎士／格闘家・師範・拳聖／施療師・聖職者・救世主の仮面を作成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "10 more entries: Knight (4), Brawler (3), Healer (3). If missing base components, purchase only missing white masks on appropriate weekday (Aug 22 instructions). Preserve crafted marks even if a precursor is consumed."
+  },
+  {
+    "simpleJp": "10/10 【仮面チェック3・時間なし】：砲兵・狙撃兵・竜砲兵／盗賊・暗殺者・忍者／道化・愚者／軍師・知将・名軍師の仮面を作成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "11 more entries: Gunner (3), Thief (3), Faker (2), Commander (3). Unlock all relevant archetypes by progressing the Follower ranks, and use the experiment menu for the exact ingredient deficits."
+  },
+  {
+    "simpleJp": "10/10 【仮面チェック4・時間なし】：商人・豪商／召喚士・悪魔召喚士／狂戦士・破壊者／舞踏・頑強・魔力・武力・恋愛の仮面を作成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Last 11 entries, 42 total across the four lists. Keep the menu completion marks; some recipes need previous masks or archetype unlocks. If any remain, acquire materials on the remaining town days and complete before final boss. Both all masks AND all vessels are required for 実験終了."
   },
   {
     "simpleJp": "10/10 昼・攻略：不遜の塔の竜の試練を終える",
@@ -354,10 +390,10 @@
     "enGuide": "After all three trials are complete and reported, take the unlocked final trial and defeat its boss at Dragon Temple. The unlock must occur before entering this dungeon."
   },
   {
-    "simpleJp": "10/13〜10/24 予備日：料理不足なら10/14に実際の鎧戦車旅行を組む",
+    "simpleJp": "10/13 【予備遠征の準備・時間なし】：未作成料理と不足食材を調べ、必要なら釣り餌を用意する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "If any recipes remain, reserve a spare date (start October 14) for genuine Runner travel with the missing ingredients. Use one free cooking per half-day; make the final recipe only after the other 20 have been made. If no cooking is needed, keep the day free for other unfinished objectives."
+    "enGuide": "Skip the following Oct 14–16 contingency only if all 21 dishes have already been cooked. Count mushrooms still required (one per missing whitefish/sweet dish, three for the final dish), the fish and honey jars still needed. Reroll today's pantry if short. For fish buy cricket/worm bait from Martira insect boy; check Tail Bait and use storage cleaning on the trip if necessary. Buy remaining ordinary ingredients before departing."
   },
   {
     "simpleJp": "10/13 アカデメイア：25種類のアーキタイプを履修してモアに報告する",
@@ -393,7 +429,37 @@
     "simpleJp": "10/13 【監査・時間なし】：料理21種類の作成済み印と『最強料理人』を確認する",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Check 20 individual base recipes and final dish, not just inventory/recipe unlock. If incomplete use reserved recovery days."
+    "enGuide": "If all 21 marks are present, verify 最強料理人. Otherwise follow the actual Oct 14–16 recovery route immediately below; only mark complete on success. This is an initial check, not a terminal audit."
+  },
+  {
+    "simpleJp": "10/14 昼・予備遠征（料理未完了時のみ）：ビルガ島方面の円環のしるべへ鎧戦車で出発する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Conditional recovery on a documented free day (Oct 13–25); at the round table select Circle Landmark for a real sea leg, not town teleport. Both Game8 646721 and Gamers High fishing guide document island-water fishing after the Runner upgrade. Save before pantry, reroll for shroom as needed. Free-cook one missing base dish before fishing; use one ordinary daytime slot on fishing if needed. With Tail Bait, choose the honey response for 1 legendary fish + 2 honey jars, or fish-doubling response for 2 fish. For honey only use worm/cricket bait with honey response. If weather blocks fishing, use a later recovery day; do not assume land travel can fish."
+  },
+  {
+    "simpleJp": "10/14 夜・予備遠征（必要時のみ）：野営して次の目的地を儀礼の地に設定し、未作成料理を1種作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "If no fish/ingredient deficit remains, make one missing base recipe (or the final recipe if all twenty are already marked and enough ingredients remain). If further recovery needed choose camp rather than instant return, and select Ritual Site as the next destination. If Tail Bait is missing, save before cleaning cargo storage, then reload until bait drops; this is the one consuming night activity. If no camping prompt is available because the dungeon was already cleared, return to town and depart the next day instead."
+  },
+  {
+    "simpleJp": "10/15 昼・予備遠征（必要時のみ）：儀礼の地への海路で食料庫と釣りを利用する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Take the real sea route, save/reload before the new daily pantry if short; fish for remaining ingredients in the daytime if needed. Free-cook one missing base recipe in the other half-day if feasible. If the final dish is still blocked, use a further actual sea trip on Oct 16 or subsequent free dates. No second consuming action in the same half-day; weather may force later departure. Do not return to a previously cleared dungeon just to fight it again."
+  },
+  {
+    "simpleJp": "10/16 昼・予備遠征（必要時のみ）：円環のしるべ方面への鎧戦車移動中に至高のひと匙を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "When all 20 other recipe marks are present and the reserved legendary fish 1/honey jars 3/shrooms 3 are available, depart on a real trip and use the kitchen for the final dish. If already completed on Oct 14 or 15, skip this trip; otherwise repeat the same pantry/fishing method on the remaining Oct 17–23 free days as needed. Confirm 最強料理人 before returning to the main calendar. This is a contingency schedule, not an asserted mandatory date."
+  },
+  {
+    "simpleJp": "10/24 【時間なし】：仮面・依り代の作成印を確認し、不足する白面・札を購入して作成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Check all four mask families lists (42 marks) and all vessel rows in More's special experiment menu. Use Brilehaven's rotating white mask stock and Virga talisman vendor; buy only deficits before ending the day. On Oct 25 recheck if needed. If a missing material is only found in the final dungeon, keep a deficit list and obtain it on Oct 26 before the boss. Do not mark 実験終了 as earned unless both lists are complete."
   },
   {
     "simpleJp": "10/24 夜・最終監査：全14人の支援ランクと各収集記録を見直す",
@@ -418,6 +484,18 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Optional final-day epilogue: On October 25, after verifying every Follower is already Rank 8, visit/talk to them again wherever the game makes them available for their farewell conversations and commemorative key items. These do not replace any missed bond ranks; finish the all-14 Rank 8 requirement first."
+  },
+  {
+    "simpleJp": "10/26 物語：恐王星を進み、最後のボスの前に不足素材を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Explore the final dungeon and gather its chests/blue drops; if a mask or vessel remains, collect the required drop here before proceeding. The dated GamerB first-run walkthrough explicitly finishes all masks on October 26. Preserve a save before the final boss."
+  },
+  {
+    "simpleJp": "10/26 【最終戦前・アカデメイア】：残りの仮面・依り代を作成し『実験終了』を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "全ての仮面を作成",
+    "enGuide": "Use the final dungeon's Akademia access before the ending battle; complete every remaining recipe from the deficit list, verify the experiment achievement. Both halves must be complete. If all were made Oct 24, simply check the trophy/marks. No NG+ required for this objective."
   },
   {
     "simpleJp": "10/26 物語・最終決戦：最終作戦へ進んで本編をクリアする",

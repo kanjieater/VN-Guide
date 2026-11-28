@@ -156,6 +156,12 @@
     "enGuide": "Buy toothbrush at Inundo before leaving. Actual travel; cook before using the deck event. At Tomb return prompt choose camp and another destination, NOT town; this establishes July 30 Gracia Forest continuity."
   },
   {
+    "simpleJp": "7/28 昼・鎧戦車【時間なし】：食料庫前でセーブし、ガイセン茸5個目が出るまで再ロードする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the daytime action, save OUTSIDE the pantry near the war room, check supplies, and if no Gauntlet Shroom is awarded reload the same pre-check save and retry. Keep the successful result; this is a same-slot RNG retry, not a new day or a guide route branch. One pantry collection per date. Count cumulative reserved shrooms, skip reroll if already at 5 or more. Sources: Game8 https://game8.jp/metaphor-re-fantazio/646807 and Kamigame https://kamigame.jp/metaphor/page/339370606103374706.html ."
+  },
+  {
     "simpleJp": "7/28 昼・鎧戦車【時短料理・時間なし】：ビドー鳥の紅香草焼きを作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -184,6 +190,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "魔法的未来を読む",
     "enGuide": "Calendar 7/28 夜・読書. Read the missable book acquired from Julian on July 23. Extra reading sessions can be rearranged if travel time differs."
+  },
+  {
+    "simpleJp": "7/29 昼・鎧戦車【時間なし】：ガイセン茸5個を確認し、不足なら食料庫で再抽選する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "If any of the first five pantry checks were missed, save outside pantry and reload until one more shroom is obtained, before using today's activity. Repeat on July 30, August 1 and 2 if necessary; keep all five for the three recipes."
   },
   {
     "simpleJp": "7/29 昼・鎧戦車【時短料理・時間なし】：兎のこっくり煮を作る",
@@ -226,6 +238,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "The single evening bond. No simultaneous evening reading."
+  },
+  {
+    "simpleJp": "7/30 昼・鎧戦車【時間なし】：ガイセン茸が5個未満なら食料庫から追加回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Same-day save/reload before pantry check; keep all five. Do not consume these ingredients elsewhere."
   },
   {
     "simpleJp": "7/30 昼・鎧戦車【時短料理・時間なし】：ギリギリ角煮を作る",
@@ -276,6 +294,12 @@
     "enGuide": "Continue the route using actual travel to tower. Cook once before reading in each half-day."
   },
   {
+    "simpleJp": "8/1 昼・鎧戦車【時間なし】：ガイセン茸が5個未満なら食料庫から追加回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use one new daily pantry collection; reload until a mushroom is awarded if the count is still short."
+  },
+  {
     "simpleJp": "8/1 昼・鎧戦車【時短料理・時間なし】：むてきメンを作る",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
@@ -300,10 +324,22 @@
     "enGuide": "Calendar 8/1 夜・読書. Wisdom-reading travel night; finish book when possible."
   },
   {
+    "simpleJp": "8/2 昼・鎧戦車【時間なし】：ガイセン茸が5個未満なら食料庫で追加回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Last planned early-trip backup pantry check. If still short, each subsequent free town day also allows pantry collection at the stationary Runner before advancing time; use Aug 3–12 until inventory is five."
+  },
+  {
     "simpleJp": "8/2 昼・鎧戦車：邪見の塔に入る前に『魔法的未来』を読む",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "Read on the Runner before entering the tower. Do not claim another Catherina battle on this trip without a documented event."
+    "enGuide": "Use the planned daytime reading opportunity before tower entry. The Catherina encounter on the outbound Aug 1–2 leg is a route event, not a second voluntary rank activity. If the battle triggered Aug 1, confirm the rank without repeating the encounter."
+  },
+  {
+    "simpleJp": "8/2 昼・移動イベント：邪見の塔への道中でキャゼリナに勝利し支援ランク4を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "7月23日以降に鎧戦車で海上都市ブライハーヴェンから邪見の塔へ移動時、キャゼリナとの戦闘後(昼)",
+    "enGuide": "Required third road encounter after arriving at Brilehaven; occurs on the Aug 1–2 Runner approach, before dungeon entry. Win when it triggers (if already fought on Aug 1, only confirm R4). Does not require another trip or voluntary bond slot. Gamecap follower chart and GameWith https://gamewith.jp/metaphor/466164 both corroborate the route and rank."
   },
   {
     "simpleJp": "8/2 昼・攻略：邪見の塔の依頼を達成する",
@@ -490,6 +526,12 @@
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "Recipe 10/21: 伝説のヌシ1・まろやか牛乳2・トロットロ2. Junah joined. Check storage for Tail Bait before the next fishing session; if missing, recover it from storage or later fishing trip. Do not use up fish needed for recipes 18 and 21."
+  },
+  {
+    "simpleJp": "8/14 夜・鎧戦車【直前確認】：次の釣り用しっぽ餌の所持数を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "If none remains, save before cleaning the storage room and reload until two Tail Baits are awarded. Cleaning is the single consuming night action; cooking remains free."
   },
   {
     "simpleJp": "8/14 夜・鎧戦車：倉庫を掃除してしっぽ餌を確保する",

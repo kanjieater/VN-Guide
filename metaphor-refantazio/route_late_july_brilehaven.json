@@ -1,0 +1,572 @@
+[
+  {
+    "simpleJp": "7/23 昼・回収：ブライハーヴェンで依頼をまとめて受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "依頼7件を受注",
+    "enGuide": "Calendar 7/23 昼・回収. New hub: collect all available timed requests/bounties, visit informant, obtain the one-copy book 『魔法的未来』 from Julian at Angler's Inn Square, and gather city Golden Beetles BEFORE story access shifts. VERY IMPORTANT: collect unique book 魔法的未来 from Julian in Brilehaven Angler's Inn Square on any available daytime July 23–Aug 12 (no time cost). Picking up is distinct from later reading sessions."
+  },
+  {
+    "simpleJp": "7/23 【購入・時間なし】しっぽ餌と料理素材を確保する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Give a Medicinal Herb to the suffering man at the arena pier for Tail Bait. Buy ingredients from visited towns using teleport: Grand Trad bird meat 3+, water 9+, redgrass 5 (buy vendor rumour first); Martira rabbit 4+, milk 6+, beans 5+, flour 5+; Brilehaven salt 5+, nectar 2+, トロットロ4. Keep 3 Orgo Sugar now and 2 more before September. Check pantry daily for ガイセン茸 and campfire for トウ蜜蜂 and バク蛾; reserve rare ingredients. Sources: https://gamecap.jp/metaphor/item_syokuzai.html ; https://gamex.jp/metaphor-refantazio/cooking-guide ."
+  },
+  {
+    "simpleJp": "7/23 昼・時間消費なし：漁師宿広場のジュリアンに話し『魔法的未来』を入手する（8/12昼まで・取り逃し注意）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Missable book pickup: speak with Julian in Brilehaven Angler's Inn Square between July 23 and August 12 daytime, before the lockout. This is acquisition, not reading or quest acceptance. Japanese written references: https://gamewith.jp/metaphor/467260 and https://kamigame.jp/metaphor/page/339341132947259610.html."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲12：ブライハーヴェン海風通りの西船着き場を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #12 of 50 — Brilehaven Sea Breeze Street: west dock, crates below the slope. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲13：ブライハーヴェン海風通り東の路地奥を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #13 of 50 — Brilehaven Sea Breeze Street: alley on the east, northern dead end. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲14：ブライハーヴェン交易市場・黒猫の爪の左の箱を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #14 of 50 — Brilehaven Merchant's Bazaar: beside the Black Cat's Claw shop, in the crate lot. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲15：ブライハーヴェン海軍募兵舎の敷地の箱を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #15 of 50 — Brilehaven Oceana navy recruitment building: interact with crates on the grounds. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【収集・時間消費なし】黄金蟲16：闘技場前波止場の北東にある木箱を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #16 of 50 — Brilehaven Arenafront Wharf: northeast crates, past the elderly beetle collector. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/23 【期限・受注】『虫歯に効く道具を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23 期限・受注. Quest giver is the listless man at Brilehaven Sea Breeze Street. You must buy premium toothbrush in Inundo and report by August 9 for a Gold Beetle reward (#21)."
+  },
+  {
+    "simpleJp": "7/23 【期限・受注】『港町にはない花を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23 期限・受注. Obtain the specified specialty flower from a village merchant while traveling for other side quests, then report in Brilehaven by Aug 10. Check the exact quest item on the Quest screen; avoid extra trip."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】募兵舎で『盃に取り憑く嘆きの亡霊』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Take the Tomb of Lament bounty from the recruitment centre; on July 28–29 expedition defeat its ghost and collect the special cup, then report bounty while back at Brilehaven. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】漁師宿広場で『秘薬の材料を探せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Talk to the quest giver at Brilehaven Angler's Inn Square, inspect exact required ingredients in Quest menu, buy/retrieve them on the planned side-town route, and report to same giver during July 31 buffer or next visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】闘技場前波止場で『幻の酒器を探せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Talk to quest giver on Brilehaven Arenafront Wharf; obtain the requested vessel as you clear the related optional dungeons, then return to the Wharf for reward. Confirm completion before final audit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】交易市場で『邪見の塔に巣食うものを倒せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Accept at Brilehaven Merchant's Bazaar. Kill requested target on Aug 1–2 Tower of Insolence route and return to quest giver on first post-trip town visit. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 【受注・時間なし】漁師宿広場で『権利書を取り返せ』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "7/23, 受注・時間なし: Speak to requester in Angler's Inn Square (Brilehaven); follow estate deed NPC/item dialogue described in Quest menu and report completion when back in Brilehaven. No dungeon travel slot should be added unless the game explicitly requires it. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "7/23 昼・期間限定：ジンの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ジンと討論",
+    "enGuide": "Calendar 7/23 昼・期間限定. MISSABLE: Jin's debate at the Brilehaven podium; use an argument about helping everybody without discrimination."
+  },
+  {
+    "simpleJp": "7/23 夜・資質：漁師宿広場の仮面の女と話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "仮面の女と話す",
+    "enGuide": "Calendar 7/23 夜・資質. Tolerance practice; use this night rather than wasting a day slot, but prioritize a candidate debate if you have not done it."
+  },
+  {
+    "simpleJp": "7/24 昼・期間限定：グローデルとの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "グローテルと討論",
+    "enGuide": "Calendar 7/24 昼・期間限定. MISSABLE Brilehaven debate. Respond that his point simply repeats Louis's position."
+  },
+  {
+    "simpleJp": "7/24 夜・資質：漁師宿広場の仮面の女と話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "仮面の女と話す",
+    "enGuide": "Calendar 7/24 夜・資質. Tolerance activity after the debate."
+  },
+  {
+    "simpleJp": "7/25 昼：7/23以降、昼にマルティラのバードンと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Calendar 7/25 昼. Bardon R2: Return to Martira after the July 23 main-operation transition. Find him on Thoroughfare Square during the day and have the rank-up conversation."
+  },
+  {
+    "simpleJp": "7/25 夜・資質：マルティラで血気盛んな若者と話す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "血気盛んな若者",
+    "enGuide": "Calendar 7/25 夜・資質. Courage practice; flexible if your travel/location makes a comparable nearby activity more efficient."
+  },
+  {
+    "simpleJp": "7/26 昼：包容力4で昼のマリアと話す",
+    "jpGuide1": "包容力4",
+    "jpGuide2": "包容力4",
+    "enGuide": "Calendar 7/26 昼. Maria R7: With Tolerance 4, two days after R6, meet Maria at Grand Trad Sunshade Row in the daytime. Her final rank has only a cooldown."
+  },
+  {
+    "simpleJp": "7/26 夜・期間限定：ルドルフとの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ルドルフと討論",
+    "enGuide": "Calendar 7/26 夜・期間限定. MISSABLE Brilehaven debate. Argue for cooperation among all tribes; complete before storyline removes the debates."
+  },
+  {
+    "simpleJp": "7/27 昼：バードンのランク2から2日後、昼にクリアンテ城前で話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 7/27 昼. Bardon R3: Two days after R2, speak with him outside Kriegante Castle in Martira during the day. Combine a Martira visit with another nearby optional objective."
+  },
+  {
+    "simpleJp": "7/27 夜・期間限定：ミロとの討論に勝つ",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ミロと討論",
+    "enGuide": "Calendar 7/27 夜・期間限定. MISSABLE Brilehaven debate. Address that beauty is not defined by appearance alone."
+  },
+  {
+    "simpleJp": "7/28 昼・旅行：イヌンド村経由で嘆きの墓へ向かう",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Buy toothbrush at Inundo before leaving. Actual travel; cook before using the deck event. At Tomb return prompt choose camp and another destination, NOT town; this establishes July 30 Gracia Forest continuity."
+  },
+  {
+    "simpleJp": "7/28 昼・鎧戦車【時間なし】：食料庫前でセーブし、ガイセン茸5個目が出るまで再ロードする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the daytime action, save OUTSIDE the pantry near the war room, check supplies, and if no Gauntlet Shroom is awarded reload the same pre-check save and retry. Keep the successful result; this is a same-slot RNG retry, not a new day or a guide route branch. One pantry collection per date. Count cumulative reserved shrooms, skip reroll if already at 5 or more. Sources: Game8 https://game8.jp/metaphor-re-fantazio/646807 and Kamigame https://kamigame.jp/metaphor/page/339370606103374706.html ."
+  },
+  {
+    "simpleJp": "7/28 昼・鎧戦車【時短料理・時間なし】：ビドー鳥の紅香草焼きを作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 2/21. ビドー鳥肉1・きれいな飲み水1・紅香草1. Initial recipe. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "7/28 鎧戦車・昼：任意の鎧戦車移動中、ヒュルケンベルグと話す",
+    "jpGuide1": "鎧戦車で会話",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 7/28 鎧戦車・昼. Hulkenberg R6: At least two days after R5, speak with her in the Runner's central passage during a genuine discretionary daytime journey. Reserve additional travel days for her R8."
+  },
+  {
+    "simpleJp": "7/28 【収集準備・時間消費なし】黄金蟲21取得の準備：イヌンド村で極上歯刷子を購入する（蟲は8/8報告時）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #21 of 50 — QUEST-LOCKED GOLD BEETLE #21: buy the premium toothbrush at Inundo Village, then report the toothache-implement request to the listless man in Brilehaven by AUGUST 9. The purchase alone does not earn it. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/28 夜・鎧戦車【時短料理・時間なし】：兎の解毒焼きを作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 3/21. モーラ兎の肉1・オルゴ糖1・きれいな飲み水2. Initial recipe. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "7/28 夜・読書：『魔法的未来』を読み始める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 7/28 夜・読書. Read the missable book acquired from Julian on July 23. Extra reading sessions can be rearranged if travel time differs."
+  },
+  {
+    "simpleJp": "7/29 昼・鎧戦車【時間なし】：ガイセン茸5個を確認し、不足なら食料庫で再抽選する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "If any of the first five pantry checks were missed, save outside pantry and reload until one more shroom is obtained, before using today's activity. Repeat on July 30, August 1 and 2 if necessary; keep all five for the three recipes."
+  },
+  {
+    "simpleJp": "7/29 昼・鎧戦車【時短料理・時間なし】：兎のこっくり煮を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 4/21. モーラ兎の肉1・ブライ塩2・まろやか牛乳2. Initial recipe. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "7/29 昼・鎧戦車：嘆きの墓に入る前に『魔法的未来』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Read on the travel leg before entering the dungeon, not during the evening reserved for Neuras."
+  },
+  {
+    "simpleJp": "7/29 昼・攻略：嘆きの墓で賞金首を倒し、幻の酒器と遺物を回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "During Runner travel take the reading first. In Tomb defeat the bounty boss, obtain chalice for the brewer and relic for Neuras; gather both beetles. After dungeon choose camp/another destination, continue to Gracia Forest rather than returning to town. Source https://metaphor.mtwildwood.net/ja/quests/the-chalice-vs-the-brew/ ."
+  },
+  {
+    "simpleJp": "7/29 【収集・時間消費なし】黄金蟲17：嘆きの墓B1東階段の壁穴を通って採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #17 of 50 — Tomb of Lament B1: east-stair wall hole into a smaller room. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/29 【収集・時間消費なし】黄金蟲18：嘆きの墓1階プラトー付近の壁穴を探す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #18 of 50 — Tomb of Lament 1F: hidden passage near Plateau, gather at the far end. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/29 夜・鎧戦車【時短料理・時間なし】：会心の灰団子を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 5/21. 砂蟲の肉1・イワ豆1・紅香草1. Initial recipe; obtain worm meat from Nord Mines drops before departure. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "7/29 夜・野営：ニューラスに嘆きの墓の遺物を渡しランク3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "The single evening bond. No simultaneous evening reading."
+  },
+  {
+    "simpleJp": "7/30 昼・鎧戦車【時間なし】：ガイセン茸が5個未満なら食料庫から追加回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Same-day save/reload before pantry check; keep all five. Do not consume these ingredients elsewhere."
+  },
+  {
+    "simpleJp": "7/30 昼・鎧戦車【時短料理・時間なし】：ギリギリ角煮を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 6/21. 巨人のばら肉1・ブライ塩1・きれいな飲み水3. Initial recipe; obtain meat from prior enemy drops, or use October recovery travel if absent. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "7/30 昼・鎧戦車：『魔法的未来』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use the daytime activity on the moving Runner before entering Gracia Forest, per the dated Japanese itinerary."
+  },
+  {
+    "simpleJp": "7/30 昼・攻略：グラシア密林で竜棘草の実7個を集め、コカサドスを倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Collect seven fruits and defeat Cocasados before leaving. Report to the distressed woman at Fisherman's Wharf on August 3. https://gamewith.jp/metaphor/467747"
+  },
+  {
+    "simpleJp": "7/30 【収集・時間消費なし】黄金蟲19：グラシア密林北東の細い道の行き止まりを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #19 of 50 — Gracia Forest: end of northeast narrow path. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "7/30 夜・鎧戦車【時短料理・時間なし】：必中発酵ばら肉を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 7/21. 妖花の蜜汁1・巨人のばら肉1・トロットロ2. Initial recipe; check prior enemy drop meat, or recover on later Runner leg after Virga purchase. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "7/30 夜・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 7/30 夜・読書. Build Wisdom during travel and pick up bonus scenery drawings on the way."
+  },
+  {
+    "simpleJp": "7/31 調整枠：残った街の依頼を確認し次の旅の準備をする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 7/31 調整枠. Reference itinerary's spare buffer. Finish pending quest turn-ins and stock supplies; only spend the time slot if a genuinely eligible action exists."
+  },
+  {
+    "simpleJp": "8/1 昼・旅行：邪見の塔へ向かう",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Continue the route using actual travel to tower. Cook once before reading in each half-day."
+  },
+  {
+    "simpleJp": "8/1 昼・鎧戦車【時間なし】：ガイセン茸が5個未満なら食料庫から追加回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use one new daily pantry collection; reload until a mushroom is awarded if the count is still short."
+  },
+  {
+    "simpleJp": "8/1 昼・鎧戦車【時短料理・時間なし】：むてきメンを作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 8/21. 香ばし挽き粉1・ビドー鳥肉2・トウ蜜蜂1. Heismay joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "8/1 昼・鎧戦車：『魔法的未来』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After free cooking, use the daytime reading slot during the journey."
+  },
+  {
+    "simpleJp": "8/1 夜・鎧戦車【時短料理・時間なし】：まじかるパンを作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 9/21. モーラ兎の肉2・イワ豆2・バク蛾1. Heismay joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "8/1 夜・読書：『魔法的未来』を読み進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "魔法的未来を読む",
+    "enGuide": "Calendar 8/1 夜・読書. Wisdom-reading travel night; finish book when possible."
+  },
+  {
+    "simpleJp": "8/2 昼・鎧戦車【時間なし】：ガイセン茸が5個未満なら食料庫で追加回収する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Last planned early-trip backup pantry check. If still short, each subsequent free town day also allows pantry collection at the stationary Runner before advancing time; use Aug 3–12 until inventory is five."
+  },
+  {
+    "simpleJp": "8/2 昼・鎧戦車：邪見の塔に入る前に『魔法的未来』を読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use the planned daytime reading opportunity before tower entry. The Catherina encounter on the outbound Aug 1–2 leg is a route event, not a second voluntary rank activity. If the battle triggered Aug 1, confirm the rank without repeating the encounter."
+  },
+  {
+    "simpleJp": "8/2 昼・移動イベント：邪見の塔への道中でキャゼリナに勝利し支援ランク4を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "7月23日以降に鎧戦車で海上都市ブライハーヴェンから邪見の塔へ移動時、キャゼリナとの戦闘後(昼)",
+    "enGuide": "Required third road encounter after arriving at Brilehaven; occurs on the Aug 1–2 Runner approach, before dungeon entry. Win when it triggers (if already fought on Aug 1, only confirm R4). Does not require another trip or voluntary bond slot. Gamecap follower chart and GameWith https://gamewith.jp/metaphor/466164 both corroborate the route and rank."
+  },
+  {
+    "simpleJp": "8/2 昼・攻略：邪見の塔の依頼を達成する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "邪見の塔攻略",
+    "enGuide": "Calendar 8/2 昼・攻略. Complete Tower of Insolence, collect unique treasures and Gold Beetle. Catherina's R4 encounter happens on the approach, not as an ordinary town rank."
+  },
+  {
+    "simpleJp": "8/2 アカデメイア・報告：ジェネラルをランク15まで育てモアに報告する",
+    "jpGuide1": "ジェネラルを履修しRANK15まで鍛える。",
+    "jpGuide2": "ジェネラル」をランク15",
+    "enGuide": "Calendar 8/2 アカデメイア・報告. More R6: Study the General Archetype and level it to Archetype rank 15; submit the next assignment at Akademia. If the archetype is locked, progress its Follower prerequisite and class tree first."
+  },
+  {
+    "simpleJp": "8/2 【収集・時間消費なし】黄金蟲20：邪見の塔5階の手すり付近で採集する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #20 of 50 — Tower of Insolence 5F: glowing spot close to the railing. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "8/3 【報告・時間なし】：嘆きの墓・グラシア密林・邪見の塔の依頼を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Report the bounty at the recruitment centre, return the chalice to its requester, give the seven fruits to the distressed woman at Fisherman's Wharf, and report the tower quest. At the Arena Wharf ask the noble about 邪見の塔, then deliver the deed to the familiar man outside 獣たちの夜 on Sea Breeze Street. https://metaphor.mtwildwood.net/ja/quests/deeds-and-diversions/"
+  },
+  {
+    "simpleJp": "8/3 昼：マリアのランク7から2日後、昼に話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Calendar 8/3 昼. Maria R8: Two days after R7, meet Maria at Grand Trad Sunshade Row in the daytime. This completes Healer and unlocks associated final perks."
+  },
+  {
+    "simpleJp": "8/3 夜：7/23以降、見識3で夜のアロンゾと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "見識3",
+    "enGuide": "Calendar 8/3 夜. Alonzo R2: At night in Brilehaven's Angler's Inn Square (漁師宿広場), with Wisdom 3 and after the July 23 milestone, talk to Alonzo. This is distinct from his Martira unlock quest."
+  },
+  {
+    "simpleJp": "8/4 昼・攻略：カラドリウスの任務を一日で終える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "カラドリウス攻略",
+    "enGuide": "Calendar 8/4 昼・攻略. Begin and complete the Charadrius infiltration operation, gathering accessible chests before triggering the final fight. Deadline is August 13. If extra days required, defer flexible ranks—not the deadline."
+  },
+  {
+    "simpleJp": "8/5 昼：想像力3でストロールの遺産探しを完了する",
+    "jpGuide1": "ストロールの遺産探しを手伝え",
+    "jpGuide2": "想像力3",
+    "enGuide": "Calendar 8/5 昼. Calendar 7/22 予備. Strohl R6: With Imagination 3, accept/complete 'Help Strohl Search for His Inheritance' (ストロールの遺産探しを手伝え). Follow the quest directions in Grand Trad and report back before seeking R7; merely talking is not sufficient."
+  },
+  {
+    "simpleJp": "8/5 夜：アロンゾのランク2から2日後、夜に話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 8/5 夜. Alonzo R3: Two days after R2, return at night to Angler's Inn Square in Brilehaven and talk to him."
+  },
+  {
+    "simpleJp": "8/6 昼：バードンのランク3から2日後、昼にクリアンテ城前で話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 8/6 昼. Bardon R4: Two days after R3, repeat the daytime castle-front conversation in Martira. Eloquence 3 gates the next bond."
+  },
+  {
+    "simpleJp": "8/6 夜・闘技場：バルマレーノ闘技場の認定戦に挑む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "バルマレーノ闘技場",
+    "enGuide": "Calendar 8/6 夜・闘技場. Arena progression is useful first-run optional completion. Enter the next eligible tier; it costs the evening."
+  },
+  {
+    "simpleJp": "8/7 昼：ストロールのランク6から2日後、昼に話す",
+    "jpGuide1": "ブライハーヴェン「交易市場」",
+    "jpGuide2": "ランク7",
+    "enGuide": "Calendar 8/7 昼. Strohl R7: After completing the inheritance quest and R6, wait two days and meet him during the day at an eligible town hub (Brilehaven's Merchant's Bazaar works). No additional quest required."
+  },
+  {
+    "simpleJp": "8/7 夜：包容力3で夜のアロンゾと話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "包容力3",
+    "enGuide": "Calendar 8/7 夜. Alonzo R4: At least two days after R3, obtain Tolerance 3 and speak to Alonzo at Brilehaven's Angler's Inn Square at night."
+  },
+  {
+    "simpleJp": "8/8 【期限・報告】『虫歯に効く道具を届けろ』を報告して黄金蟲を受け取る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "8/8 期限・報告. HAND-IN DEADLINE AUGUST 9: give premium toothbrush purchased at Inundo on July 28 to the listless man on Sea Breeze Street, Brilehaven, and obtain Gold Beetle #21. Report action itself is time-free."
+  },
+  {
+    "simpleJp": "8/8 【購入・時間なし】：王都の教会で虹色の花を500リーブで買う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Teleport to Grand Trad, buy the rainbow flower from the church, and return to Brilehaven's Sea Breeze Street. https://metaphor.mtwildwood.net/ja/quests/efflorescent-youth/"
+  },
+  {
+    "simpleJp": "8/8 【期限・報告】：海風通りの物静かな少年に虹色の花を渡す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Report the flower quest before August 10."
+  },
+  {
+    "simpleJp": "8/8 昼：説得力3を得てバードンと昼に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "説得力3",
+    "enGuide": "Calendar 8/8 昼. Bardon R5: With Eloquence (説得力) 3 and an elapsed two days after R4, meet Bardon by Kriegante Castle in Martira, daytime."
+  },
+  {
+    "simpleJp": "8/8 夜・闘技場：闘技場の銅級を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銅3級",
+    "enGuide": "Calendar 8/8 夜・闘技場. Advance the Bronze rank where available; defer if needing a mandatory bond night."
+  },
+  {
+    "simpleJp": "8/9 昼・闘技場：闘技場の銅級を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銅2級",
+    "enGuide": "Calendar 8/9 昼・闘技場. Advance the next Bronze arena challenge; not a story requirement."
+  },
+  {
+    "simpleJp": "8/9 夜：アロンゾのランク4から2日後、夜に話す",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 8/9 夜. Alonzo R5: Two days after R4, at night in Brilehaven's Angler's Inn Square; the next rank switches to daytime, so do not keep checking only at night."
+  },
+  {
+    "simpleJp": "8/10 昼：ストロールのランク7から2日後、昼に話す",
+    "jpGuide1": "RANK8",
+    "jpGuide2": "ランク8",
+    "enGuide": "Calendar 8/10 昼. Strohl R8: Two days after R7, speak to Strohl in an eligible city during the day. Once available he can be maxed before September; do not wait until a printed September 'earliest' estimate."
+  },
+  {
+    "simpleJp": "8/10 夜：勇気3を得て夜のベルギッタに報告する",
+    "jpGuide1": "RANK5",
+    "jpGuide2": "勇気3以上",
+    "enGuide": "Calendar 8/10 夜. Calendar 7/22 予備. Brigitta R5: Once her R4 is completed, reach Courage (勇気) 3 and talk to her at Grand Trad Sunlumeo Street at night. A missing icon usually means the courage gate/cooldown is not satisfied."
+  },
+  {
+    "simpleJp": "8/11 昼：アロンゾのランク5から2日後、昼に話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/11 昼. Alonzo R6: Two days after R5, meet him in Angler's Inn Square, Brilehaven, during the DAY. His next night rank requires Courage 5, so train it during spare slots."
+  },
+  {
+    "simpleJp": "8/11 夜・闘技場：闘技場の銅級を仕上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "銅1級",
+    "enGuide": "Calendar 8/11 夜・闘技場. Complete Bronze 1 as optional first-run arena progress; consider anti-poison gear."
+  },
+  {
+    "simpleJp": "8/12 昼：2日後、昼にバードンと話してランク6にする",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/12 昼. Bardon R6: At least two days after R5, speak outside Kriegante Castle in Martira during the day. Prepare a combat-ready party for R7."
+  },
+  {
+    "simpleJp": "8/12 夜：ベルギッタのランク5から2日後、夜に話す",
+    "jpGuide1": "RANK6",
+    "jpGuide2": "ランク6",
+    "enGuide": "Calendar 8/12 夜. Calendar 7/22 予備. Brigitta R6: Night at her Grand Trad shop area, at least two days after R5. Build Courage 4 for R7."
+  },
+  {
+    "simpleJp": "8/13 物語：カラドリウス作戦期限を確認して先へ進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "カラドリウス",
+    "enGuide": "Calendar 8/13 物語. Do not let the August 13 deadline arrive with the main mission unfinished. Follow transition story events; social slots may be locked."
+  },
+  {
+    "simpleJp": "8/13 物語：8/4のカラドリウス攻略後、ガリカのランク4を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Confirm the automatic rank after completing the scheduled August 4 operation."
+  },
+  {
+    "simpleJp": "8/13 物語：8/13の物語を進め、ガリカのランク5を確認する",
+    "jpGuide1": "メインストーリー進行",
+    "jpGuide2": "ランク5",
+    "enGuide": "Calendar 8/13 story milestone. FLEXIBLE unslotted prerequisite. Do at another actual free day, not an extra 9/12 slot. Gallica R5: Automatically after the 8/13 Glo(d)ell story boss. No meeting, virtue or calendar slot."
+  },
+  {
+    "simpleJp": "8/14 昼・釣り：しっぽ餌で伝説のヌシと女帝蜂の蜜瓶を狙う",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Fishing consumes one daytime activity on water travel. Use Tail Bait. Answers for a honey jar: 餌を大胆に動かしてみよう／あえて眠気に身を任せる／魚の気持ちに寄り添う depending on prompt; other answers can yield two legendary fish. Need 3 fish and 5 jars across all recipes; chef reward provides 1 fish. Source https://gamex.jp/metaphor-refantazio/cooking-guide ."
+  },
+  {
+    "simpleJp": "8/14 夜・鎧戦車【時短料理・時間なし】：秘密の秘めゴトを作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 10/21: 伝説のヌシ1・まろやか牛乳2・トロットロ2. Junah joined. Check storage for Tail Bait before the next fishing session; if missing, recover it from storage or later fishing trip. Do not use up fish needed for recipes 18 and 21."
+  },
+  {
+    "simpleJp": "8/14 夜・鎧戦車【直前確認】：次の釣り用しっぽ餌の所持数を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "If none remains, save before cleaning the storage room and reload until two Tail Baits are awarded. Cleaning is the single consuming night action; cooking remains free."
+  },
+  {
+    "simpleJp": "8/14 夜・鎧戦車：倉庫を掃除してしっぽ餌を確保する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use the evening activity after no-time cooking to obtain the second Tail Bait for August 15; use Tail Bait on both fishing sessions."
+  },
+  {
+    "simpleJp": "8/15 昼・釣り：しっぽ餌で残りの希少食材を釣る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Second fishing session; target the remaining rare fish and honey jars, using the appropriate dialogue based on the prompt. If supply is insufficient, use an October recovery fishing trip before the final recipe."
+  },
+  {
+    "simpleJp": "8/16 夜・鎧戦車【時短料理・時間なし】：呪★恋★哀★歌★を作る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Recipe 11/21. イワ豆2・ブライ塩2・バク蛾1. Junah joined. Cook before the consuming activity, once in this half-day only; Maria R4 removes clock cost. Mark the distinct recipe cooked. Recipe tables: https://gamers-high.com/metaphor-rf/data/cooking.html ; https://game8.jp/metaphor-re-fantazio/646815 . Date follows the GamerB written calendar."
+  },
+  {
+    "simpleJp": "8/16 夜・資質：ジュナと過ごして想像力を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ジュナと過ごす",
+    "enGuide": "Calendar 8/16 夜・資質. A virtue-increasing Junah interaction. This is not automatically her Rank 1 bond quest: that follows on Virga Island after the relevant medicine quest."
+  },
+  {
+    "simpleJp": "8/17〜8/18 物語：ビルガ島への物語を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/17〜8/18 物語. Proceed through the scheduled story transition; check for the next set of side quests, medicine dependency and Junah and Eupha bond unlock conditions."
+  },
+  {
+    "simpleJp": "8/18 昼・読書：『※秘※詩集※見るな※』を読み始める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Calendar 8/18 昼・読書. First of three sessions after Junah joins. If plot locked, use first available Runner day."
+  }
+]

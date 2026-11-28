@@ -1,0 +1,386 @@
+[
+  {
+    "simpleJp": "6/2 強制：募兵舎で初期面接を済ませる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "募兵舎で面接",
+    "enGuide": "6/2 強制; Prologue first application/initial-stat choice; this is a forced plot sequence, not a discretionary social slot. Pick any desired opening stat; the selected answer affects early stats rather than future social-link viability."
+  },
+  {
+    "simpleJp": "6/3〜6/4 強制：砦までの物語を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/3〜6/4 強制; Advance through the opening Northern Border Fort sequence. There are no regular day/night activities to optimize in this prologue window."
+  },
+  {
+    "simpleJp": "6/5 取り逃し注意：山林の野営地で黄金蟲1を拾う",
+    "jpGuide1": "6月5日の野営地",
+    "jpGuide2": "山林の野営地で黄金蟲",
+    "enGuide": "Gold Beetle #1 of 50: June 5 camp tree west of fire, before sleeping; area becomes inaccessible after plot. 6/5 取り逃し注意; TRUE MISSABLE: while camping in the prologue forest, check by the tree for a Gold Beetle before leaving the forest. The prologue area does not remain accessible for ordinary return visits."
+  },
+  {
+    "simpleJp": "6/6〜6/9 強制：ノルド廃鉱山を進み、ドラゴンを倒す",
+    "jpGuide1": "ドラゴンは討伐",
+    "jpGuide2": "ドラゴンを倒して武器",
+    "enGuide": "6/6〜6/9 強制; Story-bound mining route. Defeating the optional dragon rewards the unique Dragon Greatsword; secure it before exiting the mine. Continue until Grand Trad and the inn story, which advances fixed calendar days."
+  },
+  {
+    "simpleJp": "6/6 強制：6/6の物語を進め、ストロールの支援ランク1を解放する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Calendar 6/6 強制 (recommended flexible slot; satisfy game map icon and gate first). Strohl R1: Automatic story recruitment in Grand Trad on 6/6; Warrior lineage unlocks."
+  },
+  {
+    "simpleJp": "6/6 強制：6月上旬、モアの支援ランク1を確認する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Calendar 6/6 強制 (recommended flexible slot; satisfy game map icon and gate first). More R1: Automatically opens in Akademia during the opening story (around June 5–6). Follow the introductory Archetype/tutorial quest. This has no ordinary calendar bond appointment."
+  },
+  {
+    "simpleJp": "6/10 強制：6月上旬、マリアの支援ランク1を確認する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Calendar 6/10 強制 (recommended flexible slot; satisfy game map icon and gate first). Maria R1: Opens automatically through the Grand Trad/Hushed Honeybee Inn story (around 6/10–12). She is at Fabienne's inn; later meetings occur during the day."
+  },
+  {
+    "simpleJp": "6/11 強制：6/11の物語でヒュルケンベルグの支援ランク1を解放する",
+    "jpGuide1": "RANK1",
+    "jpGuide2": "初期ランク",
+    "enGuide": "Calendar 6/11 強制 (recommended flexible slot; satisfy game map icon and gate first). Hulkenberg R1: Automatic on 6/11 with the initial Knight unlock."
+  },
+  {
+    "simpleJp": "6/11 強制：物語を進めガリカの支援ランク1を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Automatic story rank; do not treat as voluntary or send the reader back to June 6."
+  },
+  {
+    "simpleJp": "6/11 強制：6/11の物語でガリカの支援ランク2を確認する",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Calendar 6/11 強制 (recommended flexible slot; satisfy game map icon and gate first). Gallica R2: Automatic after the 6/11 story boss; no time slot needed."
+  },
+  {
+    "simpleJp": "6/11 事前確認：次の大聖堂作戦を始める前に保存する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/11 事前確認; Advance the funeral/main-story events. The upcoming Regalith Grand Cathedral deadline is June 21; ensure Catherina's in-dungeon rescue is done during the cathedral visit. Save normally at a functioning save spot; this is recommended safety, not a source-documented save slot."
+  },
+  {
+    "simpleJp": "6/12 昼：王都の期限依頼を受け、中央通りのベンチで見識を育てる",
+    "jpGuide1": "異教徒の親子に薬",
+    "jpGuide2": "中央通りのベンチで過ごす",
+    "enGuide": "6/12 昼; In Grand Trad, accept available beginner errands, including bringing medicine to the pagan parent and the Hushed Honeybee Inn request; use the plaza bench for Wisdom. These errands and the inn helper route make Wisdom 2 available for Brigitta."
+  },
+  {
+    "simpleJp": "6/12 夜：蜜蜂のささやき亭でファビアンヌの調理を手伝う",
+    "jpGuide1": "ファビアンヌの料理を手伝う",
+    "jpGuide2": "ささやき亭で手伝う",
+    "enGuide": "6/12 夜; Evening virtue: help Fabienne cook at Hushed Honeybee Inn to build Tolerance. This consumes the night slot. Use the in-game recipe hints, not arbitrary choice guessing."
+  },
+  {
+    "simpleJp": "6/12 【収集・時間消費なし】黄金蟲2：王都の日陰通り、防具屋の北東の階段裏",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #2 of 50 — Grand Trad Sunshade Row: behind the stairs northeast of the armor shop. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/12 【収集・時間消費なし】黄金蟲3：王国軍募兵舎で受付左の通路を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #3 of 50 — Grand Trad Royal Army Recruitment Center: turn left from the desk toward the barracks hall. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/12 【収集・時間消費なし】黄金蟲4：王都あんしん薬方堂入口の香辛料袋を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #4 of 50 — Grand Trad Anshin Apothecary: interact with the spice sack near the entrance; there is a different beetle behind the counter later. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/12 【町の用事】依頼『異教徒の親子に薬を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/12 町の用事. Find the pagan parent in Grand Trad, acquire the requested medicine, and plan a time-free hand-in no later than 6/16."
+  },
+  {
+    "simpleJp": "6/13 【報告・受注・時間なし】依頼を報告し、ベレーガ回廊への依頼を受ける",
+    "jpGuide1": "輸送路の怪物を倒せ 受注",
+    "jpGuide2": "ベルギッタの依頼を受注",
+    "enGuide": "6/13, no-time quest hand-in/acceptance only: report the completed Grand Trad errands after reaching Wisdom 2, and accept Brigitta's '輸送路の怪物を倒せ'. This is NOT a separate daytime activity; the one daytime dungeon slot is Regalith Grand Cathedral in the next step. Belega Corridor requires a separate later trip before the June 21 deadline."
+  },
+  {
+    "simpleJp": "6/13 昼・攻略：レガリス大聖堂に入り、キャゼリナの依頼を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Enter the Cathedral, accept Catherina's request, rescue the prisoner in the next step, and only then finish the main operation."
+  },
+  {
+    "simpleJp": "6/13 大聖堂内：捕らわれた仲間を解放してキャゼリナの支援ランク1を得る",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "During the preceding dungeon, not a new entry or second time slot. Speak to Catherina and rescue her friend before leaving."
+  },
+  {
+    "simpleJp": "6/13 大聖堂：救出後に主作戦を完了する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After rescuing the prisoner and completing Catherina's request, finish the Cathedral operation."
+  },
+  {
+    "simpleJp": "6/13 達成時：ヒーラーをランク10にしてアカデメイアのモアに報告する",
+    "jpGuide1": "ヒーラーをランク10にする。",
+    "jpGuide2": "ヒーラー」をランク10にする",
+    "enGuide": "Calendar 6/13 達成時 (recommended flexible slot; satisfy game map icon and gate first). More R2: Study the Healer Archetype, raise its Archetype rank to 10, then turn in More's Prologue Trial inside Akademia. This is a quest rank-up, not a regular calendar meeting."
+  },
+  {
+    "simpleJp": "6/13 【受注・時間なし】王都募兵舎で『野犬を従える人食い怪物』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/13, 受注・時間なし: From any Royal Army Recruitment Center, pick up the bounty before Tradia Desert (June 14). Defeat the target in the desert and report the bounty during your next Grand Trad visit to collect Courage rewards. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "6/14 昼・攻略：トラディア砂漠で賞金首を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Accept the bounty before leaving; defeat the bounty target on this dungeon day. No separate night activity planned."
+  },
+  {
+    "simpleJp": "6/14 【収集・時間消費なし】黄金蟲6：トラディア砂漠北東の旅人の墓場を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #6 of 50 — Tradia Desert: northeast of Traveler's Graveyard, close to rocks and brush. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/15 昼：ベレーガ回廊を攻略して輸送路の魔物を倒す",
+    "jpGuide1": "ベレーガ回廊地下3階",
+    "jpGuide2": "ベレーガ回廊攻略",
+    "enGuide": "6/15 昼; Travel into Belega Corridor to defeat Brigitta's quest target. Explore B3 for its Gold Beetle and pick up dungeon loot. Return and make sure the quest is ready to report on June 16."
+  },
+  {
+    "simpleJp": "6/15 【収集・時間消費なし】黄金蟲5：ベレーガ回廊地下2階で鉄格子前を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #5 of 50 — Belega Corridor B2: cross the gap in a wall to the chamber with two chests; collect by the iron bars. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/16 【報告・時間なし】募兵舎でトラディア砂漠の賞金首を報告する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Report the defeated bounty at the recruitment centre before the day's rank event."
+  },
+  {
+    "simpleJp": "6/16 昼・報告：見識2で受注済みの『輸送路の怪物を倒せ』をベルギッタに報告し、支援ランク1を解放する",
+    "jpGuide1": "輸送路の怪物を倒せ クリア",
+    "jpGuide2": "依頼「輸送路の怪物を倒せ」を報告",
+    "enGuide": "6/16 昼; Return to Brigitta in Grand Trad, completing the transport-monster request and unlocking Merchant / her first bond. This hand-in is the important point, not simply winning the boss battle. This is the sole hand-in after the June 15 dungeon; do not re-accept or re-clear the same request."
+  },
+  {
+    "simpleJp": "6/16 夜：蜜蜂のささやき亭で調理を手伝う",
+    "jpGuide1": "ファビアンヌの料理を手伝う",
+    "jpGuide2": "ささやき亭で手伝う",
+    "enGuide": "6/16 夜; Tolerance practice after Brigitta's daytime hand-in; a bond is not yet eligible the same evening if its cooldown has not elapsed."
+  },
+  {
+    "simpleJp": "6/16 【期限確認】『異教徒の親子に薬を届けろ』が報告済みか確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "The June 13 hand-in already completed the request; do not report it twice. Deadline June 16."
+  },
+  {
+    "simpleJp": "6/17 昼：ストロールと話して支援ランク2にする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Cathedral was cleared on June 13; do not re-enter it today."
+  },
+  {
+    "simpleJp": "6/17 夜：蜜蜂のささやき亭で包容力を上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ささやき亭で手伝う",
+    "enGuide": "6/17 夜; Use the night for the inn helper Tolerance activity to prepare Maria R2."
+  },
+  {
+    "simpleJp": "6/18 昼：ヒュルケンベルグと話して支援ランク2にする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Cathedral was cleared on June 13; this is the sole daytime bond."
+  },
+  {
+    "simpleJp": "6/18 夜：2日後の夜、王都でベルギッタと話す",
+    "jpGuide1": "RANK2",
+    "jpGuide2": "ランク2",
+    "enGuide": "Calendar 6/18 夜 (recommended flexible slot; satisfy game map icon and gate first). Brigitta R2: At least two calendar days after handing in the Belega Corridor quest, return at night to Sunlumeo Street in Grand Trad and talk to her; do later ranks on alternating evenings."
+  },
+  {
+    "simpleJp": "6/18 【期限確認】『ささやき亭の手伝いをしろ』が報告済みか確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Check quest log before June 19 deadline. The June 13 hand-in is the intended completion."
+  },
+  {
+    "simpleJp": "6/19 昼：ストロールのランク2から2日後、昼に話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 6/19 昼 (recommended flexible slot; satisfy game map icon and gate first). Strohl R3: In the daytime at Sunlumeo Street, Grand Trad; wait roughly two calendar days after his R2. This should be cleared before longer trips if possible."
+  },
+  {
+    "simpleJp": "6/19 夜：蜜蜂のささやき亭で包容力を上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "包容力レベル2",
+    "enGuide": "6/19 夜; Continue Tolerance practice. In the selected route Tolerance reaches rank 2 at roughly this point, enabling Maria's next meeting."
+  },
+  {
+    "simpleJp": "6/20 昼：王都の仮面の男と話して包容力を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "仮面の男と会話",
+    "enGuide": "6/20 昼; Use daytime conversation with the masked man for Tolerance, then return to the city in time for Brigitta at night."
+  },
+  {
+    "simpleJp": "6/20 夜：ベルギッタのランク2から2日後、夜に再度話す",
+    "jpGuide1": "RANK3",
+    "jpGuide2": "ランク3",
+    "enGuide": "Calendar 6/20 夜 (recommended flexible slot; satisfy game map icon and gate first). Brigitta R3: Night, same Grand Trad shop/street, two days after R2. If the meeting is unavailable, use the evening for Royal Virtues or another Follower."
+  },
+  {
+    "simpleJp": "6/21 昼：街の老人に話しかけて想像力を上げる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "おしゃべりな老人と会話",
+    "enGuide": "6/21 昼; Speak to the talkative old man for Imagination. If the cathedral is unfinished, it must be prioritized over this discretionary activity: the June 21 deadline takes precedence."
+  },
+  {
+    "simpleJp": "6/21 夜：蜜蜂のささやき亭で包容力を鍛える",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "ささやき亭で手伝う",
+    "enGuide": "6/21 夜; Use the evening to keep Tolerance on schedule for Maria; this is a swappable activity rather than a locked quest."
+  },
+  {
+    "simpleJp": "6/22〜6/23 物語：作戦後の移動を進める",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/22〜6/23 物語; Story/calendar transition: continue plot events. Do not assume either date offers two unrestricted city slots; start your Runner routine once travel access is granted."
+  },
+  {
+    "simpleJp": "6/24 昼・鎧戦車【時間なし】：食料庫前でセーブし、ガイセン茸1個目が出るまで再ロードする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the daytime action, save OUTSIDE the pantry near the war room, check supplies, and if no Gauntlet Shroom is awarded reload the same pre-check save and retry. Keep the successful result; this is a same-slot RNG retry, not a new day or a guide route branch. One pantry collection per date. Count cumulative reserved shrooms, skip reroll if already at 1 or more. Sources: Game8 https://game8.jp/metaphor-re-fantazio/646807 and Kamigame https://kamigame.jp/metaphor/page/339370606103374706.html ."
+  },
+  {
+    "simpleJp": "6/24 昼・鎧戦車：『新世界旅行記』を読む（1回目）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "After obtaining the pantry supply, read the book; do not claim a second pantry collection this date."
+  },
+  {
+    "simpleJp": "6/24 夜・鎧戦車：焚火を調べ、『新世界旅行記』を読む（2回目）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "想像力レベル2",
+    "enGuide": "6/24 nighttime Runner/camp: inspect the campfire if available and read 『新世界旅行記』 (second reading). This is the nighttime commitment, not another daytime activity."
+  },
+  {
+    "simpleJp": "6/25 昼・鎧戦車【時間なし】：食料庫前でセーブし、ガイセン茸2個目が出るまで再ロードする",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Before the daytime action, save OUTSIDE the pantry near the war room, check supplies, and if no Gauntlet Shroom is awarded reload the same pre-check save and retry. Keep the successful result; this is a same-slot RNG retry, not a new day or a guide route branch. One pantry collection per date. Count cumulative reserved shrooms, skip reroll if already at 2 or more. Sources: Game8 https://game8.jp/metaphor-re-fantazio/646807 and Kamigame https://kamigame.jp/metaphor/page/339370606103374706.html ."
+  },
+  {
+    "simpleJp": "6/25 昼・鎧戦車：『新世界旅行記』を読了する（3回目）",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "頷かせる技術を読む",
+    "enGuide": "6/25 daytime Runner: finish 『新世界旅行記』 (third reading). Check free amenities when available; do not count them as separate time-consuming activities."
+  },
+  {
+    "simpleJp": "6/25 夜・鎧戦車：『頷かせる技術』を1回読む",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "First Eloquence reading, needed before the two July 2 readings. Choose the answer about taking the upper hand; target Eloquence 2 by July 2."
+  },
+  {
+    "simpleJp": "6/26 自動受注：ニューラスのコメロ村遺物依頼を受ける（回収・報告は後日）",
+    "jpGuide1": "透明な硝子の置物",
+    "jpGuide2": "6/26に依頼発生、コメロ村へは6/29以降",
+    "enGuide": "June 26: Neuras's Komero glass-ornament/journal quest becomes available automatically. Do NOT travel to Komero or claim Neuras R1/Gunner here: Komero must first be revealed by the Martira pigeon-egg quest (available June 29 onward) or another documented unlock. The integrated route currently plans the Komero visit for July 9; complete the relic hand-in then, after verifying actual travel and time-slot feasibility. Japanese evidence: Altema Neuras, GameWith Neuras quest, Game8 Neuras R1, Gamers High relic quest."
+  },
+  {
+    "simpleJp": "6/27〜6/28 移動・物語：マルティラへの進行を確認し、期限のある依頼を先に片づける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/27〜6/28 移動・物語; Advance required story travel. If any free slot exists, favor unfinished Wisdom/Tolerance/book work; a blank date in this template does not imply two discretionary actions. Ensure Martira and the Great Sandworm's Nest trip are available for Catherina R2 after arrival."
+  },
+  {
+    "simpleJp": "6/29 【転移・時間なし】訪問済み都市間の転移を使えることを確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Use map → world map to transfer between previously visited towns without time cost from this date. It cannot replace first-time Runner trips or be used during active travel/story locks. All later town errands use this rule, not a new travel day. Check daytime/nighttime restrictions before entering dungeons."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・【転移・受注・時間なし】：マルティラで『ククルスに指輪を届けろ』を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "From Grand Trad, use the June 29-unlocked teleport to visited Martira at the first available town control before the story departure. Imagination 2; accept from Cuculus in Thoroughfare Square. No new day required. July 11–12 tomb trip and July 13 report remain scheduled."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・【受注・時間なし】：マルティラ街道広場で伝書鳩の卵の依頼を受ける",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Accept before the story departure; unlocks Komero for July 9. If the June 29 story takes control immediately, take BOTH this and Cuculus on June 29 during the no-time Martira town visit instead; do not leave either until after July 9. Buy eggs in Komero; report in Martira by July 11."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・・時間なし：黄金蟲7・マルティラ宿ビスカ・アルバの暖炉を調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #7 of 50 — Martira Visca Alba inn: check the lit fireplace in the tavern. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/29 初回自由行動・・時間なし：黄金蟲8・マルティラ宿ビスカ・アルバ客室の水差しを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #8 of 50 — Martira Visca Alba guest room: interact with jug; if nothing appears, retry on a later date. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/29 【受注・時間なし】王都の募兵舎で別の依頼・賞金首を確認する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "依頼3件を受注",
+    "enGuide": "Grand Trad / 王都 only: check and accept separately available bounties or requests at the recruitment centre before departure; this is NOT the Martira pigeon-egg request. Accept/report interactions are no-time only when the game permits; traveling between cities is not assumed free. The Goborn bounty is listed separately in the next step."
+  },
+  {
+    "simpleJp": "6/29 【受注・時間なし】募兵舎で『小鬼を率いる新たな王』を受注する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "6/29, 受注・時間なし: Pick up the Goborn/Goblin Nest bounty at Martira or another recruitment centre. Kill the ruler during June 30 cave trip, then report at a recruitment centre on July 1. No extra full activity slot is assigned for accepting/reporting quests unless the in-game action actually advances time. Verified Japanese source: GameWith quest table."
+  },
+  {
+    "simpleJp": "6/29 昼：転移で王都へ戻り、包容力2でファビアンヌと話してマリア2",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Story unlocks teleportation between visited cities on June 29. With the map open, open the world map and select Grand Trad; this uses no clock time. Complete Maria's souvenir request and rank event. Teleport back to Martira before a later departure. Evidence: https://gamex.jp/metaphor-refantazio/story-calendar ; https://west-east.blog.jp/archives/43513940.html ."
+  },
+  {
+    "simpleJp": "6/29 夜：ベルギッタのランク3から2日後、夜に再度話す",
+    "jpGuide1": "RANK4",
+    "jpGuide2": "ランク4",
+    "enGuide": "Calendar 6/29 夜 (recommended flexible slot; satisfy game map icon and gate first). Brigitta R4: Night, Grand Trad Sunlumeo Street, two days after R3. Rank 5 will require Courage 3, so train it in spare slots."
+  },
+  {
+    "simpleJp": "6/30 昼・移動：転移でマルティラへ戻り、小鬼の巣窟へ出発する",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "No-time teleport to already-visited Martira BEFORE opening Runner route map. Travel activity is separate from the dungeon. Follow the scheduled Goblin King fight and claim the bounty next morning."
+  },
+  {
+    "simpleJp": "6/30 鎧戦車・昼：移動中にヒュルケンベルグと話してランク3",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Do this before entering Goblin's Nest, during actual Runner travel, as in the GamerB June 30 itinerary."
+  },
+  {
+    "simpleJp": "6/30 【収集・時間消費なし】黄金蟲9：小鬼の巣窟の北西側の壁沿いを調べる",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Gold Beetle #9 of 50 — Goblin Nest: gather glowing spot beside the northwest wall. This is a collectible interaction during the indicated city visit/dungeon, not an extra daytime activity; if you are traveling on a different date collect upon first access. Independent locations: Game8/GameWith, GAMEX and PowerPyx."
+  },
+  {
+    "simpleJp": "6/30 昼・攻略：小鬼の巣窟でゴブリン王を倒す",
+    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide2": "（第二ガイドに記載なし）",
+    "enGuide": "Defeat the Goblin King before leaving the dungeon; report the bounty on July 1 before accepting the two Catacombs requests."
+  }
+]
